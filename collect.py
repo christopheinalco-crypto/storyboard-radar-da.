@@ -120,8 +120,21 @@ for category,group in sorted(by_category.items()):
   selection=[s for i,s in enumerate(group) if i%8==wave]
   if not selection and group:selection=[group[wave%len(group)]]
   rotations[wave].extend(selection)
+special=os.environ.get('RADAR_SPECIAL','')=='1'
 selected=sources[:] if os.environ.get('RADAR_SLOT','')=='manual' else rotations[slot][:]
-random.Random(seed+slot).shuffle(selected)
+if special:
+ # Tour 1 : toutes les catégories ; tours supplémentaires : spectacle, concert,
+ # clips et danse. Le budget temps reste prioritaire sur le nombre de sources.
+ groups={k:v[:] for k,v in by_category.items()}
+ for k,v in groups.items():random.Random(seed+int(hashlib.md5(k.encode()).hexdigest()[:8],16)).shuffle(v)
+ priority=[k for k in sorted(groups) if any(t in k.lower() for t in ('spectacle','concert','clips','danse'))]
+ order=priority+[k for k in sorted(groups) if k not in priority]
+ selected=[]
+ for round_index in range(max(len(v) for v in groups.values())):
+  for cat in order:
+   if round_index<len(groups[cat]):selected.append(groups[cat][round_index])
+else:
+ random.Random(seed+slot).shuffle(selected)
 checked=0;working=[]
 for s in selected:
  if budget_left()<18:break
@@ -175,6 +188,24 @@ def in_test_week(x):
  except Exception:return False
 week_items=[x for x in items.values() if in_test_week(x)]
 print('TEST RATTRAPAGE 1-7 NOVEMBRE:',len(week_items),'articles,',sum(bool(x.get('image')) for x in week_items),'avec image')
+# Sélection test : au maximum trois références par étiquette, jamais de remplissage.
+# Ce score est une présélection automatique : il ne remplace pas une analyse humaine.
+def article_score(x):
+ text=(x.get('title','')+' '+x.get('summary','')).lower()
+ banned=r'best songs|songs of the week|tracks of the week|playlist|weekly roundup|chart|ranking|\btop [0-9]+\b|album review|newsletter|podcast'
+ if re.search(banned,text):return -100
+ positive=r'campaign|design|stage|scenograph|concert|show|performance|music video|visual|film|installation|brand|art direction|directed|creative|architecture|typograph|identity|exhibition|clip|lumière|spectacle'
+ score=sum(3 for t in re.findall(positive,text))
+ score+=2 if x.get('image') else 0
+ score+=3 if x.get('summary') and len(x['summary'])>90 else 0
+ return score
+selected_by_category={}
+if special:
+ for cat in sorted(by_category):
+  candidates_cat=[x for x in items.values() if x.get('category')==cat and x.get('url')]
+  candidates_cat.sort(key=lambda x:(article_score(x),x.get('published','')),reverse=True)
+  selected_by_category[cat]=[{'title':x.get('title_fr') or x.get('title'),'url':x['url'],'score':article_score(x)} for x in candidates_cat if article_score(x)>=5][:3]
+ print('SPECIAL EDITORIAL SHORTLIST:',json.dumps({k:len(v) for k,v in selected_by_category.items()},ensure_ascii=False))
 print('Checked',checked,'feeds found',len(working),'items',len(items),'images',sum(bool(x.get('image')) for x in items.values()),'translated fields',translated)
-result={'updated_at':datetime.datetime.now(datetime.timezone.utc).isoformat(),'status':'collected_unreviewed','working_feeds':working,'collection_slot':slot,'collection_hour_paris':paris.hour,'sources_selected':len(selected),'sources_checked':checked,'backfill_test':{'period':'2026-11-01/2026-11-07','articles':len(week_items),'with_images':sum(bool(x.get('image')) for x in week_items)},'items':sorted(items.values(),key=lambda x:x.get('published',''),reverse=True)[:550]}
+result={'updated_at':datetime.datetime.now(datetime.timezone.utc).isoformat(),'status':'collected_unreviewed','working_feeds':working,'collection_slot':slot,'collection_hour_paris':paris.hour,'sources_selected':len(selected),'sources_checked':checked,'special_test':special,'special_selection':selected_by_category,'backfill_test':{'period':'2026-11-01/2026-11-07','articles':len(week_items),'with_images':sum(bool(x.get('image')) for x in week_items)},'items':sorted(items.values(),key=lambda x:x.get('published',''),reverse=True)[:550]}
 with open(os.path.join(ROOT,'data/feed.json'),'w',encoding='utf8') as f:json.dump(result,f,ensure_ascii=False,indent=2)
