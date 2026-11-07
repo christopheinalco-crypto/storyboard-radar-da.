@@ -1,7 +1,7 @@
 """RADAR editorial enrichment. Requires GEMINI_API_KEY GitHub Actions secret.
 No API key: preserve existing analyses; do not publish invented editorial copy.
 """
-import os,json,re,urllib.request,urllib.parse,html,datetime,sys
+import os,json,re,urllib.request,urllib.parse,urllib.error,html,datetime,sys
 from pathlib import Path
 ROOT=Path(__file__).parent
 feed_path=ROOT/'data/feed.json'
@@ -14,6 +14,22 @@ if not key:
  raise SystemExit(2)
 review_path=ROOT/'data/reviewed.json'
 reviewed=json.loads(review_path.read_text(encoding='utf-8')) if review_path.exists() else {}
+def available_gemini_model():
+ """Choose a generateContent model actually available to this API key."""
+ req=urllib.request.Request('https://generativelanguage.googleapis.com/v1beta/models?pageSize=100',headers={'x-goog-api-key':key,'User-Agent':'RADAR-DA/1.0'})
+ try:
+  with urllib.request.urlopen(req,timeout=18) as response:catalog=json.load(response)
+ except urllib.error.HTTPError as exc:
+  details=exc.read(1000).decode('utf-8','replace')
+  raise RuntimeError('Gemini model discovery HTTP %s: %s'%(exc.code,details[:450])) from exc
+ models=[m['name'].removeprefix('models/') for m in catalog.get('models',[]) if 'generateContent' in m.get('supportedGenerationMethods',[])]
+ preferred=[os.environ.get('RADAR_AI_MODEL','gemini-2.5-flash-lite'),'gemini-2.0-flash-lite','gemini-2.5-flash','gemini-2.0-flash']
+ chosen=next((m for m in preferred if m in models),None)
+ if not chosen:
+  print('Available generateContent models:',', '.join(models[:15]))
+  raise RuntimeError('No compatible Gemini model found for this API key')
+ print('Gemini model selected:',chosen)
+ return chosen
 def article_text(url):
  try:
   req=urllib.request.Request(url,headers={'User-Agent':'Mozilla/5.0 (RADAR editorial research)'})
@@ -57,6 +73,12 @@ def score(x):
 candidates=sorted([x for x in feed.get('items',[]) if x.get('url') not in saved and x.get('url') not in reviewed and x.get('title') and x.get('url') and score(x)>=125 and x.get('published') and x.get('published')[:10]>= (datetime.datetime.now(datetime.timezone.utc)-datetime.timedelta(days=14)).date().isoformat()],key=lambda x:(score(x),x.get('published','')),reverse=True)[:5]
 print('RADAR candidates:',len(candidates),'existing analyses:',len(saved))
 attempted=0;accepted=0;source_fail=0;api_fail=0
+model=None
+if candidates:
+ try:model=available_gemini_model()
+ except Exception as exc:
+  print('Gemini configuration error:',str(exc)[:650])
+  raise SystemExit(3)
 for x in candidates:
  if score(x)<125:continue
  source=article_text(x['url'])
@@ -74,7 +96,6 @@ Ne prétends jamais connaître une intention ou un résultat non attesté. Disti
 Le takeaway est un principe DA précis, non un exercice générique.'''
  payload={'system_instruction':{'parts':[{'text':prompt}]},'contents':[{'role':'user','parts':[{'text':json.dumps({'title':x['title'],'url':x['url'],'source_text':source},ensure_ascii=False)}]}],'generationConfig':{'temperature':0.2,'responseMimeType':'application/json'}}
  try:
-  model=os.environ.get('RADAR_AI_MODEL','gemini-2.5-flash-lite')
   endpoint='https://generativelanguage.googleapis.com/v1beta/models/'+urllib.parse.quote(model,safe='')+':generateContent'
   req=urllib.request.Request(endpoint,data=json.dumps(payload).encode(),headers={'x-goog-api-key':key,'Content-Type':'application/json'},method='POST')
   with urllib.request.urlopen(req,timeout=65) as r:answer=json.load(r)
@@ -93,9 +114,16 @@ Le takeaway est un principe DA précis, non un exercice générique.'''
   else:
    reviewed[x['url']]={'status':'editorial_rejected','at':datetime.datetime.now(datetime.timezone.utc).isoformat()}
    print('Editorial rejected:',x['title'])
+ except urllib.error.HTTPError as e:
+  api_fail+=1
+  details=e.read(1500).decode('utf-8','replace')
+  print('Analysis failed:',x['url'],'HTTP',e.code,details[:650])
+  if e.code in (400,401,403,404,429):
+   print('Gemini API configuration/quota failure: stopping requests for this run.')
+   break
  except Exception as e:
   api_fail+=1
-  print('Analysis failed:',x['url'],str(e)[:180])
+  print('Analysis failed:',x['url'],str(e)[:250])
 review_path.write_text(json.dumps(reviewed,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
 out_path.write_text(json.dumps(saved,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
 feed_path.write_text(json.dumps(feed,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
