@@ -1,16 +1,31 @@
 {
-  "updated_at": "2026-11-07T13:16:31.819226+00:00",
+  "updated_at": "2026-11-07T13:54:54.753593+00:00",
   "status": "collected_unreviewed",
   "working_feeds": [
+    {
+      "name": "Dragone",
+      "feed": "https://www.dragone.com/feed",
+      "category": "01 Spectacle Concert"
+    },
     {
       "name": "Dance Magazine",
       "feed": "https://www.dancemagazine.com/feed",
       "category": "15 Danse Performance"
     },
     {
-      "name": "Vizrt",
-      "feed": "https://www.vizrt.com/feed",
-      "category": "02 TV Broadcast"
+      "name": "Sight Unseen",
+      "feed": "https://www.sightunseen.com/feed",
+      "category": "05 Art Architecture"
+    },
+    {
+      "name": "STUFISH",
+      "feed": "https://stufish.com/feed",
+      "category": "01 Spectacle Concert"
+    },
+    {
+      "name": "VMSD",
+      "feed": "https://vmsd.com/feed",
+      "category": "06 Retail Brand Experience"
     },
     {
       "name": "Design Observer",
@@ -18,9 +33,79 @@
       "category": "11 Graphisme Expertise"
     },
     {
-      "name": "Superbien",
-      "feed": "https://www.superbien.com/feed",
+      "name": "Mindsparkle Mag",
+      "feed": "https://mindsparklemag.com/feed",
+      "category": "11 Graphisme Expertise"
+    },
+    {
+      "name": "Light ZOOM Lumière",
+      "feed": "https://www.lightzoomlumiere.fr/feed",
+      "category": "09 France Pro"
+    },
+    {
+      "name": "AV Magazine",
+      "feed": "https://www.avinteractive.com/feed",
+      "category": "02 TV Broadcast"
+    },
+    {
+      "name": "Dieline",
+      "feed": "https://thedieline.com/feed",
+      "category": "03 DA Graphisme"
+    },
+    {
+      "name": "Stereogum",
+      "feed": "https://www.stereogum.com/feed/",
+      "category": "14 Musique Clips"
+    },
+    {
+      "name": "Art of the Title",
+      "feed": "https://www.artofthetitle.com/feed",
       "category": "08 Immersif CGI Motion"
+    },
+    {
+      "name": "Jack Morton",
+      "feed": "https://jackmorton.com/feed",
+      "category": "06 Retail Brand Experience"
+    },
+    {
+      "name": "BP&O",
+      "feed": "https://bpando.org/feed",
+      "category": "03 DA Graphisme"
+    },
+    {
+      "name": "Live Design",
+      "feed": "https://www.livedesignonline.com/rss.xml",
+      "category": "01 Spectacle Concert"
+    },
+    {
+      "name": "Imagination",
+      "feed": "https://imagination.com/feed",
+      "category": "06 Retail Brand Experience"
+    },
+    {
+      "name": "Creapills",
+      "feed": "https://creapills.com/feed",
+      "category": "13 France Marketing Design"
+    },
+    {
+      "name": "Brand New",
+      "feed": "https://www.underconsideration.com/feed",
+      "category": "03 DA Graphisme"
+    },
+    {
+      "name": "Campaign Middle East",
+      "feed": "https://campaignme.com/feed",
+      "category": "04 Pub Strategie"
+    },
+    {
+      "name": "Tsugi",
+      "feed": "https://www.tsugi.fr/feed",
+      "category": "14 Musique Clips"
+    },
+    {
+      "name": "Typewolf",
+      "feed": "https://www.typewolf.com/feed",
+      "category": "03 DA Graphisme"
     },
     {
       "name": "Pitchfork",
@@ -28,8 +113,53 @@
       "category": "14 Musique Clips"
     },
     {
-      "name": "Imagination",
-      "feed": "https://imagination.com/feed",
+      "name": "ArchDaily",
+      "feed": "https://www.archdaily.com/feed",
+      "category": "05 Art Architecture"
+    },
+    {
+      "name": "Colossal",
+      "feed": "https://www.thisiscolossal.com/feed",
+      "category": "05 Art Architecture"
+    },
+    {
+      "name": "Superbien",
+      "feed": "https://www.superbien.com/feed",
+      "category": "08 Immersif CGI Motion"
+    },
+    {
+      "name": "Type Directors Club",
+      "feed": "https://tdc.org/feed",
+      "category": "11 Graphisme Expertise"
+    },
+    {
+      "name": "Vizrt",
+      "feed": "https://www.vizrt.com/feed",
+      "category": "02 TV Broadcast"
+    },
+    {
+      "name": "Effie Worldwide",
+      "feed": "https://www.effie.org/feed",
+      "category": "10 Strategie Insights"
+    },
+    {
+      "name": "Graphéine",
+      "feed": "https://www.grapheine.com/feed",
+      "category": "13 France Marketing Design"
+    },
+    {
+      "name": "IDlia Studio",
+      "feed": "https://www.idlia.fr/feed",
+      "category": "09 France Pro"
+    },
+    {
+      "name": "Creative Boom",
+      "feed": "https://www.creativeboom.com/feed",
+      "category": "03 DA Graphisme"
+    },
+    {
+      "name": "George P. Johnson",
+      "feed": "https://www.gpj.com/feed",
       "category": "06 Retail Brand Experience"
     },
     {
@@ -38,24 +168,24 @@
       "category": "09 France Pro"
     },
     {
-      "name": "STUFISH",
-      "feed": "https://stufish.com/feed",
-      "category": "01 Spectacle Concert"
+      "name": "FRATERCINÉ",
+      "feed": "https://www.fratercine.fr/feed",
+      "category": "09 France Pro"
     },
     {
-      "name": "Tsugi",
-      "feed": "https://www.tsugi.fr/feed",
-      "category": "14 Musique Clips"
+      "name": "Étapes",
+      "feed": "https://etapes.com/feed",
+      "category": "13 France Marketing Design"
     },
     {
-      "name": "Designboom",
-      "feed": "https://www.designboom.com/feed",
-      "category": "05 Art Architecture"
+      "name": "Typographica",
+      "feed": "https://typographica.org/feed",
+      "category": "11 Graphisme Expertise"
     },
     {
-      "name": "Jack Morton",
-      "feed": "https://jackmorton.com/feed",
-      "category": "06 Retail Brand Experience"
+      "name": "Stash",
+      "feed": "https://www.stashmedia.tv/feed",
+      "category": "08 Immersif CGI Motion"
     },
     {
       "name": "Ross Video",
@@ -63,26 +193,36 @@
       "category": "02 TV Broadcast"
     },
     {
-      "name": "IDlia Studio",
-      "feed": "https://www.idlia.fr/feed",
-      "category": "09 France Pro"
+      "name": "Designboom",
+      "feed": "https://www.designboom.com/feed",
+      "category": "05 Art Architecture"
     },
     {
-      "name": "Mindsparkle Mag",
-      "feed": "https://mindsparklemag.com/feed",
-      "category": "11 Graphisme Expertise"
+      "name": "Awwwards",
+      "feed": "https://www.awwwards.com/feed",
+      "category": "03 DA Graphisme"
+    },
+    {
+      "name": "Konbini Musique",
+      "feed": "https://www.konbini.com/feed",
+      "category": "14 Musique Clips"
+    },
+    {
+      "name": "PLSN",
+      "feed": "https://plsn.com/feed/",
+      "category": "01 Spectacle Concert"
     }
   ],
   "collection_slot": 0,
   "collection_hour_paris": 14,
   "sources_selected": 182,
-  "sources_checked": 47,
+  "sources_checked": 163,
   "special_test": false,
   "special_selection": {},
   "backfill_test": {
     "period": "2026-11-01/2026-11-07",
-    "articles": 299,
-    "with_images": 106
+    "articles": 329,
+    "with_images": 136
   },
   "items": [
     {
@@ -277,7 +417,8 @@
       "category": "14 Musique Clips",
       "angle": "Analyser les intentions visuelles, la mise en scène, le montage et l'identité des clips",
       "status": "source_detected_not_editorially_analyzed",
-      "title_fr": "Les 5 meilleures chansons de la semaine"
+      "title_fr": "Les 5 meilleures chansons de la semaine",
+      "summary_fr": "Le message Les 5 meilleures chansons de la semaine est apparu en premier sur Stereogum ."
     },
     {
       "title": "Abstract Wool Compositions Cascade from Weathered Metal in Amine El Gotaibi’s Sculptures",
@@ -289,7 +430,8 @@
       "category": "05 Art Architecture",
       "angle": "Découvrir dispositifs visuels",
       "status": "source_detected_not_editorially_analyzed",
-      "title_fr": "Cascade de compositions abstraites de laine à partir de métal patiné dans les sculptures d'Amine El Gotaibi"
+      "title_fr": "Cascade de compositions abstraites de laine à partir de métal patiné dans les sculptures d'Amine El Gotaibi",
+      "summary_fr": "Les nouvelles sculptures de métal et de laine d'Amine El Gotaibi témoignent des tensions entre la terre et l'État et de la manière dont nous marquons le changement. Est-ce que des histoires et des artistes comme celui-ci comptent pour vous ? Devenez membre Colossal aujourd'hui et soutenez l'édition artistique indépendante pour aussi peu que 7 $ par mois. L'article Cascade de compositions abstraites de laine à partir de métal patiné dans les sculptures d'Amine El Gotaibi est apparu en premier sur Colossal."
     },
     {
       "title": "3D printed ruffled collars top checkerboard lamps, vases, and candle holders in ondu wonderland",
@@ -494,7 +636,8 @@
       "source": "Pitchfork",
       "category": "14 Musique Clips",
       "angle": "Analyser les intentions visuelles, la mise en scène, le montage et l'identité des clips",
-      "status": "source_detected_not_editorially_analyzed"
+      "status": "source_detected_not_editorially_analyzed",
+      "title_fr": "Cleo Reed annonce un nouvel EP. Est-ce ainsi que meurent les empires ?"
     },
     {
       "title": "Construction on Trump’s Arch Blocked Again",
@@ -505,7 +648,20 @@
       "source": "Artforum",
       "category": "05 Art Architecture",
       "angle": "Approfondir les références artistiques",
-      "status": "source_detected_not_editorially_analyzed"
+      "status": "source_detected_not_editorially_analyzed",
+      "title_fr": "La construction de l’arche de Trump à nouveau bloquée"
+    },
+    {
+      "title": "Olivia Rodrigo se prend pour Mariah Carey et lance les festivités de Noël !",
+      "url": "https://www.konbini.com/popculture/olivia-rodrigo-se-prend-pour-mariah-carey-et-lance-les-festivites-de-noel/",
+      "published": "2026-11-06T17:07:40+00:00",
+      "summary": "Il semblerait qu'Olivia Rodrigo ait décidé de ne pas attendre décembre pour ouvrir ses cadeaux de Noël. Le 6 novembre, la chanteuse a dévoilé \"take me home (4 christmas)\", toujours sans majuscule, sa toute première...",
+      "image": "https://cdn-www.konbini.com/files/2026/11/Olivia-Rodrigo-take-me-home-copie-e1793980960622.jpg",
+      "source": "Konbini Musique",
+      "category": "14 Musique Clips",
+      "angle": "Décrypter intention, émotion, mise en scène, image et son des clips et performances musicales",
+      "status": "source_detected_not_editorially_analyzed",
+      "title_fr": "Olivia Rodrigo se prend pour Mariah Carey et lance les festivités de Noël !"
     },
     {
       "title": "Stove God Cooks – “Stovie’s Home (Down Down)” (Prod. Swizz Beatz)",
@@ -516,7 +672,8 @@
       "source": "Stereogum",
       "category": "14 Musique Clips",
       "angle": "Analyser les intentions visuelles, la mise en scène, le montage et l'identité des clips",
-      "status": "source_detected_not_editorially_analyzed"
+      "status": "source_detected_not_editorially_analyzed",
+      "title_fr": "Stove God Cooks – « Stovie’s Home (Down Down) » (Prod. Swizz Beatz)"
     },
     {
       "title": "Sertão Block and Amparo House / Asa Arquitetos",
@@ -540,7 +697,8 @@
       "source": "Dieline",
       "category": "03 DA Graphisme",
       "angle": "Comprendre la matérialité de l'identité",
-      "status": "source_detected_not_editorially_analyzed"
+      "status": "source_detected_not_editorially_analyzed",
+      "title_fr": "Aujourd'hui est le grand jour : le tarif pré-vacances des DIELINE Awards 2027 se termine ce soir"
     },
     {
       "title": "Lindstrøm – “Not The End Of It All”",
@@ -551,7 +709,8 @@
       "source": "Stereogum",
       "category": "14 Musique Clips",
       "angle": "Analyser les intentions visuelles, la mise en scène, le montage et l'identité des clips",
-      "status": "source_detected_not_editorially_analyzed"
+      "status": "source_detected_not_editorially_analyzed",
+      "title_fr": "Lindstrøm – « Pas la fin de tout »"
     },
     {
       "title": "UK Music Video Awards 2026: in the winners' enclosure",
@@ -812,6 +971,17 @@
       "status": "source_detected_not_editorially_analyzed"
     },
     {
+      "title": "Stranger Things n&#8217;est pas terminée ! Netflix vient d&#8217;annoncer une nouvelle série",
+      "url": "https://www.konbini.com/popculture/stranger-things-nest-pas-terminee-netflix-vient-dannoncer-une-nouvelle-serie/",
+      "published": "2026-11-06T14:40:10+00:00",
+      "summary": "On pensait avoir fait nos adieux à Stranger Things, mais l'univers imaginé par les frères Duffer n'a visiblement pas fini de nous hanter. À l'occasion du \"Stranger Things Day\", célébré chaque 6 novembre en référence...",
+      "image": "https://cdn-www.konbini.com/files/2026/11/Stranger-Things-e1793974821792.jpg",
+      "source": "Konbini Musique",
+      "category": "14 Musique Clips",
+      "angle": "Décrypter intention, émotion, mise en scène, image et son des clips et performances musicales",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
       "title": "10 New Albums You Should Listen to Now: Twisted Teens, Bassvictim, and More",
       "url": "https://pitchfork.com/story/10-new-albums-you-should-listen-to-now-twisted-teens-bassvictim-and-more/",
       "published": "2026-11-06T14:37:49+00:00",
@@ -999,6 +1169,17 @@
       "status": "source_detected_not_editorially_analyzed"
     },
     {
+      "title": "Keanu Reeves va retrouver John Wick dans un film d&#8217;animation consacré à la mythique « Impossible Task »",
+      "url": "https://www.konbini.com/popculture/keanu-reeves-va-retrouver-john-wick-dans-un-film-danimation-consacre-a-la-mythique-impossible-task/",
+      "published": "2026-11-06T11:53:50+00:00",
+      "summary": "John Wick n'a visiblement pas dit son dernier mot. Alors que l'avenir du cinquième volet en prises de vues réelles reste encore à préciser, Keanu Reeves s'apprête à retrouver son personnage culte dans un film...",
+      "image": "https://cdn-www.konbini.com/files/2026/11/John-Wick-4-copie-e1793964851468.jpg",
+      "source": "Konbini Musique",
+      "category": "14 Musique Clips",
+      "angle": "Décrypter intention, émotion, mise en scène, image et son des clips et performances musicales",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
       "title": "the EU bans destruction of unsold fashion, but is it enough to stop luxury waste?",
       "url": "https://www.designboom.com/design/eu-european-union-ban-destruction-unsold-fashion-enough-luxury-waste-environment-agency/",
       "published": "2026-11-06T11:50:31+00:00",
@@ -1129,6 +1310,17 @@
       "angle": "Élargir les références culturelles",
       "status": "source_detected_not_editorially_analyzed",
       "image": ""
+    },
+    {
+      "title": "Martine Rose devient la première femme directrice artistique de Balenciaga",
+      "url": "https://www.konbini.com/lifestyle/martine-rose-devient-la-premiere-femme-directrice-artistique-de-balenciaga/",
+      "published": "2026-11-06T09:37:01+00:00",
+      "summary": "La créatrice britannique Martine Rose, issue d'une famille jamaïcaine, a été nommée directrice de la création de Balenciaga, a annoncé vendredi le groupe Kering dans un communiqué, au lendemain du départ de l'Italien Pierpaolo Piccioli,...",
+      "image": "https://cdn-www.konbini.com/files/2026/11/Martine-Rose-e1793957501887.jpg",
+      "source": "Konbini Musique",
+      "category": "14 Musique Clips",
+      "angle": "Décrypter intention, émotion, mise en scène, image et son des clips et performances musicales",
+      "status": "source_detected_not_editorially_analyzed"
     },
     {
       "title": "maison margiela celebrates tokyo flagship anniversary with toothpick-drawn manga",
@@ -1824,6 +2016,17 @@
       "status": "source_detected_not_editorially_analyzed"
     },
     {
+      "title": "Allie et Dean prennent le relais pour la saison 2 d&#8217;Off Campus qui sortira le 28 avril",
+      "url": "https://www.konbini.com/popculture/allie-et-dean-prennent-le-relais-pour-la-saison-2-doff-campus-qui-sortira-le-28-avril/",
+      "published": "2026-11-05T17:11:46+00:00",
+      "summary": "La série Off Campus vient de dévoiler la date de sortie de sa deuxième saison : rendez-vous le 28 avril 2027 sur Prime Video pour retrouver les étudiants de Briar University ! Après avoir suivi...",
+      "image": "https://cdn-www.konbini.com/files/2026/11/off-campus-copie-e1793897116859.jpg",
+      "source": "Konbini Musique",
+      "category": "14 Musique Clips",
+      "angle": "Décrypter intention, émotion, mise en scène, image et son des clips et performances musicales",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
       "title": "UK Music Video Awards 2026: Gener8ion’s Storm storms to five awards including Video Of The Year in triumphant return to The Roundhouse",
       "url": "https://www.promonews.tv/news/2026/11/05/uk-music-video-awards-2026-gener8ion%E2%80%99s-storm-storms-five-awards-including-video-year/96854",
       "published": "2026-11-05T17:01:50+00:00",
@@ -1890,6 +2093,17 @@
       "image": ""
     },
     {
+      "title": "On connaît le nouveau thème du Met Gala 2027, après la polémique Galliano",
+      "url": "https://www.konbini.com/lifestyle/on-connait-le-nouveau-theme-du-met-gala-2027-apres-la-polemique-galliano/",
+      "published": "2026-11-05T16:35:11+00:00",
+      "summary": "Le Met a annoncé jeudi un nouveau thème pour la prochaine exposition liée à son prestigieux gala annuel, après l'annulation d'une rétrospective controversée consacrée au styliste britannique John Galliano. L'exposition, programmée du 9 mai 2027...",
+      "image": "https://cdn-www.konbini.com/files/2026/05/MET-GALA-RIHANNA-GETTY.jpg",
+      "source": "Konbini Musique",
+      "category": "14 Musique Clips",
+      "angle": "Décrypter intention, émotion, mise en scène, image et son des clips et performances musicales",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
       "title": "Orange décrypte les émojis des ados pour sensibiliser les parents au cyberharcèlement",
       "url": "https://creapills.com/orange-emojis-cyberharcelement-parents-20261105",
       "published": "2026-11-05T16:19:38+00:00",
@@ -1920,6 +2134,17 @@
       "source": "Creapills",
       "category": "13 France Marketing Design",
       "angle": "Repérer idées à analyser avec recul",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "Cette fois, c&#8217;est la fin : Adam Driver dit définitivement adieu à Kylo Ren et à Star Wars",
+      "url": "https://www.konbini.com/popculture/cette-fois-cest-la-fin-adam-driver-dit-definitivement-adieu-a-kylo-ren-et-a-star-wars/",
+      "published": "2026-11-05T15:38:56+00:00",
+      "summary": "Il fallait peut-être se faire une raison, mais cette fois, Adam Driver semble avoir définitivement tourné la page Star Wars. Invité de l'émission The Rich Eisen Show, il a été interrogé sur un éventuel retour...",
+      "image": "https://cdn-www.konbini.com/files/2026/11/Kylo-Ren-Adam-Driver-copie-e1793891326734.jpeg",
+      "source": "Konbini Musique",
+      "category": "14 Musique Clips",
+      "angle": "Décrypter intention, émotion, mise en scène, image et son des clips et performances musicales",
       "status": "source_detected_not_editorially_analyzed"
     },
     {
@@ -1967,6 +2192,17 @@
       "status": "source_detected_not_editorially_analyzed"
     },
     {
+      "title": "On a fait la tierlist des fromages avec La Gomart",
+      "url": "https://www.konbini.com/partenaires/on-a-fait-la-tierlist-des-fromages-avec-la-gomart/",
+      "published": "2026-11-05T14:45:57+00:00",
+      "summary": "...",
+      "image": "https://cdn-www.konbini.com/files/2026/11/screen.00_01_26_09.Still010.jpg",
+      "source": "Konbini Musique",
+      "category": "14 Musique Clips",
+      "angle": "Décrypter intention, émotion, mise en scène, image et son des clips et performances musicales",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
       "title": "A lucky-seven type system turns bad luck into riso-printed fortunes",
       "url": "https://mindsparklemag.com/designs/a-lucky-seven-type-system-turns-bad-luck-into-riso-printed-fortunes",
       "published": "2026-11-05T14:45:00+00:00",
@@ -1995,6 +2231,17 @@
       "summary": "Ça y est, les inscriptions au dispositif des iNOUïS du Printemps de Bourges Crédit Mutuel sont ouvertes ! Si vous êtes un·e jeune artiste et que vous hésitez encore à vous lancer, quoi de mieux que les paroles de trois artistes qui ont déjà participé au dispositif : Danyl, Maëva Nicolas du duo Bandit Bandit […]",
       "image": "",
       "source": "Tsugi",
+      "category": "14 Musique Clips",
+      "angle": "Décrypter intention, émotion, mise en scène, image et son des clips et performances musicales",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "On sait quel rôle a été le plus difficile à cerner pour Scarlett Johansson",
+      "url": "https://www.konbini.com/popculture/on-sait-quel-role-a-ete-le-plus-difficile-a-cerner-pour-scarlett-johansson/",
+      "published": "2026-11-05T14:19:58+00:00",
+      "summary": "Après avoir incarné Black Widow pendant plus de dix ans dans l'univers Marvel, Scarlett Johansson s'apprête à rejoindre celui de DC. Dans une interview accordée à Entertainment Tonight, elle est revenue sur son expérience dans...",
+      "image": "https://cdn-www.konbini.com/files/2026/11/Balck-Widow-e1793886275214.jpeg",
+      "source": "Konbini Musique",
       "category": "14 Musique Clips",
       "angle": "Décrypter intention, émotion, mise en scène, image et son des clips et performances musicales",
       "status": "source_detected_not_editorially_analyzed"
@@ -2176,6 +2423,17 @@
       "image": ""
     },
     {
+      "title": "Attendez, Philippe Katerine vient vraiment de teaser le retour de PNL ?",
+      "url": "https://www.konbini.com/popculture/attendez-philippe-katerine-vient-vraiment-de-teaser-le-retour-de-pnl/",
+      "published": "2026-11-05T12:01:44+00:00",
+      "summary": "Et si PNL préparait son retour ? Invité sur le plateau de Clique, Philippe Katerine a raconté sa rencontre avec Nk.F, l'ingénieur du son qui travaille avec Ademo et N.O.S. À Montréal, dans le studio...",
+      "image": "https://cdn-www.konbini.com/files/2026/11/PNL-e1793879232908.jpg",
+      "source": "Konbini Musique",
+      "category": "14 Musique Clips",
+      "angle": "Décrypter intention, émotion, mise en scène, image et son des clips et performances musicales",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
       "title": "Backyard Townhouses / Behin Ha",
       "url": "https://www.archdaily.com/1188061/backyard-townhouses-behin-ha",
       "published": "2026-11-05T12:00:00+00:00",
@@ -2187,6 +2445,17 @@
       "status": "source_detected_not_editorially_analyzed"
     },
     {
+      "title": "C&#8217;est officiel : Cristiano Ronaldo prend sa retraite internationale !",
+      "url": "https://www.konbini.com/lifestyle/cest-officiel-cristiano-ronaldo-prend-sa-retraite-internationale/",
+      "published": "2026-11-05T10:56:06+00:00",
+      "summary": "Le Portugais Cristiano Ronaldo, 41 ans, a annoncé sa retraite internationale sur son compte Instagram, plusieurs semaines après un psychodrame où il avait quitté le rassemblement de l'équipe nationale après un conflit avec son sélectionneur....",
+      "image": "https://cdn-www.konbini.com/files/2026/11/GettyImages-2284472010-e1793875913406.jpg",
+      "source": "Konbini Musique",
+      "category": "14 Musique Clips",
+      "angle": "Décrypter intention, émotion, mise en scène, image et son des clips et performances musicales",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
       "title": "Dior réunit un casting de stars dans un conte de Noël animé entièrement dessiné à la main",
       "url": "https://creapills.com/dior-animation-noel-sylvain-chomet-stars-20261105",
       "published": "2026-11-05T10:36:41+00:00",
@@ -2195,6 +2464,17 @@
       "source": "Creapills",
       "category": "13 France Marketing Design",
       "angle": "Repérer idées à analyser avec recul",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "Club Kid, Si tu tends l&#8217;oreille et le retour d&#8217;All&#8217;s Fair : on mate quoi cette semaine ?",
+      "url": "https://www.konbini.com/popculture/club-kid-si-tu-tends-loreille-et-le-retour-dalls-fair-on-mate-quoi-cette-semaine/",
+      "published": "2026-11-05T09:53:44+00:00",
+      "summary": "Chaque semaine, la rédaction de Konbini vous partage les sorties ciné et séries qui nous font envie. Alors on sort l'agenda et on fait des petites croix :...",
+      "image": "https://cdn-www.konbini.com/files/2026/11/Alls-fair-copie-e1793872248687.jpg",
+      "source": "Konbini Musique",
+      "category": "14 Musique Clips",
+      "angle": "Décrypter intention, émotion, mise en scène, image et son des clips et performances musicales",
       "status": "source_detected_not_editorially_analyzed"
     },
     {
@@ -2217,6 +2497,17 @@
       "source": "Creapills",
       "category": "13 France Marketing Design",
       "angle": "Repérer idées à analyser avec recul",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "Adèle Castillon est l&#8217;artiste préférée d&#8217;Adèle Castillon et elle est dans Small Talk !",
+      "url": "https://www.konbini.com/internet/adele-castillon-est-lartiste-preferee-dadele-castillon-et-elle-est-dans-small-talk/",
+      "published": "2026-11-05T09:33:06+00:00",
+      "summary": "Adèle Castillon a commencé sa carrière en montrant ses fesses à la cantine, elle faisait déjà rire les gens dès sa naissance, son premier souvenir, c'est sa mère qui fait du sport et elle a...",
+      "image": "https://cdn-www.konbini.com/files/2026/11/Adele-Small-Talk-e1793870466305.jpg",
+      "source": "Konbini Musique",
+      "category": "14 Musique Clips",
+      "angle": "Décrypter intention, émotion, mise en scène, image et son des clips et performances musicales",
       "status": "source_detected_not_editorially_analyzed"
     },
     {
@@ -2429,6 +2720,17 @@
       "status": "source_detected_not_editorially_analyzed"
     },
     {
+      "title": "Coperni, c&#8217;est fini&#8230; Adieu la robe en spray, les chiens robots et les défilés à Disney",
+      "url": "https://www.konbini.com/lifestyle/coperni-cest-fini-adieu-la-robe-en-spray-les-chiens-robots-et-les-defiles-a-disney/",
+      "published": "2026-11-04T16:43:14+00:00",
+      "summary": "La robe en spray sur Bella Hadid, les chiens robots sur le podium, un défilé à Disneyland Paris... Coperni avait l'art de transformer chaque Fashion Week en événement. Mais cette fois, le spectacle est terminé....",
+      "image": "https://cdn-www.konbini.com/files/2026/11/Coperni-e1793809304714.jpeg",
+      "source": "Konbini Musique",
+      "category": "14 Musique Clips",
+      "angle": "Décrypter intention, émotion, mise en scène, image et son des clips et performances musicales",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
       "title": "La nouvelle pub de Noël de John Lewis déclenche une polémique inattendue",
       "url": "https://creapills.com/john-lewis-noel-2026-polemique-20261104",
       "published": "2026-11-04T16:31:14+00:00",
@@ -2457,6 +2759,17 @@
       "summary": "Pour le week-end d’Halloween on part en direction du Parc des Expositions de Villepinte. Chaque année, Dream Nation rassemble une bonne partie des amateurs de musique qui tape. Entre hard techno, uptempo, trance ou neurofunk, les différentes scènes et les deux nuits de programmation, le festival entend bien faire transpirer ses festivaliers — logique. On […]",
       "image": "",
       "source": "Tsugi",
+      "category": "14 Musique Clips",
+      "angle": "Décrypter intention, émotion, mise en scène, image et son des clips et performances musicales",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "Dior réunit Rihanna, Robert Pattinson et Camille Cottin dans un conte de Noël animé",
+      "url": "https://www.konbini.com/lifestyle/dior-reunit-rihanna-robert-pattinson-et-camille-cottin-dans-un-conte-de-noel-anime/",
+      "published": "2026-11-04T15:53:40+00:00",
+      "summary": "Pour sa campagne des fêtes 2026, Dior a dévoilé Christian Dior's Night in Color, un court métrage d’animation, réalisé par Sylvain Chomet, à qui l'on doit notamment Les Triplettes de Belleville et L'Illusionniste. Pour lui...",
+      "image": "https://cdn-www.konbini.com/files/2026/11/Camille-cottin-dior-e1793803603204.jpg",
+      "source": "Konbini Musique",
       "category": "14 Musique Clips",
       "angle": "Décrypter intention, émotion, mise en scène, image et son des clips et performances musicales",
       "status": "source_detected_not_editorially_analyzed"
@@ -2493,6 +2806,17 @@
       "angle": "Explorer les langages visuels",
       "status": "source_detected_not_editorially_analyzed",
       "image": ""
+    },
+    {
+      "title": "Pierce Brosnan a un petit favori dans la course au costume de James Bond",
+      "url": "https://www.konbini.com/popculture/pierce-brosnan-a-un-petit-favori-dans-la-course-au-costume-de-james-bond/",
+      "published": "2026-11-04T14:09:44+00:00",
+      "summary": "La course au prochain James Bond continue de faire parler, et un ancien 007 vient de donner son avis sur la question. Dans une interview accordée à Vanity Fair, Pierce Brosnan, qui a incarné le...",
+      "image": "https://cdn-www.konbini.com/files/2026/11/Pierce-Brosnan--e1793799954608.jpg",
+      "source": "Konbini Musique",
+      "category": "14 Musique Clips",
+      "angle": "Décrypter intention, émotion, mise en scène, image et son des clips et performances musicales",
+      "status": "source_detected_not_editorially_analyzed"
     },
     {
       "title": "JRLX Named Exclusive U.S. Distribution Partner for Concept Smoke Systems",
@@ -2539,6 +2863,17 @@
       "status": "source_detected_not_editorially_analyzed"
     },
     {
+      "title": "Le PSG met une grosse raclée à Villarreal : le grand n&#8217;importe quoi des réseaux sociaux",
+      "url": "https://www.konbini.com/internet/le-psg-met-une-grosse-raclee-a-villarreal-le-grand-nimporte-quoi-des-reseaux-sociaux/",
+      "published": "2026-11-04T12:03:10+00:00",
+      "summary": "On n'a pas les mots face à ce carnage... Le PSG a écrasé Villarreal en Ligue des champions. Les hommes d'Enrique se sont imposés sur la pelouse adverse (6-0) mardi soir. Après 16 minutes de...",
+      "image": "https://cdn-www.konbini.com/files/2026/11/PSG-Villareal-e1793792161312.jpeg",
+      "source": "Konbini Musique",
+      "category": "14 Musique Clips",
+      "angle": "Décrypter intention, émotion, mise en scène, image et son des clips et performances musicales",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
       "title": "Andstudio on the challenges of building a global studio from Lithuania",
       "url": "https://www.creativeboom.com/insight/andstudios-augustinas-paukste-on-10-years-of-building-a-global-studio-from-vilnius/",
       "published": "2026-11-04T12:00:00+00:00",
@@ -2572,6 +2907,17 @@
       "status": "source_detected_not_editorially_analyzed"
     },
     {
+      "title": "Ninho s&#8217;interroge sur la vie qu&#8217;il mène et sème le doute sur une potentielle fin de carrière",
+      "url": "https://www.konbini.com/popculture/ninho-sinterroge-sur-la-vie-quil-mene-et-seme-le-doute-sur-une-potentielle-fin-de-carriere/",
+      "published": "2026-11-04T10:27:31+00:00",
+      "summary": "Ninho : le prix à payer, dont l'artiste est coproducteur, décrit son ascension et les vertiges de la célébrité, du point de vue du rappeur et de ses proches. \"On voulait aussi montrer ce qu'est...",
+      "image": "https://cdn-www.konbini.com/files/2026/11/Ninho-Netflix-e1793787933666.jpg",
+      "source": "Konbini Musique",
+      "category": "14 Musique Clips",
+      "angle": "Décrypter intention, émotion, mise en scène, image et son des clips et performances musicales",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
       "title": "L’ISTS ouvre la prochaine session de la formation métier “Régisseur général des entreprises du spectacle vivant”",
       "url": "https://www.revue-as.fr/2026/11/04/lists-ouvre-la-prochaine-session-de-la-formation-metier-regisseur-general-des-entreprises-du-spectacle-vivant/",
       "published": "2026-11-04T09:53:00+00:00",
@@ -2581,6 +2927,17 @@
       "angle": "Suivre les productions françaises",
       "status": "source_detected_not_editorially_analyzed",
       "image": ""
+    },
+    {
+      "title": "Denis est généreux avec le riz et Lola fait le coup du faux collier : le grand n&#8217;importe quoi des réseaux sociaux",
+      "url": "https://www.konbini.com/internet/denis-est-genereux-avec-le-riz-et-lola-fait-le-coup-du-faux-collier-le-grand-nimporte-quoi-des-reseaux-sociaux/",
+      "published": "2026-11-04T09:43:43+00:00",
+      "summary": "Dorian est officiellement l'aventurier le plus maudit de l'aventure, Lola s'impose en reine du bluff et Maxime tombe (encore) dans le panneau... L'orientation se rapproche à grands pas mais, en attendant, on a enfin eu...",
+      "image": "https://cdn-www.konbini.com/files/2026/11/Lola-Koh-Lanta--e1793785149234.jpeg",
+      "source": "Konbini Musique",
+      "category": "14 Musique Clips",
+      "angle": "Décrypter intention, émotion, mise en scène, image et son des clips et performances musicales",
+      "status": "source_detected_not_editorially_analyzed"
     },
     {
       "title": "Tied With Care",
@@ -2814,6 +3171,17 @@
       "status": "source_detected_not_editorially_analyzed"
     },
     {
+      "title": "McKenna Grace ressuscite les looks cultes de Katniss Everdeen pour la promo du prochain Hunger Games",
+      "url": "https://www.konbini.com/popculture/mckenna-grace-ressuscite-les-looks-cultes-de-katniss-everdeen-pour-la-promo-du-prochain-hunger-games/",
+      "published": "2026-11-03T16:44:35+00:00",
+      "summary": "Pour défendre Hunger Games : Lever de soleil sur la moisson, attendu au cinéma le 18 novembre 2026, McKenna Grace a décidé de ne rien laisser au hasard côté dressing. Pour la tournée promo du...",
+      "image": "https://cdn-www.konbini.com/files/2026/11/Mckenna-grace-dresses-copie-e1793721740479.jpg",
+      "source": "Konbini Musique",
+      "category": "14 Musique Clips",
+      "angle": "Décrypter intention, émotion, mise en scène, image et son des clips et performances musicales",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
       "title": "Saya Gray Drops Qwerty III EP",
       "url": "https://pitchfork.com/story/saya-gray-drops-qwerty-iii-ep/",
       "published": "2026-11-03T15:59:57+00:00",
@@ -2858,6 +3226,17 @@
       "status": "source_detected_not_editorially_analyzed"
     },
     {
+      "title": "Vous avez déjà rêvé de redécouvrir un film comme si c&#8217;était la première fois ? Ça va (peut-être) bientôt être possible",
+      "url": "https://www.konbini.com/popculture/vous-avez-deja-reve-de-redecouvrir-un-film-comme-si-cetait-la-premiere-fois-ca-va-peut-etre-bientot-etre-possible/",
+      "published": "2026-11-03T15:41:26+00:00",
+      "summary": "Qui n'a jamais rêvé de revoir son film préféré comme si c'était la première fois ? De n'avoir aucune idée du plot twist, du dénouement, du sort réservé aux personnages les plus attachants ? Imaginez...",
+      "image": "https://cdn-www.konbini.com/files/2026/11/Interstellar-e1793718915238.jpg",
+      "source": "Konbini Musique",
+      "category": "14 Musique Clips",
+      "angle": "Décrypter intention, émotion, mise en scène, image et son des clips et performances musicales",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
       "title": "Ear Candy 'Clean Clothes' by Rob Ulitski",
       "url": "https://www.promonews.tv/videos/2026/11/03/ear-candy-clean-clothes-rob-ulitski/96844",
       "published": "2026-11-03T15:30:43+00:00",
@@ -2877,6 +3256,17 @@
       "source": "Pitchfork",
       "category": "14 Musique Clips",
       "angle": "Analyser les intentions visuelles, la mise en scène, le montage et l'identité des clips",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "Les tips de Mouloud pour ton objectif 1er emploi",
+      "url": "https://www.konbini.com/partenaires/les-tips-de-mouloud-pour-ton-objectif-1er-emploi/",
+      "published": "2026-11-03T14:59:05+00:00",
+      "summary": "Entre nous, le meilleur tip ça reste d'aller voir l'Apec, sur apec.fr, ils ont tout un programme gratuit avec des conseillers pour vous accompagner vers votre objectif premier emploi....",
+      "image": "https://cdn-www.konbini.com/files/2026/10/APEC_V07.00_00_36_17.Still002.jpg",
+      "source": "Konbini Musique",
+      "category": "14 Musique Clips",
+      "angle": "Décrypter intention, émotion, mise en scène, image et son des clips et performances musicales",
       "status": "source_detected_not_editorially_analyzed"
     },
     {
@@ -2921,6 +3311,17 @@
       "source": "Dance Magazine",
       "category": "15 Danse Performance",
       "angle": "Observer les intentions de mise en scène, composition, rythme, lumière et expérience du public",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "Le prix Goncourt est décerné à Philippe Jaenada pour L&#8217;Inconnue du quai de Javel",
+      "url": "https://www.konbini.com/popculture/le-prix-goncourt-est-decerne-a-philippe-jaenada-pour-linconnue-du-quai-de-javel/",
+      "published": "2026-11-03T13:51:31+00:00",
+      "summary": "Philippe Jaenada a obtenu mardi le prix Goncourt 2026 pour L'Inconnue du quai de Javel, roman fleuve sur l'assassinat irrésolu d'une jeune Bretonne à la fin des années 1940, au terme d'une sélection percutée par...",
+      "image": "https://cdn-www.konbini.com/files/2026/11/GettyImages-1146810212-e1793713671726.jpg",
+      "source": "Konbini Musique",
+      "category": "14 Musique Clips",
+      "angle": "Décrypter intention, émotion, mise en scène, image et son des clips et performances musicales",
       "status": "source_detected_not_editorially_analyzed"
     },
     {
@@ -2976,6 +3377,39 @@
       "source": "Creative Boom",
       "category": "03 DA Graphisme",
       "angle": "Découvrir les pratiques créatives",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "La guerre contre les Titans se prépare dans le trailer de la saison 3 de Percy Jackson",
+      "url": "https://www.konbini.com/popculture/la-guerre-contre-les-titans-se-prepare-dans-le-trailer-de-la-saison-3-de-percy-jackson/",
+      "published": "2026-11-03T11:43:55+00:00",
+      "summary": "La guerre entre les dieux et les Titans n'a jamais semblé aussi proche. Disney+ a dévoilé la première bande-annonce complète de la saison 3 de Percy Jackson et les Olympiens. Adaptée du troisième tome de...",
+      "image": "https://cdn-www.konbini.com/files/2026/11/Percy-Jackson-e1793705187570.jpg",
+      "source": "Konbini Musique",
+      "category": "14 Musique Clips",
+      "angle": "Décrypter intention, émotion, mise en scène, image et son des clips et performances musicales",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "Comment le costume d&#8217;Halloween d&#8217;Heidi Klum a peut-être spoilé Batman Partie II ?",
+      "url": "https://www.konbini.com/popculture/comment-le-costume-dhalloween-dheidi-klum-a-peut-etre-spoile-batman-partie-ii/",
+      "published": "2026-11-03T11:09:03+00:00",
+      "summary": "Pour sa traditionnelle soirée du 31 octobre, Heidi Klum s'est transformée en immense main humaine arrachée du reste du corps. Un costume aussi spectaculaire que répugnant, signé Mike Marino, le prothésiste derrière la transformation de...",
+      "image": "https://cdn-www.konbini.com/files/2026/10/Batman-e1793370482596.jpg",
+      "source": "Konbini Musique",
+      "category": "14 Musique Clips",
+      "angle": "Décrypter intention, émotion, mise en scène, image et son des clips et performances musicales",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "Wikipédia s&#8217;invite dans notre dressing avec une collab signée Tern",
+      "url": "https://www.konbini.com/lifestyle/wikipedia-sinvite-dans-notre-dressing-avec-une-collab-signee-tern/",
+      "published": "2026-11-03T09:54:28+00:00",
+      "summary": "On vous avait dit de garder un œil sur lui. En janvier dernier, Flub faisait partie de notre Promo 2026, cette sélection de dix talents que l'on avait envie de suivre de près. Quelques mois...",
+      "image": "https://cdn-www.konbini.com/files/2026/11/Tern-wikipedia-e1793698573571.jpg",
+      "source": "Konbini Musique",
+      "category": "14 Musique Clips",
+      "angle": "Décrypter intention, émotion, mise en scène, image et son des clips et performances musicales",
       "status": "source_detected_not_editorially_analyzed"
     },
     {
@@ -3177,6 +3611,17 @@
       "status": "source_detected_not_editorially_analyzed"
     },
     {
+      "title": "En plus de retrouver Katniss, Jennifer Lawrence est dans l&#8217;album de Hunger Games : Lever de soleil sur la moisson",
+      "url": "https://www.konbini.com/popculture/en-plus-de-retrouver-katniss-jennifer-lawrence-est-dans-lalbum-de-hunger-games-lever-de-soleil-sur-la-moisson/",
+      "published": "2026-11-02T17:15:12+00:00",
+      "summary": "L'album musical qui accompagne la sortie de Hunger Games : Lever de soleil sur la moisson vient d'être dévoilé. De nombreux artistes accompagneront les tributs dans l'arène, mais si vous avez regardé le petit teaser...",
+      "image": "https://cdn-www.konbini.com/files/2026/11/Katniss-Everdeen-e1793639405869.jpg",
+      "source": "Konbini Musique",
+      "category": "14 Musique Clips",
+      "angle": "Décrypter intention, émotion, mise en scène, image et son des clips et performances musicales",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
       "title": "Yaeji Plots a Dance Dance Revolution in New Single “DDR”",
       "url": "https://pitchfork.com/story/yaeji-plots-a-dance-dance-revolution-in-new-ddr-video/",
       "published": "2026-11-02T16:27:19+00:00",
@@ -3185,6 +3630,17 @@
       "source": "Pitchfork",
       "category": "14 Musique Clips",
       "angle": "Analyser les intentions visuelles, la mise en scène, le montage et l'identité des clips",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "Update : Dave Bautista a vraiment tout donné à la salle pour incarner Kratos dans God of War",
+      "url": "https://www.konbini.com/popculture/update-dave-bautista-a-vraiment-tout-donne-a-la-salle-pour-incarner-kratos-dans-god-of-war/",
+      "published": "2026-11-02T15:34:24+00:00",
+      "summary": "On prend des nouvelles de l'entraînement de Dave Bautista. Et visiblement, les séances à la salle ont porté leurs fruits. Deux mois après avoir partagé les premières images de sa préparation physique pour incarner Kratos...",
+      "image": "https://cdn-www.konbini.com/files/2026/11/God-of-war-kratos-e1793631657994.jpg",
+      "source": "Konbini Musique",
+      "category": "14 Musique Clips",
+      "angle": "Décrypter intention, émotion, mise en scène, image et son des clips et performances musicales",
       "status": "source_detected_not_editorially_analyzed"
     },
     {
@@ -3243,6 +3699,17 @@
       "status": "source_detected_not_editorially_analyzed"
     },
     {
+      "title": "Léandre est à deux doigts de la censure dans le nouvel épisode de WAKE UP!",
+      "url": "https://www.konbini.com/internet/leandre-est-a-deux-doigts-de-la-censure-dans-le-nouvel-episode-de-wake-up/",
+      "published": "2026-11-02T13:18:56+00:00",
+      "summary": "Pour ce nouvel épisode de WAKE UP!, Margot (aka lagomart) débarque chez Léandre pour une matinée qui part rapidement dans tous les sens. Au menu : un invité surprise pour le moins inattendu, des discussions...",
+      "image": "https://cdn-www.konbini.com/files/2026/11/Wake-up-Leandre-copie-e1793624869907.jpg",
+      "source": "Konbini Musique",
+      "category": "14 Musique Clips",
+      "angle": "Décrypter intention, émotion, mise en scène, image et son des clips et performances musicales",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
       "title": "Multipurpose Ayrton EagleStrike Employed on Harry Styles’ ‘Together, Together’ Tour",
       "url": "https://plsn.com/featured/multipurpose-ayrton-eaglestrike-employed-on-harry-styles-together-together-tour/",
       "published": "2026-11-02T13:05:54+00:00",
@@ -3260,6 +3727,17 @@
       "summary": "Voilà que le monde de la musique électronique se retrouve à nouveau en deuil. Juan Atkins, un des pères fondateurs de la techno s’est éteint le 31 octobre à Mexico des suites d’une crise cardiaque. Âgé de 64 ans il laisse derrière lui un héritage immense qui aura redéfini la culture musicale des quarante dernières […]",
       "image": "",
       "source": "Tsugi",
+      "category": "14 Musique Clips",
+      "angle": "Décrypter intention, émotion, mise en scène, image et son des clips et performances musicales",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "Juan Atkins, légende et pionnier de la techno, est mort",
+      "url": "https://www.konbini.com/popculture/juan-atkins-legende-et-pionnier-de-la-techno-est-mort/",
+      "published": "2026-11-02T12:00:25+00:00",
+      "summary": "Juan Atkins, producteur originaire de Detroit et figure fondatrice de la musique techno, est mort à l'âge de 64 ans, a annoncé dimanche son agence. L'artiste a été retrouvé inconscient dans sa chambre d'hôtel, à...",
+      "image": "https://cdn-www.konbini.com/files/2026/11/Juan-Atkins-e1793620610779.jpeg",
+      "source": "Konbini Musique",
       "category": "14 Musique Clips",
       "angle": "Décrypter intention, émotion, mise en scène, image et son des clips et performances musicales",
       "status": "source_detected_not_editorially_analyzed"
@@ -5817,6 +6295,17 @@
       "status": "source_detected_not_editorially_analyzed"
     },
     {
+      "title": "TDC72 Type-High and Certificate Winners Announced",
+      "url": "https://tdc.org/news/tdc72-type-high-and-certificate-winners-announced/",
+      "published": "2026-07-20T14:43:39+00:00",
+      "summary": "PRESS RELEASE NEW YORK, July 20, 2026 — The global Type Directors Club announced its first-ever Type-High awards winners in its prestigious TDC72 competition, unveiled at a special awards ceremony […]",
+      "image": "",
+      "source": "Type Directors Club",
+      "category": "11 Graphisme Expertise",
+      "angle": "Étudier hiérarchie et expressivité",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
       "title": "Cannes Lions 2026 Trends | The New Rules of Creativity",
       "url": "https://jackmorton.com/pov/cannes-lions-2026-trends/",
       "published": "2026-07-16T19:37:29+00:00",
@@ -5859,347 +6348,6 @@
       "category": "06 Retail Brand Experience",
       "angle": "Comprendre parcours et activation",
       "status": "source_detected_not_editorially_analyzed"
-    },
-    {
-      "title": "Josep Baqué et les Maximonstres",
-      "url": "https://grapheine.com/magazine/josep-baque-et-les-maximonstres/",
-      "published": "2026-07-06T13:13:33+00:00",
-      "summary": "Découvrez la folie créatrice de Josep Baqué, inventeur d'un incroyable bestiaire de monstres farfelus. Bêtes poilues multicolores, dragons cyclopes, et autres pandas cornus !",
-      "source": "Graphéine",
-      "category": "13 France Marketing Design",
-      "angle": "Étudier les démarches de création",
-      "status": "source_detected_not_editorially_analyzed",
-      "image": ""
-    },
-    {
-      "title": "Le regard du designer ne prend jamais de vacances",
-      "url": "https://www.etapes.com/2026/07/06/le-regard-du-designer-ne-prend-jamais-de-vacances/",
-      "published": "2026-07-06T11:37:55+00:00",
-      "summary": "Pourquoi les designers ne regardent-ils jamais vraiment le monde comme les autres ? L'été devient un formidable terrain d'observation où signalétique, typographie, packaging et identité visuelle nourrissent le regard créatif. The post Le regard du designer ne prend jamais de vacances first appeared on Etapes : .",
-      "image": "",
-      "source": "Étapes",
-      "category": "13 France Marketing Design",
-      "angle": "Suivre créateurs et pratiques",
-      "status": "source_detected_not_editorially_analyzed"
-    },
-    {
-      "title": "Pourquoi le travail du designer est devenu invisible",
-      "url": "https://www.etapes.com/2026/07/03/pourquoi-le-travail-du-designer-est-devenu-invisible/",
-      "published": "2026-07-03T07:59:00+00:00",
-      "summary": "L'intelligence artificielle n'a peut-être pas rendu le métier de designer obsolète. Elle révèle surtout une réalité ancienne : la véritable valeur du design reste largement invisible aux yeux des clients. The post Pourquoi le travail du designer est devenu invisible first appeared on Etapes : .",
-      "image": "",
-      "source": "Étapes",
-      "category": "13 France Marketing Design",
-      "angle": "Suivre créateurs et pratiques",
-      "status": "source_detected_not_editorially_analyzed"
-    },
-    {
-      "title": "SPOTLIGHT: A centuries old Murano glassmaker reinvents itself for the modern era",
-      "url": "https://www.sightunseen.com/2026/07/spotlight-a-centuries-old-murano-glassmaker-reinvents-itself-for-the-modern-era/",
-      "published": "2026-07-02T20:04:24+00:00",
-      "summary": "Plus: How to start buying vintage glass",
-      "image": "",
-      "source": "Sight Unseen",
-      "category": "05 Art Architecture",
-      "angle": "Découvrir matériaux et créateurs",
-      "status": "source_detected_not_editorially_analyzed"
-    },
-    {
-      "title": "MEET OUR RISING STARS (Part 3)",
-      "url": "https://www.gpj.com/news-insights/2026/07/meet-our-rising-stars-part-3/",
-      "published": "2026-07-01T16:59:01+00:00",
-      "summary": "A world-leading strategic experiential agency is nothing without its world-leading team members. In this three-part series (click here for Part 1 and Part 2), we’ve peeled back the curtain and given the stage to our Rising Stars—GPJers who are shaping the future of our business through their leadership, curiosity, and commitment to excellence. Last but … The post MEET OUR RISING STARS (Part 3) appeared first on GPJ .",
-      "image": "",
-      "source": "George P. Johnson",
-      "category": "06 Retail Brand Experience",
-      "angle": "Comprendre parcours et activation",
-      "status": "source_detected_not_editorially_analyzed"
-    },
-    {
-      "title": "La FIFA fait disparaître des marques, mais les rend plus visibles",
-      "url": "https://grapheine.com/magazine/fifa-censure-marques-et-les-rend-plus-visibles/",
-      "published": "2026-06-30T09:44:44+00:00",
-      "summary": "Être reconnaissable sans son logo est devenu un objectif. Reste à savoir combien de marques réussiront demain à être reconnues par leur seule silhouette sans être confondues avec celle de leur concurrent !",
-      "source": "Graphéine",
-      "category": "13 France Marketing Design",
-      "angle": "Étudier les démarches de création",
-      "status": "source_detected_not_editorially_analyzed",
-      "image": ""
-    },
-    {
-      "title": "A Greek gallery decamps to the beach, a beloved coffee shop opens in Chicago, and more",
-      "url": "https://www.sightunseen.com/2026/06/a-greek-gallery-decamps-to-the-beach-a-beloved-coffee-shop-opens-in-chicago-and-more/",
-      "published": "2026-06-29T18:48:38+00:00",
-      "summary": "Plus: Salt and pepper shakers that would make Deborah Vance squeal with delight",
-      "image": "",
-      "source": "Sight Unseen",
-      "category": "05 Art Architecture",
-      "angle": "Découvrir matériaux et créateurs",
-      "status": "source_detected_not_editorially_analyzed"
-    },
-    {
-      "title": "Built Like No Other Agency",
-      "url": "https://www.gpj.com/news-insights/2026/06/built-like-no-other/",
-      "published": "2026-06-25T18:00:45+00:00",
-      "summary": "George P. Johnson (GPJ) is proud to be recognized among Event Marketer's Fab 50 top event fabricators for the 12th consecutive year. The post Built Like No Other Agency appeared first on GPJ .",
-      "image": "",
-      "source": "George P. Johnson",
-      "category": "06 Retail Brand Experience",
-      "angle": "Comprendre parcours et activation",
-      "status": "source_detected_not_editorially_analyzed"
-    },
-    {
-      "title": "Alpes 2030, le logo Olympique qui pique !",
-      "url": "https://grapheine.com/magazine/logo-olympique-alpes-2030/",
-      "published": "2026-06-18T18:02:11+00:00",
-      "summary": "Entre héritage olympique, esthétique néo-80’s et imaginaire de la montagne, décryptage du logo des Alpes 2030.",
-      "source": "Graphéine",
-      "category": "13 France Marketing Design",
-      "angle": "Étudier les démarches de création",
-      "status": "source_detected_not_editorially_analyzed",
-      "image": ""
-    },
-    {
-      "title": "3 questions à Annie Bocel sur la typographie et la gravure",
-      "url": "https://grapheine.com/magazine/annie-bocel-typographie-gravure/",
-      "published": "2026-06-16T06:33:18+00:00",
-      "summary": "Graphéine est allée à la rencontre d'Annie Bocel, qui détient le savoir-faire de la création du premier maillon de la chaîne typographique. Depuis son atelier breton, elle répond à nos questions sur les poinçons, la gravure et les techniques traditionnelles.",
-      "source": "Graphéine",
-      "category": "13 France Marketing Design",
-      "angle": "Étudier les démarches de création",
-      "status": "source_detected_not_editorially_analyzed",
-      "image": ""
-    },
-    {
-      "title": "MEET OUR RISING STARS (Part 2)",
-      "url": "https://www.gpj.com/news-insights/2026/06/meet-our-rising-stars-part-2/",
-      "published": "2026-06-11T20:19:54+00:00",
-      "summary": "GPJ’s Rising Stars come from every corner of our global network, bringing unique perspectives, experiences, and leadership styles to the work we create. In this installment of our three-part series, we’re spotlighting Jo Xia in Shanghai, Hadley Cook in Boston, and Glenn Whitehead in Sydney. From building trusted client partnerships to mentoring teams and bringing … The post MEET OUR RISING STARS (Part 2) appeared first on GPJ .",
-      "image": "",
-      "source": "George P. Johnson",
-      "category": "06 Retail Brand Experience",
-      "angle": "Comprendre parcours et activation",
-      "status": "source_detected_not_editorially_analyzed"
-    },
-    {
-      "title": "Experience Intelligence June ’26",
-      "url": "https://www.gpj.com/news-insights/2026/06/experience-intelligence-june-26/",
-      "published": "2026-06-11T17:13:24+00:00",
-      "summary": "Attendees are rejecting manufactured marketing and over-hyped events in favor of radical transparency and highly functional, physical spaces. The post Experience Intelligence June ’26 appeared first on GPJ .",
-      "image": "",
-      "source": "George P. Johnson",
-      "category": "06 Retail Brand Experience",
-      "angle": "Comprendre parcours et activation",
-      "status": "source_detected_not_editorially_analyzed"
-    },
-    {
-      "title": "Speakers Announced for 2026 Brand New Conference",
-      "url": "https://underconsideration.com/headline_news/speakers-announced-for-2026-brand-new-conference/",
-      "published": "2026-06-10T16:02:24+00:00",
-      "summary": "",
-      "source": "Brand New",
-      "category": "03 DA Graphisme",
-      "angle": "Comparer avant/après et intentions",
-      "status": "source_detected_not_editorially_analyzed",
-      "image": ""
-    },
-    {
-      "title": "Le cabinet des poinçons typographiques, trésor de l’imprimerie nationale",
-      "url": "https://grapheine.com/magazine/cabinet-des-poincons-typographiques-tresor-imprimerie-nationale/",
-      "published": "2026-06-09T05:09:01+00:00",
-      "summary": "L'Imprimerie Nationale renferme un trésor de 500 000 poinçons typographiques, premiers maillons de l'imprimerie. Une seule personne sur terre sait comment les fabriquer.",
-      "source": "Graphéine",
-      "category": "13 France Marketing Design",
-      "angle": "Étudier les démarches de création",
-      "status": "source_detected_not_editorially_analyzed",
-      "image": ""
-    },
-    {
-      "title": "MEET OUR RISING STARS (Part 1)",
-      "url": "https://www.gpj.com/news-insights/2026/06/meet-our-rising-stars-part-1/",
-      "published": "2026-06-04T20:31:08+00:00",
-      "summary": "Behind every unforgettable experience is a team of passionate people driving innovation, collaboration, and impact. In this three-part series, we’re spotlighting our Rising Stars—GPJers who are shaping the future of our business through their leadership, curiosity, and commitment to excellence. First up, meet Stacy Kistuline in Detroit, Namitha Bhat in Bengaluru, and Sophie Taylor in … The post MEET OUR RISING STARS (Part 1) appeared first on GPJ .",
-      "image": "",
-      "source": "George P. Johnson",
-      "category": "06 Retail Brand Experience",
-      "angle": "Comprendre parcours et activation",
-      "status": "source_detected_not_editorially_analyzed"
-    },
-    {
-      "title": "La licorne, du mythe fantastique à l’émoji 🦄",
-      "url": "https://grapheine.com/magazine/licorne-mythe-visuel-fantastique/",
-      "published": "2026-06-02T05:01:34+00:00",
-      "summary": "Voici l'histoire visuelle et symbolique de la licorne, cet animal légendaire qui n'a jamais existé et qui n'a pourtant jamais cessé de fasciner l'humanité en mettant tout le monde d'accord, de la Bible à la communauté LGBT+.",
-      "image": "",
-      "source": "Graphéine",
-      "category": "13 France Marketing Design",
-      "angle": "Étudier les démarches de création",
-      "status": "source_detected_not_editorially_analyzed"
-    },
-    {
-      "title": "Seven Action Areas Shaping Better Live Experiences",
-      "url": "https://jackmorton.com/pov/seven-action-areas-shaping-better-live-experiences/",
-      "published": "2026-06-01T18:18:02+00:00",
-      "summary": "Sustainability isn’t a side conversation anymore. It’s reshaping how events are planned, built, and judged. Live experiences have always been powerful, but they also rely on energy, materials, travel, and infrastructure at scale. The impact doesn’t end when the doors close. The difference now? It’s visible. From emissions tied to travel and production to the […] The post Seven Action Areas Shaping Better Live Experiences appeared first on Jack Morton | Global Brand Experience Agency .",
-      "image": "",
-      "source": "Jack Morton",
-      "category": "06 Retail Brand Experience",
-      "angle": "Construire une dramaturgie de marque",
-      "status": "source_detected_not_editorially_analyzed"
-    },
-    {
-      "title": "Mental Health Awareness Month 2026",
-      "url": "https://www.gpj.com/news-insights/2026/05/mental-health-awareness-month-2026/",
-      "published": "2026-05-29T16:19:19+00:00",
-      "summary": "Explore the initiatives we've pursued this May as we continue to engage and educate ourselves and our clients on mental health. The post Mental Health Awareness Month 2026 appeared first on GPJ .",
-      "image": "",
-      "source": "George P. Johnson",
-      "category": "06 Retail Brand Experience",
-      "angle": "Comprendre parcours et activation",
-      "status": "source_detected_not_editorially_analyzed"
-    },
-    {
-      "title": "Le branding est-il devenu un parc d’attractions ?",
-      "url": "https://grapheine.com/magazine/gamification-divertissement-branding/",
-      "published": "2026-05-27T06:20:58+00:00",
-      "summary": "Le récréatif, le divertissant festif s’imposent comme les nouvelles tendances graphiques de la communication. Depuis quelques années, les identités de marques et le branding semblent survitaminées, en perpétuel mouvement, avec des typographies rebondissantes et des couleurs acidulées. Le branding peut-il se passer de gamification généralisée ? Rien n’est moins sur…",
-      "image": "",
-      "source": "Graphéine",
-      "category": "13 France Marketing Design",
-      "angle": "Étudier les démarches de création",
-      "status": "source_detected_not_editorially_analyzed"
-    },
-    {
-      "title": "L’univers futuriste de Brantonne",
-      "url": "https://grapheine.com/magazine/illustration-futuriste-brantonne/",
-      "published": "2026-05-18T10:25:05+00:00",
-      "summary": "Septembre 1951, René Brantonne débute une collaboration avec la maison d’édition Fleuve Noir qui va durer plus de 20 ans (de 1951 à 1965) autour de la mythique collection “Anticipation” dont il réalisera 273 ouvertures originales.",
-      "image": "",
-      "source": "Graphéine",
-      "category": "13 France Marketing Design",
-      "angle": "Étudier les démarches de création",
-      "status": "source_detected_not_editorially_analyzed"
-    },
-    {
-      "title": "F1 Brand Experience Report – May 2026",
-      "url": "https://jackmorton.com/brand-experience/f1-brand-experience-report-may-2026/",
-      "published": "2026-05-14T15:03:30+00:00",
-      "summary": "Thinking about entering F1? You might already be behind. F1 didn’t just outgrow the circuit, it outgrew the playbook. Miami made it clear: race weekend is no longer a sporting event. It’s a weeklong cultural takeover—and the brands that win aren’t the loudest, they’re the most embedded. The ones that show up like locals, not […] The post F1 Brand Experience Report – May 2026 appeared first on Jack Morton | Global Brand Experience Agency .",
-      "image": "",
-      "source": "Jack Morton",
-      "category": "06 Retail Brand Experience",
-      "angle": "Construire une dramaturgie de marque",
-      "status": "source_detected_not_editorially_analyzed"
-    },
-    {
-      "title": "Vizrt strengthens its presence in the UK and Ireland with new distributor, Holdan",
-      "url": "https://routing.vizrt.com/vizrt/press-center/new-uk-and-ireland-distributor-holdan/",
-      "published": "2026-05-12T16:47:55+00:00",
-      "summary": "Vizrt, the AI platform for visual storytelling, today announces a partnership with a new distributor based in the United Kingdom, Holdan, part of the Midwich Group. Holdan is licensed to distribute the full scope of Vizrt’s portfolio – from vision mixing and easy-to-use HTML5 graphics, to data-driven augmented reality (AR) graphics that creates virtual environments and powers in-depth analysis for live events and sports. The post Vizrt strengthens its presence in the UK and Ireland with new distributor, Holdan appeared first on Vizrt | Transforming Viewer Experiences .",
-      "image": "",
-      "source": "Vizrt",
-      "category": "02 TV Broadcast",
-      "angle": "Explorer la scénographie augmentée",
-      "status": "source_detected_not_editorially_analyzed"
-    },
-    {
-      "title": "Vizrt graphics chosen as the Official Technical Supplier of Eurovision 2026",
-      "url": "https://routing.vizrt.com/vizrt/press-center/pr-vizrt-graphics-eurovision-2026/",
-      "published": "2026-05-11T10:30:00+00:00",
-      "summary": "Broadcast live from Vienna to millions of fans across Europe and beyond, the 70th edition of the Eurovision Song Contest will rely on Vizrt technology to create immersive visual elements that elevate the audience experience, bringing them closer to the Eurovision stage. The post Vizrt graphics chosen as the Official Technical Supplier of Eurovision 2026 appeared first on Vizrt | Transforming Viewer Experiences .",
-      "image": "",
-      "source": "Vizrt",
-      "category": "02 TV Broadcast",
-      "angle": "Explorer la scénographie augmentée",
-      "status": "source_detected_not_editorially_analyzed"
-    },
-    {
-      "title": "Marketing in Motion: Lessons From Future of Brands on Attention, Culture & Connection",
-      "url": "https://grandvisual.com/marketing-in-motion-lessons-from-future-of-brands-on-attention-culture-connection/",
-      "published": "2026-05-07T09:51:14+00:00",
-      "summary": "I came away from the Adwanted Events Future of Brands event last week feeling inspired. The panels were smart, honest and thought-provoking, and a great reminder of what really makes ads land. A few key takeaways that stuck with me: And one point that really stayed with me, you can’t AI human emotion. Brands aren’t speaking to algorithms, they’re […] The post Marketing in Motion: Lessons From Future of Brands on Attention, Culture & Connection appeared first on Grand Visual .",
-      "image": "",
-      "source": "Grand Visual",
-      "category": "07 FOOH OOH DOOH",
-      "angle": "Étudier contexte et réactivité",
-      "status": "source_detected_not_editorially_analyzed"
-    },
-    {
-      "title": "Giày chạy bộ thể thao siêu nhẹ nữ Humtto-X Easy Run 370374B",
-      "url": "https://humtto.vn/giay-chay-bo-the-thao-sieu-nhe-nu-humtto-x-easy-run-370374b/",
-      "published": "2026-05-04T09:32:45+00:00",
-      "summary": "Bài viết Giày chạy bộ thể thao siêu nhẹ nữ Humtto-X Easy Run 370374B đã xuất hiện đầu tiên vào ngày Humtto Vietnam .",
-      "source": "Art of the Title",
-      "category": "08 Immersif CGI Motion",
-      "angle": "Analyser intention et rythme",
-      "status": "source_detected_not_editorially_analyzed",
-      "image": ""
-    },
-    {
-      "title": "Giày chạy bộ thể thao siêu nhẹ nam Humtto-X Easy Run 370374A",
-      "url": "https://humtto.vn/giay-chay-bo-the-thao-sieu-nhe-nam-humtto-x-easy-run-370374a/",
-      "published": "2026-05-04T09:30:15+00:00",
-      "summary": "Bài viết Giày chạy bộ thể thao siêu nhẹ nam Humtto-X Easy Run 370374A đã xuất hiện đầu tiên vào ngày Humtto Vietnam .",
-      "source": "Art of the Title",
-      "category": "08 Immersif CGI Motion",
-      "angle": "Analyser intention et rythme",
-      "status": "source_detected_not_editorially_analyzed",
-      "image": ""
-    },
-    {
-      "title": "Giày sandal đi biển trekking thoát nước nhanh nam Humtto 771222A",
-      "url": "https://humtto.vn/giay-sandal-di-bien-trekking-thoat-nuoc-nhanh-nam-humtto-771222a/",
-      "published": "2026-05-04T09:11:50+00:00",
-      "summary": "Bài viết Giày sandal đi biển trekking thoát nước nhanh nam Humtto 771222A đã xuất hiện đầu tiên vào ngày Humtto Vietnam .",
-      "source": "Art of the Title",
-      "category": "08 Immersif CGI Motion",
-      "angle": "Analyser intention et rythme",
-      "status": "source_detected_not_editorially_analyzed",
-      "image": ""
-    },
-    {
-      "title": "Giày rọ leo núi lội nước chống trượt nam Humtto 771588A",
-      "url": "https://humtto.vn/giay-ro-leo-nui-loi-nuoc-chong-truot-nam-humtto-771588a/",
-      "published": "2026-05-04T09:05:48+00:00",
-      "summary": "Bài viết Giày rọ leo núi lội nước chống trượt nam Humtto 771588A đã xuất hiện đầu tiên vào ngày Humtto Vietnam .",
-      "source": "Art of the Title",
-      "category": "08 Immersif CGI Motion",
-      "angle": "Analyser intention et rythme",
-      "status": "source_detected_not_editorially_analyzed",
-      "image": ""
-    },
-    {
-      "title": "Giày sandal lội nước chống trượt nam Humtto 670823A",
-      "url": "https://humtto.vn/giay-sandal-loi-nuoc-chong-truot-nam-humtto-670823a/",
-      "published": "2026-05-04T08:53:16+00:00",
-      "summary": "Bài viết Giày sandal lội nước chống trượt nam Humtto 670823A đã xuất hiện đầu tiên vào ngày Humtto Vietnam .",
-      "source": "Art of the Title",
-      "category": "08 Immersif CGI Motion",
-      "angle": "Analyser intention et rythme",
-      "status": "source_detected_not_editorially_analyzed",
-      "image": ""
-    },
-    {
-      "title": "Giày trekking lội nước bám tốt nam Humtto 670892A",
-      "url": "https://humtto.vn/giay-trekking-loi-nuoc-bam-tot-nam-humtto-670892a/",
-      "published": "2026-05-04T08:21:24+00:00",
-      "summary": "Bài viết Giày trekking lội nước bám tốt nam Humtto 670892A đã xuất hiện đầu tiên vào ngày Humtto Vietnam .",
-      "source": "Art of the Title",
-      "category": "08 Immersif CGI Motion",
-      "angle": "Analyser intention et rythme",
-      "status": "source_detected_not_editorially_analyzed",
-      "image": ""
-    },
-    {
-      "title": "Giày lội nước trekking chuyên dụng nữ Humtto 670799B",
-      "url": "https://humtto.vn/giay-loi-nuoc-trekking-chuyen-dung-nu-humtto-670799b/",
-      "published": "2026-05-04T08:07:46+00:00",
-      "summary": "Bài viết Giày lội nước trekking chuyên dụng nữ Humtto 670799B đã xuất hiện đầu tiên vào ngày Humtto Vietnam .",
-      "source": "Art of the Title",
-      "category": "08 Immersif CGI Motion",
-      "angle": "Analyser intention et rythme",
-      "status": "source_detected_not_editorially_analyzed",
-      "image": ""
     }
   ]
 }
