@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-07T20:39:50.300547+00:00",
+  "updated_at": "2026-11-07T20:48:33.553691+00:00",
   "status": "collected_unreviewed",
   "working_feeds": [
     {
@@ -99,7 +99,7 @@
     },
     {
       "name": "Design Observer",
-      "feed": "https://designobserver.com/feed",
+      "feed": "https://designobserver.com/feed/",
       "category": "11 Graphisme Expertise"
     },
     {
@@ -211,18 +211,38 @@
       "name": "IDlia Studio",
       "feed": "https://www.idlia.fr/feed",
       "category": "09 France Pro"
+    },
+    {
+      "name": "FRATERCINÉ",
+      "feed": "https://www.fratercine.fr/feed",
+      "category": "09 France Pro"
+    },
+    {
+      "name": "Grand Visual",
+      "feed": "https://grandvisual.com/feed/",
+      "category": "07 FOOH OOH DOOH"
+    },
+    {
+      "name": "Stereogum",
+      "feed": "https://www.stereogum.com/feed/",
+      "category": "14 Musique Clips"
+    },
+    {
+      "name": "Pitchfork",
+      "feed": "https://pitchfork.com/rss/news/",
+      "category": "14 Musique Clips"
     }
   ],
   "collection_slot": 0,
   "collection_hour_paris": 21,
   "sources_selected": 182,
-  "sources_checked": 160,
+  "sources_checked": 182,
   "special_test": false,
   "special_selection": {},
   "backfill_test": {
     "period": "2026-11-01/2026-11-07",
-    "articles": 369,
-    "with_images": 219
+    "articles": 371,
+    "with_images": 226
   },
   "items": [
     {
@@ -234,7 +254,34 @@
       "source": "Artforum",
       "category": "05 Art Architecture",
       "angle": "Approfondir les références artistiques",
-      "status": "source_detected_not_editorially_analyzed"
+      "status": "source_detected_not_editorially_analyzed",
+      "title_fr": "La Suède rend les bronzes du Bénin au Nigeria",
+      "summary_fr": "La Suède restituera 40 objets sacrés du Bénin au Nigeria. Il s’agira de l’un des plus grands rapatriements de travaux béninois à ce jour. Les œuvres d'art devaient rentrer à Lagos hier. Oba Ewuare II, le monarque du Bénin, a décrit le retour au travail comme étant en préparation depuis longtemps. « Nous avons essayé, à travers mon […]"
+    },
+    {
+      "title": "Television’s Richard Lloyd Dead At 75",
+      "url": "https://stereogum.com/2516946/televisions-richard-lloyd-dead-at-75/news/",
+      "published": "2026-11-07T17:43:36+00:00",
+      "summary": "The post Television’s Richard Lloyd Dead At 75 appeared first on Stereogum .",
+      "image": "https://lede-admin.stereogum.com/wp-content/uploads/sites/64/2026/11/richard-lloyd.jpg?w=564",
+      "source": "Stereogum",
+      "category": "14 Musique Clips",
+      "angle": "Analyser les intentions visuelles, la mise en scène, le montage et l'identité des clips",
+      "status": "source_detected_not_editorially_analyzed",
+      "title_fr": "Richard Lloyd de la télévision est mort à 75 ans",
+      "summary_fr": "La publication Richard Lloyd Dead At 75 de la télévision est apparue en premier sur Stereogum."
+    },
+    {
+      "title": "Richard Lloyd, Television Guitarist, Dies at 75",
+      "url": "https://pitchfork.com/story/richard-lloyd-television-guitarist-dies-at-75/",
+      "published": "2026-11-07T17:11:52+00:00",
+      "summary": "Lloyd co-founded the pioneering rock band alongside Tom Verlaine, Billy Ficca, and Richard Hell",
+      "image": "https://media.pitchfork.com/photos/6aef5d6a9f3c335e58247c0a/master/pass/GettyImages-592276437.jpg",
+      "source": "Pitchfork",
+      "category": "14 Musique Clips",
+      "angle": "Analyser les intentions visuelles, la mise en scène, le montage et l'identité des clips",
+      "status": "source_detected_not_editorially_analyzed",
+      "title_fr": "Richard Lloyd, guitariste de télévision, décède à 75 ans"
     },
     {
       "title": "Rosalía Reflects On One Year Of Lux With 1,000-Track Playlist",
@@ -283,7 +330,8 @@
       "source": "ArchDaily",
       "category": "05 Art Architecture",
       "angle": "Lire parcours et plans",
-      "status": "source_detected_not_editorially_analyzed"
+      "status": "source_detected_not_editorially_analyzed",
+      "title_fr": "Appartement Amabile / Denis Joelsons"
     },
     {
       "title": "Edicola 518 / Giuseppe Arezzi",
@@ -294,7 +342,8 @@
       "source": "ArchDaily",
       "category": "05 Art Architecture",
       "angle": "Lire parcours et plans",
-      "status": "source_detected_not_editorially_analyzed"
+      "status": "source_detected_not_editorially_analyzed",
+      "title_fr": "Kiosque 518 / Giuseppe Arezzi"
     },
     {
       "title": "Massó Apartment / Castroferro Arquitectura",
@@ -3255,7 +3304,7 @@
       "category": "09 France Pro",
       "angle": "Suivre les productions françaises",
       "status": "source_detected_not_editorially_analyzed",
-      "image": ""
+      "image": "https://www.revue-as.fr/wp-content/uploads/2026/10/DSC07505-scaled-e1793372474722.jpg"
     },
     {
       "title": "Denis est généreux avec le riz et Lola fait le coup du faux collier : le grand n&#8217;importe quoi des réseaux sociaux",
@@ -3339,7 +3388,7 @@
       "url": "https://www.creativeboom.com/news/film-is-breaking-out-of-its-box-and-this-cathedral-tour-is-showing-the-way/",
       "published": "2026-11-04T08:00:00+00:00",
       "summary": "Forty-four years after it first aired, The Snowman is touring with an orchestra, including shows in four cathedrals. And I think this tells us a lot about where we are as a culture. It's been 44 years...",
-      "image": "",
+      "image": "https://media.creativeboom.com/880f37be-58dc-451f-b038-298a941fcd7d/conversions/00b5829b6a238169408a571266f74bfc760d9fe3-medium.webp",
       "source": "Creative Boom",
       "category": "03 DA Graphisme",
       "angle": "Découvrir les pratiques créatives",
@@ -3868,7 +3917,7 @@
       "url": "https://www.creativeboom.com/inspiration/how-elie-nguessan-makes-everyday-london-look-like-a-movie/",
       "published": "2026-11-03T06:30:00+00:00",
       "summary": "From an impromptu shoot with four curious kids to a sportswear campaign concept staged inside a car, the London photographer finds inspiration in familiar places and unplanned moments. Elie N'Guessan...",
-      "image": "",
+      "image": "https://media.creativeboom.com/cbce7f6a-b753-427a-bcbf-c897169a9dfd/conversions/b86f66e00d2ad9ca53f7e4f8cf1d1d005b38b6fc-medium.webp",
       "source": "Creative Boom",
       "category": "03 DA Graphisme",
       "angle": "Découvrir les pratiques créatives",
@@ -4166,7 +4215,7 @@
       "url": "https://plsn.com/featured/multipurpose-ayrton-eaglestrike-employed-on-harry-styles-together-together-tour/",
       "published": "2026-11-02T13:05:54+00:00",
       "summary": "Lighting Designer Eric Marchwinski and Silent House provided the lighting design for Harry Styles' massive 'Together Together' tour. As a part of the design, the design team chose to use the Ayrton EagleStrike for their followspot needs. The EagleStrike was chosen to operate as the main profile fixture for effect/key light, but also as a consistent followspot.",
-      "image": "",
+      "image": "https://plsn.com/site/wp-content/uploads/Ayrton-01_HSTT-┬⌐-Julian-Bajsel-sml-scaled.jpg",
       "source": "PLSN",
       "category": "01 Spectacle Concert",
       "angle": "Veille techniques et dispositifs",
@@ -4214,7 +4263,7 @@
       "category": "09 France Pro",
       "angle": "Suivre les productions françaises",
       "status": "source_detected_not_editorially_analyzed",
-      "image": ""
+      "image": "https://www.revue-as.fr/wp-content/uploads/2024/11/picto-viepro-as-e1760013309371.jpg"
     },
     {
       "title": "Gisèle CLARK, 26.11.1947 – 17.10.2026",
@@ -4509,7 +4558,7 @@
       "url": "https://www.tsugi.fr/jean-michel-jarre-annonce-trois-concerts-a-paris-pour-les-50-ans-de-son-album-oxygene/",
       "published": "2026-10-30T09:51:31+00:00",
       "summary": "Cinquante ans après la sortie de son album culte, Jean-Michel Jarre célébrera Oxygène avec une tournée internationale en 2027 et 2028. Baptisée « Oxygene & Beyond », elle passera notamment par la Seine Musicale, à Paris, pour trois concerts en octobre 2027.Un demi-siècle après avoir contribué à faire entrer la musique électronique dans les foyers […]",
-      "image": "",
+      "image": "https://www.tsugi.fr/cdn/ptext.sopress.dev/tsugi/jean-michel-jarre-annonce-trois-concerts-a-paris-pour-les-50-ans-de-son-album-oxygene.jpg?hash=cdn-32141163be71b0cedc57d24eee643c69",
       "source": "Tsugi",
       "category": "14 Musique Clips",
       "angle": "Décrypter intention, émotion, mise en scène, image et son des clips et performances musicales",
@@ -4619,7 +4668,7 @@
       "url": "https://www.tsugi.fr/nectar-woode-naturally-cest-un-recueil-des-pensees-qui-me-viennent-quand-je-marche/",
       "published": "2026-10-29T14:20:40+00:00",
       "summary": "Pour la sortie de son dernier album Naturally, Nectar Woode est en tournée européenne. Tsugi a profité de sa venue à Paris pour sa date à la Bellevilloise afin de lui poser quelques questions.Il y a celles et ceux qui marchent dans la rue et il y a Nectar Woode, qui marche aussi dans la […]",
-      "image": "",
+      "image": "https://www.tsugi.fr/cdn/ptext.sopress.dev/tsugi/nectar-woode-naturally-cest-un-recueil-des-pensees-qui-me-viennent-quand-je-marche.jpg?hash=cdn-454991cbb37f2367b9d7b6e10abd9db4",
       "source": "Tsugi",
       "category": "14 Musique Clips",
       "angle": "Décrypter intention, émotion, mise en scène, image et son des clips et performances musicales",
@@ -4697,7 +4746,7 @@
       "url": "https://www.tsugi.fr/tsugi-radio-alexi-shell-en-dj-set-avant-son-passage-au-pitchfork-music-festival-paris/",
       "published": "2026-10-29T08:51:17+00:00",
       "summary": "Pitchfork Music Festival Paris c’est une semaine de concerts un peu partout dans Paris, du 1 au 8 novembre, où se pressent de nombreux artistes internationaux super excitants : ear, DIIV, A.G. Cook. Mais c’est aussi deux club nights au Trabendo vendredi 6 et samedi 7 novembre.À écouter : la programmation de Pitchfork en détail […]",
-      "image": "",
+      "image": "https://www.tsugi.fr/cdn/ptext.sopress.dev/tsugi/tsugi-radio-alexi-shell-en-dj-set-avant-son-passage-au-pitchfork-music-festival-paris.jpg?hash=cdn-4be883c934dadca064ec94e89a72979b",
       "source": "Tsugi",
       "category": "14 Musique Clips",
       "angle": "Décrypter intention, émotion, mise en scène, image et son des clips et performances musicales",
@@ -4862,7 +4911,7 @@
       "url": "https://www.tsugi.fr/magazine-back2back-chacun-son-tour/",
       "published": "2026-10-28T15:45:58+00:00",
       "summary": "Le Back2Back, ou B2B, est aujourd’hui un incontournable de la programmation des festivals. L’exercice consiste à inviter sur scène deux (ou trois) DJ à partager le même set, chacun venant jouer un titre l’un après l’autre. Prisé par certains, critiqué par d’autres, le B2B apporte-t-il du neuf ou s’agit-il d’une simple tentative de marketing, conçue […]",
-      "image": "",
+      "image": "https://www.tsugi.fr/cdn/ptext.sopress.dev/tsugi/magazine-back2back-chacun-son-tour.jpg?hash=cdn-488fdbc97f31e80b682ebd944ff99091",
       "source": "Tsugi",
       "category": "14 Musique Clips",
       "angle": "Décrypter intention, émotion, mise en scène, image et son des clips et performances musicales",
@@ -4917,7 +4966,7 @@
       "url": "https://www.tsugi.fr/gigi-fm-asap-rocky-nabihah-iqbal-les-derniers-singles-quon-a-aimes/",
       "published": "2026-10-27T16:47:42+00:00",
       "summary": "Oyé Oyé ! On a une info pour vous : chaque jour, entre 120 000 et 150 000 morceaux sont mis en ligne dans le monde. On vous met au défi de tout écouter mais très honnêtement la performance nous paraît insurmontable. Pas de panique, on est là pour vous aider. Rien que pour vous, […]",
-      "image": "",
+      "image": "https://www.tsugi.fr/cdn/ptext.sopress.dev/tsugi/gigi-fm-asap-rocky-nabihah-iqbal-les-derniers-singles-quon-a-aimes.jpg?hash=cdn-05aa8d6cacff437a550e0266e28762ec",
       "source": "Tsugi",
       "category": "14 Musique Clips",
       "angle": "Décrypter intention, émotion, mise en scène, image et son des clips et performances musicales",
@@ -4939,7 +4988,7 @@
       "url": "https://www.tsugi.fr/live-report-le-swim-festival-une-plongee-merveilleuse-dans-la-scene-rock-independante/",
       "published": "2026-10-27T16:01:19+00:00",
       "summary": "Ce samedi 24 octobre, on a mis le cap vers La Rochelle et jeté l’ancre à La Sirène pour assister au SWIM festival. Lors de cette seconde édition, on a multiplié les allers-retours entre les deux scènes de la salle pour assister aux florilèges de concerts proposés par le festival. Entre artistes en devenir et […]",
-      "image": "",
+      "image": "https://www.tsugi.fr/cdn/ptext.sopress.dev/tsugi/live-report-le-swim-festival-une-plongee-merveilleuse-dans-la-scene-rock-independante.jpg?hash=cdn-ccb94442138cc9aabb11b50f87dd0794",
       "source": "Tsugi",
       "category": "14 Musique Clips",
       "angle": "Décrypter intention, émotion, mise en scène, image et son des clips et performances musicales",
@@ -4961,7 +5010,7 @@
       "url": "https://www.tsugi.fr/six-sous-genres-pour-comprendre-les-musiques-electroniques/",
       "published": "2026-10-27T13:45:13+00:00",
       "summary": "De la bleep techno au singeli, en passant par le future garage et l’electroclash, les musiques électroniques se sont construites au fil de sous-genres qui ont chacun contribué à en redéfinir les contours. Parfois restés dans l’ombre, parfois devenus des références incontournables, ces courants ont influencé des générations de productrices et producteurs puis continuent de […]",
-      "image": "",
+      "image": "https://www.tsugi.fr/cdn/ptext.sopress.dev/tsugi/six-sous-genres-pour-comprendre-les-musiques-electroniques.jpg?hash=cdn-be5faebaed36ea28e2eab0a5ac54ba90",
       "source": "Tsugi",
       "category": "14 Musique Clips",
       "angle": "Décrypter intention, émotion, mise en scène, image et son des clips et performances musicales",
@@ -5061,7 +5110,7 @@
       "url": "https://www.tsugi.fr/laurent-garnier-lance-une-compilation-autours-des-musiques-non-electroniques/",
       "published": "2026-10-26T11:05:25+00:00",
       "summary": "Laurent Garnier lance sa série de compilations musicales intitulée It’s All Connected Somehow. Connu pour son amour du digging et sa collection de disques sans fin, le DJ souhaite, à travers ce projet, mettre en avant les ponts invisibles qui relient les genres musicaux. Le premier volume, entièrement dédié à la soul music, sortira le […]",
-      "image": "",
+      "image": "https://www.tsugi.fr/cdn/ptext.sopress.dev/tsugi/laurent-garnier-lance-une-compilation-autours-des-musiques-non-electroniques.jpg?hash=cdn-61933944f7932d9606c0d07b522e48f6",
       "source": "Tsugi",
       "category": "14 Musique Clips",
       "angle": "Décrypter intention, émotion, mise en scène, image et son des clips et performances musicales",
@@ -5116,7 +5165,7 @@
       "url": "https://www.tsugi.fr/alchemical-sisters-nathan-fake-miaw-les-sorties-de-la-semaine/",
       "published": "2026-10-23T16:03:56+00:00",
       "summary": "Vents et marées ne sauront nous arrêter, des pépites par milliers, toujours à dénicher. Entre voyages psychédéliques, expérimentations électroniques et retours aux sources, voici les sorties de la semaine. Au programme : le chaos acid breakbeat d’Alchemical Sisters, les textures incandescentes de Nathan Fake, la jungle mélancolique de miaw, la pop introspective d’Aloïse Sauvage, les […]",
-      "image": "",
+      "image": "https://www.tsugi.fr/cdn/ptext.sopress.dev/tsugi/alchemical-sisters-nathan-fake-miaw-les-sorties-de-la-semaine.jpg?hash=cdn-ca8335913e0b85b5764b1c00b93c7f43",
       "source": "Tsugi",
       "category": "14 Musique Clips",
       "angle": "Décrypter intention, émotion, mise en scène, image et son des clips et performances musicales",
@@ -5204,7 +5253,7 @@
       "url": "https://www.tsugi.fr/lego-ressucite-le-duo-daft-punk-pour-une-prochaine-collaboration/",
       "published": "2026-10-22T14:43:40+00:00",
       "summary": "LEGO et Daft Punk officialisent leur collaboration avec un premier projet inspiré de l’iconique pyramide de leds qui les a accompagnés lors de la tournée Alive de 2007. Un set imaginé par un père et son fils, qui va passer du simple projet de fans à la production officielle.Robots cubiquesLes rumeurs disaient donc vrai. LEGO […]",
-      "image": "",
+      "image": "https://www.tsugi.fr/cdn/ptext.sopress.dev/tsugi/lego-ressucite-le-duo-daft-punk-pour-une-prochaine-collaboration.jpg?hash=cdn-81ba1feeb97e2b25a61ac645ebf4bca5",
       "source": "Tsugi",
       "category": "14 Musique Clips",
       "angle": "Décrypter intention, émotion, mise en scène, image et son des clips et performances musicales",
@@ -5326,7 +5375,7 @@
       "url": "https://dancemagazine.com/oona-doherty-specky-clark/?utm_source=rss&utm_medium=rss&utm_campaign=oona-doherty-specky-clark",
       "published": "2026-10-21T13:00:00+00:00",
       "summary": "Like much of choreographer Oona Doherty’s work, Specky Clark is bold, subversive, and, at times, very strange. Part fictional and part biographical, the dance-theater work blends Irish mythology with the story of Doherty’s great-great-grandfather, nicknamed Specky Clark, whose childhood was upended when his mother died and he relocated from Glasgow to Belfast. After touring Specky […] The post Oona Doherty on Mixing Mythology, Biography, and Talking Pig Heads in Specky Clark appeared first on Dance Magazine .",
-      "image": "",
+      "image": "https://dancemagazine.com/wp-content/uploads/2026/10/Oona-Dohertys-Specky-Clark-photo-by-Luca-Truffarelli.jpg",
       "source": "Dance Magazine",
       "category": "15 Danse Performance",
       "angle": "Observer les intentions de mise en scène, composition, rythme, lumière et expérience du public",
@@ -5348,7 +5397,7 @@
       "url": "https://www.tsugi.fr/bicep-revient-avec-trois-nouveaux-clips-entre-enquete-policiere-et-braquage-de-pigeons/",
       "published": "2026-10-21T11:08:04+00:00",
       "summary": "Le duo britannique Bicep dévoile trois nouveaux morceaux, « Gas », « Ultra » et « Equarium », pour annoncer un nouvel album attendu le 29 janvier 2027. Accompagnés d’un triptyque de clips mettant en scène un mystérieux braquage de pigeons, ces titres marquent une nouvelle étape dans le retour du duo sur le label […]",
-      "image": "",
+      "image": "https://www.tsugi.fr/cdn/ptext.sopress.dev/tsugi/bicep-revient-avec-trois-nouveaux-clips-entre-enquete-policiere-et-braquage-de-pigeons.jpg?hash=cdn-69e2e0d92960d4ba7e8e78c939d2bb4a",
       "source": "Tsugi",
       "category": "14 Musique Clips",
       "angle": "Décrypter intention, émotion, mise en scène, image et son des clips et performances musicales",
@@ -5370,7 +5419,7 @@
       "url": "https://www.tsugi.fr/les-femmes-sen-melent-un-festival-pour-faire-entendre-celles-qui-renouvellent-les-musiques-actuelles/",
       "published": "2026-10-21T08:14:47+00:00",
       "summary": "Du 22 octobre au 11 décembre 2026, le festival Les Femmes S’en Mêlent revient pour une 27e édition itinérante, avec des concerts dans plus de vingt villes françaises. Entre pop, folk, rock alternatif, punk, rap et musiques électroniques, l’événement poursuit son engagement en faveur de la visibilité des artistes femmes et de la diversité des […]",
-      "image": "",
+      "image": "https://www.tsugi.fr/cdn/ptext.sopress.dev/tsugi/les-femmes-sen-melent-un-festival-pour-faire-entendre-celles-qui-renouvellent-les-musiques-actuelles.jpg?hash=cdn-72ecd188f313e6a9d6e51bd0a2592bd8",
       "source": "Tsugi",
       "category": "14 Musique Clips",
       "angle": "Décrypter intention, émotion, mise en scène, image et son des clips et performances musicales",
@@ -5458,7 +5507,7 @@
       "url": "https://www.tsugi.fr/le-festival-panoramas-lance-une-formation-de-djing-pour-les-femmes-et-les-minorites-de-genre/",
       "published": "2026-10-20T12:34:50+00:00",
       "summary": "On veut plus de DJ FLINTA (femmes, lesbiennes, intersexes, non-binaires, trans, agenres) derrière les platines ! Et le festival de musiques électroniques Panoramas à Morlaix l’a bien compris. Le rendez-vous breton incontournable ouvre une formation au mix à destination des femmes et des minorités de genre pour cette nouvelle saison. Tsugi vous explique.Depuis 1998, les […]",
-      "image": "",
+      "image": "https://www.tsugi.fr/cdn/ptext.sopress.dev/tsugi/le-festival-panoramas-lance-une-formation-de-djing-pour-les-femmes-et-les-minorites-de-genre.jpg?hash=cdn-585680bec4d8d7f9904a727d56fb3d51",
       "source": "Tsugi",
       "category": "14 Musique Clips",
       "angle": "Décrypter intention, émotion, mise en scène, image et son des clips et performances musicales",
@@ -5469,7 +5518,7 @@
       "url": "https://www.etapes.com/2026/10/20/un-designer-est-il-responsable-de-limage-de-ses-clients/",
       "published": "2026-10-20T07:43:00+00:00",
       "summary": "Après la polémique autour du logo Muse conçu pour Meta, le cas Jessica Hische interroge la responsabilité des designers et les limites de la critique. The post Un designer est-il responsable de l’image de ses clients ? first appeared on Etapes : .",
-      "image": "",
+      "image": "https://www.etapes.com/wp-content/uploads/2024/04/miniature-etapes-petit.png",
       "source": "Étapes",
       "category": "13 France Marketing Design",
       "angle": "Suivre créateurs et pratiques",
@@ -5634,7 +5683,7 @@
       "url": "https://www.tsugi.fr/rachel-chinouriri-jai-compris-que-je-pouvais-toujours-etre-cette-personne-fun-meme-sobre/",
       "published": "2026-10-16T10:50:08+00:00",
       "summary": "Rachel Chinouriri vient de dévoiler I think I spoke too soon, un second album de pop alternative tourné vers la fête et les questionnements qui l’accompagnent. Tsugi a profité du passage de la chanteuse britannique dans la capitale française pour lui poser quelques questions. Par Marion Sammarcelli et Valentin BoeroIl y a des artistes qui donnent […]",
-      "image": "",
+      "image": "https://www.tsugi.fr/cdn/ptext.sopress.dev/tsugi/rachel-chinouriri-jai-compris-que-je-pouvais-toujours-etre-cette-personne-fun-meme-sobre.jpg?hash=cdn-d17a7ddc1eb27919ae88bfd46bb6392b",
       "source": "Tsugi",
       "category": "14 Musique Clips",
       "angle": "Décrypter intention, émotion, mise en scène, image et son des clips et performances musicales",
@@ -5792,7 +5841,7 @@
       "category": "13 France Marketing Design",
       "angle": "Étudier les démarches de création",
       "status": "source_detected_not_editorially_analyzed",
-      "image": ""
+      "image": "https://grapheine.com/wp-content/uploads/2026/09/cover-peintures-de-lettres-1.webp"
     },
     {
       "title": "Order creates a delightfully design history-steeped identity for Salt Lick on Salt Creek – but what actually is it?",
@@ -6354,28 +6403,6 @@
       "source": "Imagination",
       "category": "06 Retail Brand Experience",
       "angle": "Analyser expérience comme stratégie",
-      "status": "source_detected_not_editorially_analyzed"
-    },
-    {
-      "title": "A Paris Design Roundup, a Revamped ’90s Hollywood Gem, Art Candelabras, and More",
-      "url": "https://www.sightunseen.com/2026/09/a-paris-design-roundup-a-revamped-90s-hollywood-gem-art-candelabras-and-more/",
-      "published": "2026-09-20T20:51:03+00:00",
-      "summary": "Plus: Collina Strada makes couches.",
-      "image": "https://www.sightunseen.com/wordpress/wp-content/uploads/2026/09/OmeDezin-WoodrowWilson235681_2-728x570.jpg",
-      "source": "Sight Unseen",
-      "category": "05 Art Architecture",
-      "angle": "Découvrir matériaux et créateurs",
-      "status": "source_detected_not_editorially_analyzed"
-    },
-    {
-      "title": "Pourquoi tout le monde pense pouvoir juger un logo",
-      "url": "https://www.etapes.com/2026/09/17/pourquoi-tout-le-monde-pense-pouvoir-juger-un-logo/",
-      "published": "2026-09-17T08:04:37+00:00",
-      "summary": "Pourquoi les logos déclenchent-ils autant de réactions ? Entre attachement, réseaux sociaux, coût, rebranding et jugement instantané, décryptage d’un objet graphique très exposé. The post Pourquoi tout le monde pense pouvoir juger un logo first appeared on Etapes : .",
-      "image": "",
-      "source": "Étapes",
-      "category": "13 France Marketing Design",
-      "angle": "Suivre créateurs et pratiques",
       "status": "source_detected_not_editorially_analyzed"
     }
   ]
