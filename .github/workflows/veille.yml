@@ -10,6 +10,7 @@ on:
   push:
     paths:
       - 'collect.py'
+      - 'analyze.py'
       - 'data/sources.json'
       - '.github/workflows/veille.yml'
   schedule:
@@ -63,6 +64,7 @@ jobs:
         run: python collect.py
       - name: Analyser les projets sélectionnés
         if: steps.slot.outputs.run == 'true'
+        id: editorial
         continue-on-error: true
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
@@ -104,3 +106,9 @@ jobs:
             echo 'Échec de publication après 5 tentatives.'
             exit 1
           fi
+
+      - name: Signaler clairement un échec de l'analyse
+        if: always() && steps.slot.outputs.run == 'true' && steps.editorial.outcome == 'failure'
+        run: |
+          echo "::error::Analyse automatique en échec. Vérifier OPENAI_API_KEY, quota API et journaux de analyze.py. La collecte peut avoir été publiée, mais pas les décryptages."
+          exit 1
