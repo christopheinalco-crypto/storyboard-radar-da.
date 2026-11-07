@@ -102,19 +102,25 @@ def parse(blob):
  return entries
 # Rattrapage exceptionnel du 1 au 7 novembre : toutes les sources sur un seul passage.\n# Rotation stable par jour : toutes les sources passent sur six créneaux,
 # avec un quota renforcé pour les arts de la scène, la TV, les clips et la danse.
+from zoneinfo import ZoneInfo
 now=datetime.datetime.now(datetime.timezone.utc)
-slot=int(os.environ.get('RADAR_SLOT_INDEX',str({6:0,9:1,12:2,15:3,18:4,21:5}.get(now.hour,(now.hour//3)%6))))%6
-seed=int(hashlib.sha256(now.date().isoformat().encode()).hexdigest()[:12],16)
+paris=now.astimezone(ZoneInfo('Europe/Paris'))
+wave_hours=(6,8,10,12,14,16,18,20)
+slot=int(os.environ.get('RADAR_SLOT_INDEX',str(wave_hours.index(paris.hour) if paris.hour in wave_hours else 0)))%8
+seed=int(hashlib.sha256(paris.date().isoformat().encode()).hexdigest()[:12],16)
 by_category={}
 for s in sources:by_category.setdefault(s['category'],[]).append(s)
-rotations=[[] for _ in range(6)]
+# Chaque vague inclut toutes les catégories. Les sources sont réparties
+# entre les huit vagues, avec au moins une source par catégorie et par vague.
+rotations=[[] for _ in range(8)]
 for category,group in sorted(by_category.items()):
  group=group[:]
  random.Random(seed+int(hashlib.md5(category.encode()).hexdigest()[:8],16)).shuffle(group)
- for i,s in enumerate(group):rotations[i%6].append(s)
-# Lors d'un déclenchement manuel, inspecter toutes les sources ; en automatique,
-# répartir la charge sur la journée et conserver un renouvellement transversal.
-selected=sources if os.environ.get('RADAR_SLOT','')=='manual' else rotations[slot]
+ for wave in range(8):
+  selection=[s for i,s in enumerate(group) if i%8==wave]
+  if not selection and group:selection=[group[wave%len(group)]]
+  rotations[wave].extend(selection)
+selected=sources[:] if os.environ.get('RADAR_SLOT','')=='manual' else rotations[slot][:]
 random.Random(seed+slot).shuffle(selected)
 checked=0;working=[]
 for s in selected:
@@ -170,5 +176,5 @@ def in_test_week(x):
 week_items=[x for x in items.values() if in_test_week(x)]
 print('TEST RATTRAPAGE 1-7 NOVEMBRE:',len(week_items),'articles,',sum(bool(x.get('image')) for x in week_items),'avec image')
 print('Checked',checked,'feeds found',len(working),'items',len(items),'images',sum(bool(x.get('image')) for x in items.values()),'translated fields',translated)
-result={'updated_at':datetime.datetime.now(datetime.timezone.utc).isoformat(),'status':'collected_unreviewed','working_feeds':working,'collection_slot':slot,'sources_checked':checked,'backfill_test':{'period':'2026-11-01/2026-11-07','articles':len(week_items),'with_images':sum(bool(x.get('image')) for x in week_items)},'items':sorted(items.values(),key=lambda x:x.get('published',''),reverse=True)[:550]}
+result={'updated_at':datetime.datetime.now(datetime.timezone.utc).isoformat(),'status':'collected_unreviewed','working_feeds':working,'collection_slot':slot,'collection_hour_paris':paris.hour,'sources_selected':len(selected),'sources_checked':checked,'backfill_test':{'period':'2026-11-01/2026-11-07','articles':len(week_items),'with_images':sum(bool(x.get('image')) for x in week_items)},'items':sorted(items.values(),key=lambda x:x.get('published',''),reverse=True)[:550]}
 with open(os.path.join(ROOT,'data/feed.json'),'w',encoding='utf8') as f:json.dump(result,f,ensure_ascii=False,indent=2)
