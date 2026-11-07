@@ -86,7 +86,7 @@ def parse(blob):
 # Rotation stable par jour : toutes les sources passent sur quatre créneaux,
 # avec un quota renforcé pour les arts de la scène, la TV, les clips et la danse.
 now=datetime.datetime.now(datetime.timezone.utc)
-slot=int(os.environ.get('RADAR_SLOT_INDEX',str((now.hour//6)%4)))%4
+slot=int(os.environ.get('RADAR_SLOT_INDEX',str({6:0,10:1,14:2,18:3}.get(now.hour,(now.hour//6)%4))))%4
 seed=int(hashlib.sha256(now.date().isoformat().encode()).hexdigest()[:12],16)
 by_category={}
 for s in sources:by_category.setdefault(s['category'],[]).append(s)
