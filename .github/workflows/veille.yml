@@ -66,6 +66,7 @@ jobs:
         run: python collect.py
       - name: Analyser les projets sélectionnés
         if: steps.slot.outputs.run == 'true'
+        continue-on-error: true
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           RADAR_AI_MODEL: gpt-4.1-mini
