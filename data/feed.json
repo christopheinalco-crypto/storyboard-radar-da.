@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-07T21:20:09.739271+00:00",
+  "updated_at": "2026-11-07T21:35:14.677992+00:00",
   "status": "collected_unreviewed",
   "working_feeds": [
     {
@@ -43,14 +43,24 @@
       "category": "14 Musique Clips"
     },
     {
+      "name": "Balich Wonder Studio",
+      "feed": "https://www.balichwonderstudio.com/feed",
+      "category": "01 Spectacle Concert"
+    },
+    {
       "name": "Konbini Musique",
       "feed": "https://www.konbini.com/feed",
       "category": "14 Musique Clips"
     },
     {
-      "name": "Balich Wonder Studio",
-      "feed": "https://www.balichwonderstudio.com/feed",
+      "name": "Dragone",
+      "feed": "https://www.dragone.com/feed",
       "category": "01 Spectacle Concert"
+    },
+    {
+      "name": "AV Magazine",
+      "feed": "https://www.avinteractive.com/feed",
+      "category": "02 TV Broadcast"
     },
     {
       "name": "Vizrt",
@@ -63,19 +73,9 @@
       "category": "02 TV Broadcast"
     },
     {
-      "name": "Dragone",
-      "feed": "https://www.dragone.com/feed",
-      "category": "01 Spectacle Concert"
-    },
-    {
       "name": "Brand New",
       "feed": "https://www.underconsideration.com/feed",
       "category": "03 DA Graphisme"
-    },
-    {
-      "name": "Graphéine",
-      "feed": "https://www.grapheine.com/feed",
-      "category": "13 France Marketing Design"
     },
     {
       "name": "ArchDaily",
@@ -83,74 +83,14 @@
       "category": "05 Art Architecture"
     },
     {
-      "name": "Creative Boom",
-      "feed": "https://www.creativeboom.com/feed",
-      "category": "03 DA Graphisme"
+      "name": "Graphéine",
+      "feed": "https://www.grapheine.com/feed",
+      "category": "13 France Marketing Design"
     },
     {
       "name": "Sight Unseen",
       "feed": "https://www.sightunseen.com/feed",
       "category": "05 Art Architecture"
-    },
-    {
-      "name": "Imagination",
-      "feed": "https://imagination.com/feed",
-      "category": "06 Retail Brand Experience"
-    },
-    {
-      "name": "Jack Morton",
-      "feed": "https://jackmorton.com/feed",
-      "category": "06 Retail Brand Experience"
-    },
-    {
-      "name": "Étapes",
-      "feed": "https://etapes.com/feed",
-      "category": "13 France Marketing Design"
-    },
-    {
-      "name": "Colossal",
-      "feed": "https://www.thisiscolossal.com/feed",
-      "category": "05 Art Architecture"
-    },
-    {
-      "name": "Type Directors Club",
-      "feed": "https://tdc.org/feed",
-      "category": "11 Graphisme Expertise"
-    },
-    {
-      "name": "BP&O",
-      "feed": "https://bpando.org/feed",
-      "category": "03 DA Graphisme"
-    },
-    {
-      "name": "Typographica",
-      "feed": "https://typographica.org/feed",
-      "category": "11 Graphisme Expertise"
-    },
-    {
-      "name": "Creapills",
-      "feed": "https://creapills.com/feed",
-      "category": "13 France Marketing Design"
-    },
-    {
-      "name": "Artforum",
-      "feed": "https://www.artforum.com/feed",
-      "category": "05 Art Architecture"
-    },
-    {
-      "name": "George P. Johnson",
-      "feed": "https://www.gpj.com/feed",
-      "category": "06 Retail Brand Experience"
-    },
-    {
-      "name": "Typewolf",
-      "feed": "https://www.typewolf.com/feed",
-      "category": "03 DA Graphisme"
-    },
-    {
-      "name": "Dieline",
-      "feed": "https://thedieline.com/feed",
-      "category": "03 DA Graphisme"
     },
     {
       "name": "VMSD",
@@ -163,6 +103,76 @@
       "category": "11 Graphisme Expertise"
     },
     {
+      "name": "Dieline",
+      "feed": "https://thedieline.com/feed",
+      "category": "03 DA Graphisme"
+    },
+    {
+      "name": "Jack Morton",
+      "feed": "https://jackmorton.com/feed",
+      "category": "06 Retail Brand Experience"
+    },
+    {
+      "name": "BP&O",
+      "feed": "https://bpando.org/feed",
+      "category": "03 DA Graphisme"
+    },
+    {
+      "name": "Imagination",
+      "feed": "https://imagination.com/feed",
+      "category": "06 Retail Brand Experience"
+    },
+    {
+      "name": "Creapills",
+      "feed": "https://creapills.com/feed",
+      "category": "13 France Marketing Design"
+    },
+    {
+      "name": "Typewolf",
+      "feed": "https://www.typewolf.com/feed",
+      "category": "03 DA Graphisme"
+    },
+    {
+      "name": "Colossal",
+      "feed": "https://www.thisiscolossal.com/feed",
+      "category": "05 Art Architecture"
+    },
+    {
+      "name": "Type Directors Club",
+      "feed": "https://tdc.org/feed",
+      "category": "11 Graphisme Expertise"
+    },
+    {
+      "name": "Creative Boom",
+      "feed": "https://www.creativeboom.com/feed",
+      "category": "03 DA Graphisme"
+    },
+    {
+      "name": "George P. Johnson",
+      "feed": "https://www.gpj.com/feed",
+      "category": "06 Retail Brand Experience"
+    },
+    {
+      "name": "Étapes",
+      "feed": "https://etapes.com/feed",
+      "category": "13 France Marketing Design"
+    },
+    {
+      "name": "Typographica",
+      "feed": "https://typographica.org/feed",
+      "category": "11 Graphisme Expertise"
+    },
+    {
+      "name": "Awwwards",
+      "feed": "https://www.awwwards.com/feed",
+      "category": "03 DA Graphisme"
+    },
+    {
+      "name": "Artforum",
+      "feed": "https://www.artforum.com/feed",
+      "category": "05 Art Architecture"
+    },
+    {
       "name": "Dance Magazine",
       "feed": "https://www.dancemagazine.com/feed",
       "category": "15 Danse Performance"
@@ -173,18 +183,13 @@
       "category": "09 France Pro"
     },
     {
-      "name": "Superbien",
-      "feed": "https://www.superbien.com/feed",
-      "category": "08 Immersif CGI Motion"
-    },
-    {
-      "name": "Stash",
-      "feed": "https://www.stashmedia.tv/feed",
-      "category": "08 Immersif CGI Motion"
-    },
-    {
       "name": "Art of the Title",
       "feed": "https://www.artofthetitle.com/feed",
+      "category": "08 Immersif CGI Motion"
+    },
+    {
+      "name": "Superbien",
+      "feed": "https://www.superbien.com/feed",
       "category": "08 Immersif CGI Motion"
     },
     {
@@ -193,231 +198,22 @@
       "category": "10 Strategie Insights"
     },
     {
-      "name": "IDlia Studio",
-      "feed": "https://www.idlia.fr/feed",
-      "category": "09 France Pro"
+      "name": "Stash",
+      "feed": "https://www.stashmedia.tv/feed",
+      "category": "08 Immersif CGI Motion"
+    },
+    {
+      "name": "Campaign Middle East",
+      "feed": "https://campaignme.com/feed",
+      "category": "04 Pub Strategie"
     }
   ],
   "collection_slot": 0,
   "collection_hour_paris": 22,
   "sources_selected": 182,
-  "sources_checked": 157,
-  "special_test": true,
-  "special_selection": {
-    "01 Spectacle Concert": [
-      {
-        "title": "2D & 3D: Lighting Design for Broadway",
-        "url": "https://www.livedesignonline.com/premium/webinar/1414423",
-        "score": 29
-      },
-      {
-        "title": "See Glow Motion at LDI: Halo Ring & Next Gen Kinetic Systems",
-        "url": "https://www.livedesignonline.com/resource/see-glow-motion-ldi-halo-ring-next-gen-kinetic-systems",
-        "score": 21
-      },
-      {
-        "title": "Live Design: Terhal",
-        "url": "https://dragone.com/live-design-covers-terhal/",
-        "score": 21
-      }
-    ],
-    "02 TV Broadcast": [
-      {
-        "title": "Vizrt graphics chosen as the Official Technical Supplier of Eurovision 2026",
-        "url": "https://routing.vizrt.com/vizrt/press-center/pr-vizrt-graphics-eurovision-2026/",
-        "score": 9
-      },
-      {
-        "title": "Leyard and UP to deliver spectacular displays at AV Awards",
-        "url": "https://www.avinteractive.com/markets-news/live-events/leyard-europe-and-universal-pixels-partner-at-av-awards-05-11-2026/",
-        "score": 8
-      },
-      {
-        "title": "Vizrt graphics help Girraphic deliver exclusive MMA event in stadium and on Netflix",
-        "url": "https://routing.vizrt.com/news-articles/vizrt-girraphic-netflix-mma-event-graphics/",
-        "score": 8
-      }
-    ],
-    "03 DA Graphisme": [
-      {
-        "title": "Storefront Gala 2026 : Pentagram revisite une typographie historique",
-        "url": "https://bpando.org/2026/10/22/pentagram-new-york-storefront-gala-2026-event-identity-design/",
-        "score": 29
-      },
-      {
-        "title": "Order creates a delightfully design history-steeped identity for Salt Lick on Salt Creek – but what actually is it?",
-        "url": "https://bpando.org/2026/10/13/order-salt-lick-on-salt-creek-lavender-farm-brand-identity/",
-        "score": 29
-      },
-      {
-        "title": "Purple Garden : une identité inspirée des années 2000 et des motifs vibratoires",
-        "url": "https://bpando.org/2026/11/05/mother-design-brand-identity-spirituality-app-purple-garden/",
-        "score": 23
-      }
-    ],
-    "04 Pub Strategie": [
-      {
-        "title": "Kcal packaging brings to life DIDI student’s winning design in collab",
-        "url": "https://campaignme.com/kcal-packaging-brings-to-life-didi-students-winning-design-in-new-collaboration/",
-        "score": 30
-      },
-      {
-        "title": "Eoin Cronolly appointed as Creative Director at Footballco",
-        "url": "https://campaignme.com/eoin-cronolly-appointed-as-creative-director-at-footballco/",
-        "score": 24
-      },
-      {
-        "title": "La liste complète des intervenants confirmée pour le petit-déjeuner de campagne : Out of Home 2027",
-        "url": "https://campaignme.com/first-wave-speakers-campaign-breakfast-briefing-out-of-home-2027/",
-        "score": 15
-      }
-    ],
-    "05 Art Architecture": [
-      {
-        "title": "demi nguyen balances corporate branding, fintech systems, and typographic archives",
-        "url": "https://www.designboom.com/readers/demi-nguyen-corporate-branding-fintech-systems-typographic-archives/",
-        "score": 29
-      },
-      {
-        "title": "lavazza tablì wins designboom special prize third place at seoul design award",
-        "url": "https://www.designboom.com/design/lavazza-tabli-wins-designboom-special-prize-third-place-at-seoul-design-award/",
-        "score": 26
-      },
-      {
-        "title": "Designing the invisible at the new ICG Gallery Dubai",
-        "url": "https://www.archdaily.com/1188160/designing-the-invisible-at-the-new-icg-gallery-dubai",
-        "score": 24
-      }
-    ],
-    "06 Retail Brand Experience": [
-      {
-        "title": "THE ARCHITECTURE OF EXTRAORDINARY: DESIGNING EXPERIENCES THAT TRANSFORM US",
-        "url": "https://www.gpj.com/news-insights/2026/11/the-architecture-of-extraordinary-designing-experiences-that-transform-us/",
-        "score": 18
-      },
-      {
-        "title": "IMG+RetailOne Acquires ecRetail Studio and Angle Architecture, Expanding Concept-to-Installation Capabilities",
-        "url": "https://vmsd.com/imgretailone-acquires-ecretail-studio-and-angle-architecture-expanding-concept-to-installation-capabilities/",
-        "score": 18
-      },
-      {
-        "title": "Rethink Trade Shows: Beyond the Booth",
-        "url": "https://jackmorton.com/pov/rethink-tradeshows-beyond-the-booth/",
-        "score": 18
-      }
-    ],
-    "07 FOOH OOH DOOH": [
-      {
-        "title": "When OOH Talks Back: Our Favourite DCO Campaigns of the Last 5 Years",
-        "url": "https://grandvisual.com/dco-campaigns-of-the-last-5-years/",
-        "score": 18
-      }
-    ],
-    "08 Immersif CGI Motion": [
-      {
-        "title": "Motion Plus Design Returns to Paris 2026, November 14th",
-        "url": "https://www.stashmedia.tv/motion-plus-design-returns-to-paris-2026-november-14th/",
-        "score": 18
-      },
-      {
-        "title": "CREATIVE JAM SESSION",
-        "url": "https://www.superbien.studio/journal/creative-jam-session",
-        "score": 18
-      },
-      {
-        "title": "A vision taking shape, a sharper creative gesture",
-        "url": "https://www.superbien.studio/journal/a-vision-taking-shape-a-sharper-creative-gesture",
-        "score": 15
-      }
-    ],
-    "09 France Pro": [
-      {
-        "title": "L’ISTS ouvre la prochaine session de la formation métier “Régisseur général des entreprises du spectacle vivant”",
-        "url": "https://www.revue-as.fr/2026/11/04/lists-ouvre-la-prochaine-session-de-la-formation-metier-regisseur-general-des-entreprises-du-spectacle-vivant/",
-        "score": 20
-      },
-      {
-        "title": "CBC, Genius Loci, Sanae | Film 3D Concours Ehpad",
-        "url": "https://www.idlia.fr/cbc-genius-loci-sanae-film-3d-concours-ehpad/",
-        "score": 18
-      },
-      {
-        "title": "Limiter les impacts de la lumière artificielle, Cluster Lumière",
-        "url": "https://www.lightzoomlumiere.fr/livre/limiter-les-impacts-de-la-lumiere-artificielle-cluster-lumiere/",
-        "score": 17
-      }
-    ],
-    "10 Strategie Insights": [],
-    "11 Graphisme Expertise": [
-      {
-        "title": "VS/Goods© — Maquettes sympas",
-        "url": "https://mindsparklemag.com/website/vsgoods-cool-mockups",
-        "score": 32
-      },
-      {
-        "title": "Deji Ajetomobi",
-        "url": "https://mindsparklemag.com/website/deji-ajetomobi",
-        "score": 29
-      },
-      {
-        "title": "Meer Mohsin",
-        "url": "https://mindsparklemag.com/website/meer-mohsin",
-        "score": 23
-      }
-    ],
-    "12 Tendances Cultures": [],
-    "13 France Marketing Design": [
-      {
-        "title": "Qui dessine les lieux ? Dans les coulisses du design de signalétique",
-        "url": "https://www.etapes.com/2026/09/23/qui-dessine-les-lieux-dans-les-coulisses-du-design-de-signaletique/",
-        "score": 18
-      },
-      {
-        "title": "Ce qu’Instagram fait au design",
-        "url": "https://www.etapes.com/2026/08/26/ce-quinstagram-fait-au-design/",
-        "score": 18
-      },
-      {
-        "title": "Écoles de design : derrière un même diplôme, des formations très différentes",
-        "url": "https://www.etapes.com/2026/10/27/ecoles-de-design-derriere-un-meme-diplome-des-formations-tres-differentes/",
-        "score": 15
-      }
-    ],
-    "14 Musique Clips": [
-      {
-        "title": "UK Music Video Awards 2026: here we go...",
-        "url": "https://www.promonews.tv/news/2026/11/04/uk-music-video-awards-2026-here-we-go/96847",
-        "score": 17
-      },
-      {
-        "title": "UK Music Video Awards 2026 : dans l'enceinte des gagnants",
-        "url": "https://www.promonews.tv/news/2026/11/06/uk-music-video-awards-2026-winners-enclosure/96865",
-        "score": 14
-      },
-      {
-        "title": "Omah Lay : l'épure sculpturale de NWSPK",
-        "url": "https://www.promonews.tv/videos/2026/11/06/omah-lay-artificial-happiness-nwspk/96846",
-        "score": 14
-      }
-    ],
-    "15 Danse Performance": [
-      {
-        "title": "9 Must-See Performances Hitting Stages This October",
-        "url": "https://dancemagazine.com/dance-performances-onstage-october-2026/?utm_source=rss&utm_medium=rss&utm_campaign=dance-performances-onstage-october-2026",
-        "score": 23
-      },
-      {
-        "title": "Celebrating Dance Magazine Award Honoree Ayodele Casel",
-        "url": "https://dancemagazine.com/ayodele-casel-dm-awards/?utm_source=rss&utm_medium=rss&utm_campaign=ayodele-casel-dm-awards",
-        "score": 14
-      },
-      {
-        "title": "10 Not-Nutcracker Shows Worth Seeing This November and December",
-        "url": "https://dancemagazine.com/dance-performances-onstage-november-december-2026/?utm_source=rss&utm_medium=rss&utm_campaign=dance-performances-onstage-november-december-2026",
-        "score": 14
-      }
-    ]
-  },
+  "sources_checked": 146,
+  "special_test": false,
+  "special_selection": {},
   "backfill_test": {
     "period": "2026-11-01/2026-11-07",
     "articles": 372,
@@ -850,7 +646,8 @@
       "category": "14 Musique Clips",
       "angle": "Analyser les intentions visuelles, la mise en scène, le montage et l'identité des clips",
       "status": "source_detected_not_editorially_analyzed",
-      "title_fr": "Fiona Apple et The Bolt Cutters couvrent la « révolution » de la Terre Mère pour le bénéfice de Médecins sans frontières"
+      "title_fr": "Fiona Apple et The Bolt Cutters couvrent la « révolution » de la Terre Mère pour le bénéfice de Médecins sans frontières",
+      "summary_fr": "L'article Fiona Apple et The Bolt Cutters couvrent la « révolution » de la Terre Mère pour le bénéfice de Médecins sans frontières apparaît en premier sur Stereogum."
     },
     {
       "title": "Bad History Month Shares Fundraising EP After Accidentally Getting Shot In His Calf",
@@ -862,7 +659,8 @@
       "category": "14 Musique Clips",
       "angle": "Analyser les intentions visuelles, la mise en scène, le montage et l'identité des clips",
       "status": "source_detected_not_editorially_analyzed",
-      "title_fr": "Le Mois de l’Histoire partage un EP de collecte de fonds après avoir reçu une balle dans le mollet"
+      "title_fr": "Le Mois de l’Histoire partage un EP de collecte de fonds après avoir reçu une balle dans le mollet",
+      "summary_fr": "Le post Le Mois de l'Histoire partage un EP de collecte de fonds après s'être fait tirer dessus accidentellement dans son mollet apparaît en premier sur Stereogum."
     },
     {
       "title": "Nick Cave Launches 2027 Tour",
@@ -1543,7 +1341,8 @@
       "source": "Campaign Middle East",
       "category": "04 Pub Strategie",
       "angle": "Diversifier les références",
-      "status": "source_detected_not_editorially_analyzed"
+      "status": "source_detected_not_editorially_analyzed",
+      "title_fr": "Les courts de padel se transforment en réseaux publicitaires premium avec le lancement de Courtside Media Network"
     },
     {
       "title": "Veras Cultural Center / Terra e Tuma Arquitetos Associados",
@@ -1554,7 +1353,8 @@
       "category": "05 Art Architecture",
       "angle": "Lire parcours et plans",
       "status": "source_detected_not_editorially_analyzed",
-      "image": ""
+      "image": "",
+      "title_fr": "Centre Culturel Veras / Terra e Tuma Arquitetos Associados"
     },
     {
       "title": "Café Mori’s New Coffee Bags Trace Its Roots From Japan to Brazil",
@@ -1565,7 +1365,8 @@
       "source": "Dieline",
       "category": "03 DA Graphisme",
       "angle": "Comprendre la matérialité de l'identité",
-      "status": "source_detected_not_editorially_analyzed"
+      "status": "source_detected_not_editorially_analyzed",
+      "title_fr": "Les nouveaux sacs de café de Café Mori retracent ses racines du Japon au Brésil"
     },
     {
       "title": "Electric Blue Wax Caps Set Ticaret’s Garum Apart From Every Other Fish Sauce",
@@ -1576,7 +1377,8 @@
       "source": "Dieline",
       "category": "03 DA Graphisme",
       "angle": "Comprendre la matérialité de l'identité",
-      "status": "source_detected_not_editorially_analyzed"
+      "status": "source_detected_not_editorially_analyzed",
+      "title_fr": "Les capsules de cire bleu électrique distinguent le garum de Ticaret de toutes les autres sauces de poisson"
     },
     {
       "title": "Keanu Reeves va retrouver John Wick dans un film d&#8217;animation consacré à la mythique « Impossible Task »",
