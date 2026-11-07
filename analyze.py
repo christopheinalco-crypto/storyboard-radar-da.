@@ -36,20 +36,29 @@ def source_image(url):
     if url_image.startswith(('https://','http://')):return url_image
  except Exception as exc:print('Image unavailable:',str(exc)[:100])
  return ''
+# Priorites editoriales : spectacle, clips, danse, TV et immersion d'abord.
+# La qualite du projet prime sur les mots-cles : un article secondaire peut etre retenu.
+CATEGORY_PRIORITY={
+ '01':100,'14':100,'15':100,'02':95,'08':90,
+ '04':78,'07':78,'06':74,'10':72,
+ '03':55,'05':52,'11':52,'09':50,'13':50,'12':35
+}
+PROJECT_SIGNALS=r'scenograph|scenograph|stage design|tour production|concert production|live show|set design|lighting design|broadcast set|tv studio|music video|directed by|performance|stage production|production design|show design|immersive experience|projection mapping|interactive installation|spatial design|event scenography|brand activation|advertising campaign|creative campaign|art direction|dance film|choreograph|fooh|dooh|out.of.home'
+CREATIVE_SIGNALS=r'concept|intention|storytell|narrativ|dramaturg|emotion|visual|material|texture|lighting|light|color|colour|space|set|direction|film|design|experience|creative|campaign|installation|identity|cinematograph'
+NON_PROJECT=r'appointment|appointed|acquires|acquisition|product launch|introduces|new microphone|distribution partner|conference|trade show|expo|award|playlist|review|podcast|nominees|new album|earnings|hiring|job opening|ranking|chart'
 def score(x):
  t=(x.get('title','')+' '+x.get('summary','')).lower()
- pos=r'scenograph|stage design|tour production|concert|live show|music video|set design|lighting design|performance|immersive|brand experience|art direction|visual identity|installation|film|clip|design'
- neg=r'awards|hiring|job opening|playlist|review|podcast|nominees|top 10|new album|stock|earnings'
  cat=(x.get('category') or '')[:2]
- priority={'01':200,'02':180,'15':190,'14':160,'08':145,'06':125,'03':15,'11':10,'04':10,'05':10}.get(cat,0)
- project=bool(re.search(r'scenograph|stage design|tour production|concert production|live show|set design|lighting design|broadcast set|tv studio|television production|music video|performance|stage production|production design|show design|immersive experience|immersive event|experiential design|projection mapping|interactive installation|spatial design|event scenography|brand activation',t))
- nonproject=bool(re.search(r'appointment|appointed|acquires|acquisition|product launch|introduces|new microphone|distribution partner|conference|trade show|expo|award|playlist|review|podcast|nominees|new album|earnings|hiring',t))
- return priority+55*project+10*bool(re.search(pos,t))-110*nonproject+min(len(x.get('summary',''))//90,15)
-candidates=sorted([x for x in feed.get('items',[]) if x.get('url') not in saved and x.get('url') not in reviewed and x.get('title') and x.get('url') and score(x)>=175],key=lambda x:(score(x),x.get('published','')),reverse=True)[:5]
+ project=bool(re.search(PROJECT_SIGNALS,t))
+ creative=bool(re.search(CREATIVE_SIGNALS,t))
+ nonproject=bool(re.search(NON_PROJECT,t))
+ # Une categorie prioritaire ne suffit pas : il faut des indices d'un projet concret.
+ return CATEGORY_PRIORITY.get(cat,35)+(65 if project else 0)+(20 if creative else 0)-(125 if nonproject else 0)+(10 if x.get('image') else 0)+min(len(x.get('summary',''))//90,12)
+candidates=sorted([x for x in feed.get('items',[]) if x.get('url') not in saved and x.get('url') not in reviewed and x.get('title') and x.get('url') and score(x)>=125 and x.get('published') and x.get('published')[:10]>= (datetime.datetime.now(datetime.timezone.utc)-datetime.timedelta(days=14)).date().isoformat()],key=lambda x:(score(x),x.get('published','')),reverse=True)[:5]
 print('RADAR candidates:',len(candidates),'existing analyses:',len(saved))
 attempted=0;accepted=0;source_fail=0;api_fail=0
 for x in candidates:
- if score(x)<175:continue
+ if score(x)<125:continue
  source=article_text(x['url'])
  if len(source)<850:
   source_fail+=1
