@@ -61,7 +61,7 @@ CATEGORY_PRIORITY={
 }
 PROJECT_SIGNALS=r'scenograph|scenograph|stage design|tour production|concert production|live show|set design|lighting design|broadcast set|tv studio|music video|directed by|performance|stage production|production design|show design|immersive experience|projection mapping|interactive installation|spatial design|event scenography|brand activation|advertising campaign|creative campaign|art direction|dance film|choreograph|fooh|dooh|out.of.home'
 CREATIVE_SIGNALS=r'concept|intention|storytell|narrativ|dramaturg|emotion|visual|material|texture|lighting|light|color|colour|space|set|direction|film|design|experience|creative|campaign|installation|identity|cinematograph'
-NON_PROJECT=r'appointment|appointed|acquires|acquisition|product launch|introduces|new microphone|distribution partner|conference|trade show|expo|award|playlist|review|podcast|nominees|new album|earnings|hiring|job opening|ranking|chart'
+NON_PROJECT=r'sag.aftra|unioniz|union recognition|collective bargain|labor agreement|labour agreement|trade union|workers.rights|union contract|union membership|syndicat|syndical|reconnaissance syndicale|convention collective|appointment|appointed|acquires|acquisition|product launch|introduces|new microphone|distribution partner|conference|trade show|expo|award|playlist|review|podcast|nominees|new album|earnings|hiring|job opening|ranking|chart'
 def score(x):
  t=(x.get('title','')+' '+x.get('summary','')).lower()
  cat=(x.get('category') or '')[:2]
@@ -69,7 +69,8 @@ def score(x):
  creative=bool(re.search(CREATIVE_SIGNALS,t))
  nonproject=bool(re.search(NON_PROJECT,t))
  # Une categorie prioritaire ne suffit pas : il faut des indices d'un projet concret.
- return CATEGORY_PRIORITY.get(cat,35)+(65 if project else 0)+(20 if creative else 0)-(125 if nonproject else 0)+(10 if x.get('image') else 0)+min(len(x.get('summary',''))//90,12)
+ if nonproject:return -100
+ return CATEGORY_PRIORITY.get(cat,35)+(65 if project else 0)+(20 if creative else 0)+(10 if x.get('image') else 0)+min(len(x.get('summary',''))//90,12)
 candidates=sorted([x for x in feed.get('items',[]) if x.get('url') not in saved and x.get('url') not in reviewed and x.get('title') and x.get('url') and score(x)>=125 and x.get('published') and x.get('published')[:10]>= (datetime.datetime.now(datetime.timezone.utc)-datetime.timedelta(days=14)).date().isoformat()],key=lambda x:(score(x),x.get('published','')),reverse=True)[:5]
 print('RADAR candidates:',len(candidates),'existing analyses:',len(saved))
 attempted=0;accepted=0;source_fail=0;api_fail=0
