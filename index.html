@@ -458,7 +458,7 @@ function editorialEligibility(x){
  return true;
 }
 function hasEditorialAnalysis(x){return !!(EDITORIAL_CASES[x.url]||verifiedEditorialReading(x)||editorialEligibility(x));}
-function drawFeed(){const cat=$('#cat').value,seen=seenData();renderSeenArchive(seen);let pool=ITEMS.filter(x=>hasEditorialAnalysis(x)&&!excludedEditorialList(x)&&(x.image||hasEditorialAnalysis(x)||verifiedCase(x))&&!seen[x.url||x.title]&&(activeGroup==='Tout'||groupRelevance(x,activeGroup)>=8)&&(!cat||x.category===cat));
+function drawFeed(){const cat=$('#cat').value,seen=seenData();renderSeenArchive(seen);let pool=ITEMS.filter(x=>Boolean(EDITORIAL_CASES[x.url])&&!excludedEditorialList(x)&&(x.image||hasEditorialAnalysis(x)||verifiedCase(x))&&!seen[x.url||x.title]&&(activeGroup==='Tout'||groupRelevance(x,activeGroup)>=8)&&(!cat||x.category===cat));
 const recentPool=pool.filter(x=>verifiedCase(x)||(x.published&&Date.now()-Date.parse(x.published)>=0&&Date.now()-Date.parse(x.published)<=14*86400000));const catchupMode=false;const catchupItems=catchupMode?pool.filter(x=>x.published&&x.published.slice(0,10)>='2026-11-01'&&x.published.slice(0,10)<='2026-11-07').sort((a,b)=>(b.published||'').localeCompare(a.published||'')):[];let items=catchupItems.length?catchupItems:editorialSelection(recentPool.length>=3?recentPool:pool);
 if(!items.length)items=(recentPool.length?recentPool:pool).sort((a,b)=>(b.published||'').localeCompare(a.published||'')).slice(0,9);
 const day=new Date().toLocaleDateString('en-CA');
