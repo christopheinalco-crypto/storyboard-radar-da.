@@ -1758,5 +1758,65 @@
     "interest": "Observer les intentions de mise en scène, composition, rythme, lumière et expérience du public",
     "zone": "International",
     "frequency": "Hebdomadaire"
+  },
+  {
+    "priority": "P1",
+    "category": "14 Musique Clips",
+    "name": "Les Inrockuptibles",
+    "url": "https://www.lesinrocks.com/",
+    "specialty": "France · sorties de clips et création musicale",
+    "interest": "Décrypter intention, émotion, mise en scène, image et son des clips et performances musicales",
+    "zone": "France / International",
+    "frequency": "Quotidienne"
+  },
+  {
+    "priority": "P1",
+    "category": "14 Musique Clips",
+    "name": "Tsugi",
+    "url": "https://www.tsugi.fr/",
+    "specialty": "France · musiques électroniques, clips et artistes",
+    "interest": "Décrypter intention, émotion, mise en scène, image et son des clips et performances musicales",
+    "zone": "France / International",
+    "frequency": "Quotidienne"
+  },
+  {
+    "priority": "P1",
+    "category": "14 Musique Clips",
+    "name": "Mouv'",
+    "url": "https://www.radiofrance.fr/mouv",
+    "specialty": "France · rap, hip-hop et clips",
+    "interest": "Décrypter intention, émotion, mise en scène, image et son des clips et performances musicales",
+    "zone": "France / International",
+    "frequency": "Quotidienne"
+  },
+  {
+    "priority": "P1",
+    "category": "14 Musique Clips",
+    "name": "Konbini Musique",
+    "url": "https://www.konbini.com/popculture/musique/",
+    "specialty": "France · clips, réalisateurs et cultures musicales",
+    "interest": "Décrypter intention, émotion, mise en scène, image et son des clips et performances musicales",
+    "zone": "France / International",
+    "frequency": "Quotidienne"
+  },
+  {
+    "priority": "P1",
+    "category": "14 Musique Clips",
+    "name": "La Blogothèque",
+    "url": "https://www.blogotheque.net/",
+    "specialty": "France et international · sessions filmées et performances musicales",
+    "interest": "Décrypter intention, émotion, mise en scène, image et son des clips et performances musicales",
+    "zone": "France / International",
+    "frequency": "Quotidienne"
+  },
+  {
+    "priority": "P1",
+    "category": "14 Musique Clips",
+    "name": "NOWNESS",
+    "url": "https://www.nowness.com/",
+    "specialty": "International · films musicaux, danse et expérimentation visuelle",
+    "interest": "Décrypter intention, émotion, mise en scène, image et son des clips et performances musicales",
+    "zone": "France / International",
+    "frequency": "Quotidienne"
   }
 ]
