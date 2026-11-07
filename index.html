@@ -260,10 +260,10 @@ function discoveryPriority(x){const d=new Date(),slot=Math.floor(d.getHours()/4)
 function radarPriority(x){
  const cat=(x.category||'').slice(0,2);
  const t=editorialText(x);
- if(cat==='01'||/scenograph|scénograph|stage design|set design|spectacle vivant|theatre production|théâtre/.test(t))return 120;
- if(/concert|tour production|live show|lighting design|stage lighting/.test(t))return 110;
- if(cat==='02'||/broadcast design|tv show|television set|plateau télé|show télé/.test(t))return 100;
- if(cat==='14'||/music video|clip musical|vidéoclip|visualizer/.test(t))return 90;
+ if(cat==='01'||/scenograph|scénograph|stage design|set design|spectacle vivant|theatre production|théâtre/.test(t))return 22;
+ if(/concert|tour production|live show|lighting design|stage lighting/.test(t))return 19;
+ if(cat==='02'||/broadcast design|tv show|television set|plateau télé|show télé/.test(t))return 16;
+ if(cat==='14'||/music video|clip musical|vidéoclip|visualizer/.test(t))return 14;
  return 0;
 }
 function editorialSelection(items){let selected=[],sources={},cats={};const relevance=x=>activeGroup==='Tout'?Math.max(...Object.keys(EDITORIAL).map(g=>groupRelevance(x,g))):groupRelevance(x,activeGroup);for(const x of [...items].sort((a,b)=>(editorialScore(b)+relevance(b)+radarPriority(b)+mainStagePriority(b)+recencyPriority(b)+discoveryPriority(b))-(editorialScore(a)+relevance(a)+radarPriority(a)+mainStagePriority(a)+recencyPriority(a)+discoveryPriority(a))||(b.published||'').localeCompare(a.published||''))){if(!x.image&&!verifiedCase(x))continue;if(activeGroup!=='Tout'&&relevance(x)<8)continue;let source=x.source||'',cat=x.category||'';if((sources[source]||0)>=3||(activeGroup==='Tout'&&(cats[cat]||0)>=3))continue;selected.push(x);sources[source]=(sources[source]||0)+1;cats[cat]=(cats[cat]||0)+1;if(selected.length>=(activeGroup==='Tout'?12:12))break}return selected}
