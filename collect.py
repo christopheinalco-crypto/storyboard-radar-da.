@@ -144,6 +144,27 @@ if special:
    if round_index<len(groups[cat]):selected.append(groups[cat][round_index])
 else:
  random.Random(seed+slot).shuffle(selected)
+# Priorité de passage : sources montrant la fabrication des projets, puis médias
+# créatifs spécialisés. Les sources secondaires restent en rotation, sans
+# être supprimées du catalogue.
+PRIMARY_DOMAINS={
+ 'tpimagazine.com':100,'livedesignonline.com':100,'plsn.com':96,
+ 'lsionline.com':95,'revue-as.fr':94,'promonews.tv':98,
+ 'directorsnotes.com':90,'newscaststudio.com':90,
+ 'mindsparklemag.com':76,'designboom.com':74,'dezeen.com':74
+}
+SECONDARY_DOMAINS={'stereogum.com','pitchfork.com'}
+def source_weight(src):
+ host=urllib.parse.urlsplit(src.get('url','')).netloc.lower().removeprefix('www.')
+ cat=src.get('category','').lower()
+ tier=src.get('priority','')
+ score=PRIMARY_DOMAINS.get(host,0)
+ if any(t in cat for t in ('spectacle','concert','musique clips','tv broadcast')):score+=34
+ if any(t in cat for t in ('graphisme','retail','architecture','publicité','marketing','design')):score+=16
+ if tier=='P1':score+=15
+ if host in SECONDARY_DOMAINS:score-=60
+ return score
+selected.sort(key=source_weight,reverse=True)
 checked=0;working=[]
 for s in selected:
  if budget_left()<18:break
