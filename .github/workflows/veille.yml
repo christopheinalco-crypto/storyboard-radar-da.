@@ -10,7 +10,6 @@ on:
   push:
     paths:
       - 'collect.py'
-      - 'analyze.py'
       - 'data/sources.json'
       - '.github/workflows/veille.yml'
   schedule:
@@ -62,26 +61,6 @@ jobs:
           RADAR_SLOT_INDEX: ${{ steps.slot.outputs.slot }}
           RADAR_SPECIAL: ${{ (github.event_name == 'workflow_dispatch' && inputs.special) && '1' || '0' }}
         run: python collect.py
-      - name: Analyser les projets sélectionnés
-        if: steps.slot.outputs.run == 'true'
-        id: editorial
-        continue-on-error: true
-        env:
-          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
-          RADAR_AI_MODEL: gpt-4.1-mini
-        run: python analyze.py
-      - name: Résumé du contrôle éditorial
-        if: always() && steps.slot.outputs.run == 'true'
-        run: |
-          python - <<'PY'
-          import json, pathlib, os
-          p=pathlib.Path('data/analyses.json')
-          a=json.loads(p.read_text()) if p.exists() else {}
-          with open(os.environ['GITHUB_STEP_SUMMARY'],'a') as f:
-              f.write('## RADAR — Analyse critique automatique\\n\\n')
-              f.write(f'Analyses IA enregistrées : **{len(a)}**\\n\\n')
-              f.write('Une exécution réussie de collecte ne garantit pas une nouvelle analyse.\\n')
-          PY
       - name: Publier les nouvelles données
         if: steps.slot.outputs.run == 'true'
         run: |
