@@ -370,13 +370,37 @@ function editorialReadingHTML(x){
  '<div class="da-essential-points">'+analysis.points.map(p=>'<p><span class="da-point-bullet">•</span><span><strong>'+escapeHTML(p[0])+' :</strong> '+escapeHTML(p[1])+'</span></p>').join('')+'</div>'+
  '<div class="da-editorial-conclusion"><div>CE QU’ON PEUT EN TIRER</div><p>'+escapeHTML(analysis.takeaway)+'</p></div></div>';
 }
+function sourceDescription(x){
+ return (x.summary_fr||x.summary||'').replace(/The post [\\s\\S]*?appeared first on[\\s\\S]*$/i,'').replace(/behind its /i,'behind its ').trim();
+}
+function exploratoryReadingHTML(x){
+ const a=daInterpretation(x),take=conciseCardTakeaway(x);
+ const s=sourceDescription(x),title=x.title_fr||x.title||'';
+ const focus=(x.category||'').toLowerCase();
+ const isSpace=/architect|art architecture|musée|museum|exhibition|installation|scénograph|spectacle/.test(focus+' '+title.toLowerCase());
+ const isMusic=/clip|music|musique|vidéo|film|broadcast|tv/.test(focus);
+ const isAd=/pub|marketing|brand|retail|identit|design|stratégi/.test(focus);
+ const axis=isSpace?'les relations entre espace, volumes et parcours du public':isMusic?'l’organisation du regard, du rythme et du récit':isAd?'la hiérarchie des signes et la lisibilité de l’idée':'les choix de forme et leur perception';
+ const detail=s.length>=55?s.slice(0,340):'Le titre de la source permet seulement de situer cette création.';
+ return '<div class="da-editorial-prose">'+
+ '<p class="da-editorial-lead">'+escapeHTML(detail)+'</p>'+
+ '<div class="da-essential-kicker">PISTES DE DÉCRYPTAGE <span>· HYPOTHÈSES À TESTER</span></div>'+
+ '<div class="da-essential-points">'+
+ '<p><span class="da-point-bullet">•</span><span><strong>Angle à examiner :</strong> '+escapeHTML('Pour « '+title+' », observer '+axis+'.')+'</span></p>'+
+ '<p><span class="da-point-bullet">•</span><span><strong>Intention possible :</strong> '+escapeHTML('Le projet pourrait chercher à '+a.hyp+'. Cette intention n’est pas attribuée à ses créateurs.')+'</span></p>'+
+ '<p><span class="da-point-bullet">•</span><span><strong>Effet possible :</strong> '+escapeHTML(a.effect+'. À vérifier dans les images, la réalisation et le contexte.')+'</span></p>'+
+ '<p><span class="da-point-bullet">•</span><span><strong>Le regard critique :</strong> '+escapeHTML(a.test)+'</span></p>'+
+ '</div>'+
+ '<div class="da-editorial-conclusion"><div>LE RÉFLEXE DU DA</div><p>'+escapeHTML(take.tip)+'</p></div>'+
+ '<details class="study-sources"><summary>Sources & références</summary><p>Analyse exploratoire issue des informations de la source. Repère théorique à approfondir : '+escapeHTML(a.ref)+'. Aucune citation littérale d’expert n’est revendiquée.</p><a href="'+escapeHTML(x.url)+'" target="_blank" rel="noopener noreferrer">Consulter l’article original ↗</a></details>'+
+ '</div>';
+}
 function layersHTML(x){
- const analysis=editorialReadingHTML(x);
- return analysis || '<div class="da-analysis-pending"><strong>DÉCRYPTAGE ÉDITORIAL NON DISPONIBLE</strong><p>Le contenu accessible ne permet pas encore une analyse du projet fondée sur ses choix artistiques. L’article original reste consultable via « Source ».</p></div>';
+ return editorialReadingHTML(x)||exploratoryReadingHTML(x);
 }
 function dailyAnalysisHTML(d){return `<div class="layers-stack">${(d.layers||[]).map(l=>`<section class="da-layer"><div class="layer-heading">${escapeHTML(l[0])}</div><p><strong>Lecture DA :</strong> ${escapeHTML(l[1])}</p><p><strong>À observer :</strong> ${escapeHTML(l[2]||'')}</p></section>`).join('')}</div>`}
 function excludedEditorialList(x){const t=((x.title_fr||'')+' '+(x.title||'')).toLowerCase();return /(?:\\b(?:top|best)\\s*\\d+\\b|\\b(?:best|top)\\s+(?:songs|tracks|albums)\\b|\\b(?:songs|tracks|albums)\\s+of\\s+the\\s+week\\b|\\bweekly\\s+(?:playlist|roundup)\\b|\\bplaylist\\b|\\bles\\s+\\d+\\s+meilleures?\\s+(?:chansons|musiques|titres)\\b|\\bmeilleures?\\s+chansons\\s+de\\s+la\\s+semaine\\b|\\bclassement\\s+(?:musical|des\\s+chansons)\\b)/i.test(t)}
-function hasEditorialAnalysis(x){if(EDITORIAL_CASES[x.url]||verifiedEditorialReading(x))return true;const summary=(x.summary_fr||x.summary||'').trim();return !!(x.url&&x.title&&summary.length>=95&&editorialScore(x)>=25&&!excludedEditorialList(x));}
+function hasEditorialAnalysis(x){if(EDITORIAL_CASES[x.url]||verifiedEditorialReading(x))return true;const summary=sourceDescription(x);return !!(x.url&&x.title&&summary.length>=65&&editorialScore(x)>=25&&!excludedEditorialList(x));}
 function drawFeed(){const cat=$('#cat').value,seen=seenData();renderSeenArchive(seen);let pool=ITEMS.filter(x=>hasEditorialAnalysis(x)&&!excludedEditorialList(x)&&(x.image||hasEditorialAnalysis(x)||verifiedCase(x))&&!seen[x.url||x.title]&&(activeGroup==='Tout'||groupRelevance(x,activeGroup)>=8)&&(!cat||x.category===cat));
 const recentPool=pool.filter(x=>verifiedCase(x)||(x.published&&Date.now()-Date.parse(x.published)>=0&&Date.now()-Date.parse(x.published)<=14*86400000));const catchupMode=false;const catchupItems=catchupMode?pool.filter(x=>x.published&&x.published.slice(0,10)>='2026-11-01'&&x.published.slice(0,10)<='2026-11-07').sort((a,b)=>(b.published||'').localeCompare(a.published||'')):[];let items=catchupItems.length?catchupItems:editorialSelection(recentPool.length>=3?recentPool:pool);
 if(!items.length)items=(recentPool.length?recentPool:pool).sort((a,b)=>(b.published||'').localeCompare(a.published||'')).slice(0,9);
