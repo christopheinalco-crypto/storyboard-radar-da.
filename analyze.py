@@ -26,7 +26,7 @@ def score(x):
  pos=r'scenograph|stage design|tour production|concert|live show|music video|set design|lighting design|performance|immersive|brand experience|art direction|visual identity|installation|film|clip|design'
  neg=r'awards|hiring|job opening|playlist|review|podcast|nominees|top 10|new album|stock|earnings'
  cat=(x.get('category') or '')[:2]
- priority={'01':180,'02':170,'15':160,'14':95,'08':175,'06':110,'03':15,'11':10,'04':10,'05':10}.get(cat,0)
+ priority={'01':200,'02':180,'15':190,'14':160,'08':145,'06':125,'03':15,'11':10,'04':10,'05':10}.get(cat,0)
  project=bool(re.search(r'scenograph|stage design|tour production|concert production|live show|set design|lighting design|broadcast set|tv studio|television production|music video|performance|stage production|production design|show design|immersive experience|immersive event|experiential design|projection mapping|interactive installation|spatial design|event scenography|brand activation',t))
  nonproject=bool(re.search(r'appointment|appointed|acquires|acquisition|product launch|introduces|new microphone|distribution partner|conference|trade show|expo|award|playlist|review|podcast|nominees|new album|earnings|hiring',t))
  return priority+55*project+10*bool(re.search(pos,t))-110*nonproject+min(len(x.get('summary',''))//90,15)
