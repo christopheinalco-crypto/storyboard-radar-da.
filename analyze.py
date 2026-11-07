@@ -17,9 +17,9 @@ def article_text(url):
   req=urllib.request.Request(url,headers={'User-Agent':'Mozilla/5.0 (RADAR editorial research)'})
   with urllib.request.urlopen(req,timeout=9) as r:
    raw=r.read(750000).decode('utf-8','ignore')
-  raw=re.sub(r'<(script|style|nav|footer|header)[^>]*>[\\s\\S]*?</\\1>',' ',raw,flags=re.I)
+  raw=re.sub(r'<(script|style|nav|footer|header)[^>]*>[\s\S]*?</\1>',' ',raw,flags=re.I)
   raw=re.sub(r'<[^>]+>',' ',raw)
-  return re.sub(r'\\s+',' ',html.unescape(raw)).strip()[:16000]
+  return re.sub(r'\s+',' ',html.unescape(raw)).strip()[:16000]
  except Exception:return ''
 def score(x):
  t=(x.get('title','')+' '+x.get('summary','')).lower()
@@ -50,5 +50,5 @@ Le takeaway est un principe DA précis, non un exercice générique.'''
    print('Editorial accepted:',x['title'])
   else:print('Editorial rejected:',x['title'])
  except Exception as e:print('Analysis failed:',x['url'],str(e)[:180])
-out_path.write_text(json.dumps(saved,ensure_ascii=False,indent=2)+'\\n',encoding='utf-8')
+out_path.write_text(json.dumps(saved,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
 print('Total AI editorials:',len(saved))
