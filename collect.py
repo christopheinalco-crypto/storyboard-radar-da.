@@ -105,7 +105,7 @@ for s in selected:
   blob=get(u);feed=parse(blob) if blob else []
   if feed:
    working.append({'name':s['name'],'feed':u,'category':s['category']})
-   for x in feed[:18]:
+   for x in feed[:35]:
     x.update(source=s['name'],category=s['category'],angle=s['interest'],status='source_detected_not_editorially_analyzed')
     previous=items.get(x['url'],{})
     if not x.get('image'):x['image']=previous.get('image','')
@@ -128,6 +128,13 @@ for x in recent[:100]:
  if x.get('summary') and not x.get('summary_fr'):
   tr=translate_fr(x['summary'])
   if tr:x['summary_fr']=tr;translated+=1
+week_start=datetime.datetime(2026,11,1,tzinfo=datetime.timezone.utc)
+week_end=datetime.datetime(2026,11,8,tzinfo=datetime.timezone.utc)
+def in_test_week(x):
+ try:return week_start<=datetime.datetime.fromisoformat(x.get('published','').replace('Z','+00:00')).astimezone(datetime.timezone.utc)<week_end
+ except Exception:return False
+week_items=[x for x in items.values() if in_test_week(x)]
+print('TEST RATTRAPAGE 1-7 NOVEMBRE:',len(week_items),'articles,',sum(bool(x.get('image')) for x in week_items),'avec image')
 print('Checked',checked,'feeds found',len(working),'items',len(items),'images',sum(bool(x.get('image')) for x in items.values()),'translated fields',translated)
-result={'updated_at':datetime.datetime.now(datetime.timezone.utc).isoformat(),'status':'collected_unreviewed','working_feeds':working,'collection_slot':slot,'sources_checked':checked,'items':sorted(items.values(),key=lambda x:x.get('published',''),reverse=True)[:550]}
+result={'updated_at':datetime.datetime.now(datetime.timezone.utc).isoformat(),'status':'collected_unreviewed','working_feeds':working,'collection_slot':slot,'sources_checked':checked,'backfill_test':{'period':'2026-11-01/2026-11-07','articles':len(week_items),'with_images':sum(bool(x.get('image')) for x in week_items)},'items':sorted(items.values(),key=lambda x:x.get('published',''),reverse=True)[:550]}
 with open(os.path.join(ROOT,'data/feed.json'),'w',encoding='utf8') as f:json.dump(result,f,ensure_ascii=False,indent=2)
