@@ -224,7 +224,7 @@ function conciseCardTakeaway(x){
  [/music|musique|song|album|single|cover|pochette/i,['Le contraste entre image et univers musical peut créer une identité mémorable.','Imagine deux pochettes opposées pour le même morceau.']]
  ];
  const found=options.find(([re])=>re.test(s+' '+cat));
- return found?{lesson:found[1][0],tip:found[1][1]}:{lesson:'Le cadrage et les contrastes orientent ce que l’on remarque en premier.','Déplace le point focal et compare les deux compositions.'};
+ return found?{lesson:found[1][0],tip:found[1][1]}:{lesson:'Le cadrage et les contrastes orientent ce que l’on remarque en premier.',tip:'Déplace le point focal et compare les deux compositions.'};
 }
 function daTakeaway(x){
  const v=verifiedCase(x);if(v)return v.tip;
