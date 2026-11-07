@@ -22,28 +22,29 @@ def candidates(url):
  return [base+'/feed',base+'/feed/',base+'/rss',base+'/rss.xml',base+'/feed.xml',base+'/atom.xml']
 def image_from_markup(markup):
  if not markup:return ''
- m=re.search(r'<img[^>]+(?:src|data-src)=[\\\"\\\'](https?[^\\\"\\\']+)',markup,re.I)
+ m=re.search(r'<img[^>]+(?:src|data-src)\\s*=\\s*["\\x27](https?[^"\\x27]+)',markup,re.I)
  return html.unescape(m.group(1)) if m else ''
 def valid_image(u):
- return u if u and u.startswith('https://') and not any(z in u.lower() for z in ['pixel','tracking','gravatar','1x1']) else ''
+ return u if u and u.startswith(('https://','http://')) and not any(z in u.lower() for z in ['pixel','tracking','gravatar','1x1']) else ''
 def og_image(url):
  try:
   req=urllib.request.Request(url,headers=HEAD)
-  with urllib.request.urlopen(req,timeout=5) as r:
-   raw=r.read(180000).decode('utf-8','ignore')
-  m=re.search(r'<meta[^>]+(?:property|name)=[\\\"\\\'](?:og:image|twitter:image)[\\\"\\\'][^>]+content=[\\\"\\\']([^\\\"\\\']+)',raw,re.I)
-  if not m:m=re.search(r'<meta[^>]+content=[\\\"\\\']([^\\\"\\\']+)[\\\"\\\'][^>]+(?:property|name)=[\\\"\\\'](?:og:image|twitter:image)[\\\"\\\']',raw,re.I)
-  return valid_image(urllib.parse.urljoin(url,html.unescape(m.group(1)))) if m else ''
+  with urllib.request.urlopen(req,timeout=6) as r:
+   raw=r.read(220000).decode('utf-8','ignore')
+  for tag in re.findall(r'<meta\\s+[^>]*>',raw,re.I):
+   if re.search(r'(?:og:image|twitter:image)',tag,re.I):
+    m=re.search(r'content\\s*=\\s*["\\x27]([^"\\x27]+)',tag,re.I)
+    if m:return valid_image(urllib.parse.urljoin(url,html.unescape(m.group(1))))
+  return ''
  except Exception:return ''
 def translate_fr(value):
- """Traduction best-effort : conserve l'original si le service public échoue."""
+ """Traduction best-effort ; l'original reste disponible en cas d'échec."""
  if not value or len(value)<3:return value
  try:
   query=urllib.parse.urlencode({'client':'gtx','sl':'auto','tl':'fr','dt':'t','q':value[:650]})
   req=urllib.request.Request('https://translate.googleapis.com/translate_a/single?'+query,headers=HEAD)
-  with urllib.request.urlopen(req,timeout=6) as r: data=json.load(r)
-  result=''.join(part[0] or '' for part in data[0])
-  return result.strip() if result.strip() else ''
+  with urllib.request.urlopen(req,timeout=6) as r:data=json.load(r)
+  return ''.join(part[0] or '' for part in data[0]).strip()
  except Exception:return ''
 def parse(blob):
  try:root=ET.fromstring(blob)
