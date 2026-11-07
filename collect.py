@@ -59,6 +59,14 @@ def translate_fr(value):
   with urllib.request.urlopen(req,timeout=6) as r:data=json.load(r)
   return ''.join(part[0] or '' for part in data[0]).strip()
  except Exception:return ''
+def music_links(markup):
+ links={}
+ for u in re.findall(r'https?[^\\s\\"\\x27<>]+',html.unescape(markup or '')):
+  u=u.rstrip('.,);')
+  host=urllib.parse.urlsplit(u).netloc.lower().removeprefix('www.')
+  if host in ('youtube.com','m.youtube.com','youtu.be','vimeo.com','dailymotion.com') and ('clip_url' not in links):links['clip_url']=u
+  if host in ('open.spotify.com','music.apple.com','soundcloud.com','deezer.com','tidal.com','bandcamp.com') and ('audio_url' not in links):links['audio_url']=u
+ return links
 def parse(blob):
  try:root=ET.fromstring(blob)
  except Exception:return []
@@ -81,12 +89,12 @@ def parse(blob):
      pic=media.attrib.get('url','')
      if pic:break
    pic=valid_image(pic) or valid_image(image_from_markup(desc))
-   entries.append(dict(title=title,url=link,published=date(val('pubDate','{http://www.w3.org/2005/Atom}published','{http://www.w3.org/2005/Atom}updated')),summary=clean(desc),image=pic))
+   entries.append(dict(title=title,url=link,published=date(val('pubDate','{http://www.w3.org/2005/Atom}published','{http://www.w3.org/2005/Atom}updated')),summary=clean(desc),image=pic,**music_links(desc)))
  return entries
 # Rotation stable par jour : toutes les sources passent sur six créneaux,
 # avec un quota renforcé pour les arts de la scène, la TV, les clips et la danse.
 now=datetime.datetime.now(datetime.timezone.utc)
-slot=int(os.environ.get('RADAR_SLOT_INDEX',str({6:0,9:1,12:2,15:3,18:4,21:5}.get(now.hour,(now.hour//3)%6))))%4
+slot=int(os.environ.get('RADAR_SLOT_INDEX',str({6:0,9:1,12:2,15:3,18:4,21:5}.get(now.hour,(now.hour//3)%6))))%6
 seed=int(hashlib.sha256(now.date().isoformat().encode()).hexdigest()[:12],16)
 by_category={}
 for s in sources:by_category.setdefault(s['category'],[]).append(s)
