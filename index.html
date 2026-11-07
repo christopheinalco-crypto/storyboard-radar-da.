@@ -569,20 +569,19 @@ function editorialEligibility(x){
  return true;
 }
 function hasEditorialAnalysis(x){return !!(EDITORIAL_CASES[x.url]||AI_EDITORIAL_CASES[x.url]||verifiedEditorialReading(x)||editorialEligibility(x));}
-function drawFeed(){const cat=$('#cat').value,seen=seenData();renderSeenArchive(seen);const liveCodes=new Set(['01','02','15','14','08','06']);
-const creativeSignals=/scenograph|scénograph|stage design|set design|concert|tour production|live show|lighting design|spectacle|theat|théât|dance|danse|choreograph|music video|clip|broadcast|television|tv show|immersive|installation|projection mapping|experiential|brand launch|activation|performance|plateau|décor/i;
-const irrelevantSignals=/playlist|best songs|top \\d+|chart|ranking|album review|new single|tour dates|tickets|hiring|appointed|earnings|podcast|conference speakers|festival lineup/i;
-const eligibleDiscovery=x=>liveCodes.has(String(x.category||'').slice(0,2))&&x.url&&x.published&&String(x.summary_fr||x.summary||'').length>=90&&creativeSignals.test(editorialText(x))&&!irrelevantSignals.test(x.title||'');
-let pool=ITEMS.filter(x=>!excludedEditorialList(x)&&(editorialCaseQuality(x)||eligibleDiscovery(x))&&(activeGroup==='Tout'||groupRelevance(x,activeGroup)>=8)&&(!cat||x.category===cat));
-const recentPool=pool.filter(x=>verifiedCase(x)||(x.published&&Date.now()-Date.parse(x.published)>=0&&Date.now()-Date.parse(x.published)<=14*86400000));const catchupMode=false;const catchupItems=catchupMode?pool.filter(x=>x.published&&x.published.slice(0,10)>='2026-11-01'&&x.published.slice(0,10)<='2026-11-07').sort((a,b)=>(b.published||'').localeCompare(a.published||'')):[];let items=catchupItems.length?catchupItems:editorialSelection(recentPool.length>=3?recentPool:pool);const editorialCorePriority=x=>({'01':35,'02':32,'15':30,'14':26,'08':25,'06':20}[String(x.category||'').slice(0,2)]||0);
-const freshness=x=>{const t=Date.parse(x.published||'');return Number.isFinite(t)?Math.max(0,120-Math.max(0,(Date.now()-t)/86400000)*12):0;};
-const ranking=x=>freshness(x)+editorialCorePriority(x)+(editorialCaseQuality(x)?12:0);
-const discovered=pool.filter(x=>eligibleDiscovery(x)&&!items.some(y=>y.url===x.url));
-items=[...items,...discovered].sort((a,b)=>ranking(b)-ranking(a)||(b.published||'').localeCompare(a.published||''));
-const seenUrls=new Set();items=items.filter(x=>{if(seenUrls.has(x.url))return false;seenUrls.add(x.url);return true}).slice(0,activeGroup==='Tout'?36:18);
-const spotlight=items.filter(x=>!seen[x.url||x.title]&&eligibleDiscovery(x));
-if(activeGroup==='Tout'&&!cat&&spotlight.length>1){const dayIndex=Math.floor(Date.now()/86400000)%spotlight.length;const first=spotlight[dayIndex];items=[first,...items.filter(x=>x.url!==first.url)];}
-if(!items.length)items=(recentPool.length?recentPool:pool).sort((a,b)=>(b.published||'').localeCompare(a.published||'')).slice(0,9);
+function drawFeed(){const cat=$('#cat').value,seen=seenData();renderSeenArchive(seen);
+const publicSelection=new Set([
+'https://www.revue-as.fr/2026/11/07/imagicario-la-mecanique-dequilibre-du-paredolia-duo/',
+'https://www.tpimagazine.com/creating-aap-rockys-dont-be-dumb-tour/',
+'https://www.designboom.com/art/carsten-holler-people-together-four-giant-slides-mexico-city-arte-abierto-polanco-soma-sordo-madaleno-antara/',
+'https://imagination.com/latest/tapping-into-the-unsung-tech-behind-visas-2026-fifa-world-cup-activation/'
+]);
+const priorityCodes=new Set(['01','02','15','14','08','06']);
+const publishable=x=>editorialCaseQuality(x)&&(publicSelection.has(x.url)||(priorityCodes.has(String(x.category||'').slice(0,2))&&!!AI_EDITORIAL_CASES[x.url]));
+let items=ITEMS.filter(x=>publishable(x)&&!excludedEditorialList(x)&&(activeGroup==='Tout'||groupRelevance(x,activeGroup)>=8)&&(!cat||x.category===cat));
+const order={'01':6,'02':6,'15':6,'14':5,'08':5,'06':5,'09':4,'05':3};
+items.sort((a,b)=>(Date.parse(b.published||'')||0)-(Date.parse(a.published||'')||0)||((order[String(b.category||'').slice(0,2)]||0)-(order[String(a.category||'').slice(0,2)]||0)));
+items=items.slice(0,8);
 const day=new Date().toLocaleDateString('en-CA');
 const badDaily=/best songs|best tracks|top \d+|playlist|roundup|recap|weekly|week in|news roundup|album review|review:|interview|podcast|newsletter|les \d+ meilleures|meilleures chansons|songs of the week|tracks of the week|new music friday|announces|shares new|premiere|chart|ranking|charts|awards|releases this week|book foreword/i;
 const creativeDaily=/scenograph|stage design|set design|music video|video clip|film|short film|architecture|architect|installation|exhibition|campaign|advertis|art direction|creative direction|lighting|immersive|performance|visual identity|branding|pavilion|design|photograph|sculpture|theatre|théâtre|scénograph|spectacle|clip|publicit|identité visuelle|mise en scène/i;
