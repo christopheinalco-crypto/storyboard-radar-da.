@@ -627,9 +627,9 @@ async function refreshRadar({quiet=false}={}){
  }finally{refreshing=false;}
 }
 const refreshButton=document.createElement('button');
-refreshButton.type='button';refreshButton.textContent='↻ Actualiser la veille';
+refreshButton.type='button';refreshButton.textContent='↻ Actualiser';
 refreshButton.setAttribute('aria-label','Vérifier les nouvelles publications');
-refreshButton.style.cssText='margin-left:12px;padding:7px 12px;border:1px solid #71875d;border-radius:8px;background:#172619;color:#e9f7d8;font-size:12px;cursor:pointer';
+refreshButton.style.cssText='margin-left:7px;padding:4px 8px;border:1px solid #71875d;border-radius:6px;background:#172619;color:#e9f7d8;font-size:11px;line-height:1.2;white-space:nowrap;cursor:pointer';
 refreshButton.addEventListener('click',()=>refreshRadar());
 $('#stamp')?.insertAdjacentElement('afterend',refreshButton);
 refreshRadar();
