@@ -8,6 +8,9 @@ on:
       - '.github/workflows/veille.yml'
   schedule:
     - cron: '15 6,9,12,15,18,21 * * *'
+concurrency:
+  group: radar-da-collect-main
+  cancel-in-progress: false
 permissions:
   contents: write
 jobs:
@@ -27,4 +30,21 @@ jobs:
           git config user.name 'radar-da-bot'
           git config user.email 'radar-da-bot@users.noreply.github.com'
           git add data/feed.json
-          git diff --cached --quiet || (git commit -m 'Actualisation du radar' && git push)
+          if ! git diff --cached --quiet; then
+            git commit -m 'Actualisation du radar'
+            for attempt in 1 2 3 4 5; do
+              git fetch origin main
+              if ! git rebase -X ours origin/main; then
+                git rebase --abort || true
+                echo 'Conflit de données : nouvelle collecte nécessaire, sans écraser la branche.'
+                exit 1
+              fi
+              if git push origin HEAD:main; then
+                echo 'Veille publiée avec succès.'
+                exit 0
+              fi
+              sleep $((attempt * 2))
+            done
+            echo 'Échec de publication après 5 tentatives.'
+            exit 1
+          fi
