@@ -580,8 +580,9 @@ function hasEditorialAnalysis(x){return !!(EDITORIAL_CASES[x.url]||AI_EDITORIAL_
 function drawDiscoveries(seen,cat){
  const rejected=/best songs|best tracks|top \\d+|playlist|roundup|recap|weekly|podcast|newsletter|album review|review:|awards|hiring|job opening|new album|earnings|stock|ranking|charts|announces|appointed|acquisition/i;
  const creative=/scenograph|stage design|set design|lighting design|concert production|live show|tour production|music video|music videos|video clip|immersive|installation|exhibition|exposition|performance|theatre|théâtre|spectacle|scénograph|projection mapping|brand activation|campaign|art direction|production design|architecture|pavilion|dance|danse|clip|mise en scène/i;
- const candidates=ITEMS.filter(x=>x.url&&x.image&&x.title&&!EDITORIAL_CASES[x.url]&&!AI_EDITORIAL_CASES[x.url]&&!seen[x.url||x.title]&&!excludedEditorialList(x)&&(!cat||x.category===cat)&&(activeGroup==='Tout'||groupRelevance(x,activeGroup)>=8)&&creative.test((x.title||'')+' '+(x.summary||''))&&!rejected.test(x.title||''));
- candidates.sort((a,b)=>(editorialScore(b)-editorialScore(a))||((Date.parse(b.published||'')||0)-(Date.parse(a.published||'')||0)));
+ const cutoff=Date.now()-7*86400000;
+ const candidates=ITEMS.filter(x=>x.published&&Date.parse(x.published)>=cutoff&&x.url&&x.image&&x.title&&!EDITORIAL_CASES[x.url]&&!AI_EDITORIAL_CASES[x.url]&&!seen[x.url||x.title]&&!excludedEditorialList(x)&&(!cat||x.category===cat)&&(activeGroup==='Tout'||groupRelevance(x,activeGroup)>=8)&&creative.test((x.title||'')+' '+(x.summary||''))&&!rejected.test(x.title||''));
+ candidates.sort((a,b)=>(Date.parse(b.published||'')||0)-(Date.parse(a.published||'')||0)||(editorialScore(b)-editorialScore(a)));
  const urls=new Set();const selection=candidates.filter(x=>{if(urls.has(x.url))return false;urls.add(x.url);return true}).slice(0,9);
  const section=document.getElementById('discover-section'),out=document.getElementById('discover-feed');
  if(!section||!out)return;
@@ -590,8 +591,8 @@ function drawDiscoveries(seen,cat){
 }
 function drawFeed(){const cat=$('#cat').value,seen=seenData();renderSeenArchive(seen);
 const priority={'01':80,'02':75,'15':72,'14':70,'08':68,'06':65,'09':60,'05':30,'03':10,'11':8,'04':6};
-let items=ITEMS.filter(x=>(!!EDITORIAL_CASES[x.url]||!!AI_EDITORIAL_CASES[x.url])&&!excludedEditorialList(x)&&(activeGroup==='Tout'||groupRelevance(x,activeGroup)>=8)&&(!cat||x.category===cat));
-items.sort((a,b)=>(priority[String(b.category||'').slice(0,2)]||0)-(priority[String(a.category||'').slice(0,2)]||0)||(Date.parse(b.published||'')||0)-(Date.parse(a.published||'')||0));
+let items=ITEMS.filter(x=>x.image&&(!!EDITORIAL_CASES[x.url]||!!AI_EDITORIAL_CASES[x.url])&&!excludedEditorialList(x)&&(activeGroup==='Tout'||groupRelevance(x,activeGroup)>=8)&&(!cat||x.category===cat));
+items.sort((a,b)=>(Date.parse(b.published||'')||0)-(Date.parse(a.published||'')||0)||(priority[String(b.category||'').slice(0,2)]||0)-(priority[String(a.category||'').slice(0,2)]||0));
 const unique=new Set();items=items.filter(x=>{if(unique.has(x.url))return false;unique.add(x.url);return true});
 // Les projets marqués « Vu » quittent immédiatement le flux principal.
 items=items.filter(x=>!seen[x.url||x.title]);
