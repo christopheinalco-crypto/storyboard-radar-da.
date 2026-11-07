@@ -1718,5 +1718,45 @@
     "interest": "Analyser les intentions visuelles, la mise en scène, le montage et l'identité des clips",
     "zone": "International",
     "frequency": "Quotidienne"
+  },
+  {
+    "priority": "P1",
+    "category": "15 Danse Performance",
+    "name": "Dance Magazine",
+    "url": "https://www.dancemagazine.com/",
+    "specialty": "Actualité des créations chorégraphiques et spectacles de danse",
+    "interest": "Observer les intentions de mise en scène, composition, rythme, lumière et expérience du public",
+    "zone": "International",
+    "frequency": "Hebdomadaire"
+  },
+  {
+    "priority": "P1",
+    "category": "15 Danse Performance",
+    "name": "The Stage",
+    "url": "https://www.thestage.co.uk/",
+    "specialty": "Scénographie, théâtre et créations scéniques",
+    "interest": "Observer les intentions de mise en scène, composition, rythme, lumière et expérience du public",
+    "zone": "International",
+    "frequency": "Hebdomadaire"
+  },
+  {
+    "priority": "P1",
+    "category": "15 Danse Performance",
+    "name": "BroadwayWorld Dance",
+    "url": "https://www.broadwayworld.com/bwwdance/",
+    "specialty": "Spectacles de danse et mises en scène",
+    "interest": "Observer les intentions de mise en scène, composition, rythme, lumière et expérience du public",
+    "zone": "International",
+    "frequency": "Hebdomadaire"
+  },
+  {
+    "priority": "P1",
+    "category": "14 Musique Clips",
+    "name": "Motionographer",
+    "url": "https://motionographer.com/",
+    "specialty": "Motion design, films et clips créatifs",
+    "interest": "Observer les intentions de mise en scène, composition, rythme, lumière et expérience du public",
+    "zone": "International",
+    "frequency": "Hebdomadaire"
   }
 ]
