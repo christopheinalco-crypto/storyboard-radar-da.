@@ -1678,5 +1678,45 @@
     "interest": "Explorer méthodes et matériels",
     "zone": "France",
     "frequency": "Exploration ponctuelle"
+  },
+  {
+    "priority": "P1",
+    "category": "14 Musique Clips",
+    "name": "Promonews",
+    "url": "https://www.promonews.tv/",
+    "specialty": "Clips, réalisateurs et directions artistiques des clips musicaux",
+    "interest": "Analyser les intentions visuelles, la mise en scène, le montage et l'identité des clips",
+    "zone": "International",
+    "frequency": "Quotidienne"
+  },
+  {
+    "priority": "P1",
+    "category": "14 Musique Clips",
+    "name": "Stereogum",
+    "url": "https://www.stereogum.com/",
+    "specialty": "Nouveaux clips musicaux, esthétique et artistes",
+    "interest": "Analyser les intentions visuelles, la mise en scène, le montage et l'identité des clips",
+    "zone": "International",
+    "frequency": "Quotidienne"
+  },
+  {
+    "priority": "P1",
+    "category": "14 Musique Clips",
+    "name": "Pitchfork",
+    "url": "https://pitchfork.com/",
+    "specialty": "Actualité musicale et sorties de clips",
+    "interest": "Analyser les intentions visuelles, la mise en scène, le montage et l'identité des clips",
+    "zone": "International",
+    "frequency": "Quotidienne"
+  },
+  {
+    "priority": "P1",
+    "category": "14 Musique Clips",
+    "name": "Directors Notes",
+    "url": "https://directorsnotes.com/",
+    "specialty": "Films musicaux et réalisation audiovisuelle",
+    "interest": "Analyser les intentions visuelles, la mise en scène, le montage et l'identité des clips",
+    "zone": "International",
+    "frequency": "Quotidienne"
   }
 ]
