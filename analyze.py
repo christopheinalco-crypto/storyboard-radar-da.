@@ -55,12 +55,15 @@ Le takeaway est un principe DA précis, non un exercice générique.'''
   pts=a.get('points',[])
   if a.get('publish') and 3<=len(pts)<=5 and all(isinstance(p,list) and len(p)==2 and len(p[1])>=80 for p in pts) and len(a.get('intro',''))>=90 and len(a.get('takeaway',''))>=50:
    saved[x['url']]={'intro':a['intro'],'points':pts,'takeaway':a['takeaway'],'title_fr':a.get('title_fr',''),'reviewed_at':datetime.datetime.now(datetime.timezone.utc).isoformat(),'source_url':x['url']}
-   if a.get('title_fr') and len(a['title_fr'])>=12:x['title_fr']=a['title_fr']\n   accepted+=1\n   print('Editorial accepted:',x['title'])
+   if a.get('title_fr') and len(a['title_fr'])>=12:x['title_fr']=a['title_fr']
+   accepted+=1
+   print('Editorial accepted:',x['title'])
   else:print('Editorial rejected:',x['title'])
  except Exception as e:
   api_fail+=1
   print('Analysis failed:',x['url'],str(e)[:180])
-out_path.write_text(json.dumps(saved,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')\nfeed_path.write_text(json.dumps(feed,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+out_path.write_text(json.dumps(saved,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+feed_path.write_text(json.dumps(feed,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
 print('Total AI editorials:',len(saved))
 
 print('RADAR summary: attempted=%d accepted=%d source_unavailable=%d api_errors=%d'%(attempted,accepted,source_fail,api_fail))
