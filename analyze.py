@@ -23,7 +23,7 @@ def available_gemini_model():
   details=exc.read(1000).decode('utf-8','replace')
   raise RuntimeError('Gemini model discovery HTTP %s: %s'%(exc.code,details[:450])) from exc
  models=[m['name'].removeprefix('models/') for m in catalog.get('models',[]) if 'generateContent' in m.get('supportedGenerationMethods',[])]
- preferred=[os.environ.get('RADAR_AI_MODEL','gemini-2.5-flash-lite'),'gemini-2.0-flash-lite','gemini-2.5-flash','gemini-2.0-flash']
+ preferred=[os.environ.get('RADAR_AI_MODEL','gemini-3.5-flash-lite'),'gemini-3.5-flash-lite','gemini-3-flash','gemini-2.5-flash']
  chosen=next((m for m in preferred if m in models),None)
  if not chosen:
   print('Available generateContent models:',', '.join(models[:15]))
