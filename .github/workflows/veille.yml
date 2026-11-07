@@ -13,24 +13,8 @@ on:
       - 'data/sources.json'
       - '.github/workflows/veille.yml'
   schedule:
-    # UTC : deux séries pour couvrir heures d'été et d'hiver.
-    # Minutes 37 : hors de la pointe des workflows planifiés.
-    - cron: '37 4 * * *'
-    - cron: '37 6 * * *'
-    - cron: '37 8 * * *'
-    - cron: '37 10 * * *'
-    - cron: '37 12 * * *'
-    - cron: '37 14 * * *'
-    - cron: '37 16 * * *'
-    - cron: '37 18 * * *'
-    - cron: '37 5 * * *'
-    - cron: '37 7 * * *'
-    - cron: '37 9 * * *'
-    - cron: '37 11 * * *'
-    - cron: '37 13 * * *'
-    - cron: '37 15 * * *'
-    - cron: '37 17 * * *'
-    - cron: '37 19 * * *'
+    # Six créneaux de Paris (6,9,12,15,18,21), hiver/été.
+    - cron: '37 4,5,7,8,10,11,13,14,16,17,19,20 * * *'
 concurrency:
   group: radar-da-collect-main
   cancel-in-progress: false
@@ -65,7 +49,7 @@ jobs:
               # Convertir le créneau UTC planifié en heure de Paris.
               planned_utc=datetime.datetime.combine(local_date,datetime.time(hour,37),datetime.timezone.utc)
               local=planned_utc.astimezone(ZoneInfo('Europe/Paris'))
-              hours=(6,8,10,12,14,16,18,20)
+              hours=(6,9,12,15,18,21)
               run=local.hour in hours and local.minute==37
               if run:slot=hours.index(local.hour)
           with open(os.environ['GITHUB_OUTPUT'],'a') as f:
@@ -77,9 +61,8 @@ jobs:
         if: steps.slot.outputs.run == 'true'
         env:
           RADAR_SLOT: ${{ github.event.schedule || 'manual' }}
-          RADAR_SPECIAL: ${{ github.event_name == 'push' && '1' || '0' }}
           RADAR_SLOT_INDEX: ${{ steps.slot.outputs.slot }}
-          RADAR_SPECIAL: ${{ (github.event_name == 'workflow_dispatch' && inputs.special) || (github.event_name == 'push' && contains(github.event.head_commit.message, '[special-veille]')) && '1' || '0' }}
+          RADAR_SPECIAL: ${{ (github.event_name == 'workflow_dispatch' && inputs.special) && '1' || '0' }}
         run: python collect.py
       - name: Publier les nouvelles données
         if: steps.slot.outputs.run == 'true'
