@@ -76,6 +76,8 @@ def score(x):
 CATEGORY_ORDER=['01','02','09','14','15','08','06','04','07','10','13','03','05','11','12']
 MAX_PER_CATEGORY=3
 GRAPHIC_CODES={'03','11'}
+EXCLUDED_CATEGORIES=GRAPHIC_CODES
+EXCLUDED_TITLE=re.compile(r'back[ -]?2[ -]?back|back[ -]?to[ -]?back|chacun son tour',re.I)
 MAX_GRAPHIC_DAILY=2
 # Europe/Paris prend en compte l'heure d'ete et l'heure d'hiver.
 from zoneinfo import ZoneInfo
@@ -84,7 +86,7 @@ category_by_url={x.get('url'):(x.get('category') or '')[:2] for x in feed.get('i
 graphic_today=sum(1 for url,analysis in saved.items() if category_by_url.get(url) in GRAPHIC_CODES and analysis.get('reviewed_at') and datetime.datetime.fromisoformat(analysis['reviewed_at'].replace('Z','+00:00')).astimezone(ZoneInfo('Europe/Paris')).date().isoformat()==today_paris)
 
 MAX_API_CALLS=int(os.environ.get('RADAR_MAX_AI_CALLS','15'))
-eligible=[x for x in feed.get('items',[]) if x.get('url') not in saved and x.get('url') not in reviewed and x.get('title') and x.get('url') and score(x)>=125 and x.get('published') and x.get('published')[:10]>=(datetime.datetime.now(datetime.timezone.utc)-datetime.timedelta(days=14)).date().isoformat()]
+eligible=[x for x in feed.get('items',[]) if (x.get('category') or '')[:2] not in EXCLUDED_CATEGORIES and not EXCLUDED_TITLE.search(x.get('title','')) and x.get('url') not in saved and x.get('url') not in reviewed and x.get('title') and x.get('url') and score(x)>=125 and x.get('published') and x.get('published')[:10]>=(datetime.datetime.now(datetime.timezone.utc)-datetime.timedelta(days=14)).date().isoformat()]
 eligible.sort(key=lambda x:(score(x),x.get('published','')),reverse=True)
 by_category={}
 for item in eligible:
@@ -123,7 +125,7 @@ for x in candidates:
  prompt='''Tu es directeur artistique senior, critique visuel et pédagogue. Étudie exclusivement l'article source fourni. Rédige en français une analyse éditoriale approfondie, concrète et précise, jamais un simple résumé. Réponds uniquement en JSON valide:
 {"publish":boolean,"intro":string,"points":[[titre,texte],...],"takeaway":string,"title_fr":string}.
 
-PUBLICATION : le sujet doit être UNE REALISATION CREATIVE CONCRETE (scénographie, concert, clip, spectacle, danse, plateau TV, installation, publicité, expérience de marque, création graphique ou spatiale). Refuse les annonces de tournée sans dispositif décrit, sorties d'albums/singles, panoramas, classements, actualités syndicales, nominations et communiqués sans création analysable. Publie seulement si la source documente au moins TROIS décisions artistiques observables ou explicitement décrites. Sinon publish=false.
+EXCLUSION ABSOLUE : refuse les articles de graphisme, identité visuelle, typographie, logos et branding graphique isolé. Refuse aussi les formats musicaux généraux (back-to-back DJ, portraits, listes de singles), annonces de tournée et articles sans réalisation visuelle précise. Une pratique musicale ou un événement n'est pas en soi un projet de direction artistique.\n\nPUBLICATION : le sujet doit être UNE REALISATION CREATIVE CONCRETE (scénographie, concert, clip, spectacle, danse, plateau TV, installation, publicité, expérience de marque, création graphique ou spatiale). Refuse les annonces de tournée sans dispositif décrit, sorties d'albums/singles, panoramas, classements, actualités syndicales, nominations et communiqués sans création analysable. Publie seulement si la source documente au moins TROIS décisions artistiques observables ou explicitement décrites. Sinon publish=false.
 
 INTRO (130 à 230 mots environ) : situe le projet, ses auteurs et son contexte vérifiables, puis explique l'enjeu artistique spécifique et ce qui mérite d'être observé. Ne répète pas le titre.
 
