@@ -48,15 +48,24 @@ def image_from_markup(markup):
 def valid_image(u):
  return u if u and u.startswith(('https://','http://')) and not any(z in u.lower() for z in ['pixel','tracking','gravatar','1x1']) else ''
 def og_image(url):
+ """Extract an article's own hero image; never substitute unrelated imagery."""
  if not budget():return ''
  try:
   req=urllib.request.Request(url,headers=HEAD)
-  with urllib.request.urlopen(req,timeout=min(2.5,max(.4,budget_left()))) as r:
-   raw=r.read(220000).decode('utf-8','ignore')
-  for tag in re.findall(r'<meta\\s+[^>]*>',raw,re.I):
-   if re.search(r'(?:og:image|twitter:image)',tag,re.I):
-    m=re.search(r'content\\s*=\\s*["\\x27]([^"\\x27]+)',tag,re.I)
-    if m:return valid_image(urllib.parse.urljoin(url,html.unescape(m.group(1))))
+  with urllib.request.urlopen(req,timeout=min(5,max(.5,budget_left()))) as r:
+   raw=r.read(450000).decode('utf-8','ignore')
+  tags=re.findall(r'<meta\\s+[^>]*>',raw,re.I)
+  for key in ('og:image:secure_url','og:image','twitter:image'):
+   for tag in tags:
+    attrs={k.lower():html.unescape(v) for k,v in re.findall(r'([\\w:-]+)\\s*=\\s*["\\x27]([^"\\x27]+)["\\x27]',tag)}
+    if attrs.get('property','').lower()==key or attrs.get('name','').lower()==key:
+     found=valid_image(urllib.parse.urljoin(url,attrs.get('content','')))
+     if found:return found
+  for pattern in (r'<link[^>]+rel=["\\x27]image_src["\\x27][^>]+href=["\\x27]([^"\\x27]+)',r'<img[^>]+(?:class|id)=["\\x27][^"\\x27]*(?:featured|hero|post-image)[^"\\x27]*["\\x27][^>]+(?:src|data-src)=["\\x27]([^"\\x27]+)'):
+   m=re.search(pattern,raw,re.I)
+   if m:
+    found=valid_image(urllib.parse.urljoin(url,html.unescape(m.group(1))))
+    if found:return found
   return ''
  except Exception:return ''
 def translate_fr(value):
@@ -151,10 +160,17 @@ for s in selected:
    break
  checked+=1
 # Enrichir un nombre limité d'articles récents sans ralentir excessivement le workflow.
-missing=[x for x in sorted(items.values(),key=lambda y:y.get('published',''),reverse=True)[:80] if not x.get('image')]
-for x in missing[:5]:
- if budget_left()<16:break
- x['image']=og_image(x['url'])
+# Recover missing images first for curated projects and stage productions.
+# Retry missing images on subsequent runs; prioritize without relying on recency alone.
+def image_priority(x):
+ t=(x.get('title','')+' '+x.get('summary','')).lower()
+ return (100 if x.get('status')=='editorial_reviewed' else 0)+(45 if re.search(r'concert|tour|scenograph|stage|spectacle|performance|music video|clip',t) else 0)
+missing=[x for x in items.values() if not x.get('image') and x.get('url')]
+missing.sort(key=lambda x:(image_priority(x),x.get('published','')),reverse=True)
+for x in missing[:24]:
+ if budget_left()<15:break
+ found=og_image(x['url'])
+ if found:x['image']=found
 # Traduire les TITRES en priorité, avant les résumés : le titre français est essentiel à l'interface.
 # Plafond par exécution pour ne pas saturer le service externe.
 recent=sorted(items.values(),key=lambda y:y.get('published',''),reverse=True)
