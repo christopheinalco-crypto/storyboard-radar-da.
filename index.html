@@ -172,6 +172,21 @@ main{width:100%;max-width:1240px;padding-inline:clamp(14px,3vw,32px)}
 .analysis-takeaway{background:linear-gradient(105deg,rgba(146,202,42,.14),rgba(146,202,42,.05));border-left:3px solid #b9ef1e;border-bottom:0;border-radius:9px;padding:17px 17px 18px 13px;margin:15px 0}
 .analysis-takeaway .analysis-heading{color:#d5ff57}
 @media(max-width:650px){.editorial-note{padding-top:15px}.editorial-note-lead{font-size:14px!important}.analysis-takeaway{padding:13px 10px}}
+
+/* Décryptage magazine, inspiré de la référence éditoriale : texte fluide, notes intégrées, conclusion accentuée. */
+.da-editorial-prose{padding:17px 0 12px;max-width:78ch}
+.da-editorial-lead{font-size:15px!important;line-height:1.8!important;color:#eef4e8!important;margin:0 0 22px!important;letter-spacing:.002em}
+.da-essential-kicker{font-size:10px;font-weight:850;color:#bdd0a7;letter-spacing:.18em;margin-bottom:12px}
+.da-essential-kicker span{opacity:.65;font-weight:500;letter-spacing:.06em}
+.da-essential-points{display:flex;flex-direction:column;gap:12px}
+.da-essential-points>p{display:grid;grid-template-columns:13px minmax(0,1fr);gap:7px;margin:0!important;font-size:14px!important;line-height:1.76!important;color:#e4eddb!important}
+.da-point-bullet{color:#c4f64a;font-size:16px;line-height:1.5}
+.da-essential-points strong{color:#f4f8eb;text-decoration:underline;text-decoration-color:#a9d56b;text-underline-offset:3px}
+.da-editorial-conclusion{margin-top:23px;border-left:3px solid #c3fc12;border-radius:8px;background:linear-gradient(100deg,rgba(136,185,33,.20),rgba(136,185,33,.08));padding:15px 16px}
+.da-editorial-conclusion>div{font-size:10px;letter-spacing:.13em;font-weight:900;color:#d0ff51;margin-bottom:8px}
+.da-editorial-conclusion p{font-size:14px!important;line-height:1.75!important;color:#edf8e0!important;margin:0!important}
+.da-analysis-pending{padding:18px 0 9px;color:#c4d1bb}.da-analysis-pending strong{font-size:11px;color:#c0ff1c;letter-spacing:.06em}.da-analysis-pending p{font-size:13px;line-height:1.65}
+@media(max-width:650px){.da-editorial-lead{font-size:14px!important}.da-essential-points>p{font-size:13px!important}.da-editorial-conclusion{padding:13px}}
 </style></head><body><header><div class="bar"><div class="logo">STORYBOARD <span>/ RADAR</span></div><div class="small muted">LE REGARD DU DA · <span id="stamp">Édition prototype</span></div></div></header><main><section class="hero"><div><div class="eyebrow">RADAR DA · VEILLE & DÉCRYPTAGE</div><h1>Voir. Questionner. Créer.</h1></div></div></section><section id="flux"><div class="radar-controls"><button class="category-chip" id="daily-toggle" type="button" onclick="toggleDailyExercise()" aria-expanded="false"><span class="exercise-dot" aria-hidden="true"></span> Atelier du regard <span class="exercise-time">· 5 min</span> ＋</button><details class="category-picker"><summary aria-label="Filtrer les catégories">⋯</summary><div class="category-nav" id="category-nav" aria-label="Catégories de veille"></div></details></div><select id="cat" hidden aria-hidden="true"><option value="">Tout</option></select><div id="daily-exercise" hidden></div><div id="feed" class="grid"></div><details id="seen-archive" class="seen-archive"><summary>Projets vus <span id="seen-count">0</span> <small>Conservés 24 h puis supprimés automatiquement</small></summary><div id="seen-list" class="seen-list"></div></details></section><section id="atelier" class="hide"><div class="eyebrow">Analyse guidée · Exemple pédagogique</div><h2>Lire une création par calques.</h2><p class="muted read">Une méthode en deux temps : observer d'abord, interpréter ensuite. Cas d'école : la scène centrale du U2 360° Tour. Cette fiche est un exemple de méthode, pas une actualité récente.</p><div class="panel"><div class="eyebrow">Étude de cas · Spectacle</div><h3>U2 — 360° Tour : rapprocher un groupe de stade</h3><div class="analysis"><div class="layer"><b>01 · Ce qu'on voit</b><p>Une scène placée dans le stade, visible depuis plusieurs directions. Le public entoure le dispositif.</p></div><div class="layer"><b>02 · Ce qu'on en déduit</b><p>La frontalité classique est affaiblie. Les spectateurs voient aussi d'autres spectateurs : la foule entre dans la composition.</p></div><div class="layer"><b>03 · Intention envisagée</b><p>Créer une sensation de proximité et déplacer la relation habituelle entre artistes et spectateurs. Il s'agit ici d'une lecture critique, pas d'une citation attribuée.</p></div><div class="layer"><b>04 · Effet et limites</b><p>Une expérience enveloppante, mais une complexité de structure, de visibilité, de circulation et de sonorisation.</p></div></div><h3>Lecture par calques</h3><details><summary>CALQUE 01 · Espace</summary><p>Position de la scène, axes de vision, distances, circulation et rapport de taille. La géométrie du dispositif devient une décision narrative.</p></details><details><summary>CALQUE 02 · Structure</summary><p>Une architecture de scène ne se contente pas de porter du matériel : elle donne une identité au spectacle et organise les perceptions.</p></details><details><summary>CALQUE 03 · Écran et image</summary><p>Les surfaces vidéo prolongent les gestes des artistes pour les spectateurs éloignés. Étudier comment l'image soutient, ou concurrence, la présence réelle.</p></details><details><summary>CALQUE 04 · Son et lumière</summary><p>La diffusion et les axes lumineux doivent fonctionner pour des spectateurs situés dans plusieurs directions.</p></details><details><summary>CALQUE 05 · Production</summary><p>Vérifier les contraintes de montage, de transport, de sécurité et de coût. Une intention pertinente doit aussi pouvoir être produite.</p></details><div class="panel"><div class="eyebrow">À retenir</div><h3>La disposition spatiale raconte une relation.</h3><p class="read">Transposition : pour un spectacle intimiste, une scène basse, une implantation en demi-cercle et une lumière révélant le public peuvent produire un rapprochement sans reproduire une tournée monumentale.</p></div><details><summary>Exercice : proposer une autre solution</summary><p>Brief : 200 spectateurs, scène de 8 mètres, budget limité. Dessine deux implantations différentes. Pour chacune, justifie l'effet recherché et le principal compromis technique.</p></details></div></section><section id="sources" class="hide"><div class="eyebrow">Référentiel d'origine</div><h2>Les sources de veille.</h2><p class="muted">Sources importées du classeur « Veille_DA_TOUT_CONSERVE_CLASSE_2026.xlsx ». Les liens et leur disponibilité n'ont pas tous été contrôlés individuellement.</p><div class="toolbar"><input id="srcsearch" placeholder="Rechercher une source…"><select id="srcprio"><option value="">Toutes priorités</option><option>P1</option><option>P2</option><option>P3</option></select></div><div id="sourcecount" class="eyebrow"></div><div id="sourceitems"></div></section><section id="methode" class="hide"><div class="eyebrow">Charte éditoriale</div><h2>Du fait au choix créatif.</h2><div class="analysis"><div class="layer"><b>01 · Observer</b><p>Identifier les éléments réellement visibles et sourcés. Ne pas inventer de détails manquants.</p></div><div class="layer"><b>02 · Déduire</b><p>Formuler une interprétation argumentée de la forme, de l'intention et de l'effet recherché.</p></div><div class="layer"><b>03 · Confronter</b><p>Mobiliser les notions des experts, mais distinguer une citation vérifiée d'une lecture pédagogique.</p></div><div class="layer"><b>04 · Transposer</b><p>Extraire un principe et un exercice pratique. Indiquer ses limites et conditions d'application.</p></div></div><div class="panel"><h3>Un flux n'est pas une analyse</h3><p class="read">Le radar détecte des publications. Une fiche DA complète exige un examen du projet, de ses images, des déclarations de ses auteurs et, lorsque disponibles, des résultats. Les résumés automatiques ne doivent pas inventer un insight, un effet mesuré ou une intention officielle.</p><p class="note">Les ouvrages de la bibliothèque Drive constituent un corpus d'approfondissement. Leur intégration en citations précises nécessite la lecture et la vérification des passages, non une simple mention d'auteur.</p></div></section><div class="footer">RADAR / STORYBOARD · Veille de direction artistique · Sources et droits des contenus conservés par leurs éditeurs.</div></main><div class="reader" id="reader" role="dialog" aria-modal="true" aria-label="Analyse DA"><div class="reader-inner" id="readercontent"></div></div><script>
 let SOURCES=[],ITEMS=[],SPECIAL_SELECTION=null;const FEATURED_CASE={title:"Antoine d’Agata — Theorema : une exposition qui fait éprouver les images",title_fr:"Antoine d’Agata — Theorema : une exposition qui fait éprouver les images",summary:"Exposition du 20 novembre 2026 au 24 janvier 2027 au musée Pałac Schoena à Sosnowiec (Pologne). Un parcours labyrinthique confronte archives, projections, surcharge d’images et dépouillement. Analyse de l’intention, de la scénographie et des effets recherchés.",summary_fr:"Exposition du 20 novembre 2026 au 24 janvier 2027 au musée Pałac Schoena à Sosnowiec (Pologne). Un parcours labyrinthique confronte archives, projections, surcharge d’images et dépouillement. Analyse de l’intention, de la scénographie et des effets recherchés.",angle:"Faire ressentir les limites de la représentation par une dramaturgie de l’espace et de la saturation.",source:"Ars Cameralis — programme officiel",category:"05 Art Architecture",published:"2026-11-07",url:"https://arscameralisfestiwal.pl/wydarzenia/antoine-dagata-theorema/",image:""};
 const $=s=>document.querySelector(s),escapeHTML=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
@@ -287,28 +302,67 @@ function verifiedEditorialReading(x){
  ['À EXPÉRIMENTER','Conçois deux silhouettes à partir d’un objet urbain ordinaire. Fais une version imposante et une version à taille humaine. Avec une seule source lumineuse par personnage, teste ce qui change dans leur caractère, leur rapport au public et l’émotion suggérée.']
  ];
 }
+// Grille issue des méthodes étudiées dans la bibliothèque DA :
+// intention / situation, choix plastiques, dispositif-perception, regard critique,
+// enseignement transposable. Synthèse méthodologique, jamais citation d'expert.
+const EDITORIAL_CASES={
+ 'https://www.revue-as.fr/2026/11/07/imagicario-la-mecanique-dequilibre-du-paredolia-duo/':{
+ intro:'Deux réverbères anciens prennent vie à près de quatre mètres de hauteur. Le projet ne juxtapose pas simplement échasses, costumes et éclairage : il les réunit pour donner une gestuelle intime à deux silhouettes monumentales.',
+ points:[
+ ['Le sujet','L’article décrit le défi technique du Parédolïa Duo : deux interprètes sur échasses droites, dont les têtes sont remplacées par des réverbères lumineux. La mécanique doit permettre le mouvement tout en restant discrète.'],
+ ['Le choix artistique','Transformer un objet urbain fixe en corps vivant crée un écart lisible entre ce que l’on connaît du réverbère et ce que les personnages font. La hauteur accentue leur présence ; le rapprochement des deux silhouettes fait contrepoint à leur monumentalité.'],
+ ['Le dispositif et l’effet','La lumière devient l’identité des personnages, non un simple éclairage ajouté. La lecture d’une intimité entre ces géants est une interprétation du dispositif, pas un effet mesuré sur tous les spectateurs.'],
+ ['Le regard du DA','Le principe méthodologique du corpus scénographie est clair : partir de l’action et de l’expérience du public, puis coordonner corps, lumière, volumes et contraintes. Ici, retirer l’un de ces éléments affaiblirait vraisemblablement l’idée.']
+ ],
+ takeaway:'Un choix technique devient puissant lorsqu’il raconte déjà quelque chose. La cohérence entre silhouette, mobilité et lumière rend le concept perceptible sans explication.'
+ },
+ 'https://thedieline.com/dior-gets-caught-with-their-hand-in-the-ai-jar/':{
+ intro:'Le sujet n’est pas seulement la présence éventuelle d’IA dans une campagne Dior. C’est le décalage entre une image de marque fondée sur le savoir-faire et le récit public donné de sa fabrication. Selon The Dieline, la campagne de fêtes 2026 a suscité une controverse à ce propos.',
+ points:[
+ ['Le sujet','The Dieline rapporte que Dior aurait présenté une animation comme réalisée entièrement à la main, alors que des observateurs ont suspecté l’usage d’IA. Cette accusation rapportée par le média ne constitue pas, à elle seule, une preuve technique.'],
+ ['Le conflit de signes','Dans le luxe, le mode de fabrication fait partie de la valeur perçue. Une esthétique raffinée ne raconte plus la même chose lorsqu’elle s’accompagne d’une promesse de travail artisanal contestée.'],
+ ['L’effet possible','Le risque n’est pas que le public repère un outil en particulier, mais qu’il doute de la cohérence entre le discours de marque et la méthode de production. La confiance peut alors devenir l’enjeu créatif central.'],
+ ['Le regard du DA','Une direction artistique se juge aussi à l’accord entre intention, exécution et récit de production. Avant de choisir une technique, il faut vérifier ce que son utilisation autorise réellement à promettre.']
+ ],
+ takeaway:'La provenance d’une image peut devenir un signe de marque. En direction artistique, la transparence sur les moyens fait parfois partie de la création elle-même.'
+ },
+ 'https://www.archdaily.com/1187683/beach-house':{
+ intro:'Cette maison de plage répond à un problème concret : la montée possible des eaux et les tempêtes côtières. Son élévation sur pilotis devient aussi le geste architectural qui définit sa silhouette.',
+ points:[
+ ['Le problème de départ','Selon le résumé d’ArchDaily, la maison est soulevée sur des supports afin de faire face à de futures submersions. Le principe structurel précède donc l’effet esthétique.'],
+ ['La décision formelle','Le volume habité semble flotter au-dessus des dunes. Cette distance au sol change le rapport entre construction, paysage et horizon, plutôt que de dissimuler la nécessité technique.'],
+ ['L’effet possible','Le contraste entre la masse construite et le vide sous le bâtiment peut communiquer une impression de légèreté. Il rend aussi perceptible la vulnérabilité du site, même si le degré réel de résilience demanderait d’autres données.'],
+ ['Le regard du DA','La forme n’est pas ici un habillage autonome : elle met en scène une réponse fonctionnelle. C’est une lecture utile pour la scénographie et l’installation, où les contraintes d’usage peuvent devenir visibles et expressives.']
+ ],
+ takeaway:'Une contrainte n’a pas besoin d’être cachée pour produire une forme forte. La montrer peut faire comprendre le projet avant même sa description.'
+ },
+ 'https://www.designboom.com/architecture/peter-morris-miami-art-deco-london-gothic-pink-cloud-house-london/':{
+ intro:'La Cloud House de Peter Morris confronte une palette pastel évoquant Miami à un environnement londonien marqué par des références gothiques. Le projet tire sa visibilité de ce frottement plutôt que d’une intégration discrète.',
+ points:[
+ ['Le parti pris','Le résumé de Designboom décrit des couleurs pastel et des arches allongées sur deux maisons mitoyennes du nord de Londres. La répétition des arches établit une unité entre les volumes.'],
+ ['Le contraste','Les teintes douces et les formes arrondies créent une tension avec le contexte urbain évoqué par l’article. La différence est revendiquée dans la silhouette et dans la couleur.'],
+ ['Le sens possible','Le bâtiment peut être lu comme une proposition d’identité volontairement décalée : il affirme un univers propre plutôt que de reproduire les codes du voisinage. C’est une interprétation, non une intention attribuée à Morris.'],
+ ['Le regard du DA','La couleur et la forme travaillent ensemble. Modifier seulement l’une des deux ferait perdre une partie du contraste qui caractérise le projet. La question décisive est celle du rapport entre l’objet et son contexte.']
+ ],
+ takeaway:'Un contraste fort fonctionne mieux lorsqu’il repose sur un système cohérent — ici couleur, arcs et répétition — et non sur un seul effet spectaculaire.'
+ }
+};
 function editorialReadingHTML(x){
- const blocks=(verifiedEditorialReading(x)||[]).filter(b=>!/^À EXPÉRIMENTER/i.test(b[0]));
- if(!blocks.length)return '';
- return '<div class="analysis-editorial">'+blocks.map((b,i)=>{
- const takeaway=/CE QU.ON PEUT EN TIRER/i.test(b[0]);
- return '<section class="analysis-chapter'+(takeaway?' analysis-takeaway':'')+'"><span class="analysis-index">'+String(i+1).padStart(2,'0')+'</span><div><div class="analysis-heading">'+escapeHTML(b[0])+'</div><p>'+escapeHTML(b[1])+'</p></div></section>';
- }).join('')+'</div>';
+ let analysis=EDITORIAL_CASES[x.url];
+ if(!analysis){
+  const old=verifiedEditorialReading(x);
+  if(old){
+   analysis={intro:old[0][1],points:old.slice(1).filter(b=>!/^À EXPÉRIMENTER/i.test(b[0])&&!/^CE QU.ON PEUT EN TIRER/i.test(b[0])).map(b=>[b[0],b[1]]),takeaway:old.find(b=>/^CE QU.ON PEUT EN TIRER/i.test(b[0]))?.[1]||''};
+  }else return '';
+ }
+ return '<div class="da-editorial-prose"><p class="da-editorial-lead">'+escapeHTML(analysis.intro)+'</p>'+
+ '<div class="da-essential-kicker">L’ESSENTIEL <span>· LECTURE DA</span></div>'+
+ '<div class="da-essential-points">'+analysis.points.map(p=>'<p><span class="da-point-bullet">•</span><span><strong>'+escapeHTML(p[0])+' :</strong> '+escapeHTML(p[1])+'</span></p>').join('')+'</div>'+
+ '<div class="da-editorial-conclusion"><div>CE QU’ON PEUT EN TIRER</div><p>'+escapeHTML(analysis.takeaway)+'</p></div></div>';
 }
 function layersHTML(x){
- const verified=verifiedEditorialReading(x);
- if(verified)return editorialReadingHTML(x);
- // Une notice documentée n'est pas une analyse : aucune intention n'est inventée.
- const raw=(x.summary_fr||x.summary||'').replace(/<[^>]*>/g,' ').replace(/\\s+/g,' ').trim();
- const usable=raw.length>=75&&!/^(the post|read more|click here|discover more)/i.test(raw);
- const source=String(x.source||'').trim();
- const body=usable?escapeHTML(raw.slice(0,760)):'Le flux ne fournit pas assez de détails sur les choix visuels de cette création pour en proposer une lecture fiable.';
- return `<div class="editorial-note">
- <div class="editorial-note-kicker"><span class="editorial-note-dot"></span> ÉCLAIRAGE ÉDITORIAL <span class="editorial-note-state">· ANALYSE À APPROFONDIR</span></div>
- <p class="editorial-note-lead">${body}</p>
- <div class="editorial-note-divider"></div>
- <div class="editorial-note-bottom"><strong>LE REGARD DU DA</strong><p>Ce projet mérite un examen de ses décisions artistiques à partir des images et des propos de ses auteurs. La notice disponible ne permet pas encore de distinguer ce qui relève de leur intention et ce qui serait notre interprétation.</p></div>
- </div>`;
+ const analysis=editorialReadingHTML(x);
+ return analysis || '<div class="da-analysis-pending"><strong>DÉCRYPTAGE ÉDITORIAL NON DISPONIBLE</strong><p>Le contenu accessible ne permet pas encore une analyse du projet fondée sur ses choix artistiques. L’article original reste consultable via « Source ».</p></div>';
 }
 function dailyAnalysisHTML(d){return `<div class="layers-stack">${(d.layers||[]).map(l=>`<section class="da-layer"><div class="layer-heading">${escapeHTML(l[0])}</div><p><strong>Lecture DA :</strong> ${escapeHTML(l[1])}</p><p><strong>À observer :</strong> ${escapeHTML(l[2]||'')}</p></section>`).join('')}</div>`}
 function excludedEditorialList(x){const t=((x.title_fr||'')+' '+(x.title||'')).toLowerCase();return /(?:\\b(?:top|best)\\s*\\d+\\b|\\b(?:best|top)\\s+(?:songs|tracks|albums)\\b|\\b(?:songs|tracks|albums)\\s+of\\s+the\\s+week\\b|\\bweekly\\s+(?:playlist|roundup)\\b|\\bplaylist\\b|\\bles\\s+\\d+\\s+meilleures?\\s+(?:chansons|musiques|titres)\\b|\\bmeilleures?\\s+chansons\\s+de\\s+la\\s+semaine\\b|\\bclassement\\s+(?:musical|des\\s+chansons)\\b)/i.test(t)}
