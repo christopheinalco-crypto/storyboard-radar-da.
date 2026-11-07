@@ -1,7 +1,7 @@
 """RADAR editorial enrichment. Requires OPENAI_API_KEY GitHub Actions secret.
 No API key: preserve existing analyses; do not publish invented editorial copy.
 """
-import os,json,re,urllib.request,urllib.parse,html,datetime
+import os,json,re,urllib.request,urllib.parse,html,datetime,sys
 from pathlib import Path
 ROOT=Path(__file__).parent
 feed_path=ROOT/'data/feed.json'
@@ -10,8 +10,8 @@ feed=json.loads(feed_path.read_text(encoding='utf-8'))
 saved=json.loads(out_path.read_text(encoding='utf-8')) if out_path.exists() else {}
 key=os.environ.get('OPENAI_API_KEY','')
 if not key:
- print('OPENAI_API_KEY absent: automatic editorial analysis skipped safely.')
- raise SystemExit(0)
+ print('ERROR: OPENAI_API_KEY missing. Add GitHub Actions repository secret OPENAI_API_KEY.')
+ raise SystemExit(2)
 def article_text(url):
  try:
   req=urllib.request.Request(url,headers={'User-Agent':'Mozilla/5.0 (RADAR editorial research)'})
@@ -27,11 +27,15 @@ def score(x):
  neg=r'awards|hiring|job opening|playlist|review|podcast|nominees|top 10|new album|stock|earnings'
  return 50*bool(re.search(pos,t))+30*bool(re.search(r'concert|stage|scenograph|tour production|music video|live show',t))-70*bool(re.search(neg,t))+min(len(x.get('summary',''))//90,15)
 candidates=sorted([x for x in feed.get('items',[]) if x.get('url') not in saved and x.get('title') and x.get('url')],key=score,reverse=True)[:12]
+print('RADAR candidates:',len(candidates),'existing analyses:',len(saved))
+attempted=0;accepted=0;source_fail=0;api_fail=0
 for x in candidates:
  if score(x)<20:continue
  source=article_text(x['url'])
  if len(source)<850:
+  source_fail+=1
   print('Skip: insufficient full source',x['url']);continue
+ attempted+=1
  prompt='''Tu es rédacteur et directeur artistique senior. Étudie exclusivement le texte fourni de l'article. Écris en français une analyse critique unique et vérifiable, non générique, en JSON strict.
 Réponds avec {"publish":boolean,"intro":string,"points":[[titre,texte],...],"takeaway":string}.
 Ne publie que si au moins trois décisions créatives précises sont documentées. Sinon publish=false.
@@ -47,8 +51,14 @@ Le takeaway est un principe DA précis, non un exercice générique.'''
   pts=a.get('points',[])
   if a.get('publish') and 3<=len(pts)<=5 and all(isinstance(p,list) and len(p)==2 and len(p[1])>=80 for p in pts) and len(a.get('intro',''))>=90 and len(a.get('takeaway',''))>=50:
    saved[x['url']]={'intro':a['intro'],'points':pts,'takeaway':a['takeaway'],'reviewed_at':datetime.datetime.now(datetime.timezone.utc).isoformat(),'source_url':x['url']}
+   accepted+=1
    print('Editorial accepted:',x['title'])
   else:print('Editorial rejected:',x['title'])
- except Exception as e:print('Analysis failed:',x['url'],str(e)[:180])
+ except Exception as e:
+  api_fail+=1
+  print('Analysis failed:',x['url'],str(e)[:180])
 out_path.write_text(json.dumps(saved,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
 print('Total AI editorials:',len(saved))
+
+print('RADAR summary: attempted=%d accepted=%d source_unavailable=%d api_errors=%d'%(attempted,accepted,source_fail,api_fail))
+if api_fail and not accepted:sys.exit(3)
