@@ -3,14 +3,14 @@ import json,os,re,datetime,urllib.parse,urllib.request,xml.etree.ElementTree as 
 from email.utils import parsedate_to_datetime
 ROOT=os.path.dirname(__file__)
 START=time.monotonic()
-BUDGET_SECONDS=95
+BUDGET_SECONDS=235
 def budget_left():return BUDGET_SECONDS-(time.monotonic()-START)
 
 sources=json.load(open(os.path.join(ROOT,'data/sources.json'),encoding='utf8'))
 old=json.load(open(os.path.join(ROOT,'data/feed.json'),encoding='utf8'))
 items={x['url']:x for x in old.get('items',[]) if x.get('url')}
 START=time.monotonic()
-MAX_SECONDS=105
+MAX_SECONDS=235
 def budget():return time.monotonic()-START<MAX_SECONDS
 HEAD={'User-Agent':'Mozilla/5.0 (compatible; RADARDA/1.0; editorial research)'}
 def clean(s):return re.sub(r'\s+',' ',re.sub(r'<[^>]*>',' ',html.unescape(s or ''))).strip()[:900]
@@ -105,19 +105,19 @@ def parse(blob):
 from zoneinfo import ZoneInfo
 now=datetime.datetime.now(datetime.timezone.utc)
 paris=now.astimezone(ZoneInfo('Europe/Paris'))
-wave_hours=(6,8,10,12,14,16,18,20)
-slot=int(os.environ.get('RADAR_SLOT_INDEX',str(wave_hours.index(paris.hour) if paris.hour in wave_hours else 0)))%8
+wave_hours=(6,9,12,15,18,21)
+slot=int(os.environ.get('RADAR_SLOT_INDEX',str(wave_hours.index(paris.hour) if paris.hour in wave_hours else 0)))%6
 seed=int(hashlib.sha256(paris.date().isoformat().encode()).hexdigest()[:12],16)
 by_category={}
 for s in sources:by_category.setdefault(s['category'],[]).append(s)
 # Chaque vague inclut toutes les catégories. Les sources sont réparties
 # entre les huit vagues, avec au moins une source par catégorie et par vague.
-rotations=[[] for _ in range(8)]
+rotations=[[] for _ in range(6)]
 for category,group in sorted(by_category.items()):
  group=group[:]
  random.Random(seed+int(hashlib.md5(category.encode()).hexdigest()[:8],16)).shuffle(group)
- for wave in range(8):
-  selection=[s for i,s in enumerate(group) if i%8==wave]
+ for wave in range(6):
+  selection=[s for i,s in enumerate(group) if i%6==wave]
   if not selection and group:selection=[group[wave%len(group)]]
   rotations[wave].extend(selection)
 special=os.environ.get('RADAR_SPECIAL','')=='1'
