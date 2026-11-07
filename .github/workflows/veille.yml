@@ -13,8 +13,8 @@ on:
       - 'data/sources.json'
       - '.github/workflows/veille.yml'
   schedule:
-    # Six créneaux de Paris (6,9,12,15,18,21), hiver/été.
-    - cron: '37 4,5,7,8,10,11,13,14,16,17,19,20 * * *'
+    # Deux passages par jour, 08:30 et 18:30 à Paris (DST géré par le contrôle local).
+    - cron: '30 6,7,16,17 * * *'
 concurrency:
   group: radar-da-collect-main
   cancel-in-progress: false
@@ -46,7 +46,7 @@ jobs:
               # Le cron contient une liste d'heures UTC : ne pas convertir la liste en int.
               # Les exécutions GitHub peuvent démarrer avec quelques minutes de retard.
               local=now.astimezone(ZoneInfo('Europe/Paris'))
-              hours=(6,9,12,15,18,21)
+              hours=(8,18)
               run=local.hour in hours
               if run:slot=hours.index(local.hour)
           with open(os.environ['GITHUB_OUTPUT'],'a') as f:
