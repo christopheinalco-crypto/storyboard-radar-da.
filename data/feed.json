@@ -1,93 +1,122 @@
 {
-  "updated_at": "2026-11-07T09:48:52.696265+00:00",
+  "updated_at": "2026-11-07T10:37:53.452712+00:00",
   "status": "collected_unreviewed",
   "working_feeds": [
     {
-      "name": "Balich Wonder Studio",
-      "feed": "https://www.balichwonderstudio.com/feed"
+      "name": "VMSD",
+      "feed": "https://vmsd.com/feed",
+      "category": "06 Retail Brand Experience"
     },
     {
-      "name": "Live Design",
-      "feed": "https://www.livedesignonline.com/rss.xml"
-    },
-    {
-      "name": "STUFISH",
-      "feed": "https://stufish.com/feed"
-    },
-    {
-      "name": "TPI Magazine",
-      "feed": "https://www.tpimagazine.com/feed/"
-    },
-    {
-      "name": "Brand New",
-      "feed": "https://www.underconsideration.com/feed"
-    },
-    {
-      "name": "ArchDaily",
-      "feed": "https://www.archdaily.com/feed"
-    },
-    {
-      "name": "Designboom",
-      "feed": "https://www.designboom.com/feed"
+      "name": "Campaign Middle East",
+      "feed": "https://campaignme.com/feed",
+      "category": "04 Pub Strategie"
     },
     {
       "name": "Art of the Title",
-      "feed": "https://www.artofthetitle.com/feed"
+      "feed": "https://www.artofthetitle.com/feed",
+      "category": "08 Immersif CGI Motion"
     },
     {
-      "name": "Stash",
-      "feed": "https://www.stashmedia.tv/feed"
-    },
-    {
-      "name": "Superbien",
-      "feed": "https://www.superbien.com/feed"
-    },
-    {
-      "name": "Light ZOOM Lumière",
-      "feed": "https://www.lightzoomlumiere.fr/feed"
-    },
-    {
-      "name": "Revue AS",
-      "feed": "https://www.revue-as.fr/feed"
-    },
-    {
-      "name": "Graphéine",
-      "feed": "https://www.grapheine.com/feed"
-    },
-    {
-      "name": "Dragone",
-      "feed": "https://www.dragone.com/feed"
-    },
-    {
-      "name": "PLSN",
-      "feed": "https://plsn.com/feed/"
-    },
-    {
-      "name": "Ross Video",
-      "feed": "https://www.rossvideo.com/feed"
-    },
-    {
-      "name": "Vizrt",
-      "feed": "https://www.vizrt.com/feed"
-    },
-    {
-      "name": "Promonews",
-      "feed": "https://www.promonews.tv/feed"
-    },
-    {
-      "name": "Stereogum",
-      "feed": "https://www.stereogum.com/feed/"
-    },
-    {
-      "name": "Pitchfork",
-      "feed": "https://pitchfork.com/rss/news/"
+      "name": "Imagination",
+      "feed": "https://imagination.com/feed",
+      "category": "06 Retail Brand Experience"
     },
     {
       "name": "Dance Magazine",
-      "feed": "https://www.dancemagazine.com/feed"
+      "feed": "https://www.dancemagazine.com/feed",
+      "category": "15 Danse Performance"
+    },
+    {
+      "name": "Stereogum",
+      "feed": "https://www.stereogum.com/feed/",
+      "category": "14 Musique Clips"
+    },
+    {
+      "name": "Brand New",
+      "feed": "https://www.underconsideration.com/feed",
+      "category": "03 DA Graphisme"
+    },
+    {
+      "name": "IDlia Studio",
+      "feed": "https://www.idlia.fr/feed",
+      "category": "09 France Pro"
+    },
+    {
+      "name": "Balich Wonder Studio",
+      "feed": "https://www.balichwonderstudio.com/feed",
+      "category": "01 Spectacle Concert"
+    },
+    {
+      "name": "Awwwards",
+      "feed": "https://www.awwwards.com/feed",
+      "category": "03 DA Graphisme"
+    },
+    {
+      "name": "ArchDaily",
+      "feed": "https://www.archdaily.com/feed",
+      "category": "05 Art Architecture"
+    },
+    {
+      "name": "Typewolf",
+      "feed": "https://www.typewolf.com/feed",
+      "category": "03 DA Graphisme"
+    },
+    {
+      "name": "Effie Worldwide",
+      "feed": "https://www.effie.org/feed",
+      "category": "10 Strategie Insights"
+    },
+    {
+      "name": "PLSN",
+      "feed": "https://plsn.com/feed/",
+      "category": "01 Spectacle Concert"
+    },
+    {
+      "name": "Creative Boom",
+      "feed": "https://www.creativeboom.com/feed",
+      "category": "03 DA Graphisme"
+    },
+    {
+      "name": "Ross Video",
+      "feed": "https://www.rossvideo.com/feed",
+      "category": "02 TV Broadcast"
+    },
+    {
+      "name": "Pitchfork",
+      "feed": "https://pitchfork.com/rss/news/",
+      "category": "14 Musique Clips"
+    },
+    {
+      "name": "Revue AS",
+      "feed": "https://www.revue-as.fr/feed",
+      "category": "09 France Pro"
+    },
+    {
+      "name": "Typographica",
+      "feed": "https://typographica.org/feed",
+      "category": "11 Graphisme Expertise"
     }
   ],
+  "collection_slot": 3,
+  "sources_checked": 85,
+  "backfill_test": {
+    "period": "2026-11-01/2026-11-07",
+    "articles": 208,
+    "with_images": 91
+  },
   "items": [
+    {
+      "title": "Imagicario : la mécanique d’équilibre du “Parédolia Duo”",
+      "url": "https://www.revue-as.fr/2026/11/07/imagicario-la-mecanique-dequilibre-du-paredolia-duo/",
+      "published": "2026-11-07T09:58:00+00:00",
+      "summary": "Faire tenir deux corps à près de 4 m du sol sur des échasses droites tout en jouant l’intimité d’un couple, c’est le pari technique de la compagnie montréalaise Imagicario avec son Parédolia Duo, présenté ici au Centre sportif et récréatif de Montréal-Ouest. Les têtes sont remplacées par de véritables réverbères d’époque équipés de sources lumineuses autonomes En savoir plus surImagicario : la mécanique d’équilibre du “Parédolia Duo” […] Cet article Imagicario : la mécanique d’équilibre du “Parédolia Duo” est apparu en premier sur Revue AS .",
+      "image": "",
+      "source": "Revue AS",
+      "category": "09 France Pro",
+      "angle": "Suivre les productions françaises",
+      "status": "source_detected_not_editorially_analyzed"
+    },
     {
       "title": "peter morris brings miami art deco to london’s gothic streets with pink ‘cloud house’",
       "url": "https://www.designboom.com/architecture/peter-morris-miami-art-deco-london-gothic-pink-cloud-house-london/",
@@ -100,6 +129,17 @@
       "image": "https://www.designboom.com/wp-content/uploads/2026/11/cloud-house-peter-morris-architects-designboom-700-500x400-22b08q85r478.jpg",
       "title_fr": "Peter Morris apporte l'art déco de Miami dans les rues gothiques de Londres avec une « maison nuageuse » rose",
       "summary_fr": "La maison de nuage auto-construite de Peter Morris combine des pastels de Miami avec des arches allongées dans deux maisons adjacentes du nord de Londres. Le post Peter Morris apporte l’art déco de Miami dans les rues gothiques de Londres avec une « maison nuage » rose apparaît en premier sur designboom | revue d'architecture et de design."
+    },
+    {
+      "title": "Justin Jefferson",
+      "url": "https://www.awwwards.com/sites/justin-jefferson",
+      "published": "2026-11-07T00:00:00+00:00",
+      "summary": "The official site of Justin Jefferson. A full portrait of his influence on the field and beyond it, from his countless records to the style, the partnerships and the JJets Foundation.",
+      "image": "",
+      "source": "Awwwards",
+      "category": "03 DA Graphisme",
+      "angle": "Explorer composition et interactions",
+      "status": "source_detected_not_editorially_analyzed"
     },
     {
       "title": "Guppy – “Looking Right At It”",
@@ -429,6 +469,17 @@
       "summary_fr": "En collaboration avec le directeur des arts et des sciences, Tim McNaughton, l'équipe de créatures CG profondément expérimentée (et primée) de Framestore à Londres imprègne un renne courageux d'une détermination tranquille mais sans faille pour la loterie nationale du Royaume-Uni. [Regarder] L'article Le renne de Framestore prend son envol pour la Loterie nationale apparaît en premier sur Motion design - STASH."
     },
     {
+      "title": "Belly Gang Kushington Announces New Album Good Dope Sell Itself: Hear “OK”",
+      "url": "https://stereogum.com/2516773/belly-gang-kushington-announces-new-album-good-dope-sell-itself-hear-ok/music/",
+      "published": "2026-11-06T15:55:31+00:00",
+      "summary": "The post Belly Gang Kushington Announces New Album Good Dope Sell Itself : Hear “OK” appeared first on Stereogum .",
+      "image": "https://lede-admin.stereogum.com/wp-content/uploads/sites/64/2026/11/Belly-Gang-Kushington-Good-Dope-Sell-Itself.jpg?w=564",
+      "source": "Stereogum",
+      "category": "14 Musique Clips",
+      "angle": "Analyser les intentions visuelles, la mise en scène, le montage et l'identité des clips",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
       "title": "VANÈS 'Bad Girl Shy' by Salma Labib",
       "url": "https://www.promonews.tv/videos/2026/11/06/van%C3%A8s-bad-girl-shy-salma-labib/96864",
       "published": "2026-11-06T15:53:13+00:00",
@@ -475,6 +526,17 @@
       "image": "https://www.designboom.com/wp-content/uploads/2026/11/oma-powerhouse-parramatta-australia-opening-images-designboom-700-500x400-22b08q85r010.jpg",
       "title_fr": "le musée en treillis d'acier de la centrale électrique de Parramatta s'ouvre avec des œuvres d'Es Devlin et James Turrell",
       "summary_fr": "Derrière son exosquelette blanc complexe, le musée de Sydney accueille ses premiers visiteurs avec un programme d'expositions ambitieux. Le musée en treillis d'acier de la centrale électrique de Parramatta s'ouvre avec des œuvres d'Es Devlin et James Turrell apparu en premier sur designboom | revue d'architecture et de design."
+    },
+    {
+      "title": "Slayyyter – “hey boyyy”",
+      "url": "https://stereogum.com/2516763/slayyyter-hey-boyyy/music/",
+      "published": "2026-11-06T15:22:52+00:00",
+      "summary": "The post Slayyyter – “hey boyyy” appeared first on Stereogum .",
+      "image": "https://lede-admin.stereogum.com/wp-content/uploads/sites/64/2026/11/Slayyyter.jpeg?w=564",
+      "source": "Stereogum",
+      "category": "14 Musique Clips",
+      "angle": "Analyser les intentions visuelles, la mise en scène, le montage et l'identité des clips",
+      "status": "source_detected_not_editorially_analyzed"
     },
     {
       "title": "d&b brings MVR Exchange to ArrayCalc",
@@ -529,6 +591,28 @@
       "summary_fr": "RAYE est un artiste avec un énorme attrait mondial et une longue liste de récompenses pour le prouver. Matthias Simmons est son ingénieur de façade et Joe Standen est son ingénieur de retour. Avec une base de fans aussi large, la tournée comprend une variété de lieux à travers le monde. Simmons utilise un Quantum 326 et des commutateurs Standen [...] L'article Les ingénieurs choisissent la flexibilité et la puissance de DiGiCo Quantum pour RAYE apparaît en premier sur TPi."
     },
     {
+      "title": "Future – “Ya Hit” (Feat. Drake, Travis Scott, & Loe Shimmy)",
+      "url": "https://stereogum.com/2516749/future-ya-hit-feat-drake-travis-scott-loe-shimmy/music/",
+      "published": "2026-11-06T14:49:14+00:00",
+      "summary": "The post Future – “Ya Hit” (Feat. Drake, Travis Scott, & Loe Shimmy) appeared first on Stereogum .",
+      "image": "https://lede-admin.stereogum.com/wp-content/uploads/sites/64/2026/11/Future.jpeg?w=564",
+      "source": "Stereogum",
+      "category": "14 Musique Clips",
+      "angle": "Analyser les intentions visuelles, la mise en scène, le montage et l'identité des clips",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "Watch Druski & The Strokes’ SNL Promos",
+      "url": "https://stereogum.com/2516734/watch-druski-the-strokes-snl-promos/news/",
+      "published": "2026-11-06T14:47:40+00:00",
+      "summary": "The post Watch Druski & The Strokes’ SNL Promos appeared first on Stereogum .",
+      "image": "https://lede-admin.stereogum.com/wp-content/uploads/sites/64/2026/11/Screenshot-2026-11-06-at-2.19.08-PM.png?w=564",
+      "source": "Stereogum",
+      "category": "14 Musique Clips",
+      "angle": "Analyser les intentions visuelles, la mise en scène, le montage et l'identité des clips",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
       "title": "10 New Albums You Should Listen to Now: Twisted Teens, Bassvictim, and More",
       "url": "https://pitchfork.com/story/10-new-albums-you-should-listen-to-now-twisted-teens-bassvictim-and-more/",
       "published": "2026-11-06T14:37:49+00:00",
@@ -551,6 +635,17 @@
       "image": ""
     },
     {
+      "title": "Superchunk Cover Wham!, The Magnetic Fields, & Galaxie 500 On Surprise New Wintry Mix EP",
+      "url": "https://stereogum.com/2516729/superchunk-cover-wham-the-magnetic-fields-galaxie-500-on-surprise-new-wintry-mix-ep/music/",
+      "published": "2026-11-06T14:21:01+00:00",
+      "summary": "The post Superchunk Cover Wham!, The Magnetic Fields, & Galaxie 500 On Surprise New Wintry Mix EP appeared first on Stereogum .",
+      "image": "https://lede-admin.stereogum.com/wp-content/uploads/sites/64/2026/11/Superchunk.jpg?w=564",
+      "source": "Stereogum",
+      "category": "14 Musique Clips",
+      "angle": "Analyser les intentions visuelles, la mise en scène, le montage et l'identité des clips",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
       "title": "2026 Posthumous Dance Magazine Awards",
       "url": "https://dancemagazine.com/2026-posthumous-dance-magazine-awards/?utm_source=rss&utm_medium=rss&utm_campaign=2026-posthumous-dance-magazine-awards",
       "published": "2026-11-06T14:00:00+00:00",
@@ -559,6 +654,17 @@
       "source": "Dance Magazine",
       "category": "15 Danse Performance",
       "angle": "Observer les intentions de mise en scène, composition, rythme, lumière et expérience du public",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "Angine de Poitrine Debut Third Member On Triangle",
+      "url": "https://stereogum.com/2516720/angine-de-poitrine-debut-third-member-on-triangle/news/",
+      "published": "2026-11-06T13:54:28+00:00",
+      "summary": "The post Angine de Poitrine Debut Third Member On Triangle appeared first on Stereogum .",
+      "image": "https://lede-admin.stereogum.com/wp-content/uploads/sites/64/2026/11/Angine.jpg?w=564",
+      "source": "Stereogum",
+      "category": "14 Musique Clips",
+      "angle": "Analyser les intentions visuelles, la mise en scène, le montage et l'identité des clips",
       "status": "source_detected_not_editorially_analyzed"
     },
     {
@@ -584,6 +690,39 @@
       "image": ""
     },
     {
+      "title": "Havas Media Global CEO Peter Mears on why the next era of media is about connectedness",
+      "url": "https://campaignme.com/havas-media-global-ceo-peter-mears-on-why-the-next-era-of-media-is-about-connectedness/",
+      "published": "2026-11-06T12:57:23+00:00",
+      "summary": "The media industry is undergoing a period of significant transformation. Changing client expectations, the rapid development of technology and the growing influence of AI are reshaping how agencies operate and how brands approach their audiences. But as the industry becomes increasingly focused on new capabilities and platforms, the question is whether agencies are doing enough […] The post Havas Media Global CEO Peter Mears on why the next era of media is about connectedness appeared first on Campaign Middle East .",
+      "image": "",
+      "source": "Campaign Middle East",
+      "category": "04 Pub Strategie",
+      "angle": "Diversifier les références",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "Full speaker line-up confirmed for Campaign Breakfast Briefing: Out of Home 2027",
+      "url": "https://campaignme.com/first-wave-speakers-campaign-breakfast-briefing-out-of-home-2027/",
+      "published": "2026-11-06T12:50:46+00:00",
+      "summary": "The full speaker line-up has been confirmed for the Campaign Breakfast Briefing: Out of Home 2027, the final Breakfast Briefing of the year. The event takes place on Friday, 13 November 2026, at 8am at The Westin Dubai Mina Seyahi. It will bring together senior marketers, media owners, agencies and industry leaders to discuss the […] The post Full speaker line-up confirmed for Campaign Breakfast Briefing: Out of Home 2027 appeared first on Campaign Middle East .",
+      "image": "",
+      "source": "Campaign Middle East",
+      "category": "04 Pub Strategie",
+      "angle": "Diversifier les références",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "LEGO’s “Holiday Workshop” builds the joy of giving into gifts that are hard to let go",
+      "url": "https://campaignme.com/legos-holiday-workshop-builds-the-joy-of-giving-into-gifts-that-are-hard-to-let-go/",
+      "published": "2026-11-06T12:45:53+00:00",
+      "summary": "The LEGO Group has unveiled ‘The LEGO Holiday Workshop’, a global festive campaign that explores a tension familiar to some gift-givers: finding a present that brings so much joy, they want to keep it for themselves. Launched on 5 November 2026 and running throughout the festive season, the campaign celebrates the joy of giving while […] The post LEGO’s “Holiday Workshop” builds the joy of giving into gifts that are hard to let go appeared first on Campaign Middle East .",
+      "image": "",
+      "source": "Campaign Middle East",
+      "category": "04 Pub Strategie",
+      "angle": "Diversifier les références",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
       "title": "Omah Lay 'Artificial Happiness' by NWSPK",
       "url": "https://www.promonews.tv/videos/2026/11/06/omah-lay-artificial-happiness-nwspk/96846",
       "published": "2026-11-06T12:45:38+00:00",
@@ -592,6 +731,28 @@
       "source": "Promonews",
       "category": "14 Musique Clips",
       "angle": "Analyser les intentions visuelles, la mise en scène, le montage et l'identité des clips",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "Real journeys with Bayut: people tell the story, ads take a back seat",
+      "url": "https://campaignme.com/real-journeys-with-bayut-when-real-people-tell-the-story-ads-take-a-back-seat/",
+      "published": "2026-11-06T12:40:13+00:00",
+      "summary": "What happens when a brand stops telling people what to say? Bayut decided to find out. For its latest campaign, “Real Journeys with Bayut,” the platform invited users to step in front of a camera and talk about their property experiences. There were no scripts to memorise, no key messages to deliver and no pre-approved […] The post Real journeys with Bayut: people tell the story, ads take a back seat appeared first on Campaign Middle East .",
+      "image": "",
+      "source": "Campaign Middle East",
+      "category": "04 Pub Strategie",
+      "angle": "Diversifier les références",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "Padel courts turn into premium ad networks as Courtside Media Network launches",
+      "url": "https://campaignme.com/padel-courts-turn-into-premium-ad-networks-as-courtside-media-network-launches-in-the-uae/",
+      "published": "2026-11-06T12:35:46+00:00",
+      "summary": "Courtside Media Network is launching in the UAE, connecting brands with padel communities through advertising on court glass, fences and nets. The Dubai-based business manages campaign production, installation, maintenance and removal, creating an additional revenue stream for participating venues. The idea came from Karim Mohamed, who has spent 14 years in media and advertising sales, […] The post Padel courts turn into premium ad networks as Courtside Media Network launches appeared first on Campaign Middle East .",
+      "image": "",
+      "source": "Campaign Middle East",
+      "category": "04 Pub Strategie",
+      "angle": "Diversifier les références",
       "status": "source_detected_not_editorially_analyzed"
     },
     {
@@ -617,6 +778,39 @@
       "image": "https://www.designboom.com/wp-content/uploads/2026/11/eu-european-union-ban-destruction-unsold-fashion-enough-luxury-waste-environment-agency-designboom-500-500x400-22b08q85r751.jpg"
     },
     {
+      "title": "Eoin Cronolly appointed as Creative Director at Footballco",
+      "url": "https://campaignme.com/eoin-cronolly-appointed-as-creative-director-at-footballco/",
+      "published": "2026-11-06T11:47:22+00:00",
+      "summary": "Football media and culture company Footballco has appointed Eoin Cronolly as Creative Director for the Middle East. Having previously worked for BigTime Creative Shop, Cronolly will lead Footballco’s Riyadh-based regional creative team, overseeing client campaigns across Footballco’s portfolio, including GOAL, Kooora, INDIVISA, and Yalla GOAL. Cronolly’s previous work includes: Nike, Rexona, Riyadh Season, and Pepsico […] The post Eoin Cronolly appointed as Creative Director at Footballco appeared first on Campaign Middle East .",
+      "image": "",
+      "source": "Campaign Middle East",
+      "category": "04 Pub Strategie",
+      "angle": "Diversifier les références",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "Reddit is testing new Ad Placements",
+      "url": "https://campaignme.com/reddit-is-testing-new-ad-placements/",
+      "published": "2026-11-06T11:43:57+00:00",
+      "summary": "People come to Reddit seeking human perspectives and experiences they can’t find elsewhere, with half of users saying the platform helps them discover something new. As the platform continues improving the user search experience on Reddit, they are also beginning to test ad placements in search. These placements leverage existing ad targeting in search results […] The post Reddit is testing new Ad Placements appeared first on Campaign Middle East .",
+      "image": "",
+      "source": "Campaign Middle East",
+      "category": "04 Pub Strategie",
+      "angle": "Diversifier les références",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "Netflix has introduced AI Discover",
+      "url": "https://campaignme.com/netflix-has-introduced-ai-discover/",
+      "published": "2026-11-06T11:39:32+00:00",
+      "summary": "There’s more to enjoy and discover on Netflix, but what sounds right for a quiet night in may look different for family movie night or a few spare minutes. Netflix has introduced AI Discover, a new tab on the TV app where users can try new ways to find their next great watch. Inside the […] The post Netflix has introduced AI Discover appeared first on Campaign Middle East .",
+      "image": "",
+      "source": "Campaign Middle East",
+      "category": "04 Pub Strategie",
+      "angle": "Diversifier les références",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
       "title": "'George Michael: The Faith Tour' opens today at IMAX and cinemas",
       "url": "https://www.promonews.tv/news/2026/11/06/george-michael-faith-tour-opens-today-imax-and-cinemas/96853",
       "published": "2026-11-06T11:34:11+00:00",
@@ -625,6 +819,17 @@
       "source": "Promonews",
       "category": "14 Musique Clips",
       "angle": "Analyser les intentions visuelles, la mise en scène, le montage et l'identité des clips",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "JCRADS & PARTNERS appointed as PR Agency for Anantara Downtown Dubai Hotel",
+      "url": "https://campaignme.com/jcrads-partners-anantara-downtown-dubai-pr-account/",
+      "published": "2026-11-06T11:24:29+00:00",
+      "summary": "JCRADS & PARTNERS has been appointed as the public relations agency for Anantara Downtown Dubai Hotel, adding the Business Bay property to its luxury hospitality portfolio. The Dubai-based boutique marketing, PR and social agency will oversee the hotel’s strategic communications, media relations and brand storytelling, targeting audiences across luxury travel, lifestyle, gastronomy, wellness and business […] The post JCRADS & PARTNERS appointed as PR Agency for Anantara Downtown Dubai Hotel appeared first on Campaign Middle East .",
+      "image": "",
+      "source": "Campaign Middle East",
+      "category": "04 Pub Strategie",
+      "angle": "Diversifier les références",
       "status": "source_detected_not_editorially_analyzed"
     },
     {
@@ -703,6 +908,17 @@
       "angle": "Élargir les références culturelles",
       "status": "source_detected_not_editorially_analyzed",
       "image": ""
+    },
+    {
+      "title": "Kcal packaging brings to life DIDI student’s winning design in collab",
+      "url": "https://campaignme.com/kcal-packaging-brings-to-life-didi-students-winning-design-in-new-collaboration/",
+      "published": "2026-11-06T09:10:32+00:00",
+      "summary": "Kcal, the UAE-based premium food and nutrition brand, has brought a student-designed packaging concept to life following a creative collaboration with Dubai Institute of Design and Innovation (DIDI). The initiative saw 30 students take on a real-world design challenge, with the winning concept subsequently adapted and produced for Kcal’s snack packaging, giving emerging creative talent […] The post Kcal packaging brings to life DIDI student’s winning design in collab appeared first on Campaign Middle East .",
+      "image": "",
+      "source": "Campaign Middle East",
+      "category": "04 Pub Strategie",
+      "angle": "Diversifier les références",
+      "status": "source_detected_not_editorially_analyzed"
     },
     {
       "title": "Designing the invisible at the new ICG Gallery Dubai",
@@ -903,6 +1119,39 @@
       "status": "source_detected_not_editorially_analyzed"
     },
     {
+      "title": "Olivia Rodrigo – “take me home (4 christmas)”",
+      "url": "https://stereogum.com/2516456/olivia-rodrigo-take-me-home-4-christmas/music/",
+      "published": "2026-11-06T01:04:10+00:00",
+      "summary": "The post Olivia Rodrigo – “take me home (4 christmas)” appeared first on Stereogum .",
+      "image": "https://lede-admin.stereogum.com/wp-content/uploads/sites/64/2026/11/HWJU5UQaQAAOQbv.jpeg?w=564",
+      "source": "Stereogum",
+      "category": "14 Musique Clips",
+      "angle": "Analyser les intentions visuelles, la mise en scène, le montage et l'identité des clips",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "ViV",
+      "url": "https://www.awwwards.com/sites/viv",
+      "published": "2026-11-06T00:00:00+00:00",
+      "summary": "A new identity and website for ViV, a New York artist management and production company, designed to put its roster and production work front and centre.",
+      "image": "",
+      "source": "Awwwards",
+      "category": "03 DA Graphisme",
+      "angle": "Explorer composition et interactions",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "Chun’an Distillery / PRA",
+      "url": "https://www.archdaily.com/1186996/chunan-distillery-pra",
+      "published": "2026-11-06T00:00:00+00:00",
+      "summary": "Throughout Zhejiang and Qiandao Lake, a nationally protected freshwater reservoir in eastern China, ancient cities boast beautiful heritage detail and quintessential Hui-style architecture. The architectural style is revered for its white walls, dark swooping eaves and dense winding corridors. This graceful disorder is at once graphically potent yet restrained. Chinese architecture in this style reinforces the philosophical emptiness of white and the solidity of black. The expression of emptiness is as important as to what is filled. Void space meanders through places of activity, creating a macro sensation of slowness that obscures an inner vibrancy.",
+      "image": "",
+      "source": "ArchDaily",
+      "category": "05 Art Architecture",
+      "angle": "Lire parcours et plans",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
       "title": "Infinte & Invisible: Bleed Get Clean With LOLA MullenLowe",
       "url": "https://www.stashmedia.tv/infinte-invisible-bleed-get-clean-with-lola-mullenlowe/",
       "published": "2026-11-05T22:45:16+00:00",
@@ -914,12 +1163,78 @@
       "image": ""
     },
     {
+      "title": "Vatican’s Culture Minister Details Bob Dylan’s Audience With Pope",
+      "url": "https://stereogum.com/2516696/vaticans-culture-minister-details-bob-dylans-audience-with-pope/news/",
+      "published": "2026-11-05T22:37:00+00:00",
+      "summary": "The post Vatican’s Culture Minister Details Bob Dylan’s Audience With Pope appeared first on Stereogum .",
+      "image": "https://lede-admin.stereogum.com/wp-content/uploads/sites/64/2026/11/Bob-Dylan-Pope.jpeg?w=564",
+      "source": "Stereogum",
+      "category": "14 Musique Clips",
+      "angle": "Analyser les intentions visuelles, la mise en scène, le montage et l'identité des clips",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "KATSEYE Cancel More Shows",
+      "url": "https://stereogum.com/2516686/katseye-cancel-another-show-at-the-last-minute/news/",
+      "published": "2026-11-05T21:18:45+00:00",
+      "summary": "The post KATSEYE Cancel More Shows appeared first on Stereogum .",
+      "image": "https://lede-admin.stereogum.com/wp-content/uploads/sites/64/2026/11/GettyImages-2300867644.jpg?w=564",
+      "source": "Stereogum",
+      "category": "14 Musique Clips",
+      "angle": "Analyser les intentions visuelles, la mise en scène, le montage et l'identité des clips",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "Soup Activists – “The Castle”",
+      "url": "https://stereogum.com/2516634/soup-activists-the-castle/music/",
+      "published": "2026-11-05T20:50:05+00:00",
+      "summary": "The post Soup Activists – “The Castle” appeared first on Stereogum .",
+      "image": "https://lede-admin.stereogum.com/wp-content/uploads/sites/64/2026/11/SoupActivists.jpg?w=564",
+      "source": "Stereogum",
+      "category": "14 Musique Clips",
+      "angle": "Analyser les intentions visuelles, la mise en scène, le montage et l'identité des clips",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "Zelooperz – “Masons Dispatch”",
+      "url": "https://stereogum.com/2516633/zelooperz-black-noise-masons-dispatch-pin-breakers/music/",
+      "published": "2026-11-05T20:27:05+00:00",
+      "summary": "The post Zelooperz – “Masons Dispatch” appeared first on Stereogum .",
+      "image": "https://lede-admin.stereogum.com/wp-content/uploads/sites/64/2026/11/zelooperz.jpg?w=564",
+      "source": "Stereogum",
+      "category": "14 Musique Clips",
+      "angle": "Analyser les intentions visuelles, la mise en scène, le montage et l'identité des clips",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
       "title": "Toro y Moi Reveals New Album Unusua",
       "url": "https://pitchfork.com/story/toro-y-moi-reveals-new-album-unusua/",
       "published": "2026-11-05T19:38:07+00:00",
       "summary": "The project, which quietly appeared on Chaz Bear’s Bandcamp page, drops this month",
       "image": "https://media.pitchfork.com/photos/6aed12f5d1ad83d11d5579fb/master/pass/Y1Yaz3yM.jpg",
       "source": "Pitchfork",
+      "category": "14 Musique Clips",
+      "angle": "Analyser les intentions visuelles, la mise en scène, le montage et l'identité des clips",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "Eev Frances – “Shake”",
+      "url": "https://stereogum.com/2516631/eev-frances-shake/music/",
+      "published": "2026-11-05T19:37:35+00:00",
+      "summary": "The post Eev Frances – “Shake” appeared first on Stereogum .",
+      "image": "https://lede-admin.stereogum.com/wp-content/uploads/sites/64/2026/11/eevfrances.jpg?w=564",
+      "source": "Stereogum",
+      "category": "14 Musique Clips",
+      "angle": "Analyser les intentions visuelles, la mise en scène, le montage et l'identité des clips",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "Jess Kerber – “The World Is Dark, But I Want It To Be Funny” (Feat. Emily Hines)",
+      "url": "https://stereogum.com/2516453/jess-kerber-the-world-is-dark-but-i-want-it-to-be-funny-feat-emily-hines/music/",
+      "published": "2026-11-05T19:36:32+00:00",
+      "summary": "The post Jess Kerber – “The World Is Dark, But I Want It To Be Funny” (Feat. Emily Hines) appeared first on Stereogum .",
+      "image": "https://lede-admin.stereogum.com/wp-content/uploads/sites/64/2026/11/Jess-Kerber-_The-World-Is-Dark._-press-photo-by-Will-Orchard.jpg?w=564",
+      "source": "Stereogum",
       "category": "14 Musique Clips",
       "angle": "Analyser les intentions visuelles, la mise en scène, le montage et l'identité des clips",
       "status": "source_detected_not_editorially_analyzed"
@@ -936,12 +1251,56 @@
       "status": "source_detected_not_editorially_analyzed"
     },
     {
+      "title": "1tbsp Announce New Album big soaps: Hear “Carottes”",
+      "url": "https://stereogum.com/2516630/1tbsp-big-soaps-album-announce-carottes-miki/music/",
+      "published": "2026-11-05T19:08:14+00:00",
+      "summary": "The post 1tbsp Announce New Album big soaps : Hear “Carottes” appeared first on Stereogum .",
+      "image": "https://lede-admin.stereogum.com/wp-content/uploads/sites/64/2026/11/Carottes.jpg?w=564",
+      "source": "Stereogum",
+      "category": "14 Musique Clips",
+      "angle": "Analyser les intentions visuelles, la mise en scène, le montage et l'identité des clips",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "Instructions for talking to birds Anti-pavilion / Yemail Arquitectura",
+      "url": "https://www.archdaily.com/1188153/instructions-for-talking-to-birds-anti-pavilion-yemail-arquitectura",
+      "published": "2026-11-05T19:00:00+00:00",
+      "summary": "Punta del Lacho, in the municipality of El Tabo, is part of the so-called Coast of the Poets: a geography of the Chilean Pacific where sea, rock, wind, cultural memory, and voices like Vicente Huidobro, Pablo Neruda, and Nicanor Parra converge. On this coastline, near the Coastal Marine Research Station of the Pontificia Universidad Católica de Chile, lies this intervention developed as part of AULA de LA ESCUELA___ and Residencia Barco. The site is understood not merely as a landscape, but as a living territory where birds, insects, vegetation, tides, visitors, and neighboring communities share the same fragile condition.",
+      "image": "",
+      "source": "ArchDaily",
+      "category": "05 Art Architecture",
+      "angle": "Lire parcours et plans",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
       "title": "Lady Gaga, Jack White, Blondie Lead 2027 Songwriters Hall of Fame Nominees",
       "url": "https://pitchfork.com/story/lady-gaga-jack-white-blondie-lead-2027-songwriters-hall-of-fame-nominees/",
       "published": "2026-11-05T18:47:57+00:00",
       "summary": "Additional finalists include P!nk, Shakira, and ZZ Top",
       "image": "https://media.pitchfork.com/photos/6aecb6f106e89e006e0fa18e/master/pass/MixCollage-05-Nov-2026-12-03-PM-764.jpg",
       "source": "Pitchfork",
+      "category": "14 Musique Clips",
+      "angle": "Analyser les intentions visuelles, la mise en scène, le montage et l'identité des clips",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "Spencer Peppet – “Power”",
+      "url": "https://stereogum.com/2516638/spencer-peppet-power/music/",
+      "published": "2026-11-05T18:37:32+00:00",
+      "summary": "The post Spencer Peppet – “Power” appeared first on Stereogum .",
+      "image": "https://lede-admin.stereogum.com/wp-content/uploads/sites/64/2026/11/52e8653e-aa41-e935-7eb0-26379b085fdb.png?w=564",
+      "source": "Stereogum",
+      "category": "14 Musique Clips",
+      "angle": "Analyser les intentions visuelles, la mise en scène, le montage et l'identité des clips",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "Troubling Details About NewJeans’ Exploitative Contracts Come To Light",
+      "url": "https://stereogum.com/2516626/troubling-details-about-newjeans-exploitative-contracts-come-to-light/news/",
+      "published": "2026-11-05T18:35:18+00:00",
+      "summary": "The post Troubling Details About NewJeans’ Exploitative Contracts Come To Light appeared first on Stereogum .",
+      "image": "https://lede-admin.stereogum.com/wp-content/uploads/sites/64/2026/11/NewJeans.jpg?w=564",
+      "source": "Stereogum",
       "category": "14 Musique Clips",
       "angle": "Analyser les intentions visuelles, la mise en scène, le montage et l'identité des clips",
       "status": "source_detected_not_editorially_analyzed"
@@ -956,6 +1315,17 @@
       "angle": "Repérer projets hybrides",
       "status": "source_detected_not_editorially_analyzed",
       "image": "https://www.stirworld.com/images/article_gallery/-lsquo-antifascist-architecture-rsquo-began-with-the-authors-rsquo-interest-in-counterhegemonic-practices-asking-what-an-antifascist-design-ideology-might-look-like-antifascist-architecture-andrew-santa-lucia-an-261104032205.jpg"
+    },
+    {
+      "title": "Lex Walton Is A Facebook Marketplace Addict",
+      "url": "https://stereogum.com/2516628/lex-walton-is-a-facebook-marketplace-addict/original-videos/",
+      "published": "2026-11-05T18:23:42+00:00",
+      "summary": "The post Lex Walton Is A Facebook Marketplace Addict appeared first on Stereogum .",
+      "image": "https://lede-admin.stereogum.com/wp-content/uploads/sites/64/2026/11/lex-walton-pedal.jpeg?w=564",
+      "source": "Stereogum",
+      "category": "14 Musique Clips",
+      "angle": "Analyser les intentions visuelles, la mise en scène, le montage et l'identité des clips",
+      "status": "source_detected_not_editorially_analyzed"
     },
     {
       "title": "Tim Reaper Announces Debut Album World’s End",
@@ -999,6 +1369,28 @@
       "source": "Promonews",
       "category": "14 Musique Clips",
       "angle": "Analyser les intentions visuelles, la mise en scène, le montage et l'identité des clips",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "Santo António Primary School Requalification and Modernization Project / BFJ Arquitectos",
+      "url": "https://www.archdaily.com/1188048/santo-antonio-primary-school-requalification-and-modernization-project-bfj-arquitectos",
+      "published": "2026-11-05T17:00:00+00:00",
+      "summary": "Built in the early 1950s under the Plano dos Centenários and designed by architect Inácio Peres Fernandes in 1947, the school is part of the urban model of the Alvalade neighbourhood, based on the concept of the neighbourhood unit. The complex retains most of its original features and is recognised as representative heritage of the first phase of this plan. Originally designed with separate male and female sections, some aspects no longer suited its current mixed-use operation. One example was the duplication of cafeteria spaces on two floors, which made kitchen operations inefficient.",
+      "image": "",
+      "source": "ArchDaily",
+      "category": "05 Art Architecture",
+      "angle": "Lire parcours et plans",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "Tomáš Brousil on how to choose typefaces that work in the real world",
+      "url": "https://www.creativeboom.com/insight/tomas-brousil-on-what-separates-a-true-type-system-from-a-merely-large-font-family/",
+      "published": "2026-11-05T17:00:00+00:00",
+      "summary": "The founder of Prague's Suitcase Type Foundry shares his four best tips for selecting the right fonts for your projects. Every company that designs typefaces wants to show them off in the best light....",
+      "image": "",
+      "source": "Creative Boom",
+      "category": "03 DA Graphisme",
+      "angle": "Découvrir les pratiques créatives",
       "status": "source_detected_not_editorially_analyzed"
     },
     {
@@ -1065,6 +1457,17 @@
       "source": "Pitchfork",
       "category": "14 Musique Clips",
       "angle": "Analyser les intentions visuelles, la mise en scène, le montage et l'identité des clips",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "Casa del Loro / Workshop, Diseño y Construcción",
+      "url": "https://www.archdaily.com/1188093/casa-del-loro-workshop-diseno-y-construccion",
+      "published": "2026-11-05T15:00:00+00:00",
+      "summary": "Casa de Loro is a studio house located on the outskirts of the city of Mérida, immersed in the Yucatecan jungle, just steps away from an old henequen hacienda.",
+      "image": "",
+      "source": "ArchDaily",
+      "category": "05 Art Architecture",
+      "angle": "Lire parcours et plans",
       "status": "source_detected_not_editorially_analyzed"
     },
     {
@@ -1145,6 +1548,28 @@
       "status": "source_detected_not_editorially_analyzed"
     },
     {
+      "title": "Step inside Hang Yu's wonderfully strange world of clowns, costumes and constructed identities",
+      "url": "https://www.creativeboom.com/inspiration/step-inside-hang-yus-wonderfully-strange-world-of-clowns-costumes-and-constructed-identities/",
+      "published": "2026-11-05T14:00:00+00:00",
+      "summary": "From the streets of New York to the backstage antics of Coney Island Clown Skool, the Chinese photographer explores the curious ways we perform identity and make sense of the world around us. Imagine...",
+      "image": "",
+      "source": "Creative Boom",
+      "category": "03 DA Graphisme",
+      "angle": "Découvrir les pratiques créatives",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "Atlântica House / Felipe Hess Arquitetos",
+      "url": "https://www.archdaily.com/1068562/atlantica-house-felipe-hess-arquitetos",
+      "published": "2026-11-05T13:00:00+00:00",
+      "summary": "Located in São Paulo on a narrow and deep lot, the residence was designed for a young couple of art collectors and their four children. The design is based on two premises: accommodating a contemporary art collection and creating gathering spaces for family life.",
+      "image": "",
+      "source": "ArchDaily",
+      "category": "05 Art Architecture",
+      "angle": "Lire parcours et plans",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
       "title": "Yamaha introduces the DM5 Series to the market",
       "url": "https://www.tpimagazine.com/yamaha-introduces-the-dm5-series-to-the-market/",
       "published": "2026-11-05T12:09:20+00:00",
@@ -1178,6 +1603,28 @@
       "image": ""
     },
     {
+      "title": "Backyard Townhouses / Behin Ha",
+      "url": "https://www.archdaily.com/1188061/backyard-townhouses-behin-ha",
+      "published": "2026-11-05T12:00:00+00:00",
+      "summary": "In Jersey City's Heights district, Backyard Townhouses by Behin Ha transforms a stalled demolition into an opportunity for urban densification. Designed by the studio led by Behrang Behin and Ann Ha, the project restores a nearly 150-year-old house while introducing three contemporary townhouses in its rear yard, nearly tripling the site's residential capacity without altering the historic streetscape.",
+      "image": "",
+      "source": "ArchDaily",
+      "category": "05 Art Architecture",
+      "angle": "Lire parcours et plans",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "Tatiana Egoshina finds beauty in bad typography, Italian folklore and happy accidents",
+      "url": "https://www.creativeboom.com/inspiration/tatiana-egoshina-finds-beauty-in-bad-typography-italian-folklore-and-happy-accidents/",
+      "published": "2026-11-05T09:00:00+00:00",
+      "summary": "From lovingly arranged shop windows to mountains illuminated with local legends, the Milan-based designer finds inspiration in unexpected places, turning everyday observations into colourful identitie...",
+      "image": "",
+      "source": "Creative Boom",
+      "category": "03 DA Graphisme",
+      "angle": "Découvrir les pratiques créatives",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
       "title": "Nommés 6/6 au Prix de l’imaginaire lumière ACEtylène 2026",
       "url": "https://www.lightzoomlumiere.fr/photos/nommes-au-prix-de-l-imaginaire-lumiere-acetylene-2026-realisations-1-a-4/",
       "published": "2026-11-05T06:30:04+00:00",
@@ -1198,6 +1645,28 @@
       "angle": "Suivre les productions françaises",
       "status": "source_detected_not_editorially_analyzed",
       "image": ""
+    },
+    {
+      "title": "Agrumea Farm",
+      "url": "https://www.awwwards.com/sites/agrumea-farm",
+      "published": "2026-11-05T00:00:00+00:00",
+      "summary": "An immersive web journey through Agrumea Farm, blending Sicilian heritage with Three.js, Nuxt, GSAP and smooth Lenis interactions",
+      "image": "",
+      "source": "Awwwards",
+      "category": "03 DA Graphisme",
+      "angle": "Explorer composition et interactions",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "Watch This Is Lorelei Play The Singer in My Band Songs on KCRW",
+      "url": "https://pitchfork.com/story/watch-this-is-lorelei-play-the-singer-in-my-band-songs-on-kcrw/",
+      "published": "2026-11-04T22:47:12+00:00",
+      "summary": "Nate Amos brought five tracks from his latest album to the public radio station",
+      "image": "https://media.pitchfork.com/photos/6aebb0425dd8a9762129ff5d/master/pass/GettyImages-2297812379.jpg",
+      "source": "Pitchfork",
+      "category": "14 Musique Clips",
+      "angle": "Analyser les intentions visuelles, la mise en scène, le montage et l'identité des clips",
+      "status": "source_detected_not_editorially_analyzed"
     },
     {
       "title": "UK Music Video Awards 2026: all the winners from the 19th annual UKMVAs",
@@ -1233,6 +1702,39 @@
       "image": "https://www.stirworld.com/images/article_gallery/pem-lham-with-an-untitled-sculpture-lsquo-untitled-1-rsquo-on-view-at-lsquo-molay-moley-rsquo-2025-pem-lham-pem-lham-stirworld-261102024715_t.jpg"
     },
     {
+      "title": "Bob Dylan, Wearing Hoodie, Meets Pope",
+      "url": "https://pitchfork.com/story/bob-dylan-wearing-hoodie-meets-pope/",
+      "published": "2026-11-04T17:51:17+00:00",
+      "summary": "Not quite Heaven’s door, but close",
+      "image": "https://media.pitchfork.com/photos/6aeb7f4436dc15f46c7d1de9/master/pass/GettyImages-2303509652%20(1).jpg",
+      "source": "Pitchfork",
+      "category": "14 Musique Clips",
+      "angle": "Analyser les intentions visuelles, la mise en scène, le montage et l'identité des clips",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "Four Tet Produced a Tech-House Remix for the Durutti Column",
+      "url": "https://pitchfork.com/story/four-tet-remixes-the-durutti-column/",
+      "published": "2026-11-04T17:14:12+00:00",
+      "summary": "“When I was asked to do a remix it felt like the universe was confirming I was connected to this music”",
+      "image": "https://media.pitchfork.com/photos/6aeb62d0b34ec953af9956f4/master/pass/unnamed%20(56).jpg",
+      "source": "Pitchfork",
+      "category": "14 Musique Clips",
+      "angle": "Analyser les intentions visuelles, la mise en scène, le montage et l'identité des clips",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "Christine and the Queens Returns with Two New Songs",
+      "url": "https://pitchfork.com/story/christine-and-the-queens-returns-with-two-new-songs/",
+      "published": "2026-11-04T15:07:21+00:00",
+      "summary": "“Rendez-vous avec toi” arrives alongside an English counterpart, “Rendez-vous in your arms”",
+      "image": "https://media.pitchfork.com/photos/6aea184db34ec953af995591/master/pass/CHRISTINE%20AND%20THE%20QUEENS%20-%20plc%20cr%20-%20Errol%20Rainey.jpg",
+      "source": "Pitchfork",
+      "category": "14 Musique Clips",
+      "angle": "Analyser les intentions visuelles, la mise en scène, le montage et l'identité des clips",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
       "title": "Tom Noakes & Black Kite Deliver the Doom Burger for KFC",
       "url": "https://www.stashmedia.tv/tom-noakes-black-kite-deliver-the-doom-burger-for-kfc/",
       "published": "2026-11-04T14:31:28+00:00",
@@ -1266,6 +1768,17 @@
       "status": "source_detected_not_editorially_analyzed"
     },
     {
+      "title": "Andstudio on the challenges of building a global studio from Lithuania",
+      "url": "https://www.creativeboom.com/insight/andstudios-augustinas-paukste-on-10-years-of-building-a-global-studio-from-vilnius/",
+      "published": "2026-11-04T12:00:00+00:00",
+      "summary": "As the Vilnius agency celebrates its 10th birthday, co-founder Augustinas Paukštė discusses transforming a local firm into an international player. Ten years ago, two designers in Vilnius, Augustinas...",
+      "image": "",
+      "source": "Creative Boom",
+      "category": "03 DA Graphisme",
+      "angle": "Découvrir les pratiques créatives",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
       "title": "L’ISTS ouvre la prochaine session de la formation métier “Régisseur général des entreprises du spectacle vivant”",
       "url": "https://www.revue-as.fr/2026/11/04/lists-ouvre-la-prochaine-session-de-la-formation-metier-regisseur-general-des-entreprises-du-spectacle-vivant/",
       "published": "2026-11-04T09:53:00+00:00",
@@ -1277,6 +1790,39 @@
       "image": ""
     },
     {
+      "title": "Yinka Ilori brings joy and colour to the Tottenham Hotspur away shirt",
+      "url": "https://www.creativeboom.com/news/yinka-ilori-brings-his-joyful-love-of-colour-to-reimagine-the-tottenham-hotspur-away-shirt/",
+      "published": "2026-11-04T09:00:00+00:00",
+      "summary": "The British-Nigerian artist harnesses his signature colour, pattern and storytelling in a shirt design that celebrates North London's community. Let's start with some honesty. I'm not really intereste...",
+      "image": "",
+      "source": "Creative Boom",
+      "category": "03 DA Graphisme",
+      "angle": "Découvrir les pratiques créatives",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "Burger trees, spying fruit and flying taxis: the digital clay world of Daniel Jurman",
+      "url": "https://www.creativeboom.com/inspiration/burger-trees-spying-fruit-and-flying-taxis-discover-the-digital-clay-world-of-daniel-jurman/",
+      "published": "2026-11-04T08:15:00+00:00",
+      "summary": "The New York illustrator channels 1990s MTV bumpers and retro claymation in these gloriously odd mini-animations. If you're old enough to remember the 1990s, you may recall the strange little animated...",
+      "image": "",
+      "source": "Creative Boom",
+      "category": "03 DA Graphisme",
+      "angle": "Découvrir les pratiques créatives",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "Film is breaking out of its box, and this orchestral tour is showing the way",
+      "url": "https://www.creativeboom.com/news/film-is-breaking-out-of-its-box-and-this-cathedral-tour-is-showing-the-way/",
+      "published": "2026-11-04T08:00:00+00:00",
+      "summary": "Forty-four years after it first aired, The Snowman is touring with an orchestra, including shows in four cathedrals. And I think this tells us a lot about where we are as a culture. It's been 44 years...",
+      "image": "",
+      "source": "Creative Boom",
+      "category": "03 DA Graphisme",
+      "angle": "Découvrir les pratiques créatives",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
       "title": "Alt Western: Buck Opens Bass X Machina on Netflix",
       "url": "https://www.stashmedia.tv/alt-western-buck-opens-bass-x-machina-on-netflix/",
       "published": "2026-11-04T02:49:49+00:00",
@@ -1286,6 +1832,39 @@
       "angle": "Explorer les langages visuels",
       "status": "source_detected_not_editorially_analyzed",
       "image": ""
+    },
+    {
+      "title": "Grail",
+      "url": "https://www.awwwards.com/sites/grail",
+      "published": "2026-11-04T00:00:00+00:00",
+      "summary": "Branding and a scroll-driven 3D web experience for Grail – an iOS self-improvement app that turns real-world quests into RPG stats.",
+      "image": "",
+      "source": "Awwwards",
+      "category": "03 DA Graphisme",
+      "angle": "Explorer composition et interactions",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "Dutch Bros Opens in Columbus and Eyes More Walk-Ups",
+      "url": "https://vmsd.com/dutch-bros-opens-in-columbus-and-eyes-more-walk-ups/",
+      "published": "2026-11-03T19:45:59+00:00",
+      "summary": "First of three drive-thru locales set for central Ohio has debuted.",
+      "image": "",
+      "source": "VMSD",
+      "category": "06 Retail Brand Experience",
+      "angle": "Suivre scénographie commerciale",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "Judd Nystrom Rejoins At Home as CEO",
+      "url": "https://vmsd.com/judd-nystrom-rejoins-at-home-as-ceo/",
+      "published": "2026-11-03T19:35:47+00:00",
+      "summary": "Exec served as home décor chain’s CFO from 2013-18.",
+      "image": "",
+      "source": "VMSD",
+      "category": "06 Retail Brand Experience",
+      "angle": "Suivre scénographie commerciale",
+      "status": "source_detected_not_editorially_analyzed"
     },
     {
       "title": "Shawn Boyle, Jason Ortiz, Nick Stabile, and Chris Tone Join 4Wall Entertainment",
@@ -1310,12 +1889,34 @@
       "image": "https://www.stirworld.com/images/article_gallery/-lsquo-where-the-forest-begins-within-rsquo-2026-radhika-agarwala-lsquo-inheritors-of-earth-rsquo-2026-knma-saket-knma-inheritors-of-earth-stirworld-261104123839.jpg"
     },
     {
+      "title": "The World Is Loud. Why Should Anyone Listen?",
+      "url": "https://vmsd.com/the-world-is-loud-why-should-anyone-listen/",
+      "published": "2026-11-03T16:48:36+00:00",
+      "summary": "This world of ours rarely gives us a moment to simply be, does it?",
+      "image": "",
+      "source": "VMSD",
+      "category": "06 Retail Brand Experience",
+      "angle": "Suivre scénographie commerciale",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
       "title": "Tinashe 'Pillow Fight' by Zac Dov Wiesel",
       "url": "https://www.promonews.tv/videos/2026/11/03/tinashe-pillow-fight-zac-dov-wiesel/96841",
       "published": "2026-11-03T16:46:13+00:00",
       "summary": "Zac Wiesel transforms Tinashe's playful R&B track into a sensual, dreamlike visual experience. Set against a dark, minimalist backdrop, the film sees Tinashe moving between beds, floating feathers and striking choreography. Blending intimate close-ups with dynamic movement, Wiesel...",
       "image": "",
       "source": "Promonews",
+      "category": "14 Musique Clips",
+      "angle": "Analyser les intentions visuelles, la mise en scène, le montage et l'identité des clips",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "Saya Gray Drops Qwerty III EP",
+      "url": "https://pitchfork.com/story/saya-gray-drops-qwerty-iii-ep/",
+      "published": "2026-11-03T15:59:57+00:00",
+      "summary": "“I feel weird because we’re living in a weird world” — Jughead from Riverdale Saya Gray",
+      "image": "https://media.pitchfork.com/photos/6ae9f6c5fce7f903234b40c3/master/pass/Saya-Gray.jpg",
+      "source": "Pitchfork",
       "category": "14 Musique Clips",
       "angle": "Analyser les intentions visuelles, la mise en scène, le montage et l'identité des clips",
       "status": "source_detected_not_editorially_analyzed"
@@ -1338,6 +1939,39 @@
       "summary": "ear candy's Jamie Jordan travels through a series of parallel world vignettes, in this imaginative and vibrant promo for their new release by Promonews ' very own Rob Ulitski. The video for Clean Clothes opens with a mysterious box from Egglemore - the fictional town that Ulitski...",
       "image": "",
       "source": "Promonews",
+      "category": "14 Musique Clips",
+      "angle": "Analyser les intentions visuelles, la mise en scène, le montage et l'identité des clips",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "Kurt Vile Shreds Through “99 BPM” on Fallon",
+      "url": "https://pitchfork.com/story/kurt-vile-shreds-through-99-bpm-on-fallon/",
+      "published": "2026-11-03T15:08:38+00:00",
+      "summary": "On the eve of the next leg of his North American tour",
+      "image": "https://media.pitchfork.com/photos/6ae9f695854b3c455084b6f5/master/pass/kurt-vile-fallon-99-bpm.JPG",
+      "source": "Pitchfork",
+      "category": "14 Musique Clips",
+      "angle": "Analyser les intentions visuelles, la mise en scène, le montage et l'identité des clips",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "From first click to final impression: rethinking where the brand experience begins",
+      "url": "https://imagination.com/latest/from-first-click-to-final-impression-rethinking-where-the-brand-experience-begins/",
+      "published": "2026-11-03T14:24:27+00:00",
+      "summary": "You’ll doubtless have heard the philosophical question ‘If a tree falls in a forest and no one is around to hear it, does it make a sound?’ The events industry version of that arguably is – if a brand event happens but no-one knows about it – did it actually happen at all? Put plainly […]",
+      "image": "",
+      "source": "Imagination",
+      "category": "06 Retail Brand Experience",
+      "angle": "Analyser expérience comme stratégie",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "Charlotte Adigéry and Bolis Pupul Line Up New Album and Tour",
+      "url": "https://pitchfork.com/story/charlotte-adigery-and-bolis-pupul-line-up-new-album-and-tour/",
+      "published": "2026-11-03T14:08:24+00:00",
+      "summary": "Watch the acrobatic “From Healer to Dealer” video from Topical Dancer follow-up Mainland Madinina",
+      "image": "https://media.pitchfork.com/photos/6ae9df9e350da654922fbd3f/master/pass/Charlotte%20Adige%CC%81ry%20and%20Bolis%20Pupul%20new%20album.jpg",
+      "source": "Pitchfork",
       "category": "14 Musique Clips",
       "angle": "Analyser les intentions visuelles, la mise en scène, le montage et l'identité des clips",
       "status": "source_detected_not_editorially_analyzed"
@@ -1376,6 +2010,28 @@
       "status": "source_detected_not_editorially_analyzed"
     },
     {
+      "title": "Inspired by strangers' dreams, Moho builds glittering, slightly unsettling worlds",
+      "url": "https://www.creativeboom.com/inspiration/inspired-by-strangers-dreams-moho-builds-glittering-slightly-unsettling-worlds/",
+      "published": "2026-11-03T13:00:00+00:00",
+      "summary": "The Seoul-based artist transforms dreams submitted by people around the world into shimmering animations filled with pearls and sequins. \"A dream is something we've experienced, yet it can be dif...",
+      "image": "",
+      "source": "Creative Boom",
+      "category": "03 DA Graphisme",
+      "angle": "Découvrir les pratiques créatives",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "Koto: We need to talk about how all electric car brands look the same",
+      "url": "https://www.creativeboom.com/insight/is-it-a-problem-that-all-electric-car-brands-all-look-the-same/",
+      "published": "2026-11-03T12:00:00+00:00",
+      "summary": "The studio's new report asks a fundamental question: how EVs can stand out when they all look alike? Here's something about the electric car boom that hasn't been widely reported, but for me is fundam...",
+      "image": "",
+      "source": "Creative Boom",
+      "category": "03 DA Graphisme",
+      "angle": "Découvrir les pratiques créatives",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
       "title": "Écouter ses conceptions de systèmes d&b grâce à la nouvelle fonction d’auralisation d’ArrayCalc",
       "url": "https://www.revue-as.fr/2026/11/03/ecouter-ses-conceptions-de-systemes-db-grace-a-la-nouvelle-fonction-dauralisation-darraycalc/",
       "published": "2026-11-03T09:51:00+00:00",
@@ -1396,6 +2052,28 @@
       "angle": "Approfondir dispositifs lumineux",
       "status": "source_detected_not_editorially_analyzed",
       "image": "https://www.lightzoomlumiere.fr/wp-content/uploads/2026/11/Kit-Media-2027-agence-LZL-Services-et-Light-ZOOM-Lumiere-Photo-facade-du-chateau-de-Blois-France-Conception-lumiere-Pailum-Copyright-Vincent-Laganier-LZL-Services-560x280.jpg"
+    },
+    {
+      "title": "How Elie N’Guessan makes everyday London look like a movie",
+      "url": "https://www.creativeboom.com/inspiration/how-elie-nguessan-makes-everyday-london-look-like-a-movie/",
+      "published": "2026-11-03T06:30:00+00:00",
+      "summary": "From an impromptu shoot with four curious kids to a sportswear campaign concept staged inside a car, the London photographer finds inspiration in familiar places and unplanned moments. Elie N'Guessan...",
+      "image": "",
+      "source": "Creative Boom",
+      "category": "03 DA Graphisme",
+      "angle": "Découvrir les pratiques créatives",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "DeepBook",
+      "url": "https://www.awwwards.com/sites/deepbook",
+      "published": "2026-11-03T00:00:00+00:00",
+      "summary": "Creating a design system, motion graphics, and website design for DeepBook, a decentralized trading platform built on Sui.",
+      "image": "",
+      "source": "Awwwards",
+      "category": "03 DA Graphisme",
+      "angle": "Explorer composition et interactions",
+      "status": "source_detected_not_editorially_analyzed"
     },
     {
       "title": "Buyers Guide: Winches & Hoists – Submission Form",
@@ -1420,6 +2098,50 @@
       "status": "source_detected_not_editorially_analyzed"
     },
     {
+      "title": "New Music Releases and Upcoming Albums in 2026 and 2027",
+      "url": "https://pitchfork.com/news/new-album-releases/",
+      "published": "2026-11-02T22:05:17+00:00",
+      "summary": "A regularly updated guide to the new albums, EPs, mixtapes, and projects getting released in the coming weeks and months",
+      "image": "https://media.pitchfork.com/photos/695c3b7ccbe218402ba3e885/master/pass/1.png",
+      "source": "Pitchfork",
+      "category": "14 Musique Clips",
+      "angle": "Analyser les intentions visuelles, la mise en scène, le montage et l'identité des clips",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "Hybrid Retail/Cultural Space to Debut in Greece",
+      "url": "https://vmsd.com/hybrid-retail-cultural-space-to-debut-in-greece/",
+      "published": "2026-11-02T21:12:20+00:00",
+      "summary": "Six Rings to open in December in Athens featuring shops-in-shops by adidas and others.",
+      "image": "",
+      "source": "VMSD",
+      "category": "06 Retail Brand Experience",
+      "angle": "Suivre scénographie commerciale",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "Wahlburgers Details 2027 Growth Plans",
+      "url": "https://vmsd.com/wahlburgers-details-2027-growth-plans/",
+      "published": "2026-11-02T21:01:21+00:00",
+      "summary": "Chain’s openings to include eateries at big-box stores, a new stadium and a casino.",
+      "image": "",
+      "source": "VMSD",
+      "category": "06 Retail Brand Experience",
+      "angle": "Suivre scénographie commerciale",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "Nettspend, Gracie Abrams, Factory Floor, and More: This Week’s Pitchfork Selects Playlist",
+      "url": "https://pitchfork.com/story/nettspend-gracie-abrams-factory-floor-pitchfork-selects-playlist-songs-of-the-week/",
+      "published": "2026-11-02T20:13:06+00:00",
+      "summary": "Our weekly playlist highlights songs that our writers, editors, and contributors are listening to on repeat",
+      "image": "https://media.pitchfork.com/photos/6ae8e82eef89e5c85fd704cb/master/pass/P4K26-1102_Selects_2x1.gif",
+      "source": "Pitchfork",
+      "category": "14 Musique Clips",
+      "angle": "Analyser les intentions visuelles, la mise en scène, le montage et l'identité des clips",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
       "title": "News of Note: What You Might Have Missed in October 2026",
       "url": "https://dancemagazine.com/dance-news-note-october-2026/?utm_source=rss&utm_medium=rss&utm_campaign=dance-news-note-october-2026",
       "published": "2026-11-02T19:51:37+00:00",
@@ -1428,6 +2150,17 @@
       "source": "Dance Magazine",
       "category": "15 Danse Performance",
       "angle": "Observer les intentions de mise en scène, composition, rythme, lumière et expérience du public",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "Trent Reznor and Atticus Ross Are Back at It (Scoring David Fincher Movies)",
+      "url": "https://pitchfork.com/story/trent-reznor-and-atticus-ross-david-fincher-mis-adventures-of-cliff-booth/",
+      "published": "2026-11-02T18:39:08+00:00",
+      "summary": "The duo’s work on The Further Mis-Adventures of Cliff Booth will be their sixth collaboration",
+      "image": "https://media.pitchfork.com/photos/6ae8c8acef89e5c85fd70483/master/pass/GettyImages-808914866.jpg",
+      "source": "Pitchfork",
+      "category": "14 Musique Clips",
+      "angle": "Analyser les intentions visuelles, la mise en scène, le montage et l'identité des clips",
       "status": "source_detected_not_editorially_analyzed"
     },
     {
@@ -1453,6 +2186,17 @@
       "image": "https://www.stirworld.com/images/article_gallery/the-courtauld-gallery-exhibits-the-pakistani-american-artist-rsquo-s-first-solo-show-in-europe-salman-toor-someone-like-you-courtauld-gallery-stirworld-261029011601.jpg"
     },
     {
+      "title": "Yaeji Plots a Dance Dance Revolution in New Single “DDR”",
+      "url": "https://pitchfork.com/story/yaeji-plots-a-dance-dance-revolution-in-new-ddr-video/",
+      "published": "2026-11-02T16:27:19+00:00",
+      "summary": "The singer-producer’s first song of the year is a collaboration with Enayet and K Wata",
+      "image": "https://media.pitchfork.com/photos/6ae8b23628c306a728b7398f/master/pass/yaeji-ddr-video.jpg",
+      "source": "Pitchfork",
+      "category": "14 Musique Clips",
+      "angle": "Analyser les intentions visuelles, la mise en scène, le montage et l'identité des clips",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
       "title": "PRG Projects Opens New London Studio",
       "url": "https://plsn.com/featured/prg-projects-opens-new-london-studio/",
       "published": "2026-11-02T15:07:18+00:00",
@@ -1464,6 +2208,17 @@
       "status": "source_detected_not_editorially_analyzed"
     },
     {
+      "title": "Bass Pro Shops Expanding Store Footprint in 2027, 2028",
+      "url": "https://vmsd.com/bass-pro-shops-expanding-store-footprint-in-2027-2028/",
+      "published": "2026-11-02T15:00:02+00:00",
+      "summary": "The retailer has already opened three new stores in 2026.",
+      "image": "",
+      "source": "VMSD",
+      "category": "06 Retail Brand Experience",
+      "angle": "Suivre scénographie commerciale",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
       "title": "10 Not-Nutcracker Shows Worth Seeing This November and December",
       "url": "https://dancemagazine.com/dance-performances-onstage-november-december-2026/?utm_source=rss&utm_medium=rss&utm_campaign=dance-performances-onstage-november-december-2026",
       "published": "2026-11-02T14:00:00+00:00",
@@ -1472,6 +2227,17 @@
       "source": "Dance Magazine",
       "category": "15 Danse Performance",
       "angle": "Observer les intentions de mise en scène, composition, rythme, lumière et expérience du public",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "Affinity finally comes to iPad, and illustrators get a free all-in-one app",
+      "url": "https://www.creativeboom.com/news/behold-affinity-for-ipad-the-app-that-wants-to-retire-your-four-other-apps/",
+      "published": "2026-11-02T14:00:00+00:00",
+      "summary": "It's official. Canva has launched Affinity for iPad today. The single app doesn't just make your life easier – the core tools won't cost you a penny, either. If you've ever sketched in one app, turned...",
+      "image": "",
+      "source": "Creative Boom",
+      "category": "03 DA Graphisme",
+      "angle": "Découvrir les pratiques créatives",
       "status": "source_detected_not_editorially_analyzed"
     },
     {
@@ -1519,6 +2285,17 @@
       "image": ""
     },
     {
+      "title": "How&How launches a new name, strategy, visual identity and website",
+      "url": "https://www.creativeboom.com/news/london-and-la-studio-howhow-launches-a-new-name-visual-identity-and-website/",
+      "published": "2026-11-02T06:45:00+00:00",
+      "summary": "Six years after launching in the midst of the pandemic, the London and LA studio is taking its own advice and turning up its truth. Rebranding a company is a lot of pressure. Multiply that tenfold whe...",
+      "image": "",
+      "source": "Creative Boom",
+      "category": "03 DA Graphisme",
+      "angle": "Découvrir les pratiques créatives",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
       "title": "Nommés 5/6 au Prix de la conception lumière ACEtylène 2026",
       "url": "https://www.lightzoomlumiere.fr/photos/nommes-au-prix-de-la-conception-lumiere-acetylene-2026-realisations-26-a-31/",
       "published": "2026-11-02T06:30:04+00:00",
@@ -1530,6 +2307,39 @@
       "image": "https://www.lightzoomlumiere.fr/wp-content/uploads/2026/10/Nommes-au-Prix-de-la-conception-lumiere-ACEtylene-2026-realisations-de-concepteurs-lumiere-26-a-31-Copyright-ACE-560x280.jpg"
     },
     {
+      "title": "Wildwood: a big leap forward for animation that you need to see on a big screen",
+      "url": "https://www.creativeboom.com/insight/wildwood-is-a-great-leap-forward-for-animation-heres-why-you-need-to-see-it-on-a-big-screen/",
+      "published": "2026-11-02T06:30:00+00:00",
+      "summary": "Laika's handmade epic blends stop motion and CG like nothing before it, and it deserves to win at the box office. Last week I walked into a sold-out cinema screening, and let me tell you: it's been a...",
+      "image": "",
+      "source": "Creative Boom",
+      "category": "03 DA Graphisme",
+      "angle": "Découvrir les pratiques créatives",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "Swiss Typefaces crafts a warmer, friendlier custom font for Swiss Post",
+      "url": "https://www.creativeboom.com/inspiration/swiss-typefaces-crafts-a-warmer-friendlier-custom-font-for-swiss-post/",
+      "published": "2026-11-02T06:15:00+00:00",
+      "summary": "Creating a typeface for Switzerland's postal service took three years, and it came with many challenges. When it comes to custom typefaces, designers are often faced with a dilemma. When clients have...",
+      "image": "",
+      "source": "Creative Boom",
+      "category": "03 DA Graphisme",
+      "angle": "Découvrir les pratiques créatives",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "This celebrity ad shows what a difference it makes when you don't use CGI",
+      "url": "https://www.creativeboom.com/inspiration/isobels-financial-services-ad-shows-what-a-difference-it-makes-when-you-dont-use-cgi/",
+      "published": "2026-11-02T06:00:00+00:00",
+      "summary": "We're so starved of practical effects; even a spot promoting financial services can be magical in the right hands. Ads for financial services are not something I go out of my way to watch. I tend to b...",
+      "image": "",
+      "source": "Creative Boom",
+      "category": "03 DA Graphisme",
+      "angle": "Découvrir les pratiques créatives",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
       "title": "Odéon – Ateliers Berthier",
       "url": "https://www.revue-as.fr/2026/11/02/odeon-ateliers-berthier/",
       "published": "2026-11-02T05:13:00+00:00",
@@ -1539,6 +2349,17 @@
       "angle": "Suivre les productions françaises",
       "status": "source_detected_not_editorially_analyzed",
       "image": ""
+    },
+    {
+      "title": "Grids",
+      "url": "https://www.awwwards.com/sites/grids-1",
+      "published": "2026-11-02T00:00:00+00:00",
+      "summary": "Grids is an interactive project exploring grids, composition, and key design principles through visual experiments.",
+      "image": "",
+      "source": "Awwwards",
+      "category": "03 DA Graphisme",
+      "angle": "Explorer composition et interactions",
+      "status": "source_detected_not_editorially_analyzed"
     },
     {
       "title": "Behind 4Wall Entertainment’s Work on Blink Festival 2026",
@@ -1563,6 +2384,17 @@
       "image": "https://www.stirworld.com/images/article_gallery/timber-shutters-punctuate-the-street-facing-facade-of-the-house-of-thirds-a-delhi-residence-by-architects-collaborative-shaped-by-an-irregular-five-sided-plot-the-house-of-thirds-architects-coll-261102044241.jpg"
     },
     {
+      "title": "Christmas adverts 2026: Scrooges, Muppets and a BFG with the sniffles – the best festive ads so far",
+      "url": "https://www.creativeboom.com/news/christmas-adverts-of-2026/",
+      "published": "2026-11-01T18:00:00+00:00",
+      "summary": "Ghosts of Christmas past, old school pals and a friendly giant with a cold: we're rounding up 2026's biggest festive ads as they land. Then we'll ask some industry experts to pick the winners, the los...",
+      "image": "",
+      "source": "Creative Boom",
+      "category": "03 DA Graphisme",
+      "angle": "Découvrir les pratiques créatives",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
       "title": "How Carbonite HyperMax gives sports broadcasters a shared resource pool",
       "url": "https://www.rossvideo.com/blog/how-carbonite-hypermax-gives-sports-broadcasters-a-shared-resource-pool/",
       "published": "2026-11-01T17:58:05+00:00",
@@ -1582,6 +2414,50 @@
       "source": "Ross Video",
       "category": "02 TV Broadcast",
       "angle": "Comprendre workflows broadcast",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "Dont Look up game",
+      "url": "https://www.awwwards.com/sites/dont-look-up-game",
+      "published": "2026-11-01T00:00:00+00:00",
+      "summary": "You are very rich, very tall, and standing on quite a lot of people. Keep them entertained enough not to look up, and collect a trillion. A game about the price of attention.",
+      "image": "",
+      "source": "Awwwards",
+      "category": "03 DA Graphisme",
+      "angle": "Explorer composition et interactions",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "MECHA",
+      "url": "https://www.awwwards.com/sites/mecha",
+      "published": "2026-10-31T00:00:00+00:00",
+      "summary": "Mecha deploys physical automation into legacy industries. We created strategy, branding, and web design for them.",
+      "image": "",
+      "source": "Awwwards",
+      "category": "03 DA Graphisme",
+      "angle": "Explorer composition et interactions",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "Fine Dining: Fogo de Chao, IKIGAI and Julius’ Castle",
+      "url": "https://vmsd.com/fine-dining-fogo-de-chao-ikigai-and-julius-castle/",
+      "published": "2026-10-30T20:19:23+00:00",
+      "summary": "Upscale projects involve a conversion, a new-build and a cliffside restoration.",
+      "image": "",
+      "source": "VMSD",
+      "category": "06 Retail Brand Experience",
+      "angle": "Suivre scénographie commerciale",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "Exemplar Hires LVMH Exec as President of Bergdorf Goodman",
+      "url": "https://vmsd.com/exemplar-hires-lvmh-exec-as-president-of-bergdorf-goodman/",
+      "published": "2026-10-30T20:05:21+00:00",
+      "summary": "Lanessa Elrod had worked for NY luxury brand earlier in her career.",
+      "image": "",
+      "source": "VMSD",
+      "category": "06 Retail Brand Experience",
+      "angle": "Suivre scénographie commerciale",
       "status": "source_detected_not_editorially_analyzed"
     },
     {
@@ -1640,6 +2516,17 @@
       "image": ""
     },
     {
+      "title": "Spyker Cars",
+      "url": "https://www.awwwards.com/sites/spyker-cars",
+      "published": "2026-10-30T00:00:00+00:00",
+      "summary": "Most only see a Spyker in images, so we built a digital experience that hands them the keys. A day of ownership: an easy Italian morning, a mountain pass at speed, a red-carpet evening.",
+      "image": "",
+      "source": "Awwwards",
+      "category": "03 DA Graphisme",
+      "angle": "Explorer composition et interactions",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
       "title": "Revisiting the Bihar Museum a cultural campus shaped by pavilions and courtyards",
       "url": "https://www.stirworld.com/see-features-revisiting-the-bihar-museum-a-cultural-campus-shaped-by-pavilions-and-courtyards",
       "published": "2026-10-29T18:30:00+00:00",
@@ -1660,6 +2547,28 @@
       "angle": "Repérer projets hybrides",
       "status": "source_detected_not_editorially_analyzed",
       "image": "https://www.stirworld.com/images/article_gallery/-lsquo-earthly-paradise-radical-living-in-the-uk-rsquo-is-on-view-from-october-3-2026-ndash-march-28-2027-at-the-william-morris-gallery-london-earthly-paradise-william-morris-gallery-stirworld-261030113016.jpg"
+    },
+    {
+      "title": "UGG Opens Evolved Store Experience in Brooklyn",
+      "url": "https://vmsd.com/ugg-opens-evolved-store-experience-in-brooklyn/",
+      "published": "2026-10-29T18:17:39+00:00",
+      "summary": "Boot brand’s updated look reflects its ‘born to feel’ strategy.",
+      "image": "",
+      "source": "VMSD",
+      "category": "06 Retail Brand Experience",
+      "angle": "Suivre scénographie commerciale",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "IMG+RetailOne Acquires ecRetail Studio and Angle Architecture, Expanding Concept-to-Installation Capabilities",
+      "url": "https://vmsd.com/imgretailone-acquires-ecretail-studio-and-angle-architecture-expanding-concept-to-installation-capabilities/",
+      "published": "2026-10-29T18:13:28+00:00",
+      "summary": "Acquisitions bring together retail design expertise, custom fabrication and installation to help customers translate their brands into built environments.",
+      "image": "",
+      "source": "VMSD",
+      "category": "06 Retail Brand Experience",
+      "angle": "Suivre scénographie commerciale",
+      "status": "source_detected_not_editorially_analyzed"
     },
     {
       "title": "Bobo",
@@ -1684,6 +2593,17 @@
       "status": "source_detected_not_editorially_analyzed"
     },
     {
+      "title": "Experiences that made me Emily Kahn",
+      "url": "https://imagination.com/latest/experiences-that-made-me-emily-kahn/",
+      "published": "2026-10-29T12:33:51+00:00",
+      "summary": "In this series, we ask Imagination talent all about the experiences that have made them who they are. This month we spoke to Emily Kahn, Account Manager from our New York studio. Tell us what you do… I’m a translator! I help interpret client feedback for our internal creative & production teams. I review our […]",
+      "image": "",
+      "source": "Imagination",
+      "category": "06 Retail Brand Experience",
+      "angle": "Analyser expérience comme stratégie",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
       "title": "The Whispers of Plants",
       "url": "https://www.designindaba.com/articles/creative-work/whispers-plants",
       "published": "2026-10-29T11:23:56+00:00",
@@ -1693,6 +2613,39 @@
       "angle": "Élargir les références culturelles",
       "status": "source_detected_not_editorially_analyzed",
       "image": ""
+    },
+    {
+      "title": "Henry Chalfant's legendary New York subway graffiti photos pull into Amsterdam at life size",
+      "url": "https://www.creativeboom.com/news/art-is-not-a-crime/",
+      "published": "2026-10-29T07:15:00+00:00",
+      "summary": "Amsterdam's Straat offers a masterclass in the tricky balancing act of bringing graffiti out of the streets and into the museum: its new show of Henry Chalfant's sublime documentation of New York's na...",
+      "image": "",
+      "source": "Creative Boom",
+      "category": "03 DA Graphisme",
+      "angle": "Découvrir les pratiques créatives",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "How do I exorcise a nightmare client and ensure they don't rise from the dead?",
+      "url": "https://www.creativeboom.com/tips/dear-boom-how-do-i-exorcise-a-nightmare-client-and-ensure-they-dont-rise-from-the-dead/",
+      "published": "2026-10-29T07:15:00+00:00",
+      "summary": "With Halloween almost upon us, we've picked a Dear Boom missive that reads like the opening of a horror film. A creative writes: \"I've been working with a client for nearly two years. Every job s...",
+      "image": "",
+      "source": "Creative Boom",
+      "category": "03 DA Graphisme",
+      "angle": "Découvrir les pratiques créatives",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "A new Halloween game turns your unread emails into zombies you can actually kill",
+      "url": "https://www.creativeboom.com/news/a-new-halloween-game-turns-your-unread-emails-into-zombies-you-can-actually-kill/",
+      "published": "2026-10-29T07:00:00+00:00",
+      "summary": "The Unread is a free, gory browser game that hooks into your Gmail, and every zombie you take down is a spam email you'll never have to see again. I'm going to be honest with you. I'm no fan of the ho...",
+      "image": "",
+      "source": "Creative Boom",
+      "category": "03 DA Graphisme",
+      "angle": "Découvrir les pratiques créatives",
+      "status": "source_detected_not_editorially_analyzed"
     },
     {
       "title": "Nommés 3/6 au Prix de la conception lumière ACEtylène 2026",
@@ -1706,6 +2659,17 @@
       "image": "https://www.lightzoomlumiere.fr/wp-content/uploads/2026/10/Nommes-au-Prix-de-la-conception-lumiere-ACEtylene-2026-realisations-de-concepteurs-lumiere-13-a-18-Copyright-ACE-560x280.jpg"
     },
     {
+      "title": "Why Studio Atipus designed a wine label to look like it's been shot from a speeding train",
+      "url": "https://www.creativeboom.com/inspiration/why-studio-atipus-designed-a-wine-label-to-look-like-its-been-shot-from-a-speeding-train/",
+      "published": "2026-10-29T06:15:00+00:00",
+      "summary": "The design for Maria Rigol Ordi's first still wine takes the name's literal meaning and runs with it. Creatives often wax lyrical about finding inspiration in the most unlikely of places: a rusty ship...",
+      "image": "",
+      "source": "Creative Boom",
+      "category": "03 DA Graphisme",
+      "angle": "Découvrir les pratiques créatives",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
       "title": "“La Femme sans ombre”",
       "url": "https://www.revue-as.fr/2026/10/29/la-femme-sans-ombre/",
       "published": "2026-10-29T06:00:00+00:00",
@@ -1715,6 +2679,17 @@
       "angle": "Suivre les productions françaises",
       "status": "source_detected_not_editorially_analyzed",
       "image": ""
+    },
+    {
+      "title": "Unbelievably Crap",
+      "url": "https://www.awwwards.com/sites/unbelievably-crap",
+      "published": "2026-10-29T00:00:00+00:00",
+      "summary": "Unbelievably Crap is a catalyst for catharsis through bold, quirky visual character. Built to crave the unknown, not repeat the known.",
+      "image": "",
+      "source": "Awwwards",
+      "category": "03 DA Graphisme",
+      "angle": "Explorer composition et interactions",
+      "status": "source_detected_not_editorially_analyzed"
     },
     {
       "title": "Hella Jongerius on disrupting systems and embracing the absurd",
@@ -1772,6 +2747,28 @@
       "image": "https://www.lightzoomlumiere.fr/wp-content/uploads/2026/10/Nommes-au-Prix-de-la-conception-lumiere-ACEtylene-2026-realisations-de-concepteurs-lumiere-7-a-12-Copyright-ACE-560x280.jpg"
     },
     {
+      "title": "G. Colombel — Portfolio 2026",
+      "url": "https://www.awwwards.com/sites/g-colombel-portfolio-2026",
+      "published": "2026-10-28T00:00:00+00:00",
+      "summary": "Portfolio of Guillaume Colombel, freelance interactive developer. Specializing in immersive web experiences and creative websites. Based in Paris, available worldwide.",
+      "image": "",
+      "source": "Awwwards",
+      "category": "03 DA Graphisme",
+      "angle": "Explorer composition et interactions",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "What brands can learn from bass heads",
+      "url": "https://imagination.com/latest/what-brands-can-learn-from-bass-heads/",
+      "published": "2026-10-27T16:28:28+00:00",
+      "summary": "In the wake of the pandemic and years spent as social media’s guinea pigs, it’s no surprise that young people today are craving community – and turning to music festivals to find it. Mega-fests like Coachella and Lollapalooza are certainly here to stay, but with 84% of millennials attending music festivals to escape the weight […]",
+      "image": "https://www.youtube.com/embed/4Too4rbGaxE",
+      "source": "Imagination",
+      "category": "06 Retail Brand Experience",
+      "angle": "Analyser expérience comme stratégie",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
       "title": "Matisse Azul Rainbolt on Ballet Folklórico’s Ability to Cultivate Community",
       "url": "https://dancemagazine.com/matisse-azul-rainbolt/?utm_source=rss&utm_medium=rss&utm_campaign=matisse-azul-rainbolt",
       "published": "2026-10-27T13:00:00+00:00",
@@ -1803,6 +2800,17 @@
       "angle": "Approfondir dispositifs lumineux",
       "status": "source_detected_not_editorially_analyzed",
       "image": "https://www.lightzoomlumiere.fr/wp-content/uploads/2025/11/Nommes-au-Prix-de-la-conception-lumiere-ACEtylene-2026-realisations-de-concepteurs-lumiere-1-a-6-Copyright-ACE-560x280.jpg"
+    },
+    {
+      "title": "Awards Racing",
+      "url": "https://www.awwwards.com/sites/awards-racing",
+      "published": "2026-10-27T00:00:00+00:00",
+      "summary": "A browser drift-racer built with three.js and Bullet physics, mixing arcade racing with vehicular combat in a design-world setting: a young nominee racing to the top, dodging angry jurors and rivals. Physics-driven VFX, stage progression, and beat-synced characters.",
+      "image": "",
+      "source": "Awwwards",
+      "category": "03 DA Graphisme",
+      "angle": "Explorer composition et interactions",
+      "status": "source_detected_not_editorially_analyzed"
     },
     {
       "title": "How Will SAG-AFTRA’s New Agreement Change the Game for Choreographers?",
@@ -1838,11 +2846,55 @@
       "image": "https://www.lightzoomlumiere.fr/wp-content/uploads/2026/10/Limiter-les-impacts-de-la-lumiere-artificielle-conception-et-mise-en-oeuvre-dun-projet-declairage-exterieur-vertueux-guide-GT-Quenvlum-26-octobre-2026-Copyright-Cluster-Lumiere-560x280.jpg"
     },
     {
+      "title": "A24",
+      "url": "https://www.awwwards.com/sites/a24",
+      "published": "2026-10-26T00:00:00+00:00",
+      "summary": "An experimental, non-commercial project reimagining A24’s filmography through a 3D disc-based experience built around discovering its standout titles.",
+      "image": "",
+      "source": "Awwwards",
+      "category": "03 DA Graphisme",
+      "angle": "Explorer composition et interactions",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "Forge Automotive",
+      "url": "https://www.awwwards.com/sites/forge-automotive",
+      "published": "2026-10-25T00:00:00+00:00",
+      "summary": "A performance atelier creating bespoke vehicles through bodywork, interiors, wheels, lighting, exhaust and PPF",
+      "image": "",
+      "source": "Awwwards",
+      "category": "03 DA Graphisme",
+      "angle": "Explorer composition et interactions",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "Brandon Yasin",
+      "url": "https://www.awwwards.com/sites/brandon-yasin",
+      "published": "2026-10-24T00:00:00+00:00",
+      "summary": "Colour palettes shift with the time of day, or drag the clock to time travel. Navigation unfolds like magazine covers side by side. Inspired by editorial and brought to life by motion.",
+      "image": "",
+      "source": "Awwwards",
+      "category": "03 DA Graphisme",
+      "angle": "Explorer composition et interactions",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
       "title": "This Year, Ice Dance Is Returning to Its Ballroom Roots",
       "url": "https://dancemagazine.com/ice-dance-ballroom-waltz/?utm_source=rss&utm_medium=rss&utm_campaign=ice-dance-ballroom-waltz",
       "published": "2026-10-23T16:00:00+00:00",
       "summary": "In February, just days after competing in their first Olympics, U.S. ice dancers Christina Carreira and Anthony Ponomarenko returned to the practice rink. They had a waltz to learn. That’s because, during the 2026 Olympic Games, the International Skating Union (ISU) had discussed the idea of pattern dances—essentially ballroom dances, translated to the ice—returning to […] The post This Year, Ice Dance Is Returning to Its Ballroom Roots appeared first on Dance Magazine .",
       "image": "https://dancemagazine.com/wp-content/uploads/2026/10/Caroline-Green-and-Michael-Parsons-in-their-22Hamilton22-routine-Yoriko-Suzuki-courtesy-Suzuki.jpeg",
+      "source": "Dance Magazine",
+      "category": "15 Danse Performance",
+      "angle": "Observer les intentions de mise en scène, composition, rythme, lumière et expérience du public",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "Jack Cole: The Unsung Hero of Hollywood and Beyond",
+      "url": "https://dancemagazine.com/jack-cole-debra-levine/?utm_source=rss&utm_medium=rss&utm_campaign=jack-cole-debra-levine",
+      "published": "2026-10-23T13:00:00+00:00",
+      "summary": "In this adapted excerpt from her new book, Jazzed: Jack Cole and Twentieth-Century American Dance, critic Debra Levine describes the great but under-recognized choreographer’s continued relevance. On March 10, 2024, as the Ninety-Sixth Academy Awards were winding down, a hunky blonde actor in a sparkly pink suit hijacked the show. Clutching a mike in his […] The post Jack Cole: The Unsung Hero of Hollywood and Beyond appeared first on Dance Magazine .",
+      "image": "",
       "source": "Dance Magazine",
       "category": "15 Danse Performance",
       "angle": "Observer les intentions de mise en scène, composition, rythme, lumière et expérience du public",
@@ -1871,6 +2923,39 @@
       "image": "https://www.lightzoomlumiere.fr/wp-content/uploads/2026/10/Atelier-des-jardiniers-tiers-lieu-culturel-Montrouge-France-Lumiere-naturelle-et-eclairage-interieur-luminaires-en-reemploi-Architecte-Septembre-architecture-Copyright-Giaime-Meloni-560x280.jpg"
     },
     {
+      "title": "ESR Bespoke",
+      "url": "https://www.awwwards.com/sites/esr-bespoke",
+      "published": "2026-10-23T00:00:00+00:00",
+      "summary": "ESR Bespoke is a luxury autobody shop with a proud heritage, highly respected name in the industry and holds exclusive accreditations with luxury brands like Porsche.",
+      "image": "",
+      "source": "Awwwards",
+      "category": "03 DA Graphisme",
+      "angle": "Explorer composition et interactions",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "Using Nationals Critiques to Prep for the New Comp Season",
+      "url": "https://dancemagazine.com/nationals-critiques/?utm_source=rss&utm_medium=rss&utm_campaign=nationals-critiques",
+      "published": "2026-10-22T16:00:00+00:00",
+      "summary": "For competition dancers, Nationals can be the perfect exclamation point at the end of the competition season. But artistic and technical growth shouldn’t stop there. Even though Nationals may mark the end of the road for one season’s routines, dancers and teachers can still take valuable lessons from the judges’ critiques into the new training […] The post Using Nationals Critiques to Prep for the New Comp Season appeared first on Dance Magazine .",
+      "image": "https://dancemagazine.com/wp-content/uploads/2026/10/Jessica-Wellington-Kaela-Speicher-courtesy-Wellington_Web_R1-edited.jpg",
+      "source": "Dance Magazine",
+      "category": "15 Danse Performance",
+      "angle": "Observer les intentions de mise en scène, composition, rythme, lumière et expérience du public",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "77 Reasons Why Sara Mearns Dances",
+      "url": "https://dancemagazine.com/77-reasons-why-sara-mearns-dances/?utm_source=rss&utm_medium=rss&utm_campaign=77-reasons-why-sara-mearns-dances",
+      "published": "2026-10-22T13:00:00+00:00",
+      "summary": "You ask what my “why” is… I could sit here and try to write something eloquent, emotional, and dramatic—just like my dancing, some would say. But that’s not how it works. My dancing is my words. So the next time you see me dance, you will see my why. Why do you breathe? Why do […] The post 77 Reasons Why Sara Mearns Dances appeared first on Dance Magazine .",
+      "image": "https://dancemagazine.com/wp-content/uploads/2026/10/230519-276SwanLake_Mearns_Web_R1-edited.jpg",
+      "source": "Dance Magazine",
+      "category": "15 Danse Performance",
+      "angle": "Observer les intentions de mise en scène, composition, rythme, lumière et expérience du public",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
       "title": "AnemoSwab",
       "url": "https://www.designindaba.com/articles/creative-work/anemoswab",
       "published": "2026-10-22T06:00:00+00:00",
@@ -1893,6 +2978,28 @@
       "image": "https://www.lightzoomlumiere.fr/wp-content/uploads/2026/10/Luminaire-exterieur-Bellevue-Slim-residential-cycle-path-Certification-or-Grand-Prix-du-Design-2026-Photo-Copyright-Luminis-560x280.jpg"
     },
     {
+      "title": "Emotion Agency",
+      "url": "https://www.awwwards.com/sites/emotion-agency-1",
+      "published": "2026-10-22T00:00:00+00:00",
+      "summary": "We didn’t just build a portfolio. We built a space that reflects exactly how we think, how we feel, and the standard we apply to our clients' products.",
+      "image": "",
+      "source": "Awwwards",
+      "category": "03 DA Graphisme",
+      "angle": "Explorer composition et interactions",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "Why Dancers Shouldn’t Sleep on Community Colleges",
+      "url": "https://dancemagazine.com/dance-at-community-colleges/?utm_source=rss&utm_medium=rss&utm_campaign=dance-at-community-colleges",
+      "published": "2026-10-21T16:00:00+00:00",
+      "summary": "During her senior year of high school, Elizabeth Grace Mainor knew she wanted to keep dancing after graduation, but she wasn’t sure exactly how she wanted to go about it. “I didn’t feel ready to audition for colleges and make that committed four-year choice,” she says. So she took advantage of the dance program at […] The post Why Dancers Shouldn’t Sleep on Community Colleges appeared first on Dance Magazine .",
+      "image": "https://dancemagazine.com/wp-content/uploads/2026/10/Elizabeth-Mainor-standing-performing-Shielded-by-Numbers.jpg",
+      "source": "Dance Magazine",
+      "category": "15 Danse Performance",
+      "angle": "Observer les intentions de mise en scène, composition, rythme, lumière et expérience du public",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
       "title": "The Harvest Season",
       "url": "https://www.designindaba.com/articles/creative-work/harvest-season",
       "published": "2026-10-21T13:14:31+00:00",
@@ -1902,6 +3009,50 @@
       "angle": "Élargir les références culturelles",
       "status": "source_detected_not_editorially_analyzed",
       "image": ""
+    },
+    {
+      "title": "Oona Doherty on Mixing Mythology, Biography, and Talking Pig Heads in Specky Clark",
+      "url": "https://dancemagazine.com/oona-doherty-specky-clark/?utm_source=rss&utm_medium=rss&utm_campaign=oona-doherty-specky-clark",
+      "published": "2026-10-21T13:00:00+00:00",
+      "summary": "Like much of choreographer Oona Doherty’s work, Specky Clark is bold, subversive, and, at times, very strange. Part fictional and part biographical, the dance-theater work blends Irish mythology with the story of Doherty’s great-great-grandfather, nicknamed Specky Clark, whose childhood was upended when his mother died and he relocated from Glasgow to Belfast. After touring Specky […] The post Oona Doherty on Mixing Mythology, Biography, and Talking Pig Heads in Specky Clark appeared first on Dance Magazine .",
+      "image": "",
+      "source": "Dance Magazine",
+      "category": "15 Danse Performance",
+      "angle": "Observer les intentions de mise en scène, composition, rythme, lumière et expérience du public",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "Ascension — Pegassi®",
+      "url": "https://www.awwwards.com/sites/ascension-pegassi-r",
+      "published": "2026-10-21T00:00:00+00:00",
+      "summary": "Website for the launch of Pegassi's debut EP called 'Ascension'.",
+      "image": "",
+      "source": "Awwwards",
+      "category": "03 DA Graphisme",
+      "angle": "Explorer composition et interactions",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "Jack Ferver on Curating a Major Martha Graham Exhibition Through a Deeply Personal Lens",
+      "url": "https://dancemagazine.com/jack-ferver-martha-graham/?utm_source=rss&utm_medium=rss&utm_campaign=jack-ferver-martha-graham",
+      "published": "2026-10-20T19:24:08+00:00",
+      "summary": "A century after Martha Graham founded her eponymous company, audiences still feel the impact of her psychologically layered, erotically charged, and intensely dramatic choreography, and contemporary artists grapple anew with the themes she introduced into modern dance. Among them is postmodern dancemaker Jack Ferver, who interrogates gender, power, politics, and trauma through performance and teaches […] The post Jack Ferver on Curating a Major Martha Graham Exhibition Through a Deeply Personal Lens appeared first on Dance Magazine .",
+      "image": "https://dancemagazine.com/wp-content/uploads/2026/10/LPA_Jack-Ferver_2026-01029-Jonathan-Blanc-Courtesy-NYPL-scaled.jpg",
+      "source": "Dance Magazine",
+      "category": "15 Danse Performance",
+      "angle": "Observer les intentions de mise en scène, composition, rythme, lumière et expérience du public",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "Music Rights for Dance: What Choreographers and Presenters Need to Know",
+      "url": "https://dancemagazine.com/music-rights-dance/?utm_source=rss&utm_medium=rss&utm_campaign=music-rights-dance",
+      "published": "2026-10-20T13:00:00+00:00",
+      "summary": "Dance artists performing on smaller stages might still be unaware that they need a signed agreement before pressing “play” on copyrighted music. Nevertheless, a music misstep can be expensive as well as stressful to fix. The post Music Rights for Dance: What Choreographers and Presenters Need to Know appeared first on Dance Magazine .",
+      "image": "https://dancemagazine.com/wp-content/uploads/2026/10/260119_Joshua-Beamish-Photo-02-by-Jeremy-Fokkens-COL_Web_R1.jpg",
+      "source": "Dance Magazine",
+      "category": "15 Danse Performance",
+      "angle": "Observer les intentions de mise en scène, composition, rythme, lumière et expérience du public",
+      "status": "source_detected_not_editorially_analyzed"
     },
     {
       "title": "Étendre ses imaginaires typographiques avec Plain Text",
@@ -1926,6 +3077,39 @@
       "image": "https://www.lightzoomlumiere.fr/wp-content/uploads/2026/10/Une-puce-de-LED-blanche-dont-le-luminophore-fluorescent-emet-en-jaune-sous-leclairage-dune-LED-bleue-Copyright-Wikimedia-560x280.jpg"
     },
     {
+      "title": "Cartier - Le Chœur des Pierres",
+      "url": "https://www.awwwards.com/sites/cartier-le-choeur-des-pierres",
+      "published": "2026-10-20T00:00:00+00:00",
+      "summary": "An immersive journey into Cartier High Jewellery, where gemstones reveal the inspiration, craftsmanship and guachés behind each exceptional creation.",
+      "image": "",
+      "source": "Awwwards",
+      "category": "03 DA Graphisme",
+      "angle": "Explorer composition et interactions",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "Do Chemicals and Microplastics in Dancewear Impact Your Health?",
+      "url": "https://dancemagazine.com/microplastics-in-dancewear/?utm_source=rss&utm_medium=rss&utm_campaign=microplastics-in-dancewear",
+      "published": "2026-10-19T19:37:57+00:00",
+      "summary": "It’s a perfectly forgettable scenario for a dancer: You pull on your leotard, tights, and warm-ups, head into the studio, and spend several hours in class and rehearsal. But such an ordinary event can also create a “perfect storm” of risk factors for your health and the environment, says Roy Gerona, a chemist at the […] The post Do Chemicals and Microplastics in Dancewear Impact Your Health? appeared first on Dance Magazine .",
+      "image": "",
+      "source": "Dance Magazine",
+      "category": "15 Danse Performance",
+      "angle": "Observer les intentions de mise en scène, composition, rythme, lumière et expérience du public",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "One Season in, Is the International Dance League’s Quest to “Sportify” Dance Working?",
+      "url": "https://dancemagazine.com/international-dance-league-season-recap/?utm_source=rss&utm_medium=rss&utm_campaign=international-dance-league-season-recap",
+      "published": "2026-10-19T16:00:00+00:00",
+      "summary": "On Sunday, September 20, the Shrine Expo Hall in Los Angeles was filled with both jubilant cheers and incredulous gasps. It was the inaugural season championship of the International Dance League—and the Los Angeles–based team GRV had just pulled a stunning upset, beating Vancouver’s previously undefeated Brotherhood crew. By .43 of a point. On a […] The post One Season in, Is the International Dance League’s Quest to “Sportify” Dance Working? appeared first on Dance Magazine .",
+      "image": "https://dancemagazine.com/wp-content/uploads/2026/10/The-IDL-championship-crowd-courtesy-IDL.jpg",
+      "source": "Dance Magazine",
+      "category": "15 Danse Performance",
+      "angle": "Observer les intentions de mise en scène, composition, rythme, lumière et expérience du public",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
       "title": "LUCI Cities & Lighting Summit Fez 2027, Maroc",
       "url": "https://www.lightzoomlumiere.fr/evenement/luci-cities-lighting-summit-fez-2027-maroc/",
       "published": "2026-10-19T05:30:02+00:00",
@@ -1934,6 +3118,50 @@
       "source": "Light ZOOM Lumière",
       "category": "09 France Pro",
       "angle": "Approfondir dispositifs lumineux",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "FORMAT",
+      "url": "https://www.awwwards.com/sites/format",
+      "published": "2026-10-19T00:00:00+00:00",
+      "summary": "FORMAT is an interactive Obys × DES Special Project exploring format as a design tool. Discover how different shapes, proportions, and boundaries can change the way we design.",
+      "image": "",
+      "source": "Awwwards",
+      "category": "03 DA Graphisme",
+      "angle": "Explorer composition et interactions",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "Signal-A Studio",
+      "url": "https://www.awwwards.com/sites/signal-a-studio",
+      "published": "2026-10-18T00:00:00+00:00",
+      "summary": "Signal-A is an award-winning interface & experience design studio building meticulously crafted digital experiences.",
+      "image": "",
+      "source": "Awwwards",
+      "category": "03 DA Graphisme",
+      "angle": "Explorer composition et interactions",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "Belgrade Arbor",
+      "url": "https://www.awwwards.com/sites/belgrade-arbor",
+      "published": "2026-10-17T00:00:00+00:00",
+      "summary": "An immersive architectural experience blending cinematic storytelling, motion, and 3D design to transform a contemporary residential project into a memorable digital journey.",
+      "image": "",
+      "source": "Awwwards",
+      "category": "03 DA Graphisme",
+      "angle": "Explorer composition et interactions",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "Dancer Diary: My Pointe Shoes Don’t Fit Anymore…Thanks, Pregnancy!",
+      "url": "https://dancemagazine.com/dancer-diary-pointe-shoes-pregnancy/?utm_source=rss&utm_medium=rss&utm_campaign=dancer-diary-pointe-shoes-pregnancy",
+      "published": "2026-10-16T15:00:00+00:00",
+      "summary": "In the video series Dancer Diary, Haley Hilton chronicles her life as a dancer in New York City. Here, she gets re-fit for pointe shoes following the birth of her son, and discusses how pregnancy changed her feet. For more Dancer Diary videos, visit Dance Magazine’s YouTube channel. The post Dancer Diary: My Pointe Shoes Don’t Fit Anymore…Thanks, Pregnancy! appeared first on Dance Magazine .",
+      "image": "https://www.youtube.com/embed/PtM6sgDxUa8",
+      "source": "Dance Magazine",
+      "category": "15 Danse Performance",
+      "angle": "Observer les intentions de mise en scène, composition, rythme, lumière et expérience du public",
       "status": "source_detected_not_editorially_analyzed"
     },
     {
@@ -1981,6 +3209,17 @@
       "status": "source_detected_not_editorially_analyzed"
     },
     {
+      "title": "OFFFForum",
+      "url": "https://www.awwwards.com/sites/offfforum",
+      "published": "2026-10-16T00:00:00+00:00",
+      "summary": "A one-week festival convening designers, artists, and digital culture practitioners. Where talent sparks innovation.",
+      "image": "",
+      "source": "Awwwards",
+      "category": "03 DA Graphisme",
+      "angle": "Explorer composition et interactions",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
       "title": "Salon des Maires 2026 : l’audace transforme les territoires",
       "url": "https://www.lightzoomlumiere.fr/evenement/salon-des-maires-2026-l-audace-transforme-les-territoires/",
       "published": "2026-10-15T05:30:56+00:00",
@@ -1989,6 +3228,39 @@
       "source": "Light ZOOM Lumière",
       "category": "09 France Pro",
       "angle": "Approfondir dispositifs lumineux",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "Overworld Audio",
+      "url": "https://www.awwwards.com/sites/overworld-audio",
+      "published": "2026-10-15T00:00:00+00:00",
+      "summary": "Portfolio website for Overworld Audio, a studio crafting sonic branding and immersive sound experiences, presented as an explorable map of their work.",
+      "image": "",
+      "source": "Awwwards",
+      "category": "03 DA Graphisme",
+      "angle": "Explorer composition et interactions",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "Figure Skating Champion Tessa Virtue on Making Her Professional Dance Debut",
+      "url": "https://dancemagazine.com/tessa-virtue-dance-debut/?utm_source=rss&utm_medium=rss&utm_campaign=tessa-virtue-dance-debut",
+      "published": "2026-10-14T17:00:00+00:00",
+      "summary": "Earlier this year, Fall for Dance North festival director Robert Binet asked choreographer Alyssa Martin, the festival’s 2026 artist in residence, to name her dream collaborator. Martin gave a surprising answer: Tessa Virtue, Canada’s two-time Olympic champion in ice dance. This weekend, Virtue makes her professional dance debut at Fall for Dance North in Toronto, […] The post Figure Skating Champion Tessa Virtue on Making Her Professional Dance Debut appeared first on Dance Magazine .",
+      "image": "https://dancemagazine.com/wp-content/uploads/2026/10/Tessa-Virtue-and-Alyssa-Martin_Photo-by-Bruce-Zinger.jpg",
+      "source": "Dance Magazine",
+      "category": "15 Danse Performance",
+      "angle": "Observer les intentions de mise en scène, composition, rythme, lumière et expérience du public",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "Huy Phan Vol.2",
+      "url": "https://www.awwwards.com/sites/huy-phan-vol-2",
+      "published": "2026-10-14T00:00:00+00:00",
+      "summary": "Portfolio of Huy Phan (aka Huyml), an independent designer and art director, based in Ho Chi Minh city, Vietnam.",
+      "image": "",
+      "source": "Awwwards",
+      "category": "03 DA Graphisme",
+      "angle": "Explorer composition et interactions",
       "status": "source_detected_not_editorially_analyzed"
     },
     {
@@ -2014,6 +3286,17 @@
       "status": "source_detected_not_editorially_analyzed"
     },
     {
+      "title": "Neutomni",
+      "url": "https://www.awwwards.com/sites/neutomni",
+      "published": "2026-10-13T00:00:00+00:00",
+      "summary": "A bold, editorial portfolio for Neutomni, a Digital Design & Webflow studio, blending striking typography with playful retro UI to showcase custom brand and website work.",
+      "image": "",
+      "source": "Awwwards",
+      "category": "03 DA Graphisme",
+      "angle": "Explorer composition et interactions",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
       "title": "Cities & Lighting n°12 by LUCI: Finding the right light",
       "url": "https://www.lightzoomlumiere.fr/english/cities-lighting-no-12-by-luci-association-finding-the-right-light/",
       "published": "2026-10-12T16:00:59+00:00",
@@ -2036,6 +3319,50 @@
       "status": "source_detected_not_editorially_analyzed"
     },
     {
+      "title": "Heron AI",
+      "url": "https://www.awwwards.com/sites/heron-ai",
+      "published": "2026-10-12T00:00:00+00:00",
+      "summary": "Heron AI is an agent that works inside your design tools. It watches your model as you design, suggests fixes, and makes the edits itself once you approve. Built by architects.",
+      "image": "",
+      "source": "Awwwards",
+      "category": "03 DA Graphisme",
+      "angle": "Explorer composition et interactions",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "Nick Ho",
+      "url": "https://www.awwwards.com/sites/nick-ho",
+      "published": "2026-10-11T00:00:00+00:00",
+      "summary": "A digital home for Porsche Carrera Cup driver Nick Ho, where a scroll-driven 360° helmet viewer and precise GSAP motion capture the feeling of speed on and off the track.",
+      "image": "",
+      "source": "Awwwards",
+      "category": "03 DA Graphisme",
+      "angle": "Explorer composition et interactions",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "LPAS",
+      "url": "https://www.awwwards.com/sites/lpas",
+      "published": "2026-10-10T00:00:00+00:00",
+      "summary": "LPAS is a California-based process-driven architecture and interior design studio. Clear process. Creative results. Human-centered. Always curious.",
+      "image": "",
+      "source": "Awwwards",
+      "category": "03 DA Graphisme",
+      "angle": "Explorer composition et interactions",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "Maria Vasilyeva Portfolio",
+      "url": "https://www.awwwards.com/sites/maria-vasilyeva-portfolio",
+      "published": "2026-10-09T00:00:00+00:00",
+      "summary": "Interactive designer portfolio inspired by music and sound, where rhythm, typography, layout, interactions and animation come together to create a dynamic and immersive experience.",
+      "image": "",
+      "source": "Awwwards",
+      "category": "03 DA Graphisme",
+      "angle": "Explorer composition et interactions",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
       "title": "La révolution des boulangeries “premium”",
       "url": "https://grapheine.com/magazine/boulangerie-pain-branding/",
       "published": "2026-10-08T14:28:04+00:00",
@@ -2047,6 +3374,116 @@
       "image": ""
     },
     {
+      "title": "TBT: Donna McKechnie Emerges as Michael Bennett’s “Secret Weapon”",
+      "url": "https://dancemagazine.com/donna-mckechnie-tbt/?utm_source=rss&utm_medium=rss&utm_campaign=donna-mckechnie-tbt",
+      "published": "2026-10-08T13:00:00+00:00",
+      "summary": "In the October 1971 issue of Dance Magazine, which had a special focus on musical theater, writer Craig Zadan profiled Donna McKechnie, who he declared was both choreographer Michael Bennett’s and Broadway’s “secret weapon.” The post TBT: Donna McKechnie Emerges as Michael Bennett’s “Secret Weapon” appeared first on Dance Magazine .",
+      "image": "https://dancemagazine.com/wp-content/uploads/2026/09/2-Donne-McKechnie-feature-Dance-Magazine-Vol.-45-no.-10-October-1971-_-Alexander-Street-part-of-Clarivate_Part1_Web_R1.png",
+      "source": "Dance Magazine",
+      "category": "15 Danse Performance",
+      "angle": "Observer les intentions de mise en scène, composition, rythme, lumière et expérience du public",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "A New Online Portal From Dance Data Project Seeks to Raise the Profiles of Female-Identifying Artists",
+      "url": "https://dancemagazine.com/ddp-pro/?utm_source=rss&utm_medium=rss&utm_campaign=ddp-pro",
+      "published": "2026-10-06T13:00:00+00:00",
+      "summary": "With startup funds from the Virginia B. Toulmin Foundation, DDP Pro is a searchable database featuring profiles of female and female-identifying creatives across the dance field. The post A New Online Portal From Dance Data Project Seeks to Raise the Profiles of Female-Identifying Artists appeared first on Dance Magazine .",
+      "image": "",
+      "source": "Dance Magazine",
+      "category": "15 Danse Performance",
+      "angle": "Observer les intentions de mise en scène, composition, rythme, lumière et expérience du public",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "There’s no such thing as a blank canvas",
+      "url": "https://imagination.com/latest/theres-no-such-thing-as-a-blank-canvas/",
+      "published": "2026-10-06T11:29:10+00:00",
+      "summary": "In many ways, as experience designers, we face a different kind of courage. The courage to slow down and notice what is already there, paying attention to the story that a location or site is already telling. A site without buildings is not a site without identity. Every site is already covered in marks: topography […]",
+      "image": "",
+      "source": "Imagination",
+      "category": "06 Retail Brand Experience",
+      "angle": "Analyser expérience comme stratégie",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "Tapping into the unsung tech behind Visa’s 2026 FIFA World Cup activation",
+      "url": "https://imagination.com/latest/tapping-into-the-unsung-tech-behind-visas-2026-fifa-world-cup-activation/",
+      "published": "2026-10-05T14:51:39+00:00",
+      "summary": "How do you develop, test, and scale a complex digital solution for the world’s largest sporting event? As part of Visa’s ‘Tap In’ campaign, we launched the Tap In Studio, a football-themed activation at LA’s USSF and three 2026 FIFA World Cup stadiums. We wanted fans to express their passion, connect with the game, and […]",
+      "image": "https://imagination.com/wp-content/uploads/2026/09/3A.mp4",
+      "source": "Imagination",
+      "category": "06 Retail Brand Experience",
+      "angle": "Analyser expérience comme stratégie",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "A New Memoir From Mao’s Last Dancer",
+      "url": "https://dancemagazine.com/li-cunxin-the-lucky-so/?utm_source=rss&utm_medium=rss&utm_campaign=li-cunxin-the-lucky-so",
+      "published": "2026-10-02T13:00:00+00:00",
+      "summary": "Former Queensland Ballet artistic director Li Cunxin has penned his second memoir, picking up right where Mao’s Last Dancer left off. The post A New Memoir From Mao’s Last Dancer appeared first on Dance Magazine .",
+      "image": "",
+      "source": "Dance Magazine",
+      "category": "15 Danse Performance",
+      "angle": "Observer les intentions de mise en scène, composition, rythme, lumière et expérience du public",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "Here Are the 2026 Dance Magazine Award Honorees",
+      "url": "https://dancemagazine.com/2026-dance-magazine-award-honorees/?utm_source=rss&utm_medium=rss&utm_campaign=2026-dance-magazine-award-honorees",
+      "published": "2026-10-01T19:31:15+00:00",
+      "summary": "A tradition dating back to 1954, the Dance Magazine Awards now feature an annual theme. This year’s is “Artists/Activists,” celebrating dancers and dancemakers whose practice and advocacy are deeply intertwined. Our 2026 honorees not only exemplify creative excellence, but have also helped shape communities, institutions, and cultural discourse. The post Here Are the 2026 Dance Magazine Award Honorees appeared first on Dance Magazine .",
+      "image": "https://dancemagazine.com/wp-content/uploads/2026/10/Consolidated-sponsors-6.png",
+      "source": "Dance Magazine",
+      "category": "15 Danse Performance",
+      "angle": "Observer les intentions de mise en scène, composition, rythme, lumière et expérience du public",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "News of Note: What You Might Have Missed in September 2026",
+      "url": "https://dancemagazine.com/dance-news-note-september-2026/?utm_source=rss&utm_medium=rss&utm_campaign=dance-news-note-september-2026",
+      "published": "2026-10-01T17:55:26+00:00",
+      "summary": "Here are the latest promotions, appointments, and departures, as well as notable awards and accomplishments, from September 2026. The post News of Note: What You Might Have Missed in September 2026 appeared first on Dance Magazine .",
+      "image": "",
+      "source": "Dance Magazine",
+      "category": "15 Danse Performance",
+      "angle": "Observer les intentions de mise en scène, composition, rythme, lumière et expérience du public",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "What experiential marketers need to know about Generative AI",
+      "url": "https://imagination.com/latest/what-experiential-marketers-need-to-know-about-generative-ai/",
+      "published": "2026-10-01T13:34:39+00:00",
+      "summary": "AI moves fast. That’s why every quarter we distil the key shifts experiential marketers and brand leaders need to have on their radar. What’s new This quarter, the defining shift is from AI generating content to AI taking action. Models are increasingly able to use tools, work across files and software, delegate tasks and operate […]",
+      "image": "",
+      "source": "Imagination",
+      "category": "06 Retail Brand Experience",
+      "angle": "Analyser expérience comme stratégie",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "9 Must-See Performances Hitting Stages This October",
+      "url": "https://dancemagazine.com/dance-performances-onstage-october-2026/?utm_source=rss&utm_medium=rss&utm_campaign=dance-performances-onstage-october-2026",
+      "published": "2026-09-30T13:00:00+00:00",
+      "summary": "The fall performance season is undeniably in full swing as we head into October. Here are the shows that most stood out to our contributors during this jam-packed month. The post 9 Must-See Performances Hitting Stages This October appeared first on Dance Magazine .",
+      "image": "https://dancemagazine.com/wp-content/uploads/2026/09/Jess-Morgs-DEEPFAKE-image-credit-Chewboy-scaled.jpg",
+      "source": "Dance Magazine",
+      "category": "15 Danse Performance",
+      "angle": "Observer les intentions de mise en scène, composition, rythme, lumière et expérience du public",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "Beyond the viewport: Why the real world always re-writes your render",
+      "url": "https://imagination.com/latest/beyond-the-viewport-why-the-real-world-always-re-writes-your-render/",
+      "published": "2026-09-24T11:54:28+00:00",
+      "summary": "It’s easy to fall into a false sense of security when we view content in the cosy confines of our laptops. An animator shares a link, the colours are vibrant, the lines are crisp, the movement is flawless and you think “Great, job done, right?” Not quite. When you’re producing for large scale, custom LED […]",
+      "image": "",
+      "source": "Imagination",
+      "category": "06 Retail Brand Experience",
+      "angle": "Analyser expérience comme stratégie",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
       "title": "Comment la guerre impacte-t-elle le design ?",
       "url": "https://grapheine.com/magazine/design-guerre-penurie-impact/",
       "published": "2026-09-22T05:13:18+00:00",
@@ -2056,6 +3493,28 @@
       "angle": "Étudier les démarches de création",
       "status": "source_detected_not_editorially_analyzed",
       "image": ""
+    },
+    {
+      "title": "Connecting leaders, driving action at the Inaugural Europe Gulf Forum",
+      "url": "https://imagination.com/latest/connecting-leaders-driving-action-at-the-inaugural-europe-gulf-forum/",
+      "published": "2026-09-21T14:35:55+00:00",
+      "summary": "Held in Costa Navarino, Greece, Imagination played a central role in the experience design and delivery of the first Europe Gulf Forum, to advance strategic cooperation between the two regions. Bringing together senior political leaders, policymakers, and business figures from across Europe and the Gulf, the event saw three days of discussion on geopolitics, investment, […]",
+      "image": "",
+      "source": "Imagination",
+      "category": "06 Retail Brand Experience",
+      "angle": "Analyser expérience comme stratégie",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "Experiences that made me Viviana Stecconi",
+      "url": "https://imagination.com/latest/experiences-that-made-me-viviana-stecconi/",
+      "published": "2026-09-16T09:40:47+00:00",
+      "summary": "In this series, we ask Imagination talent all about the experiences that have made them who they are. This month we spoke to Viviana Stecconi, Client Services Director from our Dubai studio. Tell us what you do… My role sits somewhere between clients, strategy, creative, and delivery, so essentially, I help turn ambitious ideas into […]",
+      "image": "",
+      "source": "Imagination",
+      "category": "06 Retail Brand Experience",
+      "angle": "Analyser expérience comme stratégie",
+      "status": "source_detected_not_editorially_analyzed"
     },
     {
       "title": "3 questions à Matthieu Bernard : Penser l’immobilier comme une marque.",
@@ -2146,6 +3605,17 @@
       "status": "source_detected_not_editorially_analyzed"
     },
     {
+      "title": "Why the smartest brands are already experimenting with conversational AI",
+      "url": "https://imagination.com/latest/why-the-smartest-brands-are-already-experimenting-with-conversational-ai/",
+      "published": "2026-09-01T14:22:28+00:00",
+      "summary": "Brands have spent years refining their voice. They’ve developed identities and carefully crafted every customer touchpoint to communicate who they are. Yet until recently, translating that precise brand voice into automated, real-time conversations was nearly impossible. That’s beginning to change. The key shift we’re seeing is the proliferation of AI across all sectors. Discourse around […]",
+      "image": "",
+      "source": "Imagination",
+      "category": "06 Retail Brand Experience",
+      "angle": "Analyser expérience comme stratégie",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
       "title": "Le branding iconique : construire une identité de star",
       "url": "https://grapheine.com/magazine/branding-iconique-identite-star/",
       "published": "2026-09-01T06:04:47+00:00",
@@ -2177,6 +3647,28 @@
       "angle": "Étudier les démarches de création",
       "status": "source_detected_not_editorially_analyzed",
       "image": ""
+    },
+    {
+      "title": "Experiences that made me Kevin Berry",
+      "url": "https://imagination.com/latest/experiences-that-made-me-kevin-berry/",
+      "published": "2026-08-19T08:50:07+00:00",
+      "summary": "In this series, we ask Imagination talent all about the experiences that have made them who they are. This month we spoke to Kevin Berry, Design Director – Virgile+Partners from our London studio. A bit about me… Full time Interior Architect. Lifelong Artist with many creative habits. I have had an on again off again […]",
+      "image": "",
+      "source": "Imagination",
+      "category": "06 Retail Brand Experience",
+      "angle": "Analyser expérience comme stratégie",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "FYI (For Your Imagination): The Architecture of Belonging",
+      "url": "https://imagination.com/latest/fyi-for-your-imagination-the-architecture-of-belonging/",
+      "published": "2026-08-18T08:56:03+00:00",
+      "summary": "Ever stepped foot inside a sleek new development and felt… absolutely nothing? The environments we inhabit, from shared public spaces to the residential developments millions of us increasingly call home, shape the very fabric of our social, professional, and physical wellbeing. Traditionally, the masterplanning of these spaces was defined by their physical structures: iconic skylines, […]",
+      "image": "https://www.youtube.com/embed/Olmjdvlxjis",
+      "source": "Imagination",
+      "category": "06 Retail Brand Experience",
+      "angle": "Analyser expérience comme stratégie",
+      "status": "source_detected_not_editorially_analyzed"
     },
     {
       "title": "From compliance to confidence: How modern organizations are rethinking accessible communication",
@@ -2531,6 +4023,61 @@
       "status": "source_detected_not_editorially_analyzed"
     },
     {
+      "title": "Bonne année 2026 à tous !",
+      "url": "https://www.idlia.fr/bonne-annee-2026-a-tous/",
+      "published": "2026-01-27T16:59:17+00:00",
+      "summary": "",
+      "image": "",
+      "source": "IDlia Studio",
+      "category": "09 France Pro",
+      "angle": "Analyser mise en scène",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "Beauvoir Immobilier | Chalets Dutruel | Chalets 3D | 2026",
+      "url": "https://www.idlia.fr/beauvoir-immobilier-chalets-dutruel-chalets-3d-2026/",
+      "published": "2026-01-27T16:39:26+00:00",
+      "summary": "Perspective 3D sous la neige des chalets Bettex à St Gervais avec vue sur le Mont Blanc | Architecture : ADBA Atelier Devigne Bariat Architectes Perspective 3D sous la neige des chalets Bettex à St Gervais avec vue sur le Mont Blanc | Conception : Beauvoir Immobilier, ADBA Atelier Devigne Bariat Architectes Perspective 3D d’une chambre d’un chalet à St Gervais | Conception : Beauvoir Immobilier, ADBA Atelier Devigne Bariat Architectes Perspective 3D salon des Chalets Bettex à St Gervais | Conception : Beauvoir Immobilier, ADBA Atelier Devigne Bariat Architectes Perspective 3D Sauna des Chalets Bettex à St Gervais | Conception : Beauvoir Immobilier, ADBA Atelier Devigne Bariat Architectes Perspective 3D sous la neige d’un chalet à Morzine, Les Sources d’en bas | Conception : Les Chalets Dutruel Perspective 3D du salon d’un chalet à Morzine, Les Sources d’en bas | Conception : Les Chalets ",
+      "image": "",
+      "source": "IDlia Studio",
+      "category": "09 France Pro",
+      "angle": "Analyser mise en scène",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "Biotope Immobilier, Aspen Immobilier | Chalets 3D | 2025",
+      "url": "https://www.idlia.fr/biotope-immobilier-aspen-immobilier-chalets-3d-2025/",
+      "published": "2026-01-27T15:44:30+00:00",
+      "summary": "Voici les perspectives et tours à 360° réalisés sur les chalets de Biotope Immobilier et Aspen Immobilier en 2025.",
+      "image": "",
+      "source": "IDlia Studio",
+      "category": "09 France Pro",
+      "angle": "Analyser mise en scène",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "Biotope Immobilier, Aspen Immobilier | Chalets 3D | 2024",
+      "url": "https://www.idlia.fr/biotope-immobilier-aspen-immobilier-chalets-3d-2024/",
+      "published": "2026-01-27T15:42:28+00:00",
+      "summary": "Voici les perspectives 3D, plans interactifs et tours à 360° réalisés sur les chalets de Biotope Immobilier et Aspen Immobilier en 2024.",
+      "image": "",
+      "source": "IDlia Studio",
+      "category": "09 France Pro",
+      "angle": "Analyser mise en scène",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "Biotope Immobilier, Aspen Immobilier | Chalets 3D | 2023",
+      "url": "https://www.idlia.fr/biotope-immobilier-aspen-immobilier-chalets-3d-2023/",
+      "published": "2026-01-27T15:14:54+00:00",
+      "summary": "Voici les perspectives 3D sous la neige, plans 3D interactifs, film promotionnel, et la vitrine web commerciale que nous avons réalisé sur les chalets de Biotope Immobilier et Aspen Immobilier en 2023.",
+      "image": "",
+      "source": "IDlia Studio",
+      "category": "09 France Pro",
+      "angle": "Analyser mise en scène",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
       "title": "Terhal: A Sold-Out 2025 Season in Saudi Arabia",
       "url": "https://dragone.com/terhal-sold-out-season-saudi-arabia/",
       "published": "2026-01-22T08:43:50+00:00",
@@ -2671,6 +4218,17 @@
       "source": "Dragone",
       "category": "01 Spectacle Concert",
       "angle": "Analyser l'intégration scène/architecture",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "Jim Parkinson, 1941–2025",
+      "url": "https://typographica.org/on-typography/jim-parkinson-1941-2025/",
+      "published": "2025-06-27T02:26:33+00:00",
+      "summary": "Jim Parkinson—lettering artist, type designer, and painter—died today at his home in Oakland, California, after a long struggle with Alzheimer’s.",
+      "image": "",
+      "source": "Typographica",
+      "category": "11 Graphisme Expertise",
+      "angle": "Analyser la forme et l'usage des caractères",
       "status": "source_detected_not_editorially_analyzed"
     },
     {
@@ -2927,6 +4485,17 @@
       "status": "source_detected_not_editorially_analyzed"
     },
     {
+      "title": "Collège Jeanne d’Arc | Genas",
+      "url": "https://www.idlia.fr/college-jeanne-darc-genas/",
+      "published": "2023-10-24T16:30:19+00:00",
+      "summary": "Voici nos perspectives de concours sur le projet lauréat de réhabilitation et d’extension de la maternelle et du collège Jeanne d’Arc à Genas. Bravo aux architectes ! Architectes : Archigroup Graphistes 3D : IDlia Studio",
+      "image": "",
+      "source": "IDlia Studio",
+      "category": "09 France Pro",
+      "angle": "Analyser mise en scène",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
       "title": "Vernissage de l’exposition de Lucas Dragone! / Opening of Lucas Dragone’s exhibition!",
       "url": "https://dragone.com/vernissage-de-lexposition-de-lucas-dragone-opening-of-lucas-dragones-exhibition/",
       "published": "2023-10-16T02:27:59+00:00",
@@ -2993,6 +4562,61 @@
       "status": "source_detected_not_editorially_analyzed"
     },
     {
+      "title": "Réhabilitation | Quartier Bel’Air Saint Priest",
+      "url": "https://www.idlia.fr/rehabilitation-quartier-belair-saint-priest/",
+      "published": "2023-01-11T16:24:22+00:00",
+      "summary": "Visuels 3D réalisés pour un concours de réhabilitation du quartier Bel’Air à St Priest, projet finaliste, mais non lauréat. Constructeurs et Architectes : Archigroup, Demathieu Bard, AA Group, Eutopia, Detry Levy, MGA Architectes, Egis, Gipen, Roux. Voir le film 3D […]",
+      "image": "",
+      "source": "IDlia Studio",
+      "category": "09 France Pro",
+      "angle": "Analyser mise en scène",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "Biotope Immobilier, Aspen Immobilier | Chalets 3D | 2022",
+      "url": "https://www.idlia.fr/biotope-immobilier-aspen-immobilier-chalets-3d-2022/",
+      "published": "2023-01-10T17:35:44+00:00",
+      "summary": "Voici les perspectives et tours à 360° réalisés sur les chalets de Biotope Immobilier et Aspen Immobilier en 2022. Graphistes 3D : IDlia Studio",
+      "image": "",
+      "source": "IDlia Studio",
+      "category": "09 France Pro",
+      "angle": "Analyser mise en scène",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "Biotope Immobilier, Aspen Immobilier | Chalets 3D | 2021",
+      "url": "https://www.idlia.fr/biotope-immobilier-aspen-immobilier-chalets-3d-2021/",
+      "published": "2023-01-10T17:33:18+00:00",
+      "summary": "Voici les perspectives et tours à 360° réalisés sur les chalets de Biotope Immobilier et Aspen Immobilier en 2021.",
+      "image": "",
+      "source": "IDlia Studio",
+      "category": "09 France Pro",
+      "angle": "Analyser mise en scène",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "Mercier Immobilier, JAA | Gleize, du concours à la commercialisation",
+      "url": "https://www.idlia.fr/mercier-immobilier-jaagleize-du-concours-a-la-commercialisation/",
+      "published": "2023-01-10T16:39:34+00:00",
+      "summary": "24 villas, Quartier Charmille, à Gleize L’Opac du Rhône a attribué, en tant qu’aménageur, la réalisation de 24 maisons passives en bois/paille et sans système de chauffage à Mercier Immobilier. . Promotion immobilière : Mercier Immobilier Architectes : JAA Jacquet […]",
+      "image": "",
+      "source": "IDlia Studio",
+      "category": "09 France Pro",
+      "angle": "Analyser mise en scène",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "IDlia | Bonne année 2023 !",
+      "url": "https://www.idlia.fr/idlia-bonne-annee-2023/",
+      "published": "2023-01-10T15:49:21+00:00",
+      "summary": "Pour que 2023 rime avec wouah ✨⁣Réussis ce en quoi tu crois 💪⁣Gardes la foi et sois en joie 😇⁣Car en 2023, avec toi, ça envoie du bois ! 😄 . . #Skyline #lyon #2023 #Voeux #IDliaStudio Graphiste : Vincent […]",
+      "image": "",
+      "source": "IDlia Studio",
+      "category": "09 France Pro",
+      "angle": "Analyser mise en scène",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
       "title": "Elton John: Farewell From Dodger Stadium",
       "url": "https://stufish.com/elton-john-farewell-from-dodger-stadium/",
       "published": "2022-12-02T14:39:53+00:00",
@@ -3024,6 +4648,17 @@
       "angle": "Comparer avant/après et intentions",
       "status": "source_detected_not_editorially_analyzed",
       "image": ""
+    },
+    {
+      "title": "Typographica is Twenty Years Old",
+      "url": "https://typographica.org/on-typography/typographica-is-twenty-years-old/",
+      "published": "2022-07-12T07:23:04+00:00",
+      "summary": "This website just passed its twentieth birthday. In web years, that’s more like a centennial. At the risk of waxing nostalgic, I’m posting a few highlights from our first year.",
+      "image": "",
+      "source": "Typographica",
+      "category": "11 Graphisme Expertise",
+      "angle": "Analyser la forme et l'usage des caractères",
+      "status": "source_detected_not_editorially_analyzed"
     },
     {
       "title": "PRESS RELEASE: ABBA ARENA",
@@ -3103,6 +4738,28 @@
       "image": ""
     },
     {
+      "title": "A Grammar of Typography: Classical Book Design in the Digital Age",
+      "url": "https://typographica.org/typography-books/a-grammar-of-typography-classical-book-design-in-the-digital-age/",
+      "published": "2022-01-06T21:55:39+00:00",
+      "summary": "Argetsinger aims to teach a new generation of designers how to uphold the standards and principles of the printers of old, in this strange new era when the composing stick is a text frame and the ink stone is a menu of swatches.",
+      "image": "",
+      "source": "Typographica",
+      "category": "11 Graphisme Expertise",
+      "angle": "Analyser la forme et l'usage des caractères",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "Chahine & Samarskaya Cochair TDC’S 25th Type Design Competition",
+      "url": "https://typographica.org/on-typography/interview/nadine-chahine-ksenya-samarskaya-cochair-the-tdcs-25th-typeface-design-competition/",
+      "published": "2021-12-09T02:14:18+00:00",
+      "summary": "Can the world’s longest-running type design competition reimagine itself as a truly global display of abundance? Tanya George interviews this year’s cochairs.",
+      "image": "",
+      "source": "Typographica",
+      "category": "11 Graphisme Expertise",
+      "angle": "Analyser la forme et l'usage des caractères",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
       "title": "Art of the Menu (2011 – 2019)",
       "url": "https://underconsideration.com/projects_weve_concluded/art-of-the-menu-2011-2019/",
       "published": "2021-11-30T16:54:57+00:00",
@@ -3178,6 +4835,17 @@
       "angle": "Lire les coulisses des projets",
       "status": "source_detected_not_editorially_analyzed",
       "image": ""
+    },
+    {
+      "title": "Now Open: the Typographica Library",
+      "url": "https://typographica.org/on-typography/now-open-the-typographica-library/",
+      "published": "2021-10-20T07:09:08+00:00",
+      "summary": "We just launched the Typographica Library, a digital bookshelf of type and lettering resources to aid research and selection.",
+      "image": "",
+      "source": "Typographica",
+      "category": "11 Graphisme Expertise",
+      "angle": "Analyser la forme et l'usage des caractères",
+      "status": "source_detected_not_editorially_analyzed"
     },
     {
       "title": "Winter Gondola design by Philippe Starck to serve as the new symbol for Venice",
@@ -3276,6 +4944,567 @@
       "source": "Balich Wonder Studio",
       "category": "01 Spectacle Concert",
       "angle": "Analyser la dramaturgie à grande échelle",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "Artworks at Noor Riyadh festival set two Guinness World Records",
+      "url": "https://www.balichwonderstudio.com/artworks-noor-riyadh-festival-guinness-world-records/",
+      "published": "2021-07-02T13:14:54+00:00",
+      "summary": "Artworks displayed this year during the first annual Noor Riyadh festival of art and light set two Guinness World Records, the Saudi Press Agency reported on Thursday. “Beacon,” by Polish artist Carolina Halatek, broke the record for the largest LED (light-emitting diode) structure. The sculpture, which was on show at the King Abdul Aziz Historical […] The post Artworks at Noor Riyadh festival set two Guinness World Records appeared first on Balich Wonder Studio | Live Entertainment Group .",
+      "image": "",
+      "source": "Balich Wonder Studio",
+      "category": "01 Spectacle Concert",
+      "angle": "Analyser la dramaturgie à grande échelle",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "Balich Wonder Studio. Il Gruppo leader nel Live Entertainment.",
+      "url": "https://www.balichwonderstudio.com/balich-wonder-studio-live-entertainment/",
+      "published": "2021-05-17T07:30:00+00:00",
+      "summary": "Balich Wonder Studio. Non solo spettacoli e grandi eventi, il gruppo punta anche sulla rigenerazione urbana. E non troppo lontano dalla chiusa di Leonardo. Intanto salgono Saluzzi e Dotti READ MORE The post Balich Wonder Studio. Il Gruppo leader nel Live Entertainment. appeared first on Balich Wonder Studio | Live Entertainment Group .",
+      "image": "",
+      "source": "Balich Wonder Studio",
+      "category": "01 Spectacle Concert",
+      "angle": "Analyser la dramaturgie à grande échelle",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "Type Design in the Museum: Acquiring the Immaterial",
+      "url": "https://typographica.org/on-typography/type-design-in-the-museum-acquiring-the-immaterial/",
+      "published": "2021-04-15T15:50:42+00:00",
+      "summary": "Craig Eliason explores how the peculiarities inherent to type design shed light on the purpose and practices of the design museum in the contemporary world.",
+      "image": "",
+      "source": "Typographica",
+      "category": "11 Graphisme Expertise",
+      "angle": "Analyser la forme et l'usage des caractères",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "Sandoll Chilseong Shipyard",
+      "url": "https://typographica.org/typeface-reviews/sandoll-chilseong-shipyard/",
+      "published": "2021-03-05T05:10:46+00:00",
+      "summary": "In 1952, toward the end of the Korean War, Chilseong Shipyard was established in Sokcho, South Korea. The humble family operation built ships and served as a local fishery for generations. In 2017, third-generation owner Choi Yoonseong and his partner Baek Eunjeong restored it as a cultural space to preserve the shipyard’s legacy for future generations, so they could connect with the site. The new Shipyard includes a café, exhibition space, and playground, and also has a new look with a custom typeface.",
+      "image": "",
+      "source": "Typographica",
+      "category": "11 Graphisme Expertise",
+      "angle": "Analyser la forme et l'usage des caractères",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "Elfreth",
+      "url": "https://typographica.org/typeface-reviews/elfreth/",
+      "published": "2021-03-05T05:09:54+00:00",
+      "summary": "I can count the number of times I’ve used a blackletter (unironically, anyway) on one hand. But something about Elfreth caught my attention and held onto it like a Brockhaus-Heuer Schraubstock.",
+      "image": "",
+      "source": "Typographica",
+      "category": "11 Graphisme Expertise",
+      "angle": "Analyser la forme et l'usage des caractères",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "Tomasa",
+      "url": "https://typographica.org/typeface-reviews/tomasa/",
+      "published": "2021-03-04T05:12:51+00:00",
+      "summary": "Anyone who is from or has lived in Spanish-speaking countries will be familiar with the concept of perreo. It’s a word that describes how we dance to rhythms like reggaeton or funk carioca. The way perreo flows through Tomasa is palpable.",
+      "image": "",
+      "source": "Typographica",
+      "category": "11 Graphisme Expertise",
+      "angle": "Analyser la forme et l'usage des caractères",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "Carolina Laudon",
+      "url": "https://typographica.org/on-typography/interview/carolina-laudon/",
+      "published": "2021-03-03T17:41:13+00:00",
+      "summary": "Swedish typographer and type designer Carolina Laudon is the first woman president of the ATypI. Ksenya Samarskaya caught up with her after last year’s conference to discuss her role in, and vision for the organization.",
+      "image": "",
+      "source": "Typographica",
+      "category": "11 Graphisme Expertise",
+      "angle": "Analyser la forme et l'usage des caractères",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "Elizabeth Carey Smith",
+      "url": "https://typographica.org/on-typography/interview/elizabeth-carey-smith/",
+      "published": "2021-01-26T20:44:13+00:00",
+      "summary": "“I hope that we can have more frank discussions about the problems of industry inclusiveness and the approach and sense of responsibility around design, specifically in the world of type. With that in mind, I had a candid conversation with Elizabeth Carey Smith, a design director in New York and a past president of the Type Directors Club.” —Agyei Archer",
+      "image": "",
+      "source": "Typographica",
+      "category": "11 Graphisme Expertise",
+      "angle": "Analyser la forme et l'usage des caractères",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "Almost",
+      "url": "https://typographica.org/typeface-reviews/almost/",
+      "published": "2021-01-19T19:26:28+00:00",
+      "summary": "Aside from being a delightful typeface family, Almost opens the door to the discovery of fifteenth-century printing types.",
+      "image": "",
+      "source": "Typographica",
+      "category": "11 Graphisme Expertise",
+      "angle": "Analyser la forme et l'usage des caractères",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "Lava Devanagari, Kannada, and Telugu",
+      "url": "https://typographica.org/typeface-reviews/lava-devanagari-kannada-and-telugu/",
+      "published": "2021-01-19T19:24:25+00:00",
+      "summary": "Typotheque collaborated with Indian type designers for Devanagari, Kannada, and Telugu extensions of Lava. Knowing these scripts as natives gave the designers the confidence to stretch and play with the design within the constraints of an editorial brief. In my opinion, this confidence and familiarity are what bring all of the scripts into harmony while keeping them true to their individual nature.",
+      "image": "",
+      "source": "Typographica",
+      "category": "11 Graphisme Expertise",
+      "angle": "Analyser la forme et l'usage des caractères",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "LL Blankenhorn",
+      "url": "https://typographica.org/typeface-reviews/ll-blankenhorn/",
+      "published": "2021-01-19T19:20:49+00:00",
+      "summary": "Whenever I’m in Germany I’m struck by the prevalence of hand-lettered book covers. German publishers also seem particularly unafraid of omitting imagery from their covers, letting the title do all the selling of the book. This works especially well when the title is rendered by expressive lettering, and there are few examples as effective as Fritz Blankenhorn’s for Deutscher Bücherbund. On these covers, the text is the image.",
+      "image": "",
+      "source": "Typographica",
+      "category": "11 Graphisme Expertise",
+      "angle": "Analyser la forme et l'usage des caractères",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "Graphit",
+      "url": "https://typographica.org/typeface-reviews/graphit/",
+      "published": "2021-01-19T19:16:48+00:00",
+      "summary": "Graphit manages to convey a distinct voice by using elements from sources that might appear almost antithetical.",
+      "image": "",
+      "source": "Typographica",
+      "category": "11 Graphisme Expertise",
+      "angle": "Analyser la forme et l'usage des caractères",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "ABC Laica",
+      "url": "https://typographica.org/typeface-reviews/laica/",
+      "published": "2021-01-19T19:16:16+00:00",
+      "summary": "Laica’s dislocated shapes and sprawling texture walk a fine line between sublimity and grotesqueness, as the world in 2019 also appeared to teeter on the brink of conflicts and crises.",
+      "image": "",
+      "source": "Typographica",
+      "category": "11 Graphisme Expertise",
+      "angle": "Analyser la forme et l'usage des caractères",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "Plastic",
+      "url": "https://typographica.org/typeface-reviews/plastic/",
+      "published": "2021-01-19T19:15:49+00:00",
+      "summary": "The eighties are everywhere. Love them or hate them, over the past several years it has been almost impossible to escape the resurgence of bright neon colors, flashy animal prints, neoliberal ideas, and catchy synth chords. For graphic designer Ivana Palečková and type designer Jitka Janečková, thinking about this decade brings back a very special piece of typographic nostalgia.",
+      "image": "",
+      "source": "Typographica",
+      "category": "11 Graphisme Expertise",
+      "angle": "Analyser la forme et l'usage des caractères",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "ABC Whyte",
+      "url": "https://typographica.org/typeface-reviews/abc-whyte/",
+      "published": "2021-01-19T19:12:24+00:00",
+      "summary": "There is so much to say about ABC Whyte and ABC Whyte Inktrap that a review of these non-identical twins from Dinamo could easily consist of two separate articles. The typefaces offer a clear reference to a milestone in type history and demonstrate an appreciation of past technological considerations through reinterpretation — a reflective practice using contemporary tools.",
+      "image": "",
+      "source": "Typographica",
+      "category": "11 Graphisme Expertise",
+      "angle": "Analyser la forme et l'usage des caractères",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "Lyyra",
+      "url": "https://typographica.org/typeface-reviews/lyyra/",
+      "published": "2021-01-19T19:10:53+00:00",
+      "summary": "I’ve never understood why people cut the crusts off of sandwiches. I guess it’s just my aversion to wasting food. I’ll admit, however, the neatness of those unnaturally sharp edges sparks a certain satisfaction. Lyyra’s vertically sliced stroke endings do just that.",
+      "image": "",
+      "source": "Typographica",
+      "category": "11 Graphisme Expertise",
+      "angle": "Analyser la forme et l'usage des caractères",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "The FACIT Model",
+      "url": "https://typographica.org/typeface-reviews/the-facit-model/",
+      "published": "2021-01-19T19:09:14+00:00",
+      "summary": "Archives are ambivalent places. They promise access to endless knowledge and information — but retrieving it, as most type designers know, can be difficult. The FACIT Model opens the gates to a specific archive that has barely been explored until now. It represents meticulous visual research into the ephemera produced between the 1950s and the 1970s by the Swedish typewriter and office machine manufacturer FACIT AB.",
+      "image": "",
+      "source": "Typographica",
+      "category": "11 Graphisme Expertise",
+      "angle": "Analyser la forme et l'usage des caractères",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "Pika Ultra",
+      "url": "https://typographica.org/typeface-reviews/pika-ultra/",
+      "published": "2021-01-19T19:08:54+00:00",
+      "summary": "Several remarkable typefaces were released in 2019, but none of them made me want to roller-skate as much as PSTL’s Pika Ultra, which evokes the rhythm of ’70s bold lettering but avoids the popular trend of bottom-heavy psychedelic fonts. For me, the parallel here lies more in the wavelike cadence of the letterforms and bold silhouettes of words and letter combinations. Caneso has found an incredibly delightful balance between funky and uniform.",
+      "image": "",
+      "source": "Typographica",
+      "category": "11 Graphisme Expertise",
+      "angle": "Analyser la forme et l'usage des caractères",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "Xingkai Next",
+      "url": "https://typographica.org/typeface-reviews/xingkai-next/",
+      "published": "2021-01-19T19:07:35+00:00",
+      "summary": "XingKai Next aims to find a place for a classical calligraphy face in contemporary graphic design. XingKai is a popular calligraphic typeface designed by Ren Zheng in 1980, inspired by the calligraphy works of Wang Xizhi in the fourth century. It has been digitized by numerous foundries and has appeared in all corners of China. While the design is indisputably popular, it is showing its age in various ways, not the least of which is old-fashioned aesthetics. Instead of dismissing it as mere antiquity, the designer Li Zhiqian decided to make a completely new typeface out of it.",
+      "image": "",
+      "source": "Typographica",
+      "category": "11 Graphisme Expertise",
+      "angle": "Analyser la forme et l'usage des caractères",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "PF Marlet",
+      "url": "https://typographica.org/typeface-reviews/pf-marlet/",
+      "published": "2021-01-19T19:06:01+00:00",
+      "summary": "PF Marlet is a type system consisting of five families with distinct voices and purposes. Despite the differences in their design, each family conveys an edgy feeling of elegance in its own way. This creates a cohesive system that is functional but has a strong personality.",
+      "image": "",
+      "source": "Typographica",
+      "category": "11 Graphisme Expertise",
+      "angle": "Analyser la forme et l'usage des caractères",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "CoFo Peshka",
+      "url": "https://typographica.org/typeface-reviews/cofo-peshka/",
+      "published": "2021-01-19T19:05:53+00:00",
+      "summary": "What makes my Cyrillic heart beat faster is the role Cyrillic plays in this design. I’m under the impression that the Latin lettershapes of CoFo Peshka follow rules established by the Cyrillic, which is what gives the Latin part of the typeface such a captivating freshness.",
+      "image": "",
+      "source": "Typographica",
+      "category": "11 Graphisme Expertise",
+      "angle": "Analyser la forme et l'usage des caractères",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "BC Orion",
+      "url": "https://typographica.org/typeface-reviews/bc-orion/",
+      "published": "2021-01-19T19:05:51+00:00",
+      "summary": "It might be tempting to label Maršo’s sans serifs as lesser communist rip-offs of the popular capitalist typefaces Helvetica and Univers (issued just a few years earlier), but that would not be a fair assessment. Where the Swiss modernists shed any remnants of calligraphy, Maršo embraces the artifacts of the written letter for their own graphic expressiveness, and he was not afraid to rotate the pen.",
+      "image": "",
+      "source": "Typographica",
+      "category": "11 Graphisme Expertise",
+      "angle": "Analyser la forme et l'usage des caractères",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "Optique Display",
+      "url": "https://typographica.org/typeface-reviews/optique-display/",
+      "published": "2021-01-19T19:04:51+00:00",
+      "summary": "Optique is a font family for Hangeul and Latin that follows the traditional writing tools of each script. The Hangeul stroke shape is based on the pointed brush, while the Latin stroke is based on the broad nib. Even though both scripts allude to different tools, they go well together because they have similar contrast and harmonious shapes.",
+      "image": "",
+      "source": "Typographica",
+      "category": "11 Graphisme Expertise",
+      "angle": "Analyser la forme et l'usage des caractères",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "JJannon",
+      "url": "https://typographica.org/typeface-reviews/jjannon/",
+      "published": "2021-01-19T19:02:18+00:00",
+      "summary": "The fonts of Jean Jannon, a.k.a. the would-be Garamond, were underrated by twentieth-century typographers. François Rappo sets the record straight with his crisp JJannon.",
+      "image": "",
+      "source": "Typographica",
+      "category": "11 Graphisme Expertise",
+      "angle": "Analyser la forme et l'usage des caractères",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "29LT Zarid Display",
+      "url": "https://typographica.org/typeface-reviews/29lt-zarid-display/",
+      "published": "2021-01-19T19:01:00+00:00",
+      "summary": "29LT Zarid Display presents surprising twists and turns, and brings new dimensions to the way multilingual display typefaces are designed, which will only benefit designers and readers.",
+      "image": "",
+      "source": "Typographica",
+      "category": "11 Graphisme Expertise",
+      "angle": "Analyser la forme et l'usage des caractères",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "Magnat",
+      "url": "https://typographica.org/typeface-reviews/magnat/",
+      "published": "2021-01-19T19:00:48+00:00",
+      "summary": "The type community in Berlin is expanding more and more, even in these pandemic times. It makes me reflect on how important it is to be where things happen, to inhabit the right place to be inspired, and to observe. In Berlin, René Bieder designed a typeface inspired by a shop sign he discovered while walking the streets of his new neighborhood, in his hometown. With its luxurious and exquisite style, Bieder’s typeface lives up to its name: Magnat.",
+      "image": "",
+      "source": "Typographica",
+      "category": "11 Graphisme Expertise",
+      "angle": "Analyser la forme et l'usage des caractères",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "Oli Grotesk",
+      "url": "https://typographica.org/typeface-reviews/oli-grotesk/",
+      "published": "2021-01-11T19:27:31+00:00",
+      "summary": "There are many “types” of English: American English, British English, and, for me, Indian English. The character and personality of Oli seemed to capture the last point. I found it warm, approachable, witty, and expressive, yet having its own distinct character.",
+      "image": "",
+      "source": "Typographica",
+      "category": "11 Graphisme Expertise",
+      "angle": "Analyser la forme et l'usage des caractères",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "Brucker",
+      "url": "https://typographica.org/typeface-reviews/brucker/",
+      "published": "2020-12-31T20:28:41+00:00",
+      "summary": "With Brucker, Tankard once again consciously questions conventions — particularly the idea that a typeface requires consistency. Like watching a performer on a tightrope, or a live improvised show: there are moments where the performance almost falters, and the whole thing seems dangerously close to falling apart, but it somehow doesn’t, and that’s thrilling, and you can’t look away.",
+      "image": "",
+      "source": "Typographica",
+      "category": "11 Graphisme Expertise",
+      "angle": "Analyser la forme et l'usage des caractères",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "Typefesse",
+      "url": "https://typographica.org/typeface-reviews/typefesse/",
+      "published": "2020-12-31T19:51:13+00:00",
+      "summary": "Typefesse gives a whole new meaning to type anatomy. Defying logic or reason, each letter manages to squeeze in a contorted foot, leg, and buttock or two while maintaining a surprising level of readability. Given the year the world has endured, we all deserve more moments of collective levity, more silly quips, and more type that kicks some ass.",
+      "image": "",
+      "source": "Typographica",
+      "category": "11 Graphisme Expertise",
+      "angle": "Analyser la forme et l'usage des caractères",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "Broome Sound",
+      "url": "https://typographica.org/typeface-reviews/broome-sound/",
+      "published": "2020-12-31T19:05:54+00:00",
+      "summary": "Broome Sound, a custom typeface designed by Tré Seals for the third issue of Umber Magazine, intrigues me for several reasons: its important historical reference; its craft; its simple beauty; and, above all, its status as a work of distinct experience — an optical translation of sound.",
+      "image": "",
+      "source": "Typographica",
+      "category": "11 Graphisme Expertise",
+      "angle": "Analyser la forme et l'usage des caractères",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "Roba",
+      "url": "https://typographica.org/typeface-reviews/roba/",
+      "published": "2020-12-31T18:50:06+00:00",
+      "summary": "At first glance, Roba may appear to be a deco revival display face useful only on rare occasions. And indeed, Franziska Weitgruber has created two subfamilies that echo the geometry- and contrast-loving 1920s. But the families go much further by offering humanist details that help Roba avoid placement within any specific era.",
+      "image": "",
+      "source": "Typographica",
+      "category": "11 Graphisme Expertise",
+      "angle": "Analyser la forme et l'usage des caractères",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "Zangezi Sans",
+      "url": "https://typographica.org/typeface-reviews/zangezi-sans/",
+      "published": "2020-12-31T16:36:40+00:00",
+      "summary": "Zangezi Sans doesn’t come across as just another naked sans or neutralized friend of a serif family. Varied stroke weight, fluid counters, and spiky tails give Zangezi Sans a nonbinary vibe. This typeface bridges the serif/sans divide with shapes that borrow from calligraphy, stone carving, and snakes in the grass.",
+      "image": "",
+      "source": "Typographica",
+      "category": "11 Graphisme Expertise",
+      "angle": "Analyser la forme et l'usage des caractères",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "Benjamin Ballay , Docks Vienne | Concours Gagné",
+      "url": "https://www.idlia.fr/benjamin-ballay-docks-vienne-concours-gagne/",
+      "published": "2019-08-01T13:55:22+00:00",
+      "summary": "Réalisation des perspective 3D de concours de la maison des enfants à Bourg les Valances. Architectes : Benjamin Ballay Architectes, Docks Architecture Vienne Félicitation aux architectes qui remportent ce concours ! ◊",
+      "image": "",
+      "source": "IDlia Studio",
+      "category": "09 France Pro",
+      "angle": "Analyser mise en scène",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "Polyvalence Immobilier, Alila | Commercialisation Luce",
+      "url": "https://www.idlia.fr/polyvalence-immobilier-alila-commercialisation-luce/",
+      "published": "2019-06-05T10:29:52+00:00",
+      "summary": "Réalisation de diverses images 3D pour un projet de logement à Luce. Architectes : jacquet associés | Promotion immobilière : Polyvalence Immobilier, Alila ◊ Perspective 3D aérienne Perspective 3D Intérieure – Appartement type T3 Perspective 3D Intérieure – Appartement type […]",
+      "image": "",
+      "source": "IDlia Studio",
+      "category": "09 France Pro",
+      "angle": "Analyser mise en scène",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "CBC, Genius Loci, Sanae | Film 3D Concours Ehpad",
+      "url": "https://www.idlia.fr/cbc-genius-loci-sanae-film-3d-concours-ehpad/",
+      "published": "2019-06-04T16:08:34+00:00",
+      "summary": "Réalisation du film d’animation 3D d’un projet d’Ehpad à Rueil Malmaison vers Paris, à l’occasion d’un concours d’architecture. Projet non lauréat. Voir le film d’animation Architectes : Genius Loci Architectes Architecture d’intérieure : Sanae Constructeurs : CAMPENON BERNARD […]",
+      "image": "",
+      "source": "IDlia Studio",
+      "category": "09 France Pro",
+      "angle": "Analyser mise en scène",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "Diagonale, Xanadu | Commercialisation Lyon 6",
+      "url": "https://www.idlia.fr/diagonale-xanadu-commercialisation-lyon-6/",
+      "published": "2019-06-04T15:48:39+00:00",
+      "summary": "Réalisation de diverses images 3D et tours à 360° pour un projet de logement à Lyon 6 , rue notre Dame. Architectes : Xanadu | Promotion immobilière : Diagonale ◊ Tour interactif à 360 degrés – Voir ici Tour interactif à […]",
+      "image": "",
+      "source": "IDlia Studio",
+      "category": "09 France Pro",
+      "angle": "Analyser mise en scène",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "Conception 3D | Réalisation Photo",
+      "url": "https://www.idlia.fr/conception-3d-realisation-photo/",
+      "published": "2019-06-04T15:29:12+00:00",
+      "summary": "Comparaison entre nos images 3D et les photos des bâtiments construits Le jeu des 7 ou 70 différences ! ◊ Petit retour sur une ancienne perspective 3D de logements à Saint-Jean-le-Blanc, réalisée en phase de commercialisation. Certaines réalisations sont assez […]",
+      "image": "",
+      "source": "IDlia Studio",
+      "category": "09 France Pro",
+      "angle": "Analyser mise en scène",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "Appartement Saint Tropez | Visite virtuelle à 360°",
+      "url": "https://www.idlia.fr/appartement-saint-tropez-visite-virtuelle-a-360/",
+      "published": "2019-06-04T15:18:39+00:00",
+      "summary": "Venez découvrir notre dernière visite virtuelle à 360° d’un appartement complet type T2, pour la rénovation de la Résidence Marilis à St Tropez. Voir la visite interactive ici Agence de comm’ : Studio For City",
+      "image": "",
+      "source": "IDlia Studio",
+      "category": "09 France Pro",
+      "angle": "Analyser mise en scène",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "HTVS, Mazaud | Concours gagné !",
+      "url": "https://www.idlia.fr/htvs-mazaud-concours-gagne/",
+      "published": "2019-05-31T11:56:23+00:00",
+      "summary": "Réalisation des planches de concours A0, des perspectives 3D et des façades 3D des projets de logements en accession sociale et d’une résidence jeunes actifs, Rue jean Zay à Lyon 9. Projet Lauréat. Conception : HTVS Architecture, Mazaud, Matte, Cetis, […]",
+      "image": "",
+      "source": "IDlia Studio",
+      "category": "09 France Pro",
+      "angle": "Analyser mise en scène",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "De la vue de jour à la vue de nuit",
+      "url": "https://www.idlia.fr/de-la-vue-de-jour-a-la-vue-de-nuit/",
+      "published": "2019-01-14T08:00:18+00:00",
+      "summary": "Évolution de nos images 3D de la vue de jour à la vue de nuit",
+      "image": "",
+      "source": "IDlia Studio",
+      "category": "09 France Pro",
+      "angle": "Analyser mise en scène",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "EM2C, SUD Architectes | Urbanisme Multipôle Decines",
+      "url": "https://www.idlia.fr/em2c-sud-architectes-urbanisme-multipole-decines/",
+      "published": "2019-01-09T12:41:52+00:00",
+      "summary": "Réalisation de diverses images 3D d’urbanisme du futur Multipôle de Decines. Urbanistes : SUD Architectes | Promotion immobilière : EM2C ◊ Perspective 3D aérienne Plan masse 3D général Perspective d’insertion piétonne | Espace public tramway/Roosevelt Perspective d’insertion urbaine | Avenue […]",
+      "image": "",
+      "source": "IDlia Studio",
+      "category": "09 France Pro",
+      "angle": "Analyser mise en scène",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "Daylight",
+      "url": "https://www.typewolf.com/site-of-the-day/daylight-health",
+      "published": "",
+      "summary": "Fonts: Grenette , Styrene",
+      "image": "",
+      "source": "Typewolf",
+      "category": "03 DA Graphisme",
+      "angle": "Analyser associations typographiques",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "Heart & Soil",
+      "url": "https://www.typewolf.com/site-of-the-day/heart-and-soil",
+      "published": "",
+      "summary": "Fonts: Cardinal , Sweet Sans , Baskerville",
+      "image": "",
+      "source": "Typewolf",
+      "category": "03 DA Graphisme",
+      "angle": "Analyser associations typographiques",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "Dirty Vine",
+      "url": "https://www.typewolf.com/site-of-the-day/dirty-vine",
+      "published": "",
+      "summary": "Fonts: Swear , DM Mono",
+      "image": "",
+      "source": "Typewolf",
+      "category": "03 DA Graphisme",
+      "angle": "Analyser associations typographiques",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "Muse",
+      "url": "https://www.typewolf.com/site-of-the-day/muse-paris",
+      "published": "",
+      "summary": "Fonts: DaVinci , Suisse Int’l",
+      "image": "",
+      "source": "Typewolf",
+      "category": "03 DA Graphisme",
+      "angle": "Analyser associations typographiques",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "Board",
+      "url": "https://www.typewolf.com/site-of-the-day/board",
+      "published": "",
+      "summary": "Fonts: Kabel , Neue Haas Grotesk",
+      "image": "",
+      "source": "Typewolf",
+      "category": "03 DA Graphisme",
+      "angle": "Analyser associations typographiques",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "Elena Scott",
+      "url": "https://www.typewolf.com/site-of-the-day/elena-scott",
+      "published": "",
+      "summary": "Fonts: Editorial Old , Neue Montreal",
+      "image": "",
+      "source": "Typewolf",
+      "category": "03 DA Graphisme",
+      "angle": "Analyser associations typographiques",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "Speakeasy",
+      "url": "https://www.typewolf.com/site-of-the-day/speakeasy",
+      "published": "",
+      "summary": "Fonts: Tobias , Diatype , Diatype Mono",
+      "image": "",
+      "source": "Typewolf",
+      "category": "03 DA Graphisme",
+      "angle": "Analyser associations typographiques",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "Every",
+      "url": "https://www.typewolf.com/site-of-the-day/every-2025",
+      "published": "",
+      "summary": "Fonts: Signifier , Switzer",
+      "image": "",
+      "source": "Typewolf",
+      "category": "03 DA Graphisme",
+      "angle": "Analyser associations typographiques",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "TR Studio",
+      "url": "https://www.typewolf.com/site-of-the-day/tr-studio",
+      "published": "",
+      "summary": "Fonts: Arizona Flare , Dia",
+      "image": "",
+      "source": "Typewolf",
+      "category": "03 DA Graphisme",
+      "angle": "Analyser associations typographiques",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "Go RVing",
+      "url": "https://www.typewolf.com/site-of-the-day/go-rving",
+      "published": "",
+      "summary": "Fonts: Agipo , Topol , Maison Neue",
+      "image": "",
+      "source": "Typewolf",
+      "category": "03 DA Graphisme",
+      "angle": "Analyser associations typographiques",
       "status": "source_detected_not_editorially_analyzed"
     }
   ]
