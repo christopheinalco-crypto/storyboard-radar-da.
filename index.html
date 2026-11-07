@@ -374,25 +374,31 @@ function sourceDescription(x){
  return (x.summary_fr||x.summary||'').replace(/The post [\\s\\S]*?appeared first on[\\s\\S]*$/i,'').replace(/behind its /i,'behind its ').trim();
 }
 function exploratoryReadingHTML(x){
- const a=daInterpretation(x),take=conciseCardTakeaway(x);
- const s=sourceDescription(x),title=x.title_fr||x.title||'';
- const focus=(x.category||'').toLowerCase();
- const isSpace=/architect|art architecture|musée|museum|exhibition|installation|scénograph|spectacle/.test(focus+' '+title.toLowerCase());
- const isMusic=/clip|music|musique|vidéo|film|broadcast|tv/.test(focus);
- const isAd=/pub|marketing|brand|retail|identit|design|stratégi/.test(focus);
- const axis=isSpace?'les relations entre espace, volumes et parcours du public':isMusic?'l’organisation du regard, du rythme et du récit':isAd?'la hiérarchie des signes et la lisibilité de l’idée':'les choix de forme et leur perception';
- const detail=s.length>=55?s.slice(0,340):'Le titre de la source permet seulement de situer cette création.';
+ const s=sourceDescription(x).replace(/\s+/g,' ').trim();
+ const raw=(x.title_fr||x.title||'').toLowerCase()+' '+s.toLowerCase();
+ // Une lecture courte, liée aux éléments concrets décrits. Pas de reprise du titre.
+ const lenses=[
+  [/treillis|lattice|exosquelet|façade|facade|structure|charpente|acier|steel|construction|architecture|architect/,['Structure & perception','La structure est-elle un simple support, ou devient-elle la signature visuelle du lieu ?','Comparer une version où la structure est apparente avec une version où elle disparaît.']],
+  [/scénograph|scenograph|stage design|set design|concert|spectacle|théâtre|theatre|plateau/,['Espace & dramaturgie','Comment les volumes, les distances et les transitions organisent-ils l’attention du public ?','Retirer un élément du dispositif : que perd la narration ?']],
+  [/lumière|lighting|light art|ombre|shadow|néon|neon|projection|mapping/,['Lumière & hiérarchie','Qu’est-ce qui devient visible ou disparaît grâce à la lumière ?','Modifier une seule source lumineuse pour changer le point focal.']],
+  [/identité|identity|branding|logo|typograph|typeface|graphisme|affiche|poster/,['Identité & signes','Quel élément permet de reconnaître la création sans lire son nom ?','Supprimer le texte et tester la reconnaissance de l’idée.']],
+  [/campaign|campagne|advertis|publicit|creative concept|insight/,['Idée & mise en forme','Quel choix visuel matérialise réellement l’idée de départ ?','Retirer le slogan : est-ce que le concept tient encore ?']],
+  [/costume|fashion design|matériau|material|texture|tissu|fabric|matière/,['Matière & signification','Que raconte le choix de matière au-delà de son apparence ?','Remplacer la matière dominante et comparer le sens produit.']],
+  [/montage|editing|music video|clip|film|cinematograph|cadrage|choreograph|chorégraph/,['Rythme & mise en scène','Quel enchaînement de plans, de gestes ou de formes porte le récit ?','Modifier l’ordre de trois moments et constater l’effet sur la lecture.']],
+  [/exposition|exhibition|installation|immersive|musée|museum/,['Parcours & expérience','Comment l’ordre de découverte modifie-t-il la compréhension de l’œuvre ?','Inverser deux étapes du parcours et décrire ce que cela change.']]
+ ];
+ const found=lenses.find(([re])=>re.test(raw));
+ if(!found)return '';
+ const [label,question,exercise]=found[1];
+ const summary=s.length>260?s.slice(0,257).replace(/\s+\S*$/,'')+'…':s;
  return '<div class="da-editorial-prose">'+
- '<p class="da-editorial-lead">'+escapeHTML(detail)+'</p>'+
- '<div class="da-essential-kicker">PISTES DE DÉCRYPTAGE <span>· HYPOTHÈSES À TESTER</span></div>'+
+ '<p class="da-editorial-lead">'+escapeHTML(summary)+'</p>'+
+ '<div class="da-essential-kicker">PISTE DE LECTURE DA <span>· À CONFRONTER AU PROJET</span></div>'+
  '<div class="da-essential-points">'+
- '<p><span class="da-point-bullet">•</span><span><strong>Angle à examiner :</strong> '+escapeHTML('Pour « '+title+' », observer '+axis+'.')+'</span></p>'+
- '<p><span class="da-point-bullet">•</span><span><strong>Intention possible :</strong> '+escapeHTML('Le projet pourrait chercher à '+a.hyp+'. Cette intention n’est pas attribuée à ses créateurs.')+'</span></p>'+
- '<p><span class="da-point-bullet">•</span><span><strong>Effet possible :</strong> '+escapeHTML(a.effect+'. À vérifier dans les images, la réalisation et le contexte.')+'</span></p>'+
- '<p><span class="da-point-bullet">•</span><span><strong>Le regard critique :</strong> '+escapeHTML(a.test)+'</span></p>'+
+ '<p><span class="da-point-bullet">•</span><span><strong>'+escapeHTML(label)+' :</strong> '+escapeHTML(question)+'</span></p>'+
  '</div>'+
- '<div class="da-editorial-conclusion"><div>LE RÉFLEXE DU DA</div><p>'+escapeHTML(take.tip)+'</p></div>'+
- '<details class="study-sources"><summary>Sources & références</summary><p>Analyse exploratoire issue des informations de la source. Repère théorique à approfondir : '+escapeHTML(a.ref)+'. Aucune citation littérale d’expert n’est revendiquée.</p><a href="'+escapeHTML(x.url)+'" target="_blank" rel="noopener noreferrer">Consulter l’article original ↗</a></details>'+
+ '<div class="da-editorial-conclusion"><div>À TESTER</div><p>'+escapeHTML(exercise)+'</p></div>'+
+ '<details class="study-sources"><summary>Sources & références</summary><p>Questionnement exploratoire à partir du résumé disponible ; les intentions des créateurs ne sont pas vérifiées.</p><a href="'+escapeHTML(x.url)+'" target="_blank" rel="noopener noreferrer">Consulter le projet original ↗</a></details>'+
  '</div>';
 }
 function layersHTML(x){
@@ -409,6 +415,8 @@ function editorialEligibility(x){
  if(!x.url||!x.image||!title||raw.length<90)return false;
  const offTopic=/c.est fini|adieu |fin de l.aventure|ferme ses portes|fermeture|shuts down|closing down|closure|end of an era|calls it quits|announces closure|goodbye|remembering|obituary|in memoriam|best of|top [0-9]+|roundup|playlist|anniversary|anniversaire|disparition de|décès de|joins the team|new ceo|new director appointed|job opening|hiring|vacancy|earnings|stock price|quarterly results|retirement|démission|quitte la maison|fini…/;
  if(offTopic.test(title))return false;
+ // Une annonce de casting, de retour d'acteur ou de projet non encore visible ne se décrypte pas.
+ if(/va (?:retrouver|incarner|jouer|revenir)|s.apprête à|will (?:star|return|reprise)|set to star|cast as|casting|reboot annoncé|announces (?:new|next)|returns as|reprendra son rôle|dans un prochain film|new movie announced|teaser announcement/.test(title+' '+raw))return false;
  // La catégorie clips doit concerner la musique, une vidéo, un spectacle ou une performance.
  if(/^14 /.test(cat)&&!/music|musique|song|chanson|singer|album|single|track|clip|music video|video|vidéo|concert|stage|performance|live|tour|tournée|dj |rapper|rappeur|festival|sound|sonore|dance|danse|record|vinyl|film|cinéma|musical|choreograph|chorégraph/.test(content))return false;
  const visual=/scenograph|scénograph|stage design|set design|lighting|lumière|projection|mapping|typograph|typeface|lettering|graphic identity|visual identity|identité visuelle|art direction|direction artistique|creative direction|production design|cinematograph|cadrage|editing|montage|choreograph|chorégraph|architect|pavilion|pavillon|museum|musée|exhibition|exposition|installation|immersive|immersion|material|matériau|texture|façade|facade|structure|photograph|music video|clip vidéo|video clip|short film|court.métrage|film|campaign|campagne|advertis|publicit|branding|brand identity|costume|sculpture|performance|spectacle|théâtre|theatre|concert|spatial|espace|interior|intérieur|poster|affiche|animation|motion design/;
