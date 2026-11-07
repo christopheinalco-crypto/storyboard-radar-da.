@@ -67,7 +67,7 @@ jobs:
         continue-on-error: true
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
-          RADAR_AI_MODEL: gemini-2.5-flash-lite
+          RADAR_AI_MODEL: gemini-3.5-flash-lite
         run: python analyze.py
       - name: Publier les nouvelles données
         if: steps.slot.outputs.run == 'true'
