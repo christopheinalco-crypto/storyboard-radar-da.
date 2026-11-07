@@ -1,0 +1,1682 @@
+[
+  {
+    "priority": "P1",
+    "category": "01 Spectacle Concert",
+    "name": "Balich Wonder Studio",
+    "url": "https://www.balichwonderstudio.com/",
+    "specialty": "Cérémonies et spectacles monumentaux",
+    "interest": "Analyser la dramaturgie à grande échelle",
+    "zone": "Italie / International",
+    "frequency": "Hebdomadaire"
+  },
+  {
+    "priority": "P1",
+    "category": "01 Spectacle Concert",
+    "name": "Live Design",
+    "url": "https://www.livedesignonline.com/",
+    "specialty": "Lumière, set design et spectacle",
+    "interest": "Lire les coulisses des projets",
+    "zone": "USA",
+    "frequency": "Hebdomadaire"
+  },
+  {
+    "priority": "P1",
+    "category": "01 Spectacle Concert",
+    "name": "Moment Factory",
+    "url": "https://momentfactory.com/",
+    "specialty": "Spectacles multimédias et immersion",
+    "interest": "Articuler image, son et espace",
+    "zone": "Canada / International",
+    "frequency": "Hebdomadaire"
+  },
+  {
+    "priority": "P1",
+    "category": "01 Spectacle Concert",
+    "name": "OISTAT",
+    "url": "https://oistat.org/",
+    "specialty": "Réseau international scénographie",
+    "interest": "Approfondir les pratiques et la recherche",
+    "zone": "International",
+    "frequency": "Hebdomadaire"
+  },
+  {
+    "priority": "P1",
+    "category": "01 Spectacle Concert",
+    "name": "ShowTex",
+    "url": "https://www.showtex.com/fr/projets",
+    "specialty": "Textiles, illusions et effets scéniques",
+    "interest": "Comprendre la matière comme outil dramatique",
+    "zone": "Belgique / International",
+    "frequency": "Hebdomadaire"
+  },
+  {
+    "priority": "P1",
+    "category": "01 Spectacle Concert",
+    "name": "STIRworld Stage Design",
+    "url": "https://www.stirworld.com/tags/stage-design",
+    "specialty": "Scénographie et installations",
+    "interest": "Repérer les tendances spatiales",
+    "zone": "International",
+    "frequency": "Hebdomadaire"
+  },
+  {
+    "priority": "P1",
+    "category": "01 Spectacle Concert",
+    "name": "STUFISH",
+    "url": "https://stufish.com/projects/",
+    "specialty": "Architecture de scène, tournées et cérémonies",
+    "interest": "Étudier volumes, circulation et dramaturgie spatiale",
+    "zone": "International",
+    "frequency": "Hebdomadaire"
+  },
+  {
+    "priority": "P1",
+    "category": "01 Spectacle Concert",
+    "name": "TAIT",
+    "url": "https://www.taittowers.com/",
+    "specialty": "Scènes mobiles, automation, fabrication",
+    "interest": "Relier intention et faisabilité",
+    "zone": "USA / International",
+    "frequency": "Hebdomadaire"
+  },
+  {
+    "priority": "P1",
+    "category": "01 Spectacle Concert",
+    "name": "TPI Magazine",
+    "url": "https://www.tpimagazine.com/",
+    "specialty": "Études de production de tournées",
+    "interest": "Identifier les équipes et arbitrages créatifs",
+    "zone": "Royaume-Uni",
+    "frequency": "Hebdomadaire"
+  },
+  {
+    "priority": "P1",
+    "category": "01 Spectacle Concert",
+    "name": "World Stage Design",
+    "url": "https://www.worldstagedesign.com/",
+    "specialty": "Scénographie mondiale",
+    "interest": "Comparer des partis pris artistiques",
+    "zone": "International",
+    "frequency": "Hebdomadaire"
+  },
+  {
+    "priority": "P1",
+    "category": "02 TV Broadcast",
+    "name": "NewscastStudio",
+    "url": "https://www.newscaststudio.com/category/set-design/",
+    "specialty": "Plateaux de télévision et broadcast",
+    "interest": "Étudier composition multi-caméras",
+    "zone": "USA",
+    "frequency": "Hebdomadaire"
+  },
+  {
+    "priority": "P1",
+    "category": "03 DA Graphisme",
+    "name": "Brand New",
+    "url": "https://www.underconsideration.com/brandnew/",
+    "specialty": "Critique d'identité visuelle",
+    "interest": "Comparer avant/après et intentions",
+    "zone": "USA",
+    "frequency": "Hebdomadaire"
+  },
+  {
+    "priority": "P1",
+    "category": "03 DA Graphisme",
+    "name": "Creative Review",
+    "url": "https://www.creativereview.co.uk/",
+    "specialty": "Création publicitaire et design",
+    "interest": "Relier concept et contexte",
+    "zone": "Royaume-Uni",
+    "frequency": "Hebdomadaire"
+  },
+  {
+    "priority": "P1",
+    "category": "03 DA Graphisme",
+    "name": "EyeCandy",
+    "url": "https://eyecannndy.com/",
+    "specialty": "Références de techniques visuelles",
+    "interest": "Explorer des procédés et traitements",
+    "zone": "International",
+    "frequency": "Hebdomadaire"
+  },
+  {
+    "priority": "P1",
+    "category": "03 DA Graphisme",
+    "name": "It's Nice That",
+    "url": "https://www.itsnicethat.com/",
+    "specialty": "Culture créative et artistes",
+    "interest": "Élargir les références contemporaines",
+    "zone": "Royaume-Uni",
+    "frequency": "Hebdomadaire"
+  },
+  {
+    "priority": "P1",
+    "category": "04 Pub Strategie",
+    "name": "Ads of the World",
+    "url": "https://www.adsoftheworld.com/",
+    "specialty": "Archives de campagnes",
+    "interest": "Comparer insight, idée et exécution",
+    "zone": "International",
+    "frequency": "Hebdomadaire"
+  },
+  {
+    "priority": "P1",
+    "category": "04 Pub Strategie",
+    "name": "D&AD",
+    "url": "https://www.dandad.org/",
+    "specialty": "Prix et formation créative",
+    "interest": "Étudier excellence du craft",
+    "zone": "Royaume-Uni",
+    "frequency": "Hebdomadaire"
+  },
+  {
+    "priority": "P1",
+    "category": "04 Pub Strategie",
+    "name": "Design Indaba",
+    "url": "https://www.designindaba.com/",
+    "specialty": "Créativité et design africain",
+    "interest": "Élargir les références culturelles",
+    "zone": "Afrique du Sud",
+    "frequency": "Hebdomadaire"
+  },
+  {
+    "priority": "P1",
+    "category": "04 Pub Strategie",
+    "name": "LIONS The Work",
+    "url": "https://www.lovethework.com/",
+    "specialty": "Campagnes récompensées",
+    "interest": "Analyser stratégies et résultats",
+    "zone": "International",
+    "frequency": "Hebdomadaire"
+  },
+  {
+    "priority": "P1",
+    "category": "04 Pub Strategie",
+    "name": "Little Black Book",
+    "url": "https://www.lbbonline.com/",
+    "specialty": "Création publicitaire et production",
+    "interest": "Lire les démarches des agences",
+    "zone": "International",
+    "frequency": "Hebdomadaire"
+  },
+  {
+    "priority": "P1",
+    "category": "05 Art Architecture",
+    "name": "ArchDaily",
+    "url": "https://www.archdaily.com/",
+    "specialty": "Projets architecturaux",
+    "interest": "Lire parcours et plans",
+    "zone": "International",
+    "frequency": "Hebdomadaire"
+  },
+  {
+    "priority": "P1",
+    "category": "05 Art Architecture",
+    "name": "Designboom",
+    "url": "https://www.designboom.com/",
+    "specialty": "Design et installations",
+    "interest": "Explorer formes expérimentales",
+    "zone": "International",
+    "frequency": "Hebdomadaire"
+  },
+  {
+    "priority": "P1",
+    "category": "05 Art Architecture",
+    "name": "Dezeen",
+    "url": "https://www.dezeen.com/",
+    "specialty": "Architecture et design",
+    "interest": "Étudier espace, matière et lumière",
+    "zone": "International",
+    "frequency": "Hebdomadaire"
+  },
+  {
+    "priority": "P1",
+    "category": "05 Art Architecture",
+    "name": "STIRworld",
+    "url": "https://www.stirworld.com/",
+    "specialty": "Art, architecture, scénographie",
+    "interest": "Repérer projets hybrides",
+    "zone": "International",
+    "frequency": "Hebdomadaire"
+  },
+  {
+    "priority": "P1",
+    "category": "06 Retail Brand Experience",
+    "name": "Bureau Betak",
+    "url": "https://www.bureaubetak.com/",
+    "specialty": "Défilés et événements de marque",
+    "interest": "Analyser spectacle de mode",
+    "zone": "France / International",
+    "frequency": "Hebdomadaire"
+  },
+  {
+    "priority": "P1",
+    "category": "06 Retail Brand Experience",
+    "name": "Gentle Monster",
+    "url": "https://www.gentlemonster.com/",
+    "specialty": "Retail expérientiel, installations cinétiques",
+    "interest": "Étudier la boutique comme œuvre narrative",
+    "zone": "Corée du Sud",
+    "frequency": "Hebdomadaire"
+  },
+  {
+    "priority": "P1",
+    "category": "06 Retail Brand Experience",
+    "name": "Mazarine",
+    "url": "https://www.mazarine.com/",
+    "specialty": "Expériences de marque et luxe",
+    "interest": "Relier récit de marque et espace",
+    "zone": "France",
+    "frequency": "Hebdomadaire"
+  },
+  {
+    "priority": "P1",
+    "category": "07 FOOH OOH DOOH",
+    "name": "FOOH.com",
+    "url": "https://www.fooh.com/",
+    "specialty": "FOOH et archives",
+    "interest": "Repérer les illusions CGI",
+    "zone": "International",
+    "frequency": "Hebdomadaire"
+  },
+  {
+    "priority": "P1",
+    "category": "07 FOOH OOH DOOH",
+    "name": "JCDecaux",
+    "url": "https://www.jcdecaux.fr/",
+    "specialty": "OOH et DOOH physiques",
+    "interest": "Comprendre contraintes de support",
+    "zone": "France",
+    "frequency": "Hebdomadaire"
+  },
+  {
+    "priority": "P1",
+    "category": "07 FOOH OOH DOOH",
+    "name": "KOSMO CGI",
+    "url": "https://www.kosmocgi.com/",
+    "specialty": "Studio FOOH et CGI",
+    "interest": "Analyser intégration réaliste",
+    "zone": "France",
+    "frequency": "Hebdomadaire"
+  },
+  {
+    "priority": "P1",
+    "category": "07 FOOH OOH DOOH",
+    "name": "Ocean Outdoor",
+    "url": "https://oceanoutdoor.com/",
+    "specialty": "DOOH monumental et anamorphose",
+    "interest": "Analyser perspective et emplacement",
+    "zone": "Royaume-Uni",
+    "frequency": "Hebdomadaire"
+  },
+  {
+    "priority": "P1",
+    "category": "08 Immersif CGI Motion",
+    "name": "Art of the Title",
+    "url": "https://www.artofthetitle.com/",
+    "specialty": "Génériques et narration",
+    "interest": "Analyser intention et rythme",
+    "zone": "International",
+    "frequency": "Hebdomadaire"
+  },
+  {
+    "priority": "P1",
+    "category": "08 Immersif CGI Motion",
+    "name": "Motionographer",
+    "url": "https://www.motionographer.com/",
+    "specialty": "Motion design et auteurs",
+    "interest": "Étudier le craft du mouvement",
+    "zone": "USA",
+    "frequency": "Hebdomadaire"
+  },
+  {
+    "priority": "P1",
+    "category": "08 Immersif CGI Motion",
+    "name": "Stash",
+    "url": "https://www.stashmedia.tv/",
+    "specialty": "Motion, VFX, animation",
+    "interest": "Explorer les langages visuels",
+    "zone": "International",
+    "frequency": "Hebdomadaire"
+  },
+  {
+    "priority": "P1",
+    "category": "08 Immersif CGI Motion",
+    "name": "Superbien",
+    "url": "https://www.superbien.com/",
+    "specialty": "Immersif, mapping et brand experience",
+    "interest": "Étudier spatialisation des images",
+    "zone": "France",
+    "frequency": "Hebdomadaire"
+  },
+  {
+    "priority": "P1",
+    "category": "08 Immersif CGI Motion",
+    "name": "teamLab",
+    "url": "https://www.teamlab.art/",
+    "specialty": "Art numérique immersif",
+    "interest": "Étudier interaction corps/espace",
+    "zone": "Japon",
+    "frequency": "Hebdomadaire"
+  },
+  {
+    "priority": "P1",
+    "category": "09 France Pro",
+    "name": "Light ZOOM Lumière",
+    "url": "https://www.lightzoomlumiere.fr/",
+    "specialty": "Lumière et spectacles",
+    "interest": "Approfondir dispositifs lumineux",
+    "zone": "France",
+    "frequency": "Hebdomadaire"
+  },
+  {
+    "priority": "P1",
+    "category": "09 France Pro",
+    "name": "Revue AS",
+    "url": "https://www.revue-as.fr/",
+    "specialty": "Actualité de la scénographie",
+    "interest": "Suivre les productions françaises",
+    "zone": "France",
+    "frequency": "Hebdomadaire"
+  },
+  {
+    "priority": "P1",
+    "category": "10 Strategie Insights",
+    "name": "Contagious",
+    "url": "https://www.contagious.com/",
+    "specialty": "Analyses de campagnes et tendances",
+    "interest": "Étudier la logique des idées originales",
+    "zone": "Site consulté via recherche web",
+    "frequency": "Hebdomadaire"
+  },
+  {
+    "priority": "P1",
+    "category": "10 Strategie Insights",
+    "name": "Effie Worldwide",
+    "url": "https://www.effie.org/",
+    "specialty": "Cas de campagnes efficaces",
+    "interest": "Relier créativité et performance",
+    "zone": "URL renseignée — contrôle individuel à faire",
+    "frequency": "Hebdomadaire"
+  },
+  {
+    "priority": "P1",
+    "category": "10 Strategie Insights",
+    "name": "System1",
+    "url": "https://system1group.com/",
+    "specialty": "Tests créatifs et émotion",
+    "interest": "Étudier les effets émotionnels publicitaires",
+    "zone": "URL renseignée — contrôle individuel à faire",
+    "frequency": "Hebdomadaire"
+  },
+  {
+    "priority": "P1",
+    "category": "10 Strategie Insights",
+    "name": "WARC",
+    "url": "https://www.warc.com/",
+    "specialty": "Études de cas, efficacité, stratégie",
+    "interest": "Décoder la relation insight-idée-résultat",
+    "zone": "Site consulté via recherche web",
+    "frequency": "Hebdomadaire"
+  },
+  {
+    "priority": "P1",
+    "category": "11 Graphisme Expertise",
+    "name": "COLLINS",
+    "url": "https://www.wearecollins.com/",
+    "specialty": "Branding et design systems",
+    "interest": "Étudier positionnement et langage visuel",
+    "zone": "URL renseignée — contrôle individuel à faire",
+    "frequency": "Hebdomadaire"
+  },
+  {
+    "priority": "P1",
+    "category": "11 Graphisme Expertise",
+    "name": "Koto",
+    "url": "https://koto.studio/",
+    "specialty": "Branding contemporain",
+    "interest": "Observer cohérence et modularité",
+    "zone": "URL renseignée — contrôle individuel à faire",
+    "frequency": "Hebdomadaire"
+  },
+  {
+    "priority": "P1",
+    "category": "11 Graphisme Expertise",
+    "name": "Pentagram",
+    "url": "https://www.pentagram.com/work",
+    "specialty": "Études de projets d'identité",
+    "interest": "Analyser les systèmes et partis pris",
+    "zone": "URL renseignée — contrôle individuel à faire",
+    "frequency": "Hebdomadaire"
+  },
+  {
+    "priority": "P1",
+    "category": "11 Graphisme Expertise",
+    "name": "Studio Dumbar",
+    "url": "https://studiodumbar.com/",
+    "specialty": "Identités dynamiques et motion",
+    "interest": "Étudier systèmes visuels vivants",
+    "zone": "URL renseignée — contrôle individuel à faire",
+    "frequency": "Hebdomadaire"
+  },
+  {
+    "priority": "P1",
+    "category": "13 France Marketing Design",
+    "name": "Club des DA",
+    "url": "https://www.leclubdesda.org/",
+    "specialty": "Création publicitaire et design",
+    "interest": "Étudier réalisations récompensées",
+    "zone": "URL renseignée — contrôle individuel à faire",
+    "frequency": "Hebdomadaire"
+  },
+  {
+    "priority": "P1",
+    "category": "13 France Marketing Design",
+    "name": "Graphéine",
+    "url": "https://www.grapheine.com/",
+    "specialty": "Studio et articles branding",
+    "interest": "Étudier les démarches de création",
+    "zone": "URL renseignée — contrôle individuel à faire",
+    "frequency": "Hebdomadaire"
+  },
+  {
+    "priority": "P1",
+    "category": "13 France Marketing Design",
+    "name": "La Réclame",
+    "url": "https://lareclame.fr/",
+    "specialty": "Campagnes publicitaires françaises",
+    "interest": "Étudier les concepts créatifs",
+    "zone": "URL renseignée — contrôle individuel à faire",
+    "frequency": "Hebdomadaire"
+  },
+  {
+    "priority": "P1",
+    "category": "13 France Marketing Design",
+    "name": "Stratégies",
+    "url": "https://www.strategies.fr/",
+    "specialty": "Actualité communication et marketing",
+    "interest": "Suivre les campagnes françaises",
+    "zone": "URL renseignée — contrôle individuel à faire",
+    "frequency": "Hebdomadaire"
+  },
+  {
+    "priority": "P2",
+    "category": "01 Spectacle Concert",
+    "name": "Cirque du Soleil",
+    "url": "https://www.cirquedusoleil.com/",
+    "specialty": "Spectacles immersifs et arts vivants",
+    "interest": "Analyser la cohérence d'un univers",
+    "zone": "Canada",
+    "frequency": "Selon le projet"
+  },
+  {
+    "priority": "P2",
+    "category": "01 Spectacle Concert",
+    "name": "CREACTION Studio",
+    "url": "https://www.creactionstudio.com/",
+    "specialty": "Show design et contenu scénique",
+    "interest": "Analyser cohérence écrans/scène",
+    "zone": "International",
+    "frequency": "Selon le projet"
+  },
+  {
+    "priority": "P2",
+    "category": "01 Spectacle Concert",
+    "name": "Dragone",
+    "url": "https://www.dragone.com/",
+    "specialty": "Spectacles permanents et aquatiques",
+    "interest": "Analyser l'intégration scène/architecture",
+    "zone": "International",
+    "frequency": "Selon le projet"
+  },
+  {
+    "priority": "P2",
+    "category": "01 Spectacle Concert",
+    "name": "LSi",
+    "url": "https://www.lsionline.com/",
+    "specialty": "Lighting & Sound International",
+    "interest": "Comprendre les évolutions de production",
+    "zone": "Royaume-Uni",
+    "frequency": "Selon le projet"
+  },
+  {
+    "priority": "P2",
+    "category": "01 Spectacle Concert",
+    "name": "LUZ Studio",
+    "url": "https://luzstudio.com/",
+    "specialty": "Show design et contenus de scène",
+    "interest": "Étudier le langage visuel des concerts",
+    "zone": "Canada",
+    "frequency": "Selon le projet"
+  },
+  {
+    "priority": "P2",
+    "category": "01 Spectacle Concert",
+    "name": "PLSN",
+    "url": "https://plsn.com/",
+    "specialty": "Production, lumière et scènes",
+    "interest": "Veille techniques et dispositifs",
+    "zone": "USA",
+    "frequency": "Selon le projet"
+  },
+  {
+    "priority": "P2",
+    "category": "02 TV Broadcast",
+    "name": "Brompton Technology",
+    "url": "https://www.bromptontech.com/",
+    "specialty": "Traitement vidéo LED",
+    "interest": "Comprendre contraintes de l'image LED",
+    "zone": "Royaume-Uni",
+    "frequency": "Selon le projet"
+  },
+  {
+    "priority": "P2",
+    "category": "02 TV Broadcast",
+    "name": "Devlin Design Group",
+    "url": "https://www.devlin-design.com/",
+    "specialty": "Décors et environnements broadcast",
+    "interest": "Analyser espace, cadrage et identité",
+    "zone": "USA",
+    "frequency": "Selon le projet"
+  },
+  {
+    "priority": "P2",
+    "category": "02 TV Broadcast",
+    "name": "disguise",
+    "url": "https://www.disguise.one/",
+    "specialty": "Production virtuelle et médias serveurs",
+    "interest": "Relier contenu et surfaces scéniques",
+    "zone": "Royaume-Uni",
+    "frequency": "Selon le projet"
+  },
+  {
+    "priority": "P2",
+    "category": "02 TV Broadcast",
+    "name": "Ross Video",
+    "url": "https://www.rossvideo.com/",
+    "specialty": "Production TV et décors virtuels",
+    "interest": "Comprendre workflows broadcast",
+    "zone": "Canada",
+    "frequency": "Selon le projet"
+  },
+  {
+    "priority": "P2",
+    "category": "02 TV Broadcast",
+    "name": "Vizrt",
+    "url": "https://www.vizrt.com/",
+    "specialty": "Graphisme TV, réalité augmentée",
+    "interest": "Explorer la scénographie augmentée",
+    "zone": "International",
+    "frequency": "Selon le projet"
+  },
+  {
+    "priority": "P2",
+    "category": "02 TV Broadcast",
+    "name": "Zero Density",
+    "url": "https://www.zerodensity.tv/",
+    "specialty": "Studios virtuels",
+    "interest": "Analyser les plateaux hybrides",
+    "zone": "International",
+    "frequency": "Selon le projet"
+  },
+  {
+    "priority": "P2",
+    "category": "03 DA Graphisme",
+    "name": "Are.na",
+    "url": "https://www.are.na/",
+    "specialty": "Curation et recherche",
+    "interest": "Organiser des constellations d'idées",
+    "zone": "International",
+    "frequency": "Selon le projet"
+  },
+  {
+    "priority": "P2",
+    "category": "03 DA Graphisme",
+    "name": "Awwwards",
+    "url": "https://www.awwwards.com/",
+    "specialty": "Design web expérimental",
+    "interest": "Explorer composition et interactions",
+    "zone": "International",
+    "frequency": "Selon le projet"
+  },
+  {
+    "priority": "P2",
+    "category": "03 DA Graphisme",
+    "name": "Behance",
+    "url": "https://www.behance.net/",
+    "specialty": "Portfolios créatifs",
+    "interest": "Explorer systèmes et styles",
+    "zone": "International",
+    "frequency": "Selon le projet"
+  },
+  {
+    "priority": "P2",
+    "category": "03 DA Graphisme",
+    "name": "BP&O",
+    "url": "https://bpando.org/",
+    "specialty": "Branding, packaging, opinion",
+    "interest": "Analyser systèmes d'identité",
+    "zone": "Royaume-Uni",
+    "frequency": "Selon le projet"
+  },
+  {
+    "priority": "P2",
+    "category": "03 DA Graphisme",
+    "name": "Creative Boom",
+    "url": "https://www.creativeboom.com/",
+    "specialty": "Design et culture visuelle",
+    "interest": "Découvrir les pratiques créatives",
+    "zone": "Royaume-Uni",
+    "frequency": "Selon le projet"
+  },
+  {
+    "priority": "P2",
+    "category": "03 DA Graphisme",
+    "name": "Dieline",
+    "url": "https://thedieline.com/",
+    "specialty": "Packaging et design de marque",
+    "interest": "Comprendre la matérialité de l'identité",
+    "zone": "USA",
+    "frequency": "Selon le projet"
+  },
+  {
+    "priority": "P2",
+    "category": "03 DA Graphisme",
+    "name": "Fonts In Use",
+    "url": "https://fontsinuse.com/",
+    "specialty": "Typographie contextualisée",
+    "interest": "Étudier la typographie en situation",
+    "zone": "International",
+    "frequency": "Selon le projet"
+  },
+  {
+    "priority": "P2",
+    "category": "03 DA Graphisme",
+    "name": "The Brand Identity",
+    "url": "https://the-brandidentity.com/",
+    "specialty": "Identités et studios graphiques",
+    "interest": "Analyser langages de marque",
+    "zone": "Royaume-Uni",
+    "frequency": "Selon le projet"
+  },
+  {
+    "priority": "P2",
+    "category": "04 Pub Strategie",
+    "name": "Ad Age",
+    "url": "https://adage.com/",
+    "specialty": "Industrie et campagnes",
+    "interest": "Suivre créations et marques",
+    "zone": "USA",
+    "frequency": "Selon le projet"
+  },
+  {
+    "priority": "P2",
+    "category": "04 Pub Strategie",
+    "name": "Campaign Asia",
+    "url": "https://www.campaignasia.com/",
+    "specialty": "Industrie créative asiatique",
+    "interest": "Diversifier la veille géographique",
+    "zone": "Asie",
+    "frequency": "Selon le projet"
+  },
+  {
+    "priority": "P2",
+    "category": "04 Pub Strategie",
+    "name": "Campaign Middle East",
+    "url": "https://campaignme.com/",
+    "specialty": "Publicité au Moyen-Orient",
+    "interest": "Diversifier les références",
+    "zone": "Moyen-Orient",
+    "frequency": "Selon le projet"
+  },
+  {
+    "priority": "P2",
+    "category": "04 Pub Strategie",
+    "name": "Clio Awards",
+    "url": "https://clios.com/",
+    "specialty": "Prix créatifs et archives",
+    "interest": "Étudier des cas primés",
+    "zone": "International",
+    "frequency": "Selon le projet"
+  },
+  {
+    "priority": "P2",
+    "category": "04 Pub Strategie",
+    "name": "The Drum",
+    "url": "https://www.thedrum.com/",
+    "specialty": "Actualité marketing créatif",
+    "interest": "Suivre les activations",
+    "zone": "International",
+    "frequency": "Selon le projet"
+  },
+  {
+    "priority": "P2",
+    "category": "04 Pub Strategie",
+    "name": "The One Club",
+    "url": "https://www.oneclub.org/",
+    "specialty": "Prix, création et design",
+    "interest": "Comparer les meilleures pratiques",
+    "zone": "International",
+    "frequency": "Selon le projet"
+  },
+  {
+    "priority": "P2",
+    "category": "05 Art Architecture",
+    "name": "Artforum",
+    "url": "https://www.artforum.com/",
+    "specialty": "Critique d'art contemporain",
+    "interest": "Approfondir les références artistiques",
+    "zone": "USA",
+    "frequency": "Selon le projet"
+  },
+  {
+    "priority": "P2",
+    "category": "05 Art Architecture",
+    "name": "Colossal",
+    "url": "https://www.thisiscolossal.com/",
+    "specialty": "Art, sculpture et installation",
+    "interest": "Découvrir dispositifs visuels",
+    "zone": "USA",
+    "frequency": "Selon le projet"
+  },
+  {
+    "priority": "P2",
+    "category": "05 Art Architecture",
+    "name": "e-flux",
+    "url": "https://www.e-flux.com/",
+    "specialty": "Art contemporain et discours critique",
+    "interest": "Nourrir la réflexion conceptuelle",
+    "zone": "International",
+    "frequency": "Selon le projet"
+  },
+  {
+    "priority": "P2",
+    "category": "05 Art Architecture",
+    "name": "Frame",
+    "url": "https://frameweb.com/",
+    "specialty": "Architecture intérieure et retail",
+    "interest": "Comprendre l'expérience spatiale",
+    "zone": "Pays-Bas",
+    "frequency": "Selon le projet"
+  },
+  {
+    "priority": "P2",
+    "category": "05 Art Architecture",
+    "name": "METALOCUS",
+    "url": "https://www.metalocus.es/en",
+    "specialty": "Architecture et projets spatiaux",
+    "interest": "Étudier constructions et atmosphères",
+    "zone": "Espagne",
+    "frequency": "Selon le projet"
+  },
+  {
+    "priority": "P2",
+    "category": "05 Art Architecture",
+    "name": "Wallpaper",
+    "url": "https://www.wallpaper.com/",
+    "specialty": "Design, architecture, luxe",
+    "interest": "Veille des univers de marque",
+    "zone": "International",
+    "frequency": "Selon le projet"
+  },
+  {
+    "priority": "P2",
+    "category": "06 Retail Brand Experience",
+    "name": "Gentle Monster — Haus Dosan",
+    "url": "https://www.gentlemonster.com/legacy/story/en/haus-dosan.html",
+    "specialty": "Cas : univers commercial immersif",
+    "interest": "Analyser la rupture avec la boutique classique",
+    "zone": "Corée du Sud",
+    "frequency": "Selon le projet"
+  },
+  {
+    "priority": "P2",
+    "category": "06 Retail Brand Experience",
+    "name": "Gentle Monster — Haus Nowhere Seoul",
+    "url": "https://curin.io/projects/haus-nowhere-seoul",
+    "specialty": "Cas : flagship immersif monumental",
+    "interest": "Étudier retail comme expérience artistique",
+    "zone": "Corée du Sud",
+    "frequency": "Selon le projet"
+  },
+  {
+    "priority": "P2",
+    "category": "06 Retail Brand Experience",
+    "name": "Gentle Monster — Haus Nowhere Shenzhen",
+    "url": "https://www.gentlemonster.com/legacy/story/en/hausnowhere-shenzhen.html",
+    "specialty": "Cas : narration spatiale Insect Kingdom",
+    "interest": "Analyser storytelling et sculpture",
+    "zone": "Chine",
+    "frequency": "Selon le projet"
+  },
+  {
+    "priority": "P2",
+    "category": "06 Retail Brand Experience",
+    "name": "Gentle Monster — Haus Shanghai",
+    "url": "https://www.gentlemonster.com/legacy/story/en/haus-shanghai.html",
+    "specialty": "Cas : robots, installations et parcours",
+    "interest": "Étudier parcours, surprise et échelle",
+    "zone": "Chine",
+    "frequency": "Selon le projet"
+  },
+  {
+    "priority": "P2",
+    "category": "06 Retail Brand Experience",
+    "name": "George P. Johnson",
+    "url": "https://www.gpj.com/",
+    "specialty": "Expériences de marque",
+    "interest": "Comprendre parcours et activation",
+    "zone": "International",
+    "frequency": "Selon le projet"
+  },
+  {
+    "priority": "P2",
+    "category": "06 Retail Brand Experience",
+    "name": "Imagination",
+    "url": "https://imagination.com/",
+    "specialty": "Brand experience",
+    "interest": "Analyser expérience comme stratégie",
+    "zone": "International",
+    "frequency": "Selon le projet"
+  },
+  {
+    "priority": "P2",
+    "category": "06 Retail Brand Experience",
+    "name": "Jack Morton",
+    "url": "https://jackmorton.com/",
+    "specialty": "Événementiel et expérience de marque",
+    "interest": "Construire une dramaturgie de marque",
+    "zone": "International",
+    "frequency": "Selon le projet"
+  },
+  {
+    "priority": "P2",
+    "category": "06 Retail Brand Experience",
+    "name": "Nudake",
+    "url": "https://www.nudake.com/",
+    "specialty": "Retail alimentaire expérimental",
+    "interest": "Étudier mise en scène des objets comestibles",
+    "zone": "Corée du Sud",
+    "frequency": "Selon le projet"
+  },
+  {
+    "priority": "P2",
+    "category": "06 Retail Brand Experience",
+    "name": "Studio BK",
+    "url": "https://studio-bk.com/",
+    "specialty": "Scénographie immersive et lancement",
+    "interest": "Relier forme, marque et émotion",
+    "zone": "France",
+    "frequency": "Selon le projet"
+  },
+  {
+    "priority": "P2",
+    "category": "06 Retail Brand Experience",
+    "name": "Tamburins",
+    "url": "https://www.tamburins.com/",
+    "specialty": "Parfumerie et installations",
+    "interest": "Analyser extension sensorielle de marque",
+    "zone": "Corée du Sud",
+    "frequency": "Selon le projet"
+  },
+  {
+    "priority": "P2",
+    "category": "06 Retail Brand Experience",
+    "name": "Villa Eugénie",
+    "url": "https://www.villaeugenie.com/",
+    "specialty": "Production de défilés et événements",
+    "interest": "Étudier spatialisation de la mode",
+    "zone": "France",
+    "frequency": "Selon le projet"
+  },
+  {
+    "priority": "P2",
+    "category": "07 FOOH OOH DOOH",
+    "name": "AC3 Studio",
+    "url": "https://ac3-studio.com/studio",
+    "specialty": "3D OOH, FOOH et mapping",
+    "interest": "Analyser illusion et intégration urbaine",
+    "zone": "France / Asie",
+    "frequency": "Selon le projet"
+  },
+  {
+    "priority": "P2",
+    "category": "07 FOOH OOH DOOH",
+    "name": "DOOH.com",
+    "url": "https://dooh.com/",
+    "specialty": "Production DOOH",
+    "interest": "Analyser contenus d'écrans urbains",
+    "zone": "International",
+    "frequency": "Selon le projet"
+  },
+  {
+    "priority": "P2",
+    "category": "07 FOOH OOH DOOH",
+    "name": "Grand Visual",
+    "url": "https://grandvisual.com/",
+    "specialty": "DOOH créatif et interactif",
+    "interest": "Étudier contexte et réactivité",
+    "zone": "Royaume-Uni",
+    "frequency": "Selon le projet"
+  },
+  {
+    "priority": "P2",
+    "category": "07 FOOH OOH DOOH",
+    "name": "Origiful",
+    "url": "https://www.origiful.com/",
+    "specialty": "FOOH et CGI",
+    "interest": "Étudier trucage et effet de réel",
+    "zone": "International",
+    "frequency": "Selon le projet"
+  },
+  {
+    "priority": "P2",
+    "category": "07 FOOH OOH DOOH",
+    "name": "World Out of Home Organization",
+    "url": "https://www.worldooh.org/",
+    "specialty": "Industrie OOH mondiale",
+    "interest": "Veille des formats et marchés",
+    "zone": "International",
+    "frequency": "Selon le projet"
+  },
+  {
+    "priority": "P2",
+    "category": "08 Immersif CGI Motion",
+    "name": "404.zero",
+    "url": "https://404zero.com/",
+    "specialty": "Installations et audiovisuel génératif",
+    "interest": "Étudier systèmes visuels",
+    "zone": "International",
+    "frequency": "Selon le projet"
+  },
+  {
+    "priority": "P2",
+    "category": "08 Immersif CGI Motion",
+    "name": "Marshmallow Laser Feast",
+    "url": "https://www.marshmallowlaserfeast.com/",
+    "specialty": "Art immersif et données",
+    "interest": "Traduire concepts en expériences",
+    "zone": "Royaume-Uni",
+    "frequency": "Selon le projet"
+  },
+  {
+    "priority": "P2",
+    "category": "08 Immersif CGI Motion",
+    "name": "NONOTAK",
+    "url": "https://www.nonotak.com/",
+    "specialty": "Lumière et installations",
+    "interest": "Étudier minimalisme perceptif",
+    "zone": "France / Japon",
+    "frequency": "Selon le projet"
+  },
+  {
+    "priority": "P2",
+    "category": "08 Immersif CGI Motion",
+    "name": "Notch",
+    "url": "https://www.notch.one/",
+    "specialty": "Temps réel et motion",
+    "interest": "Découvrir dispositifs live",
+    "zone": "Royaume-Uni",
+    "frequency": "Selon le projet"
+  },
+  {
+    "priority": "P2",
+    "category": "08 Immersif CGI Motion",
+    "name": "onedotzero",
+    "url": "https://www.onedotzero.com/",
+    "specialty": "Création audiovisuelle et installations",
+    "interest": "Relier image et espace",
+    "zone": "Royaume-Uni",
+    "frequency": "Selon le projet"
+  },
+  {
+    "priority": "P2",
+    "category": "08 Immersif CGI Motion",
+    "name": "Resolume",
+    "url": "https://resolume.com/",
+    "specialty": "VJing et mapping",
+    "interest": "Étudier compositions temps réel",
+    "zone": "Pays-Bas",
+    "frequency": "Selon le projet"
+  },
+  {
+    "priority": "P2",
+    "category": "08 Immersif CGI Motion",
+    "name": "Smode",
+    "url": "https://www.smode.io/",
+    "specialty": "Scénographie vidéo temps réel",
+    "interest": "Relier écrans, mapping et régie",
+    "zone": "France",
+    "frequency": "Selon le projet"
+  },
+  {
+    "priority": "P2",
+    "category": "08 Immersif CGI Motion",
+    "name": "TouchDesigner",
+    "url": "https://derivative.ca/",
+    "specialty": "Création interactive",
+    "interest": "Étudier interaction et génératif",
+    "zone": "Canada",
+    "frequency": "Selon le projet"
+  },
+  {
+    "priority": "P2",
+    "category": "08 Immersif CGI Motion",
+    "name": "United Visual Artists",
+    "url": "https://uva.co.uk/",
+    "specialty": "Installations audiovisuelles",
+    "interest": "Étudier rythme, espace et lumière",
+    "zone": "Royaume-Uni",
+    "frequency": "Selon le projet"
+  },
+  {
+    "priority": "P2",
+    "category": "09 France Pro",
+    "name": "AFTER",
+    "url": "https://www.after-france.fr/",
+    "specialty": "Décors et fabrication",
+    "interest": "Comprendre matérialisation",
+    "zone": "France",
+    "frequency": "Selon le projet"
+  },
+  {
+    "priority": "P2",
+    "category": "09 France Pro",
+    "name": "D/LABS",
+    "url": "https://www.d-labs.fr/",
+    "specialty": "Spectacles et contenus scéniques",
+    "interest": "Observer direction visuelle",
+    "zone": "France",
+    "frequency": "Selon le projet"
+  },
+  {
+    "priority": "P2",
+    "category": "09 France Pro",
+    "name": "FRATERCINÉ",
+    "url": "https://www.fratercine.fr/",
+    "specialty": "Décors et scénographie",
+    "interest": "Analyser fabrication plateau",
+    "zone": "France",
+    "frequency": "Selon le projet"
+  },
+  {
+    "priority": "P2",
+    "category": "09 France Pro",
+    "name": "IDlia Studio",
+    "url": "https://www.idlia.fr/",
+    "specialty": "Scénographie et spectacle",
+    "interest": "Analyser mise en scène",
+    "zone": "France",
+    "frequency": "Selon le projet"
+  },
+  {
+    "priority": "P2",
+    "category": "09 France Pro",
+    "name": "JTSE",
+    "url": "https://www.jtse.fr/",
+    "specialty": "Salon techniques spectacle",
+    "interest": "Suivre métiers et technologies",
+    "zone": "France",
+    "frequency": "Selon le projet"
+  },
+  {
+    "priority": "P2",
+    "category": "09 France Pro",
+    "name": "La Scène",
+    "url": "https://www.lascene.com/",
+    "specialty": "Spectacle vivant",
+    "interest": "Veille culturelle et professionnelle",
+    "zone": "France",
+    "frequency": "Selon le projet"
+  },
+  {
+    "priority": "P2",
+    "category": "09 France Pro",
+    "name": "Seconde Design",
+    "url": "https://www.seconde-design.com/",
+    "specialty": "Scénographie et lumière",
+    "interest": "Étudier identité et espace",
+    "zone": "France",
+    "frequency": "Selon le projet"
+  },
+  {
+    "priority": "P2",
+    "category": "09 France Pro",
+    "name": "Studio Carlos",
+    "url": "https://studiocarlos.fr/",
+    "specialty": "Creative technology et immersion",
+    "interest": "Étudier interactions et récit",
+    "zone": "France",
+    "frequency": "Selon le projet"
+  },
+  {
+    "priority": "P2",
+    "category": "09 France Pro",
+    "name": "Studio ÉNORME",
+    "url": "https://www.studioenorme.com/",
+    "specialty": "Scénographie numérique et immersive",
+    "interest": "Étudier concerts, TV, mapping",
+    "zone": "France",
+    "frequency": "Selon le projet"
+  },
+  {
+    "priority": "P2",
+    "category": "10 Strategie Insights",
+    "name": "Baymard Institute",
+    "url": "https://baymard.com/",
+    "specialty": "Recherche UX e-commerce",
+    "interest": "Comprendre friction et décisions",
+    "zone": "URL renseignée — contrôle individuel à faire",
+    "frequency": "Selon le projet"
+  },
+  {
+    "priority": "P2",
+    "category": "10 Strategie Insights",
+    "name": "Ehrenberg-Bass Institute",
+    "url": "https://marketingscience.info/",
+    "specialty": "Science du marketing et marques",
+    "interest": "Interroger les intuitions marketing",
+    "zone": "URL renseignée — contrôle individuel à faire",
+    "frequency": "Selon le projet"
+  },
+  {
+    "priority": "P2",
+    "category": "10 Strategie Insights",
+    "name": "Google Trends",
+    "url": "https://trends.google.com/",
+    "specialty": "Évolution des recherches",
+    "interest": "Identifier signaux d'intérêt",
+    "zone": "URL renseignée — contrôle individuel à faire",
+    "frequency": "Selon le projet"
+  },
+  {
+    "priority": "P2",
+    "category": "10 Strategie Insights",
+    "name": "IPA Effectiveness",
+    "url": "https://ipa.co.uk/",
+    "specialty": "Recherche sur efficacité publicitaire",
+    "interest": "Comprendre les preuves et limites des campagnes",
+    "zone": "URL renseignée — contrôle individuel à faire",
+    "frequency": "Selon le projet"
+  },
+  {
+    "priority": "P2",
+    "category": "10 Strategie Insights",
+    "name": "Kantar",
+    "url": "https://www.kantar.com/",
+    "specialty": "Études de marque et consommateurs",
+    "interest": "Comprendre contexte et perception",
+    "zone": "URL renseignée — contrôle individuel à faire",
+    "frequency": "Selon le projet"
+  },
+  {
+    "priority": "P2",
+    "category": "10 Strategie Insights",
+    "name": "Meta Ad Library",
+    "url": "https://www.facebook.com/ads/library/",
+    "specialty": "Publicités diffusées sur Meta",
+    "interest": "Analyser messages et créations actives",
+    "zone": "URL renseignée — contrôle individuel à faire",
+    "frequency": "Selon le projet"
+  },
+  {
+    "priority": "P2",
+    "category": "10 Strategie Insights",
+    "name": "Meta for Business",
+    "url": "https://www.facebook.com/business/",
+    "specialty": "Ressources publicitaires Meta",
+    "interest": "Relier création et diffusion",
+    "zone": "URL renseignée — contrôle individuel à faire",
+    "frequency": "Selon le projet"
+  },
+  {
+    "priority": "P2",
+    "category": "10 Strategie Insights",
+    "name": "Nielsen Norman Group",
+    "url": "https://www.nngroup.com/",
+    "specialty": "Recherche UX et comportement",
+    "interest": "Concevoir selon usages réels",
+    "zone": "URL renseignée — contrôle individuel à faire",
+    "frequency": "Selon le projet"
+  },
+  {
+    "priority": "P2",
+    "category": "10 Strategie Insights",
+    "name": "Think with Google",
+    "url": "https://www.thinkwithgoogle.com/",
+    "specialty": "Études consommateurs et marketing",
+    "interest": "Éclairer les décisions créatives par les données",
+    "zone": "URL renseignée — contrôle individuel à faire",
+    "frequency": "Selon le projet"
+  },
+  {
+    "priority": "P2",
+    "category": "10 Strategie Insights",
+    "name": "Thinkbox",
+    "url": "https://www.thinkbox.tv/",
+    "specialty": "Efficacité et créativité de la publicité TV",
+    "interest": "Comprendre attention et mémoire",
+    "zone": "URL renseignée — contrôle individuel à faire",
+    "frequency": "Selon le projet"
+  },
+  {
+    "priority": "P2",
+    "category": "10 Strategie Insights",
+    "name": "TikTok Creative Center",
+    "url": "https://ads.tiktok.com/business/creativecenter/",
+    "specialty": "Tendances et créations TikTok",
+    "interest": "Analyser formats, hooks et codes",
+    "zone": "URL renseignée — contrôle individuel à faire",
+    "frequency": "Selon le projet"
+  },
+  {
+    "priority": "P2",
+    "category": "11 Graphisme Expertise",
+    "name": "AIGA Eye on Design",
+    "url": "https://eyeondesign.aiga.org/",
+    "specialty": "Culture et critique graphique",
+    "interest": "Contextualiser les démarches",
+    "zone": "URL renseignée — contrôle individuel à faire",
+    "frequency": "Selon le projet"
+  },
+  {
+    "priority": "P2",
+    "category": "11 Graphisme Expertise",
+    "name": "Communication Arts",
+    "url": "https://www.commarts.com/",
+    "specialty": "Création graphique et publicité",
+    "interest": "Comparer exécutions de référence",
+    "zone": "URL renseignée — contrôle individuel à faire",
+    "frequency": "Selon le projet"
+  },
+  {
+    "priority": "P2",
+    "category": "11 Graphisme Expertise",
+    "name": "Design Observer",
+    "url": "https://designobserver.com/",
+    "specialty": "Critique et réflexion design",
+    "interest": "Construire un jugement argumenté",
+    "zone": "URL renseignée — contrôle individuel à faire",
+    "frequency": "Selon le projet"
+  },
+  {
+    "priority": "P2",
+    "category": "11 Graphisme Expertise",
+    "name": "DesignStudio",
+    "url": "https://design.studio/",
+    "specialty": "Stratégie de marque et identité",
+    "interest": "Relier idée stratégique et identité",
+    "zone": "URL renseignée — contrôle individuel à faire",
+    "frequency": "Selon le projet"
+  },
+  {
+    "priority": "P2",
+    "category": "11 Graphisme Expertise",
+    "name": "Experimental Jetset",
+    "url": "https://experimentaljetset.nl/",
+    "specialty": "Graphisme conceptuel",
+    "interest": "Analyser typographie et références",
+    "zone": "URL renseignée — contrôle individuel à faire",
+    "frequency": "Selon le projet"
+  },
+  {
+    "priority": "P2",
+    "category": "11 Graphisme Expertise",
+    "name": "Mindsparkle Mag",
+    "url": "https://mindsparklemag.com/",
+    "specialty": "Identités et design visuel",
+    "interest": "Découvrir studios émergents",
+    "zone": "URL renseignée — contrôle individuel à faire",
+    "frequency": "Selon le projet"
+  },
+  {
+    "priority": "P2",
+    "category": "11 Graphisme Expertise",
+    "name": "Mucho",
+    "url": "https://wearemucho.com/",
+    "specialty": "Identité et communication graphique",
+    "interest": "Comparer traitement et concept",
+    "zone": "URL renseignée — contrôle individuel à faire",
+    "frequency": "Selon le projet"
+  },
+  {
+    "priority": "P2",
+    "category": "11 Graphisme Expertise",
+    "name": "Print Magazine",
+    "url": "https://www.printmag.com/",
+    "specialty": "Culture du design graphique",
+    "interest": "Étudier méthodes et débats",
+    "zone": "URL renseignée — contrôle individuel à faire",
+    "frequency": "Selon le projet"
+  },
+  {
+    "priority": "P2",
+    "category": "11 Graphisme Expertise",
+    "name": "The Designers Republic",
+    "url": "https://www.thedesignersrepublic.com/",
+    "specialty": "Design graphique et culture visuelle",
+    "interest": "Étudier signes, typographie et rupture",
+    "zone": "URL renseignée — contrôle individuel à faire",
+    "frequency": "Selon le projet"
+  },
+  {
+    "priority": "P2",
+    "category": "11 Graphisme Expertise",
+    "name": "Type Directors Club",
+    "url": "https://tdc.org/",
+    "specialty": "Prix et culture typographique",
+    "interest": "Étudier hiérarchie et expressivité",
+    "zone": "URL renseignée — contrôle individuel à faire",
+    "frequency": "Selon le projet"
+  },
+  {
+    "priority": "P2",
+    "category": "11 Graphisme Expertise",
+    "name": "Typographica",
+    "url": "https://typographica.org/",
+    "specialty": "Critique typographique",
+    "interest": "Analyser la forme et l'usage des caractères",
+    "zone": "URL renseignée — contrôle individuel à faire",
+    "frequency": "Selon le projet"
+  },
+  {
+    "priority": "P2",
+    "category": "11 Graphisme Expertise",
+    "name": "Wolff Olins",
+    "url": "https://www.wolffolins.com/",
+    "specialty": "Identité et transformation de marque",
+    "interest": "Comprendre les choix de rupture",
+    "zone": "URL renseignée — contrôle individuel à faire",
+    "frequency": "Selon le projet"
+  },
+  {
+    "priority": "P2",
+    "category": "12 Tendances Cultures",
+    "name": "Europeana",
+    "url": "https://www.europeana.eu/",
+    "specialty": "Patrimoine européen numérisé",
+    "interest": "Explorer images, objets et archives",
+    "zone": "URL renseignée — contrôle individuel à faire",
+    "frequency": "Selon le projet"
+  },
+  {
+    "priority": "P2",
+    "category": "12 Tendances Cultures",
+    "name": "Gallica",
+    "url": "https://gallica.bnf.fr/",
+    "specialty": "Archives de la BnF",
+    "interest": "Explorer iconographie et imprimés",
+    "zone": "URL renseignée — contrôle individuel à faire",
+    "frequency": "Selon le projet"
+  },
+  {
+    "priority": "P2",
+    "category": "12 Tendances Cultures",
+    "name": "Google Arts & Culture",
+    "url": "https://artsandculture.google.com/",
+    "specialty": "Collections artistiques et patrimoine",
+    "interest": "Développer références historiques",
+    "zone": "URL renseignée — contrôle individuel à faire",
+    "frequency": "Selon le projet"
+  },
+  {
+    "priority": "P2",
+    "category": "12 Tendances Cultures",
+    "name": "Internet Archive",
+    "url": "https://archive.org/",
+    "specialty": "Archives numériques",
+    "interest": "Retrouver matériaux historiques",
+    "zone": "URL renseignée — contrôle individuel à faire",
+    "frequency": "Selon le projet"
+  },
+  {
+    "priority": "P2",
+    "category": "12 Tendances Cultures",
+    "name": "PSFK",
+    "url": "https://www.psfk.com/",
+    "specialty": "Innovation retail et expérience",
+    "interest": "Repérer dispositifs émergents",
+    "zone": "URL renseignée — contrôle individuel à faire",
+    "frequency": "Selon le projet"
+  },
+  {
+    "priority": "P2",
+    "category": "12 Tendances Cultures",
+    "name": "Springwise",
+    "url": "https://www.springwise.com/",
+    "specialty": "Innovations internationales",
+    "interest": "Explorer idées transférables",
+    "zone": "URL renseignée — contrôle individuel à faire",
+    "frequency": "Selon le projet"
+  },
+  {
+    "priority": "P2",
+    "category": "12 Tendances Cultures",
+    "name": "The Future Laboratory",
+    "url": "https://www.thefuturelaboratory.com/",
+    "specialty": "Prospective et culture",
+    "interest": "Construire scénarios de marque",
+    "zone": "URL renseignée — contrôle individuel à faire",
+    "frequency": "Selon le projet"
+  },
+  {
+    "priority": "P2",
+    "category": "12 Tendances Cultures",
+    "name": "Trend Hunter",
+    "url": "https://www.trendhunter.com/",
+    "specialty": "Signaux créatifs et consommation",
+    "interest": "Repérer concepts à challenger",
+    "zone": "URL renseignée — contrôle individuel à faire",
+    "frequency": "Selon le projet"
+  },
+  {
+    "priority": "P2",
+    "category": "12 Tendances Cultures",
+    "name": "TrendWatching",
+    "url": "https://www.trendwatching.com/",
+    "specialty": "Tendances de consommation",
+    "interest": "Formuler opportunités créatives",
+    "zone": "URL renseignée — contrôle individuel à faire",
+    "frequency": "Selon le projet"
+  },
+  {
+    "priority": "P2",
+    "category": "12 Tendances Cultures",
+    "name": "WGSN",
+    "url": "https://www.wgsn.com/",
+    "specialty": "Prévisions tendances et consommateurs",
+    "interest": "Détecter les évolutions culturelles",
+    "zone": "URL renseignée — contrôle individuel à faire",
+    "frequency": "Selon le projet"
+  },
+  {
+    "priority": "P2",
+    "category": "13 France Marketing Design",
+    "name": "ADC France",
+    "url": "https://www.adcfrance.com/",
+    "specialty": "Création et communication",
+    "interest": "Explorer écosystème professionnel",
+    "zone": "URL renseignée — contrôle individuel à faire",
+    "frequency": "Selon le projet"
+  },
+  {
+    "priority": "P2",
+    "category": "13 France Marketing Design",
+    "name": "CB News",
+    "url": "https://www.cbnews.fr/",
+    "specialty": "Communication et médias",
+    "interest": "Identifier agences et productions",
+    "zone": "URL renseignée — contrôle individuel à faire",
+    "frequency": "Selon le projet"
+  },
+  {
+    "priority": "P2",
+    "category": "13 France Marketing Design",
+    "name": "Creapills",
+    "url": "https://creapills.com/",
+    "specialty": "Créativité et publicité",
+    "interest": "Repérer idées à analyser avec recul",
+    "zone": "URL renseignée — contrôle individuel à faire",
+    "frequency": "Selon le projet"
+  },
+  {
+    "priority": "P2",
+    "category": "13 France Marketing Design",
+    "name": "Graphisme en France",
+    "url": "https://www.cnap.fr/graphisme-en-france",
+    "specialty": "Ressources sur le design graphique",
+    "interest": "Développer la culture professionnelle",
+    "zone": "URL renseignée — contrôle individuel à faire",
+    "frequency": "Selon le projet"
+  },
+  {
+    "priority": "P2",
+    "category": "13 France Marketing Design",
+    "name": "INfluencia",
+    "url": "https://www.influencia.net/",
+    "specialty": "Communication, culture, innovation",
+    "interest": "Repérer idées et signaux",
+    "zone": "URL renseignée — contrôle individuel à faire",
+    "frequency": "Selon le projet"
+  },
+  {
+    "priority": "P2",
+    "category": "13 France Marketing Design",
+    "name": "Étapes",
+    "url": "https://etapes.com/",
+    "specialty": "Design graphique francophone",
+    "interest": "Suivre créateurs et pratiques",
+    "zone": "URL renseignée — contrôle individuel à faire",
+    "frequency": "Selon le projet"
+  },
+  {
+    "priority": "P3",
+    "category": "01 Spectacle Concert",
+    "name": "ETC",
+    "url": "https://www.etcconnect.com/",
+    "specialty": "Technologies d'éclairage",
+    "interest": "Comprendre les outils de lumière",
+    "zone": "USA",
+    "frequency": "Exploration ponctuelle"
+  },
+  {
+    "priority": "P3",
+    "category": "02 TV Broadcast",
+    "name": "AV Magazine",
+    "url": "https://www.avinteractive.com/",
+    "specialty": "Intégration audiovisuelle",
+    "interest": "Suivre les innovations de plateaux",
+    "zone": "Royaume-Uni",
+    "frequency": "Exploration ponctuelle"
+  },
+  {
+    "priority": "P3",
+    "category": "03 DA Graphisme",
+    "name": "Abduzeedo",
+    "url": "https://abduzeedo.com/",
+    "specialty": "Graphisme et inspiration",
+    "interest": "Repérer traitements visuels",
+    "zone": "International",
+    "frequency": "Exploration ponctuelle"
+  },
+  {
+    "priority": "P3",
+    "category": "03 DA Graphisme",
+    "name": "Designspiration",
+    "url": "https://www.designspiration.com/",
+    "specialty": "Recherche visuelle",
+    "interest": "Comparer motifs et palettes",
+    "zone": "International",
+    "frequency": "Exploration ponctuelle"
+  },
+  {
+    "priority": "P3",
+    "category": "03 DA Graphisme",
+    "name": "Typewolf",
+    "url": "https://www.typewolf.com/",
+    "specialty": "Typographie numérique",
+    "interest": "Analyser associations typographiques",
+    "zone": "USA",
+    "frequency": "Exploration ponctuelle"
+  },
+  {
+    "priority": "P3",
+    "category": "04 Pub Strategie",
+    "name": "Advertising Archive Asia",
+    "url": "https://advertisingarchive.asia/",
+    "specialty": "Archives publicitaires asiatiques",
+    "interest": "Approche historique et régionale",
+    "zone": "Asie",
+    "frequency": "Exploration ponctuelle"
+  },
+  {
+    "priority": "P3",
+    "category": "05 Art Architecture",
+    "name": "Domus",
+    "url": "https://www.domusweb.it/en.html",
+    "specialty": "Architecture et design",
+    "interest": "Mettre en perspective les choix formels",
+    "zone": "Italie",
+    "frequency": "Exploration ponctuelle"
+  },
+  {
+    "priority": "P3",
+    "category": "05 Art Architecture",
+    "name": "Sight Unseen",
+    "url": "https://www.sightunseen.com/",
+    "specialty": "Design et objets",
+    "interest": "Découvrir matériaux et créateurs",
+    "zone": "USA",
+    "frequency": "Exploration ponctuelle"
+  },
+  {
+    "priority": "P3",
+    "category": "06 Retail Brand Experience",
+    "name": "VMSD",
+    "url": "https://vmsd.com/",
+    "specialty": "Retail et merchandising",
+    "interest": "Suivre scénographie commerciale",
+    "zone": "USA",
+    "frequency": "Exploration ponctuelle"
+  },
+  {
+    "priority": "P3",
+    "category": "07 FOOH OOH DOOH",
+    "name": "Clear Channel Outdoor",
+    "url": "https://www.clearchanneloutdoor.com/",
+    "specialty": "OOH et DOOH",
+    "interest": "Observer supports et campagnes",
+    "zone": "USA",
+    "frequency": "Exploration ponctuelle"
+  },
+  {
+    "priority": "P3",
+    "category": "07 FOOH OOH DOOH",
+    "name": "OUTFRONT Media",
+    "url": "https://www.outfront.com/",
+    "specialty": "Affichage et activations",
+    "interest": "Étudier les environnements urbains",
+    "zone": "USA",
+    "frequency": "Exploration ponctuelle"
+  },
+  {
+    "priority": "P3",
+    "category": "08 Immersif CGI Motion",
+    "name": "Unreal Engine",
+    "url": "https://www.unrealengine.com/",
+    "specialty": "Temps réel et production virtuelle",
+    "interest": "Comprendre environnements virtuels",
+    "zone": "International",
+    "frequency": "Exploration ponctuelle"
+  },
+  {
+    "priority": "P3",
+    "category": "09 France Pro",
+    "name": "Technoscopie",
+    "url": "https://www.technoscopie.fr/",
+    "specialty": "Technique spectacle",
+    "interest": "Explorer méthodes et matériels",
+    "zone": "France",
+    "frequency": "Exploration ponctuelle"
+  }
+]
