@@ -10,7 +10,7 @@ def clean(s):return re.sub(r'\s+',' ',re.sub(r'<[^>]*>',' ',html.unescape(s or '
 def get(url):
  try:
   req=urllib.request.Request(url,headers=HEAD)
-  with urllib.request.urlopen(req,timeout=7) as r:return r.read(800000)
+  with urllib.request.urlopen(req,timeout=3) as r:return r.read(800000)
  except Exception:return None
 def date(v):
  try:return parsedate_to_datetime(v).astimezone(datetime.timezone.utc).isoformat()
@@ -42,7 +42,7 @@ def valid_image(u):
 def og_image(url):
  try:
   req=urllib.request.Request(url,headers=HEAD)
-  with urllib.request.urlopen(req,timeout=6) as r:
+  with urllib.request.urlopen(req,timeout=3) as r:
    raw=r.read(220000).decode('utf-8','ignore')
   for tag in re.findall(r'<meta\\s+[^>]*>',raw,re.I):
    if re.search(r'(?:og:image|twitter:image)',tag,re.I):
@@ -87,7 +87,7 @@ def parse(blob):
 checked=0;working=[]
 for s in sources:
  if s['priority']!='P1' and s['category'] not in ('01 Spectacle Concert','02 TV Broadcast','14 Musique Clips'):continue
- for u in candidates(s['url']):
+ for u in candidates(s['url'])[:2]:
   blob=get(u);feed=parse(blob) if blob else []
   if feed:
    working.append({'name':s['name'],'feed':u})
@@ -110,7 +110,7 @@ for x in recent[:140]:
  if not x.get('title_fr'):
   tr=translate_fr(x.get('title',''))
   if tr:x['title_fr']=tr;translated+=1
- if translated>=24:break
+ if translated>=8:break
  if x.get('summary') and not x.get('summary_fr'):
   tr=translate_fr(x['summary'])
   if tr:x['summary_fr']=tr;translated+=1
