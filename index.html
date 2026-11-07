@@ -574,6 +574,8 @@ const priority={'01':80,'02':75,'15':72,'14':70,'08':68,'06':65,'09':60,'05':30,
 let items=ITEMS.filter(x=>(!!EDITORIAL_CASES[x.url]||!!AI_EDITORIAL_CASES[x.url])&&!excludedEditorialList(x)&&(activeGroup==='Tout'||groupRelevance(x,activeGroup)>=8)&&(!cat||x.category===cat));
 items.sort((a,b)=>(priority[String(b.category||'').slice(0,2)]||0)-(priority[String(a.category||'').slice(0,2)]||0)||(Date.parse(b.published||'')||0)-(Date.parse(a.published||'')||0));
 const unique=new Set();items=items.filter(x=>{if(unique.has(x.url))return false;unique.add(x.url);return true});
+// Les projets marqués « Vu » quittent immédiatement le flux principal.
+items=items.filter(x=>!seen[x.url||x.title]);
 
 const day=new Date().toLocaleDateString('en-CA');
 const badDaily=/best songs|best tracks|top \d+|playlist|roundup|recap|weekly|week in|news roundup|album review|review:|interview|podcast|newsletter|les \d+ meilleures|meilleures chansons|songs of the week|tracks of the week|new music friday|announces|shares new|premiere|chart|ranking|charts|awards|releases this week|book foreword/i;
