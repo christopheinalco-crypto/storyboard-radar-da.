@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-07T21:49:52.398135+00:00",
+  "updated_at": "2026-11-07T22:07:21.093306+00:00",
   "status": "collected_unreviewed",
   "working_feeds": [
     {
@@ -43,14 +43,24 @@
       "category": "14 Musique Clips"
     },
     {
+      "name": "Balich Wonder Studio",
+      "feed": "https://www.balichwonderstudio.com/feed",
+      "category": "01 Spectacle Concert"
+    },
+    {
       "name": "Konbini Musique",
       "feed": "https://www.konbini.com/feed",
       "category": "14 Musique Clips"
     },
     {
-      "name": "Balich Wonder Studio",
-      "feed": "https://www.balichwonderstudio.com/feed",
+      "name": "Dragone",
+      "feed": "https://www.dragone.com/feed",
       "category": "01 Spectacle Concert"
+    },
+    {
+      "name": "AV Magazine",
+      "feed": "https://www.avinteractive.com/feed",
+      "category": "02 TV Broadcast"
     },
     {
       "name": "Vizrt",
@@ -63,24 +73,9 @@
       "category": "02 TV Broadcast"
     },
     {
-      "name": "AV Magazine",
-      "feed": "https://www.avinteractive.com/feed",
-      "category": "02 TV Broadcast"
-    },
-    {
-      "name": "Dragone",
-      "feed": "https://www.dragone.com/feed",
-      "category": "01 Spectacle Concert"
-    },
-    {
       "name": "Brand New",
       "feed": "https://www.underconsideration.com/feed",
       "category": "03 DA Graphisme"
-    },
-    {
-      "name": "Graphéine",
-      "feed": "https://www.grapheine.com/feed",
-      "category": "13 France Marketing Design"
     },
     {
       "name": "ArchDaily",
@@ -88,79 +83,14 @@
       "category": "05 Art Architecture"
     },
     {
-      "name": "Creative Boom",
-      "feed": "https://www.creativeboom.com/feed",
-      "category": "03 DA Graphisme"
+      "name": "Graphéine",
+      "feed": "https://www.grapheine.com/feed",
+      "category": "13 France Marketing Design"
     },
     {
       "name": "Sight Unseen",
       "feed": "https://www.sightunseen.com/feed",
       "category": "05 Art Architecture"
-    },
-    {
-      "name": "Imagination",
-      "feed": "https://imagination.com/feed",
-      "category": "06 Retail Brand Experience"
-    },
-    {
-      "name": "Jack Morton",
-      "feed": "https://jackmorton.com/feed",
-      "category": "06 Retail Brand Experience"
-    },
-    {
-      "name": "Étapes",
-      "feed": "https://etapes.com/feed",
-      "category": "13 France Marketing Design"
-    },
-    {
-      "name": "Colossal",
-      "feed": "https://www.thisiscolossal.com/feed",
-      "category": "05 Art Architecture"
-    },
-    {
-      "name": "Type Directors Club",
-      "feed": "https://tdc.org/feed",
-      "category": "11 Graphisme Expertise"
-    },
-    {
-      "name": "BP&O",
-      "feed": "https://bpando.org/feed",
-      "category": "03 DA Graphisme"
-    },
-    {
-      "name": "Typographica",
-      "feed": "https://typographica.org/feed",
-      "category": "11 Graphisme Expertise"
-    },
-    {
-      "name": "Creapills",
-      "feed": "https://creapills.com/feed",
-      "category": "13 France Marketing Design"
-    },
-    {
-      "name": "Artforum",
-      "feed": "https://www.artforum.com/feed",
-      "category": "05 Art Architecture"
-    },
-    {
-      "name": "George P. Johnson",
-      "feed": "https://www.gpj.com/feed",
-      "category": "06 Retail Brand Experience"
-    },
-    {
-      "name": "Typewolf",
-      "feed": "https://www.typewolf.com/feed",
-      "category": "03 DA Graphisme"
-    },
-    {
-      "name": "Dieline",
-      "feed": "https://thedieline.com/feed",
-      "category": "03 DA Graphisme"
-    },
-    {
-      "name": "Awwwards",
-      "feed": "https://www.awwwards.com/feed",
-      "category": "03 DA Graphisme"
     },
     {
       "name": "VMSD",
@@ -173,6 +103,76 @@
       "category": "11 Graphisme Expertise"
     },
     {
+      "name": "Dieline",
+      "feed": "https://thedieline.com/feed",
+      "category": "03 DA Graphisme"
+    },
+    {
+      "name": "Jack Morton",
+      "feed": "https://jackmorton.com/feed",
+      "category": "06 Retail Brand Experience"
+    },
+    {
+      "name": "BP&O",
+      "feed": "https://bpando.org/feed",
+      "category": "03 DA Graphisme"
+    },
+    {
+      "name": "Imagination",
+      "feed": "https://imagination.com/feed",
+      "category": "06 Retail Brand Experience"
+    },
+    {
+      "name": "Creapills",
+      "feed": "https://creapills.com/feed",
+      "category": "13 France Marketing Design"
+    },
+    {
+      "name": "Typewolf",
+      "feed": "https://www.typewolf.com/feed",
+      "category": "03 DA Graphisme"
+    },
+    {
+      "name": "Colossal",
+      "feed": "https://www.thisiscolossal.com/feed",
+      "category": "05 Art Architecture"
+    },
+    {
+      "name": "Type Directors Club",
+      "feed": "https://tdc.org/feed",
+      "category": "11 Graphisme Expertise"
+    },
+    {
+      "name": "Creative Boom",
+      "feed": "https://www.creativeboom.com/feed",
+      "category": "03 DA Graphisme"
+    },
+    {
+      "name": "George P. Johnson",
+      "feed": "https://www.gpj.com/feed",
+      "category": "06 Retail Brand Experience"
+    },
+    {
+      "name": "Étapes",
+      "feed": "https://etapes.com/feed",
+      "category": "13 France Marketing Design"
+    },
+    {
+      "name": "Typographica",
+      "feed": "https://typographica.org/feed",
+      "category": "11 Graphisme Expertise"
+    },
+    {
+      "name": "Awwwards",
+      "feed": "https://www.awwwards.com/feed",
+      "category": "03 DA Graphisme"
+    },
+    {
+      "name": "Artforum",
+      "feed": "https://www.artforum.com/feed",
+      "category": "05 Art Architecture"
+    },
+    {
       "name": "Dance Magazine",
       "feed": "https://www.dancemagazine.com/feed",
       "category": "15 Danse Performance"
@@ -183,18 +183,13 @@
       "category": "09 France Pro"
     },
     {
-      "name": "Superbien",
-      "feed": "https://www.superbien.com/feed",
-      "category": "08 Immersif CGI Motion"
-    },
-    {
-      "name": "Stash",
-      "feed": "https://www.stashmedia.tv/feed",
-      "category": "08 Immersif CGI Motion"
-    },
-    {
       "name": "Art of the Title",
       "feed": "https://www.artofthetitle.com/feed",
+      "category": "08 Immersif CGI Motion"
+    },
+    {
+      "name": "Superbien",
+      "feed": "https://www.superbien.com/feed",
       "category": "08 Immersif CGI Motion"
     },
     {
@@ -203,9 +198,9 @@
       "category": "10 Strategie Insights"
     },
     {
-      "name": "IDlia Studio",
-      "feed": "https://www.idlia.fr/feed",
-      "category": "09 France Pro"
+      "name": "Stash",
+      "feed": "https://www.stashmedia.tv/feed",
+      "category": "08 Immersif CGI Motion"
     },
     {
       "name": "Campaign Middle East",
@@ -213,241 +208,22 @@
       "category": "04 Pub Strategie"
     },
     {
-      "name": "Grand Visual",
-      "feed": "https://grandvisual.com/feed",
-      "category": "07 FOOH OOH DOOH"
+      "name": "IDlia Studio",
+      "feed": "https://www.idlia.fr/feed",
+      "category": "09 France Pro"
+    },
+    {
+      "name": "FRATERCINÉ",
+      "feed": "https://www.fratercine.fr/feed",
+      "category": "09 France Pro"
     }
   ],
   "collection_slot": 0,
-  "collection_hour_paris": 22,
+  "collection_hour_paris": 23,
   "sources_selected": 182,
-  "sources_checked": 170,
-  "special_test": true,
-  "special_selection": {
-    "01 Spectacle Concert": [
-      {
-        "title": "2D & 3D: Lighting Design for Broadway",
-        "url": "https://www.livedesignonline.com/premium/webinar/1414423",
-        "score": 29
-      },
-      {
-        "title": "See Glow Motion at LDI: Halo Ring & Next Gen Kinetic Systems",
-        "url": "https://www.livedesignonline.com/resource/see-glow-motion-ldi-halo-ring-next-gen-kinetic-systems",
-        "score": 21
-      },
-      {
-        "title": "Live Design: Terhal",
-        "url": "https://dragone.com/live-design-covers-terhal/",
-        "score": 21
-      }
-    ],
-    "02 TV Broadcast": [
-      {
-        "title": "Vizrt graphics chosen as the Official Technical Supplier of Eurovision 2026",
-        "url": "https://routing.vizrt.com/vizrt/press-center/pr-vizrt-graphics-eurovision-2026/",
-        "score": 9
-      },
-      {
-        "title": "Leyard and UP to deliver spectacular displays at AV Awards",
-        "url": "https://www.avinteractive.com/markets-news/live-events/leyard-europe-and-universal-pixels-partner-at-av-awards-05-11-2026/",
-        "score": 8
-      },
-      {
-        "title": "Vizrt graphics help Girraphic deliver exclusive MMA event in stadium and on Netflix",
-        "url": "https://routing.vizrt.com/news-articles/vizrt-girraphic-netflix-mma-event-graphics/",
-        "score": 8
-      }
-    ],
-    "03 DA Graphisme": [
-      {
-        "title": "Storefront Gala 2026 : Pentagram revisite une typographie historique",
-        "url": "https://bpando.org/2026/10/22/pentagram-new-york-storefront-gala-2026-event-identity-design/",
-        "score": 29
-      },
-      {
-        "title": "Order creates a delightfully design history-steeped identity for Salt Lick on Salt Creek – but what actually is it?",
-        "url": "https://bpando.org/2026/10/13/order-salt-lick-on-salt-creek-lavender-farm-brand-identity/",
-        "score": 29
-      },
-      {
-        "title": "Purple Garden : une identité inspirée des années 2000 et des motifs vibratoires",
-        "url": "https://bpando.org/2026/11/05/mother-design-brand-identity-spirituality-app-purple-garden/",
-        "score": 23
-      }
-    ],
-    "04 Pub Strategie": [
-      {
-        "title": "Kcal packaging brings to life DIDI student’s winning design in collab",
-        "url": "https://campaignme.com/kcal-packaging-brings-to-life-didi-students-winning-design-in-new-collaboration/",
-        "score": 30
-      },
-      {
-        "title": "Eoin Cronolly nommé directeur créatif de Footballco",
-        "url": "https://campaignme.com/eoin-cronolly-appointed-as-creative-director-at-footballco/",
-        "score": 24
-      },
-      {
-        "title": "La liste complète des intervenants confirmée pour le petit-déjeuner de campagne : Out of Home 2027",
-        "url": "https://campaignme.com/first-wave-speakers-campaign-breakfast-briefing-out-of-home-2027/",
-        "score": 15
-      }
-    ],
-    "05 Art Architecture": [
-      {
-        "title": "demi nguyen balances corporate branding, fintech systems, and typographic archives",
-        "url": "https://www.designboom.com/readers/demi-nguyen-corporate-branding-fintech-systems-typographic-archives/",
-        "score": 29
-      },
-      {
-        "title": "lavazza tablì wins designboom special prize third place at seoul design award",
-        "url": "https://www.designboom.com/design/lavazza-tabli-wins-designboom-special-prize-third-place-at-seoul-design-award/",
-        "score": 26
-      },
-      {
-        "title": "Designing the invisible at the new ICG Gallery Dubai",
-        "url": "https://www.archdaily.com/1188160/designing-the-invisible-at-the-new-icg-gallery-dubai",
-        "score": 24
-      }
-    ],
-    "06 Retail Brand Experience": [
-      {
-        "title": "THE ARCHITECTURE OF EXTRAORDINARY: DESIGNING EXPERIENCES THAT TRANSFORM US",
-        "url": "https://www.gpj.com/news-insights/2026/11/the-architecture-of-extraordinary-designing-experiences-that-transform-us/",
-        "score": 18
-      },
-      {
-        "title": "IMG+RetailOne Acquires ecRetail Studio and Angle Architecture, Expanding Concept-to-Installation Capabilities",
-        "url": "https://vmsd.com/imgretailone-acquires-ecretail-studio-and-angle-architecture-expanding-concept-to-installation-capabilities/",
-        "score": 18
-      },
-      {
-        "title": "Rethink Trade Shows: Beyond the Booth",
-        "url": "https://jackmorton.com/pov/rethink-tradeshows-beyond-the-booth/",
-        "score": 18
-      }
-    ],
-    "07 FOOH OOH DOOH": [
-      {
-        "title": "Our 2025 Grand Visual OOH Christmas Campaigns",
-        "url": "https://grandvisual.com/christmas-ooh-campaigns-by-grand-visual/",
-        "score": 24
-      },
-      {
-        "title": "Our 2025 Grand Visual OOH Christmas Campaigns",
-        "url": "https://grandvisual.com/our-2025-grand-visual-ooh-christmas-campaigns/",
-        "score": 24
-      },
-      {
-        "title": "When OOH Talks Back: Our Favourite DCO Campaigns of the Last 5 Years",
-        "url": "https://grandvisual.com/dco-campaigns-of-the-last-5-years/",
-        "score": 18
-      }
-    ],
-    "08 Immersif CGI Motion": [
-      {
-        "title": "Motion Plus Design Returns to Paris 2026, November 14th",
-        "url": "https://www.stashmedia.tv/motion-plus-design-returns-to-paris-2026-november-14th/",
-        "score": 18
-      },
-      {
-        "title": "CREATIVE JAM SESSION",
-        "url": "https://www.superbien.studio/journal/creative-jam-session",
-        "score": 18
-      },
-      {
-        "title": "A vision taking shape, a sharper creative gesture",
-        "url": "https://www.superbien.studio/journal/a-vision-taking-shape-a-sharper-creative-gesture",
-        "score": 15
-      }
-    ],
-    "09 France Pro": [
-      {
-        "title": "L’ISTS ouvre la prochaine session de la formation métier “Régisseur général des entreprises du spectacle vivant”",
-        "url": "https://www.revue-as.fr/2026/11/04/lists-ouvre-la-prochaine-session-de-la-formation-metier-regisseur-general-des-entreprises-du-spectacle-vivant/",
-        "score": 20
-      },
-      {
-        "title": "CBC, Genius Loci, Sanae | Film 3D Concours Ehpad",
-        "url": "https://www.idlia.fr/cbc-genius-loci-sanae-film-3d-concours-ehpad/",
-        "score": 18
-      },
-      {
-        "title": "Limiter les impacts de la lumière artificielle, Cluster Lumière",
-        "url": "https://www.lightzoomlumiere.fr/livre/limiter-les-impacts-de-la-lumiere-artificielle-cluster-lumiere/",
-        "score": 17
-      }
-    ],
-    "10 Strategie Insights": [],
-    "11 Graphisme Expertise": [
-      {
-        "title": "VS/Goods© — Maquettes sympas",
-        "url": "https://mindsparklemag.com/website/vsgoods-cool-mockups",
-        "score": 32
-      },
-      {
-        "title": "Deji Ajetomobi",
-        "url": "https://mindsparklemag.com/website/deji-ajetomobi",
-        "score": 29
-      },
-      {
-        "title": "Meer Mohsin",
-        "url": "https://mindsparklemag.com/website/meer-mohsin",
-        "score": 23
-      }
-    ],
-    "12 Tendances Cultures": [],
-    "13 France Marketing Design": [
-      {
-        "title": "Qui dessine les lieux ? Dans les coulisses du design de signalétique",
-        "url": "https://www.etapes.com/2026/09/23/qui-dessine-les-lieux-dans-les-coulisses-du-design-de-signaletique/",
-        "score": 18
-      },
-      {
-        "title": "Ce qu’Instagram fait au design",
-        "url": "https://www.etapes.com/2026/08/26/ce-quinstagram-fait-au-design/",
-        "score": 18
-      },
-      {
-        "title": "Écoles de design : derrière un même diplôme, des formations très différentes",
-        "url": "https://www.etapes.com/2026/10/27/ecoles-de-design-derriere-un-meme-diplome-des-formations-tres-differentes/",
-        "score": 15
-      }
-    ],
-    "14 Musique Clips": [
-      {
-        "title": "UK Music Video Awards 2026: here we go...",
-        "url": "https://www.promonews.tv/news/2026/11/04/uk-music-video-awards-2026-here-we-go/96847",
-        "score": 17
-      },
-      {
-        "title": "UK Music Video Awards 2026 : dans l'enceinte des gagnants",
-        "url": "https://www.promonews.tv/news/2026/11/06/uk-music-video-awards-2026-winners-enclosure/96865",
-        "score": 14
-      },
-      {
-        "title": "Omah Lay : l'épure sculpturale de NWSPK",
-        "url": "https://www.promonews.tv/videos/2026/11/06/omah-lay-artificial-happiness-nwspk/96846",
-        "score": 14
-      }
-    ],
-    "15 Danse Performance": [
-      {
-        "title": "9 Must-See Performances Hitting Stages This October",
-        "url": "https://dancemagazine.com/dance-performances-onstage-october-2026/?utm_source=rss&utm_medium=rss&utm_campaign=dance-performances-onstage-october-2026",
-        "score": 23
-      },
-      {
-        "title": "Celebrating Dance Magazine Award Honoree Ayodele Casel",
-        "url": "https://dancemagazine.com/ayodele-casel-dm-awards/?utm_source=rss&utm_medium=rss&utm_campaign=ayodele-casel-dm-awards",
-        "score": 14
-      },
-      {
-        "title": "10 Not-Nutcracker Shows Worth Seeing This November and December",
-        "url": "https://dancemagazine.com/dance-performances-onstage-november-december-2026/?utm_source=rss&utm_medium=rss&utm_campaign=dance-performances-onstage-november-december-2026",
-        "score": 14
-      }
-    ]
-  },
+  "sources_checked": 174,
+  "special_test": false,
+  "special_selection": {},
   "backfill_test": {
     "period": "2026-11-01/2026-11-07",
     "articles": 372,
@@ -5500,6 +5276,1150 @@
       "angle": "Étudier les démarches de création",
       "status": "source_detected_not_editorially_analyzed",
       "image": ""
+    },
+    {
+      "title": "Connecting leaders, driving action at the Inaugural Europe Gulf Forum",
+      "url": "https://imagination.com/latest/connecting-leaders-driving-action-at-the-inaugural-europe-gulf-forum/",
+      "published": "2026-09-21T14:35:55+00:00",
+      "summary": "Held in Costa Navarino, Greece, Imagination played a central role in the experience design and delivery of the first Europe Gulf Forum, to advance strategic cooperation between the two regions. Bringing together senior political leaders, policymakers, and business figures from across Europe and the Gulf, the event saw three days of discussion on geopolitics, investment, […]",
+      "image": "",
+      "source": "Imagination",
+      "category": "06 Retail Brand Experience",
+      "angle": "Analyser expérience comme stratégie",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "A Paris Design Roundup, a Revamped ’90s Hollywood Gem, Art Candelabras, and More",
+      "url": "https://www.sightunseen.com/2026/09/a-paris-design-roundup-a-revamped-90s-hollywood-gem-art-candelabras-and-more/",
+      "published": "2026-09-20T20:51:03+00:00",
+      "summary": "Plus: Collina Strada makes couches.",
+      "image": "https://www.sightunseen.com/wordpress/wp-content/uploads/2026/09/OmeDezin-WoodrowWilson235681_2-728x570.jpg",
+      "source": "Sight Unseen",
+      "category": "05 Art Architecture",
+      "angle": "Découvrir matériaux et créateurs",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "Pourquoi tout le monde pense pouvoir juger un logo",
+      "url": "https://www.etapes.com/2026/09/17/pourquoi-tout-le-monde-pense-pouvoir-juger-un-logo/",
+      "published": "2026-09-17T08:04:37+00:00",
+      "summary": "Pourquoi les logos déclenchent-ils autant de réactions ? Entre attachement, réseaux sociaux, coût, rebranding et jugement instantané, décryptage d’un objet graphique très exposé. The post Pourquoi tout le monde pense pouvoir juger un logo first appeared on Etapes : .",
+      "image": "",
+      "source": "Étapes",
+      "category": "13 France Marketing Design",
+      "angle": "Suivre créateurs et pratiques",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "3 Enduring Forces Shaping Healthcare Congress Strategy",
+      "url": "https://jackmorton.com/pov/3-enduring-forces-shaping-healthcare-congress-strategy/",
+      "published": "2026-09-16T19:23:30+00:00",
+      "summary": "Healthcare event marketing is often shaped by new trends, emerging tools, and fresh ideas for improving audience engagement. However, the conversations driving today’s congress strategy point to something more enduring. Across major healthcare event gatherings, including the Healthcare Convention & Exhibitors Association (HCEA) Annual Meeting (GST26), a clear reality is emerging: the biggest shifts in […] The post 3 Enduring Forces Shaping Healthcare Congress Strategy appeared first on Jack Morton | Global Brand Experience Agency .",
+      "image": "",
+      "source": "Jack Morton",
+      "category": "06 Retail Brand Experience",
+      "angle": "Construire une dramaturgie de marque",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "Experiences that made me Viviana Stecconi",
+      "url": "https://imagination.com/latest/experiences-that-made-me-viviana-stecconi/",
+      "published": "2026-09-16T09:40:47+00:00",
+      "summary": "In this series, we ask Imagination talent all about the experiences that have made them who they are. This month we spoke to Viviana Stecconi, Client Services Director from our Dubai studio. Tell us what you do… My role sits somewhere between clients, strategy, creative, and delivery, so essentially, I help turn ambitious ideas into […]",
+      "image": "",
+      "source": "Imagination",
+      "category": "06 Retail Brand Experience",
+      "angle": "Analyser expérience comme stratégie",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "3 questions à Matthieu Bernard : Penser l’immobilier comme une marque.",
+      "url": "https://grapheine.com/magazine/3-questions-matthieu-bernard-immobilier-marque/",
+      "published": "2026-09-16T09:38:47+00:00",
+      "summary": "Et si un immeuble se pensait comme une marque ? Matthieu Bernard revient sur l’évolution du marketing immobilier, où identité, récit et émotion transforment désormais les bâtiments en véritables expériences.",
+      "image": "",
+      "source": "Graphéine",
+      "category": "13 France Marketing Design",
+      "angle": "Étudier les démarches de création",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "How Ross Video turns your studio into a strategic business asset",
+      "url": "https://www.rossvideo.com/blog/how-ross-video-turns-your-studio-into-a-strategic-business-asset/",
+      "published": "2026-09-14T15:30:56+00:00",
+      "summary": "More organizations are building in-house video capabilities. Not just for town halls or occasional livestreams, but for a steady flow of internal and external content. The post How Ross Video turns your studio into a strategic business asset appeared first on Ross Video .",
+      "image": "",
+      "source": "Ross Video",
+      "category": "02 TV Broadcast",
+      "angle": "Comprendre workflows broadcast",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "Why your corporate studio is a business asset, not just a cost center",
+      "url": "https://www.rossvideo.com/blog/why-your-corporate-studio-is-a-business-asset-not-just-a-cost-center/",
+      "published": "2026-09-14T15:30:10+00:00",
+      "summary": "More organizations are building in-house video capabilities. Not just for town halls or occasional livestreams, but for a steady flow of internal and external content. The post Why your corporate studio is a business asset, not just a cost center appeared first on Ross Video .",
+      "image": "",
+      "source": "Ross Video",
+      "category": "02 TV Broadcast",
+      "angle": "Comprendre workflows broadcast",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "How a lean team runs broadcast-grade production with Ross Video",
+      "url": "https://www.rossvideo.com/blog/how-a-lean-team-runs-broadcast-grade-production-with-ross-video/",
+      "published": "2026-09-14T15:28:58+00:00",
+      "summary": "More organizations are building in-house video capabilities. Not just for town halls or occasional livestreams, but for a steady flow of internal and external content. The post How a lean team runs broadcast-grade production with Ross Video appeared first on Ross Video .",
+      "image": "",
+      "source": "Ross Video",
+      "category": "02 TV Broadcast",
+      "angle": "Comprendre workflows broadcast",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "How to run broadcast-grade production with a lean crew",
+      "url": "https://www.rossvideo.com/blog/how-to-run-broadcast-grade-production-with-a-lean-crew/",
+      "published": "2026-09-14T15:28:22+00:00",
+      "summary": "More organizations are building in-house video capabilities. Not just for town halls or occasional livestreams, but for a steady flow of internal and external content. The post How to run broadcast-grade production with a lean crew appeared first on Ross Video .",
+      "image": "",
+      "source": "Ross Video",
+      "category": "02 TV Broadcast",
+      "angle": "Comprendre workflows broadcast",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "How to bring broadcast-grade production in-house",
+      "url": "https://www.rossvideo.com/blog/how-to-bring-broadcast-grade-production-in-house/",
+      "published": "2026-09-14T15:26:24+00:00",
+      "summary": "More organizations are building in-house video capabilities. Not just for town halls or occasional livestreams, but for a steady flow of internal and external content. The post How to bring broadcast-grade production in-house appeared first on Ross Video .",
+      "image": "",
+      "source": "Ross Video",
+      "category": "02 TV Broadcast",
+      "angle": "Comprendre workflows broadcast",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "The real cost of outsourcing corporate video production",
+      "url": "https://www.rossvideo.com/blog/the-real-cost-of-outsourcing-corporate-video-production/",
+      "published": "2026-09-14T15:25:19+00:00",
+      "summary": "More organizations are building in-house video capabilities. Not just for town halls or occasional livestreams, but for a steady flow of internal and external content. The post The real cost of outsourcing corporate video production appeared first on Ross Video .",
+      "image": "",
+      "source": "Ross Video",
+      "category": "02 TV Broadcast",
+      "angle": "Comprendre workflows broadcast",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "Pourquoi le design japonais continue-t-il de nous fasciner ?",
+      "url": "https://www.etapes.com/2026/09/14/pourquoi-le-design-japonais-continue-t-il-de-nous-fasciner/",
+      "published": "2026-09-14T08:12:00+00:00",
+      "summary": "Du poster au packaging, de la typo à la signalétique : pourquoi le design japonais reste influent, entre précision, densité, usage et expérimentation. The post Pourquoi le design japonais continue-t-il de nous fasciner ? first appeared on Etapes : .",
+      "image": "",
+      "source": "Étapes",
+      "category": "13 France Marketing Design",
+      "angle": "Suivre créateurs et pratiques",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "Nine great gallery shows to see this month, in New York and beyond",
+      "url": "https://www.sightunseen.com/2026/09/nine-great-gallery-shows-to-see-this-month-in-new-york-and-beyond/",
+      "published": "2026-09-11T13:00:07+00:00",
+      "summary": "Plus: Tracking the picture-frame renaissance",
+      "image": "https://www.sightunseen.com/wordpress/wp-content/uploads/2026/09/JSG-Fernberger-BFerry-20260828-0015-728x582.jpg",
+      "source": "Sight Unseen",
+      "category": "05 Art Architecture",
+      "angle": "Découvrir matériaux et créateurs",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "What really makes an aerial camera system safe?",
+      "url": "https://www.rossvideo.com/blog/what-really-makes-an-aerial-camera-system-safe/",
+      "published": "2026-09-10T17:03:35+00:00",
+      "summary": "What really makes an aerial camera system safe? Explore the engineering, operational practices, and standards that help manage risk above the field. The post What really makes an aerial camera system safe? appeared first on Ross Video .",
+      "image": "",
+      "source": "Ross Video",
+      "category": "02 TV Broadcast",
+      "angle": "Comprendre workflows broadcast",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "What Will Define MWC 2027?",
+      "url": "https://jackmorton.com/pov/what-will-define-mwc-2027/",
+      "published": "2026-09-09T14:34:21+00:00",
+      "summary": "At MWC 2027, the brands that win won’t be the ones who show up, they’ll be the ones who become impossible to ignore. Digital Strategy Director, Ben Haigh, unpacks what MWC really signals for brand experiences, and why next year marks a turning point. After five years walking the halls of MWC, one thing is undeniable: we’ve moved past debating whether AI will […] The post What Will Define MWC 2027? appeared first on Jack Morton | Global Brand Experience Agency .",
+      "image": "",
+      "source": "Jack Morton",
+      "category": "06 Retail Brand Experience",
+      "angle": "Construire une dramaturgie de marque",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "La bonne typographie est-elle devenue un luxe ?",
+      "url": "https://www.etapes.com/2026/09/09/la-bonne-typographie-est-elle-devenue-un-luxe/",
+      "published": "2026-09-09T08:12:00+00:00",
+      "summary": "Koto vient de lancer CcType avec une ambition affichée : proposer des caractères de qualité à des conditions suffisamment accessibles pour les indépendants et les petites structures. L’initiative arrive dans […] The post La bonne typographie est-elle devenue un luxe ? first appeared on Etapes : .",
+      "image": "",
+      "source": "Étapes",
+      "category": "13 France Marketing Design",
+      "angle": "Suivre créateurs et pratiques",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "Why Gamescom Matters Beyond Gaming",
+      "url": "https://jackmorton.com/pov/why-gamescom-matters-beyond-gaming/",
+      "published": "2026-09-07T18:51:39+00:00",
+      "summary": "With 368,000 visitors, Gamescom is more than 2.5 times the size of San Diego Comic-Con, making it one of the largest fan gatherings in the world. But the most interesting thing that happened in Cologne wasn’t the scale. It was who showed up, what audiences responded to, and what that reveals about the future of […] The post Why Gamescom Matters Beyond Gaming appeared first on Jack Morton | Global Brand Experience Agency .",
+      "image": "",
+      "source": "Jack Morton",
+      "category": "06 Retail Brand Experience",
+      "angle": "Construire une dramaturgie de marque",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "Ce que les offres d’emploi disent du métier de designer en 2026",
+      "url": "https://www.etapes.com/2026/09/07/ce-que-les-offres-demploi-disent-du-metier-de-designer-en-2026/",
+      "published": "2026-09-07T07:43:00+00:00",
+      "summary": "Que révèlent les offres d’emploi sur le métier de designer en 2026 ? Compétences, logiciels, motion, IA, salaires et nouvelles attentes des recruteurs. The post Ce que les offres d’emploi disent du métier de designer en 2026 first appeared on Etapes : .",
+      "image": "",
+      "source": "Étapes",
+      "category": "13 France Marketing Design",
+      "angle": "Suivre créateurs et pratiques",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "Maison&Objet septembre 2026 : le design en mouvement",
+      "url": "https://www.etapes.com/2026/09/04/maisonobjet-septembre-2026-le-design-en-mouvement/",
+      "published": "2026-09-04T08:32:00+00:00",
+      "summary": "George Hardie, célèbre pour The Dark Side of the Moon, dévoile cinq décennies de création à Londres lors du London Design Festival 2026. The post Maison&Objet septembre 2026 : le design en mouvement first appeared on Etapes : .",
+      "image": "",
+      "source": "Étapes",
+      "category": "13 France Marketing Design",
+      "angle": "Suivre créateurs et pratiques",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "Experience Intelligence August ’26",
+      "url": "https://www.gpj.com/news-insights/2026/09/experience-intelligence-august-26/",
+      "published": "2026-09-03T21:30:42+00:00",
+      "summary": "From proving what's real and choosing to disconnect to building culture after dark and content worth sharing, audiences are becoming more intentional about what earns their attention—and what an experience gives them in return. The post Experience Intelligence August ’26 appeared first on GPJ .",
+      "image": "",
+      "source": "George P. Johnson",
+      "category": "06 Retail Brand Experience",
+      "angle": "Comprendre parcours et activation",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "Why the smartest brands are already experimenting with conversational AI",
+      "url": "https://imagination.com/latest/why-the-smartest-brands-are-already-experimenting-with-conversational-ai/",
+      "published": "2026-09-01T14:22:28+00:00",
+      "summary": "Brands have spent years refining their voice. They’ve developed identities and carefully crafted every customer touchpoint to communicate who they are. Yet until recently, translating that precise brand voice into automated, real-time conversations was nearly impossible. That’s beginning to change. The key shift we’re seeing is the proliferation of AI across all sectors. Discourse around […]",
+      "image": "",
+      "source": "Imagination",
+      "category": "06 Retail Brand Experience",
+      "angle": "Analyser expérience comme stratégie",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "Le branding iconique : construire une identité de star",
+      "url": "https://grapheine.com/magazine/branding-iconique-identite-star/",
+      "published": "2026-09-01T06:04:47+00:00",
+      "summary": "Les stars sont un produit marketing qui peut être construit ou naturel. Décryptons le personal branding des stars et comment elles se construisent ou deviennent des icônes, de Taylor Swift à Jul, en passant par Marilyn.",
+      "image": "",
+      "source": "Graphéine",
+      "category": "13 France Marketing Design",
+      "angle": "Étudier les démarches de création",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "2D & 3D: Lighting Design for Broadway",
+      "url": "https://www.livedesignonline.com/premium/webinar/1414423",
+      "published": "2026-08-31T16:49:34+00:00",
+      "summary": "2D & 3D: Lighting Design for Broadway swheeler Mon, 08/31/2026 - 12:49 Wed, 10/21/2026 - 11:00 Resource Type Webinar Nick Solyom Promotion Start Wed, 09/02/2026 - 14:15 Promotion End Tue, 02/02/2027 - 14:15 Discover how Broadway and stage performances come to life with lighting design insights from an expert. Join this webinar, hosted by Nick Solyom, to explore the creation of the Light Plot for Death Becomes Her on Broadway, as he served as the Associate Lighting Designer. Nick will share how he uses 2D and 3D in Vectorworks to create drawings for different purposes, demonstrating how entertainment software and creativity come together to create impactful visual performances. Logos Attribution 0 Attribution 0 Primary Category Lighting On Demand On Enable Automatic On Demand On Registration Login Link Already registered? Click here Listing Image QuartzListingLogo_250x190_vectorworks.png ",
+      "image": "https://qtxasset.com/quartz/qcloud4/media/image/Live%20Design%20Mix%20Logo_1.png?VersionId=4Pl0IX8cCNzGoAm0pAAsQI_jk5A8MSaQ",
+      "source": "Live Design",
+      "category": "01 Spectacle Concert",
+      "angle": "Lire les coulisses des projets",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "À quoi servent encore les projets personnels ?",
+      "url": "https://www.etapes.com/2026/08/31/a-quoi-servent-encore-les-projets-personnels/",
+      "published": "2026-08-31T08:16:00+00:00",
+      "summary": "Pourquoi les designers continuent-ils à mener des projets personnels ? Entre expérimentation, apprentissage, portfolio, visibilité et liberté créative. The post À quoi servent encore les projets personnels ? first appeared on Etapes : .",
+      "image": "",
+      "source": "Étapes",
+      "category": "13 France Marketing Design",
+      "angle": "Suivre créateurs et pratiques",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "Canva a-t-il vraiment démocratisé le design ?",
+      "url": "https://www.etapes.com/2026/08/28/canva-a-t-il-vraiment-democratise-le-design/",
+      "published": "2026-08-28T09:52:00+00:00",
+      "summary": "Canva a démocratisé la création visuelle et bouleversé les usages. Quel impact sur le design graphique, les métiers créatifs et la place des professionnels ? The post Canva a-t-il vraiment démocratisé le design ? first appeared on Etapes : .",
+      "image": "",
+      "source": "Étapes",
+      "category": "13 France Marketing Design",
+      "angle": "Suivre créateurs et pratiques",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "What Fandom Can Teach Us About Community",
+      "url": "https://jackmorton.com/pov/what-fandom-can-teach-us-about-community/",
+      "published": "2026-08-27T14:52:16+00:00",
+      "summary": "Every year, San Diego Comic-Con gives us a glimpse into the future of entertainment. The biggest reveals dominate headlines, social feeds fill up with costume photos and convention floor sightings, and marketers eagerly dissect the activations that generated the longest lines. But focusing solely on the entertainment side of Comic-Con misses the bigger story. The […] The post What Fandom Can Teach Us About Community appeared first on Jack Morton | Global Brand Experience Agency .",
+      "image": "",
+      "source": "Jack Morton",
+      "category": "06 Retail Brand Experience",
+      "angle": "Construire une dramaturgie de marque",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "Ce qu’Instagram fait au design",
+      "url": "https://www.etapes.com/2026/08/26/ce-quinstagram-fait-au-design/",
+      "published": "2026-08-26T08:01:00+00:00",
+      "summary": "Instagram transforme la façon dont le design se montre, se diffuse et se crée : rebranding, portfolio, formats, algorithmes, IA et visibilité des designers. The post Ce qu’Instagram fait au design first appeared on Etapes : .",
+      "image": "",
+      "source": "Étapes",
+      "category": "13 France Marketing Design",
+      "angle": "Suivre créateurs et pratiques",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "COLLECTION 2 — Langages, écritures, et communication universelle",
+      "url": "https://grapheine.com/magazine/collection-2-langages-ecritures-et-communication-universelle/",
+      "published": "2026-08-24T15:26:23+00:00",
+      "summary": "Avant les mots, il y avait des dessins, puis des signes. Des idéogrammes sumériens aux émojis, l'humanité n'a cessé d'inventer des systèmes pour communiquer au-delà des langues. Voici quelques tentatives parmi les plus ingénieuses pour créer un langage universel.",
+      "image": "",
+      "source": "Graphéine",
+      "category": "13 France Marketing Design",
+      "angle": "Étudier les démarches de création",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "The New Rules of Fandom – 5 Shifts Defining the Future of Fan Experiences Trends Report",
+      "url": "https://jackmorton.com/trends/fan-experiences-trends-report/",
+      "published": "2026-08-21T15:50:59+00:00",
+      "summary": "The future of fandom isn’t about creating bigger spectacles; it’s about creating stronger communities. As audiences spend more of their time online, live experiences have become a powerful source of connection and belonging. The most successful fan experiences aren’t just entertaining people; they’re creating opportunities for fans to participate, connect, and become part of something […] The post The New Rules of Fandom – 5 Shifts Defining the Future of Fan Experiences Trends Report appeared first on Jack Morton | Global Brand Experience Agency .",
+      "image": "https://jackmorton.com/wp-content/uploads/2026/08/FandomTrends_Websitecover.jpg",
+      "source": "Jack Morton",
+      "category": "06 Retail Brand Experience",
+      "angle": "Construire une dramaturgie de marque",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "High-design vacation rentals in Ireland and Shelter Island, a show in an iconic modernist house, and more",
+      "url": "https://www.sightunseen.com/2026/08/high-design-vacation-rentals-in-ireland-and-shelter-island-a-show-in-an-iconic-modernist-house-and-more/",
+      "published": "2026-08-19T18:34:48+00:00",
+      "summary": "Plus: What's Sight Unseen's favorite rug of all time? Find out inside.",
+      "image": "https://www.sightunseen.com/wordpress/wp-content/uploads/2026/08/By_Irina_Boersma_Cesar_Machado_OMOS_RESTAURANT_01_v1-728x550.jpg",
+      "source": "Sight Unseen",
+      "category": "05 Art Architecture",
+      "angle": "Découvrir matériaux et créateurs",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "Experiences that made me Kevin Berry",
+      "url": "https://imagination.com/latest/experiences-that-made-me-kevin-berry/",
+      "published": "2026-08-19T08:50:07+00:00",
+      "summary": "In this series, we ask Imagination talent all about the experiences that have made them who they are. This month we spoke to Kevin Berry, Design Director – Virgile+Partners from our London studio. A bit about me… Full time Interior Architect. Lifelong Artist with many creative habits. I have had an on again off again […]",
+      "image": "",
+      "source": "Imagination",
+      "category": "06 Retail Brand Experience",
+      "angle": "Analyser expérience comme stratégie",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "FYI (For Your Imagination): The Architecture of Belonging",
+      "url": "https://imagination.com/latest/fyi-for-your-imagination-the-architecture-of-belonging/",
+      "published": "2026-08-18T08:56:03+00:00",
+      "summary": "Ever stepped foot inside a sleek new development and felt… absolutely nothing? The environments we inhabit, from shared public spaces to the residential developments millions of us increasingly call home, shape the very fabric of our social, professional, and physical wellbeing. Traditionally, the masterplanning of these spaces was defined by their physical structures: iconic skylines, […]",
+      "image": "https://www.youtube.com/embed/Olmjdvlxjis",
+      "source": "Imagination",
+      "category": "06 Retail Brand Experience",
+      "angle": "Analyser expérience comme stratégie",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "An Iconic Midcentury Hotel Reborn, a Belgrade Hi-Fi Listening Bar, and More",
+      "url": "https://www.sightunseen.com/2026/08/an-iconic-midcentury-hotel-reborn-a-belgrade-hi-fi-listening-bar-and-more/",
+      "published": "2026-08-10T20:46:46+00:00",
+      "summary": "Plus, a shopping guide for chic fireplace andirons.",
+      "image": "https://www.sightunseen.com/wordpress/wp-content/uploads/2026/08/YSG_Gentlemen_2-728x570.jpg",
+      "source": "Sight Unseen",
+      "category": "05 Art Architecture",
+      "angle": "Découvrir matériaux et créateurs",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "From compliance to confidence: How modern organizations are rethinking accessible communication",
+      "url": "https://www.rossvideo.com/blog/from-compliance-to-confidence-how-modern-organizations-are-rethinking-accessible-communication/",
+      "published": "2026-08-06T17:43:25+00:00",
+      "summary": "Discover how Rocket Surgery is helping organizations rethink accessible communication by making live captioning simpler, more reliable, and easier to deploy. The post From compliance to confidence: How modern organizations are rethinking accessible communication appeared first on Ross Video .",
+      "image": "",
+      "source": "Ross Video",
+      "category": "02 TV Broadcast",
+      "angle": "Comprendre workflows broadcast",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "A Hotel in a 6th-Century Monastery, an Office Channeling 90s New York, and More",
+      "url": "https://www.sightunseen.com/2026/07/a-hotel-in-a-6th-century-monastery-an-office-channeling-90s-new-york-and-more/",
+      "published": "2026-07-30T22:22:05+00:00",
+      "summary": "Plus: The butter plate of your dreams.",
+      "image": "https://www.sightunseen.com/wordpress/wp-content/uploads/2026/07/KimBartelt_1-728x570.jpg",
+      "source": "Sight Unseen",
+      "category": "05 Art Architecture",
+      "angle": "Découvrir matériaux et créateurs",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "Peut-on tout concevoir ?",
+      "url": "https://www.etapes.com/2026/07/23/peut-on-tout-concevoir/",
+      "published": "2026-07-23T08:37:34+00:00",
+      "summary": "Le design est-il neutre ? En rendant une idée, un produit ou un service plus désirable, le designer engage-t-il aussi sa responsabilité ? Une réflexion sur les convictions, l'éthique et les dilemmes de la profession. The post Peut-on tout concevoir ? first appeared on Etapes : .",
+      "image": "",
+      "source": "Étapes",
+      "category": "13 France Marketing Design",
+      "angle": "Suivre créateurs et pratiques",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "Pourquoi les designers parlent-ils si peu d’argent ?",
+      "url": "https://www.etapes.com/2026/07/21/pourquoi-les-designers-parlent-ils-si-peu-dargent/",
+      "published": "2026-07-21T07:17:00+00:00",
+      "summary": "Les designers savent expliquer une intention graphique, défendre une grille typographique ou argumenter un choix de couleurs. Mais lorsqu’il s’agit de parler de leurs honoraires, du prix d’un projet ou […] The post Pourquoi les designers parlent-ils si peu d’argent ? first appeared on Etapes : .",
+      "image": "",
+      "source": "Étapes",
+      "category": "13 France Marketing Design",
+      "angle": "Suivre créateurs et pratiques",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "Cannes Lions 2026 Trends | The New Rules of Creativity",
+      "url": "https://jackmorton.com/pov/cannes-lions-2026-trends/",
+      "published": "2026-07-16T19:37:29+00:00",
+      "summary": "For years, the Cannes Lions Festival of Creativity (aka Brand Coachella) has been the global celebration of creativity. This year, it also became a referendum on its future. Despite all the conversations about AI, platforms and business transformation, the work that rose to the top reminded everyone of something far more fundamental. Our latest report […] The post Cannes Lions 2026 Trends | The New Rules of Creativity appeared first on Jack Morton | Global Brand Experience Agency .",
+      "image": "",
+      "source": "Jack Morton",
+      "category": "06 Retail Brand Experience",
+      "angle": "Construire une dramaturgie de marque",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "Le designer passe-t-il désormais plus de temps à dire non qu’à créer ?",
+      "url": "https://www.etapes.com/2026/07/15/le-designer-passe-t-il-desormais-plus-de-temps-a-dire-non-qua-creer/",
+      "published": "2026-07-15T08:17:30+00:00",
+      "summary": "L'intelligence artificielle transforme le quotidien des designers, mais le véritable changement est peut-être ailleurs. Le métier évolue vers davantage de discernement, de sélection et de direction créative. Une réflexion sur l'avenir du design. The post Le designer passe-t-il désormais plus de temps à dire non qu’à créer ? first appeared on Etapes : .",
+      "image": "",
+      "source": "Étapes",
+      "category": "13 France Marketing Design",
+      "angle": "Suivre créateurs et pratiques",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "Vizrt graphics help Girraphic deliver exclusive MMA event in stadium and on Netflix",
+      "url": "https://routing.vizrt.com/news-articles/vizrt-girraphic-netflix-mma-event-graphics/",
+      "published": "2026-07-13T08:00:00+00:00",
+      "summary": "When Netflix staged its debut MVP MMA event at the Intuit Dome in Los Angeles, Girraphic turned to Vizrt to deliver a seamless graphics experience across every screen. Using Viz Engine 5 and Viz Multiplay, the team delivered broadcast-grade graphics to the venue’s Halo Board and LED displays with a unified control workflow, creating engaging experiences for fans at the stadium and viewers watching live on Netflix. The post Vizrt graphics help Girraphic deliver exclusive MMA event in stadium and on Netflix appeared first on Vizrt | Transforming Viewer Experiences .",
+      "image": "https://routing.vizrt.com/wp-content/uploads/2026/07/Vizrt-Girraphic-Intuit-Dome-Halo-Board.png",
+      "source": "Vizrt",
+      "category": "02 TV Broadcast",
+      "angle": "Explorer la scénographie augmentée",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "Experience Intelligence July ’26",
+      "url": "https://www.gpj.com/news-insights/2026/07/experience-intelligence-july-26/",
+      "published": "2026-07-10T21:25:48+00:00",
+      "summary": "New mobility imperatives are emerging: moving people from place to place is the baseline—giving them a reason to connect with the journey itself is the differentiator. The post Experience Intelligence July ’26 appeared first on GPJ .",
+      "image": "",
+      "source": "George P. Johnson",
+      "category": "06 Retail Brand Experience",
+      "angle": "Comprendre parcours et activation",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "Josep Baqué et les Maximonstres",
+      "url": "https://grapheine.com/magazine/josep-baque-et-les-maximonstres/",
+      "published": "2026-07-06T13:13:33+00:00",
+      "summary": "Découvrez la folie créatrice de Josep Baqué, inventeur d'un incroyable bestiaire de monstres farfelus. Bêtes poilues multicolores, dragons cyclopes, et autres pandas cornus !",
+      "image": "",
+      "source": "Graphéine",
+      "category": "13 France Marketing Design",
+      "angle": "Étudier les démarches de création",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "Le regard du designer ne prend jamais de vacances",
+      "url": "https://www.etapes.com/2026/07/06/le-regard-du-designer-ne-prend-jamais-de-vacances/",
+      "published": "2026-07-06T11:37:55+00:00",
+      "summary": "Pourquoi les designers ne regardent-ils jamais vraiment le monde comme les autres ? L'été devient un formidable terrain d'observation où signalétique, typographie, packaging et identité visuelle nourrissent le regard créatif. The post Le regard du designer ne prend jamais de vacances first appeared on Etapes : .",
+      "image": "",
+      "source": "Étapes",
+      "category": "13 France Marketing Design",
+      "angle": "Suivre créateurs et pratiques",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "Pourquoi le travail du designer est devenu invisible",
+      "url": "https://www.etapes.com/2026/07/03/pourquoi-le-travail-du-designer-est-devenu-invisible/",
+      "published": "2026-07-03T07:59:00+00:00",
+      "summary": "L'intelligence artificielle n'a peut-être pas rendu le métier de designer obsolète. Elle révèle surtout une réalité ancienne : la véritable valeur du design reste largement invisible aux yeux des clients. The post Pourquoi le travail du designer est devenu invisible first appeared on Etapes : .",
+      "image": "",
+      "source": "Étapes",
+      "category": "13 France Marketing Design",
+      "angle": "Suivre créateurs et pratiques",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "SPOTLIGHT: A centuries old Murano glassmaker reinvents itself for the modern era",
+      "url": "https://www.sightunseen.com/2026/07/spotlight-a-centuries-old-murano-glassmaker-reinvents-itself-for-the-modern-era/",
+      "published": "2026-07-02T20:04:24+00:00",
+      "summary": "Plus: How to start buying vintage glass",
+      "image": "https://www.sightunseen.com/wordpress/wp-content/uploads/2026/07/1-NEW-PRODUCTS2-728x554.jpg",
+      "source": "Sight Unseen",
+      "category": "05 Art Architecture",
+      "angle": "Découvrir matériaux et créateurs",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "MEET OUR RISING STARS (Part 3)",
+      "url": "https://www.gpj.com/news-insights/2026/07/meet-our-rising-stars-part-3/",
+      "published": "2026-07-01T16:59:01+00:00",
+      "summary": "A world-leading strategic experiential agency is nothing without its world-leading team members. In this three-part series (click here for Part 1 and Part 2), we’ve peeled back the curtain and given the stage to our Rising Stars—GPJers who are shaping the future of our business through their leadership, curiosity, and commitment to excellence. Last but … The post MEET OUR RISING STARS (Part 3) appeared first on GPJ .",
+      "image": "",
+      "source": "George P. Johnson",
+      "category": "06 Retail Brand Experience",
+      "angle": "Comprendre parcours et activation",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "La FIFA fait disparaître des marques, mais les rend plus visibles",
+      "url": "https://grapheine.com/magazine/fifa-censure-marques-et-les-rend-plus-visibles/",
+      "published": "2026-06-30T09:44:44+00:00",
+      "summary": "Être reconnaissable sans son logo est devenu un objectif. Reste à savoir combien de marques réussiront demain à être reconnues par leur seule silhouette sans être confondues avec celle de leur concurrent !",
+      "image": "",
+      "source": "Graphéine",
+      "category": "13 France Marketing Design",
+      "angle": "Étudier les démarches de création",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "A Greek gallery decamps to the beach, a beloved coffee shop opens in Chicago, and more",
+      "url": "https://www.sightunseen.com/2026/06/a-greek-gallery-decamps-to-the-beach-a-beloved-coffee-shop-opens-in-chicago-and-more/",
+      "published": "2026-06-29T18:48:38+00:00",
+      "summary": "Plus: Salt and pepper shakers that would make Deborah Vance squeal with delight",
+      "image": "https://www.sightunseen.com/wordpress/wp-content/uploads/2026/06/04_BB-Studio_ANTIQUA-Gallery_By-the-Sea_Antiparos-2026-©Giorgos-Sfakianakis-728x558.jpg",
+      "source": "Sight Unseen",
+      "category": "05 Art Architecture",
+      "angle": "Découvrir matériaux et créateurs",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "Built Like No Other Agency",
+      "url": "https://www.gpj.com/news-insights/2026/06/built-like-no-other/",
+      "published": "2026-06-25T18:00:45+00:00",
+      "summary": "George P. Johnson (GPJ) is proud to be recognized among Event Marketer's Fab 50 top event fabricators for the 12th consecutive year. The post Built Like No Other Agency appeared first on GPJ .",
+      "image": "",
+      "source": "George P. Johnson",
+      "category": "06 Retail Brand Experience",
+      "angle": "Comprendre parcours et activation",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "Alpes 2030, le logo Olympique qui pique !",
+      "url": "https://grapheine.com/magazine/logo-olympique-alpes-2030/",
+      "published": "2026-06-18T18:02:11+00:00",
+      "summary": "Entre héritage olympique, esthétique néo-80’s et imaginaire de la montagne, décryptage du logo des Alpes 2030.",
+      "image": "",
+      "source": "Graphéine",
+      "category": "13 France Marketing Design",
+      "angle": "Étudier les démarches de création",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "3 questions à Annie Bocel sur la typographie et la gravure",
+      "url": "https://grapheine.com/magazine/annie-bocel-typographie-gravure/",
+      "published": "2026-06-16T06:33:18+00:00",
+      "summary": "Graphéine est allée à la rencontre d'Annie Bocel, qui détient le savoir-faire de la création du premier maillon de la chaîne typographique. Depuis son atelier breton, elle répond à nos questions sur les poinçons, la gravure et les techniques traditionnelles.",
+      "image": "",
+      "source": "Graphéine",
+      "category": "13 France Marketing Design",
+      "angle": "Étudier les démarches de création",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "MEET OUR RISING STARS (Part 2)",
+      "url": "https://www.gpj.com/news-insights/2026/06/meet-our-rising-stars-part-2/",
+      "published": "2026-06-11T20:19:54+00:00",
+      "summary": "GPJ’s Rising Stars come from every corner of our global network, bringing unique perspectives, experiences, and leadership styles to the work we create. In this installment of our three-part series, we’re spotlighting Jo Xia in Shanghai, Hadley Cook in Boston, and Glenn Whitehead in Sydney. From building trusted client partnerships to mentoring teams and bringing … The post MEET OUR RISING STARS (Part 2) appeared first on GPJ .",
+      "image": "",
+      "source": "George P. Johnson",
+      "category": "06 Retail Brand Experience",
+      "angle": "Comprendre parcours et activation",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "Experience Intelligence June ’26",
+      "url": "https://www.gpj.com/news-insights/2026/06/experience-intelligence-june-26/",
+      "published": "2026-06-11T17:13:24+00:00",
+      "summary": "Attendees are rejecting manufactured marketing and over-hyped events in favor of radical transparency and highly functional, physical spaces. The post Experience Intelligence June ’26 appeared first on GPJ .",
+      "image": "",
+      "source": "George P. Johnson",
+      "category": "06 Retail Brand Experience",
+      "angle": "Comprendre parcours et activation",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "Le cabinet des poinçons typographiques, trésor de l’imprimerie nationale",
+      "url": "https://grapheine.com/magazine/cabinet-des-poincons-typographiques-tresor-imprimerie-nationale/",
+      "published": "2026-06-09T05:09:01+00:00",
+      "summary": "L'Imprimerie Nationale renferme un trésor de 500 000 poinçons typographiques, premiers maillons de l'imprimerie. Une seule personne sur terre sait comment les fabriquer.",
+      "image": "",
+      "source": "Graphéine",
+      "category": "13 France Marketing Design",
+      "angle": "Étudier les démarches de création",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "MEET OUR RISING STARS (Part 1)",
+      "url": "https://www.gpj.com/news-insights/2026/06/meet-our-rising-stars-part-1/",
+      "published": "2026-06-04T20:31:08+00:00",
+      "summary": "Behind every unforgettable experience is a team of passionate people driving innovation, collaboration, and impact. In this three-part series, we’re spotlighting our Rising Stars—GPJers who are shaping the future of our business through their leadership, curiosity, and commitment to excellence. First up, meet Stacy Kistuline in Detroit, Namitha Bhat in Bengaluru, and Sophie Taylor in … The post MEET OUR RISING STARS (Part 1) appeared first on GPJ .",
+      "image": "",
+      "source": "George P. Johnson",
+      "category": "06 Retail Brand Experience",
+      "angle": "Comprendre parcours et activation",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "La licorne, du mythe fantastique à l’émoji 🦄",
+      "url": "https://grapheine.com/magazine/licorne-mythe-visuel-fantastique/",
+      "published": "2026-06-02T05:01:34+00:00",
+      "summary": "Voici l'histoire visuelle et symbolique de la licorne, cet animal légendaire qui n'a jamais existé et qui n'a pourtant jamais cessé de fasciner l'humanité en mettant tout le monde d'accord, de la Bible à la communauté LGBT+.",
+      "image": "",
+      "source": "Graphéine",
+      "category": "13 France Marketing Design",
+      "angle": "Étudier les démarches de création",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "Seven Action Areas Shaping Better Live Experiences",
+      "url": "https://jackmorton.com/pov/seven-action-areas-shaping-better-live-experiences/",
+      "published": "2026-06-01T18:18:02+00:00",
+      "summary": "Sustainability isn’t a side conversation anymore. It’s reshaping how events are planned, built, and judged. Live experiences have always been powerful, but they also rely on energy, materials, travel, and infrastructure at scale. The impact doesn’t end when the doors close. The difference now? It’s visible. From emissions tied to travel and production to the […] The post Seven Action Areas Shaping Better Live Experiences appeared first on Jack Morton | Global Brand Experience Agency .",
+      "image": "",
+      "source": "Jack Morton",
+      "category": "06 Retail Brand Experience",
+      "angle": "Construire une dramaturgie de marque",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "Mental Health Awareness Month 2026",
+      "url": "https://www.gpj.com/news-insights/2026/05/mental-health-awareness-month-2026/",
+      "published": "2026-05-29T16:19:19+00:00",
+      "summary": "Explore the initiatives we've pursued this May as we continue to engage and educate ourselves and our clients on mental health. The post Mental Health Awareness Month 2026 appeared first on GPJ .",
+      "image": "",
+      "source": "George P. Johnson",
+      "category": "06 Retail Brand Experience",
+      "angle": "Comprendre parcours et activation",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "Le branding est-il devenu un parc d’attractions ?",
+      "url": "https://grapheine.com/magazine/gamification-divertissement-branding/",
+      "published": "2026-05-27T06:20:58+00:00",
+      "summary": "Le récréatif, le divertissant festif s’imposent comme les nouvelles tendances graphiques de la communication. Depuis quelques années, les identités de marques et le branding semblent survitaminées, en perpétuel mouvement, avec des typographies rebondissantes et des couleurs acidulées. Le branding peut-il se passer de gamification généralisée ? Rien n’est moins sur…",
+      "image": "",
+      "source": "Graphéine",
+      "category": "13 France Marketing Design",
+      "angle": "Étudier les démarches de création",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "L’univers futuriste de Brantonne",
+      "url": "https://grapheine.com/magazine/illustration-futuriste-brantonne/",
+      "published": "2026-05-18T10:25:05+00:00",
+      "summary": "Septembre 1951, René Brantonne débute une collaboration avec la maison d’édition Fleuve Noir qui va durer plus de 20 ans (de 1951 à 1965) autour de la mythique collection “Anticipation” dont il réalisera 273 ouvertures originales.",
+      "image": "",
+      "source": "Graphéine",
+      "category": "13 France Marketing Design",
+      "angle": "Étudier les démarches de création",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "F1 Brand Experience Report – May 2026",
+      "url": "https://jackmorton.com/brand-experience/f1-brand-experience-report-may-2026/",
+      "published": "2026-05-14T15:03:30+00:00",
+      "summary": "Thinking about entering F1? You might already be behind. F1 didn’t just outgrow the circuit, it outgrew the playbook. Miami made it clear: race weekend is no longer a sporting event. It’s a weeklong cultural takeover—and the brands that win aren’t the loudest, they’re the most embedded. The ones that show up like locals, not […] The post F1 Brand Experience Report – May 2026 appeared first on Jack Morton | Global Brand Experience Agency .",
+      "image": "",
+      "source": "Jack Morton",
+      "category": "06 Retail Brand Experience",
+      "angle": "Construire une dramaturgie de marque",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "Vizrt strengthens its presence in the UK and Ireland with new distributor, Holdan",
+      "url": "https://routing.vizrt.com/vizrt/press-center/new-uk-and-ireland-distributor-holdan/",
+      "published": "2026-05-12T16:47:55+00:00",
+      "summary": "Vizrt, the AI platform for visual storytelling, today announces a partnership with a new distributor based in the United Kingdom, Holdan, part of the Midwich Group. Holdan is licensed to distribute the full scope of Vizrt’s portfolio – from vision mixing and easy-to-use HTML5 graphics, to data-driven augmented reality (AR) graphics that creates virtual environments and powers in-depth analysis for live events and sports. The post Vizrt strengthens its presence in the UK and Ireland with new distributor, Holdan appeared first on Vizrt | Transforming Viewer Experiences .",
+      "image": "",
+      "source": "Vizrt",
+      "category": "02 TV Broadcast",
+      "angle": "Explorer la scénographie augmentée",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "Vizrt graphics chosen as the Official Technical Supplier of Eurovision 2026",
+      "url": "https://routing.vizrt.com/vizrt/press-center/pr-vizrt-graphics-eurovision-2026/",
+      "published": "2026-05-11T10:30:00+00:00",
+      "summary": "Broadcast live from Vienna to millions of fans across Europe and beyond, the 70th edition of the Eurovision Song Contest will rely on Vizrt technology to create immersive visual elements that elevate the audience experience, bringing them closer to the Eurovision stage. The post Vizrt graphics chosen as the Official Technical Supplier of Eurovision 2026 appeared first on Vizrt | Transforming Viewer Experiences .",
+      "image": "",
+      "source": "Vizrt",
+      "category": "02 TV Broadcast",
+      "angle": "Explorer la scénographie augmentée",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "Giày chạy bộ thể thao siêu nhẹ nữ Humtto-X Easy Run 370374B",
+      "url": "https://humtto.vn/giay-chay-bo-the-thao-sieu-nhe-nu-humtto-x-easy-run-370374b/",
+      "published": "2026-05-04T09:32:45+00:00",
+      "summary": "Bài viết Giày chạy bộ thể thao siêu nhẹ nữ Humtto-X Easy Run 370374B đã xuất hiện đầu tiên vào ngày Humtto Vietnam .",
+      "image": "",
+      "source": "Art of the Title",
+      "category": "08 Immersif CGI Motion",
+      "angle": "Analyser intention et rythme",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "Giày chạy bộ thể thao siêu nhẹ nam Humtto-X Easy Run 370374A",
+      "url": "https://humtto.vn/giay-chay-bo-the-thao-sieu-nhe-nam-humtto-x-easy-run-370374a/",
+      "published": "2026-05-04T09:30:15+00:00",
+      "summary": "Bài viết Giày chạy bộ thể thao siêu nhẹ nam Humtto-X Easy Run 370374A đã xuất hiện đầu tiên vào ngày Humtto Vietnam .",
+      "image": "",
+      "source": "Art of the Title",
+      "category": "08 Immersif CGI Motion",
+      "angle": "Analyser intention et rythme",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "Giày sandal đi biển trekking thoát nước nhanh nam Humtto 771222A",
+      "url": "https://humtto.vn/giay-sandal-di-bien-trekking-thoat-nuoc-nhanh-nam-humtto-771222a/",
+      "published": "2026-05-04T09:11:50+00:00",
+      "summary": "Bài viết Giày sandal đi biển trekking thoát nước nhanh nam Humtto 771222A đã xuất hiện đầu tiên vào ngày Humtto Vietnam .",
+      "image": "",
+      "source": "Art of the Title",
+      "category": "08 Immersif CGI Motion",
+      "angle": "Analyser intention et rythme",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "Giày rọ leo núi lội nước chống trượt nam Humtto 771588A",
+      "url": "https://humtto.vn/giay-ro-leo-nui-loi-nuoc-chong-truot-nam-humtto-771588a/",
+      "published": "2026-05-04T09:05:48+00:00",
+      "summary": "Bài viết Giày rọ leo núi lội nước chống trượt nam Humtto 771588A đã xuất hiện đầu tiên vào ngày Humtto Vietnam .",
+      "image": "",
+      "source": "Art of the Title",
+      "category": "08 Immersif CGI Motion",
+      "angle": "Analyser intention et rythme",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "Giày sandal lội nước chống trượt nam Humtto 670823A",
+      "url": "https://humtto.vn/giay-sandal-loi-nuoc-chong-truot-nam-humtto-670823a/",
+      "published": "2026-05-04T08:53:16+00:00",
+      "summary": "Bài viết Giày sandal lội nước chống trượt nam Humtto 670823A đã xuất hiện đầu tiên vào ngày Humtto Vietnam .",
+      "image": "",
+      "source": "Art of the Title",
+      "category": "08 Immersif CGI Motion",
+      "angle": "Analyser intention et rythme",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "Giày trekking lội nước bám tốt nam Humtto 670892A",
+      "url": "https://humtto.vn/giay-trekking-loi-nuoc-bam-tot-nam-humtto-670892a/",
+      "published": "2026-05-04T08:21:24+00:00",
+      "summary": "Bài viết Giày trekking lội nước bám tốt nam Humtto 670892A đã xuất hiện đầu tiên vào ngày Humtto Vietnam .",
+      "image": "",
+      "source": "Art of the Title",
+      "category": "08 Immersif CGI Motion",
+      "angle": "Analyser intention et rythme",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "Giày lội nước trekking chuyên dụng nữ Humtto 670799B",
+      "url": "https://humtto.vn/giay-loi-nuoc-trekking-chuyen-dung-nu-humtto-670799b/",
+      "published": "2026-05-04T08:07:46+00:00",
+      "summary": "Bài viết Giày lội nước trekking chuyên dụng nữ Humtto 670799B đã xuất hiện đầu tiên vào ngày Humtto Vietnam .",
+      "image": "",
+      "source": "Art of the Title",
+      "category": "08 Immersif CGI Motion",
+      "angle": "Analyser intention et rythme",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "Giày lội nước, trekking đi biển nữ Humtto 670148B",
+      "url": "https://humtto.vn/giay-loi-nuoc-trekking-di-bien-nu-humtto-670148b/",
+      "published": "2026-05-04T07:43:53+00:00",
+      "summary": "Bài viết Giày lội nước, trekking đi biển nữ Humtto 670148B đã xuất hiện đầu tiên vào ngày Humtto Vietnam .",
+      "image": "",
+      "source": "Art of the Title",
+      "category": "08 Immersif CGI Motion",
+      "angle": "Analyser intention et rythme",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "Giày sandal đi biển trekking thoát nước nhanh nữ Humtto 771222B",
+      "url": "https://humtto.vn/giay-sandal-di-bien-trekking-thoat-nuoc-nhanh-nu-humtto-771222b/",
+      "published": "2026-05-04T07:20:09+00:00",
+      "summary": "Bài viết Giày sandal đi biển trekking thoát nước nhanh nữ Humtto 771222B đã xuất hiện đầu tiên vào ngày Humtto Vietnam .",
+      "image": "",
+      "source": "Art of the Title",
+      "category": "08 Immersif CGI Motion",
+      "angle": "Analyser intention et rythme",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "Giày rọ leo núi lội nước chống trượt nữ Humtto 771588B",
+      "url": "https://humtto.vn/giay-ro-leo-nui-loi-nuoc-chong-truot-nu-humtto-771588b/",
+      "published": "2026-05-04T06:52:49+00:00",
+      "summary": "Bài viết Giày rọ leo núi lội nước chống trượt nữ Humtto 771588B đã xuất hiện đầu tiên vào ngày Humtto Vietnam .",
+      "image": "",
+      "source": "Art of the Title",
+      "category": "08 Immersif CGI Motion",
+      "angle": "Analyser intention et rythme",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "Dragone announces a new collaboration with Sun Group in Vietnam",
+      "url": "https://dragone.com/dragone-new-collaboration-sun-group-vietnam/",
+      "published": "2026-04-22T08:57:44+00:00",
+      "summary": "Dragone begins a new chapter in Vietnam through a long-term partnership with Sun Group. A pioneer in tourism, real estate development, and entertainment, Sun Group plays an active role in transforming the region. This collaboration marks the first step in bringing Dragone’s vision of large-scale live entertainment to the region. In Phu Quoc, a […]",
+      "image": "",
+      "source": "Dragone",
+      "category": "01 Spectacle Concert",
+      "angle": "Analyser l'intégration scène/architecture",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "Vizrt AI Keyer kills the green screen and creates virtual scenes in any environment",
+      "url": "https://routing.vizrt.com/vizrt/press-center/vizrt-ai-keyer-release/",
+      "published": "2026-04-17T08:30:00+00:00",
+      "summary": "The Vizrt AI Keyer enables virtual and XR scenes in any environment, with background switching and augmented reality (AR) graphics insertion in every space, whether indoors or outdoors. The post Vizrt AI Keyer kills the green screen and creates virtual scenes in any environment appeared first on Vizrt | Transforming Viewer Experiences .",
+      "image": "",
+      "source": "Vizrt",
+      "category": "02 TV Broadcast",
+      "angle": "Explorer la scénographie augmentée",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "“Savoir Revivre” de Jacques Massacrier, la Bible pour vivre en autonomie",
+      "url": "https://grapheine.com/magazine/savoir-revivre-illustration-ecologie/",
+      "published": "2026-04-12T18:23:23+00:00",
+      "summary": "“Savoir Revivre” de Jacques Massacrier est une véritable Bible de la vie en autonomie. La première édition en 1973 fut un phénomène littéraire, vendu à plus de 500 000 exemplaires, traduit dans douze langues. Ce livre devenu culte, entièrement écrit et illustré à la main, a séduit une génération entière, et résonne toujours aujourd'hui.",
+      "image": "",
+      "source": "Graphéine",
+      "category": "13 France Marketing Design",
+      "angle": "Étudier les démarches de création",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "Our Second EcoVadis Assessment",
+      "url": "https://www.superbien.studio/journal/our-ecovadis-assessment",
+      "published": "2026-04-10T16:50:00+00:00",
+      "summary": "In the creative industry, commitment is often talked about, and often rightly so. On a day-to-day basis, however, these efforts can remain vague, informal, or scattered. Superbien has chosen to move from statements to a concrete assessment of its performance… The post Our Second EcoVadis Assessment appeared first on Superbien .",
+      "image": "",
+      "source": "Superbien",
+      "category": "08 Immersif CGI Motion",
+      "angle": "Étudier spatialisation des images",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "La vague brune du Rassemblement National est devenue bleue",
+      "url": "https://grapheine.com/magazine/couleur-extreme-droite-brun-bleu/",
+      "published": "2026-03-22T09:00:23+00:00",
+      "summary": "Un simple changement de couleur, du brun au bleu marine, qui interpelle sur la prétendue neutralité des graphiques et infographies utilisés dans la communication politique.",
+      "image": "",
+      "source": "Graphéine",
+      "category": "13 France Marketing Design",
+      "angle": "Étudier les démarches de création",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "3 questions à Paul Vacca au sujet de la marque",
+      "url": "https://grapheine.com/magazine/3-questions-paul-vacca-claim-marque/",
+      "published": "2026-03-17T11:19:02+00:00",
+      "summary": "Paul Vacca décrypte l’évolution des marques : disparition du claim, nouvelles stratégies, identités fluides et monde habitable.",
+      "image": "",
+      "source": "Graphéine",
+      "category": "13 France Marketing Design",
+      "angle": "Étudier les démarches de création",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "Quand la galerie Anatome exposait le graphisme à Paris",
+      "url": "https://grapheine.com/magazine/quand-la-galerie-anatome-etait-le-lieu-du-graphisme-a-paris/",
+      "published": "2026-03-10T10:33:00+00:00",
+      "summary": "Pendant longtemps, Paris n’a pas eu d’espace spécifique pour exposer le graphisme. Mais en 1999 se crée la galerie Anatome. Durant plus de 12 ans, elle va promouvoir et faire vivre le graphisme dans sa diversité.",
+      "image": "",
+      "source": "Graphéine",
+      "category": "13 France Marketing Design",
+      "angle": "Étudier les démarches de création",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "COLLECTION 1 — Mouvements, tendances & écoles graphiques",
+      "url": "https://grapheine.com/magazine/collection-1-mouvements-tendances-ecoles-graphiques/",
+      "published": "2026-02-26T10:56:58+00:00",
+      "summary": "Du tourbillon ornemental de la fin du XIXe siècle aux logos flat d'aujourd'hui, les styles graphiques racontent un siècle de révolutions esthétiques. Plongeons dans un voyage chronologique à travers de grands mouvements qui ont façonné le design contemporain, de la rigueur moderniste au chaos psychédélique de la contre-culture.",
+      "image": "",
+      "source": "Graphéine",
+      "category": "13 France Marketing Design",
+      "angle": "Étudier les démarches de création",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "WE WON! SET DESIGNER OF THE YEAR",
+      "url": "https://stufish.com/we-won-set-designer-of-the-year-tpi-awards-2026/",
+      "published": "2026-02-24T15:54:45+00:00",
+      "summary": "",
+      "image": "",
+      "source": "STUFISH",
+      "category": "01 Spectacle Concert",
+      "angle": "Étudier volumes, circulation et dramaturgie spatiale",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "Vizrt Launches Sports Production Bundles to Empower US Students to Produce Like the Pros",
+      "url": "https://routing.vizrt.com/vizrt/press-center/vizrt-launches-sports-production-bundles-press-release/",
+      "published": "2026-02-11T17:34:21+00:00",
+      "summary": "Using the same live production tools trusted by sports broadcasters and professional media organizations, the bundles deliver a complete, integrated workflow for live switching, replays, and graphics – complete with ready-to-play big screen graphics templates. The post Vizrt Launches Sports Production Bundles to Empower US Students to Produce Like the Pros appeared first on Vizrt | Transforming Viewer Experiences .",
+      "image": "",
+      "source": "Vizrt",
+      "category": "02 TV Broadcast",
+      "angle": "Explorer la scénographie augmentée",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "Vizrt revolutionizes corporate communications with AI-powered augmented reality in Zoom",
+      "url": "https://routing.vizrt.com/vizrt/press-center/vizrt-revolutionizes-communications-with-ai-powered-augmented-reality-in-zoom/",
+      "published": "2026-02-04T17:11:51+00:00",
+      "summary": "Vizrt offers broadcast-quality tools in Zoom meetings and Zoom Rooms, bringing immersive experiences to internal and external audiences worldwide The post Vizrt revolutionizes corporate communications with AI-powered augmented reality in Zoom appeared first on Vizrt | Transforming Viewer Experiences .",
+      "image": "",
+      "source": "Vizrt",
+      "category": "02 TV Broadcast",
+      "angle": "Explorer la scénographie augmentée",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "Bonne année 2026 à tous !",
+      "url": "https://www.idlia.fr/bonne-annee-2026-a-tous/",
+      "published": "2026-01-27T16:59:17+00:00",
+      "summary": "",
+      "image": "http://www.idlia.fr/studio/wp-content/uploads/2026/01/carte-voeux-IDlia-Studio-2026-1024x1024.png",
+      "source": "IDlia Studio",
+      "category": "09 France Pro",
+      "angle": "Analyser mise en scène",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "Beauvoir Immobilier | Chalets Dutruel | Chalets 3D | 2026",
+      "url": "https://www.idlia.fr/beauvoir-immobilier-chalets-dutruel-chalets-3d-2026/",
+      "published": "2026-01-27T16:39:26+00:00",
+      "summary": "Perspective 3D sous la neige des chalets Bettex à St Gervais avec vue sur le Mont Blanc | Architecture : ADBA Atelier Devigne Bariat Architectes Perspective 3D sous la neige des chalets Bettex à St Gervais avec vue sur le Mont Blanc | Conception : Beauvoir Immobilier, ADBA Atelier Devigne Bariat Architectes Perspective 3D d’une chambre d’un chalet à St Gervais | Conception : Beauvoir Immobilier, ADBA Atelier Devigne Bariat Architectes Perspective 3D salon des Chalets Bettex à St Gervais | Conception : Beauvoir Immobilier, ADBA Atelier Devigne Bariat Architectes Perspective 3D Sauna des Chalets Bettex à St Gervais | Conception : Beauvoir Immobilier, ADBA Atelier Devigne Bariat Architectes Perspective 3D sous la neige d’un chalet à Morzine, Les Sources d’en bas | Conception : Les Chalets Dutruel Perspective 3D du salon d’un chalet à Morzine, Les Sources d’en bas | Conception : Les Chalets ",
+      "image": "http://www.idlia.fr/studio/wp-content/uploads/2026/01/Perspective-3D-neige_aerienne_Chalets_StGervais_Bettex_Promotion_Beauvoir-Immobilier_Architecture-ADBA-Atelier-Devigne-Bariat-Architectes__Perspectivistes-IDlia-Studio-1024x768.jpg",
+      "source": "IDlia Studio",
+      "category": "09 France Pro",
+      "angle": "Analyser mise en scène",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "Biotope Immobilier, Aspen Immobilier | Chalets 3D | 2025",
+      "url": "https://www.idlia.fr/biotope-immobilier-aspen-immobilier-chalets-3d-2025/",
+      "published": "2026-01-27T15:44:30+00:00",
+      "summary": "Voici les perspectives et tours à 360° réalisés sur les chalets de Biotope Immobilier et Aspen Immobilier en 2025.",
+      "image": "",
+      "source": "IDlia Studio",
+      "category": "09 France Pro",
+      "angle": "Analyser mise en scène",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "Biotope Immobilier, Aspen Immobilier | Chalets 3D | 2024",
+      "url": "https://www.idlia.fr/biotope-immobilier-aspen-immobilier-chalets-3d-2024/",
+      "published": "2026-01-27T15:42:28+00:00",
+      "summary": "Voici les perspectives 3D, plans interactifs et tours à 360° réalisés sur les chalets de Biotope Immobilier et Aspen Immobilier en 2024.",
+      "image": "",
+      "source": "IDlia Studio",
+      "category": "09 France Pro",
+      "angle": "Analyser mise en scène",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "Biotope Immobilier, Aspen Immobilier | Chalets 3D | 2023",
+      "url": "https://www.idlia.fr/biotope-immobilier-aspen-immobilier-chalets-3d-2023/",
+      "published": "2026-01-27T15:14:54+00:00",
+      "summary": "Voici les perspectives 3D sous la neige, plans 3D interactifs, film promotionnel, et la vitrine web commerciale que nous avons réalisé sur les chalets de Biotope Immobilier et Aspen Immobilier en 2023.",
+      "image": "",
+      "source": "IDlia Studio",
+      "category": "09 France Pro",
+      "angle": "Analyser mise en scène",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "Terhal: A Sold-Out 2025 Season in Saudi Arabia",
+      "url": "https://dragone.com/terhal-sold-out-season-saudi-arabia/",
+      "published": "2026-01-22T08:43:50+00:00",
+      "summary": "In 2025, Terhal achieved remarkable success in Saudi Arabia. The show was sold out throughout its entire run, attracting audiences eager to discover a large-scale production. This strong reception reflects the artistic impact of the project and the meaningful connection established with audiences. Terhal further confirms its place as a major creation, blending storytelling, performance, […]",
+      "image": "",
+      "source": "Dragone",
+      "category": "01 Spectacle Concert",
+      "angle": "Analyser l'intégration scène/architecture",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "Vizrt Powers a New Era of Corporate Viewer Engagement with Expanded Enterprise Team",
+      "url": "https://routing.vizrt.com/vizrt/press-center/new-era-of-corporate-viewer-engagement/",
+      "published": "2026-01-22T07:00:00+00:00",
+      "summary": "New international leaders bring decades of SaaS and B2B enterprise technology experience to transform corporate communications and audience engagement. The post Vizrt Powers a New Era of Corporate Viewer Engagement with Expanded Enterprise Team appeared first on Vizrt | Transforming Viewer Experiences .",
+      "image": "",
+      "source": "Vizrt",
+      "category": "02 TV Broadcast",
+      "angle": "Explorer la scénographie augmentée",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "How to get the best from your atmospheric effects",
+      "url": "https://www.livedesignonline.com/premium/whitepaper/1410674",
+      "published": "2025-12-29T15:37:49+00:00",
+      "summary": "How to get the best from your atmospheric effects jgrcic Mon, 12/29/2025 - 10:37 Mon, 12/29/2025 - 10:37 Resource Type Whitepaper Look Solutions USA is the sole distributor of Look Solutions products in North America and Canada and was started by Nathan Kahn over 20 years ago. Throughout that time he has helped countless engineers get the most out of their fog and haze effects and this paper is filled with his industry knowledge. Whatever your brand of fog and haze machine, Nathan’s advice will help you to get the best effect for any application. Sponsored by: Logos Attribution 1 Primary Category B2B Experience On Demand Off Enable Automatic On Demand Off Listing Image looksolutionslogo.png Listing Introduction Look Solutions USA is the sole distributor of Look Solutions products in North America and Canada and was started by Nathan Kahn over 20 years ago. On Demand Start Date Mon, 06/29",
+      "image": "https://qtxasset.com/quartz/qcloud4/styles/thumbnail_200xauto_2x/s3/media/image/looksolutionslogo.png?VersionId=f4TlN9wC7PqVVORnRN.M_7ehfKL3e_gq&itok=UBWGND_Z",
+      "source": "Live Design",
+      "category": "01 Spectacle Concert",
+      "angle": "Lire les coulisses des projets",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "Precision and Power! Experience the Tiny FX at Booth #400",
+      "url": "https://www.livedesignonline.com/resource/precision-and-power-experience-tiny-fx-booth-400",
+      "published": "2025-12-03T22:04:47+00:00",
+      "summary": "Precision and Power! Experience the Tiny FX at Booth #400 This tiny DMX-compatible fog machine has a 70-watt output and can fire fog over 4 feet, all from a unit that is less than 4 inches long. It's perfect for miniature applications and fits almost anywhere. Supplied with 6 fluid syringes, a charger and 250ml of fluid, it’s ready to go straight away. swheeler Wed, 12/03/2025 - 17:04 This tiny DMX-compatible fog machine has a 70-watt output and can fire fog over 4 feet, all from a unit that is less than 4 inches long. It's perfect for miniature applications and fits almost anywhere. Supplied with 6 fluid syringes, a charger and 250ml of fluid, it’s ready to go straight away. Look Solutions USA Resource Type Questex Event LSlistingbooth.jpg Wed, 12/03/2025 - 17:04 Staging Landing Page Url Learn more Byline Sponsored by: Look Solutions USA",
+      "image": "",
+      "source": "Live Design",
+      "category": "01 Spectacle Concert",
+      "angle": "Lire les coulisses des projets",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "See Glow Motion at LDI: Halo Ring & Next Gen Kinetic Systems",
+      "url": "https://www.livedesignonline.com/resource/see-glow-motion-ldi-halo-ring-next-gen-kinetic-systems",
+      "published": "2025-11-19T20:19:39+00:00",
+      "summary": "See Glow Motion at LDI: Halo Ring & Next Gen Kinetic Systems Some things you need to see in person. Glow Motion is bringing a full kinetic system to LDI with Halo Rings, X Bars, and square beam panels all in motion, driven by our precision winches. Stop by Booth #5235 and experience why top designers choose Glow Motion for high impact shows. swheeler Wed, 11/19/2025 - 15:19 Some things you need to see in person. Glow Motion is bringing a full kinetic system to LDI with Halo Rings, X Bars, and square beam panels all in motion, driven by our precision winches. Stop by Booth #5235 and experience why top designers choose Glow Motion for high impact shows. Glow Motion Technologies Resource Type Questex Event glowmotinlisting.png Wed, 11/19/2025 - 15:19 Installations Installations Landing Page Url Learn more Byline Sponsored by: Glow Motion Technologies",
+      "image": "",
+      "source": "Live Design",
+      "category": "01 Spectacle Concert",
+      "angle": "Lire les coulisses des projets",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "Vizrt launches AI-powered advances for speed and accuracy in media management",
+      "url": "https://routing.vizrt.com/vizrt/press-center/ai-assisted-media-asset-management-viz-one-8-1/",
+      "published": "2025-11-05T17:03:54+00:00",
+      "summary": "Viz One 8.1 introduces AI-powered visual recognition and automated metadata to boost speed, accuracy, and discovery in media asset management workflows. The post Vizrt launches AI-powered advances for speed and accuracy in media management appeared first on Vizrt | Transforming Viewer Experiences .",
+      "image": "",
+      "source": "Vizrt",
+      "category": "02 TV Broadcast",
+      "angle": "Explorer la scénographie augmentée",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "Turning archives into intelligence: Vizrt and DeepVA introduce AI-driven metadata enrichment in Viz One media asset management",
+      "url": "https://routing.vizrt.com/community/blog/turning-archives-into-intelligence-vizrt-and-deepva-introduce-ai-driven-metadata-enrichment-in-viz-one-media-asset-management/",
+      "published": "2025-11-05T16:19:05+00:00",
+      "summary": "Vizrt’s partnership with Aiconix’s DeepVA AI platform brings advanced AI-assisted metadata enrichment capabilities to Viz One’s media asset management workflows. This integration empowers content creators to unlock the full potential of their media archives, streamline workflows, and deliver more localized, monetizable content. The post Turning archives into intelligence: Vizrt and DeepVA introduce AI-driven metadata enrichment in Viz One media asset management appeared first on Vizrt | Transforming Viewer Experiences .",
+      "image": "",
+      "source": "Vizrt",
+      "category": "02 TV Broadcast",
+      "angle": "Explorer la scénographie augmentée",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "Why now is the time to migrate from Viz Pilot News to Viz Pilot Edge",
+      "url": "https://routing.vizrt.com/community/blog/why-migrate-to-viz-pilot-edge/",
+      "published": "2025-10-31T06:51:42+00:00",
+      "summary": "Outdated technologies can pose a security risk. Viz Pilot Edge is a HTML-based templated graphics solution designed to meet the challenges of today’s fast-evolving modern newsrooms. The post Why now is the time to migrate from Viz Pilot News to Viz Pilot Edge appeared first on Vizrt | Transforming Viewer Experiences .",
+      "image": "",
+      "source": "Vizrt",
+      "category": "02 TV Broadcast",
+      "angle": "Explorer la scénographie augmentée",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "Le Rêve du Gladiateur in collaboration with Arthur Cadre",
+      "url": "https://dragone.com/le-reve-du-gladiateur-in-collaboration-with-arthur-cadre/",
+      "published": "2025-08-08T08:54:08+00:00",
+      "summary": "Le Rêve du Gladiateur (“The Gladiator’s Dream”), directed by Arthur Cadre in collaboration with Dragone, premiered in August 2025 in the historic Arènes de Nîmes. More than a historical evocation, the show transforms the Roman amphitheatre into a dreamscape, where the vision of a gladiator on the threshold of life and death becomes a journey […]",
+      "image": "",
+      "source": "Dragone",
+      "category": "01 Spectacle Concert",
+      "angle": "Analyser l'intégration scène/architecture",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "Fragiles : When images stand for a cause",
+      "url": "https://www.superbien.studio/journal/fragiles-when-images-stand-for-a-cause",
+      "published": "2025-08-04T16:40:25+00:00",
+      "summary": "On Tuesday, March 11, 2025, the Trianon opened its doors for the launch of IMPACT, the first coalition committed to fighting road violence. Led by the Antoine Alléno Association, this movement addresses an unbearable reality: every year, road accidents are… The post Fragiles : When images stand for a cause appeared first on Superbien .",
+      "image": "",
+      "source": "Superbien",
+      "category": "08 Immersif CGI Motion",
+      "angle": "Étudier spatialisation des images",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "A vision taking shape, a sharper creative gesture",
+      "url": "https://www.superbien.studio/journal/a-vision-taking-shape-a-sharper-creative-gesture",
+      "published": "2025-07-03T09:06:00+00:00",
+      "summary": "There are moments when everything aligns — when projects, identity, and storytelling all move forward in unison. These past weeks have marked a pivotal moment at Superbien. Our visual language is evolving. Our formats are becoming more refined. Our positioning is… The post A vision taking shape, a sharper creative gesture appeared first on Superbien .",
+      "image": "",
+      "source": "Superbien",
+      "category": "08 Immersif CGI Motion",
+      "angle": "Étudier spatialisation des images",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "A Stadium, a People, a Story: Dragone’s Tribute to La Louvière – RAAL",
+      "url": "https://dragone.com/raal-dragone/",
+      "published": "2025-06-28T08:50:52+00:00",
+      "summary": "On June 28 2025, Dragone staged the opening ceremony of the new stadium in La Louvière, Belgium. Under the direction of Fabrice Murgia, the performance became far more than an inauguration, it was a living tribute to the city and to its citizens, a theatrical mirror in which La Louvière could recognize its own resilience, […]",
+      "image": "",
+      "source": "Dragone",
+      "category": "01 Spectacle Concert",
+      "angle": "Analyser l'intégration scène/architecture",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "When Art Becomes Diplomacy: Dragone and Belgium Enchant the Osaka World Expo",
+      "url": "https://dragone.com/dragone-osaka/",
+      "published": "2025-04-13T08:50:57+00:00",
+      "summary": "On May 25, 2025, Dragone unveiled the Belgian Pavilion at the Universal Expo in Osaka. In this moment, art and diplomacy intertwined: the dancers of Avantgardey, the renowned Kento Mori, and Shamio’s shamisen created a performance that suspended time itself. What might have been a simple protocol ceremony became something greater, an encounter of cultures, […]",
+      "image": "",
+      "source": "Dragone",
+      "category": "01 Spectacle Concert",
+      "angle": "Analyser l'intégration scène/architecture",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "PRESS RELEASE: SPEED MEETS SPECTACLE",
+      "url": "https://stufish.com/press-release-speed-meets-spectacle/",
+      "published": "2025-02-19T14:27:01+00:00",
+      "summary": "",
+      "image": "",
+      "source": "STUFISH",
+      "category": "01 Spectacle Concert",
+      "angle": "Étudier volumes, circulation et dramaturgie spatiale",
+      "status": "source_detected_not_editorially_analyzed"
     }
   ]
 }
