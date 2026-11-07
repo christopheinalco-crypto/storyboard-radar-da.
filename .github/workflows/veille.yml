@@ -61,6 +61,9 @@ jobs:
           RADAR_SLOT_INDEX: ${{ steps.slot.outputs.slot }}
           RADAR_SPECIAL: ${{ (github.event_name == 'workflow_dispatch' && inputs.special) && '1' || '0' }}
         run: python collect.py
+      - name: Tester les critères de sélection avant Gemini
+        if: steps.slot.outputs.run == 'true'
+        run: python test_editorial.py
       - name: Analyser et valider les projets avec Gemini
         if: steps.slot.outputs.run == 'true'
         id: editorial
