@@ -88,13 +88,18 @@ for x in candidates:
   reviewed[x['url']]={'status':'source_unavailable','at':datetime.datetime.now(datetime.timezone.utc).isoformat()}
   print('Skip: insufficient full source',x['url']);continue
  attempted+=1
- prompt='''Tu es rédacteur et directeur artistique senior. Étudie exclusivement le texte fourni de l'article. Écris en français une analyse critique unique et vérifiable, non générique, en JSON strict.
-Réponds avec {"publish":boolean,"intro":string,"points":[[titre,texte],...],"takeaway":string,"title_fr":string}.\nLe champ title_fr est un titre éditorial naturel en français, court et fidèle au projet; conserve les noms propres.
-Ne publie que si au moins trois décisions créatives précises sont documentées. Sinon publish=false.
-L'analyse doit être dense mais concise, accessible, rythmée; entre 3 et 5 points variables selon le projet.
-Traite ce qui est réellement pertinent: contexte, auteurs, intention déclarée, insight en tant qu'hypothèse, dispositif, lumière, matière, composition, narration, fabrication, contraintes, rapport au public, émotion probable, leçon transférable.
-Ne prétends jamais connaître une intention ou un résultat non attesté. Distingue clairement les faits des hypothèses. Aucun détail inventé, aucun chiffre inventé, pas de répétition. Les titres ne sont pas figés. Mets **en gras** 1 à 2 expressions utiles par point, éventuellement ==un surlignage== exceptionnel.
-Le takeaway est un principe DA précis, non un exercice générique.'''
+ prompt='''Tu es directeur artistique senior, critique visuel et pédagogue. Étudie exclusivement l'article source fourni. Rédige en français une analyse éditoriale approfondie, concrète et précise, jamais un simple résumé. Réponds uniquement en JSON valide:
+{"publish":boolean,"intro":string,"points":[[titre,texte],...],"takeaway":string,"title_fr":string}.
+
+PUBLICATION : le sujet doit être UNE REALISATION CREATIVE CONCRETE (scénographie, concert, clip, spectacle, danse, plateau TV, installation, publicité, expérience de marque, création graphique ou spatiale). Refuse les annonces de tournée sans dispositif décrit, sorties d'albums/singles, panoramas, classements, actualités syndicales, nominations et communiqués sans création analysable. Publie seulement si la source documente au moins TROIS décisions artistiques observables ou explicitement décrites. Sinon publish=false.
+
+INTRO (130 à 230 mots environ) : situe le projet, ses auteurs et son contexte vérifiables, puis explique l'enjeu artistique spécifique et ce qui mérite d'être observé. Ne répète pas le titre.
+
+POINTS (4 à 6, environ 100 à 160 mots chacun, à adapter à la richesse des faits disponibles) : choisis des angles réellement propres au projet. Pour chaque point, développe (1) un fait ou choix créatif précis attesté par la source, (2) sa logique de conception, (3) l'effet perceptif, narratif ou émotionnel plausible et pourquoi, (4) si pertinent une tension, contrainte ou alternative créative. Approfondis les liens intention → choix de forme → effet produit. Selon le projet : espace, dramaturgie, lumière, couleur, matière, typographie, cadrage, mouvement, montage, rythme, son, chorégraphie, interaction, fabrication, contraintes et réception. N'impose jamais toutes ces rubriques. Titres courts, différents, non répétitifs.
+
+TAKEAWAY (80 à 130 mots environ) : une leçon de direction artistique précise, transférable et applicable, avec condition ou limite; pas une maxime vague.
+
+RIGUEUR : ne fabrique ni intentions d'auteurs, ni descriptions de plans, ni chiffres, ni réactions du public. Distingue explicitement les faits rapportés et les interprétations. Si la source ne permet pas la profondeur demandée, refuse plutôt que d'inventer ou de diluer. Ne cite pas d'experts externes non présents dans la source. Evite les répétitions entre introduction, points et takeaway. Langage vivant, lisible, sans jargon gratuit; mets **en gras** au plus deux expressions importantes par point. Le titre français doit rester fidèle au projet.'''
  payload={'system_instruction':{'parts':[{'text':prompt}]},'contents':[{'role':'user','parts':[{'text':json.dumps({'title':x['title'],'url':x['url'],'source_text':source},ensure_ascii=False)}]}],'generationConfig':{'temperature':0.2,'responseMimeType':'application/json'}}
  try:
   endpoint='https://generativelanguage.googleapis.com/v1beta/models/'+urllib.parse.quote(model,safe='')+':generateContent'
@@ -103,7 +108,7 @@ Le takeaway est un principe DA précis, non un exercice générique.'''
   raw=''.join(p.get('text','') for p in answer['candidates'][0]['content']['parts'])
   a=json.loads(raw)
   pts=a.get('points',[])
-  if a.get('publish') and 3<=len(pts)<=5 and all(isinstance(p,list) and len(p)==2 and len(p[1])>=80 for p in pts) and len(a.get('intro',''))>=90 and len(a.get('takeaway',''))>=50:
+  if a.get('publish') and 4<=len(pts)<=6 and all(isinstance(p,list) and len(p)==2 and len(p[1])>=300 for p in pts) and len(a.get('intro',''))>=400 and len(a.get('takeaway',''))>=250:
    if not x.get('image'):x['image']=source_image(x['url'])
    if not x.get('image'):
     reviewed[x['url']]={'status':'no_image','at':datetime.datetime.now(datetime.timezone.utc).isoformat()}
