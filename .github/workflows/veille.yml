@@ -1,6 +1,11 @@
 name: Actualiser la veille
 on:
   workflow_dispatch:
+  push:
+    paths:
+      - 'collect.py'
+      - 'data/sources.json'
+      - '.github/workflows/veille.yml'
   schedule:
     - cron: '20 7 * * *'
 permissions:
