@@ -91,7 +91,7 @@ def parse(blob):
    pic=valid_image(pic) or valid_image(image_from_markup(desc))
    entries.append(dict(title=title,url=link,published=date(val('pubDate','{http://www.w3.org/2005/Atom}published','{http://www.w3.org/2005/Atom}updated')),summary=clean(desc),image=pic,**music_links(desc)))
  return entries
-# Rotation stable par jour : toutes les sources passent sur six créneaux,
+# Rattrapage exceptionnel du 1 au 7 novembre : toutes les sources sur un seul passage.\n# Rotation stable par jour : toutes les sources passent sur six créneaux,
 # avec un quota renforcé pour les arts de la scène, la TV, les clips et la danse.
 now=datetime.datetime.now(datetime.timezone.utc)
 slot=int(os.environ.get('RADAR_SLOT_INDEX',str({6:0,9:1,12:2,15:3,18:4,21:5}.get(now.hour,(now.hour//3)%6))))%6
