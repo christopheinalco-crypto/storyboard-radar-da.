@@ -459,6 +459,19 @@ const EDITORIAL_CASES={
  takeaway:'Un objet central fort peut organiser tout un univers si l’espace, les images, la lumière et la place du public servent la même idée.'
  }
 };
+// Contrat éditorial RADAR : une analyse publiée doit être propre au projet.
+// Faits : auteurs, contexte, dimensions, matériaux, fabrication, lumière, son,
+// scénographie, interaction et contraintes seulement si documentés.
+// Lecture : intention déclarée séparée des hypothèses, lien choix -> effet,
+// expérience du public et principe transférable. Pas de leçon générique,
+// pas de répétition du résumé, pas de détails techniques inventés.
+// L'absence de preuves signifie « à documenter », jamais « à inventer ».
+function editorialCaseQuality(x){
+ const a=EDITORIAL_CASES[x.url];
+ if(!a||!Array.isArray(a.points)||a.points.length<3||!a.takeaway)return false;
+ const distinct=new Set(a.points.map(p=>String(p[0]||'').toLowerCase().trim()));
+ return distinct.size>=3&&a.points.every(p=>Array.isArray(p)&&String(p[1]||'').trim().length>=65)&&String(a.takeaway).trim().length>=45;
+}
 function editorialReadingHTML(x){
  let analysis=EDITORIAL_CASES[x.url];
  if(!analysis){
@@ -540,7 +553,7 @@ function editorialEligibility(x){
  return true;
 }
 function hasEditorialAnalysis(x){return !!(EDITORIAL_CASES[x.url]||verifiedEditorialReading(x)||editorialEligibility(x));}
-function drawFeed(){const cat=$('#cat').value,seen=seenData();renderSeenArchive(seen);let pool=ITEMS.filter(x=>Boolean(EDITORIAL_CASES[x.url])&&!excludedEditorialList(x)&&(x.image||hasEditorialAnalysis(x)||verifiedCase(x))&&(activeGroup==='Tout'||groupRelevance(x,activeGroup)>=8)&&(!cat||x.category===cat));
+function drawFeed(){const cat=$('#cat').value,seen=seenData();renderSeenArchive(seen);let pool=ITEMS.filter(x=>editorialCaseQuality(x)&&!excludedEditorialList(x)&&(x.image||hasEditorialAnalysis(x)||verifiedCase(x))&&(activeGroup==='Tout'||groupRelevance(x,activeGroup)>=8)&&(!cat||x.category===cat));
 const recentPool=pool.filter(x=>verifiedCase(x)||(x.published&&Date.now()-Date.parse(x.published)>=0&&Date.now()-Date.parse(x.published)<=14*86400000));const catchupMode=false;const catchupItems=catchupMode?pool.filter(x=>x.published&&x.published.slice(0,10)>='2026-11-01'&&x.published.slice(0,10)<='2026-11-07').sort((a,b)=>(b.published||'').localeCompare(a.published||'')):[];let items=catchupItems.length?catchupItems:editorialSelection(recentPool.length>=3?recentPool:pool);
 if(!items.length)items=(recentPool.length?recentPool:pool).sort((a,b)=>(b.published||'').localeCompare(a.published||'')).slice(0,9);
 const day=new Date().toLocaleDateString('en-CA');
