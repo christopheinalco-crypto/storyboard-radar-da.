@@ -373,32 +373,41 @@ function editorialReadingHTML(x){
 function sourceDescription(x){
  return (x.summary_fr||x.summary||'').replace(/The post [\\s\\S]*?appeared first on[\\s\\S]*$/i,'').replace(/behind its /i,'behind its ').trim();
 }
-function exploratoryReadingHTML(x){
- const s=sourceDescription(x).replace(/\s+/g,' ').trim();
- const raw=(x.title_fr||x.title||'').toLowerCase()+' '+s.toLowerCase();
- // Une lecture courte, liée aux éléments concrets décrits. Pas de reprise du titre.
- const lenses=[
-  [/treillis|lattice|exosquelet|façade|facade|structure|charpente|acier|steel|construction|architecture|architect/,['Structure & perception','La structure est-elle un simple support, ou devient-elle la signature visuelle du lieu ?','Comparer une version où la structure est apparente avec une version où elle disparaît.']],
-  [/scénograph|scenograph|stage design|set design|concert|spectacle|théâtre|theatre|plateau/,['Espace & dramaturgie','Comment les volumes, les distances et les transitions organisent-ils l’attention du public ?','Retirer un élément du dispositif : que perd la narration ?']],
-  [/lumière|lighting|light art|ombre|shadow|néon|neon|projection|mapping/,['Lumière & hiérarchie','Qu’est-ce qui devient visible ou disparaît grâce à la lumière ?','Modifier une seule source lumineuse pour changer le point focal.']],
-  [/identité|identity|branding|logo|typograph|typeface|graphisme|affiche|poster/,['Identité & signes','Quel élément permet de reconnaître la création sans lire son nom ?','Supprimer le texte et tester la reconnaissance de l’idée.']],
-  [/campaign|campagne|advertis|publicit|creative concept|insight/,['Idée & mise en forme','Quel choix visuel matérialise réellement l’idée de départ ?','Retirer le slogan : est-ce que le concept tient encore ?']],
-  [/costume|fashion design|matériau|material|texture|tissu|fabric|matière/,['Matière & signification','Que raconte le choix de matière au-delà de son apparence ?','Remplacer la matière dominante et comparer le sens produit.']],
-  [/montage|editing|music video|clip|film|cinematograph|cadrage|choreograph|chorégraph/,['Rythme & mise en scène','Quel enchaînement de plans, de gestes ou de formes porte le récit ?','Modifier l’ordre de trois moments et constater l’effet sur la lecture.']],
-  [/exposition|exhibition|installation|immersive|musée|museum/,['Parcours & expérience','Comment l’ordre de découverte modifie-t-il la compréhension de l’œuvre ?','Inverser deux étapes du parcours et décrire ce que cela change.']]
+// Grille stable, contenu dynamique : aucune affirmation sans élément observable de la source.
+function evidenceOfDesign(x){
+ const source=sourceDescription(x).replace(/\s+/g,' ').trim();
+ const title=(x.title||'').replace(/&#(?:x([0-9a-f]+)|([0-9]+));/gi,(_,h,d)=>String.fromCodePoint(parseInt(h||d,h?16:10)));
+ const raw=(source+' '+title).toLowerCase();
+ const signals=[
+  {re:/steel|acier|metal|métal|concrete|béton|wood|bois|glass|verre|fabric|tissu|material|matériau|biopolymer|plastic|plastique/,subject:'matière',question:'Comment la matière participe-t-elle à la lecture visuelle et à la sensation du lieu ou de l’objet ?',experiment:'Teste un remplacement de matière, en conservant la forme : que devient le caractère du projet ?'},
+  {re:/lattice|treillis|exoskelet|exosquelet|arches|arches|arcades|facade|façade|structure|volume|pavilion|pavillon/,subject:'structure',question:'La structure porte-t-elle seulement l’objet, ou organise-t-elle aussi son identité visuelle ?',experiment:'Masque mentalement la structure principale : la création garde-t-elle sa singularité ?'},
+  {re:/light|lumière|shadow|ombre|glow|néon|neon|projection|lighting/,subject:'lumière',question:'Que révèle la lumière et quels éléments laisse-t-elle au second plan ?',experiment:'Imagine l’effet inverse en inversant zones éclairées et zones sombres.'},
+  {re:/choreograph|chorégrap|movement|mouvement|dance|danse|performance|body|corps/,subject:'mouvement',question:'Comment les déplacements du corps redéfinissent-ils la composition dans le temps ?',experiment:'Dessine trois positions successives pour tester la lisibilité depuis plusieurs points de vue.'},
+  {re:/typograph|font|letter|logo|lettering|graphic identity|visual identity|identité visuelle/,subject:'identité graphique',question:'Quel élément visuel construit la reconnaissance, indépendamment du nom ?',experiment:'Cache la signature et examine si l’idée graphique reste identifiable.'},
+  {re:/stage|scenograph|scénograph|concert|set design|theatre|théâtre|spectacle|installation/,subject:'dispositif spatial',question:'Comment le dispositif organise-t-il la distance, l’échelle et l’attention du public ?',experiment:'Réduis l’espace de moitié : quels choix faut-il préserver pour garder le même effet ?'},
+  {re:/montage|editing|shot|camera|cadrage|cinematograph|music video|clip|film/,subject:'mise en scène',question:'Qu’est-ce qui, dans le traitement visuel décrit, soutient la progression du récit ?',experiment:'Choisis une décision de mise en scène décrite et propose une alternative produisant l’effet contraire.'},
+  {re:/exhibition|exposition|museum|musée|immersive|visitor|visiteur|experience|expérience/,subject:'parcours du public',question:'Comment l’ordre de découverte et les changements d’échelle peuvent-ils guider le regard ?',experiment:'Inverse deux moments du parcours : la progression de l’expérience change-t-elle ?'},
+  {re:/advertis|campaign|campagne|publicit|branding|brand|poster|affiche/,subject:'idée visuelle',question:'Quel élément du dispositif transmet la promesse avant les mots ?',experiment:'Retire le texte explicatif et vérifie ce que l’image raconte encore.'}
  ];
- const found=lenses.find(([re])=>re.test(raw));
- if(!found)return '';
- const [label,question,exercise]=found[1];
- const summary=s.length>260?s.slice(0,257).replace(/\s+\S*$/,'')+'…':s;
+ const signalsFound=signals.filter(z=>z.re.test(raw));
+ return {source,signals:signalsFound};
+}
+function exploratoryReadingHTML(x){
+ const ev=evidenceOfDesign(x);
+ if(!ev.signals.length)return '';
+ const primary=ev.signals[0],secondary=ev.signals.find(v=>v!==primary);
+ const title=(x.title_fr||x.title||'');
+ let description=ev.source.replace(/The post[\s\S]*?appeared first on[\s\S]*$/i,'').trim();
+ description=description.length>260?description.slice(0,260).replace(/\s+\S*$/,'')+'…':description;
  return '<div class="da-editorial-prose">'+
- '<p class="da-editorial-lead">'+escapeHTML(summary)+'</p>'+
- '<div class="da-essential-kicker">PISTE DE LECTURE DA <span>· À CONFRONTER AU PROJET</span></div>'+
+ '<p class="da-editorial-lead">'+escapeHTML(description)+'</p>'+
+ '<div class="da-essential-kicker">DÉCRYPTAGE EXPLORATOIRE <span>· REGARD CRITIQUE</span></div>'+
  '<div class="da-essential-points">'+
- '<p><span class="da-point-bullet">•</span><span><strong>'+escapeHTML(label)+' :</strong> '+escapeHTML(question)+'</span></p>'+
+ '<p><span class="da-point-bullet">•</span><span><strong>Choix à examiner — '+escapeHTML(primary.subject)+' :</strong> '+escapeHTML(primary.question)+'</span></p>'+
+ (secondary?'<p><span class="da-point-bullet">•</span><span><strong>Autre dimension — '+escapeHTML(secondary.subject)+' :</strong> '+escapeHTML(secondary.question)+'</span></p>':'')+
  '</div>'+
- '<div class="da-editorial-conclusion"><div>À TESTER</div><p>'+escapeHTML(exercise)+'</p></div>'+
- '<details class="study-sources"><summary>Sources & références</summary><p>Questionnement exploratoire à partir du résumé disponible ; les intentions des créateurs ne sont pas vérifiées.</p><a href="'+escapeHTML(x.url)+'" target="_blank" rel="noopener noreferrer">Consulter le projet original ↗</a></details>'+
+ '<div class="da-editorial-conclusion"><div>À EXPÉRIMENTER</div><p>'+escapeHTML(primary.experiment)+'</p></div>'+
+ '<details class="study-sources"><summary>Sources & références</summary><p>Questions issues des éléments décrits dans l’article. Elles ne constituent pas des intentions attribuées aux créateurs ni des citations d’experts.</p><a href="'+escapeHTML(x.url)+'" target="_blank" rel="noopener noreferrer">Consulter l’article original ↗</a></details>'+
  '</div>';
 }
 function layersHTML(x){
@@ -422,7 +431,7 @@ function editorialEligibility(x){
  const visual=/scenograph|scénograph|stage design|set design|lighting|lumière|projection|mapping|typograph|typeface|lettering|graphic identity|visual identity|identité visuelle|art direction|direction artistique|creative direction|production design|cinematograph|cadrage|editing|montage|choreograph|chorégraph|architect|pavilion|pavillon|museum|musée|exhibition|exposition|installation|immersive|immersion|material|matériau|texture|façade|facade|structure|photograph|music video|clip vidéo|video clip|short film|court.métrage|film|campaign|campagne|advertis|publicit|branding|brand identity|costume|sculpture|performance|spectacle|théâtre|theatre|concert|spatial|espace|interior|intérieur|poster|affiche|animation|motion design/;
  if(!visual.test(content))return false;
  const described=/designed|conçu|conçue|created|créé|créée|features|caractéris|uses |utilis|built|construit|transform|compose|composition|imagined|imaginé|explores|explore|blends|mêle|combines|associe|integrates|intègre|inspired|inspiré|behind|reveals|révèle|made of|fabricat|developed|développ|directed|réalisé|artwork|œuvre|installation|volume|shape|forme|color|couleur|material|matière|image|lumière|light|set design|scenograph|architect|typograph|exhibition|exposition|concept|identité visuelle/;
- return described.test(raw)&&editorialScore(x)>=30&&!excludedEditorialList(x);
+ return described.test(raw)&&evidenceOfDesign(x).signals.length>=1&&editorialScore(x)>=30&&!excludedEditorialList(x);
 }
 function hasEditorialAnalysis(x){return !!(EDITORIAL_CASES[x.url]||verifiedEditorialReading(x)||editorialEligibility(x));}
 function drawFeed(){const cat=$('#cat').value,seen=seenData();renderSeenArchive(seen);let pool=ITEMS.filter(x=>hasEditorialAnalysis(x)&&!excludedEditorialList(x)&&(x.image||hasEditorialAnalysis(x)||verifiedCase(x))&&!seen[x.url||x.title]&&(activeGroup==='Tout'||groupRelevance(x,activeGroup)>=8)&&(!cat||x.category===cat));
