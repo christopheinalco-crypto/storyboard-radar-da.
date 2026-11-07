@@ -75,6 +75,14 @@ def score(x):
 # Garde-fou du quota gratuit : 15 appels Gemini maximum par execution.
 CATEGORY_ORDER=['01','02','09','14','15','08','06','04','07','10','13','03','05','11','12']
 MAX_PER_CATEGORY=3
+GRAPHIC_CODES={'03','11'}
+MAX_GRAPHIC_DAILY=2
+# Europe/Paris prend en compte l'heure d'ete et l'heure d'hiver.
+from zoneinfo import ZoneInfo
+today_paris=datetime.datetime.now(ZoneInfo('Europe/Paris')).date().isoformat()
+category_by_url={x.get('url'):(x.get('category') or '')[:2] for x in feed.get('items',[])}
+graphic_today=sum(1 for url,analysis in saved.items() if category_by_url.get(url) in GRAPHIC_CODES and analysis.get('reviewed_at') and datetime.datetime.fromisoformat(analysis['reviewed_at'].replace('Z','+00:00')).astimezone(ZoneInfo('Europe/Paris')).date().isoformat()==today_paris)
+
 MAX_API_CALLS=int(os.environ.get('RADAR_MAX_AI_CALLS','15'))
 eligible=[x for x in feed.get('items',[]) if x.get('url') not in saved and x.get('url') not in reviewed and x.get('title') and x.get('url') and score(x)>=125 and x.get('published') and x.get('published')[:10]>=(datetime.datetime.now(datetime.timezone.utc)-datetime.timedelta(days=14)).date().isoformat()]
 eligible.sort(key=lambda x:(score(x),x.get('published','')),reverse=True)
@@ -84,7 +92,10 @@ for item in eligible:
  by_category.setdefault(code,[]).append(item)
 candidates=[]
 for code in CATEGORY_ORDER:
- candidates.extend(by_category.get(code,[])[:MAX_PER_CATEGORY])
+ if code in GRAPHIC_CODES:
+  candidates.extend(by_category.get(code,[])[:max(0,MAX_GRAPHIC_DAILY-graphic_today)])
+ else:
+  candidates.extend(by_category.get(code,[])[:MAX_PER_CATEGORY])
 for code in sorted(set(by_category)-set(CATEGORY_ORDER)):
  candidates.extend(by_category[code][:MAX_PER_CATEGORY])
 candidates=candidates[:MAX_API_CALLS]
@@ -101,6 +112,8 @@ if candidates:
   raise SystemExit(3)
 for x in candidates:
  if score(x)<125:continue
+ if (x.get('category') or '')[:2] in GRAPHIC_CODES and graphic_today>=MAX_GRAPHIC_DAILY:
+  print('Skip: graphic daily publication cap reached',x['url']);continue
  source=article_text(x['url'])
  if len(source)<850:
   source_fail+=1
@@ -135,6 +148,7 @@ RIGUEUR : ne fabrique ni intentions d'auteurs, ni descriptions de plans, ni chif
    saved[x['url']]={'intro':a['intro'],'points':pts,'takeaway':a['takeaway'],'title_fr':a.get('title_fr',''),'reviewed_at':datetime.datetime.now(datetime.timezone.utc).isoformat(),'source_url':x['url']}
    if a.get('title_fr') and len(a['title_fr'])>=12:x['title_fr']=a['title_fr']
    accepted+=1
+   if (x.get('category') or '')[:2] in GRAPHIC_CODES:graphic_today+=1
    print('Editorial accepted:',x['title'])
   else:
    reviewed[x['url']]={'status':'editorial_rejected','at':datetime.datetime.now(datetime.timezone.utc).isoformat()}
