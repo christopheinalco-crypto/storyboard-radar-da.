@@ -43,7 +43,7 @@ def candidates(url):
  return list(dict.fromkeys(direct+[base+'/feed',base+'/feed/',base+'/rss',base+'/rss.xml',base+'/feed.xml',base+'/atom.xml']))
 def image_from_markup(markup):
  if not markup:return ''
- m=re.search(r'<img[^>]+(?:src|data-src)\\s*=\\s*["\\x27](https?[^"\\x27]+)',markup,re.I)
+ m=re.search(r'<img[^>]+(?:src|data-src)\s*=\s*["\x27](https?[^"\x27]+)',markup,re.I)
  return html.unescape(m.group(1)) if m else ''
 def valid_image(u):
  return u if u and u.startswith(('https://','http://')) and not any(z in u.lower() for z in ['pixel','tracking','gravatar','1x1']) else ''
@@ -54,14 +54,14 @@ def og_image(url):
   req=urllib.request.Request(url,headers=HEAD)
   with urllib.request.urlopen(req,timeout=min(5,max(.5,budget_left()))) as r:
    raw=r.read(450000).decode('utf-8','ignore')
-  tags=re.findall(r'<meta\\s+[^>]*>',raw,re.I)
+  tags=re.findall(r'<meta\s+[^>]*>',raw,re.I)
   for key in ('og:image:secure_url','og:image','twitter:image'):
    for tag in tags:
-    attrs={k.lower():html.unescape(v) for k,v in re.findall(r'([\\w:-]+)\\s*=\\s*["\\x27]([^"\\x27]+)["\\x27]',tag)}
+    attrs={k.lower():html.unescape(v) for k,v in re.findall(r'([\w:-]+)\s*=\s*["\x27]([^"\x27]+)["\x27]',tag)}
     if attrs.get('property','').lower()==key or attrs.get('name','').lower()==key:
      found=valid_image(urllib.parse.urljoin(url,attrs.get('content','')))
      if found:return found
-  for pattern in (r'<link[^>]+rel=["\\x27]image_src["\\x27][^>]+href=["\\x27]([^"\\x27]+)',r'<img[^>]+(?:class|id)=["\\x27][^"\\x27]*(?:featured|hero|post-image)[^"\\x27]*["\\x27][^>]+(?:src|data-src)=["\\x27]([^"\\x27]+)'):
+  for pattern in (r'<link[^>]+rel=["\x27]image_src["\x27][^>]+href=["\x27]([^"\x27]+)',r'<img[^>]+(?:class|id)=["\x27][^"\x27]*(?:featured|hero|post-image)[^"\x27]*["\x27][^>]+(?:src|data-src)=["\x27]([^"\x27]+)'):
    m=re.search(pattern,raw,re.I)
    if m:
     found=valid_image(urllib.parse.urljoin(url,html.unescape(m.group(1))))
