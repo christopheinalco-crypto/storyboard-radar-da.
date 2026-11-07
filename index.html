@@ -650,15 +650,15 @@ async function refreshRadar({quiet=false}={}){
  }finally{refreshing=false;}
 }
 // Prototype : playlists officielles Spotify, sans API ni promesse de titres datés.
-const musicPlaylists={all:'37i9dQZF1DX4JAvHpjipBk',fr:null,world:null};
-const musicDescriptions={all:'Nouveautés · sélection Spotify',fr:'France · sélection Spotify',world:'International · sélection Spotify'};
+const musicPlaylists={all:'37i9dQZF1DX4JAvHpjipBk',fr:'37i9dQZF1DX742okrrpwah',world:'37i9dQZF1DX4W3aJJYCDfV'};
+const musicDescriptions={all:'New Music Friday · Spotify',fr:'New Music Friday France · Spotify',world:'New Music Friday UK & Ireland · Spotify'};
 document.querySelectorAll('[data-music]').forEach(button=>button.addEventListener('click',()=>{
  const kind=button.dataset.music;
  document.querySelectorAll('[data-music]').forEach(b=>{const active=b===button;b.classList.toggle('active',active);b.setAttribute('aria-pressed',String(active))});
  const player=document.getElementById('music-player');
  if(musicPlaylists[kind]){player.hidden=false;player.src='https://open.spotify.com/embed/playlist/'+encodeURIComponent(musicPlaylists[kind])+'?utm_source=generator&theme=0';}else{player.hidden=true;player.removeAttribute('src');}
  player.title='Spotify — '+musicDescriptions[kind];
- document.getElementById('music-caption').innerHTML=musicPlaylists[kind]?'Playlist Spotify · Sélection test (non exhaustive)':'Playlist '+(kind==='fr'?'France':'International')+' non disponible pour le moment · <a href="https://open.spotify.com/search/'+(kind==='fr'?'nouveaut%C3%A9s%20fran%C3%A7aises':'new%20music%20international')+'" target="_blank" rel="noopener noreferrer">Chercher sur Spotify ↗</a>';
+ document.getElementById('music-caption').textContent=musicDescriptions[kind]+' · Playlist officielle, non filtrée par nationalité des artistes';
 }));
 refreshRadar();
 document.addEventListener('visibilitychange',()=>{if(!document.hidden)refreshRadar({quiet:true})});
