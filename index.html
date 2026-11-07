@@ -392,22 +392,35 @@ function evidenceOfDesign(x){
  const signalsFound=signals.filter(z=>z.re.test(raw));
  return {source,signals:signalsFound};
 }
+// La grille reste en interne. Les textes affichés proviennent d'indices réels de l'article,
+// sans question-type par matière ni répétition du titre.
 function exploratoryReadingHTML(x){
- const ev=evidenceOfDesign(x);
- if(!ev.signals.length)return '';
- const primary=ev.signals[0],secondary=ev.signals.find(v=>v!==primary);
- const title=(x.title_fr||x.title||'');
- let description=ev.source.replace(/The post[\s\S]*?appeared first on[\s\S]*$/i,'').trim();
- description=description.length>260?description.slice(0,260).replace(/\s+\S*$/,'')+'…':description;
+ const ev=evidenceOfDesign(x),src=ev.source.trim();
+ if(!src||!ev.signals.length)return '';
+ const actual=src.replace(/\s+/g,' ').replace(/[. ]+$/,'');
+ const title=(x.title_fr||x.title||'').toLowerCase();
+ const s=(src+' '+title).toLowerCase();
+ const moves=[
+  {re:/art deco|gothic|gothique|pastel|rose|pink|contraste|contrast/,insight:'Le rapprochement de codes esthétiques différents est le ressort visuel à examiner. Le risque : produire une simple citation de style sans cohérence avec le lieu.',trial:'Compare deux versions : l’une qui accentue la rupture avec le contexte, l’autre qui cherche à s’y fondre.'},
+  {re:/treillis|lattice|exosquelet|structure apparente|structural grid/,insight:'La structure apparente peut faire office de langage graphique à l’échelle du bâtiment, plutôt que rester une solution constructive invisible.',trial:'Compare une façade avec cette trame visible puis masquée : qu’est-ce qui disparaît dans l’identité du lieu ?'},
+  {re:/metal|métal|béton|concrete|acier|steel|wool|laine|biopolymer|plastic|plastique/,insight:'Le choix des matériaux crée un rapport sensible entre l’objet, son contexte et le public. Ce qui compte ici est le contraste précis entre leurs propriétés, pas la matière isolément.',trial:'Conserve la composition en remplaçant le matériau dominant. Identifie une sensation perdue et une gagnée.'},
+  {re:/slide|toboggan|interaction|interactive|participatory|participatif|play|jeu/,insight:'Le public ne reste plus seulement observateur : son action devient une composante de l’œuvre ou du dispositif.',trial:'Supprime la participation du public. Le projet conserve-t-il la même proposition artistique ?'},
+  {re:/projection|mapping|light|lumière|shadow|ombre|lighting/,insight:'La lumière peut devenir la structure dramaturgique du projet : elle décide de ce qui est montré et du moment où le regard le découvre.',trial:'Garde tous les éléments et inverse seulement les zones de lumière. Décris l’effet sur l’attention.'},
+  {re:/stage design|scenograph|scénograph|concert|spectacle|theatre|théâtre/,insight:'Dans un dispositif scénique, l’enjeu central est la relation entre les corps, l’échelle du décor et les points de vue du public.',trial:'Dessine trois vues depuis différents sièges : le parti pris reste-t-il lisible ?'},
+  {re:/typograph|typeface|lettering|logo|identité visuelle|visual identity/,insight:'Le vocabulaire graphique doit porter une personnalité reconnaissable, et pas seulement illustrer un sujet.',trial:'Masque le nom et observe quels signes restent distinctifs.'},
+  {re:/clip|music video|cinematograph|montage|editing|choreograph|chorégrap/,insight:'C’est l’articulation entre gestes, cadrages et durée des plans qui peut produire le sens, plutôt que chaque image prise séparément.',trial:'Change l’ordre de trois moments du récit et compare la sensation de progression.'},
+  {re:/exhibition|exposition|musée|museum|installation|immersive/,insight:'L’œuvre se découvre dans un ordre et un espace précis : la circulation du public peut devenir une décision de narration.',trial:'Inverse deux étapes du parcours et vérifie si la révélation fonctionne encore.'},
+  {re:/campaign|campagne|advertis|publicit|brand|marque/,insight:'La conception visuelle doit rendre perceptible une idée de marque, même lorsque le slogan disparaît.',trial:'Retire le texte : quelle idée précise la création transmet-elle encore ?'}
+ ];
+ const match=moves.find(m=>m.re.test(s));
+ if(!match)return '';
+ const intro=actual.length>250?actual.slice(0,250).replace(/\s+\S*$/,'')+'…':actual;
  return '<div class="da-editorial-prose">'+
- '<p class="da-editorial-lead">'+escapeHTML(description)+'</p>'+
- '<div class="da-essential-kicker">DÉCRYPTAGE EXPLORATOIRE <span>· REGARD CRITIQUE</span></div>'+
- '<div class="da-essential-points">'+
- '<p><span class="da-point-bullet">•</span><span><strong>Choix à examiner — '+escapeHTML(primary.subject)+' :</strong> '+escapeHTML(primary.question)+'</span></p>'+
- (secondary?'<p><span class="da-point-bullet">•</span><span><strong>Autre dimension — '+escapeHTML(secondary.subject)+' :</strong> '+escapeHTML(secondary.question)+'</span></p>':'')+
- '</div>'+
- '<div class="da-editorial-conclusion"><div>À EXPÉRIMENTER</div><p>'+escapeHTML(primary.experiment)+'</p></div>'+
- '<details class="study-sources"><summary>Sources & références</summary><p>Questions issues des éléments décrits dans l’article. Elles ne constituent pas des intentions attribuées aux créateurs ni des citations d’experts.</p><a href="'+escapeHTML(x.url)+'" target="_blank" rel="noopener noreferrer">Consulter l’article original ↗</a></details>'+
+ '<p class="da-editorial-lead">'+escapeHTML(intro)+'</p>'+
+ '<div class="da-essential-kicker">REGARD DU DA <span>· LECTURE POSSIBLE</span></div>'+
+ '<p>'+escapeHTML(match.insight)+'</p>'+
+ '<div class="da-editorial-conclusion"><div>POUR ALLER PLUS LOIN</div><p>'+escapeHTML(match.trial)+'</p></div>'+
+ '<details class="study-sources"><summary>Sources & références</summary><p>Hypothèse de lecture basée sur la description disponible, non une intention déclarée ni une citation d’expert.</p><a href="'+escapeHTML(x.url)+'" target="_blank" rel="noopener noreferrer">Voir la création originale ↗</a></details>'+
  '</div>';
 }
 function layersHTML(x){
@@ -421,7 +434,8 @@ function editorialEligibility(x){
  const raw=sourceDescription(x).toLowerCase();
  const content=title+' '+raw;
  const cat=x.category||'';
- if(!x.url||!x.image||!title||raw.length<90)return false;
+ if(!x.url||!x.image||!title||raw.length<100)return false;
+ if(/\b(?:awards?|winners?|nominee|nomination|appointed|selected as|announces|announced|unveiled plans|planning permission|ticket|passes?|price|lawsuit|ban|regulations|controversy|collaboration announcement|launches a tour|nouvelle série|nouvel album|prochain film|s.apprête|va retrouver|retour de|fait son retour|bientôt|saison \d+|recrutement|nouveau directeur)\b/i.test(title)&&!/\b(?:creative process|set design|scenography|art direction|production design|visual identity|photographic series)\b/i.test(raw))return false;
  const offTopic=/c.est fini|adieu |fin de l.aventure|ferme ses portes|fermeture|shuts down|closing down|closure|end of an era|calls it quits|announces closure|goodbye|remembering|obituary|in memoriam|best of|top [0-9]+|roundup|playlist|anniversary|anniversaire|disparition de|décès de|joins the team|new ceo|new director appointed|job opening|hiring|vacancy|earnings|stock price|quarterly results|retirement|démission|quitte la maison|fini…/;
  if(offTopic.test(title))return false;
  // Une annonce de casting, de retour d'acteur ou de projet non encore visible ne se décrypte pas.
@@ -431,7 +445,7 @@ function editorialEligibility(x){
  const visual=/scenograph|scénograph|stage design|set design|lighting|lumière|projection|mapping|typograph|typeface|lettering|graphic identity|visual identity|identité visuelle|art direction|direction artistique|creative direction|production design|cinematograph|cadrage|editing|montage|choreograph|chorégraph|architect|pavilion|pavillon|museum|musée|exhibition|exposition|installation|immersive|immersion|material|matériau|texture|façade|facade|structure|photograph|music video|clip vidéo|video clip|short film|court.métrage|film|campaign|campagne|advertis|publicit|branding|brand identity|costume|sculpture|performance|spectacle|théâtre|theatre|concert|spatial|espace|interior|intérieur|poster|affiche|animation|motion design/;
  if(!visual.test(content))return false;
  const described=/designed|conçu|conçue|created|créé|créée|features|caractéris|uses |utilis|built|construit|transform|compose|composition|imagined|imaginé|explores|explore|blends|mêle|combines|associe|integrates|intègre|inspired|inspiré|behind|reveals|révèle|made of|fabricat|developed|développ|directed|réalisé|artwork|œuvre|installation|volume|shape|forme|color|couleur|material|matière|image|lumière|light|set design|scenograph|architect|typograph|exhibition|exposition|concept|identité visuelle/;
- return described.test(raw)&&evidenceOfDesign(x).signals.length>=1&&editorialScore(x)>=30&&!excludedEditorialList(x);
+ return described.test(raw)&&evidenceOfDesign(x).signals.length>=1&&editorialScore(x)>=35&&!excludedEditorialList(x);
 }
 function hasEditorialAnalysis(x){return !!(EDITORIAL_CASES[x.url]||verifiedEditorialReading(x)||editorialEligibility(x));}
 function drawFeed(){const cat=$('#cat').value,seen=seenData();renderSeenArchive(seen);let pool=ITEMS.filter(x=>hasEditorialAnalysis(x)&&!excludedEditorialList(x)&&(x.image||hasEditorialAnalysis(x)||verifiedCase(x))&&!seen[x.url||x.title]&&(activeGroup==='Tout'||groupRelevance(x,activeGroup)>=8)&&(!cat||x.category===cat));
