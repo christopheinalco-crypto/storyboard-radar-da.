@@ -1,16 +1,20 @@
 """Collect RSS/Atom from editorial source domains. No fabricated DA analyses."""
-import json,os,re,datetime,urllib.parse,urllib.request,xml.etree.ElementTree as ET,html,random,hashlib
+import json,os,re,datetime,urllib.parse,urllib.request,xml.etree.ElementTree as ET,html,random,hashlib,time
 from email.utils import parsedate_to_datetime
 ROOT=os.path.dirname(__file__)
 sources=json.load(open(os.path.join(ROOT,'data/sources.json'),encoding='utf8'))
 old=json.load(open(os.path.join(ROOT,'data/feed.json'),encoding='utf8'))
 items={x['url']:x for x in old.get('items',[]) if x.get('url')}
+START=time.monotonic()
+MAX_SECONDS=105
+def budget():return time.monotonic()-START<MAX_SECONDS
 HEAD={'User-Agent':'Mozilla/5.0 (compatible; RADARDA/1.0; editorial research)'}
 def clean(s):return re.sub(r'\s+',' ',re.sub(r'<[^>]*>',' ',html.unescape(s or ''))).strip()[:900]
 def get(url):
+ if not budget():return None
  try:
   req=urllib.request.Request(url,headers=HEAD)
-  with urllib.request.urlopen(req,timeout=3) as r:return r.read(800000)
+  with urllib.request.urlopen(req,timeout=2.5) as r:return r.read(800000)
  except Exception:return None
 def date(v):
  try:return parsedate_to_datetime(v).astimezone(datetime.timezone.utc).isoformat()
@@ -40,6 +44,7 @@ def image_from_markup(markup):
 def valid_image(u):
  return u if u and u.startswith(('https://','http://')) and not any(z in u.lower() for z in ['pixel','tracking','gravatar','1x1']) else ''
 def og_image(url):
+ if not budget():return ''
  try:
   req=urllib.request.Request(url,headers=HEAD)
   with urllib.request.urlopen(req,timeout=3) as r:
@@ -52,11 +57,11 @@ def og_image(url):
  except Exception:return ''
 def translate_fr(value):
  """Traduction best-effort ; l'original reste disponible en cas d'échec."""
- if not value or len(value)<3:return value
+ if not value or len(value)<3 or not budget():return value
  try:
   query=urllib.parse.urlencode({'client':'gtx','sl':'auto','tl':'fr','dt':'t','q':value[:650]})
   req=urllib.request.Request('https://translate.googleapis.com/translate_a/single?'+query,headers=HEAD)
-  with urllib.request.urlopen(req,timeout=6) as r:data=json.load(r)
+  with urllib.request.urlopen(req,timeout=3) as r:data=json.load(r)
   return ''.join(part[0] or '' for part in data[0]).strip()
  except Exception:return ''
 def music_links(markup):
