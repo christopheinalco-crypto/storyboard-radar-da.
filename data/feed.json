@@ -3,14 +3,14 @@
   "status": "collected_unreviewed",
   "working_feeds": [
     {
-      "name": "Artforum",
-      "feed": "https://www.artforum.com/feed",
-      "category": "05 Art Architecture"
+      "name": "Dance Magazine",
+      "feed": "https://www.dancemagazine.com/feed",
+      "category": "15 Danse Performance"
     },
     {
-      "name": "Light ZOOM Lumière",
-      "feed": "https://www.lightzoomlumiere.fr/feed",
-      "category": "09 France Pro"
+      "name": "Vizrt",
+      "feed": "https://www.vizrt.com/feed",
+      "category": "02 TV Broadcast"
     },
     {
       "name": "Design Observer",
@@ -28,13 +28,28 @@
       "category": "14 Musique Clips"
     },
     {
-      "name": "FRATERCINÉ",
-      "feed": "https://www.fratercine.fr/feed",
+      "name": "Imagination",
+      "feed": "https://imagination.com/feed",
+      "category": "06 Retail Brand Experience"
+    },
+    {
+      "name": "Revue AS",
+      "feed": "https://www.revue-as.fr/feed",
       "category": "09 France Pro"
     },
     {
-      "name": "Colossal",
-      "feed": "https://www.thisiscolossal.com/feed",
+      "name": "STUFISH",
+      "feed": "https://stufish.com/feed",
+      "category": "01 Spectacle Concert"
+    },
+    {
+      "name": "Tsugi",
+      "feed": "https://www.tsugi.fr/feed",
+      "category": "14 Musique Clips"
+    },
+    {
+      "name": "Designboom",
+      "feed": "https://www.designboom.com/feed",
       "category": "05 Art Architecture"
     },
     {
@@ -43,12 +58,22 @@
       "category": "06 Retail Brand Experience"
     },
     {
-      "name": "Typographica",
-      "feed": "https://typographica.org/feed",
+      "name": "Ross Video",
+      "feed": "https://www.rossvideo.com/feed",
+      "category": "02 TV Broadcast"
+    },
+    {
+      "name": "IDlia Studio",
+      "feed": "https://www.idlia.fr/feed",
+      "category": "09 France Pro"
+    },
+    {
+      "name": "Mindsparkle Mag",
+      "feed": "https://mindsparklemag.com/feed",
       "category": "11 Graphisme Expertise"
     }
   ],
-  "collection_slot": 4,
+  "collection_slot": 0,
   "collection_hour_paris": 14,
   "sources_selected": 182,
   "sources_checked": 47,
@@ -56,8 +81,8 @@
   "special_selection": {},
   "backfill_test": {
     "period": "2026-11-01/2026-11-07",
-    "articles": 297,
-    "with_images": 105
+    "articles": 299,
+    "with_images": 106
   },
   "items": [
     {
@@ -137,6 +162,19 @@
       "status": "source_detected_not_editorially_analyzed",
       "title_fr": "Les gagnants des AV Awards 2026 ont été annoncés",
       "summary_fr": "Les exemples exceptionnels d’excellence de cette année parmi les personnes, les entreprises, les technologies et les projets de notre industrie ont maintenant été révélés. L'article Les gagnants des AV Awards 2026 ont été annoncés apparaît en premier sur AV Magazine ."
+    },
+    {
+      "title": "concrete pairs with brushed metal for hybrid automotive gallery café in hong kong",
+      "url": "https://www.designboom.com/architecture/concrete-brushed-metal-hybrid-automotive-gallery-cafe-hong-kong-macchina-studio-ruei/",
+      "published": "2026-11-06T22:35:27+00:00",
+      "summary": "studio ruei designs macchina gallery café showcasing rotating automobiles against raw industrial interiors. The post concrete pairs with brushed metal for hybrid automotive gallery café in hong kong appeared first on designboom | architecture & design magazine .",
+      "image": "https://www.designboom.com/wp-content/uploads/2026/11/concrete-brushed-metal-hybrid-automotive-gallery-cafe-hong-kong-macchina-studio-ruei-designboom-700-2-500x400-22b08q85r142.jpg",
+      "source": "Designboom",
+      "category": "05 Art Architecture",
+      "angle": "Explorer formes expérimentales",
+      "status": "source_detected_not_editorially_analyzed",
+      "title_fr": "paires de béton avec du métal brossé pour un café de galerie automobile hybride à Hong Kong",
+      "summary_fr": "le studio ruei conçoit le café de la galerie macchina présentant des automobiles en rotation dans des intérieurs industriels bruts. Les paires de poteaux en béton et de métal brossé pour le café de la galerie automobile hybride à Hong Kong sont apparues en premier sur designboom | revue d'architecture et de design."
     },
     {
       "title": "Dior Gets Caught With Their Hand in the AI Jar",
@@ -420,7 +458,8 @@
       "source": "Colossal",
       "category": "05 Art Architecture",
       "angle": "Découvrir dispositifs visuels",
-      "status": "source_detected_not_editorially_analyzed"
+      "status": "source_detected_not_editorially_analyzed",
+      "title_fr": "L'arkivisme est un antidote accessible à l'IA avec plus de 4 millions d'images du domaine public"
     },
     {
       "title": "Macklemore Accuses U.S. Arenas of Turning Down Free Palestine Tour",
@@ -431,7 +470,8 @@
       "source": "Pitchfork",
       "category": "14 Musique Clips",
       "angle": "Analyser les intentions visuelles, la mise en scène, le montage et l'identité des clips",
-      "status": "source_detected_not_editorially_analyzed"
+      "status": "source_detected_not_editorially_analyzed",
+      "title_fr": "Macklemore accuse les arènes américaines de refuser la tournée gratuite en Palestine"
     },
     {
       "title": "Macklemore Says US Arenas Won’t Host His Free Palestine Tour",
@@ -442,7 +482,8 @@
       "source": "Stereogum",
       "category": "14 Musique Clips",
       "angle": "Analyser les intentions visuelles, la mise en scène, le montage et l'identité des clips",
-      "status": "source_detected_not_editorially_analyzed"
+      "status": "source_detected_not_editorially_analyzed",
+      "title_fr": "Macklemore déclare que les arènes américaines n’hébergeront pas sa tournée gratuite en Palestine"
     },
     {
       "title": "Cleo Reed Announces New EP Is This How Empires Die?",
@@ -1187,6 +1228,17 @@
       "angle": "Lire parcours et plans",
       "status": "source_detected_not_editorially_analyzed",
       "image": ""
+    },
+    {
+      "title": "Peter Davis's Gig Pose paintings capture the phones-in-the-air moment at every concert",
+      "url": "https://www.creativeboom.com/inspiration/peter-daviss-gig-pose/",
+      "published": "2026-11-06T07:00:00+00:00",
+      "summary": "The artist famous for painting portraits of people glued to their screens is back. This time, his theme is gigs, and he ponders whether we're really there to see the music. There is nothing more depre...",
+      "image": "",
+      "source": "Creative Boom",
+      "category": "03 DA Graphisme",
+      "angle": "Découvrir les pratiques créatives",
+      "status": "source_detected_not_editorially_analyzed"
     },
     {
       "title": "Prix de la conception lumière ACEtylène 2026 en Europe",
@@ -4005,6 +4057,17 @@
       "status": "source_detected_not_editorially_analyzed"
     },
     {
+      "title": "Écoles de design : derrière un même diplôme, des formations très différentes",
+      "url": "https://www.etapes.com/2026/10/27/ecoles-de-design-derriere-un-meme-diplome-des-formations-tres-differentes/",
+      "published": "2026-10-27T07:41:00+00:00",
+      "summary": "Derrière des intitulés parfois similaires, les formations en design graphique défendent des approches très différentes. Recherche artistique, culture typographique, création numérique, méthodologie de projet ou professionnalisation : chaque établissement construit sa propre vision du métier. Une diversité qui mérite d'être explorée au-delà des intitulés des diplômes The post Écoles de design : derrière un même diplôme, des formations très différentes first appeared on Etapes : .",
+      "image": "",
+      "source": "Étapes",
+      "category": "13 France Marketing Design",
+      "angle": "Suivre créateurs et pratiques",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
       "title": "Nommés 1/6 au Prix de la conception lumière ACEtylène 2026",
       "url": "https://www.lightzoomlumiere.fr/photos/nommes-au-prix-de-la-conception-lumiere-acetylene-2026-realisations-1-a-6/",
       "published": "2026-10-27T06:30:04+00:00",
@@ -4247,6 +4310,17 @@
       "status": "source_detected_not_editorially_analyzed"
     },
     {
+      "title": "Au-delà d’étapes :, PLESS, une expertise confirmée en ingénierie pédagogique",
+      "url": "https://www.etapes.com/2026/10/22/pless-ingenierie-pedagogique-ecoles-design/",
+      "published": "2026-10-22T07:16:00+00:00",
+      "summary": "Au-delà de son activité d'éditeur d'étapes:, PLESS possède une expertise reconnue en ingénierie pédagogique. Fort de son expérience dans la conception et la livraison de formations complètes, le groupe accompagne les établissements d'enseignement, les CFA et les organismes de formation dans la création de parcours pédagogiques, de cours et de modules e-learning. Un savoir-faire qui répond aussi aux besoins des écoles de design, de communication visuelle et des métiers créatifs. The post Au-delà d’étapes :, PLESS, une expertise confirmée en ingénierie pédagogique first appeared on Etapes : .",
+      "image": "",
+      "source": "Étapes",
+      "category": "13 France Marketing Design",
+      "angle": "Suivre créateurs et pratiques",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
       "title": "AnemoSwab",
       "url": "https://www.designindaba.com/articles/creative-work/anemoswab",
       "published": "2026-10-22T06:00:00+00:00",
@@ -4442,6 +4516,17 @@
       "source": "Tsugi",
       "category": "14 Musique Clips",
       "angle": "Décrypter intention, émotion, mise en scène, image et son des clips et performances musicales",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "Un designer est-il responsable de l’image de ses clients ?",
+      "url": "https://www.etapes.com/2026/10/20/un-designer-est-il-responsable-de-limage-de-ses-clients/",
+      "published": "2026-10-20T07:43:00+00:00",
+      "summary": "Après la polémique autour du logo Muse conçu pour Meta, le cas Jessica Hische interroge la responsabilité des designers et les limites de la critique. The post Un designer est-il responsable de l’image de ses clients ? first appeared on Etapes : .",
+      "image": "",
+      "source": "Étapes",
+      "category": "13 France Marketing Design",
+      "angle": "Suivre créateurs et pratiques",
       "status": "source_detected_not_editorially_analyzed"
     },
     {
@@ -5171,6 +5256,17 @@
       "status": "source_detected_not_editorially_analyzed"
     },
     {
+      "title": "Le designer doit-il savoir écrire ?",
+      "url": "https://www.etapes.com/2026/09/30/le-designer-doit-il-savoir-ecrire/",
+      "published": "2026-09-30T12:15:49+00:00",
+      "summary": "Présenter une idée, défendre une direction, penser le ton d’une marque ou une interface : pourquoi l’écriture prend-elle autant de place dans le métier de designer ? The post Le designer doit-il savoir écrire ? first appeared on Etapes : .",
+      "image": "",
+      "source": "Étapes",
+      "category": "13 France Marketing Design",
+      "angle": "Suivre créateurs et pratiques",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
       "title": "Rethink Trade Shows: Beyond the Booth",
       "url": "https://jackmorton.com/pov/rethink-tradeshows-beyond-the-booth/",
       "published": "2026-09-29T18:18:34+00:00",
@@ -5193,6 +5289,17 @@
       "status": "source_detected_not_editorially_analyzed"
     },
     {
+      "title": "Où est passé le fichier source ?",
+      "url": "https://www.etapes.com/2026/09/28/ou-est-passe-le-fichier-source/",
+      "published": "2026-09-28T08:17:00+00:00",
+      "summary": "Entre Figma, cloud, design systems et IA, le fichier source se fragmente. Que devient la mémoire d’un projet graphique quand sa source n’est plus unique ? The post Où est passé le fichier source ? first appeared on Etapes : .",
+      "image": "",
+      "source": "Étapes",
+      "category": "13 France Marketing Design",
+      "angle": "Suivre créateurs et pratiques",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
       "title": "La conception lumière est-elle une discipline vivante ?",
       "url": "https://www.lightzoomlumiere.fr/sur/conception-lumiere/",
       "published": "2026-09-26T21:50:44+00:00",
@@ -5212,6 +5319,17 @@
       "source": "Sight Unseen",
       "category": "05 Art Architecture",
       "angle": "Découvrir matériaux et créateurs",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "Peut-on vieillir dans le design ?",
+      "url": "https://www.etapes.com/2026/09/25/peut-on-vieillir-dans-le-design/",
+      "published": "2026-09-25T07:46:00+00:00",
+      "summary": "Peut-on vieillir dans le design ? Entre âgisme, intelligence artificielle, transmission et évolution des métiers, les carrières créatives se transforment. The post Peut-on vieillir dans le design ? first appeared on Etapes : .",
+      "image": "",
+      "source": "Étapes",
+      "category": "13 France Marketing Design",
+      "angle": "Suivre créateurs et pratiques",
       "status": "source_detected_not_editorially_analyzed"
     },
     {
@@ -5245,6 +5363,17 @@
       "source": "Light ZOOM Lumière",
       "category": "09 France Pro",
       "angle": "Approfondir dispositifs lumineux",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "Qui dessine les lieux ? Dans les coulisses du design de signalétique",
+      "url": "https://www.etapes.com/2026/09/23/qui-dessine-les-lieux-dans-les-coulisses-du-design-de-signaletique/",
+      "published": "2026-09-23T08:08:00+00:00",
+      "summary": "Découvrez les coulisses du design de signalétique, un métier à la croisée du graphisme, de l’architecture et du design d’information The post Qui dessine les lieux ? Dans les coulisses du design de signalétique first appeared on Etapes : .",
+      "image": "",
+      "source": "Étapes",
+      "category": "13 France Marketing Design",
+      "angle": "Suivre créateurs et pratiques",
       "status": "source_detected_not_editorially_analyzed"
     },
     {
@@ -5289,6 +5418,17 @@
       "source": "Sight Unseen",
       "category": "05 Art Architecture",
       "angle": "Découvrir matériaux et créateurs",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "Pourquoi tout le monde pense pouvoir juger un logo",
+      "url": "https://www.etapes.com/2026/09/17/pourquoi-tout-le-monde-pense-pouvoir-juger-un-logo/",
+      "published": "2026-09-17T08:04:37+00:00",
+      "summary": "Pourquoi les logos déclenchent-ils autant de réactions ? Entre attachement, réseaux sociaux, coût, rebranding et jugement instantané, décryptage d’un objet graphique très exposé. The post Pourquoi tout le monde pense pouvoir juger un logo first appeared on Etapes : .",
+      "image": "",
+      "source": "Étapes",
+      "category": "13 France Marketing Design",
+      "angle": "Suivre créateurs et pratiques",
       "status": "source_detected_not_editorially_analyzed"
     },
     {
@@ -5391,6 +5531,17 @@
       "status": "source_detected_not_editorially_analyzed"
     },
     {
+      "title": "Pourquoi le design japonais continue-t-il de nous fasciner ?",
+      "url": "https://www.etapes.com/2026/09/14/pourquoi-le-design-japonais-continue-t-il-de-nous-fasciner/",
+      "published": "2026-09-14T08:12:00+00:00",
+      "summary": "Du poster au packaging, de la typo à la signalétique : pourquoi le design japonais reste influent, entre précision, densité, usage et expérimentation. The post Pourquoi le design japonais continue-t-il de nous fasciner ? first appeared on Etapes : .",
+      "image": "",
+      "source": "Étapes",
+      "category": "13 France Marketing Design",
+      "angle": "Suivre créateurs et pratiques",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
       "title": "Nine great gallery shows to see this month, in New York and beyond",
       "url": "https://www.sightunseen.com/2026/09/nine-great-gallery-shows-to-see-this-month-in-new-york-and-beyond/",
       "published": "2026-09-11T13:00:07+00:00",
@@ -5424,6 +5575,17 @@
       "status": "source_detected_not_editorially_analyzed"
     },
     {
+      "title": "La bonne typographie est-elle devenue un luxe ?",
+      "url": "https://www.etapes.com/2026/09/09/la-bonne-typographie-est-elle-devenue-un-luxe/",
+      "published": "2026-09-09T08:12:00+00:00",
+      "summary": "Koto vient de lancer CcType avec une ambition affichée : proposer des caractères de qualité à des conditions suffisamment accessibles pour les indépendants et les petites structures. L’initiative arrive dans […] The post La bonne typographie est-elle devenue un luxe ? first appeared on Etapes : .",
+      "image": "",
+      "source": "Étapes",
+      "category": "13 France Marketing Design",
+      "angle": "Suivre créateurs et pratiques",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
       "title": "Why Gamescom Matters Beyond Gaming",
       "url": "https://jackmorton.com/pov/why-gamescom-matters-beyond-gaming/",
       "published": "2026-09-07T18:51:39+00:00",
@@ -5432,6 +5594,28 @@
       "source": "Jack Morton",
       "category": "06 Retail Brand Experience",
       "angle": "Construire une dramaturgie de marque",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "Ce que les offres d’emploi disent du métier de designer en 2026",
+      "url": "https://www.etapes.com/2026/09/07/ce-que-les-offres-demploi-disent-du-metier-de-designer-en-2026/",
+      "published": "2026-09-07T07:43:00+00:00",
+      "summary": "Que révèlent les offres d’emploi sur le métier de designer en 2026 ? Compétences, logiciels, motion, IA, salaires et nouvelles attentes des recruteurs. The post Ce que les offres d’emploi disent du métier de designer en 2026 first appeared on Etapes : .",
+      "image": "",
+      "source": "Étapes",
+      "category": "13 France Marketing Design",
+      "angle": "Suivre créateurs et pratiques",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "Maison&Objet septembre 2026 : le design en mouvement",
+      "url": "https://www.etapes.com/2026/09/04/maisonobjet-septembre-2026-le-design-en-mouvement/",
+      "published": "2026-09-04T08:32:00+00:00",
+      "summary": "George Hardie, célèbre pour The Dark Side of the Moon, dévoile cinq décennies de création à Londres lors du London Design Festival 2026. The post Maison&Objet septembre 2026 : le design en mouvement first appeared on Etapes : .",
+      "image": "",
+      "source": "Étapes",
+      "category": "13 France Marketing Design",
+      "angle": "Suivre créateurs et pratiques",
       "status": "source_detected_not_editorially_analyzed"
     },
     {
@@ -5479,6 +5663,28 @@
       "image": ""
     },
     {
+      "title": "À quoi servent encore les projets personnels ?",
+      "url": "https://www.etapes.com/2026/08/31/a-quoi-servent-encore-les-projets-personnels/",
+      "published": "2026-08-31T08:16:00+00:00",
+      "summary": "Pourquoi les designers continuent-ils à mener des projets personnels ? Entre expérimentation, apprentissage, portfolio, visibilité et liberté créative. The post À quoi servent encore les projets personnels ? first appeared on Etapes : .",
+      "image": "",
+      "source": "Étapes",
+      "category": "13 France Marketing Design",
+      "angle": "Suivre créateurs et pratiques",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "Canva a-t-il vraiment démocratisé le design ?",
+      "url": "https://www.etapes.com/2026/08/28/canva-a-t-il-vraiment-democratise-le-design/",
+      "published": "2026-08-28T09:52:00+00:00",
+      "summary": "Canva a démocratisé la création visuelle et bouleversé les usages. Quel impact sur le design graphique, les métiers créatifs et la place des professionnels ? The post Canva a-t-il vraiment démocratisé le design ? first appeared on Etapes : .",
+      "image": "",
+      "source": "Étapes",
+      "category": "13 France Marketing Design",
+      "angle": "Suivre créateurs et pratiques",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
       "title": "What Fandom Can Teach Us About Community",
       "url": "https://jackmorton.com/pov/what-fandom-can-teach-us-about-community/",
       "published": "2026-08-27T14:52:16+00:00",
@@ -5487,6 +5693,17 @@
       "source": "Jack Morton",
       "category": "06 Retail Brand Experience",
       "angle": "Construire une dramaturgie de marque",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "Ce qu’Instagram fait au design",
+      "url": "https://www.etapes.com/2026/08/26/ce-quinstagram-fait-au-design/",
+      "published": "2026-08-26T08:01:00+00:00",
+      "summary": "Instagram transforme la façon dont le design se montre, se diffuse et se crée : rebranding, portfolio, formats, algorithmes, IA et visibilité des designers. The post Ce qu’Instagram fait au design first appeared on Etapes : .",
+      "image": "",
+      "source": "Étapes",
+      "category": "13 France Marketing Design",
+      "angle": "Suivre créateurs et pratiques",
       "status": "source_detected_not_editorially_analyzed"
     },
     {
@@ -5578,6 +5795,28 @@
       "status": "source_detected_not_editorially_analyzed"
     },
     {
+      "title": "Peut-on tout concevoir ?",
+      "url": "https://www.etapes.com/2026/07/23/peut-on-tout-concevoir/",
+      "published": "2026-07-23T08:37:34+00:00",
+      "summary": "Le design est-il neutre ? En rendant une idée, un produit ou un service plus désirable, le designer engage-t-il aussi sa responsabilité ? Une réflexion sur les convictions, l'éthique et les dilemmes de la profession. The post Peut-on tout concevoir ? first appeared on Etapes : .",
+      "image": "",
+      "source": "Étapes",
+      "category": "13 France Marketing Design",
+      "angle": "Suivre créateurs et pratiques",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "Pourquoi les designers parlent-ils si peu d’argent ?",
+      "url": "https://www.etapes.com/2026/07/21/pourquoi-les-designers-parlent-ils-si-peu-dargent/",
+      "published": "2026-07-21T07:17:00+00:00",
+      "summary": "Les designers savent expliquer une intention graphique, défendre une grille typographique ou argumenter un choix de couleurs. Mais lorsqu’il s’agit de parler de leurs honoraires, du prix d’un projet ou […] The post Pourquoi les designers parlent-ils si peu d’argent ? first appeared on Etapes : .",
+      "image": "",
+      "source": "Étapes",
+      "category": "13 France Marketing Design",
+      "angle": "Suivre créateurs et pratiques",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
       "title": "Cannes Lions 2026 Trends | The New Rules of Creativity",
       "url": "https://jackmorton.com/pov/cannes-lions-2026-trends/",
       "published": "2026-07-16T19:37:29+00:00",
@@ -5586,6 +5825,17 @@
       "source": "Jack Morton",
       "category": "06 Retail Brand Experience",
       "angle": "Construire une dramaturgie de marque",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "Le designer passe-t-il désormais plus de temps à dire non qu’à créer ?",
+      "url": "https://www.etapes.com/2026/07/15/le-designer-passe-t-il-desormais-plus-de-temps-a-dire-non-qua-creer/",
+      "published": "2026-07-15T08:17:30+00:00",
+      "summary": "L'intelligence artificielle transforme le quotidien des designers, mais le véritable changement est peut-être ailleurs. Le métier évolue vers davantage de discernement, de sélection et de direction créative. Une réflexion sur l'avenir du design. The post Le designer passe-t-il désormais plus de temps à dire non qu’à créer ? first appeared on Etapes : .",
+      "image": "",
+      "source": "Étapes",
+      "category": "13 France Marketing Design",
+      "angle": "Suivre créateurs et pratiques",
       "status": "source_detected_not_editorially_analyzed"
     },
     {
@@ -5620,6 +5870,28 @@
       "angle": "Étudier les démarches de création",
       "status": "source_detected_not_editorially_analyzed",
       "image": ""
+    },
+    {
+      "title": "Le regard du designer ne prend jamais de vacances",
+      "url": "https://www.etapes.com/2026/07/06/le-regard-du-designer-ne-prend-jamais-de-vacances/",
+      "published": "2026-07-06T11:37:55+00:00",
+      "summary": "Pourquoi les designers ne regardent-ils jamais vraiment le monde comme les autres ? L'été devient un formidable terrain d'observation où signalétique, typographie, packaging et identité visuelle nourrissent le regard créatif. The post Le regard du designer ne prend jamais de vacances first appeared on Etapes : .",
+      "image": "",
+      "source": "Étapes",
+      "category": "13 France Marketing Design",
+      "angle": "Suivre créateurs et pratiques",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "Pourquoi le travail du designer est devenu invisible",
+      "url": "https://www.etapes.com/2026/07/03/pourquoi-le-travail-du-designer-est-devenu-invisible/",
+      "published": "2026-07-03T07:59:00+00:00",
+      "summary": "L'intelligence artificielle n'a peut-être pas rendu le métier de designer obsolète. Elle révèle surtout une réalité ancienne : la véritable valeur du design reste largement invisible aux yeux des clients. The post Pourquoi le travail du designer est devenu invisible first appeared on Etapes : .",
+      "image": "",
+      "source": "Étapes",
+      "category": "13 France Marketing Design",
+      "angle": "Suivre créateurs et pratiques",
+      "status": "source_detected_not_editorially_analyzed"
     },
     {
       "title": "SPOTLIGHT: A centuries old Murano glassmaker reinvents itself for the modern era",
@@ -5928,248 +6200,6 @@
       "angle": "Analyser intention et rythme",
       "status": "source_detected_not_editorially_analyzed",
       "image": ""
-    },
-    {
-      "title": "Giày lội nước, trekking đi biển nữ Humtto 670148B",
-      "url": "https://humtto.vn/giay-loi-nuoc-trekking-di-bien-nu-humtto-670148b/",
-      "published": "2026-05-04T07:43:53+00:00",
-      "summary": "Bài viết Giày lội nước, trekking đi biển nữ Humtto 670148B đã xuất hiện đầu tiên vào ngày Humtto Vietnam .",
-      "source": "Art of the Title",
-      "category": "08 Immersif CGI Motion",
-      "angle": "Analyser intention et rythme",
-      "status": "source_detected_not_editorially_analyzed",
-      "image": ""
-    },
-    {
-      "title": "Giày sandal đi biển trekking thoát nước nhanh nữ Humtto 771222B",
-      "url": "https://humtto.vn/giay-sandal-di-bien-trekking-thoat-nuoc-nhanh-nu-humtto-771222b/",
-      "published": "2026-05-04T07:20:09+00:00",
-      "summary": "Bài viết Giày sandal đi biển trekking thoát nước nhanh nữ Humtto 771222B đã xuất hiện đầu tiên vào ngày Humtto Vietnam .",
-      "source": "Art of the Title",
-      "category": "08 Immersif CGI Motion",
-      "angle": "Analyser intention et rythme",
-      "status": "source_detected_not_editorially_analyzed",
-      "image": ""
-    },
-    {
-      "title": "Giày rọ leo núi lội nước chống trượt nữ Humtto 771588B",
-      "url": "https://humtto.vn/giay-ro-leo-nui-loi-nuoc-chong-truot-nu-humtto-771588b/",
-      "published": "2026-05-04T06:52:49+00:00",
-      "summary": "Bài viết Giày rọ leo núi lội nước chống trượt nữ Humtto 771588B đã xuất hiện đầu tiên vào ngày Humtto Vietnam .",
-      "source": "Art of the Title",
-      "category": "08 Immersif CGI Motion",
-      "angle": "Analyser intention et rythme",
-      "status": "source_detected_not_editorially_analyzed",
-      "image": ""
-    },
-    {
-      "title": "TDC72 Finalists from 40 Countries Announced",
-      "url": "https://tdc.org/news/tdc72-finalists-from-40-countries-announced/",
-      "published": "2026-04-28T13:08:45+00:00",
-      "summary": "PRESS RELEASE NEW YORK, April 28, 2026 — The Type Directors Club, the world’s leading typography organization, has announced 161 finalists from 40 countries for its prestigious TDC72 competition. This […]",
-      "image": "",
-      "source": "Type Directors Club",
-      "category": "11 Graphisme Expertise",
-      "angle": "Étudier hiérarchie et expressivité",
-      "status": "source_detected_not_editorially_analyzed"
-    },
-    {
-      "title": "Dragone announces a new collaboration with Sun Group in Vietnam",
-      "url": "https://dragone.com/dragone-new-collaboration-sun-group-vietnam/",
-      "published": "2026-04-22T08:57:44+00:00",
-      "summary": "Dragone begins a new chapter in Vietnam through a long-term partnership with Sun Group. A pioneer in tourism, real estate development, and entertainment, Sun Group plays an active role in transforming the region. This collaboration marks the first step in bringing Dragone’s vision of large-scale live entertainment to the region. In Phu Quoc, a […]",
-      "image": "",
-      "source": "Dragone",
-      "category": "01 Spectacle Concert",
-      "angle": "Analyser l'intégration scène/architecture",
-      "status": "source_detected_not_editorially_analyzed"
-    },
-    {
-      "title": "Vizrt AI Keyer kills the green screen and creates virtual scenes in any environment",
-      "url": "https://routing.vizrt.com/vizrt/press-center/vizrt-ai-keyer-release/",
-      "published": "2026-04-17T08:30:00+00:00",
-      "summary": "The Vizrt AI Keyer enables virtual and XR scenes in any environment, with background switching and augmented reality (AR) graphics insertion in every space, whether indoors or outdoors. The post Vizrt AI Keyer kills the green screen and creates virtual scenes in any environment appeared first on Vizrt | Transforming Viewer Experiences .",
-      "image": "",
-      "source": "Vizrt",
-      "category": "02 TV Broadcast",
-      "angle": "Explorer la scénographie augmentée",
-      "status": "source_detected_not_editorially_analyzed"
-    },
-    {
-      "title": "“Savoir Revivre” de Jacques Massacrier, la Bible pour vivre en autonomie",
-      "url": "https://grapheine.com/magazine/savoir-revivre-illustration-ecologie/",
-      "published": "2026-04-12T18:23:23+00:00",
-      "summary": "“Savoir Revivre” de Jacques Massacrier est une véritable Bible de la vie en autonomie. La première édition en 1973 fut un phénomène littéraire, vendu à plus de 500 000 exemplaires, traduit dans douze langues. Ce livre devenu culte, entièrement écrit et illustré à la main, a séduit une génération entière, et résonne toujours aujourd'hui.",
-      "image": "",
-      "source": "Graphéine",
-      "category": "13 France Marketing Design",
-      "angle": "Étudier les démarches de création",
-      "status": "source_detected_not_editorially_analyzed"
-    },
-    {
-      "title": "Our Second EcoVadis Assessment",
-      "url": "https://www.superbien.studio/journal/our-ecovadis-assessment",
-      "published": "2026-04-10T16:50:00+00:00",
-      "summary": "In the creative industry, commitment is often talked about, and often rightly so. On a day-to-day basis, however, these efforts can remain vague, informal, or scattered. Superbien has chosen to move from statements to a concrete assessment of its performance… The post Our Second EcoVadis Assessment appeared first on Superbien .",
-      "source": "Superbien",
-      "category": "08 Immersif CGI Motion",
-      "angle": "Étudier spatialisation des images",
-      "status": "source_detected_not_editorially_analyzed",
-      "image": ""
-    },
-    {
-      "title": "La vague brune du Rassemblement National est devenue bleue",
-      "url": "https://grapheine.com/magazine/couleur-extreme-droite-brun-bleu/",
-      "published": "2026-03-22T09:00:23+00:00",
-      "summary": "Un simple changement de couleur, du brun au bleu marine, qui interpelle sur la prétendue neutralité des graphiques et infographies utilisés dans la communication politique.",
-      "image": "",
-      "source": "Graphéine",
-      "category": "13 France Marketing Design",
-      "angle": "Étudier les démarches de création",
-      "status": "source_detected_not_editorially_analyzed"
-    },
-    {
-      "title": "3 questions à Paul Vacca au sujet de la marque",
-      "url": "https://grapheine.com/magazine/3-questions-paul-vacca-claim-marque/",
-      "published": "2026-03-17T11:19:02+00:00",
-      "summary": "Paul Vacca décrypte l’évolution des marques : disparition du claim, nouvelles stratégies, identités fluides et monde habitable.",
-      "image": "",
-      "source": "Graphéine",
-      "category": "13 France Marketing Design",
-      "angle": "Étudier les démarches de création",
-      "status": "source_detected_not_editorially_analyzed"
-    },
-    {
-      "title": "Quand la galerie Anatome exposait le graphisme à Paris",
-      "url": "https://grapheine.com/magazine/quand-la-galerie-anatome-etait-le-lieu-du-graphisme-a-paris/",
-      "published": "2026-03-10T10:33:00+00:00",
-      "summary": "Pendant longtemps, Paris n’a pas eu d’espace spécifique pour exposer le graphisme. Mais en 1999 se crée la galerie Anatome. Durant plus de 12 ans, elle va promouvoir et faire vivre le graphisme dans sa diversité.",
-      "image": "",
-      "source": "Graphéine",
-      "category": "13 France Marketing Design",
-      "angle": "Étudier les démarches de création",
-      "status": "source_detected_not_editorially_analyzed"
-    },
-    {
-      "title": "OUR BEST OUT-OF-HOME CAMPAIGNS FROM THE US",
-      "url": "https://grandvisual.com/our-best-out-of-home-campaigns-from-the-us/",
-      "published": "2026-02-26T13:58:26+00:00",
-      "summary": "How it’s going over our the US office Hey everyone, Mariel here! Life at our Grand Visual New York office has been buzzing this year, and the out-of-home scene has never been more exciting. 2025 delivered some incredible campaigns, and our team has been at the center of it all, bringing bold ideas to life […] The post OUR BEST OUT-OF-HOME CAMPAIGNS FROM THE US appeared first on Grand Visual .",
-      "image": "",
-      "source": "Grand Visual",
-      "category": "07 FOOH OOH DOOH",
-      "angle": "Étudier contexte et réactivité",
-      "status": "source_detected_not_editorially_analyzed"
-    },
-    {
-      "title": "COLLECTION 1 — Mouvements, tendances & écoles graphiques",
-      "url": "https://grapheine.com/magazine/collection-1-mouvements-tendances-ecoles-graphiques/",
-      "published": "2026-02-26T10:56:58+00:00",
-      "summary": "Du tourbillon ornemental de la fin du XIXe siècle aux logos flat d'aujourd'hui, les styles graphiques racontent un siècle de révolutions esthétiques. Plongeons dans un voyage chronologique à travers de grands mouvements qui ont façonné le design contemporain, de la rigueur moderniste au chaos psychédélique de la contre-culture.",
-      "image": "",
-      "source": "Graphéine",
-      "category": "13 France Marketing Design",
-      "angle": "Étudier les démarches de création",
-      "status": "source_detected_not_editorially_analyzed"
-    },
-    {
-      "title": "Global TDC72 Jury Members Talk Type Trends and Judging",
-      "url": "https://tdc.org/news/global-tdc72-jury-members-talk-type-trends-and-judging/",
-      "published": "2026-02-25T17:11:13+00:00",
-      "summary": "NEW YORK, February 25, 2026 — As the Type Directors Club's prestigious TDC72 competition approaches its final submission deadline of February 27, creative leaders from around the world serving on […]",
-      "image": "",
-      "source": "Type Directors Club",
-      "category": "11 Graphisme Expertise",
-      "angle": "Étudier hiérarchie et expressivité",
-      "status": "source_detected_not_editorially_analyzed"
-    },
-    {
-      "title": "WE WON! SET DESIGNER OF THE YEAR",
-      "url": "https://stufish.com/we-won-set-designer-of-the-year-tpi-awards-2026/",
-      "published": "2026-02-24T15:54:45+00:00",
-      "summary": "",
-      "source": "STUFISH",
-      "category": "01 Spectacle Concert",
-      "angle": "Étudier volumes, circulation et dramaturgie spatiale",
-      "status": "source_detected_not_editorially_analyzed",
-      "image": ""
-    },
-    {
-      "title": "Type Drives Commerce Full Lineup Announced on PRINT Magazine",
-      "url": "https://tdc.org/news/exploring-the-intersection-of-typography-business-and-commerce/",
-      "published": "2026-02-23T20:18:17+00:00",
-      "summary": "Check it out on PRINT Magazine!",
-      "image": "",
-      "source": "Type Directors Club",
-      "category": "11 Graphisme Expertise",
-      "angle": "Étudier hiérarchie et expressivité",
-      "status": "source_detected_not_editorially_analyzed"
-    },
-    {
-      "title": "Our 2025 Grand Visual OOH Christmas Campaigns",
-      "url": "https://grandvisual.com/christmas-ooh-campaigns-by-grand-visual/",
-      "published": "2026-02-18T14:36:54+00:00",
-      "summary": "We wrapped up the end of 2025 with some of our favourite Christmas ads! Each year, viewers are eager to see which brands will deliver the most memorable stories, making the holiday season a highly anticipated time for creative advertising. Not only did we push the limits of what to expect from OOH advertising, but […] The post Our 2025 Grand Visual OOH Christmas Campaigns appeared first on Grand Visual .",
-      "image": "",
-      "source": "Grand Visual",
-      "category": "07 FOOH OOH DOOH",
-      "angle": "Étudier contexte et réactivité",
-      "status": "source_detected_not_editorially_analyzed"
-    },
-    {
-      "title": "How did we DOOH it? Kleenex",
-      "url": "https://grandvisual.com/kleenex-how-did-we-dooh-it/",
-      "published": "2026-02-18T14:17:45+00:00",
-      "summary": "From Tissue to TikTok: Kleenex’s Bold Leap Into Live Art On the May bank holiday weekend, Grand Visual helped bring a burst of bold, creative energy to the heart of London, and beyond, with a campaign that turned social engagement into real-time, street-level magic. In collaboration with Kleenex and legendary artist Mr Doodle (aka Sam […] The post How did we DOOH it? Kleenex appeared first on Grand Visual .",
-      "image": "",
-      "source": "Grand Visual",
-      "category": "07 FOOH OOH DOOH",
-      "angle": "Étudier contexte et réactivité",
-      "status": "source_detected_not_editorially_analyzed"
-    },
-    {
-      "title": "How did we DOOH it? Pepsi Sweet Room",
-      "url": "https://grandvisual.com/pepsi-sweetroom-how-did-we-dooh-it/",
-      "published": "2026-02-18T14:07:10+00:00",
-      "summary": "TREAT YOURSELF: Pepsi’s Bringing the Sweetness (Minus the Sugar) You know that mid-afternoon moment when your brain hits snooze, your list of tasks becomes less ‘get it done’ and more ‘good luck with that’, and your motivation? Gone. Poof. Yeah, we’ve all been there. Enter: Pepsi’s newest excuse to treat yourself – and trust us, […] The post How did we DOOH it? Pepsi Sweet Room appeared first on Grand Visual .",
-      "image": "",
-      "source": "Grand Visual",
-      "category": "07 FOOH OOH DOOH",
-      "angle": "Étudier contexte et réactivité",
-      "status": "source_detected_not_editorially_analyzed"
-    },
-    {
-      "title": "How did we DOOH it? Cupra",
-      "url": "https://grandvisual.com/cupra-tavascan-how-did-we-dooh-it/",
-      "published": "2026-02-18T12:25:57+00:00",
-      "summary": "CUPRA TOOK OVER BATTERSEA: A HIGH-VOLTAGE STUNT For one week, shoppers at Battersea Power Station were met with an unexpected sight, a CUPRA Tavascan, suspended high above their heads. No showroom, no static display, just a striking all-electric car hanging in mid-air, stopping people in their tracks. This wasn’t just about making an impression; it […] The post How did we DOOH it? Cupra appeared first on Grand Visual .",
-      "image": "",
-      "source": "Grand Visual",
-      "category": "07 FOOH OOH DOOH",
-      "angle": "Étudier contexte et réactivité",
-      "status": "source_detected_not_editorially_analyzed"
-    },
-    {
-      "title": "TDC Opens 2026 Call For Three Global Scholarship Programs",
-      "url": "https://tdc.org/news/tdc-opens-2026-call-for-three-global-scholarship-programs/",
-      "published": "2026-02-12T17:11:20+00:00",
-      "summary": "PRESS RELEASE NEW YORK, February 12, 2026 — The Type Directors Club, the world’s leading typography organization, has opened the call for applications for its three global student scholarship programs. […]",
-      "image": "",
-      "source": "Type Directors Club",
-      "category": "11 Graphisme Expertise",
-      "angle": "Étudier hiérarchie et expressivité",
-      "status": "source_detected_not_editorially_analyzed"
-    },
-    {
-      "title": "Movement Matters: Variable Fonts’ New Tonal Expressions",
-      "url": "https://tdc.org/news/movement-matters-variable-fonts-new-tonal-expressions/",
-      "published": "2026-02-12T03:53:28+00:00",
-      "summary": "When Type Directors Club asked me to share type design projects I admire, I assumed that focusing on my immediate surroundings would make the task less intimidating.",
-      "image": "",
-      "source": "Type Directors Club",
-      "category": "11 Graphisme Expertise",
-      "angle": "Étudier hiérarchie et expressivité",
-      "status": "source_detected_not_editorially_analyzed"
     }
   ]
 }
