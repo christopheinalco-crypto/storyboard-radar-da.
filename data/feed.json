@@ -226,6 +226,17 @@
   },
   "items": [
     {
+      "url": "https://plsn.com/featured/ayrton-fixtures-used-for-robbie-williams-britpop-world-tour/",
+      "title": "Ayrton Fixtures used for Robbie Williams ‘Britpop’ World Tour",
+      "title_fr": "Robbie Williams : une scénographie mobile pour la tournée « Britpop »",
+      "source": "PLSN",
+      "category": "01 Spectacle Concert",
+      "published": "2025-08-11T12:00:00Z",
+      "summary": "La tournée Britpop de Robbie Williams associe une scénographie STUFISH à éléments mobiles, des écrans suspendus, une scène principale de 25 mètres, une avancée et plusieurs scènes au milieu du public. Lumière : Paul Normandale.",
+      "image": "",
+      "status": "editorial_reviewed"
+    },
+    {
       "title": "Rosalía Reflects On One Year Of Lux With 1,000-Track Playlist",
       "url": "https://stereogum.com/2516941/rosalia-reflects-on-one-year-of-lux-with-1000-track-playlist/news/",
       "published": "2026-11-07T15:26:44+00:00",
@@ -381,7 +392,7 @@
       "category": "05 Art Architecture",
       "angle": "Explorer formes expérimentales",
       "status": "source_detected_not_editorially_analyzed",
-      "title_fr": "paires de béton avec du métal brossé pour un café de galerie automobile hybride à Hong Kong",
+      "title_fr": "Hong Kong : béton et métal brossé pour une galerie automobile et un café",
       "summary_fr": "le studio ruei conçoit le café de la galerie macchina présentant des automobiles en rotation dans des intérieurs industriels bruts. Les paires de poteaux en béton et de métal brossé pour le café de la galerie automobile hybride à Hong Kong sont apparues en premier sur designboom | revue d'architecture et de design."
     },
     {
@@ -911,7 +922,8 @@
       "source": "Promonews",
       "category": "14 Musique Clips",
       "angle": "Analyser les intentions visuelles, la mise en scène, le montage et l'identité des clips",
-      "status": "source_detected_not_editorially_analyzed"
+      "status": "editorial_reviewed",
+      "title_fr": "VANÈS — « Bad Girl Shy » : un clip entre obsession et intimité"
     },
     {
       "title": "What Else Could It Mean? A Book Surveys the Playful, Iconoclastic Works of James Wines",
@@ -1209,7 +1221,8 @@
       "source": "Promonews",
       "category": "14 Musique Clips",
       "angle": "Analyser les intentions visuelles, la mise en scène, le montage et l'identité des clips",
-      "status": "source_detected_not_editorially_analyzed"
+      "status": "source_detected_not_editorially_analyzed",
+      "title_fr": "Omah Lay — « Artificial Happiness » : un arbre au centre du décor"
     },
     {
       "title": "Real journeys with Bayut: people tell the story, ads take a back seat",
@@ -1605,7 +1618,8 @@
       "source": "Mindsparkle Mag",
       "category": "11 Graphisme Expertise",
       "angle": "Découvrir studios émergents",
-      "status": "source_detected_not_editorially_analyzed"
+      "status": "source_detected_not_editorially_analyzed",
+      "title_fr": "Everpure : un monolithe pour rendre visible le stockage des données"
     },
     {
       "title": "Rebuilding After Wildfires Means Rethinking Residential Design",
@@ -2375,7 +2389,8 @@
       "source": "Mindsparkle Mag",
       "category": "11 Graphisme Expertise",
       "angle": "Découvrir studios émergents",
-      "status": "source_detected_not_editorially_analyzed"
+      "status": "source_detected_not_editorially_analyzed",
+      "title_fr": "Une typographie porte-bonheur imprimée en risographie"
     },
     {
       "title": "More Holiday Warmth and Wit from Wallace & Gromit",
@@ -3850,7 +3865,8 @@
       "source": "Mindsparkle Mag",
       "category": "11 Graphisme Expertise",
       "angle": "Découvrir studios émergents",
-      "status": "source_detected_not_editorially_analyzed"
+      "status": "source_detected_not_editorially_analyzed",
+      "title_fr": "Maison Somaé : une identité autour du soleil et de la vague"
     },
     {
       "title": "DeepBook",
@@ -4224,7 +4240,8 @@
       "source": "Mindsparkle Mag",
       "category": "11 Graphisme Expertise",
       "angle": "Découvrir studios émergents",
-      "status": "source_detected_not_editorially_analyzed"
+      "status": "source_detected_not_editorially_analyzed",
+      "title_fr": "L’Artista : une identité graphique qui s'affirme dans la rue"
     },
     {
       "title": "Swiss Typefaces crafts a warmer, friendlier custom font for Swiss Post",
@@ -4345,7 +4362,8 @@
       "source": "Mindsparkle Mag",
       "category": "11 Graphisme Expertise",
       "angle": "Découvrir studios émergents",
-      "status": "source_detected_not_editorially_analyzed"
+      "status": "source_detected_not_editorially_analyzed",
+      "title_fr": "Black Paper : une identité ton sur ton inspirée de l'impression"
     },
     {
       "title": "A foiled moon on a fading night sky wraps LA MAISON's vegan mooncakes",
@@ -6050,7 +6068,8 @@
       "source": "Imagination",
       "category": "06 Retail Brand Experience",
       "angle": "Analyser expérience comme stratégie",
-      "status": "source_detected_not_editorially_analyzed"
+      "status": "source_detected_not_editorially_analyzed",
+      "title_fr": "Visa et Coupe du monde 2026 : la technologie derrière l'expérience"
     },
     {
       "title": "La membrane technique Serge Ferrari change le bâtiment",
