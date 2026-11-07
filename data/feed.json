@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-07T10:37:53.452712+00:00",
+  "updated_at": "2026-11-07T10:41:34.485076+00:00",
   "status": "collected_unreviewed",
   "working_feeds": [
     {
@@ -99,7 +99,7 @@
     }
   ],
   "collection_slot": 3,
-  "sources_checked": 85,
+  "sources_checked": 92,
   "backfill_test": {
     "period": "2026-11-01/2026-11-07",
     "articles": 208,
