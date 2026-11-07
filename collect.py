@@ -83,18 +83,18 @@ def parse(blob):
    pic=valid_image(pic) or valid_image(image_from_markup(desc))
    entries.append(dict(title=title,url=link,published=date(val('pubDate','{http://www.w3.org/2005/Atom}published','{http://www.w3.org/2005/Atom}updated')),summary=clean(desc),image=pic))
  return entries
-# Rotation stable par jour : toutes les sources passent sur quatre créneaux,
+# Rotation stable par jour : toutes les sources passent sur six créneaux,
 # avec un quota renforcé pour les arts de la scène, la TV, les clips et la danse.
 now=datetime.datetime.now(datetime.timezone.utc)
-slot=int(os.environ.get('RADAR_SLOT_INDEX',str({6:0,10:1,14:2,18:3}.get(now.hour,(now.hour//6)%4))))%4
+slot=int(os.environ.get('RADAR_SLOT_INDEX',str({6:0,9:1,12:2,15:3,18:4,21:5}.get(now.hour,(now.hour//3)%6))))%4
 seed=int(hashlib.sha256(now.date().isoformat().encode()).hexdigest()[:12],16)
 by_category={}
 for s in sources:by_category.setdefault(s['category'],[]).append(s)
-rotations=[[],[],[],[]]
+rotations=[[] for _ in range(6)]
 for category,group in sorted(by_category.items()):
  group=group[:]
  random.Random(seed+int(hashlib.md5(category.encode()).hexdigest()[:8],16)).shuffle(group)
- for i,s in enumerate(group):rotations[i%4].append(s)
+ for i,s in enumerate(group):rotations[i%6].append(s)
 # Lors d'un déclenchement manuel, inspecter toutes les sources ; en automatique,
 # répartir la charge sur la journée et conserver un renouvellement transversal.
 selected=sources if os.environ.get('RADAR_SLOT','')=='manual' else rotations[slot]
