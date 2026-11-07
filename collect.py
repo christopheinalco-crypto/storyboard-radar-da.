@@ -17,9 +17,22 @@ def date(v):
  except Exception:
   try:return datetime.datetime.fromisoformat(v.replace('Z','+00:00')).isoformat()
   except Exception:return ''
+KNOWN_FEEDS={
+ 'promonews.tv':['https://www.promonews.tv/rss.xml','https://www.promonews.tv/feed'],
+ 'stereogum.com':['https://www.stereogum.com/feed/'],
+ 'pitchfork.com':['https://pitchfork.com/rss/news/','https://pitchfork.com/rss/reviews/music/'],
+ 'directorsnotes.com':['https://directorsnotes.com/feed/'],
+ 'livedesignonline.com':['https://www.livedesignonline.com/rss.xml'],
+ 'tpimagazine.com':['https://www.tpimagazine.com/feed/'],
+ 'newscaststudio.com':['https://www.newscaststudio.com/feed/'],
+ 'plsn.com':['https://plsn.com/feed/'],
+ 'lsionline.com':['https://www.lsionline.com/feed/']
+}
 def candidates(url):
- p=urllib.parse.urlsplit(url);base=f'{p.scheme}://{p.netloc}'
- return [base+'/feed',base+'/feed/',base+'/rss',base+'/rss.xml',base+'/feed.xml',base+'/atom.xml']
+ p=urllib.parse.urlsplit(url);base=f'{p.scheme}://{p.netloc}';host=p.netloc.removeprefix('www.')
+ direct=KNOWN_FEEDS.get(host,[])
+ if any(p.path.lower().endswith(z) for z in ['/feed','/feed/','.xml','/rss']):direct=[url]+direct
+ return list(dict.fromkeys(direct+[base+'/feed',base+'/feed/',base+'/rss',base+'/rss.xml',base+'/feed.xml',base+'/atom.xml']))
 def image_from_markup(markup):
  if not markup:return ''
  m=re.search(r'<img[^>]+(?:src|data-src)\\s*=\\s*["\\x27](https?[^"\\x27]+)',markup,re.I)
@@ -73,12 +86,12 @@ def parse(blob):
 # Focus on high-priority sources; broaden as feeds are validated.
 checked=0;working=[]
 for s in sources:
- if s['priority']!='P1':continue
+ if s['priority']!='P1' and s['category'] not in ('01 Spectacle Concert','02 TV Broadcast','14 Musique Clips'):continue
  for u in candidates(s['url']):
   blob=get(u);feed=parse(blob) if blob else []
   if feed:
    working.append({'name':s['name'],'feed':u})
-   for x in feed[:12]:
+   for x in feed[:18]:
     x.update(source=s['name'],category=s['category'],angle=s['interest'],status='source_detected_not_editorially_analyzed')
     previous=items.get(x['url'],{})
     if not x.get('image'):x['image']=previous.get('image','')
@@ -87,13 +100,13 @@ for s in sources:
  checked+=1
 # Enrichir un nombre limité d'articles récents sans ralentir excessivement le workflow.
 missing=[x for x in sorted(items.values(),key=lambda y:y.get('published',''),reverse=True)[:80] if not x.get('image')]
-for x in missing[:35]:
+for x in missing[:55]:
  x['image']=og_image(x['url'])
 # Traduction incrémentale, plafonnée pour respecter les limites du service externe.
 recent=sorted(items.values(),key=lambda y:y.get('published',''),reverse=True)
 translated=0
-for x in recent[:100]:
- if translated>=24:break
+for x in recent[:140]:
+ if translated>=32:break
  if not x.get('title_fr'):
   tr=translate_fr(x.get('title',''))
   if tr:x['title_fr']=tr;translated+=1
@@ -102,5 +115,5 @@ for x in recent[:100]:
   tr=translate_fr(x['summary'])
   if tr:x['summary_fr']=tr;translated+=1
 print('Checked',checked,'feeds found',len(working),'items',len(items),'images',sum(bool(x.get('image')) for x in items.values()),'translated fields',translated)
-result={'updated_at':datetime.datetime.now(datetime.timezone.utc).isoformat(),'status':'collected_unreviewed','working_feeds':working,'items':sorted(items.values(),key=lambda x:x.get('published',''),reverse=True)[:400]}
+result={'updated_at':datetime.datetime.now(datetime.timezone.utc).isoformat(),'status':'collected_unreviewed','working_feeds':working,'items':sorted(items.values(),key=lambda x:x.get('published',''),reverse=True)[:550]}
 with open(os.path.join(ROOT,'data/feed.json'),'w',encoding='utf8') as f:json.dump(result,f,ensure_ascii=False,indent=2)
