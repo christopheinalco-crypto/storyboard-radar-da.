@@ -7,7 +7,7 @@ on:
       - 'data/sources.json'
       - '.github/workflows/veille.yml'
   schedule:
-    - cron: '20 7 * * *'
+    - cron: '15 6,10,14,18 * * *'
 permissions:
   contents: write
 jobs:
@@ -18,7 +18,10 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - run: python collect.py
+      - name: Collecter le créneau éditorial
+        env:
+          RADAR_SLOT: ${{ github.event.schedule || 'manual' }}
+        run: python collect.py
       - name: Publier les nouvelles données
         run: |
           git config user.name 'radar-da-bot'
