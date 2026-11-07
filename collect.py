@@ -35,6 +35,16 @@ def og_image(url):
   if not m:m=re.search(r'<meta[^>]+content=[\\\"\\\']([^\\\"\\\']+)[\\\"\\\'][^>]+(?:property|name)=[\\\"\\\'](?:og:image|twitter:image)[\\\"\\\']',raw,re.I)
   return valid_image(urllib.parse.urljoin(url,html.unescape(m.group(1)))) if m else ''
  except Exception:return ''
+def translate_fr(value):
+ """Traduction best-effort : conserve l'original si le service public échoue."""
+ if not value or len(value)<3:return value
+ try:
+  query=urllib.parse.urlencode({'client':'gtx','sl':'auto','tl':'fr','dt':'t','q':value[:650]})
+  req=urllib.request.Request('https://translate.googleapis.com/translate_a/single?'+query,headers=HEAD)
+  with urllib.request.urlopen(req,timeout=6) as r: data=json.load(r)
+  result=''.join(part[0] or '' for part in data[0])
+  return result.strip() if result.strip() else ''
+ except Exception:return ''
 def parse(blob):
  try:root=ET.fromstring(blob)
  except Exception:return []
@@ -78,6 +88,18 @@ for s in sources:
 missing=[x for x in sorted(items.values(),key=lambda y:y.get('published',''),reverse=True)[:80] if not x.get('image')]
 for x in missing[:35]:
  x['image']=og_image(x['url'])
-print('Checked',checked,'feeds found',len(working),'items',len(items),'images',sum(bool(x.get('image')) for x in items.values()))
+# Traduction incrémentale, plafonnée pour respecter les limites du service externe.
+recent=sorted(items.values(),key=lambda y:y.get('published',''),reverse=True)
+translated=0
+for x in recent[:100]:
+ if translated>=24:break
+ if not x.get('title_fr'):
+  tr=translate_fr(x.get('title',''))
+  if tr:x['title_fr']=tr;translated+=1
+ if translated>=24:break
+ if x.get('summary') and not x.get('summary_fr'):
+  tr=translate_fr(x['summary'])
+  if tr:x['summary_fr']=tr;translated+=1
+print('Checked',checked,'feeds found',len(working),'items',len(items),'images',sum(bool(x.get('image')) for x in items.values()),'translated fields',translated)
 result={'updated_at':datetime.datetime.now(datetime.timezone.utc).isoformat(),'status':'collected_unreviewed','working_feeds':working,'items':sorted(items.values(),key=lambda x:x.get('published',''),reverse=True)[:400]}
 with open(os.path.join(ROOT,'data/feed.json'),'w',encoding='utf8') as f:json.dump(result,f,ensure_ascii=False,indent=2)
