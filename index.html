@@ -371,7 +371,7 @@ function editorialReadingHTML(x){
  '<div class="da-editorial-conclusion"><div>CE QU’ON PEUT EN TIRER</div><p>'+escapeHTML(analysis.takeaway)+'</p></div></div>';
 }
 function sourceDescription(x){
- return (x.summary_fr||x.summary||'').replace(/The post [\\s\\S]*?appeared first on[\\s\\S]*$/i,'').replace(/behind its /i,'behind its ').trim();
+ return (x.summary_fr||x.summary||'').replace(/The post[\s\S]*?appeared first on[\s\S]*$/i,'').replace(/behind its /i,'behind its ').trim();
 }
 // Grille stable, contenu dynamique : aucune affirmation sans élément observable de la source.
 function evidenceOfDesign(x){
