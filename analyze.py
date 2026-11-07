@@ -62,14 +62,30 @@ CATEGORY_PRIORITY={
 PROJECT_SIGNALS=r'scenograph|scenograph|stage design|tour production|concert production|live show|set design|lighting design|broadcast set|tv studio|music video|directed by|performance|stage production|production design|show design|immersive experience|projection mapping|interactive installation|spatial design|event scenography|brand activation|advertising campaign|creative campaign|art direction|dance film|choreograph|fooh|dooh|out.of.home'
 CREATIVE_SIGNALS=r'concept|intention|storytell|narrativ|dramaturg|emotion|visual|material|texture|lighting|light|color|colour|space|set|direction|film|design|experience|creative|campaign|installation|identity|cinematograph'
 NON_PROJECT=r'sag.aftra|unioniz|union recognition|collective bargain|labor agreement|labour agreement|trade union|workers.rights|union contract|union membership|syndicat|syndical|reconnaissance syndicale|convention collective|appointment|appointed|acquires|acquisition|product launch|introduces|new microphone|distribution partner|conference|trade show|expo|award|playlist|review|podcast|nominees|new album|earnings|hiring|job opening|ranking|chart'
+def editorial_precheck(x):
+ """Conservative, testable gate before any Gemini request."""
+ title=(x.get('title') or '').lower()
+ summary=(x.get('summary') or '').lower()
+ text=title+' '+summary
+ cat=(x.get('category') or '')[:2]
+ if cat in {'03','11'}:return False,'graphic_category'
+ if re.search(r'back[ -]?2[ -]?back|back[ -]?to[ -]?back|chacun son tour',text):return False,'music_general'
+ if re.search(NON_PROJECT,text):return False,'non_project'
+ if re.search(r'\b(?:announces?|annonce|new album|nouvel album|new single|nouveau single|tour dates|dates de tournée|best songs|songs of the week|roundup|panorama des singles)\b',title):return False,'announcement_or_roundup'
+ # A named creative project, plus a concrete production discipline and documented choices.
+ disciplines=r'scenograph|scénograph|stage design|set design|lighting design|conception lumière|production design|show design|broadcast set|tv studio|plateau télé|music video|vidéoclip|clip musical|projection mapping|immersive installation|installation immersive|choreograph|chorégraph|mise en scène|stage production|concert production|tour production|live production|directed by|réalisé par'
+ evidence=r'design|concep|création|created|built|construi|transform|lighting|lumière|projection|stage|scène|set |décor|costume|material|matériau|texture|color|colour|couleur|camera|caméra|cadrage|movement|mouvement|choreograph|chorégraph|montage|rythme|dramaturg|sculpt|spatial|espace'
+ if not re.search(disciplines,text):return False,'no_specific_visual_project'
+ if not re.search(evidence,text):return False,'no_creative_decision'
+ return True,'candidate'
+
 def score(x):
+ ok,reason=editorial_precheck(x)
+ if not ok:return -100
  t=(x.get('title','')+' '+x.get('summary','')).lower()
  cat=(x.get('category') or '')[:2]
  project=bool(re.search(PROJECT_SIGNALS,t))
  creative=bool(re.search(CREATIVE_SIGNALS,t))
- nonproject=bool(re.search(NON_PROJECT,t))
- # Une categorie prioritaire ne suffit pas : il faut des indices d'un projet concret.
- if nonproject:return -100
  return CATEGORY_PRIORITY.get(cat,35)+(65 if project else 0)+(20 if creative else 0)+(10 if x.get('image') else 0)+min(len(x.get('summary',''))//90,12)
 # Jusqu'a trois projets par categorie et par veille, avec priorite aux shows, concerts et TV.
 # Garde-fou du quota gratuit : 15 appels Gemini maximum par execution.
