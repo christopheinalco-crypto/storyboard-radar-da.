@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-07T17:29:28.704498+00:00",
+  "updated_at": "2026-11-07T19:41:53.942517+00:00",
   "status": "collected_unreviewed",
   "working_feeds": [
     {
@@ -163,6 +163,11 @@
       "category": "11 Graphisme Expertise"
     },
     {
+      "name": "Awwwards",
+      "feed": "https://www.awwwards.com/feed",
+      "category": "03 DA Graphisme"
+    },
+    {
       "name": "Artforum",
       "feed": "https://www.artforum.com/feed",
       "category": "05 Art Architecture"
@@ -196,46 +201,20 @@
       "name": "Stash",
       "feed": "https://www.stashmedia.tv/feed",
       "category": "08 Immersif CGI Motion"
-    },
-    {
-      "name": "Campaign Middle East",
-      "feed": "https://campaignme.com/feed",
-      "category": "04 Pub Strategie"
-    },
-    {
-      "name": "IDlia Studio",
-      "feed": "https://www.idlia.fr/feed",
-      "category": "09 France Pro"
-    },
-    {
-      "name": "FRATERCINÉ",
-      "feed": "https://www.fratercine.fr/feed",
-      "category": "09 France Pro"
     }
   ],
   "collection_slot": 0,
-  "collection_hour_paris": 18,
+  "collection_hour_paris": 20,
   "sources_selected": 182,
-  "sources_checked": 152,
+  "sources_checked": 138,
   "special_test": false,
   "special_selection": {},
   "backfill_test": {
     "period": "2026-11-01/2026-11-07",
-    "articles": 366,
-    "with_images": 171
+    "articles": 368,
+    "with_images": 172
   },
   "items": [
-    {
-      "url": "https://plsn.com/featured/ayrton-fixtures-used-for-robbie-williams-britpop-world-tour/",
-      "title": "Ayrton Fixtures used for Robbie Williams ‘Britpop’ World Tour",
-      "title_fr": "Robbie Williams : une scénographie mobile pour la tournée « Britpop »",
-      "source": "PLSN",
-      "category": "01 Spectacle Concert",
-      "published": "2025-08-11T12:00:00Z",
-      "summary": "La tournée Britpop de Robbie Williams associe une scénographie STUFISH à éléments mobiles, des écrans suspendus, une scène principale de 25 mètres, une avancée et plusieurs scènes au milieu du public. Lumière : Paul Normandale.",
-      "image": "",
-      "status": "editorial_reviewed"
-    },
     {
       "title": "Rosalía Reflects On One Year Of Lux With 1,000-Track Playlist",
       "url": "https://stereogum.com/2516941/rosalia-reflects-on-one-year-of-lux-with-1000-track-playlist/news/",
@@ -245,7 +224,9 @@
       "source": "Stereogum",
       "category": "14 Musique Clips",
       "angle": "Analyser les intentions visuelles, la mise en scène, le montage et l'identité des clips",
-      "status": "source_detected_not_editorially_analyzed"
+      "status": "source_detected_not_editorially_analyzed",
+      "title_fr": "Rosalía revient sur une année de Lux avec une liste de lecture de 1 000 titres",
+      "summary_fr": "Le message Rosalía réfléchit sur un an de Lux avec une liste de lecture de 1 000 titres apparaît en premier sur Stereogum."
     },
     {
       "title": "julia lohmann’s otherworldly kelp sculptures imagine a future beyond human-centered design",
@@ -256,7 +237,9 @@
       "source": "Designboom",
       "category": "05 Art Architecture",
       "angle": "Explorer formes expérimentales",
-      "status": "source_detected_not_editorially_analyzed"
+      "status": "source_detected_not_editorially_analyzed",
+      "title_fr": "Les sculptures de varech surnaturelles de Julia Lohmann imaginent un avenir au-delà de la conception centrée sur l'humain",
+      "summary_fr": "Des bancs de vaches recouverts de cuir aux imposantes sculptures de varech, Julia Lohmann s'interroge sur la manière dont les humains transforment les organismes vivants en matériaux de conception. Les sculptures de varech surnaturelles de Julia Lohmann imaginent un avenir au-delà de la conception centrée sur l'humain sont apparues en premier sur designboom | revue d'architecture et de design."
     },
     {
       "title": "“Christmas Wrapping” Songwriter Is A Huge Olivia Rodrigo Fan And Says Her New Single Is An “Homage,” Not A Ripoff",
@@ -267,6 +250,18 @@
       "source": "Stereogum",
       "category": "14 Musique Clips",
       "angle": "Analyser les intentions visuelles, la mise en scène, le montage et l'identité des clips",
+      "status": "source_detected_not_editorially_analyzed",
+      "title_fr": "L'auteur-compositeur de \"Christmas Wrapping\" est une grande fan d'Olivia Rodrigo et dit que son nouveau single est un \"hommage\" et non une arnaque"
+    },
+    {
+      "title": "Amabile Apartment / Denis Joelsons",
+      "url": "https://www.archdaily.com/1188223/amabile-apartment-denis-joelsons",
+      "published": "2026-11-07T13:00:00+00:00",
+      "summary": "When Amabile invited me to visit the apartment, her initial plan was to install a gas water heater and refresh the spaces. The apartment was dark, with the bedrooms facing the street and the social areas facing the neighboring lot.",
+      "image": "",
+      "source": "ArchDaily",
+      "category": "05 Art Architecture",
+      "angle": "Lire parcours et plans",
       "status": "source_detected_not_editorially_analyzed"
     },
     {
@@ -303,6 +298,17 @@
       "status": "source_detected_not_editorially_analyzed",
       "title_fr": "Imagicario : la mécanique d’équilibre du “Parédolia Duo”",
       "summary_fr": "Faire tenir deux corps à près de 4 m du sol sur des échasses droites tout en jouant l’intimité d’un couple, c’est le pari technique de la compagnie montréalaise Imagicario avec son Parédolia Duo, présenté ici au Centre sportif et récréatif de Montréal-Ouest. Les têtes sont remplacées par de véritables réverbères d’époque équipés de sources lumineuses autonomes En savoir plus surImagicario : la mécanique d’équilibre du “Parédolia Duo” […] Cet article Imagicario : la mécanique d’équilibre du “Parédolia Duo” est apparu en premier sur Revue AS ."
+    },
+    {
+      "title": "atelier gabu hand-builds observation tower on french hillside using timber and translucent fabric",
+      "url": "https://www.designboom.com/architecture/atelier-gabu-observation-tower-french-hillside-timber-translucent-fabric-brunebasse/",
+      "published": "2026-11-07T08:45:43+00:00",
+      "summary": "facing a medieval stone ruin in vaudémont, france, atelier gabu completes brunebasse open-grid timber observation tower for l’écho du marteau. The post atelier gabu hand-builds observation tower on french hillside using timber and translucent fabric appeared first on designboom | architecture & design magazine .",
+      "image": "https://www.designboom.com/wp-content/uploads/2026/11/atelier-gabu-timber-observation-tower-france-designboom-700-500x400-22b08q85r029.jpg",
+      "source": "Designboom",
+      "category": "05 Art Architecture",
+      "angle": "Explorer formes expérimentales",
+      "status": "source_detected_not_editorially_analyzed"
     },
     {
       "title": "A Walk on the Roof: Linnahall and Tallinn’s Shifting Shoreline",
@@ -922,7 +928,7 @@
       "source": "Promonews",
       "category": "14 Musique Clips",
       "angle": "Analyser les intentions visuelles, la mise en scène, le montage et l'identité des clips",
-      "status": "editorial_reviewed",
+      "status": "source_detected_not_editorially_analyzed",
       "title_fr": "VANÈS — « Bad Girl Shy » : un clip entre obsession et intimité"
     },
     {
@@ -6361,28 +6367,6 @@
       "category": "06 Retail Brand Experience",
       "angle": "Construire une dramaturgie de marque",
       "status": "source_detected_not_editorially_analyzed"
-    },
-    {
-      "title": "Experiences that made me Viviana Stecconi",
-      "url": "https://imagination.com/latest/experiences-that-made-me-viviana-stecconi/",
-      "published": "2026-09-16T09:40:47+00:00",
-      "summary": "In this series, we ask Imagination talent all about the experiences that have made them who they are. This month we spoke to Viviana Stecconi, Client Services Director from our Dubai studio. Tell us what you do… My role sits somewhere between clients, strategy, creative, and delivery, so essentially, I help turn ambitious ideas into […]",
-      "image": "",
-      "source": "Imagination",
-      "category": "06 Retail Brand Experience",
-      "angle": "Analyser expérience comme stratégie",
-      "status": "source_detected_not_editorially_analyzed"
-    },
-    {
-      "title": "3 questions à Matthieu Bernard : Penser l’immobilier comme une marque.",
-      "url": "https://grapheine.com/magazine/3-questions-matthieu-bernard-immobilier-marque/",
-      "published": "2026-09-16T09:38:47+00:00",
-      "summary": "Et si un immeuble se pensait comme une marque ? Matthieu Bernard revient sur l’évolution du marketing immobilier, où identité, récit et émotion transforment désormais les bâtiments en véritables expériences.",
-      "source": "Graphéine",
-      "category": "13 France Marketing Design",
-      "angle": "Étudier les démarches de création",
-      "status": "source_detected_not_editorially_analyzed",
-      "image": ""
     }
   ]
 }
