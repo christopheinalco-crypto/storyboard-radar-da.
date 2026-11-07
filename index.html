@@ -596,6 +596,42 @@ function closeStudy(){$('#reader').classList.remove('open');document.body.style.
 $('#reader').addEventListener('click',e=>{if(e.target.id==='reader')closeStudy()});document.addEventListener('keydown',e=>{if(e.key==='Escape')closeStudy()});
 function drawSources(){let q=$('#srcsearch').value.toLowerCase(),prio=$('#srcprio').value,a=SOURCES.filter(s=>(!prio||s.priority===prio)&&JSON.stringify(s).toLowerCase().includes(q));$('#sourcecount').textContent=a.length+' SOURCES';$('#sourceitems').innerHTML=a.map(s=>`<div class="sourceRow"><div><div><b>${escapeHTML(s.name)}</b> <span class="tag">${escapeHTML(s.priority)}</span></div><div class="muted small">${escapeHTML(s.category.replace(/^\d+ /,''))} · ${escapeHTML(s.specialty)}</div><div class="small" style="color:#c5d6b9">${escapeHTML(s.interest)}</div></div><a href="${escapeHTML(s.url)}" target="_blank" rel="noopener noreferrer">Ouvrir ↗</a></div>`).join('')}
 ['cat'].forEach(x=>$('#'+x).addEventListener('input',drawFeed));['srcsearch','srcprio'].forEach(x=>$('#'+x).addEventListener('input',drawSources));
-Promise.all([fetch('./data/sources.json').then(r=>r.json()),fetch('./data/feed.json').then(r=>r.json()),
- fetch('./data/analyses.json').then(r=>r.ok?r.json():{}).catch(()=>({})) ]).then(([s,f,a])=>{AI_EDITORIAL_CASES=a||{};SOURCES=s;ITEMS=f.items||[];SPECIAL_SELECTION=f.special_test&&f.special_selection?f.special_selection:null;categories();drawSources();drawFeed();renderCategoryNav();$('#stamp').textContent=ITEMS.length?'Sélection de projets à décrypter':'Projets en préparation'}).catch(e=>{$('#feed').innerHTML='<div class="empty">Impossible de charger les veilles. Réessaie en actualisant la page.</div>'});
+let lastLoadedVersion='';
+let refreshing=false;
+async function refreshRadar({quiet=false}={}){
+ if(refreshing)return;
+ refreshing=true;
+ const stamp=$('#stamp');
+ if(!quiet&&stamp)stamp.textContent='Vérification des nouvelles publications…';
+ try{
+  const nonce=Date.now();
+  const load=async path=>{
+   const response=await fetch(path+'?fresh='+nonce,{cache:'no-store',headers:{'Cache-Control':'no-cache'}});
+   if(!response.ok)throw new Error(path+' : HTTP '+response.status);
+   return response.json();
+  };
+  const [sources,feed,analyses]=await Promise.all([load('./data/sources.json'),load('./data/feed.json'),load('./data/analyses.json')]);
+  const newVersion=String(feed.updated_at||'')+'|'+Object.keys(analyses||{}).length;
+  SOURCES=sources;ITEMS=feed.items||[];AI_EDITORIAL_CASES=analyses||{};
+  SPECIAL_SELECTION=feed.special_test&&feed.special_selection?feed.special_selection:null;
+  categories();drawSources();drawFeed();renderCategoryNav();
+  const changed=lastLoadedVersion&&newVersion!==lastLoadedVersion;
+  lastLoadedVersion=newVersion;
+  if(stamp)stamp.textContent=changed?'Veille mise à jour · '+new Date().toLocaleTimeString('fr-FR',{hour:'2-digit',minute:'2-digit'}):'Veille vérifiée · '+new Date().toLocaleTimeString('fr-FR',{hour:'2-digit',minute:'2-digit'});
+ }catch(err){
+  if(stamp)stamp.textContent='Mise à jour indisponible · réessayer';
+  if(!ITEMS.length)$('#feed').innerHTML='<div class="empty">Impossible de charger les veilles. Réessaie dans quelques instants.</div>';
+  console.error('RADAR refresh:',err);
+ }finally{refreshing=false;}
+}
+const refreshButton=document.createElement('button');
+refreshButton.type='button';refreshButton.textContent='↻ Actualiser la veille';
+refreshButton.setAttribute('aria-label','Vérifier les nouvelles publications');
+refreshButton.style.cssText='margin-left:12px;padding:7px 12px;border:1px solid #71875d;border-radius:8px;background:#172619;color:#e9f7d8;font-size:12px;cursor:pointer';
+refreshButton.addEventListener('click',()=>refreshRadar());
+$('#stamp')?.insertAdjacentElement('afterend',refreshButton);
+refreshRadar();
+document.addEventListener('visibilitychange',()=>{if(!document.hidden)refreshRadar({quiet:true})});
+window.addEventListener('pageshow',e=>{if(e.persisted)refreshRadar({quiet:true})});
+
 </script></body></html>
