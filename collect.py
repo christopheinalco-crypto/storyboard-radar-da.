@@ -1,5 +1,5 @@
 """Collect RSS/Atom from editorial source domains. No fabricated DA analyses."""
-import json,os,re,datetime,urllib.parse,urllib.request,xml.etree.ElementTree as ET,html
+import json,os,re,datetime,urllib.parse,urllib.request,xml.etree.ElementTree as ET,html,random,hashlib
 from email.utils import parsedate_to_datetime
 ROOT=os.path.dirname(__file__)
 sources=json.load(open(os.path.join(ROOT,'data/sources.json'),encoding='utf8'))
@@ -83,14 +83,28 @@ def parse(blob):
    pic=valid_image(pic) or valid_image(image_from_markup(desc))
    entries.append(dict(title=title,url=link,published=date(val('pubDate','{http://www.w3.org/2005/Atom}published','{http://www.w3.org/2005/Atom}updated')),summary=clean(desc),image=pic))
  return entries
-# Focus on high-priority sources; broaden as feeds are validated.
+# Rotation stable par jour : toutes les sources passent sur quatre créneaux,
+# avec un quota renforcé pour les arts de la scène, la TV, les clips et la danse.
+now=datetime.datetime.now(datetime.timezone.utc)
+slot=int(os.environ.get('RADAR_SLOT_INDEX',str((now.hour//6)%4)))%4
+seed=int(hashlib.sha256(now.date().isoformat().encode()).hexdigest()[:12],16)
+by_category={}
+for s in sources:by_category.setdefault(s['category'],[]).append(s)
+rotations=[[],[],[],[]]
+for category,group in sorted(by_category.items()):
+ group=group[:]
+ random.Random(seed+int(hashlib.md5(category.encode()).hexdigest()[:8],16)).shuffle(group)
+ for i,s in enumerate(group):rotations[i%4].append(s)
+# Lors d'un déclenchement manuel, inspecter toutes les sources ; en automatique,
+# répartir la charge sur la journée et conserver un renouvellement transversal.
+selected=sources if os.environ.get('RADAR_SLOT','')=='manual' else rotations[slot]
+random.Random(seed+slot).shuffle(selected)
 checked=0;working=[]
-for s in sources:
- if s['priority']!='P1' and s['category'] not in ('01 Spectacle Concert','02 TV Broadcast','14 Musique Clips'):continue
- for u in candidates(s['url'])[:2]:
+for s in selected:
+ for u in candidates(s['url'])[:3]:
   blob=get(u);feed=parse(blob) if blob else []
   if feed:
-   working.append({'name':s['name'],'feed':u})
+   working.append({'name':s['name'],'feed':u,'category':s['category']})
    for x in feed[:18]:
     x.update(source=s['name'],category=s['category'],angle=s['interest'],status='source_detected_not_editorially_analyzed')
     previous=items.get(x['url'],{})
@@ -100,20 +114,20 @@ for s in sources:
  checked+=1
 # Enrichir un nombre limité d'articles récents sans ralentir excessivement le workflow.
 missing=[x for x in sorted(items.values(),key=lambda y:y.get('published',''),reverse=True)[:80] if not x.get('image')]
-for x in missing[:55]:
+for x in missing[:18]:
  x['image']=og_image(x['url'])
 # Traduction incrémentale, plafonnée pour respecter les limites du service externe.
 recent=sorted(items.values(),key=lambda y:y.get('published',''),reverse=True)
 translated=0
-for x in recent[:140]:
- if translated>=32:break
+for x in recent[:100]:
+ if translated>=12:break
  if not x.get('title_fr'):
   tr=translate_fr(x.get('title',''))
   if tr:x['title_fr']=tr;translated+=1
- if translated>=8:break
+ if translated>=12:break
  if x.get('summary') and not x.get('summary_fr'):
   tr=translate_fr(x['summary'])
   if tr:x['summary_fr']=tr;translated+=1
 print('Checked',checked,'feeds found',len(working),'items',len(items),'images',sum(bool(x.get('image')) for x in items.values()),'translated fields',translated)
-result={'updated_at':datetime.datetime.now(datetime.timezone.utc).isoformat(),'status':'collected_unreviewed','working_feeds':working,'items':sorted(items.values(),key=lambda x:x.get('published',''),reverse=True)[:550]}
+result={'updated_at':datetime.datetime.now(datetime.timezone.utc).isoformat(),'status':'collected_unreviewed','working_feeds':working,'collection_slot':slot,'sources_checked':checked,'items':sorted(items.values(),key=lambda x:x.get('published',''),reverse=True)[:550]}
 with open(os.path.join(ROOT,'data/feed.json'),'w',encoding='utf8') as f:json.dump(result,f,ensure_ascii=False,indent=2)
