@@ -61,12 +61,20 @@ jobs:
           RADAR_SLOT_INDEX: ${{ steps.slot.outputs.slot }}
           RADAR_SPECIAL: ${{ (github.event_name == 'workflow_dispatch' && inputs.special) && '1' || '0' }}
         run: python collect.py
+      - name: Analyser et valider les projets avec Gemini
+        if: steps.slot.outputs.run == 'true'
+        id: editorial
+        continue-on-error: true
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          RADAR_AI_MODEL: gemini-2.5-flash-lite
+        run: python analyze.py
       - name: Publier les nouvelles données
         if: steps.slot.outputs.run == 'true'
         run: |
           git config user.name 'radar-da-bot'
           git config user.email 'radar-da-bot@users.noreply.github.com'
-          git add data/feed.json data/analyses.json
+          git add data/feed.json data/analyses.json data/reviewed.json
           if ! git diff --cached --quiet; then
             git commit -m 'Actualisation du radar'
             for attempt in 1 2 3 4 5; do
@@ -89,5 +97,5 @@ jobs:
       - name: Signaler clairement un échec de l'analyse
         if: always() && steps.slot.outputs.run == 'true' && steps.editorial.outcome == 'failure'
         run: |
-          echo "::error::Analyse automatique en échec. Vérifier OPENAI_API_KEY, quota API et journaux de analyze.py. La collecte peut avoir été publiée, mais pas les décryptages."
+          echo "::error::Analyse automatique en échec. Vérifier GEMINI_API_KEY, quota Gemini et journaux de analyze.py. La collecte peut avoir été publiée, mais pas les décryptages."
           exit 1
