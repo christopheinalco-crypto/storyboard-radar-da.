@@ -124,18 +124,26 @@ for s in selected:
 missing=[x for x in sorted(items.values(),key=lambda y:y.get('published',''),reverse=True)[:80] if not x.get('image')]
 for x in missing[:18]:
  x['image']=og_image(x['url'])
-# Traduction incrémentale, plafonnée pour respecter les limites du service externe.
+# Traduire les TITRES en priorité, avant les résumés : le titre français est essentiel à l'interface.
+# Plafond par exécution pour ne pas saturer le service externe.
 recent=sorted(items.values(),key=lambda y:y.get('published',''),reverse=True)
-translated=0
-for x in recent[:100]:
- if translated>=12:break
- if not x.get('title_fr'):
-  tr=translate_fr(x.get('title',''))
-  if tr:x['title_fr']=tr;translated+=1
- if translated>=12:break
+translated_titles=0
+for x in recent[:180]:
+ if translated_titles>=30:break
+ if not x.get('title_fr') and x.get('title'):
+  tr=translate_fr(x['title'])
+  if tr:
+   x['title_fr']=tr
+   translated_titles+=1
+translated_summaries=0
+for x in recent[:65]:
+ if translated_summaries>=6:break
  if x.get('summary') and not x.get('summary_fr'):
   tr=translate_fr(x['summary'])
-  if tr:x['summary_fr']=tr;translated+=1
+  if tr:
+   x['summary_fr']=tr
+   translated_summaries+=1
+translated=translated_titles+translated_summaries
 week_start=datetime.datetime(2026,11,1,tzinfo=datetime.timezone.utc)
 week_end=datetime.datetime(2026,11,8,tzinfo=datetime.timezone.utc)
 def in_test_week(x):
