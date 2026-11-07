@@ -114,7 +114,7 @@
     },
     {
       "name": "BP&O",
-      "feed": "https://bpando.org/feed",
+      "feed": "https://bpando.org/feed/",
       "category": "03 DA Graphisme"
     },
     {
@@ -319,7 +319,8 @@
       "category": "14 Musique Clips",
       "angle": "Analyser les intentions visuelles, la mise en scène, le montage et l'identité des clips",
       "status": "source_detected_not_editorially_analyzed",
-      "title_fr": "L'auteur-compositeur de \"Christmas Wrapping\" est une grande fan d'Olivia Rodrigo et dit que son nouveau single est un \"hommage\" et non une arnaque"
+      "title_fr": "L'auteur-compositeur de \"Christmas Wrapping\" est une grande fan d'Olivia Rodrigo et dit que son nouveau single est un \"hommage\" et non une arnaque",
+      "summary_fr": "L'auteur-compositeur \"Christmas Wrapping\" est un grand fan d'Olivia Rodrigo et dit que son nouveau single est un \"hommage\", pas une arnaque, apparaît en premier sur Stereogum."
     },
     {
       "title": "Amabile Apartment / Denis Joelsons",
