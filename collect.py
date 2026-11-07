@@ -1,7 +1,11 @@
 """Collect RSS/Atom from editorial source domains. No fabricated DA analyses."""
-import json,os,re,datetime,urllib.parse,urllib.request,xml.etree.ElementTree as ET,html,random,hashlib,time
+import json,os,re,datetime,urllib.parse,urllib.request,xml.etree.ElementTree as ET,html,random,hashlib,time,time
 from email.utils import parsedate_to_datetime
 ROOT=os.path.dirname(__file__)
+START=time.monotonic()
+BUDGET_SECONDS=95
+def budget_left():return BUDGET_SECONDS-(time.monotonic()-START)
+
 sources=json.load(open(os.path.join(ROOT,'data/sources.json'),encoding='utf8'))
 old=json.load(open(os.path.join(ROOT,'data/feed.json'),encoding='utf8'))
 items={x['url']:x for x in old.get('items',[]) if x.get('url')}
@@ -47,7 +51,7 @@ def og_image(url):
  if not budget():return ''
  try:
   req=urllib.request.Request(url,headers=HEAD)
-  with urllib.request.urlopen(req,timeout=3) as r:
+  with urllib.request.urlopen(req,timeout=min(2.5,max(.4,budget_left()))) as r:
    raw=r.read(220000).decode('utf-8','ignore')
   for tag in re.findall(r'<meta\\s+[^>]*>',raw,re.I):
    if re.search(r'(?:og:image|twitter:image)',tag,re.I):
@@ -114,7 +118,9 @@ selected=sources if os.environ.get('RADAR_SLOT','')=='manual' else rotations[slo
 random.Random(seed+slot).shuffle(selected)
 checked=0;working=[]
 for s in selected:
- for u in candidates(s['url'])[:3]:
+ if budget_left()<18:break
+ for u in candidates(s['url'])[:2]:
+  if budget_left()<18:break
   blob=get(u);feed=parse(blob) if blob else []
   if feed:
    working.append({'name':s['name'],'feed':u,'category':s['category']})
@@ -127,28 +133,35 @@ for s in selected:
  checked+=1
 # Enrichir un nombre limité d'articles récents sans ralentir excessivement le workflow.
 missing=[x for x in sorted(items.values(),key=lambda y:y.get('published',''),reverse=True)[:80] if not x.get('image')]
-for x in missing[:18]:
+for x in missing[:5]:
+ if budget_left()<16:break
  x['image']=og_image(x['url'])
 # Traduire les TITRES en priorité, avant les résumés : le titre français est essentiel à l'interface.
 # Plafond par exécution pour ne pas saturer le service externe.
 recent=sorted(items.values(),key=lambda y:y.get('published',''),reverse=True)
 translated_titles=0
-for x in recent[:180]:
- if translated_titles>=30:break
+for x in recent[:100]:
+ if translated_titles>=8 or budget_left()<12:break
  if not x.get('title_fr') and x.get('title'):
   tr=translate_fr(x['title'])
   if tr:
    x['title_fr']=tr
    translated_titles+=1
 translated_summaries=0
-for x in recent[:65]:
- if translated_summaries>=6:break
+for x in recent[:35]:
+ if translated_summaries>=2 or budget_left()<8:break
  if x.get('summary') and not x.get('summary_fr'):
   tr=translate_fr(x['summary'])
   if tr:
    x['summary_fr']=tr
    translated_summaries+=1
 translated=translated_titles+translated_summaries
+# Précaution éditoriale : ne pas exposer de visuels associés à des contenus explicitement nus.
+# Filtrage textuel prudent, qui ne remplace pas une modération visuelle.
+unsafe_image_terms=re.compile(r'\\b(?:nudity|nude|naked|topless|full frontal|explicit nudity|pornograph|nsfw|nudit[ée]|dénud[ée]|nu intégral|nue intégrale|sans vêtements)\\b',re.I)
+for x in items.values():
+ if unsafe_image_terms.search(' '.join([x.get('title',''),x.get('title_fr',''),x.get('summary',''),x.get('summary_fr','')])):
+  x['image']=''
 week_start=datetime.datetime(2026,11,1,tzinfo=datetime.timezone.utc)
 week_end=datetime.datetime(2026,11,8,tzinfo=datetime.timezone.utc)
 def in_test_week(x):
