@@ -10,6 +10,7 @@ on:
     # Deux séries UTC : le contrôle Europe/Paris ignore celle hors saison.
     - cron: '30 4,6,8,10,12,14,16,18 * * *'
     - cron: '30 5,7,9,11,13,15,17,19 * * *'
+    - cron: '9 13 * * *' # Test unique du 7 novembre 2026 à 14h09 Paris
 concurrency:
   group: radar-da-collect-main
   cancel-in-progress: false
@@ -27,13 +28,15 @@ jobs:
         id: slot
         env:
           EVENT_NAME: ${{ github.event_name }}
+          SCHEDULE_CRON: ${{ github.event.schedule }}
         run: |
           python - <<'PY'
           import datetime,os
           from zoneinfo import ZoneInfo
           local=datetime.datetime.now(ZoneInfo('Europe/Paris'))
           allowed=(6,8,10,12,14,16,18,20)
-          run=os.environ['EVENT_NAME']!='schedule' or local.hour in allowed
+          special=os.environ.get('SCHEDULE_CRON')=='9 13 * * *'
+          run=(local.date().isoformat()=='2026-11-07' and special) or (not special and (os.environ['EVENT_NAME']!='schedule' or local.hour in allowed))
           with open(os.environ['GITHUB_OUTPUT'],'a') as f:
               f.write(f"run={'true' if run else 'false'}\n")
           print('Paris:',local.isoformat(),'collect:',run)
@@ -42,6 +45,7 @@ jobs:
         if: steps.slot.outputs.run == 'true'
         env:
           RADAR_SLOT: ${{ github.event.schedule || 'manual' }}
+          RADAR_SPECIAL: ${{ github.event.schedule == '9 13 * * *' && '1' || '0' }}
         run: python collect.py
       - name: Publier les nouvelles données
         if: steps.slot.outputs.run == 'true'
