@@ -43,14 +43,11 @@ jobs:
           slot=0
           run=True
           if event=='schedule':
-              # L'heure vient du cron prévu, pas de l'heure de démarrage réelle.
-              hour=int(cron.split()[1])
-              local_date=now.astimezone(ZoneInfo('Europe/Paris')).date()
-              # Convertir le créneau UTC planifié en heure de Paris.
-              planned_utc=datetime.datetime.combine(local_date,datetime.time(hour,37),datetime.timezone.utc)
-              local=planned_utc.astimezone(ZoneInfo('Europe/Paris'))
+              # Le cron contient une liste d'heures UTC : ne pas convertir la liste en int.
+              # Les exécutions GitHub peuvent démarrer avec quelques minutes de retard.
+              local=now.astimezone(ZoneInfo('Europe/Paris'))
               hours=(6,9,12,15,18,21)
-              run=local.hour in hours and local.minute==37
+              run=local.hour in hours
               if run:slot=hours.index(local.hour)
           with open(os.environ['GITHUB_OUTPUT'],'a') as f:
               f.write(f"run={'true' if run else 'false'}\n")
