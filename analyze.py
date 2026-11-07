@@ -25,12 +25,16 @@ def score(x):
  t=(x.get('title','')+' '+x.get('summary','')).lower()
  pos=r'scenograph|stage design|tour production|concert|live show|music video|set design|lighting design|performance|immersive|brand experience|art direction|visual identity|installation|film|clip|design'
  neg=r'awards|hiring|job opening|playlist|review|podcast|nominees|top 10|new album|stock|earnings'
- return 50*bool(re.search(pos,t))+30*bool(re.search(r'concert|stage|scenograph|tour production|music video|live show',t))-70*bool(re.search(neg,t))+min(len(x.get('summary',''))//90,15)
+ cat=(x.get('category') or '')[:2]
+ priority={'01':180,'02':170,'15':160,'14':95,'08':85,'06':25,'03':15,'11':10,'04':10,'05':10}.get(cat,0)
+ project=bool(re.search(r'scenograph|stage design|tour production|concert production|live show|set design|lighting design|broadcast set|tv studio|television production|music video|performance|stage production|production design|show design',t))
+ nonproject=bool(re.search(r'appointment|appointed|acquires|acquisition|product launch|introduces|new microphone|distribution partner|conference|trade show|expo|award|playlist|review|podcast|nominees|new album|earnings|hiring',t))
+ return priority+55*project+10*bool(re.search(pos,t))-110*nonproject+min(len(x.get('summary',''))//90,15)
 candidates=sorted([x for x in feed.get('items',[]) if x.get('url') not in saved and x.get('title') and x.get('url')],key=score,reverse=True)[:12]
 print('RADAR candidates:',len(candidates),'existing analyses:',len(saved))
 attempted=0;accepted=0;source_fail=0;api_fail=0
 for x in candidates:
- if score(x)<20:continue
+ if score(x)<85:continue
  source=article_text(x['url'])
  if len(source)<850:
   source_fail+=1
