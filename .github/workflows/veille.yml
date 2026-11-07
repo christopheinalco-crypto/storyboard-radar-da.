@@ -77,6 +77,7 @@ jobs:
         if: steps.slot.outputs.run == 'true'
         env:
           RADAR_SLOT: ${{ github.event.schedule || 'manual' }}
+          RADAR_SPECIAL: ${{ github.event_name == 'push' && '1' || '0' }}
           RADAR_SLOT_INDEX: ${{ steps.slot.outputs.slot }}
           RADAR_SPECIAL: ${{ (github.event_name == 'workflow_dispatch' && inputs.special) || (github.event_name == 'push' && contains(github.event.head_commit.message, '[special-veille]')) && '1' || '0' }}
         run: python collect.py
