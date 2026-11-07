@@ -8,6 +8,7 @@ on:
       - '.github/workflows/veille.yml'
   schedule:
     - cron: '15 6,9,12,15,18,21 * * *'
+    - cron: '40 12 * * *' # Test 13 h 40 Paris (hiver), temporaire
 concurrency:
   group: radar-da-collect-main
   cancel-in-progress: false
