@@ -279,7 +279,34 @@ function editorialReadingHTML(x){
  if(!blocks)return '';
  return '<div class="analysis-editorial">'+blocks.map((b,i)=>'<section class="analysis-chapter"><span class="analysis-index">'+String(i+1).padStart(2,'0')+'</span><div><div class="analysis-heading">'+escapeHTML(b[0])+'</div><p>'+escapeHTML(b[1])+'</p></div></section>').join('')+'</div>';
 }
-function layersHTML(x){if(verifiedEditorialReading(x))return editorialReadingHTML(x);const v=verifiedCase(x),a=daInterpretation(x),take=conciseCardTakeaway(x);return `<div class="layer-application"><div class="smalllabel">LE PARTI PRIS ARTISTIQUE</div><p>${escapeHTML(v?.angle||'Le projet pourrait chercher à '+a.hyp+'.')}</p><div class="smalllabel">CE QUE ÇA PRODUIT</div><p>${escapeHTML(a.effect)}</p><div class="smalllabel">LE RÉFLEXE DU DA</div><p>${emphasisText(a.test)}</p><div class="smalllabel">CE QU’ON PEUT EN TIRER</div><p>${emphasisText(take.lesson)}</p><div class="smalllabel">À EXPÉRIMENTER</div><p>${emphasisText(take.tip)}</p></div>`}
+function layersHTML(x){
+ if(verifiedEditorialReading(x))return editorialReadingHTML(x);
+ // Ne plus fabriquer d'intention, d'émotion ni de conclusion universelle.
+ // Les synthèses courtes des flux RSS ne suffisent pas à vérifier un parti pris DA.
+ const raw=(x.summary_fr||x.summary||'').trim();
+ const useful=raw.length>95&&!/the post .{0,100} appeared first|read more|click here/i.test(raw);
+ const s=((x.title_fr||x.title||'')+' '+raw).toLowerCase();
+ const clip=/clip|music video|vidéo musicale|music|musique/i.test(s+(x.category||''));
+ const stage=/spectacle|scénograph|concert|stage|danse|performance|theatre|théâtre/i.test(s+(x.category||''));
+ const ad=/publicit|campaign|campagne|brand|marque|advertis/i.test(s+(x.category||''));
+ const questions=clip?
+ ['Quelle idée le clip traduit-il en images ?','Quels plans, couleurs ou mouvements servent cette idée ?','Que fait réellement le son au sens des images ?']:
+ stage?
+ ['Quelle relation le dispositif construit-il entre artistes et public ?','Comment l’espace, la lumière et les déplacements participent-ils au récit ?','Quelle contrainte technique devient un choix artistique ?']:
+ ad?
+ ['Quel problème ou insight la création transforme-t-elle en idée ?','Quel signe visuel rend cette idée immédiatement perceptible ?','Que change cette exécution dans la perception de la marque ?']:
+ ['Quelle intention le créateur revendique-t-il ?','Quels choix précis de forme, couleur, matière ou échelle la soutiennent ?','Quel effet peut-on déduire de ces choix, sans le présenter comme un fait ?'];
+ const exercice=clip?'Compare dix secondes du projet avec et sans son. Décris ce que le son change réellement.':
+ stage?'Dessine le dispositif depuis deux points de vue du public. Identifie ce qui devient visible ou illisible.':
+ ad?'Supprime le texte et le logo de l’image : formule en une phrase ce qui reste compréhensible.':
+ 'Isole un élément visuel du projet et produis deux variantes. Compare leur lisibilité et leur effet.';
+ return `<div class="analysis-editorial">
+ <section class="analysis-chapter"><span class="analysis-index">01</span><div><div class="analysis-heading">CE QUE DÉCRIT LA SOURCE</div><p>${useful?escapeHTML(raw.slice(0,680)):'Le résumé reçu ne décrit pas assez précisément les décisions artistiques de ce projet. Consulter la création originale pour une analyse fondée sur des observations.'}</p></div></section>
+ <section class="analysis-chapter"><span class="analysis-index">02</span><div><div class="analysis-heading">GRILLE D’OBSERVATION · À VÉRIFIER SUR L’ŒUVRE</div><p>${questions.map((q,i)=>'<strong>'+String(i+1)+'.</strong> '+escapeHTML(q)).join('<br>')}</p></div></section>
+ <section class="analysis-chapter"><span class="analysis-index">03</span><div><div class="analysis-heading">CE QU’ON PEUT EN TIRER</div><p>La conclusion de direction artistique reste à établir à partir des choix réellement visibles. Le texte de veille seul ne permet pas d’attribuer une intention au créateur ou de conclure à un effet émotionnel.</p></div></section>
+ <section class="analysis-chapter"><span class="analysis-index">04</span><div><div class="analysis-heading">À EXPÉRIMENTER</div><p>${escapeHTML(exercice)}</p></div></section>
+ </div>`;
+}
 function dailyAnalysisHTML(d){return `<div class="layers-stack">${(d.layers||[]).map(l=>`<section class="da-layer"><div class="layer-heading">${escapeHTML(l[0])}</div><p><strong>Lecture DA :</strong> ${escapeHTML(l[1])}</p><p><strong>À observer :</strong> ${escapeHTML(l[2]||'')}</p></section>`).join('')}</div>`}
 function excludedEditorialList(x){const t=((x.title_fr||'')+' '+(x.title||'')).toLowerCase();return /(?:\\b(?:top|best)\\s*\\d+\\b|\\b(?:best|top)\\s+(?:songs|tracks|albums)\\b|\\b(?:songs|tracks|albums)\\s+of\\s+the\\s+week\\b|\\bweekly\\s+(?:playlist|roundup)\\b|\\bplaylist\\b|\\bles\\s+\\d+\\s+meilleures?\\s+(?:chansons|musiques|titres)\\b|\\bmeilleures?\\s+chansons\\s+de\\s+la\\s+semaine\\b|\\bclassement\\s+(?:musical|des\\s+chansons)\\b)/i.test(t)}
 function drawFeed(){const cat=$('#cat').value,seen=seenData();renderSeenArchive(seen);let pool=ITEMS.filter(x=>!excludedEditorialList(x)&&(x.image||verifiedCase(x))&&!seen[x.url||x.title]&&(activeGroup==='Tout'||groupRelevance(x,activeGroup)>=8)&&(!cat||x.category===cat));
