@@ -1,15 +1,10 @@
 {
-  "updated_at": "2026-11-07T20:59:57.997955+00:00",
+  "updated_at": "2026-11-07T21:07:40.187505+00:00",
   "status": "collected_unreviewed",
   "working_feeds": [
     {
       "name": "Live Design",
       "feed": "https://www.livedesignonline.com/rss.xml",
-      "category": "01 Spectacle Concert"
-    },
-    {
-      "name": "TPI Magazine",
-      "feed": "https://www.tpimagazine.com/feed/",
       "category": "01 Spectacle Concert"
     },
     {
@@ -211,37 +206,12 @@
       "name": "IDlia Studio",
       "feed": "https://www.idlia.fr/feed",
       "category": "09 France Pro"
-    },
-    {
-      "name": "Campaign Middle East",
-      "feed": "https://campaignme.com/feed",
-      "category": "04 Pub Strategie"
-    },
-    {
-      "name": "Grand Visual",
-      "feed": "https://grandvisual.com/feed",
-      "category": "07 FOOH OOH DOOH"
-    },
-    {
-      "name": "FRATERCINÉ",
-      "feed": "https://www.fratercine.fr/feed/",
-      "category": "09 France Pro"
-    },
-    {
-      "name": "Stereogum",
-      "feed": "https://www.stereogum.com/feed/",
-      "category": "14 Musique Clips"
-    },
-    {
-      "name": "Pitchfork",
-      "feed": "https://pitchfork.com/rss/news/",
-      "category": "14 Musique Clips"
     }
   ],
   "collection_slot": 0,
-  "collection_hour_paris": 21,
+  "collection_hour_paris": 22,
   "sources_selected": 182,
-  "sources_checked": 182,
+  "sources_checked": 154,
   "special_test": true,
   "special_selection": {
     "01 Spectacle Concert": [
@@ -251,13 +221,13 @@
         "score": 29
       },
       {
-        "title": "Live Design: Terhal",
-        "url": "https://dragone.com/live-design-covers-terhal/",
-        "score": 23
-      },
-      {
         "title": "See Glow Motion at LDI: Halo Ring & Next Gen Kinetic Systems",
         "url": "https://www.livedesignonline.com/resource/see-glow-motion-ldi-halo-ring-next-gen-kinetic-systems",
+        "score": 21
+      },
+      {
+        "title": "Live Design: Terhal",
+        "url": "https://dragone.com/live-design-covers-terhal/",
         "score": 21
       }
     ],
@@ -265,7 +235,7 @@
       {
         "title": "Vizrt graphics chosen as the Official Technical Supplier of Eurovision 2026",
         "url": "https://routing.vizrt.com/vizrt/press-center/pr-vizrt-graphics-eurovision-2026/",
-        "score": 11
+        "score": 9
       },
       {
         "title": "Leyard and UP to deliver spectacular displays at AV Awards",
@@ -273,9 +243,9 @@
         "score": 8
       },
       {
-        "title": "Vizrt graphics help Girraphic deliver exclusive MMA event in stadium and on Netflix",
-        "url": "https://routing.vizrt.com/news-articles/vizrt-girraphic-netflix-mma-event-graphics/",
-        "score": 8
+        "title": "Lightware brings flexibility to Hungary’s first LED cinema",
+        "url": "https://www.avinteractive.com/territories-news/europe/lightware-brings-flexibility-to-hungarys-first-led-cinema-05-11-2026/",
+        "score": 6
       }
     ],
     "03 DA Graphisme": [
@@ -347,16 +317,6 @@
       }
     ],
     "07 FOOH OOH DOOH": [
-      {
-        "title": "Our 2025 Grand Visual OOH Christmas Campaigns",
-        "url": "https://grandvisual.com/christmas-ooh-campaigns-by-grand-visual/",
-        "score": 24
-      },
-      {
-        "title": "Our 2025 Grand Visual OOH Christmas Campaigns",
-        "url": "https://grandvisual.com/our-2025-grand-visual-ooh-christmas-campaigns/",
-        "score": 24
-      },
       {
         "title": "When OOH Talks Back: Our Favourite DCO Campaigns of the Last 5 Years",
         "url": "https://grandvisual.com/dco-campaigns-of-the-last-5-years/",
@@ -575,7 +535,8 @@
       "category": "05 Art Architecture",
       "angle": "Lire parcours et plans",
       "status": "source_detected_not_editorially_analyzed",
-      "title_fr": "Appartement Amabile / Denis Joelsons"
+      "title_fr": "Appartement Amabile / Denis Joelsons",
+      "summary_fr": "Lorsqu'Amabile m'a invité à visiter l'appartement, son projet initial était d'installer un chauffe-eau à gaz et de rafraîchir les espaces. L'appartement était sombre, les chambres donnant sur la rue et les espaces sociaux donnant sur le terrain voisin."
     },
     {
       "title": "Edicola 518 / Giuseppe Arezzi",
@@ -587,7 +548,8 @@
       "category": "05 Art Architecture",
       "angle": "Lire parcours et plans",
       "status": "source_detected_not_editorially_analyzed",
-      "title_fr": "Kiosque 518 / Giuseppe Arezzi"
+      "title_fr": "Kiosque 518 / Giuseppe Arezzi",
+      "summary_fr": "Le projet Edicola 518 redéfinit le kiosque de magazines et de livres indépendants le long de l'escalier historique de Sant'Ercolano à Pérouse, en le transformant en une « oasis urbaine pour l'exhibitionnisme culturel » et en un dispositif d'activation sociale."
     },
     {
       "title": "Massó Apartment / Castroferro Arquitectura",
@@ -1383,7 +1345,8 @@
       "source": "Stereogum",
       "category": "14 Musique Clips",
       "angle": "Analyser les intentions visuelles, la mise en scène, le montage et l'identité des clips",
-      "status": "source_detected_not_editorially_analyzed"
+      "status": "source_detected_not_editorially_analyzed",
+      "title_fr": "Future – « Ya Hit » (Feat. Drake, Travis Scott et Loe Shimmy)"
     },
     {
       "title": "Watch Druski & The Strokes’ SNL Promos",
@@ -1394,7 +1357,8 @@
       "source": "Stereogum",
       "category": "14 Musique Clips",
       "angle": "Analyser les intentions visuelles, la mise en scène, le montage et l'identité des clips",
-      "status": "source_detected_not_editorially_analyzed"
+      "status": "source_detected_not_editorially_analyzed",
+      "title_fr": "Regardez les promotions SNL de Druski & The Strokes"
     },
     {
       "title": "Stranger Things n&#8217;est pas terminée ! Netflix vient d&#8217;annoncer une nouvelle série",
@@ -1405,7 +1369,8 @@
       "source": "Konbini Musique",
       "category": "14 Musique Clips",
       "angle": "Décrypter intention, émotion, mise en scène, image et son des clips et performances musicales",
-      "status": "source_detected_not_editorially_analyzed"
+      "status": "source_detected_not_editorially_analyzed",
+      "title_fr": "Stranger Things n’est pas terminée ! Netflix vient d’annoncer une nouvelle série"
     },
     {
       "title": "Stranger Things n&#8217;est pas terminée ! Netflix vient d&#8217;annoncer une nouvelle série",
@@ -1416,7 +1381,8 @@
       "source": "Konbini Musique",
       "category": "14 Musique Clips",
       "angle": "Décrypter intention, émotion, mise en scène, image et son des clips et performances musicales",
-      "status": "source_detected_not_editorially_analyzed"
+      "status": "source_detected_not_editorially_analyzed",
+      "title_fr": "Stranger Things n’est pas terminée ! Netflix vient d’annoncer une nouvelle série"
     },
     {
       "title": "10 New Albums You Should Listen to Now: Twisted Teens, Bassvictim, and More",
@@ -1427,7 +1393,8 @@
       "source": "Pitchfork",
       "category": "14 Musique Clips",
       "angle": "Analyser les intentions visuelles, la mise en scène, le montage et l'identité des clips",
-      "status": "source_detected_not_editorially_analyzed"
+      "status": "source_detected_not_editorially_analyzed",
+      "title_fr": "10 nouveaux albums à écouter maintenant : Twisted Teens, Bassvictim et plus"
     },
     {
       "title": "Sue Mudge joins EM Acoustics",
@@ -1438,7 +1405,8 @@
       "category": "01 Spectacle Concert",
       "angle": "Identifier les équipes et arbitrages créatifs",
       "status": "source_detected_not_editorially_analyzed",
-      "image": ""
+      "image": "",
+      "title_fr": "Sue Mudge rejoint EM Acoustics"
     },
     {
       "title": "Superchunk Cover Wham!, The Magnetic Fields, & Galaxie 500 On Surprise New Wintry Mix EP",
@@ -1449,7 +1417,8 @@
       "source": "Stereogum",
       "category": "14 Musique Clips",
       "angle": "Analyser les intentions visuelles, la mise en scène, le montage et l'identité des clips",
-      "status": "source_detected_not_editorially_analyzed"
+      "status": "source_detected_not_editorially_analyzed",
+      "title_fr": "Superchunk Cover Wham !, The Magnetic Fields et Galaxie 500 sur le nouvel EP Surprise Winter Mix"
     },
     {
       "title": "2026 Posthumous Dance Magazine Awards",
