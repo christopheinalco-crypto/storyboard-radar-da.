@@ -8,7 +8,7 @@ def budget_left():return BUDGET_SECONDS-(time.monotonic()-START)
 
 sources=json.load(open(os.path.join(ROOT,'data/sources.json'),encoding='utf8'))
 old=json.load(open(os.path.join(ROOT,'data/feed.json'),encoding='utf8'))
-items={x['url']:x for x in old.get('items',[]) if x.get('url')}
+items={x['url']:x for x in old.get('items',[]) if x.get('url') and not re.match(r'^(03|11)\b',x.get('category','')) and not re.search(r'back[ -]?2[ -]?back|back[ -]?to[ -]?back',x.get('title',''),re.I)}
 START=time.monotonic()
 MAX_SECONDS=235
 def budget():return time.monotonic()-START<MAX_SECONDS
@@ -244,5 +244,5 @@ if special:
   selected_by_category[cat]=[{'title':x.get('title_fr') or x.get('title'),'url':x['url'],'score':article_score(x)} for x in candidates_cat if article_score(x)>=5][:3]
  print('SPECIAL EDITORIAL SHORTLIST:',json.dumps({k:len(v) for k,v in selected_by_category.items()},ensure_ascii=False))
 print('Checked',checked,'feeds found',len(working),'items',len(items),'images',sum(bool(x.get('image')) for x in items.values()),'translated fields',translated)
-result={'updated_at':datetime.datetime.now(datetime.timezone.utc).isoformat(),'status':'collected_unreviewed','working_feeds':working,'collection_slot':slot,'collection_hour_paris':paris.hour,'sources_selected':len(selected),'sources_checked':checked,'special_test':special,'special_selection':selected_by_category,'backfill_test':{'period':'2026-11-01/2026-11-07','articles':len(week_items),'with_images':sum(bool(x.get('image')) for x in week_items)},'items':sorted(items.values(),key=lambda x:x.get('published',''),reverse=True)[:550]}
+result={'updated_at':datetime.datetime.now(datetime.timezone.utc).isoformat(),'status':'collected_unreviewed','working_feeds':working,'collection_slot':slot,'collection_hour_paris':paris.hour,'sources_selected':len(selected),'sources_checked':checked,'special_test':special,'special_selection':selected_by_category,'backfill_test':{'period':'2026-11-01/2026-11-07','articles':len(week_items),'with_images':sum(bool(x.get('image')) for x in week_items)},'items':[x for x in sorted(items.values(),key=lambda x:x.get('published',''),reverse=True) if not re.match(r'^(03|11)\b',x.get('category','')) and not re.search(r'back[ -]?2[ -]?back|back[ -]?to[ -]?back',x.get('title',''),re.I)][:550]}
 with open(os.path.join(ROOT,'data/feed.json'),'w',encoding='utf8') as f:json.dump(result,f,ensure_ascii=False,indent=2)
