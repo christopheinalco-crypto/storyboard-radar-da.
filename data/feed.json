@@ -1,5 +1,1666 @@
 {
-  "updated_at": null,
-  "items": [],
-  "status": "awaiting_first_collection"
+  "updated_at": "2026-11-07T08:33:15.468145+00:00",
+  "status": "collected_unreviewed",
+  "working_feeds": [
+    {
+      "name": "Balich Wonder Studio",
+      "feed": "https://www.balichwonderstudio.com/feed"
+    },
+    {
+      "name": "Live Design",
+      "feed": "https://www.livedesignonline.com/rss.xml"
+    },
+    {
+      "name": "STIRworld Stage Design",
+      "feed": "https://www.stirworld.com/rss.xml"
+    },
+    {
+      "name": "STUFISH",
+      "feed": "https://stufish.com/feed"
+    },
+    {
+      "name": "TPI Magazine",
+      "feed": "https://www.tpimagazine.com/feed"
+    },
+    {
+      "name": "Brand New",
+      "feed": "https://www.underconsideration.com/feed"
+    },
+    {
+      "name": "Design Indaba",
+      "feed": "https://www.designindaba.com/rss"
+    },
+    {
+      "name": "ArchDaily",
+      "feed": "https://www.archdaily.com/feed"
+    },
+    {
+      "name": "Designboom",
+      "feed": "https://www.designboom.com/feed"
+    },
+    {
+      "name": "STIRworld",
+      "feed": "https://www.stirworld.com/rss.xml"
+    },
+    {
+      "name": "Art of the Title",
+      "feed": "https://www.artofthetitle.com/feed"
+    },
+    {
+      "name": "Stash",
+      "feed": "https://www.stashmedia.tv/feed"
+    },
+    {
+      "name": "Superbien",
+      "feed": "https://www.superbien.com/feed"
+    },
+    {
+      "name": "Light ZOOM Lumière",
+      "feed": "https://www.lightzoomlumiere.fr/feed"
+    },
+    {
+      "name": "Revue AS",
+      "feed": "https://www.revue-as.fr/feed"
+    },
+    {
+      "name": "Effie Worldwide",
+      "feed": "https://www.effie.org/feed"
+    },
+    {
+      "name": "Graphéine",
+      "feed": "https://www.grapheine.com/feed"
+    }
+  ],
+  "items": [
+    {
+      "title": "peter morris brings miami art deco to london’s gothic streets with pink ‘cloud house’",
+      "url": "https://www.designboom.com/architecture/peter-morris-miami-art-deco-london-gothic-pink-cloud-house-london/",
+      "published": "2026-11-07T03:25:53+00:00",
+      "summary": "peter morris' self-built cloud house combines miami pastels with elongated arches across two adjoining homes in north london. The post peter morris brings miami art deco to london’s gothic streets with pink ‘cloud house’ appeared first on designboom | architecture & design magazine .",
+      "source": "Designboom",
+      "category": "05 Art Architecture",
+      "angle": "Explorer formes expérimentales",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "3D printed ruffled collars top checkerboard lamps, vases, and candle holders in ondu wonderland",
+      "url": "https://www.designboom.com/design/3d-printed-ruffled-collars-top-checkerboard-lamps-vases-and-candle-holders-in-ondu-wonderland-gliese-design/",
+      "published": "2026-11-06T20:10:49+00:00",
+      "summary": "crafted through advanced 3D printing using sustainable biopolymers, this series of table lamps, vases, and candle holders bridges digital precision with a touch of fairytale storytelling. The post 3D printed ruffled collars top checkerboard lamps, vases, and candle holders in ondu wonderland appeared first on designboom | architecture & design magazine .",
+      "source": "Designboom",
+      "category": "05 Art Architecture",
+      "angle": "Explorer formes expérimentales",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "Concrete House / Vierna9 + CIRAL Arquitectos",
+      "url": "https://www.archdaily.com/1188203/concrete-house-vierna9-plus-ciral-arquitectos",
+      "published": "2026-11-06T19:00:00+00:00",
+      "summary": "The location, program, and construction define the project for this residence, located in the northwestern part of Madrid , where the use of concrete becomes the defining feature of its architectural identity.",
+      "source": "ArchDaily",
+      "category": "05 Art Architecture",
+      "angle": "Lire parcours et plans",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "Sertão Block and Amparo House / Asa Arquitetos",
+      "url": "https://www.archdaily.com/1188218/sertao-block-and-amparo-house-asa-arquitetos",
+      "published": "2026-11-06T17:00:00+00:00",
+      "summary": "Located at Haras Amparo Medeiros, in the rural area of Princesa Isabel in the Paraíba hinterland (sertão), Casa Amparo was designed based on an analysis of the local natural conditions and landscape. The rugged topography, characterized by rocky outcrops, resilient vegetation, and open views of the territory, guided a layout that seeks to accommodate the architecture to the different levels, preserving the natural features of the site.",
+      "source": "ArchDaily",
+      "category": "05 Art Architecture",
+      "angle": "Lire parcours et plans",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "carsten höller brings people together through four giant slides in mexico city",
+      "url": "https://www.designboom.com/art/carsten-holler-people-together-four-giant-slides-mexico-city-arte-abierto-polanco-soma-sordo-madaleno-antara/",
+      "published": "2026-11-06T16:30:06+00:00",
+      "summary": "descending from restaurants, offices, and a future hotel, the installation brings an unexpected element of play into the everyday rhythms of a mixed-use urban development. The post carsten höller brings people together through four giant slides in mexico city appeared first on designboom | architecture & design magazine .",
+      "source": "Designboom",
+      "category": "05 Art Architecture",
+      "angle": "Explorer formes expérimentales",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "Framestore’s Reindeer Takes Flight for The National Lottery",
+      "url": "https://www.stashmedia.tv/framestore-reindeer-take-flight-for-the-national-lottery/",
+      "published": "2026-11-06T15:58:33+00:00",
+      "summary": "Working with Arts and Sciences director Tim McNaughton, the deeply experienced (and awarded) CG creature team at Framestore in London imbue a brave reindeer with quiet but unflagging determination for the UK's National Lottery. [Watch] The post Framestore’s Reindeer Takes Flight for The National Lottery appeared first on Motion design - STASH .",
+      "source": "Stash",
+      "category": "08 Immersif CGI Motion",
+      "angle": "Explorer les langages visuels",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "DPA Microphones delivers for Hilary Duff’s The Lucky Me Tour",
+      "url": "https://www.tpimagazine.com/dpa-microphones-delivers-for-hilary-duffs-the-lucky-me-tour/",
+      "published": "2026-11-06T15:28:06+00:00",
+      "summary": "For a tour built around bringing an audience closer to the artist, what happens beyond the stage can be just as important as what happens on it. For Hilary Duff’s The Lucky Me Tour, that philosophy extends deep into the audio system, where solutions from DPA Microphones, Wisycom and Austrian Audio, supplied by the DPA [...] The post DPA Microphones delivers for Hilary Duff’s The Lucky Me Tour appeared first on TPi .",
+      "source": "TPI Magazine",
+      "category": "01 Spectacle Concert",
+      "angle": "Identifier les équipes et arbitrages créatifs",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "powerhouse parramatta’s steel-latticed museum opens with art by es devlin and james turrell",
+      "url": "https://www.designboom.com/architecture/powerhouse-parramatta-steel-lattice-museum-opens-art-es-devlin-james-turrell-sydney-australia/",
+      "published": "2026-11-06T15:26:59+00:00",
+      "summary": "behind its intricate white exoskeleton, the sydney museum welcomes its first visitors with an ambitious program of exhibitions. The post powerhouse parramatta’s steel-latticed museum opens with art by es devlin and james turrell appeared first on designboom | architecture & design magazine .",
+      "source": "Designboom",
+      "category": "05 Art Architecture",
+      "angle": "Explorer formes expérimentales",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "d&b brings MVR Exchange to ArrayCalc",
+      "url": "https://www.tpimagazine.com/db-brings-mvr-exchange-to-arraycalc/",
+      "published": "2026-11-06T15:05:24+00:00",
+      "summary": "d&b audiotechnik has introduced MVR Exchange, a new feature available as part of the latest ArrayCalc beta version. Enabling users to import, export and update venue and loudspeaker system data using the open MVR (My Virtual Rig) standard, MVR Exchange helps audio professionals and production teams collaborate more efficiently with other disciplines throughout the planning [...] The post d&b brings MVR Exchange to ArrayCalc appeared first on TPi ",
+      "source": "TPI Magazine",
+      "category": "01 Spectacle Concert",
+      "angle": "Identifier les équipes et arbitrages créatifs",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "Pink Bows Foundation honours Madison Dubiski’s legacy",
+      "url": "https://www.tpimagazine.com/pink-bows-foundation-honours-madison-dubiskis-legacy/",
+      "published": "2026-11-06T15:01:08+00:00",
+      "summary": "Five years ago, 10 young people lost their lives at the Travis Scott Astroworld Festival tragedy in Houston, including 23-year-old Madison Dubiski, who attended the event with her younger brother, Ty. Madison never returned home. Six months later, on what would have been Madison’s 24th birthday, her parents, Michelle and Brian Dubiski, together with Ty, [...] The post Pink Bows Foundation honours Madison Dubiski’s legacy appeared first on TPi .",
+      "source": "TPI Magazine",
+      "category": "01 Spectacle Concert",
+      "angle": "Identifier les équipes et arbitrages créatifs",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "Greenhouse House 23 / Yemail Arquitectura",
+      "url": "https://www.archdaily.com/1188199/greenhouse-house-23-yemail-arquitectura",
+      "published": "2026-11-06T15:00:00+00:00",
+      "summary": "There is a moment when construction and demolition look identical. Sometimes, that concrete image—suspended between absence and the promise of the future—becomes a guide for physical intervention. If we strip away the symbolic sense of violence it sometimes imposes on its site, a ruin can also be understood as a material and temporal inventory.",
+      "source": "ArchDaily",
+      "category": "05 Art Architecture",
+      "angle": "Lire parcours et plans",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "Engineers choose DiGiCo Quantum flexibility and power for RAYE",
+      "url": "https://www.tpimagazine.com/engineers-choose-digico-quantum-flexibility-and-power-for-raye/",
+      "published": "2026-11-06T14:53:28+00:00",
+      "summary": "RAYE is an artist with huge global appeal and a long list of awards to prove it. Matthias Simmons is her front of house engineer and Joe Standen is monitor engineer. With such a wide fan base, the tour includes a variety of venues across the world. Simmons uses a Quantum 326 and Standen switches [...] The post Engineers choose DiGiCo Quantum flexibility and power for RAYE appeared first on TPi .",
+      "source": "TPI Magazine",
+      "category": "01 Spectacle Concert",
+      "angle": "Identifier les équipes et arbitrages créatifs",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "Sue Mudge joins EM Acoustics",
+      "url": "https://www.tpimagazine.com/sue-mudge-joins-em-acoustics/",
+      "published": "2026-11-06T14:28:01+00:00",
+      "summary": "EM Acoustics has appointed Sue Mudge (formerly Sue Gould) as Communications Manager as she embarks on a freelance consultancy role drawing extensively on three decades of industry experience. Mudge will be working closely with Operations Director Mike Wheeler and Brand Manager Greg Clarke to oversee PR and content creation, marketing and media support as well [...] The post Sue Mudge joins EM Acoustics appeared first on TPi .",
+      "source": "TPI Magazine",
+      "category": "01 Spectacle Concert",
+      "angle": "Identifier les équipes et arbitrages créatifs",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "L’AS en coulisses : JTSE, trente éditions de rencontres et un nouveau Dock",
+      "url": "https://www.revue-as.fr/2026/11/06/las-en-coulisses-jtse-trente-editions-de-rencontres-et-un-nouveau-dock/",
+      "published": "2026-11-06T13:06:59+00:00",
+      "summary": "Nouvel épisode de l’AS en coulisses, bienvenue ! Depuis 1996, les JTSE (Journées Techniques du Spectacle et de l’Evénement) réunissent les mondes de la technique francophone pendant deux jours. Après de nombreuses éditions à travers la France et l’Europe, c’est à Paris en 2003 que les JTSE ont trouvé leur point de chute. Elles célèbrent En savoir plus surL’AS en coulisses : JTSE, trente éditions de rencontres et un nouveau Dock […] Cet article L’",
+      "source": "Revue AS",
+      "category": "09 France Pro",
+      "angle": "Suivre les productions françaises",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "Restaurante Preta Maria / Estudio Guto Requena",
+      "url": "https://www.archdaily.com/1187988/restaurante-preta-maria-estudio-guto-requena",
+      "published": "2026-11-06T13:00:00+00:00",
+      "summary": "An architectural project that celebrates Afro-Brazilian culture: this is the foundation of Preta Maria restaurant, designed by Estudio Guto Requena in collaboration with architects Gabriela de Matos and Mateus Fraga. Based on an Afrofuturist approach that breaks away from colonial representations of Africa, the project seeks to celebrate the experience of Africans in Brazil through architecture, art, technology, cuisine, and other forms of expres",
+      "source": "ArchDaily",
+      "category": "05 Art Architecture",
+      "angle": "Lire parcours et plans",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "Veras Cultural Center / Terra e Tuma Arquitetos Associados",
+      "url": "https://www.archdaily.com/1152564/veras-cultural-center-terra-e-tuma-arquitetos-associados",
+      "published": "2026-11-06T12:00:00+00:00",
+      "summary": "Located on the urban fringe of the Córrego Grande hills, on the island of Florianópolis, the Veras Cultural Center serves as a device for connecting territory, community, and cultural practices.",
+      "source": "ArchDaily",
+      "category": "05 Art Architecture",
+      "angle": "Lire parcours et plans",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "the EU bans destruction of unsold fashion, but is it enough to stop luxury waste?",
+      "url": "https://www.designboom.com/design/eu-european-union-ban-destruction-unsold-fashion-enough-luxury-waste-environment-agency/",
+      "published": "2026-11-06T11:50:31+00:00",
+      "summary": "new european regulations challenge fashion’s take-make-waste model, but important exclusions leave questions about how far the industry is willing to change. The post the EU bans destruction of unsold fashion, but is it enough to stop luxury waste? appeared first on designboom | architecture & design magazine .",
+      "source": "Designboom",
+      "category": "05 Art Architecture",
+      "angle": "Explorer formes expérimentales",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "SCI-Arc task force champions long-term architectural strategies for fire-prone areas",
+      "url": "https://www.designboom.com/architecture/sci-arc-resilient-futures-task-force/",
+      "published": "2026-11-06T11:00:21+00:00",
+      "summary": "the sci-arc resilient futures task force supports los angeles homeowners recovering from the 2025 wildfires, offering climate-resilient architectural solutions to replace outdated building habits. The post SCI-Arc task force champions long-term architectural strategies for fire-prone areas appeared first on designboom | architecture & design magazine .",
+      "source": "Designboom",
+      "category": "05 Art Architecture",
+      "angle": "Explorer formes expérimentales",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "JS449 Apartment Building / Duque Motta & AA + FIA",
+      "url": "https://www.archdaily.com/1012976/js449-apartment-building-duque-motta-and-aa-plus-fia",
+      "published": "2026-11-06T11:00:00+00:00",
+      "summary": "The assignment consisted of the development of an apartment building for sale in a predominantly residential area of the commune of Providencia . To increase density, the regulations allow for an isolated volume of up to 12 floors without allowing housing on the first floor.",
+      "source": "ArchDaily",
+      "category": "05 Art Architecture",
+      "angle": "Lire parcours et plans",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "Cadence Courtyard Tower / Alison Brooks Architects",
+      "url": "https://www.archdaily.com/1188074/cadence-kings-cross-alison-brooks-architects",
+      "published": "2026-11-06T10:00:00+00:00",
+      "summary": "King's Cross has a new landmark: Cadence – the mixed-use 'courtyard tower' by Alison Brooks Architects – is complete.",
+      "source": "ArchDaily",
+      "category": "05 Art Architecture",
+      "angle": "Lire parcours et plans",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "Ephemeral Pavilion",
+      "url": "https://www.designindaba.com/articles/creative-work/ephemeral-pavilion",
+      "published": "2026-11-06T09:53:16+00:00",
+      "summary": "Aulets Arquitectes create a temporary pavilion from locally sourced stone and discarded wooden pallets for Futur Habitable",
+      "source": "Design Indaba",
+      "category": "04 Pub Strategie",
+      "angle": "Élargir les références culturelles",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "All our Blood",
+      "url": "https://www.designindaba.com/articles/creative-work/all-our-blood",
+      "published": "2026-11-06T09:38:31+00:00",
+      "summary": "Harry Pearce’s presents an interactive experience on interconnectedness at Kyoto YouMe Triennale",
+      "source": "Design Indaba",
+      "category": "04 Pub Strategie",
+      "angle": "Élargir les références culturelles",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "maison margiela celebrates tokyo flagship anniversary with toothpick-drawn manga",
+      "url": "https://www.designboom.com/art/toothpick-drawn-manga-celebrates-maison-martin-margiela-tokyo-flagship-anniversary-takehito-moriizumi-ebisu/",
+      "published": "2026-11-06T09:30:27+00:00",
+      "summary": "an abandoned electronics factory, strange signals, and a group of researchers set the scene for the factory at night, an illustrated story that explores transformation without erasing the past. The post maison margiela celebrates tokyo flagship anniversary with toothpick-drawn manga appeared first on designboom | architecture & design magazine .",
+      "source": "Designboom",
+      "category": "05 Art Architecture",
+      "angle": "Explorer formes expérimentales",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "Toolkit for a walkable city",
+      "url": "https://www.designindaba.com/articles/creative-work/toolkit-walkable-city",
+      "published": "2026-11-06T09:29:54+00:00",
+      "summary": "SWA are building toolkits for climate responsive public spaces",
+      "source": "Design Indaba",
+      "category": "04 Pub Strategie",
+      "angle": "Élargir les références culturelles",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "Designing the invisible at the new ICG Gallery Dubai",
+      "url": "https://www.archdaily.com/1188160/designing-the-invisible-at-the-new-icg-gallery-dubai",
+      "published": "2026-11-06T09:05:00+00:00",
+      "summary": "Designing the invisible. IRIS CERAMICA GROUP OFFICIALLY OPENS THE NEW ICG GALLERY DUBAI WITH A MULTISENSORY EXPERIENCE On the occasion of Dubai Design Week, Iris Ceramica Group officially opens the doors of the new ICG Gallery Dubai with “Designing the Invisible”, an experiential project that explores the most intangible dimensions of design through materials, sound, scent and perception, using neuroscience to investigate how the senses contribut",
+      "source": "ArchDaily",
+      "category": "05 Art Architecture",
+      "angle": "Lire parcours et plans",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "lavazza tablì wins designboom special prize third place at seoul design award",
+      "url": "https://www.designboom.com/design/lavazza-tabli-wins-designboom-special-prize-third-place-at-seoul-design-award/",
+      "published": "2026-11-06T08:47:22+00:00",
+      "summary": "lavazza's tablì tabs eliminates capsules from the single-cup experience. The post lavazza tablì wins designboom special prize third place at seoul design award appeared first on designboom | architecture & design magazine .",
+      "source": "Designboom",
+      "category": "05 Art Architecture",
+      "angle": "Explorer formes expérimentales",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "Architectures of Movement: 6 Unbuilt Transport Structures from the ArchDaily Community",
+      "url": "https://www.archdaily.com/1188059/architectures-of-movement-6-unbuilt-transport-structures-from-the-archdaily-community",
+      "published": "2026-11-06T07:30:00+00:00",
+      "summary": "The idea of transportation infrastructure tends to be more hostile than interesting: spaces of transit, of constant encounters with strangers, places that no one seems to claim. These structures organize movement and provide spaces that often operate around the clock. The unbuilt projects below push back against this notion of a no-man's-land, proposing infrastructure as an object of architecture. Located in Iran , Montenegro , the Canary Islands",
+      "source": "ArchDaily",
+      "category": "05 Art Architecture",
+      "angle": "Lire parcours et plans",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "MASEREEL Artist Residences / {define} + FRANTZEN et al architecten",
+      "url": "https://www.archdaily.com/1187689/masereel-artist-residences",
+      "published": "2026-11-06T07:00:00+00:00",
+      "summary": "The Artist Residences at MASEREEL, a contemporary arts center and international residency for graphic arts and printed media in Belgium, rethink temporary lodging for artists as a compact, circular, and adaptable building embedded in the wooded landscape of Kasterlee.",
+      "source": "ArchDaily",
+      "category": "05 Art Architecture",
+      "angle": "Lire parcours et plans",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "Prix de la conception lumière ACEtylène 2026 en Europe",
+      "url": "https://www.lightzoomlumiere.fr/article/conception-lumiere-2026-palmares-prix-2026-acetylene-europe/",
+      "published": "2026-11-06T06:30:13+00:00",
+      "summary": "Au Havre, les Prix de la conception lumière ACEtylène 2026 célèbre 10 lauréats. Une lumière plus sobre, plus humaine et plus ouverte sur l’Europe.",
+      "source": "Light ZOOM Lumière",
+      "category": "09 France Pro",
+      "angle": "Approfondir dispositifs lumineux",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "New Mexico Literacy Institute by Multistudio and Design Plus Architects Set to Open in December",
+      "url": "https://www.archdaily.com/1188126/new-mexico-literacy-institute-by-multistudio-and-design-plus-architects-set-to-open-in-december",
+      "published": "2026-11-06T06:30:00+00:00",
+      "summary": "The New Mexico Literacy Institute (NMLI), a 31,000-square-foot educational center designed by Multistudio in collaboration with Albuquerque-based Design Plus Architects , is scheduled to open in December 2026. Located in New Mexico , the project is a legacy initiative of Governor Michelle Lujan Grisham and is intended to provide a statewide facility for literacy education, serving learners of different ages and abilities. The design brings togeth",
+      "source": "ArchDaily",
+      "category": "05 Art Architecture",
+      "angle": "Lire parcours et plans",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "Cliff House / GASAP",
+      "url": "https://www.archdaily.com/1187693/cliff-house",
+      "published": "2026-11-06T06:00:00+00:00",
+      "summary": "Set on an exposed rocky outcrop overlooking the Libyan Sea, Cliff House transforms the challenges of its dramatic Cretan landscape into an architectural experience shaped by wind, materiality, and the gradual revelation of the horizon.",
+      "source": "ArchDaily",
+      "category": "05 Art Architecture",
+      "angle": "Lire parcours et plans",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "demi nguyen balances corporate branding, fintech systems, and typographic archives",
+      "url": "https://www.designboom.com/readers/demi-nguyen-corporate-branding-fintech-systems-typographic-archives/",
+      "published": "2026-11-06T03:30:41+00:00",
+      "summary": "demi nguyen translates complex ideas into visual identities, digital experiences, and communication systems, balancing strategic precision with an expressive approach to storytelling. The post demi nguyen balances corporate branding, fintech systems, and typographic archives appeared first on designboom | architecture & design magazine .",
+      "source": "Designboom",
+      "category": "05 Art Architecture",
+      "angle": "Explorer formes expérimentales",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "modular audio player is built using repurposed CD-ROM drives",
+      "url": "https://www.designboom.com/technology/used-cd-rom-drives-modular-aluminum-audio-player-das-pod/",
+      "published": "2026-11-06T02:47:10+00:00",
+      "summary": "the aluminum CD player explores ownership, repairability, and the physical experience of music. The post modular audio player is built using repurposed CD-ROM drives appeared first on designboom | architecture & design magazine .",
+      "source": "Designboom",
+      "category": "05 Art Architecture",
+      "angle": "Explorer formes expérimentales",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "Infinte & Invisible: Bleed Get Clean With LOLA MullenLowe",
+      "url": "https://www.stashmedia.tv/infinte-invisible-bleed-get-clean-with-lola-mullenlowe/",
+      "published": "2026-11-05T22:45:16+00:00",
+      "summary": "Director Paolo Cavalieri and Buenos Aires studio Bleed pull back the curtain on the pitch they used to win the assignment of visualizing the invisible for the global launch of Unilever's probiotic cleaner Cif Infinite. [Watch] The post Infinte & Invisible: Bleed Get Clean With LOLA MullenLowe appeared first on Motion design - STASH .",
+      "source": "Stash",
+      "category": "08 Immersif CGI Motion",
+      "angle": "Explorer les langages visuels",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "Can Antifascist Architecture make another world possible",
+      "url": "https://www.stirworld.com/think-books-and-movies-can-antifascist-architecture-make-another-world-possible",
+      "published": "2026-11-05T18:30:00+00:00",
+      "summary": "Andrew Santa Lucia and Daniel Jonas Roche’s book traces an alternative genealogy for arch Read more..",
+      "source": "STIRworld",
+      "category": "05 Art Architecture",
+      "angle": "Repérer projets hybrides",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "KB Event and H2 Equity Partners acquires Crossland",
+      "url": "https://www.tpimagazine.com/kb-event-and-h2-equity-partners-acquires-crossland/",
+      "published": "2026-11-05T16:52:59+00:00",
+      "summary": "KB Event and H2 Equity Partners have completed the purchase of Crossland, reshaping its ownership and leadership as of 30 October 2026. Founded in 2006 by Malachy McMullan, the Irish-based company is a specialist in bussing and trucking services for high-proﬁle live-event clients. Through investment and industry expertise, Crossland has established a strong reputation in [...] The post KB Event and H2 Equity Partners acquires Crossland appeared f",
+      "source": "TPI Magazine",
+      "category": "01 Spectacle Concert",
+      "angle": "Identifier les équipes et arbitrages créatifs",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "Pol Fernandez discusses trends, new technology and what’s next for High Scream",
+      "url": "https://www.tpimagazine.com/pol-fernandez-discusses-industry-trends-what-technology-has-opened-new-creative-possibilities-and-whats-next-for-high-scream-studios/",
+      "published": "2026-11-05T16:39:15+00:00",
+      "summary": "Having worked with numerous artists, from DJ Snake to David Guetta, could you describe how you and the team begin a collaboration with an artist, and how those initial conversations eventually evolve into the content used during a live show? It always starts with the idea, not the technology. That’s a really important distinction. We [...] The post Pol Fernandez discusses trends, new technology and what’s next for High Scream appeared first on TP",
+      "source": "TPI Magazine",
+      "category": "01 Spectacle Concert",
+      "angle": "Identifier les équipes et arbitrages créatifs",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "More Holiday Warmth and Wit from Wallace & Gromit",
+      "url": "https://www.stashmedia.tv/more-holiday-warmth-and-wit-from-wallace-gromit/",
+      "published": "2026-11-05T14:41:18+00:00",
+      "summary": "Following the success of their 2025 holiday collab , Aardman and luxury British fashion brand Barbour re-enlist Wallace & Gromit for another bit of snowy stop-motion mayhem balanced with warmth and wit. [Watch] The post More Holiday Warmth and Wit from Wallace & Gromit appeared first on Motion design - STASH .",
+      "source": "Stash",
+      "category": "08 Immersif CGI Motion",
+      "angle": "Explorer les langages visuels",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "Yamaha introduces the DM5 Series to the market",
+      "url": "https://www.tpimagazine.com/yamaha-introduces-the-dm5-series-to-the-market/",
+      "published": "2026-11-05T12:09:20+00:00",
+      "summary": "Why bring a product to market for the small- to mid-sized live sound sector? The live sound market is incredibly diverse across theatre, broadcast, live music and corporate AV. Engineers work across different industry sectors every day, and production companies supply a wide range of industries. An ecosystem that fits all these sectors and meets [...] The post Yamaha introduces the DM5 Series to the market appeared first on TPi .",
+      "source": "TPI Magazine",
+      "category": "01 Spectacle Concert",
+      "angle": "Identifier les équipes et arbitrages créatifs",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "NedAcoustics lifts the lid on the Venue Sound Baffle LT05",
+      "url": "https://www.tpimagazine.com/nedacoustics-lifts-the-lid-on-the-venue-sound-baffle-lt05/",
+      "published": "2026-11-05T12:09:11+00:00",
+      "summary": "Can you tell us about NedAcoustics? We founded NedAcoustics, having learned over the past 20 years that there is a large demand for temporary acoustical measures. We developed a temporary installation system, suitable for touring timescales, focused on two key areas: improving sound quality within a venue, and reducing noise pollution, particularly in outdoor/festival venues. [...] The post NedAcoustics lifts the lid on the Venue Sound Baffle LT0",
+      "source": "TPI Magazine",
+      "category": "01 Spectacle Concert",
+      "angle": "Identifier les équipes et arbitrages créatifs",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "Cameo previews ZENIT W1200 G2 and W300 G2",
+      "url": "https://www.tpimagazine.com/cameo-previews-zenit-w1200-g2-and-w300-g2/",
+      "published": "2026-11-05T12:06:14+00:00",
+      "summary": "What do the new W1200 G2 and W300 G2 bring to the overall ZENIT product range? They take the compromise out of the middle. The W600 G2 has become a real workhorse for our rental and dry-hire customers this year. But any fixture sitting in the middle of a range forces someone to compromise: on [...] The post Cameo previews ZENIT W1200 G2 and W300 G2 appeared first on TPi .",
+      "source": "TPI Magazine",
+      "category": "01 Spectacle Concert",
+      "angle": "Identifier les équipes et arbitrages créatifs",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "Nommés 6/6 au Prix de l’imaginaire lumière ACEtylène 2026",
+      "url": "https://www.lightzoomlumiere.fr/photos/nommes-au-prix-de-l-imaginaire-lumiere-acetylene-2026-realisations-1-a-4/",
+      "published": "2026-11-05T06:30:04+00:00",
+      "summary": "Des projets libres et audacieux. Une lumière qui imagine demain. Créativité, sobriété, usages. Voici les nommés au Prix de l'imaginaire lumière ACEtylène 2026.",
+      "source": "Light ZOOM Lumière",
+      "category": "09 France Pro",
+      "angle": "Approfondir dispositifs lumineux",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "Crise climatique",
+      "url": "https://www.revue-as.fr/2026/11/05/crise-climatique/",
+      "published": "2026-11-05T05:21:00+00:00",
+      "summary": ".elementor-22784 .elementor-element.elementor-element-96b07bc:not(.elementor-motion-effects-element-type-background), .elementor-22784 .elementor-element.elementor-element-96b07bc > .elementor-motion-effects-container > .elementor-motion-effects-layer{background-color:transparent;background-image:linear-gradient(180deg, #FFFFFF00 0%, #FFFFFF 100%);}.elementor-22784 .elementor-element.elementor-element-96b07bc{transition:background 0.3s, border 0.",
+      "source": "Revue AS",
+      "category": "09 France Pro",
+      "angle": "Suivre les productions françaises",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "Damaso Mayer on offsetting geological histories with industrial finesse in design",
+      "url": "https://www.stirworld.com/inspire-people-damaso-mayer-on-offsetting-geological-histories-with-industrial-finesse-in-design",
+      "published": "2026-11-04T18:30:00+00:00",
+      "summary": "A conversation with the founder of Estudio Material explores his pursuit of merging the natural Read more..",
+      "source": "STIRworld",
+      "category": "05 Art Architecture",
+      "angle": "Repérer projets hybrides",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "Pem Lham meshes Himalayan folklore with contemporary feminism in her work",
+      "url": "https://www.stirworld.com/inspire-people-pem-lham-meshes-himalayan-folklore-with-contemporary-feminism-in-her-work",
+      "published": "2026-11-04T18:30:00+00:00",
+      "summary": "In conversation with STIR, the Bhutanese artist speaks about her continuing evolution and exper Read more..",
+      "source": "STIRworld",
+      "category": "05 Art Architecture",
+      "angle": "Repérer projets hybrides",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "Tom Noakes & Black Kite Deliver the Doom Burger for KFC",
+      "url": "https://www.stashmedia.tv/tom-noakes-black-kite-deliver-the-doom-burger-for-kfc/",
+      "published": "2026-11-04T14:31:28+00:00",
+      "summary": "Business Club director Tom Noakes teams with London post/VFX house Black Kite to conjure a weirdly light-hearted post-apocalypse for KFC’s collab with Marvel Studios’ Avengers: Doomsday thru ad agency Mother. [Watch] The post Tom Noakes & Black Kite Deliver the Doom Burger for KFC appeared first on Motion design - STASH .",
+      "source": "Stash",
+      "category": "08 Immersif CGI Motion",
+      "angle": "Explorer les langages visuels",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "L’ISTS ouvre la prochaine session de la formation métier “Régisseur général des entreprises du spectacle vivant”",
+      "url": "https://www.revue-as.fr/2026/11/04/lists-ouvre-la-prochaine-session-de-la-formation-metier-regisseur-general-des-entreprises-du-spectacle-vivant/",
+      "published": "2026-11-04T09:53:00+00:00",
+      "summary": "L’ISTS (Institut Supérieur des Techniques du Spectacle) propose, depuis 2010, une formation de “Régisseur général des entreprises du spectacle vivant” qu’il a adaptée aux évolutions de nos métiers et de leurs champs de responsabilité. Cette actualisation a procédé de nombreux échanges avec les professionnels du secteur et a notamment pris en compte l’évolution de la En savoir plus surL’ISTS ouvre la prochaine session de la formation métier “Régis",
+      "source": "Revue AS",
+      "category": "09 France Pro",
+      "angle": "Suivre les productions françaises",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "Alt Western: Buck Opens Bass X Machina on Netflix",
+      "url": "https://www.stashmedia.tv/alt-western-buck-opens-bass-x-machina-on-netflix/",
+      "published": "2026-11-04T02:49:49+00:00",
+      "summary": "Bass X Machina , the six-episode animated steampunk Western premiered on Netflix Nov 3 with this gritty title sequence, created by the motion crew at BUCK and powered by a track from singer/songwriter Janelle Monáe. [Watch] The post Alt Western: Buck Opens Bass X Machina on Netflix appeared first on Motion design - STASH .",
+      "source": "Stash",
+      "category": "08 Immersif CGI Motion",
+      "angle": "Explorer les langages visuels",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "Inheritors of Earth at Kiran Nadar Museum of Art examines land and the commons",
+      "url": "https://www.stirworld.com/think-opinions-inheritors-of-earth-at-kiran-nadar-museum-of-art-examines-land-and-the-commons",
+      "published": "2026-11-03T18:30:00+00:00",
+      "summary": "The exhibition in Delhi explores how colonial records and land classifications have shaped our Read more..",
+      "source": "STIRworld",
+      "category": "05 Art Architecture",
+      "angle": "Repérer projets hybrides",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "Motion Plus Design Returns to Paris 2026, November 14th",
+      "url": "https://www.stashmedia.tv/motion-plus-design-returns-to-paris-2026-november-14th/",
+      "published": "2026-11-03T15:46:05+00:00",
+      "summary": "On Saturday, November 14, Motion Plus Design brings together some of the most inspiring artists on the international motion design scene at Le Grand Rex in Paris. [Watch] The post Motion Plus Design Returns to Paris 2026, November 14th appeared first on Motion design - STASH .",
+      "source": "Stash",
+      "category": "08 Immersif CGI Motion",
+      "angle": "Explorer les langages visuels",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "Écouter ses conceptions de systèmes d&b grâce à la nouvelle fonction d’auralisation d’ArrayCalc",
+      "url": "https://www.revue-as.fr/2026/11/03/ecouter-ses-conceptions-de-systemes-db-grace-a-la-nouvelle-fonction-dauralisation-darraycalc/",
+      "published": "2026-11-03T09:51:00+00:00",
+      "summary": "d&b audiotechnik annonce l’intégration d’un système d’auralisation dans son logiciel ArrayCalc. Cette nouvelle fonctionnalité logicielle permet aux ingénieurs systèmes d’écouter leurs systèmes d’enceintes d&b lors de la phase de conception et avant la mise en service. Depuis de nombreuses années, les logiciels de simulation de systèmes de sonorisation, tels que d&b ArrayCalc, aident les ingénieurs En savoir plus surÉcouter ses conceptions de syst",
+      "source": "Revue AS",
+      "category": "09 France Pro",
+      "angle": "Suivre les productions françaises",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "Kit Média 2027 LZL : nouveautés, offres et sommaire",
+      "url": "https://www.lightzoomlumiere.fr/article/kit-media-2027-lzl-nouveautes-offres-et-sommaire/",
+      "published": "2026-11-03T06:49:41+00:00",
+      "summary": "Nouveautés du Kit Média 2027 de LZL Services. Découvrez le sommaire complet, nos offres phares et ses atouts pour gagner en visibilité dans l’éclairage durable.",
+      "source": "Light ZOOM Lumière",
+      "category": "09 France Pro",
+      "angle": "Approfondir dispositifs lumineux",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "Rajnish Hedao x Swati Interiors bring stories of nature and nostalgia to their designs",
+      "url": "https://www.stirworld.com/see-features-rajnish-hedao-x-swati-interiors-bring-stories-of-nature-and-nostalgia-to-their-designs",
+      "published": "2026-11-02T18:30:00+00:00",
+      "summary": "Two realised visions from the 11-piece Flight of Nostalgia collection brought vintage forms, na Read more..",
+      "source": "STIRworld",
+      "category": "05 Art Architecture",
+      "angle": "Repérer projets hybrides",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "Salman Toor Someone Like You at the Courtauld explores identity and belonging",
+      "url": "https://www.stirworld.com/see-features-salman-toor-someone-like-you-at-the-courtauld-explores-identity-and-belonging",
+      "published": "2026-11-02T18:30:00+00:00",
+      "summary": "The Pakistani-American artist’s first solo show in Europe brings together paintings that Read more..",
+      "source": "STIRworld",
+      "category": "05 Art Architecture",
+      "angle": "Repérer projets hybrides",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "Mouvements professionnels",
+      "url": "https://www.revue-as.fr/2026/11/02/mouvements-professionnels-78/",
+      "published": "2026-11-02T09:52:00+00:00",
+      "summary": "Le pôle technique du monde du spectacle est toujours à la recherche de nouveaux profils. Si vous êtes à la recherche d’emploi, vous trouverez ici une revue non exhaustive, mais fournie, des prochains postes à pourvoir. Direction technique Régie générale Régie polyvalente Cet article Mouvements professionnels est apparu en premier sur Revue AS .",
+      "source": "Revue AS",
+      "category": "09 France Pro",
+      "angle": "Suivre les productions françaises",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "Gisèle CLARK, 26.11.1947 – 17.10.2026",
+      "url": "https://www.revue-as.fr/2026/11/02/gisele-clark-26-11-1947-17-10-2026/",
+      "published": "2026-11-02T08:00:00+00:00",
+      "summary": "D’origine suisse et issue d’une famille de musiciens, Gisèle Clark commence sa carrière chez l’éditeur musical parisien Semi/Méridian, où elle travaille notamment à la promotion de Michel Polnareff. À la fin des années 1960, après avoir découvert le métier d’ingénieur du son dans un studio londonien, elle choisit de s’orienter vers l’enregistrement musical. Elle débute En savoir plus surGisèle CLARK, 26.11.1947 – 17.10.2026 […] Cet article Gisèle",
+      "source": "Revue AS",
+      "category": "09 France Pro",
+      "angle": "Suivre les productions françaises",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "Nommés 5/6 au Prix de la conception lumière ACEtylène 2026",
+      "url": "https://www.lightzoomlumiere.fr/photos/nommes-au-prix-de-la-conception-lumiere-acetylene-2026-realisations-26-a-31/",
+      "published": "2026-11-02T06:30:04+00:00",
+      "summary": "ACEtylène 2026 : la conception lumière révèle les lieux. Patrimoine, culture, usage, sobriété. Derniers projets inspirants, humains et durables à découvrir.",
+      "source": "Light ZOOM Lumière",
+      "category": "09 France Pro",
+      "angle": "Approfondir dispositifs lumineux",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "Odéon – Ateliers Berthier",
+      "url": "https://www.revue-as.fr/2026/11/02/odeon-ateliers-berthier/",
+      "published": "2026-11-02T05:13:00+00:00",
+      "summary": "Le réseau comme clé de voûte Aux Ateliers Berthier, l'Odéon - Théâtre de l'Europe a poussé le curseur du réseau scénique aussi loin que possible, en faisant d’une salle provisoire un terrain d’expérimentation grandeur nature, très concret, et déjà en phase avec les futures obligations de cybersécurité. Dans l’article précédent consacré aux protocoles lumière,(1) étaient En savoir plus surOdéon – Ateliers Berthier […] Cet article Odéon – Ateliers ",
+      "source": "Revue AS",
+      "category": "09 France Pro",
+      "angle": "Suivre les productions françaises",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "Architects Collaborative punctuates an unwieldy Delhi site with light filled courts",
+      "url": "https://www.stirworld.com/see-features-architects-collaborative-punctuates-an-unwieldy-delhi-site-with-light-filled-courts",
+      "published": "2026-11-01T18:30:00+00:00",
+      "summary": "Pivoting timber shutters, dual courtyards stretching into the subterranean and narrow wall open Read more..",
+      "source": "STIRworld",
+      "category": "05 Art Architecture",
+      "angle": "Repérer projets hybrides",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "Conjuring the unbuilt STIR x Roca London Gallery imagines the city we are owed",
+      "url": "https://www.stirworld.com/see-features-conjuring-the-unbuilt-stir-x-roca-london-gallery-imagines-the-city-we-are-owed",
+      "published": "2026-10-30T18:30:00+00:00",
+      "summary": "The second session in the public event series brought Elsie Owusu, Torange Khonsari, JJ Cliff a Read more..",
+      "source": "STIRworld",
+      "category": "05 Art Architecture",
+      "angle": "Repérer projets hybrides",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "L’AS en coulisses : dans l’atelier de PlastikArt Studio à Cesena (Italie)",
+      "url": "https://www.revue-as.fr/2026/10/30/las-en-coulisses-dans-latelier-de-plastikart-studio-a-cesena-italie/",
+      "published": "2026-10-30T09:59:00+00:00",
+      "summary": "Nouvel épisode de l’AS en coulisses, bienvenue ! 👋 Depuis 1995, PlastikArt Studio réalise objets, robots et autres sculptures hyper réalistes. Alors que Faust. Fait, non dit, la dernière création de Romeo Castellucci arrive à l’Odéon Théâtre de l’Europe, nous sommes allés rencontrer Giovanna Amoroso et Istvan Zimmermann dans leur Studio de Cesena en Italie. En savoir plus surL’AS en coulisses : dans l’atelier de PlastikArt Studio à Cesena (Italie",
+      "source": "Revue AS",
+      "category": "09 France Pro",
+      "angle": "Suivre les productions françaises",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "Nommés 4/6 au Prix de la conception lumière ACEtylène 2026",
+      "url": "https://www.lightzoomlumiere.fr/photos/nommes-au-prix-de-la-conception-lumiere-acetylene-2026-realisations-19-a-24/",
+      "published": "2026-10-30T06:30:04+00:00",
+      "summary": "6 nouvelles réalisations nommées illustrent une conception lumière inventive, sobre et humaine. Les concepteurs lumière excellent dans les lieux de vie.",
+      "source": "Light ZOOM Lumière",
+      "category": "09 France Pro",
+      "angle": "Approfondir dispositifs lumineux",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "A New Standard",
+      "url": "https://www.designindaba.com/articles/creative-work/new-standard",
+      "published": "2026-10-30T06:00:00+00:00",
+      "summary": "ASICS and Karimoku sustainably decommission sneakers by giving them a second life as furniture",
+      "source": "Design Indaba",
+      "category": "04 Pub Strategie",
+      "angle": "Élargir les références culturelles",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "Revisiting the Bihar Museum a cultural campus shaped by pavilions and courtyards",
+      "url": "https://www.stirworld.com/see-features-revisiting-the-bihar-museum-a-cultural-campus-shaped-by-pavilions-and-courtyards",
+      "published": "2026-10-29T18:30:00+00:00",
+      "summary": "With the Indian museum ranking ninth among the world’s 100 best museums, STIR reviews its Read more..",
+      "source": "STIRworld",
+      "category": "05 Art Architecture",
+      "angle": "Repérer projets hybrides",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "Earthly Paradise lost and regained the creation of radical domesticities in the UK",
+      "url": "https://www.stirworld.com/think-opinions-earthly-paradise-lost-and-regained-the-creation-of-radical-domesticities-in-the-uk",
+      "published": "2026-10-29T18:30:00+00:00",
+      "summary": "At the William Morris Gallery in Walthamstow, Earthly Paradise: Radical Living in the UK traces Read more..",
+      "source": "STIRworld",
+      "category": "05 Art Architecture",
+      "angle": "Repérer projets hybrides",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "Bobo",
+      "url": "https://www.designindaba.com/articles/creative-work/bobo",
+      "published": "2026-10-29T13:00:00+00:00",
+      "summary": "A period companion designed to help young girls track their period health.",
+      "source": "Design Indaba",
+      "category": "04 Pub Strategie",
+      "angle": "Élargir les références culturelles",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "The Whispers of Plants",
+      "url": "https://www.designindaba.com/articles/creative-work/whispers-plants",
+      "published": "2026-10-29T11:23:56+00:00",
+      "summary": "The Electric Plant Co is using technology to better understand and respond to nature.",
+      "source": "Design Indaba",
+      "category": "04 Pub Strategie",
+      "angle": "Élargir les références culturelles",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "Nommés 3/6 au Prix de la conception lumière ACEtylène 2026",
+      "url": "https://www.lightzoomlumiere.fr/photos/nommes-au-prix-de-la-conception-lumiere-acetylene-2026-realisations-13-a-18/",
+      "published": "2026-10-29T06:30:04+00:00",
+      "summary": "6 nouvelles réalisations nommées illustrent une conception lumière inventive, sobre et humaine. Les concepteurs lumière excellent dans les lieux de vie.",
+      "source": "Light ZOOM Lumière",
+      "category": "09 France Pro",
+      "angle": "Approfondir dispositifs lumineux",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "“La Femme sans ombre”",
+      "url": "https://www.revue-as.fr/2026/10/29/la-femme-sans-ombre/",
+      "published": "2026-10-29T06:00:00+00:00",
+      "summary": "L’opéra La Femme sans ombre, composé par Richard Strauss sur un livret d’Hugo von Hofmannsthal et présenté au Grand Théâtre de Provence, a été la grande révélation du Festival d’Aix-en-Provence 2026. Sous la direction fougueuse du chef d’orchestre Klaus Mäkelä, la mise en scène de Barrie Kosky a brillamment soulevé les contradictions de cette œuvre. En savoir plus sur“La Femme sans ombre” […] Cet article “La Femme sans ombre” est apparu en premie",
+      "source": "Revue AS",
+      "category": "09 France Pro",
+      "angle": "Suivre les productions françaises",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "Hella Jongerius on disrupting systems and embracing the absurd",
+      "url": "https://www.stirworld.com/inspire-people-hella-jongerius-on-disrupting-systems-and-embracing-the-absurd",
+      "published": "2026-10-28T18:30:00+00:00",
+      "summary": "Speaking with STIR, the Dutch industrial designer talks about the intelligence of hands, expand Read more..",
+      "source": "STIRworld",
+      "category": "05 Art Architecture",
+      "angle": "Repérer projets hybrides",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "The History of Concrete a docu triumph owing to its evasion of polemic architecture",
+      "url": "https://www.stirworld.com/think-books-and-movies-the-history-of-concrete-a-docu-triumph-owing-to-its-evasion-of-polemic-architecture",
+      "published": "2026-10-28T18:30:00+00:00",
+      "summary": "In its narrative dissonance and deceptive titular chronicling, the John Wilson documentary make Read more..",
+      "source": "STIRworld",
+      "category": "05 Art Architecture",
+      "angle": "Repérer projets hybrides",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "Nommés 2/6 au Prix de la conception lumière ACEtylène 2026",
+      "url": "https://www.lightzoomlumiere.fr/photos/nommes-au-prix-de-la-conception-lumiere-acetylene-2026-realisations-7-a-12/",
+      "published": "2026-10-28T06:30:04+00:00",
+      "summary": "Créativité, innovation et durabilité au cœur des projets des concepteurs lumière. Les nommés dévoilés au Prix de la conception lumière ACEtylène 2026.",
+      "source": "Light ZOOM Lumière",
+      "category": "09 France Pro",
+      "angle": "Approfondir dispositifs lumineux",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "Powersoft ArmoníaPlus 3.0 : plus de réactivité et natif macOS",
+      "url": "https://www.revue-as.fr/2026/10/27/powersoft-armoniaplus-3-0-plus-de-reactivite-et-natif-macos/",
+      "published": "2026-10-27T09:25:00+00:00",
+      "summary": "Avec la version 3.0 de sa plate-forme de gestion de systèmes de sonorisation ArmoníaPlus, Powersoft vient de réaliser une mise à jour majeure. Auparavant exploitable uniquement sous Windows avec du matériel x64, ArmoníaPlus fonctionne maintenant, dans cette dernière évolution, en mode natif sur macOS avec les processeurs Apple Silicon, ce qui en fait pour la En savoir plus surPowersoft ArmoníaPlus 3.0 : plus de réactivité et natif macOS […] Cet a",
+      "source": "Revue AS",
+      "category": "09 France Pro",
+      "angle": "Suivre les productions françaises",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "Nommés 1/6 au Prix de la conception lumière ACEtylène 2026",
+      "url": "https://www.lightzoomlumiere.fr/photos/nommes-au-prix-de-la-conception-lumiere-acetylene-2026-realisations-1-a-6/",
+      "published": "2026-10-27T06:30:04+00:00",
+      "summary": "Créativité, innovation et durabilité au cœur des projets des concepteurs lumière. Les nommés dévoilés au Prix de la conception lumière ACEtylène 2026.",
+      "source": "Light ZOOM Lumière",
+      "category": "09 France Pro",
+      "angle": "Approfondir dispositifs lumineux",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "Limiter les impacts de la lumière artificielle, Cluster Lumière",
+      "url": "https://www.lightzoomlumiere.fr/livre/limiter-les-impacts-de-la-lumiere-artificielle-cluster-lumiere/",
+      "published": "2026-10-26T06:30:54+00:00",
+      "summary": "Le guide du Cluster Lumière, Limiter les impacts de la lumière artificielle, vise un éclairage extérieur plus sobre, précis et respectueux du vivant.",
+      "source": "Light ZOOM Lumière",
+      "category": "09 France Pro",
+      "angle": "Approfondir dispositifs lumineux",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "Finally, Something Good",
+      "url": "https://www.designindaba.com/articles/creative-work/finally-something-good",
+      "published": "2026-10-23T06:00:00+00:00",
+      "summary": "Stefan Sagmeister turns shoes into wearable data visualisations for his exhibition at Paris’s Gaîté Lyrique",
+      "source": "Design Indaba",
+      "category": "04 Pub Strategie",
+      "angle": "Élargir les références culturelles",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "L’Atelier des jardiniers : éclairage en réemploi à Montrouge",
+      "url": "https://www.lightzoomlumiere.fr/realisation/atelier-des-jardiniers-eclairage-en-reemploi-a-montrouge/",
+      "published": "2026-10-23T05:30:28+00:00",
+      "summary": "À Montrouge, un ancien atelier industriel renaît. Lieu culturel, il s’éclaire avec ses luminaires d’origine et des pièces de réemploi.",
+      "source": "Light ZOOM Lumière",
+      "category": "09 France Pro",
+      "angle": "Approfondir dispositifs lumineux",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "AnemoSwab",
+      "url": "https://www.designindaba.com/articles/creative-work/anemoswab",
+      "published": "2026-10-22T06:00:00+00:00",
+      "summary": "A James Dyson award winning low-cost, 3D Printed device to test for respiratory infections",
+      "source": "Design Indaba",
+      "category": "04 Pub Strategie",
+      "angle": "Élargir les références culturelles",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "Luminaires d’extérieur : quel palmarès or et argent 2026 ?",
+      "url": "https://www.lightzoomlumiere.fr/article/luminaires-exterieur-quel-palmares-or-et-argent-en-2026/",
+      "published": "2026-10-22T05:30:01+00:00",
+      "summary": "Luminis signe un triplé inédit aux Grands Prix du Design 2026 avec Ellington, Bellevue Slim et Trilo, rejoints par Lumenpulse et Cyclone Lighting dans le palmarès or.",
+      "source": "Light ZOOM Lumière",
+      "category": "09 France Pro",
+      "angle": "Approfondir dispositifs lumineux",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "The Harvest Season",
+      "url": "https://www.designindaba.com/articles/creative-work/harvest-season",
+      "published": "2026-10-21T13:14:31+00:00",
+      "summary": "Ibrahim Mahama reimagines cultural possibilities",
+      "source": "Design Indaba",
+      "category": "04 Pub Strategie",
+      "angle": "Élargir les références culturelles",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "Étendre ses imaginaires typographiques avec Plain Text",
+      "url": "https://grapheine.com/magazine/etendre-ses-imaginaires-typographiques-revue-plain-text-typographie-exploratoire-experimentale/",
+      "published": "2026-10-20T12:48:22+00:00",
+      "summary": "Et si les écritures ne servaient pas qu'à écrire, mais pouvaient aussi offrir un espace créatif d'expression artistique, libérées des attentes utilitaires ? RDV le 29 octobre à 18h30 pour une conférence sur la typographie exploratoire.",
+      "source": "Graphéine",
+      "category": "13 France Marketing Design",
+      "angle": "Étudier les démarches de création",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "Comment faire briller les LED en blanc ? Les luminophores",
+      "url": "https://www.lightzoomlumiere.fr/article/comment-faire-briller-les-led-en-blanc-lumiphores/",
+      "published": "2026-10-20T05:30:50+00:00",
+      "summary": "Comment une LED bleue devient-elle blanche ? Du YAG aux nouveaux luminophores, plongée au cœur des matériaux qui façonnent la lumière des LED.",
+      "source": "Light ZOOM Lumière",
+      "category": "09 France Pro",
+      "angle": "Approfondir dispositifs lumineux",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "Train Jazz",
+      "url": "https://www.designindaba.com/articles/creative-work/train-jazz",
+      "published": "2026-10-16T10:08:52+00:00",
+      "summary": "Joshua Wolk puts creates music from the New York’s subway transit",
+      "source": "Design Indaba",
+      "category": "04 Pub Strategie",
+      "angle": "Élargir les références culturelles",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "After the Last Sip",
+      "url": "https://www.designindaba.com/articles/creative-work/after-last-sip",
+      "published": "2026-10-16T08:18:26+00:00",
+      "summary": "Designers Chao-Chun Kung, Ching-Yu Lin and Chen-Yang Chang turn coffee grounds into interior design elements",
+      "source": "Design Indaba",
+      "category": "04 Pub Strategie",
+      "angle": "Élargir les références culturelles",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "Reefvive",
+      "url": "https://www.designindaba.com/articles/creative-work/reefvive",
+      "published": "2026-10-16T08:09:24+00:00",
+      "summary": "A James Dyson Award Winner 2026, Reefvive is Using Marine Waste to promote Coral Reef Restoration",
+      "source": "Design Indaba",
+      "category": "04 Pub Strategie",
+      "angle": "Élargir les références culturelles",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "Les peintres en lettres redessinent les villes",
+      "url": "https://grapheine.com/magazine/peintres-en-lettres-redessinent-les-villes/",
+      "published": "2026-10-13T10:18:21+00:00",
+      "summary": "Après avoir été pendant plusieurs siècles la norme pour habiller les devantures de nos commerces, les peintures en lettres sont tombées dans l’oubli. Elles font un retour haut en couleur depuis une petite dizaine d’années, et sont aujourd'hui un gage d'authenticité, de fait-main, d'artisanat, de luxe et de savoir-faire pour les boutiques qui s'en parent.",
+      "source": "Graphéine",
+      "category": "13 France Marketing Design",
+      "angle": "Étudier les démarches de création",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "La révolution des boulangeries “premium”",
+      "url": "https://grapheine.com/magazine/boulangerie-pain-branding/",
+      "published": "2026-10-08T14:28:04+00:00",
+      "summary": "Ces dernières années sont apparues des boulangeries au nom inattendu, associant des valeurs philosophiques, humaines ou traditionnelles à l’univers du pain. Et si le pain, produit de base par excellence devenait Premium ?",
+      "source": "Graphéine",
+      "category": "13 France Marketing Design",
+      "angle": "Étudier les démarches de création",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "Comment la guerre impacte-t-elle le design ?",
+      "url": "https://grapheine.com/magazine/design-guerre-penurie-impact/",
+      "published": "2026-09-22T05:13:18+00:00",
+      "summary": "Le propre du design est de répondre à une contrainte, et de créer de la manière la plus efficace possible. Parfois, cependant, les contraintes ne viennent pas du client mais d'un manque de matières premières. C'est le cas durant les guerres, qui entraînent de nombreuses pénuries. Du bois à l'époque des conflits mondiaux, au manque d'essence aujourd'hui, l'industrie a dû et su s'adapter pour réinventer l'esthétique et la fonctionnalité des objets ",
+      "source": "Graphéine",
+      "category": "13 France Marketing Design",
+      "angle": "Étudier les démarches de création",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "3 questions à Matthieu Bernard : Penser l’immobilier comme une marque.",
+      "url": "https://grapheine.com/magazine/3-questions-matthieu-bernard-immobilier-marque/",
+      "published": "2026-09-16T09:38:47+00:00",
+      "summary": "Et si un immeuble se pensait comme une marque ? Matthieu Bernard revient sur l’évolution du marketing immobilier, où identité, récit et émotion transforment désormais les bâtiments en véritables expériences.",
+      "source": "Graphéine",
+      "category": "13 France Marketing Design",
+      "angle": "Étudier les démarches de création",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "Le branding iconique : construire une identité de star",
+      "url": "https://grapheine.com/magazine/branding-iconique-identite-star/",
+      "published": "2026-09-01T06:04:47+00:00",
+      "summary": "Les stars sont un produit marketing qui peut être construit ou naturel. Décryptons le personal branding des stars et comment elles se construisent ou deviennent des icônes, de Taylor Swift à Jul, en passant par Marilyn.",
+      "source": "Graphéine",
+      "category": "13 France Marketing Design",
+      "angle": "Étudier les démarches de création",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "2D & 3D: Lighting Design for Broadway",
+      "url": "https://www.livedesignonline.com/premium/webinar/1414423",
+      "published": "2026-08-31T16:49:34+00:00",
+      "summary": "2D & 3D: Lighting Design for Broadway swheeler Mon, 08/31/2026 - 12:49 Wed, 10/21/2026 - 11:00 Resource Type Webinar Nick Solyom Promotion Start Wed, 09/02/2026 - 14:15 Promotion End Tue, 02/02/2027 - 14:15 Discover how Broadway and stage performances come to life with lighting design insights from an expert. Join this webinar, hosted by Nick Solyom, to explore the creation of the Light Plot for Death Becomes Her on Broadway, as he served as the ",
+      "source": "Live Design",
+      "category": "01 Spectacle Concert",
+      "angle": "Lire les coulisses des projets",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "COLLECTION 2 — Langages, écritures, et communication universelle",
+      "url": "https://grapheine.com/magazine/collection-2-langages-ecritures-et-communication-universelle/",
+      "published": "2026-08-24T15:26:23+00:00",
+      "summary": "Avant les mots, il y avait des dessins, puis des signes. Des idéogrammes sumériens aux émojis, l'humanité n'a cessé d'inventer des systèmes pour communiquer au-delà des langues. Voici quelques tentatives parmi les plus ingénieuses pour créer un langage universel.",
+      "source": "Graphéine",
+      "category": "13 France Marketing Design",
+      "angle": "Étudier les démarches de création",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "Josep Baqué et les Maximonstres",
+      "url": "https://grapheine.com/magazine/josep-baque-et-les-maximonstres/",
+      "published": "2026-07-06T13:13:33+00:00",
+      "summary": "Découvrez la folie créatrice de Josep Baqué, inventeur d'un incroyable bestiaire de monstres farfelus. Bêtes poilues multicolores, dragons cyclopes, et autres pandas cornus !",
+      "source": "Graphéine",
+      "category": "13 France Marketing Design",
+      "angle": "Étudier les démarches de création",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "La FIFA fait disparaître des marques, mais les rend plus visibles",
+      "url": "https://grapheine.com/magazine/fifa-censure-marques-et-les-rend-plus-visibles/",
+      "published": "2026-06-30T09:44:44+00:00",
+      "summary": "Être reconnaissable sans son logo est devenu un objectif. Reste à savoir combien de marques réussiront demain à être reconnues par leur seule silhouette sans être confondues avec celle de leur concurrent !",
+      "source": "Graphéine",
+      "category": "13 France Marketing Design",
+      "angle": "Étudier les démarches de création",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "Alpes 2030, le logo Olympique qui pique !",
+      "url": "https://grapheine.com/magazine/logo-olympique-alpes-2030/",
+      "published": "2026-06-18T18:02:11+00:00",
+      "summary": "Entre héritage olympique, esthétique néo-80’s et imaginaire de la montagne, décryptage du logo des Alpes 2030.",
+      "source": "Graphéine",
+      "category": "13 France Marketing Design",
+      "angle": "Étudier les démarches de création",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "3 questions à Annie Bocel sur la typographie et la gravure",
+      "url": "https://grapheine.com/magazine/annie-bocel-typographie-gravure/",
+      "published": "2026-06-16T06:33:18+00:00",
+      "summary": "Graphéine est allée à la rencontre d'Annie Bocel, qui détient le savoir-faire de la création du premier maillon de la chaîne typographique. Depuis son atelier breton, elle répond à nos questions sur les poinçons, la gravure et les techniques traditionnelles.",
+      "source": "Graphéine",
+      "category": "13 France Marketing Design",
+      "angle": "Étudier les démarches de création",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "Speakers Announced for 2026 Brand New Conference",
+      "url": "https://underconsideration.com/headline_news/speakers-announced-for-2026-brand-new-conference/",
+      "published": "2026-06-10T16:02:24+00:00",
+      "summary": "",
+      "source": "Brand New",
+      "category": "03 DA Graphisme",
+      "angle": "Comparer avant/après et intentions",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "Le cabinet des poinçons typographiques, trésor de l’imprimerie nationale",
+      "url": "https://grapheine.com/magazine/cabinet-des-poincons-typographiques-tresor-imprimerie-nationale/",
+      "published": "2026-06-09T05:09:01+00:00",
+      "summary": "L'Imprimerie Nationale renferme un trésor de 500 000 poinçons typographiques, premiers maillons de l'imprimerie. Une seule personne sur terre sait comment les fabriquer.",
+      "source": "Graphéine",
+      "category": "13 France Marketing Design",
+      "angle": "Étudier les démarches de création",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "Giày chạy bộ thể thao siêu nhẹ nữ Humtto-X Easy Run 370374B",
+      "url": "https://humtto.vn/giay-chay-bo-the-thao-sieu-nhe-nu-humtto-x-easy-run-370374b/",
+      "published": "2026-05-04T09:32:45+00:00",
+      "summary": "Bài viết Giày chạy bộ thể thao siêu nhẹ nữ Humtto-X Easy Run 370374B đã xuất hiện đầu tiên vào ngày Humtto Vietnam .",
+      "source": "Art of the Title",
+      "category": "08 Immersif CGI Motion",
+      "angle": "Analyser intention et rythme",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "Giày chạy bộ thể thao siêu nhẹ nam Humtto-X Easy Run 370374A",
+      "url": "https://humtto.vn/giay-chay-bo-the-thao-sieu-nhe-nam-humtto-x-easy-run-370374a/",
+      "published": "2026-05-04T09:30:15+00:00",
+      "summary": "Bài viết Giày chạy bộ thể thao siêu nhẹ nam Humtto-X Easy Run 370374A đã xuất hiện đầu tiên vào ngày Humtto Vietnam .",
+      "source": "Art of the Title",
+      "category": "08 Immersif CGI Motion",
+      "angle": "Analyser intention et rythme",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "Giày sandal đi biển trekking thoát nước nhanh nam Humtto 771222A",
+      "url": "https://humtto.vn/giay-sandal-di-bien-trekking-thoat-nuoc-nhanh-nam-humtto-771222a/",
+      "published": "2026-05-04T09:11:50+00:00",
+      "summary": "Bài viết Giày sandal đi biển trekking thoát nước nhanh nam Humtto 771222A đã xuất hiện đầu tiên vào ngày Humtto Vietnam .",
+      "source": "Art of the Title",
+      "category": "08 Immersif CGI Motion",
+      "angle": "Analyser intention et rythme",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "Giày rọ leo núi lội nước chống trượt nam Humtto 771588A",
+      "url": "https://humtto.vn/giay-ro-leo-nui-loi-nuoc-chong-truot-nam-humtto-771588a/",
+      "published": "2026-05-04T09:05:48+00:00",
+      "summary": "Bài viết Giày rọ leo núi lội nước chống trượt nam Humtto 771588A đã xuất hiện đầu tiên vào ngày Humtto Vietnam .",
+      "source": "Art of the Title",
+      "category": "08 Immersif CGI Motion",
+      "angle": "Analyser intention et rythme",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "Giày sandal lội nước chống trượt nam Humtto 670823A",
+      "url": "https://humtto.vn/giay-sandal-loi-nuoc-chong-truot-nam-humtto-670823a/",
+      "published": "2026-05-04T08:53:16+00:00",
+      "summary": "Bài viết Giày sandal lội nước chống trượt nam Humtto 670823A đã xuất hiện đầu tiên vào ngày Humtto Vietnam .",
+      "source": "Art of the Title",
+      "category": "08 Immersif CGI Motion",
+      "angle": "Analyser intention et rythme",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "Giày trekking lội nước bám tốt nam Humtto 670892A",
+      "url": "https://humtto.vn/giay-trekking-loi-nuoc-bam-tot-nam-humtto-670892a/",
+      "published": "2026-05-04T08:21:24+00:00",
+      "summary": "Bài viết Giày trekking lội nước bám tốt nam Humtto 670892A đã xuất hiện đầu tiên vào ngày Humtto Vietnam .",
+      "source": "Art of the Title",
+      "category": "08 Immersif CGI Motion",
+      "angle": "Analyser intention et rythme",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "Giày lội nước trekking chuyên dụng nữ Humtto 670799B",
+      "url": "https://humtto.vn/giay-loi-nuoc-trekking-chuyen-dung-nu-humtto-670799b/",
+      "published": "2026-05-04T08:07:46+00:00",
+      "summary": "Bài viết Giày lội nước trekking chuyên dụng nữ Humtto 670799B đã xuất hiện đầu tiên vào ngày Humtto Vietnam .",
+      "source": "Art of the Title",
+      "category": "08 Immersif CGI Motion",
+      "angle": "Analyser intention et rythme",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "Giày lội nước, trekking đi biển nữ Humtto 670148B",
+      "url": "https://humtto.vn/giay-loi-nuoc-trekking-di-bien-nu-humtto-670148b/",
+      "published": "2026-05-04T07:43:53+00:00",
+      "summary": "Bài viết Giày lội nước, trekking đi biển nữ Humtto 670148B đã xuất hiện đầu tiên vào ngày Humtto Vietnam .",
+      "source": "Art of the Title",
+      "category": "08 Immersif CGI Motion",
+      "angle": "Analyser intention et rythme",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "Giày sandal đi biển trekking thoát nước nhanh nữ Humtto 771222B",
+      "url": "https://humtto.vn/giay-sandal-di-bien-trekking-thoat-nuoc-nhanh-nu-humtto-771222b/",
+      "published": "2026-05-04T07:20:09+00:00",
+      "summary": "Bài viết Giày sandal đi biển trekking thoát nước nhanh nữ Humtto 771222B đã xuất hiện đầu tiên vào ngày Humtto Vietnam .",
+      "source": "Art of the Title",
+      "category": "08 Immersif CGI Motion",
+      "angle": "Analyser intention et rythme",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "Giày rọ leo núi lội nước chống trượt nữ Humtto 771588B",
+      "url": "https://humtto.vn/giay-ro-leo-nui-loi-nuoc-chong-truot-nu-humtto-771588b/",
+      "published": "2026-05-04T06:52:49+00:00",
+      "summary": "Bài viết Giày rọ leo núi lội nước chống trượt nữ Humtto 771588B đã xuất hiện đầu tiên vào ngày Humtto Vietnam .",
+      "source": "Art of the Title",
+      "category": "08 Immersif CGI Motion",
+      "angle": "Analyser intention et rythme",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "Our Second EcoVadis Assessment",
+      "url": "https://www.superbien.studio/journal/our-ecovadis-assessment",
+      "published": "2026-04-10T16:50:00+00:00",
+      "summary": "In the creative industry, commitment is often talked about, and often rightly so. On a day-to-day basis, however, these efforts can remain vague, informal, or scattered. Superbien has chosen to move from statements to a concrete assessment of its performance… The post Our Second EcoVadis Assessment appeared first on Superbien .",
+      "source": "Superbien",
+      "category": "08 Immersif CGI Motion",
+      "angle": "Étudier spatialisation des images",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "WE WON! SET DESIGNER OF THE YEAR",
+      "url": "https://stufish.com/we-won-set-designer-of-the-year-tpi-awards-2026/",
+      "published": "2026-02-24T15:54:45+00:00",
+      "summary": "",
+      "source": "STUFISH",
+      "category": "01 Spectacle Concert",
+      "angle": "Étudier volumes, circulation et dramaturgie spatiale",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "How to get the best from your atmospheric effects",
+      "url": "https://www.livedesignonline.com/premium/whitepaper/1410674",
+      "published": "2025-12-29T15:37:49+00:00",
+      "summary": "How to get the best from your atmospheric effects jgrcic Mon, 12/29/2025 - 10:37 Mon, 12/29/2025 - 10:37 Resource Type Whitepaper Look Solutions USA is the sole distributor of Look Solutions products in North America and Canada and was started by Nathan Kahn over 20 years ago. Throughout that time he has helped countless engineers get the most out of their fog and haze effects and this paper is filled with his industry knowledge. Whatever your br",
+      "source": "Live Design",
+      "category": "01 Spectacle Concert",
+      "angle": "Lire les coulisses des projets",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "Precision and Power! Experience the Tiny FX at Booth #400",
+      "url": "https://www.livedesignonline.com/resource/precision-and-power-experience-tiny-fx-booth-400",
+      "published": "2025-12-03T22:04:47+00:00",
+      "summary": "Precision and Power! Experience the Tiny FX at Booth #400 This tiny DMX-compatible fog machine has a 70-watt output and can fire fog over 4 feet, all from a unit that is less than 4 inches long. It's perfect for miniature applications and fits almost anywhere. Supplied with 6 fluid syringes, a charger and 250ml of fluid, it’s ready to go straight away. swheeler Wed, 12/03/2025 - 17:04 This tiny DMX-compatible fog machine has a 70-watt output and ",
+      "source": "Live Design",
+      "category": "01 Spectacle Concert",
+      "angle": "Lire les coulisses des projets",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "See Glow Motion at LDI: Halo Ring & Next Gen Kinetic Systems",
+      "url": "https://www.livedesignonline.com/resource/see-glow-motion-ldi-halo-ring-next-gen-kinetic-systems",
+      "published": "2025-11-19T20:19:39+00:00",
+      "summary": "See Glow Motion at LDI: Halo Ring & Next Gen Kinetic Systems Some things you need to see in person. Glow Motion is bringing a full kinetic system to LDI with Halo Rings, X Bars, and square beam panels all in motion, driven by our precision winches. Stop by Booth #5235 and experience why top designers choose Glow Motion for high impact shows. swheeler Wed, 11/19/2025 - 15:19 Some things you need to see in person. Glow Motion is bringing a full kin",
+      "source": "Live Design",
+      "category": "01 Spectacle Concert",
+      "angle": "Lire les coulisses des projets",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "Speakers Announced for In-house In-focus In-person In 2026",
+      "url": "https://underconsideration.com/headline_news/speakers-announced-for-in-house-in-focus-in-person-in-2026/",
+      "published": "2025-11-03T16:43:26+00:00",
+      "summary": "",
+      "source": "Brand New",
+      "category": "03 DA Graphisme",
+      "angle": "Comparer avant/après et intentions",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "Fragiles : When images stand for a cause",
+      "url": "https://www.superbien.studio/journal/fragiles-when-images-stand-for-a-cause",
+      "published": "2025-08-04T16:40:25+00:00",
+      "summary": "On Tuesday, March 11, 2025, the Trianon opened its doors for the launch of IMPACT, the first coalition committed to fighting road violence. Led by the Antoine Alléno Association, this movement addresses an unbearable reality: every year, road accidents are… The post Fragiles : When images stand for a cause appeared first on Superbien .",
+      "source": "Superbien",
+      "category": "08 Immersif CGI Motion",
+      "angle": "Étudier spatialisation des images",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "A vision taking shape, a sharper creative gesture",
+      "url": "https://www.superbien.studio/journal/a-vision-taking-shape-a-sharper-creative-gesture",
+      "published": "2025-07-03T09:06:00+00:00",
+      "summary": "There are moments when everything aligns — when projects, identity, and storytelling all move forward in unison. These past weeks have marked a pivotal moment at Superbien. Our visual language is evolving. Our formats are becoming more refined. Our positioning is… The post A vision taking shape, a sharper creative gesture appeared first on Superbien .",
+      "source": "Superbien",
+      "category": "08 Immersif CGI Motion",
+      "angle": "Étudier spatialisation des images",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "PRESS RELEASE: SPEED MEETS SPECTACLE",
+      "url": "https://stufish.com/press-release-speed-meets-spectacle/",
+      "published": "2025-02-19T14:27:01+00:00",
+      "summary": "",
+      "source": "STUFISH",
+      "category": "01 Spectacle Concert",
+      "angle": "Étudier volumes, circulation et dramaturgie spatiale",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "Simone Ferrari is the new Chief Creative Officer of Balich Wonder Studio",
+      "url": "https://www.balichwonderstudio.com/simone-ferrari-is-the-new-chief-creative-officer-of-balich-wonder-studio/",
+      "published": "2025-01-20T10:00:51+00:00",
+      "summary": "Balich Wonder Studio, the global leader in live entertainment known for creating groundbreaking and immersive live experiences, is proud to announce the appointment of Simone Ferrari as its new Chief Creative Officer. In this role, Simone will oversee the creative direction of Balich Wonder Studio’s Ceremonies and Special Projects units. Simone Ferrari is a visionary […] The post Simone Ferrari is the new Chief Creative Officer of Balich Wonder S",
+      "source": "Balich Wonder Studio",
+      "category": "01 Spectacle Concert",
+      "angle": "Analyser la dramaturgie à grande échelle",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "SLAM X SUPERBIEN",
+      "url": "https://www.superbien.studio/journal/slam",
+      "published": "2024-12-20T11:45:09+00:00",
+      "summary": "SLAM X SUPERBIEN Paris, December 10, 2024 – Investment by management company TRAIL, through its SLAM fund, in the creative studio Superbien. A partnership between leading players known for their unique and boundary-pushing productions. A reference in the creation of… The post SLAM X SUPERBIEN appeared first on Superbien .",
+      "source": "Superbien",
+      "category": "08 Immersif CGI Motion",
+      "angle": "Étudier spatialisation des images",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "Dolce Vita & French Touch – Valentina Saluzzi for the Spécial Luxe, CB News",
+      "url": "https://www.balichwonderstudio.com/balich-wonder-studio-france-valentina-saluzzi-cb-news/",
+      "published": "2024-12-10T10:00:42+00:00",
+      "summary": "Valentina Saluzzi, Managing Director of Balich Wonder Studio France, recently spoke with CB News for the Spécial Luxe about the company’s latest initiative in France, highlighting the unique blend of La Dolce Vita and The French Touch styles as key elements of this new venture. Read the full article by Fouzia Kamal here. The post Dolce Vita & French Touch – Valentina Saluzzi for the Spécial Luxe, CB News appeared first on Balich Wonder Studio | L",
+      "source": "Balich Wonder Studio",
+      "category": "01 Spectacle Concert",
+      "angle": "Analyser la dramaturgie à grande échelle",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "PRESS RELEASE: SWINDON’S NEW-STATE-OF-ART PERFORMANCE VENUE",
+      "url": "https://stufish.com/press-release-swindons-new-state-of-art-performance-venue/",
+      "published": "2024-12-03T13:26:17+00:00",
+      "summary": "",
+      "source": "STUFISH",
+      "category": "01 Spectacle Concert",
+      "angle": "Étudier volumes, circulation et dramaturgie spatiale",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "Remembering Katy Hepburn",
+      "url": "https://stufish.com/remembering-katy-hepburn/",
+      "published": "2024-10-08T13:18:35+00:00",
+      "summary": "",
+      "source": "STUFISH",
+      "category": "01 Spectacle Concert",
+      "angle": "Étudier volumes, circulation et dramaturgie spatiale",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "In conversation with Valentina Saluzzi e Carolina Dotti",
+      "url": "https://www.balichwonderstudio.com/balich-wonder-studio-valentina-saluzzi-carolina-dotti-rivista-studio/",
+      "published": "2024-10-02T10:44:40+00:00",
+      "summary": "Valentina Saluzzi and Carolina Dotti, partners at Balich Wonder Studio, are dedicated to the world of luxury, fashion, and lifestyle brands. They recently spoke with Rivista Studio about the challenges of organizing live experiences at a time when brands are vying for the attention of increasingly disloyal but sought-after customers. They also discussed about the […] The post In conversation with Valentina Saluzzi e Carolina Dotti appeared first ",
+      "source": "Balich Wonder Studio",
+      "category": "01 Spectacle Concert",
+      "angle": "Analyser la dramaturgie à grande échelle",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "Vivaldi in 3D e visionario",
+      "url": "https://www.balichwonderstudio.com/viva-vivaldi-corriere-della-sera/",
+      "published": "2024-09-09T12:38:14+00:00",
+      "summary": "On the 300th anniversary of the publication of Antonio Vivaldi’s “The Four Seasons,” Fondazione Arena di Verona and Balich Wonder Studio unveiled the groundbreaking performance “Viva Vivaldi. The Four Seasons Immersive Concert” at the Arena di Verona, Italy, on August 28th. Conceived by Marco Balich and co-produced by Fondazione Arena di Verona, the show brought to the stage […] The post Vivaldi in 3D e visionario appeared first on Balich Wonder ",
+      "source": "Balich Wonder Studio",
+      "category": "01 Spectacle Concert",
+      "angle": "Analyser la dramaturgie à grande échelle",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "PRESS RELEASE: ANDREA BOCELLI’S 30TH CELEBRATION CONCERT",
+      "url": "https://stufish.com/press-release-andrea-bocellis-30th-celebration-concert/",
+      "published": "2024-08-01T15:57:40+00:00",
+      "summary": "",
+      "source": "STUFISH",
+      "category": "01 Spectacle Concert",
+      "angle": "Étudier volumes, circulation et dramaturgie spatiale",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "In-house In-focus In-person",
+      "url": "https://underconsideration.com/events_we_organize/in-house-in-focus-in-person/",
+      "published": "2024-06-04T15:17:59+00:00",
+      "summary": "A two-day conference highlighting the array of experiences possible at design, communication, and brand in-house teams from around the world…",
+      "source": "Brand New",
+      "category": "03 DA Graphisme",
+      "angle": "Comparer avant/après et intentions",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "Introducing In-house In-focus In-person!",
+      "url": "https://underconsideration.com/headline_news/introducing-in-house-in-focus-in-person/",
+      "published": "2024-06-04T15:13:33+00:00",
+      "summary": "",
+      "source": "Brand New",
+      "category": "03 DA Graphisme",
+      "angle": "Comparer avant/après et intentions",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "Bob Bonniol: Generative AI Design Tools For Live Entertainment",
+      "url": "https://www.livedesignonline.com/premium/webcast/bob-bonniol-generative-ai-design-tools-live-entertainment",
+      "published": "2024-06-04T15:08:41+00:00",
+      "summary": "Bob Bonniol: Generative AI Design Tools For Live Entertainment npatenaude Tue, 06/04/2024 - 11:08 Tue, 06/04/2024 - 11:08 Resource Type Webcast Bob Bonniol AI is rapidly transforming the live entertainment industry. To understand what you need to know about the tools available and how to use them, join us for a two-hour webcast with live entertainment visionary Bob Bonniol of MODE Studios . Bonniol, who has suggested that computers are no longer ",
+      "source": "Live Design",
+      "category": "01 Spectacle Concert",
+      "angle": "Lire les coulisses des projets",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "MIDJOURNEY INFINITY",
+      "url": "https://www.superbien.studio/journal/midjourney-infinity",
+      "published": "2024-03-14T09:49:00+00:00",
+      "summary": "Chloé Ross, a graphic designer at Superbien, had fun exploring the possibilities offered by AI and new digital worlds! Primarily using MIDJOURNEY—a generative AI program—Chloé “wanted to see how she could play with the blurry limits of reality and imagination,… The post MIDJOURNEY INFINITY appeared first on Superbien .",
+      "source": "Superbien",
+      "category": "08 Immersif CGI Motion",
+      "angle": "Étudier spatialisation des images",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "CREATIVE JAM SESSION",
+      "url": "https://www.superbien.studio/journal/creative-jam-session",
+      "published": "2024-02-16T09:44:00+00:00",
+      "summary": "At another Superbien-signed Creative Jam Session, our team members, friends and clients played with audio-reactive live visuals in the Superlab. We had DJs playing live sets with an immersive video-projection surrounding them, providing a real-time translation of music into visuals.… The post CREATIVE JAM SESSION appeared first on Superbien .",
+      "source": "Superbien",
+      "category": "08 Immersif CGI Motion",
+      "angle": "Étudier spatialisation des images",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "Hello world!",
+      "url": "https://effie.org/hello-world/",
+      "published": "2024-02-15T17:37:25+00:00",
+      "summary": "Welcome to WordPress. This is your first post. Edit or delete it, then start writing! The post Hello world! appeared first on Effie Worldwide .",
+      "source": "Effie Worldwide",
+      "category": "10 Strategie Insights",
+      "angle": "Relier créativité et performance",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "THE USA TRANSFORMATIVE JOURNEY",
+      "url": "https://www.superbien.studio/journal/the-usa-transformative-journey",
+      "published": "2023-12-22T09:32:00+00:00",
+      "summary": "What an exceptional year for our US office! Kudos to our US team for exploring diverse storytelling formats and integrating innovative technology to connect with the public! Through 3D billboards, monumental video mapping, engaging installations and exhibition for Luxury clients… The post THE USA TRANSFORMATIVE JOURNEY appeared first on Superbien .",
+      "source": "Superbien",
+      "category": "08 Immersif CGI Motion",
+      "angle": "Étudier spatialisation des images",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "2023 Brand New Conference Identity Case Study.",
+      "url": "https://underconsideration.com/headline_news/2023-brand-new-conference-identity-case-study/",
+      "published": "2023-11-09T18:47:19+00:00",
+      "summary": "",
+      "source": "Brand New",
+      "category": "03 DA Graphisme",
+      "angle": "Comparer avant/après et intentions",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "2023 Brand New Conference Identity",
+      "url": "https://underconsideration.com/favorite_things_weve_made/2023-brand-new-conference-identity/",
+      "published": "2023-11-09T18:45:32+00:00",
+      "summary": "This past September 21 – 22 we celebrated the twelfth edition of the Brand New Conference in Chicago, IL. Here…",
+      "source": "Brand New",
+      "category": "03 DA Graphisme",
+      "angle": "Comparer avant/après et intentions",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "THE USA SUPER TEAM",
+      "url": "https://www.superbien.studio/journal/the-usa-super-team",
+      "published": "2023-11-09T09:21:10+00:00",
+      "summary": "Introducing our new Head of Operations: based in New York for over 26 years, Marie Flageul is an Art Advocate and Producer dedicated to pushing the boundaries of our work in the US. She’s assembling an exceptional team in Brooklyn to foster… The post THE USA SUPER TEAM appeared first on Superbien .",
+      "source": "Superbien",
+      "category": "08 Immersif CGI Motion",
+      "angle": "Étudier spatialisation des images",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "BEHIND MONCLER MONUMENTAL MAPPING AT THE DOMINO SUGAR FACTORY",
+      "url": "https://www.superbien.studio/journal/bts-superbien-moncler",
+      "published": "2023-11-07T15:56:03+00:00",
+      "summary": "Come behind the scenes with Superbien and watch us do what has never been done before: video map onto the historical Domino Sugar Factory in Brooklyn for Moncler’s legendary RE/ICONS campaign! Moncler’s campaign team recognized the historic Domino Sugar factory… The post BEHIND MONCLER MONUMENTAL MAPPING AT THE DOMINO SUGAR FACTORY appeared first on Superbien .",
+      "source": "Superbien",
+      "category": "08 Immersif CGI Motion",
+      "angle": "Étudier spatialisation des images",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "PRESS RELEASE: ‘VISION 2030 PORTALS’ INSTALLATION IN SAUDI ARABIA",
+      "url": "https://stufish.com/prees-release-vision-2030-portals-installation-in-saudi-arabia/",
+      "published": "2023-09-22T11:39:07+00:00",
+      "summary": "",
+      "source": "STUFISH",
+      "category": "01 Spectacle Concert",
+      "angle": "Étudier volumes, circulation et dramaturgie spatiale",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "HIP HOP TIL INFINITY PRESS",
+      "url": "https://www.superbien.studio/journal/hip-hop-til-infinity-press",
+      "published": "2023-08-21T14:58:12+00:00",
+      "summary": "Hip Hop Til Infinity at the Hall des Lumières, got great press coverage! Get your ticket today and travel into the skate parks to the clubs where it all started! Artnet: “Hip Hop Til Infinity includes never-before-seen and archival footage of… The post HIP HOP TIL INFINITY PRESS appeared first on Superbien .",
+      "source": "Superbien",
+      "category": "08 Immersif CGI Motion",
+      "angle": "Étudier spatialisation des images",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "Olympic Games Ceremonies Wizard Marco Balich on Partnering With Banijay to ‘Challenge’ Global Live Entertainment Operators (EXCLUSIVE)",
+      "url": "https://www.balichwonderstudio.com/balich-wonder-studio-olympic-games-ceremonies-wizard-marco-balich-on-partnering-with-banijay/",
+      "published": "2023-06-21T12:26:48+00:00",
+      "summary": "Milan-based events creator Marco Balich has choreographed and produced a record-breaking 14 Olympic ceremonies, including for the 2006, 2014, 2016 and 2020 Olympics respectively held in Turin, Sochi, Rio de Janeiro and Tokyo. More recently, Balich and his team created the spectacular ceremony for the 2022 Qatar FIFA World Cup. His Balich Wonder Studio has […] The post Olympic Games Ceremonies Wizard Marco Balich on Partnering With Banijay to ‘Cha",
+      "source": "Balich Wonder Studio",
+      "category": "01 Spectacle Concert",
+      "angle": "Analyser la dramaturgie à grande échelle",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "Elton John: Farewell From Dodger Stadium",
+      "url": "https://stufish.com/elton-john-farewell-from-dodger-stadium/",
+      "published": "2022-12-02T14:39:53+00:00",
+      "summary": "",
+      "source": "STUFISH",
+      "category": "01 Spectacle Concert",
+      "angle": "Étudier volumes, circulation et dramaturgie spatiale",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "2022 Brand New Conference Identity Case Study.",
+      "url": "https://underconsideration.com/headline_news/2022-brand-new-conference-identity-case-study/",
+      "published": "2022-11-03T15:53:41+00:00",
+      "summary": "https://www.behance.net/gallery/156182779/2022-Brand-New-Conference-Identity",
+      "source": "Brand New",
+      "category": "03 DA Graphisme",
+      "angle": "Comparer avant/après et intentions",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "2022 Brand New Conference Identity",
+      "url": "https://underconsideration.com/favorite_things_weve_made/2022-brand-new-conference-identity/",
+      "published": "2022-11-03T15:52:18+00:00",
+      "summary": "This past October 3 – 4 we celebrated the eleventh edition of the Brand New Conference in Austin, TX. After…",
+      "source": "Brand New",
+      "category": "03 DA Graphisme",
+      "angle": "Comparer avant/après et intentions",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "PRESS RELEASE: ABBA ARENA",
+      "url": "https://stufish.com/press-release-abba-arena/",
+      "published": "2022-06-10T11:17:09+00:00",
+      "summary": "",
+      "source": "STUFISH",
+      "category": "01 Spectacle Concert",
+      "angle": "Étudier volumes, circulation et dramaturgie spatiale",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "In conversation with Harshadha Balasubramanian, Anthropologist.",
+      "url": "https://stufish.com/in-conversation-with-harshadha-balasubramanian-anthropologist/",
+      "published": "2022-04-08T16:37:33+00:00",
+      "summary": "",
+      "source": "STUFISH",
+      "category": "01 Spectacle Concert",
+      "angle": "Étudier volumes, circulation et dramaturgie spatiale",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "PRESS RELEASE: LEAP The Kaleidoscope",
+      "url": "https://stufish.com/press-release-leap-the-kaleidoscope/",
+      "published": "2022-02-02T16:44:37+00:00",
+      "summary": "",
+      "source": "STUFISH",
+      "category": "01 Spectacle Concert",
+      "angle": "Étudier volumes, circulation et dramaturgie spatiale",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "A unique candlelight concert in the middle of the desert",
+      "url": "https://www.balichwonderstudio.com/a-unique-candlelight-concert-in-the-middle-of-the-desert/",
+      "published": "2022-01-20T16:38:13+00:00",
+      "summary": "A new magical experience has just lit up in the middle of the desert. People could live a unique emotion by attending the Candlelight Concert, an atmospheric musical performance set in the archaeological site of Hegra (AlUla, Saudi Arabia), the UNESCO World Heritage Site famous for having more than 100 monumental tombs carved from rock […] The post A unique candlelight concert in the middle of the desert appeared first on Balich Wonder Studio | L",
+      "source": "Balich Wonder Studio",
+      "category": "01 Spectacle Concert",
+      "angle": "Analyser la dramaturgie à grande échelle",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "Hegra Candlelight Classics, a special musical performance in the archeological site of Hegra",
+      "url": "https://www.balichwonderstudio.com/hegra-candlelight-classics-a-special-musical-performance-in-the-archeological-site-of-hegra/",
+      "published": "2022-01-20T16:21:51+00:00",
+      "summary": "Hegra Candlelight Concert, a special musical performance in the archeological site of Hegra, was held last night to ring in the New Year. Hegra is a UNESCO World Heritage Site in Saudi Arabia famous for having more than 100 monumental tombs carved from rock formations. The concert is the brainchild of Italy’s Balich Wonder Studio, […] The post Hegra Candlelight Classics, a special musical performance in the archeological site of Hegra appeared fi",
+      "source": "Balich Wonder Studio",
+      "category": "01 Spectacle Concert",
+      "angle": "Analyser la dramaturgie à grande échelle",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "AlUla will ring in the New Year with a candlelit concert",
+      "url": "https://www.balichwonderstudio.com/alula-will-ring-in-the-new-year-with-a-candlelit-concert/",
+      "published": "2022-01-20T15:26:15+00:00",
+      "summary": "Al Ula is hosting a candlelight concert to ring in the New Year. The musical performance will take place at the Unesco World Heritage site of Hegra on Friday and will be illuminated by hundreds of “high-tech” candles that cast an evocative light over the archeological site. This is the first time that the site, […] The post AlUla will ring in the New Year with a candlelit concert appeared first on Balich Wonder Studio | Live Entertainment Group .",
+      "source": "Balich Wonder Studio",
+      "category": "01 Spectacle Concert",
+      "angle": "Analyser la dramaturgie à grande échelle",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "A unique duo of candlelight concerts in the UNESCO archeological site of Hegra",
+      "url": "https://www.balichwonderstudio.com/a-unique-duo-of-candlelight-concerts-in-the-unesco-archeological-site-of-hegra/",
+      "published": "2022-01-20T15:14:47+00:00",
+      "summary": "On Christmas Eve the Saudi Arabian desert came alive with an intimate repertoire of light and music. Hegra Candlelit Classics was performed live by the famous South African musical director Stefan Lombard ensemble and comprised the piano, violin, cello and the oud surrounded by the archeological UNESCO site of Hegra (AlUla) in the Saudi Arabian […] The post A unique duo of candlelight concerts in the UNESCO archeological site of Hegra appeared fi",
+      "source": "Balich Wonder Studio",
+      "category": "01 Spectacle Concert",
+      "angle": "Analyser la dramaturgie à grande échelle",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "Art of the Menu (2011 – 2019)",
+      "url": "https://underconsideration.com/projects_weve_concluded/art-of-the-menu-2011-2019/",
+      "published": "2021-11-30T16:54:57+00:00",
+      "summary": "A fairly enjoyable niche blog that provided a foray into restaurant menus from around the world.…/artofthemenu",
+      "source": "Brand New",
+      "category": "03 DA Graphisme",
+      "angle": "Comparer avant/après et intentions",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "In-house In-focus",
+      "url": "https://underconsideration.com/blogs_we_publish/in-house-in-focus/",
+      "published": "2021-11-30T16:43:13+00:00",
+      "summary": "Highlighting in-house design teams. …/inhouseinfocus",
+      "source": "Brand New",
+      "category": "03 DA Graphisme",
+      "angle": "Comparer avant/après et intentions",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "Lisa Ann Pinkerton",
+      "url": "https://www.livedesignonline.com/person/lisa-ann-pinkerton",
+      "published": "2021-11-23T17:16:16+00:00",
+      "summary": "Lisa Ann Pinkerton admin Tue, 11/23/2021 - 12:16 Author Lisa Ann Pinkerton Founder and CEO",
+      "source": "Live Design",
+      "category": "01 Spectacle Concert",
+      "angle": "Lire les coulisses des projets",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "SS8 Networks",
+      "url": "https://www.livedesignonline.com/person/ss8-networks",
+      "published": "2021-11-03T22:14:36+00:00",
+      "summary": "SS8 Networks admin Wed, 11/03/2021 - 18:14 Author SS8 Networks SS8 Networks",
+      "source": "Live Design",
+      "category": "01 Spectacle Concert",
+      "angle": "Lire les coulisses des projets",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "SS8 Networks",
+      "url": "https://www.livedesignonline.com/company/ss8-networks",
+      "published": "2021-11-03T22:14:36+00:00",
+      "summary": "SS8 Networks admin Wed, 11/03/2021 - 18:14 Attribution SS8",
+      "source": "Live Design",
+      "category": "01 Spectacle Concert",
+      "angle": "Lire les coulisses des projets",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "Raj Talluri",
+      "url": "https://www.livedesignonline.com/person/raj-talluri",
+      "published": "2021-11-03T16:43:32+00:00",
+      "summary": "Raj Talluri admin Wed, 11/03/2021 - 12:43 Author Raj Talluri",
+      "source": "Live Design",
+      "category": "01 Spectacle Concert",
+      "angle": "Lire les coulisses des projets",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "Ray Almgren",
+      "url": "https://www.livedesignonline.com/person/ray-almgren",
+      "published": "2021-10-26T13:37:07+00:00",
+      "summary": "Ray Almgren admin Tue, 10/26/2021 - 09:37 Author Ray Almgren CEO",
+      "source": "Live Design",
+      "category": "01 Spectacle Concert",
+      "angle": "Lire les coulisses des projets",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "Winter Gondola design by Philippe Starck to serve as the new symbol for Venice",
+      "url": "https://www.balichwonderstudio.com/winter-gondola-design-by-philippe-starck-to-serve-as-the-new-symbol-for-venice/",
+      "published": "2021-09-21T09:28:44+00:00",
+      "summary": "Philippe Starck was invited by Marco Balich to come up with a new symbol for VeniSIA, a Venice-based corporate accelerator dedicated to the development of business ideas and technological solutions capable of facing climate change and various environmental challenges. Starting from one of the most representative icons of the city, the french designer unveils the […] The post Winter Gondola design by Philippe Starck to serve as the new symbol for ",
+      "source": "Balich Wonder Studio",
+      "category": "01 Spectacle Concert",
+      "angle": "Analyser la dramaturgie à grande échelle",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "From ceremonial flourish, to ceremonial award; I’mPOSSIBLE awards given out at Tokyo 2020",
+      "url": "https://www.balichwonderstudio.com/from-ceremonial-flourish-to-ceremonial-award-impossible-awards-given-out-at-tokyo-2020/",
+      "published": "2021-09-20T16:35:04+00:00",
+      "summary": "The iconic moment when Russian Paralympian, Alexey Chuvasev, changed the word “impossible” to the phrase “I’m possible” has now gone full circle with a set of I’mPossible Awards given out at Tokyo 2020. The now iconic moment was part of a greater ceremonial concept produced by Balich Wonder Studio from an idea of Lida Castelli […] The post From ceremonial flourish, to ceremonial award; I’mPOSSIBLE awards given out at Tokyo 2020 appeared first on ",
+      "source": "Balich Wonder Studio",
+      "category": "01 Spectacle Concert",
+      "angle": "Analyser la dramaturgie à grande échelle",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "Balich Wonder Studio: creating captivating events and entertainment",
+      "url": "https://www.balichwonderstudio.com/balich-wonder-studio-creating-captivating-events-and-entertainment/",
+      "published": "2021-07-26T16:37:17+00:00",
+      "summary": "Balich Wonder Studio is a global player in the live entertainment and communication industry. Based in Italy, it merges international talents and partners to create and manage ground-breaking events and experiences across five continents. Stefano Core is CEO of Balich Wonder Studio. He talks to Blooloop about the company’s recent rebrand, its projects and plans. He […] The post Balich Wonder Studio: creating captivating events and entertainment a",
+      "source": "Balich Wonder Studio",
+      "category": "01 Spectacle Concert",
+      "angle": "Analyser la dramaturgie à grande échelle",
+      "status": "source_detected_not_editorially_analyzed"
+    }
+  ]
 }
