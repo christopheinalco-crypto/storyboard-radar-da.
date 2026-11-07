@@ -30,18 +30,18 @@ def score(x):
  project=bool(re.search(r'scenograph|stage design|tour production|concert production|live show|set design|lighting design|broadcast set|tv studio|television production|music video|performance|stage production|production design|show design|immersive experience|immersive event|experiential design|projection mapping|interactive installation|spatial design|event scenography|brand activation',t))
  nonproject=bool(re.search(r'appointment|appointed|acquires|acquisition|product launch|introduces|new microphone|distribution partner|conference|trade show|expo|award|playlist|review|podcast|nominees|new album|earnings|hiring',t))
  return priority+55*project+10*bool(re.search(pos,t))-110*nonproject+min(len(x.get('summary',''))//90,15)
-candidates=sorted([x for x in feed.get('items',[]) if x.get('url') not in saved and x.get('title') and x.get('url')],key=score,reverse=True)[:12]
+candidates=sorted([x for x in feed.get('items',[]) if x.get('url') not in saved and x.get('title') and x.get('url') and score(x)>=175],key=score,reverse=True)[:30]
 print('RADAR candidates:',len(candidates),'existing analyses:',len(saved))
 attempted=0;accepted=0;source_fail=0;api_fail=0
 for x in candidates:
- if score(x)<85:continue
+ if score(x)<175:continue
  source=article_text(x['url'])
  if len(source)<850:
   source_fail+=1
   print('Skip: insufficient full source',x['url']);continue
  attempted+=1
  prompt='''Tu es rédacteur et directeur artistique senior. Étudie exclusivement le texte fourni de l'article. Écris en français une analyse critique unique et vérifiable, non générique, en JSON strict.
-Réponds avec {"publish":boolean,"intro":string,"points":[[titre,texte],...],"takeaway":string}.
+Réponds avec {"publish":boolean,"intro":string,"points":[[titre,texte],...],"takeaway":string,"title_fr":string}.\nLe champ title_fr est un titre éditorial naturel en français, court et fidèle au projet; conserve les noms propres.
 Ne publie que si au moins trois décisions créatives précises sont documentées. Sinon publish=false.
 L'analyse doit être dense mais concise, accessible, rythmée; entre 3 et 5 points variables selon le projet.
 Traite ce qui est réellement pertinent: contexte, auteurs, intention déclarée, insight en tant qu'hypothèse, dispositif, lumière, matière, composition, narration, fabrication, contraintes, rapport au public, émotion probable, leçon transférable.
@@ -54,14 +54,13 @@ Le takeaway est un principe DA précis, non un exercice générique.'''
   a=json.loads(answer['choices'][0]['message']['content'])
   pts=a.get('points',[])
   if a.get('publish') and 3<=len(pts)<=5 and all(isinstance(p,list) and len(p)==2 and len(p[1])>=80 for p in pts) and len(a.get('intro',''))>=90 and len(a.get('takeaway',''))>=50:
-   saved[x['url']]={'intro':a['intro'],'points':pts,'takeaway':a['takeaway'],'reviewed_at':datetime.datetime.now(datetime.timezone.utc).isoformat(),'source_url':x['url']}
-   accepted+=1
-   print('Editorial accepted:',x['title'])
+   saved[x['url']]={'intro':a['intro'],'points':pts,'takeaway':a['takeaway'],'title_fr':a.get('title_fr',''),'reviewed_at':datetime.datetime.now(datetime.timezone.utc).isoformat(),'source_url':x['url']}
+   if a.get('title_fr') and len(a['title_fr'])>=12:x['title_fr']=a['title_fr']\n   accepted+=1\n   print('Editorial accepted:',x['title'])
   else:print('Editorial rejected:',x['title'])
  except Exception as e:
   api_fail+=1
   print('Analysis failed:',x['url'],str(e)[:180])
-out_path.write_text(json.dumps(saved,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+out_path.write_text(json.dumps(saved,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')\nfeed_path.write_text(json.dumps(feed,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
 print('Total AI editorials:',len(saved))
 
 print('RADAR summary: attempted=%d accepted=%d source_unavailable=%d api_errors=%d'%(attempted,accepted,source_fail,api_fail))
