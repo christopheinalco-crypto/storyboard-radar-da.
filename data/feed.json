@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-07T19:47:00.491421+00:00",
+  "updated_at": "2026-11-07T20:16:06.791126+00:00",
   "status": "collected_unreviewed",
   "working_feeds": [
     {
@@ -43,18 +43,13 @@
       "category": "14 Musique Clips"
     },
     {
-      "name": "Balich Wonder Studio",
-      "feed": "https://www.balichwonderstudio.com/feed",
-      "category": "01 Spectacle Concert"
-    },
-    {
       "name": "Konbini Musique",
       "feed": "https://www.konbini.com/feed",
       "category": "14 Musique Clips"
     },
     {
-      "name": "Dragone",
-      "feed": "https://www.dragone.com/feed",
+      "name": "Balich Wonder Studio",
+      "feed": "https://www.balichwonderstudio.com/feed",
       "category": "01 Spectacle Concert"
     },
     {
@@ -68,14 +63,19 @@
       "category": "02 TV Broadcast"
     },
     {
+      "name": "AV Magazine",
+      "feed": "https://www.avinteractive.com/feed",
+      "category": "02 TV Broadcast"
+    },
+    {
+      "name": "Dragone",
+      "feed": "https://www.dragone.com/feed",
+      "category": "01 Spectacle Concert"
+    },
+    {
       "name": "Brand New",
       "feed": "https://www.underconsideration.com/feed",
       "category": "03 DA Graphisme"
-    },
-    {
-      "name": "ArchDaily",
-      "feed": "https://www.archdaily.com/feed",
-      "category": "05 Art Architecture"
     },
     {
       "name": "Graphéine",
@@ -83,34 +83,19 @@
       "category": "13 France Marketing Design"
     },
     {
-      "name": "Sight Unseen",
-      "feed": "https://www.sightunseen.com/feed",
+      "name": "ArchDaily",
+      "feed": "https://www.archdaily.com/feed",
       "category": "05 Art Architecture"
     },
     {
-      "name": "VMSD",
-      "feed": "https://vmsd.com/feed",
-      "category": "06 Retail Brand Experience"
-    },
-    {
-      "name": "Design Observer",
-      "feed": "https://designobserver.com/feed",
-      "category": "11 Graphisme Expertise"
-    },
-    {
-      "name": "Dieline",
-      "feed": "https://thedieline.com/feed",
+      "name": "Creative Boom",
+      "feed": "https://www.creativeboom.com/feed",
       "category": "03 DA Graphisme"
     },
     {
-      "name": "Jack Morton",
-      "feed": "https://jackmorton.com/feed",
-      "category": "06 Retail Brand Experience"
-    },
-    {
-      "name": "BP&O",
-      "feed": "https://bpando.org/feed",
-      "category": "03 DA Graphisme"
+      "name": "Sight Unseen",
+      "feed": "https://www.sightunseen.com/feed",
+      "category": "05 Art Architecture"
     },
     {
       "name": "Imagination",
@@ -118,14 +103,14 @@
       "category": "06 Retail Brand Experience"
     },
     {
-      "name": "Creapills",
-      "feed": "https://creapills.com/feed",
-      "category": "13 France Marketing Design"
+      "name": "Jack Morton",
+      "feed": "https://jackmorton.com/feed",
+      "category": "06 Retail Brand Experience"
     },
     {
-      "name": "Typewolf",
-      "feed": "https://www.typewolf.com/feed",
-      "category": "03 DA Graphisme"
+      "name": "Étapes",
+      "feed": "https://etapes.com/feed",
+      "category": "13 France Marketing Design"
     },
     {
       "name": "Colossal",
@@ -138,19 +123,9 @@
       "category": "11 Graphisme Expertise"
     },
     {
-      "name": "Creative Boom",
-      "feed": "https://www.creativeboom.com/feed",
+      "name": "BP&O",
+      "feed": "https://bpando.org/feed",
       "category": "03 DA Graphisme"
-    },
-    {
-      "name": "George P. Johnson",
-      "feed": "https://www.gpj.com/feed",
-      "category": "06 Retail Brand Experience"
-    },
-    {
-      "name": "Étapes",
-      "feed": "https://etapes.com/feed",
-      "category": "13 France Marketing Design"
     },
     {
       "name": "Typographica",
@@ -158,14 +133,44 @@
       "category": "11 Graphisme Expertise"
     },
     {
-      "name": "Awwwards",
-      "feed": "https://www.awwwards.com/feed",
-      "category": "03 DA Graphisme"
+      "name": "Creapills",
+      "feed": "https://creapills.com/feed",
+      "category": "13 France Marketing Design"
     },
     {
       "name": "Artforum",
       "feed": "https://www.artforum.com/feed",
       "category": "05 Art Architecture"
+    },
+    {
+      "name": "George P. Johnson",
+      "feed": "https://www.gpj.com/feed",
+      "category": "06 Retail Brand Experience"
+    },
+    {
+      "name": "Typewolf",
+      "feed": "https://www.typewolf.com/feed",
+      "category": "03 DA Graphisme"
+    },
+    {
+      "name": "Dieline",
+      "feed": "https://thedieline.com/feed",
+      "category": "03 DA Graphisme"
+    },
+    {
+      "name": "Awwwards",
+      "feed": "https://www.awwwards.com/feed",
+      "category": "03 DA Graphisme"
+    },
+    {
+      "name": "VMSD",
+      "feed": "https://vmsd.com/feed",
+      "category": "06 Retail Brand Experience"
+    },
+    {
+      "name": "Design Observer",
+      "feed": "https://designobserver.com/feed",
+      "category": "11 Graphisme Expertise"
     },
     {
       "name": "Dance Magazine",
@@ -178,13 +183,18 @@
       "category": "09 France Pro"
     },
     {
-      "name": "Art of the Title",
-      "feed": "https://www.artofthetitle.com/feed",
+      "name": "Superbien",
+      "feed": "https://www.superbien.com/feed",
       "category": "08 Immersif CGI Motion"
     },
     {
-      "name": "Superbien",
-      "feed": "https://www.superbien.com/feed",
+      "name": "Stash",
+      "feed": "https://www.stashmedia.tv/feed",
+      "category": "08 Immersif CGI Motion"
+    },
+    {
+      "name": "Art of the Title",
+      "feed": "https://www.artofthetitle.com/feed",
       "category": "08 Immersif CGI Motion"
     },
     {
@@ -193,36 +203,240 @@
       "category": "10 Strategie Insights"
     },
     {
-      "name": "Stash",
-      "feed": "https://www.stashmedia.tv/feed",
-      "category": "08 Immersif CGI Motion"
-    },
-    {
-      "name": "Campaign Middle East",
-      "feed": "https://campaignme.com/feed",
-      "category": "04 Pub Strategie"
-    },
-    {
       "name": "IDlia Studio",
       "feed": "https://www.idlia.fr/feed",
       "category": "09 France Pro"
     },
     {
-      "name": "FRATERCINÉ",
-      "feed": "https://www.fratercine.fr/feed",
-      "category": "09 France Pro"
+      "name": "Campaign Middle East",
+      "feed": "https://campaignme.com/feed",
+      "category": "04 Pub Strategie"
     }
   ],
   "collection_slot": 0,
-  "collection_hour_paris": 20,
+  "collection_hour_paris": 21,
   "sources_selected": 182,
-  "sources_checked": 164,
-  "special_test": false,
-  "special_selection": {},
+  "sources_checked": 162,
+  "special_test": true,
+  "special_selection": {
+    "01 Spectacle Concert": [
+      {
+        "title": "2D & 3D: Lighting Design for Broadway",
+        "url": "https://www.livedesignonline.com/premium/webinar/1414423",
+        "score": 29
+      },
+      {
+        "title": "See Glow Motion at LDI: Halo Ring & Next Gen Kinetic Systems",
+        "url": "https://www.livedesignonline.com/resource/see-glow-motion-ldi-halo-ring-next-gen-kinetic-systems",
+        "score": 21
+      },
+      {
+        "title": "Live Design: Terhal",
+        "url": "https://dragone.com/live-design-covers-terhal/",
+        "score": 21
+      }
+    ],
+    "02 TV Broadcast": [
+      {
+        "title": "Vizrt graphics chosen as the Official Technical Supplier of Eurovision 2026",
+        "url": "https://routing.vizrt.com/vizrt/press-center/pr-vizrt-graphics-eurovision-2026/",
+        "score": 9
+      },
+      {
+        "title": "Leyard and UP to deliver spectacular displays at AV Awards",
+        "url": "https://www.avinteractive.com/markets-news/live-events/leyard-europe-and-universal-pixels-partner-at-av-awards-05-11-2026/",
+        "score": 8
+      },
+      {
+        "title": "Lightware brings flexibility to Hungary’s first LED cinema",
+        "url": "https://www.avinteractive.com/territories-news/europe/lightware-brings-flexibility-to-hungarys-first-led-cinema-05-11-2026/",
+        "score": 6
+      }
+    ],
+    "03 DA Graphisme": [
+      {
+        "title": "Storefront Gala 2026 : Pentagram revisite une typographie historique",
+        "url": "https://bpando.org/2026/10/22/pentagram-new-york-storefront-gala-2026-event-identity-design/",
+        "score": 29
+      },
+      {
+        "title": "Order creates a delightfully design history-steeped identity for Salt Lick on Salt Creek – but what actually is it?",
+        "url": "https://bpando.org/2026/10/13/order-salt-lick-on-salt-creek-lavender-farm-brand-identity/",
+        "score": 29
+      },
+      {
+        "title": "Purple Garden : une identité inspirée des années 2000 et des motifs vibratoires",
+        "url": "https://bpando.org/2026/11/05/mother-design-brand-identity-spirituality-app-purple-garden/",
+        "score": 23
+      }
+    ],
+    "04 Pub Strategie": [
+      {
+        "title": "Kcal packaging brings to life DIDI student’s winning design in collab",
+        "url": "https://campaignme.com/kcal-packaging-brings-to-life-didi-students-winning-design-in-new-collaboration/",
+        "score": 30
+      },
+      {
+        "title": "Eoin Cronolly appointed as Creative Director at Footballco",
+        "url": "https://campaignme.com/eoin-cronolly-appointed-as-creative-director-at-footballco/",
+        "score": 24
+      },
+      {
+        "title": "Full speaker line-up confirmed for Campaign Breakfast Briefing: Out of Home 2027",
+        "url": "https://campaignme.com/first-wave-speakers-campaign-breakfast-briefing-out-of-home-2027/",
+        "score": 15
+      }
+    ],
+    "05 Art Architecture": [
+      {
+        "title": "demi nguyen balances corporate branding, fintech systems, and typographic archives",
+        "url": "https://www.designboom.com/readers/demi-nguyen-corporate-branding-fintech-systems-typographic-archives/",
+        "score": 29
+      },
+      {
+        "title": "lavazza tablì wins designboom special prize third place at seoul design award",
+        "url": "https://www.designboom.com/design/lavazza-tabli-wins-designboom-special-prize-third-place-at-seoul-design-award/",
+        "score": 26
+      },
+      {
+        "title": "Designing the invisible at the new ICG Gallery Dubai",
+        "url": "https://www.archdaily.com/1188160/designing-the-invisible-at-the-new-icg-gallery-dubai",
+        "score": 24
+      }
+    ],
+    "06 Retail Brand Experience": [
+      {
+        "title": "THE ARCHITECTURE OF EXTRAORDINARY: DESIGNING EXPERIENCES THAT TRANSFORM US",
+        "url": "https://www.gpj.com/news-insights/2026/11/the-architecture-of-extraordinary-designing-experiences-that-transform-us/",
+        "score": 18
+      },
+      {
+        "title": "IMG+RetailOne Acquires ecRetail Studio and Angle Architecture, Expanding Concept-to-Installation Capabilities",
+        "url": "https://vmsd.com/imgretailone-acquires-ecretail-studio-and-angle-architecture-expanding-concept-to-installation-capabilities/",
+        "score": 18
+      },
+      {
+        "title": "Rethink Trade Shows: Beyond the Booth",
+        "url": "https://jackmorton.com/pov/rethink-tradeshows-beyond-the-booth/",
+        "score": 18
+      }
+    ],
+    "07 FOOH OOH DOOH": [
+      {
+        "title": "When OOH Talks Back: Our Favourite DCO Campaigns of the Last 5 Years",
+        "url": "https://grandvisual.com/dco-campaigns-of-the-last-5-years/",
+        "score": 18
+      }
+    ],
+    "08 Immersif CGI Motion": [
+      {
+        "title": "Motion Plus Design Returns to Paris 2026, November 14th",
+        "url": "https://www.stashmedia.tv/motion-plus-design-returns-to-paris-2026-november-14th/",
+        "score": 18
+      },
+      {
+        "title": "CREATIVE JAM SESSION",
+        "url": "https://www.superbien.studio/journal/creative-jam-session",
+        "score": 18
+      },
+      {
+        "title": "A vision taking shape, a sharper creative gesture",
+        "url": "https://www.superbien.studio/journal/a-vision-taking-shape-a-sharper-creative-gesture",
+        "score": 15
+      }
+    ],
+    "09 France Pro": [
+      {
+        "title": "L’ISTS ouvre la prochaine session de la formation métier “Régisseur général des entreprises du spectacle vivant”",
+        "url": "https://www.revue-as.fr/2026/11/04/lists-ouvre-la-prochaine-session-de-la-formation-metier-regisseur-general-des-entreprises-du-spectacle-vivant/",
+        "score": 18
+      },
+      {
+        "title": "CBC, Genius Loci, Sanae | Film 3D Concours Ehpad",
+        "url": "https://www.idlia.fr/cbc-genius-loci-sanae-film-3d-concours-ehpad/",
+        "score": 18
+      },
+      {
+        "title": "Limiter les impacts de la lumière artificielle, Cluster Lumière",
+        "url": "https://www.lightzoomlumiere.fr/livre/limiter-les-impacts-de-la-lumiere-artificielle-cluster-lumiere/",
+        "score": 17
+      }
+    ],
+    "10 Strategie Insights": [],
+    "11 Graphisme Expertise": [
+      {
+        "title": "VS/Goods© — Maquettes sympas",
+        "url": "https://mindsparklemag.com/website/vsgoods-cool-mockups",
+        "score": 32
+      },
+      {
+        "title": "Deji Ajetomobi",
+        "url": "https://mindsparklemag.com/website/deji-ajetomobi",
+        "score": 29
+      },
+      {
+        "title": "Meer Mohsin",
+        "url": "https://mindsparklemag.com/website/meer-mohsin",
+        "score": 23
+      }
+    ],
+    "12 Tendances Cultures": [],
+    "13 France Marketing Design": [
+      {
+        "title": "Qui dessine les lieux ? Dans les coulisses du design de signalétique",
+        "url": "https://www.etapes.com/2026/09/23/qui-dessine-les-lieux-dans-les-coulisses-du-design-de-signaletique/",
+        "score": 18
+      },
+      {
+        "title": "Ce qu’Instagram fait au design",
+        "url": "https://www.etapes.com/2026/08/26/ce-quinstagram-fait-au-design/",
+        "score": 18
+      },
+      {
+        "title": "Écoles de design : derrière un même diplôme, des formations très différentes",
+        "url": "https://www.etapes.com/2026/10/27/ecoles-de-design-derriere-un-meme-diplome-des-formations-tres-differentes/",
+        "score": 15
+      }
+    ],
+    "14 Musique Clips": [
+      {
+        "title": "UK Music Video Awards 2026: here we go...",
+        "url": "https://www.promonews.tv/news/2026/11/04/uk-music-video-awards-2026-here-we-go/96847",
+        "score": 17
+      },
+      {
+        "title": "UK Music Video Awards 2026 : dans l'enceinte des gagnants",
+        "url": "https://www.promonews.tv/news/2026/11/06/uk-music-video-awards-2026-winners-enclosure/96865",
+        "score": 14
+      },
+      {
+        "title": "Omah Lay — « Artificial Happiness » : un arbre au centre du décor",
+        "url": "https://www.promonews.tv/videos/2026/11/06/omah-lay-artificial-happiness-nwspk/96846",
+        "score": 14
+      }
+    ],
+    "15 Danse Performance": [
+      {
+        "title": "9 Must-See Performances Hitting Stages This October",
+        "url": "https://dancemagazine.com/dance-performances-onstage-october-2026/?utm_source=rss&utm_medium=rss&utm_campaign=dance-performances-onstage-october-2026",
+        "score": 23
+      },
+      {
+        "title": "Celebrating Dance Magazine Award Honoree Ayodele Casel",
+        "url": "https://dancemagazine.com/ayodele-casel-dm-awards/?utm_source=rss&utm_medium=rss&utm_campaign=ayodele-casel-dm-awards",
+        "score": 14
+      },
+      {
+        "title": "10 Not-Nutcracker Shows Worth Seeing This November and December",
+        "url": "https://dancemagazine.com/dance-performances-onstage-november-december-2026/?utm_source=rss&utm_medium=rss&utm_campaign=dance-performances-onstage-november-december-2026",
+        "score": 14
+      }
+    ]
+  },
   "backfill_test": {
     "period": "2026-11-01/2026-11-07",
     "articles": 369,
-    "with_images": 209
+    "with_images": 216
   },
   "items": [
     {
@@ -1182,7 +1396,7 @@
       "category": "09 France Pro",
       "angle": "Suivre les productions françaises",
       "status": "source_detected_not_editorially_analyzed",
-      "image": ""
+      "image": "https://www.revue-as.fr/wp-content/uploads/2026/11/Miniature-YouTube-ASenCoulisses-6nov-e1793885114805.jpg"
     },
     {
       "title": "Cet appareil photo sans écran est fait pour photographier les yeux dans les yeux",
@@ -1586,7 +1800,7 @@
       "url": "https://www.creativeboom.com/inspiration/peter-daviss-gig-pose/",
       "published": "2026-11-06T07:00:00+00:00",
       "summary": "The artist famous for painting portraits of people glued to their screens is back. This time, his theme is gigs, and he ponders whether we're really there to see the music. There is nothing more depre...",
-      "image": "",
+      "image": "https://media.creativeboom.com/6089858d-1368-42de-8177-0f1e21368c7e/conversions/530afe8682d14681e87cbd7616ce65ab7a4db85c-medium.webp",
       "source": "Creative Boom",
       "category": "03 DA Graphisme",
       "angle": "Découvrir les pratiques créatives",
@@ -1664,7 +1878,7 @@
       "url": "https://www.archdaily.com/1188166/powerhouse-parramatta-museum-to-open-on-november-7-2026-in-sydney",
       "published": "2026-11-06T05:30:00+00:00",
       "summary": "Designed by Franco-Japanese architects Moreau Kusunoki , with Australian architecture firm Genton as local architects, Powerhouse Parramatta is, according to the NSW Government, the largest cultural infrastructure project in Australia since the Sydney Opera House. The project was first announced in 2019 , construction began in 2022, and the opening was first announced for 2025 . The main building was completed earlier this year, giving way to the upcoming opening this Saturday, November 7, 2026. Powerhouse Parramatta is part of Powerhouse, the largest museum group in Australia, a network of cultural venues dedicated to arts, design, science, and technology. The new building's program offers the public five exhibitions and a 23-day Opening Festival of talks, workshops, music, and performances around the different exhibition topics.",
-      "image": "",
+      "image": "https://images.adsttc.com/media/images/6aed/4588/d2cc/6001/8a4f/72b5/large_jpg/powerhouse-parramatta-to-open-on-november-7-2026_29.jpg?1793934747",
       "source": "ArchDaily",
       "category": "05 Art Architecture",
       "angle": "Lire parcours et plans",
@@ -1719,7 +1933,7 @@
       "url": "https://www.archdaily.com/995055/brasilia-architecture-guide-16-projects-to-understand-the-scale-of-the-brazilian-capital",
       "published": "2026-11-06T03:30:00+00:00",
       "summary": "In the nineteenth century, driven by the Industrial Revolution, the rise of the machine age, rapid population growth, and increasingly pressing demands for urban space, Europe saw the emergence of the first modern reflections on the city. More importantly, this period marked the beginning of urban planning as a distinct academic and professional discipline—a theory and practice inherent to a consolidating historical era, whose ultimate urban legacy would define the twentieth century. Within this disciplinary framework—shaped by social demand or, frequently, political agendas linked to militaristic aspirations of order and control—the twentieth century became the stage for the full unfolding of an industrial society that looked to the city as its ultimate horizon.",
-      "image": "",
+      "image": "https://images.adsttc.com/media/images/6aec/a69d/c723/9a01/895a/2c2b/large_jpg/guia-de-arquitetura-de-brasilia-17-projetos-para-entender-as-escalas-da-capital-brasileira_19.jpg?1793894054",
       "source": "ArchDaily",
       "category": "05 Art Architecture",
       "angle": "Lire parcours et plans",
@@ -2016,7 +2230,7 @@
       "url": "https://www.avinteractive.com/markets-news/live-events/leyard-europe-and-universal-pixels-partner-at-av-awards-05-11-2026/",
       "published": "2026-11-05T18:58:24+00:00",
       "summary": "Leyard Europe and Universal Pixels, which have beeen partners for a decade, will deploy a 14 x 4 metre LED backdrop plus banners, stage fascias and bar displays at the awards in London. The post Leyard and UP to deliver spectacular displays at AV Awards appeared first on AV Magazine .",
-      "image": "",
+      "image": "https://cdn.assets-sa.emap.com/wp-content/uploads/sites/9/2026/11/emap_AVAwards_2025-403-620x330-1.webp",
       "source": "AV Magazine",
       "category": "02 TV Broadcast",
       "angle": "Suivre les innovations de plateaux",
