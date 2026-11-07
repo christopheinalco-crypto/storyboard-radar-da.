@@ -280,7 +280,7 @@ function radarPriority(x){
  if(cat==='14'||/music video|clip musical|vidéoclip|visualizer/.test(t))return 26;
  return 0;
 }
-function editorialSelection(items){let selected=[],sources={},cats={};const relevance=x=>activeGroup==='Tout'?Math.max(...Object.keys(EDITORIAL).map(g=>groupRelevance(x,g))):groupRelevance(x,activeGroup);for(const x of [...items].sort((a,b)=>(editorialScore(b)+relevance(b)+radarPriority(b)+mainStagePriority(b)+recencyPriority(b)+discoveryPriority(b))-(editorialScore(a)+relevance(a)+radarPriority(a)+mainStagePriority(a)+recencyPriority(a)+discoveryPriority(a))||(b.published||'').localeCompare(a.published||''))){if(!x.image&&!verifiedCase(x)&&!EDITORIAL_CASES[x.url])continue;if(activeGroup!=='Tout'&&relevance(x)<8)continue;let source=x.source||'',cat=x.category||'';if((sources[source]||0)>=3||(activeGroup==='Tout'&&(cats[cat]||0)>=3))continue;selected.push(x);sources[source]=(sources[source]||0)+1;cats[cat]=(cats[cat]||0)+1;if(selected.length>=(activeGroup==='Tout'?36:18))break}return selected}
+function editorialSelection(items){let selected=[],sources={},cats={};const relevance=x=>activeGroup==='Tout'?Math.max(...Object.keys(EDITORIAL).map(g=>groupRelevance(x,g))):groupRelevance(x,activeGroup);for(const x of [...items].sort((a,b)=>(editorialScore(b)+relevance(b)+radarPriority(b)+mainStagePriority(b)+recencyPriority(b)+discoveryPriority(b))-(editorialScore(a)+relevance(a)+radarPriority(a)+mainStagePriority(a)+recencyPriority(a)+discoveryPriority(a))||(b.published||'').localeCompare(a.published||''))){if(!x.image&&!verifiedCase(x)&&!EDITORIAL_CASES[x.url]&&!AI_EDITORIAL_CASES[x.url])continue;if(activeGroup!=='Tout'&&relevance(x)<8)continue;let source=x.source||'',cat=x.category||'';if((sources[source]||0)>=3||(activeGroup==='Tout'&&(cats[cat]||0)>=3))continue;selected.push(x);sources[source]=(sources[source]||0)+1;cats[cat]=(cats[cat]||0)+1;if(selected.length>=(activeGroup==='Tout'?36:18))break}return selected}
 const SEEN_KEY='radar-da-seen-v1',SEEN_TTL=24*60*60*1000;
 function seenData(){try{let d=JSON.parse(localStorage.getItem(SEEN_KEY)||'{}'),now=Date.now();for(const k of Object.keys(d))if(now-d[k]>SEEN_TTL||d[k]>now)delete d[k];localStorage.setItem(SEEN_KEY,JSON.stringify(d));return d}catch(e){return {}}}
 function markSeen(i){const x=ITEMS[i];if(!x)return;try{const d=seenData();d[x.url||x.title]=Date.now();localStorage.setItem(SEEN_KEY,JSON.stringify(d))}catch(e){}drawFeed()}
@@ -348,6 +348,7 @@ function verifiedEditorialReading(x){
 // Grille issue des méthodes étudiées dans la bibliothèque DA :
 // intention / situation, choix plastiques, dispositif-perception, regard critique,
 // enseignement transposable. Synthèse méthodologique, jamais citation d'expert.
+let AI_EDITORIAL_CASES={};
 const EDITORIAL_CASES={
  'https://www.revue-as.fr/2026/11/07/imagicario-la-mecanique-dequilibre-du-paredolia-duo/':{
  intro:'Deux réverbères anciens prennent vie à près de quatre mètres de hauteur. Le projet ne juxtapose pas simplement échasses, costumes et éclairage : il les réunit pour donner une gestuelle intime à deux silhouettes monumentales.',
@@ -475,7 +476,7 @@ const EDITORIAL_CASES={
 // pas de répétition du résumé, pas de détails techniques inventés.
 // L'absence de preuves signifie « à documenter », jamais « à inventer ».
 function editorialCaseQuality(x){
- const a=EDITORIAL_CASES[x.url];
+ const a=EDITORIAL_CASES[x.url]||AI_EDITORIAL_CASES[x.url];
  if(!a||!Array.isArray(a.points)||a.points.length<3||!a.takeaway)return false;
  const distinct=new Set(a.points.map(p=>String(p[0]||'').toLowerCase().trim()));
  return distinct.size>=3&&a.points.every(p=>Array.isArray(p)&&String(p[1]||'').trim().length>=65)&&String(a.takeaway).trim().length>=45;
@@ -488,7 +489,7 @@ function editorialEmphasis(value){
   .replace(/==([^=]+)==/g,'<mark class="da-inline-highlight">$1</mark>');
 }
 function editorialReadingHTML(x){
- let analysis=EDITORIAL_CASES[x.url];
+ let analysis=EDITORIAL_CASES[x.url]||AI_EDITORIAL_CASES[x.url];
  if(!analysis){
   const old=verifiedEditorialReading(x);
   if(old){
@@ -592,5 +593,6 @@ function closeStudy(){$('#reader').classList.remove('open');document.body.style.
 $('#reader').addEventListener('click',e=>{if(e.target.id==='reader')closeStudy()});document.addEventListener('keydown',e=>{if(e.key==='Escape')closeStudy()});
 function drawSources(){let q=$('#srcsearch').value.toLowerCase(),prio=$('#srcprio').value,a=SOURCES.filter(s=>(!prio||s.priority===prio)&&JSON.stringify(s).toLowerCase().includes(q));$('#sourcecount').textContent=a.length+' SOURCES';$('#sourceitems').innerHTML=a.map(s=>`<div class="sourceRow"><div><div><b>${escapeHTML(s.name)}</b> <span class="tag">${escapeHTML(s.priority)}</span></div><div class="muted small">${escapeHTML(s.category.replace(/^\d+ /,''))} · ${escapeHTML(s.specialty)}</div><div class="small" style="color:#c5d6b9">${escapeHTML(s.interest)}</div></div><a href="${escapeHTML(s.url)}" target="_blank" rel="noopener noreferrer">Ouvrir ↗</a></div>`).join('')}
 ['cat'].forEach(x=>$('#'+x).addEventListener('input',drawFeed));['srcsearch','srcprio'].forEach(x=>$('#'+x).addEventListener('input',drawSources));
-Promise.all([fetch('./data/sources.json').then(r=>r.json()),fetch('./data/feed.json').then(r=>r.json())]).then(([s,f])=>{SOURCES=s;ITEMS=f.items||[];SPECIAL_SELECTION=f.special_test&&f.special_selection?f.special_selection:null;categories();drawSources();drawFeed();renderCategoryNav();$('#stamp').textContent=ITEMS.length?'Sélection de projets à décrypter':'Projets en préparation'}).catch(e=>{$('#feed').innerHTML='<div class="empty">Impossible de charger les veilles. Réessaie en actualisant la page.</div>'});
+Promise.all([fetch('./data/sources.json').then(r=>r.json()),fetch('./data/feed.json').then(r=>r.json()),
+ fetch('./data/analyses.json').then(r=>r.ok?r.json():{}).catch(()=>({})) ]).then(([s,f,a])=>{AI_EDITORIAL_CASES=a||{};SOURCES=s;ITEMS=f.items||[];SPECIAL_SELECTION=f.special_test&&f.special_selection?f.special_selection:null;categories();drawSources();drawFeed();renderCategoryNav();$('#stamp').textContent=ITEMS.length?'Sélection de projets à décrypter':'Projets en préparation'}).catch(e=>{$('#feed').innerHTML='<div class="empty">Impossible de charger les veilles. Réessaie en actualisant la page.</div>'});
 </script></body></html>
