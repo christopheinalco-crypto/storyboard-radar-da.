@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-07T15:38:44.274165+00:00",
+  "updated_at": "2026-11-07T15:42:43.770175+00:00",
   "status": "collected_unreviewed",
   "working_feeds": [
     {
@@ -211,32 +211,12 @@
       "name": "Campaign Middle East",
       "feed": "https://campaignme.com/feed",
       "category": "04 Pub Strategie"
-    },
-    {
-      "name": "Grand Visual",
-      "feed": "https://grandvisual.com/feed",
-      "category": "07 FOOH OOH DOOH"
-    },
-    {
-      "name": "FRATERCINÉ",
-      "feed": "https://www.fratercine.fr/feed",
-      "category": "09 France Pro"
-    },
-    {
-      "name": "Stereogum",
-      "feed": "https://www.stereogum.com/feed/",
-      "category": "14 Musique Clips"
-    },
-    {
-      "name": "Pitchfork",
-      "feed": "https://pitchfork.com/rss/news/",
-      "category": "14 Musique Clips"
     }
   ],
   "collection_slot": 0,
   "collection_hour_paris": 16,
   "sources_selected": 182,
-  "sources_checked": 182,
+  "sources_checked": 163,
   "special_test": true,
   "special_selection": {
     "01 Spectacle Concert": [
@@ -342,16 +322,6 @@
       }
     ],
     "07 FOOH OOH DOOH": [
-      {
-        "title": "Our 2025 Grand Visual OOH Christmas Campaigns",
-        "url": "https://grandvisual.com/christmas-ooh-campaigns-by-grand-visual/",
-        "score": 24
-      },
-      {
-        "title": "Our 2025 Grand Visual OOH Christmas Campaigns",
-        "url": "https://grandvisual.com/our-2025-grand-visual-ooh-christmas-campaigns/",
-        "score": 24
-      },
       {
         "title": "When OOH Talks Back: Our Favourite DCO Campaigns of the Last 5 Years",
         "url": "https://grandvisual.com/dco-campaigns-of-the-last-5-years/",
