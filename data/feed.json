@@ -58,6 +58,11 @@
       "category": "01 Spectacle Concert"
     },
     {
+      "name": "AV Magazine",
+      "feed": "https://www.avinteractive.com/feed",
+      "category": "02 TV Broadcast"
+    },
+    {
       "name": "Vizrt",
       "feed": "https://www.vizrt.com/feed",
       "category": "02 TV Broadcast"
@@ -196,6 +201,16 @@
       "name": "Campaign Middle East",
       "feed": "https://campaignme.com/feed",
       "category": "04 Pub Strategie"
+    },
+    {
+      "name": "IDlia Studio",
+      "feed": "https://www.idlia.fr/feed",
+      "category": "09 France Pro"
+    },
+    {
+      "name": "FRATERCINÉ",
+      "feed": "https://www.fratercine.fr/feed",
+      "category": "09 France Pro"
     }
   ],
   "collection_slot": 0,
