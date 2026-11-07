@@ -1,16 +1,36 @@
 name: Actualiser la veille
 on:
   workflow_dispatch:
+    inputs:
+      special:
+        description: "Veille spéciale : 3 projets maximum par catégorie, priorité spectacles concerts clips"
+        type: boolean
+        default: true
+        required: false
   push:
     paths:
       - 'collect.py'
       - 'data/sources.json'
       - '.github/workflows/veille.yml'
   schedule:
-    # Deux séries UTC : le contrôle Europe/Paris ignore celle hors saison.
-    - cron: '30 4,6,8,10,12,14,16,18 * * *'
-    - cron: '30 5,7,9,11,13,15,17,19 * * *'
-    - cron: '9 13 * * *' # Test unique du 7 novembre 2026 à 14h09 Paris
+    # UTC : deux séries pour couvrir heures d'été et d'hiver.
+    # Minutes 37 : hors de la pointe des workflows planifiés.
+    - cron: '37 4 * * *'
+    - cron: '37 6 * * *'
+    - cron: '37 8 * * *'
+    - cron: '37 10 * * *'
+    - cron: '37 12 * * *'
+    - cron: '37 14 * * *'
+    - cron: '37 16 * * *'
+    - cron: '37 18 * * *'
+    - cron: '37 5 * * *'
+    - cron: '37 7 * * *'
+    - cron: '37 9 * * *'
+    - cron: '37 11 * * *'
+    - cron: '37 13 * * *'
+    - cron: '37 15 * * *'
+    - cron: '37 17 * * *'
+    - cron: '37 19 * * *'
 concurrency:
   group: radar-da-collect-main
   cancel-in-progress: false
@@ -24,7 +44,7 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - name: Vérifier le créneau de Paris (heure été/hiver)
+      - name: Vérifier le créneau prévu (indépendant du retard GitHub)
         id: slot
         env:
           EVENT_NAME: ${{ github.event_name }}
@@ -33,19 +53,32 @@ jobs:
           python - <<'PY'
           import datetime,os
           from zoneinfo import ZoneInfo
-          local=datetime.datetime.now(ZoneInfo('Europe/Paris'))
-          allowed=(6,8,10,12,14,16,18,20)
-          special=os.environ.get('SCHEDULE_CRON')=='9 13 * * *'
-          run=(local.date().isoformat()=='2026-11-07' and special) or (not special and (os.environ['EVENT_NAME']!='schedule' or local.hour in allowed))
+          event=os.environ['EVENT_NAME']
+          cron=os.environ.get('SCHEDULE_CRON','')
+          now=datetime.datetime.now(datetime.timezone.utc)
+          slot=0
+          run=True
+          if event=='schedule':
+              # L'heure vient du cron prévu, pas de l'heure de démarrage réelle.
+              hour=int(cron.split()[1])
+              local_date=now.astimezone(ZoneInfo('Europe/Paris')).date()
+              # Convertir le créneau UTC planifié en heure de Paris.
+              planned_utc=datetime.datetime.combine(local_date,datetime.time(hour,37),datetime.timezone.utc)
+              local=planned_utc.astimezone(ZoneInfo('Europe/Paris'))
+              hours=(6,8,10,12,14,16,18,20)
+              run=local.hour in hours and local.minute==37
+              if run:slot=hours.index(local.hour)
           with open(os.environ['GITHUB_OUTPUT'],'a') as f:
               f.write(f"run={'true' if run else 'false'}\n")
-          print('Paris:',local.isoformat(),'collect:',run)
+              f.write(f"slot={slot}\n")
+          print('event:',event,'planned cron:',cron,'run:',run,'slot:',slot)
           PY
       - name: Collecter le créneau éditorial
         if: steps.slot.outputs.run == 'true'
         env:
           RADAR_SLOT: ${{ github.event.schedule || 'manual' }}
-          RADAR_SPECIAL: ${{ github.event.schedule == '9 13 * * *' && '1' || '0' }}
+          RADAR_SLOT_INDEX: ${{ steps.slot.outputs.slot }}
+          RADAR_SPECIAL: ${{ (github.event_name == 'workflow_dispatch' && inputs.special) || (github.event_name == 'push' && contains(github.event.head_commit.message, '[special-veille]')) && '1' || '0' }}
         run: python collect.py
       - name: Publier les nouvelles données
         if: steps.slot.outputs.run == 'true'
