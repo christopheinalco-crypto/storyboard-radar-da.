@@ -245,7 +245,7 @@ function groupRelevance(x,label){if(label==='Tout')return 0;const p=EDITORIAL[la
 const code=cat.slice(0,2);const related={'Clips / Vidéo':['02','08','14'],'Musique / Clips':['14'],'Spectacle':['01'],'Publicité':['04','07','10','13'],'Identité / Design':['03','11'],'Art / Architecture':['05','12'],'Expériences':['06','08']};
 if((related[label]||[]).includes(code))score+=8;
 return score}
-function renderCategoryNav(){const publicSelection=new Set(['https://www.revue-as.fr/2026/11/07/imagicario-la-mecanique-dequilibre-du-paredolia-duo/','https://www.tpimagazine.com/creating-aap-rockys-dont-be-dumb-tour/','https://www.designboom.com/art/carsten-holler-people-together-four-giant-slides-mexico-city-arte-abierto-polanco-soma-sordo-madaleno-antara/','https://imagination.com/latest/tapping-into-the-unsung-tech-behind-visas-2026-fifa-world-cup-activation/']);const counts=GROUPS.map(([label])=>[label,ITEMS.filter(x=>editorialCaseQuality(x)&&(publicSelection.has(x.url)||(['01','02','15','14','08','06'].includes(String(x.category||'').slice(0,2))&&!!AI_EDITORIAL_CASES[x.url]))&&(label==='Tout'||groupRelevance(x,label)>=8)).length]);$('#category-nav').innerHTML=counts.map(([label,n])=>'<button type="button" class="category-chip '+(activeGroup===label?'selected':'')+'" onclick="setCategory('+JSON.stringify(label).replace(/"/g,'&quot;')+')" aria-pressed="'+(activeGroup===label)+'">'+escapeHTML(label)+' · '+n+'</button>').join('')}
+function renderCategoryNav(){const counts=GROUPS.map(([label])=>[label,ITEMS.filter(x=>(!!EDITORIAL_CASES[x.url]||!!AI_EDITORIAL_CASES[x.url])&&(label==='Tout'||groupRelevance(x,label)>=8)).length]);$('#category-nav').innerHTML=counts.map(([label,n])=>'<button type="button" class="category-chip '+(activeGroup===label?'selected':'')+'" onclick="setCategory('+JSON.stringify(label).replace(/"/g,'&quot;')+')" aria-pressed="'+(activeGroup===label)+'">'+escapeHTML(label)+' · '+n+'</button>').join('')}
 function setCategory(label){activeGroup=label;$('#cat').value='';renderCategoryNav();drawFeed();document.querySelector('.category-picker')?.removeAttribute('open')}
 function theme(x){let s=(x.category||'').toLowerCase();if(/spectacle|concert|scéno|lumière|broadcast/.test(s))return ['Espace / lumière','Relation scène-public','Dispositif et production'];if(/musique|clip|motion|cinéma|vidéo/.test(s))return ['Image / montage','Rythme / son','Narration visuelle'];if(/publicit|stratég|marque|retail|produit/.test(s))return ['Promesse / insight','Codes visuels','Expérience de marque'];return ['Composition / forme','Matière / couleur','Usage / perception']}
 function musicMediaLinks(x){const links=[];for(const [field,label] of [['clip_url','Voir le clip ↗'],['audio_url','Écouter le morceau ↗']]){const url=x[field];if(!url)continue;try{const u=new URL(url);if(u.protocol!=='https:'&&u.protocol!=='http:')continue;links.push('<a class="outline-action music-link" href="'+escapeHTML(url)+'" target="_blank" rel="noopener noreferrer">'+label+'</a>')}catch(e){}}return links.join('')}
@@ -570,18 +570,11 @@ function editorialEligibility(x){
 }
 function hasEditorialAnalysis(x){return !!(EDITORIAL_CASES[x.url]||AI_EDITORIAL_CASES[x.url]||verifiedEditorialReading(x)||editorialEligibility(x));}
 function drawFeed(){const cat=$('#cat').value,seen=seenData();renderSeenArchive(seen);
-const publicSelection=new Set([
-'https://www.revue-as.fr/2026/11/07/imagicario-la-mecanique-dequilibre-du-paredolia-duo/',
-'https://www.tpimagazine.com/creating-aap-rockys-dont-be-dumb-tour/',
-'https://www.designboom.com/art/carsten-holler-people-together-four-giant-slides-mexico-city-arte-abierto-polanco-soma-sordo-madaleno-antara/',
-'https://imagination.com/latest/tapping-into-the-unsung-tech-behind-visas-2026-fifa-world-cup-activation/'
-]);
-const priorityCodes=new Set(['01','02','15','14','08','06']);
-const publishable=x=>editorialCaseQuality(x)&&(publicSelection.has(x.url)||(priorityCodes.has(String(x.category||'').slice(0,2))&&!!AI_EDITORIAL_CASES[x.url]));
-let items=ITEMS.filter(x=>publishable(x)&&!excludedEditorialList(x)&&(activeGroup==='Tout'||groupRelevance(x,activeGroup)>=8)&&(!cat||x.category===cat));
-const order={'01':6,'02':6,'15':6,'14':5,'08':5,'06':5,'09':4,'05':3};
-items.sort((a,b)=>(Date.parse(b.published||'')||0)-(Date.parse(a.published||'')||0)||((order[String(b.category||'').slice(0,2)]||0)-(order[String(a.category||'').slice(0,2)]||0)));
-items=items.slice(0,8);
+const priority={'01':80,'02':75,'15':72,'14':70,'08':68,'06':65,'09':60,'05':30,'03':10,'11':8,'04':6};
+let items=ITEMS.filter(x=>(!!EDITORIAL_CASES[x.url]||!!AI_EDITORIAL_CASES[x.url])&&!excludedEditorialList(x)&&(activeGroup==='Tout'||groupRelevance(x,activeGroup)>=8)&&(!cat||x.category===cat));
+items.sort((a,b)=>(priority[String(b.category||'').slice(0,2)]||0)-(priority[String(a.category||'').slice(0,2)]||0)||(Date.parse(b.published||'')||0)-(Date.parse(a.published||'')||0));
+const unique=new Set();items=items.filter(x=>{if(unique.has(x.url))return false;unique.add(x.url);return true});
+
 const day=new Date().toLocaleDateString('en-CA');
 const badDaily=/best songs|best tracks|top \d+|playlist|roundup|recap|weekly|week in|news roundup|album review|review:|interview|podcast|newsletter|les \d+ meilleures|meilleures chansons|songs of the week|tracks of the week|new music friday|announces|shares new|premiere|chart|ranking|charts|awards|releases this week|book foreword/i;
 const creativeDaily=/scenograph|stage design|set design|music video|video clip|film|short film|architecture|architect|installation|exhibition|campaign|advertis|art direction|creative direction|lighting|immersive|performance|visual identity|branding|pavilion|design|photograph|sculpture|theatre|théâtre|scénograph|spectacle|clip|publicit|identité visuelle|mise en scène/i;
