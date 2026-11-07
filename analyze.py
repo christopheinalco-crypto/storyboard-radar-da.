@@ -21,6 +21,19 @@ def article_text(url):
   raw=re.sub(r'<[^>]+>',' ',raw)
   return re.sub(r'\s+',' ',html.unescape(raw)).strip()[:16000]
  except Exception:return ''
+def source_image(url):
+ """Image issue de la page source uniquement, jamais une illustration inventée."""
+ try:
+  req=urllib.request.Request(url,headers={'User-Agent':'Mozilla/5.0'})
+  with urllib.request.urlopen(req,timeout=8) as response:
+   markup=response.read(400000).decode('utf-8','ignore')
+  for tag in re.findall(r'<meta\\s+[^>]*>',markup,re.I):
+   attrs={k.lower():html.unescape(v) for k,v in re.findall(r'([\\w:-]+)\\s*=\\s*["\\x27]([^"\\x27]+)',tag)}
+   if (attrs.get('property','').lower() in ('og:image','og:image:secure_url') or attrs.get('name','').lower()=='twitter:image'):
+    url_image=urllib.parse.urljoin(url,attrs.get('content',''))
+    if url_image.startswith(('https://','http://')):return url_image
+ except Exception as exc:print('Image unavailable:',str(exc)[:100])
+ return ''
 def score(x):
  t=(x.get('title','')+' '+x.get('summary','')).lower()
  pos=r'scenograph|stage design|tour production|concert|live show|music video|set design|lighting design|performance|immersive|brand experience|art direction|visual identity|installation|film|clip|design'
@@ -56,6 +69,7 @@ Le takeaway est un principe DA précis, non un exercice générique.'''
   if a.get('publish') and 3<=len(pts)<=5 and all(isinstance(p,list) and len(p)==2 and len(p[1])>=80 for p in pts) and len(a.get('intro',''))>=90 and len(a.get('takeaway',''))>=50:
    saved[x['url']]={'intro':a['intro'],'points':pts,'takeaway':a['takeaway'],'title_fr':a.get('title_fr',''),'reviewed_at':datetime.datetime.now(datetime.timezone.utc).isoformat(),'source_url':x['url']}
    if a.get('title_fr') and len(a['title_fr'])>=12:x['title_fr']=a['title_fr']
+   if not x.get('image'):x['image']=source_image(x['url'])
    accepted+=1
    print('Editorial accepted:',x['title'])
   else:print('Editorial rejected:',x['title'])
