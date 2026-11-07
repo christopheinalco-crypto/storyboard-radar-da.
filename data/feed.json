@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-07T13:54:54.753593+00:00",
+  "updated_at": "2026-11-07T14:18:50.557627+00:00",
   "status": "collected_unreviewed",
   "working_feeds": [
     {
@@ -148,6 +148,11 @@
       "category": "13 France Marketing Design"
     },
     {
+      "name": "Balich Wonder Studio",
+      "feed": "https://www.balichwonderstudio.com/feed",
+      "category": "01 Spectacle Concert"
+    },
+    {
       "name": "IDlia Studio",
       "feed": "https://www.idlia.fr/feed",
       "category": "09 France Pro"
@@ -169,7 +174,7 @@
     },
     {
       "name": "FRATERCINÉ",
-      "feed": "https://www.fratercine.fr/feed",
+      "feed": "https://www.fratercine.fr/feed/",
       "category": "09 France Pro"
     },
     {
@@ -211,17 +216,32 @@
       "name": "PLSN",
       "feed": "https://plsn.com/feed/",
       "category": "01 Spectacle Concert"
+    },
+    {
+      "name": "Grand Visual",
+      "feed": "https://grandvisual.com/feed",
+      "category": "07 FOOH OOH DOOH"
+    },
+    {
+      "name": "Promonews",
+      "feed": "https://www.promonews.tv/feed",
+      "category": "14 Musique Clips"
+    },
+    {
+      "name": "Artforum",
+      "feed": "https://www.artforum.com/feed",
+      "category": "05 Art Architecture"
     }
   ],
   "collection_slot": 0,
-  "collection_hour_paris": 14,
+  "collection_hour_paris": 15,
   "sources_selected": 182,
-  "sources_checked": 163,
+  "sources_checked": 182,
   "special_test": false,
   "special_selection": {},
   "backfill_test": {
     "period": "2026-11-01/2026-11-07",
-    "articles": 329,
+    "articles": 330,
     "with_images": 136
   },
   "items": [
@@ -237,6 +257,19 @@
       "status": "source_detected_not_editorially_analyzed",
       "title_fr": "Imagicario : la mécanique d’équilibre du “Parédolia Duo”",
       "summary_fr": "Faire tenir deux corps à près de 4 m du sol sur des échasses droites tout en jouant l’intimité d’un couple, c’est le pari technique de la compagnie montréalaise Imagicario avec son Parédolia Duo, présenté ici au Centre sportif et récréatif de Montréal-Ouest. Les têtes sont remplacées par de véritables réverbères d’époque équipés de sources lumineuses autonomes En savoir plus surImagicario : la mécanique d’équilibre du “Parédolia Duo” […] Cet article Imagicario : la mécanique d’équilibre du “Parédolia Duo” est apparu en premier sur Revue AS ."
+    },
+    {
+      "title": "A Walk on the Roof: Linnahall and Tallinn’s Shifting Shoreline",
+      "url": "https://www.archdaily.com/1187476/a-walk-on-the-roof-linnahall-and-tallinns-shifting-shoreline",
+      "published": "2026-11-07T07:30:00+00:00",
+      "summary": "From the end of Mere Boulevard in Tallinn , Linnahall appears as a long, low mass of limestone and concrete laid between the Old Town and the bay, kept deliberately beneath the line of the medieval silhouette so that the spires remain visible from the water. Broad stairways climb its flanks to a roof paved as a public square, and from there a sequence of terrace steps down toward a small pier, a helicopter pad and the open Gulf of Finland . Under that surface sit an amphitheater for 4,200 people, a foyer of 6,000 square meters, an ice hall, cafés, a bowling alley and a recording studio.",
+      "image": "",
+      "source": "ArchDaily",
+      "category": "05 Art Architecture",
+      "angle": "Lire parcours et plans",
+      "status": "source_detected_not_editorially_analyzed",
+      "title_fr": "Une promenade sur le toit : le littoral changeant de Linnahall et de Tallinn",
+      "summary_fr": "Depuis l'extrémité du boulevard Mere à Tallinn, Linnahall apparaît comme une longue et basse masse de calcaire et de béton posée entre la vieille ville et la baie, délibérément maintenue sous la ligne de la silhouette médiévale afin que les flèches restent visibles depuis l'eau. De larges escaliers montent sur ses flancs jusqu'à un toit pavé comme une place publique, et de là, une séquence de terrasses descend vers une petite jetée, une piste d'hélicoptère et le golfe de Finlande ouvert. Sous cette surface se trouvent un amphithéâtre pouvant accueillir 4 200 personnes, un foyer de 6 000 mètres carrés, une patinoire, des cafés, un bowling et un studio d'enregistrement."
     },
     {
       "title": "VS/Goods© — Cool Mockups",
@@ -456,7 +489,8 @@
       "category": "05 Art Architecture",
       "angle": "Approfondir les références artistiques",
       "status": "source_detected_not_editorially_analyzed",
-      "title_fr": "Sang, labeur, larmes et sueur : la GUERRE de Miles Greenberg"
+      "title_fr": "Sang, labeur, larmes et sueur : la GUERRE de Miles Greenberg",
+      "summary_fr": "« À travers la ligne, puis en ligne, puis hors ligne : telle était ma progression à travers WAR »"
     },
     {
       "title": "Nick Diamonds – “Got The Devil” (Feat. Fat Tony & Yoni Wolf) & “The River” (Feat. Giovanni Marks & Fat Tony)",
@@ -721,7 +755,8 @@
       "source": "Promonews",
       "category": "14 Musique Clips",
       "angle": "Analyser les intentions visuelles, la mise en scène, le montage et l'identité des clips",
-      "status": "source_detected_not_editorially_analyzed"
+      "status": "source_detected_not_editorially_analyzed",
+      "title_fr": "UK Music Video Awards 2026 : dans l'enceinte des gagnants"
     },
     {
       "title": "Angine de Poitrine Beam in Third Member",
@@ -732,7 +767,8 @@
       "source": "Pitchfork",
       "category": "14 Musique Clips",
       "angle": "Analyser les intentions visuelles, la mise en scène, le montage et l'identité des clips",
-      "status": "source_detected_not_editorially_analyzed"
+      "status": "source_detected_not_editorially_analyzed",
+      "title_fr": "Poutre Angine de Poitrine en Troisième Membre"
     },
     {
       "title": "carsten höller brings people together through four giant slides in mexico city",
@@ -756,7 +792,8 @@
       "source": "Stereogum",
       "category": "14 Musique Clips",
       "angle": "Analyser les intentions visuelles, la mise en scène, le montage et l'identité des clips",
-      "status": "source_detected_not_editorially_analyzed"
+      "status": "source_detected_not_editorially_analyzed",
+      "title_fr": "Brokeback annonce un nouvel album Colder, Milder : écoutez la chanson titre"
     },
     {
       "title": "Cleo Reed Announces New EP Is This How Empires Die?: Hear “American Dream”",
@@ -767,7 +804,8 @@
       "source": "Stereogum",
       "category": "14 Musique Clips",
       "angle": "Analyser les intentions visuelles, la mise en scène, le montage et l'identité des clips",
-      "status": "source_detected_not_editorially_analyzed"
+      "status": "source_detected_not_editorially_analyzed",
+      "title_fr": "Cleo Reed annonce un nouvel EP Est-ce ainsi que meurent les empires ? : écoutez « American Dream »"
     },
     {
       "title": "Jerry Goldstein Is The First Person To Receive Two Songwriters Hall Of Fame Nominations In The Same Year",
@@ -778,7 +816,8 @@
       "source": "Stereogum",
       "category": "14 Musique Clips",
       "angle": "Analyser les intentions visuelles, la mise en scène, le montage et l'identité des clips",
-      "status": "source_detected_not_editorially_analyzed"
+      "status": "source_detected_not_editorially_analyzed",
+      "title_fr": "Jerry Goldstein est la première personne à recevoir deux nominations au Temple de la renommée des auteurs-compositeurs la même année"
     },
     {
       "title": "Daine’s Jungian Pop Music",
@@ -789,7 +828,8 @@
       "source": "Stereogum",
       "category": "14 Musique Clips",
       "angle": "Analyser les intentions visuelles, la mise en scène, le montage et l'identité des clips",
-      "status": "source_detected_not_editorially_analyzed"
+      "status": "source_detected_not_editorially_analyzed",
+      "title_fr": "La musique pop jungienne de Daine"
     },
     {
       "title": "Framestore’s Reindeer Takes Flight for The National Lottery",
@@ -813,7 +853,8 @@
       "source": "Stereogum",
       "category": "14 Musique Clips",
       "angle": "Analyser les intentions visuelles, la mise en scène, le montage et l'identité des clips",
-      "status": "source_detected_not_editorially_analyzed"
+      "status": "source_detected_not_editorially_analyzed",
+      "title_fr": "Belly Gang Kushington annonce un nouvel album Good Dope Sell Itself : écoutez « OK »"
     },
     {
       "title": "VANÈS 'Bad Girl Shy' by Salma Labib",
@@ -6336,17 +6377,6 @@
       "source": "Vizrt",
       "category": "02 TV Broadcast",
       "angle": "Explorer la scénographie augmentée",
-      "status": "source_detected_not_editorially_analyzed"
-    },
-    {
-      "title": "Experience Intelligence July ’26",
-      "url": "https://www.gpj.com/news-insights/2026/07/experience-intelligence-july-26/",
-      "published": "2026-07-10T21:25:48+00:00",
-      "summary": "New mobility imperatives are emerging: moving people from place to place is the baseline—giving them a reason to connect with the journey itself is the differentiator. The post Experience Intelligence July ’26 appeared first on GPJ .",
-      "image": "",
-      "source": "George P. Johnson",
-      "category": "06 Retail Brand Experience",
-      "angle": "Comprendre parcours et activation",
       "status": "source_detected_not_editorially_analyzed"
     }
   ]
