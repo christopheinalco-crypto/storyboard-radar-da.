@@ -71,7 +71,26 @@ def score(x):
  # Une categorie prioritaire ne suffit pas : il faut des indices d'un projet concret.
  if nonproject:return -100
  return CATEGORY_PRIORITY.get(cat,35)+(65 if project else 0)+(20 if creative else 0)+(10 if x.get('image') else 0)+min(len(x.get('summary',''))//90,12)
-candidates=sorted([x for x in feed.get('items',[]) if x.get('url') not in saved and x.get('url') not in reviewed and x.get('title') and x.get('url') and score(x)>=125 and x.get('published') and x.get('published')[:10]>= (datetime.datetime.now(datetime.timezone.utc)-datetime.timedelta(days=14)).date().isoformat()],key=lambda x:(score(x),x.get('published','')),reverse=True)[:5]
+# Jusqu'a trois projets par categorie et par veille, avec priorite aux shows, concerts et TV.
+# Garde-fou du quota gratuit : 15 appels Gemini maximum par execution.
+CATEGORY_ORDER=['01','02','09','14','15','08','06','04','07','10','13','03','05','11','12']
+MAX_PER_CATEGORY=3
+MAX_API_CALLS=int(os.environ.get('RADAR_MAX_AI_CALLS','15'))
+eligible=[x for x in feed.get('items',[]) if x.get('url') not in saved and x.get('url') not in reviewed and x.get('title') and x.get('url') and score(x)>=125 and x.get('published') and x.get('published')[:10]>=(datetime.datetime.now(datetime.timezone.utc)-datetime.timedelta(days=14)).date().isoformat()]
+eligible.sort(key=lambda x:(score(x),x.get('published','')),reverse=True)
+by_category={}
+for item in eligible:
+ code=(item.get('category') or '')[:2]
+ by_category.setdefault(code,[]).append(item)
+candidates=[]
+for code in CATEGORY_ORDER:
+ candidates.extend(by_category.get(code,[])[:MAX_PER_CATEGORY])
+for code in sorted(set(by_category)-set(CATEGORY_ORDER)):
+ candidates.extend(by_category[code][:MAX_PER_CATEGORY])
+candidates=candidates[:MAX_API_CALLS]
+print('Editorial priority:',', '.join(CATEGORY_ORDER[:5]))
+print('Editorial shortlist by category:',{code:sum(x.get('category','')[:2]==code for x in candidates) for code in CATEGORY_ORDER if any(x.get('category','')[:2]==code for x in candidates)})
+
 print('RADAR candidates:',len(candidates),'existing analyses:',len(saved))
 attempted=0;accepted=0;source_fail=0;api_fail=0
 model=None
