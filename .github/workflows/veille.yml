@@ -1,4 +1,5 @@
 name: Actualiser la veille
+
 on:
   workflow_dispatch:
     inputs:
@@ -7,65 +8,96 @@ on:
         type: boolean
         default: true
         required: false
+
   push:
     paths:
       - 'collect.py'
       - 'analyze.py'
       - 'data/sources.json'
       - '.github/workflows/veille.yml'
+
   schedule:
-    # Trois passages par jour. UTC 05,11,15 en hiver ; 04,10,14 en été.
-    # Le garde-fou ci-dessous choisit la bonne heure UTC selon le fuseau Paris.
-    - cron: '17 4,5,10,11,14,15 * * *'
+    # 6 h, 12 h et 16 h à Paris
+    # Heure d'hiver (UTC+1)
+    - cron: '17 5 * * *'
+    - cron: '17 11 * * *'
+    - cron: '17 15 * * *'
+    # Heure d'été (UTC+2)
+    - cron: '17 4 * * *'
+    - cron: '17 10 * * *'
+    - cron: '17 14 * * *'
+
 concurrency:
   group: radar-da-collect-main
   cancel-in-progress: false
+
 permissions:
   contents: write
+
 jobs:
   collect:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - name: Vérifier le créneau prévu (indépendant du retard GitHub)
+
+      - name: Vérifier le créneau prévu
         id: slot
         env:
           EVENT_NAME: ${{ github.event_name }}
           SCHEDULE_CRON: ${{ github.event.schedule }}
         run: |
           python - <<'PY'
-          import datetime,os
+          import datetime
+          import os
           from zoneinfo import ZoneInfo
-          event=os.environ['EVENT_NAME']
-          cron=os.environ.get('SCHEDULE_CRON','')
-          # GitHub peut lancer le workflow avec du retard : se baser sur
-          # l'heure UTC prévue dans le cron déclencheur, pas l'heure réelle.
-          slot=0
-          run=True
-          if event=='schedule':
-              from datetime import date
-              from zoneinfo import ZoneInfo
-              import re
-              match=re.search(r'\\b(4|5|10|11|14|15)\\b',cron)
-              if not match:
-                  raise RuntimeError(f'Créneau GitHub non reconnu: {cron!r}')
-              scheduled_hour=int(match.group(1))
-              today=datetime.datetime.now(ZoneInfo('Europe/Paris')).date()
-              # L'heure d'été en vigueur à Paris détermine l'heure UTC attendue.
-              paris_noon=datetime.datetime.combine(today,datetime.time(12),ZoneInfo('Europe/Paris'))
-              offset=int(paris_noon.utcoffset().total_seconds()//3600)
-              planned_hours=(6,12,16)
-              valid_utc=[(hour-offset)%24 for hour in planned_hours]
-              run=scheduled_hour in valid_utc
-              if run:slot=valid_utc.index(scheduled_hour)
-          with open(os.environ['GITHUB_OUTPUT'],'a') as f:
+
+          event = os.environ['EVENT_NAME']
+          cron = os.environ.get('SCHEDULE_CRON', '')
+          slot = 0
+          run = True
+
+          if event == 'schedule':
+              scheduled_hour = int(cron.split()[1])
+
+              today = datetime.datetime.now(
+                  ZoneInfo('Europe/Paris')
+              ).date()
+
+              paris_noon = datetime.datetime.combine(
+                  today,
+                  datetime.time(12),
+                  ZoneInfo('Europe/Paris')
+              )
+
+              offset = int(
+                  paris_noon.utcoffset().total_seconds() // 3600
+              )
+
+              planned_hours = (6, 12, 16)
+              valid_utc = [
+                  (hour - offset) % 24
+                  for hour in planned_hours
+              ]
+
+              run = scheduled_hour in valid_utc
+
+              if run:
+                  slot = valid_utc.index(scheduled_hour)
+
+          with open(os.environ['GITHUB_OUTPUT'], 'a') as f:
               f.write(f"run={'true' if run else 'false'}\n")
               f.write(f"slot={slot}\n")
-          print('event:',event,'planned cron:',cron,'run:',run,'slot:',slot)
+
+          print('event:', event,
+                'planned cron:', cron,
+                'run:', run,
+                'slot:', slot)
           PY
+
       - name: Collecter le créneau éditorial
         if: steps.slot.outputs.run == 'true'
         env:
@@ -73,9 +105,11 @@ jobs:
           RADAR_SLOT_INDEX: ${{ steps.slot.outputs.slot }}
           RADAR_SPECIAL: ${{ (github.event_name == 'workflow_dispatch' && inputs.special) && '1' || '0' }}
         run: python collect.py
+
       - name: Tester les critères de sélection avant Gemini
         if: steps.slot.outputs.run == 'true'
         run: python test_editorial.py
+
       - name: Analyser et valider les projets avec Gemini
         if: steps.slot.outputs.run == 'true'
         id: editorial
@@ -84,27 +118,34 @@ jobs:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           RADAR_AI_MODEL: gemini-3.5-flash-lite
         run: python analyze.py
+
       - name: Publier les nouvelles données
         if: steps.slot.outputs.run == 'true'
         run: |
           git config user.name 'radar-da-bot'
           git config user.email 'radar-da-bot@users.noreply.github.com'
           git add data/feed.json data/analyses.json data/reviewed.json
+
           if ! git diff --cached --quiet; then
             git commit -m 'Actualisation du radar'
+
             for attempt in 1 2 3 4 5; do
               git fetch origin main
+
               if ! git rebase -X ours origin/main; then
                 git rebase --abort || true
-                echo 'Conflit de données : nouvelle collecte nécessaire, sans écraser la branche.'
+                echo 'Conflit de données : nouvelle collecte nécessaire.'
                 exit 1
               fi
+
               if git push origin HEAD:main; then
                 echo 'Veille publiée avec succès.'
                 exit 0
               fi
+
               sleep $((attempt * 2))
             done
+
             echo 'Échec de publication après 5 tentatives.'
             exit 1
           fi
@@ -112,5 +153,5 @@ jobs:
       - name: Signaler clairement un échec de l'analyse
         if: always() && steps.slot.outputs.run == 'true' && steps.editorial.outcome == 'failure'
         run: |
-          echo "::error::Analyse automatique en échec. Vérifier GEMINI_API_KEY, quota Gemini et journaux de analyze.py. La collecte peut avoir été publiée, mais pas les décryptages."
+          echo "::error::Analyse automatique en échec. Vérifier GEMINI_API_KEY, quota Gemini et journaux de analyze.py."
           exit 1
