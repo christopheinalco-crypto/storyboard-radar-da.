@@ -509,7 +509,7 @@ function editorialCaseQuality(x){
 // Le contenu est échappé avant de transformer **gras** et ==surlignage==.
 function editorialEmphasis(value){
  return escapeHTML(String(value||''))
-  .replace(/\\*\\*([^*]+)\\*\\*/g,'<strong class="da-inline-emphasis">$1</strong>')
+  .replace(/\*\*([^*]+)\*\*/g,'<strong class="da-inline-emphasis">$1</strong>')
   .replace(/==([^=]+)==/g,'<mark class="da-inline-highlight">$1</mark>');
 }
 function editorialReadingHTML(x){
