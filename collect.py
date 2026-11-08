@@ -156,7 +156,7 @@ PRIMARY_DOMAINS={
  'directorsnotes.com':90,'newscaststudio.com':90,
  'mindsparklemag.com':76,'designboom.com':74,'dezeen.com':74
 }
-SECONDARY_DOMAINS={'stereogum.com','pitchfork.com'}
+SECONDARY_DOMAINS={'stereogum.com','pitchfork.com','konbini.com'}
 def source_weight(src):
  host=urllib.parse.urlsplit(src.get('url','')).netloc.lower().removeprefix('www.')
  cat=src.get('category','').lower()
