@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-08T16:14:02.727525+00:00",
+  "updated_at": "2026-11-08T16:37:07.332597+00:00",
   "status": "collected_unreviewed",
   "working_feeds": [
     {
@@ -4507,7 +4507,8 @@
       "source": "Tsugi",
       "category": "14 Musique Clips",
       "angle": "Décrypter intention, émotion, mise en scène, image et son des clips et performances musicales",
-      "status": "source_detected_not_editorially_analyzed"
+      "status": "source_detected_not_editorially_analyzed",
+      "title_fr": "Nectar Woode : l'esthétique nomade et artisanale de Naturally"
     },
     {
       "title": "Bobo",
