@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-08T11:47:48.018905+00:00",
+  "updated_at": "2026-11-08T11:56:41.496549+00:00",
   "status": "collected_unreviewed",
   "working_feeds": [
     {
@@ -133,6 +133,11 @@
       "category": "11 Graphisme Expertise"
     },
     {
+      "name": "Awwwards",
+      "feed": "https://www.awwwards.com/feed",
+      "category": "03 DA Graphisme"
+    },
+    {
       "name": "Étapes",
       "feed": "https://etapes.com/feed",
       "category": "13 France Marketing Design"
@@ -206,38 +211,18 @@
       "name": "Grand Visual",
       "feed": "https://grandvisual.com/feed",
       "category": "07 FOOH OOH DOOH"
-    },
-    {
-      "name": "FRATERCINÉ",
-      "feed": "https://www.fratercine.fr/feed",
-      "category": "09 France Pro"
-    },
-    {
-      "name": "IDlia Studio",
-      "feed": "https://www.idlia.fr/feed",
-      "category": "09 France Pro"
-    },
-    {
-      "name": "Stereogum",
-      "feed": "https://www.stereogum.com/feed/",
-      "category": "14 Musique Clips"
-    },
-    {
-      "name": "Pitchfork",
-      "feed": "https://pitchfork.com/rss/news/",
-      "category": "14 Musique Clips"
     }
   ],
   "collection_slot": 0,
   "collection_hour_paris": 12,
   "sources_selected": 182,
-  "sources_checked": 182,
+  "sources_checked": 171,
   "special_test": false,
   "special_selection": {},
   "backfill_test": {
     "period": "2026-11-01/2026-11-07",
-    "articles": 369,
-    "with_images": 220
+    "articles": 376,
+    "with_images": 225
   },
   "items": [
     {
