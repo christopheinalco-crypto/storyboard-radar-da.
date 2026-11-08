@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-08T15:57:23.729756+00:00",
+  "updated_at": "2026-11-08T16:14:02.727525+00:00",
   "status": "collected_unreviewed",
   "working_feeds": [
     {
@@ -216,12 +216,27 @@
       "name": "IDlia Studio",
       "feed": "https://www.idlia.fr/feed",
       "category": "09 France Pro"
+    },
+    {
+      "name": "Stereogum",
+      "feed": "https://www.stereogum.com/feed/",
+      "category": "14 Musique Clips"
+    },
+    {
+      "name": "Konbini Musique",
+      "feed": "https://www.konbini.com/feed",
+      "category": "14 Musique Clips"
+    },
+    {
+      "name": "Pitchfork",
+      "feed": "https://pitchfork.com/rss/news/",
+      "category": "14 Musique Clips"
     }
   ],
   "collection_slot": 0,
-  "collection_hour_paris": 16,
+  "collection_hour_paris": 17,
   "sources_selected": 182,
-  "sources_checked": 172,
+  "sources_checked": 182,
   "special_test": true,
   "special_selection": {
     "01 Spectacle Concert": [
@@ -231,13 +246,13 @@
         "score": 29
       },
       {
-        "title": "See Glow Motion at LDI: Halo Ring & Next Gen Kinetic Systems",
-        "url": "https://www.livedesignonline.com/resource/see-glow-motion-ldi-halo-ring-next-gen-kinetic-systems",
-        "score": 21
-      },
-      {
         "title": "Live Design: Terhal",
         "url": "https://dragone.com/live-design-covers-terhal/",
+        "score": 23
+      },
+      {
+        "title": "See Glow Motion at LDI: Halo Ring & Next Gen Kinetic Systems",
+        "url": "https://www.livedesignonline.com/resource/see-glow-motion-ldi-halo-ring-next-gen-kinetic-systems",
         "score": 21
       }
     ],
@@ -248,7 +263,7 @@
         "score": 11
       },
       {
-        "title": "Leyard and UP to deliver spectacular displays at AV Awards",
+        "title": "Dispositif LED spectaculaire aux AV Awards",
         "url": "https://www.avinteractive.com/markets-news/live-events/leyard-europe-and-universal-pixels-partner-at-av-awards-05-11-2026/",
         "score": 8
       },
@@ -372,7 +387,7 @@
         "score": 18
       },
       {
-        "title": "Limiter les impacts de la lumière artificielle, Cluster Lumière",
+        "title": "Limiter les impacts de la lumière artificielle",
         "url": "https://www.lightzoomlumiere.fr/livre/limiter-les-impacts-de-la-lumiere-artificielle-cluster-lumiere/",
         "score": 17
       }
@@ -455,6 +470,32 @@
   },
   "items": [
     {
+      "title": "Mon Laferte Hit In The Face With Phone Thrown By Fan At Las Vegas Show",
+      "url": "https://stereogum.com/2516980/mon-laferte-hit-in-the-face-with-phone-thrown-by-fan-at-las-vegas-show/news/",
+      "published": "2026-11-08T16:06:24+00:00",
+      "summary": "The post Mon Laferte Hit In The Face With Phone Thrown By Fan At Las Vegas Show appeared first on Stereogum .",
+      "image": "https://lede-admin.stereogum.com/wp-content/uploads/sites/64/2026/11/Screenshot-2026-11-08-at-4.01.57-PM.png?w=564",
+      "source": "Stereogum",
+      "category": "14 Musique Clips",
+      "angle": "Analyser les intentions visuelles, la mise en scène, le montage et l'identité des clips",
+      "status": "source_detected_not_editorially_analyzed",
+      "title_fr": "Mon Laferté frappé au visage avec un téléphone lancé par un fan au spectacle de Las Vegas",
+      "summary_fr": "Le message Mon Laferte frappé au visage avec un téléphone lancé par un fan au spectacle de Las Vegas apparaît en premier sur Stereogum."
+    },
+    {
+      "title": "The Strokes Play Druski-Hosted SNL, Share New Video Featuring Spitting Image Puppets",
+      "url": "https://stereogum.com/2516969/the-strokes-play-druski-hosted-snl-share-new-video-featuring-spitting-image-puppets/news/",
+      "published": "2026-11-08T15:33:01+00:00",
+      "summary": "The post The Strokes Play Druski-Hosted SNL, Share New Video Featuring Spitting Image Puppets appeared first on Stereogum .",
+      "image": "https://lede-admin.stereogum.com/wp-content/uploads/sites/64/2026/11/image-hd.jpg?w=564",
+      "source": "Stereogum",
+      "category": "14 Musique Clips",
+      "angle": "Analyser les intentions visuelles, la mise en scène, le montage et l'identité des clips",
+      "status": "source_detected_not_editorially_analyzed",
+      "title_fr": "The Strokes jouent à SNL hébergé par Druski et partagent une nouvelle vidéo mettant en vedette des marionnettes crachées",
+      "summary_fr": "Le post The Strokes Play Druski-Hosted SNL, partage une nouvelle vidéo mettant en vedette des marionnettes Spitting Image est apparu en premier sur Stereogum."
+    },
+    {
       "title": "Hayley Williams Hangs in Her Hotel Room in “Dream Girl in Shibuya” Video",
       "url": "https://pitchfork.com/story/hayley-williams-hangs-in-a-hotel-room-in-new-dream-girl-in-shibuya-video/",
       "published": "2026-11-08T15:29:53+00:00",
@@ -485,7 +526,7 @@
       "url": "https://pitchfork.com/story/watch-the-strokes-play-lonely-in-the-future-and-going-shopping-on-snl/",
       "published": "2026-11-08T14:50:55+00:00",
       "summary": "Nick Valensi didn’t join, but Walton Goggins did",
-      "image": "https://media.pitchfork.com/photos/6af08a86d98b824e75833596/master/pass/strokessnl.png",
+      "image": "https://media.pitchfork.com/photos/6af098677cc182a4fe161911/master/pass/NUP_212273_00013.jpg",
       "source": "Pitchfork",
       "category": "14 Musique Clips",
       "angle": "Analyser les intentions visuelles, la mise en scène, le montage et l'identité des clips",
@@ -1376,7 +1417,7 @@
       "angle": "Identifier les équipes et arbitrages créatifs",
       "status": "source_detected_not_editorially_analyzed",
       "image": "https://www.tpimagazine.com/wp-content/uploads/2026/11/DPA_-Hilary-Duff-The-Lucky-Me-Tour-2026.-Photo-by-Michael-Drummond.jpg",
-      "title_fr": "DPA Microphones livre pour la tournée The Lucky Me d’Hilary Duff",
+      "title_fr": "L'immersion sonore de The Lucky Me Tour",
       "summary_fr": "Pour une tournée visant à rapprocher le public de l’artiste, ce qui se passe au-delà de la scène peut être tout aussi important que ce qui s’y passe. Pour The Lucky Me Tour d'Hilary Duff, cette philosophie s'étend profondément au système audio, où les solutions de DPA Microphones, Wisycom et Austrian Audio, fournies par la DPA [...] L'article que DPA Microphones livre pour The Lucky Me Tour d'Hilary Duff est apparu en premier sur TPi."
     },
     {
@@ -1465,7 +1506,7 @@
       "angle": "Identifier les équipes et arbitrages créatifs",
       "status": "source_detected_not_editorially_analyzed",
       "image": "https://www.tpimagazine.com/wp-content/uploads/2026/11/DiGiCo_Raye-1.jpg",
-      "title_fr": "Les ingénieurs choisissent la flexibilité et la puissance de DiGiCo Quantum pour RAYE",
+      "title_fr": "Flexibilité technique et puissance pour la tournée de RAYE",
       "summary_fr": "RAYE est un artiste avec un énorme attrait mondial et une longue liste de récompenses pour le prouver. Matthias Simmons est son ingénieur de façade et Joe Standen est son ingénieur de retour. Avec une base de fans aussi large, la tournée comprend une variété de lieux à travers le monde. Simmons utilise un Quantum 326 et des commutateurs Standen [...] L'article Les ingénieurs choisissent la flexibilité et la puissance de DiGiCo Quantum pour RAYE apparaît en premier sur TPi."
     },
     {
@@ -2359,7 +2400,8 @@
       "source": "AV Magazine",
       "category": "02 TV Broadcast",
       "angle": "Suivre les innovations de plateaux",
-      "status": "source_detected_not_editorially_analyzed"
+      "status": "source_detected_not_editorially_analyzed",
+      "title_fr": "Dispositif LED spectaculaire aux AV Awards"
     },
     {
       "title": "Lady Gaga, Jack White, Blondie Lead 2027 Songwriters Hall of Fame Nominees",
@@ -3097,7 +3139,8 @@
       "source": "Promonews",
       "category": "14 Musique Clips",
       "angle": "Analyser les intentions visuelles, la mise en scène, le montage et l'identité des clips",
-      "status": "source_detected_not_editorially_analyzed"
+      "status": "source_detected_not_editorially_analyzed",
+      "title_fr": "UK Music Video Awards 2026 : Palmarès et Décryptage DA"
     },
     {
       "title": "Great Art Explained Traces the Incredible Story of Henri Matisse’s ‘The Red Studio’",
@@ -4764,7 +4807,8 @@
       "category": "09 France Pro",
       "angle": "Approfondir dispositifs lumineux",
       "status": "source_detected_not_editorially_analyzed",
-      "image": "https://www.lightzoomlumiere.fr/wp-content/uploads/2026/10/Limiter-les-impacts-de-la-lumiere-artificielle-conception-et-mise-en-oeuvre-dun-projet-declairage-exterieur-vertueux-guide-GT-Quenvlum-26-octobre-2026-Copyright-Cluster-Lumiere-560x280.jpg"
+      "image": "https://www.lightzoomlumiere.fr/wp-content/uploads/2026/10/Limiter-les-impacts-de-la-lumiere-artificielle-conception-et-mise-en-oeuvre-dun-projet-declairage-exterieur-vertueux-guide-GT-Quenvlum-26-octobre-2026-Copyright-Cluster-Lumiere-560x280.jpg",
+      "title_fr": "Limiter les impacts de la lumière artificielle"
     },
     {
       "title": "Alchemical Sisters, Nathan Fake, miaw… Les sorties de la semaine",
@@ -6646,28 +6690,6 @@
       "source": "Vizrt",
       "category": "02 TV Broadcast",
       "angle": "Explorer la scénographie augmentée",
-      "status": "source_detected_not_editorially_analyzed"
-    },
-    {
-      "title": "Bonne année 2026 à tous !",
-      "url": "https://www.idlia.fr/bonne-annee-2026-a-tous/",
-      "published": "2026-01-27T16:59:17+00:00",
-      "summary": "",
-      "image": "http://www.idlia.fr/studio/wp-content/uploads/2026/01/carte-voeux-IDlia-Studio-2026-1024x1024.png",
-      "source": "IDlia Studio",
-      "category": "09 France Pro",
-      "angle": "Analyser mise en scène",
-      "status": "source_detected_not_editorially_analyzed"
-    },
-    {
-      "title": "Beauvoir Immobilier | Chalets Dutruel | Chalets 3D | 2026",
-      "url": "https://www.idlia.fr/beauvoir-immobilier-chalets-dutruel-chalets-3d-2026/",
-      "published": "2026-01-27T16:39:26+00:00",
-      "summary": "Perspective 3D sous la neige des chalets Bettex à St Gervais avec vue sur le Mont Blanc | Architecture : ADBA Atelier Devigne Bariat Architectes Perspective 3D sous la neige des chalets Bettex à St Gervais avec vue sur le Mont Blanc | Conception : Beauvoir Immobilier, ADBA Atelier Devigne Bariat Architectes Perspective 3D d’une chambre d’un chalet à St Gervais | Conception : Beauvoir Immobilier, ADBA Atelier Devigne Bariat Architectes Perspective 3D salon des Chalets Bettex à St Gervais | Conception : Beauvoir Immobilier, ADBA Atelier Devigne Bariat Architectes Perspective 3D Sauna des Chalets Bettex à St Gervais | Conception : Beauvoir Immobilier, ADBA Atelier Devigne Bariat Architectes Perspective 3D sous la neige d’un chalet à Morzine, Les Sources d’en bas | Conception : Les Chalets Dutruel Perspective 3D du salon d’un chalet à Morzine, Les Sources d’en bas | Conception : Les Chalets ",
-      "image": "http://www.idlia.fr/studio/wp-content/uploads/2026/01/Perspective-3D-neige_aerienne_Chalets_StGervais_Bettex_Promotion_Beauvoir-Immobilier_Architecture-ADBA-Atelier-Devigne-Bariat-Architectes__Perspectivistes-IDlia-Studio-1024x768.jpg",
-      "source": "IDlia Studio",
-      "category": "09 France Pro",
-      "angle": "Analyser mise en scène",
       "status": "source_detected_not_editorially_analyzed"
     }
   ]
