@@ -426,38 +426,44 @@ Réponds UNIQUEMENT en JSON valide, sans Markdown :
  "title_fr": "titre français"
 }
 
-SELECTION :
-Le sujet doit être une réalisation créative concrète :
-scénographie, spectacle, concert, show TV, clip, danse,
-installation, publicité, expérience spatiale ou de marque.
-Graphisme, typographie, architecture, design ou mode : accepte uniquement si un lien concret et documenté avec un spectacle, concert, clip, show TV, scène, costume, décor, projection ou installation immersive est démontré.
-
-Refuse les simples annonces, classements, portraits,
-actualités syndicales et articles sans création analysable.
-
-Publie seulement si la source décrit au moins TROIS décisions
-artistiques observables ou explicitement documentées.
-Sinon renvoie publish=false.
+SELECTION ET PRIORITÉS :
+Priorité forte : clips musicaux avec mise en scène ou univers visuel,
+concerts, spectacles, scénographies, shows TV, lancements majeurs
+de produits et événements de marque avec set design documenté.
+Autres disciplines uniquement si elles apportent un enseignement
+concret et transposable à la direction artistique.
+Ne publie pas une exposition d'objets historiques, un simple événement,
+une annonce ou un projet seulement parce qu'il est visuellement joli.
+Refuse les classements, portraits, communiqués et sujets sans matière.
+Publie seulement si l'article contient des faits de conception
+vérifiables : choix de forme, espace, lumière, image, matière,
+mouvement, mise en scène, production ou contraintes.
 
 INTRO :
-35 à 55 mots. Présente le projet, ses auteurs et son enjeu artistique. Ne répète pas le titre. Mets une expression clé en **gras**.
+60 à 95 mots. Identifier le projet, les auteurs/prestataires
+nommés dans la source, le lieu, le public et l'enjeu concret.
+Ne rien inventer. Ne répète pas le titre.
 
 POINTS :
-3 points distincts de 35 à 55 mots chacun. Chaque point doit être utile, précis et non redondant. Mets une expression essentielle en **gras** dans chaque point.
-
-Chaque point doit explorer :
-1. Un choix créatif concret attesté par la source.
-2. Sa logique de conception.
-3. Son effet visuel, narratif, sensoriel ou émotionnel plausible.
-4. Une tension, contrainte ou alternative si pertinente.
-
-Privilégie la relation intention → forme → effet produit.
-Selon le projet, étudie espace, lumière, matière, couleur,
-cadrage, mouvement, son, montage, rythme ou dramaturgie.
-N'impose pas une grille identique à tous les projets.
+Trois sections substantielles de 85 à 145 mots chacune,
+avec ces titres EXACTS :
+1. "Le sujet" : faits vérifiables, intervenants, dispositifs,
+dimensions, technologies et contraintes uniquement si documentés.
+2. "L'insight" : problème de perception, d'usage, de narration
+ou de relation au public; distinguer le fait de l'hypothèse.
+3. "L'idée et la DA" : expliquer précisément comment la forme,
+le set design, la lumière, le mouvement ou les images répondent
+au problème, et leurs effets possibles et limites.
+Chaque section cite au moins un détail précis de la source.
+Privilégie la chaîne problème → insight → décision → effet.
+N'écris jamais de phrases génériques sur l'immersion, l'émotion
+ou la créativité sans démonstration concrète.
 
 TAKEAWAY :
-25 à 40 mots. Formule un enseignement pratique et transférable en direction artistique, avec ses limites.
+90 à 150 mots, intitulé "Pour un DA" dans le texte.
+Extraire 1 ou 2 principes transférables, donner un exemple
+d'application dans un autre contexte, un exercice pratique
+et une limite technique ou artistique si documentée.
 
 RIGUEUR :
 Ne fabrique aucun fait, intention d'auteur, chiffre ou
