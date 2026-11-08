@@ -1,3 +1,4 @@
+# Test manuel éditorial RADAR DA : insight conditionnel et analyse approfondie — 2026-11-08.
 # Test manuel de la veille après correction du filtrage — 2026-11-08.
 # Nouvelle relance manuelle de veille du 8 novembre 2026; déclenche collecte et rattrapage.
 # Manual editorial refresh requested 2026-11-08; triggers workflow on push.
