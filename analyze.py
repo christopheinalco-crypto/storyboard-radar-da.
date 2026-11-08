@@ -416,7 +416,7 @@ Réponds UNIQUEMENT en JSON valide, sans Markdown :
 {
  "publish": true,
  "intro": "texte",
- "points": [["titre", "texte"], ["titre", "texte"]],
+ "points": [["titre 1", "texte 1"], ["titre 2", "texte 2"], ["titre 3", "texte 3"]],
  "takeaway": "texte",
  "title_fr": "titre français"
 }
