@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-08T17:49:24.014576+00:00",
+  "updated_at": "2026-11-08T18:12:24.499082+00:00",
   "status": "collected_unreviewed",
   "working_feeds": [
     {
@@ -211,17 +211,12 @@
       "name": "FRATERCINÉ",
       "feed": "https://www.fratercine.fr/feed",
       "category": "09 France Pro"
-    },
-    {
-      "name": "IDlia Studio",
-      "feed": "https://www.idlia.fr/feed",
-      "category": "09 France Pro"
     }
   ],
-  "collection_slot": 4,
-  "collection_hour_paris": 18,
+  "collection_slot": 0,
+  "collection_hour_paris": 19,
   "sources_selected": 182,
-  "sources_checked": 171,
+  "sources_checked": 165,
   "special_test": true,
   "special_selection": {
     "01 Spectacle Concert": [
@@ -367,20 +362,20 @@
         "score": 20
       },
       {
-        "title": "CBC, Genius Loci, Sanae | Film 3D Concours Ehpad",
-        "url": "https://www.idlia.fr/cbc-genius-loci-sanae-film-3d-concours-ehpad/",
-        "score": 18
-      },
-      {
         "title": "Limiter les impacts de la lumière artificielle",
         "url": "https://www.lightzoomlumiere.fr/livre/limiter-les-impacts-de-la-lumiere-artificielle-cluster-lumiere/",
+        "score": 17
+      },
+      {
+        "title": "Euroluce 2027, la lumière au cœur du design mondial",
+        "url": "https://www.lightzoomlumiere.fr/evenement/euroluce-2027-la-lumiere-au-coeur-du-design-mondial/",
         "score": 17
       }
     ],
     "10 Strategie Insights": [],
     "11 Graphisme Expertise": [
       {
-        "title": "VS/Goods© — Cool Mockups",
+        "title": "VS/Goods© — Maquettes sympas",
         "url": "https://mindsparklemag.com/website/vsgoods-cool-mockups",
         "score": 32
       },
@@ -2962,7 +2957,8 @@
       "source": "Konbini Musique",
       "category": "14 Musique Clips",
       "angle": "Décrypter intention, émotion, mise en scène, image et son des clips et performances musicales",
-      "status": "source_detected_not_editorially_analyzed"
+      "status": "source_detected_not_editorially_analyzed",
+      "title_fr": "Philippe Katerine sème le doute sur le retour de PNL"
     },
     {
       "title": "Attendez, Philippe Katerine vient vraiment de teaser le retour de PNL ?",
@@ -2973,7 +2969,8 @@
       "source": "Konbini Musique",
       "category": "14 Musique Clips",
       "angle": "Décrypter intention, émotion, mise en scène, image et son des clips et performances musicales",
-      "status": "source_detected_not_editorially_analyzed"
+      "status": "source_detected_not_editorially_analyzed",
+      "title_fr": "Philippe Katerine sème le doute sur le retour de PNL"
     },
     {
       "url": "https://www.tpimagazine.com/creating-aap-rockys-dont-be-dumb-tour/",
