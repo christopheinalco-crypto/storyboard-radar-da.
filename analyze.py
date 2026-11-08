@@ -197,7 +197,7 @@ def reviewed_recently(url):
         return False
 
     if record.get("status") in (
-        "source_unavailable", "no_image", "json_invalid"
+        "source_unavailable", "no_image", "json_invalid", "format_invalid"
     ):
         return age < datetime.timedelta(hours=24)
 
@@ -635,7 +635,7 @@ for item in candidates:
 
     if not valid:
         rejected += 1
-        mark_reviewed(url, "editorial_rejected")
+        mark_reviewed(url, "format_invalid" if analysis.get("publish") is True else "editorial_rejected")
         print("Editorial rejected:", item["title"])
         continue
 
