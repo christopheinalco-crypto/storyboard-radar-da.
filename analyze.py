@@ -129,6 +129,12 @@ ANNOUNCEMENTS = re.compile(
     re.I
 )
 
+# Exclusion permanente des séries de prix et palmarès sans projet analysable.
+BLOCKED_STORIES = re.compile(
+    r"acetyl[eè]ne|prix.de.la.conception.lumi[eè]re|prix.de.l.imaginaire.lumi[eè]re",
+    re.I
+)
+
 def editorial_precheck(item):
     title = str(item.get("title") or "")
     summary = str(
@@ -136,6 +142,8 @@ def editorial_precheck(item):
     )
     content = title + " " + summary
 
+    if BLOCKED_STORIES.search(content + " " + str(item.get("url") or "")):
+        return False, "duplicate_awards_story"
     if EXCLUSIONS.search(title):
         return False, "non_project"
     if ANNOUNCEMENTS.search(title):
