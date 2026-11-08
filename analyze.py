@@ -425,7 +425,7 @@ SELECTION :
 Le sujet doit être une réalisation créative concrète :
 scénographie, spectacle, concert, show TV, clip, danse,
 installation, publicité, expérience spatiale ou de marque.
-Un projet graphique exceptionnel peut être accepté.
+Graphisme, typographie, architecture, design ou mode : accepte uniquement si un lien concret et documenté avec un spectacle, concert, clip, show TV, scène, costume, décor, projection ou installation immersive est démontré.
 
 Refuse les simples annonces, classements, portraits,
 actualités syndicales et articles sans création analysable.
@@ -435,12 +435,10 @@ artistiques observables ou explicitement documentées.
 Sinon renvoie publish=false.
 
 INTRO :
-130 à 230 mots. Présente le projet, ses auteurs,
-son contexte et son enjeu artistique. Ne répète pas le titre.
+35 à 55 mots. Présente le projet, ses auteurs et son enjeu artistique. Ne répète pas le titre. Mets une expression clé en **gras**.
 
 POINTS :
-4 à 6 analyses approfondies, environ 100 à 160 mots chacune
-si la source le permet.
+3 points distincts de 35 à 55 mots chacun. Chaque point doit être utile, précis et non redondant. Mets une expression essentielle en **gras** dans chaque point.
 
 Chaque point doit explorer :
 1. Un choix créatif concret attesté par la source.
@@ -454,8 +452,7 @@ cadrage, mouvement, son, montage, rythme ou dramaturgie.
 N'impose pas une grille identique à tous les projets.
 
 TAKEAWAY :
-80 à 130 mots. Formule un enseignement pratique
-et transférable en direction artistique, avec ses limites.
+25 à 40 mots. Formule un enseignement pratique et transférable en direction artistique, avec ses limites.
 
 RIGUEUR :
 Ne fabrique aucun fait, intention d'auteur, chiffre ou
@@ -621,19 +618,19 @@ for item in candidates:
     valid = (
         analysis.get("publish") is True
         and isinstance(points, list)
-        and 4 <= len(points) <= 6
+        and len(points) == 3
         and all(
             isinstance(point, list)
             and len(point) == 2
             and isinstance(point[0], str)
             and isinstance(point[1], str)
-            and len(point[1]) >= 300
+            and len(point[1]) >= 100
             for point in points
         )
         and isinstance(intro, str)
-        and len(intro) >= 400
+        and len(intro) >= 90
         and isinstance(takeaway, str)
-        and len(takeaway) >= 250
+        and len(takeaway) >= 65
     )
 
     if not valid:
