@@ -460,6 +460,16 @@ réaction du public. Distingue faits et interprétations.
 N'invente aucune citation d'expert.
 Si la source est insuffisante, refuse plutôt que de remplir.
 Evite les répétitions entre introduction, points et conclusion.
+STYLE EDITORIAL IMPERATIF :
+Ecris comme un décryptage DA captivant destiné à des créatifs, pas comme une fiche de lecture.
+Entre directement dans le projet, par une décision visuelle, une tension ou un effet concret.
+INTERDIT : « l'article dit », « l'article explique », « selon l'article »,
+« la source présente », « le texte évoque », « on peut constater que »,
+« il est intéressant de noter que », ou toute formule de commentaire de source.
+Titres de points courts, évocateurs et précis. Verbes actifs, phrases naturelles.
+Montre ce que le dispositif fait voir, ressentir ou comprendre et pourquoi c'est utile pour notre pratique.
+Aucune accroche artificielle, aucun enthousiasme creux, aucun effet inventé.
+Les faits doivent toujours être vérifiables dans la source, même sans la citer dans chaque phrase.
 Ecris avec précision, naturel et lisibilité.
 Au plus deux expressions en gras par point.
 
