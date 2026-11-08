@@ -14,7 +14,7 @@ sources=json.load(open(os.path.join(ROOT,'data/sources.json'),encoding='utf8'))
 old=json.load(open(os.path.join(ROOT,'data/feed.json'),encoding='utf8'))
 items={x['url']:x for x in old.get('items',[]) if x.get('url') and not re.match(r'^(03|11)\b',x.get('category','')) and not re.search(r'back[ -]?2[ -]?back|back[ -]?to[ -]?back',x.get('title',''),re.I)}
 # Rejeter dès la collecte les actualités musicales sans création scénique analysable.
-BLOCKED_EDITORIAL = re.compile(r"acetyl[eè]ne|prix.de.la.conception.lumi[eè]re|mylene.farmer.s.est.faite.remixee",re.I)
+BLOCKED_EDITORIAL = re.compile(r"acetyl[eè]ne|prix.de.la.conception.lumi[eè]re|mylene.farmer.s.est.faite.remixee|philippe.katerine.*pnl|retour.de.pnl",re.I)
 items={url:item for url,item in items.items() if not BLOCKED_EDITORIAL.search(url+" "+item.get("title",""))}
 START=time.monotonic()
 MAX_SECONDS=235
