@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-08T16:37:07.332597+00:00",
+  "updated_at": "2026-11-08T17:49:24.014576+00:00",
   "status": "collected_unreviewed",
   "working_feeds": [
     {
@@ -218,8 +218,8 @@
       "category": "09 France Pro"
     }
   ],
-  "collection_slot": 0,
-  "collection_hour_paris": 17,
+  "collection_slot": 4,
+  "collection_hour_paris": 18,
   "sources_selected": 182,
   "sources_checked": 171,
   "special_test": true,
@@ -380,7 +380,7 @@
     "10 Strategie Insights": [],
     "11 Graphisme Expertise": [
       {
-        "title": "VS/Goods© — Maquettes sympas",
+        "title": "VS/Goods© — Cool Mockups",
         "url": "https://mindsparklemag.com/website/vsgoods-cool-mockups",
         "score": 32
       },
@@ -451,7 +451,7 @@
   "backfill_test": {
     "period": "2026-11-01/2026-11-07",
     "articles": 375,
-    "with_images": 225
+    "with_images": 227
   },
   "items": [
     {
@@ -1049,7 +1049,7 @@
       "category": "14 Musique Clips",
       "angle": "Analyser les intentions visuelles, la mise en scène, le montage et l'identité des clips",
       "status": "source_detected_not_editorially_analyzed",
-      "title_fr": "Fiona Apple et The Bolt Cutters couvrent la « révolution » de la Terre Mère pour le bénéfice de Médecins sans frontières",
+      "title_fr": "Fiona Apple reprend Mother Earth pour Médecins Sans Frontières",
       "summary_fr": "L'article Fiona Apple et The Bolt Cutters couvrent la « révolution » de la Terre Mère pour le bénéfice de Médecins sans frontières apparaît en premier sur Stereogum."
     },
     {
@@ -1221,7 +1221,7 @@
       "category": "14 Musique Clips",
       "angle": "Décrypter intention, émotion, mise en scène, image et son des clips et performances musicales",
       "status": "source_detected_not_editorially_analyzed",
-      "title_fr": "Olivia Rodrigo se prend pour Mariah Carey et lance les festivités de Noël !"
+      "title_fr": "Olivia Rodrigo : direction artistique rétro pour un clip de Noël"
     },
     {
       "title": "Olivia Rodrigo se prend pour Mariah Carey et lance les festivités de Noël !",
@@ -1233,7 +1233,7 @@
       "category": "14 Musique Clips",
       "angle": "Décrypter intention, émotion, mise en scène, image et son des clips et performances musicales",
       "status": "source_detected_not_editorially_analyzed",
-      "title_fr": "Olivia Rodrigo se prend pour Mariah Carey et lance les festivités de Noël !"
+      "title_fr": "Olivia Rodrigo : décryptage DA du clip rétro take me home (4 christmas)"
     },
     {
       "title": "Stove God Cooks – “Stovie’s Home (Down Down)” (Prod. Swizz Beatz)",
