@@ -10,11 +10,13 @@ on:
   push:
     paths:
       - 'collect.py'
+      - 'analyze.py'
       - 'data/sources.json'
       - '.github/workflows/veille.yml'
   schedule:
-    # Trois passages par jour, 06:00, 12:00 et 16:00 à Paris (DST géré par le contrôle local).
-    - cron: '0 4,5,10,11,14,15 * * *'
+    # Trois passages par jour. UTC 05,11,15 en hiver ; 04,10,14 en été.
+    # Le garde-fou ci-dessous choisit la bonne heure UTC selon le fuseau Paris.
+    - cron: '17 4,5,10,11,14,15 * * *'
 concurrency:
   group: radar-da-collect-main
   cancel-in-progress: false
@@ -39,16 +41,26 @@ jobs:
           from zoneinfo import ZoneInfo
           event=os.environ['EVENT_NAME']
           cron=os.environ.get('SCHEDULE_CRON','')
-          now=datetime.datetime.now(datetime.timezone.utc)
+          # GitHub peut lancer le workflow avec du retard : se baser sur
+          # l'heure UTC prévue dans le cron déclencheur, pas l'heure réelle.
           slot=0
           run=True
           if event=='schedule':
-              # Le cron contient une liste d'heures UTC : ne pas convertir la liste en int.
-              # Les exécutions GitHub peuvent démarrer avec quelques minutes de retard.
-              local=now.astimezone(ZoneInfo('Europe/Paris'))
-              hours=(6,12,16)
-              run=local.hour in hours
-              if run:slot=hours.index(local.hour)
+              from datetime import date
+              from zoneinfo import ZoneInfo
+              import re
+              match=re.search(r'\\b(4|5|10|11|14|15)\\b',cron)
+              if not match:
+                  raise RuntimeError(f'Créneau GitHub non reconnu: {cron!r}')
+              scheduled_hour=int(match.group(1))
+              today=datetime.datetime.now(ZoneInfo('Europe/Paris')).date()
+              # L'heure d'été en vigueur à Paris détermine l'heure UTC attendue.
+              paris_noon=datetime.datetime.combine(today,datetime.time(12),ZoneInfo('Europe/Paris'))
+              offset=int(paris_noon.utcoffset().total_seconds()//3600)
+              planned_hours=(6,12,16)
+              valid_utc=[(hour-offset)%24 for hour in planned_hours]
+              run=scheduled_hour in valid_utc
+              if run:slot=valid_utc.index(scheduled_hour)
           with open(os.environ['GITHUB_OUTPUT'],'a') as f:
               f.write(f"run={'true' if run else 'false'}\n")
               f.write(f"slot={slot}\n")
