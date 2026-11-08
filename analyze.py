@@ -449,13 +449,22 @@ Trois sections substantielles de 85 à 145 mots chacune,
 avec ces titres EXACTS :
 1. "Le sujet" : faits vérifiables, intervenants, dispositifs,
 dimensions, technologies et contraintes uniquement si documentés.
-2. "L'insight" : problème de perception, d'usage, de narration
-ou de relation au public; distinguer le fait de l'hypothèse.
+2. Choisir un titre adapté à la nature du projet :
+"L'insight" UNIQUEMENT lorsqu'un besoin, comportement ou tension
+réelle du public ou des usagers est documenté par la source.
+Sinon, "Le problème créatif", "L'enjeu de conception"
+ou "Le parti pris artistique", selon les faits disponibles.
+Un problème technique, une intention esthétique ou une hypothèse
+personnelle ne sont PAS automatiquement des insights.
+Distinguer explicitement le constat attesté et l'interprétation.
 3. "L'idée et la DA" : expliquer précisément comment la forme,
 le set design, la lumière, le mouvement ou les images répondent
-au problème, et leurs effets possibles et limites.
-Chaque section cite au moins un détail précis de la source.
-Privilégie la chaîne problème → insight → décision → effet.
+à l'enjeu identifié, avec leurs effets possibles et limites.
+Chaque section s'appuie sur des détails précis de la source.
+Privilégie la chaîne enjeu → décision créative → effet plausible,
+et seulement lorsque c'est justifié, besoin public → insight → DA.
+Ne jamais inventer une motivation, une étude du public ou
+une intention du créateur pour remplir une rubrique.
 N'écris jamais de phrases génériques sur l'immersion, l'émotion
 ou la créativité sans démonstration concrète.
 
