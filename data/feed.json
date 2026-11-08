@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-08T11:56:41.496549+00:00",
+  "updated_at": "2026-11-08T12:21:38.424210+00:00",
   "status": "collected_unreviewed",
   "working_feeds": [
     {
@@ -211,20 +211,51 @@
       "name": "Grand Visual",
       "feed": "https://grandvisual.com/feed",
       "category": "07 FOOH OOH DOOH"
+    },
+    {
+      "name": "FRATERCINÉ",
+      "feed": "https://www.fratercine.fr/feed",
+      "category": "09 France Pro"
+    },
+    {
+      "name": "IDlia Studio",
+      "feed": "https://www.idlia.fr/feed",
+      "category": "09 France Pro"
+    },
+    {
+      "name": "Stereogum",
+      "feed": "https://www.stereogum.com/feed/",
+      "category": "14 Musique Clips"
+    },
+    {
+      "name": "Pitchfork",
+      "feed": "https://pitchfork.com/rss/news/",
+      "category": "14 Musique Clips"
     }
   ],
   "collection_slot": 0,
-  "collection_hour_paris": 12,
+  "collection_hour_paris": 13,
   "sources_selected": 182,
-  "sources_checked": 171,
+  "sources_checked": 182,
   "special_test": false,
   "special_selection": {},
   "backfill_test": {
     "period": "2026-11-01/2026-11-07",
     "articles": 376,
-    "with_images": 225
+    "with_images": 227
   },
   "items": [
+    {
+      "title": "One Orient Headquarters / gmp Architects",
+      "url": "https://www.archdaily.com/1187779/one-orient-headquarters-von-gerkan-marg-and-partners-architects",
+      "published": "2026-11-08T06:00:00+00:00",
+      "summary": "One Orient, the new corporate headquarters of technology group Telling in China's third-largest metropolis, Shenzhen , has been completed to plans by architects von Gerkan, Marg and Partners (gmp). The project is defined by its modular design and unitized facade, whose frames seamlessly integrate all technical components, reducing the building's appearance to uninterrupted glass and profile surfaces. The Council on Tall Buildings and Urban Habitat (CTBUH) recognized this facade system with the CTBUH China Award in the \"Facade Innovation Excellence\" category.",
+      "image": "",
+      "source": "ArchDaily",
+      "category": "05 Art Architecture",
+      "angle": "Lire parcours et plans",
+      "status": "source_detected_not_editorially_analyzed"
+    },
     {
       "title": "sweeping concrete cutouts shape ZAO’s sculptural art center in rizhao",
       "url": "https://www.designboom.com/architecture/sweeping-concrete-zao-art-center-rizhao-china/",
@@ -6403,17 +6434,6 @@
       "source": "Dragone",
       "category": "01 Spectacle Concert",
       "angle": "Analyser l'intégration scène/architecture",
-      "status": "source_detected_not_editorially_analyzed"
-    },
-    {
-      "title": "Vizrt Powers a New Era of Corporate Viewer Engagement with Expanded Enterprise Team",
-      "url": "https://routing.vizrt.com/vizrt/press-center/new-era-of-corporate-viewer-engagement/",
-      "published": "2026-01-22T07:00:00+00:00",
-      "summary": "New international leaders bring decades of SaaS and B2B enterprise technology experience to transform corporate communications and audience engagement. The post Vizrt Powers a New Era of Corporate Viewer Engagement with Expanded Enterprise Team appeared first on Vizrt | Transforming Viewer Experiences .",
-      "image": "",
-      "source": "Vizrt",
-      "category": "02 TV Broadcast",
-      "angle": "Explorer la scénographie augmentée",
       "status": "source_detected_not_editorially_analyzed"
     }
   ]
