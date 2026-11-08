@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-08T14:23:34.826872+00:00",
+  "updated_at": "2026-11-08T15:34:29.104164+00:00",
   "status": "collected_unreviewed",
   "working_feeds": [
     {
@@ -216,12 +216,27 @@
       "name": "IDlia Studio",
       "feed": "https://www.idlia.fr/feed",
       "category": "09 France Pro"
+    },
+    {
+      "name": "Stereogum",
+      "feed": "https://www.stereogum.com/feed/",
+      "category": "14 Musique Clips"
+    },
+    {
+      "name": "Konbini Musique",
+      "feed": "https://www.konbini.com/feed",
+      "category": "14 Musique Clips"
+    },
+    {
+      "name": "Pitchfork",
+      "feed": "https://pitchfork.com/rss/news/",
+      "category": "14 Musique Clips"
     }
   ],
-  "collection_slot": 3,
-  "collection_hour_paris": 15,
+  "collection_slot": 0,
+  "collection_hour_paris": 16,
   "sources_selected": 182,
-  "sources_checked": 167,
+  "sources_checked": 182,
   "special_test": true,
   "special_selection": {
     "01 Spectacle Concert": [
@@ -231,13 +246,13 @@
         "score": 29
       },
       {
-        "title": "See Glow Motion at LDI: Halo Ring & Next Gen Kinetic Systems",
-        "url": "https://www.livedesignonline.com/resource/see-glow-motion-ldi-halo-ring-next-gen-kinetic-systems",
-        "score": 21
-      },
-      {
         "title": "Live Design: Terhal",
         "url": "https://dragone.com/live-design-covers-terhal/",
+        "score": 23
+      },
+      {
+        "title": "See Glow Motion at LDI: Halo Ring & Next Gen Kinetic Systems",
+        "url": "https://www.livedesignonline.com/resource/see-glow-motion-ldi-halo-ring-next-gen-kinetic-systems",
         "score": 21
       }
     ],
@@ -380,7 +395,7 @@
     "10 Strategie Insights": [],
     "11 Graphisme Expertise": [
       {
-        "title": "VS/Goods© — Cool Mockups",
+        "title": "VS/Goods© — Maquettes sympas",
         "url": "https://mindsparklemag.com/website/vsgoods-cool-mockups",
         "score": 32
       },
@@ -451,9 +466,61 @@
   "backfill_test": {
     "period": "2026-11-01/2026-11-07",
     "articles": 375,
-    "with_images": 226
+    "with_images": 227
   },
   "items": [
+    {
+      "title": "Hayley Williams Hangs in Her Hotel Room in “Dream Girl in Shibuya” Video",
+      "url": "https://pitchfork.com/story/hayley-williams-hangs-in-a-hotel-room-in-new-dream-girl-in-shibuya-video/",
+      "published": "2026-11-08T15:29:53+00:00",
+      "summary": "The Ego Death at a Bachelorette Party track just got a black-and-white visual to match",
+      "image": "https://media.pitchfork.com/photos/6af09146d98b824e758335ed/master/pass/hayleywilliams.png",
+      "source": "Pitchfork",
+      "category": "14 Musique Clips",
+      "angle": "Analyser les intentions visuelles, la mise en scène, le montage et l'identité des clips",
+      "status": "source_detected_not_editorially_analyzed",
+      "title_fr": "Hayley Williams est accrochée dans sa chambre d'hôtel dans la vidéo \"Dream Girl in Shibuya\"",
+      "summary_fr": "Le morceau Ego Death at a Bachelorette Party vient de recevoir un visuel en noir et blanc assorti"
+    },
+    {
+      "title": "how human history is remembered in coins, silks, and steles at fondazione prada’s global antiquity",
+      "url": "https://www.designboom.com/art/how-human-history-is-remembered-in-coins-silks-and-steles-at-fondazione-pradas-global-antiquity/",
+      "published": "2026-11-08T15:15:13+00:00",
+      "summary": "ancient trade routes connected distant civilizations through objects, rituals, and visual languages, challenging ideas of cultural boundaries. The post how human history is remembered in coins, silks, and steles at fondazione prada’s global antiquity appeared first on designboom | architecture & design magazine .",
+      "image": "https://www.designboom.com/wp-content/uploads/2026/11/global-antiquity-designboom-700-1-500x400-22b08q85r659.jpg",
+      "source": "Designboom",
+      "category": "05 Art Architecture",
+      "angle": "Explorer formes expérimentales",
+      "status": "source_detected_not_editorially_analyzed",
+      "title_fr": "comment l'histoire humaine est rappelée dans les pièces de monnaie, les soieries et les stèles de l'antiquité mondiale de la fondazione prada",
+      "summary_fr": "les anciennes routes commerciales reliaient des civilisations lointaines à travers des objets, des rituels et des langages visuels, remettant en question les idées de frontières culturelles. L'article sur la façon dont l'histoire humaine est rappelée dans les pièces de monnaie, les soieries et les stèles de l'antiquité mondiale de la fondazione prada est apparu en premier sur designboom | revue d'architecture et de design."
+    },
+    {
+      "title": "Watch the Strokes Play “Lonely in the Future” and “Going Shopping” on SNL",
+      "url": "https://pitchfork.com/story/watch-the-strokes-play-lonely-in-the-future-and-going-shopping-on-snl/",
+      "published": "2026-11-08T14:50:55+00:00",
+      "summary": "Nick Valensi didn’t join, but Walton Goggins did",
+      "image": "https://media.pitchfork.com/photos/6af08a86d98b824e75833596/master/pass/strokessnl.png",
+      "source": "Pitchfork",
+      "category": "14 Musique Clips",
+      "angle": "Analyser les intentions visuelles, la mise en scène, le montage et l'identité des clips",
+      "status": "source_detected_not_editorially_analyzed",
+      "title_fr": "Regardez les Strokes Play « Lonely in the Future » et « Going Shopping » sur SNL",
+      "summary_fr": "Nick Valensi n’a pas rejoint, mais Walton Goggins l’a fait"
+    },
+    {
+      "title": "Florian Residence 1 / Benthem Crouwel Architects",
+      "url": "https://www.archdaily.com/1188055/florian-residence-1-benthem-crouwel-architects",
+      "published": "2026-11-08T10:00:00+00:00",
+      "summary": "Florian Residence 1 is the first completed building and marks the beginning of a new urban district. Located on a prominent site near the National Bank of Slovakia, the building comprises eight floors, shops and amenities, and 73 homes ranging from compact studios to spacious apartments. High technological standards – triple glazing, high-performance thermal insulation, and acoustic engineering – ensure residents' optimal comfort, while the generous entrance and light-filled atrium lend the building an authentic sense of place and community.",
+      "image": "https://images.adsttc.com/media/images/6aeb/354c/c723/9a01/895a/271a/large_jpg/florian-residence-1-benthem-crouwel-architects_13.jpg?1793799508",
+      "source": "ArchDaily",
+      "category": "05 Art Architecture",
+      "angle": "Lire parcours et plans",
+      "status": "source_detected_not_editorially_analyzed",
+      "title_fr": "Résidence Florian 1 / Benthem Crouwel Architectes",
+      "summary_fr": "La Résidence Florian 1 est le premier bâtiment achevé et marque le début d'un nouveau quartier urbain. Situé sur un site important à proximité de la Banque nationale de Slovaquie, le bâtiment comprend huit étages, des commerces et commodités, ainsi que 73 logements allant des studios compacts aux appartements spacieux. Des normes technologiques élevées – triple vitrage, isolation thermique performante et ingénierie acoustique – assurent un confort optimal aux résidents, tandis que l'entrée généreuse et l'atrium baigné de lumière confèrent au bâtiment un authentique sentiment d'appartenance et de communauté."
+    },
     {
       "title": "The Work of Keeping a Public Building Public: The Drill Hall in Johannesburg",
       "url": "https://www.archdaily.com/1187924/the-work-of-keeping-a-public-building-public-the-drill-hall-in-johannesburg",
@@ -6615,50 +6682,6 @@
       "source": "IDlia Studio",
       "category": "09 France Pro",
       "angle": "Analyser mise en scène",
-      "status": "source_detected_not_editorially_analyzed"
-    },
-    {
-      "title": "Biotope Immobilier, Aspen Immobilier | Chalets 3D | 2025",
-      "url": "https://www.idlia.fr/biotope-immobilier-aspen-immobilier-chalets-3d-2025/",
-      "published": "2026-01-27T15:44:30+00:00",
-      "summary": "Voici les perspectives et tours à 360° réalisés sur les chalets de Biotope Immobilier et Aspen Immobilier en 2025.",
-      "image": "https://www.idlia.fr/studio/wp-content/uploads/2025/07/Perspective_3d_neige-hiver_commerciale_Chalet_RocOrchid_les-gets_promoteur-biotope-aspen_architecte-DARAGON-DHORDAIN-ARCHITECTE-_perspectivistes_graphistes-3d_idlia-studio-960x636.jpg",
-      "source": "IDlia Studio",
-      "category": "09 France Pro",
-      "angle": "Analyser mise en scène",
-      "status": "source_detected_not_editorially_analyzed"
-    },
-    {
-      "title": "Biotope Immobilier, Aspen Immobilier | Chalets 3D | 2024",
-      "url": "https://www.idlia.fr/biotope-immobilier-aspen-immobilier-chalets-3d-2024/",
-      "published": "2026-01-27T15:42:28+00:00",
-      "summary": "Voici les perspectives 3D, plans interactifs et tours à 360° réalisés sur les chalets de Biotope Immobilier et Aspen Immobilier en 2024.",
-      "image": "https://www.idlia.fr/studio/wp-content/uploads/2025/07/perspective_3d_neige-hiver_commerciale_ChaletsNoirs_les-gets_promoteur-biotope-aspen_architecte-Equinox-Architecture_perspectivistes_graphistes-3d_idlia-studio2-960x636.jpg",
-      "source": "IDlia Studio",
-      "category": "09 France Pro",
-      "angle": "Analyser mise en scène",
-      "status": "source_detected_not_editorially_analyzed"
-    },
-    {
-      "title": "Biotope Immobilier, Aspen Immobilier | Chalets 3D | 2023",
-      "url": "https://www.idlia.fr/biotope-immobilier-aspen-immobilier-chalets-3d-2023/",
-      "published": "2026-01-27T15:14:54+00:00",
-      "summary": "Voici les perspectives 3D sous la neige, plans 3D interactifs, film promotionnel, et la vitrine web commerciale que nous avons réalisé sur les chalets de Biotope Immobilier et Aspen Immobilier en 2023.",
-      "image": "",
-      "source": "IDlia Studio",
-      "category": "09 France Pro",
-      "angle": "Analyser mise en scène",
-      "status": "source_detected_not_editorially_analyzed"
-    },
-    {
-      "title": "Terhal: A Sold-Out 2025 Season in Saudi Arabia",
-      "url": "https://dragone.com/terhal-sold-out-season-saudi-arabia/",
-      "published": "2026-01-22T08:43:50+00:00",
-      "summary": "In 2025, Terhal achieved remarkable success in Saudi Arabia. The show was sold out throughout its entire run, attracting audiences eager to discover a large-scale production. This strong reception reflects the artistic impact of the project and the meaningful connection established with audiences. Terhal further confirms its place as a major creation, blending storytelling, performance, […]",
-      "image": "https://dragone.com/wp-content/uploads/2026/04/Terhal-soldout.jpeg",
-      "source": "Dragone",
-      "category": "01 Spectacle Concert",
-      "angle": "Analyser l'intégration scène/architecture",
       "status": "source_detected_not_editorially_analyzed"
     }
   ]
