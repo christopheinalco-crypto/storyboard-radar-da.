@@ -1,9 +1,11 @@
 
+"""RADAR DA — sélection, analyse Gemini et publication."""
 import os
 import json
 import re
 import html
 import sys
+import time
 import datetime
 import urllib.request
 import urllib.parse
@@ -13,13 +15,28 @@ from collections import Counter
 from zoneinfo import ZoneInfo
 
 ROOT = Path(__file__).parent
-feed_path = ROOT / "data/feed.json"
-out_path = ROOT / "data/analyses.json"
-review_path = ROOT / "data/reviewed.json"
+FEED = ROOT / "data/feed.json"
+OUTPUT = ROOT / "data/analyses.json"
+REVIEWED = ROOT / "data/reviewed.json"
 
-feed = json.loads(feed_path.read_text(encoding="utf-8"))
-saved = json.loads(out_path.read_text(encoding="utf-8")) if out_path.exists() else {}
-reviewed = json.loads(review_path.read_text(encoding="utf-8")) if review_path.exists() else {}
+def load(path):
+    if not path.exists():
+        return {}
+    return json.loads(path.read_text(encoding="utf-8"))
+
+def save(path, value):
+    path.parent.mkdir(parents=True, exist_ok=True)
+    path.write_text(
+        json.dumps(value, ensure_ascii=False, indent=2) + "\n",
+        encoding="utf-8"
+    )
+
+feed = load(FEED)
+saved = load(OUTPUT)
+reviewed = load(REVIEWED)
+
+if not isinstance(saved, dict) or not isinstance(reviewed, dict):
+    sys.exit("Invalid existing analysis/reviewed data")
 
 key = os.environ.get("GEMINI_API_KEY", "")
 if not key:
@@ -29,7 +46,9 @@ PARIS = ZoneInfo("Europe/Paris")
 now = datetime.datetime.now(datetime.timezone.utc)
 today = now.astimezone(PARIS).date()
 
-MAX_API_CALLS = min(15, max(0, int(os.environ.get("RADAR_MAX_AI_CALLS", "15"))))
+MAX_API_CALLS = min(
+    15, max(0, int(os.environ.get("RADAR_MAX_AI_CALLS", "15")))
+)
 MAX_PER_CATEGORY = 3
 MAX_GRAPHIC_DAILY = 2
 GRAPHIC_CODES = {"03", "11"}
@@ -112,7 +131,9 @@ ANNOUNCEMENTS = re.compile(
 
 def editorial_precheck(item):
     title = str(item.get("title") or "")
-    summary = str(item.get("summary") or item.get("description") or "")
+    summary = str(
+        item.get("summary") or item.get("description") or ""
+    )
     content = title + " " + summary
 
     if EXCLUSIONS.search(title):
@@ -153,7 +174,6 @@ def reviewed_recently(url):
     if not isinstance(record, dict):
         return True
 
-    status = record.get("status", "")
     timestamp = record.get("at", "")
     if not timestamp:
         return False
@@ -165,41 +185,61 @@ def reviewed_recently(url):
         if date.tzinfo is None:
             date = date.replace(tzinfo=datetime.timezone.utc)
         age = now - date.astimezone(datetime.timezone.utc)
-    except ValueError:
+    except (ValueError, TypeError):
         return False
 
-    if status in ("source_unavailable", "no_image"):
+    if record.get("status") in (
+        "source_unavailable", "no_image", "json_invalid"
+    ):
         return age < datetime.timedelta(hours=24)
+
     return age < datetime.timedelta(days=7)
+
+def mark_reviewed(url, status):
+    reviewed[url] = {
+        "status": status,
+        "at": datetime.datetime.now(
+            datetime.timezone.utc
+        ).isoformat()
+    }
 
 def article_text(url):
     try:
-        req = urllib.request.Request(
-            url,
-            headers={"User-Agent": "Mozilla/5.0"}
+        request = urllib.request.Request(
+            url, headers={"User-Agent": "Mozilla/5.0"}
         )
-        with urllib.request.urlopen(req, timeout=12) as response:
-            raw = response.read(750000).decode("utf-8", "ignore")
+        with urllib.request.urlopen(request, timeout=12) as response:
+            raw = response.read(750000).decode(
+                "utf-8", "ignore"
+            )
 
         raw = re.sub(
-            r"<(script|style|nav|footer|header)[^>]*>[\s\S]*?</\1>",
+            r"<(script|style|nav|footer|header)[^>]*>"
+            r"[\s\S]*?</\1>",
             " ", raw, flags=re.I
         )
         raw = re.sub(r"<[^>]+>", " ", raw)
-        return re.sub(r"\s+", " ", html.unescape(raw)).strip()[:16000]
+        return re.sub(
+            r"\s+", " ", html.unescape(raw)
+        ).strip()[:16000]
+
     except Exception as exc:
         print("Source unavailable:", str(exc)[:150])
         return ""
 
 def source_image(url):
     try:
-        req = urllib.request.Request(
+        request = urllib.request.Request(
             url, headers={"User-Agent": "Mozilla/5.0"}
         )
-        with urllib.request.urlopen(req, timeout=10) as response:
-            markup = response.read(400000).decode("utf-8", "ignore")
+        with urllib.request.urlopen(request, timeout=10) as response:
+            markup = response.read(400000).decode(
+                "utf-8", "ignore"
+            )
 
-        for tag in re.findall(r"<meta\s+[^>]*>", markup, re.I):
+        for tag in re.findall(
+            r"<meta\s+[^>]*>", markup, re.I
+        ):
             attrs = {
                 k.lower(): html.unescape(v)
                 for k, v in re.findall(
@@ -209,7 +249,8 @@ def source_image(url):
             if (
                 attrs.get("property", "").lower()
                 in ("og:image", "og:image:secure_url")
-                or attrs.get("name", "").lower() == "twitter:image"
+                or attrs.get("name", "").lower()
+                == "twitter:image"
             ):
                 image = urllib.parse.urljoin(
                     url, attrs.get("content", "")
@@ -218,39 +259,52 @@ def source_image(url):
                     return image
     except Exception:
         pass
+
     return ""
 
 def available_gemini_model():
-    req = urllib.request.Request(
-        "https://generativelanguage.googleapis.com/v1beta/models?pageSize=100",
+    request = urllib.request.Request(
+        "https://generativelanguage.googleapis.com/"
+        "v1beta/models?pageSize=100",
         headers={"x-goog-api-key": key}
     )
-    with urllib.request.urlopen(req, timeout=20) as response:
+    with urllib.request.urlopen(request, timeout=20) as response:
         catalog = json.load(response)
 
     models = [
         m["name"].removeprefix("models/")
         for m in catalog.get("models", [])
-        if "generateContent" in m.get("supportedGenerationMethods", [])
+        if "generateContent" in m.get(
+            "supportedGenerationMethods", []
+        )
     ]
 
     preferred = [
-        os.environ.get("RADAR_AI_MODEL", "gemini-3.5-flash-lite"),
+        os.environ.get(
+            "RADAR_AI_MODEL", "gemini-3.5-flash-lite"
+        ),
         "gemini-3.5-flash-lite",
         "gemini-3-flash",
         "gemini-2.5-flash"
     ]
-    model = next((m for m in preferred if m in models), None)
+
+    model = next(
+        (m for m in preferred if m in models), None
+    )
     if not model:
-        raise RuntimeError("No compatible Gemini model: " + str(models[:15]))
+        raise RuntimeError(
+            "No compatible Gemini model: " + str(models[:15])
+        )
     print("Gemini model selected:", model)
     return model
 
 def graphic_count_today():
     category_by_url = {
-        item.get("url"): str(item.get("category") or "")[:2]
+        item.get("url"):
+        str(item.get("category") or "")[:2]
         for item in feed.get("items", [])
     }
+
     count = 0
     for url, analysis in saved.items():
         if category_by_url.get(url) not in GRAPHIC_CODES:
@@ -263,12 +317,15 @@ def graphic_count_today():
                 count += 1
         except (KeyError, ValueError, TypeError):
             pass
+
     return count
 
 graphic_today = graphic_count_today()
 reasons = Counter()
 by_category = {}
-minimum_date = (now - datetime.timedelta(days=14)).date().isoformat()
+minimum_date = (
+    now - datetime.timedelta(days=14)
+).date().isoformat()
 
 for item in feed.get("items", []):
     url = item.get("url")
@@ -302,12 +359,16 @@ for item in feed.get("items", []):
 
 for category in by_category:
     by_category[category].sort(
-        key=lambda item: (score(item), str(item.get("published") or "")),
+        key=lambda item: (
+            score(item), str(item.get("published") or "")
+        ),
         reverse=True
     )
 
 candidates = []
-graphic_remaining = max(0, MAX_GRAPHIC_DAILY - graphic_today)
+graphic_remaining = max(
+    0, MAX_GRAPHIC_DAILY - graphic_today
+)
 
 for category in CATEGORY_ORDER + sorted(
     set(by_category) - set(CATEGORY_ORDER)
@@ -315,8 +376,10 @@ for category in CATEGORY_ORDER + sorted(
     limit = MAX_PER_CATEGORY
     if category in GRAPHIC_CODES:
         limit = min(limit, graphic_remaining)
+
     chosen = by_category.get(category, [])[:limit]
     candidates.extend(chosen)
+
     if category in GRAPHIC_CODES:
         graphic_remaining -= len(chosen)
 
@@ -324,65 +387,147 @@ candidates = candidates[:MAX_API_CALLS]
 
 print("Editorial rejection reasons:", dict(reasons))
 print("Eligible by category:", {
-    code: len(items) for code, items in by_category.items()
+    code: len(items)
+    for code, items in by_category.items()
 })
 print("Editorial priority:", ", ".join(CATEGORY_ORDER[:5]))
 print("Editorial shortlist by category:", dict(Counter(
-    str(x.get("category") or "")[:2] for x in candidates
+    str(item.get("category") or "")[:2]
+    for item in candidates
 )))
-print("RADAR candidates:", len(candidates), "existing analyses:", len(saved))
+print(
+    "RADAR candidates:", len(candidates),
+    "existing analyses:", len(saved)
+)
 
 PROMPT = """
 Tu es directeur artistique senior, critique visuel et pédagogue.
 Analyse exclusivement l'article source fourni, en français.
-Réponds uniquement en JSON valide :
-{"publish":boolean,"intro":string,"points":[[titre,texte],...],
-"takeaway":string,"title_fr":string}
+
+Réponds UNIQUEMENT en JSON valide, sans Markdown :
+{
+ "publish": true,
+ "intro": "texte",
+ "points": [["titre", "texte"], ["titre", "texte"]],
+ "takeaway": "texte",
+ "title_fr": "titre français"
+}
 
 SELECTION :
 Le sujet doit être une réalisation créative concrète :
 scénographie, spectacle, concert, show TV, clip, danse,
 installation, publicité, expérience spatiale ou de marque.
 Un projet graphique exceptionnel peut être accepté.
+
 Refuse les simples annonces, classements, portraits,
 actualités syndicales et articles sans création analysable.
 
 Publie seulement si la source décrit au moins TROIS décisions
 artistiques observables ou explicitement documentées.
-Sinon publish=false.
+Sinon renvoie publish=false.
 
-INTRO : 130 à 230 mots. Présente le projet, ses auteurs,
+INTRO :
+130 à 230 mots. Présente le projet, ses auteurs,
 son contexte et son enjeu artistique. Ne répète pas le titre.
 
-POINTS : 4 à 6 analyses approfondies, environ 100 à 160 mots
-chacune si la source le permet. Chaque point doit explorer :
+POINTS :
+4 à 6 analyses approfondies, environ 100 à 160 mots chacune
+si la source le permet.
+
+Chaque point doit explorer :
 1. Un choix créatif concret attesté par la source.
 2. Sa logique de conception.
 3. Son effet visuel, narratif, sensoriel ou émotionnel plausible.
-4. Une tension, contrainte ou alternative, si pertinente.
+4. Une tension, contrainte ou alternative si pertinente.
 
 Privilégie la relation intention → forme → effet produit.
 Selon le projet, étudie espace, lumière, matière, couleur,
 cadrage, mouvement, son, montage, rythme ou dramaturgie.
 N'impose pas une grille identique à tous les projets.
 
-TAKEAWAY : 80 à 130 mots. Formule un enseignement pratique
+TAKEAWAY :
+80 à 130 mots. Formule un enseignement pratique
 et transférable en direction artistique, avec ses limites.
 
 RIGUEUR :
 Ne fabrique aucun fait, intention d'auteur, chiffre ou
-réaction du public. Distingue les faits des interprétations.
+réaction du public. Distingue faits et interprétations.
 N'invente aucune citation d'expert.
 Si la source est insuffisante, refuse plutôt que de remplir.
 Evite les répétitions entre introduction, points et conclusion.
 Ecris avec précision, naturel et lisibilité.
 Au plus deux expressions en gras par point.
+
+TECHNIQUE :
+Le JSON doit être syntaxiquement valide.
+Echappe correctement les guillemets et caractères spéciaux.
+Ne termine jamais une chaîne ou un tableau prématurément.
 """
+
+def call_gemini(model, item, source, retry=False):
+    instructions = PROMPT
+    if retry:
+        instructions += (
+            "\nIMPORTANT : la réponse précédente était "
+            "un JSON invalide. Génère une réponse complète "
+            "et syntaxiquement valide. Réduis légèrement "
+            "la longueur si nécessaire, sans inventer de faits."
+        )
+
+    payload = {
+        "system_instruction": {
+            "parts": [{"text": instructions}]
+        },
+        "contents": [{
+            "role": "user",
+            "parts": [{
+                "text": json.dumps({
+                    "title": item["title"],
+                    "url": item["url"],
+                    "source_text": source
+                }, ensure_ascii=False)
+            }]
+        }],
+        "generationConfig": {
+            "temperature": 0.15,
+            "responseMimeType": "application/json",
+            "maxOutputTokens": 8192
+        }
+    }
+
+    endpoint = (
+        "https://generativelanguage.googleapis.com/"
+        "v1beta/models/"
+        + urllib.parse.quote(model, safe="")
+        + ":generateContent"
+    )
+
+    request = urllib.request.Request(
+        endpoint,
+        data=json.dumps(payload).encode("utf-8"),
+        headers={
+            "x-goog-api-key": key,
+            "Content-Type": "application/json"
+        },
+        method="POST"
+    )
+
+    with urllib.request.urlopen(request, timeout=90) as response:
+        answer = json.load(response)
+
+    raw = "".join(
+        part.get("text", "")
+        for part in answer["candidates"][0]["content"]["parts"]
+    )
+
+    return json.loads(raw)
 
 attempted = 0
 accepted = 0
 source_fail = 0
 api_fail = 0
+json_fail = 0
+rejected = 0
 model = None
 
 if candidates:
@@ -396,157 +541,153 @@ for item in candidates:
     category = str(item.get("category") or "")[:2]
     url = item["url"]
 
-    if category in GRAPHIC_CODES and graphic_today >= MAX_GRAPHIC_DAILY:
+    if (
+        category in GRAPHIC_CODES
+        and graphic_today >= MAX_GRAPHIC_DAILY
+    ):
         continue
 
     source = article_text(url)
     if len(source) < 850:
         source_fail += 1
-        reviewed[url] = {
-            "status": "source_unavailable",
-            "at": now.isoformat()
-        }
+        mark_reviewed(url, "source_unavailable")
         print("Skip: insufficient source:", item["title"])
         continue
 
     attempted += 1
+    analysis = None
 
-    payload = {
-        "system_instruction": {
-            "parts": [{"text": PROMPT}]
-        },
-        "contents": [{
-            "role": "user",
-            "parts": [{
-                "text": json.dumps({
-                    "title": item["title"],
-                    "url": url,
-                    "source_text": source
-                }, ensure_ascii=False)
-            }]
-        }],
-        "generationConfig": {
-            "temperature": 0.2,
-            "responseMimeType": "application/json"
-        }
-    }
-
-    try:
-        endpoint = (
-            "https://generativelanguage.googleapis.com/v1beta/models/"
-            + urllib.parse.quote(model, safe="")
-            + ":generateContent"
-        )
-        req = urllib.request.Request(
-            endpoint,
-            data=json.dumps(payload).encode("utf-8"),
-            headers={
-                "x-goog-api-key": key,
-                "Content-Type": "application/json"
-            },
-            method="POST"
-        )
-
-        with urllib.request.urlopen(req, timeout=65) as response:
-            answer = json.load(response)
-
-        raw = "".join(
-            p.get("text", "")
-            for p in answer["candidates"][0]["content"]["parts"]
-        )
-        analysis = json.loads(raw)
-        points = analysis.get("points", [])
-
-        valid = (
-            analysis.get("publish") is True
-            and isinstance(points, list)
-            and 4 <= len(points) <= 6
-            and all(
-                isinstance(p, list)
-                and len(p) == 2
-                and isinstance(p[1], str)
-                and len(p[1]) >= 300
-                for p in points
+    for attempt in range(2):
+        try:
+            analysis = call_gemini(
+                model, item, source, retry=(attempt == 1)
             )
-            and len(analysis.get("intro", "")) >= 400
-            and len(analysis.get("takeaway", "")) >= 250
-        )
-
-        if not valid:
-            reviewed[url] = {
-                "status": "editorial_rejected",
-                "at": datetime.datetime.now(
-                    datetime.timezone.utc
-                ).isoformat()
-            }
-            print("Editorial rejected:", item["title"])
-            continue
-
-        if not item.get("image"):
-            item["image"] = source_image(url)
-
-        if not item.get("image"):
-            reviewed[url] = {
-                "status": "no_image",
-                "at": datetime.datetime.now(
-                    datetime.timezone.utc
-                ).isoformat()
-            }
-            print("Editorial withheld: missing image:", item["title"])
-            continue
-
-        timestamp = datetime.datetime.now(
-            datetime.timezone.utc
-        ).isoformat()
-
-        saved[url] = {
-            "intro": analysis["intro"],
-            "points": points,
-            "takeaway": analysis["takeaway"],
-            "title_fr": analysis.get("title_fr", ""),
-            "reviewed_at": timestamp,
-            "source_url": url
-        }
-
-        if len(analysis.get("title_fr", "")) >= 12:
-            item["title_fr"] = analysis["title_fr"]
-
-        accepted += 1
-        if category in GRAPHIC_CODES:
-            graphic_today += 1
-
-        print("Editorial accepted:", item["title"])
-
-    except urllib.error.HTTPError as exc:
-        api_fail += 1
-        details = exc.read(1500).decode("utf-8", "replace")
-        print("Gemini HTTP error:", exc.code, details[:650])
-        if exc.code in (400, 401, 403, 404, 429):
             break
 
-    except Exception as exc:
-        api_fail += 1
-        print("Analysis failed:", url, str(exc)[:250])
+        except json.JSONDecodeError as exc:
+            print(
+                "Gemini JSON invalid:",
+                item["title"],
+                "attempt:", attempt + 1,
+                "error:", str(exc)[:180]
+            )
+            if attempt == 1:
+                json_fail += 1
+                mark_reviewed(url, "json_invalid")
 
-review_path.write_text(
-    json.dumps(reviewed, ensure_ascii=False, indent=2) + "\n",
-    encoding="utf-8"
-)
-out_path.write_text(
-    json.dumps(saved, ensure_ascii=False, indent=2) + "\n",
-    encoding="utf-8"
-)
-feed_path.write_text(
-    json.dumps(feed, ensure_ascii=False, indent=2) + "\n",
-    encoding="utf-8"
-)
+        except urllib.error.HTTPError as exc:
+            details = exc.read(1200).decode(
+                "utf-8", "replace"
+            )
+            print(
+                "Gemini HTTP error:",
+                exc.code, details[:500]
+            )
+            if exc.code in (429, 500, 502, 503):
+                if attempt == 0:
+                    time.sleep(3)
+                    continue
+            api_fail += 1
+            break
+
+        except Exception as exc:
+            print(
+                "Gemini analysis error:",
+                item["title"], str(exc)[:250]
+            )
+            api_fail += 1
+            break
+
+    if analysis is None:
+        continue
+
+    if not isinstance(analysis, dict):
+        rejected += 1
+        mark_reviewed(url, "editorial_rejected")
+        continue
+
+    points = analysis.get("points", [])
+    intro = analysis.get("intro", "")
+    takeaway = analysis.get("takeaway", "")
+
+    valid = (
+        analysis.get("publish") is True
+        and isinstance(points, list)
+        and 4 <= len(points) <= 6
+        and all(
+            isinstance(point, list)
+            and len(point) == 2
+            and isinstance(point[0], str)
+            and isinstance(point[1], str)
+            and len(point[1]) >= 300
+            for point in points
+        )
+        and isinstance(intro, str)
+        and len(intro) >= 400
+        and isinstance(takeaway, str)
+        and len(takeaway) >= 250
+    )
+
+    if not valid:
+        rejected += 1
+        mark_reviewed(url, "editorial_rejected")
+        print("Editorial rejected:", item["title"])
+        continue
+
+    if not item.get("image"):
+        item["image"] = source_image(url)
+
+    if not item.get("image"):
+        mark_reviewed(url, "no_image")
+        print(
+            "Editorial withheld: missing image:",
+            item["title"]
+        )
+        continue
+
+    timestamp = datetime.datetime.now(
+        datetime.timezone.utc
+    ).isoformat()
+
+    saved[url] = {
+        "intro": intro,
+        "points": points,
+        "takeaway": takeaway,
+        "title_fr": analysis.get("title_fr", ""),
+        "reviewed_at": timestamp,
+        "source_url": url
+    }
+
+    title_fr = analysis.get("title_fr", "")
+    if isinstance(title_fr, str) and len(title_fr) >= 12:
+        item["title_fr"] = title_fr
+
+    accepted += 1
+
+    if category in GRAPHIC_CODES:
+        graphic_today += 1
+
+    print("Editorial accepted:", item["title"])
+
+    # Conserver les analyses acceptées même si un
+    # article suivant rencontre une erreur.
+    save(OUTPUT, saved)
+
+save(REVIEWED, reviewed)
+save(OUTPUT, saved)
+save(FEED, feed)
 
 print("Total AI editorials:", len(saved))
 print(
     "RADAR summary: attempted=%d accepted=%d "
-    "source_unavailable=%d api_errors=%d"
-    % (attempted, accepted, source_fail, api_fail)
+    "source_unavailable=%d api_errors=%d "
+    "json_errors=%d editorial_rejected=%d"
+    % (
+        attempted, accepted, source_fail,
+        api_fail, json_fail, rejected
+    )
 )
 
-if api_fail:
-    sys.exit(3)
+# Une erreur sur un article isolé n'interrompt
+# plus l'ensemble du workflow.
+# Les erreurs restent visibles dans les journaux.
