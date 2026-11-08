@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-07T22:12:19.153510+00:00",
+  "updated_at": "2026-11-08T11:47:48.018905+00:00",
   "status": "collected_unreviewed",
   "working_feeds": [
     {
@@ -38,8 +38,8 @@
       "category": "01 Spectacle Concert"
     },
     {
-      "name": "Tsugi",
-      "feed": "https://www.tsugi.fr/feed",
+      "name": "Konbini Musique",
+      "feed": "https://www.konbini.com/feed",
       "category": "14 Musique Clips"
     },
     {
@@ -48,14 +48,14 @@
       "category": "01 Spectacle Concert"
     },
     {
-      "name": "Konbini Musique",
-      "feed": "https://www.konbini.com/feed",
+      "name": "Tsugi",
+      "feed": "https://www.tsugi.fr/feed",
       "category": "14 Musique Clips"
     },
     {
-      "name": "Dragone",
-      "feed": "https://www.dragone.com/feed",
-      "category": "01 Spectacle Concert"
+      "name": "Ross Video",
+      "feed": "https://www.rossvideo.com/feed",
+      "category": "02 TV Broadcast"
     },
     {
       "name": "AV Magazine",
@@ -68,14 +68,9 @@
       "category": "02 TV Broadcast"
     },
     {
-      "name": "Ross Video",
-      "feed": "https://www.rossvideo.com/feed",
-      "category": "02 TV Broadcast"
-    },
-    {
-      "name": "Brand New",
-      "feed": "https://www.underconsideration.com/feed",
-      "category": "03 DA Graphisme"
+      "name": "Dragone",
+      "feed": "https://www.dragone.com/feed",
+      "category": "01 Spectacle Concert"
     },
     {
       "name": "ArchDaily",
@@ -88,28 +83,18 @@
       "category": "13 France Marketing Design"
     },
     {
+      "name": "Brand New",
+      "feed": "https://www.underconsideration.com/feed",
+      "category": "03 DA Graphisme"
+    },
+    {
       "name": "Sight Unseen",
       "feed": "https://www.sightunseen.com/feed",
       "category": "05 Art Architecture"
     },
     {
-      "name": "VMSD",
-      "feed": "https://vmsd.com/feed",
-      "category": "06 Retail Brand Experience"
-    },
-    {
-      "name": "Design Observer",
-      "feed": "https://designobserver.com/feed",
-      "category": "11 Graphisme Expertise"
-    },
-    {
-      "name": "Dieline",
-      "feed": "https://thedieline.com/feed",
-      "category": "03 DA Graphisme"
-    },
-    {
-      "name": "Jack Morton",
-      "feed": "https://jackmorton.com/feed",
+      "name": "Imagination",
+      "feed": "https://imagination.com/feed",
       "category": "06 Retail Brand Experience"
     },
     {
@@ -118,29 +103,14 @@
       "category": "03 DA Graphisme"
     },
     {
-      "name": "Imagination",
-      "feed": "https://imagination.com/feed",
-      "category": "06 Retail Brand Experience"
-    },
-    {
-      "name": "Creapills",
-      "feed": "https://creapills.com/feed",
-      "category": "13 France Marketing Design"
-    },
-    {
       "name": "Typewolf",
       "feed": "https://www.typewolf.com/feed",
       "category": "03 DA Graphisme"
     },
     {
-      "name": "Colossal",
-      "feed": "https://www.thisiscolossal.com/feed",
-      "category": "05 Art Architecture"
-    },
-    {
-      "name": "Type Directors Club",
-      "feed": "https://tdc.org/feed",
-      "category": "11 Graphisme Expertise"
+      "name": "Jack Morton",
+      "feed": "https://jackmorton.com/feed",
+      "category": "06 Retail Brand Experience"
     },
     {
       "name": "Creative Boom",
@@ -148,9 +118,19 @@
       "category": "03 DA Graphisme"
     },
     {
-      "name": "George P. Johnson",
-      "feed": "https://www.gpj.com/feed",
-      "category": "06 Retail Brand Experience"
+      "name": "Creapills",
+      "feed": "https://creapills.com/feed",
+      "category": "13 France Marketing Design"
+    },
+    {
+      "name": "Design Observer",
+      "feed": "https://designobserver.com/feed",
+      "category": "11 Graphisme Expertise"
+    },
+    {
+      "name": "Type Directors Club",
+      "feed": "https://tdc.org/feed",
+      "category": "11 Graphisme Expertise"
     },
     {
       "name": "Étapes",
@@ -158,13 +138,13 @@
       "category": "13 France Marketing Design"
     },
     {
-      "name": "Typographica",
-      "feed": "https://typographica.org/feed",
-      "category": "11 Graphisme Expertise"
+      "name": "George P. Johnson",
+      "feed": "https://www.gpj.com/feed",
+      "category": "06 Retail Brand Experience"
     },
     {
-      "name": "Awwwards",
-      "feed": "https://www.awwwards.com/feed",
+      "name": "Dieline",
+      "feed": "https://thedieline.com/feed",
       "category": "03 DA Graphisme"
     },
     {
@@ -173,19 +153,39 @@
       "category": "05 Art Architecture"
     },
     {
+      "name": "Typographica",
+      "feed": "https://typographica.org/feed",
+      "category": "11 Graphisme Expertise"
+    },
+    {
+      "name": "VMSD",
+      "feed": "https://vmsd.com/feed",
+      "category": "06 Retail Brand Experience"
+    },
+    {
+      "name": "Colossal",
+      "feed": "https://www.thisiscolossal.com/feed",
+      "category": "05 Art Architecture"
+    },
+    {
       "name": "Dance Magazine",
       "feed": "https://www.dancemagazine.com/feed",
       "category": "15 Danse Performance"
     },
     {
-      "name": "Light ZOOM Lumière",
-      "feed": "https://www.lightzoomlumiere.fr/feed",
-      "category": "09 France Pro"
+      "name": "Stash",
+      "feed": "https://www.stashmedia.tv/feed",
+      "category": "08 Immersif CGI Motion"
     },
     {
       "name": "Art of the Title",
       "feed": "https://www.artofthetitle.com/feed",
       "category": "08 Immersif CGI Motion"
+    },
+    {
+      "name": "Light ZOOM Lumière",
+      "feed": "https://www.lightzoomlumiere.fr/feed",
+      "category": "09 France Pro"
     },
     {
       "name": "Superbien",
@@ -198,14 +198,19 @@
       "category": "10 Strategie Insights"
     },
     {
-      "name": "Stash",
-      "feed": "https://www.stashmedia.tv/feed",
-      "category": "08 Immersif CGI Motion"
-    },
-    {
       "name": "Campaign Middle East",
       "feed": "https://campaignme.com/feed",
       "category": "04 Pub Strategie"
+    },
+    {
+      "name": "Grand Visual",
+      "feed": "https://grandvisual.com/feed",
+      "category": "07 FOOH OOH DOOH"
+    },
+    {
+      "name": "FRATERCINÉ",
+      "feed": "https://www.fratercine.fr/feed",
+      "category": "09 France Pro"
     },
     {
       "name": "IDlia Studio",
@@ -213,23 +218,72 @@
       "category": "09 France Pro"
     },
     {
-      "name": "FRATERCINÉ",
-      "feed": "https://www.fratercine.fr/feed",
-      "category": "09 France Pro"
+      "name": "Stereogum",
+      "feed": "https://www.stereogum.com/feed/",
+      "category": "14 Musique Clips"
+    },
+    {
+      "name": "Pitchfork",
+      "feed": "https://pitchfork.com/rss/news/",
+      "category": "14 Musique Clips"
     }
   ],
   "collection_slot": 0,
-  "collection_hour_paris": 23,
+  "collection_hour_paris": 12,
   "sources_selected": 182,
-  "sources_checked": 162,
+  "sources_checked": 182,
   "special_test": false,
   "special_selection": {},
   "backfill_test": {
     "period": "2026-11-01/2026-11-07",
-    "articles": 372,
-    "with_images": 226
+    "articles": 369,
+    "with_images": 220
   },
   "items": [
+    {
+      "title": "sweeping concrete cutouts shape ZAO’s sculptural art center in rizhao",
+      "url": "https://www.designboom.com/architecture/sweeping-concrete-zao-art-center-rizhao-china/",
+      "published": "2026-11-08T04:10:00+00:00",
+      "summary": "eye-shaped openings carve through the concrete structure to create an open-air cultural space beside a wooded hillside and lake. The post sweeping concrete cutouts shape ZAO’s sculptural art center in rizhao appeared first on designboom | architecture & design magazine .",
+      "image": "https://www.designboom.com/wp-content/uploads/2026/11/ZAO-rizhao-community-art-center-china-designboom-700-500x400-22b08q85r847.jpg",
+      "source": "Designboom",
+      "category": "05 Art Architecture",
+      "angle": "Explorer formes expérimentales",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "A metal-heavy newsletter, from a mirror by a female welder to a Graves-inspired butter dish",
+      "url": "https://www.sightunseen.com/2026/11/a-metal-heavy-newsletter-from-a-mirror-by-a-female-welder-to-a-graves-inspired-butter-dish/",
+      "published": "2026-11-08T03:03:12+00:00",
+      "summary": "Plus: Interiors from a bakery, a showhouse, and a tech office.",
+      "image": "https://www.sightunseen.com/wordpress/wp-content/uploads/2026/11/Enso_Cosmos_2-728x570.jpg",
+      "source": "Sight Unseen",
+      "category": "05 Art Architecture",
+      "angle": "Découvrir matériaux et créateurs",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "scaffolding and safety mesh frame observation platforms at lugano demolition sites",
+      "url": "https://www.designboom.com/art/scaffolding-safety-mesh-observation-platforms-lugano-demolition-sites-sit-for-a-while-sknypl/",
+      "published": "2026-11-07T21:35:27+00:00",
+      "summary": "created for the 6th biennale svizzera del territorio in lugano, sit for a while explores the contradiction between a well-preserved urban environment and the ongoing demolition of its buildings. The post scaffolding and safety mesh frame observation platforms at lugano demolition sites appeared first on designboom | architecture & design magazine .",
+      "image": "https://www.designboom.com/wp-content/uploads/2026/11/scaffolding-safety-mesh-observation-platforms-lugano-demolition-sites-sit-for-a-while-sknypl-designboom-700-500x400-22b08q85r384.jpg",
+      "source": "Designboom",
+      "category": "05 Art Architecture",
+      "angle": "Explorer formes expérimentales",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "U House / NAQI & Partners",
+      "url": "https://www.archdaily.com/1187503/u-house-naqi-and-partners",
+      "published": "2026-11-07T21:00:00+00:00",
+      "summary": "In many rural areas of northern Vietnam, large plots once occupied by extended families and lineages are gradually being subdivided among younger generations to build separate homes. As the lifestyles of younger generations evolve alongside urbanization, patterns of settlement are changing: plots are becoming smaller, multi-storey houses are replacing low-rise garden houses, while family life is becoming increasingly independent.",
+      "image": "",
+      "source": "ArchDaily",
+      "category": "05 Art Architecture",
+      "angle": "Lire parcours et plans",
+      "status": "source_detected_not_editorially_analyzed"
+    },
     {
       "title": "Sweden Returns Benin Bronzes to Nigeria",
       "url": "https://www.artforum.com/news/sweden-returns-benin-bronzes-nigeria-1234763242/",
@@ -268,6 +322,28 @@
       "status": "source_detected_not_editorially_analyzed",
       "title_fr": "Richard Lloyd, guitariste de télévision, décède à 75 ans",
       "summary_fr": "Lloyd a cofondé le groupe de rock pionnier aux côtés de Tom Verlaine, Billy Ficca et Richard Hell."
+    },
+    {
+      "title": "House with Forest Windows / Yosuke Tomiya Architectural Design",
+      "url": "https://www.archdaily.com/1186270/house-with-forest-windows-yosuke-tomiya-architectural-design",
+      "published": "2026-11-07T17:00:00+00:00",
+      "summary": "House with Forest Windows is a compact timber residence in Sapporo , Hokkaido, located where an ordinary suburban neighborhood meets a dense woodland. The site offered an unusual condition: while neighboring houses stand close on the street side, the rear of the property opens directly toward the forest. The design began by asking how everyday family life could engage with this landscape while maintaining privacy from the surrounding residential environment.",
+      "image": "",
+      "source": "ArchDaily",
+      "category": "05 Art Architecture",
+      "angle": "Lire parcours et plans",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "Apartment Renovation in the Ensanche of Bilbao / BABELstudio",
+      "url": "https://www.archdaily.com/1188205/apartment-renovation-in-the-ensanche-of-bilbao-babelstudio",
+      "published": "2026-11-07T16:00:00+00:00",
+      "summary": "The apartment, the subject of this project, is located in Bilbao's Ensanche district and features a layout characteristic of 1970s housing: highly compartmentalized, with small rooms. With a built area of 80 m², the original floor plan included several bedrooms, a kitchen, a breakfast area, a living room, two bathrooms, and a long terrace along the main façade.",
+      "image": "",
+      "source": "ArchDaily",
+      "category": "05 Art Architecture",
+      "angle": "Lire parcours et plans",
+      "status": "source_detected_not_editorially_analyzed"
     },
     {
       "title": "Rosalía Reflects On One Year Of Lux With 1,000-Track Playlist",
@@ -5982,6 +6058,17 @@
       "status": "source_detected_not_editorially_analyzed"
     },
     {
+      "title": "Marketing in Motion: Lessons From Future of Brands on Attention, Culture & Connection",
+      "url": "https://grandvisual.com/marketing-in-motion-lessons-from-future-of-brands-on-attention-culture-connection/",
+      "published": "2026-05-07T09:51:14+00:00",
+      "summary": "I came away from the Adwanted Events Future of Brands event last week feeling inspired. The panels were smart, honest and thought-provoking, and a great reminder of what really makes ads land. A few key takeaways that stuck with me: And one point that really stayed with me, you can’t AI human emotion. Brands aren’t speaking to algorithms, they’re […] The post Marketing in Motion: Lessons From Future of Brands on Attention, Culture & Connection appeared first on Grand Visual .",
+      "image": "",
+      "source": "Grand Visual",
+      "category": "07 FOOH OOH DOOH",
+      "angle": "Étudier contexte et réactivité",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
       "title": "Giày chạy bộ thể thao siêu nhẹ nữ Humtto-X Easy Run 370374B",
       "url": "https://humtto.vn/giay-chay-bo-the-thao-sieu-nhe-nu-humtto-x-easy-run-370374b/",
       "published": "2026-05-04T09:32:45+00:00",
@@ -6096,7 +6183,7 @@
       "url": "https://dragone.com/dragone-new-collaboration-sun-group-vietnam/",
       "published": "2026-04-22T08:57:44+00:00",
       "summary": "Dragone begins a new chapter in Vietnam through a long-term partnership with Sun Group. A pioneer in tourism, real estate development, and entertainment, Sun Group plays an active role in transforming the region. This collaboration marks the first step in bringing Dragone’s vision of large-scale live entertainment to the region. In Phu Quoc, a […]",
-      "image": "",
+      "image": "https://dragone.com/wp-content/uploads/2026/04/sungroup-1.jpg",
       "source": "Dragone",
       "category": "01 Spectacle Concert",
       "angle": "Analyser l'intégration scène/architecture",
@@ -6129,7 +6216,7 @@
       "url": "https://www.superbien.studio/journal/our-ecovadis-assessment",
       "published": "2026-04-10T16:50:00+00:00",
       "summary": "In the creative industry, commitment is often talked about, and often rightly so. On a day-to-day basis, however, these efforts can remain vague, informal, or scattered. Superbien has chosen to move from statements to a concrete assessment of its performance… The post Our Second EcoVadis Assessment appeared first on Superbien .",
-      "image": "",
+      "image": "https://www.superbien.studio/wp-content/uploads/2025/09/superbien-sas-group-ev-recognition.png",
       "source": "Superbien",
       "category": "08 Immersif CGI Motion",
       "angle": "Étudier spatialisation des images",
@@ -6169,11 +6256,22 @@
       "status": "source_detected_not_editorially_analyzed"
     },
     {
+      "title": "OUR BEST OUT-OF-HOME CAMPAIGNS FROM THE US",
+      "url": "https://grandvisual.com/our-best-out-of-home-campaigns-from-the-us/",
+      "published": "2026-02-26T13:58:26+00:00",
+      "summary": "How it’s going over our the US office Hey everyone, Mariel here! Life at our Grand Visual New York office has been buzzing this year, and the out-of-home scene has never been more exciting. 2025 delivered some incredible campaigns, and our team has been at the center of it all, bringing bold ideas to life […] The post OUR BEST OUT-OF-HOME CAMPAIGNS FROM THE US appeared first on Grand Visual .",
+      "image": "",
+      "source": "Grand Visual",
+      "category": "07 FOOH OOH DOOH",
+      "angle": "Étudier contexte et réactivité",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
       "title": "COLLECTION 1 — Mouvements, tendances & écoles graphiques",
       "url": "https://grapheine.com/magazine/collection-1-mouvements-tendances-ecoles-graphiques/",
       "published": "2026-02-26T10:56:58+00:00",
       "summary": "Du tourbillon ornemental de la fin du XIXe siècle aux logos flat d'aujourd'hui, les styles graphiques racontent un siècle de révolutions esthétiques. Plongeons dans un voyage chronologique à travers de grands mouvements qui ont façonné le design contemporain, de la rigueur moderniste au chaos psychédélique de la contre-culture.",
-      "image": "",
+      "image": "https://grapheine.com/wp-content/uploads/2026/01/collection-01.webp",
       "source": "Graphéine",
       "category": "13 France Marketing Design",
       "angle": "Étudier les démarches de création",
@@ -6188,6 +6286,50 @@
       "source": "STUFISH",
       "category": "01 Spectacle Concert",
       "angle": "Étudier volumes, circulation et dramaturgie spatiale",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "Our 2025 Grand Visual OOH Christmas Campaigns",
+      "url": "https://grandvisual.com/christmas-ooh-campaigns-by-grand-visual/",
+      "published": "2026-02-18T14:36:54+00:00",
+      "summary": "We wrapped up the end of 2025 with some of our favourite Christmas ads! Each year, viewers are eager to see which brands will deliver the most memorable stories, making the holiday season a highly anticipated time for creative advertising. Not only did we push the limits of what to expect from OOH advertising, but […] The post Our 2025 Grand Visual OOH Christmas Campaigns appeared first on Grand Visual .",
+      "image": "",
+      "source": "Grand Visual",
+      "category": "07 FOOH OOH DOOH",
+      "angle": "Étudier contexte et réactivité",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "How did we DOOH it? Kleenex",
+      "url": "https://grandvisual.com/kleenex-how-did-we-dooh-it/",
+      "published": "2026-02-18T14:17:45+00:00",
+      "summary": "From Tissue to TikTok: Kleenex’s Bold Leap Into Live Art On the May bank holiday weekend, Grand Visual helped bring a burst of bold, creative energy to the heart of London, and beyond, with a campaign that turned social engagement into real-time, street-level magic. In collaboration with Kleenex and legendary artist Mr Doodle (aka Sam […] The post How did we DOOH it? Kleenex appeared first on Grand Visual .",
+      "image": "",
+      "source": "Grand Visual",
+      "category": "07 FOOH OOH DOOH",
+      "angle": "Étudier contexte et réactivité",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "How did we DOOH it? Pepsi Sweet Room",
+      "url": "https://grandvisual.com/pepsi-sweetroom-how-did-we-dooh-it/",
+      "published": "2026-02-18T14:07:10+00:00",
+      "summary": "TREAT YOURSELF: Pepsi’s Bringing the Sweetness (Minus the Sugar) You know that mid-afternoon moment when your brain hits snooze, your list of tasks becomes less ‘get it done’ and more ‘good luck with that’, and your motivation? Gone. Poof. Yeah, we’ve all been there. Enter: Pepsi’s newest excuse to treat yourself – and trust us, […] The post How did we DOOH it? Pepsi Sweet Room appeared first on Grand Visual .",
+      "image": "",
+      "source": "Grand Visual",
+      "category": "07 FOOH OOH DOOH",
+      "angle": "Étudier contexte et réactivité",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "How did we DOOH it? Cupra",
+      "url": "https://grandvisual.com/cupra-tavascan-how-did-we-dooh-it/",
+      "published": "2026-02-18T12:25:57+00:00",
+      "summary": "CUPRA TOOK OVER BATTERSEA: A HIGH-VOLTAGE STUNT For one week, shoppers at Battersea Power Station were met with an unexpected sight, a CUPRA Tavascan, suspended high above their heads. No showroom, no static display, just a striking all-electric car hanging in mid-air, stopping people in their tracks. This wasn’t just about making an impression; it […] The post How did we DOOH it? Cupra appeared first on Grand Visual .",
+      "image": "",
+      "source": "Grand Visual",
+      "category": "07 FOOH OOH DOOH",
+      "angle": "Étudier contexte et réactivité",
       "status": "source_detected_not_editorially_analyzed"
     },
     {
@@ -6239,7 +6381,7 @@
       "url": "https://www.idlia.fr/biotope-immobilier-aspen-immobilier-chalets-3d-2025/",
       "published": "2026-01-27T15:44:30+00:00",
       "summary": "Voici les perspectives et tours à 360° réalisés sur les chalets de Biotope Immobilier et Aspen Immobilier en 2025.",
-      "image": "",
+      "image": "https://www.idlia.fr/studio/wp-content/uploads/2025/07/Perspective_3d_neige-hiver_commerciale_Chalet_RocOrchid_les-gets_promoteur-biotope-aspen_architecte-DARAGON-DHORDAIN-ARCHITECTE-_perspectivistes_graphistes-3d_idlia-studio-960x636.jpg",
       "source": "IDlia Studio",
       "category": "09 France Pro",
       "angle": "Analyser mise en scène",
@@ -6250,7 +6392,7 @@
       "url": "https://www.idlia.fr/biotope-immobilier-aspen-immobilier-chalets-3d-2024/",
       "published": "2026-01-27T15:42:28+00:00",
       "summary": "Voici les perspectives 3D, plans interactifs et tours à 360° réalisés sur les chalets de Biotope Immobilier et Aspen Immobilier en 2024.",
-      "image": "",
+      "image": "https://www.idlia.fr/studio/wp-content/uploads/2025/07/perspective_3d_neige-hiver_commerciale_ChaletsNoirs_les-gets_promoteur-biotope-aspen_architecte-Equinox-Architecture_perspectivistes_graphistes-3d_idlia-studio2-960x636.jpg",
       "source": "IDlia Studio",
       "category": "09 France Pro",
       "angle": "Analyser mise en scène",
@@ -6272,7 +6414,7 @@
       "url": "https://dragone.com/terhal-sold-out-season-saudi-arabia/",
       "published": "2026-01-22T08:43:50+00:00",
       "summary": "In 2025, Terhal achieved remarkable success in Saudi Arabia. The show was sold out throughout its entire run, attracting audiences eager to discover a large-scale production. This strong reception reflects the artistic impact of the project and the meaningful connection established with audiences. Terhal further confirms its place as a major creation, blending storytelling, performance, […]",
-      "image": "",
+      "image": "https://dragone.com/wp-content/uploads/2026/04/Terhal-soldout.jpeg",
       "source": "Dragone",
       "category": "01 Spectacle Concert",
       "angle": "Analyser l'intégration scène/architecture",
@@ -6287,138 +6429,6 @@
       "source": "Vizrt",
       "category": "02 TV Broadcast",
       "angle": "Explorer la scénographie augmentée",
-      "status": "source_detected_not_editorially_analyzed"
-    },
-    {
-      "title": "How to get the best from your atmospheric effects",
-      "url": "https://www.livedesignonline.com/premium/whitepaper/1410674",
-      "published": "2025-12-29T15:37:49+00:00",
-      "summary": "How to get the best from your atmospheric effects jgrcic Mon, 12/29/2025 - 10:37 Mon, 12/29/2025 - 10:37 Resource Type Whitepaper Look Solutions USA is the sole distributor of Look Solutions products in North America and Canada and was started by Nathan Kahn over 20 years ago. Throughout that time he has helped countless engineers get the most out of their fog and haze effects and this paper is filled with his industry knowledge. Whatever your brand of fog and haze machine, Nathan’s advice will help you to get the best effect for any application. Sponsored by: Logos Attribution 1 Primary Category B2B Experience On Demand Off Enable Automatic On Demand Off Listing Image looksolutionslogo.png Listing Introduction Look Solutions USA is the sole distributor of Look Solutions products in North America and Canada and was started by Nathan Kahn over 20 years ago. On Demand Start Date Mon, 06/29",
-      "image": "https://qtxasset.com/quartz/qcloud4/styles/thumbnail_200xauto_2x/s3/media/image/looksolutionslogo.png?VersionId=f4TlN9wC7PqVVORnRN.M_7ehfKL3e_gq&itok=UBWGND_Z",
-      "source": "Live Design",
-      "category": "01 Spectacle Concert",
-      "angle": "Lire les coulisses des projets",
-      "status": "source_detected_not_editorially_analyzed"
-    },
-    {
-      "title": "Precision and Power! Experience the Tiny FX at Booth #400",
-      "url": "https://www.livedesignonline.com/resource/precision-and-power-experience-tiny-fx-booth-400",
-      "published": "2025-12-03T22:04:47+00:00",
-      "summary": "Precision and Power! Experience the Tiny FX at Booth #400 This tiny DMX-compatible fog machine has a 70-watt output and can fire fog over 4 feet, all from a unit that is less than 4 inches long. It's perfect for miniature applications and fits almost anywhere. Supplied with 6 fluid syringes, a charger and 250ml of fluid, it’s ready to go straight away. swheeler Wed, 12/03/2025 - 17:04 This tiny DMX-compatible fog machine has a 70-watt output and can fire fog over 4 feet, all from a unit that is less than 4 inches long. It's perfect for miniature applications and fits almost anywhere. Supplied with 6 fluid syringes, a charger and 250ml of fluid, it’s ready to go straight away. Look Solutions USA Resource Type Questex Event LSlistingbooth.jpg Wed, 12/03/2025 - 17:04 Staging Landing Page Url Learn more Byline Sponsored by: Look Solutions USA",
-      "image": "",
-      "source": "Live Design",
-      "category": "01 Spectacle Concert",
-      "angle": "Lire les coulisses des projets",
-      "status": "source_detected_not_editorially_analyzed"
-    },
-    {
-      "title": "See Glow Motion at LDI: Halo Ring & Next Gen Kinetic Systems",
-      "url": "https://www.livedesignonline.com/resource/see-glow-motion-ldi-halo-ring-next-gen-kinetic-systems",
-      "published": "2025-11-19T20:19:39+00:00",
-      "summary": "See Glow Motion at LDI: Halo Ring & Next Gen Kinetic Systems Some things you need to see in person. Glow Motion is bringing a full kinetic system to LDI with Halo Rings, X Bars, and square beam panels all in motion, driven by our precision winches. Stop by Booth #5235 and experience why top designers choose Glow Motion for high impact shows. swheeler Wed, 11/19/2025 - 15:19 Some things you need to see in person. Glow Motion is bringing a full kinetic system to LDI with Halo Rings, X Bars, and square beam panels all in motion, driven by our precision winches. Stop by Booth #5235 and experience why top designers choose Glow Motion for high impact shows. Glow Motion Technologies Resource Type Questex Event glowmotinlisting.png Wed, 11/19/2025 - 15:19 Installations Installations Landing Page Url Learn more Byline Sponsored by: Glow Motion Technologies",
-      "image": "",
-      "source": "Live Design",
-      "category": "01 Spectacle Concert",
-      "angle": "Lire les coulisses des projets",
-      "status": "source_detected_not_editorially_analyzed"
-    },
-    {
-      "title": "Vizrt launches AI-powered advances for speed and accuracy in media management",
-      "url": "https://routing.vizrt.com/vizrt/press-center/ai-assisted-media-asset-management-viz-one-8-1/",
-      "published": "2025-11-05T17:03:54+00:00",
-      "summary": "Viz One 8.1 introduces AI-powered visual recognition and automated metadata to boost speed, accuracy, and discovery in media asset management workflows. The post Vizrt launches AI-powered advances for speed and accuracy in media management appeared first on Vizrt | Transforming Viewer Experiences .",
-      "image": "",
-      "source": "Vizrt",
-      "category": "02 TV Broadcast",
-      "angle": "Explorer la scénographie augmentée",
-      "status": "source_detected_not_editorially_analyzed"
-    },
-    {
-      "title": "Turning archives into intelligence: Vizrt and DeepVA introduce AI-driven metadata enrichment in Viz One media asset management",
-      "url": "https://routing.vizrt.com/community/blog/turning-archives-into-intelligence-vizrt-and-deepva-introduce-ai-driven-metadata-enrichment-in-viz-one-media-asset-management/",
-      "published": "2025-11-05T16:19:05+00:00",
-      "summary": "Vizrt’s partnership with Aiconix’s DeepVA AI platform brings advanced AI-assisted metadata enrichment capabilities to Viz One’s media asset management workflows. This integration empowers content creators to unlock the full potential of their media archives, streamline workflows, and deliver more localized, monetizable content. The post Turning archives into intelligence: Vizrt and DeepVA introduce AI-driven metadata enrichment in Viz One media asset management appeared first on Vizrt | Transforming Viewer Experiences .",
-      "image": "",
-      "source": "Vizrt",
-      "category": "02 TV Broadcast",
-      "angle": "Explorer la scénographie augmentée",
-      "status": "source_detected_not_editorially_analyzed"
-    },
-    {
-      "title": "Why now is the time to migrate from Viz Pilot News to Viz Pilot Edge",
-      "url": "https://routing.vizrt.com/community/blog/why-migrate-to-viz-pilot-edge/",
-      "published": "2025-10-31T06:51:42+00:00",
-      "summary": "Outdated technologies can pose a security risk. Viz Pilot Edge is a HTML-based templated graphics solution designed to meet the challenges of today’s fast-evolving modern newsrooms. The post Why now is the time to migrate from Viz Pilot News to Viz Pilot Edge appeared first on Vizrt | Transforming Viewer Experiences .",
-      "image": "",
-      "source": "Vizrt",
-      "category": "02 TV Broadcast",
-      "angle": "Explorer la scénographie augmentée",
-      "status": "source_detected_not_editorially_analyzed"
-    },
-    {
-      "title": "Le Rêve du Gladiateur in collaboration with Arthur Cadre",
-      "url": "https://dragone.com/le-reve-du-gladiateur-in-collaboration-with-arthur-cadre/",
-      "published": "2025-08-08T08:54:08+00:00",
-      "summary": "Le Rêve du Gladiateur (“The Gladiator’s Dream”), directed by Arthur Cadre in collaboration with Dragone, premiered in August 2025 in the historic Arènes de Nîmes. More than a historical evocation, the show transforms the Roman amphitheatre into a dreamscape, where the vision of a gladiator on the threshold of life and death becomes a journey […]",
-      "image": "",
-      "source": "Dragone",
-      "category": "01 Spectacle Concert",
-      "angle": "Analyser l'intégration scène/architecture",
-      "status": "source_detected_not_editorially_analyzed"
-    },
-    {
-      "title": "Fragiles : When images stand for a cause",
-      "url": "https://www.superbien.studio/journal/fragiles-when-images-stand-for-a-cause",
-      "published": "2025-08-04T16:40:25+00:00",
-      "summary": "On Tuesday, March 11, 2025, the Trianon opened its doors for the launch of IMPACT, the first coalition committed to fighting road violence. Led by the Antoine Alléno Association, this movement addresses an unbearable reality: every year, road accidents are… The post Fragiles : When images stand for a cause appeared first on Superbien .",
-      "image": "",
-      "source": "Superbien",
-      "category": "08 Immersif CGI Motion",
-      "angle": "Étudier spatialisation des images",
-      "status": "source_detected_not_editorially_analyzed"
-    },
-    {
-      "title": "A vision taking shape, a sharper creative gesture",
-      "url": "https://www.superbien.studio/journal/a-vision-taking-shape-a-sharper-creative-gesture",
-      "published": "2025-07-03T09:06:00+00:00",
-      "summary": "There are moments when everything aligns — when projects, identity, and storytelling all move forward in unison. These past weeks have marked a pivotal moment at Superbien. Our visual language is evolving. Our formats are becoming more refined. Our positioning is… The post A vision taking shape, a sharper creative gesture appeared first on Superbien .",
-      "image": "",
-      "source": "Superbien",
-      "category": "08 Immersif CGI Motion",
-      "angle": "Étudier spatialisation des images",
-      "status": "source_detected_not_editorially_analyzed"
-    },
-    {
-      "title": "A Stadium, a People, a Story: Dragone’s Tribute to La Louvière – RAAL",
-      "url": "https://dragone.com/raal-dragone/",
-      "published": "2025-06-28T08:50:52+00:00",
-      "summary": "On June 28 2025, Dragone staged the opening ceremony of the new stadium in La Louvière, Belgium. Under the direction of Fabrice Murgia, the performance became far more than an inauguration, it was a living tribute to the city and to its citizens, a theatrical mirror in which La Louvière could recognize its own resilience, […]",
-      "image": "",
-      "source": "Dragone",
-      "category": "01 Spectacle Concert",
-      "angle": "Analyser l'intégration scène/architecture",
-      "status": "source_detected_not_editorially_analyzed"
-    },
-    {
-      "title": "When Art Becomes Diplomacy: Dragone and Belgium Enchant the Osaka World Expo",
-      "url": "https://dragone.com/dragone-osaka/",
-      "published": "2025-04-13T08:50:57+00:00",
-      "summary": "On May 25, 2025, Dragone unveiled the Belgian Pavilion at the Universal Expo in Osaka. In this moment, art and diplomacy intertwined: the dancers of Avantgardey, the renowned Kento Mori, and Shamio’s shamisen created a performance that suspended time itself. What might have been a simple protocol ceremony became something greater, an encounter of cultures, […]",
-      "image": "",
-      "source": "Dragone",
-      "category": "01 Spectacle Concert",
-      "angle": "Analyser l'intégration scène/architecture",
-      "status": "source_detected_not_editorially_analyzed"
-    },
-    {
-      "title": "PRESS RELEASE: SPEED MEETS SPECTACLE",
-      "url": "https://stufish.com/press-release-speed-meets-spectacle/",
-      "published": "2025-02-19T14:27:01+00:00",
-      "summary": "",
-      "image": "",
-      "source": "STUFISH",
-      "category": "01 Spectacle Concert",
-      "angle": "Étudier volumes, circulation et dramaturgie spatiale",
       "status": "source_detected_not_editorially_analyzed"
     }
   ]
