@@ -142,6 +142,9 @@ def editorial_precheck(item):
     )
     content = title + " " + summary
 
+    # Expositions historiques sans dispositif scénique ou expérience spatiale analysable.
+    if "fondazione prada" in content.lower() and "global antiquity" in content.lower():
+        return False, "off_topic_historical_exhibition"
     if BLOCKED_STORIES.search(content + " " + str(item.get("url") or "")):
         return False, "duplicate_awards_story"
     if EXCLUSIONS.search(title):
