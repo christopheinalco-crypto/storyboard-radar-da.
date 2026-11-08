@@ -148,9 +148,11 @@ def editorial_precheck(item):
         return False, "non_project"
     if ANNOUNCEMENTS.search(title):
         return False, "announcement"
-    if not DISCIPLINES.search(content):
+    # La catégorie de source est un indice, pas une preuve : Gemini vérifie le projet.
+    priority = str(item.get("category") or "")[:2] in {"01", "02", "14", "15", "09"}
+    if not DISCIPLINES.search(content) and not (priority and item.get("image")):
         return False, "no_visual_project"
-    if not EVIDENCE.search(content):
+    if not EVIDENCE.search(content) and not (priority and item.get("image")):
         return False, "no_creative_evidence"
     return True, "candidate"
 
@@ -359,7 +361,7 @@ for item in feed.get("items", []):
         reasons[reason] += 1
         continue
 
-    if score(item) < 100:
+    if score(item) < 65:
         reasons["score_too_low"] += 1
         continue
 
