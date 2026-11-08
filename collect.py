@@ -10,9 +10,15 @@ START=time.monotonic()
 BUDGET_SECONDS=235
 def budget_left():return BUDGET_SECONDS-(time.monotonic()-START)
 
+def canonical_key(url):
+ p=urllib.parse.urlsplit(url)
+ host=(p.hostname or '').lower().removeprefix('www.')
+ path=urllib.parse.unquote(p.path).rstrip('/').lower()
+ return host+path
+
 sources=json.load(open(os.path.join(ROOT,'data/sources.json'),encoding='utf8'))
 old=json.load(open(os.path.join(ROOT,'data/feed.json'),encoding='utf8'))
-items={x['url']:x for x in old.get('items',[]) if x.get('url') and not re.match(r'^(03|11)\b',x.get('category','')) and not re.search(r'back[ -]?2[ -]?back|back[ -]?to[ -]?back',x.get('title',''),re.I)}
+items={canonical_key(x['url']):x for x in old.get('items',[]) if x.get('url') and not re.match(r'^(03|11)\b',x.get('category','')) and not re.search(r'back[ -]?2[ -]?back|back[ -]?to[ -]?back',x.get('title',''),re.I)}
 # Rejeter dès la collecte les actualités musicales sans création scénique analysable.
 BLOCKED_EDITORIAL = re.compile(r"acetyl[eè]ne|prix.de.la.conception.lumi[eè]re|mylene.farmer.s.est.faite.remixee|philippe.katerine.*pnl|retour.de.pnl",re.I)
 items={url:item for url,item in items.items() if not BLOCKED_EDITORIAL.search(url+" "+item.get("title",""))}
@@ -182,9 +188,9 @@ for s in selected:
    working.append({'name':s['name'],'feed':u,'category':s['category']})
    for x in feed[:35]:
     x.update(source=s['name'],category=s['category'],angle=s['interest'],status='source_detected_not_editorially_analyzed')
-    previous=items.get(x['url'],{})
+    previous=items.get(canonical_key(x['url']),{})
     if not x.get('image'):x['image']=previous.get('image','')
-    items[x['url']]={**previous,**x}
+    items[canonical_key(x['url'])]={**previous,**x}
    break
  checked+=1
 # Enrichir un nombre limité d'articles récents sans ralentir excessivement le workflow.
