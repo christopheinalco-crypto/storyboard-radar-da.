@@ -68,7 +68,6 @@ def editorial_precheck(x):
  summary=(x.get('summary') or '').lower()
  text=title+' '+summary
  cat=(x.get('category') or '')[:2]
- if cat in {'03','11'}:return False,'graphic_category'
  if re.search(r'back[ -]?2[ -]?back|back[ -]?to[ -]?back|chacun son tour',text):return False,'music_general'
  if re.search(NON_PROJECT,text):return False,'non_project'
  if re.search(r'\b(?:announces?|annonce|new album|nouvel album|new single|nouveau single|tour dates|dates de tournée|best songs|songs of the week|roundup|panorama des singles)\b',title):return False,'announcement_or_roundup'
@@ -92,7 +91,7 @@ def score(x):
 CATEGORY_ORDER=['01','02','09','14','15','08','06','04','07','10','13','03','05','11','12']
 MAX_PER_CATEGORY=3
 GRAPHIC_CODES={'03','11'}
-EXCLUDED_CATEGORIES=GRAPHIC_CODES
+EXCLUDED_CATEGORIES=set()
 EXCLUDED_TITLE=re.compile(r'back[ -]?2[ -]?back|back[ -]?to[ -]?back|chacun son tour',re.I)
 MAX_GRAPHIC_DAILY=2
 # Europe/Paris prend en compte l'heure d'ete et l'heure d'hiver.
