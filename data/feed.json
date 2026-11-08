@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-08T18:12:24.499082+00:00",
+  "updated_at": "2026-11-08T18:54:49.043958+00:00",
   "status": "collected_unreviewed",
   "working_feeds": [
     {
@@ -211,12 +211,17 @@
       "name": "FRATERCINÉ",
       "feed": "https://www.fratercine.fr/feed",
       "category": "09 France Pro"
+    },
+    {
+      "name": "IDlia Studio",
+      "feed": "https://www.idlia.fr/feed",
+      "category": "09 France Pro"
     }
   ],
   "collection_slot": 0,
   "collection_hour_paris": 19,
   "sources_selected": 182,
-  "sources_checked": 165,
+  "sources_checked": 171,
   "special_test": true,
   "special_selection": {
     "01 Spectacle Concert": [
@@ -362,20 +367,20 @@
         "score": 20
       },
       {
-        "title": "Limiter les impacts de la lumière artificielle",
-        "url": "https://www.lightzoomlumiere.fr/livre/limiter-les-impacts-de-la-lumiere-artificielle-cluster-lumiere/",
-        "score": 17
+        "title": "CBC, Genius Loci, Sanae | Film 3D Concours Ehpad",
+        "url": "https://www.idlia.fr/cbc-genius-loci-sanae-film-3d-concours-ehpad/",
+        "score": 18
       },
       {
-        "title": "Euroluce 2027, la lumière au cœur du design mondial",
-        "url": "https://www.lightzoomlumiere.fr/evenement/euroluce-2027-la-lumiere-au-coeur-du-design-mondial/",
+        "title": "Limiter les impacts de la lumière artificielle",
+        "url": "https://www.lightzoomlumiere.fr/livre/limiter-les-impacts-de-la-lumiere-artificielle-cluster-lumiere/",
         "score": 17
       }
     ],
     "10 Strategie Insights": [],
     "11 Graphisme Expertise": [
       {
-        "title": "VS/Goods© — Maquettes sympas",
+        "title": "VS/Goods© — Cool Mockups",
         "url": "https://mindsparklemag.com/website/vsgoods-cool-mockups",
         "score": 32
       },
@@ -445,8 +450,8 @@
   },
   "backfill_test": {
     "period": "2026-11-01/2026-11-07",
-    "articles": 375,
-    "with_images": 227
+    "articles": 373,
+    "with_images": 223
   },
   "items": [
     {
@@ -3253,7 +3258,8 @@
       "source": "Konbini Musique",
       "category": "14 Musique Clips",
       "angle": "Décrypter intention, émotion, mise en scène, image et son des clips et performances musicales",
-      "status": "source_detected_not_editorially_analyzed"
+      "status": "source_detected_not_editorially_analyzed",
+      "title_fr": "Ninho : le prix à payer pour la célébrité"
     },
     {
       "title": "L’ISTS ouvre la prochaine session de la formation métier “Régisseur général des entreprises du spectacle vivant”",
@@ -6332,6 +6338,28 @@
       "source": "Grand Visual",
       "category": "07 FOOH OOH DOOH",
       "angle": "Étudier contexte et réactivité",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "Vizrt Launches Sports Production Bundles to Empower US Students to Produce Like the Pros",
+      "url": "https://routing.vizrt.com/vizrt/press-center/vizrt-launches-sports-production-bundles-press-release/",
+      "published": "2026-02-11T17:34:21+00:00",
+      "summary": "Using the same live production tools trusted by sports broadcasters and professional media organizations, the bundles deliver a complete, integrated workflow for live switching, replays, and graphics – complete with ready-to-play big screen graphics templates. The post Vizrt Launches Sports Production Bundles to Empower US Students to Produce Like the Pros appeared first on Vizrt | Transforming Viewer Experiences .",
+      "image": "",
+      "source": "Vizrt",
+      "category": "02 TV Broadcast",
+      "angle": "Explorer la scénographie augmentée",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "Vizrt revolutionizes corporate communications with AI-powered augmented reality in Zoom",
+      "url": "https://routing.vizrt.com/vizrt/press-center/vizrt-revolutionizes-communications-with-ai-powered-augmented-reality-in-zoom/",
+      "published": "2026-02-04T17:11:51+00:00",
+      "summary": "Vizrt offers broadcast-quality tools in Zoom meetings and Zoom Rooms, bringing immersive experiences to internal and external audiences worldwide The post Vizrt revolutionizes corporate communications with AI-powered augmented reality in Zoom appeared first on Vizrt | Transforming Viewer Experiences .",
+      "image": "",
+      "source": "Vizrt",
+      "category": "02 TV Broadcast",
+      "angle": "Explorer la scénographie augmentée",
       "status": "source_detected_not_editorially_analyzed"
     }
   ]
