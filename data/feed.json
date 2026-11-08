@@ -1,10 +1,15 @@
 {
-  "updated_at": "2026-11-08T13:25:13.896460+00:00",
+  "updated_at": "2026-11-08T14:08:07.356994+00:00",
   "status": "collected_unreviewed",
   "working_feeds": [
     {
       "name": "Live Design",
       "feed": "https://www.livedesignonline.com/rss.xml",
+      "category": "01 Spectacle Concert"
+    },
+    {
+      "name": "TPI Magazine",
+      "feed": "https://www.tpimagazine.com/feed/",
       "category": "01 Spectacle Concert"
     },
     {
@@ -35,11 +40,6 @@
     {
       "name": "Tsugi",
       "feed": "https://www.tsugi.fr/feed",
-      "category": "14 Musique Clips"
-    },
-    {
-      "name": "Konbini Musique",
-      "feed": "https://www.konbini.com/feed",
       "category": "14 Musique Clips"
     },
     {
@@ -178,11 +178,6 @@
       "category": "15 Danse Performance"
     },
     {
-      "name": "Effie Worldwide",
-      "feed": "https://www.effie.org/feed",
-      "category": "10 Strategie Insights"
-    },
-    {
       "name": "Stash",
       "feed": "https://www.stashmedia.tv/feed",
       "category": "08 Immersif CGI Motion"
@@ -209,19 +204,39 @@
     },
     {
       "name": "Grand Visual",
-      "feed": "https://grandvisual.com/feed/",
+      "feed": "https://grandvisual.com/feed",
       "category": "07 FOOH OOH DOOH"
     },
     {
       "name": "FRATERCINÉ",
-      "feed": "https://www.fratercine.fr/feed",
+      "feed": "https://www.fratercine.fr/feed/",
       "category": "09 France Pro"
+    },
+    {
+      "name": "IDlia Studio",
+      "feed": "https://www.idlia.fr/feed",
+      "category": "09 France Pro"
+    },
+    {
+      "name": "Stereogum",
+      "feed": "https://www.stereogum.com/feed/",
+      "category": "14 Musique Clips"
+    },
+    {
+      "name": "Konbini Musique",
+      "feed": "https://www.konbini.com/feed",
+      "category": "14 Musique Clips"
+    },
+    {
+      "name": "Pitchfork",
+      "feed": "https://pitchfork.com/rss/news/",
+      "category": "14 Musique Clips"
     }
   ],
-  "collection_slot": 0,
-  "collection_hour_paris": 14,
+  "collection_slot": 3,
+  "collection_hour_paris": 15,
   "sources_selected": 182,
-  "sources_checked": 158,
+  "sources_checked": 182,
   "special_test": true,
   "special_selection": {
     "01 Spectacle Concert": [
@@ -367,13 +382,13 @@
         "score": 20
       },
       {
-        "title": "Limiter les impacts de la lumière artificielle, Cluster Lumière",
-        "url": "https://www.lightzoomlumiere.fr/livre/limiter-les-impacts-de-la-lumiere-artificielle-cluster-lumiere/",
-        "score": 17
+        "title": "CBC, Genius Loci, Sanae | Film 3D Concours Ehpad",
+        "url": "https://www.idlia.fr/cbc-genius-loci-sanae-film-3d-concours-ehpad/",
+        "score": 18
       },
       {
-        "title": "Euroluce 2027, la lumière au cœur du design mondial",
-        "url": "https://www.lightzoomlumiere.fr/evenement/euroluce-2027-la-lumiere-au-coeur-du-design-mondial/",
+        "title": "Limiter les impacts de la lumière artificielle, Cluster Lumière",
+        "url": "https://www.lightzoomlumiere.fr/livre/limiter-les-impacts-de-la-lumiere-artificielle-cluster-lumiere/",
         "score": 17
       }
     ],
@@ -451,9 +466,22 @@
   "backfill_test": {
     "period": "2026-11-01/2026-11-07",
     "articles": 375,
-    "with_images": 226
+    "with_images": 227
   },
   "items": [
+    {
+      "title": "The Work of Keeping a Public Building Public: The Drill Hall in Johannesburg",
+      "url": "https://www.archdaily.com/1187924/the-work-of-keeping-a-public-building-public-the-drill-hall-in-johannesburg",
+      "published": "2026-11-08T07:30:00+00:00",
+      "summary": "What happens to a building after the architecture is finished? For buildings intended to serve the public, their continued life depends on more than the physical conditions of their construction. It involves the activities that take place within them, the relationships they allow to develop, the people who occupy and shape them , and the institutional structures responsible for their upkeep. Yet these conditions are not always secured through the act of building itself. They are continually negotiated, often through forms of work that remain outside the conventional understanding of architectural practice.",
+      "image": "",
+      "source": "ArchDaily",
+      "category": "05 Art Architecture",
+      "angle": "Lire parcours et plans",
+      "status": "source_detected_not_editorially_analyzed",
+      "title_fr": "Le travail consistant à garder un bâtiment public public : la salle d'exercices à Johannesburg",
+      "summary_fr": "Qu’arrive-t-il à un bâtiment une fois l’architecture terminée ? Pour les bâtiments destinés à servir le public, la durée de vie de ceux-ci ne dépend pas seulement des conditions physiques de leur construction. Elle implique les activités qui s'y déroulent, les relations qu'elles permettent de développer, les personnes qui les occupent et les façonnent, ainsi que les structures institutionnelles chargées de leur entretien. Pourtant, ces conditions ne sont pas toujours assurées par l’acte de construction lui-même. Ils sont continuellement négociés, souvent à travers des formes de travail qui restent en dehors de la compréhension conventionnelle de la pratique architecturale."
+    },
     {
       "title": "One Orient Headquarters / gmp Architects",
       "url": "https://www.archdaily.com/1187779/one-orient-headquarters-von-gerkan-marg-and-partners-architects",
@@ -516,7 +544,8 @@
       "category": "05 Art Architecture",
       "angle": "Lire parcours et plans",
       "status": "source_detected_not_editorially_analyzed",
-      "title_fr": "U House / NAQI & Partenaires"
+      "title_fr": "U House / NAQI & Partenaires",
+      "summary_fr": "Dans de nombreuses zones rurales du nord du Vietnam, de vastes parcelles autrefois occupées par des familles élargies et des lignées sont progressivement subdivisées entre les jeunes générations pour y construire des maisons séparées. À mesure que les modes de vie des jeunes générations évoluent parallèlement à l'urbanisation, les modes d'habitat évoluent : les parcelles deviennent plus petites, les maisons à plusieurs étages remplacent les maisons de jardin de faible hauteur, tandis que la vie familiale devient de plus en plus indépendante."
     },
     {
       "title": "Sweden Returns Benin Bronzes to Nigeria",
@@ -567,7 +596,8 @@
       "category": "05 Art Architecture",
       "angle": "Lire parcours et plans",
       "status": "source_detected_not_editorially_analyzed",
-      "title_fr": "Maison avec fenêtres forestières / Conception architecturale Yosuke Tomiya"
+      "title_fr": "Maison avec fenêtres forestières / Conception architecturale Yosuke Tomiya",
+      "summary_fr": "House with Forest Windows est une résidence compacte en bois à Sapporo, Hokkaido, située à l'endroit où un quartier de banlieue ordinaire rencontre une forêt dense. Le site présentait un état inhabituel : alors que les maisons voisines se rapprochent côté rue, l'arrière de la propriété s'ouvre directement sur la forêt. La conception a commencé par se demander comment la vie familiale quotidienne pouvait s'intégrer à ce paysage tout en préservant l'intimité de l'environnement résidentiel environnant."
     },
     {
       "title": "Apartment Renovation in the Ensanche of Bilbao / BABELstudio",
@@ -677,7 +707,7 @@
       "url": "https://www.revue-as.fr/2026/11/07/imagicario-la-mecanique-dequilibre-du-paredolia-duo/",
       "published": "2026-11-07T09:58:00+00:00",
       "summary": "Faire tenir deux corps à près de 4 m du sol sur des échasses droites tout en jouant l’intimité d’un couple, c’est le pari technique de la compagnie montréalaise Imagicario avec son Parédolia Duo, présenté ici au Centre sportif et récréatif de Montréal-Ouest. Les têtes sont remplacées par de véritables réverbères d’époque équipés de sources lumineuses autonomes En savoir plus surImagicario : la mécanique d’équilibre du “Parédolia Duo” […] Cet article Imagicario : la mécanique d’équilibre du “Parédolia Duo” est apparu en premier sur Revue AS .",
-      "image": "",
+      "image": "https://www.revue-as.fr/wp-content/uploads/2025/12/picto-nouvelles-technologies-e1764671485178.png",
       "source": "Revue AS",
       "category": "09 France Pro",
       "angle": "Suivre les productions françaises",
@@ -1898,6 +1928,17 @@
       "image": ""
     },
     {
+      "title": "Prix de la conception lumière ACEtylène 2026 en Europe",
+      "url": "https://www.lightzoomlumiere.fr/article/conception-lumiere-2026-palmares-prix-2026-acetylene-europe/",
+      "published": "2026-11-06T06:30:13+00:00",
+      "summary": "Au Havre, les Prix de la conception lumière ACEtylène 2026 célèbre 10 lauréats. Une lumière plus sobre, plus humaine et plus ouverte sur l’Europe.",
+      "image": "https://www.lightzoomlumiere.fr/wp-content/uploads/2026/10/Galerie-contemporaine-de-la-cathedrale-Saint-Maurice-Angers-France---Facade-des-trois-portails-Conception-lumiere-agence-818---Photo-Copyright-Anthony-Perrot-559x280.jpg",
+      "source": "Light ZOOM Lumière",
+      "category": "09 France Pro",
+      "angle": "Approfondir dispositifs lumineux",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
       "title": "New Mexico Literacy Institute by Multistudio and Design Plus Architects Set to Open in December",
       "url": "https://www.archdaily.com/1188126/new-mexico-literacy-institute-by-multistudio-and-design-plus-architects-set-to-open-in-december",
       "published": "2026-11-06T06:30:00+00:00",
@@ -2977,6 +3018,17 @@
       "status": "source_detected_not_editorially_analyzed"
     },
     {
+      "title": "Nommés 6/6 au Prix de l’imaginaire lumière ACEtylène 2026",
+      "url": "https://www.lightzoomlumiere.fr/photos/nommes-au-prix-de-l-imaginaire-lumiere-acetylene-2026-realisations-1-a-4/",
+      "published": "2026-11-05T06:30:04+00:00",
+      "summary": "Des projets libres et audacieux. Une lumière qui imagine demain. Créativité, sobriété, usages. Voici les nommés au Prix de l'imaginaire lumière ACEtylène 2026.",
+      "image": "https://www.lightzoomlumiere.fr/wp-content/uploads/2026/11/Nommes-au-Prix-de-la-conception-lumiere-ACEtylene-2026-projets-imaginaires-de-concepteurs-lumiere-1-a-4-Copyright-ACE-560x280.jpg",
+      "source": "Light ZOOM Lumière",
+      "category": "09 France Pro",
+      "angle": "Approfondir dispositifs lumineux",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
       "title": "Crise climatique",
       "url": "https://www.revue-as.fr/2026/11/05/crise-climatique/",
       "published": "2026-11-05T05:21:00+00:00",
@@ -3726,6 +3778,18 @@
       "status": "source_detected_not_editorially_analyzed"
     },
     {
+      "title": "Sept fois où Mylène Farmer s’est faite remixer",
+      "url": "https://www.tsugi.fr/sept-fois-ou-mylene-farmer-sest-faite-remixee/",
+      "published": "2026-11-03T13:33:19+00:00",
+      "summary": "Artiste marquante de la pop française, Mylène Farmer n’a jamais caché son goût pour les expérimentations électroniques et les sonorités club. Dès les années 1980, ses singles s’accompagnent de versions longues et de remixes. Au fil des décennies, la chanteuse s’entoure également de producteurs et de DJ issus de différentes scènes électroniques, de Felix Da […]",
+      "image": "https://www.tsugi.fr/cdn/ptext.sopress.dev/tsugi/sept-fois-ou-mylene-farmer-sest-faite-remixee.jpg?hash=cdn-771ae1888b534d18c91d5820fa3e6854",
+      "source": "Tsugi",
+      "category": "14 Musique Clips",
+      "angle": "Décrypter intention, émotion, mise en scène, image et son des clips et performances musicales",
+      "status": "source_detected_not_editorially_analyzed",
+      "title_fr": "L'évolution électronique de Mylène Farmer à travers ses remixes"
+    },
+    {
       "title": "Time to Plan Your Visit to ISLE 2027 in Shenzhen",
       "url": "https://plsn.com/newsroom/all-news/time-to-plan-your-visit-to-isle-2027-in-shenzhen/",
       "published": "2026-11-03T13:05:36+00:00",
@@ -4123,6 +4187,17 @@
       "image": ""
     },
     {
+      "title": "Nommés 5/6 au Prix de la conception lumière ACEtylène 2026",
+      "url": "https://www.lightzoomlumiere.fr/photos/nommes-au-prix-de-la-conception-lumiere-acetylene-2026-realisations-26-a-31/",
+      "published": "2026-11-02T06:30:04+00:00",
+      "summary": "ACEtylène 2026 : la conception lumière révèle les lieux. Patrimoine, culture, usage, sobriété. Derniers projets inspirants, humains et durables à découvrir.",
+      "image": "https://www.lightzoomlumiere.fr/wp-content/uploads/2026/10/Nommes-au-Prix-de-la-conception-lumiere-ACEtylene-2026-realisations-de-concepteurs-lumiere-26-a-31-Copyright-ACE-560x280.jpg",
+      "source": "Light ZOOM Lumière",
+      "category": "09 France Pro",
+      "angle": "Approfondir dispositifs lumineux",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
       "title": "Odéon – Ateliers Berthier",
       "url": "https://www.revue-as.fr/2026/11/02/odeon-ateliers-berthier/",
       "published": "2026-11-02T05:13:00+00:00",
@@ -4277,6 +4352,17 @@
       "status": "source_detected_not_editorially_analyzed"
     },
     {
+      "title": "Nommés 4/6 au Prix de la conception lumière ACEtylène 2026",
+      "url": "https://www.lightzoomlumiere.fr/photos/nommes-au-prix-de-la-conception-lumiere-acetylene-2026-realisations-19-a-24/",
+      "published": "2026-10-30T06:30:04+00:00",
+      "summary": "6 nouvelles réalisations nommées illustrent une conception lumière inventive, sobre et humaine. Les concepteurs lumière excellent dans les lieux de vie.",
+      "image": "https://www.lightzoomlumiere.fr/wp-content/uploads/2026/10/Nommes-au-Prix-de-la-conception-lumiere-ACEtylene-2026-realisations-de-concepteurs-lumiere-19-a-24-Copyright-ACE-560x280.jpg",
+      "source": "Light ZOOM Lumière",
+      "category": "09 France Pro",
+      "angle": "Approfondir dispositifs lumineux",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
       "title": "A New Standard",
       "url": "https://www.designindaba.com/articles/creative-work/new-standard",
       "published": "2026-10-30T06:00:00+00:00",
@@ -4409,6 +4495,17 @@
       "status": "source_detected_not_editorially_analyzed"
     },
     {
+      "title": "Nommés 3/6 au Prix de la conception lumière ACEtylène 2026",
+      "url": "https://www.lightzoomlumiere.fr/photos/nommes-au-prix-de-la-conception-lumiere-acetylene-2026-realisations-13-a-18/",
+      "published": "2026-10-29T06:30:04+00:00",
+      "summary": "6 nouvelles réalisations nommées illustrent une conception lumière inventive, sobre et humaine. Les concepteurs lumière excellent dans les lieux de vie.",
+      "image": "https://www.lightzoomlumiere.fr/wp-content/uploads/2026/10/Nommes-au-Prix-de-la-conception-lumiere-ACEtylene-2026-realisations-de-concepteurs-lumiere-13-a-18-Copyright-ACE-560x280.jpg",
+      "source": "Light ZOOM Lumière",
+      "category": "09 France Pro",
+      "angle": "Approfondir dispositifs lumineux",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
       "title": "“La Femme sans ombre”",
       "url": "https://www.revue-as.fr/2026/10/29/la-femme-sans-ombre/",
       "published": "2026-10-29T06:00:00+00:00",
@@ -4472,6 +4569,17 @@
       "source": "Dance Magazine",
       "category": "15 Danse Performance",
       "angle": "Observer les intentions de mise en scène, composition, rythme, lumière et expérience du public",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "Nommés 2/6 au Prix de la conception lumière ACEtylène 2026",
+      "url": "https://www.lightzoomlumiere.fr/photos/nommes-au-prix-de-la-conception-lumiere-acetylene-2026-realisations-7-a-12/",
+      "published": "2026-10-28T06:30:04+00:00",
+      "summary": "Créativité, innovation et durabilité au cœur des projets des concepteurs lumière. Les nommés dévoilés au Prix de la conception lumière ACEtylène 2026.",
+      "image": "https://www.lightzoomlumiere.fr/wp-content/uploads/2026/10/Nommes-au-Prix-de-la-conception-lumiere-ACEtylene-2026-realisations-de-concepteurs-lumiere-7-a-12-Copyright-ACE-560x280.jpg",
+      "source": "Light ZOOM Lumière",
+      "category": "09 France Pro",
+      "angle": "Approfondir dispositifs lumineux",
       "status": "source_detected_not_editorially_analyzed"
     },
     {
@@ -4561,6 +4669,17 @@
       "source": "Étapes",
       "category": "13 France Marketing Design",
       "angle": "Suivre créateurs et pratiques",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "Nommés 1/6 au Prix de la conception lumière ACEtylène 2026",
+      "url": "https://www.lightzoomlumiere.fr/photos/nommes-au-prix-de-la-conception-lumiere-acetylene-2026-realisations-1-a-6/",
+      "published": "2026-10-27T06:30:04+00:00",
+      "summary": "Créativité, innovation et durabilité au cœur des projets des concepteurs lumière. Les nommés dévoilés au Prix de la conception lumière ACEtylène 2026.",
+      "image": "https://www.lightzoomlumiere.fr/wp-content/uploads/2025/11/Nommes-au-Prix-de-la-conception-lumiere-ACEtylene-2026-realisations-de-concepteurs-lumiere-1-a-6-Copyright-ACE-560x280.jpg",
+      "source": "Light ZOOM Lumière",
+      "category": "09 France Pro",
+      "angle": "Approfondir dispositifs lumineux",
       "status": "source_detected_not_editorially_analyzed"
     },
     {
@@ -6555,17 +6674,6 @@
       "source": "Dragone",
       "category": "01 Spectacle Concert",
       "angle": "Analyser l'intégration scène/architecture",
-      "status": "source_detected_not_editorially_analyzed"
-    },
-    {
-      "title": "Vizrt Powers a New Era of Corporate Viewer Engagement with Expanded Enterprise Team",
-      "url": "https://routing.vizrt.com/vizrt/press-center/new-era-of-corporate-viewer-engagement/",
-      "published": "2026-01-22T07:00:00+00:00",
-      "summary": "New international leaders bring decades of SaaS and B2B enterprise technology experience to transform corporate communications and audience engagement. The post Vizrt Powers a New Era of Corporate Viewer Engagement with Expanded Enterprise Team appeared first on Vizrt | Transforming Viewer Experiences .",
-      "image": "",
-      "source": "Vizrt",
-      "category": "02 TV Broadcast",
-      "angle": "Explorer la scénographie augmentée",
       "status": "source_detected_not_editorially_analyzed"
     }
   ]
