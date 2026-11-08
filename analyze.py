@@ -445,7 +445,7 @@ nommés dans la source, le lieu, le public et l'enjeu concret.
 Ne rien inventer. Ne répète pas le titre.
 
 POINTS :
-Trois sections substantielles de 85 à 145 mots chacune,
+Trois sections précises de 45 à 85 mots chacune,
 avec ces titres EXACTS :
 1. "Le sujet" : faits vérifiables, intervenants, dispositifs,
 dimensions, technologies et contraintes uniquement si documentés.
@@ -469,10 +469,30 @@ N'écris jamais de phrases génériques sur l'immersion, l'émotion
 ou la créativité sans démonstration concrète.
 
 TAKEAWAY :
-90 à 150 mots, intitulé "Pour un DA" dans le texte.
+50 à 85 mots, intitulé "Pour un DA" dans le texte.
 Extraire 1 ou 2 principes transférables, donner un exemple
 d'application dans un autre contexte, un exercice pratique
 et une limite technique ou artistique si documentée.
+
+STYLE ET LISIBILITÉ — OBLIGATOIRE :
+Écris comme un excellent mentor DA, pas comme un communiqué de presse.
+Français simple, précis, vivant et professionnel. Une idée par phrase.
+Phrases courtes (idéalement 10 à 20 mots), paragraphes respirants.
+Commence par le fait concret, puis explique le choix et l'effet possible.
+Évite les formules abstraites et ampoulées ("instabilité contemplative",
+"registre d'authentique vulnérabilité", "désamorce toute distance formelle",
+"insuffle une matérialité", "immersion émotionnelle").
+Préférer "les contours bougent, ce qui évoque une marche hésitante"
+à une phrase abstraite sur "la traduction de la flânerie".
+Ne pas empiler les adjectifs, les métaphores ou les synonymes.
+Ne répète jamais le titre, un fait ou une conclusion d'une section à l'autre.
+Évite le remplissage : chaque phrase doit apporter un fait,
+un raisonnement ou une application.
+Au maximum une expression en **gras** par section, jamais
+de gras sur une phrase entière. Ne pas utiliser de puces dans
+le texte d'un point : l'interface ajoute déjà ses propres puces.
+Ne pas confondre hypothèse sur l'effet et résultat démontré.
+La profondeur vient des preuves et de la logique, pas de la longueur.
 
 RIGUEUR :
 Ne fabrique aucun fait, intention d'auteur, chiffre ou
