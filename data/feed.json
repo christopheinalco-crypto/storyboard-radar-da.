@@ -216,27 +216,12 @@
       "name": "IDlia Studio",
       "feed": "https://www.idlia.fr/feed",
       "category": "09 France Pro"
-    },
-    {
-      "name": "Stereogum",
-      "feed": "https://www.stereogum.com/feed/",
-      "category": "14 Musique Clips"
-    },
-    {
-      "name": "Konbini Musique",
-      "feed": "https://www.konbini.com/feed",
-      "category": "14 Musique Clips"
-    },
-    {
-      "name": "Pitchfork",
-      "feed": "https://pitchfork.com/rss/news/",
-      "category": "14 Musique Clips"
     }
   ],
   "collection_slot": 0,
   "collection_hour_paris": 17,
   "sources_selected": 182,
-  "sources_checked": 182,
+  "sources_checked": 171,
   "special_test": true,
   "special_selection": {
     "01 Spectacle Concert": [
@@ -246,13 +231,13 @@
         "score": 29
       },
       {
-        "title": "Live Design: Terhal",
-        "url": "https://dragone.com/live-design-covers-terhal/",
-        "score": 23
-      },
-      {
         "title": "See Glow Motion at LDI: Halo Ring & Next Gen Kinetic Systems",
         "url": "https://www.livedesignonline.com/resource/see-glow-motion-ldi-halo-ring-next-gen-kinetic-systems",
+        "score": 21
+      },
+      {
+        "title": "Live Design: Terhal",
+        "url": "https://dragone.com/live-design-covers-terhal/",
         "score": 21
       }
     ],
@@ -466,7 +451,7 @@
   "backfill_test": {
     "period": "2026-11-01/2026-11-07",
     "articles": 375,
-    "with_images": 227
+    "with_images": 225
   },
   "items": [
     {
@@ -505,7 +490,7 @@
       "category": "14 Musique Clips",
       "angle": "Analyser les intentions visuelles, la mise en scène, le montage et l'identité des clips",
       "status": "source_detected_not_editorially_analyzed",
-      "title_fr": "Hayley Williams est accrochée dans sa chambre d'hôtel dans la vidéo \"Dream Girl in Shibuya\"",
+      "title_fr": "L'esthétique intimiste du clip de Hayley Williams",
       "summary_fr": "Le morceau Ego Death at a Bachelorette Party vient de recevoir un visuel en noir et blanc assorti"
     },
     {
@@ -535,6 +520,19 @@
       "summary_fr": "Nick Valensi n’a pas rejoint, mais Walton Goggins l’a fait"
     },
     {
+      "title": "Fuentesaúco Pharmacy / David Hernandez Arquitectura",
+      "url": "https://www.archdaily.com/1188185/fuentesauco-pharmacy-david-hernandez-arquitectura",
+      "published": "2026-11-08T11:00:00+00:00",
+      "summary": "The Fuentesaúco Pharmacy offers a reflection on the role of architecture in the recovery and modernization of essential services in rural areas. In a town of approximately 1,500 inhabitants, the project goes beyond renovating a commercial establishment to reaffirm the importance of maintaining nearby, accessible healthcare facilities that are connected to the everyday life of the community. In a context marked by population decline, architecture also becomes a tool for preserving quality of life and strengthening the community's identity.",
+      "image": "",
+      "source": "ArchDaily",
+      "category": "05 Art Architecture",
+      "angle": "Lire parcours et plans",
+      "status": "source_detected_not_editorially_analyzed",
+      "title_fr": "Pharmacie Fuentesaúco / David Hernandez Arquitectura",
+      "summary_fr": "La Pharmacie Fuentesaúco propose une réflexion sur le rôle de l'architecture dans la récupération et la modernisation des services essentiels dans les zones rurales. Dans une commune d'environ 1 500 habitants, le projet va au-delà de la rénovation d'un établissement commercial pour réaffirmer l'importance de maintenir des établissements de santé à proximité, accessibles et connectés à la vie quotidienne de la communauté. Dans un contexte marqué par le déclin démographique, l'architecture devient également un outil de préservation de la qualité de vie et de renforcement de l'identité de la communauté."
+    },
+    {
       "title": "Florian Residence 1 / Benthem Crouwel Architects",
       "url": "https://www.archdaily.com/1188055/florian-residence-1-benthem-crouwel-architects",
       "published": "2026-11-08T10:00:00+00:00",
@@ -546,6 +544,19 @@
       "status": "source_detected_not_editorially_analyzed",
       "title_fr": "Résidence Florian 1 / Benthem Crouwel Architectes",
       "summary_fr": "La Résidence Florian 1 est le premier bâtiment achevé et marque le début d'un nouveau quartier urbain. Situé sur un site important à proximité de la Banque nationale de Slovaquie, le bâtiment comprend huit étages, des commerces et commodités, ainsi que 73 logements allant des studios compacts aux appartements spacieux. Des normes technologiques élevées – triple vitrage, isolation thermique performante et ingénierie acoustique – assurent un confort optimal aux résidents, tandis que l'entrée généreuse et l'atrium baigné de lumière confèrent au bâtiment un authentique sentiment d'appartenance et de communauté."
+    },
+    {
+      "title": "raw concrete and steel anchor stripped-back 1960’s apartment in zagreb",
+      "url": "https://www.designboom.com/architecture/raw-concrete-steel-stripped-back-1960s-apartment-zagreb-simple-architecture/",
+      "published": "2026-11-08T08:45:41+00:00",
+      "summary": "simple architecture approaches the renovation through subtraction rather than addition, stripping the apartment back to its raw state. The post raw concrete and steel anchor stripped-back 1960’s apartment in zagreb appeared first on designboom | architecture & design magazine .",
+      "image": "https://www.designboom.com/wp-content/uploads/2026/11/zagreb-raw-apartment-simple-architecture-interior-renovation-designboom-700-500x400-22b08q85r520.jpg",
+      "source": "Designboom",
+      "category": "05 Art Architecture",
+      "angle": "Explorer formes expérimentales",
+      "status": "source_detected_not_editorially_analyzed",
+      "title_fr": "Appartement des années 1960 dépouillé d'ancre en béton brut et en acier à Zagreb",
+      "summary_fr": "l'architecture simple aborde la rénovation par soustraction plutôt que par addition, ramenant l'appartement à son état brut. L'appartement dépouillé des années 1960 à ancrage en béton brut et en acier à Zagreb est apparu en premier sur designboom | revue d'architecture et de design."
     },
     {
       "title": "The Work of Keeping a Public Building Public: The Drill Hall in Johannesburg",
@@ -4797,7 +4808,8 @@
       "source": "Tsugi",
       "category": "14 Musique Clips",
       "angle": "Décrypter intention, émotion, mise en scène, image et son des clips et performances musicales",
-      "status": "source_detected_not_editorially_analyzed"
+      "status": "source_detected_not_editorially_analyzed",
+      "title_fr": "Laurent Garnier : cartographier les liens invisibles de la soul"
     },
     {
       "title": "Limiter les impacts de la lumière artificielle, Cluster Lumière",
@@ -6669,28 +6681,6 @@
       "source": "Grand Visual",
       "category": "07 FOOH OOH DOOH",
       "angle": "Étudier contexte et réactivité",
-      "status": "source_detected_not_editorially_analyzed"
-    },
-    {
-      "title": "Vizrt Launches Sports Production Bundles to Empower US Students to Produce Like the Pros",
-      "url": "https://routing.vizrt.com/vizrt/press-center/vizrt-launches-sports-production-bundles-press-release/",
-      "published": "2026-02-11T17:34:21+00:00",
-      "summary": "Using the same live production tools trusted by sports broadcasters and professional media organizations, the bundles deliver a complete, integrated workflow for live switching, replays, and graphics – complete with ready-to-play big screen graphics templates. The post Vizrt Launches Sports Production Bundles to Empower US Students to Produce Like the Pros appeared first on Vizrt | Transforming Viewer Experiences .",
-      "image": "",
-      "source": "Vizrt",
-      "category": "02 TV Broadcast",
-      "angle": "Explorer la scénographie augmentée",
-      "status": "source_detected_not_editorially_analyzed"
-    },
-    {
-      "title": "Vizrt revolutionizes corporate communications with AI-powered augmented reality in Zoom",
-      "url": "https://routing.vizrt.com/vizrt/press-center/vizrt-revolutionizes-communications-with-ai-powered-augmented-reality-in-zoom/",
-      "published": "2026-02-04T17:11:51+00:00",
-      "summary": "Vizrt offers broadcast-quality tools in Zoom meetings and Zoom Rooms, bringing immersive experiences to internal and external audiences worldwide The post Vizrt revolutionizes corporate communications with AI-powered augmented reality in Zoom appeared first on Vizrt | Transforming Viewer Experiences .",
-      "image": "",
-      "source": "Vizrt",
-      "category": "02 TV Broadcast",
-      "angle": "Explorer la scénographie augmentée",
       "status": "source_detected_not_editorially_analyzed"
     }
   ]
