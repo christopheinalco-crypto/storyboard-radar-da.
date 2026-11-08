@@ -1,41 +1,11 @@
 {
-  "updated_at": "2026-11-08T18:54:49.043958+00:00",
+  "updated_at": "2026-11-08T19:46:13.672436+00:00",
   "status": "collected_unreviewed",
   "working_feeds": [
-    {
-      "name": "Live Design",
-      "feed": "https://www.livedesignonline.com/rss.xml",
-      "category": "01 Spectacle Concert"
-    },
-    {
-      "name": "Promonews",
-      "feed": "https://www.promonews.tv/feed",
-      "category": "14 Musique Clips"
-    },
     {
       "name": "PLSN",
       "feed": "https://plsn.com/feed/",
       "category": "01 Spectacle Concert"
-    },
-    {
-      "name": "Revue AS",
-      "feed": "https://www.revue-as.fr/feed",
-      "category": "09 France Pro"
-    },
-    {
-      "name": "Designboom",
-      "feed": "https://www.designboom.com/feed",
-      "category": "05 Art Architecture"
-    },
-    {
-      "name": "Mindsparkle Mag",
-      "feed": "https://mindsparklemag.com/feed",
-      "category": "11 Graphisme Expertise"
-    },
-    {
-      "name": "Tsugi",
-      "feed": "https://www.tsugi.fr/feed",
-      "category": "14 Musique Clips"
     },
     {
       "name": "Balich Wonder Studio",
@@ -43,79 +13,9 @@
       "category": "01 Spectacle Concert"
     },
     {
-      "name": "STUFISH",
-      "feed": "https://stufish.com/feed",
-      "category": "01 Spectacle Concert"
-    },
-    {
-      "name": "Vizrt",
-      "feed": "https://www.vizrt.com/feed",
-      "category": "02 TV Broadcast"
-    },
-    {
-      "name": "AV Magazine",
-      "feed": "https://www.avinteractive.com/feed",
-      "category": "02 TV Broadcast"
-    },
-    {
-      "name": "Ross Video",
-      "feed": "https://www.rossvideo.com/feed",
-      "category": "02 TV Broadcast"
-    },
-    {
-      "name": "Dragone",
-      "feed": "https://www.dragone.com/feed",
-      "category": "01 Spectacle Concert"
-    },
-    {
-      "name": "ArchDaily",
-      "feed": "https://www.archdaily.com/feed",
-      "category": "05 Art Architecture"
-    },
-    {
-      "name": "Brand New",
-      "feed": "https://www.underconsideration.com/feed",
-      "category": "03 DA Graphisme"
-    },
-    {
       "name": "Graphéine",
       "feed": "https://www.grapheine.com/feed",
       "category": "13 France Marketing Design"
-    },
-    {
-      "name": "Creapills",
-      "feed": "https://creapills.com/feed",
-      "category": "13 France Marketing Design"
-    },
-    {
-      "name": "Dieline",
-      "feed": "https://thedieline.com/feed",
-      "category": "03 DA Graphisme"
-    },
-    {
-      "name": "Artforum",
-      "feed": "https://www.artforum.com/feed",
-      "category": "05 Art Architecture"
-    },
-    {
-      "name": "Design Observer",
-      "feed": "https://designobserver.com/feed",
-      "category": "11 Graphisme Expertise"
-    },
-    {
-      "name": "Typewolf",
-      "feed": "https://www.typewolf.com/feed",
-      "category": "03 DA Graphisme"
-    },
-    {
-      "name": "Sight Unseen",
-      "feed": "https://www.sightunseen.com/feed",
-      "category": "05 Art Architecture"
-    },
-    {
-      "name": "VMSD",
-      "feed": "https://vmsd.com/feed",
-      "category": "06 Retail Brand Experience"
     },
     {
       "name": "Creative Boom",
@@ -123,74 +23,9 @@
       "category": "03 DA Graphisme"
     },
     {
-      "name": "Étapes",
-      "feed": "https://etapes.com/feed",
-      "category": "13 France Marketing Design"
-    },
-    {
-      "name": "BP&O",
-      "feed": "https://bpando.org/feed",
-      "category": "03 DA Graphisme"
-    },
-    {
-      "name": "Colossal",
-      "feed": "https://www.thisiscolossal.com/feed",
-      "category": "05 Art Architecture"
-    },
-    {
-      "name": "Imagination",
-      "feed": "https://imagination.com/feed",
-      "category": "06 Retail Brand Experience"
-    },
-    {
-      "name": "George P. Johnson",
-      "feed": "https://www.gpj.com/feed",
-      "category": "06 Retail Brand Experience"
-    },
-    {
-      "name": "Awwwards",
-      "feed": "https://www.awwwards.com/feed",
-      "category": "03 DA Graphisme"
-    },
-    {
-      "name": "Jack Morton",
-      "feed": "https://jackmorton.com/feed",
-      "category": "06 Retail Brand Experience"
-    },
-    {
-      "name": "Type Directors Club",
-      "feed": "https://tdc.org/feed",
-      "category": "11 Graphisme Expertise"
-    },
-    {
-      "name": "Typographica",
-      "feed": "https://typographica.org/feed",
-      "category": "11 Graphisme Expertise"
-    },
-    {
-      "name": "Dance Magazine",
-      "feed": "https://www.dancemagazine.com/feed",
-      "category": "15 Danse Performance"
-    },
-    {
-      "name": "Effie Worldwide",
-      "feed": "https://www.effie.org/feed",
-      "category": "10 Strategie Insights"
-    },
-    {
-      "name": "Stash",
-      "feed": "https://www.stashmedia.tv/feed",
-      "category": "08 Immersif CGI Motion"
-    },
-    {
       "name": "Art of the Title",
       "feed": "https://www.artofthetitle.com/feed",
       "category": "08 Immersif CGI Motion"
-    },
-    {
-      "name": "Light ZOOM Lumière",
-      "feed": "https://www.lightzoomlumiere.fr/feed",
-      "category": "09 France Pro"
     },
     {
       "name": "Superbien",
@@ -198,260 +33,31 @@
       "category": "08 Immersif CGI Motion"
     },
     {
-      "name": "Campaign Middle East",
-      "feed": "https://campaignme.com/feed",
-      "category": "04 Pub Strategie"
+      "name": "Effie Worldwide",
+      "feed": "https://www.effie.org/feed",
+      "category": "10 Strategie Insights"
     },
     {
-      "name": "Grand Visual",
-      "feed": "https://grandvisual.com/feed",
-      "category": "07 FOOH OOH DOOH"
+      "name": "Dance Magazine",
+      "feed": "https://www.dancemagazine.com/feed",
+      "category": "15 Danse Performance"
     },
     {
-      "name": "FRATERCINÉ",
-      "feed": "https://www.fratercine.fr/feed",
-      "category": "09 France Pro"
-    },
-    {
-      "name": "IDlia Studio",
-      "feed": "https://www.idlia.fr/feed",
+      "name": "Light ZOOM Lumière",
+      "feed": "https://www.lightzoomlumiere.fr/feed",
       "category": "09 France Pro"
     }
   ],
-  "collection_slot": 0,
-  "collection_hour_paris": 19,
-  "sources_selected": 182,
-  "sources_checked": 171,
-  "special_test": true,
-  "special_selection": {
-    "01 Spectacle Concert": [
-      {
-        "title": "2D & 3D: Lighting Design for Broadway",
-        "url": "https://www.livedesignonline.com/premium/webinar/1414423",
-        "score": 29
-      },
-      {
-        "title": "See Glow Motion at LDI: Halo Ring & Next Gen Kinetic Systems",
-        "url": "https://www.livedesignonline.com/resource/see-glow-motion-ldi-halo-ring-next-gen-kinetic-systems",
-        "score": 21
-      },
-      {
-        "title": "Live Design: Terhal",
-        "url": "https://dragone.com/live-design-covers-terhal/",
-        "score": 21
-      }
-    ],
-    "02 TV Broadcast": [
-      {
-        "title": "Vizrt graphics chosen as the Official Technical Supplier of Eurovision 2026",
-        "url": "https://routing.vizrt.com/vizrt/press-center/pr-vizrt-graphics-eurovision-2026/",
-        "score": 11
-      },
-      {
-        "title": "Dispositif LED spectaculaire aux AV Awards",
-        "url": "https://www.avinteractive.com/markets-news/live-events/leyard-europe-and-universal-pixels-partner-at-av-awards-05-11-2026/",
-        "score": 8
-      },
-      {
-        "title": "Vizrt graphics help Girraphic deliver exclusive MMA event in stadium and on Netflix",
-        "url": "https://routing.vizrt.com/news-articles/vizrt-girraphic-netflix-mma-event-graphics/",
-        "score": 8
-      }
-    ],
-    "03 DA Graphisme": [
-      {
-        "title": "Pentagram looks to Grand Central Oyster Bar’s iconic lettering for its gorgeously gaudy Storefront Gala 2026 identity",
-        "url": "https://bpando.org/2026/10/22/pentagram-new-york-storefront-gala-2026-event-identity-design/",
-        "score": 29
-      },
-      {
-        "title": "Order creates a delightfully design history-steeped identity for Salt Lick on Salt Creek – but what actually is it?",
-        "url": "https://bpando.org/2026/10/13/order-salt-lick-on-salt-creek-lavender-farm-brand-identity/",
-        "score": 29
-      },
-      {
-        "title": "Mother Design pilfers from Y2K aesthetics and cymatic patterns in its masterful identity for spirituality app Purple Garden",
-        "url": "https://bpando.org/2026/11/05/mother-design-brand-identity-spirituality-app-purple-garden/",
-        "score": 23
-      }
-    ],
-    "04 Pub Strategie": [
-      {
-        "title": "Kcal packaging brings to life DIDI student’s winning design in collab",
-        "url": "https://campaignme.com/kcal-packaging-brings-to-life-didi-students-winning-design-in-new-collaboration/",
-        "score": 30
-      },
-      {
-        "title": "Eoin Cronolly nommé directeur créatif de Footballco",
-        "url": "https://campaignme.com/eoin-cronolly-appointed-as-creative-director-at-footballco/",
-        "score": 24
-      },
-      {
-        "title": "La liste complète des intervenants confirmée pour le petit-déjeuner de campagne : Out of Home 2027",
-        "url": "https://campaignme.com/first-wave-speakers-campaign-breakfast-briefing-out-of-home-2027/",
-        "score": 15
-      }
-    ],
-    "05 Art Architecture": [
-      {
-        "title": "demi nguyen balances corporate branding, fintech systems, and typographic archives",
-        "url": "https://www.designboom.com/readers/demi-nguyen-corporate-branding-fintech-systems-typographic-archives/",
-        "score": 29
-      },
-      {
-        "title": "lavazza tablì wins designboom special prize third place at seoul design award",
-        "url": "https://www.designboom.com/design/lavazza-tabli-wins-designboom-special-prize-third-place-at-seoul-design-award/",
-        "score": 26
-      },
-      {
-        "title": "Designing the invisible at the new ICG Gallery Dubai",
-        "url": "https://www.archdaily.com/1188160/designing-the-invisible-at-the-new-icg-gallery-dubai",
-        "score": 24
-      }
-    ],
-    "06 Retail Brand Experience": [
-      {
-        "title": "THE ARCHITECTURE OF EXTRAORDINARY: DESIGNING EXPERIENCES THAT TRANSFORM US",
-        "url": "https://www.gpj.com/news-insights/2026/11/the-architecture-of-extraordinary-designing-experiences-that-transform-us/",
-        "score": 18
-      },
-      {
-        "title": "IMG+RetailOne Acquires ecRetail Studio and Angle Architecture, Expanding Concept-to-Installation Capabilities",
-        "url": "https://vmsd.com/imgretailone-acquires-ecretail-studio-and-angle-architecture-expanding-concept-to-installation-capabilities/",
-        "score": 18
-      },
-      {
-        "title": "Rethink Trade Shows: Beyond the Booth",
-        "url": "https://jackmorton.com/pov/rethink-tradeshows-beyond-the-booth/",
-        "score": 18
-      }
-    ],
-    "07 FOOH OOH DOOH": [
-      {
-        "title": "Our 2025 Grand Visual OOH Christmas Campaigns",
-        "url": "https://grandvisual.com/christmas-ooh-campaigns-by-grand-visual/",
-        "score": 24
-      },
-      {
-        "title": "Our 2025 Grand Visual OOH Christmas Campaigns",
-        "url": "https://grandvisual.com/our-2025-grand-visual-ooh-christmas-campaigns/",
-        "score": 24
-      },
-      {
-        "title": "When OOH Talks Back: Our Favourite DCO Campaigns of the Last 5 Years",
-        "url": "https://grandvisual.com/dco-campaigns-of-the-last-5-years/",
-        "score": 18
-      }
-    ],
-    "08 Immersif CGI Motion": [
-      {
-        "title": "Motion Plus Design Returns to Paris 2026, November 14th",
-        "url": "https://www.stashmedia.tv/motion-plus-design-returns-to-paris-2026-november-14th/",
-        "score": 18
-      },
-      {
-        "title": "CREATIVE JAM SESSION",
-        "url": "https://www.superbien.studio/journal/creative-jam-session",
-        "score": 18
-      },
-      {
-        "title": "A vision taking shape, a sharper creative gesture",
-        "url": "https://www.superbien.studio/journal/a-vision-taking-shape-a-sharper-creative-gesture",
-        "score": 15
-      }
-    ],
-    "09 France Pro": [
-      {
-        "title": "L’ISTS ouvre la prochaine session de la formation métier “Régisseur général des entreprises du spectacle vivant”",
-        "url": "https://www.revue-as.fr/2026/11/04/lists-ouvre-la-prochaine-session-de-la-formation-metier-regisseur-general-des-entreprises-du-spectacle-vivant/",
-        "score": 20
-      },
-      {
-        "title": "CBC, Genius Loci, Sanae | Film 3D Concours Ehpad",
-        "url": "https://www.idlia.fr/cbc-genius-loci-sanae-film-3d-concours-ehpad/",
-        "score": 18
-      },
-      {
-        "title": "Limiter les impacts de la lumière artificielle",
-        "url": "https://www.lightzoomlumiere.fr/livre/limiter-les-impacts-de-la-lumiere-artificielle-cluster-lumiere/",
-        "score": 17
-      }
-    ],
-    "10 Strategie Insights": [],
-    "11 Graphisme Expertise": [
-      {
-        "title": "VS/Goods© — Cool Mockups",
-        "url": "https://mindsparklemag.com/website/vsgoods-cool-mockups",
-        "score": 32
-      },
-      {
-        "title": "Deji Ajetomobi",
-        "url": "https://mindsparklemag.com/website/deji-ajetomobi",
-        "score": 29
-      },
-      {
-        "title": "Meer Mohsin",
-        "url": "https://mindsparklemag.com/website/meer-mohsin",
-        "score": 23
-      }
-    ],
-    "12 Tendances Cultures": [],
-    "13 France Marketing Design": [
-      {
-        "title": "Qui dessine les lieux ? Dans les coulisses du design de signalétique",
-        "url": "https://www.etapes.com/2026/09/23/qui-dessine-les-lieux-dans-les-coulisses-du-design-de-signaletique/",
-        "score": 18
-      },
-      {
-        "title": "Ce qu’Instagram fait au design",
-        "url": "https://www.etapes.com/2026/08/26/ce-quinstagram-fait-au-design/",
-        "score": 18
-      },
-      {
-        "title": "Écoles de design : derrière un même diplôme, des formations très différentes",
-        "url": "https://www.etapes.com/2026/10/27/ecoles-de-design-derriere-un-meme-diplome-des-formations-tres-differentes/",
-        "score": 15
-      }
-    ],
-    "14 Musique Clips": [
-      {
-        "title": "UK Music Video Awards 2026: here we go...",
-        "url": "https://www.promonews.tv/news/2026/11/04/uk-music-video-awards-2026-here-we-go/96847",
-        "score": 17
-      },
-      {
-        "title": "UK Music Video Awards 2026 : dans l'enceinte des gagnants",
-        "url": "https://www.promonews.tv/news/2026/11/06/uk-music-video-awards-2026-winners-enclosure/96865",
-        "score": 14
-      },
-      {
-        "title": "Omah Lay : l'épure sculpturale de NWSPK",
-        "url": "https://www.promonews.tv/videos/2026/11/06/omah-lay-artificial-happiness-nwspk/96846",
-        "score": 14
-      }
-    ],
-    "15 Danse Performance": [
-      {
-        "title": "9 Must-See Performances Hitting Stages This October",
-        "url": "https://dancemagazine.com/dance-performances-onstage-october-2026/?utm_source=rss&utm_medium=rss&utm_campaign=dance-performances-onstage-october-2026",
-        "score": 23
-      },
-      {
-        "title": "Celebrating Dance Magazine Award Honoree Ayodele Casel",
-        "url": "https://dancemagazine.com/ayodele-casel-dm-awards/?utm_source=rss&utm_medium=rss&utm_campaign=ayodele-casel-dm-awards",
-        "score": 14
-      },
-      {
-        "title": "10 Not-Nutcracker Shows Worth Seeing This November and December",
-        "url": "https://dancemagazine.com/dance-performances-onstage-november-december-2026/?utm_source=rss&utm_medium=rss&utm_campaign=dance-performances-onstage-november-december-2026",
-        "score": 14
-      }
-    ]
-  },
+  "collection_slot": 2,
+  "collection_hour_paris": 20,
+  "sources_selected": 34,
+  "sources_checked": 34,
+  "special_test": false,
+  "special_selection": {},
   "backfill_test": {
     "period": "2026-11-01/2026-11-07",
-    "articles": 373,
-    "with_images": 223
+    "articles": 312,
+    "with_images": 176
   },
   "items": [
     {
@@ -524,7 +130,7 @@
       "url": "https://www.archdaily.com/1188185/fuentesauco-pharmacy-david-hernandez-arquitectura",
       "published": "2026-11-08T11:00:00+00:00",
       "summary": "The Fuentesaúco Pharmacy offers a reflection on the role of architecture in the recovery and modernization of essential services in rural areas. In a town of approximately 1,500 inhabitants, the project goes beyond renovating a commercial establishment to reaffirm the importance of maintaining nearby, accessible healthcare facilities that are connected to the everyday life of the community. In a context marked by population decline, architecture also becomes a tool for preserving quality of life and strengthening the community's identity.",
-      "image": "",
+      "image": "https://images.adsttc.com/media/images/6ae2/f733/3271/8400/01d0/fa5c/large_jpg/01_Exterior_01_David_Hernandez_Sergio_Murillo.jpg?1793259355",
       "source": "ArchDaily",
       "category": "05 Art Architecture",
       "angle": "Lire parcours et plans",
@@ -563,7 +169,7 @@
       "url": "https://www.archdaily.com/1187924/the-work-of-keeping-a-public-building-public-the-drill-hall-in-johannesburg",
       "published": "2026-11-08T07:30:00+00:00",
       "summary": "What happens to a building after the architecture is finished? For buildings intended to serve the public, their continued life depends on more than the physical conditions of their construction. It involves the activities that take place within them, the relationships they allow to develop, the people who occupy and shape them , and the institutional structures responsible for their upkeep. Yet these conditions are not always secured through the act of building itself. They are continually negotiated, often through forms of work that remain outside the conventional understanding of architectural practice.",
-      "image": "",
+      "image": "https://images.adsttc.com/media/images/6ae6/28d4/a04f/d001/89cd/45b6/large_jpg/the-work-of-keeping-a-public-building-public-keleketla-s-occupation-of-drill-hall-johannesburg_1.jpg?1793468651",
       "source": "ArchDaily",
       "category": "05 Art Architecture",
       "angle": "Lire parcours et plans",
@@ -576,7 +182,7 @@
       "url": "https://www.archdaily.com/1187779/one-orient-headquarters-von-gerkan-marg-and-partners-architects",
       "published": "2026-11-08T06:00:00+00:00",
       "summary": "One Orient, the new corporate headquarters of technology group Telling in China's third-largest metropolis, Shenzhen , has been completed to plans by architects von Gerkan, Marg and Partners (gmp). The project is defined by its modular design and unitized facade, whose frames seamlessly integrate all technical components, reducing the building's appearance to uninterrupted glass and profile surfaces. The Council on Tall Buildings and Urban Habitat (CTBUH) recognized this facade system with the CTBUH China Award in the \"Facade Innovation Excellence\" category.",
-      "image": "",
+      "image": "https://images.adsttc.com/media/images/6ae3/7392/1c13/4b01/a2d9/b95f/large_jpg/one-orient-headquarters-von-gerkan-marg-and-partners-architects_1.jpg?1793291175",
       "source": "ArchDaily",
       "category": "05 Art Architecture",
       "angle": "Lire parcours et plans",
@@ -628,7 +234,7 @@
       "url": "https://www.archdaily.com/1187503/u-house-naqi-and-partners",
       "published": "2026-11-07T21:00:00+00:00",
       "summary": "In many rural areas of northern Vietnam, large plots once occupied by extended families and lineages are gradually being subdivided among younger generations to build separate homes. As the lifestyles of younger generations evolve alongside urbanization, patterns of settlement are changing: plots are becoming smaller, multi-storey houses are replacing low-rise garden houses, while family life is becoming increasingly independent.",
-      "image": "",
+      "image": "https://images.adsttc.com/media/images/6adf/304a/3271/8400/01d0/e953/large_jpg/UHouse-2.jpg?1793011815",
       "source": "ArchDaily",
       "category": "05 Art Architecture",
       "angle": "Lire parcours et plans",
@@ -641,7 +247,7 @@
       "url": "https://www.artforum.com/news/sweden-returns-benin-bronzes-nigeria-1234763242/",
       "published": "2026-11-07T19:41:37+00:00",
       "summary": "Sweden will return 40 sacred Benin artifacts to Nigeria. It will be one of the largest repatriations of Benin work to date. The artworks were set to return to Lagos yesterday. Oba Ewuare II, the monarch of Benin, has described the return of work as long in the making. “We have been trying, through my […]",
-      "image": "",
+      "image": "https://www.artforum.com/wp-content/uploads/2026/11/Benin_Bronze.jpg?w=650",
       "source": "Artforum",
       "category": "05 Art Architecture",
       "angle": "Approfondir les références artistiques",
@@ -680,7 +286,7 @@
       "url": "https://www.archdaily.com/1186270/house-with-forest-windows-yosuke-tomiya-architectural-design",
       "published": "2026-11-07T17:00:00+00:00",
       "summary": "House with Forest Windows is a compact timber residence in Sapporo , Hokkaido, located where an ordinary suburban neighborhood meets a dense woodland. The site offered an unusual condition: while neighboring houses stand close on the street side, the rear of the property opens directly toward the forest. The design began by asking how everyday family life could engage with this landscape while maintaining privacy from the surrounding residential environment.",
-      "image": "",
+      "image": "https://images.adsttc.com/media/images/6ac0/0585/90e2/9d01/89d2/dbf1/large_jpg/house-with-forest-windows-yosuke-tomiya-architectural-design_1.jpg?1790969246",
       "source": "ArchDaily",
       "category": "05 Art Architecture",
       "angle": "Lire parcours et plans",
@@ -693,7 +299,7 @@
       "url": "https://www.archdaily.com/1188205/apartment-renovation-in-the-ensanche-of-bilbao-babelstudio",
       "published": "2026-11-07T16:00:00+00:00",
       "summary": "The apartment, the subject of this project, is located in Bilbao's Ensanche district and features a layout characteristic of 1970s housing: highly compartmentalized, with small rooms. With a built area of 80 m², the original floor plan included several bedrooms, a kitchen, a breakfast area, a living room, two bathrooms, and a long terrace along the main façade.",
-      "image": "",
+      "image": "https://images.adsttc.com/media/images/6ad0/d744/b2c4/c300/0178/f8e4/large_jpg/ENSANCHE_002.jpg?1792071512",
       "source": "ArchDaily",
       "category": "05 Art Architecture",
       "angle": "Lire parcours et plans",
@@ -732,7 +338,7 @@
       "url": "https://www.archdaily.com/1027157/mila-house-isla-architects",
       "published": "2026-11-07T15:00:00+00:00",
       "summary": "The idea of renovating a mid-terrace home—tucked between a small street and an alley—changed radically when the opportunity arose to purchase the adjacent plot, a long, narrow strip measuring 25 meters long by just 2.5 meters wide, built edge to edge. This allowed for the creation of large openings onto the new courtyard, and the project transformed into an exploration of all possible ways to bring light into the homes: sliding windows flush with the wall exterior, vertical and horizontal pivoting panels, arched French doors, circular skylights, guillotine windows, and liftable panes.",
-      "image": "",
+      "image": "https://images.adsttc.com/media/images/67b6/2e80/cd9a/d701/88b4/b096/large_jpg/casa-mila-isla-architects_10.jpg?1739992716",
       "source": "ArchDaily",
       "category": "05 Art Architecture",
       "angle": "Lire parcours et plans",
@@ -758,7 +364,7 @@
       "url": "https://www.archdaily.com/1188223/amabile-apartment-denis-joelsons",
       "published": "2026-11-07T13:00:00+00:00",
       "summary": "When Amabile invited me to visit the apartment, her initial plan was to install a gas water heater and refresh the spaces. The apartment was dark, with the bedrooms facing the street and the social areas facing the neighboring lot.",
-      "image": "",
+      "image": "https://images.adsttc.com/media/images/6aee/7426/4ba6/4700/01d0/7d6b/large_jpg/Amabile_01.jpg?1794012270",
       "source": "ArchDaily",
       "category": "05 Art Architecture",
       "angle": "Lire parcours et plans",
@@ -771,7 +377,7 @@
       "url": "https://www.archdaily.com/1187621/edicola-518-giuseppe-arezzi",
       "published": "2026-11-07T11:00:00+00:00",
       "summary": "The project for Edicola 518 redefines the kiosk for independent magazines and books along the historic staircase of Sant'Ercolano in Perugia , transforming it into an \"Urban oasis for cultural exhibitionism\" and a device for social activation.",
-      "image": "",
+      "image": "https://images.adsttc.com/media/images/6ae0/cb8f/3271/8400/01d0/f23d/large_jpg/01_The_Kiosk_Edicola_518_Design_Giuseppe_Arezzi_2026_Ph.Credit_Giovanni_Emilio_Galanello.jpg?1793117090",
       "source": "ArchDaily",
       "category": "05 Art Architecture",
       "angle": "Lire parcours et plans",
@@ -784,7 +390,7 @@
       "url": "https://www.archdaily.com/1187909/masso-apartment-castroferro-arquitectura",
       "published": "2026-11-07T10:00:00+00:00",
       "summary": "Piso Massó approaches the renovation of a historic apartment in Vigo as an exercise in restoring those spatial qualities capable of continuing to respond to contemporary ways of living.",
-      "image": "",
+      "image": "https://images.adsttc.com/media/images/6aa2/e202/05b6/9900/01b5/3af8/large_jpg/cf_masso_39.jpg?1789059709",
       "source": "ArchDaily",
       "category": "05 Art Architecture",
       "angle": "Lire parcours et plans",
@@ -823,7 +429,7 @@
       "url": "https://www.archdaily.com/1187476/a-walk-on-the-roof-linnahall-and-tallinns-shifting-shoreline",
       "published": "2026-11-07T07:30:00+00:00",
       "summary": "From the end of Mere Boulevard in Tallinn , Linnahall appears as a long, low mass of limestone and concrete laid between the Old Town and the bay, kept deliberately beneath the line of the medieval silhouette so that the spires remain visible from the water. Broad stairways climb its flanks to a roof paved as a public square, and from there a sequence of terrace steps down toward a small pier, a helicopter pad and the open Gulf of Finland . Under that surface sit an amphitheater for 4,200 people, a foyer of 6,000 square meters, an ice hall, cafés, a bowling alley and a recording studio.",
-      "image": "",
+      "image": "https://images.adsttc.com/media/images/6ae4/b738/a04f/d001/89cd/426e/large_jpg/a-walk-on-the-roof-linnahall-and-tallinns-shifting-shoreline_17.jpg?1793374067",
       "source": "ArchDaily",
       "category": "05 Art Architecture",
       "angle": "Lire parcours et plans",
@@ -836,7 +442,7 @@
       "url": "https://www.archdaily.com/1187683/beach-house",
       "published": "2026-11-07T06:00:00+00:00",
       "summary": "This beach house is a response to future climate change. The building is elevated on piers to withstand future storm surges, giving the impression that it is hovering above the dunes.",
-      "image": "",
+      "image": "https://images.adsttc.com/media/images/6ae1/fddc/3271/8400/01d0/f633/large_jpg/6259861-89.jpg?1793195516",
       "source": "ArchDaily",
       "category": "05 Art Architecture",
       "angle": "Lire parcours et plans",
@@ -3447,7 +3053,8 @@
       "source": "Konbini Musique",
       "category": "14 Musique Clips",
       "angle": "Décrypter intention, émotion, mise en scène, image et son des clips et performances musicales",
-      "status": "source_detected_not_editorially_analyzed"
+      "status": "source_detected_not_editorially_analyzed",
+      "title_fr": "Le method dressing de McKenna Grace pour Hunger Games"
     },
     {
       "title": "Saya Gray Drops Qwerty III EP",
@@ -6360,6 +5967,325 @@
       "source": "Vizrt",
       "category": "02 TV Broadcast",
       "angle": "Explorer la scénographie augmentée",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "Fragiles : When images stand for a cause",
+      "url": "https://www.superbien.studio/journal/fragiles-when-images-stand-for-a-cause",
+      "published": "2025-08-04T16:40:25+00:00",
+      "summary": "On Tuesday, March 11, 2025, the Trianon opened its doors for the launch of IMPACT, the first coalition committed to fighting road violence. Led by the Antoine Alléno Association, this movement addresses an unbearable reality: every year, road accidents are… The post Fragiles : When images stand for a cause appeared first on Superbien .",
+      "image": "",
+      "source": "Superbien",
+      "category": "08 Immersif CGI Motion",
+      "angle": "Étudier spatialisation des images",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "A vision taking shape, a sharper creative gesture",
+      "url": "https://www.superbien.studio/journal/a-vision-taking-shape-a-sharper-creative-gesture",
+      "published": "2025-07-03T09:06:00+00:00",
+      "summary": "There are moments when everything aligns — when projects, identity, and storytelling all move forward in unison. These past weeks have marked a pivotal moment at Superbien. Our visual language is evolving. Our formats are becoming more refined. Our positioning is… The post A vision taking shape, a sharper creative gesture appeared first on Superbien .",
+      "image": "",
+      "source": "Superbien",
+      "category": "08 Immersif CGI Motion",
+      "angle": "Étudier spatialisation des images",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "Simone Ferrari is the new Chief Creative Officer of Balich Wonder Studio",
+      "url": "https://www.balichwonderstudio.com/simone-ferrari-is-the-new-chief-creative-officer-of-balich-wonder-studio/",
+      "published": "2025-01-20T10:00:51+00:00",
+      "summary": "Balich Wonder Studio, the global leader in live entertainment known for creating groundbreaking and immersive live experiences, is proud to announce the appointment of Simone Ferrari as its new Chief Creative Officer. In this role, Simone will oversee the creative direction of Balich Wonder Studio’s Ceremonies and Special Projects units. Simone Ferrari is a visionary […] The post Simone Ferrari is the new Chief Creative Officer of Balich Wonder Studio appeared first on Balich Wonder Studio | Live Entertainment Group .",
+      "image": "",
+      "source": "Balich Wonder Studio",
+      "category": "01 Spectacle Concert",
+      "angle": "Analyser la dramaturgie à grande échelle",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "SLAM X SUPERBIEN",
+      "url": "https://www.superbien.studio/journal/slam",
+      "published": "2024-12-20T11:45:09+00:00",
+      "summary": "SLAM X SUPERBIEN Paris, December 10, 2024 – Investment by management company TRAIL, through its SLAM fund, in the creative studio Superbien. A partnership between leading players known for their unique and boundary-pushing productions. A reference in the creation of… The post SLAM X SUPERBIEN appeared first on Superbien .",
+      "image": "",
+      "source": "Superbien",
+      "category": "08 Immersif CGI Motion",
+      "angle": "Étudier spatialisation des images",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "Dolce Vita & French Touch – Valentina Saluzzi for the Spécial Luxe, CB News",
+      "url": "https://www.balichwonderstudio.com/balich-wonder-studio-france-valentina-saluzzi-cb-news/",
+      "published": "2024-12-10T10:00:42+00:00",
+      "summary": "Valentina Saluzzi, Managing Director of Balich Wonder Studio France, recently spoke with CB News for the Spécial Luxe about the company’s latest initiative in France, highlighting the unique blend of La Dolce Vita and The French Touch styles as key elements of this new venture. Read the full article by Fouzia Kamal here. The post Dolce Vita & French Touch – Valentina Saluzzi for the Spécial Luxe, CB News appeared first on Balich Wonder Studio | Live Entertainment Group .",
+      "image": "",
+      "source": "Balich Wonder Studio",
+      "category": "01 Spectacle Concert",
+      "angle": "Analyser la dramaturgie à grande échelle",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "In conversation with Valentina Saluzzi e Carolina Dotti",
+      "url": "https://www.balichwonderstudio.com/balich-wonder-studio-valentina-saluzzi-carolina-dotti-rivista-studio/",
+      "published": "2024-10-02T10:44:40+00:00",
+      "summary": "Valentina Saluzzi and Carolina Dotti, partners at Balich Wonder Studio, are dedicated to the world of luxury, fashion, and lifestyle brands. They recently spoke with Rivista Studio about the challenges of organizing live experiences at a time when brands are vying for the attention of increasingly disloyal but sought-after customers. They also discussed about the […] The post In conversation with Valentina Saluzzi e Carolina Dotti appeared first on Balich Wonder Studio | Live Entertainment Group .",
+      "image": "",
+      "source": "Balich Wonder Studio",
+      "category": "01 Spectacle Concert",
+      "angle": "Analyser la dramaturgie à grande échelle",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "Vivaldi in 3D e visionario",
+      "url": "https://www.balichwonderstudio.com/viva-vivaldi-corriere-della-sera/",
+      "published": "2024-09-09T12:38:14+00:00",
+      "summary": "On the 300th anniversary of the publication of Antonio Vivaldi’s “The Four Seasons,” Fondazione Arena di Verona and Balich Wonder Studio unveiled the groundbreaking performance “Viva Vivaldi. The Four Seasons Immersive Concert” at the Arena di Verona, Italy, on August 28th. Conceived by Marco Balich and co-produced by Fondazione Arena di Verona, the show brought to the stage […] The post Vivaldi in 3D e visionario appeared first on Balich Wonder Studio | Live Entertainment Group .",
+      "image": "https://www.balichwonderstudio.com/wp-content/uploads/2024/06/balich-wonder-studio-viva-vivaldi-four-seasons-immersive-show-light-projection-zanon.jpg",
+      "source": "Balich Wonder Studio",
+      "category": "01 Spectacle Concert",
+      "angle": "Analyser la dramaturgie à grande échelle",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "MIDJOURNEY INFINITY",
+      "url": "https://www.superbien.studio/journal/midjourney-infinity",
+      "published": "2024-03-14T09:49:00+00:00",
+      "summary": "Chloé Ross, a graphic designer at Superbien, had fun exploring the possibilities offered by AI and new digital worlds! Primarily using MIDJOURNEY—a generative AI program—Chloé “wanted to see how she could play with the blurry limits of reality and imagination,… The post MIDJOURNEY INFINITY appeared first on Superbien .",
+      "image": "",
+      "source": "Superbien",
+      "category": "08 Immersif CGI Motion",
+      "angle": "Étudier spatialisation des images",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "CREATIVE JAM SESSION",
+      "url": "https://www.superbien.studio/journal/creative-jam-session",
+      "published": "2024-02-16T09:44:00+00:00",
+      "summary": "At another Superbien-signed Creative Jam Session, our team members, friends and clients played with audio-reactive live visuals in the Superlab. We had DJs playing live sets with an immersive video-projection surrounding them, providing a real-time translation of music into visuals.… The post CREATIVE JAM SESSION appeared first on Superbien .",
+      "image": "",
+      "source": "Superbien",
+      "category": "08 Immersif CGI Motion",
+      "angle": "Étudier spatialisation des images",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "Hello world!",
+      "url": "https://effie.org/hello-world/",
+      "published": "2024-02-15T17:37:25+00:00",
+      "summary": "Welcome to WordPress. This is your first post. Edit or delete it, then start writing! The post Hello world! appeared first on Effie Worldwide .",
+      "image": "",
+      "source": "Effie Worldwide",
+      "category": "10 Strategie Insights",
+      "angle": "Relier créativité et performance",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "THE USA TRANSFORMATIVE JOURNEY",
+      "url": "https://www.superbien.studio/journal/the-usa-transformative-journey",
+      "published": "2023-12-22T09:32:00+00:00",
+      "summary": "What an exceptional year for our US office! Kudos to our US team for exploring diverse storytelling formats and integrating innovative technology to connect with the public! Through 3D billboards, monumental video mapping, engaging installations and exhibition for Luxury clients… The post THE USA TRANSFORMATIVE JOURNEY appeared first on Superbien .",
+      "image": "",
+      "source": "Superbien",
+      "category": "08 Immersif CGI Motion",
+      "angle": "Étudier spatialisation des images",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "THE USA SUPER TEAM",
+      "url": "https://www.superbien.studio/journal/the-usa-super-team",
+      "published": "2023-11-09T09:21:10+00:00",
+      "summary": "Introducing our new Head of Operations: based in New York for over 26 years, Marie Flageul is an Art Advocate and Producer dedicated to pushing the boundaries of our work in the US. She’s assembling an exceptional team in Brooklyn to foster… The post THE USA SUPER TEAM appeared first on Superbien .",
+      "image": "",
+      "source": "Superbien",
+      "category": "08 Immersif CGI Motion",
+      "angle": "Étudier spatialisation des images",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "BEHIND MONCLER MONUMENTAL MAPPING AT THE DOMINO SUGAR FACTORY",
+      "url": "https://www.superbien.studio/journal/bts-superbien-moncler",
+      "published": "2023-11-07T15:56:03+00:00",
+      "summary": "Come behind the scenes with Superbien and watch us do what has never been done before: video map onto the historical Domino Sugar Factory in Brooklyn for Moncler’s legendary RE/ICONS campaign! Moncler’s campaign team recognized the historic Domino Sugar factory… The post BEHIND MONCLER MONUMENTAL MAPPING AT THE DOMINO SUGAR FACTORY appeared first on Superbien .",
+      "image": "",
+      "source": "Superbien",
+      "category": "08 Immersif CGI Motion",
+      "angle": "Étudier spatialisation des images",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "HIP HOP TIL INFINITY PRESS",
+      "url": "https://www.superbien.studio/journal/hip-hop-til-infinity-press",
+      "published": "2023-08-21T14:58:12+00:00",
+      "summary": "Hip Hop Til Infinity at the Hall des Lumières, got great press coverage! Get your ticket today and travel into the skate parks to the clubs where it all started! Artnet: “Hip Hop Til Infinity includes never-before-seen and archival footage of… The post HIP HOP TIL INFINITY PRESS appeared first on Superbien .",
+      "image": "",
+      "source": "Superbien",
+      "category": "08 Immersif CGI Motion",
+      "angle": "Étudier spatialisation des images",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "Olympic Games Ceremonies Wizard Marco Balich on Partnering With Banijay to ‘Challenge’ Global Live Entertainment Operators (EXCLUSIVE)",
+      "url": "https://www.balichwonderstudio.com/balich-wonder-studio-olympic-games-ceremonies-wizard-marco-balich-on-partnering-with-banijay/",
+      "published": "2023-06-21T12:26:48+00:00",
+      "summary": "Milan-based events creator Marco Balich has choreographed and produced a record-breaking 14 Olympic ceremonies, including for the 2006, 2014, 2016 and 2020 Olympics respectively held in Turin, Sochi, Rio de Janeiro and Tokyo. More recently, Balich and his team created the spectacular ceremony for the 2022 Qatar FIFA World Cup. His Balich Wonder Studio has […] The post Olympic Games Ceremonies Wizard Marco Balich on Partnering With Banijay to ‘Challenge’ Global Live Entertainment Operators (EXCLUSIVE) appeared first on Balich Wonder Studio | Live Entertainment Group .",
+      "image": "",
+      "source": "Balich Wonder Studio",
+      "category": "01 Spectacle Concert",
+      "angle": "Analyser la dramaturgie à grande échelle",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "A unique candlelight concert in the middle of the desert",
+      "url": "https://www.balichwonderstudio.com/a-unique-candlelight-concert-in-the-middle-of-the-desert/",
+      "published": "2022-01-20T16:38:13+00:00",
+      "summary": "A new magical experience has just lit up in the middle of the desert. People could live a unique emotion by attending the Candlelight Concert, an atmospheric musical performance set in the archaeological site of Hegra (AlUla, Saudi Arabia), the UNESCO World Heritage Site famous for having more than 100 monumental tombs carved from rock […] The post A unique candlelight concert in the middle of the desert appeared first on Balich Wonder Studio | Live Entertainment Group .",
+      "image": "https://www.balichwonderstudio.com/wp-content/uploads/2022/01/balich-wonder-studio-hegra-candlelit-classics-arabia-saudita-top-40-charts.png",
+      "source": "Balich Wonder Studio",
+      "category": "01 Spectacle Concert",
+      "angle": "Analyser la dramaturgie à grande échelle",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "Hegra Candlelight Classics, a special musical performance in the archeological site of Hegra",
+      "url": "https://www.balichwonderstudio.com/hegra-candlelight-classics-a-special-musical-performance-in-the-archeological-site-of-hegra/",
+      "published": "2022-01-20T16:21:51+00:00",
+      "summary": "Hegra Candlelight Concert, a special musical performance in the archeological site of Hegra, was held last night to ring in the New Year. Hegra is a UNESCO World Heritage Site in Saudi Arabia famous for having more than 100 monumental tombs carved from rock formations. The concert is the brainchild of Italy’s Balich Wonder Studio, […] The post Hegra Candlelight Classics, a special musical performance in the archeological site of Hegra appeared first on Balich Wonder Studio | Live Entertainment Group .",
+      "image": "https://www.balichwonderstudio.com/wp-content/uploads/2022/01/balich-wonder-studio-hegra-candlelit-classics-arabia-saudita-cbs-radio-news.png",
+      "source": "Balich Wonder Studio",
+      "category": "01 Spectacle Concert",
+      "angle": "Analyser la dramaturgie à grande échelle",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "AlUla will ring in the New Year with a candlelit concert",
+      "url": "https://www.balichwonderstudio.com/alula-will-ring-in-the-new-year-with-a-candlelit-concert/",
+      "published": "2022-01-20T15:26:15+00:00",
+      "summary": "Al Ula is hosting a candlelight concert to ring in the New Year. The musical performance will take place at the Unesco World Heritage site of Hegra on Friday and will be illuminated by hundreds of “high-tech” candles that cast an evocative light over the archeological site. This is the first time that the site, […] The post AlUla will ring in the New Year with a candlelit concert appeared first on Balich Wonder Studio | Live Entertainment Group .",
+      "image": "https://www.balichwonderstudio.com/wp-content/uploads/2022/01/balich-wonder-studio-hegra-candlelit-classics-arabia-saudita-the-national-news-travel.png",
+      "source": "Balich Wonder Studio",
+      "category": "01 Spectacle Concert",
+      "angle": "Analyser la dramaturgie à grande échelle",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "A unique duo of candlelight concerts in the UNESCO archeological site of Hegra",
+      "url": "https://www.balichwonderstudio.com/a-unique-duo-of-candlelight-concerts-in-the-unesco-archeological-site-of-hegra/",
+      "published": "2022-01-20T15:14:47+00:00",
+      "summary": "On Christmas Eve the Saudi Arabian desert came alive with an intimate repertoire of light and music. Hegra Candlelit Classics was performed live by the famous South African musical director Stefan Lombard ensemble and comprised the piano, violin, cello and the oud surrounded by the archeological UNESCO site of Hegra (AlUla) in the Saudi Arabian […] The post A unique duo of candlelight concerts in the UNESCO archeological site of Hegra appeared first on Balich Wonder Studio | Live Entertainment Group .",
+      "image": "https://www.balichwonderstudio.com/wp-content/uploads/2022/01/balich-wonder-studio-hegra-candlelit-classics-arabia-saudita-travel-magazine.png",
+      "source": "Balich Wonder Studio",
+      "category": "01 Spectacle Concert",
+      "angle": "Analyser la dramaturgie à grande échelle",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "Winter Gondola design by Philippe Starck to serve as the new symbol for Venice",
+      "url": "https://www.balichwonderstudio.com/winter-gondola-design-by-philippe-starck-to-serve-as-the-new-symbol-for-venice/",
+      "published": "2021-09-21T09:28:44+00:00",
+      "summary": "Philippe Starck was invited by Marco Balich to come up with a new symbol for VeniSIA, a Venice-based corporate accelerator dedicated to the development of business ideas and technological solutions capable of facing climate change and various environmental challenges. Starting from one of the most representative icons of the city, the french designer unveils the […] The post Winter Gondola design by Philippe Starck to serve as the new symbol for Venice appeared first on Balich Wonder Studio | Live Entertainment Group .",
+      "image": "",
+      "source": "Balich Wonder Studio",
+      "category": "01 Spectacle Concert",
+      "angle": "Analyser la dramaturgie à grande échelle",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "From ceremonial flourish, to ceremonial award; I’mPOSSIBLE awards given out at Tokyo 2020",
+      "url": "https://www.balichwonderstudio.com/from-ceremonial-flourish-to-ceremonial-award-impossible-awards-given-out-at-tokyo-2020/",
+      "published": "2021-09-20T16:35:04+00:00",
+      "summary": "The iconic moment when Russian Paralympian, Alexey Chuvasev, changed the word “impossible” to the phrase “I’m possible” has now gone full circle with a set of I’mPossible Awards given out at Tokyo 2020. The now iconic moment was part of a greater ceremonial concept produced by Balich Wonder Studio from an idea of Lida Castelli […] The post From ceremonial flourish, to ceremonial award; I’mPOSSIBLE awards given out at Tokyo 2020 appeared first on Balich Wonder Studio | Live Entertainment Group .",
+      "image": "",
+      "source": "Balich Wonder Studio",
+      "category": "01 Spectacle Concert",
+      "angle": "Analyser la dramaturgie à grande échelle",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "Balich Wonder Studio: creating captivating events and entertainment",
+      "url": "https://www.balichwonderstudio.com/balich-wonder-studio-creating-captivating-events-and-entertainment/",
+      "published": "2021-07-26T16:37:17+00:00",
+      "summary": "Balich Wonder Studio is a global player in the live entertainment and communication industry. Based in Italy, it merges international talents and partners to create and manage ground-breaking events and experiences across five continents. Stefano Core is CEO of Balich Wonder Studio. He talks to Blooloop about the company’s recent rebrand, its projects and plans. He […] The post Balich Wonder Studio: creating captivating events and entertainment appeared first on Balich Wonder Studio | Live Entertainment Group .",
+      "image": "",
+      "source": "Balich Wonder Studio",
+      "category": "01 Spectacle Concert",
+      "angle": "Analyser la dramaturgie à grande échelle",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "Tokyo Olympics Opening Ceremony Director Fired Over Holocaust Joke Made in 1990s",
+      "url": "https://www.balichwonderstudio.com/tokyo-olympics-opening-ceremony-director-fired-over-holocaust-joke-made-in-1990s/",
+      "published": "2021-07-24T16:41:45+00:00",
+      "summary": "“I’m just very sad because it’s already so difficult to stage a ceremony,” said Marco Balich, a senior adviser to the executive producer of the Tokyo opening and closing ceremonies. “An Olympic ceremony for us producers and directors is something that gives you gray hair, because there’s so many things like music and choreography you […] The post Tokyo Olympics Opening Ceremony Director Fired Over Holocaust Joke Made in 1990s appeared first on Balich Wonder Studio | Live Entertainment Group .",
+      "image": "https://www.balichwonderstudio.com/wp-content/uploads/2021/07/balich-wonder-studio-tokyo-2020-marco-balich-olympic-ceremony-1.jpeg",
+      "source": "Balich Wonder Studio",
+      "category": "01 Spectacle Concert",
+      "angle": "Analyser la dramaturgie à grande échelle",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "Olympics Opening Ceremony kicks off in Tokyo",
+      "url": "https://www.balichwonderstudio.com/olympics-opening-ceremony-kicks-off-in-tokyo/",
+      "published": "2021-07-24T11:26:04+00:00",
+      "summary": "The Opening Ceremony for the Tokyo 2020 Olympics kicks off after a year of delays, setbacks, and embarrassments. Watch the interview with Marco Balich, Senior Advisor to the Executive Producer of the Tokyo 2020 Ceremonies. The post Olympics Opening Ceremony kicks off in Tokyo appeared first on Balich Wonder Studio | Live Entertainment Group .",
+      "image": "",
+      "source": "Balich Wonder Studio",
+      "category": "01 Spectacle Concert",
+      "angle": "Analyser la dramaturgie à grande échelle",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "Tokyo 2020 Opening Ceremony: What we know, who’s going and who’s not",
+      "url": "https://www.balichwonderstudio.com/tokyo-2020-opening-ceremony-what-we-know-whos-going-and-whos-not/",
+      "published": "2021-07-23T10:20:49+00:00",
+      "summary": "Marco Balich, a former opening ceremonies executive producer and now a senior advisor to the Tokyo ceremony, told Reuters that Friday’s event will be a “sobering” ceremony. “Nevertheless with beautiful Japanese aesthetics. Very Japanese but also in sync with the sentiment of today, the reality,” said Balich, who was in charge of the 2016 Rio […] The post Tokyo 2020 Opening Ceremony: What we know, who’s going and who’s not appeared first on Balich Wonder Studio | Live Entertainment Group .",
+      "image": "",
+      "source": "Balich Wonder Studio",
+      "category": "01 Spectacle Concert",
+      "angle": "Analyser la dramaturgie à grande échelle",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "Pandemic and flagging support to make Tokyo Olympics opener a show like no other",
+      "url": "https://www.balichwonderstudio.com/pandemic-and-flagging-support-to-make-tokyo-olympics-opener-a-show-like-no-other/",
+      "published": "2021-07-23T10:02:37+00:00",
+      "summary": "Although organisers have refused to release details, Marco Balich, an adviser to the executive producer for Tokyo, said the ceremony would be cognisant of public sentiment in the age of Covid-19. In contrast to the usual displays of mass choreography, giant props and bright lights, it would be “sobering”, but also mindful of the host […] The post Pandemic and flagging support to make Tokyo Olympics opener a show like no other appeared first on Balich Wonder Studio | Live Entertainment Group .",
+      "image": "",
+      "source": "Balich Wonder Studio",
+      "category": "01 Spectacle Concert",
+      "angle": "Analyser la dramaturgie à grande échelle",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "Tokyo 2020 opening ceremony will be ‘sobering’ show, not flashy",
+      "url": "https://www.balichwonderstudio.com/tokyo-2020-opening-ceremony-will-be-sobering-show-not-flashy/",
+      "published": "2021-07-21T12:00:23+00:00",
+      "summary": "TOKYO (Reuters) – Forget the mass choreography, the huge props and the cornucopia of dancer, actors and lights associated with an Olympic Games opening ceremony. Tokyo’s grand opening on Friday will have none of that splendour or grandiosity. Instead it will be a scaled down affair, a “sobering” performance, Marco Balich, longtime Opening Ceremonies Executive Producer, […] The post Tokyo 2020 opening ceremony will be ‘sobering’ show, not flashy appeared first on Balich Wonder Studio | Live Entertainment Group .",
+      "image": "https://www.balichwonderstudio.com/wp-content/uploads/2021/07/ZSQCRSZHZNOR7DISDCVGXYJVUU.jpeg",
+      "source": "Balich Wonder Studio",
+      "category": "01 Spectacle Concert",
+      "angle": "Analyser la dramaturgie à grande échelle",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "Everything to Know About the Tokyo Summer Olympics Opening Ceremony",
+      "url": "https://www.balichwonderstudio.com/everything-to-know-about-the-tokyo-summer-olympics-opening-ceremony/",
+      "published": "2021-07-19T14:53:24+00:00",
+      "summary": "Italian creative director Marco Balich is serving as executive producer of the Tokyo ceremonies in partnership with Japanese advertising firm Dentsu. Balich has previous experience producing Olympic ceremonies for the 2006, 2014 and 2016 Games. Balich has said that the COVID-19 pandemic will somehow be referenced during Tokyo’s Opening Ceremony. “I think for sure the […] The post Everything to Know About the Tokyo Summer Olympics Opening Ceremony appeared first on Balich Wonder Studio | Live Entertainment Group .",
+      "image": "",
+      "source": "Balich Wonder Studio",
+      "category": "01 Spectacle Concert",
+      "angle": "Analyser la dramaturgie à grande échelle",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "Artworks at Noor Riyadh festival set two Guinness World Records",
+      "url": "https://www.balichwonderstudio.com/artworks-noor-riyadh-festival-guinness-world-records/",
+      "published": "2021-07-02T13:14:54+00:00",
+      "summary": "Artworks displayed this year during the first annual Noor Riyadh festival of art and light set two Guinness World Records, the Saudi Press Agency reported on Thursday. “Beacon,” by Polish artist Carolina Halatek, broke the record for the largest LED (light-emitting diode) structure. The sculpture, which was on show at the King Abdul Aziz Historical […] The post Artworks at Noor Riyadh festival set two Guinness World Records appeared first on Balich Wonder Studio | Live Entertainment Group .",
+      "image": "",
+      "source": "Balich Wonder Studio",
+      "category": "01 Spectacle Concert",
+      "angle": "Analyser la dramaturgie à grande échelle",
       "status": "source_detected_not_editorially_analyzed"
     }
   ]
