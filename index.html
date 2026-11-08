@@ -571,6 +571,7 @@ function excludedEditorialList(x){const t=((x.title_fr||'')+' '+(x.title||'')).t
 // Editorial audit: publish only a specific creation with observable artistic decisions.
 // The article URL stays in the raw archive if it is not eligible.
 function editorialEligibility(x){
+ if(/fondazione prada/i.test((x.title||"")+" "+(x.title_fr||"")) && /global antiquity|antiquit[eé] mondiale/i.test((x.title||"")+" "+(x.title_fr||"")))return false;
  const t=(x.title_fr||x.title||'').replace(/&#(?:x([0-9a-f]+)|([0-9]+));/gi,(_,h,d)=>String.fromCodePoint(parseInt(h||d,h?16:10))).toLowerCase();
  const s=sourceDescription(x).toLowerCase();
  const cat=(x.category||'').slice(0,2);
