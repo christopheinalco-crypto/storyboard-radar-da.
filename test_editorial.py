@@ -16,6 +16,7 @@ wanted = {
     "EVIDENCE",
     "EXCLUSIONS",
     "ANNOUNCEMENTS",
+    "BLOCKED_STORIES",
     "editorial_precheck",
 }
 
@@ -56,6 +57,11 @@ cases = [
             "category": "14 Musique Clips",
             "summary": "DJ festivals and music performance",
         },
+        False,
+    ),
+    (
+        "Palmares lumiere exclu",
+        {"title": "Prix de la conception lumière Acétylène", "category": "01 Spectacle Concert", "summary": "Lighting design"},
         False,
     ),
     (
