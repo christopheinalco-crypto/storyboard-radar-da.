@@ -1,3 +1,4 @@
+# Manual editorial refresh requested 2026-11-08; triggers workflow on push.
 """Collect RSS/Atom from editorial source domains. No fabricated DA analyses."""
 import json,os,re,datetime,urllib.parse,urllib.request,xml.etree.ElementTree as ET,html,random,hashlib,time,time
 from email.utils import parsedate_to_datetime
