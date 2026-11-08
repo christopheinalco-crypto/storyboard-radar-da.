@@ -8,6 +8,11 @@
       "category": "01 Spectacle Concert"
     },
     {
+      "name": "TPI Magazine",
+      "feed": "https://www.tpimagazine.com/feed/",
+      "category": "01 Spectacle Concert"
+    },
+    {
       "name": "Promonews",
       "feed": "https://www.promonews.tv/feed",
       "category": "14 Musique Clips"
@@ -33,9 +38,9 @@
       "category": "11 Graphisme Expertise"
     },
     {
-      "name": "STUFISH",
-      "feed": "https://stufish.com/feed",
-      "category": "01 Spectacle Concert"
+      "name": "Tsugi",
+      "feed": "https://www.tsugi.fr/feed",
+      "category": "14 Musique Clips"
     },
     {
       "name": "Konbini Musique",
@@ -48,13 +53,13 @@
       "category": "01 Spectacle Concert"
     },
     {
-      "name": "Tsugi",
-      "feed": "https://www.tsugi.fr/feed",
-      "category": "14 Musique Clips"
+      "name": "STUFISH",
+      "feed": "https://stufish.com/feed",
+      "category": "01 Spectacle Concert"
     },
     {
-      "name": "Ross Video",
-      "feed": "https://www.rossvideo.com/feed",
+      "name": "Vizrt",
+      "feed": "https://www.vizrt.com/feed",
       "category": "02 TV Broadcast"
     },
     {
@@ -63,8 +68,8 @@
       "category": "02 TV Broadcast"
     },
     {
-      "name": "Vizrt",
-      "feed": "https://www.vizrt.com/feed",
+      "name": "Ross Video",
+      "feed": "https://www.rossvideo.com/feed",
       "category": "02 TV Broadcast"
     },
     {
@@ -78,74 +83,19 @@
       "category": "05 Art Architecture"
     },
     {
-      "name": "Graphéine",
-      "feed": "https://www.grapheine.com/feed",
-      "category": "13 France Marketing Design"
-    },
-    {
       "name": "Brand New",
       "feed": "https://www.underconsideration.com/feed",
       "category": "03 DA Graphisme"
     },
     {
-      "name": "Sight Unseen",
-      "feed": "https://www.sightunseen.com/feed",
-      "category": "05 Art Architecture"
-    },
-    {
-      "name": "Imagination",
-      "feed": "https://imagination.com/feed",
-      "category": "06 Retail Brand Experience"
-    },
-    {
-      "name": "BP&O",
-      "feed": "https://bpando.org/feed",
-      "category": "03 DA Graphisme"
-    },
-    {
-      "name": "Typewolf",
-      "feed": "https://www.typewolf.com/feed",
-      "category": "03 DA Graphisme"
-    },
-    {
-      "name": "Jack Morton",
-      "feed": "https://jackmorton.com/feed",
-      "category": "06 Retail Brand Experience"
-    },
-    {
-      "name": "Creative Boom",
-      "feed": "https://www.creativeboom.com/feed",
-      "category": "03 DA Graphisme"
+      "name": "Graphéine",
+      "feed": "https://www.grapheine.com/feed",
+      "category": "13 France Marketing Design"
     },
     {
       "name": "Creapills",
       "feed": "https://creapills.com/feed",
       "category": "13 France Marketing Design"
-    },
-    {
-      "name": "Design Observer",
-      "feed": "https://designobserver.com/feed",
-      "category": "11 Graphisme Expertise"
-    },
-    {
-      "name": "Type Directors Club",
-      "feed": "https://tdc.org/feed",
-      "category": "11 Graphisme Expertise"
-    },
-    {
-      "name": "Awwwards",
-      "feed": "https://www.awwwards.com/feed",
-      "category": "03 DA Graphisme"
-    },
-    {
-      "name": "Étapes",
-      "feed": "https://etapes.com/feed",
-      "category": "13 France Marketing Design"
-    },
-    {
-      "name": "George P. Johnson",
-      "feed": "https://www.gpj.com/feed",
-      "category": "06 Retail Brand Experience"
     },
     {
       "name": "Dieline",
@@ -158,9 +108,19 @@
       "category": "05 Art Architecture"
     },
     {
-      "name": "Typographica",
-      "feed": "https://typographica.org/feed",
+      "name": "Design Observer",
+      "feed": "https://designobserver.com/feed",
       "category": "11 Graphisme Expertise"
+    },
+    {
+      "name": "Typewolf",
+      "feed": "https://www.typewolf.com/feed",
+      "category": "03 DA Graphisme"
+    },
+    {
+      "name": "Sight Unseen",
+      "feed": "https://www.sightunseen.com/feed",
+      "category": "05 Art Architecture"
     },
     {
       "name": "VMSD",
@@ -168,14 +128,64 @@
       "category": "06 Retail Brand Experience"
     },
     {
+      "name": "Creative Boom",
+      "feed": "https://www.creativeboom.com/feed",
+      "category": "03 DA Graphisme"
+    },
+    {
+      "name": "Étapes",
+      "feed": "https://etapes.com/feed",
+      "category": "13 France Marketing Design"
+    },
+    {
+      "name": "BP&O",
+      "feed": "https://bpando.org/feed",
+      "category": "03 DA Graphisme"
+    },
+    {
       "name": "Colossal",
       "feed": "https://www.thisiscolossal.com/feed",
       "category": "05 Art Architecture"
     },
     {
+      "name": "Imagination",
+      "feed": "https://imagination.com/feed",
+      "category": "06 Retail Brand Experience"
+    },
+    {
+      "name": "George P. Johnson",
+      "feed": "https://www.gpj.com/feed",
+      "category": "06 Retail Brand Experience"
+    },
+    {
+      "name": "Awwwards",
+      "feed": "https://www.awwwards.com/feed",
+      "category": "03 DA Graphisme"
+    },
+    {
+      "name": "Jack Morton",
+      "feed": "https://jackmorton.com/feed",
+      "category": "06 Retail Brand Experience"
+    },
+    {
+      "name": "Type Directors Club",
+      "feed": "https://tdc.org/feed",
+      "category": "11 Graphisme Expertise"
+    },
+    {
+      "name": "Typographica",
+      "feed": "https://typographica.org/feed",
+      "category": "11 Graphisme Expertise"
+    },
+    {
       "name": "Dance Magazine",
       "feed": "https://www.dancemagazine.com/feed",
       "category": "15 Danse Performance"
+    },
+    {
+      "name": "Effie Worldwide",
+      "feed": "https://www.effie.org/feed",
+      "category": "10 Strategie Insights"
     },
     {
       "name": "Stash",
@@ -196,11 +206,6 @@
       "name": "Superbien",
       "feed": "https://www.superbien.com/feed",
       "category": "08 Immersif CGI Motion"
-    },
-    {
-      "name": "Effie Worldwide",
-      "feed": "https://www.effie.org/feed",
-      "category": "10 Strategie Insights"
     },
     {
       "name": "Campaign Middle East",
