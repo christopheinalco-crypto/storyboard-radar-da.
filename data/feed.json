@@ -1,15 +1,10 @@
 {
-  "updated_at": "2026-11-08T14:08:07.356994+00:00",
+  "updated_at": "2026-11-08T14:23:34.826872+00:00",
   "status": "collected_unreviewed",
   "working_feeds": [
     {
       "name": "Live Design",
       "feed": "https://www.livedesignonline.com/rss.xml",
-      "category": "01 Spectacle Concert"
-    },
-    {
-      "name": "TPI Magazine",
-      "feed": "https://www.tpimagazine.com/feed/",
       "category": "01 Spectacle Concert"
     },
     {
@@ -178,6 +173,11 @@
       "category": "15 Danse Performance"
     },
     {
+      "name": "Effie Worldwide",
+      "feed": "https://www.effie.org/feed",
+      "category": "10 Strategie Insights"
+    },
+    {
       "name": "Stash",
       "feed": "https://www.stashmedia.tv/feed",
       "category": "08 Immersif CGI Motion"
@@ -216,27 +216,12 @@
       "name": "IDlia Studio",
       "feed": "https://www.idlia.fr/feed",
       "category": "09 France Pro"
-    },
-    {
-      "name": "Stereogum",
-      "feed": "https://www.stereogum.com/feed/",
-      "category": "14 Musique Clips"
-    },
-    {
-      "name": "Konbini Musique",
-      "feed": "https://www.konbini.com/feed",
-      "category": "14 Musique Clips"
-    },
-    {
-      "name": "Pitchfork",
-      "feed": "https://pitchfork.com/rss/news/",
-      "category": "14 Musique Clips"
     }
   ],
   "collection_slot": 3,
   "collection_hour_paris": 15,
   "sources_selected": 182,
-  "sources_checked": 182,
+  "sources_checked": 167,
   "special_test": true,
   "special_selection": {
     "01 Spectacle Concert": [
@@ -395,7 +380,7 @@
     "10 Strategie Insights": [],
     "11 Graphisme Expertise": [
       {
-        "title": "VS/Goods© — Maquettes sympas",
+        "title": "VS/Goods© — Cool Mockups",
         "url": "https://mindsparklemag.com/website/vsgoods-cool-mockups",
         "score": 32
       },
