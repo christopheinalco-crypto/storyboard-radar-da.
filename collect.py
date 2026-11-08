@@ -1,3 +1,4 @@
+# Nouvelle relance manuelle de veille du 8 novembre 2026; déclenche collecte et rattrapage.
 # Manual editorial refresh requested 2026-11-08; triggers workflow on push.
 """Collect RSS/Atom from editorial source domains. No fabricated DA analyses."""
 import json,os,re,datetime,urllib.parse,urllib.request,xml.etree.ElementTree as ET,html,random,hashlib,time,time
