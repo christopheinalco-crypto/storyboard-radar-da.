@@ -119,6 +119,22 @@ jobs:
           RADAR_AI_MODEL: gemini-3.5-flash-lite
         run: python analyze.py
 
+      - name: Rattraper deux vagues éditoriales supplémentaires
+        if: github.event_name == 'push' && steps.slot.outputs.run == 'true'
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          RADAR_AI_MODEL: gemini-3.5-flash-lite
+          RADAR_SLOT: manual
+          RADAR_SPECIAL: '1'
+          RADAR_MAX_AI_CALLS: '15'
+        run: |
+          for wave in 1 2; do
+            echo "=== Rattrapage DA vague $wave/2 ==="
+            python collect.py
+            python test_editorial.py
+            python analyze.py
+          done
+
       - name: Publier les nouvelles données
         if: steps.slot.outputs.run == 'true'
         run: |
