@@ -209,7 +209,7 @@
     },
     {
       "name": "FRATERCINÉ",
-      "feed": "https://www.fratercine.fr/feed/",
+      "feed": "https://www.fratercine.fr/feed",
       "category": "09 France Pro"
     },
     {
@@ -451,7 +451,7 @@
   "backfill_test": {
     "period": "2026-11-01/2026-11-07",
     "articles": 375,
-    "with_images": 227
+    "with_images": 226
   },
   "items": [
     {
