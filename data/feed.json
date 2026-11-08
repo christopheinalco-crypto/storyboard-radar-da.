@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-08T15:34:29.104164+00:00",
+  "updated_at": "2026-11-08T15:57:23.729756+00:00",
   "status": "collected_unreviewed",
   "working_feeds": [
     {
@@ -216,27 +216,12 @@
       "name": "IDlia Studio",
       "feed": "https://www.idlia.fr/feed",
       "category": "09 France Pro"
-    },
-    {
-      "name": "Stereogum",
-      "feed": "https://www.stereogum.com/feed/",
-      "category": "14 Musique Clips"
-    },
-    {
-      "name": "Konbini Musique",
-      "feed": "https://www.konbini.com/feed",
-      "category": "14 Musique Clips"
-    },
-    {
-      "name": "Pitchfork",
-      "feed": "https://pitchfork.com/rss/news/",
-      "category": "14 Musique Clips"
     }
   ],
   "collection_slot": 0,
   "collection_hour_paris": 16,
   "sources_selected": 182,
-  "sources_checked": 182,
+  "sources_checked": 172,
   "special_test": true,
   "special_selection": {
     "01 Spectacle Concert": [
@@ -246,13 +231,13 @@
         "score": 29
       },
       {
-        "title": "Live Design: Terhal",
-        "url": "https://dragone.com/live-design-covers-terhal/",
-        "score": 23
-      },
-      {
         "title": "See Glow Motion at LDI: Halo Ring & Next Gen Kinetic Systems",
         "url": "https://www.livedesignonline.com/resource/see-glow-motion-ldi-halo-ring-next-gen-kinetic-systems",
+        "score": 21
+      },
+      {
+        "title": "Live Design: Terhal",
+        "url": "https://dragone.com/live-design-covers-terhal/",
         "score": 21
       }
     ],
