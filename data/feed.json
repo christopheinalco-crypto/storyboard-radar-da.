@@ -455,11 +455,16 @@
   },
   "items": [
     {
-      "title": "Creating A$AP Rocky’s Don’t Be Dumb Tour",
       "url": "https://www.tpimagazine.com/creating-aap-rockys-dont-be-dumb-tour/",
+      "title": "Creating A$AP Rocky’s Don’t Be Dumb Tour",
+      "title_fr": "A$AP Rocky : un navire de guerre au cœur du concert",
+      "source": "TPi Magazine",
       "category": "01 Spectacle Concert",
       "published": "2026-11-05T12:00:00Z",
-      "summary": "Le spectacle ne se contente pas de placer un décor monumental derrière l’artiste : il transforme le public en partie prenante d’un monde maritime instable. Le navire, le phare, l’hélicoptère et les images composent une dramaturgie spatiale, pensée avec A$AP Rocky et l’équipe de production 1826."
+      "summary": "A$AP Rocky's Don't Be Dumb Tour features a 104ft warship, lighthouse and helicopter. Production designer Darren Mullis describes a post-Orwellian environment where the audience becomes the sea. Ox Event House built the ship; lighting and screens create storms, cities and sunsets.",
+      "summary_fr": "La tournée Don't Be Dumb d’A$AP Rocky intègre un navire de guerre de 104 pieds, un phare et un hélicoptère. Le concepteur Darren Mullis décrit une scénographie où le public devient la mer, tandis que les écrans font évoluer l’univers du spectacle.",
+      "image": "https://www.tpimagazine.com/wp-content/uploads/2026/11/asap.jpg",
+      "status": "editorial_reviewed"
     },
     {
       "title": "Omah Lay 'Artificial Happiness' by NWSPK",
@@ -476,9 +481,15 @@
     {
       "title": "Imagicario : la mécanique d’équilibre du “Parédolia Duo”",
       "url": "https://www.revue-as.fr/2026/11/07/imagicario-la-mecanique-dequilibre-du-paredolia-duo/",
+      "published": "2026-11-07T09:58:00+00:00",
+      "summary": "Faire tenir deux corps à près de 4 m du sol sur des échasses droites tout en jouant l’intimité d’un couple, c’est le pari technique de la compagnie montréalaise Imagicario avec son Parédolia Duo, présenté ici au Centre sportif et récréatif de Montréal-Ouest. Les têtes sont remplacées par de véritables réverbères d’époque équipés de sources lumineuses autonomes En savoir plus surImagicario : la mécanique d’équilibre du “Parédolia Duo” […] Cet article Imagicario : la mécanique d’équilibre du “Parédolia Duo” est apparu en premier sur Revue AS .",
+      "image": "https://www.revue-as.fr/wp-content/uploads/2025/12/picto-nouvelles-technologies-e1764671485178.png",
+      "source": "Revue AS",
       "category": "09 France Pro",
-      "published": "2026-11-07T09:58:00Z",
-      "summary": "Deux interprètes perchés à près de quatre mètres incarnent un couple. À la place de leurs visages : de véritables réverbères d'époque, éclairés de l'intérieur. Le projet d'Imagicario repose sur une contradiction précise : raconter la proximité avec des corps démesurés, privés de traits humains et contraints par l'équilibre. **La mécanique du spectacle devient sa dramaturgie.**"
+      "angle": "Suivre les productions françaises",
+      "status": "source_detected_not_editorially_analyzed",
+      "title_fr": "Imagicario : la mécanique d’équilibre du “Parédolia Duo”",
+      "summary_fr": "Faire tenir deux corps à près de 4 m du sol sur des échasses droites tout en jouant l’intimité d’un couple, c’est le pari technique de la compagnie montréalaise Imagicario avec son Parédolia Duo, présenté ici au Centre sportif et récréatif de Montréal-Ouest. Les têtes sont remplacées par de véritables réverbères d’époque équipés de sources lumineuses autonomes En savoir plus surImagicario : la mécanique d’équilibre du “Parédolia Duo” […] Cet article Imagicario : la mécanique d’équilibre du “Parédolia Duo” est apparu en premier sur Revue AS ."
     },
     {
       "title": "Ear Candy 'Clean Clothes' by Rob Ulitski",
@@ -494,16 +505,26 @@
     {
       "title": "waterbaby 'Memory Be A Blade' by Felix Scheynius",
       "url": "https://www.promonews.tv/videos/2026/11/03/waterbaby-memory-be-blade-felix-scheynius/96833",
+      "published": "2026-11-03T13:37:59+00:00",
+      "summary": "Felix Scheynius directs a cinematic, fantasy-infused promo for Stockholm-born singer-songwriter waterbaby. In the video for Memory Be A Blade, we see waterbaby reminisce about the past, while trying to break free from a love she’s left behind. Captured in a series of melancholic...",
+      "image": "https://admin.promonews.tv/sites/default/files/styles/bmvd_content_page/public/Waterbaby%20%E2%80%94%C2%A0MBAB.png?itok=-vxHaus7",
+      "source": "Promonews",
       "category": "14 Musique Clips",
-      "published": "2026-11-03T13:37:59Z",
-      "summary": "Felix Scheynius compose un clip sur une relation passée dont l'artiste cherche à se libérer. Les images mélancoliques alternent ralentis, mouvements inversés et portraits naturalistes. Plutôt que de raconter chronologiquement la rupture, le film semble en épouser le fonctionnement intérieur : **le souvenir revient, se suspend et repart en arrière.**"
+      "angle": "Analyser les intentions visuelles, la mise en scène, le montage et l'identité des clips",
+      "status": "source_detected_not_editorially_analyzed"
     },
     {
       "title": "Hayley Williams Hangs in Her Hotel Room in “Dream Girl in Shibuya” Video",
       "url": "https://pitchfork.com/story/hayley-williams-hangs-in-a-hotel-room-in-new-dream-girl-in-shibuya-video/",
+      "published": "2026-11-08T15:29:53+00:00",
+      "summary": "The Ego Death at a Bachelorette Party track just got a black-and-white visual to match",
+      "image": "https://media.pitchfork.com/photos/6af09146d98b824e758335ed/master/pass/hayleywilliams.png",
+      "source": "Pitchfork",
       "category": "14 Musique Clips",
-      "published": "2026-11-08T15:29:53Z",
-      "summary": "Le clip réalisé à partir d'images de tournée en noir et blanc place Hayley Williams dans des chambres d'hôtel, ces espaces que l'on occupe sans vraiment y habiter. Le choix est plus intéressant qu'un simple décor intimiste : il fait coïncider un lieu provisoire avec une chanson traversée par l'attente et la distance. Le quotidien devient la matière du récit, sans reconstitution spectaculaire."
+      "angle": "Analyser les intentions visuelles, la mise en scène, le montage et l'identité des clips",
+      "status": "source_detected_not_editorially_analyzed",
+      "title_fr": "L'esthétique intimiste du clip de Hayley Williams",
+      "summary_fr": "Le morceau Ego Death at a Bachelorette Party vient de recevoir un visuel en noir et blanc assorti"
     }
   ]
 }
