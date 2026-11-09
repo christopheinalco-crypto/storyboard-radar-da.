@@ -470,6 +470,7 @@ GRILLE DE VALIDATION (référence permanente : EDITORIAL_RUBRIC.md) : noter ment
 Réponds UNIQUEMENT en JSON valide, sans Markdown :
 {
  "publish": true,
+ "evidence": "un court extrait exact de la source qui documente un choix visuel concret",
  "intro": "texte",
  "points": [["titre 1", "texte 1"], ["titre 2", "texte 2"], ["titre 3", "texte 3"]],
  "takeaway": "ce que le choix créatif change dans le projet",
@@ -478,6 +479,8 @@ Réponds UNIQUEMENT en JSON valide, sans Markdown :
 }
 
 GRILLE DYNAMIQUE : adapte les intertitres à la discipline et au choix documenté. Réserve « insight » à une compréhension étayée du public ou de ses usages qui oriente la création. Pour un enjeu formel, spatial ou narratif, nomme le mécanisme précis (hiérarchie typographique, point de vue, rapport scène-public, etc.).
+
+CONTRÔLE DE LA PREUVE : evidence doit être un extrait exact du texte fourni qui documente un élément visible précis et sa mise en œuvre (plan, raccord, geste, matière, lumière ou position). Un résumé qui dit seulement « vignettes », « texture » ou « ambiance » ne suffit pas. Si ce détail manque ou si le texte reste générique, retourne publish=false. Dans points, nomme le détail et explique son effet en phrases courtes. Ne prétends pas avoir regardé une vidéo si seul son article est fourni.
 
 SÉPARATION DES CHAMPS : takeaway alimente « Intérêt DA ». Explique le choix créatif et son effet, sans consigne à exécuter. tip alimente « Tip · À tester ». Propose une manipulation concrète et un critère à observer. Ne reformule pas la même idée dans les deux champs.
 
@@ -735,10 +738,15 @@ for item in candidates:
     intro = analysis.get("intro", "")
     takeaway = analysis.get("takeaway", "")
     tip = analysis.get("tip", "")
+    evidence = analysis.get("evidence", "")
 
     valid = (
         analysis.get("publish") is True
         and isinstance(points, list)
+        and isinstance(evidence, str)
+        and len(evidence.split()) >= 5
+        and len(evidence.split()) <= 25
+        and " ".join(evidence.split()).casefold() in " ".join(source.split()).casefold()
         and len(points) == 3
         and all(
             isinstance(point, list)

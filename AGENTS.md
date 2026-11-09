@@ -54,3 +54,7 @@ Sur la carte, garder une phrase qui explique pourquoi le choix de DA mérite l�
 Une demande de simulation de veille va jusqu’à la publication d’une nouveauté dans le RADAR. Vérifier les doublons, croiser les sources, choisir un visuel qui montre le détail analysé et publier la fiche. Après déploiement, vérifier son rang dans le flux public et la présence du visuel. Un lecteur officiel intégrable peut montrer le projet lorsque la fiche ne dispose pas d’une image réutilisable.
 
 Le surlignage indique ce qu’un DA doit retenir. Mettre en évidence un choix créatif, sa conséquence perceptive ou un principe transférable. Garder les mesures, les noms et les détails descriptifs en texte courant, sauf s’ils expliquent directement le mécanisme analysé.
+
+## Seuil avant publication d’un décryptage
+
+Pour chaque fiche, être capable de désigner un détail précis, de dire où le voir ou quel passage de source le documente, puis d’expliquer ce qu’il change. Un clip peut rester en repérage jusqu’à ce qu’un plan, un raccord ou un autre choix précis soit vérifié. Le générateur exige un extrait de preuve présent dans le texte source. La relecture vérifie que ce passage soutient réellement l’analyse et que le texte se lit simplement. Les lecteurs intégrés restent compacts.
