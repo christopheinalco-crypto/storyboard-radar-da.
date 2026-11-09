@@ -72,3 +72,7 @@ Activer le contrôle versionné dans chaque clone avec `git config core.hooksPat
 Le hook contrôle la présence des repères, puis la relecture juge la qualité de la preuve et du texte. Si un point ne passe pas cette relecture, le réécrire, le retirer ou garder la fiche en découverte. Les publications depuis un autre clone exigent l’activation du hook dans ce clone. Les publications via l’interface GitHub ne passent pas par ce hook local.
 
 La lecture DA commence par le geste, la matière, l’espace ou l’effet visible. Mettre l’attribution en appui de l’observation, avec le lien et le repère de vérification. Éviter les amorces de compte rendu comme « Le dossier de production décrit », « Le post souligne » ou « Cette publication ouvre ». Chercher aussi les lecteurs intégrables déclarés par le créateur ou la production, notamment via oEmbed. Vérifier que le lecteur correspond au projet et garde un format compact.
+
+## Surligneur commun à tous les formats
+
+Appliquer le même marqueur aux décryptages des articles, aux cartes LinkedIn et Instagram et à l’atelier du jour. Le texte reste clair et gras, avec un dégradé vert sous la moitié basse des lettres. Utiliser le style natif du RADAR, y compris sur plusieurs lignes, pour éviter le jaune par défaut du navigateur. Les intertitres structurent la lecture. Dans le corps du texte, réserver le surlignage aux choix créatifs, à leurs effets et aux principes DA à retenir.
