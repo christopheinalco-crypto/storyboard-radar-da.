@@ -35,3 +35,9 @@ L'analyse doit se lire comme une conversation avec un DA expérimenté qui parta
 
 ### Test de lecture à voix haute
 Si le texte semble récité, scolaire, répétitif ou rempli de formules interchangeables, le réécrire. Si un DA pourrait le dire naturellement à un collègue tout en lui apprenant quelque chose de neuf, le ton est juste.
+
+## Bibliothèque Google Drive — enrichissement raisonné
+Pour chaque projet, consulter en priorité l'article original, puis rechercher dans la bibliothèque DA un concept ou une méthode qui révèle une décision artistique. Une référence pertinente suffit souvent. Ne jamais ajouter une théorie pour faire savant. Attribuer la source réelle ; distinguer un document de synthèse de l'ouvrage original, et ne pas transformer une paraphrase en citation. Les références théoriques ne prouvent jamais l'intention du créateur. Préserver la voix naturelle d'un DA qui explique le projet à un collègue.
+
+## Responsabilités de publication (9 novembre 2026)
+Gemini/GitHub Actions suspendu dans .github/workflows/veille.yml. ChatGPT prend le relais de la sélection, de la vérification, de l'enrichissement documentaire et de la publication. Si Gemini est réactivé, il doit appliquer cette même grille avant toute publication et ne jamais repopuler le flux avec des articles non analysés. Une publication ne doit pas être présentée comme validée avant vérification des sources, du contenu et du rendu.
