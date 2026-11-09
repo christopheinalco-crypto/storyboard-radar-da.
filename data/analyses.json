@@ -252,21 +252,31 @@
   },
   "https://lbbonline.com/news/brick-nasty-ballymun-music-video-forever": {
     "reviewed_at": "2026-11-09T20:25:15.4508540+00:00",
-    "tip": "Dessine trois vues d’un même escalier depuis le regard d’un personnage. Change le traitement graphique en gardant le sens du déplacement. Vérifie si le trajet reste lisible.",
+    "tip": "Dessine trois vues du même escalier. Change la matière du dessin à chaque plan et garde la direction du déplacement. Vérifie si quelqu’un peut retracer le trajet sans explication.",
     "source": "LBBonline, dossier de production Academy Films et clip hébergé par Academy Films",
-    "intro": "Talia Beale prend la cage d’escalier de Ballymun comme point d’ancrage d’un clip animé à plusieurs mains. Ce lieu commun au quartier est aussi un seuil vers l’espace domestique.",
+    "intro": "Talia Beale revient à Ballymun, le quartier de Dublin où Bricknasty a grandi. Dans le clip animé, la cage d’escalier relie la vie du quartier à l’espace domestique.",
     "source_url": "https://lbbonline.com/news/brick-nasty-ballymun-music-video-forever",
-    "takeaway": "Un trajet dans le décor peut donner un fil commun à des séquences animées par plusieurs équipes.",
+    "takeaway": "Un trajet lisible peut donner une unité à un décor animé dans plusieurs styles.",
     "verified": true,
     "points": [
       [
-        "Traverser le décor à hauteur de personnage",
-        "Le dossier de production décrit une séquence en ==caméra subjective== réalisée par trois animateurs. Ce point de vue permet de lire l’escalier comme un trajet à travers un lieu habité, plutôt que comme une simple vue du quartier."
+        "L’escalier donne un point de vue",
+        "La ==caméra subjective== place le regard à l’intérieur de la cage d’escalier. On découvre le lieu dans le sens du déplacement, comme un passage entre dehors et chez soi."
       ],
       [
-        "Une continuité à préserver entre plusieurs mains",
-        "La production a réparti le morceau en segments d’environ vingt secondes. La séquence subjective donne un point d’appui pour examiner ce qui reste cohérent quand les styles graphiques changent."
+        "Le trajet relie les styles",
+        "Trois animateurs ont travaillé ensemble sur cette séquence subjective. Le morceau, lui, a été découpé en segments d’environ vingt secondes. Le ==sens du déplacement== donne un repère commun quand le dessin change. C’est ce que le trajet apporte au clip."
       ]
+    ],
+    "editorial_review": [
+      {
+        "url": "https://lbbonline.com/news/brick-nasty-ballymun-music-video-forever",
+        "locator": "Passages sur la cage d’escalier de Ballymun et la séquence subjective réalisée à trois."
+      },
+      {
+        "url": "https://lbbonline.com/news/brick-nasty-ballymun-music-video-forever",
+        "locator": "Paragraphes sur le découpage en segments de vingt secondes et la séquence en caméra subjective."
+      }
     ]
   }
 }

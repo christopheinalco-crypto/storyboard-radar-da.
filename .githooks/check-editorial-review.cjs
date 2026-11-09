@@ -25,6 +25,13 @@ for (const update of readFileSync(0, 'utf8').trim().split(/\r?\n/)) {
     if (isDeepStrictEqual(previous[url], analysis)) continue;
 
     const review = analysis.editorial_review;
+    const sourceLead = /^\s*(?:le dossier (?:de production|du studio) (?:décrit|explique|présente)|le post souligne|cette publication ouvre|d’après le dossier)\b/iu;
+    const startsWithSource = [analysis.intro, ...(Array.isArray(analysis.points) ? analysis.points.map(point => point?.[1]) : [])]
+      .some(paragraph => sourceLead.test(paragraph || ''));
+    if (startsWithSource) {
+      console.error('Commencer par le choix DA et placer la référence en appui : ' + url);
+      process.exitCode = 1;
+    }
     if (
       !Array.isArray(analysis.points) || !analysis.points.length ||
       !Array.isArray(review) || review.length !== analysis.points.length ||

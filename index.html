@@ -304,6 +304,7 @@ function musicMediaLinks(x){const links=[];for(const [field,label] of [['clip_ur
 function imageHTML(x){
  if(verifiedCase(x))return '<div class="verified-feature"><span>EXPOSITION · 20 NOV 2026 — 24 JAN 2027</span><strong>ANTOINE<br>D’AGATA</strong><em>THEOREMA</em><small>SOSNOWIEC · POLOGNE</small></div>';
  if(!x.image&&/^[A-Za-z0-9_-]{11}$/.test(x.youtube_id||''))return '<iframe class="project-video" loading="lazy" src="https://www.youtube-nocookie.com/embed/'+x.youtube_id+'" title="'+escapeHTML(x.title_fr||x.title)+'" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>';
+ if(!x.image&&/^\d+$/.test(x.slate_id||''))return '<iframe class="project-video" loading="lazy" src="https://academy.slateapp.com/embed/clip/'+x.slate_id+'" title="'+escapeHTML(x.title_fr||x.title)+'" allowfullscreen></iframe>';
  if(!x.image)return '';
  return '<img loading="lazy" referrerpolicy="no-referrer" src="'+escapeHTML(x.image)+'" alt="Image du projet : '+escapeHTML(x.title_fr||x.title)+'" onerror="this.remove()">';
 }
