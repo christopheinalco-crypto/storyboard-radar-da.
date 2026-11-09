@@ -32,3 +32,7 @@ Le champ `takeaway` explique ce que le choix créatif change dans le projet. Le 
 ## Reprendre dans un nouveau chat
 
 Ouvrir le dépôt RADAR DA comme projet Codex et demander de lire ce fichier, EDITORIAL_RUBRIC.md et les analyses déjà publiées. Utiliser la Bibliothèque DA locale pour chercher un passage vérifiable qui éclaire le projet. Les angles et les intertitres varient selon le cas, avec quelques surlignages natifs. Les PDF restent dans la bibliothèque locale, hors du dépôt public. Après publication, contrôler le flux et la fiche servie par GitHub Pages.
+
+## Contrôle des visuels avant publication
+
+Ouvrir le visuel légitime directement, sans dépendre de la page source comme référent. Un lien vide, une réponse d’erreur ou une page HTML à la place d’une image bloquent la nouvelle fiche. Chercher un autre visuel officiel ou laisser la fiche en attente. Le lien de secours dans le RADAR sert aux images qui deviennent indisponibles après publication.

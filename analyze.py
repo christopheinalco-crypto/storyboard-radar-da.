@@ -258,6 +258,19 @@ def article_text(url):
         print("Source unavailable:", str(exc)[:150])
         return ""
 
+def image_available(url):
+    if not isinstance(url, str) or not url.startswith(("https://", "http://")):
+        return False
+    try:
+        request = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"})
+        with urllib.request.urlopen(request, timeout=10) as response:
+            return (
+                response.headers.get_content_type().startswith("image/")
+                and bool(response.read(1))
+            )
+    except (OSError, ValueError):
+        return False
+
 def source_image(url):
     try:
         request = urllib.request.Request(
@@ -286,7 +299,7 @@ def source_image(url):
                 image = urllib.parse.urljoin(
                     url, attrs.get("content", "")
                 )
-                if image.startswith(("http://", "https://")):
+                if image_available(image):
                     return image
     except Exception:
         pass
@@ -747,7 +760,7 @@ for item in candidates:
         print("Editorial rejected:", item["title"])
         continue
 
-    if not item.get("image"):
+    if not image_available(item.get("image")):
         item["image"] = source_image(url)
 
     if not item.get("image"):
