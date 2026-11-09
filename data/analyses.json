@@ -238,26 +238,5 @@
     "verified": true,
     "reviewed_at": "2026-11-08T20:00:00+00:00",
     "source_url": "https://pitchfork.com/story/hayley-williams-hangs-in-a-hotel-room-in-new-dream-girl-in-shibuya-video/"
-  },
-  "https://www.designboom.com/architecture/powerhouse-parramatta-steel-lattice-museum-opens-art-es-devlin-james-turrell-sydney-australia/": {
-    "intro": "Au Powerhouse Parramatta, l'enveloppe métallique du musée annonce une expérience où l'architecture et les installations artistiques se répondent. La présence d'œuvres d'Es Devlin et de James Turrell invite à examiner comment un bâtiment prépare déjà le regard avant même l'entrée dans une exposition.",
-    "points": [
-      [
-        "Une façade comme première mise en scène",
-        "La trame d'acier blanche n'est pas qu'une signature architecturale : sa répétition compose un rythme visuel à l'échelle urbaine. La lecture du lieu commence avant la visite."
-      ],
-      [
-        "Passer de l'objet au parcours",
-        "Un musée ne se réduit pas à la somme de ses œuvres. La succession des seuils, des espaces et des dispositifs peut devenir un récit spatial : chaque transition conditionne l'attention accordée à ce qui suit."
-      ],
-      [
-        "Deux approches de l'expérience",
-        "La présence annoncée d'Es Devlin et de James Turrell permet d'interroger deux rapports au spectateur : le récit construit par l'espace et l'expérience perceptive de la lumière. Il s'agit ici d'une piste de lecture, pas d'une intention commune attribuée aux artistes."
-      ]
-    ],
-    "takeaway": "Avant de dessiner un décor ou une installation, pense à la séquence complète : première apparition, seuil, découverte, changement d'échelle. L'expérience commence avant l'objet central.",
-    "source": "designboom, article publié le 6 novembre 2026; présentation du Powerhouse Parramatta",
-    "verified": true,
-    "reviewed_at": "2026-11-09T02:50:00+01:00"
   }
 }
