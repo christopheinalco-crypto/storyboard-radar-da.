@@ -48,3 +48,9 @@ RADAR DA est une veille spécialisée en direction artistique de créations visu
 ## Grille dynamique par discipline
 
 Choisir les angles et le vocabulaire à partir du projet, de sa discipline et des indices vérifiés. La bibliothèque DA éclaire le choix de l’angle quand un passage pertinent est accessible. Les intertitres sont libres. En identité, ils peuvent nommer un enjeu typographique, une hiérarchie ou une règle de composition. En clip, ils peuvent nommer un point de vue ou un choix de montage. En spectacle, ils peuvent nommer le rapport scène-public ou la dramaturgie de la lumière. Réserver « insight » à une compréhension étayée du public ou de ses usages qui oriente la création. Employer le terme précis quand il s’agit d’un enjeu formel, spatial ou narratif.
+
+## Croisement des sources par décryptage
+
+Viser 2 à 7 sources distinctes sur le même projet, source d’origine comprise. Deux sources solides suffisent quand elles documentent les choix analysés. Ajouter des sources si elles apportent un élément nouveau, par exemple une intention, un détail de fabrication ou un autre point de vue. Les reprises d’un même communiqué comptent pour une seule source. Appliquer la même règle aux articles et aux cartes LinkedIn et Instagram.
+
+Si une seule source est vérifiable, signaler cette limite et distinguer les faits documentés de la lecture DA. Les références de la Bibliothèque DA éclairent l’analyse et sont indiquées séparément des sources qui documentent le projet.
