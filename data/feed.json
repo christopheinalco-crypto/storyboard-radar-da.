@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-09T06:00:00+01:00",
+  "updated_at": "2026-11-09T11:58:08.2925693Z",
   "status": "editorial_reviewed",
   "working_feeds": [
     {
@@ -574,6 +574,18 @@
       "image": "https://img.readdork.com/cdn-cgi/image/width%3D2560%2Cquality%3D65%2Cfit%3Dcontain%2Cformat%3Dauto/media/uploads/1789055320157-g7sdit-original.jpg?v=2026-09-10T15%3A52%3A33.548Z",
       "status": "editorial_reviewed",
       "image_note": "Photo promotionnelle liée au single, pas une capture vérifiée du clip."
+    },
+    {
+      "url": "https://www.creativeboom.com/news/pentagrams-festival-identity-finds-a-clever-way-to-give-arabic-and-english-equal-billing/",
+      "image": "",
+      "published": "2026-10-19",
+      "title": "Pentagram design festival identity for Design Doha Biennial",
+      "summary": "Pour Design Doha Biennial, l’équipe de Samar Maakaroun compose l’arabe et le latin dans un même système graphique. Les traits s’étirent selon le format et relient les éléments.",
+      "summary_fr": "Pour Design Doha Biennial, l’équipe de Samar Maakaroun compose l’arabe et le latin dans un même système graphique. Les traits s’étirent selon le format et relient les éléments.",
+      "source": "Creative Boom",
+      "title_fr": "Design Doha — faire dialoguer deux écritures",
+      "status": "editorial_reviewed",
+      "category": "03 Graphisme Identité"
     }
   ]
 }

@@ -285,33 +285,40 @@
     "reviewed_at": "2026-11-09T06:00:00+01:00"
   },
   "https://www.promonews.tv/videos/2026/10/14/knats-bowling-ball-lulu-vicedomini/96405": {
-    "intro": "La bonne idée du clip tient dans une inversion minuscule : au bowling, la boule est l’objet que l’on lance. Ici, elle devient celle qui poursuit les musiciens. Lulu Vicedomini n’a pas besoin d’un monstre spectaculaire : elle donne une volonté à un objet familier, et tout le décor ordinaire devient le terrain d’une comédie absurde.",
+    "intro": "Au bowling, les Knats lancent une boule. Puis c’est elle qui les poursuit dans les rues de Newcastle et de South Shields.",
     "points": [
       [
-        "Un accessoire devient le moteur du récit",
-        "Le groupe Knats se retrouve au bowling, puis la boule refuse son rôle habituel et part à la poursuite des musiciens à travers Newcastle et South Shields. Le renversement est immédiatement lisible : un objet censé suivre une trajectoire contrôlée devient autonome. La menace reste drôle précisément parce qu’elle est disproportionnée par rapport à son apparence."
+        "Regarde la boule",
+        "Elle passe d’accessoire à poursuivante. Tu comprends le gag dès que les musiciens se mettent à courir devant elle."
       ],
       [
-        "Le quotidien sert d’échelle comique",
-        "Les lieux de tournage sont ceux de la ville d’origine du groupe. Ce cadre familier rend l’événement impossible plus incongru. Hypothèse de lecture : en évitant un univers fantastique entièrement fabriqué, le clip laisse la situation absurde produire seule son décalage."
-      ],
-      [
-        "Le montage prend le relais des effets",
-        "Promonews décrit des interruptions de l’action par des titres et des images fixes. Ces ruptures ne sont pas de simples ornements graphiques : elles ponctuent les gags et permettent de jouer avec l’attente du spectateur. La narration accepte une logique de sketch plutôt qu’une continuité dramatique classique."
-      ],
-      [
-        "La personnalité du groupe passe par le jeu",
-        "Les trois membres de Knats et l’artiste spoken word Cooper participent à cette poursuite burlesque. Au lieu de représenter le jazz par les codes habituels du concert ou de la virtuosité, le film construit une relation légère, physique et accessible avec les artistes."
-      ],
-      [
-        "Un concept assez simple pour tenir en une phrase",
-        "Une boule de bowling se venge des joueurs : l’idée est transmissible sans moodboard. Cette clarté permet d’investir l’énergie dans les réactions, les déplacements et les ruptures de rythme, plutôt que dans une accumulation de symboles."
+        "Écoute le rythme du gag",
+        "Promonews relève des cartons et des images fixes qui coupent l’action. Regarde où le montage te laisse le temps d’anticiper la suite, puis te surprend."
       ]
     ],
-    "takeaway": "Pour un clip à moyens limités, cherche un objet banal dont tu peux inverser la fonction. Puis écris trois conséquences visuelles de cette inversion : un premier gag, une escalade et une rupture. Ici, le décor n’est pas coûteux ; c’est le changement de rôle de la boule qui fabrique le monde.",
+    "takeaway": "Prends un objet banal et inverse son rôle. Écris trois temps : la surprise, l’escalade, puis la chute.",
     "source": "Promonews, 14 octobre 2026 : https://www.promonews.tv/videos/2026/10/14/knats-bowling-ball-lulu-vicedomini/96405 ; réalisation Lulu Vicedomini, direction artistique Dana Keren selon les crédits publiés.",
     "verified": true,
     "editorial_method": "Éléments narratifs et de montage documentés par Promonews ; hypothèses de réception signalées comme telles.",
     "reviewed_at": "2026-11-09T06:00:00+01:00"
+  },
+  "https://www.creativeboom.com/news/pentagrams-festival-identity-finds-a-clever-way-to-give-arabic-and-english-equal-billing/": {
+    "title_fr": "Design Doha — faire dialoguer deux écritures",
+    "intro": "Pour Design Doha, l’équipe de Samar Maakaroun fait cohabiter l’arabe et le latin dans une même composition.",
+    "points": [
+      [
+        "Regarde l’épaisseur des traits",
+        "Elle est commune aux deux écritures. Certains traits s’allongent pour relier les lettres ou ménager une place à l’image."
+      ],
+      [
+        "Puis regarde où ton œil va",
+        "Le trait commun rapproche les écritures. L’œil peut quand même lire l’une avant l’autre selon sa taille et sa place sur l’affiche."
+      ]
+    ],
+    "takeaway": "Teste le même titre sur une affiche et sur mobile. Demande à un lecteur de chaque langue ce qu’il a lu en premier.",
+    "source": "Creative Boom, 19 octobre 2026",
+    "source_url": "https://www.creativeboom.com/news/pentagrams-festival-identity-finds-a-clever-way-to-give-arabic-and-english-equal-billing/",
+    "verified": true,
+    "reviewed_at": "2026-11-09T11:58:08.2925693Z"
   }
 }
