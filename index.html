@@ -608,7 +608,8 @@ function drawDiscoveries(seen,cat){
 }
 function drawFeed(){const cat=$('#cat').value,seen=seenData();renderSeenArchive(seen);
 const priority={'01':80,'02':75,'15':72,'14':70,'08':68,'06':65,'09':60,'05':30,'03':10,'11':8,'04':6};
-let items=ITEMS.filter(x=>x.image&&(!!EDITORIAL_CASES[x.url]||!!AI_EDITORIAL_CASES[x.url])&&!excludedEditorialList(x)&&(activeGroup==='Tout'||groupRelevance(x,activeGroup)>=8)&&(!cat||x.category===cat));
+const feedCutoff=Date.now()-7*24*60*60*1000;
+let items=ITEMS.filter(x=>{const addedAt=Date.parse(AI_EDITORIAL_CASES[x.url]?.reviewed_at||x.published||'');return x.image&&(!!EDITORIAL_CASES[x.url]||!!AI_EDITORIAL_CASES[x.url])&&!excludedEditorialList(x)&&Number.isFinite(addedAt)&&addedAt>=feedCutoff&&(activeGroup==='Tout'||groupRelevance(x,activeGroup)>=8)&&(!cat||x.category===cat)});
 items.sort((a,b)=>(Date.parse(AI_EDITORIAL_CASES[b.url]?.reviewed_at||b.published||'')||0)-(Date.parse(AI_EDITORIAL_CASES[a.url]?.reviewed_at||a.published||'')||0)||(priority[String(b.category||'').slice(0,2)]||0)-(priority[String(a.category||'').slice(0,2)]||0));
 const unique=new Set();items=items.filter(x=>{if(unique.has(x.url))return false;unique.add(x.url);return true});
 // Les projets marqués « Vu » quittent immédiatement le flux principal.
