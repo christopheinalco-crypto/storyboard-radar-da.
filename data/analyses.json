@@ -11,12 +11,13 @@
         "Luke Rolls décrit une lumière diffuse et des sources intégrées à la géométrie de l’écran. Le parti pris répond aussi aux besoins de la captation."
       ]
     ],
-    "takeaway": "Dessine trois vues du plateau depuis la fosse, le fond de salle et la caméra. Vérifie quel repère raconte encore le même monde dans chaque axe.",
+    "takeaway": "Le navire donne une place narrative au public. La foule figure la mer dans l’univers du spectacle.",
     "source": "TPi Magazine, 5 novembre 2026; entretiens avec Darren Mullis, Luke Rolls et l'équipe de production",
     "verified": true,
     "bibliography_note": "Pamela Howard, What is Scenography? — rapprochement via « Conseils pratiques — Création de spectacles visuels — Bibliothèque DA », fiche 02.02.",
     "editorial_method": "Analyse conversationnelle : faits de l'article distincts des rapprochements théoriques et hypothèses de réception.",
-    "reviewed_at": "2026-11-09T12:00:00+01:00"
+    "reviewed_at": "2026-11-09T12:00:00+01:00",
+    "tip": "Dessine trois vues du plateau depuis la fosse, le fond de salle et la caméra. Vérifie quel repère raconte encore le même monde dans chaque axe."
   },
   "https://plsn.com/featured/ayrton-fixtures-used-for-robbie-williams-britpop-world-tour/": {
     "intro": "Pour la tournée « Britpop » de Robbie Williams, STUFISH conçoit un décor en mouvement, complété par plusieurs espaces de jeu au milieu du public. Paul Normandale signe la lumière et Kim Gavin la direction créative.",
@@ -49,13 +50,14 @@
         "Promonews relie l’arbre et les danseurs aux origines culturelles d’Omah Lay. Le décor organise donc une relation à l’espace et, selon la source, au récit de l’artiste."
       ]
     ],
-    "takeaway": "Garde le même cadre et filme un objet seul, puis avec un interprète et un groupe. Compare le moment où la profondeur devient lisible.",
+    "takeaway": "L’arbre donne une échelle aux déplacements des danseurs et renvoie aux racines culturelles d’Omah Lay.",
     "source": "Promonews, 6 novembre 2026",
     "verified": true,
     "source_url": "https://www.promonews.tv/videos/2026/11/06/omah-lay-artificial-happiness-nwspk/96846",
     "reviewed_at": "2026-11-09T12:00:00+01:00",
     "bibliography_note": "Peter Brook, The Empty Space — rapprochement via « Conseils pratiques — Création de spectacles visuels — Bibliothèque DA », fiche 02.01.",
-    "editorial_method": "Analyse conversationnelle : faits de l'article distincts des rapprochements théoriques et hypothèses de réception."
+    "editorial_method": "Analyse conversationnelle : faits de l'article distincts des rapprochements théoriques et hypothèses de réception.",
+    "tip": "Garde le même cadre et filme un objet seul, puis avec un interprète et un groupe. Compare le moment où la profondeur devient lisible."
   },
   "https://www.revue-as.fr/2026/11/07/imagicario-la-mecanique-dequilibre-du-paredolia-duo/": {
     "title_fr": "Parédolia Duo — deux réverbères pour jouer l'intimité",
@@ -70,13 +72,14 @@
         "La Revue AS explique le rôle stabilisateur des vêtements. Leur volume et leur poids entrent donc dans la composition autant que dans les conditions de jeu."
       ]
     ],
-    "takeaway": "Teste une scène à deux silhouettes sans expression faciale visible. Fais varier seulement la distance et l’inclinaison, puis demande quelle relation on lit.",
+    "takeaway": "En remplaçant les visages par des réverbères, le duo fait passer la relation par la distance et l’inclinaison des corps.",
     "source": "Revue AS, 7 novembre 2026",
     "verified": true,
     "source_url": "https://www.revue-as.fr/2026/11/07/imagicario-la-mecanique-dequilibre-du-paredolia-duo/",
     "reviewed_at": "2026-11-09T12:00:00+01:00",
     "bibliography_note": "Pamela Howard, What is Scenography? — rapprochement via « Conseils pratiques — Création de spectacles visuels — Bibliothèque DA », fiche 01.02.",
-    "editorial_method": "Voix de mentor DA : choix de forme concret, conséquences sur le langage scénique, émotion hypothétique explicitée, dialogue prudent avec Pamela Howard et source technique Revue AS."
+    "editorial_method": "Voix de mentor DA : choix de forme concret, conséquences sur le langage scénique, émotion hypothétique explicitée, dialogue prudent avec Pamela Howard et source technique Revue AS.",
+    "tip": "Teste une scène à deux silhouettes sans expression faciale visible. Fais varier seulement la distance et l’inclinaison, puis demande quelle relation on lit."
   },
   "https://www.promonews.tv/videos/2026/11/03/ear-candy-clean-clothes-rob-ulitski/96844": {
     "title_fr": "Ear Candy — Clean Clothes : une règle pour traverser tous les décors",
@@ -87,8 +90,8 @@
         "Les univers peuvent changer de texture et de format parce que le passage reprend le même geste. Cet ==invariant== aide à suivre la fiction malgré les ruptures visuelles."
       ]
     ],
-    "takeaway": "Pour relier trois univers très différents, conserve un même geste de transition. Compare le montage avec et sans ce repère.",
-    "tip": "Dessine trois univers opposés (miniature liminale, plateau télé rétro, espace quotidien), puis invente un seul geste optique reproductible qui fait passer de l'un à l'autre. Vérifie que le spectateur comprend le passage sans carton explicatif.",
+    "takeaway": "Le même geste de transition permet au clip de changer de registre visuel tout en gardant un fil narratif.",
+    "tip": "Pour relier trois univers très différents, conserve un même geste de transition. Compare le montage avec et sans ce repère.",
     "source": "Promonews, 3 novembre 2026 — propos de Rob Ulitski",
     "verified": true,
     "reviewed_at": "2026-11-09T12:00:00+01:00",
@@ -109,8 +112,8 @@
         "Entre les manipulations temporelles, le visage offre un repère. C’est une façon de garder le lien avec l’interprète quand le temps de l’image devient instable."
       ]
     ],
-    "takeaway": "Monte la même séquence à vitesse normale puis avec une seule inversion. Compare où le retour produit du sens et où il ressemble à un effet ajouté.",
-    "tip": "Filme un geste ordinaire associé à une séparation, puis construis trois versions : vitesse réelle, ralenti, inversion. Assemble-les avec un portrait fixe et observe quelle combinaison évoque le mieux un souvenir qui revient.",
+    "takeaway": "Le ralenti retient le geste et l’inversion le fait revenir. Leur alternance peut donner au souvenir une forme visuelle.",
+    "tip": "Monte la même séquence à vitesse normale puis avec une seule inversion. Compare où le retour produit du sens et où il ressemble à un effet ajouté.",
     "source": "Promonews, 3 novembre 2026",
     "verified": true,
     "reviewed_at": "2026-11-09T12:00:00+01:00",
@@ -127,8 +130,8 @@
         "La ==chambre d’hôtel== donne une forme concrète à la distance évoquée par la chanson. Sa répétition peut installer une attente même si les plans viennent de lieux différents."
       ]
     ],
-    "takeaway": "À partir d’images existantes, choisis un motif de lieu récurrent. Fais varier sa durée et sa place au montage pour voir quand il devient un fil narratif.",
-    "tip": "Choisis une chanson sur l'attente et tourne uniquement dans une chambre ou un couloir de passage. Construis cinq plans en noir et blanc avec une seule source lumineuse et un personnage qui n'arrive jamais ; compare la tension produite par les espaces vides et occupés.",
+    "takeaway": "La répétition des chambres d’hôtel donne un motif commun aux images de tournée et rend sensible le caractère provisoire de ces lieux.",
+    "tip": "À partir d’images existantes, choisis un motif de lieu récurrent. Fais varier sa durée et sa place au montage pour voir quand il devient un fil narratif.",
     "source": "Pitchfork, 8 novembre 2026; vidéo officielle, 7 novembre 2026",
     "verified": true,
     "reviewed_at": "2026-11-09T12:00:00+01:00",
@@ -169,10 +172,11 @@
         "Leur trajectoire prolonge celle des corps et rend l’air perceptible. Si elles couvrent trop longtemps les interprètes, elles peuvent aussi faire perdre le geste."
       ]
     ],
-    "takeaway": "Répète le même mouvement sur le décor avec et sans matière mobile. Garde l’effet là où il rend le geste plus lisible.",
+    "takeaway": "Le lit fixe un niveau et une surface de jeu. Les corps et les plumes rendent visibles les déplacements autour de ce repère.",
     "source": "Promonews, 3 novembre 2026, fiche de réalisation et crédits. Image illustrative : Dork, photo associée à la sortie du single (non présentée comme photogramme du clip).",
     "verified": true,
-    "reviewed_at": "2026-11-09T12:00:00+01:00"
+    "reviewed_at": "2026-11-09T12:00:00+01:00",
+    "tip": "Répète le même mouvement sur le décor avec et sans matière mobile. Garde l’effet là où il rend le geste plus lisible."
   },
   "https://www.tpimagazine.com/inside-foo-fighters-industrial-stage-design/": {
     "intro": "Neuf nervures lumineuses passent devant les écrans. La scène gagne un premier plan que la vidéo seule ne pourrait pas dessiner.",
@@ -186,11 +190,12 @@
         "Si les nervures et l’écran culminent ensemble, leurs accents se concurrencent. La question est de savoir à quel moment chacun doit prendre la main."
       ]
     ],
-    "takeaway": "En prévisualisation, coupe tour à tour la vidéo et les nervures. Vérifie ce que chaque couche apporte à la lecture depuis le fond de salle.",
+    "takeaway": "Les nervures lumineuses donnent un premier plan à la scène et permettent de dissocier le rythme du décor de celui de la vidéo.",
     "source": "Wonder Works, dossier de conception Foo Fighters Take Cover 2026 (https://wonder.co.uk/mies_portfolio/foo-fighters-take-cover-2026/) ; TPi Magazine, 12 octobre 2026 (https://www.tpimagazine.com/inside-foo-fighters-industrial-stage-design/) ; CalArts, entretien Electronic Countermeasures, 7 octobre 2026 (https://24700.calarts.edu/2026/10/07/how-calarts-alums-bring-foo-fighters-stadium-shows-to-life/)",
     "verified": true,
     "editorial_method": "Dialogue entre le dossier technique primaire Wonder Works, le reportage TPi et les créateurs des images live interrogés par CalArts. Les effets ressentis sont présentés comme hypothèses de lecture, non comme intentions attestées.",
-    "reviewed_at": "2026-11-09T06:00:00+01:00"
+    "reviewed_at": "2026-11-09T06:00:00+01:00",
+    "tip": "En prévisualisation, coupe tour à tour la vidéo et les nervures. Vérifie ce que chaque couche apporte à la lecture depuis le fond de salle."
   },
   "https://www.promonews.tv/videos/2026/10/14/knats-bowling-ball-lulu-vicedomini/96405": {
     "intro": "Au bowling, les Knats lancent une boule. Puis c’est elle qui les poursuit dans les rues de Newcastle et de South Shields.",

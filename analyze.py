@@ -459,9 +459,12 @@ Réponds UNIQUEMENT en JSON valide, sans Markdown :
  "publish": true,
  "intro": "texte",
  "points": [["titre 1", "texte 1"], ["titre 2", "texte 2"], ["titre 3", "texte 3"]],
- "takeaway": "texte",
+ "takeaway": "ce que le choix créatif change dans le projet",
+ "tip": "un test concret et distinct, ou une chaîne vide",
  "title_fr": "titre français"
 }
+
+SÉPARATION DES CHAMPS : takeaway alimente « Intérêt DA ». Explique le choix créatif et son effet, sans consigne à exécuter. tip alimente « Tip · À tester ». Propose une manipulation concrète et un critère à observer. Ne reformule pas la même idée dans les deux champs.
 
 SELECTION ET PRIORITÉS :
 Priorité forte : clips musicaux avec mise en scène ou univers visuel,
@@ -716,6 +719,7 @@ for item in candidates:
     points = analysis.get("points", [])
     intro = analysis.get("intro", "")
     takeaway = analysis.get("takeaway", "")
+    tip = analysis.get("tip", "")
 
     valid = (
         analysis.get("publish") is True
@@ -733,6 +737,8 @@ for item in candidates:
         and len(intro) >= 90
         and isinstance(takeaway, str)
         and len(takeaway) >= 65
+        and isinstance(tip, str)
+        and takeaway.strip().casefold() != tip.strip().casefold()
     )
 
     if not valid:
@@ -760,6 +766,7 @@ for item in candidates:
         "intro": intro,
         "points": points,
         "takeaway": takeaway,
+        "tip": tip.strip(),
         "title_fr": analysis.get("title_fr", ""),
         "reviewed_at": timestamp,
         "source_url": url

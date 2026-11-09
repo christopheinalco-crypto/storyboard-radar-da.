@@ -24,3 +24,11 @@ Chaque article retenu doit disposer d'une image authentique du projet, accessibl
 
 ## Contrôle qualité avant publication
 Relire chaque analyse à voix haute. Si elle ressemble à une fiche scolaire, si elle n'apprend rien sur l'intention et l'émotion, si elle n'explique pas un choix concret, si elle présente une hypothèse comme un fait, ou si elle n'a pas de visuel pertinent, la retravailler avant publication. Ne jamais sacrifier la pertinence pour atteindre un quota.
+
+## Intérêt DA et exercice
+
+Le champ `takeaway` explique ce que le choix créatif change dans le projet. Le champ `tip` propose une manipulation et un critère observable. Relire les deux côte à côte. Si les deux invitent à faire un exercice ou si le tip reformule l’intérêt, corriger avant de publier. En l’absence de test pertinent, laisser le tip vide.
+
+## Reprendre dans un nouveau chat
+
+Ouvrir le dépôt RADAR DA comme projet Codex et demander de lire ce fichier, EDITORIAL_RUBRIC.md et les analyses déjà publiées. Utiliser la Bibliothèque DA locale pour chercher un passage vérifiable qui éclaire le projet. Les angles et les intertitres varient selon le cas, avec quelques surlignages natifs. Les PDF restent dans la bibliothèque locale, hors du dépôt public. Après publication, contrôler le flux et la fiche servie par GitHub Pages.
