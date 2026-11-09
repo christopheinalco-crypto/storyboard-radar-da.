@@ -20,10 +20,10 @@ Un directeur artistique expérimenté s'adresse directement à un autre créatif
 Favoriser des paragraphes fluides et rythmés, avec des questions pertinentes et des transitions. Éviter les listes à rallonge et les titres abstraits répétés. La structure peut être adaptée aux champs techniques du JSON, mais les champs `intro`, `points` et `takeaway` doivent former une seule conversation cohérente ; les titres de points ne doivent pas sonner comme un manuel. Préférer 2 à 3 mouvements argumentatifs substantiels à 5 micro-rubriques. Pas de doublons entre résumé, décryptage et conclusion.
 
 ## Vérification et visuels
-Chaque article retenu doit disposer d'une image authentique du projet, accessible et pertinente (pas de pictogramme ni de substitution inventée). Vérifier les URL, les faits, les dates, les sources primaires quand possible et les sources complémentaires. Si le visuel manque, rechercher une source légitime ; signaler clairement le manque plutôt que faire croire qu'il est présent. Les liens de sources restent accessibles.
+Pour toute fiche, chercher en priorité un visuel authentique et pertinent du projet. Vérifier les URL, les faits, les dates et les sources. Les liens de sources restent accessibles.
 
 ## Contrôle qualité avant publication
-Relire chaque analyse à voix haute. Si elle ressemble à une fiche scolaire, si elle n'apprend rien sur l'intention et l'émotion, si elle n'explique pas un choix concret, si elle présente une hypothèse comme un fait, ou si elle n'a pas de visuel pertinent, la retravailler avant publication. Ne jamais sacrifier la pertinence pour atteindre un quota.
+Relire chaque analyse à voix haute. Si elle ressemble à une fiche scolaire, si elle n'apprend rien sur l'intention et l'émotion, si elle n'explique pas un choix concret, si elle présente une hypothèse comme un fait, la retravailler avant publication. Ne jamais sacrifier la pertinence pour atteindre un quota.
 
 ## Intérêt DA et exercice
 
@@ -35,4 +35,4 @@ Ouvrir le dépôt RADAR DA comme projet Codex et demander de lire ce fichier, ED
 
 ## Contrôle des visuels avant publication
 
-Ouvrir le visuel légitime directement, sans dépendre de la page source comme référent. Un lien vide, une réponse d’erreur ou une page HTML à la place d’une image bloquent la nouvelle fiche. Chercher un autre visuel officiel ou laisser la fiche en attente. Le lien de secours dans le RADAR sert aux images qui deviennent indisponibles après publication.
+Vérifier d’abord le visuel de la source. Si le lien manque, échoue ou si l’usage est incertain, chercher un autre visuel du projet dans le dossier de presse, chez le créateur ou chez le producteur. Vérifier les conditions d’usage et ouvrir directement le lien sans référent. Si les pistes échouent, publier une fiche compacte avec son lien source, à condition que le décryptage soit suffisamment documenté. Appliquer cette règle à toutes les rubriques, y compris les repérages sociaux. Le générateur essaie le visuel du flux puis les images déclarées par la page source. Une recherche éditoriale manuelle permet d’étendre ces pistes aux sources officielles.

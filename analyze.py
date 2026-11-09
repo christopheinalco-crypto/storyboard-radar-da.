@@ -766,12 +766,7 @@ for item in candidates:
         item["image"] = source_image(url)
 
     if not item.get("image"):
-        mark_reviewed(url, "no_image")
-        print(
-            "Editorial withheld: missing image:",
-            item["title"]
-        )
-        continue
+        print("Editorial fallback: compact entry without image:", item["title"])
 
     timestamp = datetime.datetime.now(
         datetime.timezone.utc
