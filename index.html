@@ -636,10 +636,11 @@ function drawFeed(){renderSocialPostWatch();renderSavedInsights();const cat=$('#
 const priority={'01':80,'02':75,'15':72,'14':70,'08':68,'06':65,'09':60,'05':30,'03':10,'11':8,'04':6};
 const feedCutoff=0; // Keep reviewed articles visible until explicitly archived.
 let items=ITEMS.filter(x=>{const addedAt=Date.parse(AI_EDITORIAL_CASES[x.url]?.reviewed_at||x.published||'');return (!!EDITORIAL_CASES[x.url]||!!AI_EDITORIAL_CASES[x.url])&&!excludedEditorialList(x)&&Number.isFinite(addedAt)&&addedAt>=feedCutoff&&(activeGroup==='Tout'||groupRelevance(x,activeGroup)>=8)&&(!cat||x.category===cat)});
-items.sort((a,b)=>(Date.parse(AI_EDITORIAL_CASES[b.url]?.reviewed_at||b.published||'')||0)-(Date.parse(AI_EDITORIAL_CASES[a.url]?.reviewed_at||a.published||'')||0)||(priority[String(b.category||'').slice(0,2)]||0)-(priority[String(a.category||'').slice(0,2)]||0));
+// Trier par date de publication du projet, pas par horodatage commun de relecture des analyses.
+items.sort((a,b)=>(Date.parse(b.published||'')||0)-(Date.parse(a.published||'')||0)||(Date.parse(AI_EDITORIAL_CASES[b.url]?.reviewed_at||'')||0)-(Date.parse(AI_EDITORIAL_CASES[a.url]?.reviewed_at||'')||0)||(priority[String(b.category||'').slice(0,2)]||0)-(priority[String(a.category||'').slice(0,2)]||0));
 const unique=new Set();items=items.filter(x=>{if(unique.has(x.url))return false;unique.add(x.url);return true});
-// Les projets marqués « Vu » quittent immédiatement le flux principal.
-// Ne plus masquer les articles déjà vus : garder les six décryptages accessibles.
+// Les projets marqués « Vu » quittent immédiatement le flux principal et restent dans « Projets vus ».
+items=items.filter(x=>!seen[x.url||x.title]);
 
 // La veille principale ne montre que les projets avec décryptage DA validé.
 const day=new Date().toLocaleDateString('en-CA');
