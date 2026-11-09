@@ -64,3 +64,9 @@ Pour chaque fiche, être capable de désigner un détail précis, de dire où le
 La sélection, l’écriture et les tests de liens ne valent pas validation éditoriale. Après le premier jet, relire la fiche en repartant des sources, comme si elle avait été écrite par une autre personne. Pour chaque point, retrouver un plan, un moment ou un détail observable et son repère (minutage, image, passage ou citation de production). Vérifier que le texte explique en termes simples ce que ce détail change et que la conclusion découle de ce qui est vérifié. Le tip sert à éprouver le principe dans un autre essai. Il ne doit pas demander au lecteur de trouver la preuve manquante de la fiche.
 
 Si un point reste générique, le réécrire ou le retirer avant publication. Si le mécanisme central n’est pas vérifiable, garder le sujet en découverte et ne pas créer son entrée dans data/analyses.json. Le contrôle technique et la vérification du déploiement ont lieu après cette seconde lecture.
+
+## Garde-fou de publication
+
+Activer le contrôle versionné dans chaque clone avec `git config core.hooksPath .githooks`. Node.js est requis. Le hook vérifie les analyses nouvelles ou modifiées avant un envoi vers main. Pour chaque point, consigner dans `editorial_review` un objet avec `url` et `locator`, dans le même ordre que les points. Le repère doit nommer le détail effectivement vérifié et où le retrouver. En cas de révision, consigner la seconde lecture de la nouvelle version. Les fiches héritées sont contrôlées à leur prochaine modification.
+
+Le hook contrôle la présence des repères, puis la relecture juge la qualité de la preuve et du texte. Si un point ne passe pas cette relecture, le réécrire, le retirer ou garder la fiche en découverte. Les publications depuis un autre clone exigent l’activation du hook dans ce clone. Les publications via l’interface GitHub ne passent pas par ce hook local.
