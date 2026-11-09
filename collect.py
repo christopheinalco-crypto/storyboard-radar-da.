@@ -21,7 +21,7 @@ old=json.load(open(os.path.join(ROOT,'data/feed.json'),encoding='utf8'))
 # Garde-fou editorial : un nom d'artiste connu ou un visuel ne suffit pas.
 # Une creation scenique ou audiovisuelle identifiable est obligatoire.
 RADAR_ALLOWED_CATEGORIES = {'01','02','14','15','09','08','06'}
-RADAR_PROJECT = re.compile(r'sc[eé]nograph|stage design|set design|concert production|tour production|live show|live production|spectacle|th[eé][aâ]tre|theatre|mise en sc[eè]ne|choreograph|chor[eé]graph|dance performance|danse|music video|vid[eé]oclip|clip musical|\\bclip\\b|directed by|director|r[eé]alis[eé]|projection mapping|immersive experience|exp[eé]rience immersive|installation immersive|show design|tv set|plateau t[eé]l[eé]|broadcast design|visual effects|vfx|cgi|motion design',re.I)
+RADAR_PROJECT = re.compile(r'sc[eé]nograph|stage design|set design|concert production|tour production|live show|live production|spectacle|th[eé][aâ]tre|theatre|mise en sc[eè]ne|choreograph|chor[eé]graph|dance performance|danse|music video|vid[eé]oclip|clip musical|\bclip\b|directed by|director|r[eé]alis[eé]|projection mapping|immersive experience|exp[eé]rience immersive|installation immersive|show design|tv set|plateau t[eé]l[eé]|broadcast design|visual effects|vfx|cgi|motion design',re.I)
 RADAR_OFFTOPIC = re.compile(r'museum|mus[eé]e|architecture|architects?|architectur|pharmacy|residence|apartment|house renovation|art center|art centre|gallery|galerie|exhibition|exposition|award winners|palmar[eè]s|best songs|playlist|album review|new album|announces new|tour announcement|microphones? delivers|engineers choose|audio console|sound desk|diGiCo|dpa microphones',re.I)
 def radar_in_scope(item):
  category=str(item.get('category') or '')[:2]
@@ -29,7 +29,7 @@ def radar_in_scope(item):
  content=title+' '+str(item.get('summary') or '')
  if category not in RADAR_ALLOWED_CATEGORIES:return False
  if RADAR_OFFTOPIC.search(title):return False
- if category=='14' and not re.search(r'music video|vid[eé]oclip|\\bvideo\\b|\\bclip\\b|directed by|r[eé]alis[eé]',content,re.I):return False
+ if category=='14' and not re.search(r'music video|vid[eé]oclip|\bvideo\b|\bclip\b|directed by|r[eé]alis[eé]',content,re.I):return False
  if category=='02' and not re.search(r'set design|stage|show design|tv set|plateau|broadcast design|sc[eé]nograph|lighting design',content,re.I):return False
  if category in {'01','09'} and re.search(r'microphone|audio console|sound desk|engineers choose|technical supplier',title,re.I):return False
  return bool(RADAR_PROJECT.search(content))
