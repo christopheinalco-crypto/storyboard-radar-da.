@@ -48,3 +48,7 @@ Vérifier d’abord le visuel de la source. Si le lien manque, échoue ou si l�
 ## Lecture en deux temps
 
 Sur la carte, garder une phrase qui explique pourquoi le choix de DA mérite l’attention. Dans le décryptage, relier les détails au mécanisme du projet et placer le tip facultatif à la fin. Pour enrichir une fiche, partir d’une question précise, repérer une référence dans la bibliothèque, puis vérifier le passage. N’ajouter la référence que si elle change ou affine la lecture.
+
+## Simulation complète de veille
+
+Une demande de simulation de veille va jusqu’à la publication d’une nouveauté dans le RADAR. Vérifier les doublons, croiser les sources, choisir un visuel qui montre le détail analysé et publier la fiche. Après déploiement, vérifier son rang dans le flux public et la présence du visuel. Un lecteur officiel intégrable peut montrer le projet lorsque la fiche ne dispose pas d’une image réutilisable.
