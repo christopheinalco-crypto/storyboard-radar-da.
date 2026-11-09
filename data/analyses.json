@@ -21,11 +21,18 @@
       [
         "L'ambition dépend de la logistique",
         "Le navire de 104 pieds de long a été conçu avec des assemblages rapides, des structures roulantes et des grilles laissant passer lumière et effets spéciaux. Cette ingénierie rend le décor transportable et exploitable en tournée. **Une idée scénographique n’existe réellement que si elle peut être montée, jouée et démontée.**"
+      ],
+      [
+        "Le regard du DA — un pas de plus",
+        "Ce qui me paraît le plus fort, c'est que la place du public a été pensée comme une partie du décor. Dans les conseils pratiques de la bibliothèque DA, la fiche inspirée de Pamela Howard propose justement de tester la distance et la relation entre interprètes et spectateurs. Rocky pousse cette question plus loin : la foule n'est plus seulement proche du spectacle, elle joue un rôle dans la fiction. C'est une piste de conception à retenir, pas une preuve que Howard a inspiré l'équipe."
       ]
     ],
     "takeaway": "Pour concevoir un spectacle, commence par définir la place du public dans l’univers imaginé. Fais ensuite converger décor, déplacements, lumière et images vers cette relation. La prouesse technique doit soutenir la dramaturgie, pas la remplacer.",
     "source": "TPi Magazine, 5 novembre 2026; entretiens avec Darren Mullis, Luke Rolls et l'équipe de production",
-    "verified": true
+    "verified": true,
+    "bibliography_note": "Pamela Howard, What is Scenography? — rapprochement via « Conseils pratiques — Création de spectacles visuels — Bibliothèque DA », fiche 02.02.",
+    "editorial_method": "Analyse conversationnelle : faits de l'article distincts des rapprochements théoriques et hypothèses de réception.",
+    "reviewed_at": "2026-11-09T12:00:00+01:00"
   },
   "https://plsn.com/featured/ayrton-fixtures-used-for-robbie-williams-britpop-world-tour/": {
     "intro": "Pour la tournée « Britpop » de Robbie Williams, STUFISH conçoit un décor en mouvement, complété par plusieurs espaces de jeu au milieu du public. Paul Normandale signe la lumière et Kim Gavin la direction créative.",
@@ -64,13 +71,19 @@
       [
         "Le projet se construit entre plusieurs métiers",
         "Promonews crédite notamment Hara Spyrou au set design, Ricky Labib et Mira Jebari à la direction du mouvement, ainsi qu'une équipe de projection et de lumière. Le concept ne réside pas dans l'arbre seul : **il dépend de la coordination entre objet, corps et image.**"
+      ],
+      [
+        "Le regard du DA — un pas de plus",
+        "Ce que je te conseille de regarder, c'est ce qui se passe si tu retires mentalement l'arbre : les danseurs n'ont plus le même centre. Et si tu retires les danseurs, l'arbre redevient une sculpture. C'est leur relation qui crée la scène. La synthèse de notre bibliothèque, à partir de Peter Brook, propose justement de tester d'abord les corps dans un espace vide pour comprendre ce qu'un décor ajoute réellement. Ici, on voit exactement l'intérêt de cette question."
       ]
     ],
     "takeaway": "Pour traduire une idée abstraite, ne multiplie pas les symboles. Choisis un élément central, puis détermine comment les interprètes vont lui donner une fonction narrative. Un décor devient scénographie lorsqu'il organise des relations.",
     "source": "Promonews, 6 novembre 2026",
     "verified": true,
     "source_url": "https://www.promonews.tv/videos/2026/11/06/omah-lay-artificial-happiness-nwspk/96846",
-    "reviewed_at": "2026-11-09T09:00:00+01:00"
+    "reviewed_at": "2026-11-09T12:00:00+01:00",
+    "bibliography_note": "Peter Brook, The Empty Space — rapprochement via « Conseils pratiques — Création de spectacles visuels — Bibliothèque DA », fiche 02.01.",
+    "editorial_method": "Analyse conversationnelle : faits de l'article distincts des rapprochements théoriques et hypothèses de réception."
   },
   "https://www.revue-as.fr/2026/11/07/imagicario-la-mecanique-dequilibre-du-paredolia-duo/": {
     "title_fr": "Parédolia Duo — deux réverbères pour jouer l'intimité",
@@ -91,13 +104,19 @@
       [
         "Une scénographie qui existe par les corps",
         "Le dispositif n'exige pas un décor construit autour des personnages. Leur hauteur, leur lumière et leur mouvement suffisent à transformer l'espace traversé. Le spectacle se déplace avec ses interprètes : **le décor est devenu un corps en mouvement.**"
+      ],
+      [
+        "Le regard du DA — un pas de plus",
+        "Regarde comme la forme naît du jeu : ces interprètes ne pourraient pas raconter la même relation en marchant normalement. Leur équilibre précaire change la durée et la précision de chaque rapprochement. C'est une bonne façon de comprendre le conseil de scénographie associé à Pamela Howard dans notre bibliothèque : observer les déplacements des interprètes avant de figer les volumes. Le corps n'est pas un élément qu'on ajoute au décor ; il doit participer à sa conception."
       ]
     ],
     "takeaway": "Cherche des décisions qui remplissent plusieurs fonctions à la fois. Dans Parédolia Duo, la lanterne est visage, lumière et signe narratif ; le vêtement est costume, cache technique et aide au mouvement. C'est cette convergence qui rend l'idée forte.",
     "source": "Revue AS, 7 novembre 2026",
     "verified": true,
     "source_url": "https://www.revue-as.fr/2026/11/07/imagicario-la-mecanique-dequilibre-du-paredolia-duo/",
-    "reviewed_at": "2026-11-09T09:00:00+01:00"
+    "reviewed_at": "2026-11-09T12:00:00+01:00",
+    "bibliography_note": "Pamela Howard, What is Scenography? — rapprochement via « Conseils pratiques — Création de spectacles visuels — Bibliothèque DA », fiche 01.02.",
+    "editorial_method": "Analyse conversationnelle : faits de l'article distincts des rapprochements théoriques et hypothèses de réception."
   },
   "https://www.promonews.tv/videos/2026/11/03/ear-candy-clean-clothes-rob-ulitski/96844": {
     "title_fr": "Ear Candy — Clean Clothes : une règle pour traverser tous les décors",
@@ -118,14 +137,20 @@
       [
         "Le réalisateur confirme le principe, pas toutes ses interprétations",
         "Dans Promonews, Ulitski explique avoir aimé l'idée d'un procédé simple pour traverser ces univers. Cette déclaration étaye la fonction structurante du filtre. L'idée que cette règle procure au spectateur une sécurité narrative au milieu du chaos visuel relève, elle, de l'analyse."
+      ],
+      [
+        "Le regard du DA — un pas de plus",
+        "Imagine que tu retires le filtre qui permet de changer de monde : tu conserves plusieurs beaux décors, mais tu perds la règle qui les relie. La bibliothèque DA, dans sa synthèse du travail de Bruce Block, invite à préserver une idée unificatrice et à confronter chaque proposition à cette idée. Ici, le filtre joue ce rôle très concrètement. Ce n'est pas une citation du réalisateur ni une influence établie : c'est un outil pour comprendre pourquoi le clip reste lisible."
       ]
     ],
     "takeaway": "Quand un projet exige plusieurs styles très différents, commence par inventer la règle qui les relie. Un geste, un objet ou une transition récurrente peut rendre cohérent ce qu'aucune charte graphique commune ne pourrait unifier.",
     "tip": "Dessine trois univers opposés (miniature liminale, plateau télé rétro, espace quotidien), puis invente un seul geste optique reproductible qui fait passer de l'un à l'autre. Vérifie que le spectateur comprend le passage sans carton explicatif.",
     "source": "Promonews, 3 novembre 2026 — propos de Rob Ulitski",
     "verified": true,
-    "reviewed_at": "2026-11-09T09:00:00+01:00",
-    "source_url": "https://www.promonews.tv/videos/2026/11/03/ear-candy-clean-clothes-rob-ulitski/96844"
+    "reviewed_at": "2026-11-09T12:00:00+01:00",
+    "source_url": "https://www.promonews.tv/videos/2026/11/03/ear-candy-clean-clothes-rob-ulitski/96844",
+    "bibliography_note": "Bruce Block, The Visual Story — rapprochement via « Conseils pratiques — Création de spectacles visuels — Bibliothèque DA », fiche 01.06.",
+    "editorial_method": "Analyse conversationnelle : faits de l'article distincts des rapprochements théoriques et hypothèses de réception."
   },
   "https://www.promonews.tv/videos/2026/11/03/waterbaby-memory-be-blade-felix-scheynius/96833": {
     "title_fr": "waterbaby — Memory Be A Blade : quand le montage refuse d'oublier",
@@ -146,14 +171,20 @@
       [
         "La continuité émotionnelle remplace la chronologie",
         "Les vignettes mélancoliques décrites par la source n'imposent pas une causalité classique. Le fil conducteur est l'état intérieur du personnage. Le montage peut ainsi produire une expérience du souvenir plutôt qu'un résumé des événements."
+      ],
+      [
+        "Le regard du DA — un pas de plus",
+        "Il y a une question utile à te poser devant ce montage : que fait ressentir l'inversion du mouvement que ne ferait pas un simple plan de tristesse ? Elle ne montre pas seulement un souvenir, elle peut donner l'impression qu'on cherche à revenir en arrière. Notre bibliothèque, dans sa synthèse de Bruce Block, recommande de définir la transformation recherchée avant de choisir les moyens visuels. C'est exactement le test à appliquer à un effet de montage : sert-il un état intérieur précis ou seulement le style ?"
       ]
     ],
     "takeaway": "Pour mettre en scène un état mental, choisis des transformations d'image qui correspondent à ce que vit le personnage. Ici, ralenti et inversion ont une raison narrative : retenir, répéter, revenir. Sans ce lien, ils resteraient des effets décoratifs.",
     "tip": "Filme un geste ordinaire associé à une séparation, puis construis trois versions : vitesse réelle, ralenti, inversion. Assemble-les avec un portrait fixe et observe quelle combinaison évoque le mieux un souvenir qui revient.",
     "source": "Promonews, 3 novembre 2026",
     "verified": true,
-    "reviewed_at": "2026-11-09T09:00:00+01:00",
-    "source_url": "https://www.promonews.tv/videos/2026/11/03/waterbaby-memory-be-blade-felix-scheynius/96833"
+    "reviewed_at": "2026-11-09T12:00:00+01:00",
+    "source_url": "https://www.promonews.tv/videos/2026/11/03/waterbaby-memory-be-blade-felix-scheynius/96833",
+    "bibliography_note": "Bruce Block, The Visual Story — rapprochement via « Conseils pratiques — Création de spectacles visuels — Bibliothèque DA », fiche 01.06.",
+    "editorial_method": "Analyse conversationnelle : faits de l'article distincts des rapprochements théoriques et hypothèses de réception."
   },
   "https://pitchfork.com/story/hayley-williams-hangs-in-a-hotel-room-in-new-dream-girl-in-shibuya-video/": {
     "title_fr": "Hayley Williams — Dream Girl in Shibuya : l'hôtel comme état intérieur",
@@ -174,14 +205,20 @@
       [
         "L'effet naît de ce qui manque",
         "L'absence d'événement spectaculaire peut inviter le spectateur à projeter sa propre expérience de l'attente. Cette proximité émotionnelle est une hypothèse de réception : la source documente le cadre et le traitement visuel, pas la réaction universelle du public."
+      ],
+      [
+        "Le regard du DA — un pas de plus",
+        "Ce qui compte ici, ce n'est pas d'avoir trouvé un hôtel photogénique. C'est de voir ce que ce lieu raconte déjà : une intimité provisoire, des déplacements, une absence. Dans notre bibliothèque, la méthode associée à Pamela Howard recommande de tenir un carnet d'observation de lieux et de gestes réels pour nourrir les univers scéniques. Le clip montre une application possible de ce regard : avant de construire, apprendre à voir le potentiel narratif de ce qui existe."
       ]
     ],
     "takeaway": "Avant de créer un décor, demande-toi si un lieu existant contient déjà la contradiction émotionnelle du projet. Ici, un espace provisoire devient le signe d'un attachement qui ne trouve pas sa place.",
     "tip": "Choisis une chanson sur l'attente et tourne uniquement dans une chambre ou un couloir de passage. Construis cinq plans en noir et blanc avec une seule source lumineuse et un personnage qui n'arrive jamais ; compare la tension produite par les espaces vides et occupés.",
     "source": "Pitchfork, 8 novembre 2026; vidéo officielle, 7 novembre 2026",
     "verified": true,
-    "reviewed_at": "2026-11-09T09:00:00+01:00",
-    "source_url": "https://pitchfork.com/story/hayley-williams-hangs-in-a-hotel-room-in-new-dream-girl-in-shibuya-video/"
+    "reviewed_at": "2026-11-09T12:00:00+01:00",
+    "source_url": "https://pitchfork.com/story/hayley-williams-hangs-in-a-hotel-room-in-new-dream-girl-in-shibuya-video/",
+    "bibliography_note": "Pamela Howard, What is Scenography? — rapprochement via « Conseils pratiques — Création de spectacles visuels — Bibliothèque DA », fiche 01.03.",
+    "editorial_method": "Analyse conversationnelle : faits de l'article distincts des rapprochements théoriques et hypothèses de réception."
   },
   "https://www.promonews.tv/news/2026/11/04/uk-music-video-awards-2026-all-winners-19th-annual-ukmvas/96842": {
     "intro": "La dix-neuvième édition des UK Music Video Awards s'est tenue au Roundhouse à Londres. Animée par Ana Matronic, la cérémonie a récompensé les meilleures productions visuelles et clips de l'année. Le projet de Gener8ion et Yung Lean a dominé le palmarès.",
