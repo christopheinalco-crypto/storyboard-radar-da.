@@ -431,8 +431,25 @@ print(
     "existing analyses:", len(saved)
 )
 
+# Référence éditoriale permanente : analyse A$AP Rocky / Don't Be Dumb Tour.
+# Chercher le mécanisme singulier du projet, pas une grille descriptive standard.
+DA_EDITORIAL_STANDARD = """
+MODÈLE DE QUALITÉ : l'analyse du concert A$AP Rocky où la foule devient l'océan.
+Chaque analyse doit découvrir UNE idée structurante aussi précise, puis expliquer
+comment décor, corps, lumière, caméra, montage et place du public convergent.
+Exiger 3 à 5 observations singulières, chacune avec indice concret, sens possible,
+effet émotionnel et relation au concept. Une technique sans fonction narrative
+n'est pas un enseignement DA. Distinguer clairement fait sourcé, propos du créateur,
+hypothèse d'intention et hypothèse de réception. Ne pas inventer de citations.
+Refuser les articles qui n'offrent ni concept visuel distinctif ni indices suffisants.
+Écrire de façon vivante, précise et approfondie, sans formules passe-partout.
+La conclusion doit être un principe transférable directement issu du projet.
+Ne jamais forcer une publication pour remplir un quota.
+"""
+
 PROMPT = """
 Tu es directeur artistique senior, critique visuel et pédagogue.
+\n
 Analyse exclusivement l'article source fourni, en français.
 
 Réponds UNIQUEMENT en JSON valide, sans Markdown :
