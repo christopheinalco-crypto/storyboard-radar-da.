@@ -300,7 +300,7 @@ function musicMediaLinks(x){const links=[];for(const [field,label] of [['clip_ur
 function imageHTML(x){
  const link='<a class="image-project-link" href="'+escapeHTML(x.url)+'" target="_blank" rel="noopener noreferrer">Voir le projet <span aria-hidden="true">↗</span></a>';
  if(verifiedCase(x))return '<div class="verified-feature"><span>EXPOSITION · 20 NOV 2026 — 24 JAN 2027</span><strong>ANTOINE<br>D’AGATA</strong><em>THEOREMA</em><small>SOSNOWIEC · POLOGNE</small></div>';
- const fallback='<div class="noimage">'+link.replace('Voir le projet','Voir les visuels à la source')+'</div>';
+ const fallback='<div class="noimage" style="display:flex;flex-direction:column;justify-content:center;align-items:center;gap:12px;padding:20px;min-height:190px;background:linear-gradient(135deg,#17291a,#0a120b);text-align:center"><span style="color:#c0ff1c;font-size:11px;font-weight:800;letter-spacing:.15em">VISUEL À CONSULTER À LA SOURCE</span><strong style="font-size:17px;line-height:1.25;max-width:310px">'+escapeHTML(x.title_fr||x.title)+'</strong>'+link.replace('Voir le projet','Ouvrir les images du projet')+'</div>';
  if(!x.image)return fallback;
  return '<img loading="lazy" referrerpolicy="no-referrer" src="'+escapeHTML(x.image)+'" alt="Image du projet : '+escapeHTML(x.title_fr||x.title)+'" onerror="this.nextElementSibling.hidden=false;this.remove()"><div hidden>'+fallback+'</div>';
 }
