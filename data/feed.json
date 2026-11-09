@@ -1,10 +1,45 @@
 {
-  "updated_at": "2026-11-09T02:10:14.351Z",
-  "status": "curated_analyzed_only",
+  "updated_at": "2026-11-09T02:26:23.136540+00:00",
+  "status": "collected_unreviewed",
   "working_feeds": [
+    {
+      "name": "Live Design",
+      "feed": "https://www.livedesignonline.com/rss.xml",
+      "category": "01 Spectacle Concert"
+    },
+    {
+      "name": "Promonews",
+      "feed": "https://www.promonews.tv/feed",
+      "category": "14 Musique Clips"
+    },
     {
       "name": "PLSN",
       "feed": "https://plsn.com/feed/",
+      "category": "01 Spectacle Concert"
+    },
+    {
+      "name": "Revue AS",
+      "feed": "https://www.revue-as.fr/feed",
+      "category": "09 France Pro"
+    },
+    {
+      "name": "Designboom",
+      "feed": "https://www.designboom.com/feed",
+      "category": "05 Art Architecture"
+    },
+    {
+      "name": "Mindsparkle Mag",
+      "feed": "https://mindsparklemag.com/feed",
+      "category": "11 Graphisme Expertise"
+    },
+    {
+      "name": "Tsugi",
+      "feed": "https://www.tsugi.fr/feed",
+      "category": "14 Musique Clips"
+    },
+    {
+      "name": "STUFISH",
+      "feed": "https://stufish.com/feed",
       "category": "01 Spectacle Concert"
     },
     {
@@ -13,9 +48,84 @@
       "category": "01 Spectacle Concert"
     },
     {
+      "name": "Ross Video",
+      "feed": "https://www.rossvideo.com/feed",
+      "category": "02 TV Broadcast"
+    },
+    {
+      "name": "Vizrt",
+      "feed": "https://www.vizrt.com/feed",
+      "category": "02 TV Broadcast"
+    },
+    {
+      "name": "AV Magazine",
+      "feed": "https://www.avinteractive.com/feed",
+      "category": "02 TV Broadcast"
+    },
+    {
+      "name": "Dragone",
+      "feed": "https://www.dragone.com/feed",
+      "category": "01 Spectacle Concert"
+    },
+    {
+      "name": "Brand New",
+      "feed": "https://www.underconsideration.com/feed",
+      "category": "03 DA Graphisme"
+    },
+    {
       "name": "Graphéine",
       "feed": "https://www.grapheine.com/feed",
       "category": "13 France Marketing Design"
+    },
+    {
+      "name": "ArchDaily",
+      "feed": "https://www.archdaily.com/feed",
+      "category": "05 Art Architecture"
+    },
+    {
+      "name": "Typographica",
+      "feed": "https://typographica.org/feed",
+      "category": "11 Graphisme Expertise"
+    },
+    {
+      "name": "Typewolf",
+      "feed": "https://www.typewolf.com/feed",
+      "category": "03 DA Graphisme"
+    },
+    {
+      "name": "Imagination",
+      "feed": "https://imagination.com/feed",
+      "category": "06 Retail Brand Experience"
+    },
+    {
+      "name": "Dieline",
+      "feed": "https://thedieline.com/feed",
+      "category": "03 DA Graphisme"
+    },
+    {
+      "name": "Sight Unseen",
+      "feed": "https://www.sightunseen.com/feed",
+      "category": "05 Art Architecture"
+    },
+    {
+      "name": "Jack Morton",
+      "feed": "https://jackmorton.com/feed",
+      "category": "06 Retail Brand Experience"
+    },
+    {
+      "name": "Creapills",
+      "feed": "https://creapills.com/feed",
+      "category": "13 France Marketing Design"
+    },
+    {
+      "name": "Artforum",
+      "feed": "https://www.artforum.com/feed",
+      "category": "05 Art Architecture"
+    },
+    {
+      "name": "VMSD",
+      "feed": "https://vmsd.com/feed",
+      "category": "06 Retail Brand Experience"
     },
     {
       "name": "Creative Boom",
@@ -23,19 +133,34 @@
       "category": "03 DA Graphisme"
     },
     {
-      "name": "Art of the Title",
-      "feed": "https://www.artofthetitle.com/feed",
-      "category": "08 Immersif CGI Motion"
+      "name": "George P. Johnson",
+      "feed": "https://www.gpj.com/feed",
+      "category": "06 Retail Brand Experience"
     },
     {
-      "name": "Superbien",
-      "feed": "https://www.superbien.com/feed",
-      "category": "08 Immersif CGI Motion"
+      "name": "Type Directors Club",
+      "feed": "https://tdc.org/feed",
+      "category": "11 Graphisme Expertise"
     },
     {
-      "name": "Effie Worldwide",
-      "feed": "https://www.effie.org/feed",
-      "category": "10 Strategie Insights"
+      "name": "Colossal",
+      "feed": "https://www.thisiscolossal.com/feed",
+      "category": "05 Art Architecture"
+    },
+    {
+      "name": "Design Observer",
+      "feed": "https://designobserver.com/feed",
+      "category": "11 Graphisme Expertise"
+    },
+    {
+      "name": "Étapes",
+      "feed": "https://etapes.com/feed",
+      "category": "13 France Marketing Design"
+    },
+    {
+      "name": "BP&O",
+      "feed": "https://bpando.org/feed",
+      "category": "03 DA Graphisme"
     },
     {
       "name": "Dance Magazine",
@@ -46,45 +171,310 @@
       "name": "Light ZOOM Lumière",
       "feed": "https://www.lightzoomlumiere.fr/feed",
       "category": "09 France Pro"
+    },
+    {
+      "name": "BroadwayWorld Dance",
+      "feed": "https://www.broadwayworld.com/feed/",
+      "category": "15 Danse Performance"
+    },
+    {
+      "name": "Art of the Title",
+      "feed": "https://www.artofthetitle.com/feed",
+      "category": "08 Immersif CGI Motion"
+    },
+    {
+      "name": "Stash",
+      "feed": "https://www.stashmedia.tv/feed",
+      "category": "08 Immersif CGI Motion"
+    },
+    {
+      "name": "Effie Worldwide",
+      "feed": "https://www.effie.org/feed",
+      "category": "10 Strategie Insights"
+    },
+    {
+      "name": "Superbien",
+      "feed": "https://www.superbien.com/feed",
+      "category": "08 Immersif CGI Motion"
+    },
+    {
+      "name": "Campaign Middle East",
+      "feed": "https://campaignme.com/feed",
+      "category": "04 Pub Strategie"
+    },
+    {
+      "name": "FRATERCINÉ",
+      "feed": "https://www.fratercine.fr/feed",
+      "category": "09 France Pro"
+    },
+    {
+      "name": "Grand Visual",
+      "feed": "https://grandvisual.com/feed",
+      "category": "07 FOOH OOH DOOH"
+    },
+    {
+      "name": "IDlia Studio",
+      "feed": "https://www.idlia.fr/feed",
+      "category": "09 France Pro"
     }
   ],
-  "collection_slot": 2,
-  "collection_hour_paris": 20,
-  "sources_selected": 34,
-  "sources_checked": 34,
-  "special_test": false,
-  "special_selection": {},
+  "collection_slot": 0,
+  "collection_hour_paris": 3,
+  "sources_selected": 182,
+  "sources_checked": 172,
+  "special_test": true,
+  "special_selection": {
+    "01 Spectacle Concert": [
+      {
+        "title": "2D & 3D: Lighting Design for Broadway",
+        "url": "https://www.livedesignonline.com/premium/webinar/1414423",
+        "score": 29
+      },
+      {
+        "title": "See Glow Motion at LDI: Halo Ring & Next Gen Kinetic Systems",
+        "url": "https://www.livedesignonline.com/resource/see-glow-motion-ldi-halo-ring-next-gen-kinetic-systems",
+        "score": 21
+      },
+      {
+        "title": "Live Design: Terhal",
+        "url": "https://dragone.com/live-design-covers-terhal/",
+        "score": 21
+      }
+    ],
+    "02 TV Broadcast": [
+      {
+        "title": "Vizrt graphics chosen as the Official Technical Supplier of Eurovision 2026",
+        "url": "https://routing.vizrt.com/vizrt/press-center/pr-vizrt-graphics-eurovision-2026/",
+        "score": 9
+      },
+      {
+        "title": "Leyard and UP to deliver spectacular displays at AV Awards",
+        "url": "https://www.avinteractive.com/markets-news/live-events/leyard-europe-and-universal-pixels-partner-at-av-awards-05-11-2026/",
+        "score": 8
+      },
+      {
+        "title": "Lightware brings flexibility to Hungary’s first LED cinema",
+        "url": "https://www.avinteractive.com/territories-news/europe/lightware-brings-flexibility-to-hungarys-first-led-cinema-05-11-2026/",
+        "score": 6
+      }
+    ],
+    "03 DA Graphisme": [
+      {
+        "title": "Pentagram looks to Grand Central Oyster Bar’s iconic lettering for its gorgeously gaudy Storefront Gala 2026 identity",
+        "url": "https://bpando.org/2026/10/22/pentagram-new-york-storefront-gala-2026-event-identity-design/",
+        "score": 29
+      },
+      {
+        "title": "Order creates a delightfully design history-steeped identity for Salt Lick on Salt Creek – but what actually is it?",
+        "url": "https://bpando.org/2026/10/13/order-salt-lick-on-salt-creek-lavender-farm-brand-identity/",
+        "score": 29
+      },
+      {
+        "title": "Mother Design pilfers from Y2K aesthetics and cymatic patterns in its masterful identity for spirituality app Purple Garden",
+        "url": "https://bpando.org/2026/11/05/mother-design-brand-identity-spirituality-app-purple-garden/",
+        "score": 23
+      }
+    ],
+    "04 Pub Strategie": [
+      {
+        "title": "Kcal packaging brings to life DIDI student’s winning design in collab",
+        "url": "https://campaignme.com/kcal-packaging-brings-to-life-didi-students-winning-design-in-new-collaboration/",
+        "score": 30
+      },
+      {
+        "title": "Eoin Cronolly appointed as Creative Director at Footballco",
+        "url": "https://campaignme.com/eoin-cronolly-appointed-as-creative-director-at-footballco/",
+        "score": 24
+      },
+      {
+        "title": "Full speaker line-up confirmed for Campaign Breakfast Briefing: Out of Home 2027",
+        "url": "https://campaignme.com/first-wave-speakers-campaign-breakfast-briefing-out-of-home-2027/",
+        "score": 15
+      }
+    ],
+    "05 Art Architecture": [
+      {
+        "title": "Designing the invisible at the new ICG Gallery Dubai",
+        "url": "https://www.archdaily.com/1188160/designing-the-invisible-at-the-new-icg-gallery-dubai",
+        "score": 24
+      },
+      {
+        "title": "julia lohmann’s otherworldly kelp sculptures imagine a future beyond human-centered design",
+        "url": "https://www.designboom.com/design/julia-lohmann-otherworldly-kelp-sculptures-future-beyond-human/",
+        "score": 23
+      },
+      {
+        "title": "concrete pairs with brushed metal for hybrid automotive gallery café in hong kong",
+        "url": "https://www.designboom.com/architecture/concrete-brushed-metal-hybrid-automotive-gallery-cafe-hong-kong-macchina-studio-ruei/",
+        "score": 20
+      }
+    ],
+    "06 Retail Brand Experience": [
+      {
+        "title": "THE ARCHITECTURE OF EXTRAORDINARY: DESIGNING EXPERIENCES THAT TRANSFORM US",
+        "url": "https://www.gpj.com/news-insights/2026/11/the-architecture-of-extraordinary-designing-experiences-that-transform-us/",
+        "score": 18
+      },
+      {
+        "title": "IMG+RetailOne Acquires ecRetail Studio and Angle Architecture, Expanding Concept-to-Installation Capabilities",
+        "url": "https://vmsd.com/imgretailone-acquires-ecretail-studio-and-angle-architecture-expanding-concept-to-installation-capabilities/",
+        "score": 18
+      },
+      {
+        "title": "Rethink Trade Shows: Beyond the Booth",
+        "url": "https://jackmorton.com/pov/rethink-tradeshows-beyond-the-booth/",
+        "score": 18
+      }
+    ],
+    "07 FOOH OOH DOOH": [
+      {
+        "title": "Our 2025 Grand Visual OOH Christmas Campaigns",
+        "url": "https://grandvisual.com/christmas-ooh-campaigns-by-grand-visual/",
+        "score": 24
+      },
+      {
+        "title": "Our 2025 Grand Visual OOH Christmas Campaigns",
+        "url": "https://grandvisual.com/our-2025-grand-visual-ooh-christmas-campaigns/",
+        "score": 24
+      },
+      {
+        "title": "When OOH Talks Back: Our Favourite DCO Campaigns of the Last 5 Years",
+        "url": "https://grandvisual.com/dco-campaigns-of-the-last-5-years/",
+        "score": 18
+      }
+    ],
+    "08 Immersif CGI Motion": [
+      {
+        "title": "Motion Plus Design Returns to Paris 2026, November 14th",
+        "url": "https://www.stashmedia.tv/motion-plus-design-returns-to-paris-2026-november-14th/",
+        "score": 18
+      },
+      {
+        "title": "CREATIVE JAM SESSION",
+        "url": "https://www.superbien.studio/journal/creative-jam-session",
+        "score": 18
+      },
+      {
+        "title": "A vision taking shape, a sharper creative gesture",
+        "url": "https://www.superbien.studio/journal/a-vision-taking-shape-a-sharper-creative-gesture",
+        "score": 15
+      }
+    ],
+    "09 France Pro": [
+      {
+        "title": "L’ISTS ouvre la prochaine session de la formation métier “Régisseur général des entreprises du spectacle vivant”",
+        "url": "https://www.revue-as.fr/2026/11/04/lists-ouvre-la-prochaine-session-de-la-formation-metier-regisseur-general-des-entreprises-du-spectacle-vivant/",
+        "score": 18
+      },
+      {
+        "title": "CBC, Genius Loci, Sanae | Film 3D Concours Ehpad",
+        "url": "https://www.idlia.fr/cbc-genius-loci-sanae-film-3d-concours-ehpad/",
+        "score": 18
+      },
+      {
+        "title": "Limiter les impacts de la lumière artificielle, Cluster Lumière",
+        "url": "https://www.lightzoomlumiere.fr/livre/limiter-les-impacts-de-la-lumiere-artificielle-cluster-lumiere/",
+        "score": 17
+      }
+    ],
+    "10 Strategie Insights": [],
+    "11 Graphisme Expertise": [
+      {
+        "title": "VS/Goods© — Cool Mockups",
+        "url": "https://mindsparklemag.com/website/vsgoods-cool-mockups",
+        "score": 32
+      },
+      {
+        "title": "Deji Ajetomobi",
+        "url": "https://mindsparklemag.com/website/deji-ajetomobi",
+        "score": 29
+      },
+      {
+        "title": "Meer Mohsin",
+        "url": "https://mindsparklemag.com/website/meer-mohsin",
+        "score": 23
+      }
+    ],
+    "12 Tendances Cultures": [],
+    "13 France Marketing Design": [
+      {
+        "title": "Qui dessine les lieux ? Dans les coulisses du design de signalétique",
+        "url": "https://www.etapes.com/2026/09/23/qui-dessine-les-lieux-dans-les-coulisses-du-design-de-signaletique/",
+        "score": 18
+      },
+      {
+        "title": "Ce qu’Instagram fait au design",
+        "url": "https://www.etapes.com/2026/08/26/ce-quinstagram-fait-au-design/",
+        "score": 18
+      },
+      {
+        "title": "Écoles de design : derrière un même diplôme, des formations très différentes",
+        "url": "https://www.etapes.com/2026/10/27/ecoles-de-design-derriere-un-meme-diplome-des-formations-tres-differentes/",
+        "score": 15
+      }
+    ],
+    "14 Musique Clips": [
+      {
+        "title": "UK Music Video Awards 2026: here we go...",
+        "url": "https://www.promonews.tv/news/2026/11/04/uk-music-video-awards-2026-here-we-go/96847",
+        "score": 17
+      },
+      {
+        "title": "UK Music Video Awards 2026: in the winners' enclosure",
+        "url": "https://www.promonews.tv/news/2026/11/06/uk-music-video-awards-2026-winners-enclosure/96865",
+        "score": 14
+      },
+      {
+        "title": "Omah Lay : l'épure sculpturale de NWSPK",
+        "url": "https://www.promonews.tv/videos/2026/11/06/omah-lay-artificial-happiness-nwspk/96846",
+        "score": 14
+      }
+    ],
+    "15 Danse Performance": [
+      {
+        "title": "Exclusive Photos: First Look at GANDHI AND THE JEW at Miami New Drama",
+        "url": "https://www.broadwayworld.com/article/Exclusive-Photos-First-Look-at-GANDHI-AND-THE-JEW-at-Miami-New-Drama-20261106",
+        "score": 32
+      },
+      {
+        "title": "Photos: Lena Dunham, Rachel Zegler and More at FALSETTOS Reunion Concert Toast",
+        "url": "https://www.broadwayworld.com/article/Photos-Lena-Dunham-Rachel-Zegler-and-More-at-FALSETTOS-Reunion-Concert-Toast-20261106",
+        "score": 32
+      },
+      {
+        "title": "Photos: Neil Patrick Harris Visits HEATED RIVALRY: THE UNAUTHORIZED MUSICAL PARODY",
+        "url": "https://www.broadwayworld.com/article/Photos-Neil-Patrick-Harris-Visits-HEATED-RIVALRY-THE-UNAUTHORIZED-MUSICAL-PARODY-20261108",
+        "score": 23
+      }
+    ]
+  },
   "backfill_test": {
     "period": "2026-11-01/2026-11-07",
-    "articles": 312,
-    "with_images": 176
+    "articles": 215,
+    "with_images": 82
   },
   "items": [
     {
-      "title": "Hayley Williams Hangs in Her Hotel Room in “Dream Girl in Shibuya” Video",
-      "url": "https://pitchfork.com/story/hayley-williams-hangs-in-a-hotel-room-in-new-dream-girl-in-shibuya-video/",
-      "published": "2026-11-08T15:29:53+00:00",
-      "summary": "The Ego Death at a Bachelorette Party track just got a black-and-white visual to match",
-      "image": "https://media.pitchfork.com/photos/6af09146d98b824e758335ed/master/pass/hayleywilliams.png",
-      "source": "Pitchfork",
-      "category": "14 Musique Clips",
-      "angle": "Analyser les intentions visuelles, la mise en scène, le montage et l'identité des clips",
-      "status": "source_detected_not_editorially_analyzed",
-      "title_fr": "L'esthétique intimiste du clip de Hayley Williams",
-      "summary_fr": "Le morceau Ego Death at a Bachelorette Party vient de recevoir un visuel en noir et blanc assorti"
+      "title": "Review: THE TAMING: A FOLKTALE at Witches 3 Production is BRILLIANT Theater",
+      "url": "https://www.broadwayworld.com/article/Review-THE-TAMING-A-FOLKTALE-at-Witches-3-Production-is-BRILLIANT-Theater-20261108",
+      "published": "2026-11-08T14:56:18+00:00",
+      "summary": "William Shakespeare wrote The Taming of the Shrew in the late 1500’s as a comedy, numerous adaptions of the tale have been created for different creative genres including the stage, musical theatre, screen, ballet, and even opera. Within all those adaptions, there have been some nuances with the title of the work including more notably Kiss Me Kate as a Broadway musical, Deliver U for Eva as an urban romantic film comedy, and Shakespeare Re-Told: The Taming of the Shrew as a dramatic long form political feature in a four-suite British series of Shakespeare plays. In this incarnation of a Shakespeare classic, Witches 3 Productions picks up the torch in the retelling of the story with the title Taming: A...",
+      "image": "https://cloudimages2.broadwayworld.com/columnpiccloud/200200-7b3071754080aaad551ee5353fd7b192.jpg",
+      "source": "BroadwayWorld Dance",
+      "category": "15 Danse Performance",
+      "angle": "Observer les intentions de mise en scène, composition, rythme, lumière et expérience du public",
+      "status": "source_detected_not_editorially_analyzed"
     },
     {
-      "title": "Imagicario : la mécanique d’équilibre du “Parédolia Duo”",
-      "url": "https://www.revue-as.fr/2026/11/07/imagicario-la-mecanique-dequilibre-du-paredolia-duo/",
-      "published": "2026-11-07T09:58:00+00:00",
-      "summary": "Faire tenir deux corps à près de 4 m du sol sur des échasses droites tout en jouant l’intimité d’un couple, c’est le pari technique de la compagnie montréalaise Imagicario avec son Parédolia Duo, présenté ici au Centre sportif et récréatif de Montréal-Ouest. Les têtes sont remplacées par de véritables réverbères d’époque équipés de sources lumineuses autonomes En savoir plus surImagicario : la mécanique d’équilibre du “Parédolia Duo” […] Cet article Imagicario : la mécanique d’équilibre du “Parédolia Duo” est apparu en premier sur Revue AS .",
-      "image": "https://www.revue-as.fr/wp-content/uploads/2025/12/picto-nouvelles-technologies-e1764671485178.png",
-      "source": "Revue AS",
-      "category": "09 France Pro",
-      "angle": "Suivre les productions françaises",
-      "status": "source_detected_not_editorially_analyzed",
-      "title_fr": "Imagicario : la mécanique d’équilibre du “Parédolia Duo”",
-      "summary_fr": "Faire tenir deux corps à près de 4 m du sol sur des échasses droites tout en jouant l’intimité d’un couple, c’est le pari technique de la compagnie montréalaise Imagicario avec son Parédolia Duo, présenté ici au Centre sportif et récréatif de Montréal-Ouest. Les têtes sont remplacées par de véritables réverbères d’époque équipés de sources lumineuses autonomes En savoir plus surImagicario : la mécanique d’équilibre du “Parédolia Duo” […] Cet article Imagicario : la mécanique d’équilibre du “Parédolia Duo” est apparu en premier sur Revue AS ."
+      "title": "Play BroadwayWorld's Sunday Crossword: November 8, 2026",
+      "url": "https://www.broadwayworld.com/article/Play-BroadwayWorlds-Sunday-Crossword-November-8-2026-20261108",
+      "published": "2026-11-08T12:00:25+00:00",
+      "summary": "This week's BroadwayWorld Crossword is up, and it has 14 answers in a 15x15 grid. Two are people, five are shows, three are venues and three are theatre terms.The clues come from the week's coverage. There is a Shakespeare comedy now playing on Broadway, with a cast we introduced to you on Monday. There is a long-running wizarding drama that is welcoming new faces while one familiar name stays on. There is a new Broadway run that just set its ticket sale dates, and a first look at a classic musical in a regional house.You may also remember the moment an audience member climbed onstage at a big Broadway hit for a selfie. It made the rounds online, and it left a mark on...",
+      "image": "https://cloudimages2.broadwayworld.com/columnpiccloud/logo-300-preview.png",
+      "source": "BroadwayWorld Dance",
+      "category": "15 Danse Performance",
+      "angle": "Observer les intentions de mise en scène, composition, rythme, lumière et expérience du public",
+      "status": "source_detected_not_editorially_analyzed"
     },
     {
       "title": "Omah Lay 'Artificial Happiness' by NWSPK",
@@ -99,16 +489,15 @@
       "title_fr": "Omah Lay : l'épure sculpturale de NWSPK"
     },
     {
-      "url": "https://www.tpimagazine.com/creating-aap-rockys-dont-be-dumb-tour/",
-      "title": "Creating A$AP Rocky’s Don’t Be Dumb Tour",
-      "title_fr": "A$AP Rocky : un navire de guerre au cœur du concert",
-      "source": "TPi Magazine",
-      "category": "01 Spectacle Concert",
-      "published": "2026-11-05T12:00:00Z",
-      "summary": "A$AP Rocky's Don't Be Dumb Tour features a 104ft warship, lighthouse and helicopter. Production designer Darren Mullis describes a post-Orwellian environment where the audience becomes the sea. Ox Event House built the ship; lighting and screens create storms, cities and sunsets.",
-      "summary_fr": "La tournée Don't Be Dumb d’A$AP Rocky intègre un navire de guerre de 104 pieds, un phare et un hélicoptère. Le concepteur Darren Mullis décrit une scénographie où le public devient la mer, tandis que les écrans font évoluer l’univers du spectacle.",
-      "image": "https://www.tpimagazine.com/wp-content/uploads/2026/11/asap.jpg",
-      "status": "editorial_reviewed"
+      "title": "Infinte & Invisible: Bleed Get Clean With LOLA MullenLowe",
+      "url": "https://www.stashmedia.tv/infinte-invisible-bleed-get-clean-with-lola-mullenlowe/",
+      "published": "2026-11-05T22:45:16+00:00",
+      "summary": "Director Paolo Cavalieri and Buenos Aires studio Bleed pull back the curtain on the pitch they used to win the assignment of visualizing the invisible for the global launch of Unilever's probiotic cleaner Cif Infinite. [Watch] The post Infinte & Invisible: Bleed Get Clean With LOLA MullenLowe appeared first on Motion design - STASH .",
+      "image": "",
+      "source": "Stash",
+      "category": "08 Immersif CGI Motion",
+      "angle": "Explorer les langages visuels",
+      "status": "source_detected_not_editorially_analyzed"
     },
     {
       "title": "Ear Candy 'Clean Clothes' by Rob Ulitski",
@@ -122,14 +511,509 @@
       "status": "source_detected_not_editorially_analyzed"
     },
     {
-      "title": "waterbaby 'Memory Be A Blade' by Felix Scheynius",
-      "url": "https://www.promonews.tv/videos/2026/11/03/waterbaby-memory-be-blade-felix-scheynius/96833",
-      "published": "2026-11-03T13:37:59+00:00",
-      "summary": "Felix Scheynius directs a cinematic, fantasy-infused promo for Stockholm-born singer-songwriter waterbaby. In the video for Memory Be A Blade, we see waterbaby reminisce about the past, while trying to break free from a love she’s left behind. Captured in a series of melancholic...",
-      "image": "https://admin.promonews.tv/sites/default/files/styles/bmvd_content_page/public/Waterbaby%20%E2%80%94%C2%A0MBAB.png?itok=-vxHaus7",
-      "source": "Promonews",
-      "category": "14 Musique Clips",
-      "angle": "Analyser les intentions visuelles, la mise en scène, le montage et l'identité des clips",
+      "title": "L’ISTS ouvre la prochaine session de la formation métier “Régisseur général des entreprises du spectacle vivant”",
+      "url": "https://www.revue-as.fr/2026/11/04/lists-ouvre-la-prochaine-session-de-la-formation-metier-regisseur-general-des-entreprises-du-spectacle-vivant/",
+      "published": "2026-11-04T09:53:00+00:00",
+      "summary": "L’ISTS (Institut Supérieur des Techniques du Spectacle) propose, depuis 2010, une formation de “Régisseur général des entreprises du spectacle vivant” qu’il a adaptée aux évolutions de nos métiers et de leurs champs de responsabilité. Cette actualisation a procédé de nombreux échanges avec les professionnels du secteur et a notamment pris en compte l’évolution de la En savoir plus surL’ISTS ouvre la prochaine session de la formation métier “Régisseur général des entreprises du spectacle vivant” […] Cet article L’ISTS ouvre la prochaine session de la formation métier “Régisseur général des entreprises du spectacle vivant” est apparu en premier sur Revue AS .",
+      "image": "",
+      "source": "Revue AS",
+      "category": "09 France Pro",
+      "angle": "Suivre les productions françaises",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "Alt Western: Buck Opens Bass X Machina on Netflix",
+      "url": "https://www.stashmedia.tv/alt-western-buck-opens-bass-x-machina-on-netflix/",
+      "published": "2026-11-04T02:49:49+00:00",
+      "summary": "Bass X Machina , the six-episode animated steampunk Western premiered on Netflix Nov 3 with this gritty title sequence, created by the motion crew at BUCK and powered by a track from singer/songwriter Janelle Monáe. [Watch] The post Alt Western: Buck Opens Bass X Machina on Netflix appeared first on Motion design - STASH .",
+      "image": "",
+      "source": "Stash",
+      "category": "08 Immersif CGI Motion",
+      "angle": "Explorer les langages visuels",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "Motion Plus Design Returns to Paris 2026, November 14th",
+      "url": "https://www.stashmedia.tv/motion-plus-design-returns-to-paris-2026-november-14th/",
+      "published": "2026-11-03T15:46:05+00:00",
+      "summary": "On Saturday, November 14, Motion Plus Design brings together some of the most inspiring artists on the international motion design scene at Le Grand Rex in Paris. [Watch] The post Motion Plus Design Returns to Paris 2026, November 14th appeared first on Motion design - STASH .",
+      "image": "",
+      "source": "Stash",
+      "category": "08 Immersif CGI Motion",
+      "angle": "Explorer les langages visuels",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "New Elation Rig Brings Flexibility and Quality of Light to Historic Lobero Theatre",
+      "url": "https://plsn.com/featured/new-elation-rig-brings-flexibility-and-quality-of-light-to-historic-lobero-theatre/",
+      "published": "2026-11-03T15:07:40+00:00",
+      "summary": "The Lobero Theatre has been a cornerstone of Santa Barbara’s performing arts community for more than 150 years. Now, this historic California venue is bringing new versatility and high-quality light to its intimate stage with an installation of Elation Fuze Max Profile fixtures, supporting everything from opera and ballet to concerts and touring productions.",
+      "image": "",
+      "source": "PLSN",
+      "category": "01 Spectacle Concert",
+      "angle": "Veille techniques et dispositifs",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "Mouvements professionnels",
+      "url": "https://www.revue-as.fr/2026/11/02/mouvements-professionnels-78/",
+      "published": "2026-11-02T09:52:00+00:00",
+      "summary": "Le pôle technique du monde du spectacle est toujours à la recherche de nouveaux profils. Si vous êtes à la recherche d’emploi, vous trouverez ici une revue non exhaustive, mais fournie, des prochains postes à pourvoir. Direction technique Régie générale Régie polyvalente Cet article Mouvements professionnels est apparu en premier sur Revue AS .",
+      "image": "",
+      "source": "Revue AS",
+      "category": "09 France Pro",
+      "angle": "Suivre les productions françaises",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "Odéon – Ateliers Berthier",
+      "url": "https://www.revue-as.fr/2026/11/02/odeon-ateliers-berthier/",
+      "published": "2026-11-02T05:13:00+00:00",
+      "summary": "Le réseau comme clé de voûte Aux Ateliers Berthier, l'Odéon - Théâtre de l'Europe a poussé le curseur du réseau scénique aussi loin que possible, en faisant d’une salle provisoire un terrain d’expérimentation grandeur nature, très concret, et déjà en phase avec les futures obligations de cybersécurité. Dans l’article précédent consacré aux protocoles lumière,(1) étaient En savoir plus surOdéon – Ateliers Berthier […] Cet article Odéon – Ateliers Berthier est apparu en premier sur Revue AS .",
+      "image": "",
+      "source": "Revue AS",
+      "category": "09 France Pro",
+      "angle": "Suivre les productions françaises",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "Ailey’s Ashley Kaylynn Green Never Settles for Less Than Authenticity",
+      "url": "https://dancemagazine.com/ashley-kaylynn-green/?utm_source=rss&utm_medium=rss&utm_campaign=ashley-kaylynn-green",
+      "published": "2026-10-30T13:00:00+00:00",
+      "summary": "Onstage, Alvin Ailey American Dance Theater standout Ashley Kaylynn Green is captivatingly contradictory. Her rock-solid technique is powerful yet subtle; her artistic approach blends curiosity and absolute dedication. “She dresses every movement with so much swag and style, physicality and grace, elegance and accessibility,” says AAADT artistic director Alicia Graf Mack. Rather than chasing someone else’s version of success, beauty, or artistry, Green has remained committed to her own authentic vision. And that vision has helped solidify her voice as the company enters a new chapter under Graf Mack. The post Ailey’s Ashley Kaylynn Green Never Settles for Less Than Authenticity appeared first on Dance Magazine .",
+      "image": "https://dancemagazine.com/wp-content/uploads/2026/10/Alvin-Ailey-American-Dance-Theaters-Ashley-Kaylynn-Green.-Photo-by-Andrew-Eccles_017_Web_R1.jpg",
+      "source": "Dance Magazine",
+      "category": "15 Danse Performance",
+      "angle": "Observer les intentions de mise en scène, composition, rythme, lumière et expérience du public",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "L’AS en coulisses : dans l’atelier de PlastikArt Studio à Cesena (Italie)",
+      "url": "https://www.revue-as.fr/2026/10/30/las-en-coulisses-dans-latelier-de-plastikart-studio-a-cesena-italie/",
+      "published": "2026-10-30T09:59:00+00:00",
+      "summary": "Nouvel épisode de l’AS en coulisses, bienvenue ! 👋 Depuis 1995, PlastikArt Studio réalise objets, robots et autres sculptures hyper réalistes. Alors que Faust. Fait, non dit, la dernière création de Romeo Castellucci arrive à l’Odéon Théâtre de l’Europe, nous sommes allés rencontrer Giovanna Amoroso et Istvan Zimmermann dans leur Studio de Cesena en Italie. En savoir plus surL’AS en coulisses : dans l’atelier de PlastikArt Studio à Cesena (Italie) […] Cet article L’AS en coulisses : dans l’atelier de PlastikArt Studio à Cesena (Italie) est apparu en premier sur Revue AS .",
+      "image": "",
+      "source": "Revue AS",
+      "category": "09 France Pro",
+      "angle": "Suivre les productions françaises",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "“La Femme sans ombre”",
+      "url": "https://www.revue-as.fr/2026/10/29/la-femme-sans-ombre/",
+      "published": "2026-10-29T06:00:00+00:00",
+      "summary": "L’opéra La Femme sans ombre, composé par Richard Strauss sur un livret d’Hugo von Hofmannsthal et présenté au Grand Théâtre de Provence, a été la grande révélation du Festival d’Aix-en-Provence 2026. Sous la direction fougueuse du chef d’orchestre Klaus Mäkelä, la mise en scène de Barrie Kosky a brillamment soulevé les contradictions de cette œuvre. En savoir plus sur“La Femme sans ombre” […] Cet article “La Femme sans ombre” est apparu en premier sur Revue AS .",
+      "image": "",
+      "source": "Revue AS",
+      "category": "09 France Pro",
+      "angle": "Suivre les productions françaises",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "Step Afrika!’s Lamar Lovelace Calls Himself a “Baking Philanthropist.” Try His Recipe for Hummingbird Cake.",
+      "url": "https://dancemagazine.com/lamar-lovelace-hummingbird-cake/?utm_source=rss&utm_medium=rss&utm_campaign=lamar-lovelace-hummingbird-cake",
+      "published": "2026-10-28T14:07:54+00:00",
+      "summary": "Lamar Lovelace is something of a contradiction: an avid home baker who doesn’t much like sweets. “I call myself a ‘baking philanthropist,’ ” says the Step Afrika! executive director. “I bake and give it away to my neighbors. There’s a line outside my house of people driving up with containers.” His hummingbird cake, which he calls […] The post Step Afrika!’s Lamar Lovelace Calls Himself a “Baking Philanthropist.” Try His Recipe for Hummingbird Cake. appeared first on Dance Magazine .",
+      "image": "https://dancemagazine.com/wp-content/uploads/2026/10/1_Courtesy-Lamar-Lovelace_Web_R1.png",
+      "source": "Dance Magazine",
+      "category": "15 Danse Performance",
+      "angle": "Observer les intentions de mise en scène, composition, rythme, lumière et expérience du public",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "How Will SAG-AFTRA’s New Agreement Change the Game for Choreographers?",
+      "url": "https://dancemagazine.com/sag-aftra-choreographers/?utm_source=rss&utm_medium=rss&utm_campaign=sag-aftra-choreographers",
+      "published": "2026-10-26T16:00:00+00:00",
+      "summary": "This July marked a watershed moment for the dance community: SAG-AFTRA began representing choreographers and assistant choreographers working in film, scripted television, and scripted streaming. The union’s coverage of choreographers is outlined in its four-year TV/Theatrical Agreement with the Alliance of Motion Picture and Television Producers (AMPTP), ratified on June 4. It includes negotiable rates, […] The post How Will SAG-AFTRA’s New Agreement Change the Game for Choreographers? appeared first on Dance Magazine .",
+      "image": "https://dancemagazine.com/wp-content/uploads/2026/10/Kat-BurnsDancingOnSet-Chloe-Weavercourtesy-Burns_Web_R1-edited.jpg",
+      "source": "Dance Magazine",
+      "category": "15 Danse Performance",
+      "angle": "Observer les intentions de mise en scène, composition, rythme, lumière et expérience du public",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "Fear Factor: What’s Behind the Rise in Halloween-Related Dance Productions?",
+      "url": "https://dancemagazine.com/halloween-dance/?utm_source=rss&utm_medium=rss&utm_campaign=halloween-dance",
+      "published": "2026-10-26T13:00:00+00:00",
+      "summary": "As we creep further into October, dance companies across the country are premiering new works with spooky twists. And while the perennial choreographer favorite Dracula remains a popular Halloween choice, this year’s debuts are remarkably varied—from Louisville Ballet’s take on another classic gothic story, Frankenstein; to the genre-bending The Witching Hour at Wonderbound in Denver, […] The post Fear Factor: What’s Behind the Rise in Halloween-Related Dance Productions? appeared first on Dance Magazine .",
+      "image": "https://dancemagazine.com/wp-content/uploads/2026/10/Nevermore_OGD_Dancer-Levi-Coy_Photo-Credit_Chris-Ashworth.jpg",
+      "source": "Dance Magazine",
+      "category": "15 Danse Performance",
+      "angle": "Observer les intentions de mise en scène, composition, rythme, lumière et expérience du public",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "Jack Cole: The Unsung Hero of Hollywood and Beyond",
+      "url": "https://dancemagazine.com/jack-cole-debra-levine/?utm_source=rss&utm_medium=rss&utm_campaign=jack-cole-debra-levine",
+      "published": "2026-10-23T13:00:00+00:00",
+      "summary": "In this adapted excerpt from her new book, Jazzed: Jack Cole and Twentieth-Century American Dance, critic Debra Levine describes the great but under-recognized choreographer’s continued relevance. On March 10, 2024, as the Ninety-Sixth Academy Awards were winding down, a hunky blonde actor in a sparkly pink suit hijacked the show. Clutching a mike in his […] The post Jack Cole: The Unsung Hero of Hollywood and Beyond appeared first on Dance Magazine .",
+      "image": "",
+      "source": "Dance Magazine",
+      "category": "15 Danse Performance",
+      "angle": "Observer les intentions de mise en scène, composition, rythme, lumière et expérience du public",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "Oona Doherty on Mixing Mythology, Biography, and Talking Pig Heads in Specky Clark",
+      "url": "https://dancemagazine.com/oona-doherty-specky-clark/?utm_source=rss&utm_medium=rss&utm_campaign=oona-doherty-specky-clark",
+      "published": "2026-10-21T13:00:00+00:00",
+      "summary": "Like much of choreographer Oona Doherty’s work, Specky Clark is bold, subversive, and, at times, very strange. Part fictional and part biographical, the dance-theater work blends Irish mythology with the story of Doherty’s great-great-grandfather, nicknamed Specky Clark, whose childhood was upended when his mother died and he relocated from Glasgow to Belfast. After touring Specky […] The post Oona Doherty on Mixing Mythology, Biography, and Talking Pig Heads in Specky Clark appeared first on Dance Magazine .",
+      "image": "",
+      "source": "Dance Magazine",
+      "category": "15 Danse Performance",
+      "angle": "Observer les intentions de mise en scène, composition, rythme, lumière et expérience du public",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "Music Rights for Dance: What Choreographers and Presenters Need to Know",
+      "url": "https://dancemagazine.com/music-rights-dance/?utm_source=rss&utm_medium=rss&utm_campaign=music-rights-dance",
+      "published": "2026-10-20T13:00:00+00:00",
+      "summary": "Dance artists performing on smaller stages might still be unaware that they need a signed agreement before pressing “play” on copyrighted music. Nevertheless, a music misstep can be expensive as well as stressful to fix. The post Music Rights for Dance: What Choreographers and Presenters Need to Know appeared first on Dance Magazine .",
+      "image": "https://dancemagazine.com/wp-content/uploads/2026/10/260119_Joshua-Beamish-Photo-02-by-Jeremy-Fokkens-COL_Web_R1.jpg",
+      "source": "Dance Magazine",
+      "category": "15 Danse Performance",
+      "angle": "Observer les intentions de mise en scène, composition, rythme, lumière et expérience du public",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "Figure Skating Champion Tessa Virtue on Making Her Professional Dance Debut",
+      "url": "https://dancemagazine.com/tessa-virtue-dance-debut/?utm_source=rss&utm_medium=rss&utm_campaign=tessa-virtue-dance-debut",
+      "published": "2026-10-14T17:00:00+00:00",
+      "summary": "Earlier this year, Fall for Dance North festival director Robert Binet asked choreographer Alyssa Martin, the festival’s 2026 artist in residence, to name her dream collaborator. Martin gave a surprising answer: Tessa Virtue, Canada’s two-time Olympic champion in ice dance. This weekend, Virtue makes her professional dance debut at Fall for Dance North in Toronto, […] The post Figure Skating Champion Tessa Virtue on Making Her Professional Dance Debut appeared first on Dance Magazine .",
+      "image": "https://dancemagazine.com/wp-content/uploads/2026/10/Tessa-Virtue-and-Alyssa-Martin_Photo-by-Bruce-Zinger.jpg",
+      "source": "Dance Magazine",
+      "category": "15 Danse Performance",
+      "angle": "Observer les intentions de mise en scène, composition, rythme, lumière et expérience du public",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "TBT: Donna McKechnie Emerges as Michael Bennett’s “Secret Weapon”",
+      "url": "https://dancemagazine.com/donna-mckechnie-tbt/?utm_source=rss&utm_medium=rss&utm_campaign=donna-mckechnie-tbt",
+      "published": "2026-10-08T13:00:00+00:00",
+      "summary": "In the October 1971 issue of Dance Magazine, which had a special focus on musical theater, writer Craig Zadan profiled Donna McKechnie, who he declared was both choreographer Michael Bennett’s and Broadway’s “secret weapon.” The post TBT: Donna McKechnie Emerges as Michael Bennett’s “Secret Weapon” appeared first on Dance Magazine .",
+      "image": "https://dancemagazine.com/wp-content/uploads/2026/09/2-Donne-McKechnie-feature-Dance-Magazine-Vol.-45-no.-10-October-1971-_-Alexander-Street-part-of-Clarivate_Part1_Web_R1.png",
+      "source": "Dance Magazine",
+      "category": "15 Danse Performance",
+      "angle": "Observer les intentions de mise en scène, composition, rythme, lumière et expérience du public",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "A New Memoir From Mao’s Last Dancer",
+      "url": "https://dancemagazine.com/li-cunxin-the-lucky-so/?utm_source=rss&utm_medium=rss&utm_campaign=li-cunxin-the-lucky-so",
+      "published": "2026-10-02T13:00:00+00:00",
+      "summary": "Former Queensland Ballet artistic director Li Cunxin has penned his second memoir, picking up right where Mao’s Last Dancer left off. The post A New Memoir From Mao’s Last Dancer appeared first on Dance Magazine .",
+      "image": "",
+      "source": "Dance Magazine",
+      "category": "15 Danse Performance",
+      "angle": "Observer les intentions de mise en scène, composition, rythme, lumière et expérience du public",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "Experiences that made me Viviana Stecconi",
+      "url": "https://imagination.com/latest/experiences-that-made-me-viviana-stecconi/",
+      "published": "2026-09-16T09:40:47+00:00",
+      "summary": "In this series, we ask Imagination talent all about the experiences that have made them who they are. This month we spoke to Viviana Stecconi, Client Services Director from our Dubai studio. Tell us what you do… My role sits somewhere between clients, strategy, creative, and delivery, so essentially, I help turn ambitious ideas into […]",
+      "image": "",
+      "source": "Imagination",
+      "category": "06 Retail Brand Experience",
+      "angle": "Analyser expérience comme stratégie",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "What Will Define MWC 2027?",
+      "url": "https://jackmorton.com/pov/what-will-define-mwc-2027/",
+      "published": "2026-09-09T14:34:21+00:00",
+      "summary": "At MWC 2027, the brands that win won’t be the ones who show up, they’ll be the ones who become impossible to ignore. Digital Strategy Director, Ben Haigh, unpacks what MWC really signals for brand experiences, and why next year marks a turning point. After five years walking the halls of MWC, one thing is undeniable: we’ve moved past debating whether AI will […] The post What Will Define MWC 2027? appeared first on Jack Morton | Global Brand Experience Agency .",
+      "image": "",
+      "source": "Jack Morton",
+      "category": "06 Retail Brand Experience",
+      "angle": "Construire une dramaturgie de marque",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "The New Rules of Fandom – 5 Shifts Defining the Future of Fan Experiences Trends Report",
+      "url": "https://jackmorton.com/trends/fan-experiences-trends-report/",
+      "published": "2026-08-21T15:50:59+00:00",
+      "summary": "The future of fandom isn’t about creating bigger spectacles; it’s about creating stronger communities. As audiences spend more of their time online, live experiences have become a powerful source of connection and belonging. The most successful fan experiences aren’t just entertaining people; they’re creating opportunities for fans to participate, connect, and become part of something […] The post The New Rules of Fandom – 5 Shifts Defining the Future of Fan Experiences Trends Report appeared first on Jack Morton | Global Brand Experience Agency .",
+      "image": "",
+      "source": "Jack Morton",
+      "category": "06 Retail Brand Experience",
+      "angle": "Construire une dramaturgie de marque",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "Experiences that made me Kevin Berry",
+      "url": "https://imagination.com/latest/experiences-that-made-me-kevin-berry/",
+      "published": "2026-08-19T08:50:07+00:00",
+      "summary": "In this series, we ask Imagination talent all about the experiences that have made them who they are. This month we spoke to Kevin Berry, Design Director – Virgile+Partners from our London studio. A bit about me… Full time Interior Architect. Lifelong Artist with many creative habits. I have had an on again off again […]",
+      "image": "",
+      "source": "Imagination",
+      "category": "06 Retail Brand Experience",
+      "angle": "Analyser expérience comme stratégie",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "WE WON! SET DESIGNER OF THE YEAR",
+      "url": "https://stufish.com/we-won-set-designer-of-the-year-tpi-awards-2026/",
+      "published": "2026-02-24T15:54:45+00:00",
+      "summary": "",
+      "image": "",
+      "source": "STUFISH",
+      "category": "01 Spectacle Concert",
+      "angle": "Étudier volumes, circulation et dramaturgie spatiale",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "Biotope Immobilier, Aspen Immobilier | Chalets 3D | 2025",
+      "url": "https://www.idlia.fr/biotope-immobilier-aspen-immobilier-chalets-3d-2025/",
+      "published": "2026-01-27T15:44:30+00:00",
+      "summary": "Voici les perspectives et tours à 360° réalisés sur les chalets de Biotope Immobilier et Aspen Immobilier en 2025.",
+      "image": "",
+      "source": "IDlia Studio",
+      "category": "09 France Pro",
+      "angle": "Analyser mise en scène",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "Biotope Immobilier, Aspen Immobilier | Chalets 3D | 2024",
+      "url": "https://www.idlia.fr/biotope-immobilier-aspen-immobilier-chalets-3d-2024/",
+      "published": "2026-01-27T15:42:28+00:00",
+      "summary": "Voici les perspectives 3D, plans interactifs et tours à 360° réalisés sur les chalets de Biotope Immobilier et Aspen Immobilier en 2024.",
+      "image": "",
+      "source": "IDlia Studio",
+      "category": "09 France Pro",
+      "angle": "Analyser mise en scène",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "Biotope Immobilier, Aspen Immobilier | Chalets 3D | 2023",
+      "url": "https://www.idlia.fr/biotope-immobilier-aspen-immobilier-chalets-3d-2023/",
+      "published": "2026-01-27T15:14:54+00:00",
+      "summary": "Voici les perspectives 3D sous la neige, plans 3D interactifs, film promotionnel, et la vitrine web commerciale que nous avons réalisé sur les chalets de Biotope Immobilier et Aspen Immobilier en 2023.",
+      "image": "",
+      "source": "IDlia Studio",
+      "category": "09 France Pro",
+      "angle": "Analyser mise en scène",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "Le Rêve du Gladiateur in collaboration with Arthur Cadre",
+      "url": "https://dragone.com/le-reve-du-gladiateur-in-collaboration-with-arthur-cadre/",
+      "published": "2025-08-08T08:54:08+00:00",
+      "summary": "Le Rêve du Gladiateur (“The Gladiator’s Dream”), directed by Arthur Cadre in collaboration with Dragone, premiered in August 2025 in the historic Arènes de Nîmes. More than a historical evocation, the show transforms the Roman amphitheatre into a dreamscape, where the vision of a gladiator on the threshold of life and death becomes a journey […]",
+      "image": "",
+      "source": "Dragone",
+      "category": "01 Spectacle Concert",
+      "angle": "Analyser l'intégration scène/architecture",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "PRESS RELEASE: SPEED MEETS SPECTACLE",
+      "url": "https://stufish.com/press-release-speed-meets-spectacle/",
+      "published": "2025-02-19T14:27:01+00:00",
+      "summary": "",
+      "image": "",
+      "source": "STUFISH",
+      "category": "01 Spectacle Concert",
+      "angle": "Étudier volumes, circulation et dramaturgie spatiale",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "Dolce Vita & French Touch – Valentina Saluzzi for the Spécial Luxe, CB News",
+      "url": "https://www.balichwonderstudio.com/balich-wonder-studio-france-valentina-saluzzi-cb-news/",
+      "published": "2024-12-10T10:00:42+00:00",
+      "summary": "Valentina Saluzzi, Managing Director of Balich Wonder Studio France, recently spoke with CB News for the Spécial Luxe about the company’s latest initiative in France, highlighting the unique blend of La Dolce Vita and The French Touch styles as key elements of this new venture. Read the full article by Fouzia Kamal here. The post Dolce Vita & French Touch – Valentina Saluzzi for the Spécial Luxe, CB News appeared first on Balich Wonder Studio | Live Entertainment Group .",
+      "image": "",
+      "source": "Balich Wonder Studio",
+      "category": "01 Spectacle Concert",
+      "angle": "Analyser la dramaturgie à grande échelle",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "Dragone Names James Tanabe as Next CEO",
+      "url": "https://dragone.com/dragone-names-james-tanabe-as-next-ceo/",
+      "published": "2023-10-27T17:00:22+00:00",
+      "summary": "27th October, 2023 Dragone’s Board of Directors has appointed James Tanabe, an experienced live entertainment executive, as CEO, effective August 1, 2024. The appointment follows a thorough CEO search process conducted by the board over the last six months, with the mandate to appoint a collaborative leader with extensive international live entertainment experience, capable of […]",
+      "image": "",
+      "source": "Dragone",
+      "category": "01 Spectacle Concert",
+      "angle": "Analyser l'intégration scène/architecture",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "The Gods of Theatre: Japan",
+      "url": "https://dragone.com/the-gods-of-theatre-japan/",
+      "published": "2023-09-19T19:54:35+00:00",
+      "summary": "Lucas Dragone has traveled around the world to capture iconic and significant instances of human performance across disciplines, traditions, and continents. This work often involves meeting and videoing artists and theatrical practitioners that have dedicated their lives to their craft. Most recently, Lucas has traveled throughout Japan meeting, learning from, and recording masters in the […]",
+      "image": "",
+      "source": "Dragone",
+      "category": "01 Spectacle Concert",
+      "angle": "Analyser l'intégration scène/architecture",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "Olympic Games Ceremonies Wizard Marco Balich on Partnering With Banijay to ‘Challenge’ Global Live Entertainment Operators (EXCLUSIVE)",
+      "url": "https://www.balichwonderstudio.com/balich-wonder-studio-olympic-games-ceremonies-wizard-marco-balich-on-partnering-with-banijay/",
+      "published": "2023-06-21T12:26:48+00:00",
+      "summary": "Milan-based events creator Marco Balich has choreographed and produced a record-breaking 14 Olympic ceremonies, including for the 2006, 2014, 2016 and 2020 Olympics respectively held in Turin, Sochi, Rio de Janeiro and Tokyo. More recently, Balich and his team created the spectacular ceremony for the 2022 Qatar FIFA World Cup. His Balich Wonder Studio has […] The post Olympic Games Ceremonies Wizard Marco Balich on Partnering With Banijay to ‘Challenge’ Global Live Entertainment Operators (EXCLUSIVE) appeared first on Balich Wonder Studio | Live Entertainment Group .",
+      "image": "",
+      "source": "Balich Wonder Studio",
+      "category": "01 Spectacle Concert",
+      "angle": "Analyser la dramaturgie à grande échelle",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "Le dernier zombie",
+      "url": "https://www.fratercine.fr/le-dernier-zombie-4/",
+      "published": "2023-02-01T20:02:27+00:00",
+      "summary": "Voir le film Voir le making off Le dernier Zombie – 23 min65 sélections – 18 prix Diffusé dans 39 pays Réalisé par Anthony Lecomte Interprétation : Gérard DESSALLES, Sophie GARAGNON, Stéphen SCARDICCHIO, Sacha PETRONIJEVIC, Karine VENTALON, Caroline RAYNAUD, Steeve BRUDEY, François-Marie NIVON, Erwan ORAIN L’article Le dernier zombie est apparu en premier sur FRATERCINE .",
+      "image": "",
+      "source": "FRATERCINÉ",
+      "category": "09 France Pro",
+      "angle": "Analyser fabrication plateau",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "Le Cab’ – Webserie",
+      "url": "https://www.fratercine.fr/le-cab/",
+      "published": "2023-02-01T19:55:41+00:00",
+      "summary": "Voir le film Le Cabinet noir de l’Elysée – 6 min Webserie 10 x 6 min17 sélections – 12 prix Scénario : Edouard Blondeau, Anaïs Petit et Matthieu Lefèvre Mise en scène : Simon Thoral et Edouard Blondeau Interprétation : Alexandre Canard-Volland, Lucie Jan, Edouard Blondeau, William Prunck, Lino Lavi, Anne-Hélène Orvelin, Anaïs Petit […] L’article Le Cab’ – Webserie est apparu en premier sur FRATERCINE .",
+      "image": "",
+      "source": "FRATERCINÉ",
+      "category": "09 France Pro",
+      "angle": "Analyser fabrication plateau",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "De bon Matin",
+      "url": "https://www.fratercine.fr/de-bon-matin/",
+      "published": "2023-01-25T13:05:21+00:00",
+      "summary": "Voir le film De Bon Matin – 4 min14 sélections en festival Réalisé par Anthony Lecomte Interprétation : Stéphen SCARDICCHIO, Guillaume GAUDFRIN, Grégory NAVIS L’article De bon Matin est apparu en premier sur FRATERCINE .",
+      "image": "",
+      "source": "FRATERCINÉ",
+      "category": "09 France Pro",
+      "angle": "Analyser fabrication plateau",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "Stella se fait des films : Websérie",
+      "url": "https://www.fratercine.fr/stella-se-fait-des-films-webserie/",
+      "published": "2023-01-25T10:24:57+00:00",
+      "summary": "Voir le film Stella se fait des films Webserie 14x2min 30 000 vues cumulées. Réalisé par Anthony Lecomte. Écrit par Sandy Lewis Godefroy. Avec : Sandy Lewis Godefroy L’article Stella se fait des films : Websérie est apparu en premier sur FRATERCINE .",
+      "image": "",
+      "source": "FRATERCINÉ",
+      "category": "09 France Pro",
+      "angle": "Analyser fabrication plateau",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "Intouchables : Websérie",
+      "url": "https://www.fratercine.fr/intouchables-webserie/",
+      "published": "2023-01-25T10:24:08+00:00",
+      "summary": "Voir le film Webserie 12 x 5min. 320 000 vues cumulées. Réalisé par Anthony Lecomte. Avec : Stéphen SCARDICCHIO, Guillaume GAUDFRIN, Grégory NAVIS, Anthony HEILMAN, Erwan ORAIN, Bénédicte Lala ERNOULT. L’article Intouchables : Websérie est apparu en premier sur FRATERCINE .",
+      "image": "",
+      "source": "FRATERCINÉ",
+      "category": "09 France Pro",
+      "angle": "Analyser fabrication plateau",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "Réhabilitation | Quartier Bel’Air Saint Priest",
+      "url": "https://www.idlia.fr/rehabilitation-quartier-belair-saint-priest/",
+      "published": "2023-01-11T16:24:22+00:00",
+      "summary": "Visuels 3D réalisés pour un concours de réhabilitation du quartier Bel’Air à St Priest, projet finaliste, mais non lauréat. Constructeurs et Architectes : Archigroup, Demathieu Bard, AA Group, Eutopia, Detry Levy, MGA Architectes, Egis, Gipen, Roux. Voir le film 3D […]",
+      "image": "",
+      "source": "IDlia Studio",
+      "category": "09 France Pro",
+      "angle": "Analyser mise en scène",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "Biotope Immobilier, Aspen Immobilier | Chalets 3D | 2022",
+      "url": "https://www.idlia.fr/biotope-immobilier-aspen-immobilier-chalets-3d-2022/",
+      "published": "2023-01-10T17:35:44+00:00",
+      "summary": "Voici les perspectives et tours à 360° réalisés sur les chalets de Biotope Immobilier et Aspen Immobilier en 2022. Graphistes 3D : IDlia Studio",
+      "image": "",
+      "source": "IDlia Studio",
+      "category": "09 France Pro",
+      "angle": "Analyser mise en scène",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "Biotope Immobilier, Aspen Immobilier | Chalets 3D | 2021",
+      "url": "https://www.idlia.fr/biotope-immobilier-aspen-immobilier-chalets-3d-2021/",
+      "published": "2023-01-10T17:33:18+00:00",
+      "summary": "Voici les perspectives et tours à 360° réalisés sur les chalets de Biotope Immobilier et Aspen Immobilier en 2021.",
+      "image": "",
+      "source": "IDlia Studio",
+      "category": "09 France Pro",
+      "angle": "Analyser mise en scène",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "A unique duo of candlelight concerts in the UNESCO archeological site of Hegra",
+      "url": "https://www.balichwonderstudio.com/a-unique-duo-of-candlelight-concerts-in-the-unesco-archeological-site-of-hegra/",
+      "published": "2022-01-20T15:14:47+00:00",
+      "summary": "On Christmas Eve the Saudi Arabian desert came alive with an intimate repertoire of light and music. Hegra Candlelit Classics was performed live by the famous South African musical director Stefan Lombard ensemble and comprised the piano, violin, cello and the oud surrounded by the archeological UNESCO site of Hegra (AlUla) in the Saudi Arabian […] The post A unique duo of candlelight concerts in the UNESCO archeological site of Hegra appeared first on Balich Wonder Studio | Live Entertainment Group .",
+      "image": "",
+      "source": "Balich Wonder Studio",
+      "category": "01 Spectacle Concert",
+      "angle": "Analyser la dramaturgie à grande échelle",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "Tokyo Olympics Opening Ceremony Director Fired Over Holocaust Joke Made in 1990s",
+      "url": "https://www.balichwonderstudio.com/tokyo-olympics-opening-ceremony-director-fired-over-holocaust-joke-made-in-1990s/",
+      "published": "2021-07-24T16:41:45+00:00",
+      "summary": "“I’m just very sad because it’s already so difficult to stage a ceremony,” said Marco Balich, a senior adviser to the executive producer of the Tokyo opening and closing ceremonies. “An Olympic ceremony for us producers and directors is something that gives you gray hair, because there’s so many things like music and choreography you […] The post Tokyo Olympics Opening Ceremony Director Fired Over Holocaust Joke Made in 1990s appeared first on Balich Wonder Studio | Live Entertainment Group .",
+      "image": "",
+      "source": "Balich Wonder Studio",
+      "category": "01 Spectacle Concert",
+      "angle": "Analyser la dramaturgie à grande échelle",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "Pandemic and flagging support to make Tokyo Olympics opener a show like no other",
+      "url": "https://www.balichwonderstudio.com/pandemic-and-flagging-support-to-make-tokyo-olympics-opener-a-show-like-no-other/",
+      "published": "2021-07-23T10:02:37+00:00",
+      "summary": "Although organisers have refused to release details, Marco Balich, an adviser to the executive producer for Tokyo, said the ceremony would be cognisant of public sentiment in the age of Covid-19. In contrast to the usual displays of mass choreography, giant props and bright lights, it would be “sobering”, but also mindful of the host […] The post Pandemic and flagging support to make Tokyo Olympics opener a show like no other appeared first on Balich Wonder Studio | Live Entertainment Group .",
+      "image": "",
+      "source": "Balich Wonder Studio",
+      "category": "01 Spectacle Concert",
+      "angle": "Analyser la dramaturgie à grande échelle",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "Tokyo 2020 opening ceremony will be ‘sobering’ show, not flashy",
+      "url": "https://www.balichwonderstudio.com/tokyo-2020-opening-ceremony-will-be-sobering-show-not-flashy/",
+      "published": "2021-07-21T12:00:23+00:00",
+      "summary": "TOKYO (Reuters) – Forget the mass choreography, the huge props and the cornucopia of dancer, actors and lights associated with an Olympic Games opening ceremony. Tokyo’s grand opening on Friday will have none of that splendour or grandiosity. Instead it will be a scaled down affair, a “sobering” performance, Marco Balich, longtime Opening Ceremonies Executive Producer, […] The post Tokyo 2020 opening ceremony will be ‘sobering’ show, not flashy appeared first on Balich Wonder Studio | Live Entertainment Group .",
+      "image": "",
+      "source": "Balich Wonder Studio",
+      "category": "01 Spectacle Concert",
+      "angle": "Analyser la dramaturgie à grande échelle",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "Everything to Know About the Tokyo Summer Olympics Opening Ceremony",
+      "url": "https://www.balichwonderstudio.com/everything-to-know-about-the-tokyo-summer-olympics-opening-ceremony/",
+      "published": "2021-07-19T14:53:24+00:00",
+      "summary": "Italian creative director Marco Balich is serving as executive producer of the Tokyo ceremonies in partnership with Japanese advertising firm Dentsu. Balich has previous experience producing Olympic ceremonies for the 2006, 2014 and 2016 Games. Balich has said that the COVID-19 pandemic will somehow be referenced during Tokyo’s Opening Ceremony. “I think for sure the […] The post Everything to Know About the Tokyo Summer Olympics Opening Ceremony appeared first on Balich Wonder Studio | Live Entertainment Group .",
+      "image": "",
+      "source": "Balich Wonder Studio",
+      "category": "01 Spectacle Concert",
+      "angle": "Analyser la dramaturgie à grande échelle",
+      "status": "source_detected_not_editorially_analyzed"
+    },
+    {
+      "title": "Conception 3D | Réalisation Photo",
+      "url": "https://www.idlia.fr/conception-3d-realisation-photo/",
+      "published": "2019-06-04T15:29:12+00:00",
+      "summary": "Comparaison entre nos images 3D et les photos des bâtiments construits Le jeu des 7 ou 70 différences ! ◊ Petit retour sur une ancienne perspective 3D de logements à Saint-Jean-le-Blanc, réalisée en phase de commercialisation. Certaines réalisations sont assez […]",
+      "image": "",
+      "source": "IDlia Studio",
+      "category": "09 France Pro",
+      "angle": "Analyser mise en scène",
       "status": "source_detected_not_editorially_analyzed"
     }
   ]
