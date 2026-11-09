@@ -52,3 +52,5 @@ Sur la carte, garder une phrase qui explique pourquoi le choix de DA mérite l�
 ## Simulation complète de veille
 
 Une demande de simulation de veille va jusqu’à la publication d’une nouveauté dans le RADAR. Vérifier les doublons, croiser les sources, choisir un visuel qui montre le détail analysé et publier la fiche. Après déploiement, vérifier son rang dans le flux public et la présence du visuel. Un lecteur officiel intégrable peut montrer le projet lorsque la fiche ne dispose pas d’une image réutilisable.
+
+Le surlignage indique ce qu’un DA doit retenir. Mettre en évidence un choix créatif, sa conséquence perceptive ou un principe transférable. Garder les mesures, les noms et les détails descriptifs en texte courant, sauf s’ils expliquent directement le mécanisme analysé.
