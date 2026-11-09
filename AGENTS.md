@@ -58,3 +58,9 @@ Le surlignage indique ce qu’un DA doit retenir. Mettre en évidence un choix c
 ## Seuil avant publication d’un décryptage
 
 Pour chaque fiche, être capable de désigner un détail précis, de dire où le voir ou quel passage de source le documente, puis d’expliquer ce qu’il change. Un clip peut rester en repérage jusqu’à ce qu’un plan, un raccord ou un autre choix précis soit vérifié. Le générateur exige un extrait de preuve présent dans le texte source. La relecture vérifie que ce passage soutient réellement l’analyse et que le texte se lit simplement. Les lecteurs intégrés restent compacts.
+
+## Seconde lecture obligatoire avant publication
+
+La sélection, l’écriture et les tests de liens ne valent pas validation éditoriale. Après le premier jet, relire la fiche en repartant des sources, comme si elle avait été écrite par une autre personne. Pour chaque point, retrouver un plan, un moment ou un détail observable et son repère (minutage, image, passage ou citation de production). Vérifier que le texte explique en termes simples ce que ce détail change et que la conclusion découle de ce qui est vérifié. Le tip sert à éprouver le principe dans un autre essai. Il ne doit pas demander au lecteur de trouver la preuve manquante de la fiche.
+
+Si un point reste générique, le réécrire ou le retirer avant publication. Si le mécanisme central n’est pas vérifiable, garder le sujet en découverte et ne pas créer son entrée dans data/analyses.json. Le contrôle technique et la vérification du déploiement ont lieu après cette seconde lecture.
