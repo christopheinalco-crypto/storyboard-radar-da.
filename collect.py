@@ -18,10 +18,26 @@ def canonical_key(url):
 
 sources=json.load(open(os.path.join(ROOT,'data/sources.json'),encoding='utf8'))
 old=json.load(open(os.path.join(ROOT,'data/feed.json'),encoding='utf8'))
+# Garde-fou editorial : un nom d'artiste connu ou un visuel ne suffit pas.
+# Une creation scenique ou audiovisuelle identifiable est obligatoire.
+RADAR_ALLOWED_CATEGORIES = {'01','02','14','15','09','08','06'}
+RADAR_PROJECT = re.compile(r'sc[eé]nograph|stage design|set design|concert production|tour production|live show|live production|spectacle|th[eé][aâ]tre|theatre|mise en sc[eè]ne|choreograph|chor[eé]graph|dance performance|danse|music video|vid[eé]oclip|clip musical|\\bclip\\b|directed by|director|r[eé]alis[eé]|projection mapping|immersive experience|exp[eé]rience immersive|installation immersive|show design|tv set|plateau t[eé]l[eé]|broadcast design|visual effects|vfx|cgi|motion design',re.I)
+RADAR_OFFTOPIC = re.compile(r'museum|mus[eé]e|architecture|architects?|architectur|pharmacy|residence|apartment|house renovation|art center|art centre|gallery|galerie|exhibition|exposition|award winners|palmar[eè]s|best songs|playlist|album review|new album|announces new|tour announcement|microphones? delivers|engineers choose|audio console|sound desk|diGiCo|dpa microphones',re.I)
+def radar_in_scope(item):
+ category=str(item.get('category') or '')[:2]
+ title=str(item.get('title') or '')
+ content=title+' '+str(item.get('summary') or '')
+ if category not in RADAR_ALLOWED_CATEGORIES:return False
+ if RADAR_OFFTOPIC.search(title):return False
+ if category=='14' and not re.search(r'music video|vid[eé]oclip|\\bvideo\\b|\\bclip\\b|directed by|r[eé]alis[eé]',content,re.I):return False
+ if category=='02' and not re.search(r'set design|stage|show design|tv set|plateau|broadcast design|sc[eé]nograph|lighting design',content,re.I):return False
+ if category in {'01','09'} and re.search(r'microphone|audio console|sound desk|engineers choose|technical supplier',title,re.I):return False
+ return bool(RADAR_PROJECT.search(content))
+
 items={canonical_key(x['url']):x for x in old.get('items',[]) if x.get('url') and not re.match(r'^(03|11)\b',x.get('category','')) and not re.search(r'back[ -]?2[ -]?back|back[ -]?to[ -]?back',x.get('title',''),re.I)}
 # Rejeter dès la collecte les actualités musicales sans création scénique analysable.
 BLOCKED_EDITORIAL = re.compile(r"acetyl[eè]ne|prix.de.la.conception.lumi[eè]re|mylene.farmer.s.est.faite.remixee|philippe.katerine.*pnl|retour.de.pnl",re.I)
-items={url:item for url,item in items.items() if not BLOCKED_EDITORIAL.search(url+" "+item.get("title",""))}
+items={url:item for url,item in items.items() if radar_in_scope(item) and not BLOCKED_EDITORIAL.search(url+" "+item.get("title",""))}
 START=time.monotonic()
 MAX_SECONDS=235
 def budget():return time.monotonic()-START<MAX_SECONDS
@@ -257,5 +273,5 @@ if special:
   selected_by_category[cat]=[{'title':x.get('title_fr') or x.get('title'),'url':x['url'],'score':article_score(x)} for x in candidates_cat if article_score(x)>=5][:3]
  print('SPECIAL EDITORIAL SHORTLIST:',json.dumps({k:len(v) for k,v in selected_by_category.items()},ensure_ascii=False))
 print('Checked',checked,'feeds found',len(working),'items',len(items),'images',sum(bool(x.get('image')) for x in items.values()),'translated fields',translated)
-result={'updated_at':datetime.datetime.now(datetime.timezone.utc).isoformat(),'status':'collected_unreviewed','working_feeds':working,'collection_slot':slot,'collection_hour_paris':paris.hour,'sources_selected':len(selected),'sources_checked':checked,'special_test':special,'special_selection':selected_by_category,'backfill_test':{'period':'2026-11-01/2026-11-07','articles':len(week_items),'with_images':sum(bool(x.get('image')) for x in week_items)},'items':[x for x in sorted(items.values(),key=lambda x:x.get('published',''),reverse=True) if not re.match(r'^(03|11)\b',x.get('category','')) and not re.search(r'back[ -]?2[ -]?back|back[ -]?to[ -]?back',x.get('title',''),re.I)][:550]}
+result={'updated_at':datetime.datetime.now(datetime.timezone.utc).isoformat(),'status':'collected_unreviewed','working_feeds':working,'collection_slot':slot,'collection_hour_paris':paris.hour,'sources_selected':len(selected),'sources_checked':checked,'special_test':special,'special_selection':selected_by_category,'backfill_test':{'period':'2026-11-01/2026-11-07','articles':len(week_items),'with_images':sum(bool(x.get('image')) for x in week_items)},'items':[x for x in sorted(items.values(),key=lambda x:x.get('published',''),reverse=True) if radar_in_scope(x) and not re.match(r'^(03|11)\b',x.get('category','')) and not re.search(r'back[ -]?2[ -]?back|back[ -]?to[ -]?back',x.get('title',''),re.I)][:550]}
 with open(os.path.join(ROOT,'data/feed.json'),'w',encoding='utf8') as f:json.dump(result,f,ensure_ascii=False,indent=2)
