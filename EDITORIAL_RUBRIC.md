@@ -29,3 +29,9 @@ Privilégier une lecture singulière, fluide, incarnée, précise et surprenante
 
 ## Contrôle avant publication
 Le lecteur pourrait-il dire « je n'avais pas vu ça » ? Les relations sont-elles démontrées ? Qu'est-ce qui est sourcé et qu'est-ce qui est interprété ? L'analyse change-t-elle la manière de regarder le projet ? Si non : réviser ou refuser.
+
+## Sixième critère transversal — la voix du directeur artistique
+L'analyse doit se lire comme une conversation avec un DA expérimenté qui partage son regard. Phrases claires, rythme varié, vocabulaire précis mais expliqué, transitions naturelles. Partir d'une observation qui intrigue, révéler son mécanisme, puis transmettre une leçon ancrée dans le projet. Privilégier le « pourquoi c'est intéressant » au jargon. Une adresse ponctuelle au lecteur (« regarde », « tu vois ») est possible, jamais mécanique. Ne pas transformer chaque point en conseil ou en cours. La fluidité et le plaisir de lecture sont des conditions de publication, pas un bonus esthétique.
+
+### Test de lecture à voix haute
+Si le texte semble récité, scolaire, répétitif ou rempli de formules interchangeables, le réécrire. Si un DA pourrait le dire naturellement à un collègue tout en lui apprenant quelque chose de neuf, le ton est juste.
