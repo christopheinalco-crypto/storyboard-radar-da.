@@ -477,6 +477,8 @@ Réponds UNIQUEMENT en JSON valide, sans Markdown :
  "title_fr": "titre français"
 }
 
+GRILLE DYNAMIQUE : adapte les intertitres à la discipline et au choix documenté. Réserve « insight » à une compréhension étayée du public ou de ses usages qui oriente la création. Pour un enjeu formel, spatial ou narratif, nomme le mécanisme précis (hiérarchie typographique, point de vue, rapport scène-public, etc.).
+
 SÉPARATION DES CHAMPS : takeaway alimente « Intérêt DA ». Explique le choix créatif et son effet, sans consigne à exécuter. tip alimente « Tip · À tester ». Propose une manipulation concrète et un critère à observer. Ne reformule pas la même idée dans les deux champs.
 
 SELECTION ET PRIORITÉS :
