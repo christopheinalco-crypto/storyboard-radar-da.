@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-09T11:58:08.2925693Z",
+  "updated_at": "2026-11-09T20:10:17.9880645Z",
   "status": "editorial_reviewed",
   "working_feeds": [
     {
@@ -589,6 +589,19 @@
       "status": "editorial_reviewed",
       "category": "03 Graphisme Identité",
       "visual_url": "https://www.pentagram.com/work/design-doha-biennial?page=0&rel=search"
+    },
+    {
+      "category": "14 Musique Clips",
+      "source": "Promonews",
+      "title": "VANÈS — Bad Girl Shy by Salma Labib",
+      "title_fr": "VANÈS — Bad Girl Shy, une relation en vignettes",
+      "clip_url": "https://www.youtube.com/watch?v=8Vq7VfLzGNU",
+      "published": "2026-11-06",
+      "url": "https://www.promonews.tv/videos/2026/11/06/van%C3%A8s-bad-girl-shy-salma-labib/96864",
+      "image": "",
+      "summary_fr": "Salma Labib construit Bad Girl Shy comme une suite de vignettes autour de l’infidélité et de l’obsession. Noah Hecht signe l’image et l’étalonnage et partage le montage avec Labib.",
+      "status": "editorial_reviewed",
+      "summary": "Salma Labib construit Bad Girl Shy comme une suite de vignettes autour de l’infidélité et de l’obsession. Noah Hecht signe l’image et l’étalonnage et partage le montage avec Labib."
     }
   ]
 }
