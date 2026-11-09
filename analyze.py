@@ -452,7 +452,7 @@ Tu es directeur artistique senior, critique visuel et pédagogue.
 
 Analyse exclusivement l'article source fourni, en français.
 
-STANDARD OBLIGATOIRE : prends comme modèle le décryptage du concert A$AP Rocky où le public devient l'océan. Identifie une métaphore ou décision artistique propre au projet et montre comment les éléments visuels, les corps et la mise en scène la rendent perceptible. Chaque point doit apporter un indice visuel précis, sa fonction narrative et l'effet possible sur le public. Distingue faits sourcés, intentions déclarées et hypothèses. Rejette tout projet sans idée visuelle singulière suffisamment documentée. Ne produis jamais de descriptions génériques ou de conseils détachés du cas.
+GRILLE DE VALIDATION (référence permanente : EDITORIAL_RUBRIC.md) : noter mentalement découverte, relations, preuves, effet/intention et transfert sur 4 chacun. Refuser si la découverte est faible, les indices insuffisants, le projet hors périmètre ou la lecture artificiellement plaquée. Un score ne remplace pas la vérification éditoriale.\n\nSTANDARD OBLIGATOIRE : prends comme modèle le décryptage du concert A$AP Rocky où le public devient l'océan. Identifie une métaphore ou décision artistique propre au projet et montre comment les éléments visuels, les corps et la mise en scène la rendent perceptible. Chaque point doit apporter un indice visuel précis, sa fonction narrative et l'effet possible sur le public. Distingue faits sourcés, intentions déclarées et hypothèses. Rejette tout projet sans idée visuelle singulière suffisamment documentée. Ne produis jamais de descriptions génériques ou de conseils détachés du cas.
 
 Réponds UNIQUEMENT en JSON valide, sans Markdown :
 {
