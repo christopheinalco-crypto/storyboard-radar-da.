@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-09T02:26:23.136540+00:00",
+  "updated_at": "2026-11-09T12:00:00+01:00",
   "status": "collected_unreviewed",
   "working_feeds": [
     {
@@ -525,6 +525,19 @@
       "status": "source_detected_not_editorially_analyzed",
       "title_fr": "L'esthétique intimiste du clip de Hayley Williams",
       "summary_fr": "Le morceau Ego Death at a Bachelorette Party vient de recevoir un visuel en noir et blanc assorti"
+    },
+    {
+      "url": "https://www.promonews.tv/videos/2026/11/03/tinashe-pillow-fight-zac-dov-wiesel/96841",
+      "title": "Tinashe 'Pillow Fight' by Zac Dov Wiesel",
+      "title_fr": "Tinashe : quand le lit devient une scène",
+      "source": "Promonews",
+      "category": "14 Musique Clips",
+      "published": "2026-11-03T12:00:00Z",
+      "summary": "Zac Dov Wiesel met en scène Tinashe dans un espace sombre minimaliste, avec plusieurs lits, des plumes en suspension et une chorégraphie expressive. Production design : Niamh Hannigan.",
+      "summary_fr": "Dans un espace presque vide, des lits, des plumes et la danse construisent un univers sensuel et irréel. Le corps donne au décor son énergie.",
+      "image": "https://img.readdork.com/cdn-cgi/image/width%3D2560%2Cquality%3D65%2Cfit%3Dcontain%2Cformat%3Dauto/media/uploads/1789055320157-g7sdit-original.jpg?v=2026-09-10T15%3A52%3A33.548Z",
+      "status": "editorial_reviewed",
+      "image_note": "Photo promotionnelle liée au single, pas une capture vérifiée du clip."
     }
   ]
 }
