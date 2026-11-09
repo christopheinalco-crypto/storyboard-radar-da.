@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-09T20:10:17.9880645Z",
+  "updated_at": "2026-11-09T20:25:15.4508540+00:00",
   "status": "editorial_reviewed",
   "working_feeds": [
     {
@@ -603,6 +603,33 @@
       "status": "source_detected_not_editorially_analyzed",
       "summary": "Salma Labib construit Bad Girl Shy comme une suite de vignettes autour de l’infidélité et de l’obsession. Noah Hecht signe l’image et l’étalonnage et partage le montage avec Labib.",
       "youtube_id": "8Vq7VfLzGNU"
+    },
+    {
+      "clip_url": "https://www.academyfilms.com/portfolio/bricknasty-forever",
+      "summary": "Talia Beale prend la cage d’escalier de Ballymun comme point d’ancrage d’un clip animé à plusieurs mains. Ce lieu commun au quartier est aussi un seuil vers l’espace domestique.",
+      "summary_fr": "Talia Beale prend la cage d’escalier de Ballymun comme point d’ancrage d’un clip animé à plusieurs mains. Ce lieu commun au quartier est aussi un seuil vers l’espace domestique.",
+      "category": "14 Musique Clips",
+      "source": "LBBonline",
+      "title_fr": "Bricknasty — Forever, l’escalier comme point de vue",
+      "url": "https://lbbonline.com/news/brick-nasty-ballymun-music-video-forever",
+      "status": "editorial_reviewed",
+      "published": "2026-11-05",
+      "image": "",
+      "title": "Bricknasty — Forever, l’escalier comme point de vue"
+    },
+    {
+      "clip_url": "https://www.youtube.com/watch?v=3e5LxvRZjVw",
+      "summary": "Dans Mr Charm, Henry Scholfield fait d’Alexander Skarsgård un voyageur dont la danse entraîne les personnages croisés sur la route. L’entretien du 5 novembre revient sur la fabrication du clip sorti en octobre.",
+      "summary_fr": "Dans Mr Charm, Henry Scholfield fait d’Alexander Skarsgård un voyageur dont la danse entraîne les personnages croisés sur la route. L’entretien du 5 novembre revient sur la fabrication du clip sorti en octobre.",
+      "category": "14 Musique Clips",
+      "source": "LBBonline",
+      "title_fr": "The Rolling Stones — Mr Charm, le geste qui entraîne la salle",
+      "url": "https://lbbonline.com/news/Academy-director-henry-Scholfield-The-Rolling-Stones-Mr-Charm-Behind-the-work",
+      "status": "editorial_reviewed",
+      "published": "2026-11-05",
+      "image": "",
+      "youtube_id": "3e5LxvRZjVw",
+      "title": "The Rolling Stones — Mr Charm, le geste qui entraîne la salle"
     }
   ]
 }
