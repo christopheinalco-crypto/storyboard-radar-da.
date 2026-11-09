@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-09T12:00:00+01:00",
-  "status": "collected_unreviewed",
+  "updated_at": "2026-11-09T06:00:00+01:00",
+  "status": "editorial_reviewed",
   "working_feeds": [
     {
       "name": "Live Design",
@@ -454,6 +454,30 @@
     "with_images": 82
   },
   "items": [
+    {
+      "url": "https://www.tpimagazine.com/inside-foo-fighters-industrial-stage-design/",
+      "title": "Inside Foo Fighters’ industrial stage design",
+      "title_fr": "Foo Fighters : casser l’écran pour redonner du relief au rock",
+      "source": "TPi Magazine",
+      "category": "01 Spectacle Concert",
+      "published": "2026-10-12T12:00:00Z",
+      "summary_fr": "Neuf arcs lumineux passent devant les écrans LED de la tournée Take Cover. Fenêtres d’usine abîmées, métal rouillé et projecteurs à l’ancienne opposent une matière rugueuse à l’échelle gigantesque du stade.",
+      "summary": "Wonder Works and the Foo Fighters team built a layered industrial stadium stage with nine curved lighting ribs in front of the LED wall.",
+      "image": "",
+      "status": "editorial_reviewed"
+    },
+    {
+      "url": "https://www.promonews.tv/videos/2026/10/14/knats-bowling-ball-lulu-vicedomini/96405",
+      "title": "Knats 'Bowling Ball' by Lulu Vicedomini",
+      "title_fr": "Knats : quand une boule de bowling devient le monstre du clip",
+      "source": "Promonews",
+      "category": "14 Musique Clips",
+      "published": "2026-10-14T12:00:00Z",
+      "summary_fr": "Un clip de jazz transforme une partie de bowling en poursuite burlesque. Lulu Vicedomini détourne un objet banal en personnage menaçant, puis accélère le comique avec des inserts, des photos et des cartons.",
+      "summary": "Lulu Vicedomini directs a slapstick music video in Newcastle and South Shields where a bowling ball chases the band.",
+      "image": "",
+      "status": "editorial_reviewed"
+    },
     {
       "url": "https://www.tpimagazine.com/creating-aap-rockys-dont-be-dumb-tour/",
       "title": "Creating A$AP Rocky’s Don’t Be Dumb Tour",
