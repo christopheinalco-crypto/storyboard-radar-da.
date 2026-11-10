@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-10T09:00:00+01:00",
+  "updated_at": "2026-11-10T13:40:00+01:00",
   "status": "editorial_reviewed",
   "working_feeds": [
     {
@@ -454,6 +454,19 @@
     "with_images": 82
   },
   "items": [
+    {
+      "title": "Eurovision 2026 — une scène qui traverse toute l'arène",
+      "title_fr": "Eurovision 2026 — une scène qui traverse toute l'arène",
+      "url": "https://www.robelighting.com/case-studies/eurovision-song-contest-2026",
+      "category": "15 Scène Spectacle",
+      "source": "Robe Lighting / ORF",
+      "published": "2026-05-21",
+      "summary": "À Vienne, une passerelle courbe, un écran prolongé au sol et un dispositif lumière à grande échelle relient la scène, l'arène et la réalisation TV.",
+      "summary_fr": "À Vienne, une passerelle courbe, un écran prolongé au sol et un dispositif lumière à grande échelle relient la scène, l'arène et la réalisation TV.",
+      "image": "https://cdn.aws.robe.cz/v1/image/get/a6852d60cf073aaa9a9a2b06ea5f3b443e7dd7df",
+      "image_credit": "Robe Lighting — photographie officielle Eurovision Song Contest 2026",
+      "status": "editorial_reviewed"
+    },
     {
       "title": "Indochine — quand le concert déborde de l'écran",
       "title_fr": "Indochine — quand le concert déborde de l'écran",
