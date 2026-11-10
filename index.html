@@ -305,8 +305,8 @@ function imageHTML(x){
  if(verifiedCase(x))return '<div class="verified-feature"><span>EXPOSITION · 20 NOV 2026 — 24 JAN 2027</span><strong>ANTOINE<br>D’AGATA</strong><em>THEOREMA</em><small>SOSNOWIEC · POLOGNE</small></div>';
  if(!x.image&&/^[A-Za-z0-9_-]{11}$/.test(x.youtube_id||''))return '<iframe class="project-video" loading="lazy" src="https://www.youtube-nocookie.com/embed/'+x.youtube_id+'" title="'+escapeHTML(x.title_fr||x.title)+'" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>';
  if(!x.image&&/^\d+$/.test(x.slate_id||''))return '<iframe class="project-video" loading="lazy" src="https://academy.slateapp.com/embed/clip/'+x.slate_id+'" title="'+escapeHTML(x.title_fr||x.title)+'" allowfullscreen></iframe>';
- if(!x.image)return '';
- return '<img loading="lazy" referrerpolicy="no-referrer" src="'+escapeHTML(x.image)+'" alt="Image du projet : '+escapeHTML(x.title_fr||x.title)+'" onerror="this.remove()">';
+ if(!x.image)return '<div class="noimage"><a href="'+escapeHTML(x.url)+'" target="_blank" rel="noopener noreferrer">Visuels indisponibles · Voir le projet ↗</a></div>';
+ return '<img loading="lazy" referrerpolicy="no-referrer" src="'+escapeHTML(x.image)+'" alt="Image du projet : '+escapeHTML(x.title_fr||x.title)+'" onerror="this.outerHTML=\'<div class=&quot;noimage&quot;><a href=&quot;'+escapeHTML(x.url)+'&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot;>Visuel indisponible · Voir le projet ↗</a></div>\'">';
 }
 function editorialScore(x){const title=(x.title||'').toLowerCase(),body=((x.summary||'')+' '+(x.summary_fr||'')).toLowerCase(),text=title+' '+body;let s=0;
 if(!x.image)return -100;
@@ -660,7 +660,7 @@ items.sort((a,b)=>radarEntryTime(b)-radarEntryTime(a)||(Date.parse(b.published||
 const unique=new Set();items=items.filter(x=>{if(unique.has(x.url))return false;unique.add(x.url);return true});
 // Les projets marqués « Vu » quittent immédiatement le flux principal et restent dans « Projets vus ».
 const saved=savedInsightsData();
-items=items.filter(x=>!seen[x.url||x.title]&&!saved[x.url]);
+items=items.filter(x=>!seen[x.url||x.title]&&!saved[x.url]&&x.image&&/^https?:\/\//i.test(x.image)&&!/creating-aap-rockys-dont-be-dumb-tour\/?(?:[?#].*)?$/i.test(x.url||''));
 
 // La veille principale ne montre que les projets avec décryptage DA validé.
 const day=new Date().toLocaleDateString('en-CA');
