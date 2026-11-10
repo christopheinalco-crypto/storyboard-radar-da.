@@ -358,5 +358,51 @@
       }
     ],
     "image_note": "Image HTTPS fournie par le site Robe Lighting ; chargement navigateur non testé."
+  },
+  "https://www.promedianews.de/case-studies/prg-investiert-in-roe-visuals-vanish-v4st-led-technologie/": {
+    "reviewed_at": "2026-11-10T16:02:50+01:00",
+    "verified": true,
+    "source": "ProMediaNews (PRG / ROE Visual), PLSN (équipe et conception de tournée)",
+    "source_url": "https://www.promedianews.de/case-studies/prg-investiert-in-roe-visuals-vanish-v4st-led-technologie/",
+    "intro": "Regarde cette scène comme un bâtiment, pas comme un écran de concert. Le toit dessine immédiatement la silhouette d'un temple asiatique, les panneaux LED courbes en forment la façade, et les interprètes deviennent les occupants de cet espace symbolique. C'est une façon très concrète de transformer l'imaginaire Wu-Tang — cinéma d'arts martiaux, clan, rituels — en architecture lisible depuis le fond d'une arène.",
+    "points": [
+      [
+        "La silhouette raconte avant l'image",
+        "La toiture à la manière d'une pagode agit comme un signe reconnaissable à distance. Même lorsque le contenu vidéo change, l'architecture reste là. **Hypothèse DA :** l'équipe cherche à faire exister l'identité du collectif dans la forme même du plateau, plutôt que de dépendre exclusivement des logos. On pourrait aussi y voir une iconographie attendue, presque littérale : c'est la limite possible du choix."
+      ],
+      [
+        "L'écran cesse d'être une surface neutre",
+        "Le mur LED courbe de 18 × 9 mètres est intégré dans une construction évoquant un pavillon. Ce n'est plus un rectangle posé derrière les artistes ; il participe au volume du décor. Les visuels peuvent ainsi paraître contenus dans un lieu. **Insight :** le même contenu projeté ne raconte pas la même chose selon la forme architecturale qui l'accueille."
+      ],
+      [
+        "La lumière agrandit le temple",
+        "Le reportage PLSN attribue la direction créative à Jennifer Bui, la conception principale à Jack Cannon et les lumières à Ben Walton. Les faisceaux partent du plateau vers l'arène et créent un second volume, invisible quand les projecteurs sont éteints. **Hypothèse :** le dispositif alterne un lieu frontal — le temple — et un espace qui englobe le public. Le spectateur n'est plus seulement devant une image : il se retrouve, par moments, dans sa prolongation."
+      ],
+      [
+        "L'effet produit : un collectif comme un monde",
+        "Sur une scène où plusieurs rappeurs se succèdent, l'identité visuelle doit tenir quand le centre d'attention se déplace. La grande silhouette fixe donne un repère, tandis que lumière et vidéo varient les intensités. C'est peut-être là le véritable enjeu de cette DA : unifier une multiplicité de présences sans les uniformiser."
+      ],
+      [
+        "Pour ton travail de DA",
+        "Prends une référence culturelle forte, puis cherche une forme spatiale reconnaissable sans texte ni logo. Dessine-la en silhouette noire à l'échelle d'une arène. Ensuite, demande-toi si elle peut accueillir plusieurs ambiances sans perdre son identité. Une scénographie forte n'est pas seulement une image : c'est un langage qui résiste aux variations."
+      ]
+    ],
+    "takeaway": "La force du plateau Wu-Tang vient de la conversion d'un imaginaire culturel en architecture : le contenu vidéo change, mais le lieu symbolique demeure.",
+    "tip": "Teste ton concept de scène en silhouette, puis avec trois contenus vidéo opposés. Vérifie que l'identité reste lisible sans logo.",
+    "editorial_review": [
+      {
+        "url": "https://www.promedianews.de/case-studies/prg-investiert-in-roe-visuals-vanish-v4st-led-technologie/",
+        "locator": "Photographie et description technique du plateau européen, écran 18 × 9 m, panneaux ROE Visual"
+      },
+      {
+        "url": "https://plsn.com/articles/showtime/wu-tang-clan-the-final-chamber-european-tour/",
+        "locator": "Crédits des designers et conception de la tournée européenne"
+      },
+      {
+        "url": "https://www.tpimagazine.com/prg-supplies-wu-tang-clans-the-final-chamber-european-tour/",
+        "locator": "Contexte technique et production européenne"
+      }
+    ],
+    "image_note": "Photo du projet publiée par ProMediaNews, URL HTTPS directe ; test de rendu navigateur non disponible."
   }
 }
