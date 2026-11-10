@@ -90,3 +90,12 @@ Appliquer le même marqueur aux décryptages des articles, aux cartes LinkedIn e
 6. En cas d'échec ou de régression, revenir au point de retour **des fichiers réellement modifiés**, sans écraser les données ajoutées depuis par une autre publication. Ne jamais masquer en masse les anciens articles pour corriger des images manquantes.
 7. Les contenus HTML de secours ne doivent jamais se présenter comme la vraie veille. En cas d'échec du script, afficher un état de chargement ou d'erreur clair et un mécanisme de récupération qui lit les JSON, sans articles figés ni fausses analyses.
 8. Carnet DA : « À retenir » en 2–3 lignes avec notions essentielles en gras, « À appliquer » en 1–2 lignes concrètes. Pas de copie intégrale du décryptage.
+
+
+## Fondations permanentes de ciblage et de pédagogie DA (10 novembre 2026)
+
+- **Priorités :** clips musicaux, concerts/tournées, spectacles vivants et performances, scénographie et set design, shows TV, lancements de produits de grande envergure **avec dispositif scénique, spatial ou audiovisuel significatif**. Un lancement sans vrai travail DA de l'espace est exclu.
+- **À la marge :** graphisme, architecture, design d'objet, branding et disciplines voisines. Les consulter occasionnellement uniquement lorsqu'une idée DA exceptionnelle est transposable aux secteurs prioritaires ; ne jamais diluer la veille principale. Maximum 1–2 articles de graphisme par jour.
+- **Analyse mentor parlée :** expliquer le concept et son but immédiatement, comme un DA qui parle devant la photo à un étudiant ou collègue : « Tu vois ce qui est intéressant ici ? », « Regarde ce que ça change ». Pour chaque choix concret : ce qu'on voit → pourquoi on peut supposer ce choix → effet sur le public. Phrases simples, naturelles, didactiques sans ton scolaire ni blabla ; distinguer faits, intentions attestées et hypothèses proposées. Enrichir avec les PDF Drive pertinents réellement consultés.
+- **Images au service de la compréhension :** utiliser de vrais visuels du projet, avec source, légende et petite étiquette quand le site le permet ; les rapprocher des explications. Une belle image seule ne remplace pas l'explication du concept. Toute évolution d'interface est séparée des publications ordinaires et doit être testée.
+- **Cadence :** viser 5–8 publications réellement vérifiées par vague, sans quotas forcés ; élargir les recherches si les premiers candidats échouent. Dédupliquer contre `data/published-projects.json`, le flux, les analyses et l'historique.
