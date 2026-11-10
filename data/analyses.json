@@ -320,5 +320,43 @@
       }
     ],
     "image_note": "Visuel de la page officielle Atelier des Lumières, URL AVIF. Son chargement dans le navigateur mobile reste à vérifier."
+  },
+  "https://www.robelighting.com/case-studies/eurovision-song-contest-2026": {
+    "reviewed_at": "2026-11-10T13:40:00+01:00",
+    "verified": true,
+    "source": "Robe Lighting (étude de cas) ; PLSN (compte rendu de production)",
+    "source_url": "https://www.robelighting.com/case-studies/eurovision-song-contest-2026",
+    "intro": "Regarde la géométrie du plateau : la scène ne s'arrête pas au bord du cadre. Une passerelle dessine une boucle dans l'arène, tandis que l'écran central descend jusqu'au sol et prolonge sa trajectoire. Ce n'est pas seulement une belle courbe : le dispositif doit exister pour le public présent ET devenir une composition lisible à la télévision. La conception de Florian Wieder et la lumière de Tim Routledge articulent ces deux regards.",
+    "points": [
+      [
+        "Une ligne qui relie plutôt qu'un décor qui enferme",
+        "La passerelle quitte le plateau, traverse l'espace et remonte dans une grande boucle. Le plancher vidéo et l'écran vertical poursuivent ce mouvement. On peut lire là une intention : ==faire circuler le regard et les interprètes==, plutôt que juxtaposer des tableaux indépendants. C'est une hypothèse de lecture, pas une déclaration attribuée au designer. Le risque inverse ? Que cette ligne très forte impose sa propre signature à des artistes aux univers différents."
+      ],
+      [
+        "Une architecture pour trente-cinq univers",
+        "Le concours accueille 35 délégations : la même structure doit devenir des mondes visuels différents. Les courbes, les colonnes lumineuses et les surfaces vidéo fournissent une grammaire commune ; les couleurs, l'échelle des faisceaux et les contenus changent la phrase. ==Un bon décor de télévision est parfois un système de possibilités==, pas une image finale unique. C'est ce qui permet à une chanson intimiste et à un numéro spectaculaire de cohabiter."
+      ],
+      [
+        "Le vrai matériau, c'est aussi la caméra",
+        "Tim Routledge explique que les caméras grand capteur ont donné davantage de latitude pour travailler les textures et les nuances de lumière. Les éclairages de visage restent précis pendant que les effets dessinent l'espace. ==Ce que voit l'œil dans la salle n'est pas ce que reçoit le capteur== : la direction artistique doit être pensée sur ces deux supports. Les réglages de couleur et de lumière font partie de l'écriture du show, pas seulement de sa technique."
+      ],
+      [
+        "La leçon pour un DA",
+        "Avant de dessiner un plateau, trace le chemin de l'attention : où l'interprète apparaît-il, où le regard se déplace-t-il, où la caméra peut-elle recomposer le même espace ? Puis teste trois univers artistiques opposés dans ce décor. Si un seul fonctionne, tu as peut-être créé une image forte mais pas encore un système scénique."
+      ]
+    ],
+    "takeaway": "La scénographie télévisée ne se résume pas à fabriquer une scène spectaculaire : elle construit un espace assez cohérent pour être reconnaissable et assez souple pour raconter des histoires contradictoires.",
+    "tip": "Dessine un plan de plateau et trois axes caméra ; simule trois ambiances radicalement différentes sans déplacer l'architecture. Observe ce qui reste lisible.",
+    "editorial_review": [
+      {
+        "url": "https://www.robelighting.com/case-studies/eurovision-song-contest-2026",
+        "locator": "Étude de cas du fournisseur, architecture, éclairages, photos et équipe créative"
+      },
+      {
+        "url": "https://plsn.com/featured/robe-helps-epic-eurovision-glow-up/",
+        "locator": "Compte rendu du show, passerelle, écran, caméras et choix lumière"
+      }
+    ],
+    "image_note": "Image HTTPS fournie par le site Robe Lighting ; chargement navigateur non testé."
   }
 }
