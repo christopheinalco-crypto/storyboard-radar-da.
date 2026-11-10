@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-10T13:40:00+01:00",
+  "updated_at": "2026-11-10T16:02:50+01:00",
   "status": "editorial_reviewed",
   "working_feeds": [
     {
@@ -454,6 +454,19 @@
     "with_images": 82
   },
   "items": [
+    {
+      "title": "Wu-Tang Clan — une scène qui devient un temple",
+      "title_fr": "Wu-Tang Clan — une scène qui devient un temple",
+      "url": "https://www.promedianews.de/case-studies/prg-investiert-in-roe-visuals-vanish-v4st-led-technologie/",
+      "category": "15 Scène Spectacle",
+      "source": "ProMediaNews / PRG / PLSN",
+      "published": "2026-06-01",
+      "summary": "Pour The Final Chamber, un écran LED courbe de 18 × 9 m et une toiture inspirée des pagodes transforment l'arène en architecture du mythe Wu-Tang.",
+      "summary_fr": "Pour The Final Chamber, un écran LED courbe de 18 × 9 m et une toiture inspirée des pagodes transforment l'arène en architecture du mythe Wu-Tang.",
+      "image": "https://www.promedianews.de/app/uploads/2026/06/PRG-Wu-Tan-Clan.jpg",
+      "image_credit": "PRG / ProMediaNews — photo de la scénographie européenne",
+      "status": "editorial_reviewed"
+    },
     {
       "title": "Eurovision 2026 — une scène qui traverse toute l'arène",
       "title_fr": "Eurovision 2026 — une scène qui traverse toute l'arène",
