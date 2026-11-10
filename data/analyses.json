@@ -278,47 +278,5 @@
         "locator": "Paragraphes sur le découpage en segments de vingt secondes et la séquence en caméra subjective."
       }
     ]
-  },
-  "https://www.atelier-lumieres.com/fr/programmation/indochine-arena-tour-le-show-immersif": {
-    "reviewed_at": "2026-11-10T05:59:00+01:00",
-    "verified": true,
-    "source": "Atelier des Lumières (production) ; Indochine Records (tournée) ; Ticketmaster (fiche de l'expérience)",
-    "source_url": "https://www.atelier-lumieres.com/fr/programmation/indochine-arena-tour-le-show-immersif",
-    "intro": "Le point de départ est concret : un concert filmé à l’Accor Arena change de lieu et de langage. La captation ne reste pas enfermée dans un rectangle. Elle doit habiter les murs, les volumes et le public d’une ancienne fonderie. Le spectacle immersif est annoncé à partir du 20 novembre 2026 : on analyse ici le dispositif annoncé, pas une expérience déjà vécue.",
-    "takeaway": "Une captation devient une nouvelle œuvre quand l’espace de projection change la place du spectateur, et pas seulement la taille des images.",
-    "points": [
-      [
-        "D'une salle entière à une architecture entière",
-        "Sur la tournée, ==trois scènes==, un ==écran de 40 × 15 mètres== et un ==plafond lumineux== occupaient plusieurs directions du regard. Dans l’Atelier, ce principe change d’échelle : la vidéo est projetée à 360° sur les volumes du bâtiment. Le spectateur ne regarde plus seulement une scène devant lui ; il se retrouve au milieu d’un espace d’images. C’est le déplacement décisif, même si l’effet final reste à constater à l’ouverture."
-      ],
-      [
-        "L'image n'est plus seule",
-        "Le dispositif annoncé associe ==effets 3D, lasers, fumée, lumière et son spatialisé==. La fumée rend les faisceaux visibles dans l'air ; le son spatialisé peut déplacer l'attention sans passer par un nouveau plan de montage. Mon hypothèse de lecture : ces couches servent à retrouver physiquement l’énergie collective d’une arène, alors que les musiciens ne sont pas présents."
-      ],
-      [
-        "Six parties pour éviter la saturation",
-        "La production annonce ==six séquences==. C’est intéressant : dans un lieu où l’image peut occuper tout le champ visuel, il faut ménager des variations d’intensité et de focalisation. On ne connaît pas encore leur découpage exact. Mais le choix d'une structure en chapitres donne un outil dramaturgique pour passer de l'immersion spectaculaire à des moments plus concentrés."
-      ],
-      [
-        "Ce qu'un DA peut vraiment en tirer",
-        "L’insight n’est pas « mettre plus d’écrans ». C’est ==changer la relation physique à l’image==. Avant de convertir une captation en expérience immersive, dessine les zones où le public peut regarder, se déplacer et perdre le sujet. Puis attribue une fonction à chaque couche : image pour raconter, lumière pour relier les volumes, son pour guider l’attention. Sans cette hiérarchie, le 360° risque de devenir du bruit."
-      ]
-    ],
-    "tip": "Pour adapter une captation à un lieu immersif, fais un plan du lieu et marque trois points d’écoute et de regard. Choisis pour chacun ce que l’image révèle, ce que la lumière prolonge et ce que le son dirige.",
-    "editorial_review": [
-      {
-        "url": "https://www.atelier-lumieres.com/fr/programmation/indochine-arena-tour-le-show-immersif",
-        "locator": "Rubriques « Du concert à l'expérience immersive », « 55 minutes » et crédits de production ; 6 parties, 360°, effets, artistes."
-      },
-      {
-        "url": "https://indochinerecords.com/products/3cd-arena-tour",
-        "locator": "Présentation de l'Arena Tour : trois scènes, écran 40 × 15 m, plafond lumineux, captation multicaméra."
-      },
-      {
-        "url": "https://www.ticketmaster.fr/fr/manifestation/indochine-arena-tour-le-show-immersif-billet/idmanif/674257",
-        "locator": "Présentation du dispositif immersif et date d'ouverture ; durée annoncée 50 minutes, différente des 55 minutes de la page actuelle du lieu."
-      }
-    ],
-    "image_note": "Visuel associé : photographie de la tournée à Arkéa Arena, pas une photographie de l'installation immersive. Durée contradictoire entre sources (50/55 min) volontairement omise de l'analyse."
   }
 }
