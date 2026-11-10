@@ -1,0 +1,89 @@
+{
+  "description": "Cumulative seen-project register; retain entries when projects leave the live feed; compare URL and semantic identity.",
+  "updated": "2026-11-10",
+  "projects": [
+    {
+      "url": "https://www.atelier-lumieres.com/fr/programmation/indochine-arena-tour-le-show-immersif",
+      "title": "Indochine — quand le concert déborde de l'écran",
+      "category": "08 Immersif CGI Motion"
+    },
+    {
+      "url": "https://www.promonews.tv/videos/2026/10/29/kinlaw-ride-ride-barbara-anastacio/96805",
+      "title": "KINLAW — quand la machine de mesure efface le corps",
+      "category": "14 Musique Clips"
+    },
+    {
+      "url": "https://www.tpimagazine.com/inside-foo-fighters-industrial-stage-design/",
+      "title": "Foo Fighters : casser l’écran pour redonner du relief au rock",
+      "category": "01 Spectacle Concert"
+    },
+    {
+      "url": "https://www.promonews.tv/videos/2026/10/14/knats-bowling-ball-lulu-vicedomini/96405",
+      "title": "Knats : quand une boule de bowling devient le monstre du clip",
+      "category": "14 Musique Clips"
+    },
+    {
+      "url": "https://www.tpimagazine.com/creating-aap-rockys-dont-be-dumb-tour/",
+      "title": "A$AP Rocky : un navire de guerre au cœur du concert",
+      "category": "01 Spectacle Concert"
+    },
+    {
+      "url": "https://www.promonews.tv/videos/2026/11/06/omah-lay-artificial-happiness-nwspk/96846",
+      "title": "Omah Lay : l'épure sculpturale de NWSPK",
+      "category": "14 Musique Clips"
+    },
+    {
+      "url": "https://www.revue-as.fr/2026/11/07/imagicario-la-mecanique-dequilibre-du-paredolia-duo/",
+      "title": "Imagicario : la mécanique d’équilibre du “Parédolia Duo”",
+      "category": "09 France Pro"
+    },
+    {
+      "url": "https://www.promonews.tv/videos/2026/11/03/ear-candy-clean-clothes-rob-ulitski/96844",
+      "title": "Ear Candy 'Clean Clothes' by Rob Ulitski",
+      "category": "14 Musique Clips"
+    },
+    {
+      "url": "https://www.promonews.tv/videos/2026/11/03/waterbaby-memory-be-blade-felix-scheynius/96833",
+      "title": "waterbaby 'Memory Be A Blade' by Felix Scheynius",
+      "category": "14 Musique Clips"
+    },
+    {
+      "url": "https://pitchfork.com/story/hayley-williams-hangs-in-a-hotel-room-in-new-dream-girl-in-shibuya-video/",
+      "title": "L'esthétique intimiste du clip de Hayley Williams",
+      "category": "14 Musique Clips"
+    },
+    {
+      "url": "https://www.promonews.tv/videos/2026/11/03/tinashe-pillow-fight-zac-dov-wiesel/96841",
+      "title": "Tinashe : quand le lit devient une scène",
+      "category": "14 Musique Clips"
+    },
+    {
+      "url": "https://www.creativeboom.com/news/pentagrams-festival-identity-finds-a-clever-way-to-give-arabic-and-english-equal-billing/",
+      "title": "Design Doha — faire dialoguer deux écritures",
+      "category": "03 Graphisme Identité"
+    },
+    {
+      "url": "https://www.promonews.tv/videos/2026/11/06/van%C3%A8s-bad-girl-shy-salma-labib/96864",
+      "title": "VANÈS — Bad Girl Shy, une relation en vignettes",
+      "category": "14 Musique Clips"
+    },
+    {
+      "url": "https://lbbonline.com/news/brick-nasty-ballymun-music-video-forever",
+      "title": "Bricknasty — Forever, l’escalier comme point de vue",
+      "category": "14 Musique Clips"
+    },
+    {
+      "url": "https://lbbonline.com/news/Academy-director-henry-Scholfield-The-Rolling-Stones-Mr-Charm-Behind-the-work",
+      "title": "The Rolling Stones — Mr Charm, le geste qui entraîne la salle",
+      "category": "14 Musique Clips"
+    },
+    {
+      "url": "https://plsn.com/featured/ayrton-fixtures-used-for-robbie-williams-britpop-world-tour/",
+      "title": "Previously analyzed project"
+    },
+    {
+      "url": "https://www.promonews.tv/news/2026/11/04/uk-music-video-awards-2026-all-winners-19th-annual-ukmvas/96842",
+      "title": "Previously analyzed project"
+    }
+  ]
+}
