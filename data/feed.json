@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-10T05:59:00+01:00",
+  "updated_at": "2026-11-09T20:25:15.4508540+00:00",
   "status": "editorial_reviewed",
   "working_feeds": [
     {
@@ -222,7 +222,7 @@
   "collection_hour_paris": 3,
   "sources_selected": 182,
   "sources_checked": 172,
-  "special_test": false,
+  "special_test": true,
   "special_selection": {
     "01 Spectacle Concert": [
       {
@@ -454,19 +454,6 @@
     "with_images": 82
   },
   "items": [
-    {
-      "title": "Indochine — quand le concert déborde de l'écran",
-      "title_fr": "Indochine — quand le concert déborde de l'écran",
-      "url": "https://www.atelier-lumieres.com/fr/programmation/indochine-arena-tour-le-show-immersif",
-      "category": "08 Immersif CGI Motion",
-      "source": "Atelier des Lumières / Culturespaces",
-      "published": "2026-11-10",
-      "summary": "L’Arena Tour devient une expérience spatiale à l’Atelier des Lumières dès le 20 novembre : six séquences, projections à 360°, lumière, fumée et son spatialisé.",
-      "summary_fr": "L’Arena Tour devient une expérience spatiale à l’Atelier des Lumières dès le 20 novembre : six séquences, projections à 360°, lumière, fumée et son spatialisé.",
-      "image": "https://www.arkeaarena.com/_next/image?q=75&url=https%3A%2F%2Fcontent.arkeaarena.com%2Fuploads%2Findochine_06_3ede0b1799.jpg&w=3840",
-      "image_credit": "Photo du concert Arena Tour, Arkéa Arena ; ne représente pas l'installation immersive",
-      "status": "editorial_reviewed"
-    },
     {
       "url": "https://www.promonews.tv/videos/2026/10/29/kinlaw-ride-ride-barbara-anastacio/96805",
       "title": "Kinlaw 'Ride The Ride' by Barbara Anastacio",
