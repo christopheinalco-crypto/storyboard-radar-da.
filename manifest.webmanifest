@@ -1,0 +1,26 @@
+{
+  "id": "/storyboard-radar-da./",
+  "name": "RADAR DA — Le regard du directeur artistique",
+  "short_name": "RADAR DA",
+  "description": "Veille créative, décryptages et exercices de direction artistique.",
+  "lang": "fr",
+  "start_url": "/storyboard-radar-da./",
+  "scope": "/storyboard-radar-da./",
+  "display": "standalone",
+  "background_color": "#080e09",
+  "theme_color": "#0a110b",
+  "icons": [
+    {
+      "src": "./icons/radar-da.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "./icons/radar-da-maskable.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "maskable"
+    }
+  ]
+}
