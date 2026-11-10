@@ -38,26 +38,33 @@
     "takeaway": "Dans une grande tournée, penser plusieurs scènes et des décors mobiles permet de faire varier la relation entre artiste, espace et public, au-delà de la seule façade scénique."
   },
   "https://www.promonews.tv/videos/2026/11/06/omah-lay-artificial-happiness-nwspk/96846": {
-    "title_fr": "Omah Lay — Artificial Happiness : faire d'un arbre le centre d'un monde",
-    "intro": "Dans un studio nu, NWSPK place un arbre sculpté autour duquel évoluent les danseurs. Hara Spyrou signe le décor.",
+    "title_fr": "Omah Lay — Artificial Happiness : l'arbre qui attire les corps",
+    "intro": "Regarde le principe : un immense espace presque vide, un arbre blanc au milieu et des corps qui convergent vers lui. Le décor ne raconte pas tout seul. C’est le mouvement des danseurs qui lui donne sa force. Le clip est réalisé par NWSPK, avec Hara Spyrou au set design.",
     "points": [
       [
-        "Un repère fixe pour les corps",
-        "L’arbre donne une ==échelle== à l’image. Les écarts entre les danseurs deviennent plus faciles à comparer quand un élément du cadre reste fixe."
+        "Un arbre qui commande le regard",
+        "Dans cet entrepôt, il y a très peu de repères. Alors l’arbre blanc devient immédiatement **le point vers lequel tout converge**. Ce n’est pas juste une sculpture jolie à filmer : sa position permet de lire la distance entre les corps, leur vitesse et leur regroupement. La mise en scène fabrique un centre sans avoir besoin de construire un décor complexe."
       ],
       [
-        "Un objet qui porte aussi une histoire",
-        "Promonews relie l’arbre et les danseurs aux origines culturelles d’Omah Lay. Le décor organise donc une relation à l’espace et, selon la source, au récit de l’artiste."
+        "La foule change la signification du décor",
+        "Au début, l’arbre peut sembler étrange, presque isolé. Puis les silhouettes se précipitent vers lui et se rassemblent. **Ce qui était un objet devient un lieu de rencontre.** Promonews associe explicitement cet arbre et les danseurs aux origines culturelles de l’artiste. On peut aussi y lire, comme hypothèse de spectateur, une force d’attraction collective : quelque chose qui rassemble autant qu’il inquiète."
+      ],
+      [
+        "Le corps quitte les règles du lieu",
+        "La séquence où Omah Lay lévite fait basculer l’espace. Jusque-là, les danseurs courent sur le sol vers un point fixe. Soudain, le chanteur n’obéit plus à cette gravité. **Le mouvement devient irréel**, alors que le lieu reste très concret. C’est ce contraste entre entrepôt brut, arbre sculptural et corps suspendu qui donne au clip sa tension."
+      ],
+      [
+        "L'insight DA : le décor n'a pas besoin de bouger",
+        "Ici, l’objet principal reste fixe. **C’est la chorégraphie qui transforme son sens** : d’abord repère, puis aimant, puis presque symbole rituel. Pour un DA, la question n’est donc pas seulement « quel décor construire ? », mais « que va-t-il se passer autour pour que ce décor raconte quelque chose ? »."
       ]
     ],
-    "takeaway": "L’arbre donne une échelle aux déplacements des danseurs et renvoie aux racines culturelles d’Omah Lay.",
-    "source": "Promonews, 6 novembre 2026",
-    "verified": true,
+    "takeaway": "Un décor fixe peut devenir le moteur d’une scène. Ici, l’arbre blanc organise les trajectoires, le rassemblement et la rupture avec la gravité.",
+    "tip": "Dessine un plateau presque vide avec un seul élément central. Imagine trois actions successives autour de lui : l’éviter, s’en approcher, puis rompre sa logique. Tu obtiens déjà trois tableaux sans changer le décor.",
+    "source": "Promonews, 6 novembre 2026 ; description complémentaire du clip publiée par Warner Records et reprise dans la presse musicale en octobre 2026.",
     "source_url": "https://www.promonews.tv/videos/2026/11/06/omah-lay-artificial-happiness-nwspk/96846",
-    "reviewed_at": "2026-11-09T12:00:00+01:00",
-    "bibliography_note": "Peter Brook, The Empty Space — rapprochement via « Conseils pratiques — Création de spectacles visuels — Bibliothèque DA », fiche 02.01.",
-    "editorial_method": "Analyse conversationnelle : faits de l'article distincts des rapprochements théoriques et hypothèses de réception.",
-    "tip": "Garde le même cadre et filme un objet seul, puis avec un interprète et un groupe. Compare le moment où la profondeur devient lisible."
+    "verified": true,
+    "reviewed_at": "2026-11-10T18:20:00+01:00",
+    "editorial_method": "Faits de production et éléments décrits dans les sources distingués des hypothèses de réception."
   },
   "https://www.revue-as.fr/2026/11/07/imagicario-la-mecanique-dequilibre-du-paredolia-duo/": {
     "title_fr": "Parédolia Duo — deux réverbères pour jouer l'intimité",

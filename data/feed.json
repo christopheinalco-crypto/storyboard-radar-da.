@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-10T16:02:50+01:00",
+  "updated_at": "2026-11-10T18:20:00+01:00",
   "status": "editorial_reviewed",
   "working_feeds": [
     {
@@ -551,9 +551,10 @@
       "image": "https://admin.promonews.tv/sites/default/files/styles/bmvd_content_page/public/Omah%20Lay%20%27Artificial%20Happiness%27%20by%20NWSPK2.png?itok=mw5cfNUv",
       "source": "Promonews",
       "category": "14 Musique Clips",
-      "angle": "Analyser les intentions visuelles, la mise en scène, le montage et l'identité des clips",
-      "status": "source_detected_not_editorially_analyzed",
-      "title_fr": "Omah Lay : l'épure sculpturale de NWSPK"
+      "angle": "Un seul objet scénographique suffit à créer un centre de gravité visuel et narratif.",
+      "status": "editorial_reviewed",
+      "title_fr": "Omah Lay — Artificial Happiness : l'arbre qui attire les corps",
+      "summary_fr": "Dans un entrepôt vide, un arbre blanc devient le centre d'attraction d'un groupe de danseurs. NWSPK transforme un décor minimal en espace de rassemblement, puis de bascule."
     },
     {
       "title": "Imagicario : la mécanique d’équilibre du “Parédolia Duo”",
