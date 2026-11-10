@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-09T20:25:15.4508540+00:00",
+  "updated_at": "2026-11-10T09:00:00+01:00",
   "status": "editorial_reviewed",
   "working_feeds": [
     {
@@ -454,6 +454,19 @@
     "with_images": 82
   },
   "items": [
+    {
+      "title": "Indochine — quand le concert déborde de l'écran",
+      "title_fr": "Indochine — quand le concert déborde de l'écran",
+      "url": "https://www.atelier-lumieres.com/fr/programmation/indochine-arena-tour-le-show-immersif",
+      "category": "08 Immersif CGI Motion",
+      "source": "Atelier des Lumières / Culturespaces",
+      "published": "2026-11-10",
+      "summary": "L’Arena Tour devient une expérience spatiale à l’Atelier des Lumières dès le 20 novembre : six séquences, projections à 360°, lumière, fumée et son spatialisé.",
+      "summary_fr": "L’Arena Tour devient une expérience spatiale à l’Atelier des Lumières dès le 20 novembre : six séquences, projections à 360°, lumière, fumée et son spatialisé.",
+      "image": "https://www.atelier-lumieres.com/sites/atelier-lumieres/files/styles/large/public/2026-10/concert-guitare-sirkis.jpg.avif?itok=kybDlni_",
+      "image_credit": "Image officielle de l'expérience Indochine, Atelier des Lumières (photo publiée sur la page du projet ; ne garantit pas le rendu final de l'installation)",
+      "status": "editorial_reviewed"
+    },
     {
       "url": "https://www.promonews.tv/videos/2026/10/29/kinlaw-ride-ride-barbara-anastacio/96805",
       "title": "Kinlaw 'Ride The Ride' by Barbara Anastacio",
