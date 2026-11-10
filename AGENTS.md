@@ -76,3 +76,17 @@ La lecture DA commence par le geste, la matière, l’espace ou l’effet visibl
 ## Surligneur commun à tous les formats
 
 Appliquer le même marqueur aux décryptages des articles, aux cartes LinkedIn et Instagram et à l’atelier du jour. Le texte reste clair et gras, avec un dégradé vert sous la moitié basse des lettres. Utiliser le style natif du RADAR, y compris sur plusieurs lignes, pour éviter le jaune par défaut du navigateur. Les intertitres structurent la lecture. Dans le corps du texte, réserver le surlignage aux choix créatifs, à leurs effets et aux principes DA à retenir.
+
+
+## Protocole anti-régression après l'incident du 10 novembre 2026
+
+**Règle de publication bloquante :** aucune nouvelle fiche sans visuel réel du projet, sans analyse DA complète, ni sans validation de cohérence. Un simple champ `image` non vide n'est PAS une preuve que l'image charge : vérifier URL directe HTTPS, provenance officielle ou autorisée, type image et chargement effectif si un outil navigateur est disponible. Si l'image n'est pas vérifiable, mettre l'article en attente, ne pas publier. Ne jamais substituer une image générée ou non liée au projet. Les photos de tournée ne doivent pas être présentées comme des vues d'une installation à venir.
+
+1. Avant chaque vague, relever le HEAD et les SHA des fichiers `index.html`, `data/feed.json`, `data/analyses.json`. Conserver un point de retour. Ne pas toucher à `index.html` pour publier des articles ; toute modification d'interface requiert une demande explicite et un test séparé.
+2. Lire le flux et les analyses actuels, les anciens articles, le projet du jour et les projets vus. Dédupliquer les URL après normalisation (schéma HTTP/HTTPS, www, slash, paramètres de suivi) et les **projets** par titre, artiste, scénographie et événement, même si les URL diffèrent. Rocky et toute création déjà traitée ne doivent pas revenir en « nouvelle veille ».
+3. Pour chaque candidat : au moins une source primaire/indépendante pertinente, dates et faits vérifiés, visuel authentique, aperçu court, analyse DA concrète et conversationnelle avec `intro`, `points`, `takeaway`, distinction faits/hypothèses et liens de sources. Les posts sociaux nécessitent un recoupement complémentaire.
+4. Contrôler **avant écriture** : JSON valides ; aucun article ancien supprimé ; chaque nouvelle URL de `feed.items` correspond à une entrée complète de `analyses.json` ; pas de doublon ; visuel vérifié ; 15 nouvelles fiches maximum par vague, 3 maximum par catégorie, 1 à 2 articles graphisme par jour.
+5. Écrire les fichiers de données seulement, relire immédiatement les deux fichiers GitHub et vérifier leurs contenus et leurs SHA. Tester le site public et le rendu des images et des boutons de décryptage quand un navigateur est disponible. Si cette vérification n'est pas accessible, le signaler explicitement ; ne pas prétendre que le rendu est validé.
+6. En cas d'échec ou de régression, revenir au point de retour **des fichiers réellement modifiés**, sans écraser les données ajoutées depuis par une autre publication. Ne jamais masquer en masse les anciens articles pour corriger des images manquantes.
+7. Les contenus HTML de secours ne doivent jamais se présenter comme la vraie veille. En cas d'échec du script, afficher un état de chargement ou d'erreur clair et un mécanisme de récupération qui lit les JSON, sans articles figés ni fausses analyses.
+8. Carnet DA : « À retenir » en 2–3 lignes avec notions essentielles en gras, « À appliquer » en 1–2 lignes concrètes. Pas de copie intégrale du décryptage.
