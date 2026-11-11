@@ -306,7 +306,7 @@ function imageHTML(x){
  if(!x.image&&/^[A-Za-z0-9_-]{11}$/.test(x.youtube_id||''))return '<iframe class="project-video" loading="lazy" src="https://www.youtube-nocookie.com/embed/'+x.youtube_id+'" title="'+escapeHTML(x.title_fr||x.title)+'" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>';
  if(!x.image&&/^\d+$/.test(x.slate_id||''))return '<iframe class="project-video" loading="lazy" src="https://academy.slateapp.com/embed/clip/'+x.slate_id+'" title="'+escapeHTML(x.title_fr||x.title)+'" allowfullscreen></iframe>';
  const sourceLink=x.visual_url||x.url;
- if(!x.image)return sourceLink?'<a href="'+escapeHTML(sourceLink)+'" target="_blank" rel="noopener noreferrer" style="display:flex;align-items:center;justify-content:center;min-height:160px;padding:24px;text-align:center;color:#c0ff1c;font-weight:700;text-decoration:underline">Consulter le projet et ses visuels à la source ↗</a>':'';
+ if(!x.image)return '';
  return '<img loading="lazy" referrerpolicy="no-referrer" src="'+escapeHTML(x.image)+'" alt="Image du projet : '+escapeHTML(x.title_fr||x.title)+'" onerror="this.style.display=\'none\';var a=document.createElement(\'a\');a.href=this.dataset.source;a.target=\'_blank\';a.rel=\'noopener noreferrer\';a.textContent=\'Consulter le projet à la source ↗\';a.style.cssText=\'display:flex;align-items:center;justify-content:center;min-height:160px;padding:24px;text-align:center;color:#c0ff1c;font-weight:700;text-decoration:underline\';this.after(a)" data-source="'+escapeHTML(sourceLink||'')+'">';
 }
 function editorialScore(x){const title=(x.title||'').toLowerCase(),body=((x.summary||'')+' '+(x.summary_fr||'')).toLowerCase(),text=title+' '+body;let s=0;
@@ -655,7 +655,7 @@ function renderCuratedDaily(){const d=RADAR_DAILY_FEATURE;const box=document.get
 function drawFeed(){renderSocialPostWatch();renderSavedInsights();const cat=$('#cat').value,seen=seenData();renderSeenArchive(seen);
 const priority={'01':80,'02':75,'15':72,'14':70,'08':68,'06':65,'09':60,'05':30,'03':10,'11':8,'04':6};
 const feedCutoff=Date.now()-3*24*60*60*1000; // Affichage pendant 72 h après entrée dans RADAR DA, lu ou non lu.
-let items=ITEMS.filter(x=>{const addedAt=Date.parse(x.radar_added_at||AI_EDITORIAL_CASES[x.url]?.reviewed_at||x.published||'');return (!!EDITORIAL_CASES[x.url]||!!AI_EDITORIAL_CASES[x.url])&&!excludedEditorialList(x)&&Number.isFinite(addedAt)&&addedAt>=feedCutoff&&(activeGroup==='Tout'||groupRelevance(x,activeGroup)>=8)&&(!cat||x.category===cat)});
+let items=ITEMS.filter(x=>{const addedAt=Date.parse(x.radar_added_at||AI_EDITORIAL_CASES[x.url]?.reviewed_at||x.published||'');return !!x.image&&/^https:\/\//.test(x.image)&&(!!EDITORIAL_CASES[x.url]||!!AI_EDITORIAL_CASES[x.url])&&!excludedEditorialList(x)&&Number.isFinite(addedAt)&&addedAt>=feedCutoff&&(activeGroup==='Tout'||groupRelevance(x,activeGroup)>=8)&&(!cat||x.category===cat)});
 // Trier par entrée dans la veille. La publication départage les entrées simultanées.
 const radarEntryTime=x=>Date.parse(x.radar_added_at||AI_EDITORIAL_CASES[x.url]?.reviewed_at||x.published||'')||0;
 items.sort((a,b)=>radarEntryTime(b)-radarEntryTime(a)||(Date.parse(b.published||'')||0)-(Date.parse(a.published||'')||0)||(priority[String(b.category||'').slice(0,2)]||0)-(priority[String(a.category||'').slice(0,2)]||0));
