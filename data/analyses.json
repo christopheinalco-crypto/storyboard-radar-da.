@@ -411,5 +411,43 @@
       }
     ],
     "image_note": "Photo du projet publiée par ProMediaNews, URL HTTPS directe ; test de rendu navigateur non disponible."
+  },
+  "https://www.soundlightup.com/archives/reportages/jordan-magnee-imagine-un-mega-super-design-pour-la-big-boss-lady-theodora.html": {
+    "intro": "Le concept est simple : transformer la scène en un petit quartier rose où Theodora peut vivre plusieurs histoires. Jordan Magnée place une BBL Tower au centre, des boutiques sur les côtés et les musiciens à l’étage. Ce n’est pas seulement un fond de concert : c’est une ville à habiter.",
+    "points": [
+      [
+        "La scène a déjà commencé quand tu entres",
+        "Regarde la tour et les boutiques. **Tout est allumé avant le concert.** Les enseignes accueillent même les premières parties et le grand écran affiche la setlist comme de fausses publicités. Ce choix est attesté par Jordan Magnée : il voulait que le public entre immédiatement dans l’univers de Theodora. Résultat possible : l’attente devient déjà un morceau du spectacle, pas un temps mort."
+      ],
+      [
+        "Des vraies façades, mais des boutiques qui changent d'identité",
+        "Les shops ont des vitrines physiques avec des écrans LED derrière. La tour et ses deux étages donnent une échelle concrète, tandis que la vidéo peut transformer le contenu de chaque boutique. **Le bâti reste, le quartier change.** C’est une solution maligne pour passer d’un morceau à l’autre sans reconstruire le plateau. Magnée explique avoir photographié Château d’Eau et Château Rouge pour nourrir cette architecture. Hypothèse DA : le collage de références urbaines permet d’unifier les identités musicales très différentes de l’artiste."
+      ],
+      [
+        "Le cadre de lumière termine l'architecture",
+        "Tu vois les grands angles lumineux qui referment les côtés de la scène ? Ils ne servent pas seulement à éclairer. Magnée décrit lui-même ce cadre comme le grand geste du kit lumière. Avec les 104 LEDBeam 350 et les faisceaux qui prolongent l’espace, **la lumière devient une façade supplémentaire**. Elle peut resserrer le regard sur la tour ou ouvrir visuellement la scène vers la salle."
+      ],
+      [
+        "La rupture arrive sans cacher le décor",
+        "La tour reste visible avant le show, puis la salle passe au noir. Theodora surgit en silhouette au premier étage sur « 243 km/h », les rideaux s’ouvrent et les danseurs entrent. **La surprise ne vient pas de la découverte du décor, mais de son activation.** C’est le contre-pied déclaré par le scénographe. On peut y voir une leçon de dramaturgie : révéler l’objet tôt n’empêche pas de garder un événement fort pour son premier usage."
+      ],
+      [
+        "La matière pauvre évite l'univers trop lisse",
+        "Au-dessus des shops, Magnée place de simples barrières Heras, éclairées en lumière rasante pour les rendre brillantes. Il dit rechercher ce contraste entre un matériau brut et la scénographie rose très travaillée. **Ce frottement évite le tout-plastique parfait.** Mon hypothèse : la ville paraît plus crédible parce qu’elle garde un peu de rugosité, même au milieu des effets vidéo."
+      ]
+    ],
+    "takeaway": "**À retenir :** un décor peut être un monde déjà actif avant l'arrivée de l'artiste. **Tour, vitrines LED et lumière architecturale** donnent plusieurs lieux dans un même plateau. L'effet naît de l'activation progressive, pas d'un changement de décor.",
+    "tip": "**À appliquer :** imagine une scène avec une structure fixe et trois fonctions successives : accueillir le public, raconter un lieu, puis provoquer une apparition. Teste ce qui change seulement avec les écrans, les interprètes et la lumière.",
+    "source": "Allison Cussigh, SoundLightUp, 18 juin 2026 ; entretien avec Jordan Magnée, scénographe du Free Kitty Tour.",
+    "source_url": "https://www.soundlightup.com/archives/reportages/jordan-magnee-imagine-un-mega-super-design-pour-la-big-boss-lady-theodora.html",
+    "source_links": [
+      "https://www.soundlightup.com/archives/reportages/jordan-magnee-imagine-un-mega-super-design-pour-la-big-boss-lady-theodora.html",
+      "https://fr.linkedin.com/posts/soundlightupfrance_theodora-sc%C3%A9nographie-lumi%C3%A8re-activity-7479840678168993792-wrsF"
+    ],
+    "social_crosscheck": "Le post LinkedIn de SoundLightUp présente la BBL Tower et les effets lumière ; l'entretien publié sur SoundLightUp confirme les choix et les intentions directement auprès de Jordan Magnée. Il s'agit de la même rédaction : recoupement primaire par entretien, pas de seconde enquête indépendante.",
+    "bibliography_note": "Bibliothèque Drive consultée : « Synthese_scenographie_emotion_261009_080126.pdf », fiche de synthèse fondée notamment sur Eveliina Tuomisto, Emotional impact of stage design in concerts (2025). Rapprochement théorique : un élément scénique agit par espace, symbolisme et lumière, et non comme simple décoration. Ce rapprochement n'établit aucune influence sur Jordan Magnée.",
+    "verified": true,
+    "reviewed_at": "2026-11-11T06:05:00+01:00",
+    "editorial_method": "Intentions attestées de Jordan Magnée séparées des hypothèses d'interprétation et des effets possibles."
   }
 }
