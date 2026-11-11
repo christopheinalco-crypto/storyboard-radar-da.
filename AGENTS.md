@@ -118,7 +118,14 @@ Lorsqu'une fiche manque de visuel ou que son image ne charge pas, ne pas s'arrê
 
 ## Règle de rotation et volume des vagues — 11 novembre 2026
 
-- Chaque vague de veille doit viser **5 à 11 nouveaux projets** (minimum 5, maximum 11) répondant à toutes les exigences de qualité, vérification et visuel. Élargir la recherche si moins de cinq sont validés ; ne jamais publier de faux projets pour atteindre le minimum. En cas de déficit, signaler précisément le nombre réel et les blocages.
+- Chaque vague de veille doit viser **5 à 9 nouveaux projets** (minimum 5, maximum 9) répondant à toutes les exigences de qualité, vérification et visuel. Élargir la recherche si moins de cinq sont validés ; ne jamais publier de faux projets pour atteindre le minimum. En cas de déficit, signaler précisément le nombre réel et les blocages.
 - Une fiche disparaît automatiquement des vues principales **72 heures après son entrée initiale dans RADAR DA**, qu'elle ait été ouverte, marquée vue ou non lue. Le champ `radar_added_at` (date/heure ISO 8601 de première publication) doit être écrit dans `data/feed.json` pour chaque nouveau projet et **ne doit jamais être réinitialisé**. Le temps de publication de l'article d'origine n'est pas équivalent à l'heure d'entrée dans la veille ; les fiches historiques sans horodatage utilisent leur date d'analyse ou publication en dernier recours.
 - Les projets expirés restent dans le registre cumulatif `data/published-projects.json` pour éviter leur réintroduction ; ne jamais effacer cet index. Les idées explicitement sauvegardées dans le carnet DA ne sont pas supprimées par cette règle.
 - Le rattrapage de la vague de 6 h du 11 novembre est une opération **ponctuelle**, pas une nouvelle planification récurrente.
+
+## Actualisation — 11 novembre 2026 : sources sociales et volume
+
+- **5 à 9 projets nouveaux par vague**, à 6 h, 12 h, 16 h et 20 h (heure de Paris), sans abaisser les critères de qualité pour remplir le minimum.
+- **Chaque vague explore obligatoirement les sites spécialisés, LinkedIn et Instagram** pour découvrir des projets réels de scénographie, concert, spectacle, show TV, clip et lancement visuel majeur. Les réseaux sont des sources de découverte, pas des preuves suffisantes : croiser le post avec une source primaire ou indépendante.
+- Les découvertes LinkedIn et Instagram entrent dans les **mêmes 5–9 projets**, avec la même analyse DA approfondie, image authentique, liens du post et du recoupement, et vérification anti-doublons ; pas de flux social séparé.
+- Ne jamais modifier l'interface `index.html` dans une vague. Conserver `radar_added_at` initial et le registre anti-doublons cumulatif.
