@@ -1,4 +1,42 @@
 {
-  "updated_at": "2026-11-11T00:00:00+01:00",
-  "items": []
+  "updated_at": "2026-11-11T20:10:28.976Z",
+  "items": [
+    {
+      "title": "Les Vulves Assassines — des comètes jusque dans la foule",
+      "author": "Lise Texier (LinkedIn)",
+      "category": "15 Scène Spectacle",
+      "url": "https://fr.linkedin.com/posts/lise-texier_d%C3%A9cor-sc%C3%A9nographie-concert-activity-7513607439850754048-B669",
+      "image": "",
+      "analysis": {
+        "intro": "Le décor de la Cigale ne se contente pas de rappeler l'album Vulcanae Rock’n’rolla : il déplace une partie de son univers jusque dans la salle. Le post de Lise Texier décrit un travail collectif de conception et de construction.",
+        "points": [
+          [
+            "Du plafond au public",
+            "Le post documente des comètes suspendues et d'autres envoyées dans la foule. Hypothèse DA : **le même motif traverse la frontière scène/salle**, et transforme le public en prolongement du décor plutôt qu'en simple spectateur."
+          ],
+          [
+            "Une ville qui masque les machines",
+            "Les immeubles déstructurés servent aussi à habiller synthétiseurs et praticables. La scénographie ne dissimule pas seulement le matériel : elle l'intègre dans le vocabulaire visuel de l'album. Le compte rendu indépendant de MeloLIVE confirme la présence d'un décor rappelant la pochette."
+          ],
+          [
+            "La fabrication impose des limites réelles",
+            "Texier évoque les contraintes de feu, de foule et de sécurité de la Cigale. Cette donnée empêche de lire les comètes comme un pur geste graphique : leur trajectoire et leur manipulation font partie de la conception."
+          ]
+        ],
+        "takeaway": "Faire passer un motif de la scène à la salle peut transformer une identité d'album en expérience collective ; le geste doit être pensé avec ses contraintes de sécurité.",
+        "tip": "Sur un projet de concert, choisir un motif unique et tester deux implantations : décor fixe et interaction contrôlée avec la salle."
+      },
+      "sources": [
+        {
+          "label": "Post de Lise Texier — conception du décor",
+          "url": "https://fr.linkedin.com/posts/lise-texier_d%C3%A9cor-sc%C3%A9nographie-concert-activity-7513607439850754048-B669"
+        },
+        {
+          "label": "MeloLIVE — compte rendu et décor de La Cigale",
+          "url": "https://www.melolive.fr/2026/06/les-vulves-assassines-mamacita-matadora-la-cigale-27-05-2026/"
+        }
+      ],
+      "published_at": "2026-11-11T20:10:28.976Z"
+    }
+  ]
 }
