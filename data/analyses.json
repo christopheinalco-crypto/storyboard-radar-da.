@@ -952,5 +952,44 @@
     "verified": true,
     "editorial_method": "Intentions du réalisateur attestées par entretien ; interprétation DA distincte.",
     "tip": "Pour une scène dansée, écris d'abord ce qui se transmet d'un personnage à l'autre. Dessine ensuite les trajectoires et les axes caméra qui rendent cette transmission lisible."
+  },
+  "https://www.etnow.com/news/2026/6/follow-me-powers-journeys-epic-final-frontier-tour": {
+    "intro": "Sur la tournée d'adieu de Journey, le concept est simple : **faire bouger le centre de la scène avec le musicien**. Un solo ne reçoit pas seulement un spot. Il peut entraîner des dizaines de faisceaux, comme si tout le décor lumineux réagissait à son déplacement.",
+    "points": [
+      [
+        "Une architecture qui cite le passé",
+        "Le concepteur lumière Tim Routledge part d'anciens dispositifs Journey : un cercle et des rayons. Il en tire un moyeu tridimensionnel de centaines de blinders LED. Ce n'est pas juste de la nostalgie : cette géométrie ramène naturellement l'œil vers un centre, même quand le groupe occupe toute la largeur du plateau."
+      ],
+      [
+        "La poursuite devient un geste scénographique",
+        "Le système Follow-Me suit les six interprètes. Routledge explique qu'il peut mobiliser **30, 40 ou 50 lumières** sur un guitariste en solo. Là, la poursuite cesse d'être un éclairage utilitaire : le mouvement de l'artiste devient un événement spatial. Hypothèse DA : c'est une façon de donner à un solo l'ampleur d'un refrain sans ajouter d'écran ni de décor."
+      ],
+      [
+        "Une scène qui respire avec l'imprévu",
+        "Le dispositif combine une programmation temporelle très précise et un suivi manuel réactif. La différence compte : si un musicien accélère ou change de place, la lumière peut conserver la dramaturgie au lieu d'imposer une marque au sol. Le public perçoit une scène vivante, pas seulement une succession de tableaux verrouillés."
+      ],
+      [
+        "Ce que la photographie permet réellement de lire",
+        "La vue générale de la tournée montre le grand écran, le logo ailé, les rangées de faisceaux et les interprètes à petite échelle. Elle permet de comprendre l'architecture globale. En revanche, une photo fixe ne prouve pas le suivi dynamique décrit par Routledge : ce point vient de son témoignage technique, pas de l'image."
+      ]
+    ],
+    "takeaway": "**Le centre d'une scène peut être mobile.** Au lieu de multiplier les décors, on peut faire converger l'architecture lumineuse vers l'action importante, puis lui rendre sa liberté.",
+    "tip": "**À appliquer :** pour un solo, tester trois états — lumière localisée, faisceaux convergents, puis ouverture sur toute la scène — et comparer la perception du même geste.",
+    "source": "ETNow / Follow-Me",
+    "source_url": "https://www.etnow.com/news/2026/6/follow-me-powers-journeys-epic-final-frontier-tour",
+    "source_links": [
+      "https://www.etnow.com/news/2026/6/follow-me-powers-journeys-epic-final-frontier-tour",
+      "https://www.yahoo.com/entertainment/music/articles/journey-setlist-rocks-hits-deep-190848085.html"
+    ],
+    "verified": true,
+    "reviewed_at": "2026-11-11T16:04:24+01:00",
+    "editorial_method": "Dispositif et citations techniques documentés par ETNow ; lecture perceptive formulée comme hypothèse. Photographie réelle de Final Frontier par USA Today Entertainment, pas une preuve des réglages de suivi.",
+    "reading_sequence": [
+      "Concept",
+      "Architecture",
+      "Mouvement",
+      "Limite du visuel",
+      "Enseignement"
+    ]
   }
 }
