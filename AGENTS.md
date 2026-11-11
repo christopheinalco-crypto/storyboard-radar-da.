@@ -187,3 +187,12 @@ Conserver une voix parlée de DA expérimenté, directe, exigeante et nuancée ;
 - Test final de lecture mobile : après environ une minute, le lecteur doit comprendre un choix artistique décisif, son effet et un principe transférable. Lire à voix haute ; couper les phrases lourdes, le jargon et les tics de langage.
 - Préserver toutes les clés JSON, sources, images, liens, archives et articles ; ne pas modifier index.html pour une correction éditoriale. Relire et valider le JSON après chaque écriture ; vérifier le nombre d'analyses et les liens avec le flux.
 - Appliquer ces règles à la veille principale, aux posts LinkedIn et Instagram et aux contenus existants lors de leur révision. La qualité prime sur les quotas et la réduction mécanique du nombre de mots.
+
+
+## Objectifs de collecte par vague — 11 novembre 2026
+- Quatre vagues quotidiennes prévues à 6 h, 12 h, 16 h et 20 h (heure de Paris).
+- Trois flux indépendants : **5 à 9 nouveaux articles qualifiés dans la veille principale**, **5 à 9 nouveaux posts LinkedIn qualifiés**, **5 à 9 nouveaux posts Instagram qualifiés** à chaque vague. Ce sont des objectifs distincts, pas un total commun. Les cinq minimum représentent un objectif de prospection active, jamais un prétexte pour publier des contenus faibles ou inventés.
+- Priorité absolue aux concerts, scénographies, spectacles vivants, shows TV, clips musicaux et lancements/événements de marque à forte direction artistique ou set design. Les catégories du référentiel Excel (graphisme, architecture, objet, etc.) restent secondaires, à sélectionner seulement si leur apport DA est particulièrement fort.
+- Chaque ajout doit avoir une source authentique, un lien opérationnel, un visuel réel pertinent et vérifié, une analyse concise et utile, et aucun doublon. Les posts LinkedIn/Instagram doivent être recoupés avec une source complémentaire quand possible ; distinguer faits et interprétations.
+- Si moins de cinq contenus vérifiés existent dans un flux, publier uniquement les contenus solides, documenter le nombre réel et les recherches effectuées, sans recycler ni inventer. Bilan séparé : veille principale / LinkedIn / Instagram, avec nombres recherchés, retenus et publiés.
+- Pour LinkedIn et Instagram, alimenter `data/social-posts.json` de façon cumulative ; ne jamais annoncer un objectif atteint si le fichier n'a pas effectivement reçu les nouveaux posts. Ne pas toucher à `index.html` pour la publication.
