@@ -14,7 +14,7 @@ const validHttp = value => typeof value === 'string' && /^https?:\/\//i.test(val
 const seen = new Set();
 for (const [i, item] of (Array.isArray(entries) ? entries : []).entries()) {
   if (!validHttp(item.url)) errors.push('feed item ' + i + ': invalid source URL');
-  if (!validHttp(item.image)) errors.push('feed item ' + i + ': missing/invalid image URL');
+  if (item.image && !validHttp(item.image)) errors.push('feed item ' + i + ': invalid image URL');
   if (seen.has(item.url)) errors.push('duplicate feed URL: ' + item.url);
   seen.add(item.url);
   const a = analyses[item.url];
