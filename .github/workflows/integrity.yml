@@ -1,0 +1,29 @@
+name: RADAR DA — integrity audit
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '15 5,11,15,19,21 * * *'
+
+permissions:
+  contents: read
+
+concurrency:
+  group: radar-da-integrity
+  cancel-in-progress: false
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Validate published JSON and cross-file references
+        run: node scripts/validate-radar.cjs
+      - name: Preserve report on failure
+        if: failure()
+        run: |
+          echo "RADAR DA integrity check failed. Review the log and restore files from Git history if necessary." >> "$GITHUB_STEP_SUMMARY"
