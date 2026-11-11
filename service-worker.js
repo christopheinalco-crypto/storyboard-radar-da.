@@ -1,5 +1,5 @@
 // RADAR DA — shell cache versioned; HTML and editorial JSON always network-first.
-const CACHE='radar-da-shell-v3';
+const CACHE='radar-da-shell-v4';
 const ROOT='/storyboard-radar-da./';
 const ASSETS=[ROOT+'manifest.webmanifest',ROOT+'icons/radar-da.svg'];
 self.addEventListener('install',event=>{
