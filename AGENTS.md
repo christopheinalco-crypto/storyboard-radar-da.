@@ -196,3 +196,10 @@ Conserver une voix parlée de DA expérimenté, directe, exigeante et nuancée ;
 - Chaque ajout doit avoir une source authentique, un lien opérationnel, un visuel réel pertinent et vérifié, une analyse concise et utile, et aucun doublon. Les posts LinkedIn/Instagram doivent être recoupés avec une source complémentaire quand possible ; distinguer faits et interprétations.
 - Si moins de cinq contenus vérifiés existent dans un flux, publier uniquement les contenus solides, documenter le nombre réel et les recherches effectuées, sans recycler ni inventer. Bilan séparé : veille principale / LinkedIn / Instagram, avec nombres recherchés, retenus et publiés.
 - Pour LinkedIn et Instagram, alimenter `data/social-posts.json` de façon cumulative ; ne jamais annoncer un objectif atteint si le fichier n'a pas effectivement reçu les nouveaux posts. Ne pas toucher à `index.html` pour la publication.
+
+
+## Ajustement validé — quotas sociaux (11 novembre 2026)
+- **Veille principale : 5 à 9 articles qualifiés par vague** (inchangé).
+- **LinkedIn : 3 à 5 posts qualifiés par vague** ; **Instagram : 3 à 5 posts qualifiés par vague**, séparément. Ces nouveaux objectifs remplacent les anciens quotas sociaux de 5 à 9.
+- Ce sont des objectifs de prospection et non des minima forcés de publication : ne jamais sacrifier la qualité, la vérification, la pertinence visuelle ou l'absence de doublons pour atteindre un chiffre.
+- Lorsqu'un projet apparaît sur plusieurs canaux, croiser les sources et enrichir son analyse plutôt que dupliquer les décryptages. Compter et annoncer les publications effectives par flux.
