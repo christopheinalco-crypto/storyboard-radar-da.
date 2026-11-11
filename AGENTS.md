@@ -129,3 +129,7 @@ Lorsqu'une fiche manque de visuel ou que son image ne charge pas, ne pas s'arrê
 - **Chaque vague explore obligatoirement les sites spécialisés, LinkedIn et Instagram** pour découvrir des projets réels de scénographie, concert, spectacle, show TV, clip et lancement visuel majeur. Les réseaux sont des sources de découverte, pas des preuves suffisantes : croiser le post avec une source primaire ou indépendante.
 - Les découvertes LinkedIn et Instagram entrent dans les **mêmes 5–9 projets**, avec la même analyse DA approfondie, image authentique, liens du post et du recoupement, et vérification anti-doublons ; pas de flux social séparé.
 - Ne jamais modifier l'interface `index.html` dans une vague. Conserver `radar_added_at` initial et le registre anti-doublons cumulatif.
+
+## Veille test manuelle — priorité éditoriale confirmée le 11 novembre
+
+À chaque demande « lance la veille », rechercher ET publier immédiatement **5 à 7 nouveaux projets** (minimum 5), avec analyses DA concrètes, images authentiques pertinentes et anti-doublons vérifiés. Priorité : concerts, spectacles, shows TV, clips, scénographie et set design, grands événements de lancement de produit, de marque et branding événementiel. Au plus **1 à 2 projets secondaires** par vague, uniquement si leur intérêt DA est manifeste. Sites spécialisés, LinkedIn et Instagram explorés à chaque vague ; posts sociaux recoupés. Ne pas se contenter de déclencher une automatisation : vérifier les écritures GitHub. Ne pas inventer de validation navigateur si non effectuée.
