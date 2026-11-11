@@ -167,3 +167,12 @@ Le décryptage doit suivre le chemin naturel : **ce qu'on regarde → l'idée du
 - Pour chaque nouveau post, fournir `title`, `author`, `category`, `url`, `image` (HTTPS réellement liée au projet), `analysis` (`intro`, au moins deux `points`, `takeaway`, `tip` facultatif), `sources` (au moins une source complémentaire vérifiée), et `published_at`. Les anciennes cartes codées dans le site sont historiques, pas une preuve de mise à jour.
 - Explorer LinkedIn et Instagram à chaque vague de 6 h, 12 h, 16 h et 20 h, sans quota de posts ; consigner séparément les ajouts presse, LinkedIn et Instagram, y compris zéro si aucune piste suffisamment fiable.
 - Une navigation fraîche doit commencer en haut de page ; le retour navigateur à une lecture en cours peut conserver sa position. Ne pas forcer un scroll pendant une lecture ou un retour arrière.
+
+
+## Directive éditoriale du 11 novembre 2026 — intention, non insight
+
+Dans les analyses de direction artistique, ne pas confondre **insight publicitaire** (vérité/tension sur un public) et **intention artistique** (effet ou expérience recherchés). Utiliser la structure de lecture **L'essentiel / Intention / Idée & DA / Pour un DA** pour les nouvelles analyses et lors de la révision des articles historiques, y compris LinkedIn et Instagram. Si l'intention n'est pas documentée, écrire explicitement qu'il s'agit d'une hypothèse de lecture, sans attribuer cette hypothèse au créateur.
+
+**L'essentiel** : projet, fait vérifiable et choix décisif. **Intention** : visée artistique attestée ou interprétation prudente. **Idée & DA** : comment les moyens observables (espace, scénographie, cadrage, couleur, matière, lumière, vidéo, rythme) produisent l'effet possible, sans confondre effet perçu et intention. **Pour un DA** : principe concret transférable, spécifique à ce projet.
+
+Conserver une voix parlée de DA expérimenté, directe, exigeante et nuancée ; une idée forte par analyse, phrases courtes, sans répétition entre aperçu, développement et conclusion. Une critique ou une alternative n'est ajoutée que lorsqu'elle éclaire réellement le choix, jamais pour remplir une case. Ne pas ajouter de volume ni de rubriques. Rectifier les imprécisions conceptuelles plutôt que les valider automatiquement. Cette règle vaut pour les fondations, les articles existants et les productions futures ; préserver les données, les visuels vérifiés et l'interface.
