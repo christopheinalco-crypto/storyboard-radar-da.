@@ -663,7 +663,7 @@ function renderPermanentArchive(){
 function drawFeed(){renderSocialPostWatch();renderSavedInsights();const cat=$('#cat').value,seen=seenData();renderSeenArchive(seen);renderPermanentArchive();
 const priority={'01':80,'02':75,'15':72,'14':70,'08':68,'06':65,'09':60,'05':30,'03':10,'11':8,'04':6};
 const feedCutoff=Date.now()-3*24*60*60*1000; // Affichage pendant 72 h après entrée dans RADAR DA, lu ou non lu.
-let items=ITEMS.filter(x=>{const addedAt=Date.parse(x.radar_added_at||AI_EDITORIAL_CASES[x.url]?.reviewed_at||x.published||'');return !!x.image&&/^https:\/\//.test(x.image)&&(!!EDITORIAL_CASES[x.url]||!!AI_EDITORIAL_CASES[x.url])&&!excludedEditorialList(x)&&Number.isFinite(addedAt)&&addedAt>=feedCutoff&&(activeGroup==='Tout'||groupRelevance(x,activeGroup)>=8)&&(!cat||x.category===cat)});
+let items=ITEMS.filter(x=>{const addedAt=Date.parse(x.radar_added_at||AI_EDITORIAL_CASES[x.url]?.reviewed_at||x.published||'');return (!x.image||/^https:\/\//.test(x.image))&&(!!EDITORIAL_CASES[x.url]||!!AI_EDITORIAL_CASES[x.url])&&!excludedEditorialList(x)&&Number.isFinite(addedAt)&&addedAt>=feedCutoff&&(activeGroup==='Tout'||groupRelevance(x,activeGroup)>=8)&&(!cat||x.category===cat)});
 // Trier par entrée dans la veille. La publication départage les entrées simultanées.
 const radarEntryTime=x=>Date.parse(x.radar_added_at||AI_EDITORIAL_CASES[x.url]?.reviewed_at||x.published||'')||0;
 items.sort((a,b)=>radarEntryTime(b)-radarEntryTime(a)||(Date.parse(b.published||'')||0)-(Date.parse(a.published||'')||0)||(priority[String(b.category||'').slice(0,2)]||0)-(priority[String(a.category||'').slice(0,2)]||0));
@@ -769,14 +769,14 @@ function renderSocialPostWatch(){
  const el=document.getElementById('social-post-grid');
  if(!el)return;
  const seen=seenData();
- const live=LIVE_SOCIAL_POSTS.filter(p=>p&&p.url&&p.image&&/^https:\/\//.test(p.image)&&p.analysis&&p.analysis.intro&&Array.isArray(p.analysis.points)&&p.analysis.points.length>=2&&p.analysis.takeaway);
+ const live=LIVE_SOCIAL_POSTS.filter(p=>p&&p.url&&(!p.image||/^https:\/\//.test(p.image))&&p.analysis&&p.analysis.intro&&Array.isArray(p.analysis.points)&&p.analysis.points.length>=2&&p.analysis.takeaway);
  const liveHtml=live.map((p,i)=>{
   if(seen[p.url])return '';
   const network=/instagram\.com/i.test(p.url)?'Instagram':'LinkedIn';
   const id='social-live-study-'+i;
   const analysis=editorialReadingHTML({url:p.url},p.analysis);
   const refs=Array.isArray(p.sources)?p.sources.filter(x=>x&&x.url&&/^https:\/\//.test(x.url)):[];
-  return '<article class="social-watch-card"><div class="social-watch-visual"><img src="'+escapeHTML(p.image)+'" alt="'+escapeHTML(p.title)+'" loading="lazy" style="width:100%;height:auto;max-height:270px;object-fit:contain" onerror="this.closest(\'.social-watch-card\').remove()"><span class="social-watch-kind">'+network+' · '+escapeHTML(p.category||'Direction artistique')+'</span><strong>'+escapeHTML(p.title)+'</strong><span class="social-watch-author">'+escapeHTML(p.author||'')+'</span></div><div class="social-watch-body"><p class="social-watch-summary">'+escapeHTML(p.analysis.takeaway)+'</p><div class="card-controls"><a class="outline-action" href="'+escapeHTML(p.url)+'" target="_blank" rel="noopener noreferrer">Voir le post ↗</a><button type="button" class="outline-action da-study-action" aria-controls="'+id+'" aria-expanded="false" onclick="toggleSocialStudy(\''+id+'\',this)">Décryptage DA ＋</button></div><div id="'+id+'" class="social-watch-study" hidden>'+analysis+'<p class="social-watch-sources">'+refs.map(x=>'<a href="'+escapeHTML(x.url)+'" target="_blank" rel="noopener noreferrer">'+escapeHTML(x.label||'Source complémentaire')+'</a>').join(' · ')+'</p></div></div></article>';
+  return '<article class="social-watch-card"><div class="social-watch-visual">'+(p.image?'<img src="'+escapeHTML(p.image)+'" alt="'+escapeHTML(p.title)+'" loading="lazy" style="width:100%;height:auto;max-height:270px;object-fit:contain" onerror="this.remove()">':'<div class="social-watch-noimage">'+escapeHTML(p.analysis.takeaway)+'</div>')+'<span class="social-watch-kind">'+network+' · '+escapeHTML(p.category||'Direction artistique')+'</span><strong>'+escapeHTML(p.title)+'</strong><span class="social-watch-author">'+escapeHTML(p.author||'')+'</span></div><div class="social-watch-body"><p class="social-watch-summary">'+escapeHTML(p.analysis.takeaway)+'</p><div class="card-controls"><a class="outline-action" href="'+escapeHTML(p.url)+'" target="_blank" rel="noopener noreferrer">Voir le post ↗</a><button type="button" class="outline-action da-study-action" aria-controls="'+id+'" aria-expanded="false" onclick="toggleSocialStudy(\''+id+'\',this)">Décryptage DA ＋</button></div><div id="'+id+'" class="social-watch-study" hidden>'+analysis+'<p class="social-watch-sources">'+refs.map(x=>'<a href="'+escapeHTML(x.url)+'" target="_blank" rel="noopener noreferrer">'+escapeHTML(x.label||'Source complémentaire')+'</a>').join(' · ')+'</p></div></div></article>';
  }).join('');
  el.innerHTML=liveHtml+SOCIAL_POSTS.map((post,index)=>{
   const [title,author,kind,,tip,url,code]=post;
