@@ -1,0 +1,26 @@
+name: RADAR DA - garde-fou publication
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'index.html'
+      - 'data/**'
+      - 'scripts/validate-radar.mjs'
+      - '.github/workflows/radar-guard.yml'
+  pull_request:
+    paths:
+      - 'index.html'
+      - 'data/**'
+      - 'scripts/validate-radar.mjs'
+      - '.github/workflows/radar-guard.yml'
+  workflow_dispatch:
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Verify RADAR interface and editorial data
+        run: node scripts/validate-radar.mjs
