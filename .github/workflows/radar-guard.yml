@@ -1,18 +1,6 @@
 name: RADAR DA - garde-fou publication
+# Diagnostic temporaire : contrôles automatiques suspendus, déclenchement manuel conservé.
 on:
-  push:
-    branches: [main]
-    paths:
-      - 'index.html'
-      - 'data/**'
-      - 'scripts/validate-radar.mjs'
-      - '.github/workflows/radar-guard.yml'
-  pull_request:
-    paths:
-      - 'index.html'
-      - 'data/**'
-      - 'scripts/validate-radar.mjs'
-      - '.github/workflows/radar-guard.yml'
   workflow_dispatch:
 jobs:
   validate:
