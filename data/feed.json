@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-11T09:22:00+01:00",
+  "updated_at": "2026-11-11T16:04:24+01:00",
   "status": "editorial_reviewed",
   "working_feeds": [
     {
@@ -836,6 +836,22 @@
       "image_source_url": "https://www.wallpaper.com/design-interiors/alexander-wessely-the-weeknd-tour-set-design-interview",
       "status": "editorial_reviewed",
       "angle": "Alexander Wessely fait traverser à une ville scénique quatre actes de grandeur, fragmentation et effondrement."
+    },
+    {
+      "title": "Journey — un solo de guitare suivi par toute la scène",
+      "title_fr": "Journey — un solo de guitare suivi par toute la scène",
+      "url": "https://www.etnow.com/news/2026/6/follow-me-powers-journeys-epic-final-frontier-tour",
+      "category": "01 Spectacle Concert",
+      "source": "ETNow / Follow-Me",
+      "published": "2026-06-01",
+      "radar_added_at": "2026-11-11T16:04:24+01:00",
+      "summary": "Sur Final Frontier, les projecteurs ne se contentent plus de suivre les musiciens : tout le plateau peut se tourner vers un solo.",
+      "summary_fr": "Sur Final Frontier, les projecteurs ne se contentent plus de suivre les musiciens : tout le plateau peut se tourner vers un solo.",
+      "image": "https://s.yimg.com/ny/api/res/1.2/ZyvirFNSHjRqBqvl0SjKgQ--/YXBwaWQ9aGlnaGxhbmRlcjt3PTI0MDA7aD0xNjAwO2NmPXdlYnA-/https%3A/media.zenfs.com/en/usa_today_entertainment_893/9eaa3c43f14fc866fa1a403d6a1f85b5",
+      "image_credit": "Photographie de la tournée Final Frontier, USA Today Entertainment (via Yahoo) ; photographe non identifié dans l'extrait consulté",
+      "image_source_url": "https://www.yahoo.com/entertainment/music/articles/journey-setlist-rocks-hits-deep-190848085.html",
+      "status": "editorial_reviewed",
+      "angle": "La lumière transforme le guitariste en centre de gravité mobile, sans figer la scène."
     }
   ]
 }
