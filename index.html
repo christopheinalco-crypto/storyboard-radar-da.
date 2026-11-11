@@ -307,7 +307,7 @@ function imageHTML(x){
  if(!x.image&&/^\d+$/.test(x.slate_id||''))return '<iframe class="project-video" loading="lazy" src="https://academy.slateapp.com/embed/clip/'+x.slate_id+'" title="'+escapeHTML(x.title_fr||x.title)+'" allowfullscreen></iframe>';
  const sourceLink=x.visual_url||x.url;
  if(!x.image)return '';
- return '<img loading="lazy" referrerpolicy="no-referrer" src="'+escapeHTML(x.image)+'" alt="Image du projet : '+escapeHTML(x.title_fr||x.title)+'" onerror="this.onerror=null;var box=this.closest('.visual, .reader-hero');if(box){box.style.display='none'}else{this.style.display='none'}"" data-source="'+escapeHTML(sourceLink||'')+'">';
+ return '<img loading="lazy" referrerpolicy="no-referrer" src="'+escapeHTML(x.image)+'" alt="Image du projet : '+escapeHTML(x.title_fr||x.title)+'" data-source="'+escapeHTML(sourceLink||'')+'">';
 }
 function editorialScore(x){const title=(x.title||'').toLowerCase(),body=((x.summary||'')+' '+(x.summary_fr||'')).toLowerCase(),text=title+' '+body;let s=0;
 if(!x.image)return -100;
