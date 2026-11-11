@@ -133,3 +133,17 @@ Lorsqu'une fiche manque de visuel ou que son image ne charge pas, ne pas s'arrê
 ## Veille test manuelle — priorité éditoriale confirmée le 11 novembre
 
 À chaque demande « lance la veille », rechercher ET publier immédiatement **5 à 7 nouveaux projets** (minimum 5), avec analyses DA concrètes, images authentiques pertinentes et anti-doublons vérifiés. Priorité : concerts, spectacles, shows TV, clips, scénographie et set design, grands événements de lancement de produit, de marque et branding événementiel. Au plus **1 à 2 projets secondaires** par vague, uniquement si leur intérêt DA est manifeste. Sites spécialisés, LinkedIn et Instagram explorés à chaque vague ; posts sociaux recoupés. Ne pas se contenter de déclencher une automatisation : vérifier les écritures GitHub. Ne pas inventer de validation navigateur si non effectuée.
+
+
+## Voix éditoriale validée — 11 novembre 2026 (tous les canaux)
+
+Cette évolution s'applique sans exception aux fiches de la veille principale, aux repérages LinkedIn et Instagram et aux futures publications. **Conserver l'identité existante** : parole de DA expérimenté, vivante, directe, accessible, sans ton scolaire. Éviter le tutoiement récurrent (« tu vois », « regarde », « tu comprends »), qui peut infantiliser ; préférer le **regard partagé**, sans le répéter mécaniquement : « Si on regarde… », « En observant… », « Ce qui se joue ici… », « On aurait pu… », « Toute la question est… ». Alterner les constructions et les rythmes ; le « on » n'est pas obligatoire à chaque phrase.
+
+- **Idée avant inventaire.** Entrer par le parti pris et le mécanisme visuel ; nommer les détails techniques seulement lorsqu'ils éclairent ce mécanisme.
+- **Choix et alternatives.** Quand c'est utile, comparer au moins une option que l'équipe aurait pu choisir et expliquer ce que le parti pris retenu gagne ou perd. Ne pas inventer d'options présentées comme ayant été réellement envisagées.
+- **Perception et émotion.** Relier les éléments observables à leur effet possible sur l'attention, la présence, l'échelle, le rythme, la compréhension ou l'émotion. Éviter les raccourcis « grand écran = immersion » et « lumière = émotion ».
+- **Esprit critique.** Formuler une limite, une tension ou une question de conception seulement si elle est justifiée. Ne pas produire une critique de façade ni une approbation systématique.
+- **Sources et théorie.** Croiser les sources professionnelles, les propos des créateurs et, lorsque les documents sont effectivement accessibles et lus, la bibliothèque PDF Drive. Distinguer clairement les faits attestés, les hypothèses DA et les effets supposés. Ne pas prétendre avoir consulté un PDF non lu ; ne pas inventer de citations.
+- **Digestion.** Phrases et paragraphes de longueurs variées, 2 ou 3 mouvements argumentatifs utiles, mots mis en valeur avec parcimonie. Éviter le doublon entre intro, points et takeaway. Le takeaway doit apporter une généralisation concrète, pas recopier un point.
+- **Réécriture.** Préserver tous les faits, noms, nombres, sources, URLs, visuels, horodatages de publication et identifiants. Ne modifier que les champs rédactionnels. Ne pas imposer une grille fixe ni ajouter des affirmations non sourcées.
+- **Contrôle.** Relire comme un DA contradicteur : qu'est-ce qui est visible ? qu'est-ce qui est attesté ? qu'est-ce qui relève de l'interprétation ? quelle décision pourrait être discutée ? Vérifier que chaque paragraphe apprend quelque chose de distinct.
