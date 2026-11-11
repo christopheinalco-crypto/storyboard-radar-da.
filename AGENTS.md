@@ -203,3 +203,13 @@ Conserver une voix parlée de DA expérimenté, directe, exigeante et nuancée ;
 - **LinkedIn : 3 à 5 posts qualifiés par vague** ; **Instagram : 3 à 5 posts qualifiés par vague**, séparément. Ces nouveaux objectifs remplacent les anciens quotas sociaux de 5 à 9.
 - Ce sont des objectifs de prospection et non des minima forcés de publication : ne jamais sacrifier la qualité, la vérification, la pertinence visuelle ou l'absence de doublons pour atteindre un chiffre.
 - Lorsqu'un projet apparaît sur plusieurs canaux, croiser les sources et enrichir son analyse plutôt que dupliquer les décryptages. Compter et annoncer les publications effectives par flux.
+
+
+## Garde-fous techniques des vagues de veille — 11 novembre 2026
+- **Avant** toute vague : lire les dernières versions et SHA de `data/feed.json`, `data/analyses.json`, `data/social-posts.json` ; conserver une copie logique des entrées existantes et relever leurs comptes. Ne jamais repartir d'un tableau vide à la suite d'une erreur de lecture.
+- **Validation préalable** : vérifier que le JSON est valide, que chaque nouvel article possède un URL source unique, une image réelle pertinente vérifiée, une analyse complète (intro/points/takeaway), et que tous les articles du flux ont une analyse correspondante. Vérifier les doublons inter-flux, dates et provenance.
+- **Écriture prudente** : utiliser le SHA courant pour chaque mise à jour GitHub. Si conflit, relire la version actuelle et fusionner sans écraser les ajouts concurrents. Ne jamais forcer un remplacement à l'aveugle.
+- **Après écriture** : relire les trois fichiers depuis GitHub ; comparer les comptes et vérifier que les anciennes entrées subsistent, que les nouvelles sont présentes, que les liens d'articles correspondent aux analyses, et que le JSON est valide. En cas d'échec, ne pas annoncer la vague comme publiée.
+- **Tolérance aux incidents** : un site source indisponible, un visuel cassé ou une source sociale non vérifiable exclut uniquement le candidat concerné. Si GitHub ou un connecteur est inaccessible, ne pas modifier les données ; signaler l'échec, son périmètre et ce qui reste intact. Ne pas inventer de résultat ni garantir une reprise automatique qui n'est pas programmée.
+- **Non-régression** : ne pas modifier `index.html`, le service worker, la navigation, ni la mise en page pendant une vague éditoriale. Aucun fichier existant ne doit être vidé, réinitialisé ou tronqué pour satisfaire un quota.
+- **Compte rendu** : indiquer séparément pour la presse, LinkedIn et Instagram le nombre de candidats retenus et réellement publiés, ainsi que les erreurs éventuelles. Une publication n'est confirmée qu'après relecture des fichiers ; la vérification visuelle du site reste un contrôle supplémentaire distinct.
