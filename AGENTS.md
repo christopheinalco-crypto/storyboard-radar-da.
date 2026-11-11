@@ -160,3 +160,10 @@ Le décryptage doit suivre le chemin naturel : **ce qu'on regarde → l'idée du
 - Conserver une archive permanente des analyses publiées, indépendante des filtres de la veille principale, de l'historique « Vu » et du délai de 72 h.
 - Le service worker doit être versionné lors d'une correction d'interface et ne doit jamais servir un ancien `index.html` ou d'anciens JSON éditoriaux depuis son cache. Ne pas remettre en cache l'ancienne page HTML.
 - Pour une publication éditoriale, ne pas toucher à `index.html` ni au service worker. Pour un correctif UI explicitement demandé, lire les SHA à jour, effectuer un changement minimal, puis revérifier le HTML et les données.
+
+
+## Veille sociale dynamique et navigation — 11 novembre 2026
+- Le flux LinkedIn/Instagram dynamique est `data/social-posts.json`, chargé à chaque actualisation par `refreshRadar()`. Conserver le JSON cumulatif, les sources, les analyses et les images ; ne pas modifier `index.html` pour publier une veille.
+- Pour chaque nouveau post, fournir `title`, `author`, `category`, `url`, `image` (HTTPS réellement liée au projet), `analysis` (`intro`, au moins deux `points`, `takeaway`, `tip` facultatif), `sources` (au moins une source complémentaire vérifiée), et `published_at`. Les anciennes cartes codées dans le site sont historiques, pas une preuve de mise à jour.
+- Explorer LinkedIn et Instagram à chaque vague de 6 h, 12 h, 16 h et 20 h, sans quota de posts ; consigner séparément les ajouts presse, LinkedIn et Instagram, y compris zéro si aucune piste suffisamment fiable.
+- Une navigation fraîche doit commencer en haut de page ; le retour navigateur à une lecture en cours peut conserver sa position. Ne pas forcer un scroll pendant une lecture ou un retour arrière.
