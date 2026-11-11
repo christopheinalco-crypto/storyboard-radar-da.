@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-11T16:04:24+01:00",
+  "updated_at": "2026-11-11T20:10:28.976Z",
   "status": "editorial_reviewed",
   "working_feeds": [
     {
@@ -454,6 +454,81 @@
     "with_images": 82
   },
   "items": [
+    {
+      "title": "MISSU — le vestiaire devient une machine à chorégraphier",
+      "url": "https://www.promonews.tv/videos/2026/11/10/missu-sweat-loys-assal/96929",
+      "category": "14 Musique Clips",
+      "source": "Promonews / Loys Assal",
+      "published": "2026-11-10",
+      "summary": "Dans « Sweat », le décor de vestiaire, la danse et les accélérations de montage composent une même sensation physique.",
+      "title_fr": "MISSU — le vestiaire devient une machine à chorégraphier",
+      "summary_fr": "Dans « Sweat », le décor de vestiaire, la danse et les accélérations de montage composent une même sensation physique.",
+      "image": "",
+      "image_credit": "",
+      "image_source_url": "https://www.promonews.tv/videos/2026/11/10/missu-sweat-loys-assal/96929",
+      "radar_added_at": "2026-11-11T20:10:28.976Z",
+      "status": "editorial_reviewed"
+    },
+    {
+      "title": "Sports Team — un masque de papier mâché suffit à dérégler le réel",
+      "url": "https://www.promonews.tv/videos/2026/11/11/sports-team-billy-kris-r/96941",
+      "category": "14 Musique Clips",
+      "source": "Promonews / Kris R",
+      "published": "2026-11-11",
+      "summary": "Dans « Billy », un personnage au masque disproportionné transforme une réunion de fans ordinaire en scène troublante.",
+      "title_fr": "Sports Team — un masque de papier mâché suffit à dérégler le réel",
+      "summary_fr": "Dans « Billy », un personnage au masque disproportionné transforme une réunion de fans ordinaire en scène troublante.",
+      "image": "",
+      "image_credit": "",
+      "image_source_url": "https://www.promonews.tv/videos/2026/11/11/sports-team-billy-kris-r/96941",
+      "radar_added_at": "2026-11-11T20:10:28.976Z",
+      "status": "editorial_reviewed"
+    },
+    {
+      "title": "Nick Cave — laisser la présence humaine prendre toute la place",
+      "url": "https://www.etnow.com/news/2026/10/robe-goes-wild-for-nick-cave-and-the-bad-seeds-tour",
+      "category": "01 Spectacle Concert",
+      "source": "ETNow / Robe",
+      "published": "2026-10-30",
+      "summary": "Grant Hickey place des sources lumineuses mobiles et des points d'accroche au plus près de Nick Cave, sans transformer le concert en démonstration d'effets.",
+      "title_fr": "Nick Cave — laisser la présence humaine prendre toute la place",
+      "summary_fr": "Grant Hickey place des sources lumineuses mobiles et des points d'accroche au plus près de Nick Cave, sans transformer le concert en démonstration d'effets.",
+      "image": "",
+      "image_credit": "",
+      "image_source_url": "https://www.etnow.com/news/2026/10/robe-goes-wild-for-nick-cave-and-the-bad-seeds-tour",
+      "radar_added_at": "2026-11-11T20:10:28.976Z",
+      "status": "editorial_reviewed"
+    },
+    {
+      "title": "Always ABBA — une lumière pensée pour la scène et la télévision",
+      "url": "https://www.etnow.com/news/2026/11/etc-supports-always-abba-for-stage-and-screen",
+      "category": "15 Scène Spectacle",
+      "source": "ETNow / ETC / RTVE",
+      "published": "2026-11-05",
+      "summary": "À Madrid, la lumière du concert est conçue pour deux regards simultanés : les spectateurs du parc et les caméras de RTVE.",
+      "title_fr": "Always ABBA — une lumière pensée pour la scène et la télévision",
+      "summary_fr": "À Madrid, la lumière du concert est conçue pour deux regards simultanés : les spectateurs du parc et les caméras de RTVE.",
+      "image": "",
+      "image_credit": "",
+      "image_source_url": "https://www.etnow.com/news/2026/11/etc-supports-always-abba-for-stage-and-screen",
+      "radar_added_at": "2026-11-11T20:10:28.976Z",
+      "status": "editorial_reviewed"
+    },
+    {
+      "title": "Mads Langer — une lumière qui sait rétrécir la scène",
+      "url": "https://www.etnow.com/news/2026/11/robe-wtfs-not-alone-on-mads-langer-summer-tour",
+      "category": "01 Spectacle Concert",
+      "source": "ETNow / Robe",
+      "published": "2026-11-04",
+      "summary": "Quinze appareils au sol permettent à Malte Hauge de passer d'un plateau ouvert et éclatant à une présence intime sans changer le décor.",
+      "title_fr": "Mads Langer — une lumière qui sait rétrécir la scène",
+      "summary_fr": "Quinze appareils au sol permettent à Malte Hauge de passer d'un plateau ouvert et éclatant à une présence intime sans changer le décor.",
+      "image": "",
+      "image_credit": "",
+      "image_source_url": "https://www.etnow.com/news/2026/11/robe-wtfs-not-alone-on-mads-langer-summer-tour",
+      "radar_added_at": "2026-11-11T20:10:28.976Z",
+      "status": "editorial_reviewed"
+    },
     {
       "title": "Wu-Tang Clan — une scène qui devient un temple",
       "title_fr": "Wu-Tang Clan — une scène qui devient un temple",
