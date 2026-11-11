@@ -54,3 +54,7 @@ Choisir les angles et le vocabulaire à partir du projet, de sa discipline et de
 Viser 2 à 7 sources distinctes sur le même projet, source d’origine comprise. Deux sources solides suffisent quand elles documentent les choix analysés. Ajouter des sources si elles apportent un élément nouveau, par exemple une intention, un détail de fabrication ou un autre point de vue. Les reprises d’un même communiqué comptent pour une seule source. Appliquer la même règle aux articles et aux cartes LinkedIn et Instagram.
 
 Si une seule source est vérifiable, signaler cette limite et distinguer les faits documentés de la lecture DA. Les références de la Bibliothèque DA éclairent l’analyse et sont indiquées séparément des sources qui documentent le projet.
+
+## Clarification du 11 novembre 2026 — sobriété et pertinence
+
+La rubrique « Insight » n'est jamais obligatoire : elle ne convient qu'à une compréhension vérifiable du public ou de ses usages qui influence une décision créative. Pour les autres projets, expliquer directement l'intention, le mécanisme visuel, son effet et le principe transférable, sans multiplier les intitulés. Une bonne analyse peut se déployer en 2 à 3 mouvements naturels ; pas de doublon entre résumé, décryptage et conclusion. Chaque nouvelle fiche doit avoir un visuel authentique, pertinent et vérifié, montrant le mécanisme discuté. En cas d'échec du lien ou de doute sur la pertinence ou l'usage, chercher une source officielle de remplacement ou reporter la publication. Ne pas modifier l'interface pour cette mise à jour éditoriale.
