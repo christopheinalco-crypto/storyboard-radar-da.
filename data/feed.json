@@ -640,11 +640,12 @@
       "clip_url": "https://www.youtube.com/watch?v=8Vq7VfLzGNU",
       "published": "2026-11-06",
       "url": "https://www.promonews.tv/videos/2026/11/06/van%C3%A8s-bad-girl-shy-salma-labib/96864",
-      "image": "",
+      "image": "https://img.youtube.com/vi/8Vq7VfLzGNU/hqdefault.jpg",
       "summary_fr": "Salma Labib construit Bad Girl Shy comme une suite de vignettes autour de l’infidélité et de l’obsession. Noah Hecht signe l’image et l’étalonnage et partage le montage avec Labib.",
       "status": "source_detected_not_editorially_analyzed",
       "summary": "Salma Labib construit Bad Girl Shy comme une suite de vignettes autour de l’infidélité et de l’obsession. Noah Hecht signe l’image et l’étalonnage et partage le montage avec Labib.",
-      "youtube_id": "8Vq7VfLzGNU"
+      "youtube_id": "8Vq7VfLzGNU",
+      "image_source": "https://www.youtube.com/watch?v=8Vq7VfLzGNU"
     },
     {
       "clip_url": "https://www.academyfilms.com/portfolio/bricknasty-forever",
@@ -670,9 +671,10 @@
       "url": "https://lbbonline.com/news/Academy-director-henry-Scholfield-The-Rolling-Stones-Mr-Charm-Behind-the-work",
       "status": "source_detected_not_editorially_analyzed",
       "published": "2026-11-05",
-      "image": "",
+      "image": "https://www.avopolis.gr/images/sophtheodor/rolling-stones-alexander.jpg",
       "youtube_id": "3e5LxvRZjVw",
-      "title": "The Rolling Stones — Mr Charm, le geste qui entraîne la salle"
+      "title": "The Rolling Stones — Mr Charm, le geste qui entraîne la salle",
+      "image_source": "https://www.avopolis.gr/music-news/international-news/88998-alexander-skarsgard-neos-mick-jagger-rolling-stones"
     },
     {
       "title": "Theodora — Free Kitty Tour : une ville rose qui vit avant le concert",
