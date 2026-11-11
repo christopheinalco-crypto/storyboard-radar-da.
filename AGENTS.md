@@ -176,3 +176,14 @@ Dans les analyses de direction artistique, ne pas confondre **insight publicitai
 **L'essentiel** : projet, fait vérifiable et choix décisif. **Intention** : visée artistique attestée ou interprétation prudente. **Idée & DA** : comment les moyens observables (espace, scénographie, cadrage, couleur, matière, lumière, vidéo, rythme) produisent l'effet possible, sans confondre effet perçu et intention. **Pour un DA** : principe concret transférable, spécifique à ce projet.
 
 Conserver une voix parlée de DA expérimenté, directe, exigeante et nuancée ; une idée forte par analyse, phrases courtes, sans répétition entre aperçu, développement et conclusion. Une critique ou une alternative n'est ajoutée que lorsqu'elle éclaire réellement le choix, jamais pour remplir une case. Ne pas ajouter de volume ni de rubriques. Rectifier les imprécisions conceptuelles plutôt que les valider automatiquement. Cette règle vaut pour les fondations, les articles existants et les productions futures ; préserver les données, les visuels vérifiés et l'interface.
+
+
+## Garde-fou permanent — lisibilité des décryptages (11 novembre 2026)
+- Audit avant toute publication ou réécriture : chaque paragraphe doit apporter une idée nouvelle, observable ou argumentée. Supprimer les répétitions entre aperçu, points, takeaway et conseil.
+- Viser environ 150 à 200 mots de texte d'analyse pour les cas courants, sans plafond rigide : conserver davantage de matière uniquement si elle enrichit réellement la lecture.
+- Préférer 2 à 3 mouvements argumentatifs nets ; un quatrième seulement si une idée distincte le justifie. Éviter les introductions qui répètent le premier point et les conclusions qui redisent l'introduction.
+- À chaque choix visuel/scénographique décrit, répondre à « qu'est-ce que cela change pour le regard, le récit, l'espace ou le public ? ». Refuser les inventaires techniques sans conséquence perceptive.
+- Maintenir la distinction fait vérifié / intention attestée / hypothèse de lecture / effet possible. Ne jamais inventer de ressenti ou d'intention.
+- Test final de lecture mobile : après environ une minute, le lecteur doit comprendre un choix artistique décisif, son effet et un principe transférable. Lire à voix haute ; couper les phrases lourdes, le jargon et les tics de langage.
+- Préserver toutes les clés JSON, sources, images, liens, archives et articles ; ne pas modifier index.html pour une correction éditoriale. Relire et valider le JSON après chaque écriture ; vérifier le nombre d'analyses et les liens avec le flux.
+- Appliquer ces règles à la veille principale, aux posts LinkedIn et Instagram et aux contenus existants lors de leur révision. La qualité prime sur les quotas et la réduction mécanique du nombre de mots.
