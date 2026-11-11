@@ -35,7 +35,7 @@ Ouvrir le dépôt RADAR DA comme projet Codex et demander de lire ce fichier, ED
 
 ## Contrôle des visuels avant publication
 
-Vérifier d’abord le visuel de la source. Si le lien manque, échoue ou si l’usage est incertain, chercher un autre visuel du projet dans le dossier de presse, chez le créateur ou chez le producteur. Vérifier les conditions d’usage et ouvrir directement le lien sans référent. Si les pistes échouent, publier une fiche compacte avec son lien source, à condition que le décryptage soit suffisamment documenté. Appliquer cette règle à toutes les rubriques, y compris les repérages sociaux. Le générateur essaie le visuel du flux puis les images déclarées par la page source. Une recherche éditoriale manuelle permet d’étendre ces pistes aux sources officielles.
+Vérifier d’abord le visuel de la source. Si le lien manque, échoue ou si l’usage est incertain, chercher un autre visuel du projet dans le dossier de presse, chez le créateur ou chez le producteur. Vérifier les conditions d’usage et ouvrir directement le lien sans référent. Si les pistes échouent, garder la fiche en attente : ne pas créer de nouvelle publication sans visuel authentique pertinent et vérifié. Appliquer cette règle à toutes les rubriques, y compris les repérages sociaux. Le générateur essaie le visuel du flux puis les images déclarées par la page source. Une recherche éditoriale manuelle permet d’étendre ces pistes aux sources officielles.
 
 ## Règles fondatrices à préserver
 
@@ -104,3 +104,10 @@ Appliquer le même marqueur aux décryptages des articles, aux cartes LinkedIn e
 ### Sélection éditoriale des photos — priorité à la compréhension (10/11/2026)
 
 Ne pas prendre automatiquement la première image de la source. Pour chaque projet, comparer si possible au moins 2–3 photos authentiques du **même dispositif et de la même production**. Choisir en premier celle qui **montre le mieux le concept que l'analyse explique** : silhouette/volume du set, échelle, relation scène-artistes-public, élément singulier. Privilégier une vue générale lisible avant les gros plans ou les images seulement spectaculaires ; une image de détail peut compléter si utile. Vérifier la correspondance de la production et de la tournée, la provenance et le lien HTTPS, renseigner crédit et URL de la page source. Ne pas confondre une image d'écran représentant un temple avec le toit réel du décor. Ne pas affirmer que l'image a été testée en navigateur sans test. L'image doit permettre de dire « Tu vois ? C'est précisément ce choix dont on parle. »
+
+## Mise à jour éditoriale — 11 novembre 2026
+
+- **Pas de rubrique « Insight » automatique.** Ce terme ne s'applique que lorsqu'une compréhension étayée du public ou d'un usage guide réellement la création. Ne pas le plaquer sur un dispositif visuel.
+- **Décryptage digeste.** Commencer par le concept et l'intention (attestée ou présentée comme hypothèse), montrer 2 à 3 décisions visuelles observables et leurs effets perceptifs/émotionnels, puis dégager une leçon de DA concrète. La structure est un raisonnement, non des intertitres imposés. Préserver une profondeur réelle sans répétition entre carte et décryptage.
+- **Visuel pertinent obligatoire pour toute nouvelle fiche.** Choisir une image authentique qui montre le détail analysé, avec provenance et droits compatibles. Vérifier URL HTTPS, réponse image, et pertinence. Si le visuel échoue, rechercher une alternative officielle ; sinon suspendre la publication. Ne jamais remplacer par un visuel générique ou généré. Les fiches historiques sans image peuvent rester accessibles sans bloquer l'interface.
+- **Protection de l'interface.** Ne modifier ni les boutons, ni la navigation, ni `index.html` pour appliquer ces consignes éditoriales. Toute correction visuelle de l'interface exige une vérification indépendante.
