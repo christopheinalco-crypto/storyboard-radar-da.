@@ -2,11 +2,19 @@ name: RADAR DA — integrity audit
 
 on:
   workflow_dispatch:
+  push:
+    paths:
+      - 'data/feed.json'
+      - 'data/analyses.json'
+      - 'data/social-posts.json'
+      - 'scripts/validate-radar.cjs'
+      - '.github/workflows/integrity.yml'
   schedule:
     - cron: '15 5,11,15,19,21 * * *'
 
 permissions:
   contents: read
+  issues: write
 
 concurrency:
   group: radar-da-integrity
@@ -15,15 +23,38 @@ concurrency:
 jobs:
   audit:
     runs-on: ubuntu-latest
-    timeout-minutes: 5
+    timeout-minutes: 8
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
         with:
           node-version: '22'
       - name: Validate published JSON and cross-file references
+        id: validate
+        continue-on-error: true
         run: node scripts/validate-radar.cjs
-      - name: Preserve report on failure
-        if: failure()
-        run: |
-          echo "RADAR DA integrity check failed. Review the log and restore files from Git history if necessary." >> "$GITHUB_STEP_SUMMARY"
+      - name: Archive current data snapshot for recovery
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: radar-data-${{ github.run_id }}
+          path: |
+            data/feed.json
+            data/analyses.json
+            data/social-posts.json
+          retention-days: 30
+      - name: Alert on validation failure without duplicate issues
+        if: steps.validate.outcome == 'failure'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const title = 'RADAR DA — alerte intégrité des données';
+            const {owner, repo} = context.repo;
+            const open = await github.paginate(github.rest.issues.listForRepo, {owner, repo, state:'open', per_page:100});
+            const existing = open.find(i => !i.pull_request && i.title === title);
+            const body = 'Contrôle d’intégrité échoué. Journal : ' + context.serverUrl + '/' + owner + '/' + repo + '/actions/runs/' + context.runId + '\nNe pas écraser les fichiers : restaurer depuis un commit sain ou l’artefact de sauvegarde.';
+            if (existing) await github.rest.issues.createComment({owner,repo,issue_number:existing.number,body});
+            else await github.rest.issues.create({owner,repo,title,body});
+      - name: Fail the workflow when data is invalid
+        if: steps.validate.outcome == 'failure'
+        run: exit 1
