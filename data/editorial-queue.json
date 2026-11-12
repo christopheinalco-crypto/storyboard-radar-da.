@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-12T11:57:08+01:00",
+  "updated_at": "2026-11-12",
   "description": "Candidats issus d'une passe réelle, non publiés tant que l'image directe, les droits, les sources, les doublons et la seconde lecture ne sont pas vérifiés.",
   "pipeline": [
     "repere",
@@ -247,6 +247,28 @@
       "publication_blocker": "Photographie du même concert créditée Carter Louthian dans ETNow, mais URL HTTPS directe, droits de réaffichage et test de chargement non établis",
       "checked_at": "2026-11-12",
       "source_details": "ETNow 8 juillet 2026, propos de Michael Cooper et Mitch Schellenger ; 10 COLORado PXL Curve 12 en deux groupes de cinq. Ne pas publier sans visuel autorisé et seconde lecture."
+    },
+    {
+      "channel": "linkedin",
+      "title": "Mike Carson — Grand National Tour, Kendrick Lamar",
+      "url": "https://www.linkedin.com/posts/mikecarson92_grand-national-tour-stage-design-and-creative-activity-7368684615319871488-vpcD",
+      "source": "Publication originale de Mike Carson",
+      "angle": "L'architecture du stade comme dramaturgie collective; direction artistique Mike Carson, Dave Free, Kendrick Lamar",
+      "status": "repere",
+      "image_status": "photos du post visibles, URL HTTPS directe et autorisation de republication non vérifiées",
+      "publication_blocker": "visuel_direct_droits_et_recoupement_independant_non_verifies",
+      "checked_at": "2026-11-12"
+    },
+    {
+      "channel": "linkedin",
+      "title": "Moment Factory — TWICE THIS IS FOR World Tour",
+      "url": "https://fr.linkedin.com/posts/momentfactory_twice-x-this-is-for-world-tour-x-2025-we-activity-7384295582426636289-0zzY",
+      "source": "Publication originale Moment Factory",
+      "angle": "Scénographie et contenu immersif à 360 degrés; articulation entre performance et public",
+      "status": "repere",
+      "image_status": "images du post visibles, URL HTTPS directe et droits non vérifiés",
+      "publication_blocker": "visuel_direct_droits_et_recoupement_independant_non_verifies",
+      "checked_at": "2026-11-12"
     }
   ],
   "instagram_candidates": [],
