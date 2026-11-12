@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-12T07:41:56.579Z",
+  "updated_at": "2026-11-12T08:05:26.258Z",
   "status": "editorial_reviewed",
   "working_feeds": [
     {
@@ -454,6 +454,22 @@
     "with_images": 82
   },
   "items": [
+    {
+      "title": "Justin Bieber à Coachella — une scène qui descend dans la foule",
+      "title_fr": "Justin Bieber à Coachella — une scène qui descend dans la foule",
+      "url": "https://stufish.com/project/justin-bieber/",
+      "category": "15 Scène Spectacle",
+      "source": "STUFISH — conception scénographique (croisement : Otra, Vogue México)",
+      "published": "2026-11-12",
+      "radar_added_at": "2026-11-12T08:05:26.258Z",
+      "summary": "À Coachella, STUFISH remplace la scène frontale classique par un relief continu qui rejoint une plateforme dans le public. Le décor devient un chemin entre l'artiste et la foule.",
+      "summary_fr": "À Coachella, STUFISH remplace la scène frontale classique par un relief continu qui rejoint une plateforme dans le public. Le décor devient un chemin entre l'artiste et la foule.",
+      "image": "https://media.vogue.mx/photos/69e506e36fcf3e0ac6dafae2/master/w_1024%2Cc_limit/justin-bieber-coachella-2026-fin-de-semana-2.jpg",
+      "image_credit": "Photographie du concert de Justin Bieber à Coachella 2026, publiée par Vogue México (crédit photographique à vérifier auprès de l'éditeur). Image affichée depuis son URL d'origine, non réhébergée ; elle montre un détail du relief scénique, pas la totalité de son parcours.",
+      "image_source_url": "https://www.vogue.mx/galeria/celebridades-en-coachella-2026",
+      "status": "editorial_reviewed",
+      "angle": "Le sol de la scène n'est plus un socle isolé : il prolonge physiquement la performance vers la foule."
+    },
     {
       "title": "Aya Nakamura — quand le portrait géant devient une architecture",
       "title_fr": "Aya Nakamura — quand le portrait géant devient une architecture",
