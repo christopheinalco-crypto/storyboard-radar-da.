@@ -1169,5 +1169,45 @@
       }
     ],
     "tip": "Dessine deux versions d'une scène : écran IMAG latéral puis image intégrée au décor. Dans laquelle le portrait de l'artiste change-t-il vraiment l'espace ?"
+  },
+  "https://stufish.com/project/justin-bieber/": {
+    "intro": "Ce qui change ici, ce n'est pas seulement la taille de la scène. Regarde le sol : au lieu d'un plateau plat avec une avancée rajoutée, Justin Bieber évolue sur une forme arrondie, presque un relief de terrain. STUFISH décrit une architecture qui descend de la scène principale jusqu'à une seconde plateforme au milieu du public. ==Le décor devient le trajet du spectacle.==",
+    "points": [
+      [
+        "Une pente plutôt qu'une frontière",
+        "La photographie publiée par Vogue México montre Bieber accroupi sur un volume courbe. On ne voit pas tout le parcours sur ce cliché, mais ce relief confirme la logique plastique décrite par STUFISH : la scène se déploie comme un paysage continu plutôt que comme un podium rectangulaire."
+      ],
+      [
+        "La foule entre dans la géographie du show",
+        "Le studio explique que la forme descend vers le public puis rejoint une plateforme secondaire. Otra confirme ce prolongement. L'intention de continuité entre artiste et spectateurs est documentée par STUFISH ; l'impression de proximité qu'elle peut provoquer reste une hypothèse de réception, pas une émotion mesurée."
+      ],
+      [
+        "Le monumental peut rester presque vide",
+        "Le contraste est intéressant : un grand dispositif de festival, mais très peu d'éléments posés dessus. Le New Yorker décrit une scène dépouillée, au relief vallonné. Hypothèse DA : cette retenue rend chaque déplacement de Bieber plus lisible ; l'architecture prend le rôle qu'auraient pu occuper des danseurs ou de multiples accessoires."
+      ]
+    ],
+    "takeaway": "==Le sol lui-même peut raconter la relation au public.== Ici, la scénographie ne représente pas un univers extérieur : elle organise physiquement le passage entre la scène et la foule.",
+    "source": "STUFISH, Justin Bieber — Coachella 2026 ; Otra, fiche spectacle et crédits ; The New Yorker, 18 avril 2026 ; Vogue México, photographie du concert",
+    "source_url": "https://stufish.com/project/justin-bieber/",
+    "verified": true,
+    "editorial_review": [
+      {
+        "url": "https://stufish.com/project/justin-bieber/",
+        "locator": "STUFISH : primary sculptural stage descending into audience and connecting to secondary platform"
+      },
+      {
+        "url": "https://www.otra.live/shows/coachella-2026-justin-bieber",
+        "locator": "Otra : sloping platform running into the crowd; secondary stage among audience"
+      },
+      {
+        "url": "https://www.newyorker.com/culture/the-lede/justin-bieber-pop-musics-fallen-angel-rises-again-at-coachella",
+        "locator": "New Yorker : mostly bare stage with hilly ridge around edges"
+      },
+      {
+        "url": "https://www.vogue.mx/galeria/celebridades-en-coachella-2026",
+        "locator": "Vogue México : photo du même concert montrant Bieber accroupi sur une structure courbe"
+      }
+    ],
+    "tip": "Sur un croquis de concert, dessine d'abord une scène frontale, puis un sol continu jusqu'au public. Observe comment changent les points de vue et les possibilités de déplacement."
   }
 }
