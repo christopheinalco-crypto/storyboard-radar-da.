@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-12T07:01:13.066Z",
+  "updated_at": "2026-11-12T07:41:56.579Z",
   "status": "editorial_reviewed",
   "working_feeds": [
     {
@@ -454,6 +454,22 @@
     "with_images": 82
   },
   "items": [
+    {
+      "title": "Aya Nakamura — quand le portrait géant devient une architecture",
+      "title_fr": "Aya Nakamura — quand le portrait géant devient une architecture",
+      "url": "https://www.d-labs.fr/projets/aya-nakamura",
+      "category": "15 Scène Spectacle",
+      "source": "D/LABS — portfolio du studio créateur",
+      "published": "2026-11-12",
+      "radar_added_at": "2026-11-12T07:41:56.579Z",
+      "summary": "Au Stade de France, l'image d'Aya n'est pas seulement retransmise : son portrait monumental s'inscrit dans un volume scénique. La caméra et les médias prolongent la présence de l'artiste.",
+      "summary_fr": "Au Stade de France, l'image d'Aya n'est pas seulement retransmise : son portrait monumental s'inscrit dans un volume scénique. La caméra et les médias prolongent la présence de l'artiste.",
+      "image": "https://www.d-labs.fr/media/cache/gallery/uploads/shows/template-deux-photos-site-4-droite.png",
+      "image_credit": "Photographie officielle publiée par D/LABS ; crédit collectif indiqué par le studio : Axel Delai, Matthis Vandermeulen, Rafael Deprost, Tiziano Raw, Anouk Marhoefer, Joey Matras (attribution précise de ce cliché non indiquée). Image distante, non réhébergée.",
+      "image_source_url": "https://www.d-labs.fr/projets/aya-nakamura",
+      "status": "editorial_reviewed",
+      "angle": "Le portrait filmé change d'échelle et devient un élément du décor, pas seulement un relais de visibilité."
+    },
     {
       "title": "GIMS à Lille — quand la lumière sort de l'écran",
       "title_fr": "GIMS à Lille — quand la lumière sort de l'écran",
