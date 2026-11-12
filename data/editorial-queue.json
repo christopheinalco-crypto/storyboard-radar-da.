@@ -44,10 +44,13 @@
       "url": "https://fraystudio.com/projects/olivia-dean-2026",
       "source": "FRAY Studio / 1826",
       "angle": "La caméra live devient une projection sur le rideau scénique, sans écran IMAG séparé",
-      "status": "repere",
+      "status": "publie",
       "image_status": "official_project_page_or_source_found_but_direct_image_not_verified",
-      "publication_blocker": "image_https_directe_et_droits_non_verifies",
-      "checked_at": "2026-11-12"
+      "publication_blocker": null,
+      "checked_at": "2026-11-12",
+      "published_at": "2026-11-12T08:10:37.627Z",
+      "image": "https://www.disguise.one/sites/default/files/styles/desktop_1440_814/public/2026-06/PRESS%20Olivia%20Dean%20-%20Manchester%20Co-Op%202026%20-%20Anthony%20Mooney-7.jpg?itok=DU8ie7B-",
+      "image_source_url": "https://www.disguise.one/en/insights/news/fray-studio-and-disguise-drive-cinematic-live-camera-projection-olivia-deans-art"
     },
     {
       "channel": "main",
