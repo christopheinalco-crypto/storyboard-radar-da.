@@ -8,7 +8,7 @@
     "total": 100,
     "profiles_with_grounded_urls": 19
   },
-  "status_note": "100 pistes nommées; seules les entrées avec profile_url sont identifiées, et l'activité récente ainsi que l'accès aux publications ne sont pas vérifiés pour la totalité. Aucun automatisme de collecte n'est activé par cette liste.",
+  "status_note": "100 comptes cibles, mais seuls les profils avec URL sont identifiés. Les posts directs doivent être collectés et vérifiés avant toute publication; aucune collecte automatique GitHub n'est activée.",
   "rules": [
     "Priorités: concerts/tournées, clips, spectacles, scénographie, grands lancements, shows TV",
     "Une publication doit avoir un lien direct vers un post, un visuel authentique et un projet précis",
@@ -26,8 +26,9 @@
       "priority": "P1",
       "focus": "concerts, clips, scénographie, shows et processus de création",
       "social_only": true,
-      "needs_recent_post_check": false,
-      "direct_posts_to_collect": []
+      "needs_recent_post_check": true,
+      "direct_posts_to_collect": [],
+      "post_collection_status": "pending_direct_post_verification"
     },
     {
       "name": "CUTBACK LIVE",
@@ -37,8 +38,9 @@
       "priority": "P1",
       "focus": "concerts, clips, scénographie, shows et processus de création",
       "social_only": true,
-      "needs_recent_post_check": false,
-      "direct_posts_to_collect": []
+      "needs_recent_post_check": true,
+      "direct_posts_to_collect": [],
+      "post_collection_status": "pending_direct_post_verification"
     },
     {
       "name": "LUMIVERSE DESIGN",
@@ -48,8 +50,9 @@
       "priority": "P1",
       "focus": "concerts, clips, scénographie, shows et processus de création",
       "social_only": true,
-      "needs_recent_post_check": false,
-      "direct_posts_to_collect": []
+      "needs_recent_post_check": true,
+      "direct_posts_to_collect": [],
+      "post_collection_status": "pending_direct_post_verification"
     },
     {
       "name": "Seconde Team",
@@ -59,8 +62,9 @@
       "priority": "P1",
       "focus": "concerts, clips, scénographie, shows et processus de création",
       "social_only": true,
-      "needs_recent_post_check": false,
-      "direct_posts_to_collect": []
+      "needs_recent_post_check": true,
+      "direct_posts_to_collect": [],
+      "post_collection_status": "pending_direct_post_verification"
     },
     {
       "name": "OBO",
@@ -70,8 +74,9 @@
       "priority": "P1",
       "focus": "concerts, clips, scénographie, shows et processus de création",
       "social_only": true,
-      "needs_recent_post_check": false,
-      "direct_posts_to_collect": []
+      "needs_recent_post_check": true,
+      "direct_posts_to_collect": [],
+      "post_collection_status": "pending_direct_post_verification"
     },
     {
       "name": "TETRO",
@@ -81,8 +86,9 @@
       "priority": "P1",
       "focus": "concerts, clips, scénographie, shows et processus de création",
       "social_only": true,
-      "needs_recent_post_check": false,
-      "direct_posts_to_collect": []
+      "needs_recent_post_check": true,
+      "direct_posts_to_collect": [],
+      "post_collection_status": "pending_direct_post_verification"
     },
     {
       "name": "VANDALES!",
@@ -92,8 +98,9 @@
       "priority": "P1",
       "focus": "concerts, clips, scénographie, shows et processus de création",
       "social_only": true,
-      "needs_recent_post_check": false,
-      "direct_posts_to_collect": []
+      "needs_recent_post_check": true,
+      "direct_posts_to_collect": [],
+      "post_collection_status": "pending_direct_post_verification"
     },
     {
       "name": "DUSHOW",
@@ -103,8 +110,9 @@
       "priority": "P1",
       "focus": "concerts, clips, scénographie, shows et processus de création",
       "social_only": true,
-      "needs_recent_post_check": false,
-      "direct_posts_to_collect": []
+      "needs_recent_post_check": true,
+      "direct_posts_to_collect": [],
+      "post_collection_status": "pending_direct_post_verification"
     },
     {
       "name": "D / Labs",
@@ -114,8 +122,9 @@
       "priority": "P1",
       "focus": "concerts, clips, scénographie, shows et processus de création",
       "social_only": true,
-      "needs_recent_post_check": false,
-      "direct_posts_to_collect": []
+      "needs_recent_post_check": true,
+      "direct_posts_to_collect": [],
+      "post_collection_status": "pending_direct_post_verification"
     },
     {
       "name": "STUFISH",
@@ -125,9 +134,10 @@
       "priority": "P1",
       "focus": "concerts, clips, scénographie, shows et processus de création",
       "social_only": true,
-      "needs_recent_post_check": false,
+      "needs_recent_post_check": true,
       "direct_posts_to_collect": [],
-      "activity_evidence": "https://uk.linkedin.com/company/stufish-limited"
+      "activity_evidence": "https://uk.linkedin.com/company/stufish-limited",
+      "post_collection_status": "pending_direct_post_verification"
     },
     {
       "name": "TAIT",
@@ -137,9 +147,10 @@
       "priority": "P1",
       "focus": "concerts, clips, scénographie, shows et processus de création",
       "social_only": true,
-      "needs_recent_post_check": false,
+      "needs_recent_post_check": true,
       "direct_posts_to_collect": [],
-      "last_checked": "2026-11-12"
+      "last_checked": "2026-11-12",
+      "post_collection_status": "pending_direct_post_verification"
     },
     {
       "name": "Moment Factory",
@@ -149,9 +160,10 @@
       "priority": "P1",
       "focus": "concerts, clips, scénographie, shows et processus de création",
       "social_only": true,
-      "needs_recent_post_check": false,
+      "needs_recent_post_check": true,
       "direct_posts_to_collect": [],
-      "activity_evidence": "https://www.linkedin.com/company/momentfactory/"
+      "activity_evidence": "https://www.linkedin.com/company/momentfactory/",
+      "post_collection_status": "pending_direct_post_verification"
     },
     {
       "name": "59 Productions",
@@ -163,7 +175,8 @@
       "social_only": true,
       "needs_recent_post_check": true,
       "direct_posts_to_collect": [],
-      "last_checked": "2026-11-12"
+      "last_checked": "2026-11-12",
+      "post_collection_status": "pending_direct_post_verification"
     },
     {
       "name": "Silent House",
@@ -173,9 +186,10 @@
       "priority": "P1",
       "focus": "concerts, clips, scénographie, shows et processus de création",
       "social_only": true,
-      "needs_recent_post_check": false,
+      "needs_recent_post_check": true,
       "direct_posts_to_collect": [],
-      "last_checked": "2026-11-12"
+      "last_checked": "2026-11-12",
+      "post_collection_status": "pending_direct_post_verification"
     },
     {
       "name": "Treatment Studio",
@@ -186,7 +200,9 @@
       "focus": "concerts, clips, scénographie, shows et processus de création",
       "social_only": true,
       "needs_recent_post_check": true,
-      "direct_posts_to_collect": []
+      "direct_posts_to_collect": [],
+      "profile_verification": "missing_url",
+      "post_collection_status": "blocked_missing_profile_url"
     },
     {
       "name": "Es Devlin Studio",
@@ -197,7 +213,9 @@
       "focus": "concerts, clips, scénographie, shows et processus de création",
       "social_only": true,
       "needs_recent_post_check": true,
-      "direct_posts_to_collect": []
+      "direct_posts_to_collect": [],
+      "profile_verification": "missing_url",
+      "post_collection_status": "blocked_missing_profile_url"
     },
     {
       "name": "High Scream",
@@ -208,7 +226,9 @@
       "focus": "concerts, clips, scénographie, shows et processus de création",
       "social_only": true,
       "needs_recent_post_check": true,
-      "direct_posts_to_collect": []
+      "direct_posts_to_collect": [],
+      "profile_verification": "missing_url",
+      "post_collection_status": "blocked_missing_profile_url"
     },
     {
       "name": "Alien le studio",
@@ -219,7 +239,9 @@
       "focus": "concerts, clips, scénographie, shows et processus de création",
       "social_only": true,
       "needs_recent_post_check": true,
-      "direct_posts_to_collect": []
+      "direct_posts_to_collect": [],
+      "profile_verification": "missing_url",
+      "post_collection_status": "blocked_missing_profile_url"
     },
     {
       "name": "Live Design",
@@ -230,7 +252,9 @@
       "focus": "théâtre, show TV, fabrication et presse spécialisée",
       "social_only": true,
       "needs_recent_post_check": true,
-      "direct_posts_to_collect": []
+      "direct_posts_to_collect": [],
+      "profile_verification": "missing_url",
+      "post_collection_status": "blocked_missing_profile_url"
     },
     {
       "name": "TPI Magazine",
@@ -241,7 +265,9 @@
       "focus": "théâtre, show TV, fabrication et presse spécialisée",
       "social_only": true,
       "needs_recent_post_check": true,
-      "direct_posts_to_collect": []
+      "direct_posts_to_collect": [],
+      "profile_verification": "missing_url",
+      "post_collection_status": "blocked_missing_profile_url"
     },
     {
       "name": "PLASA",
@@ -252,7 +278,9 @@
       "focus": "théâtre, show TV, fabrication et presse spécialisée",
       "social_only": true,
       "needs_recent_post_check": true,
-      "direct_posts_to_collect": []
+      "direct_posts_to_collect": [],
+      "profile_verification": "missing_url",
+      "post_collection_status": "blocked_missing_profile_url"
     },
     {
       "name": "ShowTex",
@@ -263,7 +291,9 @@
       "focus": "théâtre, show TV, fabrication et presse spécialisée",
       "social_only": true,
       "needs_recent_post_check": true,
-      "direct_posts_to_collect": []
+      "direct_posts_to_collect": [],
+      "profile_verification": "missing_url",
+      "post_collection_status": "blocked_missing_profile_url"
     },
     {
       "name": "Creative Technology",
@@ -274,7 +304,9 @@
       "focus": "théâtre, show TV, fabrication et presse spécialisée",
       "social_only": true,
       "needs_recent_post_check": true,
-      "direct_posts_to_collect": []
+      "direct_posts_to_collect": [],
+      "profile_verification": "missing_url",
+      "post_collection_status": "blocked_missing_profile_url"
     },
     {
       "name": "PRG",
@@ -285,7 +317,9 @@
       "focus": "théâtre, show TV, fabrication et presse spécialisée",
       "social_only": true,
       "needs_recent_post_check": true,
-      "direct_posts_to_collect": []
+      "direct_posts_to_collect": [],
+      "profile_verification": "missing_url",
+      "post_collection_status": "blocked_missing_profile_url"
     },
     {
       "name": "Disguise",
@@ -295,9 +329,10 @@
       "priority": "P2",
       "focus": "théâtre, show TV, fabrication et presse spécialisée",
       "social_only": true,
-      "needs_recent_post_check": false,
+      "needs_recent_post_check": true,
       "direct_posts_to_collect": [],
-      "last_checked": "2026-11-12"
+      "last_checked": "2026-11-12",
+      "post_collection_status": "pending_direct_post_verification"
     },
     {
       "name": "ROE Visual",
@@ -308,7 +343,9 @@
       "focus": "théâtre, show TV, fabrication et presse spécialisée",
       "social_only": true,
       "needs_recent_post_check": true,
-      "direct_posts_to_collect": []
+      "direct_posts_to_collect": [],
+      "profile_verification": "missing_url",
+      "post_collection_status": "blocked_missing_profile_url"
     },
     {
       "name": "Notch",
@@ -319,7 +356,9 @@
       "focus": "théâtre, show TV, fabrication et presse spécialisée",
       "social_only": true,
       "needs_recent_post_check": true,
-      "direct_posts_to_collect": []
+      "direct_posts_to_collect": [],
+      "profile_verification": "missing_url",
+      "post_collection_status": "blocked_missing_profile_url"
     },
     {
       "name": "Theatre Projects",
@@ -330,7 +369,9 @@
       "focus": "théâtre, show TV, fabrication et presse spécialisée",
       "social_only": true,
       "needs_recent_post_check": true,
-      "direct_posts_to_collect": []
+      "direct_posts_to_collect": [],
+      "profile_verification": "missing_url",
+      "post_collection_status": "blocked_missing_profile_url"
     },
     {
       "name": "The Stage",
@@ -341,7 +382,9 @@
       "focus": "théâtre, show TV, fabrication et presse spécialisée",
       "social_only": true,
       "needs_recent_post_check": true,
-      "direct_posts_to_collect": []
+      "direct_posts_to_collect": [],
+      "profile_verification": "missing_url",
+      "post_collection_status": "blocked_missing_profile_url"
     },
     {
       "name": "BroadwayWorld",
@@ -352,7 +395,9 @@
       "focus": "théâtre, show TV, fabrication et presse spécialisée",
       "social_only": true,
       "needs_recent_post_check": true,
-      "direct_posts_to_collect": []
+      "direct_posts_to_collect": [],
+      "profile_verification": "missing_url",
+      "post_collection_status": "blocked_missing_profile_url"
     },
     {
       "name": "TETRO",
@@ -362,8 +407,9 @@
       "priority": "P1",
       "focus": "concerts, clips, scénographie, shows et processus de création",
       "social_only": true,
-      "needs_recent_post_check": false,
-      "direct_posts_to_collect": []
+      "needs_recent_post_check": true,
+      "direct_posts_to_collect": [],
+      "post_collection_status": "pending_direct_post_verification"
     },
     {
       "name": "VANDALES!",
@@ -373,8 +419,9 @@
       "priority": "P1",
       "focus": "concerts, clips, scénographie, shows et processus de création",
       "social_only": true,
-      "needs_recent_post_check": false,
-      "direct_posts_to_collect": []
+      "needs_recent_post_check": true,
+      "direct_posts_to_collect": [],
+      "post_collection_status": "pending_direct_post_verification"
     },
     {
       "name": "Guillaume Doubet / THE ONLY G",
@@ -384,8 +431,9 @@
       "priority": "P1",
       "focus": "concerts, clips, scénographie, shows et processus de création",
       "social_only": true,
-      "needs_recent_post_check": false,
-      "direct_posts_to_collect": []
+      "needs_recent_post_check": true,
+      "direct_posts_to_collect": [],
+      "post_collection_status": "pending_direct_post_verification"
     },
     {
       "name": "D / Labs",
@@ -396,7 +444,9 @@
       "focus": "concerts, clips, scénographie, shows et processus de création",
       "social_only": true,
       "needs_recent_post_check": true,
-      "direct_posts_to_collect": []
+      "direct_posts_to_collect": [],
+      "profile_verification": "missing_url",
+      "post_collection_status": "blocked_missing_profile_url"
     },
     {
       "name": "STUFISH",
@@ -407,7 +457,9 @@
       "focus": "concerts, clips, scénographie, shows et processus de création",
       "social_only": true,
       "needs_recent_post_check": true,
-      "direct_posts_to_collect": []
+      "direct_posts_to_collect": [],
+      "profile_verification": "missing_url",
+      "post_collection_status": "blocked_missing_profile_url"
     },
     {
       "name": "TAIT",
@@ -418,7 +470,9 @@
       "focus": "concerts, clips, scénographie, shows et processus de création",
       "social_only": true,
       "needs_recent_post_check": true,
-      "direct_posts_to_collect": []
+      "direct_posts_to_collect": [],
+      "profile_verification": "missing_url",
+      "post_collection_status": "blocked_missing_profile_url"
     },
     {
       "name": "Moment Factory",
@@ -430,7 +484,8 @@
       "social_only": true,
       "needs_recent_post_check": true,
       "direct_posts_to_collect": [],
-      "activity_evidence": "https://linktr.ee/momentfactory"
+      "activity_evidence": "https://linktr.ee/momentfactory",
+      "post_collection_status": "pending_direct_post_verification"
     },
     {
       "name": "59 Productions",
@@ -441,7 +496,9 @@
       "focus": "concerts, clips, scénographie, shows et processus de création",
       "social_only": true,
       "needs_recent_post_check": true,
-      "direct_posts_to_collect": []
+      "direct_posts_to_collect": [],
+      "profile_verification": "missing_url",
+      "post_collection_status": "blocked_missing_profile_url"
     },
     {
       "name": "Es Devlin",
@@ -452,7 +509,9 @@
       "focus": "concerts, clips, scénographie, shows et processus de création",
       "social_only": true,
       "needs_recent_post_check": true,
-      "direct_posts_to_collect": []
+      "direct_posts_to_collect": [],
+      "profile_verification": "missing_url",
+      "post_collection_status": "blocked_missing_profile_url"
     },
     {
       "name": "Silent House",
@@ -463,7 +522,9 @@
       "focus": "concerts, clips, scénographie, shows et processus de création",
       "social_only": true,
       "needs_recent_post_check": true,
-      "direct_posts_to_collect": []
+      "direct_posts_to_collect": [],
+      "profile_verification": "missing_url",
+      "post_collection_status": "blocked_missing_profile_url"
     },
     {
       "name": "Treatment Studio",
@@ -474,7 +535,9 @@
       "focus": "concerts, clips, scénographie, shows et processus de création",
       "social_only": true,
       "needs_recent_post_check": true,
-      "direct_posts_to_collect": []
+      "direct_posts_to_collect": [],
+      "profile_verification": "missing_url",
+      "post_collection_status": "blocked_missing_profile_url"
     },
     {
       "name": "High Scream",
@@ -485,7 +548,9 @@
       "focus": "concerts, clips, scénographie, shows et processus de création",
       "social_only": true,
       "needs_recent_post_check": true,
-      "direct_posts_to_collect": []
+      "direct_posts_to_collect": [],
+      "profile_verification": "missing_url",
+      "post_collection_status": "blocked_missing_profile_url"
     },
     {
       "name": "Alien le studio",
@@ -496,7 +561,9 @@
       "focus": "concerts, clips, scénographie, shows et processus de création",
       "social_only": true,
       "needs_recent_post_check": true,
-      "direct_posts_to_collect": []
+      "direct_posts_to_collect": [],
+      "profile_verification": "missing_url",
+      "post_collection_status": "blocked_missing_profile_url"
     },
     {
       "name": "Seconde Design",
@@ -507,7 +574,9 @@
       "focus": "concerts, clips, scénographie, shows et processus de création",
       "social_only": true,
       "needs_recent_post_check": true,
-      "direct_posts_to_collect": []
+      "direct_posts_to_collect": [],
+      "profile_verification": "missing_url",
+      "post_collection_status": "blocked_missing_profile_url"
     },
     {
       "name": "CUTBACK LIVE",
@@ -518,7 +587,9 @@
       "focus": "concerts, clips, scénographie, shows et processus de création",
       "social_only": true,
       "needs_recent_post_check": true,
-      "direct_posts_to_collect": []
+      "direct_posts_to_collect": [],
+      "profile_verification": "missing_url",
+      "post_collection_status": "blocked_missing_profile_url"
     },
     {
       "name": "Live Design",
@@ -529,7 +600,9 @@
       "focus": "concerts, clips, scénographie, shows et processus de création",
       "social_only": true,
       "needs_recent_post_check": true,
-      "direct_posts_to_collect": []
+      "direct_posts_to_collect": [],
+      "profile_verification": "missing_url",
+      "post_collection_status": "blocked_missing_profile_url"
     },
     {
       "name": "TPI Magazine",
@@ -540,7 +613,9 @@
       "focus": "concerts, clips, scénographie, shows et processus de création",
       "social_only": true,
       "needs_recent_post_check": true,
-      "direct_posts_to_collect": []
+      "direct_posts_to_collect": [],
+      "profile_verification": "missing_url",
+      "post_collection_status": "blocked_missing_profile_url"
     },
     {
       "name": "ShowTex",
@@ -551,7 +626,9 @@
       "focus": "concerts, clips, scénographie, shows et processus de création",
       "social_only": true,
       "needs_recent_post_check": true,
-      "direct_posts_to_collect": []
+      "direct_posts_to_collect": [],
+      "profile_verification": "missing_url",
+      "post_collection_status": "blocked_missing_profile_url"
     },
     {
       "name": "Disguise",
@@ -562,7 +639,9 @@
       "focus": "théâtre, show TV, fabrication et presse spécialisée",
       "social_only": true,
       "needs_recent_post_check": true,
-      "direct_posts_to_collect": []
+      "direct_posts_to_collect": [],
+      "profile_verification": "missing_url",
+      "post_collection_status": "blocked_missing_profile_url"
     },
     {
       "name": "Notch",
@@ -573,7 +652,9 @@
       "focus": "théâtre, show TV, fabrication et presse spécialisée",
       "social_only": true,
       "needs_recent_post_check": true,
-      "direct_posts_to_collect": []
+      "direct_posts_to_collect": [],
+      "profile_verification": "missing_url",
+      "post_collection_status": "blocked_missing_profile_url"
     },
     {
       "name": "ROE Visual",
@@ -584,7 +665,9 @@
       "focus": "théâtre, show TV, fabrication et presse spécialisée",
       "social_only": true,
       "needs_recent_post_check": true,
-      "direct_posts_to_collect": []
+      "direct_posts_to_collect": [],
+      "profile_verification": "missing_url",
+      "post_collection_status": "blocked_missing_profile_url"
     },
     {
       "name": "Creative Technology",
@@ -595,7 +678,9 @@
       "focus": "théâtre, show TV, fabrication et presse spécialisée",
       "social_only": true,
       "needs_recent_post_check": true,
-      "direct_posts_to_collect": []
+      "direct_posts_to_collect": [],
+      "profile_verification": "missing_url",
+      "post_collection_status": "blocked_missing_profile_url"
     },
     {
       "name": "PRG",
@@ -606,7 +691,9 @@
       "focus": "théâtre, show TV, fabrication et presse spécialisée",
       "social_only": true,
       "needs_recent_post_check": true,
-      "direct_posts_to_collect": []
+      "direct_posts_to_collect": [],
+      "profile_verification": "missing_url",
+      "post_collection_status": "blocked_missing_profile_url"
     },
     {
       "name": "OBO",
@@ -617,7 +704,9 @@
       "focus": "théâtre, show TV, fabrication et presse spécialisée",
       "social_only": true,
       "needs_recent_post_check": true,
-      "direct_posts_to_collect": []
+      "direct_posts_to_collect": [],
+      "profile_verification": "missing_url",
+      "post_collection_status": "blocked_missing_profile_url"
     },
     {
       "name": "DUSHOW",
@@ -628,7 +717,9 @@
       "focus": "théâtre, show TV, fabrication et presse spécialisée",
       "social_only": true,
       "needs_recent_post_check": true,
-      "direct_posts_to_collect": []
+      "direct_posts_to_collect": [],
+      "profile_verification": "missing_url",
+      "post_collection_status": "blocked_missing_profile_url"
     },
     {
       "name": "Theatre Projects",
@@ -639,7 +730,9 @@
       "focus": "théâtre, show TV, fabrication et presse spécialisée",
       "social_only": true,
       "needs_recent_post_check": true,
-      "direct_posts_to_collect": []
+      "direct_posts_to_collect": [],
+      "profile_verification": "missing_url",
+      "post_collection_status": "blocked_missing_profile_url"
     },
     {
       "name": "The Stage",
@@ -650,7 +743,9 @@
       "focus": "théâtre, show TV, fabrication et presse spécialisée",
       "social_only": true,
       "needs_recent_post_check": true,
-      "direct_posts_to_collect": []
+      "direct_posts_to_collect": [],
+      "profile_verification": "missing_url",
+      "post_collection_status": "blocked_missing_profile_url"
     },
     {
       "name": "BroadwayWorld",
@@ -661,7 +756,9 @@
       "focus": "théâtre, show TV, fabrication et presse spécialisée",
       "social_only": true,
       "needs_recent_post_check": true,
-      "direct_posts_to_collect": []
+      "direct_posts_to_collect": [],
+      "profile_verification": "missing_url",
+      "post_collection_status": "blocked_missing_profile_url"
     },
     {
       "name": "Jordan Magnee",
@@ -672,7 +769,9 @@
       "focus": "théâtre, show TV, fabrication et presse spécialisée",
       "social_only": true,
       "needs_recent_post_check": true,
-      "direct_posts_to_collect": []
+      "direct_posts_to_collect": [],
+      "profile_verification": "missing_url",
+      "post_collection_status": "blocked_missing_profile_url"
     },
     {
       "name": "Dan Azzopardi",
@@ -683,7 +782,9 @@
       "focus": "théâtre, show TV, fabrication et presse spécialisée",
       "social_only": true,
       "needs_recent_post_check": true,
-      "direct_posts_to_collect": []
+      "direct_posts_to_collect": [],
+      "profile_verification": "missing_url",
+      "post_collection_status": "blocked_missing_profile_url"
     },
     {
       "name": "Cassius Creative",
@@ -694,7 +795,9 @@
       "focus": "direction artistique, spectacles, clips, scénographie, production ou contenus scéniques",
       "social_only": true,
       "needs_recent_post_check": true,
-      "direct_posts_to_collect": []
+      "direct_posts_to_collect": [],
+      "profile_verification": "missing_url",
+      "post_collection_status": "blocked_missing_profile_url"
     },
     {
       "name": "LightLab",
@@ -705,7 +808,9 @@
       "focus": "direction artistique, spectacles, clips, scénographie, production ou contenus scéniques",
       "social_only": true,
       "needs_recent_post_check": true,
-      "direct_posts_to_collect": []
+      "direct_posts_to_collect": [],
+      "profile_verification": "missing_url",
+      "post_collection_status": "blocked_missing_profile_url"
     },
     {
       "name": "AGENCE MONUMENTIEL",
@@ -716,7 +821,9 @@
       "focus": "direction artistique, spectacles, clips, scénographie, production ou contenus scéniques",
       "social_only": true,
       "needs_recent_post_check": true,
-      "direct_posts_to_collect": []
+      "direct_posts_to_collect": [],
+      "profile_verification": "missing_url",
+      "post_collection_status": "blocked_missing_profile_url"
     },
     {
       "name": "We Light You Design",
@@ -727,7 +834,9 @@
       "focus": "direction artistique, spectacles, clips, scénographie, production ou contenus scéniques",
       "social_only": true,
       "needs_recent_post_check": true,
-      "direct_posts_to_collect": []
+      "direct_posts_to_collect": [],
+      "profile_verification": "missing_url",
+      "post_collection_status": "blocked_missing_profile_url"
     },
     {
       "name": "Balich Wonder Studio",
@@ -738,7 +847,9 @@
       "focus": "direction artistique, spectacles, clips, scénographie, production ou contenus scéniques",
       "social_only": true,
       "needs_recent_post_check": true,
-      "direct_posts_to_collect": []
+      "direct_posts_to_collect": [],
+      "profile_verification": "missing_url",
+      "post_collection_status": "blocked_missing_profile_url"
     },
     {
       "name": "MUSE Creative",
@@ -749,7 +860,9 @@
       "focus": "direction artistique, spectacles, clips, scénographie, production ou contenus scéniques",
       "social_only": true,
       "needs_recent_post_check": true,
-      "direct_posts_to_collect": []
+      "direct_posts_to_collect": [],
+      "profile_verification": "missing_url",
+      "post_collection_status": "blocked_missing_profile_url"
     },
     {
       "name": "FrameMotion Studio",
@@ -760,7 +873,9 @@
       "focus": "direction artistique, spectacles, clips, scénographie, production ou contenus scéniques",
       "social_only": true,
       "needs_recent_post_check": true,
-      "direct_posts_to_collect": []
+      "direct_posts_to_collect": [],
+      "profile_verification": "missing_url",
+      "post_collection_status": "blocked_missing_profile_url"
     },
     {
       "name": "White Void",
@@ -771,7 +886,9 @@
       "focus": "direction artistique, spectacles, clips, scénographie, production ou contenus scéniques",
       "social_only": true,
       "needs_recent_post_check": true,
-      "direct_posts_to_collect": []
+      "direct_posts_to_collect": [],
+      "profile_verification": "missing_url",
+      "post_collection_status": "blocked_missing_profile_url"
     },
     {
       "name": "Kinetic Lights",
@@ -782,7 +899,9 @@
       "focus": "direction artistique, spectacles, clips, scénographie, production ou contenus scéniques",
       "social_only": true,
       "needs_recent_post_check": true,
-      "direct_posts_to_collect": []
+      "direct_posts_to_collect": [],
+      "profile_verification": "missing_url",
+      "post_collection_status": "blocked_missing_profile_url"
     },
     {
       "name": "Pipilotti Rist Studio",
@@ -793,7 +912,9 @@
       "focus": "direction artistique, spectacles, clips, scénographie, production ou contenus scéniques",
       "social_only": true,
       "needs_recent_post_check": true,
-      "direct_posts_to_collect": []
+      "direct_posts_to_collect": [],
+      "profile_verification": "missing_url",
+      "post_collection_status": "blocked_missing_profile_url"
     },
     {
       "name": "United Visual Artists",
@@ -804,7 +925,9 @@
       "focus": "direction artistique, spectacles, clips, scénographie, production ou contenus scéniques",
       "social_only": true,
       "needs_recent_post_check": true,
-      "direct_posts_to_collect": []
+      "direct_posts_to_collect": [],
+      "profile_verification": "missing_url",
+      "post_collection_status": "blocked_missing_profile_url"
     },
     {
       "name": "Marshmallow Laser Feast",
@@ -815,7 +938,9 @@
       "focus": "direction artistique, spectacles, clips, scénographie, production ou contenus scéniques",
       "social_only": true,
       "needs_recent_post_check": true,
-      "direct_posts_to_collect": []
+      "direct_posts_to_collect": [],
+      "profile_verification": "missing_url",
+      "post_collection_status": "blocked_missing_profile_url"
     },
     {
       "name": "FIELD.IO",
@@ -826,7 +951,9 @@
       "focus": "direction artistique, spectacles, clips, scénographie, production ou contenus scéniques",
       "social_only": true,
       "needs_recent_post_check": true,
-      "direct_posts_to_collect": []
+      "direct_posts_to_collect": [],
+      "profile_verification": "missing_url",
+      "post_collection_status": "blocked_missing_profile_url"
     },
     {
       "name": "Onformative",
@@ -837,7 +964,9 @@
       "focus": "direction artistique, spectacles, clips, scénographie, production ou contenus scéniques",
       "social_only": true,
       "needs_recent_post_check": true,
-      "direct_posts_to_collect": []
+      "direct_posts_to_collect": [],
+      "profile_verification": "missing_url",
+      "post_collection_status": "blocked_missing_profile_url"
     },
     {
       "name": "The Mill",
@@ -848,7 +977,9 @@
       "focus": "direction artistique, spectacles, clips, scénographie, production ou contenus scéniques",
       "social_only": true,
       "needs_recent_post_check": true,
-      "direct_posts_to_collect": []
+      "direct_posts_to_collect": [],
+      "profile_verification": "missing_url",
+      "post_collection_status": "blocked_missing_profile_url"
     },
     {
       "name": "Framestore",
@@ -859,7 +990,9 @@
       "focus": "direction artistique, spectacles, clips, scénographie, production ou contenus scéniques",
       "social_only": true,
       "needs_recent_post_check": true,
-      "direct_posts_to_collect": []
+      "direct_posts_to_collect": [],
+      "profile_verification": "missing_url",
+      "post_collection_status": "blocked_missing_profile_url"
     },
     {
       "name": "MPC",
@@ -870,7 +1003,9 @@
       "focus": "direction artistique, spectacles, clips, scénographie, production ou contenus scéniques",
       "social_only": true,
       "needs_recent_post_check": true,
-      "direct_posts_to_collect": []
+      "direct_posts_to_collect": [],
+      "profile_verification": "missing_url",
+      "post_collection_status": "blocked_missing_profile_url"
     },
     {
       "name": "Nexus Studios",
@@ -881,7 +1016,9 @@
       "focus": "direction artistique, spectacles, clips, scénographie, production ou contenus scéniques",
       "social_only": true,
       "needs_recent_post_check": true,
-      "direct_posts_to_collect": []
+      "direct_posts_to_collect": [],
+      "profile_verification": "missing_url",
+      "post_collection_status": "blocked_missing_profile_url"
     },
     {
       "name": "Partizan",
@@ -892,7 +1029,9 @@
       "focus": "direction artistique, spectacles, clips, scénographie, production ou contenus scéniques",
       "social_only": true,
       "needs_recent_post_check": true,
-      "direct_posts_to_collect": []
+      "direct_posts_to_collect": [],
+      "profile_verification": "missing_url",
+      "post_collection_status": "blocked_missing_profile_url"
     },
     {
       "name": "Somesuch",
@@ -903,7 +1042,9 @@
       "focus": "direction artistique, spectacles, clips, scénographie, production ou contenus scéniques",
       "social_only": true,
       "needs_recent_post_check": true,
-      "direct_posts_to_collect": []
+      "direct_posts_to_collect": [],
+      "profile_verification": "missing_url",
+      "post_collection_status": "blocked_missing_profile_url"
     },
     {
       "name": "Cassius Creative",
@@ -914,7 +1055,9 @@
       "focus": "direction artistique, spectacles, clips, scénographie, production ou contenus scéniques",
       "social_only": true,
       "needs_recent_post_check": true,
-      "direct_posts_to_collect": []
+      "direct_posts_to_collect": [],
+      "profile_verification": "missing_url",
+      "post_collection_status": "blocked_missing_profile_url"
     },
     {
       "name": "LightLab",
@@ -925,7 +1068,9 @@
       "focus": "direction artistique, spectacles, clips, scénographie, production ou contenus scéniques",
       "social_only": true,
       "needs_recent_post_check": true,
-      "direct_posts_to_collect": []
+      "direct_posts_to_collect": [],
+      "profile_verification": "missing_url",
+      "post_collection_status": "blocked_missing_profile_url"
     },
     {
       "name": "AGENCE MONUMENTIEL",
@@ -936,7 +1081,9 @@
       "focus": "direction artistique, spectacles, clips, scénographie, production ou contenus scéniques",
       "social_only": true,
       "needs_recent_post_check": true,
-      "direct_posts_to_collect": []
+      "direct_posts_to_collect": [],
+      "profile_verification": "missing_url",
+      "post_collection_status": "blocked_missing_profile_url"
     },
     {
       "name": "We Light You Design",
@@ -947,7 +1094,9 @@
       "focus": "direction artistique, spectacles, clips, scénographie, production ou contenus scéniques",
       "social_only": true,
       "needs_recent_post_check": true,
-      "direct_posts_to_collect": []
+      "direct_posts_to_collect": [],
+      "profile_verification": "missing_url",
+      "post_collection_status": "blocked_missing_profile_url"
     },
     {
       "name": "Balich Wonder Studio",
@@ -958,7 +1107,9 @@
       "focus": "direction artistique, spectacles, clips, scénographie, production ou contenus scéniques",
       "social_only": true,
       "needs_recent_post_check": true,
-      "direct_posts_to_collect": []
+      "direct_posts_to_collect": [],
+      "profile_verification": "missing_url",
+      "post_collection_status": "blocked_missing_profile_url"
     },
     {
       "name": "White Void",
@@ -969,7 +1120,9 @@
       "focus": "direction artistique, spectacles, clips, scénographie, production ou contenus scéniques",
       "social_only": true,
       "needs_recent_post_check": true,
-      "direct_posts_to_collect": []
+      "direct_posts_to_collect": [],
+      "profile_verification": "missing_url",
+      "post_collection_status": "blocked_missing_profile_url"
     },
     {
       "name": "Kinetic Lights",
@@ -980,7 +1133,9 @@
       "focus": "direction artistique, spectacles, clips, scénographie, production ou contenus scéniques",
       "social_only": true,
       "needs_recent_post_check": true,
-      "direct_posts_to_collect": []
+      "direct_posts_to_collect": [],
+      "profile_verification": "missing_url",
+      "post_collection_status": "blocked_missing_profile_url"
     },
     {
       "name": "United Visual Artists",
@@ -991,7 +1146,9 @@
       "focus": "direction artistique, spectacles, clips, scénographie, production ou contenus scéniques",
       "social_only": true,
       "needs_recent_post_check": true,
-      "direct_posts_to_collect": []
+      "direct_posts_to_collect": [],
+      "profile_verification": "missing_url",
+      "post_collection_status": "blocked_missing_profile_url"
     },
     {
       "name": "Marshmallow Laser Feast",
@@ -1002,7 +1159,9 @@
       "focus": "direction artistique, spectacles, clips, scénographie, production ou contenus scéniques",
       "social_only": true,
       "needs_recent_post_check": true,
-      "direct_posts_to_collect": []
+      "direct_posts_to_collect": [],
+      "profile_verification": "missing_url",
+      "post_collection_status": "blocked_missing_profile_url"
     },
     {
       "name": "FIELD.IO",
@@ -1013,7 +1172,9 @@
       "focus": "direction artistique, spectacles, clips, scénographie, production ou contenus scéniques",
       "social_only": true,
       "needs_recent_post_check": true,
-      "direct_posts_to_collect": []
+      "direct_posts_to_collect": [],
+      "profile_verification": "missing_url",
+      "post_collection_status": "blocked_missing_profile_url"
     },
     {
       "name": "Onformative",
@@ -1024,7 +1185,9 @@
       "focus": "direction artistique, spectacles, clips, scénographie, production ou contenus scéniques",
       "social_only": true,
       "needs_recent_post_check": true,
-      "direct_posts_to_collect": []
+      "direct_posts_to_collect": [],
+      "profile_verification": "missing_url",
+      "post_collection_status": "blocked_missing_profile_url"
     },
     {
       "name": "The Mill",
@@ -1035,7 +1198,9 @@
       "focus": "direction artistique, spectacles, clips, scénographie, production ou contenus scéniques",
       "social_only": true,
       "needs_recent_post_check": true,
-      "direct_posts_to_collect": []
+      "direct_posts_to_collect": [],
+      "profile_verification": "missing_url",
+      "post_collection_status": "blocked_missing_profile_url"
     },
     {
       "name": "Framestore",
@@ -1046,7 +1211,9 @@
       "focus": "direction artistique, spectacles, clips, scénographie, production ou contenus scéniques",
       "social_only": true,
       "needs_recent_post_check": true,
-      "direct_posts_to_collect": []
+      "direct_posts_to_collect": [],
+      "profile_verification": "missing_url",
+      "post_collection_status": "blocked_missing_profile_url"
     },
     {
       "name": "MPC",
@@ -1057,7 +1224,9 @@
       "focus": "direction artistique, spectacles, clips, scénographie, production ou contenus scéniques",
       "social_only": true,
       "needs_recent_post_check": true,
-      "direct_posts_to_collect": []
+      "direct_posts_to_collect": [],
+      "profile_verification": "missing_url",
+      "post_collection_status": "blocked_missing_profile_url"
     },
     {
       "name": "Nexus Studios",
@@ -1068,7 +1237,9 @@
       "focus": "direction artistique, spectacles, clips, scénographie, production ou contenus scéniques",
       "social_only": true,
       "needs_recent_post_check": true,
-      "direct_posts_to_collect": []
+      "direct_posts_to_collect": [],
+      "profile_verification": "missing_url",
+      "post_collection_status": "blocked_missing_profile_url"
     },
     {
       "name": "Partizan",
@@ -1079,7 +1250,9 @@
       "focus": "direction artistique, spectacles, clips, scénographie, production ou contenus scéniques",
       "social_only": true,
       "needs_recent_post_check": true,
-      "direct_posts_to_collect": []
+      "direct_posts_to_collect": [],
+      "profile_verification": "missing_url",
+      "post_collection_status": "blocked_missing_profile_url"
     },
     {
       "name": "Somesuch",
@@ -1090,7 +1263,9 @@
       "focus": "direction artistique, spectacles, clips, scénographie, production ou contenus scéniques",
       "social_only": true,
       "needs_recent_post_check": true,
-      "direct_posts_to_collect": []
+      "direct_posts_to_collect": [],
+      "profile_verification": "missing_url",
+      "post_collection_status": "blocked_missing_profile_url"
     },
     {
       "name": "Iconoclast",
@@ -1101,7 +1276,9 @@
       "focus": "direction artistique, spectacles, clips, scénographie, production ou contenus scéniques",
       "social_only": true,
       "needs_recent_post_check": true,
-      "direct_posts_to_collect": []
+      "direct_posts_to_collect": [],
+      "profile_verification": "missing_url",
+      "post_collection_status": "blocked_missing_profile_url"
     },
     {
       "name": "Division",
@@ -1112,7 +1289,9 @@
       "focus": "direction artistique, spectacles, clips, scénographie, production ou contenus scéniques",
       "social_only": true,
       "needs_recent_post_check": true,
-      "direct_posts_to_collect": []
+      "direct_posts_to_collect": [],
+      "profile_verification": "missing_url",
+      "post_collection_status": "blocked_missing_profile_url"
     },
     {
       "name": "Caviar",
@@ -1123,12 +1302,17 @@
       "focus": "direction artistique, spectacles, clips, scénographie, production ou contenus scéniques",
       "social_only": true,
       "needs_recent_post_check": true,
-      "direct_posts_to_collect": []
+      "direct_posts_to_collect": [],
+      "profile_verification": "missing_url",
+      "post_collection_status": "blocked_missing_profile_url"
     }
   ],
   "verification_progress": {
     "checked_on": "2026-11-12",
     "notes": "19 profils avec URL. TAIT corrigé vers sa page LinkedIn publique attestée ; 59 Studio et Silent House ajoutés après contrôle de leurs profils LinkedIn. La vérification d'activité et des posts directs reste distincte de la vérification du profil. Aucun quota ne justifie une fiche sans preuve.",
-    "remaining_without_url": 81
+    "remaining_without_url": 81,
+    "accounts_with_direct_post_urls": 0,
+    "accounts_needing_recent_post_check": 100,
+    "operational_note": "Profil identifié != post récupéré. Ne pas déclarer un compte actif sans post direct daté. Le workflow GitHub est suspendu; la tâche ChatGPT doit parcourir cette liste à chaque vague."
   }
 }
