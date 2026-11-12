@@ -99,10 +99,13 @@
       "url": "https://www.tpimagazine.com/behind-the-scenes-of-take-thats-the-circus-live-2026/",
       "source": "TPi",
       "angle": "Relecture scénique d'une tournée monumentale",
-      "status": "repere",
+      "status": "publie",
       "image_status": "official_project_page_or_source_found_but_direct_image_not_verified",
-      "publication_blocker": "image_https_directe_et_droits_non_verifies",
-      "checked_at": "2026-11-12"
+      "publication_blocker": null,
+      "checked_at": "2026-11-12",
+      "published_at": "2026-11-12T08:09:59.415Z",
+      "image": "https://static.standard.co.uk/2026/06/27/16/27160941-43fb57ec-08cf-4554-8758-7df7c03267fe.jpg?auto=webp&quality=75&width=960",
+      "image_source_url": "https://www.standard.co.uk/culture/music/take-that-howard-donald-mark-owen-london-gary-barlow-b1287823.html"
     },
     {
       "channel": "linkedin",
