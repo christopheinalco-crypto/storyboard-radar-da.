@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-12T07:41:56.579Z",
+  "updated_at": "2026-11-12",
   "description": "Candidats issus d'une passe réelle, non publiés tant que l'image directe, les droits, les sources, les doublons et la seconde lecture ne sont pas vérifiés.",
   "pipeline": [
     "repere",
@@ -189,6 +189,39 @@
       "status": "repere",
       "image_status": "not_verified",
       "publication_blocker": "URL directe du post Instagram et image réutilisable non vérifiées",
+      "checked_at": "2026-11-12"
+    },
+    {
+      "channel": "main",
+      "title": "beabadoobee — The Powerlines Tour",
+      "url": "https://fraystudio.com/projects/beabadoobee-2026",
+      "source": "FRAY Studio",
+      "angle": "Projection sur décor imprimé : route américaine, pylônes et texture analogique",
+      "status": "enrichi",
+      "image_status": "image_visible_sur_page_source_mais_url_directe_non_chargee",
+      "publication_blocker": "URL d'image directe ou droit de réaffichage non confirmé",
+      "checked_at": "2026-11-12"
+    },
+    {
+      "channel": "main",
+      "title": "Zayn — Konnakol Tour",
+      "url": "https://fraystudio.com/projects/zayn-2026",
+      "source": "FRAY Studio",
+      "angle": "Trois flux caméra traités dans un espace négatif plutôt que l'IMAG classique",
+      "status": "enrichi",
+      "image_status": "image_visible_sur_page_source_mais_url_directe_non_chargee",
+      "publication_blocker": "URL d'image directe ou droit de réaffichage non confirmé",
+      "checked_at": "2026-11-12"
+    },
+    {
+      "channel": "linkedin",
+      "title": "STAGE UP — Brunch Electronik Lyon",
+      "url": "https://fr.linkedin.com/posts/stageupgrenoble_stageup-scene-structure-activity-7516161019283488769-TZLc",
+      "source": "STAGE UP",
+      "angle": "Structure scénique et plateforme VIP, direction technique documentée",
+      "status": "enrichi",
+      "image_status": "image_visible_sur_page_source_mais_url_directe_non_chargee",
+      "publication_blocker": "URL d'image directe ou droit de réaffichage non confirmé",
       "checked_at": "2026-11-12"
     }
   ],
