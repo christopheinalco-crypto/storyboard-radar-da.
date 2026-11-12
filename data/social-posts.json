@@ -1,6 +1,102 @@
 {
-  "updated_at": "2026-11-12T19:00:00Z",
+  "updated_at": "2026-11-12T21:00:00+01:00",
   "items": [
+    {
+      "title": "TWICE — THIS IS FOR : une scène qui n’a plus de dos",
+      "author": "Moment Factory · LinkedIn",
+      "category": "01 Spectacle Concert",
+      "url": "https://fr.linkedin.com/posts/momentfactory_twice-x-this-is-for-world-tour-x-2025-we-activity-7384295582426636289-0zzY",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/A%20band%20plays%20on%20stage%20while%20a%20singer%20engages%20the%20audience%20in%20a%20bustling%20downtown%20venue%20filled%20with%20colorful%20lights.jpg",
+      "image_caption": "Image d’illustration — ne représente pas TWICE. Photographie de Shixart1985, CC BY 2.0.",
+      "image_credit": "Shixart1985 / Wikimedia Commons — CC BY 2.0",
+      "analysis": {
+        "intro": "Quand une scène fonctionne à 360 degrés, **le public n’est plus réparti entre une bonne face et un arrière-plan**. C’est la vraie bascule de THIS IS FOR : chaque côté de la salle devient un point de vue à composer.",
+        "points": [
+          [
+            "La scène perd son devant",
+            "Live Nation confirme le format « in the round » et l’ouverture de l’arène sur 360 degrés. Cela modifie les priorités du show : les placements, les déplacements et les écrans doivent rester compréhensibles depuis plusieurs angles."
+          ],
+          [
+            "Le défi n’est pas seulement technique",
+            "Moment Factory est associé à la création multimédia du spectacle. Hypothèse de lecture DA : une scénographie circulaire ne peut pas s’appuyer constamment sur une image frontale unique. **La chorégraphie doit distribuer l’attention autour de la scène**, plutôt que l’orienter vers un seul côté."
+          ],
+          [
+            "Une proximité à construire",
+            "Le discours officiel promet de rapprocher les spectateurs des artistes. C’est une intention annoncée, pas une mesure de leur ressenti. Une configuration à 360 degrés augmente les angles possibles, mais impose aussi de penser les moments où les interprètes tournent le dos à une partie de la salle. La photo d’illustration ne représente pas cette tournée."
+          ]
+        ],
+        "takeaway": "Une scène à 360 degrés n’est pas simplement une scène ronde : c’est un système de points de vue qui oblige à redistribuer la composition dans le temps.",
+        "tip": "Placer quatre observateurs autour d’une maquette et vérifier si chaque temps fort reste lisible depuis leurs quatre positions."
+      },
+      "sources": [
+        {
+          "label": "Publication originale de Moment Factory",
+          "url": "https://fr.linkedin.com/posts/momentfactory_twice-x-this-is-for-world-tour-x-2025-we-activity-7384295582426636289-0zzY"
+        },
+        {
+          "label": "Live Nation — annonce du dispositif à 360 degrés",
+          "url": "https://news.livenationentertainment.com/news/k-pop-superstars-twice-announce-world-tour-across-north-america-europe-the-uk"
+        },
+        {
+          "label": "Korea Times — équipe de création et Moment Factory",
+          "url": "https://www.koreatimes.co.kr/entertainment/k-pop/20250609/twice-sets-off-on-this-is-for-world-tour-with-top-tier-creative-team"
+        },
+        {
+          "label": "Image d’illustration — licence et auteur",
+          "url": "https://commons.wikimedia.org/wiki/File:A_band_plays_on_stage_while_a_singer_engages_the_audience_in_a_bustling_downtown_venue_filled_with_colorful_lights.jpg"
+        }
+      ],
+      "published_at": "2026-11-12T21:00:00+01:00",
+      "editorial_note": "Image générique sous CC BY 2.0 : ne représente pas la tournée. Sujet de fond, non actualité nouvelle."
+    },
+    {
+      "title": "Kendrick Lamar — Grand National Tour : deux mondes sur un même plateau",
+      "author": "Mike Carson · LinkedIn",
+      "category": "01 Spectacle Concert",
+      "url": "https://www.linkedin.com/posts/mikecarson92_grand-national-tour-stage-design-and-creative-activity-7368684615319871488-vpcD",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Beach-Please-2022-crowd-stage-lights-night-performance.jpg",
+      "image_caption": "Image d’illustration — ne représente pas le projet. Festival Beach, Please! 2022, PinkBeachPlanet, CC BY-SA 4.0.",
+      "image_credit": "PinkBeachPlanet / Wikimedia Commons — CC BY-SA 4.0",
+      "analysis": {
+        "intro": "Un stade, deux univers : **le même plateau accueille deux identités sans devoir changer toute son architecture**. Sur la Grand National Tour, Kendrick Lamar et SZA alternent les tableaux. Ce qui est intéressant, c’est la façon dont une structure commune peut produire deux récits.",
+        "points": [
+          [
+            "Une géométrie qui tient le spectacle",
+            "Le portfolio de Mike Carson crédite la direction artistique et la scénographie à Carson, Dave Free et Kendrick Lamar. Le compte rendu technique d’Otra décrit un plateau en losange partagé entre deux univers. La forme commune évite de reconstruire un décor complet à chaque passage."
+          ],
+          [
+            "La différence vient de ce qu’on y fait entrer",
+            "Otra documente une ambiance urbaine retenue côté Kendrick, et un jardin envahissant côté SZA. Le Buick GNX qui surgit du sol réapparaît même couvert de végétation : **un même objet change de sens selon le monde visuel qui l’entoure**."
+          ],
+          [
+            "L’intention et l’effet",
+            "L’équipe documente la continuité avec l’univers GNX. Mon interprétation : cette économie de structure permet de rendre les transitions lisibles à l’échelle d’un stade, tout en gardant des identités distinctes. L’image d’illustration ci-dessus ne montre pas ce spectacle ; les détails sont à vérifier dans les sources du projet."
+          ]
+        ],
+        "takeaway": "Un décor partagé peut devenir un outil narratif : ce n’est pas seulement sa forme qui compte, mais la façon dont chaque artiste le transforme.",
+        "tip": "Dessiner un plateau fixe, puis inventer deux univers contrastés en ne changeant que lumière, accessoires et contenus d’écran."
+      },
+      "sources": [
+        {
+          "label": "Publication originale de Mike Carson",
+          "url": "https://www.linkedin.com/posts/mikecarson92_grand-national-tour-stage-design-and-creative-activity-7368684615319871488-vpcD"
+        },
+        {
+          "label": "Portfolio et crédits officiels Mike Carson",
+          "url": "https://www.mikecarson.tv/projects/grand-national-tour"
+        },
+        {
+          "label": "Otra — dispositif scénique et alternance des univers",
+          "url": "https://www.otra.live/shows/grand-national-tour"
+        },
+        {
+          "label": "Image d’illustration — licence et auteur",
+          "url": "https://commons.wikimedia.org/wiki/File:Beach-Please-2022-crowd-stage-lights-night-performance.jpg"
+        }
+      ],
+      "published_at": "2026-11-12T21:00:00+01:00",
+      "editorial_note": "Image générique sous CC BY-SA 4.0 : ne représente pas le spectacle. Publication d'un sujet historique, pas une nouveauté de tournée."
+    },
     {
       "title": "Phish à la Sphere — quand la lumière devient virtuelle",
       "author": "Moment Factory · LinkedIn",
