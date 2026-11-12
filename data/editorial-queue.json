@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-12T16:00:00+01:00",
+  "updated_at": "2026-11-12T20:00:00+01:00",
   "description": "Candidats issus d'une passe réelle, non publiés tant que l'image directe, les droits, les sources, les doublons et la seconde lecture ne sont pas vérifiés.",
   "pipeline": [
     "repere",
@@ -302,10 +302,17 @@
       "url": "https://stufish.com/project/joy-awards-2026/",
       "source": "STUFISH",
       "angle": "Canopée dorée, parois LED coulissantes et tableaux de performance intégrés à une architecture commune",
-      "status": "repere",
+      "status": "enrichi",
       "image_status": "photos_officielles_identifiees_mais_droits_de_republication_et_url_directe_non_verifies",
-      "publication_blocker": "image_https_directe_et_autorisation_non_verifiees",
-      "checked_at": "2026-11-12"
+      "publication_blocker": "URL HTTPS directe de photographie authentique et autorisation de réaffichage non établies.",
+      "checked_at": "2026-11-12",
+      "cross_checked_sources": [
+        {
+          "label": "STUFISH — conception, photos et crédits officiels",
+          "url": "https://stufish.com/project/joy-awards-2026/"
+        }
+      ],
+      "source_details": "STUFISH décrit la canopée rayonnante dorée, les murs LED coulissants, les cylindres LED descendants et les transitions dissimulées. Photographies créditées STUFISH / James Glover / Blackskull. La présence de photos sur un portfolio ne vaut pas autorisation de réaffichage."
     },
     {
       "channel": "main",
@@ -314,10 +321,21 @@
       "source": "KINETIC LIGHTS / ORF",
       "corroboration_url": "https://songcontest.orf.at/story/lichtdesign104",
       "angle": "La lumière devient architecture mobile : 80 treuils et stabilisation pan/tilt",
-      "status": "repere",
+      "status": "enrichi",
       "image_status": "visuel_direct_et_droits_non_verifies",
-      "publication_blocker": "image_https_directe_et_autorisation_non_verifiees",
-      "checked_at": "2026-11-12"
+      "publication_blocker": "Visuel authentique en URL HTTPS directe et droits de réaffichage non établis.",
+      "checked_at": "2026-11-12",
+      "cross_checked_sources": [
+        {
+          "label": "KINETIC LIGHTS — installation officielle",
+          "url": "https://www.kinetic-lights.com/2026-esc-vienna"
+        },
+        {
+          "label": "ORF — conception lumière et chiffres",
+          "url": "https://songcontest.orf.at/story/lichtdesign104"
+        }
+      ],
+      "source_details": "80 treuils rapides, 80 projecteurs Ayrton Rivale et stabilisateurs Gyro Pan/Tilt; scène Florian Wieder, lumière Tim Routledge. ORF confirme 80 treuils et plus de 2100 unités LED/laser."
     },
     {
       "channel": "main",
@@ -325,10 +343,25 @@
       "url": "https://www.etnow.com/news/2026/9/robe-for-tiziano-ferro-stadium-tour",
       "source": "ETNow / Robe",
       "angle": "Écran LED 60 m, portes coulissantes et avancée de 20 m : relier spectacle et captation",
-      "status": "repere",
+      "status": "enrichi",
       "image_status": "visuel_direct_et_droits_non_verifies",
-      "publication_blocker": "image_https_directe_et_autorisation_non_verifiees",
-      "checked_at": "2026-11-12"
+      "publication_blocker": "URL HTTPS directe et autorisation de réaffichage de la photographie Marco Zucchinali non établies.",
+      "checked_at": "2026-11-12",
+      "cross_checked_sources": [
+        {
+          "label": "ETNow — Robe et scénographie",
+          "url": "https://www.etnow.com/news/2026/9/robe-for-tiziano-ferro-stadium-tour"
+        },
+        {
+          "label": "ETNow — interview Giovanni Pinna",
+          "url": "https://www.etnow.com/news/2026/9/tiziano-ferro-stadi-26-tour-enchants-with-help-from-zalight-and-chauvet-professional"
+        },
+        {
+          "label": "Mothergrid — photographie créditée Marco Zucchinali",
+          "url": "https://www.mothergrid.de/licht/robe-movinglights-bei-tiziano-ferros-stadi-26/"
+        }
+      ],
+      "source_details": "Écran LED 60×12 m, portes coulissantes, avancée 20 m; collaboration Giò Forma, Comix, Giovanni Pinna. Photographie du projet attribuée à Marco Zucchinali par Mothergrid."
     }
   ],
   "instagram_candidates": [],
