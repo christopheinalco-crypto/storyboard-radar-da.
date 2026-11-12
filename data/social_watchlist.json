@@ -6,7 +6,7 @@
     "linkedin": 50,
     "instagram": 50,
     "total": 100,
-    "profiles_with_grounded_urls": 15
+    "profiles_with_grounded_urls": 17
   },
   "status_note": "100 pistes nommées; seules les entrées avec profile_url sont identifiées, et l'activité récente ainsi que l'accès aux publications ne sont pas vérifiés pour la totalité. Aucun automatisme de collecte n'est activé par cette liste.",
   "rules": [
@@ -132,13 +132,14 @@
     {
       "name": "TAIT",
       "platform": "LinkedIn",
-      "profile_url": null,
-      "status": "candidate",
+      "profile_url": "https://www.linkedin.com/company/tait-towers",
+      "status": "profile_verified_recent_posts_visible",
       "priority": "P1",
       "focus": "concerts, clips, scénographie, shows et processus de création",
       "social_only": true,
-      "needs_recent_post_check": true,
-      "direct_posts_to_collect": []
+      "needs_recent_post_check": false,
+      "direct_posts_to_collect": [],
+      "last_checked": "2026-11-12"
     },
     {
       "name": "Moment Factory",
@@ -287,13 +288,14 @@
     {
       "name": "Disguise",
       "platform": "LinkedIn",
-      "profile_url": null,
-      "status": "candidate",
+      "profile_url": "https://www.linkedin.com/company/disguise-",
+      "status": "profile_verified_recent_posts_visible",
       "priority": "P2",
       "focus": "théâtre, show TV, fabrication et presse spécialisée",
       "social_only": true,
-      "needs_recent_post_check": true,
-      "direct_posts_to_collect": []
+      "needs_recent_post_check": false,
+      "direct_posts_to_collect": [],
+      "last_checked": "2026-11-12"
     },
     {
       "name": "ROE Visual",
@@ -1124,7 +1126,7 @@
   ],
   "verification_progress": {
     "checked_on": "2026-11-12",
-    "notes": "Vérification progressive. Un profil public existant n'assure pas que ses posts soient accessibles automatiquement. Activité récente visible sur LinkedIn STUFISH et Moment Factory; compte Instagram Moment Factory lié par son Linktree officiel, activité Instagram non confirmée.",
-    "remaining_without_url": 85
+    "notes": "17 profils avec URL. TAIT et Disguise ajoutés après contrôle de leurs pages LinkedIn publiques et de publications visibles ; liens directs des posts, dates exactes et réutilisation des visuels restent à qualifier. Les autres profils restent à vérifier.",
+    "remaining_without_url": 83
   }
 }
