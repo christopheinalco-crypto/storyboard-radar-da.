@@ -1133,5 +1133,41 @@
       }
     ],
     "tip": "Sur un croquis de scène, dessine une ligne vidéo centrale puis prolonge deux de ses axes avec des projecteurs latéraux. Compare l'effet avec un écran isolé."
+  },
+  "https://www.d-labs.fr/projets/aya-nakamura": {
+    "intro": "Regarde cette image du Stade de France : Aya est allongée dans un portrait noir et blanc immense, posé au-dessus d'un bloc lumineux. La scène ne cherche pas à reproduire sa taille réelle. Elle transforme ==son image en architecture==, et le public regarde à la fois une artiste et un personnage monumental.",
+    "points": [
+      [
+        "Un portrait qui prend la place du décor",
+        "Sur la photographie publiée par D/LABS, le corps filmé occupe presque toute la largeur du bloc central. En dessous, des marches et des lignes lumineuses prolongent sa géométrie. L'écran n'est donc pas un rectangle ajouté à côté de la scène : il organise sa composition."
+      ],
+      [
+        "La caméra fait partie de la mise en scène",
+        "D/LABS documente la création et le pilotage d'une partie des contenus médias en temps réel, en coordination avec la réalisation. Ce qui est attesté, c'est cette intégration des images live au show. Notre lecture DA : passer d'une personne réelle à son double géant donne au concert une échelle presque cinématographique."
+      ],
+      [
+        "Le contraste crée une hiérarchie immédiate",
+        "Le portrait clair ressort sur un environnement sombre. Le public, visible au bas du cadre, donne la mesure du dispositif. Hypothèse perceptive : ce contraste dirige le regard vers l'artiste avant de laisser découvrir l'architecture et la foule."
+      ]
+    ],
+    "takeaway": "==Une image live peut construire l'espace==. Pour un concert, pose la question autrement : où la caméra doit-elle apparaître pour renforcer la dramaturgie, plutôt que simplement montrer le chanteur de plus près ?",
+    "source": "D/LABS — portfolio Aya Nakamura / Stade de France (mai 2026)",
+    "source_url": "https://www.d-labs.fr/projets/aya-nakamura",
+    "verified": true,
+    "editorial_review": [
+      {
+        "url": "https://www.d-labs.fr/projets/aya-nakamura",
+        "locator": "Texte du portfolio : création, coordination et diffusion des médias en temps réel, avec la réalisation"
+      },
+      {
+        "url": "https://www.d-labs.fr/projets/aya-nakamura",
+        "locator": "Crédits du portfolio : D/LABS, scénographie High Scream, direction artistique et mise en scène"
+      },
+      {
+        "url": "https://www.d-labs.fr/projets/aya-nakamura",
+        "locator": "Photographie de la galerie officielle : portrait géant noir et blanc au-dessus du bloc scénique et public visible"
+      }
+    ],
+    "tip": "Dessine deux versions d'une scène : écran IMAG latéral puis image intégrée au décor. Dans laquelle le portrait de l'artiste change-t-il vraiment l'espace ?"
   }
 }
