@@ -1249,5 +1249,41 @@
       }
     ],
     "tip": "Dessine trois états d'un même plateau : fermé, ouvert, puis déplacé vers le public. Chaque transformation doit changer l'attention, pas seulement l'apparence."
+  },
+  "https://fraystudio.com/projects/olivia-dean-2026": {
+    "intro": "Regarde le rideau derrière Olivia Dean : son portrait y apparaît en grand, mais ce n'est pas un écran rectangulaire ajouté au plateau. **L'image épouse le tissu et reste dans l'espace des musiciens.** C'est une décision simple, avec un effet majeur sur la façon de regarder le concert.",
+    "points": [
+      [
+        "La caméra ne vole plus le regard",
+        "FRAY et 1826 ont choisi de projeter les images live sur des drapés courbes plutôt que sur les écrans latéraux habituels. L'intention documentée : conserver l'attention autour de l'artiste et de son groupe, même depuis le fond de l'arène."
+      ],
+      [
+        "La matière change le statut du portrait",
+        "Les plis du rideau font passer le gros plan de la logique télévisuelle à une présence scénique. Sur la photo de Manchester, le portrait monumental répond au corps réel d'Olivia. Hypothèse de lecture : cette superposition peut amplifier la proximité sans séparer l'interprète de son environnement."
+      ],
+      [
+        "Le traitement est pensé chanson par chanson",
+        "FRAY décrit des flux caméra étalonnés en temps réel avec LUT et Notch, puis projetés par un système Disguise. Ce n'est donc pas seulement un choix de support : la couleur et la texture de l'image accompagnent les variations musicales."
+      ]
+    ],
+    "takeaway": "Quand tu conçois la captation d'un concert, demande-toi d'abord **où l'image doit vivre**. Un gros plan n'a pas forcément besoin de sortir du décor pour devenir lisible.",
+    "source": "FRAY Studio ; Disguise ; Live Design, juin 2026",
+    "source_url": "https://fraystudio.com/projects/olivia-dean-2026",
+    "verified": true,
+    "editorial_review": [
+      {
+        "url": "https://fraystudio.com/projects/olivia-dean-2026",
+        "locator": "FRAY : rideau incurvé, caméras en temps réel, LUT/Notch"
+      },
+      {
+        "url": "https://www.disguise.one/en/insights/news/fray-studio-and-disguise-drive-cinematic-live-camera-projection-olivia-deans-art",
+        "locator": "Disguise : photo d'Anthony Mooney et description du système"
+      },
+      {
+        "url": "https://www.livedesignonline.com/news/fray-studio-and-disguise-drive-cinematic-live-camera-projection-olivia-deans-art-loving-tour",
+        "locator": "Live Design : serveurs, projection et intentions citées"
+      }
+    ],
+    "tip": "Dessine un plateau avec deux écrans latéraux, puis remplace-les par une surface textile déjà intégrée au décor. Compare les trajectoires du regard."
   }
 }
