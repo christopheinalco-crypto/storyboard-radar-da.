@@ -1,6 +1,139 @@
 {
-  "updated_at": "2026-11-12T21:00:00+01:00",
+  "updated_at": "2026-11-12T22:00:00+01:00",
   "items": [
+    {
+      "title": "The Rise — la lumière découpe des groupes dans le mouvement",
+      "author": "Lumiverse Design · LinkedIn",
+      "category": "15 Scène Spectacle",
+      "url": "https://fr.linkedin.com/posts/lumiverse-design_lightingdesign-spectaclevivant-activity-7504967619586912256-HFQ5",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/A%20band%20plays%20on%20stage%20while%20a%20singer%20engages%20the%20audience%20in%20a%20bustling%20downtown%20venue%20filled%20with%20colorful%20lights.jpg",
+      "image_caption": "Image d’illustration — ne représente pas The Rise. Shixart1985, CC BY 2.0.",
+      "image_credit": "Shixart1985 / Wikimedia Commons, CC BY 2.0",
+      "analysis": {
+        "intro": "Sur The Rise, **la lumière ne se contente pas d’éclairer les danseurs : elle organise leur présence dans l’espace**. Une scène de groupe peut ainsi devenir une composition presque sculpturale.",
+        "points": [
+          [
+            "Un volume lisible dans la brume",
+            "La publication de Lumiverse décrit un décor monumental, des faisceaux verticaux et obliques, des silhouettes à plusieurs niveaux et de la brume au sol. Ces choix séparent les plans et rendent les positions du groupe perceptibles."
+          ],
+          [
+            "La composition évolue avec la danse",
+            "Les tableaux documentés alternent une ambiance bleue froide et des scènes plus chaudes. Hypothèse DA : la lumière aide à faire passer le spectateur d’une lecture de masse collective à des relations plus intimes entre interprètes."
+          ],
+          [
+            "Ne pas confondre indice et intention",
+            "Le studio confirme son travail de conception lumière et de prévisualisation 3D, tandis que RB Dance Company signe la direction du show. Le sens dramaturgique précis des changements reste une interprétation. L’image de cette carte est générique, pas tirée du spectacle."
+          ]
+        ],
+        "takeaway": "La lumière peut être un outil de composition chorégraphique : elle relie ou isole les corps sans déplacer les éléments du décor.",
+        "tip": "Photographier le même groupe en éclairage frontal, puis en contre-jour latéral, et comparer la lecture des volumes."
+      },
+      "sources": [
+        {
+          "label": "Publication originale Lumiverse — The Rise",
+          "url": "https://fr.linkedin.com/posts/lumiverse-design_lightingdesign-spectaclevivant-activity-7504967619586912256-HFQ5"
+        },
+        {
+          "label": "Portfolio Lumiverse — The Rise",
+          "url": "https://www.lumiversedesign.com/"
+        },
+        {
+          "label": "Illustration libre et licence",
+          "url": "https://commons.wikimedia.org/wiki/File:A_band_plays_on_stage_while_a_singer_engages_the_audience_in_a_bustling_downtown_venue_filled_with_colorful_lights.jpg"
+        }
+      ],
+      "published_at": "2026-11-12T22:00:00+01:00"
+    },
+    {
+      "title": "Kalash — adapter un même langage lumière à plusieurs salles",
+      "author": "Lumiverse Design · LinkedIn",
+      "category": "01 Spectacle Concert",
+      "url": "https://fr.linkedin.com/posts/lumiverse-design_lightingdesign-showdesign-activity-7504967261976199168-9B9c",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Musicians%20perform%20on%20stage%20during%20live%20concert.jpg",
+      "image_caption": "Image d’illustration — ne représente pas Kalash. Shixart1985, CC BY 2.0.",
+      "image_credit": "Shixart1985 / Wikimedia Commons, CC BY 2.0",
+      "analysis": {
+        "intro": "Ce qui m’intéresse dans le travail de Lumiverse pour Kalash, ce n’est pas une couleur : c’est **la capacité d’un vocabulaire lumineux à changer d’échelle** entre La Cigale, l’Olympia, les festivals et une grande salle.",
+        "points": [
+          [
+            "Le cercle comme point d’ancrage",
+            "Les images décrites dans la publication de Lumiverse montrent un écran circulaire central, autour duquel se déploient des faisceaux en éventail. Cette géométrie offre un centre identifiable même quand la largeur et la profondeur de scène varient."
+          ],
+          [
+            "Prévoir avant de déplacer",
+            "Le studio documente la conception lumière et la prévisualisation 3D sur les différentes configurations, ainsi que sa scénographie à La Cigale et à l’Olympia. Ce n’est pas une seule implantation copiée partout : les contraintes des lieux demandent des adaptations."
+          ],
+          [
+            "L’effet recherché, sous réserve",
+            "Mon hypothèse : préserver une signature visuelle tout en adaptant l’ampleur du dispositif aide à maintenir l’identité du show. La photo présentée est une illustration de concert sans lien avec Kalash ; les indices du projet sont dans le post et le portfolio."
+          ]
+        ],
+        "takeaway": "Un système visuel solide conserve ses repères principaux lorsqu’il change de lieu : la cohérence ne signifie pas l’identité des implantations.",
+        "tip": "Dessiner la même composition lumineuse dans trois scènes de largeurs différentes et noter ce qui doit rester constant."
+      },
+      "sources": [
+        {
+          "label": "Publication originale Lumiverse Design",
+          "url": "https://fr.linkedin.com/posts/lumiverse-design_lightingdesign-showdesign-activity-7504967261976199168-9B9c"
+        },
+        {
+          "label": "Portfolio officiel Lumiverse",
+          "url": "https://www.lumiversedesign.com/"
+        },
+        {
+          "label": "Illustration libre et licence",
+          "url": "https://commons.wikimedia.org/wiki/File:Musicians_perform_on_stage_during_live_concert.jpg"
+        }
+      ],
+      "published_at": "2026-11-12T22:00:00+01:00"
+    },
+    {
+      "title": "Céline Dion — des monolithes qui semblent peser des tonnes",
+      "author": "TAIT · LinkedIn",
+      "category": "09 Scénographie",
+      "url": "https://www.linkedin.com/posts/tait-towers_what-an-impressive-comeback-for-celine-dion-activity-7504834955005505536-WEQt",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/A%20large%20crowd%20enjoys%20a%20music%20concert%20illuminated%20by%20colorful%20lights%20and%20a%20stunning%20stage%20display.jpg",
+      "image_caption": "Image d’illustration — ne représente pas le spectacle de Céline Dion. Shixart1985, CC BY 2.0.",
+      "image_credit": "Shixart1985 / Wikimedia Commons, CC BY 2.0",
+      "analysis": {
+        "intro": "Trois masses presque minérales qui se déplacent : **le décor paraît lourd, mais sa fabrication lui permet de danser**. Le retour scénique de Céline Dion utilise cette contradiction pour transformer l’espace sans empiler les accessoires.",
+        "points": [
+          [
+            "La masse est une illusion construite",
+            "TAIT documente des chariots motorisés portant des monolithes gonflables réalisés par Airworks. Les volumes semblent faits de pierre, mais leur légèreté relative permet des déplacements répétés. Le matériau est donc un choix de mise en scène autant qu’une solution technique."
+          ],
+          [
+            "Le mouvement écrit les actes",
+            "Le communiqué officiel de Céline Dion explique que ces structures s’ouvrent, se ferment et se transforment au cours du spectacle. La scène ne change pas de décor : **elle recompose sa propre architecture**. Willo Perron relie ce dispositif aux différentes étapes de la carrière de la chanteuse."
+          ],
+          [
+            "Ce que ça produit",
+            "Hypothèse de lecture : le public perçoit la puissance de la pierre, mais voit l’espace respirer autour de l’interprète. La photo de cette carte est une illustration générique, pas une preuve visuelle de ce mécanisme."
+          ]
+        ],
+        "takeaway": "La matérialité perçue d’un décor peut être l’inverse de sa matérialité réelle. Cette contradiction rend possible un effet spectaculaire sans perdre la mobilité.",
+        "tip": "Comparer trois matières légères capables d’imiter une masse lourde, puis tester comment le mouvement change la perception du volume."
+      },
+      "sources": [
+        {
+          "label": "TAIT — publication de fabrication",
+          "url": "https://www.linkedin.com/posts/tait-towers_what-an-impressive-comeback-for-celine-dion-activity-7504834955005505536-WEQt"
+        },
+        {
+          "label": "Céline Dion — description officielle du show",
+          "url": "https://www.celinedion.com/news/celine-dion-lights-up-paris-on-the-opening-night-of-her-celine-dion-paris-2026-shows/"
+        },
+        {
+          "label": "Wallpaper — analyse de la scénographie",
+          "url": "https://www.wallpaper.com/design-interiors/celine-dion-paris-stage-willo-perron-2026"
+        },
+        {
+          "label": "Illustration libre et licence",
+          "url": "https://commons.wikimedia.org/wiki/File:A_large_crowd_enjoys_a_music_concert_illuminated_by_colorful_lights_and_a_stunning_stage_display.jpg"
+        }
+      ],
+      "published_at": "2026-11-12T22:00:00+01:00"
+    },
     {
       "title": "TWICE — THIS IS FOR : une scène qui n’a plus de dos",
       "author": "Moment Factory · LinkedIn",
