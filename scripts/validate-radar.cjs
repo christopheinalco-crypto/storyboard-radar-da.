@@ -32,7 +32,12 @@ for (const [i, item] of (Array.isArray(entries) ? entries : []).entries()) {
       typeof a.takeaway !== 'string' || !a.takeaway.trim()) errors.push('incomplete analysis: ' + item.url);
 }
 for (const [i, item] of (Array.isArray(social.items) ? social.items : []).entries()) {
-  if (!item || typeof item !== 'object') errors.push('invalid social item: ' + i);
+  if (!item || typeof item !== 'object') { errors.push('invalid social item: ' + i); continue; }
+  const publishedAt = Date.parse(item.published_at || '');
+  const requiresImage = Number.isFinite(publishedAt) && publishedAt >= Date.parse('2026-11-12T00:00:00+01:00');
+  if (requiresImage && !/^https:\/\//i.test(item.image || ''))
+    errors.push('social item ' + i + ': new post missing verified HTTPS image: ' + item.url);
+  if (item.image && !/^https:\/\//i.test(item.image)) errors.push('social item ' + i + ': invalid HTTPS image URL');
 }
 if (!entries?.length) errors.push('empty main feed');
 if (!Object.keys(analyses).length) errors.push('empty analyses');
