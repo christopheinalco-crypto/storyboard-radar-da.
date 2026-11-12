@@ -1321,5 +1321,41 @@
       }
     ],
     "tip": "Comparer deux compositions : caméra du public sur un écran brut, puis caméra intégrée à une animation. Quel rôle donne-t-on au spectateur ?"
+  },
+  "https://stufish.com/project/sabrina-carpenter-3/": {
+    "intro": "Regarde cette colline verte au milieu de Coachella. Ce n'est pas une décoration géante posée derrière Sabrina Carpenter. STUFISH a conçu **un morceau d'Hollywood qui se démonte et se recompose pendant le show**. Le concert fonctionne alors comme un film dont chaque chanson ouvre un nouveau lieu.",
+    "points": [
+      [
+        "Un paysage qui contient des scènes",
+        "La colline cache des espaces de jeu : audition, studio d'enregistrement, bar. Les éléments tournent et glissent pour révéler ces lieux. Le spectateur n'attend pas un changement de décor hors champ : la transformation est intégrée au spectacle."
+      ],
+      [
+        "Le cinéma devient une grammaire scénique",
+        "Le drive-in, les voitures anciennes, le Walk of Fame et le grand panneau Sabrinawood construisent un même univers. L'intention est documentée par STUFISH : raconter une fiction hollywoodienne, plutôt que juxtaposer des tableaux pop."
+      ],
+      [
+        "La photo montre une partie, pas tout",
+        "Le cliché de Wallpaper montre les collines en gradins et les danseurs qui les habitent. Il ne montre pas les changements mécaniques, décrits sur la page du studio. Cette distinction est importante : l'image confirme la géographie du plateau, la source primaire confirme son mouvement."
+      ]
+    ],
+    "takeaway": "Un décor peut être un **système de lieux**. Pour une direction artistique narrative, pense les transitions entre ces lieux aussi soigneusement que leur apparence.",
+    "source": "STUFISH, Coachella 2026 ; Wallpaper*, analyse des scènes du festival ; Pitchfork",
+    "source_url": "https://stufish.com/project/sabrina-carpenter-3/",
+    "verified": true,
+    "editorial_review": [
+      {
+        "url": "https://stufish.com/project/sabrina-carpenter-3/",
+        "locator": "STUFISH : concept Sabrinawood, pièces rotatives, lieux et séquences"
+      },
+      {
+        "url": "https://www.wallpaper.com/art/music/best-coachella-stage-design-2026",
+        "locator": "Photo des collines et analyse Coachella"
+      },
+      {
+        "url": "https://pitchfork.com/news/watch-sabrina-carpenter-headline-the-first-night-of-coachella-2026/",
+        "locator": "Compte rendu de la performance"
+      }
+    ],
+    "tip": "Écrire trois chansons comme trois lieux d'un film, puis dessiner la transformation du décor entre les trois sans noir plateau."
   }
 }
