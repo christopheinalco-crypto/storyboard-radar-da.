@@ -1285,5 +1285,41 @@
       }
     ],
     "tip": "Dessine un plateau avec deux écrans latéraux, puis remplace-les par une surface textile déjà intégrée au décor. Compare les trajectoires du regard."
+  },
+  "https://fraystudio.com/projects/louis-tomlinson-2026": {
+    "intro": "Dans cette tournée, le dispositif ne se contente pas de projeter Louis Tomlinson en grand. FRAY explique avoir intégré les images du public aux univers visuels du show. **Le spectateur cesse d'être seulement celui qui regarde : il devient une matière de l'image.**",
+    "points": [
+      [
+        "Une caméra qui fabrique un monde",
+        "Le studio mélange animations originales et captation en temps réel dans Resolume. Les flux caméra sont composités avec des images colorées et des paysages psychédéliques : on ne voit plus seulement la scène, on voit une interprétation visuelle du moment."
+      ],
+      [
+        "Un voyage plutôt qu'un fond animé",
+        "Le concept revendiqué par FRAY part de la question How Did I Get Here? et des thèmes du déplacement et des réalités changeantes. L'image n'est donc pas un papier peint : elle cherche à matérialiser une évolution personnelle. C'est l'intention documentée ; la façon dont chaque fan la ressent reste une hypothèse."
+      ],
+      [
+        "Une photo à lire avec prudence",
+        "La photo de presse choisie montre bien la tournée 2026, mais pas la composition live du public dans les écrans. Pour voir précisément ce mécanisme, il faut ouvrir la galerie du studio FRAY. Le visuel sert ici de repère authentique, non de preuve complète de l'analyse."
+      ]
+    ],
+    "takeaway": "Quand tu intègres une caméra live dans un décor, demande-toi si tu veux **montrer** le public ou le faire **participer à l'univers visuel**. Ce n'est pas la même décision de DA.",
+    "source": "FRAY Studio ; Otra ; photographie de presse du concert à Hambourg",
+    "source_url": "https://fraystudio.com/projects/louis-tomlinson-2026",
+    "verified": true,
+    "editorial_review": [
+      {
+        "url": "https://fraystudio.com/projects/louis-tomlinson-2026",
+        "locator": "FRAY : Resolume, camera effects, intégration du public et thème du voyage"
+      },
+      {
+        "url": "https://www.otra.live/shows/how-did-i-get-here-louis-tomlinson",
+        "locator": "Otra : équipe créative et tournée"
+      },
+      {
+        "url": "https://es-us.vida-estilo.yahoo.com/louis-tomlinson-rinde-homenaje-fallecido-164822250.html",
+        "locator": "Photographie du même spectacle, à Hambourg"
+      }
+    ],
+    "tip": "Comparer deux compositions : caméra du public sur un écran brut, puis caméra intégrée à une animation. Quel rôle donne-t-on au spectateur ?"
   }
 }
