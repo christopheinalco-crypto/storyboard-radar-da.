@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-12T06:58:30.091Z",
+  "updated_at": "2026-11-12T07:01:13.066Z",
   "status": "editorial_reviewed",
   "working_feeds": [
     {
@@ -454,6 +454,21 @@
     "with_images": 82
   },
   "items": [
+    {
+      "title": "GIMS à Lille — quand la lumière sort de l'écran",
+      "title_fr": "GIMS à Lille — quand la lumière sort de l'écran",
+      "url": "https://www.soundlightup.com/flash-and-news/gims-enflamme-le-stade-pierre-mauroy-avec-plus-de-500-projecteurs-claypaky.html",
+      "category": "15 Scène Spectacle",
+      "source": "SoundLightUp / Claypaky / DIMATEC (LinkedIn)",
+      "published": "2026-11-02",
+      "summary": "À Lille, Maxime Tisseuil prolonge les images du fond de scène par des lignes lumineuses mobiles. Le dispositif transforme l'écran et les côtés du plateau en une seule géométrie.",
+      "summary_fr": "À Lille, Maxime Tisseuil prolonge les images du fond de scène par des lignes lumineuses mobiles. Le dispositif transforme l'écran et les côtés du plateau en une seule géométrie.",
+      "image": "https://www.stade-pierre-mauroy.com/images/slider170/GIMS_LIVEREPLAY13.jpeg",
+      "image_credit": "Concert de GIMS à Lille, juin 2026 — photo officielle du Stade Pierre-Mauroy. Vue public ; les détails du dispositif lumière sont documentés par SoundLightUp.",
+      "image_source_url": "https://www.stade-pierre-mauroy.com/presentation/live-replay/live-replay-concert/gims-juin-2026",
+      "status": "editorial_reviewed",
+      "added_at": "2026-11-12T07:01:13.061Z"
+    },
     {
       "title": "MISSU — Sweat : le vestiaire devient une scène de danse",
       "title_fr": "MISSU — Sweat : le vestiaire devient une scène de danse",
