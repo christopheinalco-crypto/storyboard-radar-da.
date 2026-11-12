@@ -1,6 +1,6 @@
 {
   "description": "Cumulative seen-project register; retain entries when projects leave the live feed; compare URL and semantic identity.",
-  "updated": "2026-11-11",
+  "updated": "2026-11-12T07:41:56.579Z",
   "projects": [
     {
       "url": "https://www.atelier-lumieres.com/fr/programmation/indochine-arena-tour-le-show-immersif",
@@ -213,6 +213,11 @@
     {
       "url": "https://fr.linkedin.com/posts/lise-texier_d%C3%A9cor-sc%C3%A9nographie-concert-activity-7513607439850754048-B669",
       "title": "Les Vulves Assassines — décor de La Cigale",
+      "category": "15 Scène Spectacle"
+    },
+    {
+      "url": "https://www.d-labs.fr/projets/aya-nakamura",
+      "title": "Aya Nakamura — quand le portrait géant devient une architecture",
       "category": "15 Scène Spectacle"
     }
   ]
