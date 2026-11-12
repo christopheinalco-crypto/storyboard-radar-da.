@@ -1,82 +1,682 @@
 {
-  "version": 1,
+  "version": 2,
   "updated": "2026-11-12",
-  "purpose": "Veille sociale complémentaire, distincte des sources articles data/sources.json",
-  "rules": {
-    "priorities": [
-      "concerts et tournées",
-      "clips",
-      "spectacles et performances",
-      "scénographie et set design",
-      "lancements spectaculaires",
-      "shows TV"
-    ],
-    "require_direct_post_url": true,
-    "require_authentic_project_visual": true,
-    "require_cross_check": true,
-    "dedupe_against_articles_by_project": true,
-    "no_automatic_scraping_claim": true,
-    "do_not_publish_without_verification": true
+  "scope": "Social watchlist distincte de la veille articles; un compte n'est pas une publication",
+  "counts": {
+    "linkedin": 30,
+    "instagram": 30,
+    "total": 60,
+    "profiles_with_grounded_urls": 12
   },
+  "status_note": "Les candidats sans URL ne sont pas des comptes vérifiés ni des sources opérationnelles. Vérifier profil, activité récente et accès aux posts avant activation.",
+  "rules": [
+    "Priorités: concerts/tournées, clips, spectacles, scénographie, grands lancements, shows TV",
+    "Une publication doit avoir un lien direct vers un post, un visuel authentique et un projet précis",
+    "Vérifier l'activité récente de chaque compte et conserver la date du dernier post consulté",
+    "Dédupliquer les projets avec data/feed.json et data/analyses.json",
+    "Ne jamais annoncer 60 comptes actifs : seuls les profils vérifiés et accessibles sont opérationnels",
+    "Ne pas modifier la collecte des articles ni l'interface"
+  ],
   "accounts": [
     {
       "name": "Seconde Design",
       "platform": "LinkedIn",
       "profile_url": "https://fr.linkedin.com/showcase/seconde-design/",
-      "focus": [
-        "scénographie concerts",
-        "set design",
-        "création lumière"
-      ],
+      "status": "verified",
       "priority": "P1",
-      "status": "profile_verified",
-      "distinct_value": "posts de conception, scènes et processus"
+      "focus": "concerts, clips, scénographie, shows et processus de création",
+      "social_only": true,
+      "needs_recent_post_check": false,
+      "direct_posts_to_collect": []
     },
     {
       "name": "CUTBACK LIVE",
       "platform": "LinkedIn",
       "profile_url": "https://fr.linkedin.com/company/cutback-productions",
-      "focus": [
-        "scénographie vidéo",
-        "tournées",
-        "shows TV"
-      ],
+      "status": "verified",
       "priority": "P1",
-      "status": "profile_verified",
-      "distinct_value": "crédits de production et images de projets"
+      "focus": "concerts, clips, scénographie, shows et processus de création",
+      "social_only": true,
+      "needs_recent_post_check": false,
+      "direct_posts_to_collect": []
     },
     {
       "name": "LUMIVERSE DESIGN",
       "platform": "LinkedIn",
       "profile_url": "https://fr.linkedin.com/company/lumiverse-design",
-      "focus": [
-        "lumière concerts",
-        "prévisualisation 3D",
-        "scénographie"
-      ],
+      "status": "verified",
       "priority": "P1",
-      "status": "profile_verified",
-      "distinct_value": "comparaison rendu scénique et prévisualisation"
-    }
-  ],
-  "candidates_to_verify": [
+      "focus": "concerts, clips, scénographie, shows et processus de création",
+      "social_only": true,
+      "needs_recent_post_check": false,
+      "direct_posts_to_collect": []
+    },
     {
-      "name": "Alien le studio",
-      "reason": "Scénographie et lumière tournée Tiakola; trouver profils officiels",
-      "reference": "https://www.tpimagazine.com/meet-creative-team-pushing-automation-boundaries-for-tiakolas-m3lo-world-tour/"
+      "name": "Seconde Team",
+      "platform": "LinkedIn",
+      "profile_url": "https://fr.linkedin.com/company/seconde-team",
+      "status": "verified",
+      "priority": "P1",
+      "focus": "concerts, clips, scénographie, shows et processus de création",
+      "social_only": true,
+      "needs_recent_post_check": false,
+      "direct_posts_to_collect": []
+    },
+    {
+      "name": "OBO",
+      "platform": "LinkedIn",
+      "profile_url": "https://fr.linkedin.com/company/oboglobal",
+      "status": "verified",
+      "priority": "P1",
+      "focus": "concerts, clips, scénographie, shows et processus de création",
+      "social_only": true,
+      "needs_recent_post_check": false,
+      "direct_posts_to_collect": []
+    },
+    {
+      "name": "TETRO",
+      "platform": "LinkedIn",
+      "profile_url": "https://fr.linkedin.com/company/tetro",
+      "status": "verified",
+      "priority": "P1",
+      "focus": "concerts, clips, scénographie, shows et processus de création",
+      "social_only": true,
+      "needs_recent_post_check": false,
+      "direct_posts_to_collect": []
+    },
+    {
+      "name": "VANDALES!",
+      "platform": "LinkedIn",
+      "profile_url": "https://fr.linkedin.com/company/vandales",
+      "status": "verified",
+      "priority": "P1",
+      "focus": "concerts, clips, scénographie, shows et processus de création",
+      "social_only": true,
+      "needs_recent_post_check": false,
+      "direct_posts_to_collect": []
+    },
+    {
+      "name": "DUSHOW",
+      "platform": "LinkedIn",
+      "profile_url": "https://fr.linkedin.com/company/dushow",
+      "status": "verified",
+      "priority": "P1",
+      "focus": "concerts, clips, scénographie, shows et processus de création",
+      "social_only": true,
+      "needs_recent_post_check": false,
+      "direct_posts_to_collect": []
+    },
+    {
+      "name": "D / Labs",
+      "platform": "LinkedIn",
+      "profile_url": "https://fr.linkedin.com/posts/dlabs_d-labs-on-instagram-souvenirs-de-ninhosdt-activity-7377287150670872577-Yz2v",
+      "status": "verified_post",
+      "priority": "P1",
+      "focus": "concerts, clips, scénographie, shows et processus de création",
+      "social_only": true,
+      "needs_recent_post_check": false,
+      "direct_posts_to_collect": []
+    },
+    {
+      "name": "STUFISH",
+      "platform": "LinkedIn",
+      "profile_url": null,
+      "status": "candidate",
+      "priority": "P1",
+      "focus": "concerts, clips, scénographie, shows et processus de création",
+      "social_only": true,
+      "needs_recent_post_check": true,
+      "direct_posts_to_collect": []
+    },
+    {
+      "name": "TAIT",
+      "platform": "LinkedIn",
+      "profile_url": null,
+      "status": "candidate",
+      "priority": "P1",
+      "focus": "concerts, clips, scénographie, shows et processus de création",
+      "social_only": true,
+      "needs_recent_post_check": true,
+      "direct_posts_to_collect": []
+    },
+    {
+      "name": "Moment Factory",
+      "platform": "LinkedIn",
+      "profile_url": null,
+      "status": "candidate",
+      "priority": "P1",
+      "focus": "concerts, clips, scénographie, shows et processus de création",
+      "social_only": true,
+      "needs_recent_post_check": true,
+      "direct_posts_to_collect": []
+    },
+    {
+      "name": "59 Productions",
+      "platform": "LinkedIn",
+      "profile_url": null,
+      "status": "candidate",
+      "priority": "P1",
+      "focus": "concerts, clips, scénographie, shows et processus de création",
+      "social_only": true,
+      "needs_recent_post_check": true,
+      "direct_posts_to_collect": []
+    },
+    {
+      "name": "Silent House",
+      "platform": "LinkedIn",
+      "profile_url": null,
+      "status": "candidate",
+      "priority": "P1",
+      "focus": "concerts, clips, scénographie, shows et processus de création",
+      "social_only": true,
+      "needs_recent_post_check": true,
+      "direct_posts_to_collect": []
+    },
+    {
+      "name": "Treatment Studio",
+      "platform": "LinkedIn",
+      "profile_url": null,
+      "status": "candidate",
+      "priority": "P1",
+      "focus": "concerts, clips, scénographie, shows et processus de création",
+      "social_only": true,
+      "needs_recent_post_check": true,
+      "direct_posts_to_collect": []
+    },
+    {
+      "name": "Es Devlin Studio",
+      "platform": "LinkedIn",
+      "profile_url": null,
+      "status": "candidate",
+      "priority": "P1",
+      "focus": "concerts, clips, scénographie, shows et processus de création",
+      "social_only": true,
+      "needs_recent_post_check": true,
+      "direct_posts_to_collect": []
     },
     {
       "name": "High Scream",
-      "reason": "Show design concerts et musique électronique; vérifier profils sociaux",
-      "reference": "https://www.otra.live/companies/high-scream"
+      "platform": "LinkedIn",
+      "profile_url": null,
+      "status": "candidate",
+      "priority": "P1",
+      "focus": "concerts, clips, scénographie, shows et processus de création",
+      "social_only": true,
+      "needs_recent_post_check": true,
+      "direct_posts_to_collect": []
+    },
+    {
+      "name": "Alien le studio",
+      "platform": "LinkedIn",
+      "profile_url": null,
+      "status": "candidate",
+      "priority": "P1",
+      "focus": "concerts, clips, scénographie, shows et processus de création",
+      "social_only": true,
+      "needs_recent_post_check": true,
+      "direct_posts_to_collect": []
+    },
+    {
+      "name": "Live Design",
+      "platform": "LinkedIn",
+      "profile_url": null,
+      "status": "candidate",
+      "priority": "P2",
+      "focus": "théâtre, show TV, fabrication et presse spécialisée",
+      "social_only": true,
+      "needs_recent_post_check": true,
+      "direct_posts_to_collect": []
+    },
+    {
+      "name": "TPI Magazine",
+      "platform": "LinkedIn",
+      "profile_url": null,
+      "status": "candidate",
+      "priority": "P2",
+      "focus": "théâtre, show TV, fabrication et presse spécialisée",
+      "social_only": true,
+      "needs_recent_post_check": true,
+      "direct_posts_to_collect": []
+    },
+    {
+      "name": "PLASA",
+      "platform": "LinkedIn",
+      "profile_url": null,
+      "status": "candidate",
+      "priority": "P2",
+      "focus": "théâtre, show TV, fabrication et presse spécialisée",
+      "social_only": true,
+      "needs_recent_post_check": true,
+      "direct_posts_to_collect": []
+    },
+    {
+      "name": "ShowTex",
+      "platform": "LinkedIn",
+      "profile_url": null,
+      "status": "candidate",
+      "priority": "P2",
+      "focus": "théâtre, show TV, fabrication et presse spécialisée",
+      "social_only": true,
+      "needs_recent_post_check": true,
+      "direct_posts_to_collect": []
+    },
+    {
+      "name": "Creative Technology",
+      "platform": "LinkedIn",
+      "profile_url": null,
+      "status": "candidate",
+      "priority": "P2",
+      "focus": "théâtre, show TV, fabrication et presse spécialisée",
+      "social_only": true,
+      "needs_recent_post_check": true,
+      "direct_posts_to_collect": []
+    },
+    {
+      "name": "PRG",
+      "platform": "LinkedIn",
+      "profile_url": null,
+      "status": "candidate",
+      "priority": "P2",
+      "focus": "théâtre, show TV, fabrication et presse spécialisée",
+      "social_only": true,
+      "needs_recent_post_check": true,
+      "direct_posts_to_collect": []
+    },
+    {
+      "name": "Disguise",
+      "platform": "LinkedIn",
+      "profile_url": null,
+      "status": "candidate",
+      "priority": "P2",
+      "focus": "théâtre, show TV, fabrication et presse spécialisée",
+      "social_only": true,
+      "needs_recent_post_check": true,
+      "direct_posts_to_collect": []
+    },
+    {
+      "name": "ROE Visual",
+      "platform": "LinkedIn",
+      "profile_url": null,
+      "status": "candidate",
+      "priority": "P2",
+      "focus": "théâtre, show TV, fabrication et presse spécialisée",
+      "social_only": true,
+      "needs_recent_post_check": true,
+      "direct_posts_to_collect": []
+    },
+    {
+      "name": "Notch",
+      "platform": "LinkedIn",
+      "profile_url": null,
+      "status": "candidate",
+      "priority": "P2",
+      "focus": "théâtre, show TV, fabrication et presse spécialisée",
+      "social_only": true,
+      "needs_recent_post_check": true,
+      "direct_posts_to_collect": []
+    },
+    {
+      "name": "Theatre Projects",
+      "platform": "LinkedIn",
+      "profile_url": null,
+      "status": "candidate",
+      "priority": "P2",
+      "focus": "théâtre, show TV, fabrication et presse spécialisée",
+      "social_only": true,
+      "needs_recent_post_check": true,
+      "direct_posts_to_collect": []
+    },
+    {
+      "name": "The Stage",
+      "platform": "LinkedIn",
+      "profile_url": null,
+      "status": "candidate",
+      "priority": "P2",
+      "focus": "théâtre, show TV, fabrication et presse spécialisée",
+      "social_only": true,
+      "needs_recent_post_check": true,
+      "direct_posts_to_collect": []
+    },
+    {
+      "name": "BroadwayWorld",
+      "platform": "LinkedIn",
+      "profile_url": null,
+      "status": "candidate",
+      "priority": "P2",
+      "focus": "théâtre, show TV, fabrication et presse spécialisée",
+      "social_only": true,
+      "needs_recent_post_check": true,
+      "direct_posts_to_collect": []
+    },
+    {
+      "name": "TETRO",
+      "platform": "Instagram",
+      "profile_url": "https://www.instagram.com/tetro_agency/",
+      "status": "linked_from_official_linkedin",
+      "priority": "P1",
+      "focus": "concerts, clips, scénographie, shows et processus de création",
+      "social_only": true,
+      "needs_recent_post_check": false,
+      "direct_posts_to_collect": []
+    },
+    {
+      "name": "VANDALES!",
+      "platform": "Instagram",
+      "profile_url": "https://www.instagram.com/vandales_production/",
+      "status": "linked_from_official_linkedin",
+      "priority": "P1",
+      "focus": "concerts, clips, scénographie, shows et processus de création",
+      "social_only": true,
+      "needs_recent_post_check": false,
+      "direct_posts_to_collect": []
+    },
+    {
+      "name": "Guillaume Doubet / THE ONLY G",
+      "platform": "Instagram",
+      "profile_url": "https://www.instagram.com/the_only_g/",
+      "status": "linked_from_official_website",
+      "priority": "P1",
+      "focus": "concerts, clips, scénographie, shows et processus de création",
+      "social_only": true,
+      "needs_recent_post_check": false,
+      "direct_posts_to_collect": []
+    },
+    {
+      "name": "D / Labs",
+      "platform": "Instagram",
+      "profile_url": null,
+      "status": "candidate",
+      "priority": "P1",
+      "focus": "concerts, clips, scénographie, shows et processus de création",
+      "social_only": true,
+      "needs_recent_post_check": true,
+      "direct_posts_to_collect": []
+    },
+    {
+      "name": "STUFISH",
+      "platform": "Instagram",
+      "profile_url": null,
+      "status": "candidate",
+      "priority": "P1",
+      "focus": "concerts, clips, scénographie, shows et processus de création",
+      "social_only": true,
+      "needs_recent_post_check": true,
+      "direct_posts_to_collect": []
+    },
+    {
+      "name": "TAIT",
+      "platform": "Instagram",
+      "profile_url": null,
+      "status": "candidate",
+      "priority": "P1",
+      "focus": "concerts, clips, scénographie, shows et processus de création",
+      "social_only": true,
+      "needs_recent_post_check": true,
+      "direct_posts_to_collect": []
+    },
+    {
+      "name": "Moment Factory",
+      "platform": "Instagram",
+      "profile_url": null,
+      "status": "candidate",
+      "priority": "P1",
+      "focus": "concerts, clips, scénographie, shows et processus de création",
+      "social_only": true,
+      "needs_recent_post_check": true,
+      "direct_posts_to_collect": []
+    },
+    {
+      "name": "59 Productions",
+      "platform": "Instagram",
+      "profile_url": null,
+      "status": "candidate",
+      "priority": "P1",
+      "focus": "concerts, clips, scénographie, shows et processus de création",
+      "social_only": true,
+      "needs_recent_post_check": true,
+      "direct_posts_to_collect": []
+    },
+    {
+      "name": "Es Devlin",
+      "platform": "Instagram",
+      "profile_url": null,
+      "status": "candidate",
+      "priority": "P1",
+      "focus": "concerts, clips, scénographie, shows et processus de création",
+      "social_only": true,
+      "needs_recent_post_check": true,
+      "direct_posts_to_collect": []
+    },
+    {
+      "name": "Silent House",
+      "platform": "Instagram",
+      "profile_url": null,
+      "status": "candidate",
+      "priority": "P1",
+      "focus": "concerts, clips, scénographie, shows et processus de création",
+      "social_only": true,
+      "needs_recent_post_check": true,
+      "direct_posts_to_collect": []
+    },
+    {
+      "name": "Treatment Studio",
+      "platform": "Instagram",
+      "profile_url": null,
+      "status": "candidate",
+      "priority": "P1",
+      "focus": "concerts, clips, scénographie, shows et processus de création",
+      "social_only": true,
+      "needs_recent_post_check": true,
+      "direct_posts_to_collect": []
+    },
+    {
+      "name": "High Scream",
+      "platform": "Instagram",
+      "profile_url": null,
+      "status": "candidate",
+      "priority": "P1",
+      "focus": "concerts, clips, scénographie, shows et processus de création",
+      "social_only": true,
+      "needs_recent_post_check": true,
+      "direct_posts_to_collect": []
+    },
+    {
+      "name": "Alien le studio",
+      "platform": "Instagram",
+      "profile_url": null,
+      "status": "candidate",
+      "priority": "P1",
+      "focus": "concerts, clips, scénographie, shows et processus de création",
+      "social_only": true,
+      "needs_recent_post_check": true,
+      "direct_posts_to_collect": []
+    },
+    {
+      "name": "Seconde Design",
+      "platform": "Instagram",
+      "profile_url": null,
+      "status": "candidate",
+      "priority": "P1",
+      "focus": "concerts, clips, scénographie, shows et processus de création",
+      "social_only": true,
+      "needs_recent_post_check": true,
+      "direct_posts_to_collect": []
+    },
+    {
+      "name": "CUTBACK LIVE",
+      "platform": "Instagram",
+      "profile_url": null,
+      "status": "candidate",
+      "priority": "P1",
+      "focus": "concerts, clips, scénographie, shows et processus de création",
+      "social_only": true,
+      "needs_recent_post_check": true,
+      "direct_posts_to_collect": []
+    },
+    {
+      "name": "Live Design",
+      "platform": "Instagram",
+      "profile_url": null,
+      "status": "candidate",
+      "priority": "P1",
+      "focus": "concerts, clips, scénographie, shows et processus de création",
+      "social_only": true,
+      "needs_recent_post_check": true,
+      "direct_posts_to_collect": []
+    },
+    {
+      "name": "TPI Magazine",
+      "platform": "Instagram",
+      "profile_url": null,
+      "status": "candidate",
+      "priority": "P1",
+      "focus": "concerts, clips, scénographie, shows et processus de création",
+      "social_only": true,
+      "needs_recent_post_check": true,
+      "direct_posts_to_collect": []
+    },
+    {
+      "name": "ShowTex",
+      "platform": "Instagram",
+      "profile_url": null,
+      "status": "candidate",
+      "priority": "P1",
+      "focus": "concerts, clips, scénographie, shows et processus de création",
+      "social_only": true,
+      "needs_recent_post_check": true,
+      "direct_posts_to_collect": []
+    },
+    {
+      "name": "Disguise",
+      "platform": "Instagram",
+      "profile_url": null,
+      "status": "candidate",
+      "priority": "P2",
+      "focus": "théâtre, show TV, fabrication et presse spécialisée",
+      "social_only": true,
+      "needs_recent_post_check": true,
+      "direct_posts_to_collect": []
+    },
+    {
+      "name": "Notch",
+      "platform": "Instagram",
+      "profile_url": null,
+      "status": "candidate",
+      "priority": "P2",
+      "focus": "théâtre, show TV, fabrication et presse spécialisée",
+      "social_only": true,
+      "needs_recent_post_check": true,
+      "direct_posts_to_collect": []
+    },
+    {
+      "name": "ROE Visual",
+      "platform": "Instagram",
+      "profile_url": null,
+      "status": "candidate",
+      "priority": "P2",
+      "focus": "théâtre, show TV, fabrication et presse spécialisée",
+      "social_only": true,
+      "needs_recent_post_check": true,
+      "direct_posts_to_collect": []
+    },
+    {
+      "name": "Creative Technology",
+      "platform": "Instagram",
+      "profile_url": null,
+      "status": "candidate",
+      "priority": "P2",
+      "focus": "théâtre, show TV, fabrication et presse spécialisée",
+      "social_only": true,
+      "needs_recent_post_check": true,
+      "direct_posts_to_collect": []
+    },
+    {
+      "name": "PRG",
+      "platform": "Instagram",
+      "profile_url": null,
+      "status": "candidate",
+      "priority": "P2",
+      "focus": "théâtre, show TV, fabrication et presse spécialisée",
+      "social_only": true,
+      "needs_recent_post_check": true,
+      "direct_posts_to_collect": []
+    },
+    {
+      "name": "OBO",
+      "platform": "Instagram",
+      "profile_url": null,
+      "status": "candidate",
+      "priority": "P2",
+      "focus": "théâtre, show TV, fabrication et presse spécialisée",
+      "social_only": true,
+      "needs_recent_post_check": true,
+      "direct_posts_to_collect": []
+    },
+    {
+      "name": "DUSHOW",
+      "platform": "Instagram",
+      "profile_url": null,
+      "status": "candidate",
+      "priority": "P2",
+      "focus": "théâtre, show TV, fabrication et presse spécialisée",
+      "social_only": true,
+      "needs_recent_post_check": true,
+      "direct_posts_to_collect": []
+    },
+    {
+      "name": "Theatre Projects",
+      "platform": "Instagram",
+      "profile_url": null,
+      "status": "candidate",
+      "priority": "P2",
+      "focus": "théâtre, show TV, fabrication et presse spécialisée",
+      "social_only": true,
+      "needs_recent_post_check": true,
+      "direct_posts_to_collect": []
+    },
+    {
+      "name": "The Stage",
+      "platform": "Instagram",
+      "profile_url": null,
+      "status": "candidate",
+      "priority": "P2",
+      "focus": "théâtre, show TV, fabrication et presse spécialisée",
+      "social_only": true,
+      "needs_recent_post_check": true,
+      "direct_posts_to_collect": []
+    },
+    {
+      "name": "BroadwayWorld",
+      "platform": "Instagram",
+      "profile_url": null,
+      "status": "candidate",
+      "priority": "P2",
+      "focus": "théâtre, show TV, fabrication et presse spécialisée",
+      "social_only": true,
+      "needs_recent_post_check": true,
+      "direct_posts_to_collect": []
+    },
+    {
+      "name": "Jordan Magnee",
+      "platform": "Instagram",
+      "profile_url": null,
+      "status": "candidate",
+      "priority": "P2",
+      "focus": "théâtre, show TV, fabrication et presse spécialisée",
+      "social_only": true,
+      "needs_recent_post_check": true,
+      "direct_posts_to_collect": []
+    },
+    {
+      "name": "Dan Azzopardi",
+      "platform": "Instagram",
+      "profile_url": null,
+      "status": "candidate",
+      "priority": "P2",
+      "focus": "théâtre, show TV, fabrication et presse spécialisée",
+      "social_only": true,
+      "needs_recent_post_check": true,
+      "direct_posts_to_collect": []
     }
-  ],
-  "workflow": [
-    "Consulter les posts publics accessibles des comptes",
-    "Retenir des projets précis et des liens directs de posts, pas de simples profils",
-    "Vérifier la date, les crédits, le visuel réel et une source indépendante",
-    "Comparer par nom de projet aux publications articles et réseaux existantes",
-    "Rédiger la lecture DA suivant AGENTS.md et EDITORIAL_RUBRIC.md",
-    "Si aucune nouveauté validée, signaler l'absence sans créer de contenu artificiel"
   ]
 }
