@@ -58,10 +58,13 @@
       "url": "https://fraystudio.com/projects/louis-tomlinson-2026",
       "source": "FRAY Studio",
       "angle": "La captation du public entre dans les mondes visuels de l'artiste",
-      "status": "repere",
+      "status": "publie",
       "image_status": "official_project_page_or_source_found_but_direct_image_not_verified",
-      "publication_blocker": "image_https_directe_et_droits_non_verifies",
-      "checked_at": "2026-11-12"
+      "publication_blocker": null,
+      "checked_at": "2026-11-12",
+      "published_at": "2026-11-12T08:11:17.982Z",
+      "image": "https://s.yimg.com/ny/api/res/1.2/.EoqUv2DQxE4YMxn4qTTcQ--/YXBwaWQ9aGlnaGxhbmRlcjt3PTE2MjA7aD0xMDgwO2NmPXdlYnA-/https%3A/media.zenfs.com/es/the_mirror_us_en_espanol_199/14b68dc979a04beb30bd51d772e24c5a",
+      "image_source_url": "https://es-us.vida-estilo.yahoo.com/louis-tomlinson-rinde-homenaje-fallecido-164822250.html"
     },
     {
       "channel": "main",
