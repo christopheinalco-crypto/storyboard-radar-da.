@@ -210,7 +210,6 @@ main{width:100%;max-width:1240px;padding-inline:clamp(14px,3vw,32px)}
 
 /* Lecture DA : rythme discret, sans surcharge visuelle. */
 .da-essential-points .da-inline-emphasis,.da-editorial-conclusion .da-inline-emphasis{color:#f6ffe8;font-weight:800;text-decoration:none}
-.da-essential-points p>span>strong:first-child,.da-essential-points .da-inline-highlight,.da-editorial-conclusion .da-inline-highlight,.eye-lab-answers .da-inline-highlight{background:linear-gradient(transparent 55%,rgba(112,151,36,.72) 55%,rgba(148,187,55,.42) 100%);color:#f6ffe8;font-weight:800;border-radius:2px;padding:0 2px;box-decoration-break:clone;-webkit-box-decoration-break:clone}
 .da-essential-points>p{line-height:1.64!important}
 .da-essential-points{gap:15px}
 .da-essential-points strong:not(.da-inline-emphasis){text-decoration:none;color:#d5f6a0}
@@ -226,7 +225,7 @@ main{width:100%;max-width:1240px;padding-inline:clamp(14px,3vw,32px)}
 @media(max-width:760px){#feed.grid{display:grid;grid-auto-flow:column;grid-auto-columns:minmax(82vw,88vw);grid-template-columns:none;gap:12px;overflow-x:auto;overflow-y:hidden;scroll-snap-type:x mandatory;scroll-padding-inline:12px;overscroll-behavior-x:contain;-webkit-overflow-scrolling:touch;scrollbar-width:thin;scrollbar-color:#8fac80 #17271b;padding:0 12px 12px;margin-inline:-12px}#feed.grid>.compact-card{scroll-snap-align:start;min-width:0;width:100%}#feed.grid::-webkit-scrollbar{height:7px}#feed.grid::-webkit-scrollbar-thumb{background:#8fac80;border-radius:8px}#feed.grid::-webkit-scrollbar-track{background:#17271b;border-radius:8px}.spotify-header{flex:1 0 100%;width:100%;max-width:none;min-width:0}.spotify-header iframe{height:352px}}
 .discover-section{margin:36px 0 20px}.discover-heading{display:flex;align-items:baseline;gap:12px;flex-wrap:wrap;margin-bottom:14px}.discover-heading span{font-size:13px;font-weight:800;letter-spacing:.12em}.discover-heading small{font-size:11px;opacity:.65}.discover-note{font-size:11px;opacity:.65;margin-top:8px}.discover-section[hidden]{display:none}
 .music-switch{display:flex;gap:4px;margin:0 0 6px}.music-tab{border:1px solid #40553c;border-radius:20px;background:transparent;color:#d1dfca;font-size:10px;padding:4px 9px}.music-tab.active{background:#c8f29c;color:#172215;border-color:#c8f29c;font-weight:750}.music-caption{font-size:9px;opacity:.6;margin-top:4px}.spotify-header{width:355px;flex-basis:355px}.spotify-header iframe{height:352px}@media(max-width:760px){.spotify-header{width:100%;max-width:none;flex-basis:100%}}
-.card-insight{padding:10px 0 2px;display:grid;gap:8px;font-size:12px;line-height:1.45}.card-insight strong{color:#c0ff1c;font-size:10px;letter-spacing:.07em;text-transform:uppercase}.card-insight p{margin:3px 0 0;color:#d5e1ce}.music-caption a{text-decoration:underline;text-underline-offset:2px}#music-player[hidden]{display:none}
+.card-insight{padding:10px 0 2px;display:grid;gap:8px;font-size:12px;line-height:1.45}.card-insight>div>strong{color:#c0ff1c;font-size:10px;letter-spacing:.07em;text-transform:uppercase}.card-insight p{margin:3px 0 0;color:#d5e1ce}.music-caption a{text-decoration:underline;text-underline-offset:2px}#music-player[hidden]{display:none}
 .header-status #daily-toggle{font-size:11px;padding:6px 10px;margin-top:5px;white-space:nowrap;max-width:100%}.header-status{gap:3px}.radar-controls{margin-top:0!important;margin-bottom:7px!important}@media(max-width:760px){.header-status #daily-toggle{font-size:10px;padding:5px 7px}.header-status .header-status-text{font-size:9px}}
 
 /* Lecture classique : aucun carrousel horizontal ni barre de défilement apparente. */
@@ -550,12 +549,12 @@ function editorialCaseQuality(x){
  return distinct.size>=3&&a.points.every(p=>Array.isArray(p)&&String(p[1]||'').trim().length>=65)&&String(a.takeaway).trim().length>=45;
 }
 // Emphase éditoriale explicite, jamais déduite automatiquement du texte.
-// Le contenu est échappé avant de transformer **gras** et ==surlignage==.
+// Échapper le texte avant le formatage. Les anciens ==marqueurs== deviennent du gras.
 function editorialEmphasis(value){
  return escapeHTML(String(value||''))
   .replace(/\*\*([^*]+)\*\*/g,'<strong class="da-inline-emphasis">$1</strong>')
   .replace(/\*([^*]+)\*/g,'<em class="da-inline-italic">$1</em>')
-  .replace(/==([^=]+)==/g,'<mark class="da-inline-highlight">$1</mark>');
+  .replace(/==([^=]+)==/g,'<strong class="da-inline-emphasis">$1</strong>');
 }
 function editorialReadingHTML(x, suppliedAnalysis){
  let analysis=suppliedAnalysis||EDITORIAL_CASES[x.url]||AI_EDITORIAL_CASES[x.url];

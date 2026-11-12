@@ -31,7 +31,7 @@ Le champ `takeaway` explique ce que le choix créatif change dans le projet. Le 
 
 ## Reprendre dans un nouveau chat
 
-Ouvrir le dépôt RADAR DA comme projet Codex et demander de lire ce fichier, EDITORIAL_RUBRIC.md et les analyses déjà publiées. Utiliser la Bibliothèque DA locale pour chercher un passage vérifiable qui éclaire le projet. Les angles et les intertitres varient selon le cas, avec quelques surlignages natifs. Les PDF restent dans la bibliothèque locale, hors du dépôt public. Après publication, contrôler le flux et la fiche servie par GitHub Pages.
+Ouvrir le dépôt RADAR DA comme projet Codex et demander de lire ce fichier, EDITORIAL_RUBRIC.md et les analyses déjà publiées. Utiliser la Bibliothèque DA locale pour chercher un passage vérifiable qui éclaire le projet. Les angles et les intertitres varient selon le cas, avec quelques passages en gras. Les PDF restent dans la bibliothèque locale, hors du dépôt public. Après publication, contrôler le flux et la fiche servie par GitHub Pages.
 
 ## Contrôle des visuels avant publication
 
@@ -40,7 +40,7 @@ Vérifier d’abord le visuel de la source. Si le lien manque, échoue ou si l�
 ## Règles fondatrices à préserver
 
 - **Grille dynamique.** Suivre EDITORIAL_RUBRIC.md. Choisir les angles et les intertitres à partir de la discipline et du mécanisme propre au projet. Les quatre repères « Le sujet », « L’insight », « L’idée et la DA » et « Pour un DA » sont facultatifs. Réserver « insight » à une compréhension documentée du public ou de ses usages qui oriente la création.
-- **Bibliothèque DA.** Utiliser les notions issues des PDF pour éclairer un choix précis. Vérifier le passage et sa référence avant attribution. Distinguer faits observables, intentions documentées et hypothèses. Surligner quelques termes décisifs avec le format natif du RADAR.
+- **Bibliothèque DA.** Utiliser les notions issues des PDF pour éclairer un choix précis. Vérifier le passage et sa référence avant attribution. Distinguer faits observables, intentions documentées et hypothèses. Mettre en gras quelques termes décisifs.
 - **Sélection et sources.** Garder le titre, la date de publication, la rubrique, la source et le lien d’origine. Dédupliquer par projet, y compris les signaux LinkedIn et Instagram. Écarter les promotions et privilégier les sujets qui éclairent une décision de DA. Pour la sélection éditoriale quotidienne, appliquer la fenêtre de 30 jours et respecter les fiches gardées. Synthétiser avec ses propres mots. La veille est non lucrative et respecte les conditions de réutilisation des visuels.
 - **Affichage.** Trier le flux principal par entrée dans la veille. La date de publication reste visible et sert de repli si la date d’entrée manque. Une réécriture ou une correction de visuel ne crée pas de nouveauté. Une fiche conservée reste accessible dans les idées et sort du flux principal sur l’appareil où elle a été gardée. En dernier recours, une fiche sans image commence directement par son titre, avec son lien source habituel.
 - **Livraison.** Distinguer brouillon, commit et publication. Avant d’annoncer une mise en ligne, vérifier les données et le code servis par GitHub Pages. Préciser si le rendu dans le navigateur reste à contrôler.
@@ -53,7 +53,7 @@ Sur la carte, garder une phrase qui explique pourquoi le choix de DA mérite l�
 
 Une demande de simulation de veille va jusqu’à la publication d’une nouveauté dans le RADAR. Vérifier les doublons, croiser les sources, choisir un visuel qui montre le détail analysé et publier la fiche. Après déploiement, vérifier son rang dans le flux public et la présence du visuel. Un lecteur officiel intégrable peut montrer le projet lorsque la fiche ne dispose pas d’une image réutilisable.
 
-Le surlignage indique ce qu’un DA doit retenir. Mettre en évidence un choix créatif, sa conséquence perceptive ou un principe transférable. Garder les mesures, les noms et les détails descriptifs en texte courant, sauf s’ils expliquent directement le mécanisme analysé.
+Le gras indique ce qu’un DA doit retenir. Mettre en évidence un choix créatif, sa conséquence perceptive ou un principe transférable. Garder les mesures, les noms et les détails descriptifs en texte courant, sauf s’ils expliquent directement le mécanisme analysé.
 
 ## Seuil avant publication d’un décryptage
 
@@ -73,9 +73,9 @@ Le hook contrôle la présence des repères, puis la relecture juge la qualité 
 
 La lecture DA commence par le geste, la matière, l’espace ou l’effet visible. Mettre l’attribution en appui de l’observation, avec le lien et le repère de vérification. Éviter les amorces de compte rendu comme « Le dossier de production décrit », « Le post souligne » ou « Cette publication ouvre ». Chercher aussi les lecteurs intégrables déclarés par le créateur ou la production, notamment via oEmbed. Vérifier que le lecteur correspond au projet et garde un format compact.
 
-## Surligneur commun à tous les formats
+## Mise en valeur du texte
 
-Appliquer le même marqueur aux décryptages des articles, aux cartes LinkedIn et Instagram et à l’atelier du jour. Le texte reste clair et gras, avec un dégradé vert sous la moitié basse des lettres. Utiliser le style natif du RADAR, y compris sur plusieurs lignes, pour éviter le jaune par défaut du navigateur. Les intertitres structurent la lecture. Dans le corps du texte, réserver le surlignage aux choix créatifs, à leurs effets et aux principes DA à retenir.
+Utiliser le gras et l’italique avec parcimonie dans les décryptages, les cartes LinkedIn et Instagram et l’atelier du jour. Les intertitres structurent la lecture. Réserver le gras aux choix créatifs, à leurs effets et aux principes DA à retenir.
 
 
 ## Protocole anti-régression après l'incident du 10 novembre 2026
@@ -234,4 +234,4 @@ LinkedIn ET Instagram sont chacun une veille créative autonome, non des sous-ca
 Si aucune image du projet ne peut être réutilisée après recherche raisonnable, choisir une image générique pertinente au thème (concert, scène, scénographie, lumière, etc.) dont la licence autorise réellement la réutilisation sur le site, avec attribution si nécessaire. Étiqueter clairement « Image d’illustration — ne représente pas le projet » sur la carte et le décryptage, en utilisant les champs d'affichage existants ou en adaptant l'interface si nécessaire. Ne jamais présenter l'image générique comme une photographie du projet ni l'utiliser comme preuve d'un détail visuel. Fonder l'analyse sur les sources du projet; vérifier les liens, la licence, les crédits, les doublons et la seconde lecture. Ne pas laisser un sujet publiable en attente au seul motif qu'aucune photographie officielle n'est réutilisable. Publier et contrôler le rendu réel dès que ces conditions sont remplies.
 
 ## Règle prioritaire — rythme typographique des analyses (12 novembre 2026)
-Chaque analyse doit se lire comme un DA qui parle, pas comme un pavé. Paragraphes courts, une idée par mouvement, articulation claire observation → choix → effet → intention (hypothèse signalée si non documentée). Dans les champs intro, points et takeaway de data/analyses.json, utiliser **...** pour faire ressortir une proposition forte ou 2–5 mots décisifs, *...* pour une nuance ou hypothèse, ==...== uniquement pour un élément visuel particulièrement éclairant. Pas d'emphase systématique sur tous les mots ni sur toutes les phrases, pas de gras sur une citation ou un fait non établi. Garder une lecture naturelle, éviter les titres et redites. Vérifier l'affichage HTML réel des trois marqueurs. Appliquer aux fiches nouvelles et lors de la révision des anciennes. Cette règle prévaut sur toute consigne ancienne contraire.
+Chaque analyse doit se lire comme un DA qui parle, pas comme un pavé. Paragraphes courts, une idée par mouvement, articulation claire observation → choix → effet → intention (hypothèse signalée si non documentée). Dans les champs intro, points et takeaway de data/analyses.json, utiliser **...** pour faire ressortir une proposition forte ou 2–5 mots décisifs et *...* pour une nuance ou une hypothèse. Éviter le surlignage et réserver les anciens marqueurs ==...== à la lecture des fiches historiques, où ils s’affichent en gras. Pas d'emphase systématique sur tous les mots ni sur toutes les phrases, pas de gras sur une citation ou un fait non établi. Garder une lecture naturelle, éviter les titres et redites. Vérifier l’affichage du gras et de l’italique. Appliquer aux fiches nouvelles et lors de la révision des anciennes. Cette règle prévaut sur toute consigne ancienne contraire.
