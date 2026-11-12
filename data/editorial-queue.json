@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-12",
+  "updated_at": "2026-11-12T08:05:26.258Z",
   "description": "Candidats issus d'une passe réelle, non publiés tant que l'image directe, les droits, les sources, les doublons et la seconde lecture ne sont pas vérifiés.",
   "pipeline": [
     "repere",
@@ -19,10 +19,13 @@
       "url": "https://stufish.com/project/justin-bieber/",
       "source": "STUFISH",
       "angle": "La géométrie du plateau descend dans la foule pour relier deux zones de jeu",
-      "status": "repere",
-      "image_status": "official_project_page_or_source_found_but_direct_image_not_verified",
-      "publication_blocker": "image_https_directe_et_droits_non_verifies",
-      "checked_at": "2026-11-12"
+      "status": "publie",
+      "image_status": "photo_evenement_croisee_source_presse",
+      "publication_blocker": null,
+      "checked_at": "2026-11-12",
+      "published_at": "2026-11-12T08:05:26.258Z",
+      "image": "https://media.vogue.mx/photos/69e506e36fcf3e0ac6dafae2/master/w_1024%2Cc_limit/justin-bieber-coachella-2026-fin-de-semana-2.jpg",
+      "image_source_url": "https://www.vogue.mx/galeria/celebridades-en-coachella-2026"
     },
     {
       "channel": "main",
