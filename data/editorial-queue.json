@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-12T08:05:26.258Z",
+  "updated_at": "2026-11-12T11:57:08+01:00",
   "description": "Candidats issus d'une passe réelle, non publiés tant que l'image directe, les droits, les sources, les doublons et la seconde lecture ne sont pas vérifiés.",
   "pipeline": [
     "repere",
@@ -235,6 +235,18 @@
       "image_status": "image_visible_sur_page_source_mais_url_directe_non_chargee",
       "publication_blocker": "URL d'image directe ou droit de réaffichage non confirmé",
       "checked_at": "2026-11-12"
+    },
+    {
+      "channel": "main",
+      "title": "Shinedown — Dance, Kid, Dance Act II : les lignes lumineuses cadrent la scène B",
+      "url": "https://www.etnow.com/news/2026/7/chauvet-professional-colorado-pxl-curve-12-adds-new-dimension-to-mitch-schellengers-design-for-shinedown-dance-kid-dance-act-ii-tour",
+      "source": "ETNow / Chauvet Professional",
+      "angle": "Deux lignes de cinq barres motorisées articulent cadrage de la scène, balayage du public et solos guitare",
+      "status": "repere",
+      "image_status": "not_verified",
+      "publication_blocker": "Photographie du même concert créditée Carter Louthian dans ETNow, mais URL HTTPS directe, droits de réaffichage et test de chargement non établis",
+      "checked_at": "2026-11-12",
+      "source_details": "ETNow 8 juillet 2026, propos de Michael Cooper et Mitch Schellenger ; 10 COLORado PXL Curve 12 en deux groupes de cinq. Ne pas publier sans visuel autorisé et seconde lecture."
     }
   ],
   "instagram_candidates": [],
