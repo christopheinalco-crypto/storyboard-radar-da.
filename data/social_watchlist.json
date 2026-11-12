@@ -6,7 +6,7 @@
     "linkedin": 50,
     "instagram": 50,
     "total": 100,
-    "profiles_with_grounded_urls": 17
+    "profiles_with_grounded_urls": 19
   },
   "status_note": "100 pistes nommées; seules les entrées avec profile_url sont identifiées, et l'activité récente ainsi que l'accès aux publications ne sont pas vérifiés pour la totalité. Aucun automatisme de collecte n'est activé par cette liste.",
   "rules": [
@@ -132,7 +132,7 @@
     {
       "name": "TAIT",
       "platform": "LinkedIn",
-      "profile_url": "https://www.linkedin.com/company/tait-towers",
+      "profile_url": "https://uk.linkedin.com/company/tait-towers",
       "status": "profile_verified_recent_posts_visible",
       "priority": "P1",
       "focus": "concerts, clips, scénographie, shows et processus de création",
@@ -156,24 +156,26 @@
     {
       "name": "59 Productions",
       "platform": "LinkedIn",
-      "profile_url": null,
-      "status": "candidate",
+      "profile_url": "https://uk.linkedin.com/company/59-studio",
+      "status": "profile_verified",
       "priority": "P1",
       "focus": "concerts, clips, scénographie, shows et processus de création",
       "social_only": true,
       "needs_recent_post_check": true,
-      "direct_posts_to_collect": []
+      "direct_posts_to_collect": [],
+      "last_checked": "2026-11-12"
     },
     {
       "name": "Silent House",
       "platform": "LinkedIn",
-      "profile_url": null,
-      "status": "candidate",
+      "profile_url": "https://www.linkedin.com/company/silent-house-group/",
+      "status": "profile_verified_recent_posts_visible",
       "priority": "P1",
       "focus": "concerts, clips, scénographie, shows et processus de création",
       "social_only": true,
-      "needs_recent_post_check": true,
-      "direct_posts_to_collect": []
+      "needs_recent_post_check": false,
+      "direct_posts_to_collect": [],
+      "last_checked": "2026-11-12"
     },
     {
       "name": "Treatment Studio",
@@ -1126,7 +1128,7 @@
   ],
   "verification_progress": {
     "checked_on": "2026-11-12",
-    "notes": "17 profils avec URL. TAIT et Disguise ajoutés après contrôle de leurs pages LinkedIn publiques et de publications visibles ; liens directs des posts, dates exactes et réutilisation des visuels restent à qualifier. Les autres profils restent à vérifier.",
-    "remaining_without_url": 83
+    "notes": "19 profils avec URL. TAIT corrigé vers sa page LinkedIn publique attestée ; 59 Studio et Silent House ajoutés après contrôle de leurs profils LinkedIn. La vérification d'activité et des posts directs reste distincte de la vérification du profil. Aucun quota ne justifie une fiche sans preuve.",
+    "remaining_without_url": 81
   }
 }
