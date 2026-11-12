@@ -1357,5 +1357,41 @@
       }
     ],
     "tip": "Écrire trois chansons comme trois lieux d'un film, puis dessiner la transformation du décor entre les trois sans noir plateau."
+  },
+  "https://au.rollingstone.com/music/music-features/noah-kahan-australia-tour-creative-design-interview-101525/": {
+    "intro": "Sur la scène de Noah Kahan, on voit une maison. Mais **ce n'est pas seulement une maison : c'est un souvenir construit avec de vrais matériaux et de la vidéo**. Le toit et le porche existent physiquement ; la façade numérique leur permet de changer de lieu, de saison et d'époque.",
+    "points": [
+      [
+        "Le familier devient instable",
+        "Rachel Duncan, chez STUFISH, explique que l'équipe voulait partir de l'idée du foyer, puis montrer qu'il peut cesser d'être un lieu où l'on se sent chez soi. Le décor prend donc une forme rassurante avant de se transformer. L'intention est ici explicitement documentée par l'équipe."
+      ],
+      [
+        "La frontière réel-numérique doit disparaître",
+        "Le défi était d'accorder la texture, la lumière et la couleur de la façade digitale avec le toit et le porche physiques. Si l'assemblage se voit trop, la maison devient un écran avec un accessoire. Si les matières se répondent, elle reste un seul objet crédible qui peut ensuite se métamorphoser."
+      ],
+      [
+        "Un décor qui se joue",
+        "Le toit descend, l'artiste peut rejoindre le porche et la scène se transforme autour de lui. La photo de Melbourne montre précisément le toit suspendu au-dessus de la façade. La mécanique sert le thème du passage entre chez-soi et ailleurs, plutôt qu'un effet gratuit."
+      ]
+    ],
+    "takeaway": "Un élément de décor peut porter une émotion parce qu'il **change de signification au cours du show**. Il faut concevoir sa première apparition et sa transformation ensemble.",
+    "source": "Rolling Stone AU/NZ, entretien STUFISH / The Playground, septembre 2026 ; photographie de Melbourne",
+    "source_url": "https://au.rollingstone.com/music/music-features/noah-kahan-australia-tour-creative-design-interview-101525/",
+    "verified": true,
+    "editorial_review": [
+      {
+        "url": "https://au.rollingstone.com/music/music-features/noah-kahan-australia-tour-creative-design-interview-101525/",
+        "locator": "Interview Rachel Duncan : maison en perspective, toit physique, porche, façade numérique et intention du foyer"
+      },
+      {
+        "url": "https://au.rollingstone.com/music/music-live-reviews/noah-kahan-melbourne-live-review-101544/",
+        "locator": "Photographie de Melbourne et scène suspendue"
+      },
+      {
+        "url": "https://www.inquirer.com/arts/noah-kahan-great-divide-tour-philadelphia-review-setlist-20260627.html",
+        "locator": "Compte rendu du décor à Philadelphie"
+      }
+    ],
+    "tip": "Prends un objet familier (porte, table, fenêtre). Dessine trois états successifs où il garde sa forme mais change de sens."
   }
 }
