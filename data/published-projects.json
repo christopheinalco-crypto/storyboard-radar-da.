@@ -1,6 +1,6 @@
 {
   "description": "Cumulative seen-project register; retain entries when projects leave the live feed; compare URL and semantic identity.",
-  "updated": "2026-11-12T07:41:56.579Z",
+  "updated": "2026-11-12T08:05:26.258Z",
   "projects": [
     {
       "url": "https://www.atelier-lumieres.com/fr/programmation/indochine-arena-tour-le-show-immersif",
@@ -218,6 +218,11 @@
     {
       "url": "https://www.d-labs.fr/projets/aya-nakamura",
       "title": "Aya Nakamura — quand le portrait géant devient une architecture",
+      "category": "15 Scène Spectacle"
+    },
+    {
+      "url": "https://stufish.com/project/justin-bieber/",
+      "title": "Justin Bieber à Coachella — une scène qui descend dans la foule",
       "category": "15 Scène Spectacle"
     }
   ]
