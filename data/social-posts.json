@@ -2,6 +2,76 @@
   "updated_at": "2026-11-11T20:10:28.976Z",
   "items": [
     {
+      "title": "TAIT — la scène-fleur d'Olivia Dean",
+      "author": "TAIT (LinkedIn)",
+      "category": "09 Scénographie",
+      "url": "https://www.linkedin.com/posts/tait-towers_big-moments-deserve-a-bold-stage-and-olivia-activity-7465030086036164608-y2Av",
+      "image": "https://www.disguise.one/sites/default/files/styles/desktop_1440_814/public/2026-06/PRESS%20Olivia%20Dean%20-%20Manchester%20Co-Op%202026%20-%20Anthony%20Mooney-7.jpg?itok=DU8ie7B-",
+      "analysis": {
+        "intro": "TAIT révèle l'autre moitié du dispositif d'Olivia Dean : derrière les projections délicates, une **scène mobile, une scène-fleur secondaire et un rideau automatisé**. Ce contraste entre douceur visuelle et mécanique précise mérite le détour.",
+        "points": [
+          [
+            "La fleur crée un deuxième lieu",
+            "La scène B en forme de fleur permet un changement de proximité avec le public. L'intention d'intimité est cohérente avec le dispositif décrit par FRAY, mais l'effet réel sur chaque spectateur reste une interprétation."
+          ],
+          [
+            "Le rideau est aussi une machine",
+            "TAIT cite un rail automatisé et des praticables sur mesure. L'image projetée dépend donc d'un support scénographique capable de bouger ; ce n'est pas une simple toile accrochée derrière la chanteuse."
+          ]
+        ],
+        "takeaway": "Une scène qui paraît organique et douce peut reposer sur une ingénierie très construite. Le dispositif technique doit servir le geste artistique.",
+        "tip": "Dessiner séparément l'apparence du décor et son plan de mouvement."
+      },
+      "sources": [
+        {
+          "label": "Publication originale TAIT",
+          "url": "https://www.linkedin.com/posts/tait-towers_big-moments-deserve-a-bold-stage-and-olivia-activity-7465030086036164608-y2Av"
+        },
+        {
+          "label": "FRAY, dispositif vidéo",
+          "url": "https://fraystudio.com/projects/olivia-dean-2026"
+        },
+        {
+          "label": "Photographie Anthony Mooney / Disguise",
+          "url": "https://www.disguise.one/en/insights/news/fray-studio-and-disguise-drive-cinematic-live-camera-projection-olivia-deans-art"
+        }
+      ],
+      "published_at": "2026-11-12T08:11:01.640Z"
+    },
+    {
+      "title": "Disguise — quand la caméra devient scénographie",
+      "author": "Disguise (LinkedIn)",
+      "category": "15 Scène Spectacle",
+      "url": "https://www.linkedin.com/posts/disguise-_createtogether-poweredbydisguise-activity-7503769400882360321-EvNC",
+      "image": "https://www.disguise.one/sites/default/files/styles/desktop_1440_814/public/2026-06/PRESS%20Olivia%20Dean%20-%20Manchester%20Co-Op%202026%20-%20Anthony%20Mooney-7.jpg?itok=DU8ie7B-",
+      "analysis": {
+        "intro": "Disguise documente le système de projection qui donne à Olivia Dean un portrait géant sans écrans latéraux. Le détail DA, c'est que **la technique sert à maintenir un seul espace de regard**.",
+        "points": [
+          [
+            "Une image attachée au plateau",
+            "Les flux live sont projetés sur les drapés courbes. L'artiste reste visible au centre tandis que son visage change d'échelle dans la même composition."
+          ],
+          [
+            "Le traitement en direct n'est pas neutre",
+            "Trois serveurs GX 3 et des traitements Notch permettent une image étalonnée en fonction des morceaux. La captation fait partie de l'identité du show, au lieu d'être une simple fonction de confort."
+          ]
+        ],
+        "takeaway": "La meilleure technologie est parfois celle qui supprime une séparation visuelle entre scène et écran.",
+        "tip": "Observer si le dispositif renforce la présence de l'artiste ou crée une seconde scène concurrente."
+      },
+      "sources": [
+        {
+          "label": "Publication originale Disguise",
+          "url": "https://www.linkedin.com/posts/disguise-_createtogether-poweredbydisguise-activity-7503769400882360321-EvNC"
+        },
+        {
+          "label": "Disguise, photographie Anthony Mooney",
+          "url": "https://www.disguise.one/en/insights/news/fray-studio-and-disguise-drive-cinematic-live-camera-projection-olivia-deans-art"
+        }
+      ],
+      "published_at": "2026-11-12T08:11:01.640Z"
+    },
+    {
       "title": "FRAY Studio — le portrait d'Olivia Dean projeté sur les rideaux",
       "author": "FRAY Studio (LinkedIn)",
       "category": "15 Scène Spectacle",
