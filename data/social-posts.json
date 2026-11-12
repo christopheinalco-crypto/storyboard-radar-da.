@@ -1,6 +1,52 @@
 {
-  "updated_at": "2026-11-11T20:10:28.976Z",
+  "updated_at": "2026-11-12T19:00:00Z",
   "items": [
+    {
+      "title": "Phish à la Sphere — quand la lumière devient virtuelle",
+      "author": "Moment Factory · LinkedIn",
+      "category": "01 Spectacle Concert",
+      "url": "https://fr.linkedin.com/posts/momentfactory_moment-factory-x-phish-x-sphere-x-2026-activity-7460386277830406144-irDb",
+      "image": "https://momentfactory.com/cdn/shop/files/Moment_Factory_Phish_Sphere_042326_484-WS.jpg?v=1778078361&width=1445",
+      "analysis": {
+        "intro": "Regarde la Sphere : les faisceaux colorés ne s'arrêtent plus à la scène. Ils semblent traverser toute la salle. **La lumière devient une architecture qui enveloppe le public**, plutôt qu'un simple éclairage de musiciens.",
+        "points": [
+          [
+            "Le dispositif change de support",
+            "Moment Factory et Sphere Studios ont construit une régie de lumière virtuelle sur l'écran géant. Chris Kuroda peut piloter plus de 7 000 sources DMX virtuelles en direct. Ce qui compte ici, c'est que le geste familier du concepteur lumière reste vivant, même quand les projecteurs sont simulés."
+          ],
+          [
+            "L'improvisation reste visible",
+            "Phish improvise sur scène : des séquences totalement figées auraient coupé ce dialogue. Les univers visuels évoluent en temps réel. **La scénographie suit la musique au lieu de lui imposer son tempo.**"
+          ],
+          [
+            "Une image spectaculaire, mais un vrai enjeu",
+            "Sur la photo officielle, les lignes lumineuses remplissent la voûte et conduisent le regard vers la petite scène centrale. Le risque serait d'écraser les musiciens sous l'image. Ici, la lumière virtuelle reprend les codes du show de Phish pour maintenir un lien avec son identité."
+          ]
+        ],
+        "takeaway": "Une technologie nouvelle devient un choix de DA lorsqu'elle préserve une relation essentielle : ici, la capacité d'improviser ensemble, entre musiciens, lumière et public.",
+        "tip": "Comparer une séquence visuelle fixe et une séquence pilotée en direct : à quel moment le rapport entre scène et image change-t-il ?"
+      },
+      "sources": [
+        {
+          "label": "Publication LinkedIn de Moment Factory",
+          "url": "https://fr.linkedin.com/posts/momentfactory_moment-factory-x-phish-x-sphere-x-2026-activity-7460386277830406144-irDb"
+        },
+        {
+          "label": "Moment Factory — projet et photos officielles",
+          "url": "https://momentfactory.com/products/phish-the-2026-sphere-residency"
+        },
+        {
+          "label": "Sphere Entertainment — dispositif de lumière virtuelle",
+          "url": "https://www.sphereentertainmentco.com/phishs-nine-night-sphere-residency-kicks-off-with-debut-of-innovative-real-time-creative-powered-by-moment-factory-and-sphere-studios/"
+        },
+        {
+          "label": "Golden Wolf — fabrication d'un univers visuel",
+          "url": "https://www.chriscaswell.co.uk/project/phish-sphere/"
+        }
+      ],
+      "published_at": "2026-11-12T20:00:00+01:00",
+      "editorial_note": "Test manuel de publication sociale, post source plus ancien que la fenêtre de veille habituelle. Photo officielle Moment Factory du projet, pas une photo extraite du post."
+    },
     {
       "title": "Olivia Dean — une tournée qui garde la proximité",
       "author": "Olivia Dean Worldwide (@oliviadeanworldwide) · Instagram",
