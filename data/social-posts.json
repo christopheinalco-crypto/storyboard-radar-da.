@@ -2,6 +2,43 @@
   "updated_at": "2026-11-11T20:10:28.976Z",
   "items": [
     {
+      "title": "FRAY Studio — le portrait d'Olivia Dean projeté sur les rideaux",
+      "author": "FRAY Studio (LinkedIn)",
+      "category": "15 Scène Spectacle",
+      "url": "https://www.linkedin.com/posts/fray-studio_fray-studio-teamed-up-with-1826-group-to-activity-7462517462555725824-v5W6",
+      "image": "https://www.disguise.one/sites/default/files/styles/desktop_1440_814/public/2026-06/PRESS%20Olivia%20Dean%20-%20Manchester%20Co-Op%202026%20-%20Anthony%20Mooney-7.jpg?itok=DU8ie7B-",
+      "analysis": {
+        "intro": "FRAY explique un choix de mise en scène qui change tout : le gros plan caméra ne s'échappe pas sur un écran de côté, il est projeté sur le rideau qui entoure déjà Olivia Dean.",
+        "points": [
+          [
+            "La surface fait partie du décor",
+            "Le rideau courbe absorbe le portrait vidéo : il n'y a plus d'opposition entre décor et retransmission. C'est le point intéressant pour un DA : **un média peut être un matériau scénique**."
+          ],
+          [
+            "Le traitement suit la musique",
+            "FRAY documente l'étalonnage live avec Notch et Disguise. Le rendu des caméras devient modulable selon la chanson plutôt qu'une retransmission neutre."
+          ]
+        ],
+        "takeaway": "Avant d'ajouter un écran, vérifier si une surface du décor peut accueillir le flux vidéo sans disperser le regard.",
+        "tip": "Comparer un plan large avec et sans écran latéral : où part l'attention ?"
+      },
+      "sources": [
+        {
+          "label": "Publication originale FRAY Studio sur LinkedIn",
+          "url": "https://www.linkedin.com/posts/fray-studio_fray-studio-teamed-up-with-1826-group-to-activity-7462517462555725824-v5W6"
+        },
+        {
+          "label": "Étude de cas FRAY",
+          "url": "https://fraystudio.com/projects/olivia-dean-2026"
+        },
+        {
+          "label": "Photo du même spectacle, Anthony Mooney / Disguise",
+          "url": "https://www.disguise.one/en/insights/news/fray-studio-and-disguise-drive-cinematic-live-camera-projection-olivia-deans-art"
+        }
+      ],
+      "published_at": "2026-11-12T08:10:37.627Z"
+    },
+    {
       "title": "Les Vulves Assassines — des comètes jusque dans la foule",
       "author": "Lise Texier (LinkedIn)",
       "category": "15 Scène Spectacle",
