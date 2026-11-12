@@ -6,7 +6,7 @@
     "linkedin": 50,
     "instagram": 50,
     "total": 100,
-    "profiles_with_grounded_urls": 12
+    "profiles_with_grounded_urls": 15
   },
   "status_note": "100 pistes nommées; seules les entrées avec profile_url sont identifiées, et l'activité récente ainsi que l'accès aux publications ne sont pas vérifiés pour la totalité. Aucun automatisme de collecte n'est activé par cette liste.",
   "rules": [
@@ -120,13 +120,14 @@
     {
       "name": "STUFISH",
       "platform": "LinkedIn",
-      "profile_url": null,
-      "status": "candidate",
+      "profile_url": "https://uk.linkedin.com/company/stufish-limited",
+      "status": "profile_verified_recent_posts_visible",
       "priority": "P1",
       "focus": "concerts, clips, scénographie, shows et processus de création",
       "social_only": true,
-      "needs_recent_post_check": true,
-      "direct_posts_to_collect": []
+      "needs_recent_post_check": false,
+      "direct_posts_to_collect": [],
+      "activity_evidence": "https://uk.linkedin.com/company/stufish-limited"
     },
     {
       "name": "TAIT",
@@ -142,13 +143,14 @@
     {
       "name": "Moment Factory",
       "platform": "LinkedIn",
-      "profile_url": null,
-      "status": "candidate",
+      "profile_url": "https://www.linkedin.com/company/momentfactory/",
+      "status": "profile_verified_recent_posts_visible",
       "priority": "P1",
       "focus": "concerts, clips, scénographie, shows et processus de création",
       "social_only": true,
-      "needs_recent_post_check": true,
-      "direct_posts_to_collect": []
+      "needs_recent_post_check": false,
+      "direct_posts_to_collect": [],
+      "activity_evidence": "https://www.linkedin.com/company/momentfactory/"
     },
     {
       "name": "59 Productions",
@@ -417,13 +419,14 @@
     {
       "name": "Moment Factory",
       "platform": "Instagram",
-      "profile_url": null,
-      "status": "candidate",
+      "profile_url": "https://www.instagram.com/momentfactory/",
+      "status": "official_profile_linked_activity_unverified",
       "priority": "P1",
       "focus": "concerts, clips, scénographie, shows et processus de création",
       "social_only": true,
       "needs_recent_post_check": true,
-      "direct_posts_to_collect": []
+      "direct_posts_to_collect": [],
+      "activity_evidence": "https://linktr.ee/momentfactory"
     },
     {
       "name": "59 Productions",
@@ -1118,5 +1121,10 @@
       "needs_recent_post_check": true,
       "direct_posts_to_collect": []
     }
-  ]
+  ],
+  "verification_progress": {
+    "checked_on": "2026-11-12",
+    "notes": "Vérification progressive. Un profil public existant n'assure pas que ses posts soient accessibles automatiquement. Activité récente visible sur LinkedIn STUFISH et Moment Factory; compte Instagram Moment Factory lié par son Linktree officiel, activité Instagram non confirmée.",
+    "remaining_without_url": 85
+  }
 }
