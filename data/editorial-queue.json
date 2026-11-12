@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-12T21:00:00+01:00",
+  "updated_at": "2026-11-12T16:00:00+01:00",
   "description": "Candidats issus d'une passe réelle, non publiés tant que l'image directe, les droits, les sources, les doublons et la seconde lecture ne sont pas vérifiés.",
   "pipeline": [
     "repere",
@@ -295,6 +295,40 @@
         }
       ],
       "published_at": "2026-11-12T21:00:00+01:00"
+    },
+    {
+      "channel": "main",
+      "title": "Joy Awards 2026 — théâtre immersif et décors transformables",
+      "url": "https://stufish.com/project/joy-awards-2026/",
+      "source": "STUFISH",
+      "angle": "Canopée dorée, parois LED coulissantes et tableaux de performance intégrés à une architecture commune",
+      "status": "repere",
+      "image_status": "photos_officielles_identifiees_mais_droits_de_republication_et_url_directe_non_verifies",
+      "publication_blocker": "image_https_directe_et_autorisation_non_verifiees",
+      "checked_at": "2026-11-12"
+    },
+    {
+      "channel": "main",
+      "title": "Eurovision 2026 — 80 projecteurs cinétiques",
+      "url": "https://www.kinetic-lights.com/2026-esc-vienna",
+      "source": "KINETIC LIGHTS / ORF",
+      "corroboration_url": "https://songcontest.orf.at/story/lichtdesign104",
+      "angle": "La lumière devient architecture mobile : 80 treuils et stabilisation pan/tilt",
+      "status": "repere",
+      "image_status": "visuel_direct_et_droits_non_verifies",
+      "publication_blocker": "image_https_directe_et_autorisation_non_verifiees",
+      "checked_at": "2026-11-12"
+    },
+    {
+      "channel": "main",
+      "title": "Tiziano Ferro Stadi 26 — écrans, lumière et avancée",
+      "url": "https://www.etnow.com/news/2026/9/robe-for-tiziano-ferro-stadium-tour",
+      "source": "ETNow / Robe",
+      "angle": "Écran LED 60 m, portes coulissantes et avancée de 20 m : relier spectacle et captation",
+      "status": "repere",
+      "image_status": "visuel_direct_et_droits_non_verifies",
+      "publication_blocker": "image_https_directe_et_autorisation_non_verifiees",
+      "checked_at": "2026-11-12"
     }
   ],
   "instagram_candidates": [],
