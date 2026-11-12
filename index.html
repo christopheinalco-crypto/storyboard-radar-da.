@@ -335,7 +335,7 @@ function radarPriority(x){
  return 0;
 }
 function editorialSelection(items){let selected=[],sources={},cats={};const relevance=x=>activeGroup==='Tout'?Math.max(...Object.keys(EDITORIAL).map(g=>groupRelevance(x,g))):groupRelevance(x,activeGroup);for(const x of [...items].sort((a,b)=>(editorialScore(b)+relevance(b)+radarPriority(b)+mainStagePriority(b)+recencyPriority(b)+discoveryPriority(b))-(editorialScore(a)+relevance(a)+radarPriority(a)+mainStagePriority(a)+recencyPriority(a)+discoveryPriority(a))||(b.published||'').localeCompare(a.published||''))){if(!x.image&&!verifiedCase(x)&&!EDITORIAL_CASES[x.url]&&!AI_EDITORIAL_CASES[x.url])continue;if(activeGroup!=='Tout'&&relevance(x)<8)continue;let source=x.source||'',cat=x.category||'';if((sources[source]||0)>=3||(activeGroup==='Tout'&&(cats[cat]||0)>=3))continue;selected.push(x);sources[source]=(sources[source]||0)+1;cats[cat]=(cats[cat]||0)+1;if(selected.length>=(activeGroup==='Tout'?36:18))break}return selected}
-const SEEN_KEY='radar-da-seen-v1',SEEN_TTL=24*60*60*1000;
+const SEEN_KEY='radar-da-seen-v1',SEEN_TTL=5*24*60*60*1000;
 function seenData(){try{let d=JSON.parse(localStorage.getItem(SEEN_KEY)||'{}'),now=Date.now();for(const k of Object.keys(d))if(now-d[k]>SEEN_TTL||d[k]>now)delete d[k];localStorage.setItem(SEEN_KEY,JSON.stringify(d));return d}catch(e){return {}}}
 function markSeen(i){const x=ITEMS[i];if(!x)return;try{const d=seenData();d[x.url||x.title]=Date.now();localStorage.setItem(SEEN_KEY,JSON.stringify(d))}catch(e){}drawFeed()}
 function restoreSeen(i){const x=ITEMS[i];if(!x)return;try{const d=seenData();delete d[x.url||x.title];localStorage.setItem(SEEN_KEY,JSON.stringify(d))}catch(e){}drawFeed()}
