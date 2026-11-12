@@ -1209,5 +1209,45 @@
       }
     ],
     "tip": "Sur un croquis de concert, dessine d'abord une scène frontale, puis un sol continu jusqu'au public. Observe comment changent les points de vue et les possibilités de déplacement."
+  },
+  "https://www.tpimagazine.com/behind-the-scenes-of-take-thats-the-circus-live-2026/": {
+    "intro": "Regarde le cercle géant au fond du plateau. On pourrait croire à un simple cadre pour les écrans. Mais dans The Circus Live, l'architecture est conçue pour changer d'état. Le cercle de structure s'ouvre, le chapiteau se révèle et les artistes peuvent quitter la scène principale pour rejoindre un second espace. **Le décor n'illustre pas le cirque : il se comporte comme une attraction.**",
+    "points": [
+      [
+        "Un chapiteau qui se transforme",
+        "Area Four Industries décrit un cercle de structure mobile, réétudié pour 2026. Le dispositif fait passer le spectacle d'une image fermée de chapiteau à un espace de performance ouvert. C'est un changement de scène par la mécanique, pas seulement par un fondu vidéo."
+      ],
+      [
+        "Le trajet est une séquence de spectacle",
+        "Stage One documente une chaussée reliant deux scènes, un chariot pour les interprètes et une plateforme motorisée pour l'éléphant. La circulation devient un moment attendu du récit. Hypothèse de lecture DA : le public suit le déplacement comme il suivrait un numéro, au lieu de subir une transition technique."
+      ],
+      [
+        "Une iconographie lisible à très grande échelle",
+        "Le cercle, les rayures, les costumes et les faisceaux composent une image de cirque immédiatement identifiable même depuis les gradins. Attention : la photographie choisie montre une configuration du plateau, pas toute la transformation mécanique ; celle-ci est documentée par les fabricants et l'équipe de production."
+      ]
+    ],
+    "takeaway": "Pour penser un show, demande-toi si ton décor peut **faire quelque chose** : ouvrir, transporter, révéler, redistribuer les regards. Ici, le mouvement de la scénographie est lui-même un événement.",
+    "source": "TPi, 4 septembre 2026 ; Stage One, étude de cas ; Area Four Industries, conception de l'anneau ; The Standard, photographie",
+    "source_url": "https://www.tpimagazine.com/behind-the-scenes-of-take-thats-the-circus-live-2026/",
+    "verified": true,
+    "editorial_review": [
+      {
+        "url": "https://www.tpimagazine.com/behind-the-scenes-of-take-thats-the-circus-live-2026/",
+        "locator": "TPi : équipe créative, production, cirque 2026"
+      },
+      {
+        "url": "https://www.stageone.co.uk/project/take-that-the-circus-live-summer-2026/",
+        "locator": "Stage One : cinq ensembles mécanisés, scène B, éléphant, chariot"
+      },
+      {
+        "url": "https://www.areafourindustries.com/area-four-industries/press-releases/inside-litec-s-role-in-bringing-take-that-s-the-ci",
+        "locator": "LITEC : anneau mobile et chapiteau"
+      },
+      {
+        "url": "https://www.standard.co.uk/culture/music/take-that-howard-donald-mark-owen-london-gary-barlow-b1287823.html",
+        "locator": "Photographie de The Circus Live 2026"
+      }
+    ],
+    "tip": "Dessine trois états d'un même plateau : fermé, ouvert, puis déplacé vers le public. Chaque transformation doit changer l'attention, pas seulement l'apparence."
   }
 }
