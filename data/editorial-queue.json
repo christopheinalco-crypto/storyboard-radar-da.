@@ -1,0 +1,133 @@
+{
+  "updated_at": "2026-11-12",
+  "description": "Candidats issus d'une passe réelle, non publiés tant que l'image directe, les droits, les sources, les doublons et la seconde lecture ne sont pas vérifiés.",
+  "pipeline": [
+    "repere",
+    "enrichi",
+    "valide",
+    "publie"
+  ],
+  "targets": {
+    "main": 5,
+    "linkedin": 3,
+    "instagram": 3
+  },
+  "candidates": [
+    {
+      "channel": "main",
+      "title": "Justin Bieber — Coachella 2026",
+      "url": "https://stufish.com/project/justin-bieber/",
+      "source": "STUFISH",
+      "angle": "La géométrie du plateau descend dans la foule pour relier deux zones de jeu",
+      "status": "repere",
+      "image_status": "official_project_page_or_source_found_but_direct_image_not_verified",
+      "publication_blocker": "image_https_directe_et_droits_non_verifies",
+      "checked_at": "2026-11-12"
+    },
+    {
+      "channel": "main",
+      "title": "National Television Awards 2026",
+      "url": "https://stufish.com/project/national-television-awards-2026/",
+      "source": "STUFISH",
+      "angle": "Les vagues superposées enveloppent le plateau et changent sa profondeur à la caméra",
+      "status": "repere",
+      "image_status": "official_project_page_or_source_found_but_direct_image_not_verified",
+      "publication_blocker": "image_https_directe_et_droits_non_verifies",
+      "checked_at": "2026-11-12"
+    },
+    {
+      "channel": "main",
+      "title": "Olivia Dean — The Art Of Loving Tour",
+      "url": "https://fraystudio.com/projects/olivia-dean-2026",
+      "source": "FRAY Studio / 1826",
+      "angle": "La caméra live devient une projection sur le rideau scénique, sans écran IMAG séparé",
+      "status": "repere",
+      "image_status": "official_project_page_or_source_found_but_direct_image_not_verified",
+      "publication_blocker": "image_https_directe_et_droits_non_verifies",
+      "checked_at": "2026-11-12"
+    },
+    {
+      "channel": "main",
+      "title": "Louis Tomlinson — How Did I Get Here? Tour",
+      "url": "https://fraystudio.com/projects/louis-tomlinson-2026",
+      "source": "FRAY Studio",
+      "angle": "La captation du public entre dans les mondes visuels de l'artiste",
+      "status": "repere",
+      "image_status": "official_project_page_or_source_found_but_direct_image_not_verified",
+      "publication_blocker": "image_https_directe_et_droits_non_verifies",
+      "checked_at": "2026-11-12"
+    },
+    {
+      "channel": "main",
+      "title": "Blackhaine — Northside Needs Me",
+      "url": "https://www.promonews.tv/videos/2026/11/11/blackhaine-northside-needs-me-mau-morgo/96936",
+      "source": "Promonews",
+      "angle": "La caméra à l'épaule et l'action-cam placent le spectateur au milieu du conflit",
+      "status": "repere",
+      "image_status": "official_project_page_or_source_found_but_direct_image_not_verified",
+      "publication_blocker": "image_https_directe_et_droits_non_verifies",
+      "checked_at": "2026-11-12"
+    },
+    {
+      "channel": "main",
+      "title": "Them & I — Say You Don't",
+      "url": "https://www.promonews.tv/videos/2026/11/02/them-i-say-you-dont-jim-longden/96822",
+      "source": "Promonews",
+      "angle": "Un plan-séquence 16 mm fait entrer et sortir le décor à vue, comme au théâtre",
+      "status": "repere",
+      "image_status": "official_project_page_or_source_found_but_direct_image_not_verified",
+      "publication_blocker": "image_https_directe_et_droits_non_verifies",
+      "checked_at": "2026-11-12"
+    },
+    {
+      "channel": "main",
+      "title": "Sports Team — Billy",
+      "url": "https://www.promonews.tv/videos/2026/11/11/sports-team-billy-kris-r/96941",
+      "source": "Promonews",
+      "angle": "Un masque papier mâché disproportionné rend un personnage quotidien inquiétant",
+      "status": "repere",
+      "image_status": "official_project_page_or_source_found_but_direct_image_not_verified",
+      "publication_blocker": "image_https_directe_et_droits_non_verifies",
+      "checked_at": "2026-11-12"
+    },
+    {
+      "channel": "main",
+      "title": "Take That — The Circus Live 2026",
+      "url": "https://www.tpimagazine.com/behind-the-scenes-of-take-thats-the-circus-live-2026/",
+      "source": "TPi",
+      "angle": "Relecture scénique d'une tournée monumentale",
+      "status": "repere",
+      "image_status": "official_project_page_or_source_found_but_direct_image_not_verified",
+      "publication_blocker": "image_https_directe_et_droits_non_verifies",
+      "checked_at": "2026-11-12"
+    },
+    {
+      "channel": "linkedin",
+      "title": "Disguise — Olivia Dean live camera",
+      "url": "https://www.linkedin.com/posts/disguise-_createtogether-poweredbydisguise-activity-7503769400882360321-EvNC",
+      "source": "Disguise",
+      "angle": "La caméra cesse d'être un simple écran de retransmission",
+      "status": "repere",
+      "image_status": "official_project_page_or_source_found_but_direct_image_not_verified",
+      "publication_blocker": "image_https_directe_et_droits_non_verifies",
+      "checked_at": "2026-11-12"
+    },
+    {
+      "channel": "linkedin",
+      "title": "Alexandra Coulson — Olivia Dean visual system",
+      "url": "https://www.linkedin.com/posts/alexandracoulson_liveevents-createtogether-poweredbydisguise-activity-7473336905468788736-0js1",
+      "source": "Alexandra Coulson",
+      "angle": "Lecture métier de l'intégration des images live dans la scène",
+      "status": "repere",
+      "image_status": "official_project_page_or_source_found_but_direct_image_not_verified",
+      "publication_blocker": "image_https_directe_et_droits_non_verifies",
+      "checked_at": "2026-11-12"
+    }
+  ],
+  "instagram_candidates": [],
+  "publication_summary": {
+    "main": 0,
+    "linkedin": 0,
+    "instagram": 0
+  }
+}
