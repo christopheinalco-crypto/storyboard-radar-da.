@@ -122,6 +122,72 @@
       "image_status": "official_project_page_or_source_found_but_direct_image_not_verified",
       "publication_blocker": "image_https_directe_et_droits_non_verifies",
       "checked_at": "2026-11-12"
+    },
+    {
+      "channel": "main",
+      "title": "Bruno Mars — The Romantic Tour : les visuels en temps réel",
+      "url": "https://blooloop.com/bruno-mars-romantic-tour/",
+      "source": "Blooloop / Drop the Spoon / VYV",
+      "angle": "Les contenus génératifs sont ajustés en direct sans voler l'attention à l'artiste",
+      "status": "repere",
+      "image_status": "not_verified",
+      "publication_blocker": "Image directe du projet et droit d'affichage non vérifiés",
+      "checked_at": "2026-11-12"
+    },
+    {
+      "channel": "main",
+      "title": "Julien Doré — cinq panneaux pivotants pour recomposer la scène",
+      "url": "https://www.cutback.live/en/projets",
+      "source": "CUTBACK",
+      "angle": "Cinq panneaux double face LED/lumière créent une chorégraphie scénographique",
+      "status": "repere",
+      "image_status": "not_verified",
+      "publication_blocker": "Image directe du projet et droit d'affichage non vérifiés",
+      "checked_at": "2026-11-12"
+    },
+    {
+      "channel": "main",
+      "title": "Aya Nakamura — Stade de France, la réalisation au service du show",
+      "url": "https://www.d-labs.fr/projets/aya-nakamura",
+      "source": "D/LABS",
+      "angle": "Coordonner captation et médias live pour amplifier le spectacle sans effacer la présence scénique",
+      "status": "repere",
+      "image_status": "not_verified",
+      "publication_blocker": "Image directe du projet et droit d'affichage non vérifiés",
+      "checked_at": "2026-11-12"
+    },
+    {
+      "channel": "instagram",
+      "title": "AT PARIS — Nike x Midnight Tennis Block Party",
+      "url": "https://picmany.com/at_paris",
+      "source": "@at_paris (miroir de publications)",
+      "angle": "Transformer un lieu d'école en terrain de jeu immersif mêlant sport et culture",
+      "status": "repere",
+      "image_status": "not_verified",
+      "publication_blocker": "URL directe du post Instagram et image réutilisable non vérifiées",
+      "checked_at": "2026-11-12"
+    },
+    {
+      "channel": "instagram",
+      "title": "AT PARIS — Remaland x Jumpman",
+      "url": "https://picmany.com/at_paris",
+      "source": "@at_paris (miroir de publications)",
+      "angle": "Transformer l'univers d'un concert en installation spatiale visitable",
+      "status": "repere",
+      "image_status": "not_verified",
+      "publication_blocker": "URL directe du post Instagram et image réutilisable non vérifiées",
+      "checked_at": "2026-11-12"
+    },
+    {
+      "channel": "instagram",
+      "title": "WTFlow — Pandemonium Reloaded Tour backstage",
+      "url": "https://picmany.com/iamwtflow",
+      "source": "@iamwtflow (miroir de publications)",
+      "angle": "Observer les coulisses d'un système mêlant lumière, visuels et caméra live",
+      "status": "repere",
+      "image_status": "not_verified",
+      "publication_blocker": "URL directe du post Instagram et image réutilisable non vérifiées",
+      "checked_at": "2026-11-12"
     }
   ],
   "instagram_candidates": [],
