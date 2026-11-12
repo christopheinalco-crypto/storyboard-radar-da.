@@ -1,0 +1,82 @@
+{
+  "version": 1,
+  "updated": "2026-11-12",
+  "purpose": "Veille sociale complémentaire, distincte des sources articles data/sources.json",
+  "rules": {
+    "priorities": [
+      "concerts et tournées",
+      "clips",
+      "spectacles et performances",
+      "scénographie et set design",
+      "lancements spectaculaires",
+      "shows TV"
+    ],
+    "require_direct_post_url": true,
+    "require_authentic_project_visual": true,
+    "require_cross_check": true,
+    "dedupe_against_articles_by_project": true,
+    "no_automatic_scraping_claim": true,
+    "do_not_publish_without_verification": true
+  },
+  "accounts": [
+    {
+      "name": "Seconde Design",
+      "platform": "LinkedIn",
+      "profile_url": "https://fr.linkedin.com/showcase/seconde-design/",
+      "focus": [
+        "scénographie concerts",
+        "set design",
+        "création lumière"
+      ],
+      "priority": "P1",
+      "status": "profile_verified",
+      "distinct_value": "posts de conception, scènes et processus"
+    },
+    {
+      "name": "CUTBACK LIVE",
+      "platform": "LinkedIn",
+      "profile_url": "https://fr.linkedin.com/company/cutback-productions",
+      "focus": [
+        "scénographie vidéo",
+        "tournées",
+        "shows TV"
+      ],
+      "priority": "P1",
+      "status": "profile_verified",
+      "distinct_value": "crédits de production et images de projets"
+    },
+    {
+      "name": "LUMIVERSE DESIGN",
+      "platform": "LinkedIn",
+      "profile_url": "https://fr.linkedin.com/company/lumiverse-design",
+      "focus": [
+        "lumière concerts",
+        "prévisualisation 3D",
+        "scénographie"
+      ],
+      "priority": "P1",
+      "status": "profile_verified",
+      "distinct_value": "comparaison rendu scénique et prévisualisation"
+    }
+  ],
+  "candidates_to_verify": [
+    {
+      "name": "Alien le studio",
+      "reason": "Scénographie et lumière tournée Tiakola; trouver profils officiels",
+      "reference": "https://www.tpimagazine.com/meet-creative-team-pushing-automation-boundaries-for-tiakolas-m3lo-world-tour/"
+    },
+    {
+      "name": "High Scream",
+      "reason": "Show design concerts et musique électronique; vérifier profils sociaux",
+      "reference": "https://www.otra.live/companies/high-scream"
+    }
+  ],
+  "workflow": [
+    "Consulter les posts publics accessibles des comptes",
+    "Retenir des projets précis et des liens directs de posts, pas de simples profils",
+    "Vérifier la date, les crédits, le visuel réel et une source indépendante",
+    "Comparer par nom de projet aux publications articles et réseaux existantes",
+    "Rédiger la lecture DA suivant AGENTS.md et EDITORIAL_RUBRIC.md",
+    "Si aucune nouveauté validée, signaler l'absence sans créer de contenu artificiel"
+  ]
+}
