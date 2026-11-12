@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-12",
+  "updated_at": "2026-11-12T07:41:56.579Z",
   "description": "Candidats issus d'une passe réelle, non publiés tant que l'image directe, les droits, les sources, les doublons et la seconde lecture ne sont pas vérifiés.",
   "pipeline": [
     "repere",
@@ -151,10 +151,12 @@
       "url": "https://www.d-labs.fr/projets/aya-nakamura",
       "source": "D/LABS",
       "angle": "Coordonner captation et médias live pour amplifier le spectacle sans effacer la présence scénique",
-      "status": "repere",
-      "image_status": "not_verified",
-      "publication_blocker": "Image directe du projet et droit d'affichage non vérifiés",
-      "checked_at": "2026-11-12"
+      "status": "publie",
+      "image_status": "image_officielle_directe_chargee",
+      "publication_blocker": null,
+      "checked_at": "2026-11-12T07:41:56.579Z",
+      "image": "https://www.d-labs.fr/media/cache/gallery/uploads/shows/template-deux-photos-site-4-droite.png",
+      "published_at": "2026-11-12T07:41:56.579Z"
     },
     {
       "channel": "instagram",
@@ -192,7 +194,7 @@
   ],
   "instagram_candidates": [],
   "publication_summary": {
-    "main": 0,
+    "main": 1,
     "linkedin": 0,
     "instagram": 0
   }
