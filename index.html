@@ -554,6 +554,7 @@ function editorialCaseQuality(x){
 function editorialEmphasis(value){
  return escapeHTML(String(value||''))
   .replace(/\*\*([^*]+)\*\*/g,'<strong class="da-inline-emphasis">$1</strong>')
+  .replace(/\*([^*]+)\*/g,'<em class="da-inline-italic">$1</em>')
   .replace(/==([^=]+)==/g,'<mark class="da-inline-highlight">$1</mark>');
 }
 function editorialReadingHTML(x, suppliedAnalysis){
