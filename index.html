@@ -670,7 +670,7 @@ items.sort((a,b)=>radarEntryTime(b)-radarEntryTime(a)||(Date.parse(b.published||
 const unique=new Set();items=items.filter(x=>{if(unique.has(x.url))return false;unique.add(x.url);return true});
 // Les projets marqués « Vu » quittent immédiatement le flux principal et restent dans « Projets vus ».
 const saved=savedInsightsData();
-items=items.filter(x=>!seen[x.url||x.title]&&!saved[x.url]);
+items=items.filter(x=>!(seen[x.url||x.title]&&Date.now()-seen[x.url||x.title]>=24*60*60*1000)&&!saved[x.url]);
 
 // La veille principale ne montre que les projets avec décryptage DA validé.
 const day=new Date().toLocaleDateString('en-CA');
