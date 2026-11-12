@@ -215,10 +215,15 @@ Conserver une voix parlée de DA expérimenté, directe, exigeante et nuancée ;
 - **Compte rendu** : indiquer séparément pour la presse, LinkedIn et Instagram le nombre de candidats retenus et réellement publiés, ainsi que les erreurs éventuelles. Une publication n'est confirmée qu'après relecture des fichiers ; la vérification visuelle du site reste un contrôle supplémentaire distinct.
 
 
-## Règle validée le 11 novembre 2026 — publication sans photographie
+## Règle prioritaire du 12 novembre 2026 — visuel authentique obligatoire
 
-Une photographie n'est PLUS une condition bloquante pour une veille. Si aucune image directe HTTPS fiable et autorisée n'est trouvée après une recherche raisonnable, publier néanmoins le projet lorsque ses sources, sa pertinence DA, son absence de doublon et son analyse complète sont vérifiés. Ne jamais inventer ni substituer une image sans rapport. Pour la carte sans photo : titre, une seule phrase concrète sur l'intérêt DA, lien vers la source/le projet ; conserver le décryptage complet au clic. Laisser le champ image vide ou absent selon le schéma existant ; vérifier que le site sait rendre ce cas sans image. Si la présentation actuelle ne le permet pas, signaler la nécessité d'un correctif UI distinct plutôt que fabriquer une URL. Cette règle remplace les anciennes clauses de rejet absolu pour absence de visuel dans ce fichier et dans les prompts. Les contrôles de sources, de recoupement LinkedIn/Instagram, d'analyse et d'anti-doublons restent bloquants. Cibles par vague : au moins 5 projets principaux, 3 posts LinkedIn et 3 posts Instagram, sans fabriquer de contenu ; élargir la recherche si les cibles ne sont pas atteintes.
+**Décision utilisateur : RADAR DA ne publie désormais que des veilles accompagnées d'un visuel authentique du projet, vérifié et utilisable.** Cette règle annule explicitement la règle « publication sans photographie » du 11 novembre et prévaut sur toute ancienne instruction contraire, y compris les consignes des automations. Elle s'applique à la veille principale et aux veilles LinkedIn et Instagram.
 
+Avant publication, rechercher en priorité une photographie ou une image officielle montrant le détail analysé, dans la source, le site du créateur, le dossier de presse ou un média fiable. Vérifier la correspondance exacte avec le projet, l'URL HTTPS directe de l'image, son chargement effectif et les conditions d'utilisation. Ne jamais utiliser de visuel générique, d'une autre œuvre, une capture inventée ou une URL non testée.
+
+Si le visuel est introuvable, non vérifiable ou non réutilisable, **ne pas publier** le candidat ; élargir la recherche à d'autres projets et sources pour tenter d'atteindre les objectifs. Les quotas restent des cibles, jamais une raison d'inventer. Un doublon déclenche une nouvelle prospection, pas l'arrêt de la vague. Ne pas effacer les anciennes fiches sans image : les corriger séparément avec des images vérifiées, sans modifier leur date d'ajout.
+
+Contrôle de livraison : relire les fichiers GitHub après commit, vérifier les liens directs des images et, si possible, le rendu public. Un commit réussi ne prouve pas que les images s'affichent dans le navigateur. En cas d'échec, indiquer les cas concernés et les contrôles impossibles, sans annoncer que le problème est résolu. Ne pas modifier index.html ou le service worker pendant une vague de veille.
 
 ## Règle prioritaire — deux veilles sociales autonomes et très larges (11 novembre 2026)
 
