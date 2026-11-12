@@ -1097,5 +1097,41 @@
       }
     ],
     "editorial_method": "Sources documentées et hypothèses de DA distinguées ; carte sans image selon règle validée."
+  },
+  "https://www.soundlightup.com/flash-and-news/gims-enflamme-le-stade-pierre-mauroy-avec-plus-de-500-projecteurs-claypaky.html": {
+    "intro": "Regarde ce qui se joue à Lille : Maxime Tisseuil ne se contente pas d'éclairer GIMS. Il dessine des lignes lumineuses autour de l'écran et sur les côtés pour donner au plateau une géométrie mobile. Le concert ne repose plus uniquement sur une image géante au fond.",
+    "points": [
+      [
+        "Des lignes plutôt qu'un décor fixe",
+        "Les 336 Tambora Linear 100 dessinent des lignes parallèles sur les structures latérales. Les 195 Volero Cube, installés notamment au pied de l'écran, reprennent les couleurs de la vidéo. Le choix est documenté : ==faire circuler l'image dans l'espace== plutôt que laisser la lumière et la vidéo vivre séparément."
+      ],
+      [
+        "Un mouvement fabriqué avec la lumière",
+        "Le tilt motorisé des Volero Cube permet d'animer ces lignes. Hypothèse DA : quand les lignes changent d'orientation, la scène semble se contracter ou s'ouvrir, même sans déplacer le décor. Ce n'est pas une mesure de réaction du public, mais une lecture de la composition."
+      ],
+      [
+        "La contrainte donne la forme",
+        "Une journée de montage et une de répétitions : Tisseuil explique avoir conçu un système ambitieux mais rapide à installer. La répétition d'éléments simples devient un vocabulaire scénique lisible et pilotable."
+      ]
+    ],
+    "takeaway": "==Faire sortir la vidéo de son cadre== : quand les lignes lumineuses prolongent les couleurs et la géométrie de l'écran, l'ensemble du plateau peut devenir une seule composition.",
+    "source": "SoundLightUp / Claypaky ; Chauvet Professional ; DIMATEC (LinkedIn) ; Stade Pierre-Mauroy",
+    "source_url": "https://www.soundlightup.com/flash-and-news/gims-enflamme-le-stade-pierre-mauroy-avec-plus-de-500-projecteurs-claypaky.html",
+    "verified": true,
+    "editorial_review": [
+      {
+        "url": "https://www.soundlightup.com/flash-and-news/gims-enflamme-le-stade-pierre-mauroy-avec-plus-de-500-projecteurs-claypaky.html",
+        "locator": "2 novembre 2026 : positionnement des 336 Tambora sur les côtés et des 195 Volero Cube au pied de l'écran"
+      },
+      {
+        "url": "https://www.soundlightup.com/flash-and-news/gims-enflamme-le-stade-pierre-mauroy-avec-plus-de-500-projecteurs-claypaky.html",
+        "locator": "2 novembre 2026 : citation de Maxime Tisseuil sur les lignes de pixels et le tilt motorisé"
+      },
+      {
+        "url": "https://www.soundlightup.com/flash-and-news/gims-enflamme-le-stade-pierre-mauroy-avec-plus-de-500-projecteurs-claypaky.html",
+        "locator": "2 novembre 2026 : citation sur le montage en une journée et la répétition en une journée"
+      }
+    ],
+    "tip": "Sur un croquis de scène, dessine une ligne vidéo centrale puis prolonge deux de ses axes avec des projecteurs latéraux. Compare l'effet avec un écran isolé."
   }
 }
