@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-12T20:00:00+01:00",
+  "updated_at": "2026-11-13T06:03:12+01:00",
   "description": "Candidats issus d'une passe réelle, non publiés tant que l'image directe, les droits, les sources, les doublons et la seconde lecture ne sont pas vérifiés.",
   "pipeline": [
     "repere",
@@ -8,9 +8,7 @@
     "publie"
   ],
   "targets": {
-    "main": 5,
-    "linkedin": 3,
-    "instagram": 3
+    "main": 5
   },
   "candidates": [
     {
@@ -362,6 +360,29 @@
         }
       ],
       "source_details": "Écran LED 60×12 m, portes coulissantes, avancée 20 m; collaboration Giò Forma, Comix, Giovanni Pinna. Photographie du projet attribuée à Marco Zucchinali par Mothergrid."
+    },
+    {
+      "channel": "main",
+      "title": "Francis Degrandpré — foyer symbolique et mur de lumière",
+      "url": "https://www.etnow.com/news/2026/11/pierre-e-roy-and-marc-antoine-pelletier-set-good-time-mood-for-francis-degrandpre-with-chauvet-professional",
+      "source": "ETNow / Chauvet Professional",
+      "angle": "Un foyer chaleureux au centre du décor, un mur de lumière à la place d'un écran géant : le contraste entre intimité country et énergie rock.",
+      "status": "repere",
+      "image_status": "image_directe_et_droits_non_verifies",
+      "publication_blocker": "Visuel authentique, URL HTTPS directe, crédit et droits de réaffichage non validés ; seconde lecture requise",
+      "checked_at": "2026-11-13",
+      "source_details": "Article ETNow publié le 12 novembre 2026, citations de Marc-Antoine Pelletier ; 14 Maverick Force X Spots et 12 COLORado 2 Solos."
+    },
+    {
+      "channel": "main",
+      "title": "Arashi — Farewell Tour Japan : une scène qui se construit",
+      "url": "https://stufish.com/project/arashi/",
+      "source": "STUFISH",
+      "angle": "Une structure d'abord squelettique se transforme en environnement d'écrans, lumière, eau et mouvements ; une scène B mobile survole le public.",
+      "status": "repere",
+      "image_status": "images_officielles_visibles_mais_url_directe_et_droits_non_verifies",
+      "publication_blocker": "Vérifier images directes, droits et seconde source indépendante ; seconde lecture requise",
+      "checked_at": "2026-11-13"
     }
   ],
   "instagram_candidates": [],
