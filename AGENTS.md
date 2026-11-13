@@ -240,3 +240,16 @@ Chaque analyse doit se lire comme un DA qui parle, pas comme un pavé. Paragraph
 ## Règle prioritaire du 13 novembre 2026 — illustration contextuelle non bloquante
 
 La qualité de l'analyse et la vérification du projet priment sur l'obtention d'une photographie exacte du dispositif. Chercher d'abord une image du projet en croisant artiste, studio, production, presse et photographe. À défaut, accepter une photo officielle de l'artiste ou du groupe, du scénographe, du studio, une affiche officielle ou un visuel contextuel directement lié au sujet. Identifier honnêtement la nature du visuel (par exemple « portrait de l'artiste, illustration contextuelle ») et ne jamais le présenter comme une preuve visuelle du mécanisme analysé. Le lien canonique vers le projet doit permettre au lecteur de voir l'œuvre. Vérifier que l'image s'affiche et que son utilisation est autorisée, avec crédit si requis. Une image contextuelle pertinente ne bloque donc plus la publication d'une analyse solidement sourcée. Les exigences de fraîcheur, de non-doublon et de valeur DA restent inchangées. Cette règle prévaut sur les anciennes obligations d'image exacte du projet et de mécanisme visible dans la vignette.
+
+
+## Priorité opérationnelle — qualité du regard sans biais spectaculaire (13 novembre 2026)
+
+**Mission réelle :** proposer une veille DA intéressante et instructive, pas collectionner des prouesses de production. L'intérêt peut venir d'un geste minimal, d'une économie de moyens, d'un choix de costume, de couleur, de cadre, de lumière, de rythme, de typographie, de casting, de chorégraphie ou de direction d'acteurs, autant que d'une grande scénographie.
+
+**Sélection :** évaluer chaque projet sur un choix observable précis, son effet sur la perception et une leçon utile à un DA. Rejeter les banalités descriptives, non les projets modestes. Une intention documentée est idéale ; sinon indiquer clairement une lecture interprétative sans inventer de propos de l'équipe.
+
+**Découverte :** prospection ouverte au-delà du catalogue, avec recherche explicite de clips des dernières 72 heures, concerts, spectacles, télévision, théâtre, performances, installations et lancements scénographiés. Les 182 références servent de base à revisiter par rotation. Ne jamais laisser un quota de sites ou une recherche d'image monopoliser la vague ; rendre compte honnêtement des visites réellement effectuées et de tout objectif non atteint.
+
+**Illustration :** chercher d'abord des images authentiques du projet dans les sources officielles et chez les créateurs, créditer et vérifier les droits de réaffichage. Ne pas substituer un autre projet en le faisant passer pour l'original. Si aucune image exploitable, conserver un lien canonique visible et poursuivre la recherche sur d'autres projets ; ne pas inventer une licence.
+
+**Publication :** une fiche éditorialement solide peut être publiée seule dès qu'elle est vérifiée ; la cible 5–9 reste un objectif, jamais un prétexte à publier du faible. Contrôler doublons et registre historique, préserver archives, écrire les trois fichiers avec SHA frais, relire et vérifier les commits. Ne pas modifier l'interface dans la veille. Distinguer clairement modification de règles et publication effective.
