@@ -37,7 +37,7 @@ def score(url, category, priority):
     depth = len([x for x in path.split("/") if x])
     if depth < 2 or len(path) < 14 or any(x in tokens for x in EXCLUDE):
         return -1
-    if re.search(r"\\.(?:jpg|png|gif|webp|svg|pdf|css|js|woff|mp4|mov)$", path):
+    if re.search(r"\.(?:jpg|png|gif|webp|svg|pdf|css|js|woff|mp4|mov)$", path):
         return -1
     pts = 3 if priority == "P1" else 2 if priority == "P2" else 0
     pts += CATEGORY_BOOST.get(category, 0)
