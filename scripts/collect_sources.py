@@ -17,6 +17,7 @@ NOW=dt.datetime.now(dt.timezone.utc).isoformat()
 HEADERS={"User-Agent":"Mozilla/5.0 (compatible; RADARDAResearch/1.0; editorial discovery)"}
 PRIORITY_CATEGORIES={"01 Spectacle Concert","02 TV Broadcast","09 France Pro","14 Musique Clips","15 Danse Performance"}
 LIMIT=182
+# Network coverage is independent from editorial publication.
 
 class Links(HTMLParser):
     def __init__(self):
@@ -50,7 +51,7 @@ def inspect(entry):
             parser.links=re.findall(r"<link[^>]*>(https?[^<]+)</link>",raw.decode("utf-8","replace"),re.I)[:30]
         result["page_title"]=html.unescape(parser.title.strip())[:180]
         result["links_found"]=len(parser.links)
-        result["sample_links"]=parser.links[:8]
+        result["sample_links"]=parser.links[:30]
         result["status"]="opened" if 200<=response.status<400 else "http_error"
     except Exception as e:
         result["status"]="error";result["error"]=str(e)[:240]
@@ -86,11 +87,21 @@ def main():
                 if isinstance(item,dict):existing.add(item.get("url"))
         except (FileNotFoundError,ValueError):pass
     candidates=[]
+    known=set()
     for result in results:
         if result["status"]!="opened":continue
         for url in result.get("sample_links",[]):
-            if url not in existing and url not in [x["url"] for x in candidates]:
-                candidates.append({"url":url,"source":result["name"],"source_category":result["category"],
+            # Skip homepage, anchors, social links, trackers and non-editorial assets.
+            clean=url.split("#",1)[0]
+            if not clean.startswith("https://") or clean.rstrip("/")==result["final_url"].rstrip("/"):
+                continue
+            if re.search(r"\\.(?:jpg|jpeg|png|gif|svg|webp|pdf|css|js|mp4|woff2?)(?:\\?|$)",clean,re.I):
+                continue
+            if any(host in clean.lower() for host in ("instagram.com/","facebook.com/","tiktok.com/","linkedin.com/","twitter.com/","x.com/","youtube.com/","youtu.be/")):
+                continue
+            if clean not in existing and clean not in known:
+                known.add(clean)
+                candidates.append({"url":clean,"source":result["name"],"source_category":result["category"],
                     "status":"unverified_discovery","found_at":NOW})
     (DATA/"source-discoveries.json").write_text(json.dumps({"updated_at":NOW,
         "warning":"Links are unverified; not articles ready for publication.",
