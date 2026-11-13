@@ -1,5 +1,7 @@
 # RADAR DA — architecture opérationnelle (2026-11-13)
 
+**Référence de décision obligatoire : [PUBLICATION_SCORECARD.md](PUBLICATION_SCORECARD.md).** Toute publication doit franchir le barème /20 et les conditions visuelles, avec image alternative clairement identifiée si nécessaire.
+
 ## Finalité
 Veille créative publique qui explique les partis pris de direction artistique de projets récents : concerts, clips, shows TV, spectacles, théâtre, performances, installations et lancements scénographiés. Une fiche doit faire voir un choix, son effet, et une leçon de DA. Pas de remplissage.
 
@@ -8,7 +10,7 @@ Veille créative publique qui explique les partis pris de direction artistique d
 2. **Découverte** — `data/source-discoveries.json` reçoit des liens extraits, sans présumer leur fraîcheur, leur qualité ni leurs droits. Le collecteur suit les liens relatifs et absolus. Instagram exclu ; LinkedIn non requis.
 3. **Priorisation** — `scripts/radar_pipeline.py` classe les liens selon les secteurs DA et la probabilité d'une page-projet, filtre bruit et doublons URL, limite le poids d'un même domaine et conserve `data/editorial-shortlist.json`. Ce classement est un *signal de recherche*, pas une validation.
 4. **Édition humaine/assistée** — consulter la shortlist ET prospecter directement les sorties récentes non couvertes, notamment les clips du vendredi. Vérifier date réelle, source primaire, observation visuelle, intérêt DA, recoupement utile, identité de projet et historique. Rédiger en français direct avec **L'essentiel / Intention / Idée & DA / Pour un DA**. Intention hypothétique explicitement signalée.
-5. **Images** — chercher d'abord chez artiste, studio, réalisateur, photographe, organisateur et presse. Image authentique du même projet, crédit et droits vérifiés ; aucune substitution trompeuse. Une image indisponible n'arrête pas la prospection des autres projets.
+5. **Images** — chercher d'abord chez artiste, studio, réalisateur, photographe, organisateur et presse. Image authentique du même projet en priorité ; à défaut, illustration thématique affichable et explicitement identifiée comme non issue du projet, sans confusion possible. Vérifier source, crédit et conditions de réutilisation ; ne pas laisser de carte vide.
 6. **Publication** — seules les fiches validées passent dans `data/feed.json`, `data/analyses.json`, `data/published-projects.json`, avec SHA frais et relecture. `data/editorial-queue.json` reste la mémoire des incomplets. Aucune écriture automatique de liens bruts dans le flux public.
 7. **Contrôle** — comparer commits, données relues, rendu GitHub Pages, images et lien source. Déclarer séparément publications et collecte.
 
