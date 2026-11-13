@@ -1,8 +1,13 @@
 name: RADAR DA — collecte des sources
 on:
   workflow_dispatch:
+  push:
+    paths:
+      - 'scripts/collect_sources.py'
+      - 'scripts/radar_pipeline.py'
+      - '.github/workflows/radar-source-collector.yml'
   schedule:
-    - cron: '15 4,10,14,18 * * *'
+    - cron: '15 5,11,15,19 * * *'
 permissions:
   contents: write
 concurrency:
