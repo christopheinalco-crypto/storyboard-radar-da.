@@ -1,6 +1,6 @@
 {
   "description": "Cumulative seen-project register; retain entries when projects leave the live feed; compare URL and semantic identity.",
-  "updated": "2026-11-13T12:00:00+01:00",
+  "updated": "2026-11-13T12:30:00+01:00",
   "projects": [
     {
       "url": "https://stufish.com/project/arashi/",
@@ -264,6 +264,12 @@
       "url": "https://au.rollingstone.com/music/music-features/noah-kahan-australia-tour-creative-design-interview-101525/",
       "title": "Noah Kahan — une maison qui change de réalité",
       "category": "15 Scène Spectacle"
+    },
+    {
+      "url": "https://www.promonews.tv/videos/2026/11/12/strokes-lonely-future-warren-fu/96952",
+      "title": "The Strokes — des marionnettes pour rendre la satire visible",
+      "category": "14 Musique Clips",
+      "radar_added_at": "2026-11-13T12:30:00+01:00"
     }
   ]
 }
