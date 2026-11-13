@@ -10,6 +10,7 @@ from pathlib import Path
 import re
 import urllib.request
 import urllib.error
+from urllib.parse import urljoin
 
 ROOT=Path(__file__).resolve().parents[1]
 DATA=ROOT/"data"
@@ -20,13 +21,13 @@ LIMIT=182
 # Network coverage is independent from editorial publication.
 
 class Links(HTMLParser):
-    def __init__(self):
-        super().__init__();self.links=[];self.in_title=False;self.title=""
+    def __init__(self, base_url=""):
+        super().__init__();self.links=[];self.in_title=False;self.title="";self.base_url=base_url
     def handle_starttag(self,tag,attrs):
         attrs=dict(attrs)
         if tag=="a":
-            href=attrs.get("href","")
-            if href.startswith("http") and href not in self.links:self.links.append(href)
+            href=urljoin(self.base_url,attrs.get("href",""))
+            if href.startswith("https://") and href not in self.links:self.links.append(href)
         if tag=="title":self.in_title=True
     def handle_endtag(self,tag):
         if tag=="title":self.in_title=False
@@ -43,7 +44,7 @@ def inspect(entry):
             result["http_status"]=response.status
             result["final_url"]=response.url
             result["content_type"]=response.headers.get("Content-Type","")
-        parser=Links()
+        parser=Links(result["final_url"])
         if b"<html" in raw[:10000].lower() or "html" in result["content_type"]:
             parser.feed(raw.decode("utf-8","replace"))
         else:
@@ -51,7 +52,7 @@ def inspect(entry):
             parser.links=re.findall(r"<link[^>]*>(https?[^<]+)</link>",raw.decode("utf-8","replace"),re.I)[:30]
         result["page_title"]=html.unescape(parser.title.strip())[:180]
         result["links_found"]=len(parser.links)
-        result["sample_links"]=parser.links[:30]
+        result["sample_links"]=parser.links[:100]
         result["status"]="opened" if 200<=response.status<400 else "http_error"
     except Exception as e:
         result["status"]="error";result["error"]=str(e)[:240]
@@ -101,11 +102,11 @@ def main():
                 continue
             if clean not in existing and clean not in known:
                 known.add(clean)
-                candidates.append({"url":clean,"source":result["name"],"source_category":result["category"],
+                candidates.append({"url":clean,"source":result["name"],"source_category":result["category"],"priority":result["priority"],
                     "status":"unverified_discovery","found_at":NOW})
     (DATA/"source-discoveries.json").write_text(json.dumps({"updated_at":NOW,
         "warning":"Links are unverified; not articles ready for publication.",
-        "items":candidates[:400]},ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
+        "items":candidates[:3000]},ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
     print(f"RADAR DA: {opened}/{len(results)} opened; {len(results)-opened} errors; {len(candidates)} discovered links")
     if opened<LIMIT:print(f"COVERAGE FAILURE: {opened}/{LIMIT} sources successfully opened")
 
