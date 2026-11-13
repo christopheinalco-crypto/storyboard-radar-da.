@@ -76,3 +76,17 @@ Avant chaque publication et lors des révisions, effectuer une **seconde lecture
 7. **Validation de rendu** : vérifier que les rubriques affichées ne répètent pas leurs intitulés dans le corps, que les emphases ne deviennent pas du surlignage jaune et que la lecture mobile reste digeste. Si le rendu n'a pas pu être vérifié, ne pas le déclarer validé.
 
 **Trace obligatoire** : dans le champ editorial_method de chaque analyse publiée, noter explicitement le passage de ces contrôles et les limites non vérifiées. Les anciennes fiches qui échouent à ces tests sont à reprendre sans les republier comme nouveautés.
+
+## Garde-fou fraîcheur et valeur DA — 13 novembre 2026 (bloquant)
+
+**Ne jamais confondre une nouvelle découverte du robot avec une actualité nouvelle.** Distinguer date du projet, date de publication de la source, date du fait créatif nouveau et date de collecte. Une fiche datée du jour de collecte ne rend pas le sujet récent.
+
+- **Flux d'actualité** : privilégier les projets révélés, créés, documentés ou substantiellement actualisés dans les 7 derniers jours ; accepter jusqu'à 30 jours si l'analyse apporte un éclairage réellement neuf. Au-delà, reporter en rubrique archives / référence, jamais comme nouveauté, sauf révélation documentaire récente clairement datée.
+- **Reprise d'un événement ancien** : un article technique tardif, une photo récemment retrouvée ou une nouvelle URL ne suffisent pas à justifier sa remontée. Exiger une information artistique nouvelle (making-of inédit, interview des concepteurs, changement de dispositif, nouvelle création). Sinon, ne pas publier en veille.
+- **Test d'intérêt en une phrase** : avant rédaction, formuler « Ce projet mérite l'attention parce que [choix artistique singulier] produit [effet perceptible précis] grâce à [mécanisme visuel observable]. » Si l'on ne peut pas remplir ces trois éléments sans banalité, rejeter le sujet.
+- **Test d'apprentissage** : le lecteur doit apprendre au moins une décision de DA qu'il ne déduirait pas de la simple légende photo ou de la fiche technique. Ne pas transformer « des projecteurs bougent » en quatre paragraphes équivalents.
+- **Vérification visuelle** : choisir une photo qui montre le mécanisme commenté. Une vue générale de scène ne prouve pas à elle seule un mouvement de treuils ou un changement de volume. Si le mécanisme n'est pas observable, trouver une séquence, des images comparatives ou changer l'angle.
+- **Blocage avant écriture** : date récente vérifiée, singularité démontrée, visuel adéquat, intention distinguée des effets et enseignement DA spécifique. Tout échec entraîne rejet ou archivage, pas réécriture cosmétique.
+- **Équilibre de veille** : rechercher activement concerts, spectacles, shows TV, clips et lancements scénographiés monumentaux ; ne pas combler les quotas avec des articles anciens ou de faible valeur.
+
+**Incident Eurovision 2026** : l'analyse des 80 projecteurs cinétiques a été retirée du flux de nouveautés le 13/11/2026 : projet de mai 2026, information non nouvelle, démonstration DA insuffisamment singulière. Garder l'historique de l'analyse et son registre anti-doublons, sans la promouvoir comme actualité.
