@@ -169,3 +169,16 @@ Admettre tout clip récent offrant **au moins un choix visuel précis, perceptib
 **Prospection clips dédiée :** à chaque vague, rechercher les sorties des dernières 24–72 heures, ouvrir les pages de clips, les réalisateurs, studios, chaînes officielles et médias internationaux. Examiner plusieurs clips même si un premier candidat ne convient pas. Ne pas exiger d'interview making-of ni de double source quand la vidéo officielle permet une observation directe solide ; les crédits et le contexte doivent rester vérifiables. Les critères de fraîcheur, dédoublonnage et honnêteté visuelle demeurent.
 
 **Images :** privilégier une image authentique du clip, issue de sa page officielle, d'un photogramme fourni par la production ou d'une publication autorisée. Si le droit de réaffichage n'est pas confirmé, ne pas inventer une licence ; privilégier le lien vers le clip et une vignette obtenue via un mécanisme d'intégration autorisé, si disponible. Ne pas bloquer la recherche des autres candidats.
+
+
+## Grille de décision rapide — toutes disciplines (13 novembre 2026)
+
+Pour chaque sujet, répondre en une phrase concrète à trois questions : **quel choix de DA voit-on ? quel effet ce choix produit-il ? qu'apprend-on à reproduire ou questionner ?** Ne pas imposer une originalité absolue ni un dispositif technique exceptionnel. Une couleur, une retenue, une rupture de rythme ou une silhouette peut être le sujet.
+
+**Équilibrage des recherches, pas quotas artificiels de publication :** chaque vague cherche explicitement des clips très récents, concerts/tournées, shows TV, théâtre/scénographie et installations/performances. Vérifier les sorties du vendredi et les crédits des réalisateurs. La sélection finale dépend de la valeur DA, pas de la catégorie.
+
+**Fraîcheur :** privilégier les créations ou nouvelles révélations DA des 7 derniers jours ; jusqu'à 30 jours seulement si l'information de conception est substantiellement nouvelle. Écarter les événements anciens recyclés.
+
+**Seconde lecture :** supprimer le résumé narratif inutile, les effets vagues, le jargon et les répétitions ; distinguer preuve et hypothèse. Le texte doit faire voir quelque chose qu'une lecture rapide de l'annonce ne révèle pas.
+
+**Traçabilité :** sources ouvertes réellement, candidats écartés et raison, URLs des nouvelles fiches publiées, commits relus, limites d'image et rendu public. Les consignes nouvelles ne valent jamais à elles seules publication.
