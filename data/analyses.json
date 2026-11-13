@@ -1393,5 +1393,38 @@
       }
     ],
     "tip": "**Prends un objet familier (porte, table, fenêtre).** Dessine trois états successifs où il garde sa forme mais change de sens."
+  },
+  "https://www.kinetic-lights.com/2026-esc-vienna": {
+    "intro": "**Regarde au-dessus de la scène : à l'Eurovision 2026, la lumière n'est plus seulement orientée, elle se déplace physiquement.** 80 projecteurs suspendus à des treuils rapides composent une architecture lumineuse qui peut changer de hauteur pendant le spectacle.",
+    "points": [
+      [
+        "L'essentiel",
+        "**80 treuils, 80 projecteurs mobiles.** KINETIC LIGHTS documente leur déplacement vertical jusqu'à 1,5 m/s. L'ORF confirme le dispositif dans une installation qui dépasse 2 100 équipements lumineux et laser."
+      ],
+      [
+        "Intention",
+        "**Le choix est de rendre le plafond actif.** Ce n'est pas une déclaration d'intention citée mot pour mot : c'est ce qu'on peut déduire du dispositif. Au lieu de construire un décor fixe pour chaque morceau, la production peut changer la silhouette du plateau avec des faisceaux en mouvement."
+      ],
+      [
+        "Idée & DA",
+        "**Ce qui change, c'est la géométrie de l'espace.** Quand les points lumineux descendent ou remontent, la scène paraît se resserrer, s'ouvrir ou gagner en hauteur. Les stabilisateurs Pan/Tilt permettent aux faisceaux de garder leur précision malgré le mouvement. Ce mécanisme est documenté par KINETIC LIGHTS."
+      ],
+      [
+        "Pour un DA",
+        "**Pense d'abord à la transformation, ensuite à l'effet.** Un élément mobile est intéressant s'il change notre perception du lieu ou du récit. Ici, les projecteurs deviennent presque des éléments de décor."
+      ]
+    ],
+    "takeaway": "**Un dispositif lumineux peut devenir une scénographie à part entière lorsqu'il transforme réellement les volumes perçus.**",
+    "source": "KINETIC LIGHTS, présentation technique du projet Eurovision 2026 ; ORF, « Lichtdesign setzt neue Maßstäbe », 11 mars 2026. Photographie générale : MrSilesian / Wikimedia Commons, CC BY-SA 4.0.",
+    "verified": true,
+    "editorial_method": "Données techniques attribuées aux sources officielles ; interprétation de l'effet visuel distinguée des faits ; photographie authentique de la scène, sous licence libre.",
+    "reviewed_at": "2026-11-13T12:00:00+01:00",
+    "tip": "**Dessine trois silhouettes du plateau** avec les projecteurs en haut, à mi-hauteur et près des artistes. Regarde comment l'espace paraît changer.",
+    "reading_sequence": [
+      "Observation du visuel",
+      "Concept et intention",
+      "Décryptage des choix",
+      "Enseignement DA"
+    ]
   }
 }
