@@ -1029,33 +1029,6 @@
     ],
     "editorial_method": "Sources documentées et hypothèses de DA distinguées ; carte sans image selon règle validée. Révision typographique : suppression du surlignage jaune et des marqueurs de métalangage ; vérification factuelle et visuelle non refaite. Rythme typographique revu : idées clés renforcées en gras, sans surlignage jaune ; relecture de rendu encore nécessaire."
   },
-  "https://www.promonews.tv/videos/2026/11/11/sports-team-billy-kris-r/96941": {
-    "intro": "**Une tête géante en papier mâché, dans un appartement banal.** C'est ce décalage qui fait tout le clip *Billy* de Sports Team.",
-    "points": [
-      [
-        "L'essentiel",
-        "**Le masque est l'événement visuel.** Tout autour, l'appartement et les autres personnages restent reconnaissables. Le personnage paraît d'autant plus dérangeant qu'il se comporte comme quelqu'un d'ordinaire."
-      ],
-      [
-        "Intention",
-        "**Lecture DA : faire basculer le quotidien dans l'étrange sans changer de monde.** La taille du masque et son aspect artisanal créent la rupture ; la réalisation et l'étalonnage entretiennent l'inconfort."
-      ],
-      [
-        "Idée & DA",
-        "**Une seule anomalie forte peut suffire.** Le décor réaliste donne une échelle à la tête démesurée. Si tout était bizarre, le masque aurait moins d'impact. Ici, c'est la normalité qui le rend inquiétant."
-      ],
-      [
-        "Pour un DA",
-        "**Choisir ce qui ne doit pas changer.** Pour rendre un objet absurde puissant, conserver autour de lui des repères familiers : lieu, lumière, comportement."
-      ]
-    ],
-    "takeaway": "**La force du masque vient du contraste avec le banal, pas de la quantité d'effets.**",
-    "source": "Promonews / Kris R, 11 novembre 2026",
-    "verified": true,
-    "editorial_method": "Faits et crédits vérifiés sur Promonews ; intention formulée comme lecture DA, non attribuée au réalisateur.",
-    "reviewed_at": "2026-11-13T20:00:00+01:00",
-    "tip": "**Choisir ce qui ne doit pas changer.** Pour rendre un objet absurde puissant, conserver autour de lui des repères familiers : lieu, lumière, comportement."
-  },
   "https://www.promonews.tv/videos/2026/11/10/missu-sweat-loys-assal/96929": {
     "intro": "**Pour « Sweat », Loys Assal place MISSU dans un vestiaire de salle de sport.** **Le lieu n'est pas seulement un prétexte esthétique**: il donne une matière concrète à la chanson, faite de corps en mouvement, de chaleur et d'effort.",
     "points": [
@@ -1649,32 +1622,5 @@
       "Ce qu'il change",
       "L'effet"
     ]
-  },
-  "https://www.promonews.tv/videos/2026/11/11/blackhaine-northside-needs-me-mau-morgo/96936": {
-    "intro": "**Ici, la caméra n'observe pas une émeute de loin : elle nous met au milieu.** Dans *Northside Needs Me*, le mouvement et les changements de vitesse deviennent le langage du conflit.",
-    "points": [
-      [
-        "L'essentiel",
-        "**Caméras Sony à l'épaule, action cams, images à haute vitesse :** Mau Morgo combine plusieurs façons de regarder une ville qui bascule dans la violence."
-      ],
-      [
-        "Intention",
-        "**Lecture DA : faire sentir la tension entre contrôle et chaos.** Les caméras proches des corps créent une sensation d'immersion ; le ralenti suspend certains gestes et oblige à les regarder."
-      ],
-      [
-        "Idée & DA",
-        "**La distance de caméra est un parti pris.** Un plan embarqué nous implique physiquement. Un ralenti nous laisse examiner ce qui vient de se passer. Alterner les deux change notre position de spectateur."
-      ],
-      [
-        "Pour un DA",
-        "**Écrire une grammaire de caméra avant le tournage.** Pour chaque situation, décider si le spectateur doit subir l'action, la comprendre ou la contempler."
-      ]
-    ],
-    "takeaway": "**La direction artistique passe aussi par la manière de filmer, pas seulement par le décor.**",
-    "source": "Promonews / Mau Morgo / ProdCo, 11 novembre 2026",
-    "verified": true,
-    "editorial_method": "Faits et crédits vérifiés sur Promonews ; intention formulée comme lecture DA, non attribuée au réalisateur.",
-    "reviewed_at": "2026-11-13T20:00:00+01:00",
-    "tip": "**Écrire une grammaire de caméra avant le tournage.** Pour chaque situation, décider si le spectateur doit subir l'action, la comprendre ou la contempler."
   }
 }
