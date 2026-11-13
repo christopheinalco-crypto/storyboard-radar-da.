@@ -156,3 +156,16 @@ La veille n'est PAS limitée aux 182 sources du catalogue : toute source externe
 **Revue corrective :** « Le Songe des animaux » et « Flux, une partition de lumières » (Montpellier, 12 novembre) sont retirés du flux actif : analyses trop génériques, preuve insuffisante d'une décision singulière. Conserver leurs traces historiques pour éviter une republication automatique ; une reprise exige une nouvelle documentation technique et un angle non banal.
 
 **Vérité opérationnelle :** publier uniquement ce qui est vérifié, distinguer sources consultées, sujets candidats et publications réelles ; signaler explicitement toute incapacité à trouver une image utilisable ou à exécuter une publication.
+
+
+## Critères clips — élargissement de la sélection (13 novembre 2026)
+
+**Un clip n'a PAS besoin d'un dispositif spectaculaire, d'un plan-séquence, d'un trucage ou d'un décor coûteux pour être intéressant pour RADAR DA.** Les précédents critères sur-favorisaient les exploits techniques et écartaient la direction artistique subtile.
+
+Admettre tout clip récent offrant **au moins un choix visuel précis, perceptible et analysable**, parmi : palette et étalonnage, lumière, stylisme et costumes, maquillage, casting et direction de personnages, accessoires, espace/décor, cadre et focale, mouvement de caméra, montage et rythme, chorégraphie, texture et support, typographie, animation, VFX, relation image-musique, continuité/rupture de l'univers de l'artiste, iconographie et références culturelles. Une économie de moyens peut être aussi instructive qu'une production monumentale.
+
+**Test DA proportionné :** montrer concrètement *ce qui a été choisi*, *ce que cela change dans la perception* et *ce qu'un autre créatif peut en tirer*. Le choix n'a pas à être inédit dans l'histoire du clip, mais l'analyse doit dépasser « c'est beau », « c'est cinématographique » ou un résumé de l'intrigue. Ne pas inventer une intention du réalisateur : préciser quand il s'agit d'une interprétation.
+
+**Prospection clips dédiée :** à chaque vague, rechercher les sorties des dernières 24–72 heures, ouvrir les pages de clips, les réalisateurs, studios, chaînes officielles et médias internationaux. Examiner plusieurs clips même si un premier candidat ne convient pas. Ne pas exiger d'interview making-of ni de double source quand la vidéo officielle permet une observation directe solide ; les crédits et le contexte doivent rester vérifiables. Les critères de fraîcheur, dédoublonnage et honnêteté visuelle demeurent.
+
+**Images :** privilégier une image authentique du clip, issue de sa page officielle, d'un photogramme fourni par la production ou d'une publication autorisée. Si le droit de réaffichage n'est pas confirmé, ne pas inventer une licence ; privilégier le lien vers le clip et une vignette obtenue via un mécanisme d'intégration autorisé, si disponible. Ne pas bloquer la recherche des autres candidats.
