@@ -1,7 +1,25 @@
 {
   "description": "Cumulative seen-project register; retain entries when projects leave the live feed; compare URL and semantic identity.",
-  "updated": "2026-11-13T19:55:42.4119525Z",
+  "updated": "2026-11-13T20:25:45.598Z",
   "projects": [
+    {
+      "project_id": "the-weeknd-hong-kong-evan-larsen-2026",
+      "title": "The Weeknd — dans Hong Kong, le cadre se vide",
+      "url": "https://ca.billboard.com/music/rb-hip-hop/the-weeknd-video-hong-kong-single-watch-1236380453/",
+      "category": "14 Musique Clips"
+    },
+    {
+      "project_id": "kierst-two-steps-back-miles-joris-peyrafitte-2026",
+      "title": "Kierst — chanter à rebours pour dérégler le geste",
+      "url": "https://www.pmstudio.com/music/20261112-29384",
+      "category": "14 Musique Clips"
+    },
+    {
+      "project_id": "tammy-nguyen-timaeus-and-the-teacher-venice-2026",
+      "title": "Tammy Nguyen — un seul tissu pour changer de paysage",
+      "url": "https://www.labiennale.org/en/agenda/tammy-nguyen-timaeus-and-teacher-foreword",
+      "category": "15 Scène Spectacle"
+    },
     {
       "project_id": "tinashe-tonight-show-popstar-melatonin-2026-11-10",
       "title": "Tinashe au Tonight Show — la silhouette fait le raccord",

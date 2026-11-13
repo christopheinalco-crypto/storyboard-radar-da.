@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-13T19:55:42.4119525Z",
+  "updated_at": "2026-11-13T20:25:45.598Z",
   "status": "editorial_reviewed",
   "working_feeds": [
     {
@@ -454,6 +454,52 @@
     "with_images": 82
   },
   "items": [
+    {
+      "project_id": "the-weeknd-hong-kong-evan-larsen-2026",
+      "title": "The Weeknd — dans Hong Kong, le cadre se vide",
+      "title_fr": "The Weeknd — dans Hong Kong, le cadre se vide",
+      "url": "https://ca.billboard.com/music/rb-hip-hop/the-weeknd-video-hong-kong-single-watch-1236380453/",
+      "visual_url": "https://www.vogue.com.tw/article/the-weeknd-hong-kong",
+      "clip_url": "https://www.youtube.com/watch?v=hX9S94XsySk",
+      "category": "14 Musique Clips",
+      "source": "Billboard / Vogue Taiwan",
+      "published": "2026-11-12",
+      "radar_added_at": "2026-11-13T20:25:45.598Z",
+      "summary": "Du marché à la cabine de karaoké puis au balcon, Evan Larsen resserre la relation entre le chanteur et la ville en raréfiant les présences autour de lui.",
+      "summary_fr": "Du marché à la cabine de karaoké puis au balcon, Evan Larsen resserre la relation entre le chanteur et la ville en raréfiant les présences autour de lui.",
+      "image": "",
+      "status": "editorial_reviewed"
+    },
+    {
+      "project_id": "kierst-two-steps-back-miles-joris-peyrafitte-2026",
+      "title": "Kierst — chanter à rebours pour dérégler le geste",
+      "title_fr": "Kierst — chanter à rebours pour dérégler le geste",
+      "url": "https://www.pmstudio.com/music/20261112-29384",
+      "visual_url": "https://www.pmstudio.com/music/20261112-29384",
+      "category": "14 Musique Clips",
+      "source": "pm studio / BroadwayWorld",
+      "published": "2026-11-10",
+      "radar_added_at": "2026-11-13T20:25:45.598Z",
+      "summary": "Une chanteuse seule sous un projecteur. Une partie de la prise tourne à rebours, jusque dans les paroles prononcées à l’envers.",
+      "summary_fr": "Une chanteuse seule sous un projecteur. Une partie de la prise tourne à rebours, jusque dans les paroles prononcées à l’envers.",
+      "image": "",
+      "status": "editorial_reviewed"
+    },
+    {
+      "project_id": "tammy-nguyen-timaeus-and-the-teacher-venice-2026",
+      "title": "Tammy Nguyen — un seul tissu pour changer de paysage",
+      "title_fr": "Tammy Nguyen — un seul tissu pour changer de paysage",
+      "url": "https://www.labiennale.org/en/agenda/tammy-nguyen-timaeus-and-teacher-foreword",
+      "visual_url": "https://hyperallergic.com/tammy-nguyens-new-opera-will-be-the-coda-to-the-venice-biennale/",
+      "category": "15 Scène Spectacle",
+      "source": "La Biennale di Venezia / Hyperallergic",
+      "published": "2026-11-13",
+      "radar_added_at": "2026-11-13T20:25:45.598Z",
+      "summary": "À Venise, une tapisserie de pavillons entoure le ténor. Les danseurs changent sa forme pour faire apparaître une montagne, un navire ou la mer.",
+      "summary_fr": "À Venise, une tapisserie de pavillons entoure le ténor. Les danseurs changent sa forme pour faire apparaître une montagne, un navire ou la mer.",
+      "image": "",
+      "status": "editorial_reviewed"
+    },
     {
       "project_id": "tinashe-tonight-show-popstar-melatonin-2026-11-10",
       "title": "Tinashe au Tonight Show — la silhouette fait le raccord",

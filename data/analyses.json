@@ -1763,5 +1763,165 @@
         }
       ]
     }
+  },
+  "https://ca.billboard.com/music/rb-hip-hop/the-weeknd-video-hong-kong-single-watch-1236380453/": {
+    "intro": "Le port s’éveille, le marché se remplit, puis le film trouve le chanteur seul dans un bar. Evan Larsen donne d’abord du mouvement à la ville. Quand il isole Abel, on a déjà vu tout ce qui pourrait l’entourer.",
+    "points": [
+      [
+        "Deux façons d’habiter la nuit",
+        "À la circulation du marché succèdent deux présences disjointes. Ming Xi traverse un tunnel dans une voiture rouge, Abel reste assis seul. **Même ville, deux vitesses**. Le mouvement de l’un des tableaux rend l’immobilité de l’autre plus sensible."
+      ],
+      [
+        "Le karaoké sans répondant",
+        "Dans la salle de karaoké, Abel chante seul face à un écran. Au balcon final, la ville est de nouveau visible et le personnage est toujours seul. Le clip fait ainsi passer le manque par l’usage des lieux : une pièce où l’on chante ensemble devient le cadre d’une adresse sans réponse."
+      ]
+    ],
+    "takeaway": "Pour faire sentir l’absence, installe d’abord des espaces où les corps et les regards circulent. Isole ensuite le personnage dans un lieu qui appelle normalement une réponse.",
+    "tip": "Dans un storyboard de quatre plans, déplace la scène de solitude du premier au troisième plan. Regarde dans quelle version le lieu lui-même fait comprendre ce qui manque.",
+    "source": "https://ca.billboard.com/music/rb-hip-hop/the-weeknd-video-hong-kong-single-watch-1236380453/",
+    "verified": true,
+    "reviewed_at": "2026-11-13T20:25:45.598Z",
+    "editorial_review": [
+      {
+        "url": "https://ca.billboard.com/music/rb-hip-hop/the-weeknd-video-hong-kong-single-watch-1236380453/",
+        "locator": "Description du marché, du bar vers la première minute et du tunnel nocturne avec la voiture rouge."
+      },
+      {
+        "url": "https://www.vogue.com.tw/article/the-weeknd-hong-kong",
+        "locator": "Paragraphe qui décrit le karaoké face à l’écran et le dernier verre sur le balcon."
+      }
+    ],
+    "publication_review": {
+      "scores": {
+        "choice": 4,
+        "effect": 4,
+        "lesson": 4,
+        "evidence": 3,
+        "freshness": 3
+      },
+      "choice": "Du marché à la cabine de karaoké puis au balcon, Evan Larsen resserre la relation entre le chanteur et la ville en raréfiant les présences autour de lui.",
+      "effect": "À la circulation du marché succèdent deux présences disjointes. Ming Xi traverse un tunnel dans une voiture rouge, Abel reste assis seul. **Même ville, deux vitesses**. Le mouvement de l’un des tableaux rend l’immobilité de l’autre plus sensible.",
+      "lesson": "Pour faire sentir l’absence, installe d’abord des espaces où les corps et les regards circulent. Isole ensuite le personnage dans un lieu qui appelle normalement une réponse.",
+      "second_reading": "La seconde lecture recoupe les lieux et les actions dans les deux descriptions. La solitude est une lecture du montage, sans intention attribuée au réalisateur.",
+      "sources": [
+        {
+          "url": "https://ca.billboard.com/music/rb-hip-hop/the-weeknd-video-hong-kong-single-watch-1236380453/",
+          "locator": "Description du marché, du bar vers la première minute et du tunnel nocturne avec la voiture rouge.",
+          "opened_at": "2026-11-13T20:24:32.8103441Z"
+        },
+        {
+          "url": "https://www.vogue.com.tw/article/the-weeknd-hong-kong",
+          "locator": "Paragraphe qui décrit le karaoké face à l’écran et le dernier verre sur le balcon.",
+          "opened_at": "2026-11-13T20:24:33.1137585Z"
+        }
+      ]
+    }
+  },
+  "https://www.pmstudio.com/music/20261112-29384": {
+    "intro": "Miles Joris-Peyrafitte place Kierst seule dans la lumière. Il filme une partie du clip en prévoyant de la lire à l’envers. Kierst prononce les paroles à rebours pendant la prise. Le geste important se prépare donc avant le montage, dans la manière de jouer.",
+    "points": [
+      [
+        "Le projecteur laisse le corps à découvert",
+        "Dans l’obscurité, le projecteur concentre l’attention sur Kierst. L’œil a peu d’éléments à suivre hors de la silhouette. C’est un cadre qui laisse au corps la place de faire sentir la moindre rupture de continuité."
+      ],
+      [
+        "Deux sens dans la même prise",
+        "**Préparer les paroles à l’envers** permet à la bouche de retrouver une direction lisible lorsque l’image est inversée. Le reste du mouvement peut alors garder cette étrangeté propre au temps retourné. Le principe donne une forme au déséquilibre évoqué par Kierst à propos du morceau."
+      ]
+    ],
+    "takeaway": "Quand tu inverses une prise, choisis un geste que le spectateur pourra continuer de lire. Ce point fixe rend l’étrangeté des autres mouvements plus perceptible.",
+    "tip": "Filme un mot et un pas dans une même prise. Refais-la en préparant seulement le mot à rebours. Inverse les deux prises et compare ce qui reste compréhensible.",
+    "source": "https://www.pmstudio.com/music/20261112-29384",
+    "verified": true,
+    "reviewed_at": "2026-11-13T20:25:45.598Z",
+    "editorial_review": [
+      {
+        "url": "https://www.broadwayworld.com/bwwmusic/article/Kierst-Signs-to-Take-Care-Records-Shares-New-Single-Two-Steps-Back-20261110",
+        "locator": "Paragraphe sur Kierst seule sous le projecteur et le tournage partiellement à rebours."
+      },
+      {
+        "url": "https://www.pmstudio.com/music/20261112-29384",
+        "locator": "Description du tournage à rebours, lecteur du clip officiel et déclaration de Kierst sur la perte de son centre de gravité."
+      }
+    ],
+    "publication_review": {
+      "scores": {
+        "choice": 5,
+        "effect": 4,
+        "lesson": 4,
+        "evidence": 2,
+        "freshness": 3
+      },
+      "choice": "Une chanteuse seule sous un projecteur. Une partie de la prise tourne à rebours, jusque dans les paroles prononcées à l’envers.",
+      "effect": "Dans l’obscurité, le projecteur concentre l’attention sur Kierst. L’œil a peu d’éléments à suivre hors de la silhouette. C’est un cadre qui laisse au corps la place de faire sentir la moindre rupture de continuité.",
+      "lesson": "Quand tu inverses une prise, choisis un geste que le spectateur pourra continuer de lire. Ce point fixe rend l’étrangeté des autres mouvements plus perceptible.",
+      "second_reading": "Deux descriptions confirment la prise partiellement inversée. Le décryptage explique son principe sans attribuer un geste non vérifié à un minutage.",
+      "sources": [
+        {
+          "url": "https://www.broadwayworld.com/bwwmusic/article/Kierst-Signs-to-Take-Care-Records-Shares-New-Single-Two-Steps-Back-20261110",
+          "locator": "Paragraphe sur Kierst seule sous le projecteur et le tournage partiellement à rebours.",
+          "opened_at": "2026-11-13T20:25:45.598Z",
+          "access": "Texte ouvert via le navigateur de recherche. Vérification directe HTTP 403."
+        },
+        {
+          "url": "https://www.pmstudio.com/music/20261112-29384",
+          "locator": "Description du tournage à rebours, lecteur du clip officiel et déclaration de Kierst sur la perte de son centre de gravité.",
+          "opened_at": "2026-11-13T20:24:33.5258198Z"
+        }
+      ]
+    }
+  },
+  "https://www.labiennale.org/en/agenda/tammy-nguyen-timaeus-and-teacher-foreword": {
+    "intro": "Le ténor est au milieu d’un anneau textile composé de pavillons. La tapisserie de Tammy Nguyen est manipulée par les danseurs pendant l’aria. Le paysage change par le geste de ceux qui portent sa matière.",
+    "points": [
+      [
+        "Le décor a une chorégraphie",
+        "Jamal Jackson organise les manipulations qui font prendre au tissu la forme d’une montagne, d’un bateau ou de la mer. **La matière reste reconnaissable pendant que son rôle change.** Le spectateur peut suivre la transformation avec le corps des interprètes pour repère."
+      ],
+      [
+        "Une matière déjà chargée de sens",
+        "Les pavillons font référence aux immatriculations de complaisance dans le transport maritime. La forme circulaire renvoie au diagramme cosmologique du Timée. Le déplacement d’un personnage en mer se joue ainsi dans un espace qui porte déjà des signes de territoire et d’appartenance."
+      ]
+    ],
+    "takeaway": "Conçois un matériau de décor qui possède à la fois un sens propre et plusieurs usages scéniques. Le changement de forme peut alors faire avancer le récit sans changement de plateau.",
+    "tip": "Avec une même toile et deux interprètes, teste trois silhouettes. Montre les transitions et demande à quel moment chaque nouvelle forme devient reconnaissable.",
+    "source": "https://www.labiennale.org/en/agenda/tammy-nguyen-timaeus-and-teacher-foreword",
+    "verified": true,
+    "reviewed_at": "2026-11-13T20:25:45.598Z",
+    "editorial_review": [
+      {
+        "url": "https://hyperallergic.com/tammy-nguyens-new-opera-will-be-the-coda-to-the-venice-biennale/",
+        "locator": "Photo de répétition créditée à Elisabeth Bernstein et paragraphe sur les formes données au tissu par les danseurs."
+      },
+      {
+        "url": "https://www.labiennale.org/en/agenda/tammy-nguyen-timaeus-and-teacher-foreword",
+        "locator": "Présentation de l’aria, de l’anneau textile et du lien avec les pavillons de complaisance."
+      }
+    ],
+    "publication_review": {
+      "scores": {
+        "choice": 5,
+        "effect": 4,
+        "lesson": 4,
+        "evidence": 3,
+        "freshness": 3
+      },
+      "choice": "À Venise, une tapisserie de pavillons entoure le ténor. Les danseurs changent sa forme pour faire apparaître une montagne, un navire ou la mer.",
+      "effect": "Jamal Jackson organise les manipulations qui font prendre au tissu la forme d’une montagne, d’un bateau ou de la mer. **La matière reste reconnaissable pendant que son rôle change.** Le spectateur peut suivre la transformation avec le corps des interprètes pour repère.",
+      "lesson": "Conçois un matériau de décor qui possède à la fois un sens propre et plusieurs usages scéniques. Le changement de forme peut alors faire avancer le récit sans changement de plateau.",
+      "second_reading": "Le programme confirme la date et le dispositif. Le visuel lié est identifié comme une photo de répétition, et les formes sont documentées par l’entretien.",
+      "sources": [
+        {
+          "url": "https://hyperallergic.com/tammy-nguyens-new-opera-will-be-the-coda-to-the-venice-biennale/",
+          "locator": "Photo de répétition créditée à Elisabeth Bernstein et paragraphe sur les formes données au tissu par les danseurs.",
+          "opened_at": "2026-11-13T20:24:36.9955857Z"
+        },
+        {
+          "url": "https://www.labiennale.org/en/agenda/tammy-nguyen-timaeus-and-teacher-foreword",
+          "locator": "Présentation de l’aria, de l’anneau textile et du lien avec les pavillons de complaisance.",
+          "opened_at": "2026-11-13T20:24:36.0451163Z"
+        }
+      ]
+    }
   }
 }
