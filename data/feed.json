@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-13T20:30:00+01:00",
+  "updated_at": "2026-11-13T21:15:00+01:00",
   "status": "editorial_reviewed",
   "working_feeds": [
     {
@@ -454,6 +454,23 @@
     "with_images": 82
   },
   "items": [
+    {
+      "title": "The Strokes — quand la marionnette devient une arme satirique",
+      "title_fr": "The Strokes — quand la marionnette devient une arme satirique",
+      "url": "https://www.promonews.tv/videos/2026/11/12/strokes-lonely-future-warren-fu/96952",
+      "category": "14 Musique Clips",
+      "source": "Promonews / Warren Fu / Sacks & Co.",
+      "published": "2026-11-12",
+      "radar_added_at": "2026-11-13T21:15:00+01:00",
+      "summary": "Pour « Lonely in the Future », Warren Fu et Spitting Image fabriquent des caricatures physiques de musiciens, milliardaires et figures médiatiques. Le choix de la marionnette rend la satire visible dans les visages mêmes.",
+      "summary_fr": "Pour « Lonely in the Future », Warren Fu et Spitting Image fabriquent des caricatures physiques de musiciens, milliardaires et figures médiatiques. Le choix de la marionnette rend la satire visible dans les visages mêmes.",
+      "image": "https://sacksco.com/photo/hi/the_strokes_still2.jpg",
+      "image_credit": "Photogramme officiel du clip « Lonely in the Future », crédit Warren Fu / Sacks & Co. ; image hébergée chez l'attaché de presse, autorisation de réaffichage non confirmée.",
+      "image_source_url": "https://sacksco.com/pr/the_strokes.html",
+      "status": "editorial_reviewed",
+      "editorial_score": 19,
+      "angle": "Les visages sculptés portent la caricature politique avant toute action ; la télévision fictive devient le cadre de la satire."
+    },
     {
       "title": "Arashi — le temps reprend vie sur scène",
       "title_fr": "Arashi — le temps reprend vie sur scène",
