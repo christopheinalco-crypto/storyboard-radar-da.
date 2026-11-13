@@ -1,6 +1,6 @@
 {
   "description": "Cumulative seen-project register; retain entries when projects leave the live feed; compare URL and semantic identity.",
-  "updated": "2026-11-13T15:00:00+01:00",
+  "updated": "2026-11-13T17:00:00+01:00",
   "projects": [
     {
       "url": "https://stufish.com/project/arashi/",
@@ -282,6 +282,18 @@
       "title": "Montpellier — l’aqueduc des Arceaux devient une partition lumineuse",
       "category": "08 Immersif CGI Motion",
       "radar_added_at": "2026-11-13T15:00:00+01:00"
+    },
+    {
+      "url": "https://www.promonews.tv/videos/2026/11/02/them-i-say-you-dont-jim-longden/96822",
+      "title": "Them & I — huit prises pour un décor qui se transforme en direct",
+      "category": "14 Musique Clips",
+      "radar_added_at": "2026-11-13T17:00:00+01:00"
+    },
+    {
+      "url": "https://ultimateclassicrock.com/u2-2027-tour-production-visuals/",
+      "title": "U2 — le rideau rouge inverse la place du public",
+      "category": "01 Spectacle Concert",
+      "radar_added_at": "2026-11-13T17:00:00+01:00"
     }
   ]
 }
