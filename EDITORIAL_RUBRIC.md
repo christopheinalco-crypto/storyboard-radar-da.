@@ -90,3 +90,17 @@ Avant chaque publication et lors des révisions, effectuer une **seconde lecture
 - **Équilibre de veille** : rechercher activement concerts, spectacles, shows TV, clips et lancements scénographiés monumentaux ; ne pas combler les quotas avec des articles anciens ou de faible valeur.
 
 **Incident Eurovision 2026** : l'analyse des 80 projecteurs cinétiques a été retirée du flux de nouveautés le 13/11/2026 : projet de mai 2026, information non nouvelle, démonstration DA insuffisamment singulière. Garder l'historique de l'analyse et son registre anti-doublons, sans la promouvoir comme actualité.
+
+
+## Fondation permanente — zéro métalangage et rythme de lecture (13 novembre 2026)
+
+**Règles éditoriales bloquantes pour toutes les analyses existantes et futures, veille principale et sources sociales :**
+
+1. **Zéro métalangage rédactionnel** : proscrire « nous supposons que », « selon notre analyse », « l'article explique », « cette analyse montre », « on peut déduire que », « ce n'est pas une intention citée », ainsi que toute phrase qui commente la méthode de rédaction au lieu de parler du projet. La voix doit être celle d'un DA expérimenté qui observe et explique directement.
+2. **Nuancer sans casser le flux** : ne jamais présenter une intention non documentée comme une certitude. Formuler naturellement les hypothèses dans le contenu même : « Tout se passe comme si la scène cherchait à rapprocher les artistes du public », « Le choix semble viser une sensation d'intimité », « Ce mouvement peut donner l'impression que le plafond descend ». La nuance est dans le verbe, sans avertissement méthodologique.
+3. **Rythme visuel obligatoire** : dans intro, points, takeaway, faire ressortir en **gras** les propositions fortes et quelques mots décisifs ; utiliser *l'italique* seulement lorsqu'il apporte une vraie nuance. Un lecteur en diagonale doit saisir le concept, les choix et l'effet. Ni blocs uniformes, ni gras intégral, ni emphase systématique.
+4. **Pas de surlignage jaune** : ne pas utiliser les marqueurs ==...== ni d'aplat coloré décoratif dans les articles. La mise en valeur est typographique, sobre et lisible sur mobile.
+5. **Test de lecture à voix haute et en diagonale** : vérifier que les phrases s'enchaînent comme une explication orale naturelle, sans langage scolaire ou bureaucratique, puis que les passages en gras composent un fil d'idées cohérent.
+6. **Aucune redondance de structure** : les intitulés de rubrique existent déjà dans l'interface ; ne pas les répéter dans le texte, ni reprendre la même idée sous plusieurs rubriques.
+
+**Échec à l'un de ces tests = réécriture avant publication.** Ces règles priment sur toute formulation ancienne contraire.
