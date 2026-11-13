@@ -62,14 +62,21 @@ function validatePublication(base, head) {
     const total = scores.reduce((sum, field) => sum + (gate?.scores?.[field] || 0), 0);
     if (!scores.every((field, i) => Number.isInteger(gate?.scores?.[field]) &&
         gate.scores[field] > 0 && gate.scores[field] <= limits[i]) ||
-        total < (item.image ? 14 : 17)) reject('Barème incomplet ou note sous le seuil.');
+        total < 14) reject('Barème incomplet ou note sous le seuil.');
     if (!['choice', 'effect', 'lesson', 'second_reading'].every(field => clean(gate?.[field]))) reject('Veto éditorial ou seconde lecture non documentés.');
-    if (item.image ? !(/^https:\/\//i.test(item.image) && canonical(item.image_source_url) && clean(item.image_credit))
-      : Boolean(item.youtube_id || item.slate_id)) reject('Provenance du visuel manquante ou carte sans image non compacte.');
+    if (item.image && (!/^https:\/\//i.test(item.image) || !canonical(item.image_source_url) || !clean(item.image_credit))) {
+      reject('Image sans provenance ou crédit vérifiable.');
+    }
+    if (!item.image && !canonical(item.visual_url)) reject('Image ou accès aux visuels du projet obligatoire.');
+    if (item.image_kind === 'editorial_illustration' &&
+        (!item.image || !clean(item.image_alt) || item.visual_url)) {
+      reject('Illustration de repli sans description ou avec un accès visuel déjà disponible.');
+    }
     const visits = Array.isArray(gate?.sources) ? gate.sources : [];
     const urls = new Set(visits.filter(source => canonical(source.url) && clean(source.locator) &&
       Number.isFinite(Date.parse(source.opened_at)) && Date.parse(source.opened_at) <= wave &&
       Date.parse(source.opened_at) >= wave - 30 * 86400000).map(source => canonical(source.url)));
+    if (item.visual_url && !urls.has(canonical(item.visual_url))) reject('Accès visuel absent des sources consultées.');
     if (!urls.has(key) || !Array.isArray(review?.points) || !review.points.length ||
         !Array.isArray(review.editorial_review) || review.editorial_review.length !== review.points.length ||
         !review.editorial_review.every(ref => urls.has(canonical(ref.url)) && clean(ref.locator))) {
