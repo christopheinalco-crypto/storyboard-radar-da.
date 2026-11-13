@@ -16,7 +16,7 @@ DATA=ROOT/"data"
 NOW=dt.datetime.now(dt.timezone.utc).isoformat()
 HEADERS={"User-Agent":"Mozilla/5.0 (compatible; RADARDAResearch/1.0; editorial discovery)"}
 PRIORITY_CATEGORIES={"01 Spectacle Concert","02 TV Broadcast","09 France Pro","14 Musique Clips","15 Danse Performance"}
-LIMIT=100
+LIMIT=182
 
 class Links(HTMLParser):
     def __init__(self):
@@ -66,10 +66,8 @@ def main():
     ordered=sorted(sources,key=lambda x:(0 if x.get("category") in PRIORITY_CATEGORIES else 1,
         0 if x.get("priority")=="P1" else 1 if x.get("priority")=="P2" else 2,
         history.get(x.get("url"),"")))
-    # Rotate start between executions by day/hour, preserving coverage of priority sectors.
-    hour=dt.datetime.now(dt.timezone.utc).hour
-    offset=(dt.datetime.now(dt.timezone.utc).toordinal()*4+hour//6)%len(ordered)
-    selected=(ordered[offset:]+ordered[:offset])[:LIMIT]
+    # Every wave attempts every registered source, not a small sample.
+    selected=ordered[:LIMIT]
     with concurrent.futures.ThreadPoolExecutor(max_workers=16) as pool:
         results=list(pool.map(inspect,selected))
     for item in results:history[item["url"]]=NOW
@@ -98,6 +96,6 @@ def main():
         "warning":"Links are unverified; not articles ready for publication.",
         "items":candidates[:400]},ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
     print(f"RADAR DA: {opened}/{len(results)} opened; {len(results)-opened} errors; {len(candidates)} discovered links")
-    if opened<LIMIT:print("COVERAGE FAILURE: fewer than 100 sources successfully opened")
+    if opened<LIMIT:print(f"COVERAGE FAILURE: {opened}/{LIMIT} sources successfully opened")
 
 if __name__=="__main__":main()
