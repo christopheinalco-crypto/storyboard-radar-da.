@@ -1,6 +1,6 @@
 {
   "description": "Cumulative seen-project register; retain entries when projects leave the live feed; compare URL and semantic identity.",
-  "updated": "2026-11-13T12:30:00+01:00",
+  "updated": "2026-11-13T15:00:00+01:00",
   "projects": [
     {
       "url": "https://stufish.com/project/arashi/",
@@ -270,6 +270,18 @@
       "title": "The Strokes — des marionnettes pour rendre la satire visible",
       "category": "14 Musique Clips",
       "radar_added_at": "2026-11-13T12:30:00+01:00"
+    },
+    {
+      "url": "https://en-commun.montpellier.fr/index.php/articles/2026-11-12-12-13-et-14-novembre-2026-trois-soirees-enchantees-avec-coeur-de-ville-en#opera-comedie-le-songe-des-animaux",
+      "title": "Montpellier — l’Opéra Comédie devient un bestiaire vivant",
+      "category": "08 Immersif CGI Motion",
+      "radar_added_at": "2026-11-13T15:00:00+01:00"
+    },
+    {
+      "url": "https://en-commun.montpellier.fr/index.php/articles/2026-11-12-12-13-et-14-novembre-2026-trois-soirees-enchantees-avec-coeur-de-ville-en#arceaux-flux-partition-de-lumieres",
+      "title": "Montpellier — l’aqueduc des Arceaux devient une partition lumineuse",
+      "category": "08 Immersif CGI Motion",
+      "radar_added_at": "2026-11-13T15:00:00+01:00"
     }
   ]
 }
