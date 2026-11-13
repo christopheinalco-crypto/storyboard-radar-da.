@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-12T08:05:26.258Z",
+  "updated_at": "2026-11-13T12:00:00+01:00",
   "status": "editorial_reviewed",
   "working_feeds": [
     {
@@ -454,6 +454,22 @@
     "with_images": 82
   },
   "items": [
+    {
+      "title": "Eurovision 2026 — quand la lumière devient une scène mobile",
+      "title_fr": "Eurovision 2026 — quand la lumière devient une scène mobile",
+      "url": "https://www.kinetic-lights.com/2026-esc-vienna",
+      "category": "02 TV Broadcast",
+      "source": "KINETIC LIGHTS / ORF",
+      "published": "2026-11-13",
+      "radar_added_at": "2026-11-13T12:00:00+01:00",
+      "summary": "80 projecteurs suspendus se déplacent au-dessus du plateau de l'Eurovision 2026. Le mouvement vertical devient une composante de l'architecture télévisuelle, pas seulement un effet lumineux.",
+      "summary_fr": "80 projecteurs suspendus se déplacent au-dessus du plateau de l'Eurovision 2026. Le mouvement vertical devient une composante de l'architecture télévisuelle, pas seulement un effet lumineux.",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Eurovision_Song_Contest_2026_Stage.jpg",
+      "image_credit": "MrSilesian, « Eurovision Song Contest 2026 Stage », 11 mai 2026, Wikimedia Commons, CC BY-SA 4.0. https://commons.wikimedia.org/wiki/File:Eurovision_Song_Contest_2026_Stage.jpg — https://creativecommons.org/licenses/by-sa/4.0/ — photo de la scène générale, non une démonstration isolée du dispositif cinétique.",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:Eurovision_Song_Contest_2026_Stage.jpg",
+      "status": "editorial_reviewed",
+      "angle": "Des projecteurs motorisés se déplacent physiquement dans l'espace et redessinent le volume du plateau pour chaque tableau."
+    },
     {
       "title": "Noah Kahan — une maison qui change de réalité",
       "title_fr": "Noah Kahan — une maison qui change de réalité",
