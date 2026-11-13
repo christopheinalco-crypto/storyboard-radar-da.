@@ -40,9 +40,9 @@ def score(url, category, priority):
     if re.search(r"\.(?:jpg|png|gif|webp|svg|pdf|css|js|woff|mp4|mov)$", path):
         return -1
     # Avoid category landing pages, vendor product catalogues and shallow navigation.
-    if re.search(r"/(?:categories|category|topics|products|solutions|services|events|resources|news|videos|projects)/?$",path):
+    if re.search(r"/(?:categories|category|topics|products|solutions|services|events|resources|news|videos|projects)(?:/[^/]+)?/?$",path) and not re.search(r"/(?:videos|projects)/20[0-9]{2}/",path):
         return -1
-    if any(x in tokens for x in ("product-software","solution-live","workflow-tools","case-studies-index")):
+    if any(x in tokens for x in ("product-software","solution-live","workflow-tools","case-studies-index","expertises-show-design","video-format-conversion","products-product","products-video")):
         return -1
     pts = 3 if priority == "P1" else 2 if priority == "P2" else 0
     pts += CATEGORY_BOOST.get(category, 0)
