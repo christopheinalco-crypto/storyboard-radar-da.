@@ -141,3 +141,18 @@ La veille n'est PAS limitée aux 182 sources du catalogue : toute source externe
 9. **Priorité éditoriale inchangée.** Voix de DA qui explique concrètement intention, choix, effet et transfert, sans métalangage ni répétitions ; quelques mots en gras, pas de surlignage jaune. Fraîcheur 7 jours de préférence, jusqu'à 30 jours avec vraie nouveauté documentaire. LinkedIn peut fournir une source, Instagram exclu. Aucune modification de l'interface pour cette évolution.
 
 **Ordre d'exécution :** chercher largement → vérifier le projet → dédoublonner → analyser → illustrer honnêtement → publier immédiatement → vérifier les commits → continuer la recherche.
+
+
+## Correctif qualité et couverture — 13 novembre 2026 (prioritaire)
+
+**Cause racine observée :** le catalogue a été traité comme une contrainte de volume, la découverte s'est concentrée sur quelques pages, puis des sujets à faible valeur pédagogique ont été publiés pour alimenter le flux. Les clips récents et les spectacles ont été sous-explorés malgré leur priorité.
+
+**Test éditorial obligatoire AVANT publication :** (1) quelle décision visuelle précise est non évidente ? (2) quelle preuve concrète permet de l'observer ? (3) quel effet produit-elle, sans inventer la réception ? (4) qu'apprend un DA de transférable ? Si la réponse est une banalité générique (« les arches créent un rythme », « la façade devient vivante », « le contraste crée une émotion »), ne pas publier. Une fiche descriptive ne compte pas comme une analyse.
+
+**Découverte équilibrée par vague :** effectuer des recherches dédiées aux clips **du jour et des 72 dernières heures** (en particulier le vendredi), aux concerts/scènes/spectacles, à la TV/show et aux installations/scénographies. Au moins une recherche ciblée par axe avant de conclure qu'il n'y a rien ; documenter les axes explorés, les candidats retenus et les rejets. Promonews /videos est une porte d'entrée, pas l'unique source ; ouvrir les fiches récentes et vérifier le registre historique. Ne pas recycler les articles déjà publiés sous un autre titre. Le nombre de sites dans sources.json n'est jamais une preuve de couverture.
+
+**Décision de tri :** priorité aux clips qui montrent une construction réelle (plan-séquence à transformations de décor, mécanisme de plateau, dispositif chorégraphique, optique, fabrication, production design) et aux spectacles avec une relation scène-public ou un dispositif singulier documenté. Rejeter les simples annonces de sortie et les projets à valeur DA non démontrée.
+
+**Revue corrective :** « Le Songe des animaux » et « Flux, une partition de lumières » (Montpellier, 12 novembre) sont retirés du flux actif : analyses trop génériques, preuve insuffisante d'une décision singulière. Conserver leurs traces historiques pour éviter une republication automatique ; une reprise exige une nouvelle documentation technique et un angle non banal.
+
+**Vérité opérationnelle :** publier uniquement ce qui est vérifié, distinguer sources consultées, sujets candidats et publications réelles ; signaler explicitement toute incapacité à trouver une image utilisable ou à exécuter une publication.
