@@ -1,0 +1,30 @@
+name: RADAR DA — collecte et audit des sources
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '5 5,11,15,19 * * *'
+permissions:
+  contents: write
+concurrency:
+  group: radar-da-collection
+  cancel-in-progress: false
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Ouvrir 100 sources et enregistrer les preuves
+        run: python scripts/collect_sources.py
+      - name: Sauvegarder audit et découvertes
+        run: |
+          git config user.name "radar-da-bot"
+          git config user.email "radar-da-bot@users.noreply.github.com"
+          git add data/source-coverage.json data/source-discoveries.json
+          if ! git diff --cached --quiet; then
+            git commit -m "chore(radar): audit 100 sources and record discoveries"
+            git push
+          fi
