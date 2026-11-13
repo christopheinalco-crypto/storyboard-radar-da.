@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-13T06:03:12+01:00",
+  "updated_at": "2026-11-13T21:00:00+01:00",
   "description": "Candidats issus d'une passe réelle, non publiés tant que l'image directe, les droits, les sources, les doublons et la seconde lecture ne sont pas vérifiés.",
   "pipeline": [
     "repere",
@@ -385,6 +385,56 @@
       "image_status": "images_officielles_visibles_mais_url_directe_et_droits_non_verifies",
       "publication_blocker": "Vérifier images directes, droits et seconde source indépendante ; seconde lecture requise",
       "checked_at": "2026-11-13"
+    },
+    {
+      "title": "The Strokes — Lonely In The Future",
+      "url": "https://www.promonews.tv/videos/2026/11/12/strokes-lonely-future-warren-fu/96952",
+      "source": "Promonews",
+      "status": "repere",
+      "editorial_score_provisional": 19,
+      "editorial_angle": "Marionnettes satiriques Spitting Image, collision de l'humour absurde et du commentaire politique ; direction de marionnettes et production design documentés.",
+      "publication_blocker": "Vérifier le visuel et l'analyse sur le projet avant publication",
+      "discovered_at": "2026-11-13"
+    },
+    {
+      "title": "MISSU — Sweat",
+      "url": "https://www.promonews.tv/videos/2026/11/10/missu-sweat-loys-assal/96929",
+      "source": "Promonews",
+      "status": "repere",
+      "editorial_score_provisional": 17,
+      "editorial_angle": "Le vestiaire comme dispositif scénographique de performance : production design Furmaan Ahmed, chorégraphie et accélérations rythmiques.",
+      "publication_blocker": "Vérifier le visuel et l'analyse sur le projet avant publication",
+      "discovered_at": "2026-11-13"
+    },
+    {
+      "title": "Fontaines D.C. — Japan",
+      "url": "https://www.promonews.tv/videos/2026/11/10/fontaines-dc-japan-luna-carmoon/96857",
+      "source": "Promonews",
+      "status": "repere",
+      "editorial_score_provisional": 17,
+      "editorial_angle": "Centre commercial comme espace récurrent de l'obsession ; direction artistique Kat Spencer et production design Elena Isolini.",
+      "publication_blocker": "Vérifier le visuel et l'analyse sur le projet avant publication",
+      "discovered_at": "2026-11-13"
+    },
+    {
+      "title": "Olivia Rodrigo — Take Me Home (4 Christmas)",
+      "url": "https://www.promonews.tv/videos/2026/11/09/olivia-rodrigo-take-me-home-4-christmas-fiona-jane-burgess/96924",
+      "source": "Promonews",
+      "status": "repere",
+      "editorial_score_provisional": 17,
+      "editorial_angle": "Codes visuels du Noël idéal qui se défont au contact de la réalité ; scénographie du fantasme et rupture de ton.",
+      "publication_blocker": "Vérifier le visuel et l'analyse sur le projet avant publication",
+      "discovered_at": "2026-11-13"
+    },
+    {
+      "title": "Frankie And The Deadbeats — You Are All Mine For The Night",
+      "url": "https://www.promonews.tv/videos/2026/11/10/frankie-and-deadbeats-you-are-all-mine-night-lubos-vacke/96904",
+      "source": "Promonews",
+      "status": "repere",
+      "editorial_score_provisional": 16,
+      "editorial_angle": "Clip transformé en court-métrage presque sans musique : mise en scène d'un rituel d'écoute et tension domestique.",
+      "publication_blocker": "Vérifier le visuel et l'analyse sur le projet avant publication",
+      "discovered_at": "2026-11-13"
     }
   ],
   "instagram_candidates": [],
