@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-13T07:35:51.653Z",
+  "updated_at": "2026-11-13T12:30:00+01:00",
   "status": "editorial_reviewed",
   "working_feeds": [
     {
@@ -454,6 +454,22 @@
     "with_images": 82
   },
   "items": [
+    {
+      "title": "The Strokes — des marionnettes pour rendre la satire visible",
+      "title_fr": "The Strokes — des marionnettes pour rendre la satire visible",
+      "url": "https://www.promonews.tv/videos/2026/11/12/strokes-lonely-future-warren-fu/96952",
+      "category": "14 Musique Clips",
+      "source": "Promonews / Sacks & Co. / shots",
+      "published": "2026-11-12",
+      "radar_added_at": "2026-11-13T12:30:00+01:00",
+      "summary": "Warren Fu fait jouer The Strokes et des figures publiques sous forme de marionnettes Spitting Image. La caricature physique transforme la critique sociale en spectacle immédiatement lisible.",
+      "summary_fr": "Warren Fu fait jouer The Strokes et des figures publiques sous forme de marionnettes Spitting Image. La caricature physique transforme la critique sociale en spectacle immédiatement lisible.",
+      "image": "https://commons.wikimedia.org/wiki/Special:Redirect/file/The_Strokes.jpg",
+      "image_credit": "Illustration contextuelle : montage photographique des membres de The Strokes (2016), auteurs multiples, Wikimedia Commons, CC BY-SA 3.0. Ce visuel ne représente pas le clip. https://commons.wikimedia.org/wiki/File:The_Strokes.jpg",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:The_Strokes.jpg",
+      "status": "editorial_reviewed",
+      "angle": "La marionnette transforme la satire politique en caricature physique plutôt qu'en discours frontal."
+    },
     {
       "title": "Arashi — le temps reprend vie sur scène",
       "title_fr": "Arashi — le temps reprend vie sur scène",
