@@ -104,3 +104,8 @@ Avant chaque publication et lors des révisions, effectuer une **seconde lecture
 6. **Aucune redondance de structure** : les intitulés de rubrique existent déjà dans l'interface ; ne pas les répéter dans le texte, ni reprendre la même idée sous plusieurs rubriques.
 
 **Échec à l'un de ces tests = réécriture avant publication.** Ces règles priment sur toute formulation ancienne contraire.
+
+
+## Règle prioritaire du 13 novembre 2026 — illustration contextuelle non bloquante
+
+La qualité de l'analyse et la vérification du projet priment sur l'obtention d'une photographie exacte du dispositif. Chercher d'abord une image du projet en croisant artiste, studio, production, presse et photographe. À défaut, accepter une photo officielle de l'artiste ou du groupe, du scénographe, du studio, une affiche officielle ou un visuel contextuel directement lié au sujet. Identifier honnêtement la nature du visuel (par exemple « portrait de l'artiste, illustration contextuelle ») et ne jamais le présenter comme une preuve visuelle du mécanisme analysé. Le lien canonique vers le projet doit permettre au lecteur de voir l'œuvre. Vérifier que l'image s'affiche et que son utilisation est autorisée, avec crédit si requis. Une image contextuelle pertinente ne bloque donc plus la publication d'une analyse solidement sourcée. Les exigences de fraîcheur, de non-doublon et de valeur DA restent inchangées. Cette règle prévaut sur les anciennes obligations d'image exacte du projet et de mécanisme visible dans la vignette.
