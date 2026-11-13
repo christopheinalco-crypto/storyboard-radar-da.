@@ -1589,5 +1589,179 @@
       "Ce qu'il change",
       "L'effet"
     ]
+  },
+  "https://pitchfork.com/story/watch-tinashe-bring-popstar-to-the-tonight-show/": {
+    "intro": "Sur « Popstar », Tinashe est seule dans un manteau blanc à plumes. Derrière elle, les écrans imitent des flashes. Le cadre a déjà distribué les rôles. Une personne est exposée, les regards convergent vers elle.",
+    "points": [
+      [
+        "Le noir prépare le changement",
+        "Quand « Melatonin » commence, la lumière baisse. On distingue Tinashe et les danseurs en silhouettes. **Le groupe apparaît d’abord comme une forme**, avant que la lumière permette de lire les visages et les costumes. Le noir donne au regard le temps de passer d’un corps isolé à une composition collective."
+      ],
+      [
+        "La lumière rend le groupe lisible",
+        "Au retour de la lumière, le costume noir à découpes et les danseurs redistribuent le mouvement dans le cadre. *On peut lire ce passage comme un changement de statut* : le premier tableau met la chanteuse sous les regards, le second lui donne des partenaires avec qui partager l’espace."
+      ]
+    ],
+    "takeaway": "Préparer un changement de tableau par sa silhouette. Le spectateur peut comprendre la nouvelle répartition des corps avant de voir les détails du décor et des costumes.",
+    "tip": "Pour un raccord entre solo et groupe, fais une répétition en contre-jour. Coupe la transition dès que le nombre de corps et leur disposition deviennent lisibles, puis compare avec la version éclairée de bout en bout.",
+    "source": "https://pitchfork.com/story/watch-tinashe-bring-popstar-to-the-tonight-show/",
+    "verified": true,
+    "reviewed_at": "2026-11-13T19:55:42.4119525Z",
+    "editorial_review": [
+      {
+        "url": "https://soulbounce.com/2026/11/tinashe-popstar-melatonin-the-tonight-show/",
+        "locator": "Paragraphe qui commence par « Tinashe kicked things off », du manteau blanc aux silhouettes pendant la transition."
+      },
+      {
+        "url": "https://soulbounce.com/2026/11/tinashe-popstar-melatonin-the-tonight-show/",
+        "locator": "Paragraphes sur la baisse de lumière puis la tenue noire et la chorégraphie."
+      }
+    ],
+    "publication_review": {
+      "scores": {
+        "choice": 4,
+        "effect": 4,
+        "lesson": 4,
+        "evidence": 3,
+        "freshness": 3
+      },
+      "choice": "Les flashes isolent Tinashe dans un manteau blanc. Un passage en silhouettes prépare le retour de la lumière sur un groupe en mouvement.",
+      "effect": "Quand « Melatonin » commence, la lumière baisse. On distingue Tinashe et les danseurs en silhouettes. **Le groupe apparaît d’abord comme une forme**, avant que la lumière permette de lire les visages et les costumes. Le noir donne au regard le temps de passer d’un corps isolé à une composition collective.",
+      "lesson": "Préparer un changement de tableau par sa silhouette. Le spectateur peut comprendre la nouvelle répartition des corps avant de voir les détails du décor et des costumes.",
+      "second_reading": "Relecture depuis la description du passage et les légendes de NBC. Le changement de lecture du cadre est formulé comme une interprétation.",
+      "sources": [
+        {
+          "url": "https://pitchfork.com/story/watch-tinashe-bring-popstar-to-the-tonight-show/",
+          "locator": "Paragraphe sur la version orchestrale de « Popstar » puis « Melatonin ».",
+          "opened_at": "2026-11-13T19:52:34.0756031Z"
+        },
+        {
+          "url": "https://soulbounce.com/2026/11/tinashe-popstar-melatonin-the-tonight-show/",
+          "locator": "Paragraphes sur la baisse de lumière puis la tenue noire et la chorégraphie.",
+          "opened_at": "2026-11-13T19:53:08.2407396Z"
+        },
+        {
+          "url": "https://headlineplanet.com/home/2026/11/11/first-look-tinashe-donovan-mitchell-more-appear-on-tuesdays-tonight-show-starring-jimmy-fallon/",
+          "locator": "Galerie Todd Owyoung/NBC, quatre photos de la performance, légendes datées du 10 novembre.",
+          "opened_at": "2026-11-13T19:52:30.0874554Z"
+        }
+      ]
+    }
+  },
+  "https://museum-gestaltung.ch/de/ausstellung/sabine-marcelis-light-and-color": {
+    "intro": "Une lampe à lave tient d’habitude dans le champ du regard. Sabine Marcelis en installe huit, hautes de plus de deux mètres et demi. Le changement d’échelle fait de la lampe un repère dans la salle. On peut comparer les mouvements de matière d’une colonne à l’autre.",
+    "points": [
+      [
+        "Donner une échelle au mouvement",
+        "Les colonnes répètent un même gabarit. À l’intérieur, la matière monte, se rejoint et redescend. **La répétition stabilise la forme** et rend les écarts de mouvement visibles. La salle se lit à la fois comme un ensemble et comme une série de phénomènes locaux."
+      ],
+      [
+        "Allonger le regard",
+        "Le musée décrit aussi un tunnel lumineux dont le miroir prolonge la perspective. Le dispositif agit sur une autre mesure de l’espace : la répétition fait paraître le fond plus éloigné. Dans les deux cas, on peut isoler une opération simple, répéter une source réelle ou répéter son reflet, puis observer ce que le regard prend pour repère."
+      ]
+    ],
+    "takeaway": "Choisir ce que la répétition doit rendre perceptible. Des sources distinctes laissent comparer des mouvements. Un reflet dans l’axe prolonge une direction.",
+    "tip": "Maquette une rangée de trois sources puis remplace la dernière par un miroir. Depuis l’entrée, repère si l’œil lit d’abord une série d’objets ou une profondeur continue.",
+    "source": "https://museum-gestaltung.ch/de/ausstellung/sabine-marcelis-light-and-color",
+    "verified": true,
+    "reviewed_at": "2026-11-13T19:55:42.4119525Z",
+    "editorial_review": [
+      {
+        "url": "https://www.wallpaper.com/design-interiors/lighting/sabine-marcelis-bubblegum-pink-lava-lamp-for-mathmos",
+        "locator": "Photographies de Pierre Kellenberger et passage final où Marcelis décrit le mouvement des colonnes."
+      },
+      {
+        "url": "https://museum-gestaltung.ch/en/article/enlightenment",
+        "locator": "Section « First museum exhibition », description du tunnel et de la réflexion."
+      }
+    ],
+    "publication_review": {
+      "scores": {
+        "choice": 5,
+        "effect": 4,
+        "lesson": 4,
+        "evidence": 3,
+        "freshness": 2
+      },
+      "choice": "À Zurich, huit lampes à lave prennent la taille de colonnes. Ailleurs dans le parcours, un tunnel de lumière se prolonge par réflexion.",
+      "effect": "Les colonnes répètent un même gabarit. À l’intérieur, la matière monte, se rejoint et redescend. **La répétition stabilise la forme** et rend les écarts de mouvement visibles. La salle se lit à la fois comme un ensemble et comme une série de phénomènes locaux.",
+      "lesson": "Choisir ce que la répétition doit rendre perceptible. Des sources distinctes laissent comparer des mouvements. Un reflet dans l’axe prolonge une direction.",
+      "second_reading": "Relecture croisée du musée et des vues créditées. Les colonnes et le tunnel sont décrits comme deux dispositifs distincts.",
+      "sources": [
+        {
+          "url": "https://museum-gestaltung.ch/de/ausstellung/sabine-marcelis-light-and-color",
+          "locator": "Dates de l’exposition et section « Über die Ausstellung », nombre et hauteur des lampes.",
+          "opened_at": "2026-11-13T19:52:28.6923898Z"
+        },
+        {
+          "url": "https://www.wallpaper.com/design-interiors/lighting/sabine-marcelis-bubblegum-pink-lava-lamp-for-mathmos",
+          "locator": "Photographies de Pierre Kellenberger et passage final où Marcelis décrit le mouvement des colonnes.",
+          "opened_at": "2026-11-13T19:52:29.337313Z"
+        },
+        {
+          "url": "https://museum-gestaltung.ch/en/article/enlightenment",
+          "locator": "Section « First museum exhibition », description du tunnel et de la réflexion.",
+          "opened_at": "2026-11-13T19:52:29.1298954Z"
+        }
+      ]
+    }
+  },
+  "https://www.fitzroviachapel.org/event/middlesex-hospital-blues/": {
+    "intro": "Dans la chapelle de l’ancien Middlesex Hospital, un écran-miroir au format 16:9 traverse la nef. Derrière, deux figures chromées se tiennent l’une l’autre devant l’autel. Le cadre emprunte ses proportions au cinéma. Sa surface laisse tour à tour lire un reflet ou ce qui se trouve derrière.",
+    "points": [
+      [
+        "Fabriquer le moment où l’on voit",
+        "Arup baigne la salle dans un bleu saturé. De lentes impulsions blanches font émerger les figures derrière la surface. **Le contraste commande la révélation**. Les sculptures peuvent rester en place : c’est la bascule entre reflet et transparence qui fait événement."
+      ],
+      [
+        "Faire entrer le lieu dans le dispositif",
+        "Forsyth et Pollard ont choisi de transposer le geste de *Blue* dans la chapelle de l’ancien hôpital. La couleur occupe la salle et la voix de Tilda Swinton se déplace dans l’espace. Le cadre 16:9 garde la mémoire du film, tandis que le son et la lumière engagent le visiteur dans le lieu où s’inscrit cette mémoire."
+      ]
+    ],
+    "takeaway": "Pour faire apparaître un objet fixe, écris deux états de lumière autour d’une même surface. Le passage entre les deux peut porter à lui seul la dramaturgie.",
+    "tip": "Avec un miroir sans tain en maquette, éclaire d’abord le côté spectateur, puis l’arrière. Note à quel niveau le regard cesse de lire son reflet et commence à distinguer la forme derrière.",
+    "source": "https://www.fitzroviachapel.org/event/middlesex-hospital-blues/",
+    "verified": true,
+    "reviewed_at": "2026-11-13T19:55:42.4119525Z",
+    "editorial_review": [
+      {
+        "url": "https://www.fitzroviachapel.org/event/middlesex-hospital-blues/",
+        "locator": "Description de l’écran-miroir, de la lumière bleue d’Arup et des impulsions blanches."
+      },
+      {
+        "url": "https://iainandjane.com/2026/10/01/middlesex-hospital-blues-at-fitzrovia-chapel/",
+        "locator": "Paragraphes sur l’intention de transposition de Blue et la commande sonore avec Tilda Swinton."
+      }
+    ],
+    "publication_review": {
+      "scores": {
+        "choice": 5,
+        "effect": 5,
+        "lesson": 4,
+        "evidence": 3,
+        "freshness": 2
+      },
+      "choice": "Un miroir occupe la largeur de la chapelle. Des impulsions blanches révèlent par intermittence deux silhouettes chromées devant l’autel.",
+      "effect": "Arup baigne la salle dans un bleu saturé. De lentes impulsions blanches font émerger les figures derrière la surface. **Le contraste commande la révélation**. Les sculptures peuvent rester en place : c’est la bascule entre reflet et transparence qui fait événement.",
+      "lesson": "Pour faire apparaître un objet fixe, écris deux états de lumière autour d’une même surface. Le passage entre les deux peut porter à lui seul la dramaturgie.",
+      "second_reading": "Relecture du lieu, des commissaires et de la galerie. La seconde lecture confirme les états de lumière et le rôle spatial de la voix sans supposer de réaction mesurée.",
+      "sources": [
+        {
+          "url": "https://www.fitzroviachapel.org/event/middlesex-hospital-blues/",
+          "locator": "Description de l’écran-miroir, de la lumière bleue d’Arup et des impulsions blanches.",
+          "opened_at": "2026-11-13T19:52:25.3724976Z"
+        },
+        {
+          "url": "https://iainandjane.com/2026/10/01/middlesex-hospital-blues-at-fitzrovia-chapel/",
+          "locator": "Paragraphes sur l’intention de transposition de Blue et la commande sonore avec Tilda Swinton.",
+          "opened_at": "2026-11-13T19:52:27.4297715Z"
+        },
+        {
+          "url": "https://edelassanti.com/exhibitions/179-jenkin-van-zyl-at-the-fitzrovia-chapel/",
+          "locator": "Communiqué, passage sur le miroir 16:9, les figures devant l’autel et le réseau de haut-parleurs.",
+          "opened_at": "2026-11-13T19:52:28.2432256Z"
+        }
+      ]
+    }
   }
 }

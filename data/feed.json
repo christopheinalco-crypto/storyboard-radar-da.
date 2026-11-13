@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-13T21:15:00+01:00",
+  "updated_at": "2026-11-13T19:55:42.4119525Z",
   "status": "editorial_reviewed",
   "working_feeds": [
     {
@@ -454,6 +454,48 @@
     "with_images": 82
   },
   "items": [
+    {
+      "project_id": "tinashe-tonight-show-popstar-melatonin-2026-11-10",
+      "title": "Tinashe au Tonight Show — la silhouette fait le raccord",
+      "title_fr": "Tinashe au Tonight Show — la silhouette fait le raccord",
+      "url": "https://pitchfork.com/story/watch-tinashe-bring-popstar-to-the-tonight-show/",
+      "category": "02 TV Broadcast",
+      "source": "SoulBounce / photos NBC / Pitchfork",
+      "published": "2026-11-10",
+      "radar_added_at": "2026-11-13T19:55:42.4119525Z",
+      "summary": "Les flashes isolent Tinashe dans un manteau blanc. Un passage en silhouettes prépare le retour de la lumière sur un groupe en mouvement.",
+      "summary_fr": "Les flashes isolent Tinashe dans un manteau blanc. Un passage en silhouettes prépare le retour de la lumière sur un groupe en mouvement.",
+      "image": "",
+      "status": "editorial_reviewed"
+    },
+    {
+      "project_id": "sabine-marcelis-light-and-color-zurich-2026",
+      "title": "Sabine Marcelis — agrandir une lumière sans agrandir la salle",
+      "title_fr": "Sabine Marcelis — agrandir une lumière sans agrandir la salle",
+      "url": "https://museum-gestaltung.ch/de/ausstellung/sabine-marcelis-light-and-color",
+      "category": "08 Immersif CGI Motion",
+      "source": "Museum für Gestaltung Zürich / Wallpaper*",
+      "published": "2026-10-30",
+      "radar_added_at": "2026-11-13T19:55:42.4119525Z",
+      "summary": "À Zurich, huit lampes à lave prennent la taille de colonnes. Ailleurs dans le parcours, un tunnel de lumière se prolonge par réflexion.",
+      "summary_fr": "À Zurich, huit lampes à lave prennent la taille de colonnes. Ailleurs dans le parcours, un tunnel de lumière se prolonge par réflexion.",
+      "image": "",
+      "status": "editorial_reviewed"
+    },
+    {
+      "project_id": "fitzrovia-chapel-middlesex-hospital-blues-2026",
+      "title": "Middlesex Hospital Blues — une lumière qui traverse le miroir",
+      "title_fr": "Middlesex Hospital Blues — une lumière qui traverse le miroir",
+      "url": "https://www.fitzroviachapel.org/event/middlesex-hospital-blues/",
+      "category": "08 Immersif CGI Motion",
+      "source": "The Fitzrovia Chapel / Forsyth & Pollard / Edel Assanti",
+      "published": "2026-10-16",
+      "radar_added_at": "2026-11-13T19:55:42.4119525Z",
+      "summary": "Un miroir occupe la largeur de la chapelle. Des impulsions blanches révèlent par intermittence deux silhouettes chromées devant l’autel.",
+      "summary_fr": "Un miroir occupe la largeur de la chapelle. Des impulsions blanches révèlent par intermittence deux silhouettes chromées devant l’autel.",
+      "image": "",
+      "status": "editorial_reviewed"
+    },
     {
       "title": "Arashi — le temps reprend vie sur scène",
       "title_fr": "Arashi — le temps reprend vie sur scène",

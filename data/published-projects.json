@@ -1,7 +1,25 @@
 {
   "description": "Cumulative seen-project register; retain entries when projects leave the live feed; compare URL and semantic identity.",
-  "updated": "2026-11-13T20:30:00+01:00",
+  "updated": "2026-11-13T19:55:42.4119525Z",
   "projects": [
+    {
+      "project_id": "tinashe-tonight-show-popstar-melatonin-2026-11-10",
+      "title": "Tinashe au Tonight Show — la silhouette fait le raccord",
+      "url": "https://pitchfork.com/story/watch-tinashe-bring-popstar-to-the-tonight-show/",
+      "category": "02 TV Broadcast"
+    },
+    {
+      "project_id": "sabine-marcelis-light-and-color-zurich-2026",
+      "title": "Sabine Marcelis — agrandir une lumière sans agrandir la salle",
+      "url": "https://museum-gestaltung.ch/de/ausstellung/sabine-marcelis-light-and-color",
+      "category": "08 Immersif CGI Motion"
+    },
+    {
+      "project_id": "fitzrovia-chapel-middlesex-hospital-blues-2026",
+      "title": "Middlesex Hospital Blues — une lumière qui traverse le miroir",
+      "url": "https://www.fitzroviachapel.org/event/middlesex-hospital-blues/",
+      "category": "08 Immersif CGI Motion"
+    },
     {
       "url": "https://stufish.com/project/arashi/",
       "title": "Arashi — le temps reprend vie sur scène",
