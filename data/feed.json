@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-13T15:00:00+01:00",
+  "updated_at": "2026-11-13T16:00:00+01:00",
   "status": "editorial_reviewed",
   "working_feeds": [
     {
@@ -454,38 +454,6 @@
     "with_images": 82
   },
   "items": [
-    {
-      "title": "Montpellier — l’aqueduc des Arceaux devient une partition lumineuse",
-      "title_fr": "Montpellier — l’aqueduc des Arceaux devient une partition lumineuse",
-      "url": "https://en-commun.montpellier.fr/index.php/articles/2026-11-12-12-13-et-14-novembre-2026-trois-soirees-enchantees-avec-coeur-de-ville-en#arceaux-flux-partition-de-lumieres",
-      "category": "08 Immersif CGI Motion",
-      "source": "Montpellier Métropole / ARTCOM Diffusion / Holymage",
-      "published": "2026-11-12",
-      "radar_added_at": "2026-11-13T15:00:00+01:00",
-      "summary": "Holymage transforme les arches répétitives de l’aqueduc des Arceaux en une partition de lumière. La succession des travées fournit une structure rythmique au spectacle de mapping.",
-      "summary_fr": "Holymage transforme les arches répétitives de l’aqueduc des Arceaux en une partition de lumière. La succession des travées fournit une structure rythmique au spectacle de mapping.",
-      "image": "https://en-commun.montpellier.fr/sites/default/files/styles/crop_libre_w200/public/2026-11/visuel-mapping-flux-une-partition-de-lumieres-aqueduc-des-arceaux-credit-holymage.jpg?itok=uu9q1krb",
-      "image_credit": "Visuel du mapping « Flux, une partition de lumières », © Holymage, publié par Montpellier Métropole ; autorisation de réaffichage non confirmée.",
-      "image_source_url": "https://en-commun.montpellier.fr/index.php/articles/2026-11-12-12-13-et-14-novembre-2026-trois-soirees-enchantees-avec-coeur-de-ville-en",
-      "status": "editorial_reviewed",
-      "angle": "**Le lieu contient parfois la partition : la direction artistique consiste à la rendre perceptible.**"
-    },
-    {
-      "title": "Montpellier — l’Opéra Comédie devient un bestiaire vivant",
-      "title_fr": "Montpellier — l’Opéra Comédie devient un bestiaire vivant",
-      "url": "https://en-commun.montpellier.fr/index.php/articles/2026-11-12-12-13-et-14-novembre-2026-trois-soirees-enchantees-avec-coeur-de-ville-en#opera-comedie-le-songe-des-animaux",
-      "category": "08 Immersif CGI Motion",
-      "source": "Montpellier Métropole / ARTCOM Diffusion / Holymage",
-      "published": "2026-11-12",
-      "radar_added_at": "2026-11-13T15:00:00+01:00",
-      "summary": "Pour Cœur de Ville en Lumières 2026, ARTCOM Diffusion et Marie Jumelin transforment la façade de l’Opéra Comédie en bestiaire coloré. Le mapping utilise les fenêtres et colonnes comme cadres d’un monde vivant.",
-      "summary_fr": "Pour Cœur de Ville en Lumières 2026, ARTCOM Diffusion et Marie Jumelin transforment la façade de l’Opéra Comédie en bestiaire coloré. Le mapping utilise les fenêtres et colonnes comme cadres d’un monde vivant.",
-      "image": "https://en-commun.montpellier.fr/sites/default/files/styles/crop_libre_w1920/public/articles/2026-11/0visuel-mapping-le-songe-des-animeaux-opera-comedie-credit-artcom-diffusion.jpg?itok=oRsx9YF9",
-      "image_credit": "Visuel du mapping « Le Songe des animaux », © ARTCOM Diffusion, publié par Montpellier Métropole ; autorisation de réaffichage non confirmée.",
-      "image_source_url": "https://en-commun.montpellier.fr/index.php/articles/2026-11-12-12-13-et-14-novembre-2026-trois-soirees-enchantees-avec-coeur-de-ville-en",
-      "status": "editorial_reviewed",
-      "angle": "**La façade est la grille de composition ; la projection devient intéressante quand elle joue avec cette grille.**"
-    },
     {
       "title": "The Strokes — des marionnettes pour rendre la satire visible",
       "title_fr": "The Strokes — des marionnettes pour rendre la satire visible",
