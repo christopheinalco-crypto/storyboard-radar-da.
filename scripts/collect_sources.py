@@ -100,7 +100,7 @@ def main():
             clean=url.split("#",1)[0]
             if not clean.startswith("https://") or clean.rstrip("/")==result["final_url"].rstrip("/"):
                 continue
-            if re.search(r"\\.(?:jpg|jpeg|png|gif|svg|webp|pdf|css|js|mp4|woff2?)(?:\\?|$)",clean,re.I):
+            if re.search(r"\.(?:jpg|jpeg|png|gif|svg|webp|pdf|css|js|mp4|woff2?)(?:\?|$)",clean,re.I):
                 continue
             if any(host in clean.lower() for host in ("instagram.com/","facebook.com/","tiktok.com/","linkedin.com/","twitter.com/","x.com/","youtube.com/","youtu.be/")):
                 continue
