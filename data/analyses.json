@@ -1426,5 +1426,38 @@
       "Décryptage des choix",
       "Enseignement DA"
     ]
+  },
+  "https://shotsmag.slateprod.io/news/view/how-talia-beale-created-a-nostalgic-nightmare-for-bricknasty": {
+    "intro": "**Ici, le quartier n'est pas un décor : c'est un souvenir qui déraille.** Dans *Forever* de Bricknasty, Talia Beale nous fait avancer à la première personne dans une cité 3D où les couloirs, les portes et les habitants deviennent étranges.",
+    "points": [
+      [
+        "L'essentiel",
+        "**Un lieu réel sert de point de départ : Ballymun, à Dublin, aujourd'hui démoli.** Mais la réalisatrice ne cherche pas à le reconstituer fidèlement. Elle mêle architecture déformée, créatures irréelles, références aux vieux jeux vidéo et dessins 2D réalisés avec une Nintendo DS."
+      ],
+      [
+        "Intention",
+        "**Faire ressentir une mémoire contradictoire.** Beale parle de la beauté et de la brutalité de l'enfance dans un quartier populaire. Le choix d'un univers inquiétant, plutôt qu'une reconstitution documentaire, donne une forme à cette ambiguïté."
+      ],
+      [
+        "Idée & DA",
+        "**Regarde la perspective : on avance à hauteur d'habitant, pas en spectateur extérieur.** Les escaliers qui tournent, les portes de travers et les espaces qui se dérèglent font perdre les repères. Le travail mêle CGI, photogrammétrie, compositing et animation dessinée à la main, sans IA générative selon la réalisatrice."
+      ],
+      [
+        "Pour un DA",
+        "**Une référence n'est pas une décoration à copier.** Pars d'un lieu chargé de sens, puis demande-toi quelles transformations visuelles peuvent faire ressentir ce qu'il représente. Ici, c'est le décalage entre familiarité et étrangeté qui porte le concept."
+      ]
+    ],
+    "takeaway": "**La direction artistique transforme un espace vécu en sensation : le décor raconte la mémoire autant que le personnage.**",
+    "source": "shots, entretien d'Amy Hey avec Talia Beale, 11 novembre 2026.",
+    "verified": true,
+    "reviewed_at": "2026-11-13T07:00:17.143Z",
+    "editorial_method": "Éléments observables et propos de la réalisatrice distingués de l'interprétation DA.",
+    "tip": "**Choisis un lieu de ton enfance.** Dessine-le une fois fidèlement, puis une fois tel qu'il pourrait apparaître dans un rêve. Qu'est-ce qui change ?",
+    "reading_sequence": [
+      "Observation du visuel",
+      "Concept et intention",
+      "Décryptage des choix",
+      "Enseignement DA"
+    ]
   }
 }
