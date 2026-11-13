@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-13T12:00:00+01:00",
+  "updated_at": "2026-11-13T07:00:17.143Z",
   "status": "editorial_reviewed",
   "working_feeds": [
     {
@@ -454,6 +454,22 @@
     "with_images": 82
   },
   "items": [
+    {
+      "title": "Bricknasty — un quartier devenu cauchemar animé",
+      "title_fr": "Bricknasty — un quartier devenu cauchemar animé",
+      "url": "https://shotsmag.slateprod.io/news/view/how-talia-beale-created-a-nostalgic-nightmare-for-bricknasty",
+      "category": "14 Musique Clips",
+      "source": "shots / entretien avec Talia Beale",
+      "published": "2026-11-11",
+      "radar_added_at": "2026-11-13T07:00:17.143Z",
+      "summary": "Dans Forever, Talia Beale transforme le souvenir du quartier de Ballymun en labyrinthe 3D à la première personne. Photogrammétrie, animation 2D sur Nintendo DS et textures de jeu vidéo donnent une forme inquiétante à la nostalgie.",
+      "summary_fr": "Dans Forever, Talia Beale transforme le souvenir du quartier de Ballymun en labyrinthe 3D à la première personne. Photogrammétrie, animation 2D sur Nintendo DS et textures de jeu vidéo donnent une forme inquiétante à la nostalgie.",
+      "image": "https://images.slatecdn.net/DL3UciEOZbGFmtkFTYBDB9sBZt0xnxUhYNFy2M0OhX4/rs:fill:1024:576:1/q:80/aHR0cHM6Ly9zMy11/cy13ZXN0LTEuYW1h/em9uYXdzLmNvbS9t/ZWRpYS11cy13ZXN0/c2xhdGVhcHBjb20v/c2hvdHNtYWcvcHJv/ZHVjdGlvbi9jbGlw/cy8xYWZmMDQ2Yy04/ZWU2LTQxNGYtYmY1/ZC04MmJiZTE4OTUz/ZTkvMTc5NDQxODg4/MTkzMi5qcGc?format=jpeg&quality=80&v=1",
+      "image_credit": "Image du clip Bricknasty « Forever », reproduite à distance depuis shots / Slate CDN ; droits de réaffichage non confirmés, image non réhébergée.",
+      "image_source_url": "https://shotsmag.slateprod.io/news/view/how-talia-beale-created-a-nostalgic-nightmare-for-bricknasty",
+      "status": "editorial_reviewed",
+      "angle": "Transformer le souvenir d'un quartier en expérience spatiale subjective, à travers une caméra en vue subjective et des architectures déformées."
+    },
     {
       "title": "Eurovision 2026 — quand la lumière devient une scène mobile",
       "title_fr": "Eurovision 2026 — quand la lumière devient une scène mobile",
