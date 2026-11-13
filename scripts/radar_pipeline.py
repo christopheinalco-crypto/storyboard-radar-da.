@@ -39,6 +39,11 @@ def score(url, category, priority):
         return -1
     if re.search(r"\.(?:jpg|png|gif|webp|svg|pdf|css|js|woff|mp4|mov)$", path):
         return -1
+    # Avoid category landing pages, vendor product catalogues and shallow navigation.
+    if re.search(r"/(?:categories|category|topics|products|solutions|services|events|resources|news|videos|projects)/?$",path):
+        return -1
+    if any(x in tokens for x in ("product-software","solution-live","workflow-tools","case-studies-index")):
+        return -1
     pts = 3 if priority == "P1" else 2 if priority == "P2" else 0
     pts += CATEGORY_BOOST.get(category, 0)
     pts += 9 * sum(term in tokens for term in PRIMARY)
@@ -72,8 +77,17 @@ def main():
             continue
         ranked.append({**item, "score": pts, "status": "a_verifier", "requirements": ["date_creation", "choix_DA_observable", "source_primaire", "image_du_projet_et_droits", "doublon_identite"]})
     ranked.sort(key=lambda x: (-x["score"], x.get("url", "")))
+    # Reserve coverage across sectors instead of letting the first source dominate.
     selected, domains, categories, seen = [], {}, {}, set()
-    for item in ranked:
+    sector_order = ["14 Musique Clips","01 Spectacle Concert","02 TV Broadcast","15 Danse Performance","09 France Pro"]
+    buckets = {cat:[i for i in ranked if i.get("source_category")==cat] for cat in sector_order}
+    other = [i for i in ranked if i.get("source_category") not in sector_order]
+    balanced = []
+    for pos in range(max([len(v) for v in buckets.values()] + [0])):
+        for cat in sector_order:
+            if pos < len(buckets[cat]): balanced.append(buckets[cat][pos])
+    balanced.extend(other)
+    for item in balanced:
         url = item["url"]
         domain = urlparse(url).netloc
         cat = item.get("source_category", "")
