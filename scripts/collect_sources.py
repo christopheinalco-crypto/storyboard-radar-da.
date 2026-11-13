@@ -89,9 +89,13 @@ def main():
         except (FileNotFoundError,ValueError):pass
     candidates=[]
     known=set()
-    for result in results:
+    # Interleave sources to avoid the first catalog entries exhausting the cap.
+    eligible=[r for r in results if r["status"]=="opened"]
+    link_rounds=max((len(r.get("sample_links",[])) for r in eligible),default=0)
+    for position in range(link_rounds):
+      for result in eligible:
         if result["status"]!="opened":continue
-        for url in result.get("sample_links",[]):
+        for url in result.get("sample_links",[])[position:position+1]:
             # Skip homepage, anchors, social links, trackers and non-editorial assets.
             clean=url.split("#",1)[0]
             if not clean.startswith("https://") or clean.rstrip("/")==result["final_url"].rstrip("/"):
