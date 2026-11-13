@@ -1,190 +1,35 @@
 {
-  "updated_at": "2026-11-13T18:12:25.244413+00:00",
+  "updated_at": "2026-11-13T18:14:29.928415+00:00",
   "status": "selection_non_verifiee",
   "warning": "Scores = priorisation de liens, jamais validation editoriale, date ou droit image.",
   "total_discoveries": 3000,
-  "ranked": 859,
+  "ranked": 425,
   "shortlisted": 160,
   "by_category": {
-    "14 Musique Clips": 55,
-    "01 Spectacle Concert": 30,
-    "15 Danse Performance": 13,
-    "09 France Pro": 24,
-    "02 TV Broadcast": 18,
-    "07 FOOH OOH DOOH": 7,
+    "14 Musique Clips": 53,
+    "08 Immersif CGI Motion": 12,
+    "02 TV Broadcast": 20,
+    "07 FOOH OOH DOOH": 5,
+    "01 Spectacle Concert": 20,
+    "15 Danse Performance": 1,
     "04 Pub Strategie": 11,
+    "09 France Pro": 14,
+    "03 DA Graphisme": 5,
+    "06 Retail Brand Experience": 9,
+    "13 France Marketing Design": 2,
+    "10 Strategie Insights": 6,
     "05 Art Architecture": 1,
-    "03 DA Graphisme": 1
+    "12 Tendances Cultures": 1
   },
   "items": [
-    {
-      "url": "https://www.promonews.tv/news/2026/11/06/uk-music-video-awards-2026-winners-enclosure/96865",
-      "source": "Promonews",
-      "source_category": "14 Musique Clips",
-      "priority": "P1",
-      "status": "a_verifier",
-      "found_at": "2026-11-13T18:12:08.794014+00:00",
-      "score": 38,
-      "requirements": [
-        "date_creation",
-        "choix_DA_observable",
-        "source_primaire",
-        "image_du_projet_et_droits",
-        "doublon_identite"
-      ]
-    },
-    {
-      "url": "https://stereogum.com/2516108/5-thoughts-on-olivia-rodrigos-unraveled-tour/reviews/concert-review",
-      "source": "Stereogum",
-      "source_category": "14 Musique Clips",
-      "priority": "P1",
-      "status": "a_verifier",
-      "found_at": "2026-11-13T18:12:08.794014+00:00",
-      "score": 33,
-      "requirements": [
-        "date_creation",
-        "choix_DA_observable",
-        "source_primaire",
-        "image_du_projet_et_droits",
-        "doublon_identite"
-      ]
-    },
     {
       "url": "https://www.blogotheque.net/categories/music-videos/",
       "source": "La Blogothèque",
       "source_category": "14 Musique Clips",
       "priority": "P1",
       "status": "a_verifier",
-      "found_at": "2026-11-13T18:12:08.794014+00:00",
+      "found_at": "2026-11-13T18:14:13.837233+00:00",
       "score": 31,
-      "requirements": [
-        "date_creation",
-        "choix_DA_observable",
-        "source_primaire",
-        "image_du_projet_et_droits",
-        "doublon_identite"
-      ]
-    },
-    {
-      "url": "https://www.etcconnect.com/About/News/Lighting-Designer-Vince-Foster-Chooses-Hog-for-Jamiroquai-Tour.aspx",
-      "source": "ETC",
-      "source_category": "01 Spectacle Concert",
-      "priority": "P3",
-      "status": "a_verifier",
-      "found_at": "2026-11-13T18:12:08.794014+00:00",
-      "score": 31,
-      "requirements": [
-        "date_creation",
-        "choix_DA_observable",
-        "source_primaire",
-        "image_du_projet_et_droits",
-        "doublon_identite"
-      ]
-    },
-    {
-      "url": "https://stufish.com/project/the-han-show-theatre/",
-      "source": "STUFISH",
-      "source_category": "01 Spectacle Concert",
-      "priority": "P1",
-      "status": "a_verifier",
-      "found_at": "2026-11-13T18:12:08.794014+00:00",
-      "score": 30,
-      "requirements": [
-        "date_creation",
-        "choix_DA_observable",
-        "source_primaire",
-        "image_du_projet_et_droits",
-        "doublon_identite"
-      ]
-    },
-    {
-      "url": "https://www.promonews.tv/videos/2026/11/12/glaive-asheghanistan-fleming-mason/96887",
-      "source": "Promonews",
-      "source_category": "14 Musique Clips",
-      "priority": "P1",
-      "status": "a_verifier",
-      "found_at": "2026-11-13T18:12:08.794014+00:00",
-      "score": 29,
-      "requirements": [
-        "date_creation",
-        "choix_DA_observable",
-        "source_primaire",
-        "image_du_projet_et_droits",
-        "doublon_identite"
-      ]
-    },
-    {
-      "url": "https://www.promonews.tv/videos/2026/11/12/sleep-theory-giving-lewis-cater/96947",
-      "source": "Promonews",
-      "source_category": "14 Musique Clips",
-      "priority": "P1",
-      "status": "a_verifier",
-      "found_at": "2026-11-13T18:12:08.794014+00:00",
-      "score": 29,
-      "requirements": [
-        "date_creation",
-        "choix_DA_observable",
-        "source_primaire",
-        "image_du_projet_et_droits",
-        "doublon_identite"
-      ]
-    },
-    {
-      "url": "https://www.promonews.tv/videos/2026/11/13/max-swan-paid-lose-chris-white/96960",
-      "source": "Promonews",
-      "source_category": "14 Musique Clips",
-      "priority": "P1",
-      "status": "a_verifier",
-      "found_at": "2026-11-13T18:12:08.794014+00:00",
-      "score": 29,
-      "requirements": [
-        "date_creation",
-        "choix_DA_observable",
-        "source_primaire",
-        "image_du_projet_et_droits",
-        "doublon_identite"
-      ]
-    },
-    {
-      "url": "https://www.promonews.tv/videos/2026/11/13/tora-i-ft-louis-culture-sundown-zaineb-abelque/96973",
-      "source": "Promonews",
-      "source_category": "14 Musique Clips",
-      "priority": "P1",
-      "status": "a_verifier",
-      "found_at": "2026-11-13T18:12:08.794014+00:00",
-      "score": 29,
-      "requirements": [
-        "date_creation",
-        "choix_DA_observable",
-        "source_primaire",
-        "image_du_projet_et_droits",
-        "doublon_identite"
-      ]
-    },
-    {
-      "url": "https://www.promonews.tv/videos/2026/11/13/yogi-ft-nene-sadboi-ride-or-die-lewis-adams/96968",
-      "source": "Promonews",
-      "source_category": "14 Musique Clips",
-      "priority": "P1",
-      "status": "a_verifier",
-      "found_at": "2026-11-13T18:12:08.794014+00:00",
-      "score": 29,
-      "requirements": [
-        "date_creation",
-        "choix_DA_observable",
-        "source_primaire",
-        "image_du_projet_et_droits",
-        "doublon_identite"
-      ]
-    },
-    {
-      "url": "https://www.thestage.co.uk/news/national-theatre-receives-15m-boost-to-touring-work-in-bid-to-reach-100000-young-people",
-      "source": "The Stage",
-      "source_category": "15 Danse Performance",
-      "priority": "P1",
-      "status": "a_verifier",
-      "found_at": "2026-11-13T18:12:08.794014+00:00",
-      "score": 29,
       "requirements": [
         "date_creation",
         "choix_DA_observable",
@@ -199,7 +44,7 @@
       "source_category": "14 Musique Clips",
       "priority": "P1",
       "status": "a_verifier",
-      "found_at": "2026-11-13T18:12:08.794014+00:00",
+      "found_at": "2026-11-13T18:14:13.837233+00:00",
       "score": 28,
       "requirements": [
         "date_creation",
@@ -210,109 +55,13 @@
       ]
     },
     {
-      "url": "https://www.etcconnect.com/About/News/Austin-Independent-School-District-Theatre-Programs-Thrive-with-ETC-Lighting-Solutions.aspx",
-      "source": "ETC",
-      "source_category": "01 Spectacle Concert",
-      "priority": "P3",
-      "status": "a_verifier",
-      "found_at": "2026-11-13T18:12:08.794014+00:00",
-      "score": 28,
-      "requirements": [
-        "date_creation",
-        "choix_DA_observable",
-        "source_primaire",
-        "image_du_projet_et_droits",
-        "doublon_identite"
-      ]
-    },
-    {
-      "url": "https://issuu.com/lightzoomlumiere/docs/talents_de_lumiere_2026_lighting_directory?fr=xKAE9_zU1NQ",
-      "source": "Light ZOOM Lumière",
-      "source_category": "09 France Pro",
-      "priority": "P1",
-      "status": "a_verifier",
-      "found_at": "2026-11-13T18:12:08.794014+00:00",
-      "score": 26,
-      "requirements": [
-        "date_creation",
-        "choix_DA_observable",
-        "source_primaire",
-        "image_du_projet_et_droits",
-        "doublon_identite"
-      ]
-    },
-    {
-      "url": "https://www.lesinrocks.com/musique/peaches-revient-de-retour-en-fevrier-2027-pour-quatre-dates-en-france-705753-13-11-2026/",
-      "source": "Les Inrockuptibles",
-      "source_category": "14 Musique Clips",
-      "priority": "P1",
-      "status": "a_verifier",
-      "found_at": "2026-11-13T18:12:08.794014+00:00",
-      "score": 26,
-      "requirements": [
-        "date_creation",
-        "choix_DA_observable",
-        "source_primaire",
-        "image_du_projet_et_droits",
-        "doublon_identite"
-      ]
-    },
-    {
-      "url": "https://www.promonews.tv/videos/filter/director's%20notes",
-      "source": "Promonews",
-      "source_category": "14 Musique Clips",
-      "priority": "P1",
-      "status": "a_verifier",
-      "found_at": "2026-11-13T18:12:08.794014+00:00",
-      "score": 26,
-      "requirements": [
-        "date_creation",
-        "choix_DA_observable",
-        "source_primaire",
-        "image_du_projet_et_droits",
-        "doublon_identite"
-      ]
-    },
-    {
-      "url": "https://www.promonews.tv/videos/filter/new%20director",
-      "source": "Promonews",
-      "source_category": "14 Musique Clips",
-      "priority": "P1",
-      "status": "a_verifier",
-      "found_at": "2026-11-13T18:12:08.794014+00:00",
-      "score": 26,
-      "requirements": [
-        "date_creation",
-        "choix_DA_observable",
-        "source_primaire",
-        "image_du_projet_et_droits",
-        "doublon_identite"
-      ]
-    },
-    {
-      "url": "https://www.thestage.co.uk/news/director-and-designer-unveil-plans-to-revive-streatham-theatre-as-commercial-venue",
-      "source": "The Stage",
-      "source_category": "15 Danse Performance",
-      "priority": "P1",
-      "status": "a_verifier",
-      "found_at": "2026-11-13T18:12:08.794014+00:00",
-      "score": 26,
-      "requirements": [
-        "date_creation",
-        "choix_DA_observable",
-        "source_primaire",
-        "image_du_projet_et_droits",
-        "doublon_identite"
-      ]
-    },
-    {
-      "url": "https://www.disguise.one/en/services/creative/broadcast-graphics",
-      "source": "disguise",
-      "source_category": "02 TV Broadcast",
+      "url": "https://www.smode.io/en/products/product-software-video-mapping-realtime-show-control",
+      "source": "Smode",
+      "source_category": "08 Immersif CGI Motion",
       "priority": "P2",
       "status": "a_verifier",
-      "found_at": "2026-11-13T18:12:08.794014+00:00",
-      "score": 25,
+      "found_at": "2026-11-13T18:14:13.837233+00:00",
+      "score": 26,
       "requirements": [
         "date_creation",
         "choix_DA_observable",
@@ -322,13 +71,13 @@
       ]
     },
     {
-      "url": "https://www.disguise.one/en/services/creative/immersive-experiences",
-      "source": "disguise",
-      "source_category": "02 TV Broadcast",
+      "url": "https://www.smode.io/en/solutions/solution-live-tv-production-broadcast",
+      "source": "Smode",
+      "source_category": "08 Immersif CGI Motion",
       "priority": "P2",
       "status": "a_verifier",
-      "found_at": "2026-11-13T18:12:08.794014+00:00",
-      "score": 25,
+      "found_at": "2026-11-13T18:14:13.837233+00:00",
+      "score": 26,
       "requirements": [
         "date_creation",
         "choix_DA_observable",
@@ -343,7 +92,7 @@
       "source_category": "02 TV Broadcast",
       "priority": "P2",
       "status": "a_verifier",
-      "found_at": "2026-11-13T18:12:08.794014+00:00",
+      "found_at": "2026-11-13T18:14:13.837233+00:00",
       "score": 25,
       "requirements": [
         "date_creation",
@@ -359,7 +108,7 @@
       "source_category": "07 FOOH OOH DOOH",
       "priority": "P1",
       "status": "a_verifier",
-      "found_at": "2026-11-13T18:12:08.794014+00:00",
+      "found_at": "2026-11-13T18:14:13.837233+00:00",
       "score": 24,
       "requirements": [
         "date_creation",
@@ -375,72 +124,8 @@
       "source_category": "01 Spectacle Concert",
       "priority": "P2",
       "status": "a_verifier",
-      "found_at": "2026-11-13T18:12:08.794014+00:00",
+      "found_at": "2026-11-13T18:14:13.837233+00:00",
       "score": 24,
-      "requirements": [
-        "date_creation",
-        "choix_DA_observable",
-        "source_primaire",
-        "image_du_projet_et_droits",
-        "doublon_identite"
-      ]
-    },
-    {
-      "url": "https://voicesofreims.wordpress.com/2026/10/28/decouvrez-regalia-un-spectacle-multimedia/",
-      "source": "Light ZOOM Lumière",
-      "source_category": "09 France Pro",
-      "priority": "P1",
-      "status": "a_verifier",
-      "found_at": "2026-11-13T18:12:08.794014+00:00",
-      "score": 24,
-      "requirements": [
-        "date_creation",
-        "choix_DA_observable",
-        "source_primaire",
-        "image_du_projet_et_droits",
-        "doublon_identite"
-      ]
-    },
-    {
-      "url": "https://www.disguise.one/en/roadshow-2026",
-      "source": "disguise",
-      "source_category": "02 TV Broadcast",
-      "priority": "P2",
-      "status": "a_verifier",
-      "found_at": "2026-11-13T18:12:08.794014+00:00",
-      "score": 24,
-      "requirements": [
-        "date_creation",
-        "choix_DA_observable",
-        "source_primaire",
-        "image_du_projet_et_droits",
-        "doublon_identite"
-      ]
-    },
-    {
-      "url": "https://www.rossvideo.com/products/video-servers-and-replay/tria-video-production-servers/",
-      "source": "Ross Video",
-      "source_category": "02 TV Broadcast",
-      "priority": "P2",
-      "status": "a_verifier",
-      "found_at": "2026-11-13T18:12:08.794014+00:00",
-      "score": 24,
-      "requirements": [
-        "date_creation",
-        "choix_DA_observable",
-        "source_primaire",
-        "image_du_projet_et_droits",
-        "doublon_identite"
-      ]
-    },
-    {
-      "url": "https://stereogum.com/2517858/phoebe-bridgers-extends-tour-roasts-ben-marshall-in-snl-promos/news",
-      "source": "Stereogum",
-      "source_category": "14 Musique Clips",
-      "priority": "P1",
-      "status": "a_verifier",
-      "found_at": "2026-11-13T18:12:08.794014+00:00",
-      "score": 23,
       "requirements": [
         "date_creation",
         "choix_DA_observable",
@@ -455,7 +140,7 @@
       "source_category": "14 Musique Clips",
       "priority": "P1",
       "status": "a_verifier",
-      "found_at": "2026-11-13T18:12:08.794014+00:00",
+      "found_at": "2026-11-13T18:14:13.837233+00:00",
       "score": 23,
       "requirements": [
         "date_creation",
@@ -466,28 +151,12 @@
       ]
     },
     {
-      "url": "https://www.lsionline.com/news/alcons-lr24-installation-delivers-for-trondheims-byscenen/",
-      "source": "LSi",
-      "source_category": "01 Spectacle Concert",
-      "priority": "P2",
-      "status": "a_verifier",
-      "found_at": "2026-11-13T18:12:08.794014+00:00",
-      "score": 23,
-      "requirements": [
-        "date_creation",
-        "choix_DA_observable",
-        "source_primaire",
-        "image_du_projet_et_droits",
-        "doublon_identite"
-      ]
-    },
-    {
-      "url": "https://www.thestage.co.uk/news/director-who-died-last-year-accused-of-grooming-youth-theatre-member-in-1980s",
-      "source": "The Stage",
-      "source_category": "15 Danse Performance",
+      "url": "https://www.promonews.tv/interviews/something-between-concert-sermon-scam-and-possession-ludovic-gontrand-making-pink-siifus/96678",
+      "source": "Promonews",
+      "source_category": "14 Musique Clips",
       "priority": "P1",
       "status": "a_verifier",
-      "found_at": "2026-11-13T18:12:08.794014+00:00",
+      "found_at": "2026-11-13T18:14:13.837233+00:00",
       "score": 23,
       "requirements": [
         "date_creation",
@@ -503,7 +172,7 @@
       "source_category": "14 Musique Clips",
       "priority": "P1",
       "status": "a_verifier",
-      "found_at": "2026-11-13T18:12:08.794014+00:00",
+      "found_at": "2026-11-13T18:14:13.837233+00:00",
       "score": 22,
       "requirements": [
         "date_creation",
@@ -519,7 +188,7 @@
       "source_category": "14 Musique Clips",
       "priority": "P1",
       "status": "a_verifier",
-      "found_at": "2026-11-13T18:12:08.794014+00:00",
+      "found_at": "2026-11-13T18:14:13.837233+00:00",
       "score": 22,
       "requirements": [
         "date_creation",
@@ -535,7 +204,7 @@
       "source_category": "14 Musique Clips",
       "priority": "P1",
       "status": "a_verifier",
-      "found_at": "2026-11-13T18:12:08.794014+00:00",
+      "found_at": "2026-11-13T18:14:13.837233+00:00",
       "score": 22,
       "requirements": [
         "date_creation",
@@ -551,7 +220,7 @@
       "source_category": "14 Musique Clips",
       "priority": "P1",
       "status": "a_verifier",
-      "found_at": "2026-11-13T18:12:08.794014+00:00",
+      "found_at": "2026-11-13T18:14:13.837233+00:00",
       "score": 22,
       "requirements": [
         "date_creation",
@@ -562,45 +231,13 @@
       ]
     },
     {
-      "url": "https://www.lightzoomlumiere.fr/evenement/luci-cities-lighting-summit-fez-2027-maroc/",
-      "source": "Light ZOOM Lumière",
-      "source_category": "09 France Pro",
-      "priority": "P1",
+      "url": "https://www.notch.one/features/video-live-images",
+      "source": "Notch",
+      "source_category": "08 Immersif CGI Motion",
+      "priority": "P2",
       "status": "a_verifier",
-      "found_at": "2026-11-13T18:12:08.794014+00:00",
+      "found_at": "2026-11-13T18:14:13.837233+00:00",
       "score": 22,
-      "requirements": [
-        "date_creation",
-        "choix_DA_observable",
-        "source_primaire",
-        "image_du_projet_et_droits",
-        "doublon_identite"
-      ]
-    },
-    {
-      "url": "https://jobs.thestage.co.uk/career/32395/guest-experience-host-jesus-christ-superstar-theatre-royal-drury-lane-ftc-greater-london-london",
-      "source": "The Stage",
-      "source_category": "15 Danse Performance",
-      "priority": "P1",
-      "status": "a_verifier",
-      "found_at": "2026-11-13T18:12:08.794014+00:00",
-      "score": 21,
-      "requirements": [
-        "date_creation",
-        "choix_DA_observable",
-        "source_primaire",
-        "image_du_projet_et_droits",
-        "doublon_identite"
-      ]
-    },
-    {
-      "url": "https://jobs.thestage.co.uk/career/32405/wigs-hair-makeup-show-person-greater-london-london",
-      "source": "The Stage",
-      "source_category": "15 Danse Performance",
-      "priority": "P1",
-      "status": "a_verifier",
-      "found_at": "2026-11-13T18:12:08.794014+00:00",
-      "score": 21,
       "requirements": [
         "date_creation",
         "choix_DA_observable",
@@ -615,7 +252,7 @@
       "source_category": "01 Spectacle Concert",
       "priority": "P2",
       "status": "a_verifier",
-      "found_at": "2026-11-13T18:12:08.794014+00:00",
+      "found_at": "2026-11-13T18:14:13.837233+00:00",
       "score": 21,
       "requirements": [
         "date_creation",
@@ -631,7 +268,7 @@
       "source_category": "01 Spectacle Concert",
       "priority": "P2",
       "status": "a_verifier",
-      "found_at": "2026-11-13T18:12:08.794014+00:00",
+      "found_at": "2026-11-13T18:14:13.837233+00:00",
       "score": 21,
       "requirements": [
         "date_creation",
@@ -642,140 +279,12 @@
       ]
     },
     {
-      "url": "https://stufish.com/project/bono-book-tour/",
+      "url": "https://stufish.com/project/uefa-champions-league-kick-off-show/",
       "source": "STUFISH",
       "source_category": "01 Spectacle Concert",
       "priority": "P1",
       "status": "a_verifier",
-      "found_at": "2026-11-13T18:12:08.794014+00:00",
-      "score": 21,
-      "requirements": [
-        "date_creation",
-        "choix_DA_observable",
-        "source_primaire",
-        "image_du_projet_et_droits",
-        "doublon_identite"
-      ]
-    },
-    {
-      "url": "https://stufish.com/project/celebration-tour/",
-      "source": "STUFISH",
-      "source_category": "01 Spectacle Concert",
-      "priority": "P1",
-      "status": "a_verifier",
-      "found_at": "2026-11-13T18:12:08.794014+00:00",
-      "score": 21,
-      "requirements": [
-        "date_creation",
-        "choix_DA_observable",
-        "source_primaire",
-        "image_du_projet_et_droits",
-        "doublon_identite"
-      ]
-    },
-    {
-      "url": "https://stufish.com/project/dai-show/",
-      "source": "STUFISH",
-      "source_category": "01 Spectacle Concert",
-      "priority": "P1",
-      "status": "a_verifier",
-      "found_at": "2026-11-13T18:12:08.794014+00:00",
-      "score": 21,
-      "requirements": [
-        "date_creation",
-        "choix_DA_observable",
-        "source_primaire",
-        "image_du_projet_et_droits",
-        "doublon_identite"
-      ]
-    },
-    {
-      "url": "https://stufish.com/project/global-citizen-live/",
-      "source": "STUFISH",
-      "source_category": "01 Spectacle Concert",
-      "priority": "P1",
-      "status": "a_verifier",
-      "found_at": "2026-11-13T18:12:08.794014+00:00",
-      "score": 21,
-      "requirements": [
-        "date_creation",
-        "choix_DA_observable",
-        "source_primaire",
-        "image_du_projet_et_droits",
-        "doublon_identite"
-      ]
-    },
-    {
-      "url": "https://stufish.com/project/national-television-awards-1/",
-      "source": "STUFISH",
-      "source_category": "01 Spectacle Concert",
-      "priority": "P1",
-      "status": "a_verifier",
-      "found_at": "2026-11-13T18:12:08.794014+00:00",
-      "score": 21,
-      "requirements": [
-        "date_creation",
-        "choix_DA_observable",
-        "source_primaire",
-        "image_du_projet_et_droits",
-        "doublon_identite"
-      ]
-    },
-    {
-      "url": "https://stufish.com/project/rhapsody-tour/",
-      "source": "STUFISH",
-      "source_category": "01 Spectacle Concert",
-      "priority": "P1",
-      "status": "a_verifier",
-      "found_at": "2026-11-13T18:12:08.794014+00:00",
-      "score": 21,
-      "requirements": [
-        "date_creation",
-        "choix_DA_observable",
-        "source_primaire",
-        "image_du_projet_et_droits",
-        "doublon_identite"
-      ]
-    },
-    {
-      "url": "https://stufish.com/project/the-chimelong-theatre/",
-      "source": "STUFISH",
-      "source_category": "01 Spectacle Concert",
-      "priority": "P1",
-      "status": "a_verifier",
-      "found_at": "2026-11-13T18:12:08.794014+00:00",
-      "score": 21,
-      "requirements": [
-        "date_creation",
-        "choix_DA_observable",
-        "source_primaire",
-        "image_du_projet_et_droits",
-        "doublon_identite"
-      ]
-    },
-    {
-      "url": "https://www.designindaba.com/news-features/showcases/creative-women-design-indaba-conference-2017-are-doing-most",
-      "source": "Design Indaba",
-      "source_category": "04 Pub Strategie",
-      "priority": "P1",
-      "status": "a_verifier",
-      "found_at": "2026-11-13T18:12:08.794014+00:00",
-      "score": 21,
-      "requirements": [
-        "date_creation",
-        "choix_DA_observable",
-        "source_primaire",
-        "image_du_projet_et_droits",
-        "doublon_identite"
-      ]
-    },
-    {
-      "url": "https://www.designindaba.com/videos/conference-talks/andile-dyalvane-gt2p-never-seen-installation-design-indaba-2017",
-      "source": "Design Indaba",
-      "source_category": "04 Pub Strategie",
-      "priority": "P1",
-      "status": "a_verifier",
-      "found_at": "2026-11-13T18:12:08.794014+00:00",
+      "found_at": "2026-11-13T18:14:13.837233+00:00",
       "score": 21,
       "requirements": [
         "date_creation",
@@ -791,7 +300,7 @@
       "source_category": "02 TV Broadcast",
       "priority": "P2",
       "status": "a_verifier",
-      "found_at": "2026-11-13T18:12:08.794014+00:00",
+      "found_at": "2026-11-13T18:14:13.837233+00:00",
       "score": 21,
       "requirements": [
         "date_creation",
@@ -807,7 +316,7 @@
       "source_category": "02 TV Broadcast",
       "priority": "P2",
       "status": "a_verifier",
-      "found_at": "2026-11-13T18:12:08.794014+00:00",
+      "found_at": "2026-11-13T18:14:13.837233+00:00",
       "score": 21,
       "requirements": [
         "date_creation",
@@ -823,7 +332,7 @@
       "source_category": "02 TV Broadcast",
       "priority": "P2",
       "status": "a_verifier",
-      "found_at": "2026-11-13T18:12:08.794014+00:00",
+      "found_at": "2026-11-13T18:14:13.837233+00:00",
       "score": 21,
       "requirements": [
         "date_creation",
@@ -839,7 +348,7 @@
       "source_category": "02 TV Broadcast",
       "priority": "P2",
       "status": "a_verifier",
-      "found_at": "2026-11-13T18:12:08.794014+00:00",
+      "found_at": "2026-11-13T18:14:13.837233+00:00",
       "score": 21,
       "requirements": [
         "date_creation",
@@ -855,7 +364,7 @@
       "source_category": "02 TV Broadcast",
       "priority": "P2",
       "status": "a_verifier",
-      "found_at": "2026-11-13T18:12:08.794014+00:00",
+      "found_at": "2026-11-13T18:14:13.837233+00:00",
       "score": 21,
       "requirements": [
         "date_creation",
@@ -871,88 +380,8 @@
       "source_category": "02 TV Broadcast",
       "priority": "P2",
       "status": "a_verifier",
-      "found_at": "2026-11-13T18:12:08.794014+00:00",
+      "found_at": "2026-11-13T18:14:13.837233+00:00",
       "score": 21,
-      "requirements": [
-        "date_creation",
-        "choix_DA_observable",
-        "source_primaire",
-        "image_du_projet_et_droits",
-        "doublon_identite"
-      ]
-    },
-    {
-      "url": "https://www.rossvideo.com/products/routing-systems/ultricore-broadcast-control-system/",
-      "source": "Ross Video",
-      "source_category": "02 TV Broadcast",
-      "priority": "P2",
-      "status": "a_verifier",
-      "found_at": "2026-11-13T18:12:08.794014+00:00",
-      "score": 21,
-      "requirements": [
-        "date_creation",
-        "choix_DA_observable",
-        "source_primaire",
-        "image_du_projet_et_droits",
-        "doublon_identite"
-      ]
-    },
-    {
-      "url": "https://www.rossvideo.com/products/video-servers-and-replay/kiva-presentation-video-server/",
-      "source": "Ross Video",
-      "source_category": "02 TV Broadcast",
-      "priority": "P2",
-      "status": "a_verifier",
-      "found_at": "2026-11-13T18:12:08.794014+00:00",
-      "score": 21,
-      "requirements": [
-        "date_creation",
-        "choix_DA_observable",
-        "source_primaire",
-        "image_du_projet_et_droits",
-        "doublon_identite"
-      ]
-    },
-    {
-      "url": "https://www.rossvideo.com/products/video-servers/rio-replay/",
-      "source": "Ross Video",
-      "source_category": "02 TV Broadcast",
-      "priority": "P2",
-      "status": "a_verifier",
-      "found_at": "2026-11-13T18:12:08.794014+00:00",
-      "score": 21,
-      "requirements": [
-        "date_creation",
-        "choix_DA_observable",
-        "source_primaire",
-        "image_du_projet_et_droits",
-        "doublon_identite"
-      ]
-    },
-    {
-      "url": "https://plsn.com/featured/cameo-lights-for-the-livestream-of-la-velada-del-ano-vi/",
-      "source": "PLSN",
-      "source_category": "01 Spectacle Concert",
-      "priority": "P2",
-      "status": "a_verifier",
-      "found_at": "2026-11-13T18:12:08.794014+00:00",
-      "score": 20,
-      "requirements": [
-        "date_creation",
-        "choix_DA_observable",
-        "source_primaire",
-        "image_du_projet_et_droits",
-        "doublon_identite"
-      ]
-    },
-    {
-      "url": "https://plsn.com/featured/chauvet-professional-helps-willie-williams-and-cate-carter-create-bold-looks-for-mumford-sons-prizefighter-tour/",
-      "source": "PLSN",
-      "source_category": "01 Spectacle Concert",
-      "priority": "P2",
-      "status": "a_verifier",
-      "found_at": "2026-11-13T18:12:08.794014+00:00",
-      "score": 20,
       "requirements": [
         "date_creation",
         "choix_DA_observable",
@@ -967,7 +396,7 @@
       "source_category": "15 Danse Performance",
       "priority": "P1",
       "status": "a_verifier",
-      "found_at": "2026-11-13T18:12:08.794014+00:00",
+      "found_at": "2026-11-13T18:14:13.837233+00:00",
       "score": 20,
       "requirements": [
         "date_creation",
@@ -983,7 +412,7 @@
       "source_category": "02 TV Broadcast",
       "priority": "P2",
       "status": "a_verifier",
-      "found_at": "2026-11-13T18:12:08.794014+00:00",
+      "found_at": "2026-11-13T18:14:13.837233+00:00",
       "score": 20,
       "requirements": [
         "date_creation",
@@ -994,221 +423,13 @@
       ]
     },
     {
-      "url": "https://www.lsionline.com/featured-articles/live-teddy-swims-at-latitude/",
-      "source": "LSi",
-      "source_category": "01 Spectacle Concert",
+      "url": "https://www.smode.io/en/product/live-xr-visual-virtual-production",
+      "source": "Smode",
+      "source_category": "08 Immersif CGI Motion",
       "priority": "P2",
       "status": "a_verifier",
-      "found_at": "2026-11-13T18:12:08.794014+00:00",
+      "found_at": "2026-11-13T18:14:13.837233+00:00",
       "score": 20,
-      "requirements": [
-        "date_creation",
-        "choix_DA_observable",
-        "source_primaire",
-        "image_du_projet_et_droits",
-        "doublon_identite"
-      ]
-    },
-    {
-      "url": "https://www.lsionline.com/featured-articles/on-tour-laufey/",
-      "source": "LSi",
-      "source_category": "01 Spectacle Concert",
-      "priority": "P2",
-      "status": "a_verifier",
-      "found_at": "2026-11-13T18:12:08.794014+00:00",
-      "score": 20,
-      "requirements": [
-        "date_creation",
-        "choix_DA_observable",
-        "source_primaire",
-        "image_du_projet_et_droits",
-        "doublon_identite"
-      ]
-    },
-    {
-      "url": "https://www.lsionline.com/featured-articles/theatre-the-tempest/",
-      "source": "LSi",
-      "source_category": "01 Spectacle Concert",
-      "priority": "P2",
-      "status": "a_verifier",
-      "found_at": "2026-11-13T18:12:08.794014+00:00",
-      "score": 20,
-      "requirements": [
-        "date_creation",
-        "choix_DA_observable",
-        "source_primaire",
-        "image_du_projet_et_droits",
-        "doublon_identite"
-      ]
-    },
-    {
-      "url": "https://www.lsionline.com/news/dbs-deploys-martin-audio-systems-for-iconic-concerts/",
-      "source": "LSi",
-      "source_category": "01 Spectacle Concert",
-      "priority": "P2",
-      "status": "a_verifier",
-      "found_at": "2026-11-13T18:12:08.794014+00:00",
-      "score": 20,
-      "requirements": [
-        "date_creation",
-        "choix_DA_observable",
-        "source_primaire",
-        "image_du_projet_et_droits",
-        "doublon_identite"
-      ]
-    },
-    {
-      "url": "https://www.lsionline.com/news/engineers-choose-digico-quantum-for-rayes-summer-of-shows/",
-      "source": "LSi",
-      "source_category": "01 Spectacle Concert",
-      "priority": "P2",
-      "status": "a_verifier",
-      "found_at": "2026-11-13T18:12:08.794014+00:00",
-      "score": 20,
-      "requirements": [
-        "date_creation",
-        "choix_DA_observable",
-        "source_primaire",
-        "image_du_projet_et_droits",
-        "doublon_identite"
-      ]
-    },
-    {
-      "url": "https://www.lsionline.com/news/glp-fixtures-debut-in-folk-culture-show-aufsteirern/",
-      "source": "LSi",
-      "source_category": "01 Spectacle Concert",
-      "priority": "P2",
-      "status": "a_verifier",
-      "found_at": "2026-11-13T18:12:08.794014+00:00",
-      "score": 20,
-      "requirements": [
-        "date_creation",
-        "choix_DA_observable",
-        "source_primaire",
-        "image_du_projet_et_droits",
-        "doublon_identite"
-      ]
-    },
-    {
-      "url": "https://www.lsionline.com/news/klang-and-ssl-live-on-track-for-6k-united-across-germany/",
-      "source": "LSi",
-      "source_category": "01 Spectacle Concert",
-      "priority": "P2",
-      "status": "a_verifier",
-      "found_at": "2026-11-13T18:12:08.794014+00:00",
-      "score": 20,
-      "requirements": [
-        "date_creation",
-        "choix_DA_observable",
-        "source_primaire",
-        "image_du_projet_et_droits",
-        "doublon_identite"
-      ]
-    },
-    {
-      "url": "https://www.thestage.co.uk/news/bradford-theatre-to-close-after-50-years-following-university-funding-cut",
-      "source": "The Stage",
-      "source_category": "15 Danse Performance",
-      "priority": "P1",
-      "status": "a_verifier",
-      "found_at": "2026-11-13T18:12:08.794014+00:00",
-      "score": 20,
-      "requirements": [
-        "date_creation",
-        "choix_DA_observable",
-        "source_primaire",
-        "image_du_projet_et_droits",
-        "doublon_identite"
-      ]
-    },
-    {
-      "url": "https://www.thestage.co.uk/news/burnham-pressed-to-tear-down-barriers-to-uk-eu-touring-at-upcoming-summit",
-      "source": "The Stage",
-      "source_category": "15 Danse Performance",
-      "priority": "P1",
-      "status": "a_verifier",
-      "found_at": "2026-11-13T18:12:08.794014+00:00",
-      "score": 20,
-      "requirements": [
-        "date_creation",
-        "choix_DA_observable",
-        "source_primaire",
-        "image_du_projet_et_droits",
-        "doublon_identite"
-      ]
-    },
-    {
-      "url": "https://www.thestage.co.uk/news/kings-head-theatre-reveals-two-world-premieres-in-new-season",
-      "source": "The Stage",
-      "source_category": "15 Danse Performance",
-      "priority": "P1",
-      "status": "a_verifier",
-      "found_at": "2026-11-13T18:12:08.794014+00:00",
-      "score": 20,
-      "requirements": [
-        "date_creation",
-        "choix_DA_observable",
-        "source_primaire",
-        "image_du_projet_et_droits",
-        "doublon_identite"
-      ]
-    },
-    {
-      "url": "https://www.thestage.co.uk/news/matt-henry-to-lead-to-sir-with-love-musical-uk-tour",
-      "source": "The Stage",
-      "source_category": "15 Danse Performance",
-      "priority": "P1",
-      "status": "a_verifier",
-      "found_at": "2026-11-13T18:12:08.794014+00:00",
-      "score": 20,
-      "requirements": [
-        "date_creation",
-        "choix_DA_observable",
-        "source_primaire",
-        "image_du_projet_et_droits",
-        "doublon_identite"
-      ]
-    },
-    {
-      "url": "https://www.thestage.co.uk/news/one-in-four-children-miss-out-on-school-theatre-trips-as-financial-pressures-hit",
-      "source": "The Stage",
-      "source_category": "15 Danse Performance",
-      "priority": "P1",
-      "status": "a_verifier",
-      "found_at": "2026-11-13T18:12:08.794014+00:00",
-      "score": 20,
-      "requirements": [
-        "date_creation",
-        "choix_DA_observable",
-        "source_primaire",
-        "image_du_projet_et_droits",
-        "doublon_identite"
-      ]
-    },
-    {
-      "url": "https://directorsnotes.com/2026/10/30/zen-pace-are-you-fucking-kidding-me/",
-      "source": "Directors Notes",
-      "source_category": "14 Musique Clips",
-      "priority": "P1",
-      "status": "a_verifier",
-      "found_at": "2026-11-13T18:12:08.794014+00:00",
-      "score": 19,
-      "requirements": [
-        "date_creation",
-        "choix_DA_observable",
-        "source_primaire",
-        "image_du_projet_et_droits",
-        "doublon_identite"
-      ]
-    },
-    {
-      "url": "https://directorsnotes.com/2026/11/02/sami-abusamra-tank/",
-      "source": "Directors Notes",
-      "source_category": "14 Musique Clips",
-      "priority": "P1",
-      "status": "a_verifier",
-      "found_at": "2026-11-13T18:12:08.794014+00:00",
-      "score": 19,
       "requirements": [
         "date_creation",
         "choix_DA_observable",
@@ -1223,7 +444,7 @@
       "source_category": "14 Musique Clips",
       "priority": "P1",
       "status": "a_verifier",
-      "found_at": "2026-11-13T18:12:08.794014+00:00",
+      "found_at": "2026-11-13T18:14:13.837233+00:00",
       "score": 19,
       "requirements": [
         "date_creation",
@@ -1239,7 +460,7 @@
       "source_category": "14 Musique Clips",
       "priority": "P1",
       "status": "a_verifier",
-      "found_at": "2026-11-13T18:12:08.794014+00:00",
+      "found_at": "2026-11-13T18:14:13.837233+00:00",
       "score": 19,
       "requirements": [
         "date_creation",
@@ -1255,7 +476,7 @@
       "source_category": "14 Musique Clips",
       "priority": "P1",
       "status": "a_verifier",
-      "found_at": "2026-11-13T18:12:08.794014+00:00",
+      "found_at": "2026-11-13T18:14:13.837233+00:00",
       "score": 19,
       "requirements": [
         "date_creation",
@@ -1271,7 +492,7 @@
       "source_category": "14 Musique Clips",
       "priority": "P1",
       "status": "a_verifier",
-      "found_at": "2026-11-13T18:12:08.794014+00:00",
+      "found_at": "2026-11-13T18:14:13.837233+00:00",
       "score": 19,
       "requirements": [
         "date_creation",
@@ -1287,7 +508,7 @@
       "source_category": "14 Musique Clips",
       "priority": "P1",
       "status": "a_verifier",
-      "found_at": "2026-11-13T18:12:08.794014+00:00",
+      "found_at": "2026-11-13T18:14:13.837233+00:00",
       "score": 19,
       "requirements": [
         "date_creation",
@@ -1303,7 +524,7 @@
       "source_category": "14 Musique Clips",
       "priority": "P1",
       "status": "a_verifier",
-      "found_at": "2026-11-13T18:12:08.794014+00:00",
+      "found_at": "2026-11-13T18:14:13.837233+00:00",
       "score": 19,
       "requirements": [
         "date_creation",
@@ -1319,7 +540,7 @@
       "source_category": "14 Musique Clips",
       "priority": "P1",
       "status": "a_verifier",
-      "found_at": "2026-11-13T18:12:08.794014+00:00",
+      "found_at": "2026-11-13T18:14:13.837233+00:00",
       "score": 19,
       "requirements": [
         "date_creation",
@@ -1335,7 +556,7 @@
       "source_category": "14 Musique Clips",
       "priority": "P1",
       "status": "a_verifier",
-      "found_at": "2026-11-13T18:12:08.794014+00:00",
+      "found_at": "2026-11-13T18:14:13.837233+00:00",
       "score": 19,
       "requirements": [
         "date_creation",
@@ -1351,7 +572,7 @@
       "source_category": "14 Musique Clips",
       "priority": "P1",
       "status": "a_verifier",
-      "found_at": "2026-11-13T18:12:08.794014+00:00",
+      "found_at": "2026-11-13T18:14:13.837233+00:00",
       "score": 19,
       "requirements": [
         "date_creation",
@@ -1367,7 +588,7 @@
       "source_category": "14 Musique Clips",
       "priority": "P1",
       "status": "a_verifier",
-      "found_at": "2026-11-13T18:12:08.794014+00:00",
+      "found_at": "2026-11-13T18:14:13.837233+00:00",
       "score": 19,
       "requirements": [
         "date_creation",
@@ -1383,39 +604,7 @@
       "source_category": "14 Musique Clips",
       "priority": "P1",
       "status": "a_verifier",
-      "found_at": "2026-11-13T18:12:08.794014+00:00",
-      "score": 19,
-      "requirements": [
-        "date_creation",
-        "choix_DA_observable",
-        "source_primaire",
-        "image_du_projet_et_droits",
-        "doublon_identite"
-      ]
-    },
-    {
-      "url": "https://stereogum.com/2516509/the-40-best-new-artists-of-2026/lists/best-new-artists",
-      "source": "Stereogum",
-      "source_category": "14 Musique Clips",
-      "priority": "P1",
-      "status": "a_verifier",
-      "found_at": "2026-11-13T18:12:08.794014+00:00",
-      "score": 19,
-      "requirements": [
-        "date_creation",
-        "choix_DA_observable",
-        "source_primaire",
-        "image_du_projet_et_droits",
-        "doublon_identite"
-      ]
-    },
-    {
-      "url": "https://stereogum.com/2517607/19-thoughts-on-the-coachella-2027-poster/columns/sounding-board",
-      "source": "Stereogum",
-      "source_category": "14 Musique Clips",
-      "priority": "P1",
-      "status": "a_verifier",
-      "found_at": "2026-11-13T18:12:08.794014+00:00",
+      "found_at": "2026-11-13T18:14:13.837233+00:00",
       "score": 19,
       "requirements": [
         "date_creation",
@@ -1431,135 +620,7 @@
       "source_category": "01 Spectacle Concert",
       "priority": "P3",
       "status": "a_verifier",
-      "found_at": "2026-11-13T18:12:08.794014+00:00",
-      "score": 19,
-      "requirements": [
-        "date_creation",
-        "choix_DA_observable",
-        "source_primaire",
-        "image_du_projet_et_droits",
-        "doublon_identite"
-      ]
-    },
-    {
-      "url": "https://www.radiofrance.fr/mouv/podcasts/dr-juice/dr-juice-du-vendredi-28-aout-2026-5467989",
-      "source": "Mouv'",
-      "source_category": "14 Musique Clips",
-      "priority": "P1",
-      "status": "a_verifier",
-      "found_at": "2026-11-13T18:12:08.794014+00:00",
-      "score": 19,
-      "requirements": [
-        "date_creation",
-        "choix_DA_observable",
-        "source_primaire",
-        "image_du_projet_et_droits",
-        "doublon_identite"
-      ]
-    },
-    {
-      "url": "https://www.radiofrance.fr/mouv/podcasts/le-wake-up-mix-l-integral/le-wake-up-mix-l-integral-du-jeudi-27-aout-2026-7790541",
-      "source": "Mouv'",
-      "source_category": "14 Musique Clips",
-      "priority": "P1",
-      "status": "a_verifier",
-      "found_at": "2026-11-13T18:12:08.794014+00:00",
-      "score": 19,
-      "requirements": [
-        "date_creation",
-        "choix_DA_observable",
-        "source_primaire",
-        "image_du_projet_et_droits",
-        "doublon_identite"
-      ]
-    },
-    {
-      "url": "https://www.radiofrance.fr/mouv/podcasts/le-wake-up-mix-l-integral/le-wake-up-mix-l-integral-du-mercredi-26-aout-2026-2003577",
-      "source": "Mouv'",
-      "source_category": "14 Musique Clips",
-      "priority": "P1",
-      "status": "a_verifier",
-      "found_at": "2026-11-13T18:12:08.794014+00:00",
-      "score": 19,
-      "requirements": [
-        "date_creation",
-        "choix_DA_observable",
-        "source_primaire",
-        "image_du_projet_et_droits",
-        "doublon_identite"
-      ]
-    },
-    {
-      "url": "https://www.radiofrance.fr/mouv/podcasts/le-wake-up-mix-l-integral/le-wake-up-mix-l-integral-du-vendredi-28-aout-2026-1627966",
-      "source": "Mouv'",
-      "source_category": "14 Musique Clips",
-      "priority": "P1",
-      "status": "a_verifier",
-      "found_at": "2026-11-13T18:12:08.794014+00:00",
-      "score": 19,
-      "requirements": [
-        "date_creation",
-        "choix_DA_observable",
-        "source_primaire",
-        "image_du_projet_et_droits",
-        "doublon_identite"
-      ]
-    },
-    {
-      "url": "https://www.radiofrance.fr/mouv/podcasts/open-mike-guest-dj/open-mike-guest-dj-du-vendredi-17-juillet-2026-9394745",
-      "source": "Mouv'",
-      "source_category": "14 Musique Clips",
-      "priority": "P1",
-      "status": "a_verifier",
-      "found_at": "2026-11-13T18:12:08.794014+00:00",
-      "score": 19,
-      "requirements": [
-        "date_creation",
-        "choix_DA_observable",
-        "source_primaire",
-        "image_du_projet_et_droits",
-        "doublon_identite"
-      ]
-    },
-    {
-      "url": "https://www.radiofrance.fr/mouv/podcasts/open-mike-l-invite-e/open-mike-l-invite-du-jeudi-20-novembre-2025-8159216",
-      "source": "Mouv'",
-      "source_category": "14 Musique Clips",
-      "priority": "P1",
-      "status": "a_verifier",
-      "found_at": "2026-11-13T18:12:08.794014+00:00",
-      "score": 19,
-      "requirements": [
-        "date_creation",
-        "choix_DA_observable",
-        "source_primaire",
-        "image_du_projet_et_droits",
-        "doublon_identite"
-      ]
-    },
-    {
-      "url": "https://www.radiofrance.fr/mouv/podcasts/open-mike-l-invite-e/open-mike-l-invite-du-mercredi-19-novembre-2025-5135509",
-      "source": "Mouv'",
-      "source_category": "14 Musique Clips",
-      "priority": "P1",
-      "status": "a_verifier",
-      "found_at": "2026-11-13T18:12:08.794014+00:00",
-      "score": 19,
-      "requirements": [
-        "date_creation",
-        "choix_DA_observable",
-        "source_primaire",
-        "image_du_projet_et_droits",
-        "doublon_identite"
-      ]
-    },
-    {
-      "url": "https://www.radiofrance.fr/mouv/podcasts/open-mike-le-mix/open-mike-le-mix-du-vendredi-28-aout-2026-8581405",
-      "source": "Mouv'",
-      "source_category": "14 Musique Clips",
-      "priority": "P1",
-      "status": "a_verifier",
-      "found_at": "2026-11-13T18:12:08.794014+00:00",
+      "found_at": "2026-11-13T18:14:13.837233+00:00",
       "score": 19,
       "requirements": [
         "date_creation",
@@ -1575,7 +636,7 @@
       "source_category": "04 Pub Strategie",
       "priority": "P1",
       "status": "a_verifier",
-      "found_at": "2026-11-13T18:12:08.794014+00:00",
+      "found_at": "2026-11-13T18:14:13.837233+00:00",
       "score": 18,
       "requirements": [
         "date_creation",
@@ -1586,28 +647,12 @@
       ]
     },
     {
-      "url": "https://stereogum.com/2517838/2026-latin-grammy-winners-include-rosalia-fred-again-congressman-elect-bobby-pulido/news",
-      "source": "Stereogum",
-      "source_category": "14 Musique Clips",
-      "priority": "P1",
-      "status": "a_verifier",
-      "found_at": "2026-11-13T18:12:08.794014+00:00",
-      "score": 18,
-      "requirements": [
-        "date_creation",
-        "choix_DA_observable",
-        "source_primaire",
-        "image_du_projet_et_droits",
-        "doublon_identite"
-      ]
-    },
-    {
-      "url": "https://www.designindaba.com/news-features/showcases/our-chats-series-lets-you-interview-south-africas-top-creatives",
-      "source": "Design Indaba",
+      "url": "https://www.campaignasia.com/article/campaign-asia-s-agency-performance-reviews-2026/4bvk2ex18m4gptpbwvab2t6d5q",
+      "source": "Campaign Asia",
       "source_category": "04 Pub Strategie",
-      "priority": "P1",
+      "priority": "P2",
       "status": "a_verifier",
-      "found_at": "2026-11-13T18:12:08.794014+00:00",
+      "found_at": "2026-11-13T18:14:13.837233+00:00",
       "score": 18,
       "requirements": [
         "date_creation",
@@ -1623,7 +668,7 @@
       "source_category": "02 TV Broadcast",
       "priority": "P2",
       "status": "a_verifier",
-      "found_at": "2026-11-13T18:12:08.794014+00:00",
+      "found_at": "2026-11-13T18:14:13.837233+00:00",
       "score": 18,
       "requirements": [
         "date_creation",
@@ -1639,7 +684,7 @@
       "source_category": "01 Spectacle Concert",
       "priority": "P3",
       "status": "a_verifier",
-      "found_at": "2026-11-13T18:12:08.794014+00:00",
+      "found_at": "2026-11-13T18:14:13.837233+00:00",
       "score": 18,
       "requirements": [
         "date_creation",
@@ -1655,39 +700,7 @@
       "source_category": "09 France Pro",
       "priority": "P1",
       "status": "a_verifier",
-      "found_at": "2026-11-13T18:12:08.794014+00:00",
-      "score": 18,
-      "requirements": [
-        "date_creation",
-        "choix_DA_observable",
-        "source_primaire",
-        "image_du_projet_et_droits",
-        "doublon_identite"
-      ]
-    },
-    {
-      "url": "https://www.lightzoomlumiere.fr/english/cities-lighting-no-12-by-luci-association-finding-the-right-light/",
-      "source": "Light ZOOM Lumière",
-      "source_category": "09 France Pro",
-      "priority": "P1",
-      "status": "a_verifier",
-      "found_at": "2026-11-13T18:12:08.794014+00:00",
-      "score": 18,
-      "requirements": [
-        "date_creation",
-        "choix_DA_observable",
-        "source_primaire",
-        "image_du_projet_et_droits",
-        "doublon_identite"
-      ]
-    },
-    {
-      "url": "https://www.lightzoomlumiere.fr/realisation/regalia-cathedrale-de-reims-spectacle-multimedia-royal/",
-      "source": "Light ZOOM Lumière",
-      "source_category": "09 France Pro",
-      "priority": "P1",
-      "status": "a_verifier",
-      "found_at": "2026-11-13T18:12:08.794014+00:00",
+      "found_at": "2026-11-13T18:14:13.837233+00:00",
       "score": 18,
       "requirements": [
         "date_creation",
@@ -1703,7 +716,7 @@
       "source_category": "09 France Pro",
       "priority": "P2",
       "status": "a_verifier",
-      "found_at": "2026-11-13T18:12:08.794014+00:00",
+      "found_at": "2026-11-13T18:14:13.837233+00:00",
       "score": 18,
       "requirements": [
         "date_creation",
@@ -1719,7 +732,7 @@
       "source_category": "09 France Pro",
       "priority": "P2",
       "status": "a_verifier",
-      "found_at": "2026-11-13T18:12:08.794014+00:00",
+      "found_at": "2026-11-13T18:14:13.837233+00:00",
       "score": 18,
       "requirements": [
         "date_creation",
@@ -1735,7 +748,7 @@
       "source_category": "09 France Pro",
       "priority": "P2",
       "status": "a_verifier",
-      "found_at": "2026-11-13T18:12:08.794014+00:00",
+      "found_at": "2026-11-13T18:14:13.837233+00:00",
       "score": 18,
       "requirements": [
         "date_creation",
@@ -1751,24 +764,8 @@
       "source_category": "09 France Pro",
       "priority": "P2",
       "status": "a_verifier",
-      "found_at": "2026-11-13T18:12:08.794014+00:00",
+      "found_at": "2026-11-13T18:14:13.837233+00:00",
       "score": 18,
-      "requirements": [
-        "date_creation",
-        "choix_DA_observable",
-        "source_primaire",
-        "image_du_projet_et_droits",
-        "doublon_identite"
-      ]
-    },
-    {
-      "url": "https://fooh.com/library/loughborough-degree-show-fine-art-fundraiser-design-ba1447af",
-      "source": "FOOH.com",
-      "source_category": "07 FOOH OOH DOOH",
-      "priority": "P1",
-      "status": "a_verifier",
-      "found_at": "2026-11-13T18:12:08.794014+00:00",
-      "score": 17,
       "requirements": [
         "date_creation",
         "choix_DA_observable",
@@ -1783,7 +780,7 @@
       "source_category": "14 Musique Clips",
       "priority": "P1",
       "status": "a_verifier",
-      "found_at": "2026-11-13T18:12:08.794014+00:00",
+      "found_at": "2026-11-13T18:14:13.837233+00:00",
       "score": 17,
       "requirements": [
         "date_creation",
@@ -1799,103 +796,7 @@
       "source_category": "14 Musique Clips",
       "priority": "P1",
       "status": "a_verifier",
-      "found_at": "2026-11-13T18:12:08.794014+00:00",
-      "score": 17,
-      "requirements": [
-        "date_creation",
-        "choix_DA_observable",
-        "source_primaire",
-        "image_du_projet_et_droits",
-        "doublon_identite"
-      ]
-    },
-    {
-      "url": "https://shop.lesinrocks.com/magazines/les-inrockuptibles-n47-fevrier-2026/",
-      "source": "Les Inrockuptibles",
-      "source_category": "14 Musique Clips",
-      "priority": "P1",
-      "status": "a_verifier",
-      "found_at": "2026-11-13T18:12:08.794014+00:00",
-      "score": 17,
-      "requirements": [
-        "date_creation",
-        "choix_DA_observable",
-        "source_primaire",
-        "image_du_projet_et_droits",
-        "doublon_identite"
-      ]
-    },
-    {
-      "url": "https://shop.lesinrocks.com/magazines/les-inrockuptibles-n48-mars-2026/",
-      "source": "Les Inrockuptibles",
-      "source_category": "14 Musique Clips",
-      "priority": "P1",
-      "status": "a_verifier",
-      "found_at": "2026-11-13T18:12:08.794014+00:00",
-      "score": 17,
-      "requirements": [
-        "date_creation",
-        "choix_DA_observable",
-        "source_primaire",
-        "image_du_projet_et_droits",
-        "doublon_identite"
-      ]
-    },
-    {
-      "url": "https://shop.lesinrocks.com/magazines/les-inrockuptibles-n49-avril-2026/",
-      "source": "Les Inrockuptibles",
-      "source_category": "14 Musique Clips",
-      "priority": "P1",
-      "status": "a_verifier",
-      "found_at": "2026-11-13T18:12:08.794014+00:00",
-      "score": 17,
-      "requirements": [
-        "date_creation",
-        "choix_DA_observable",
-        "source_primaire",
-        "image_du_projet_et_droits",
-        "doublon_identite"
-      ]
-    },
-    {
-      "url": "https://shop.lesinrocks.com/magazines/les-inrockuptibles-n50-mai-2026/",
-      "source": "Les Inrockuptibles",
-      "source_category": "14 Musique Clips",
-      "priority": "P1",
-      "status": "a_verifier",
-      "found_at": "2026-11-13T18:12:08.794014+00:00",
-      "score": 17,
-      "requirements": [
-        "date_creation",
-        "choix_DA_observable",
-        "source_primaire",
-        "image_du_projet_et_droits",
-        "doublon_identite"
-      ]
-    },
-    {
-      "url": "https://shop.lesinrocks.com/magazines/les-inrockuptibles-n51-juin-2026/",
-      "source": "Les Inrockuptibles",
-      "source_category": "14 Musique Clips",
-      "priority": "P1",
-      "status": "a_verifier",
-      "found_at": "2026-11-13T18:12:08.794014+00:00",
-      "score": 17,
-      "requirements": [
-        "date_creation",
-        "choix_DA_observable",
-        "source_primaire",
-        "image_du_projet_et_droits",
-        "doublon_identite"
-      ]
-    },
-    {
-      "url": "https://shop.lesinrocks.com/magazines/les-inrockuptibles-n52-juillet-aout-2026/",
-      "source": "Les Inrockuptibles",
-      "source_category": "14 Musique Clips",
-      "priority": "P1",
-      "status": "a_verifier",
-      "found_at": "2026-11-13T18:12:08.794014+00:00",
+      "found_at": "2026-11-13T18:14:13.837233+00:00",
       "score": 17,
       "requirements": [
         "date_creation",
@@ -1911,7 +812,7 @@
       "source_category": "09 France Pro",
       "priority": "P2",
       "status": "a_verifier",
-      "found_at": "2026-11-13T18:12:08.794014+00:00",
+      "found_at": "2026-11-13T18:14:13.837233+00:00",
       "score": 17,
       "requirements": [
         "date_creation",
@@ -1922,12 +823,12 @@
       ]
     },
     {
-      "url": "https://www.designboom.com/design/what-we-learned-spectator-and-spectacle/",
-      "source": "Designboom",
-      "source_category": "05 Art Architecture",
-      "priority": "P1",
+      "url": "https://www.dooh.com/news/doohcom-wins-ad-tech-innovation-award-at-the-performance-marketing-world-awards-2026/",
+      "source": "DOOH.com",
+      "source_category": "07 FOOH OOH DOOH",
+      "priority": "P2",
       "status": "a_verifier",
-      "found_at": "2026-11-13T18:12:08.794014+00:00",
+      "found_at": "2026-11-13T18:14:13.837233+00:00",
       "score": 17,
       "requirements": [
         "date_creation",
@@ -1943,7 +844,7 @@
       "source_category": "09 France Pro",
       "priority": "P2",
       "status": "a_verifier",
-      "found_at": "2026-11-13T18:12:08.794014+00:00",
+      "found_at": "2026-11-13T18:14:13.837233+00:00",
       "score": 17,
       "requirements": [
         "date_creation",
@@ -1959,7 +860,7 @@
       "source_category": "09 France Pro",
       "priority": "P2",
       "status": "a_verifier",
-      "found_at": "2026-11-13T18:12:08.794014+00:00",
+      "found_at": "2026-11-13T18:14:13.837233+00:00",
       "score": 17,
       "requirements": [
         "date_creation",
@@ -1970,12 +871,12 @@
       ]
     },
     {
-      "url": "https://www.lesinrocks.com/art/le-sortilege-de-bertrand-dezoteux-un-film-drole-etrange-et-passionnant-a-la-galerie-anne-barrault-705617-13-11-2026/",
-      "source": "Les Inrockuptibles",
-      "source_category": "14 Musique Clips",
-      "priority": "P1",
+      "url": "https://www.smode.io/en/solutions/live-visual-music-events",
+      "source": "Smode",
+      "source_category": "08 Immersif CGI Motion",
+      "priority": "P2",
       "status": "a_verifier",
-      "found_at": "2026-11-13T18:12:08.794014+00:00",
+      "found_at": "2026-11-13T18:14:13.837233+00:00",
       "score": 17,
       "requirements": [
         "date_creation",
@@ -1986,60 +887,12 @@
       ]
     },
     {
-      "url": "https://www.lesinrocks.com/cinema/everytime-15-18-il-faut-bruler-maman-pierre-ou-les-ambiguites-voici-les-sorties-cine-de-la-semaine-705580-10-11-2026/",
-      "source": "Les Inrockuptibles",
-      "source_category": "14 Musique Clips",
-      "priority": "P1",
+      "url": "https://www.smode.io/en/solutions/solution-permanent-shows-fixed-installation",
+      "source": "Smode",
+      "source_category": "08 Immersif CGI Motion",
+      "priority": "P2",
       "status": "a_verifier",
-      "found_at": "2026-11-13T18:12:08.794014+00:00",
-      "score": 17,
-      "requirements": [
-        "date_creation",
-        "choix_DA_observable",
-        "source_primaire",
-        "image_du_projet_et_droits",
-        "doublon_identite"
-      ]
-    },
-    {
-      "url": "https://www.lesinrocks.com/musique/avant-babylon-rockie-rode-vous-fera-aimer-le-karaoke-705459-13-11-2026/",
-      "source": "Les Inrockuptibles",
-      "source_category": "14 Musique Clips",
-      "priority": "P1",
-      "status": "a_verifier",
-      "found_at": "2026-11-13T18:12:08.794014+00:00",
-      "score": 17,
-      "requirements": [
-        "date_creation",
-        "choix_DA_observable",
-        "source_primaire",
-        "image_du_projet_et_droits",
-        "doublon_identite"
-      ]
-    },
-    {
-      "url": "https://www.lesinrocks.com/musique/gilla-band-le-groupe-dublinois-qui-a-influence-fontaines-d-c-et-tant-dautres-703950-06-11-2026/",
-      "source": "Les Inrockuptibles",
-      "source_category": "14 Musique Clips",
-      "priority": "P1",
-      "status": "a_verifier",
-      "found_at": "2026-11-13T18:12:08.794014+00:00",
-      "score": 17,
-      "requirements": [
-        "date_creation",
-        "choix_DA_observable",
-        "source_primaire",
-        "image_du_projet_et_droits",
-        "doublon_identite"
-      ]
-    },
-    {
-      "url": "https://www.lesinrocks.com/musique/grian-chatten-ce-nest-pas-parce-que-fontaines-d-c-joue-dans-des-stades-quon-ne-peut-pas-conserver-notre-esprit-de-rebellion-703901-09-11-2026/",
-      "source": "Les Inrockuptibles",
-      "source_category": "14 Musique Clips",
-      "priority": "P1",
-      "status": "a_verifier",
-      "found_at": "2026-11-13T18:12:08.794014+00:00",
+      "found_at": "2026-11-13T18:14:13.837233+00:00",
       "score": 17,
       "requirements": [
         "date_creation",
@@ -2055,7 +908,7 @@
       "source_category": "02 TV Broadcast",
       "priority": "P2",
       "status": "a_verifier",
-      "found_at": "2026-11-13T18:12:08.794014+00:00",
+      "found_at": "2026-11-13T18:14:13.837233+00:00",
       "score": 17,
       "requirements": [
         "date_creation",
@@ -2066,12 +919,28 @@
       ]
     },
     {
-      "url": "https://www.hollyland.com/blog/product-info/lsi-meets-hollyland-at-ibc-2026-inside-the-solidcom-h1-intercom-system?utm_source=light_and_sound_international&utm_medium=paid&utm_campaign=hollyland-ibc_sponsored_oct26",
-      "source": "LSi",
-      "source_category": "01 Spectacle Concert",
+      "url": "https://docs.google.com/forms/d/e/1FAIpQLSfbuooQc5emS4G7EHQQY-16nFPq_y-f9pHmvOFFz1Cf-f-8RA/viewform",
+      "source": "Promonews",
+      "source_category": "14 Musique Clips",
+      "priority": "P1",
+      "status": "a_verifier",
+      "found_at": "2026-11-13T18:14:13.837233+00:00",
+      "score": 16,
+      "requirements": [
+        "date_creation",
+        "choix_DA_observable",
+        "source_primaire",
+        "image_du_projet_et_droits",
+        "doublon_identite"
+      ]
+    },
+    {
+      "url": "https://fontsinuse.com/in/1/topics/70/film-and-television",
+      "source": "Fonts In Use",
+      "source_category": "03 DA Graphisme",
       "priority": "P2",
       "status": "a_verifier",
-      "found_at": "2026-11-13T18:12:08.794014+00:00",
+      "found_at": "2026-11-13T18:14:13.837233+00:00",
       "score": 16,
       "requirements": [
         "date_creation",
@@ -2082,12 +951,12 @@
       ]
     },
     {
-      "url": "https://www.lightzoomlumiere.fr/evenement/euroluce-2027-la-lumiere-au-coeur-du-design-mondial/",
-      "source": "Light ZOOM Lumière",
-      "source_category": "09 France Pro",
-      "priority": "P1",
+      "url": "https://jackmorton.com/services/broadcast-design/",
+      "source": "Jack Morton",
+      "source_category": "06 Retail Brand Experience",
+      "priority": "P2",
       "status": "a_verifier",
-      "found_at": "2026-11-13T18:12:08.794014+00:00",
+      "found_at": "2026-11-13T18:14:13.837233+00:00",
       "score": 16,
       "requirements": [
         "date_creation",
@@ -2098,12 +967,12 @@
       ]
     },
     {
-      "url": "https://www.stirworld.com/adff-stir-mumbai/2026/",
-      "source": "STIRworld Stage Design",
-      "source_category": "01 Spectacle Concert",
-      "priority": "P1",
+      "url": "https://marshmallowlaserfeast.com/project/poetics-of-soil-fly-agaric-i-video-installation/",
+      "source": "Marshmallow Laser Feast",
+      "source_category": "08 Immersif CGI Motion",
+      "priority": "P2",
       "status": "a_verifier",
-      "found_at": "2026-11-13T18:12:08.794014+00:00",
+      "found_at": "2026-11-13T18:14:13.837233+00:00",
       "score": 16,
       "requirements": [
         "date_creation",
@@ -2114,29 +983,13 @@
       ]
     },
     {
-      "url": "https://www.yumpu.com/fr/document/read/71322225/kit-media-2027-agence-lzl-services-et-light-zoom-lumiere",
-      "source": "Light ZOOM Lumière",
-      "source_category": "09 France Pro",
-      "priority": "P1",
+      "url": "https://www.etapes.com/2026/05/26/pourquoi-les-jeunes-designers-desertent-les-agences-creatives/",
+      "source": "Étapes",
+      "source_category": "13 France Marketing Design",
+      "priority": "P2",
       "status": "a_verifier",
-      "found_at": "2026-11-13T18:12:08.794014+00:00",
+      "found_at": "2026-11-13T18:14:13.837233+00:00",
       "score": 16,
-      "requirements": [
-        "date_creation",
-        "choix_DA_observable",
-        "source_primaire",
-        "image_du_projet_et_droits",
-        "doublon_identite"
-      ]
-    },
-    {
-      "url": "https://eniort.com/2026/11/12/noel-2026-a-niort-qui-illumine-la-ville-et-pour-combien/",
-      "source": "Light ZOOM Lumière",
-      "source_category": "09 France Pro",
-      "priority": "P1",
-      "status": "a_verifier",
-      "found_at": "2026-11-13T18:12:08.794014+00:00",
-      "score": 15,
       "requirements": [
         "date_creation",
         "choix_DA_observable",
@@ -2151,7 +1004,7 @@
       "source_category": "01 Spectacle Concert",
       "priority": "P1",
       "status": "a_verifier",
-      "found_at": "2026-11-13T18:12:08.794014+00:00",
+      "found_at": "2026-11-13T18:14:13.837233+00:00",
       "score": 15,
       "requirements": [
         "date_creation",
@@ -2167,71 +1020,7 @@
       "source_category": "07 FOOH OOH DOOH",
       "priority": "P1",
       "status": "a_verifier",
-      "found_at": "2026-11-13T18:12:08.794014+00:00",
-      "score": 15,
-      "requirements": [
-        "date_creation",
-        "choix_DA_observable",
-        "source_primaire",
-        "image_du_projet_et_droits",
-        "doublon_identite"
-      ]
-    },
-    {
-      "url": "https://jobs.thestage.co.uk/career/32404/production-coordinator-greater-london-london",
-      "source": "The Stage",
-      "source_category": "15 Danse Performance",
-      "priority": "P1",
-      "status": "a_verifier",
-      "found_at": "2026-11-13T18:12:08.794014+00:00",
-      "score": 15,
-      "requirements": [
-        "date_creation",
-        "choix_DA_observable",
-        "source_primaire",
-        "image_du_projet_et_droits",
-        "doublon_identite"
-      ]
-    },
-    {
-      "url": "https://jobs.thestage.co.uk/career/32406/production-coordinator-greater-london-london",
-      "source": "The Stage",
-      "source_category": "15 Danse Performance",
-      "priority": "P1",
-      "status": "a_verifier",
-      "found_at": "2026-11-13T18:12:08.794014+00:00",
-      "score": 15,
-      "requirements": [
-        "date_creation",
-        "choix_DA_observable",
-        "source_primaire",
-        "image_du_projet_et_droits",
-        "doublon_identite"
-      ]
-    },
-    {
-      "url": "https://www.dandad.org/insights/awards/three-ways-to-keep-creativity-in-craft-alive",
-      "source": "D&AD",
-      "source_category": "04 Pub Strategie",
-      "priority": "P1",
-      "status": "a_verifier",
-      "found_at": "2026-11-13T18:12:08.794014+00:00",
-      "score": 15,
-      "requirements": [
-        "date_creation",
-        "choix_DA_observable",
-        "source_primaire",
-        "image_du_projet_et_droits",
-        "doublon_identite"
-      ]
-    },
-    {
-      "url": "https://www.dandad.org/learn/masterclasses/emerging-leaders-live",
-      "source": "D&AD",
-      "source_category": "04 Pub Strategie",
-      "priority": "P1",
-      "status": "a_verifier",
-      "found_at": "2026-11-13T18:12:08.794014+00:00",
+      "found_at": "2026-11-13T18:14:13.837233+00:00",
       "score": 15,
       "requirements": [
         "date_creation",
@@ -2247,7 +1036,7 @@
       "source_category": "04 Pub Strategie",
       "priority": "P1",
       "status": "a_verifier",
-      "found_at": "2026-11-13T18:12:08.794014+00:00",
+      "found_at": "2026-11-13T18:14:13.837233+00:00",
       "score": 15,
       "requirements": [
         "date_creation",
@@ -2258,12 +1047,12 @@
       ]
     },
     {
-      "url": "https://www.designindaba.com/news-features/showcases/do-green-thing-creativity-vs-climate-change",
-      "source": "Design Indaba",
-      "source_category": "04 Pub Strategie",
-      "priority": "P1",
+      "url": "https://www.disguise.one/en/products/designer",
+      "source": "disguise",
+      "source_category": "02 TV Broadcast",
+      "priority": "P2",
       "status": "a_verifier",
-      "found_at": "2026-11-13T18:12:08.794014+00:00",
+      "found_at": "2026-11-13T18:14:13.837233+00:00",
       "score": 15,
       "requirements": [
         "date_creation",
@@ -2274,12 +1063,12 @@
       ]
     },
     {
-      "url": "https://www.designindaba.com/news-features/showcases/through-african-lens",
-      "source": "Design Indaba",
-      "source_category": "04 Pub Strategie",
-      "priority": "P1",
+      "url": "https://www.disguise.one/en/products/mapping-matter",
+      "source": "disguise",
+      "source_category": "02 TV Broadcast",
+      "priority": "P2",
       "status": "a_verifier",
-      "found_at": "2026-11-13T18:12:08.794014+00:00",
+      "found_at": "2026-11-13T18:14:13.837233+00:00",
       "score": 15,
       "requirements": [
         "date_creation",
@@ -2290,28 +1079,12 @@
       ]
     },
     {
-      "url": "https://www.designindaba.com/videos/conference-talks/alternative-imaginations",
-      "source": "Design Indaba",
-      "source_category": "04 Pub Strategie",
-      "priority": "P1",
+      "url": "https://www.disguise.one/en/solutions/virtual-production",
+      "source": "disguise",
+      "source_category": "02 TV Broadcast",
+      "priority": "P2",
       "status": "a_verifier",
-      "found_at": "2026-11-13T18:12:08.794014+00:00",
-      "score": 15,
-      "requirements": [
-        "date_creation",
-        "choix_DA_observable",
-        "source_primaire",
-        "image_du_projet_et_droits",
-        "doublon_identite"
-      ]
-    },
-    {
-      "url": "https://www.designindaba.com/videos/conference-talks/interactions-between-body-and-space-fos",
-      "source": "Design Indaba",
-      "source_category": "04 Pub Strategie",
-      "priority": "P1",
-      "status": "a_verifier",
-      "found_at": "2026-11-13T18:12:08.794014+00:00",
+      "found_at": "2026-11-13T18:14:13.837233+00:00",
       "score": 15,
       "requirements": [
         "date_creation",
@@ -2327,7 +1100,55 @@
       "source_category": "01 Spectacle Concert",
       "priority": "P1",
       "status": "a_verifier",
-      "found_at": "2026-11-13T18:12:08.794014+00:00",
+      "found_at": "2026-11-13T18:14:13.837233+00:00",
+      "score": 15,
+      "requirements": [
+        "date_creation",
+        "choix_DA_observable",
+        "source_primaire",
+        "image_du_projet_et_droits",
+        "doublon_identite"
+      ]
+    },
+    {
+      "url": "https://www.nudake.com/kr/en/legal/video-policy",
+      "source": "Nudake",
+      "source_category": "06 Retail Brand Experience",
+      "priority": "P2",
+      "status": "a_verifier",
+      "found_at": "2026-11-13T18:14:13.837233+00:00",
+      "score": 15,
+      "requirements": [
+        "date_creation",
+        "choix_DA_observable",
+        "source_primaire",
+        "image_du_projet_et_droits",
+        "doublon_identite"
+      ]
+    },
+    {
+      "url": "https://www.oneclub.org/awards/theoneshow/-archive/agency/",
+      "source": "The One Club",
+      "source_category": "04 Pub Strategie",
+      "priority": "P2",
+      "status": "a_verifier",
+      "found_at": "2026-11-13T18:14:13.837233+00:00",
+      "score": 15,
+      "requirements": [
+        "date_creation",
+        "choix_DA_observable",
+        "source_primaire",
+        "image_du_projet_et_droits",
+        "doublon_identite"
+      ]
+    },
+    {
+      "url": "https://www.oneclub.org/awards/theoneshow/-archive/judges/",
+      "source": "The One Club",
+      "source_category": "04 Pub Strategie",
+      "priority": "P2",
+      "status": "a_verifier",
+      "found_at": "2026-11-13T18:14:13.837233+00:00",
       "score": 15,
       "requirements": [
         "date_creation",
@@ -2343,71 +1164,7 @@
       "source_category": "09 France Pro",
       "priority": "P1",
       "status": "a_verifier",
-      "found_at": "2026-11-13T18:12:08.794014+00:00",
-      "score": 15,
-      "requirements": [
-        "date_creation",
-        "choix_DA_observable",
-        "source_primaire",
-        "image_du_projet_et_droits",
-        "doublon_identite"
-      ]
-    },
-    {
-      "url": "https://www.revue-as.fr/2026/11/05/crise-climatique/",
-      "source": "Revue AS",
-      "source_category": "09 France Pro",
-      "priority": "P1",
-      "status": "a_verifier",
-      "found_at": "2026-11-13T18:12:08.794014+00:00",
-      "score": 15,
-      "requirements": [
-        "date_creation",
-        "choix_DA_observable",
-        "source_primaire",
-        "image_du_projet_et_droits",
-        "doublon_identite"
-      ]
-    },
-    {
-      "url": "https://www.revue-as.fr/2026/11/06/las-en-coulisses-jtse-trente-editions-de-rencontres-et-un-nouveau-dock/",
-      "source": "Revue AS",
-      "source_category": "09 France Pro",
-      "priority": "P1",
-      "status": "a_verifier",
-      "found_at": "2026-11-13T18:12:08.794014+00:00",
-      "score": 15,
-      "requirements": [
-        "date_creation",
-        "choix_DA_observable",
-        "source_primaire",
-        "image_du_projet_et_droits",
-        "doublon_identite"
-      ]
-    },
-    {
-      "url": "https://www.revue-as.fr/2026/11/09/daniel-cerisier/",
-      "source": "Revue AS",
-      "source_category": "09 France Pro",
-      "priority": "P1",
-      "status": "a_verifier",
-      "found_at": "2026-11-13T18:12:08.794014+00:00",
-      "score": 15,
-      "requirements": [
-        "date_creation",
-        "choix_DA_observable",
-        "source_primaire",
-        "image_du_projet_et_droits",
-        "doublon_identite"
-      ]
-    },
-    {
-      "url": "https://www.revue-as.fr/2026/11/09/mouvements-professionnels-79/",
-      "source": "Revue AS",
-      "source_category": "09 France Pro",
-      "priority": "P1",
-      "status": "a_verifier",
-      "found_at": "2026-11-13T18:12:08.794014+00:00",
+      "found_at": "2026-11-13T18:14:13.837233+00:00",
       "score": 15,
       "requirements": [
         "date_creation",
@@ -2423,7 +1180,7 @@
       "source_category": "09 France Pro",
       "priority": "P1",
       "status": "a_verifier",
-      "found_at": "2026-11-13T18:12:08.794014+00:00",
+      "found_at": "2026-11-13T18:14:13.837233+00:00",
       "score": 15,
       "requirements": [
         "date_creation",
@@ -2439,7 +1196,7 @@
       "source_category": "09 France Pro",
       "priority": "P1",
       "status": "a_verifier",
-      "found_at": "2026-11-13T18:12:08.794014+00:00",
+      "found_at": "2026-11-13T18:14:13.837233+00:00",
       "score": 15,
       "requirements": [
         "date_creation",
@@ -2455,7 +1212,7 @@
       "source_category": "09 France Pro",
       "priority": "P1",
       "status": "a_verifier",
-      "found_at": "2026-11-13T18:12:08.794014+00:00",
+      "found_at": "2026-11-13T18:14:13.837233+00:00",
       "score": 15,
       "requirements": [
         "date_creation",
@@ -2471,7 +1228,7 @@
       "source_category": "02 TV Broadcast",
       "priority": "P2",
       "status": "a_verifier",
-      "found_at": "2026-11-13T18:12:08.794014+00:00",
+      "found_at": "2026-11-13T18:14:13.837233+00:00",
       "score": 15,
       "requirements": [
         "date_creation",
@@ -2482,12 +1239,12 @@
       ]
     },
     {
-      "url": "https://www.stirworld.com/stirpad/designers/",
-      "source": "STIRworld Stage Design",
-      "source_category": "01 Spectacle Concert",
-      "priority": "P1",
+      "url": "https://www.rossvideo.com/products/production-switchers/carbonite-code/",
+      "source": "Ross Video",
+      "source_category": "02 TV Broadcast",
+      "priority": "P2",
       "status": "a_verifier",
-      "found_at": "2026-11-13T18:12:08.794014+00:00",
+      "found_at": "2026-11-13T18:14:13.837233+00:00",
       "score": 15,
       "requirements": [
         "date_creation",
@@ -2498,13 +1255,189 @@
       ]
     },
     {
-      "url": "https://www.underconsideration.com/brandnew/archives/live_free_or_font_trying.php",
-      "source": "Brand New",
-      "source_category": "03 DA Graphisme",
+      "url": "https://www.rossvideo.com/products/production-switchers/carbonite-hypermax/",
+      "source": "Ross Video",
+      "source_category": "02 TV Broadcast",
+      "priority": "P2",
+      "status": "a_verifier",
+      "found_at": "2026-11-13T18:14:13.837233+00:00",
+      "score": 15,
+      "requirements": [
+        "date_creation",
+        "choix_DA_observable",
+        "source_primaire",
+        "image_du_projet_et_droits",
+        "doublon_identite"
+      ]
+    },
+    {
+      "url": "https://www.rossvideo.com/products/production-switchers/carbonite-ultra/",
+      "source": "Ross Video",
+      "source_category": "02 TV Broadcast",
+      "priority": "P2",
+      "status": "a_verifier",
+      "found_at": "2026-11-13T18:14:13.837233+00:00",
+      "score": 15,
+      "requirements": [
+        "date_creation",
+        "choix_DA_observable",
+        "source_primaire",
+        "image_du_projet_et_droits",
+        "doublon_identite"
+      ]
+    },
+    {
+      "url": "https://www.rossvideo.com/products/production-switchers/control-panels/",
+      "source": "Ross Video",
+      "source_category": "02 TV Broadcast",
+      "priority": "P2",
+      "status": "a_verifier",
+      "found_at": "2026-11-13T18:14:13.837233+00:00",
+      "score": 15,
+      "requirements": [
+        "date_creation",
+        "choix_DA_observable",
+        "source_primaire",
+        "image_du_projet_et_droits",
+        "doublon_identite"
+      ]
+    },
+    {
+      "url": "https://admin.promonews.tv/ads/redirect/2fd1ace8-5d9b-4cd8-8d7f-d64b85cdc40b",
+      "source": "Promonews",
+      "source_category": "14 Musique Clips",
       "priority": "P1",
       "status": "a_verifier",
-      "found_at": "2026-11-13T18:12:08.794014+00:00",
-      "score": 15,
+      "found_at": "2026-11-13T18:14:13.837233+00:00",
+      "score": 14,
+      "requirements": [
+        "date_creation",
+        "choix_DA_observable",
+        "source_primaire",
+        "image_du_projet_et_droits",
+        "doublon_identite"
+      ]
+    },
+    {
+      "url": "https://admin.promonews.tv/ads/redirect/60161caf-e999-4295-bd93-3ac8966d616b",
+      "source": "Promonews",
+      "source_category": "14 Musique Clips",
+      "priority": "P1",
+      "status": "a_verifier",
+      "found_at": "2026-11-13T18:14:13.837233+00:00",
+      "score": 14,
+      "requirements": [
+        "date_creation",
+        "choix_DA_observable",
+        "source_primaire",
+        "image_du_projet_et_droits",
+        "doublon_identite"
+      ]
+    },
+    {
+      "url": "https://admin.promonews.tv/ads/redirect/71707e6e-aaa2-44df-87f2-ef36b8d3fd7a",
+      "source": "Promonews",
+      "source_category": "14 Musique Clips",
+      "priority": "P1",
+      "status": "a_verifier",
+      "found_at": "2026-11-13T18:14:13.837233+00:00",
+      "score": 14,
+      "requirements": [
+        "date_creation",
+        "choix_DA_observable",
+        "source_primaire",
+        "image_du_projet_et_droits",
+        "doublon_identite"
+      ]
+    },
+    {
+      "url": "https://admin.promonews.tv/ads/redirect/7fd4eecb-46bf-4716-9a02-08f2284537ae",
+      "source": "Promonews",
+      "source_category": "14 Musique Clips",
+      "priority": "P1",
+      "status": "a_verifier",
+      "found_at": "2026-11-13T18:14:13.837233+00:00",
+      "score": 14,
+      "requirements": [
+        "date_creation",
+        "choix_DA_observable",
+        "source_primaire",
+        "image_du_projet_et_droits",
+        "doublon_identite"
+      ]
+    },
+    {
+      "url": "https://admin.promonews.tv/ads/redirect/9b4da3dd-e935-4fdd-82b0-cb221505a0d1",
+      "source": "Promonews",
+      "source_category": "14 Musique Clips",
+      "priority": "P1",
+      "status": "a_verifier",
+      "found_at": "2026-11-13T18:14:13.837233+00:00",
+      "score": 14,
+      "requirements": [
+        "date_creation",
+        "choix_DA_observable",
+        "source_primaire",
+        "image_du_projet_et_droits",
+        "doublon_identite"
+      ]
+    },
+    {
+      "url": "https://admin.promonews.tv/ads/redirect/a6832bad-3f23-431a-bfa5-16cda917fe29",
+      "source": "Promonews",
+      "source_category": "14 Musique Clips",
+      "priority": "P1",
+      "status": "a_verifier",
+      "found_at": "2026-11-13T18:14:13.837233+00:00",
+      "score": 14,
+      "requirements": [
+        "date_creation",
+        "choix_DA_observable",
+        "source_primaire",
+        "image_du_projet_et_droits",
+        "doublon_identite"
+      ]
+    },
+    {
+      "url": "https://admin.promonews.tv/ads/redirect/d6139c50-aba6-4d94-a417-3cb994650f32",
+      "source": "Promonews",
+      "source_category": "14 Musique Clips",
+      "priority": "P1",
+      "status": "a_verifier",
+      "found_at": "2026-11-13T18:14:13.837233+00:00",
+      "score": 14,
+      "requirements": [
+        "date_creation",
+        "choix_DA_observable",
+        "source_primaire",
+        "image_du_projet_et_droits",
+        "doublon_identite"
+      ]
+    },
+    {
+      "url": "https://admin.promonews.tv/ads/redirect/dea2547a-3c49-45e9-a542-44bfa493f5d3",
+      "source": "Promonews",
+      "source_category": "14 Musique Clips",
+      "priority": "P1",
+      "status": "a_verifier",
+      "found_at": "2026-11-13T18:14:13.837233+00:00",
+      "score": 14,
+      "requirements": [
+        "date_creation",
+        "choix_DA_observable",
+        "source_primaire",
+        "image_du_projet_et_droits",
+        "doublon_identite"
+      ]
+    },
+    {
+      "url": "https://business.google.com/us/ad-solutions/performance-max/",
+      "source": "Think with Google",
+      "source_category": "10 Strategie Insights",
+      "priority": "P2",
+      "status": "a_verifier",
+      "found_at": "2026-11-13T18:14:13.837233+00:00",
+      "score": 14,
       "requirements": [
         "date_creation",
         "choix_DA_observable",
@@ -2519,7 +1452,7 @@
       "source_category": "07 FOOH OOH DOOH",
       "priority": "P1",
       "status": "a_verifier",
-      "found_at": "2026-11-13T18:12:08.794014+00:00",
+      "found_at": "2026-11-13T18:14:13.837233+00:00",
       "score": 14,
       "requirements": [
         "date_creation",
@@ -2530,12 +1463,12 @@
       ]
     },
     {
-      "url": "https://fooh.com/library/cgi-video-for-tareet-x-asics-sportstyle-collaboration-f70663b4",
-      "source": "FOOH.com",
-      "source_category": "07 FOOH OOH DOOH",
-      "priority": "P1",
+      "url": "https://marketingscience.info/learn-with-us/learning-opportunities/how-brands-grow-live-for-executives",
+      "source": "Ehrenberg-Bass Institute",
+      "source_category": "10 Strategie Insights",
+      "priority": "P2",
       "status": "a_verifier",
-      "found_at": "2026-11-13T18:12:08.794014+00:00",
+      "found_at": "2026-11-13T18:14:13.837233+00:00",
       "score": 14,
       "requirements": [
         "date_creation",
@@ -2546,12 +1479,12 @@
       ]
     },
     {
-      "url": "https://oceanoutdoor.com/labs/ocean-showcase/",
-      "source": "Ocean Outdoor",
-      "source_category": "07 FOOH OOH DOOH",
-      "priority": "P1",
+      "url": "https://marketingscience.info/learn-with-us/learning-opportunities/how-brands-grow-live-for-sponsors",
+      "source": "Ehrenberg-Bass Institute",
+      "source_category": "10 Strategie Insights",
+      "priority": "P2",
       "status": "a_verifier",
-      "found_at": "2026-11-13T18:12:08.794014+00:00",
+      "found_at": "2026-11-13T18:14:13.837233+00:00",
       "score": 14,
       "requirements": [
         "date_creation",
@@ -2562,13 +1495,1085 @@
       ]
     },
     {
-      "url": "https://oceanoutdoor.com/ooh-site/liverpool-media-wall/",
-      "source": "Ocean Outdoor",
-      "source_category": "07 FOOH OOH DOOH",
+      "url": "https://podcasters.spotify.com/pod/show/nngroup",
+      "source": "Nielsen Norman Group",
+      "source_category": "10 Strategie Insights",
+      "priority": "P2",
+      "status": "a_verifier",
+      "found_at": "2026-11-13T18:14:13.837233+00:00",
+      "score": 14,
+      "requirements": [
+        "date_creation",
+        "choix_DA_observable",
+        "source_primaire",
+        "image_du_projet_et_droits",
+        "doublon_identite"
+      ]
+    },
+    {
+      "url": "https://www.adsoftheworld.com/campaigns/not-really-for-tourists",
+      "source": "Ads of the World",
+      "source_category": "04 Pub Strategie",
       "priority": "P1",
       "status": "a_verifier",
-      "found_at": "2026-11-13T18:12:08.794014+00:00",
+      "found_at": "2026-11-13T18:14:13.837233+00:00",
       "score": 14,
+      "requirements": [
+        "date_creation",
+        "choix_DA_observable",
+        "source_primaire",
+        "image_du_projet_et_droits",
+        "doublon_identite"
+      ]
+    },
+    {
+      "url": "https://www.mazarine.com/projects/prada-blush-tour-los-angeles-miami-new-york",
+      "source": "Mazarine",
+      "source_category": "06 Retail Brand Experience",
+      "priority": "P1",
+      "status": "a_verifier",
+      "found_at": "2026-11-13T18:14:13.837233+00:00",
+      "score": 14,
+      "requirements": [
+        "date_creation",
+        "choix_DA_observable",
+        "source_primaire",
+        "image_du_projet_et_droits",
+        "doublon_identite"
+      ]
+    },
+    {
+      "url": "https://www.metalocus.es/en/news/immersive-atmosphere-generali-stadium-foster-partners",
+      "source": "METALOCUS",
+      "source_category": "05 Art Architecture",
+      "priority": "P2",
+      "status": "a_verifier",
+      "found_at": "2026-11-13T18:14:13.837233+00:00",
+      "score": 14,
+      "requirements": [
+        "date_creation",
+        "choix_DA_observable",
+        "source_primaire",
+        "image_du_projet_et_droits",
+        "doublon_identite"
+      ]
+    },
+    {
+      "url": "https://www.onedotzero.com/projects/filter/live-av",
+      "source": "onedotzero",
+      "source_category": "08 Immersif CGI Motion",
+      "priority": "P2",
+      "status": "a_verifier",
+      "found_at": "2026-11-13T18:14:13.837233+00:00",
+      "score": 14,
+      "requirements": [
+        "date_creation",
+        "choix_DA_observable",
+        "source_primaire",
+        "image_du_projet_et_droits",
+        "doublon_identite"
+      ]
+    },
+    {
+      "url": "https://www.radiofrance.fr/politique/elections/presidentielle",
+      "source": "Mouv'",
+      "source_category": "14 Musique Clips",
+      "priority": "P1",
+      "status": "a_verifier",
+      "found_at": "2026-11-13T18:14:13.837233+00:00",
+      "score": 14,
+      "requirements": [
+        "date_creation",
+        "choix_DA_observable",
+        "source_primaire",
+        "image_du_projet_et_droits",
+        "doublon_identite"
+      ]
+    },
+    {
+      "url": "https://www.smode.io/en/product/live-media-server",
+      "source": "Smode",
+      "source_category": "08 Immersif CGI Motion",
+      "priority": "P2",
+      "status": "a_verifier",
+      "found_at": "2026-11-13T18:14:13.837233+00:00",
+      "score": 14,
+      "requirements": [
+        "date_creation",
+        "choix_DA_observable",
+        "source_primaire",
+        "image_du_projet_et_droits",
+        "doublon_identite"
+      ]
+    },
+    {
+      "url": "https://www.smode.io/en/solutions/solution-immersive-place-digital-art-center",
+      "source": "Smode",
+      "source_category": "08 Immersif CGI Motion",
+      "priority": "P2",
+      "status": "a_verifier",
+      "found_at": "2026-11-13T18:14:13.837233+00:00",
+      "score": 14,
+      "requirements": [
+        "date_creation",
+        "choix_DA_observable",
+        "source_primaire",
+        "image_du_projet_et_droits",
+        "doublon_identite"
+      ]
+    },
+    {
+      "url": "https://www.thinkbox.tv/how-to-use-tv/spots/flighting-how-best-to-spread-your-ratings-across-a-campaign",
+      "source": "Thinkbox",
+      "source_category": "10 Strategie Insights",
+      "priority": "P2",
+      "status": "a_verifier",
+      "found_at": "2026-11-13T18:14:13.837233+00:00",
+      "score": 14,
+      "requirements": [
+        "date_creation",
+        "choix_DA_observable",
+        "source_primaire",
+        "image_du_projet_et_droits",
+        "doublon_identite"
+      ]
+    },
+    {
+      "url": "https://abonnement.sopress.net/abonnements/anciens-numeros-tsugi",
+      "source": "Tsugi",
+      "source_category": "14 Musique Clips",
+      "priority": "P1",
+      "status": "a_verifier",
+      "found_at": "2026-11-13T18:14:13.837233+00:00",
+      "score": 13,
+      "requirements": [
+        "date_creation",
+        "choix_DA_observable",
+        "source_primaire",
+        "image_du_projet_et_droits",
+        "doublon_identite"
+      ]
+    },
+    {
+      "url": "https://boutique.so/collections/collections-autres",
+      "source": "Tsugi",
+      "source_category": "14 Musique Clips",
+      "priority": "P1",
+      "status": "a_verifier",
+      "found_at": "2026-11-13T18:14:13.837233+00:00",
+      "score": 13,
+      "requirements": [
+        "date_creation",
+        "choix_DA_observable",
+        "source_primaire",
+        "image_du_projet_et_droits",
+        "doublon_identite"
+      ]
+    },
+    {
+      "url": "https://bpando.org/2026/10/27/andstudio-werf-rotterdam-bar-identity-design/",
+      "source": "BP&O",
+      "source_category": "03 DA Graphisme",
+      "priority": "P2",
+      "status": "a_verifier",
+      "found_at": "2026-11-13T18:14:13.837233+00:00",
+      "score": 13,
+      "requirements": [
+        "date_creation",
+        "choix_DA_observable",
+        "source_primaire",
+        "image_du_projet_et_droits",
+        "doublon_identite"
+      ]
+    },
+    {
+      "url": "https://bpando.org/2026/11/03/ragged-edge-tabby-branding-identity-design/",
+      "source": "BP&O",
+      "source_category": "03 DA Graphisme",
+      "priority": "P2",
+      "status": "a_verifier",
+      "found_at": "2026-11-13T18:14:13.837233+00:00",
+      "score": 13,
+      "requirements": [
+        "date_creation",
+        "choix_DA_observable",
+        "source_primaire",
+        "image_du_projet_et_droits",
+        "doublon_identite"
+      ]
+    },
+    {
+      "url": "https://bpando.org/2026/11/05/mother-design-brand-identity-spirituality-app-purple-garden/",
+      "source": "BP&O",
+      "source_category": "03 DA Graphisme",
+      "priority": "P2",
+      "status": "a_verifier",
+      "found_at": "2026-11-13T18:14:13.837233+00:00",
+      "score": 13,
+      "requirements": [
+        "date_creation",
+        "choix_DA_observable",
+        "source_primaire",
+        "image_du_projet_et_droits",
+        "doublon_identite"
+      ]
+    },
+    {
+      "url": "https://bpando.org/2026/11/12/smk-statens-museum-for-kunst-etypes-brand-identity-design/",
+      "source": "BP&O",
+      "source_category": "03 DA Graphisme",
+      "priority": "P2",
+      "status": "a_verifier",
+      "found_at": "2026-11-13T18:14:13.837233+00:00",
+      "score": 13,
+      "requirements": [
+        "date_creation",
+        "choix_DA_observable",
+        "source_primaire",
+        "image_du_projet_et_droits",
+        "doublon_identite"
+      ]
+    },
+    {
+      "url": "https://dooh.com/works/deliver-us-to-futbol/",
+      "source": "DOOH.com",
+      "source_category": "07 FOOH OOH DOOH",
+      "priority": "P2",
+      "status": "a_verifier",
+      "found_at": "2026-11-13T18:14:13.837233+00:00",
+      "score": 13,
+      "requirements": [
+        "date_creation",
+        "choix_DA_observable",
+        "source_primaire",
+        "image_du_projet_et_droits",
+        "doublon_identite"
+      ]
+    },
+    {
+      "url": "https://go.vizrt.com/l/428312/2018-11-14/5l5h5g",
+      "source": "Vizrt",
+      "source_category": "02 TV Broadcast",
+      "priority": "P2",
+      "status": "a_verifier",
+      "found_at": "2026-11-13T18:14:13.837233+00:00",
+      "score": 13,
+      "requirements": [
+        "date_creation",
+        "choix_DA_observable",
+        "source_primaire",
+        "image_du_projet_et_droits",
+        "doublon_identite"
+      ]
+    },
+    {
+      "url": "https://imagination.com/solutions/live/",
+      "source": "Imagination",
+      "source_category": "06 Retail Brand Experience",
+      "priority": "P2",
+      "status": "a_verifier",
+      "found_at": "2026-11-13T18:14:13.837233+00:00",
+      "score": 13,
+      "requirements": [
+        "date_creation",
+        "choix_DA_observable",
+        "source_primaire",
+        "image_du_projet_et_droits",
+        "doublon_identite"
+      ]
+    },
+    {
+      "url": "https://imagination.com/work/visa-bank-of-america-the-breakaway-tour/",
+      "source": "Imagination",
+      "source_category": "06 Retail Brand Experience",
+      "priority": "P2",
+      "status": "a_verifier",
+      "found_at": "2026-11-13T18:14:13.837233+00:00",
+      "score": 13,
+      "requirements": [
+        "date_creation",
+        "choix_DA_observable",
+        "source_primaire",
+        "image_du_projet_et_droits",
+        "doublon_identite"
+      ]
+    },
+    {
+      "url": "https://imagination.com/work/visa-live-at-le-louvre/",
+      "source": "Imagination",
+      "source_category": "06 Retail Brand Experience",
+      "priority": "P2",
+      "status": "a_verifier",
+      "found_at": "2026-11-13T18:14:13.837233+00:00",
+      "score": 13,
+      "requirements": [
+        "date_creation",
+        "choix_DA_observable",
+        "source_primaire",
+        "image_du_projet_et_droits",
+        "doublon_identite"
+      ]
+    },
+    {
+      "url": "https://jackmorton.com/services/tradeshow-marketing-services/",
+      "source": "Jack Morton",
+      "source_category": "06 Retail Brand Experience",
+      "priority": "P2",
+      "status": "a_verifier",
+      "found_at": "2026-11-13T18:14:13.837233+00:00",
+      "score": 13,
+      "requirements": [
+        "date_creation",
+        "choix_DA_observable",
+        "source_primaire",
+        "image_du_projet_et_droits",
+        "doublon_identite"
+      ]
+    },
+    {
+      "url": "https://shop.lesinrocks.com/magazines/les-inrockuptibles-n37-fevrier-2025/",
+      "source": "Les Inrockuptibles",
+      "source_category": "14 Musique Clips",
+      "priority": "P1",
+      "status": "a_verifier",
+      "found_at": "2026-11-13T18:14:13.837233+00:00",
+      "score": 13,
+      "requirements": [
+        "date_creation",
+        "choix_DA_observable",
+        "source_primaire",
+        "image_du_projet_et_droits",
+        "doublon_identite"
+      ]
+    },
+    {
+      "url": "https://shop.lesinrocks.com/magazines/les-inrockuptibles-n38-mars-2025-elon-musk/",
+      "source": "Les Inrockuptibles",
+      "source_category": "14 Musique Clips",
+      "priority": "P1",
+      "status": "a_verifier",
+      "found_at": "2026-11-13T18:14:13.837233+00:00",
+      "score": 13,
+      "requirements": [
+        "date_creation",
+        "choix_DA_observable",
+        "source_primaire",
+        "image_du_projet_et_droits",
+        "doublon_identite"
+      ]
+    },
+    {
+      "url": "https://shop.lesinrocks.com/magazines/les-inrockuptibles-n39-avril-2025/",
+      "source": "Les Inrockuptibles",
+      "source_category": "14 Musique Clips",
+      "priority": "P1",
+      "status": "a_verifier",
+      "found_at": "2026-11-13T18:14:13.837233+00:00",
+      "score": 13,
+      "requirements": [
+        "date_creation",
+        "choix_DA_observable",
+        "source_primaire",
+        "image_du_projet_et_droits",
+        "doublon_identite"
+      ]
+    },
+    {
+      "url": "https://shop.lesinrocks.com/magazines/les-inrockuptibles-n40-mai-2025/",
+      "source": "Les Inrockuptibles",
+      "source_category": "14 Musique Clips",
+      "priority": "P1",
+      "status": "a_verifier",
+      "found_at": "2026-11-13T18:14:13.837233+00:00",
+      "score": 13,
+      "requirements": [
+        "date_creation",
+        "choix_DA_observable",
+        "source_primaire",
+        "image_du_projet_et_droits",
+        "doublon_identite"
+      ]
+    },
+    {
+      "url": "https://shop.lesinrocks.com/magazines/les-inrockuptibles-n41-juin-2025/",
+      "source": "Les Inrockuptibles",
+      "source_category": "14 Musique Clips",
+      "priority": "P1",
+      "status": "a_verifier",
+      "found_at": "2026-11-13T18:14:13.837233+00:00",
+      "score": 13,
+      "requirements": [
+        "date_creation",
+        "choix_DA_observable",
+        "source_primaire",
+        "image_du_projet_et_droits",
+        "doublon_identite"
+      ]
+    },
+    {
+      "url": "https://shop.lesinrocks.com/magazines/les-inrockuptibles-n42-juillet-aout-2025/",
+      "source": "Les Inrockuptibles",
+      "source_category": "14 Musique Clips",
+      "priority": "P1",
+      "status": "a_verifier",
+      "found_at": "2026-11-13T18:14:13.837233+00:00",
+      "score": 13,
+      "requirements": [
+        "date_creation",
+        "choix_DA_observable",
+        "source_primaire",
+        "image_du_projet_et_droits",
+        "doublon_identite"
+      ]
+    },
+    {
+      "url": "https://studio-bk.com/portfolio/mixc-village-dongguan-water-show/",
+      "source": "Studio BK",
+      "source_category": "06 Retail Brand Experience",
+      "priority": "P2",
+      "status": "a_verifier",
+      "found_at": "2026-11-13T18:14:13.837233+00:00",
+      "score": 13,
+      "requirements": [
+        "date_creation",
+        "choix_DA_observable",
+        "source_primaire",
+        "image_du_projet_et_droits",
+        "doublon_identite"
+      ]
+    },
+    {
+      "url": "https://vimeo.com/channels/motionographer",
+      "source": "Motionographer",
+      "source_category": "14 Musique Clips",
+      "priority": "P1",
+      "status": "a_verifier",
+      "found_at": "2026-11-13T18:14:13.837233+00:00",
+      "score": 13,
+      "requirements": [
+        "date_creation",
+        "choix_DA_observable",
+        "source_primaire",
+        "image_du_projet_et_droits",
+        "doublon_identite"
+      ]
+    },
+    {
+      "url": "https://www.blogotheque.net/articles/aoife-nessa-frances-feat-meabh-mckenna/",
+      "source": "La Blogothèque",
+      "source_category": "14 Musique Clips",
+      "priority": "P1",
+      "status": "a_verifier",
+      "found_at": "2026-11-13T18:14:13.837233+00:00",
+      "score": 13,
+      "requirements": [
+        "date_creation",
+        "choix_DA_observable",
+        "source_primaire",
+        "image_du_projet_et_droits",
+        "doublon_identite"
+      ]
+    },
+    {
+      "url": "https://www.blogotheque.net/articles/benjamin-booker-25870/",
+      "source": "La Blogothèque",
+      "source_category": "14 Musique Clips",
+      "priority": "P1",
+      "status": "a_verifier",
+      "found_at": "2026-11-13T18:14:13.837233+00:00",
+      "score": 13,
+      "requirements": [
+        "date_creation",
+        "choix_DA_observable",
+        "source_primaire",
+        "image_du_projet_et_droits",
+        "doublon_identite"
+      ]
+    },
+    {
+      "url": "https://www.blogotheque.net/articles/clara-mann/",
+      "source": "La Blogothèque",
+      "source_category": "14 Musique Clips",
+      "priority": "P1",
+      "status": "a_verifier",
+      "found_at": "2026-11-13T18:14:13.837233+00:00",
+      "score": 13,
+      "requirements": [
+        "date_creation",
+        "choix_DA_observable",
+        "source_primaire",
+        "image_du_projet_et_droits",
+        "doublon_identite"
+      ]
+    },
+    {
+      "url": "https://www.blogotheque.net/articles/d4vd/",
+      "source": "La Blogothèque",
+      "source_category": "14 Musique Clips",
+      "priority": "P1",
+      "status": "a_verifier",
+      "found_at": "2026-11-13T18:14:13.837233+00:00",
+      "score": 13,
+      "requirements": [
+        "date_creation",
+        "choix_DA_observable",
+        "source_primaire",
+        "image_du_projet_et_droits",
+        "doublon_identite"
+      ]
+    },
+    {
+      "url": "https://www.blogotheque.net/articles/damien-rice/",
+      "source": "La Blogothèque",
+      "source_category": "14 Musique Clips",
+      "priority": "P1",
+      "status": "a_verifier",
+      "found_at": "2026-11-13T18:14:13.837233+00:00",
+      "score": 13,
+      "requirements": [
+        "date_creation",
+        "choix_DA_observable",
+        "source_primaire",
+        "image_du_projet_et_droits",
+        "doublon_identite"
+      ]
+    },
+    {
+      "url": "https://www.etapes.com/2026/01/13/etre-designer-en-2026-entre-creation-methode-et-arbitrage/",
+      "source": "Étapes",
+      "source_category": "13 France Marketing Design",
+      "priority": "P2",
+      "status": "a_verifier",
+      "found_at": "2026-11-13T18:14:13.837233+00:00",
+      "score": 13,
+      "requirements": [
+        "date_creation",
+        "choix_DA_observable",
+        "source_primaire",
+        "image_du_projet_et_droits",
+        "doublon_identite"
+      ]
+    },
+    {
+      "url": "https://www.gpj.com/case-study/cisco-live-2025-amsterdam-going-beyond-expectations/",
+      "source": "George P. Johnson",
+      "source_category": "06 Retail Brand Experience",
+      "priority": "P2",
+      "status": "a_verifier",
+      "found_at": "2026-11-13T18:14:13.837233+00:00",
+      "score": 13,
+      "requirements": [
+        "date_creation",
+        "choix_DA_observable",
+        "source_primaire",
+        "image_du_projet_et_droits",
+        "doublon_identite"
+      ]
+    },
+    {
+      "url": "https://www.lightzoomlumiere.fr/article/festivals-lumiere-europe-calendrier-annuel-2026-2027-light-festival/",
+      "source": "Light ZOOM Lumière",
+      "source_category": "09 France Pro",
+      "priority": "P1",
+      "status": "a_verifier",
+      "found_at": "2026-11-13T18:14:13.837233+00:00",
+      "score": 13,
+      "requirements": [
+        "date_creation",
+        "choix_DA_observable",
+        "source_primaire",
+        "image_du_projet_et_droits",
+        "doublon_identite"
+      ]
+    },
+    {
+      "url": "https://www.lightzoomlumiere.fr/article/foires-et-salons-professionnels-2026-en-france-calendrier/",
+      "source": "Light ZOOM Lumière",
+      "source_category": "09 France Pro",
+      "priority": "P1",
+      "status": "a_verifier",
+      "found_at": "2026-11-13T18:14:13.837233+00:00",
+      "score": 13,
+      "requirements": [
+        "date_creation",
+        "choix_DA_observable",
+        "source_primaire",
+        "image_du_projet_et_droits",
+        "doublon_identite"
+      ]
+    },
+    {
+      "url": "https://www.nngroup.com/training/live-courses/",
+      "source": "Nielsen Norman Group",
+      "source_category": "10 Strategie Insights",
+      "priority": "P2",
+      "status": "a_verifier",
+      "found_at": "2026-11-13T18:14:13.837233+00:00",
+      "score": 13,
+      "requirements": [
+        "date_creation",
+        "choix_DA_observable",
+        "source_primaire",
+        "image_du_projet_et_droits",
+        "doublon_identite"
+      ]
+    },
+    {
+      "url": "https://www.notch.one/features/3d-lighting-materials",
+      "source": "Notch",
+      "source_category": "08 Immersif CGI Motion",
+      "priority": "P2",
+      "status": "a_verifier",
+      "found_at": "2026-11-13T18:14:13.837233+00:00",
+      "score": 13,
+      "requirements": [
+        "date_creation",
+        "choix_DA_observable",
+        "source_primaire",
+        "image_du_projet_et_droits",
+        "doublon_identite"
+      ]
+    },
+    {
+      "url": "https://www.notch.one/industries/concerts-performing-arts",
+      "source": "Notch",
+      "source_category": "08 Immersif CGI Motion",
+      "priority": "P2",
+      "status": "a_verifier",
+      "found_at": "2026-11-13T18:14:13.837233+00:00",
+      "score": 13,
+      "requirements": [
+        "date_creation",
+        "choix_DA_observable",
+        "source_primaire",
+        "image_du_projet_et_droits",
+        "doublon_identite"
+      ]
+    },
+    {
+      "url": "https://www.oneclub.org/adcawards/showcase/",
+      "source": "The One Club",
+      "source_category": "04 Pub Strategie",
+      "priority": "P2",
+      "status": "a_verifier",
+      "found_at": "2026-11-13T18:14:13.837233+00:00",
+      "score": 13,
+      "requirements": [
+        "date_creation",
+        "choix_DA_observable",
+        "source_primaire",
+        "image_du_projet_et_droits",
+        "doublon_identite"
+      ]
+    },
+    {
+      "url": "https://www.oneclub.org/adceurope/showcase/",
+      "source": "The One Club",
+      "source_category": "04 Pub Strategie",
+      "priority": "P2",
+      "status": "a_verifier",
+      "found_at": "2026-11-13T18:14:13.837233+00:00",
+      "score": 13,
+      "requirements": [
+        "date_creation",
+        "choix_DA_observable",
+        "source_primaire",
+        "image_du_projet_et_droits",
+        "doublon_identite"
+      ]
+    },
+    {
+      "url": "https://www.oneclub.org/awards/theoneshow/",
+      "source": "The One Club",
+      "source_category": "04 Pub Strategie",
+      "priority": "P2",
+      "status": "a_verifier",
+      "found_at": "2026-11-13T18:14:13.837233+00:00",
+      "score": 13,
+      "requirements": [
+        "date_creation",
+        "choix_DA_observable",
+        "source_primaire",
+        "image_du_projet_et_droits",
+        "doublon_identite"
+      ]
+    },
+    {
+      "url": "https://www.oneclub.org/oneasia/showcase/",
+      "source": "The One Club",
+      "source_category": "04 Pub Strategie",
+      "priority": "P2",
+      "status": "a_verifier",
+      "found_at": "2026-11-13T18:14:13.837233+00:00",
+      "score": 13,
+      "requirements": [
+        "date_creation",
+        "choix_DA_observable",
+        "source_primaire",
+        "image_du_projet_et_droits",
+        "doublon_identite"
+      ]
+    },
+    {
+      "url": "https://www.oneclub.org/theoneshow/showcase/",
+      "source": "The One Club",
+      "source_category": "04 Pub Strategie",
+      "priority": "P2",
+      "status": "a_verifier",
+      "found_at": "2026-11-13T18:14:13.837233+00:00",
+      "score": 13,
+      "requirements": [
+        "date_creation",
+        "choix_DA_observable",
+        "source_primaire",
+        "image_du_projet_et_droits",
+        "doublon_identite"
+      ]
+    },
+    {
+      "url": "https://www.radiofrance.fr/ecouter-musique/classique",
+      "source": "Mouv'",
+      "source_category": "14 Musique Clips",
+      "priority": "P1",
+      "status": "a_verifier",
+      "found_at": "2026-11-13T18:14:13.837233+00:00",
+      "score": 13,
+      "requirements": [
+        "date_creation",
+        "choix_DA_observable",
+        "source_primaire",
+        "image_du_projet_et_droits",
+        "doublon_identite"
+      ]
+    },
+    {
+      "url": "https://www.radiofrance.fr/franceinter/grille-programmes",
+      "source": "Mouv'",
+      "source_category": "14 Musique Clips",
+      "priority": "P1",
+      "status": "a_verifier",
+      "found_at": "2026-11-13T18:14:13.837233+00:00",
+      "score": 13,
+      "requirements": [
+        "date_creation",
+        "choix_DA_observable",
+        "source_primaire",
+        "image_du_projet_et_droits",
+        "doublon_identite"
+      ]
+    },
+    {
+      "url": "https://www.radiofrance.fr/podcasts/enfants",
+      "source": "Mouv'",
+      "source_category": "14 Musique Clips",
+      "priority": "P1",
+      "status": "a_verifier",
+      "found_at": "2026-11-13T18:14:13.837233+00:00",
+      "score": 13,
+      "requirements": [
+        "date_creation",
+        "choix_DA_observable",
+        "source_primaire",
+        "image_du_projet_et_droits",
+        "doublon_identite"
+      ]
+    },
+    {
+      "url": "https://www.radiofrance.fr/podcasts/fictions",
+      "source": "Mouv'",
+      "source_category": "14 Musique Clips",
+      "priority": "P1",
+      "status": "a_verifier",
+      "found_at": "2026-11-13T18:14:13.837233+00:00",
+      "score": 13,
+      "requirements": [
+        "date_creation",
+        "choix_DA_observable",
+        "source_primaire",
+        "image_du_projet_et_droits",
+        "doublon_identite"
+      ]
+    },
+    {
+      "url": "https://www.radiofrance.fr/podcasts/true-crime",
+      "source": "Mouv'",
+      "source_category": "14 Musique Clips",
+      "priority": "P1",
+      "status": "a_verifier",
+      "found_at": "2026-11-13T18:14:13.837233+00:00",
+      "score": 13,
+      "requirements": [
+        "date_creation",
+        "choix_DA_observable",
+        "source_primaire",
+        "image_du_projet_et_droits",
+        "doublon_identite"
+      ]
+    },
+    {
+      "url": "https://www.radiofrance.fr/sciences-savoirs/histoire",
+      "source": "Mouv'",
+      "source_category": "14 Musique Clips",
+      "priority": "P1",
+      "status": "a_verifier",
+      "found_at": "2026-11-13T18:14:13.837233+00:00",
+      "score": 13,
+      "requirements": [
+        "date_creation",
+        "choix_DA_observable",
+        "source_primaire",
+        "image_du_projet_et_droits",
+        "doublon_identite"
+      ]
+    },
+    {
+      "url": "https://www.radiofrance.fr/sujets/temoignages",
+      "source": "Mouv'",
+      "source_category": "14 Musique Clips",
+      "priority": "P1",
+      "status": "a_verifier",
+      "found_at": "2026-11-13T18:14:13.837233+00:00",
+      "score": 13,
+      "requirements": [
+        "date_creation",
+        "choix_DA_observable",
+        "source_primaire",
+        "image_du_projet_et_droits",
+        "doublon_identite"
+      ]
+    },
+    {
+      "url": "https://www.thermofisher.com/order/catalog/product/MICROPHAZIRRX",
+      "source": "Devlin Design Group",
+      "source_category": "02 TV Broadcast",
+      "priority": "P2",
+      "status": "a_verifier",
+      "found_at": "2026-11-13T18:14:13.837233+00:00",
+      "score": 13,
+      "requirements": [
+        "date_creation",
+        "choix_DA_observable",
+        "source_primaire",
+        "image_du_projet_et_droits",
+        "doublon_identite"
+      ]
+    },
+    {
+      "url": "https://www.trendwatching.com/trends-and-insights/fashion-retailers-connect-size-guidance-and-faster-delivery",
+      "source": "TrendWatching",
+      "source_category": "12 Tendances Cultures",
+      "priority": "P2",
+      "status": "a_verifier",
+      "found_at": "2026-11-13T18:14:13.837233+00:00",
+      "score": 13,
+      "requirements": [
+        "date_creation",
+        "choix_DA_observable",
+        "source_primaire",
+        "image_du_projet_et_droits",
+        "doublon_identite"
+      ]
+    },
+    {
+      "url": "https://www.tsugi.fr/programme/les-dj-sets-de-tsugi-radio/",
+      "source": "Tsugi",
+      "source_category": "14 Musique Clips",
+      "priority": "P1",
+      "status": "a_verifier",
+      "found_at": "2026-11-13T18:14:13.837233+00:00",
+      "score": 13,
+      "requirements": [
+        "date_creation",
+        "choix_DA_observable",
+        "source_primaire",
+        "image_du_projet_et_droits",
+        "doublon_identite"
+      ]
+    },
+    {
+      "url": "https://luzstudio.com/en/projects/billy-idol",
+      "source": "LUZ Studio",
+      "source_category": "01 Spectacle Concert",
+      "priority": "P2",
+      "status": "a_verifier",
+      "found_at": "2026-11-13T18:14:13.837233+00:00",
+      "score": 12,
+      "requirements": [
+        "date_creation",
+        "choix_DA_observable",
+        "source_primaire",
+        "image_du_projet_et_droits",
+        "doublon_identite"
+      ]
+    },
+    {
+      "url": "https://luzstudio.com/en/projects/burj-khalifa",
+      "source": "LUZ Studio",
+      "source_category": "01 Spectacle Concert",
+      "priority": "P2",
+      "status": "a_verifier",
+      "found_at": "2026-11-13T18:14:13.837233+00:00",
+      "score": 12,
+      "requirements": [
+        "date_creation",
+        "choix_DA_observable",
+        "source_primaire",
+        "image_du_projet_et_droits",
+        "doublon_identite"
+      ]
+    },
+    {
+      "url": "https://luzstudio.com/en/projects/carrie-underwood",
+      "source": "LUZ Studio",
+      "source_category": "01 Spectacle Concert",
+      "priority": "P2",
+      "status": "a_verifier",
+      "found_at": "2026-11-13T18:14:13.837233+00:00",
+      "score": 12,
+      "requirements": [
+        "date_creation",
+        "choix_DA_observable",
+        "source_primaire",
+        "image_du_projet_et_droits",
+        "doublon_identite"
+      ]
+    },
+    {
+      "url": "https://luzstudio.com/en/projects/foo-fighters",
+      "source": "LUZ Studio",
+      "source_category": "01 Spectacle Concert",
+      "priority": "P2",
+      "status": "a_verifier",
+      "found_at": "2026-11-13T18:14:13.837233+00:00",
+      "score": 12,
+      "requirements": [
+        "date_creation",
+        "choix_DA_observable",
+        "source_primaire",
+        "image_du_projet_et_droits",
+        "doublon_identite"
+      ]
+    },
+    {
+      "url": "https://luzstudio.com/en/projects/helene-fisher",
+      "source": "LUZ Studio",
+      "source_category": "01 Spectacle Concert",
+      "priority": "P2",
+      "status": "a_verifier",
+      "found_at": "2026-11-13T18:14:13.837233+00:00",
+      "score": 12,
+      "requirements": [
+        "date_creation",
+        "choix_DA_observable",
+        "source_primaire",
+        "image_du_projet_et_droits",
+        "doublon_identite"
+      ]
+    },
+    {
+      "url": "https://momentfactory.com/collections/all",
+      "source": "Moment Factory",
+      "source_category": "01 Spectacle Concert",
+      "priority": "P1",
+      "status": "a_verifier",
+      "found_at": "2026-11-13T18:14:13.837233+00:00",
+      "score": 12,
+      "requirements": [
+        "date_creation",
+        "choix_DA_observable",
+        "source_primaire",
+        "image_du_projet_et_droits",
+        "doublon_identite"
+      ]
+    },
+    {
+      "url": "https://stufish.com/project/addison-rae/",
+      "source": "STUFISH",
+      "source_category": "01 Spectacle Concert",
+      "priority": "P1",
+      "status": "a_verifier",
+      "found_at": "2026-11-13T18:14:13.837233+00:00",
+      "score": 12,
+      "requirements": [
+        "date_creation",
+        "choix_DA_observable",
+        "source_primaire",
+        "image_du_projet_et_droits",
+        "doublon_identite"
+      ]
+    },
+    {
+      "url": "https://stufish.com/project/adriatic-sound-festival/",
+      "source": "STUFISH",
+      "source_category": "01 Spectacle Concert",
+      "priority": "P1",
+      "status": "a_verifier",
+      "found_at": "2026-11-13T18:14:13.837233+00:00",
+      "score": 12,
+      "requirements": [
+        "date_creation",
+        "choix_DA_observable",
+        "source_primaire",
+        "image_du_projet_et_droits",
+        "doublon_identite"
+      ]
+    },
+    {
+      "url": "https://stufish.com/project/anna-vissi/",
+      "source": "STUFISH",
+      "source_category": "01 Spectacle Concert",
+      "priority": "P1",
+      "status": "a_verifier",
+      "found_at": "2026-11-13T18:14:13.837233+00:00",
+      "score": 12,
+      "requirements": [
+        "date_creation",
+        "choix_DA_observable",
+        "source_primaire",
+        "image_du_projet_et_droits",
+        "doublon_identite"
+      ]
+    },
+    {
+      "url": "https://stufish.com/project/apple-50/",
+      "source": "STUFISH",
+      "source_category": "01 Spectacle Concert",
+      "priority": "P1",
+      "status": "a_verifier",
+      "found_at": "2026-11-13T18:14:13.837233+00:00",
+      "score": 12,
+      "requirements": [
+        "date_creation",
+        "choix_DA_observable",
+        "source_primaire",
+        "image_du_projet_et_droits",
+        "doublon_identite"
+      ]
+    },
+    {
+      "url": "https://stufish.com/project/benson-boone-2/",
+      "source": "STUFISH",
+      "source_category": "01 Spectacle Concert",
+      "priority": "P1",
+      "status": "a_verifier",
+      "found_at": "2026-11-13T18:14:13.837233+00:00",
+      "score": 12,
+      "requirements": [
+        "date_creation",
+        "choix_DA_observable",
+        "source_primaire",
+        "image_du_projet_et_droits",
+        "doublon_identite"
+      ]
+    },
+    {
+      "url": "https://stufish.com/project/benson-boone/",
+      "source": "STUFISH",
+      "source_category": "01 Spectacle Concert",
+      "priority": "P1",
+      "status": "a_verifier",
+      "found_at": "2026-11-13T18:14:13.837233+00:00",
+      "score": 12,
       "requirements": [
         "date_creation",
         "choix_DA_observable",
