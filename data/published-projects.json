@@ -1,7 +1,17 @@
 {
   "description": "Cumulative seen-project register; retain entries when projects leave the live feed; compare URL and semantic identity.",
-  "updated": "2026-11-13T17:00:00+01:00",
+  "updated": "2026-11-13T20:00:00+01:00",
   "projects": [
+    {
+      "url": "https://www.promonews.tv/videos/2026/11/11/blackhaine-northside-needs-me-mau-morgo/96936",
+      "title": "Blackhaine — la caméra fait ressentir le désordre",
+      "category": "14 Musique Clips"
+    },
+    {
+      "url": "https://www.promonews.tv/videos/2026/11/11/sports-team-billy-kris-r/96941",
+      "title": "Sports Team — un masque suffit à rendre le quotidien inquiétant",
+      "category": "14 Musique Clips"
+    },
     {
       "url": "https://stufish.com/project/arashi/",
       "title": "Arashi — le temps reprend vie sur scène",
