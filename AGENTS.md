@@ -1,3 +1,10 @@
+## Arbitrages éditoriaux prioritaires — 13 novembre 2026 (retours de lecture)
+
+- **Rester dans le coeur de RADAR DA.** Un projet d'art contemporain, de performance ou d'opéra n'est pas sélectionné simplement parce qu'il possède un décor ou une installation. Il doit montrer un mécanisme de DA réellement convaincant et directement utile au regard porté sur concerts, clips, shows TV, spectacles, scénographie ou lancements scéniques. La fiche « Tammy Nguyen — Timaeus and the Teacher » a été retirée du flux à la demande du lecteur pour défaut de pertinence ; ne pas la republier sous une autre URL.
+- **Choix des images : privilégier le dispositif, pas le corps exposé.** Éviter d'accumuler en couverture des femmes peu vêtues, tenues très échancrées, poses sexualisées ou gros plans qui n'expliquent pas la DA. Pour un concert, clip ou show TV, préférer un plan d'ensemble pertinent montrant l'espace, le décor, l'éclairage et la composition. Ce choix iconographique ne constitue ni une interdiction de traiter les artistes ni un prétexte pour utiliser une photo d'un autre projet. Garder les crédits et vérifier les droits de réaffichage.
+- **Écrire concret.** Refuser les titres et intertitres creux (« le noir comme charnière », « changement d'échelle par les corps », « la silhouette fait le show ») s'ils n'explicitent aucun mécanisme observable. Dire plutôt *ce qui change dans le cadre, comment et pourquoi le regard est orienté*. Distinguer les faits des lectures hypothétiques.
+- **Interface :** les boutons « Visuels du projet » ont été retirés à la demande du lecteur. Garder l'image pertinente dans la carte et le lien « Source » ; ne pas réintroduire ce bouton.
+
 ## Règles en vigueur pour les nouvelles vagues
 
 Chaque vendredi, rechercher directement les clips sortis dans les 72 dernières heures auprès des artistes, labels, studios et médias spécialisés. Vérifier la date du clip, distincte de celle du single ou de l’article, et relever un plan, un raccord ou un passage documenté avant de noter. Le plafond concerne la publication, pas la prospection.
