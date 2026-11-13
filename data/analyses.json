@@ -1459,5 +1459,38 @@
       "Décryptage des choix",
       "Enseignement DA"
     ]
+  },
+  "https://stufish.com/project/arashi/": {
+    "intro": "**Pour les adieux d’Arashi, le décor ne commence pas par un effet spectaculaire : il remet le temps en marche.** Une grande boîte LED apparaît au-dessus du plateau. Elle évoque une horloge, avant de révéler les cinq artistes et de lancer une scène qui ne cesse de se transformer.",
+    "points": [
+      [
+        "L'essentiel",
+        "**Le retour du groupe devient une histoire racontée par la scène.** Le studio WOW explique que l’ouverture fait défiler le temps depuis le dernier concert diffusé en 2020 jusqu’aux retrouvailles de 2026. La boîte s’élève, les artistes apparaissent, puis l’arc-en-ciel du précédent concert revient à l’image."
+      ],
+      [
+        "Intention",
+        "**Faire ressentir la continuité entre la séparation et les retrouvailles.** Cette intention est documentée par WOW, qui dit avoir travaillé à transmettre l’histoire et la gratitude du groupe envers ses fans. La machinerie n’est donc pas seulement là pour impressionner : elle accompagne un moment chargé de mémoire."
+      ],
+      [
+        "Idée & DA",
+        "**La scénographie change d’échelle en même temps que le récit.** STUFISH décrit des écrans dissimulés qui émergent, des modules lumineux suspendus qui changent de configuration et une scène secondaire circulaire qui monte jusqu’à neuf mètres avant de passer au-dessus du public. Le spectacle quitte progressivement son cadre frontal : l’action se déplace jusque dans les gradins."
+      ],
+      [
+        "Pour un DA",
+        "**Relie chaque transformation du décor à une étape de l’histoire.** Ici, l’horloge matérialise l’attente, l’apparition des artistes marque le retour et le déplacement au-dessus de la foule transforme les retrouvailles en expérience collective. Sans cette progression, les mêmes machines seraient surtout une démonstration technique."
+      ]
+    ],
+    "takeaway": "**La force du dispositif tient à l’ordre des transformations : chaque mouvement change le sens du spectacle, pas seulement son apparence.**",
+    "source": "STUFISH, « Arashi — Farewell Tour Japan » ; WOW, « ARASHI LIVE TOUR 2026 We are ARASHI » ; TBS NEWS DIG, compte rendu du dernier concert.",
+    "verified": true,
+    "reviewed_at": "2026-11-13T09:00:00+01:00",
+    "editorial_method": "Contrôle éditorial : accroche non technique, intention documentée par WOW, trois choix scénographiques précis, effets distincts, conseil spécifique, absence de doublons. Photo authentique publiée par le studio WOW, montrant la boîte LED suspendue ; droits de réaffichage non confirmés, chargement sur le site public non vérifié.",
+    "tip": "**Imagine une scène de retrouvailles en trois temps.** Quel objet matérialise l'attente, quel changement annonce le retour et quel mouvement rapproche réellement les artistes du public ?",
+    "reading_sequence": [
+      "Observation du visuel",
+      "Concept et intention",
+      "Décryptage des choix",
+      "Enseignement DA"
+    ]
   }
 }
