@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-13T07:00:17.143Z",
+  "updated_at": "2026-11-13T09:00:00+01:00",
   "status": "editorial_reviewed",
   "working_feeds": [
     {
@@ -454,6 +454,22 @@
     "with_images": 82
   },
   "items": [
+    {
+      "title": "Arashi — le temps reprend vie sur scène",
+      "title_fr": "Arashi — le temps reprend vie sur scène",
+      "url": "https://stufish.com/project/arashi/",
+      "category": "01 Spectacle Concert",
+      "source": "STUFISH / WOW / TBS",
+      "published": "2026-11-13",
+      "radar_added_at": "2026-11-13T09:00:00+01:00",
+      "summary": "Pour sa tournée d'adieu, Arashi fait surgir une boîte LED comme une horloge géante, puis déploie écrans mobiles et scènes au-dessus du public. Le décor donne une forme au temps retrouvé et à la relation avec les fans.",
+      "summary_fr": "Pour sa tournée d'adieu, Arashi fait surgir une boîte LED comme une horloge géante, puis déploie écrans mobiles et scènes au-dessus du public. Le décor donne une forme au temps retrouvé et à la relation avec les fans.",
+      "image": "https://www.w0w.co.jp/filestore/0000000/0007456.jpg",
+      "image_credit": "Visuel de la tournée « We are ARASHI » publié par WOW, studio chargé de la création vidéo ; image distante non réhébergée. Autorisation de réaffichage non confirmée.",
+      "image_source_url": "https://www.w0w.co.jp/en/works/we_are_arashi",
+      "status": "editorial_reviewed",
+      "angle": "Une boîte LED devient horloge, puis point de départ d'une scénographie mobile qui matérialise les retrouvailles."
+    },
     {
       "title": "Bricknasty — un quartier devenu cauchemar animé",
       "title_fr": "Bricknasty — un quartier devenu cauchemar animé",
