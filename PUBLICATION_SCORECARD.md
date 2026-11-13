@@ -15,9 +15,9 @@ On ne publie pas parce qu'un projet est récent ou parce qu'il faut remplir un q
 ## Conditions obligatoires avant publication
 1. Projet identifiable, source consultable, date de sortie ou d'actualité contrôlée, absence de doublon.
 2. Au moins **un choix DA précis** et son **effet produit** ; aucun texte générique interchangeable.
-3. **Parcours visuel obligatoire.** Chercher en priorité un visuel authentique du projet, dont le réaffichage est vérifié. Si aucun visuel ne peut être remonté sur la carte, ajouter un accès « Visuels du projet » vers une galerie, une page illustrée ou un lecteur officiel vérifié. Si ces deux pistes échouent, créer automatiquement une illustration éditoriale après validation du sujet, l’identifier sur la carte et créditer sa création. L’illustration ne sert pas de preuve. Si la création échoue, garder la fiche en attente de visuel.
+3. **Image dans le flux obligatoire.** Chaque nouvelle fiche doit afficher une image dans le flux. Chercher d’abord un visuel du projet, puis croiser les sources (artiste, studio, production, presse, photographe) pour trouver une image pertinente et réutilisable. Si aucun visuel du projet n’est exploitable, utiliser un visuel contextuel réutilisable qui éclaire le choix DA ou créer une illustration éditoriale cohérente. Légender et créditer ces visuels sur la carte. Le bouton « Visuels du projet » complète l’image de la carte. Si aucun visuel ne peut être produit et vérifié, la fiche reste en attente.
 4. Analyse relue et source accessible ; pas de « l'article dit que », « nous supposons que », « on parle de », ni remplissage technique.
-5. Vérifier après commit le rendu, l’image et sa légende ou l’accès « Visuels du projet ».
+5. Vérifier après commit le rendu, le chargement de l’image dans le flux et sa légende le cas échéant.
 
 ## Voix et structure
 - **L'essentiel** : ce qui se passe, en une ou deux phrases qui donnent immédiatement l'idée visuelle.
@@ -27,14 +27,14 @@ On ne publie pas parce qu'un projet est récent ou parce qu'il faut remplir un q
 - Phrases courtes, ton d'un DA qui montre et explique, **gras** sur les mots-clés, sans métalangage ni commentaire sur la source.
 
 ## Visuels
-Chercher en priorité un visuel authentique du projet, dont le réaffichage est vérifié. Si aucun visuel ne peut être remonté sur la carte, ajouter un accès « Visuels du projet » vers une galerie, une page illustrée ou un lecteur officiel vérifié. Si ces deux pistes échouent, créer automatiquement une illustration éditoriale après validation du sujet, l’identifier sur la carte et créditer sa création. L’illustration ne sert pas de preuve. Si la création échoue, garder la fiche en attente de visuel.
+Chaque nouvelle fiche doit afficher une image dans le flux. Chercher d’abord un visuel du projet, puis croiser les sources (artiste, studio, production, presse, photographe) pour trouver une image pertinente et réutilisable. Si aucun visuel du projet n’est exploitable, utiliser un visuel contextuel réutilisable qui éclaire le choix DA ou créer une illustration éditoriale cohérente. Légender et créditer ces visuels sur la carte. Le bouton « Visuels du projet » complète l’image de la carte. Si aucun visuel ne peut être produit et vérifié, la fiche reste en attente.
 
 ## Publication et audit
 Enregistrer avec chaque candidat : note détaillée, décision, source, date, angle DA, choix, effet, enseignement, URL image, type de visuel (projet/illustration), crédit, URL de source. Refuser toute publication si un critère obligatoire manque. Publier seulement les fiches validées, puis contrôler le rendu public. Mesurer « analysés / retenus / publiés / visuels affichés », pas seulement « sources ouvertes ».
 
 ## Cadence éditoriale
 - **Cible : 3 à 7 nouvelles fiches par vague, plafond de 7**, sans quota forcé : publier moins si moins de projets méritent le barème.
-- **Repli automatique** : créer une illustration seulement en l’absence de visuel réutilisable et de page visuelle vérifiée.
+- **Repli automatique** : utiliser un visuel contextuel réutilisable ou créer une illustration si la recherche croisée ne trouve pas d’image du projet exploitable.
 
 ## Veto anti-hors-sujet (incident Strokes, 13 novembre)
 **Un procédé original n'est pas automatiquement un projet pertinent pour RADAR DA.** Avant la note, exiger trois réponses appuyées sur des observations du projet : (1) quel choix de direction artistique précis organise l'œuvre ? (2) par quel mécanisme perceptible ce choix agit-il sur l'espace, l'image, le rythme ou le regard ? (3) quelle méthode de conception concrète un DA peut-il réemployer ? Si une réponse reste générique, descriptive ou spéculative, **veto éditorial même à 19/20**. Ne jamais déduire un score élevé d'une seule singularité (marionnettes, technologie, prouesse lumière, etc.). Exiger une seconde lecture indépendante de la note : « est-ce une découverte réellement enrichissante pour nos secteurs prioritaires ? ». En cas de doute, ne pas publier.

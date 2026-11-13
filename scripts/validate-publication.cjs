@@ -64,13 +64,14 @@ function validatePublication(base, head) {
         gate.scores[field] > 0 && gate.scores[field] <= limits[i]) ||
         total < 14) reject('Barème incomplet ou note sous le seuil.');
     if (!['choice', 'effect', 'lesson', 'second_reading'].every(field => clean(gate?.[field]))) reject('Veto éditorial ou seconde lecture non documentés.');
-    if (item.image && (!/^https:\/\//i.test(item.image) || !canonical(item.image_source_url) || !clean(item.image_credit))) {
-      reject('Image sans provenance ou crédit vérifiable.');
+    if (!item.image || !/^https:\/\//i.test(item.image) || !canonical(item.image_source_url) || !clean(item.image_credit)) {
+      reject('Image dans le flux obligatoire, avec provenance et crédit.');
     }
-    if (!item.image && !canonical(item.visual_url)) reject('Image ou accès aux visuels du projet obligatoire.');
-    if (item.image_kind === 'editorial_illustration' &&
-        (!item.image || !clean(item.image_alt) || item.visual_url)) {
-      reject('Illustration de repli sans description ou avec un accès visuel déjà disponible.');
+    if (item.image_kind && !['project', 'contextual', 'editorial_illustration'].includes(item.image_kind)) {
+      reject('Type de visuel inconnu.');
+    }
+    if (['contextual', 'editorial_illustration'].includes(item.image_kind) && !clean(item.image_alt)) {
+      reject('Description du visuel contextuel ou de l’illustration manquante.');
     }
     const visits = Array.isArray(gate?.sources) ? gate.sources : [];
     const urls = new Set(visits.filter(source => canonical(source.url) && clean(source.locator) &&
