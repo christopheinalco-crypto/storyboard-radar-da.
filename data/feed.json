@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-13T16:00:00+01:00",
+  "updated_at": "2026-11-13T17:00:00+01:00",
   "status": "editorial_reviewed",
   "working_feeds": [
     {
@@ -454,6 +454,38 @@
     "with_images": 82
   },
   "items": [
+    {
+      "title": "U2 — le rideau rouge inverse la place du public",
+      "title_fr": "U2 — le rideau rouge inverse la place du public",
+      "url": "https://ultimateclassicrock.com/u2-2027-tour-production-visuals/",
+      "category": "01 Spectacle Concert",
+      "source": "Ultimate Classic Rock / présentation U2 à iHeartRadio",
+      "published": "2026-11-12",
+      "radar_added_at": "2026-11-13T17:00:00+01:00",
+      "summary": "Les premières esquisses de la tournée U2 2027 montrent un rideau rouge monumental et des guirlandes de fête foraine. Bono présente une inversion : le public serait symboliquement en coulisses, face au spectacle.",
+      "summary_fr": "Les premières esquisses de la tournée U2 2027 montrent un rideau rouge monumental et des guirlandes de fête foraine. Bono présente une inversion : le public serait symboliquement en coulisses, face au spectacle.",
+      "image": "https://townsquare.media/site/295/files/2026/11/attachment-bono-2026.jpg?q=75&w=980",
+      "image_credit": "Photo contextuelle de Bono, source Ultimate Classic Rock / Kamil Krzaczynski / AFP via Getty Images ; ce n'est pas une image de la scénographie et droits de réaffichage non confirmés.",
+      "image_source_url": "https://ultimateclassicrock.com/u2-2027-tour-production-visuals/",
+      "status": "editorial_reviewed",
+      "angle": "**Le dispositif intéressant n'est pas le rideau rouge, mais le changement de point de vue qu'il promet.**"
+    },
+    {
+      "title": "Them & I — huit prises pour un décor qui se transforme en direct",
+      "title_fr": "Them & I — huit prises pour un décor qui se transforme en direct",
+      "url": "https://www.promonews.tv/videos/2026/11/02/them-i-say-you-dont-jim-longden/96822",
+      "category": "14 Musique Clips",
+      "source": "Promonews / Jim Longden",
+      "published": "2026-11-02",
+      "radar_added_at": "2026-11-13T17:00:00+01:00",
+      "summary": "Jim Longden tourne un clip en plan-séquence sur pellicule 16 mm avec seulement huit prises disponibles. Accessoires et figurants déplacent le décor pendant que la caméra continue : le plateau devient la mécanique du récit.",
+      "summary_fr": "Jim Longden tourne un clip en plan-séquence sur pellicule 16 mm avec seulement huit prises disponibles. Accessoires et figurants déplacent le décor pendant que la caméra continue : le plateau devient la mécanique du récit.",
+      "image": "https://www.promonews.tv/sites/default/files/styles/large/public/2026-11/them-i-say-you-dont.jpg",
+      "image_credit": "Visuel contextuel lié au clip, URL illustrative non vérifiée ; droits de réaffichage non confirmés.",
+      "image_source_url": "https://www.promonews.tv/videos/2026/11/02/them-i-say-you-dont-jim-longden/96822",
+      "status": "editorial_reviewed",
+      "angle": "**Quand le montage disparaît, la scénographie devient l'outil de transition.**"
+    },
     {
       "title": "The Strokes — des marionnettes pour rendre la satire visible",
       "title_fr": "The Strokes — des marionnettes pour rendre la satire visible",
