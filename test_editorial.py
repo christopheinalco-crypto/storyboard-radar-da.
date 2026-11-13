@@ -17,6 +17,9 @@ wanted = {
     "EXCLUSIONS",
     "ANNOUNCEMENTS",
     "BLOCKED_STORIES",
+    "RADAR_ALLOWED_CATEGORIES",
+    "RADAR_PROJECT",
+    "RADAR_OFFTOPIC",
     "editorial_precheck",
 }
 
@@ -33,7 +36,7 @@ for node in tree.body:
             nodes.append(node)
 
     elif isinstance(node, ast.FunctionDef):
-        if node.name == "editorial_precheck":
+        if node.name in {"editorial_precheck", "radar_in_scope"}:
             nodes.append(node)
 
 namespace = {"re": re}
@@ -71,7 +74,7 @@ cases = [
             "category": "03 DA Graphisme",
             "summary": "A studio creates a visual identity",
         },
-        True,
+        False,
     ),
     (
         "Tour announcement",

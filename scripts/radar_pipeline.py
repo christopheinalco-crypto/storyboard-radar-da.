@@ -23,11 +23,11 @@ def load(name, fallback):
         return fallback
 
 def normalize(url):
-    return re.sub(r"/+$", "", url.split("#", 1)[0].split("?", 1)[0]).lower()
+    return re.sub(r"/+$", "", url.split("#", 1)[0]).lower()
 
 def project_key(url):
     path = unquote(urlparse(url).path).lower()
-    slug = re.sub(r"[^a-z0-9]+", " ", path.split("/")[-1])
+    slug = re.sub(r"[^a-z0-9]+", " ", path.rstrip("/").split("/")[-1])
     return " ".join(w for w in slug.split() if w not in ("the", "and", "with", "video", "music", "official", "2026"))
 
 def score(url, category, priority):
@@ -56,7 +56,8 @@ def score(url, category, priority):
     return pts
 
 def main():
-    discoveries = load("source-discoveries.json", {}).get("items", [])
+    discovery_report = json.loads((DATA / "source-discoveries.json").read_text(encoding="utf-8"))
+    discoveries = discovery_report["items"]
     feed = load("feed.json", {}).get("items", [])
     registry = load("published-projects.json", {}).get("projects", [])
     queue = load("editorial-queue.json", {}).get("candidates", [])
@@ -75,7 +76,7 @@ def main():
         pts = score(url, category, priority)
         if pts < 7:
             continue
-        ranked.append({**item, "score": pts, "status": "a_verifier", "requirements": ["date_creation", "choix_DA_observable", "source_primaire", "image_du_projet_et_droits", "doublon_identite"]})
+        ranked.append({**item, "score": pts, "status": "a_verifier", "requirements": ["date_creation", "choix_DA_observable", "source_primaire", "visuel_verifie_ou_exception_scorecard", "doublon_identite"]})
     ranked.sort(key=lambda x: (-x["score"], x.get("url", "")))
     # Reserve coverage across sectors instead of letting the first source dominate.
     selected, domains, categories, seen = [], {}, {}, set()
@@ -99,7 +100,7 @@ def main():
         selected.append(item)
         if len(selected) >= 160:
             break
-    report = {"updated_at": NOW, "status": "selection_non_verifiee", "warning": "Scores = priorisation de liens, jamais validation editoriale, date ou droit image.", "total_discoveries": len(discoveries), "ranked": len(ranked), "shortlisted": len(selected), "by_category": categories, "items": selected}
+    report = {"wave_id": discovery_report["wave_id"], "updated_at": NOW, "status": "selection_non_verifiee", "warning": "Scores = priorisation de liens, jamais validation editoriale, date ou droit image.", "total_discoveries": len(discoveries), "ranked": len(ranked), "shortlisted": len(selected), "by_category": categories, "items": selected}
     (DATA / "editorial-shortlist.json").write_text(json.dumps(report, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     print(f"RADAR DA shortlist: {len(selected)} candidats non verifies / {len(discoveries)} liens; categories={categories}")
 

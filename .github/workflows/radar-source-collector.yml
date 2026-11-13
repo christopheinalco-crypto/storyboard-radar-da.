@@ -12,7 +12,7 @@ on:
 permissions:
   contents: write
 concurrency:
-  group: radar-source-collector
+  group: radar-source-collector-${{ github.ref }}
   cancel-in-progress: false
 jobs:
   collect:
@@ -27,18 +27,39 @@ jobs:
           python-version: '3.12'
       - name: Vérifier la syntaxe des scripts
         run: python -m py_compile scripts/collect_sources.py scripts/radar_pipeline.py scripts/inspect_projects.py
+      - name: Isoler les rapports de cette exécution
+        run: rm data/{source-discoveries,editorial-shortlist,project-inspections}.json
+      - name: Identifier la vague
+        run: echo "RADAR_WAVE_ID=github-${GITHUB_RUN_ID}-${GITHUB_RUN_ATTEMPT}" >> "$GITHUB_ENV"
       - name: Collecter et tracer les sources
-        run: |
-          python scripts/collect_sources.py
-          python scripts/radar_pipeline.py
-          python scripts/inspect_projects.py
+        id: collect
+        run: python scripts/collect_sources.py
+      - name: Présélectionner les liens
+        run: python scripts/radar_pipeline.py
+      - name: Examiner les pages projets
+        run: python scripts/inspect_projects.py
+      - name: Archiver les preuves de cette exécution
+        if: always() && steps.collect.outcome == 'success'
+        uses: actions/upload-artifact@v4
+        with:
+          name: radar-collecte-${{ github.run_id }}-${{ github.run_attempt }}
+          if-no-files-found: warn
+          path: |
+            data/source-coverage.json
+            data/source-discoveries.json
+            data/editorial-shortlist.json
+            data/project-inspections.json
       - name: Enregistrer audit et découvertes sans toucher au flux public
+        if: github.ref == 'refs/heads/main'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add data/source-coverage.json data/source-discoveries.json data/editorial-shortlist.json data/project-inspections.json
-          if ! git diff --cached --quiet; then
-            git commit -m "RADAR DA: audit automatique des sources et découvertes"
-            git pull --rebase origin "${GITHUB_REF_NAME}"
-            git push origin "HEAD:${GITHUB_REF_NAME}"
-          fi
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m "RADAR DA: audit automatique des sources et découvertes"
+          for attempt in 1 2 3; do
+            git fetch origin main
+            git rebase origin/main
+            if git push origin HEAD:refs/heads/main; then exit 0; fi
+          done
+          exit 1

@@ -1,3 +1,4 @@
+const validatePublication = require('../scripts/validate-publication.cjs');
 const { execFileSync } = require('node:child_process');
 const { readFileSync } = require('node:fs');
 const { isDeepStrictEqual } = require('node:util');
@@ -19,6 +20,10 @@ for (const update of readFileSync(0, 'utf8').trim().split(/\r?\n/)) {
   const [, localSha, remoteRef, remoteSha] = update.split(/\s+/);
   if (remoteRef !== 'refs/heads/main' || /^0+$/.test(localSha)) continue;
 
+  for (const error of validatePublication(remoteSha, localSha)) {
+    console.error(error);
+    process.exitCode = 1;
+  }
   const previous = analysesAt(remoteSha);
   const next = analysesAt(localSha);
   for (const [url, analysis] of Object.entries(next)) {

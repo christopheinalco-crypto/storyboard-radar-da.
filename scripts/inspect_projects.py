@@ -43,7 +43,7 @@ class Metadata(HTMLParser):
 
 def inspect(item):
     url=item["url"]
-    out={**item,"inspected_at":NOW}
+    out={**item,"inspected_at":dt.datetime.now(dt.timezone.utc).isoformat()}
     try:
         req=Request(url,headers=HEADERS)
         with urlopen(req,timeout=10) as response:
@@ -57,7 +57,7 @@ def inspect(item):
         m=parser.meta
         title=html.unescape(m.get("og:title") or m.get("twitter:title") or parser.title).strip()
         image=m.get("og:image") or m.get("twitter:image") or ""
-        date=next((m[k] for k in ("article:published_time","datepublished","date","article:modified_time") if m.get(k)),"")
+        date=next((m[k] for k in ("article:published_time","datepublished","date") if m.get(k)),"")
         description=html.unescape(m.get("og:description") or m.get("description") or "").strip()
         out.update({"status":"page_inspected","final_url":final,"page_title":title[:220],
             "description":description[:900],"published_date_claim":date[:40],
@@ -75,7 +75,7 @@ def main():
         results=list(pool.map(inspect,candidates))
     ok=sum(x["status"]=="page_inspected" for x in results)
     with_image=sum(bool(x.get("image_candidate")) for x in results)
-    report={"updated_at":NOW,"attempted":len(results),"opened":ok,
+    report={"wave_id":shortlist["wave_id"],"updated_at":NOW,"attempted":len(results),"opened":ok,
         "failed":len(results)-ok,"image_candidates":with_image,
         "warning":"Images are candidates only, not tested for rendering or reuse. Editorial scores /20 and publication require review.",
         "items":results}

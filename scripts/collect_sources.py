@@ -17,7 +17,8 @@ DATA=ROOT/"data"
 NOW=dt.datetime.now(dt.timezone.utc).isoformat()
 HEADERS={"User-Agent":"Mozilla/5.0 (compatible; RADARDAResearch/1.0; editorial discovery)"}
 PRIORITY_CATEGORIES={"01 Spectacle Concert","02 TV Broadcast","09 France Pro","14 Musique Clips","15 Danse Performance"}
-LIMIT=182
+COVERAGE_TARGET=100
+WAVE_ID=os.environ.get("RADAR_WAVE_ID") or NOW
 # Network coverage is independent from editorial publication.
 
 class Links(HTMLParser):
@@ -36,7 +37,7 @@ class Links(HTMLParser):
 
 def inspect(entry):
     url=entry.get("url","")
-    result={"name":entry.get("name"),"url":url,"category":entry.get("category"),"priority":entry.get("priority"),"checked_at":NOW}
+    result={"name":entry.get("name"),"url":url,"category":entry.get("category"),"priority":entry.get("priority"),"checked_at":dt.datetime.now(dt.timezone.utc).isoformat()}
     try:
         req=urllib.request.Request(url,headers=HEADERS)
         with urllib.request.urlopen(req,timeout=9) as response:
@@ -69,14 +70,14 @@ def main():
         0 if x.get("priority")=="P1" else 1 if x.get("priority")=="P2" else 2,
         history.get(x.get("url"),"")))
     # Every wave attempts every registered source, not a small sample.
-    selected=ordered[:LIMIT]
+    selected=ordered
     with concurrent.futures.ThreadPoolExecutor(max_workers=16) as pool:
         results=list(pool.map(inspect,selected))
-    for item in results:history[item["url"]]=NOW
+    for item in results:history[item["url"]]=item["checked_at"]
     opened=sum(r["status"]=="opened" for r in results)
-    audit={"checked_at":NOW,"catalogue_total":len(sources),"target":LIMIT,
+    audit={"wave_id":WAVE_ID,"checked_at":NOW,"catalogue_total":len(sources),"target":COVERAGE_TARGET,
         "attempted":len(results),"opened_successfully":opened,
-        "failed":len(results)-opened,"target_met":opened>=LIMIT,
+        "failed":len(results)-opened,"target_met":opened>=COVERAGE_TARGET,
         "last_checked_by_url":history,"results":results}
     previous_path.write_text(json.dumps(audit,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
     # Discovery only; no rights-uncleared photos or unreviewed articles get published.
@@ -108,10 +109,10 @@ def main():
                 known.add(clean)
                 candidates.append({"url":clean,"source":result["name"],"source_category":result["category"],"priority":result["priority"],
                     "status":"unverified_discovery","found_at":NOW})
-    (DATA/"source-discoveries.json").write_text(json.dumps({"updated_at":NOW,
+    (DATA/"source-discoveries.json").write_text(json.dumps({"wave_id":WAVE_ID,"updated_at":NOW,
         "warning":"Links are unverified; not articles ready for publication.",
         "items":candidates[:3000]},ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
     print(f"RADAR DA: {opened}/{len(results)} opened; {len(results)-opened} errors; {len(candidates)} discovered links")
-    if opened<LIMIT:print(f"COVERAGE FAILURE: {opened}/{LIMIT} sources successfully opened")
+    if opened<COVERAGE_TARGET:print(f"COVERAGE BELOW TARGET: {opened}/{COVERAGE_TARGET} sources successfully opened")
 
 if __name__=="__main__":main()

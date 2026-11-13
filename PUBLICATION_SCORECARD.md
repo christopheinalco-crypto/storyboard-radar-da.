@@ -10,7 +10,7 @@ On ne publie pas parce qu'un projet est récent ou parce qu'il faut remplir un q
 - **Qualité et spécificité des preuves — /3** : 0 = affirmation gratuite ; 2 = détail vérifiable et source ; 3 = détails visuels documentés et recoupés.
 - **Fraîcheur et intérêt de veille — /3** : 0 = ancien/recyclé ; 2 = récent et pertinent ; 3 = nouveauté forte, peu évidente ou découverte rare.
 
-**16–20** : publication prioritaire. **14–15** : publication si analyse convaincante et visuel pertinent ou présentation sobre sans image. **11–13** : approfondir, ne pas publier. **0–10** : rejeter. La note ne remplace jamais les exigences ci-dessous.
+**16–20** : publication prioritaire. **14–15** : publication si analyse convaincante et visuel pertinent vérifié. **11–13** : approfondir, ne pas publier. **0–10** : rejeter. La note ne remplace jamais les exigences ci-dessous.
 
 ## Conditions obligatoires avant publication
 1. Projet identifiable, source consultable, date de sortie ou d'actualité contrôlée, absence de doublon.
@@ -33,7 +33,7 @@ Ordre de recherche : photo ou capture du projet chez la source → artiste/réal
 Enregistrer avec chaque candidat : note détaillée, décision, source, date, angle DA, choix, effet, enseignement, URL image, type de visuel (projet/illustration), crédit, URL de source. Refuser toute publication si un critère obligatoire manque ; l'image n'est plus obligatoire pour les projets excellents notés au moins 17/20. Publier seulement les fiches validées, puis contrôler le rendu public. Mesurer « analysés / retenus / publiés / visuels affichés », pas seulement « sources ouvertes ».
 
 ## Cadence éditoriale
-- **Cible : 3 à 7 nouvelles fiches par vague**, sans quota forcé : publier moins si moins de projets méritent le barème.
+- **Cible : 3 à 7 nouvelles fiches par vague, plafond de 7**, sans quota forcé : publier moins si moins de projets méritent le barème.
 - **Exception sans image : uniquement note ≥17/20**, avec analyse particulièrement riche, lien source et carte titre seul.
 
 ## Veto anti-hors-sujet (incident Strokes, 13 novembre)

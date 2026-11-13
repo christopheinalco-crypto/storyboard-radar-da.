@@ -1,3 +1,7 @@
+## Règles en vigueur pour les nouvelles vagues
+
+Le barème de [PUBLICATION_SCORECARD.md](PUBLICATION_SCORECARD.md) prévaut sur les anciens seuils, quotas, obligations de visuel et consignes relatives aux réseaux sociaux conservés ci-dessous. Viser 3 à 7 fiches, avec un plafond de 7 et sans minimum imposé. Exiger au moins 14/20 et le passage du veto éditorial. Sans visuel exploitable, exiger au moins 17/20 et la carte compacte sans emplacement image. Vérifier la date réelle du projet dans la fenêtre de 30 jours, les doublons dans le flux et le registre historique, et consigner les sources effectivement ouvertes avec les repères de relecture. Les archives sociales restent conservées.
+
 # RADAR DA — consignes éditoriales obligatoires
 
 Ces règles priment sur tout modèle de fiche ou de résumé générique lors de la création, réécriture et publication de `data/analyses.json`, `data/feed.json` et des contenus pédagogiques du site.

@@ -12,11 +12,13 @@ Ouvrir http://localhost:8000.
 
 ## Déployer et automatiser
 
-1. Créer un dépôt GitHub et y déposer **tout** le dossier (y compris `.github/workflows/veille.yml`).
-2. Dans Settings > Pages, publier depuis la branche principale, racine `/`.
-3. Dans Actions > Actualiser la veille, lancer `Run workflow` pour une première collecte. La tâche se répète ensuite chaque jour à 07:20 UTC (planification GitHub approximative, peut être retardée).
-4. L'URL GitHub Pages est partageable. Les nouvelles publications sont visibles par tous après la mise à jour du fichier `data/feed.json` et le déploiement Pages.
+GitHub Pages publie la racine de la branche `main`. Le workflow `radar-source-collector.yml` exécute la collecte, la présélection et l’inspection à quatre créneaux UTC et peut être lancé manuellement. Les rapports portent le même identifiant de vague et sont disponibles dans les artefacts de l’exécution. La collecte ne publie aucune fiche.
 
-**Attention** : seuls les flux RSS/Atom détectables des sources P1 sont récupérés automatiquement. Certains sites ne proposent pas de flux, bloquent les robots ou exigent un accès payant. Les éléments collectés sont des titres, extraits et liens : ils ne sont **pas** des analyses DA validées. L'interface n'invente ni visuels protégés, ni citations, ni résultats de campagne. La couche d'analyse approfondie requiert une étape éditoriale supplémentaire et éventuellement un backend IA avec clé API.
+Pour publier, appliquer le barème et la seconde lecture définis dans `AGENTS.md`. Dans chaque clone, activer le contrôle avec `git config core.hooksPath .githooks`. Consigner un `project_id` stable dans le flux et le registre, puis joindre à l’analyse `publication_review` avec `scores` (choice, effect, lesson, evidence, freshness), `choice`, `effect`, `lesson`, `second_reading` et `sources` (url, opened_at, locator). Les repères `editorial_review` restent obligatoires. Valider les fichiers, puis vérifier la version servie par Pages.
 
-Le fichier `data/sources.json` contient le répertoire importé, avec priorités et intérêt DA. La méthode de lecture par calques figure dans l'onglet « L'œil du DA ».
+```bash
+node scripts/validate-radar.cjs
+node scripts/validate-radar.mjs
+node scripts/validate-publication.cjs origin/main HEAD
+python test_editorial.py
+```
