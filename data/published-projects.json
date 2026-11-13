@@ -1,7 +1,12 @@
 {
   "description": "Cumulative seen-project register; retain entries when projects leave the live feed; compare URL and semantic identity.",
-  "updated": "2026-11-12T08:05:26.258Z",
+  "updated": "2026-11-13T12:00:00+01:00",
   "projects": [
+    {
+      "url": "https://www.kinetic-lights.com/2026-esc-vienna",
+      "title": "Eurovision 2026 — quand la lumière devient une scène mobile",
+      "category": "02 TV Broadcast"
+    },
     {
       "url": "https://www.atelier-lumieres.com/fr/programmation/indochine-arena-tour-le-show-immersif",
       "title": "Indochine — quand le concert déborde de l'écran",
