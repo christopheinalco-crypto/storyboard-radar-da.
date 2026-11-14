@@ -2139,5 +2139,62 @@
       ]
     },
     "editorial_method": " Relecture du 14 novembre : contexte du projet explicité dès l'ouverture pour un lecteur découvrant le sujet."
+  },
+  "https://www.promonews.tv/videos/2026/11/13/tora-i-ft-louis-culture-sundown-zaineb-abelque/96973": {
+    "title_fr": "Tora-i et Louis Culture — un clip tourné en marchant dans Londres",
+    "intro": "**« Sundown » est un clip de Tora-i avec Louis Culture, réalisé par Zaineb Abelque.** Les deux artistes marchent dans Londres au coucher du soleil. La réalisatrice part d'une sensation très simple : la chanson lui évoque une longue promenade chaleureuse. Elle choisit donc de **filmer cette promenade au lieu de la reconstruire en studio**.",
+    "points": [
+      [
+        "L'heure du jour devient le décor",
+        "La balade se déroule au moment où la ville passe du jour au soir. **La lumière et les rues donnent une continuité au film** sans exiger de grands changements de décor. Abelque et son chef opérateur Shyam Patel ont repéré le parcours ensemble : cette simplicité est préparée."
+      ],
+      [
+        "Un petit motif pour tenir les images ensemble",
+        "Des **bulles** reviennent pendant la promenade. La réalisatrice les décrit comme un fil ludique, une touche de magie. Elles donnent au clip un signe reconnaissable sans casser son allure spontanée."
+      ],
+      [
+        "Une intention modeste, mais précise",
+        "Le choix est de laisser la chaleur ressentie dans la musique guider le tournage : **marcher, observer, laisser respirer la ville**. L'intérêt DA tient à la cohérence entre sensation musicale, heure de prise de vues et motif visuel — pas à une prouesse technique."
+      ]
+    ],
+    "takeaway": "**Une sensation musicale peut devenir une règle de tournage.** Ici, une heure, un trajet et un motif léger suffisent à créer une identité visuelle cohérente.",
+    "tip": "Pour une chanson douce, choisir une seule heure de lumière et un parcours de trois lieux ; trouver un motif discret qui réapparaît sans imposer une histoire artificielle.",
+    "source": "https://www.promonews.tv/videos/2026/11/13/tora-i-ft-louis-culture-sundown-zaineb-abelque/96973",
+    "verified": true,
+    "reviewed_at": "2026-11-14T09:20:00+01:00",
+    "editorial_review": [
+      {
+        "url": "https://www.promonews.tv/videos/2026/11/13/tora-i-ft-louis-culture-sundown-zaineb-abelque/96973",
+        "locator": "Promonews, 13 novembre 2026 : notes de Zaineb Abelque sur la marche au coucher du soleil, les bulles et le repérage avec Shyam Patel."
+      },
+      {
+        "url": "https://popnable.com/uk/songs/1499726-tora-i-sundown",
+        "locator": "Crédits du clip et mise en ligne du 10 novembre 2026."
+      }
+    ],
+    "editorial_method": "Seconde lecture : projet, artistes et format nommés dès l'ouverture ; choix observables (promenade au coucher du soleil, bulles) reliés à l'intention explicitée par la réalisatrice ; image d'archive clairement identifiée comme contextuelle. Affichage public et droits de réaffichage du portrait non confirmés.",
+    "publication_review": {
+      "scores": {
+        "choice": 4,
+        "effect": 4,
+        "lesson": 4,
+        "evidence": 3,
+        "freshness": 2
+      },
+      "choice": "Transformer une sensation musicale en promenade filmée à l'heure du couchant.",
+      "effect": "Une continuité de lumière et de trajet donne au clip sa douceur.",
+      "lesson": "Définir un horaire, un parcours et un motif comme règles de DA.",
+      "second_reading": "Source de 13 novembre consultée, clip daté du 10 novembre. Visuel contextuel de l'artiste et non du clip, signalé comme tel. Vérification de rendu encore à faire.",
+      "sources": [
+        {
+          "url": "https://www.promonews.tv/videos/2026/11/13/tora-i-ft-louis-culture-sundown-zaineb-abelque/96973",
+          "locator": "Notes de la réalisatrice dans Promonews, 13 novembre 2026"
+        },
+        {
+          "url": "https://popnable.com/uk/songs/1499726-tora-i-sundown",
+          "locator": "Crédits et date du clip"
+        }
+      ]
+    }
   }
 }
