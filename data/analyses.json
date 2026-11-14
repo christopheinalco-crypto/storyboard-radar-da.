@@ -1935,5 +1935,62 @@
         }
       ]
     }
+  },
+  "https://www.promonews.tv/interviews/something-between-concert-sermon-scam-and-possession-ludovic-gontrand-making-pink-siifus/96678": {
+    "intro": "**Le vrai décor de ce clip, c'est une foule qui réagit.** Ludovic Gontrand installe Pink Siifu dans une véritable église aménagée dans un ancien cinéma londonien. Il ne demande pas aux quelque cent figurants de jouer une chorégraphie : il construit une cérémonie plausible, puis laisse l'énergie de l'artiste déplacer l'attention. Ce qu'on regarde au début comme une réunion religieuse devient peu à peu un concert inquiétant.",
+    "points": [
+      [
+        "Une salle crédible avant la performance",
+        "Le film commence par un violoncelliste, des rangées de sièges vides et des images proches du documentaire. Les visages ont été choisis pour leur singularité, loin d'un casting de figurants interchangeables. **Cette préparation donne une réalité à la salle** : quand Pink Siifu prend le contrôle du rassemblement, il détourne un monde qui semblait exister sans lui."
+      ],
+      [
+        "Diriger une situation, pas chaque réaction",
+        "Gontrand explique avoir demandé aux figurants de *réagir plutôt que jouer*. La caméra peut alors capter des échanges imprévus entre l'artiste, le prédicateur et la foule. La référence à Faust éclaire la place de Siifu : il n'est pas simplement celui qui prêche, mais la force qui influence le prédicateur. **Le choix de mise en scène transforme les spectateurs du rituel en moteur du récit.**"
+      ],
+      [
+        "Six heures pour filmer une montée collective",
+        "L'équipe ne disposait que de six heures dans la salle, avant une véritable cérémonie le soir. Trois mois de préparation ont servi à organiser la foule, les costumes et les images nécessaires au montage. Gontrand a commencé par les inserts et les textures de l'espace. **La liberté des réactions n'est pas l'absence de préparation : elle dépend d'un cadre soigneusement construit.**"
+      ]
+    ],
+    "takeaway": "Pour donner de l'ampleur à une performance avec peu de moyens, **crée une situation qui peut réellement se produire devant la caméra**. Choisis un lieu, des visages et une règle de jeu cohérents ; la réaction collective fera évoluer l'image au lieu de simplement remplir l'arrière-plan.",
+    "tip": "Sur un tournage de performance, compare une prise où les figurants répètent des gestes précis et une prise où ils réagissent à une action centrale. Observe ce que le cadre gagne en imprévu et ce qu'il perd en contrôle.",
+    "source": "https://www.promonews.tv/interviews/something-between-concert-sermon-scam-and-possession-ludovic-gontrand-making-pink-siifus/96678",
+    "verified": true,
+    "reviewed_at": "2026-11-14T06:00:00+01:00",
+    "editorial_review": [
+      {
+        "url": "https://www.promonews.tv/interviews/something-between-concert-sermon-scam-and-possession-ludovic-gontrand-making-pink-siifus/96678",
+        "locator": "Entretien du 10 novembre : casting de près de 100 figurants, réactions non jouées, tournage de six heures, références Faust et documentaire."
+      },
+      {
+        "url": "https://shotsmag.slateprod.io/news/view/pink-siifu-drops-the-devils-advocate",
+        "locator": "Article du 7 septembre : récit du prédicateur et de l'influence de Pink Siifu ; réalisation Gontrand et coproduction Pulse Films/Hamlet."
+      }
+    ],
+    "publication_review": {
+      "scores": {
+        "choice": 5,
+        "effect": 5,
+        "lesson": 4,
+        "evidence": 3,
+        "freshness": 1
+      },
+      "choice": "Mettre en place une cérémonie plausible dont les réactions collectives modifient progressivement la performance.",
+      "effect": "La foule fait basculer le film d'un faux documentaire religieux vers un concert de possession.",
+      "lesson": "Construire une situation et un casting qui permettent de filmer des réactions authentiques, plutôt que chorégraphier chaque visage.",
+      "second_reading": "Clip publié en septembre : l'actualité nouvelle est l'entretien de fabrication du 10 novembre, avec révélations concrètes sur casting, méthode de jeu et contrainte de six heures. Score 18/20 ; exception sans image pour ne pas reproduire des photographies dont les droits ne sont pas confirmés.",
+      "sources": [
+        {
+          "url": "https://www.promonews.tv/interviews/something-between-concert-sermon-scam-and-possession-ludovic-gontrand-making-pink-siifus/96678",
+          "locator": "Entretien original du réalisateur, 10 novembre 2026",
+          "opened_at": "2026-11-14T06:00:00+01:00"
+        },
+        {
+          "url": "https://shotsmag.slateprod.io/news/view/pink-siifu-drops-the-devils-advocate",
+          "locator": "Présentation du clip et crédits de production, 7 septembre 2026",
+          "opened_at": "2026-11-14T06:00:00+01:00"
+        }
+      ]
+    }
   }
 }
