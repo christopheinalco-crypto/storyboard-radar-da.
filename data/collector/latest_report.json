@@ -1,0 +1,3295 @@
+{
+  "run_at": "2026-11-14T17:27:46.060142+00:00",
+  "sources_total": 182,
+  "sources_checked": 182,
+  "sources_ok": 144,
+  "sources_failed": 38,
+  "new_candidate_links": 265,
+  "editorial_published": 0,
+  "note": "Discovery only; candidates are not verified or approved for publication.",
+  "checks": [
+    {
+      "name": "Balich Wonder Studio",
+      "url": "https://www.balichwonderstudio.com/",
+      "checked_at": "2026-11-14T17:27:46.060142+00:00",
+      "status": "ok",
+      "method": "html",
+      "items": [],
+      "evidence_url": "https://www.balichwonderstudio.com/"
+    },
+    {
+      "name": "Live Design",
+      "url": "https://www.livedesignonline.com/",
+      "checked_at": "2026-11-14T17:27:46.060142+00:00",
+      "status": "error",
+      "method": null,
+      "items": [],
+      "error": "response exceeds size limit"
+    },
+    {
+      "name": "Moment Factory",
+      "url": "https://momentfactory.com/",
+      "checked_at": "2026-11-14T17:27:46.060142+00:00",
+      "status": "error",
+      "method": null,
+      "items": [],
+      "error": "response exceeds size limit"
+    },
+    {
+      "name": "OISTAT",
+      "url": "https://oistat.org/",
+      "checked_at": "2026-11-14T17:27:46.060142+00:00",
+      "status": "ok",
+      "method": "html",
+      "items": [
+        {
+          "title": "resources_digital_theatre_words.php",
+          "url": "https://oistat.org/resources_digital_theatre_words.php",
+          "date": "",
+          "description": ""
+        }
+      ],
+      "evidence_url": "https://oistat.org/"
+    },
+    {
+      "name": "ShowTex",
+      "url": "https://www.showtex.com/fr/projets",
+      "checked_at": "2026-11-14T17:27:46.060142+00:00",
+      "status": "ok",
+      "method": "html",
+      "items": [
+        {
+          "title": "showcases",
+          "url": "https://www.showtex.com/en/showcases",
+          "date": "",
+          "description": ""
+        },
+        {
+          "title": "showcases",
+          "url": "https://www.showtex.com/nl/showcases",
+          "date": "",
+          "description": ""
+        },
+        {
+          "title": "velours de scene",
+          "url": "https://www.showtex.com/fr/produits/textiles/masquage-et-drapes/velours-de-scene",
+          "date": "",
+          "description": ""
+        },
+        {
+          "title": "rideaux etoiles showled",
+          "url": "https://www.showtex.com/fr/produits/textiles/toiles-de-fond-et-plafonds/rideaux-etoiles-showled",
+          "date": "",
+          "description": ""
+        },
+        {
+          "title": "scenographie et decoration",
+          "url": "https://www.showtex.com/fr/produits/textiles/scenographie-et-decoration",
+          "date": "",
+          "description": ""
+        },
+        {
+          "title": "voile tissus legers",
+          "url": "https://www.showtex.com/fr/produits/textiles/scenographie-et-decoration/voile-tissus-legers",
+          "date": "",
+          "description": ""
+        },
+        {
+          "title": "tissus extensibles",
+          "url": "https://www.showtex.com/fr/produits/textiles/scenographie-et-decoration/tissus-extensibles",
+          "date": "",
+          "description": ""
+        },
+        {
+          "title": "rideaux de fils",
+          "url": "https://www.showtex.com/fr/produits/textiles/scenographie-et-decoration/rideaux-de-fils",
+          "date": "",
+          "description": ""
+        },
+        {
+          "title": "materiaux textures",
+          "url": "https://www.showtex.com/fr/produits/textiles/scenographie-et-decoration/materiaux-textures",
+          "date": "",
+          "description": ""
+        },
+        {
+          "title": "tissus effet metallise",
+          "url": "https://www.showtex.com/fr/produits/textiles/scenographie-et-decoration/tissus-effet-metallise",
+          "date": "",
+          "description": ""
+        },
+        {
+          "title": "theatre et salle de spectacle",
+          "url": "https://www.showtex.com/fr/projets/theatre-et-salle-de-spectacle",
+          "date": "",
+          "description": ""
+        },
+        {
+          "title": "arts de la scene",
+          "url": "https://www.showtex.com/fr/projets/arts-de-la-scene",
+          "date": "",
+          "description": ""
+        },
+        {
+          "title": "la durabilite chez showtex des solutions ecoresponsables pour la scene et levenementiel",
+          "url": "https://www.showtex.com/fr/hub-d-expertise/la-durabilite-chez-showtex-des-solutions-ecoresponsables-pour-la-scene-et-levenementiel",
+          "date": "",
+          "description": ""
+        },
+        {
+          "title": "a propos de showtex",
+          "url": "https://www.showtex.com/fr/a-propos-de-showtex",
+          "date": "",
+          "description": ""
+        },
+        {
+          "title": "En savoir plus sur Voilages et écrans de projection enrichissent l’expérience de concert",
+          "url": "https://www.showtex.com/fr/projets/voilages-et-ecrans-de-projection-enrichissent-lexperience-de-concert",
+          "date": "",
+          "description": ""
+        },
+        {
+          "title": "En savoir plus sur Une symphonie de textiles transforme cette tournée de concerts",
+          "url": "https://www.showtex.com/fr/projets/une-symphonie-de-textiles-transforme-cette-tournee-de-concerts",
+          "date": "",
+          "description": ""
+        },
+        {
+          "title": "En savoir plus sur Un miroir kaléidoscopique au festival Clockenflap",
+          "url": "https://www.showtex.com/fr/projets/un-miroir-kaleidoscopique-au-festival-clockenflap",
+          "date": "",
+          "description": ""
+        },
+        {
+          "title": "En savoir plus sur Tissu modelable et cyclorama embellissent ce festival de techno",
+          "url": "https://www.showtex.com/fr/projets/tissu-modelable-et-cyclorama-embellissent-ce-festival-de-techno",
+          "date": "",
+          "description": ""
+        },
+        {
+          "title": "En savoir plus sur Le GiantMirror redéfinit la scénographie dans Rusalka",
+          "url": "https://www.showtex.com/fr/projets/le-giantmirror-redefinit-la-scenographie-dans-rusalka",
+          "date": "",
+          "description": ""
+        },
+        {
+          "title": "En savoir plus sur Éclipse totale avec ce tissue occultant",
+          "url": "https://www.showtex.com/fr/projets/eclipse-totale-avec-ce-tissue-occultant",
+          "date": "",
+          "description": ""
+        },
+        {
+          "title": "En savoir plus sur Un plafond tendu diffuseur de lumière sur scène",
+          "url": "https://www.showtex.com/fr/projets/un-plafond-tendu-diffuseur-de-lumiere-sur-scene",
+          "date": "",
+          "description": ""
+        },
+        {
+          "title": "politique en matiere de cookies de showtex",
+          "url": "https://www.showtex.com/fr/politique-en-matiere-de-cookies-de-showtex",
+          "date": "",
+          "description": ""
+        },
+        {
+          "title": "clause de non responsabilite de showtex",
+          "url": "https://www.showtex.com/fr/clause-de-non-responsabilite-de-showtex",
+          "date": "",
+          "description": ""
+        },
+        {
+          "title": "garantie showtex",
+          "url": "https://www.showtex.com/fr/garantie-showtex",
+          "date": "",
+          "description": ""
+        }
+      ],
+      "evidence_url": "https://www.showtex.com/fr/projets"
+    },
+    {
+      "name": "STIRworld Stage Design",
+      "url": "https://www.stirworld.com/tags/stage-design",
+      "checked_at": "2026-11-14T17:27:46.060142+00:00",
+      "status": "ok",
+      "method": "html",
+      "items": [
+        {
+          "title": "Serendipity Arts Festival",
+          "url": "https://www.stirworld.com/inspire-conversation-serendipity-arts-festival",
+          "date": "",
+          "description": ""
+        },
+        {
+          "title": "Mise-en-scène with STIR: Oscars 2022",
+          "url": "https://www.stirworld.com/inspire-conversation-mise-en-scene-with-stir-oscars-2022",
+          "date": "",
+          "description": ""
+        }
+      ],
+      "evidence_url": "https://www.stirworld.com/404.php"
+    },
+    {
+      "name": "STUFISH",
+      "url": "https://stufish.com/projects/",
+      "checked_at": "2026-11-14T17:27:46.060142+00:00",
+      "status": "ok",
+      "method": "html",
+      "items": [],
+      "evidence_url": "https://stufish.com/projects/"
+    },
+    {
+      "name": "TAIT",
+      "url": "https://www.taittowers.com/",
+      "checked_at": "2026-11-14T17:27:46.060142+00:00",
+      "status": "ok",
+      "method": "html",
+      "items": [],
+      "evidence_url": "https://www.taittowers.com/"
+    },
+    {
+      "name": "TPI Magazine",
+      "url": "https://www.tpimagazine.com/",
+      "checked_at": "2026-11-14T17:27:46.060142+00:00",
+      "status": "ok",
+      "method": "html",
+      "items": [
+        {
+          "title": "Behind the scenes of Daniel Caesar’s Son Of Spergy Tour",
+          "url": "https://www.tpimagazine.com/behind-the-scenes-of-daniel-caesars-son-of-spergy-tour",
+          "date": "",
+          "description": ""
+        },
+        {
+          "title": "Anna Vissi’s team stage a technical spectacular in Athens",
+          "url": "https://www.tpimagazine.com/anna-vissis-team-stage-a-technical-spectacular-in-athens",
+          "date": "",
+          "description": ""
+        },
+        {
+          "title": "Behind the SFX: ER Productions ignites The R&B Tour",
+          "url": "https://www.tpimagazine.com/behind-the-sfx-er-productions-ignites-rb-tour",
+          "date": "",
+          "description": ""
+        },
+        {
+          "title": "Creating A$AP Rocky’s Don’t Be Dumb Tour",
+          "url": "https://www.tpimagazine.com/creating-aap-rockys-dont-be-dumb-tour",
+          "date": "",
+          "description": ""
+        }
+      ],
+      "evidence_url": "https://www.tpimagazine.com/"
+    },
+    {
+      "name": "World Stage Design",
+      "url": "https://www.worldstagedesign.com/",
+      "checked_at": "2026-11-14T17:27:46.060142+00:00",
+      "status": "error",
+      "method": null,
+      "items": [],
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: EE certificate key too weak (_ssl.c:1011)>"
+    },
+    {
+      "name": "NewscastStudio",
+      "url": "https://www.newscaststudio.com/category/set-design/",
+      "checked_at": "2026-11-14T17:27:46.060142+00:00",
+      "status": "error",
+      "method": null,
+      "items": [],
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "name": "Brand New",
+      "url": "https://www.underconsideration.com/brandnew/",
+      "checked_at": "2026-11-14T17:27:46.060142+00:00",
+      "status": "ok",
+      "method": "html",
+      "items": [
+        {
+          "title": "show_of_hands.php",
+          "url": "https://www.underconsideration.com/brandnew/archives/show_of_hands.php",
+          "date": "",
+          "description": ""
+        }
+      ],
+      "evidence_url": "https://www.underconsideration.com/brandnew/"
+    },
+    {
+      "name": "Creative Review",
+      "url": "https://www.creativereview.co.uk/",
+      "checked_at": "2026-11-14T17:27:46.060142+00:00",
+      "status": "error",
+      "method": null,
+      "items": [],
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "name": "EyeCandy",
+      "url": "https://eyecannndy.com/",
+      "checked_at": "2026-11-14T17:27:46.060142+00:00",
+      "status": "ok",
+      "method": "html",
+      "items": [],
+      "evidence_url": "https://eyecannndy.com/"
+    },
+    {
+      "name": "It's Nice That",
+      "url": "https://www.itsnicethat.com/",
+      "checked_at": "2026-11-14T17:27:46.060142+00:00",
+      "status": "ok",
+      "method": "rss",
+      "items": [
+        {
+          "title": "UEFA Women’s Champions League zine collaborates with art duo Swedish Girls to bring fandom to the streets of Gothenburg",
+          "url": "https://www.itsnicethat.com/features/uefa-womens-champions-league-queenzine-swedish-girls-gothenburg-collaboration-sponsored-content-131126",
+          "date": "2026-11-13T11:00:00+00:00",
+          "description": "Queenzine is a fanzine that celebrates iconic figures in the UEFA Women’s Champions League and the fans that add fuel to their fire. To mark it’s most recent issue, physical copies of the mag sat in various cultural spots in Gothenburg, on custom stands made by one of Sweden’s most exciting art duos."
+        },
+        {
+          "title": "Vucko’s motion identity for Etsy is built on joy, simplicity and craft",
+          "url": "https://www.itsnicethat.com/articles/vucko-etsy-motion-graphic-design-sponsored-content-121126",
+          "date": "2026-11-12T14:00:00+00:00",
+          "description": "The studio’s motion design work for the online marketplace solidifies Etsy’s identity while providing it with the capacity to adapt to each department’s specific needs."
+        },
+        {
+          "title": "Georgie McAusland on refusing expensive tools to get more “squish and texture” into her drawings",
+          "url": "https://www.itsnicethat.com/articles/georgie-mcausland-illustration-discover-121126",
+          "date": "2026-11-12T09:00:00+00:00",
+          "description": "The artist is finding joy through drawing on location, capturing the true atmosphere of everyday scenes."
+        },
+        {
+          "title": "Dum Dum Studio’s inventive design emerges from an open mind and a love of play",
+          "url": "https://www.itsnicethat.com/articles/dum-dum-studio-graphic-design-discover-121126",
+          "date": "2026-11-12T09:00:00+00:00",
+          "description": "Whether it’s an identity, custom typeface or art direction, this studio is sourcing inspiration from the history of it’s home city, Monterrey – the industrial capital of Mexico."
+        },
+        {
+          "title": "Why the retro brand identities of Biabum studio have illustration built into their DNA",
+          "url": "https://www.itsnicethat.com/articles/biabum-graphic-design-illustration-discover-111126",
+          "date": "2026-11-11T09:00:00+00:00",
+          "description": "The Brazilian studio has a knack for finding the right colour palette to create something that will move people."
+        },
+        {
+          "title": "Missing summer? Dive into Emily Stein colourful and chaotic snaps of Italian waterparks",
+          "url": "https://www.itsnicethat.com/articles/emily-stein-aquasplash-photography-project-111126",
+          "date": "2026-11-11T09:00:00+00:00",
+          "description": "The photographer captures the retro aesthetics and loud, lurid nature of every kid’s dream day out: “A waterpark is summer turned up to full volume.”"
+        },
+        {
+          "title": "Adobe Max Miami 2026 goes live online",
+          "url": "https://www.itsnicethat.com/articles/adobe-max-miami-2026-creative-industry-sponsored-content-101126",
+          "date": "2026-11-10T16:00:00+00:00",
+          "description": "Adobe’s creativity conference returns on 10-11 November, with a free online pass and a roster that runs from Terry Crews to Adobe’s incoming CEO."
+        },
+        {
+          "title": "Trade Secrets: a free webinar series reveals the photography techniques behind Ana Flores, Sam Nicklin and Arielle Bobb-Willis photographs",
+          "url": "https://www.itsnicethat.com/articles/trade-secrets-mpb-photography-event-partnership-101126",
+          "date": "2026-11-10T16:00:00+00:00",
+          "description": "In partnership with MPB, we’re launching Trade Secrets – a three-part webinar series exploring the ideas, techniques and kit behind great photography, with practical advice from three of our favourite image-makers."
+        },
+        {
+          "title": "Nicer Tuesdays London: Get tickets for Studio Feixen, Oscar Hudson, Fiona Quadri and Adam Lin in December!",
+          "url": "https://www.itsnicethat.com/articles/nicer-tuesdays-december-london-launch-101126",
+          "date": "2026-11-10T13:00:00+00:00",
+          "description": "For our final event of the year, you can expect a feast of talks on playful typography systems, subversive cinema, public art and intimate photography from four fabulous creatives."
+        },
+        {
+          "title": "James Barnett and Poppy French document the eccentricities of Britain with warmth and humour",
+          "url": "https://www.itsnicethat.com/features/james-barnett-poppy-french-when-james-and-poppy-met-documentary-photography-101126",
+          "date": "2026-11-10T09:00:00+00:00",
+          "description": "For a new documentary series on It’s Nice That, the creative duo set about finding niche subcultures and communities around the UK and the characters at the heart of them. We chat to the content creator and photographer about their approach and discoveries."
+        },
+        {
+          "title": "“Strong and sporty”: Nymzo is the trendy chess brand designed for a new wave of players",
+          "url": "https://www.itsnicethat.com/articles/nymzo-product-design-project-101126",
+          "date": "2026-11-10T09:00:00+00:00",
+          "description": "Over the past few years chess changed – it caught the cool factor. But, the gear was at a stalemate. Here’s where Nymzo founders Elliott Walker and Tim Hucklesby enter the picture."
+        },
+        {
+          "title": "Decoding 22, A Million: Eric Timothy Carlson on carving Bon Iver’s iconic visual universe ten years later",
+          "url": "https://www.itsnicethat.com/articles/eric-timothy-carlson-bon-iver-22-a-million-graphic-design-101126",
+          "date": "2026-11-10T09:00:00+00:00",
+          "description": "Bon Iver’s esoteric and mysterious music spills out into it’s album cover in clusters of meaningful symbols, all thanks to this designer."
+        },
+        {
+          "title": "“You will always be a designer, whether that’s full time or not”",
+          "url": "https://www.itsnicethat.com/articles/creative-career-condundrums-if-you-could-jobs-advice-091126",
+          "date": "2026-11-09T09:00:00+00:00",
+          "description": "It’s not the same world as it used to be. Leave university, get a job and stay in that job for forty years. It’s also not the same as a mere five years ago, where you leave university, get a job and stay in that job for three years before moving on to another either. Creatives are forming uniquely shaped practices of their own design, consisting of multiple avenues. But what if we’re stretching ourselves too thin? In this week’s Creative Career Conundrums, Katie Cadwell, co-founder of branding s"
+        },
+        {
+          "title": "Elizabeth Goodspeed on the impossible economics of art education in the US",
+          "url": "https://www.itsnicethat.com/articles/elizabeth-goodspeed-art-school-economics-education-creative-industry-091126",
+          "date": "2026-11-09T09:00:00+00:00",
+          "description": "American art schools are closing even as tuition fees reach extraordinary heights, with new funding cuts set to make attendance even less attainable for many would-be students. But if an art education is worth more than the salary it produces, why have we accepted that only those who can afford it should get one?"
+        },
+        {
+          "title": "Mona Chalabi’s illustrated book about wealth inequality will make you talk to your friends about money",
+          "url": "https://www.itsnicethat.com/features/mona-chalabi-ten-lives-illustration-spotlight-091126",
+          "date": "2026-11-09T09:00:00+00:00",
+          "description": "Think you’re not a ‘numbers person’? The Pulitzer Prize-winning illustrator and journalist Mona Chalabi wants you to think again. On the release of her new book, Ten Lives, she chats about how pictures have the power to make economics accessible."
+        },
+        {
+          "title": "Starting a creative career has never felt harder – 28 industry voices on what comes next",
+          "url": "https://www.itsnicethat.com/features/career-predictions-for-junior-creatives-creative-industry-091126",
+          "date": "2026-11-09T08:00:00+00:00",
+          "description": "What will starting a creative career look like in the next few years? And what can everyone – new creatives and the organisations who employ them – do to navigate this situation?"
+        },
+        {
+          "title": "Cat How: “The industry will have to rebuild the bottom rung on purpose”",
+          "url": "https://www.itsnicethat.com/career-predictions/cat-how-091126",
+          "date": "2026-11-09T08:00:00+00:00",
+          "description": "It’s a tough time for people starting out in the creative industry right now. Together with Creative Lives in Progress we asked 28 people to predict what starting a creative career will look like over the next three years."
+        },
+        {
+          "title": "Jay Anderson: “The next-generation designer will be increasingly hybrid”",
+          "url": "https://www.itsnicethat.com/career-predictions/jay-anderson-091126",
+          "date": "2026-11-09T08:00:00+00:00",
+          "description": "It’s a tough time for people starting out in the creative industry right now. Together with Creative Lives in Progress we asked 28 people to predict what starting a creative career will look like over the next three years."
+        },
+        {
+          "title": "A New Direction’s Oliver Benjamin: “Make stuff and use the process to understand what you’re good at”",
+          "url": "https://www.itsnicethat.com/career-predictions/oliver-benjamin-091126",
+          "date": "2026-11-09T08:00:00+00:00",
+          "description": "It’s a tough time for people starting out in the creative industry right now. Together with Creative Lives in Progress we asked 28 people to predict what starting a creative career will look like over the next three years."
+        },
+        {
+          "title": "Caterina Bianchini: “We can’t keep asking where all the good designers are if we’re unwilling to help anyone become one”",
+          "url": "https://www.itsnicethat.com/career-predictions/caterina-bianchini-091126",
+          "date": "2026-11-09T08:00:00+00:00",
+          "description": "It’s a tough time for people starting out in the creative industry right now. Together with Creative Lives in Progress we asked 28 people to predict what starting a creative career will look like over the next three years."
+        }
+      ],
+      "evidence_url": "https://www.itsnicethat.com/",
+      "feed_url": "https://feeds2.feedburner.com/itsnicethat/SlXC"
+    },
+    {
+      "name": "Ads of the World",
+      "url": "https://www.adsoftheworld.com/",
+      "checked_at": "2026-11-14T17:27:46.060142+00:00",
+      "status": "error",
+      "method": null,
+      "items": [],
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "name": "D&AD",
+      "url": "https://www.dandad.org/",
+      "checked_at": "2026-11-14T17:27:46.060142+00:00",
+      "status": "ok",
+      "method": "html",
+      "items": [
+        {
+          "title": "festival",
+          "url": "https://www.dandad.org/festival",
+          "date": "",
+          "description": ""
+        }
+      ],
+      "evidence_url": "https://www.dandad.org/"
+    },
+    {
+      "name": "Design Indaba",
+      "url": "https://www.designindaba.com/",
+      "checked_at": "2026-11-14T17:27:46.060142+00:00",
+      "status": "ok",
+      "method": "html",
+      "items": [
+        {
+          "title": "africa now west africa",
+          "url": "https://www.designindaba.com/news-features/showcases/africa-now-west-africa",
+          "date": "",
+          "description": ""
+        },
+        {
+          "title": "design indaba festival 2019",
+          "url": "https://www.designindaba.com/news-features/showcases/design-indaba-festival-2019",
+          "date": "",
+          "description": ""
+        },
+        {
+          "title": "creative women design indaba conference 2017 are doing most",
+          "url": "https://www.designindaba.com/news-features/showcases/creative-women-design-indaba-conference-2017-are-doing-most",
+          "date": "",
+          "description": ""
+        },
+        {
+          "title": "through african lens",
+          "url": "https://www.designindaba.com/news-features/showcases/through-african-lens",
+          "date": "",
+          "description": ""
+        },
+        {
+          "title": "our chats series lets you interview south africas top creatives",
+          "url": "https://www.designindaba.com/news-features/showcases/our-chats-series-lets-you-interview-south-africas-top-creatives",
+          "date": "",
+          "description": ""
+        },
+        {
+          "title": "do green thing creativity vs climate change",
+          "url": "https://www.designindaba.com/news-features/showcases/do-green-thing-creativity-vs-climate-change",
+          "date": "",
+          "description": ""
+        },
+        {
+          "title": "The expression or application of creative skill and imagination through visual media such as painting, sculpture and photography.",
+          "url": "https://www.designindaba.com/topics/art-photography",
+          "date": "",
+          "description": ""
+        },
+        {
+          "title": "Expressing complex or unstructured data in a comprehensive and visually appealing way, so that people can understand it better and use it more effectively.",
+          "url": "https://www.designindaba.com/topics/information-design",
+          "date": "",
+          "description": ""
+        },
+        {
+          "title": "visualisation reality",
+          "url": "https://www.designindaba.com/articles/creative-work/visualisation-reality",
+          "date": "",
+          "description": ""
+        }
+      ],
+      "evidence_url": "https://www.designindaba.com/"
+    },
+    {
+      "name": "LIONS The Work",
+      "url": "https://www.lovethework.com/",
+      "checked_at": "2026-11-14T17:27:46.060142+00:00",
+      "status": "ok",
+      "method": "html",
+      "items": [],
+      "evidence_url": "https://www.lovethework.com/en"
+    },
+    {
+      "name": "Little Black Book",
+      "url": "https://www.lbbonline.com/",
+      "checked_at": "2026-11-14T17:27:46.060142+00:00",
+      "status": "ok",
+      "method": "rss",
+      "items": [
+        {
+          "title": "The Responsibilities of Designers",
+          "url": "https://d3q27bh1u24u2o.cloudfront.net/news/2026-11/megan-eiswerth-applied-design.vW1nhJ4N.png",
+          "date": "2026-11-13T16:54:00.000Z",
+          "description": "The senior designer at Applied Design, Megan Eiswerth, on the frustrations and liberations of design, her work on Atkinson Hyperlegible, and the rise in explicitly analogue artwork and design, as part of LBB’s By Design series"
+        },
+        {
+          "title": "Getting to Know… KDSP",
+          "url": "https://d3q27bh1u24u2o.cloudfront.net/news/2026-11/kdsp.WW7wi65L.png",
+          "date": "2026-11-13T16:53:00.000Z",
+          "description": "Mollie Partesotti, co-founder of the New York-based advertising agency, spoke with LBB about its latest and greatest work as well as the KDSP philosophy"
+        },
+        {
+          "title": "Exploring the ‘Goodies’ of ‘Festive Crossing’, the Cutest Christmas Ad of 2026",
+          "url": "https://d3q27bh1u24u2o.cloudfront.net/news/2026-11/tk-maxx-goodies-2026-christmas.qjHjQxET.png",
+          "date": "2026-11-13T16:48:00.000Z",
+          "description": "Wieden+Kennedy London and The Perlin on bringing stylish ducks and farmyard favourites to life for TK Maxx's latest holiday campaign"
+        },
+        {
+          "title": "Better Feedback Gets Better Work",
+          "url": "https://d3q27bh1u24u2o.cloudfront.net/news/2026-11/tim-rivera.n8kHIGcH.png",
+          "date": "2026-11-13T16:24:00.000Z",
+          "description": "Skinny founder Tim Rivera explains how brands can get the best from creative partners"
+        },
+        {
+          "title": "Amanda Holden Decks the Halls as Heart Radio Switches on Christmas",
+          "url": "https://d3q27bh1u24u2o.cloudfront.net/news/2026-11/global-amanda-holden-christmas.m7HwN6hn.png",
+          "date": "2026-11-13T16:12:00.000Z",
+          "description": "Heart Breakfast hosts Amanda Holden and Jamie Theakston start the festive season with Mariah Carey’s ‘All I Want For Christmas Is You'"
+        },
+        {
+          "title": "Ferris Bueller Is Still Taking Days Off. His Sister Has Had Enough in Home Instead Cameo",
+          "url": "https://d3q27bh1u24u2o.cloudfront.net/news/2026-11/behind-the-work-8.rS-y4gNS.png",
+          "date": "2026-11-13T16:12:00.000Z",
+          "description": "Home Instead revisits the John Hughes classic 40 years on with a holiday campaign from BBDO Chicago and Caviar director Jody Hill exploring the realities of caring for ageing parents"
+        },
+        {
+          "title": "ANA Unveils Winners of 2026 Multicultural and Inclusive Marketing Excellence Awards",
+          "url": "https://d3q27bh1u24u2o.cloudfront.net/news/2026-11/ana.F_BAqVaI.png",
+          "date": "2026-11-13T16:10:00.000Z",
+          "description": "Coffee mate and Casanova McCann awarded Best In Show for 'The last of the non-coffee lovers'"
+        },
+        {
+          "title": "Home Robotics Company Matic Taps Orchard to Expand Brand",
+          "url": "https://d3q27bh1u24u2o.cloudfront.net/news/2026-11/matic-robots.DOk3AftS.png",
+          "date": "2026-11-13T16:01:00.000Z",
+          "description": "Orchard is tasked with helping build awareness for Matic in the lead-up to holiday shopping season"
+        },
+        {
+          "title": "5 Winners Crowned by The Immortal Awards US Jury",
+          "url": "https://d3q27bh1u24u2o.cloudfront.net/news/2026-11/immortal-winners-3.06_n8Vap.png",
+          "date": "2026-11-13T15:50:00.000Z",
+          "description": "Work from Nike, Apple, Coinbase, Gushers and adidas will go on to compete with the Canadian winners in the regional North American jury day, taking place on November 13"
+        },
+        {
+          "title": "Blind Skateboards, Dominos and Baskin-Robbins: The Work That Made Jeremy Jones",
+          "url": "https://d3q27bh1u24u2o.cloudfront.net/news/2026-11/jeremy-jones-intuition.x2gxfgJo.png",
+          "date": "2026-11-13T15:43:00.000Z",
+          "description": "The VP, creative at Intuition , looks back on his love of early emo and post-rock bands, Spike Jonze, as well as his upcoming work for QuickBooks, as part of LBB’s The Work That Made Me series"
+        },
+        {
+          "title": "Mixtape: A Decade of Hits",
+          "url": "https://d3q27bh1u24u2o.cloudfront.net/news/2026-11/mixtape-10-years.4WHcXwhV.jpg",
+          "date": "2026-11-13T15:25:00.000Z",
+          "description": "After 10 years in business, the independent agency’s founder, Joe Myers, and the Mixtape team reflect on the 10 projects that have shaped the shop's identity to date"
+        },
+        {
+          "title": "Connor McDavid and Terry Ryan Get Their Mullets in a Twist for BetMGM",
+          "url": "https://d3q27bh1u24u2o.cloudfront.net/news/2026-11/connor-mcdavid-and-wayne-gretzky.vqYlLtmA.png",
+          "date": "2026-11-13T15:14:00.000Z",
+          "description": "Latest spot from CAPE sees Connor McDavid and Terry Ryan take a mullet-fuelled trip through a backyard party, with a surprise appearance from hockey legend Wayne Gretzky"
+        },
+        {
+          "title": "The Immortal Awards 2026 Canada Winners Night: See All the Pictures",
+          "url": "https://d3q27bh1u24u2o.cloudfront.net/news/2026-11/immortalcanadawinners-5.pHFI4cA_.jpg",
+          "date": "2026-11-13T14:54:00.000Z",
+          "description": "Zulu Alpha Kilo hosted the annual LBB event celebrating the country’s winners, following a day of judging with the Canadian jury"
+        },
+        {
+          "title": "The Curiosity That Drove Víctor Duque to VFX",
+          "url": "https://d3q27bh1u24u2o.cloudfront.net/news/2026-11/victor-duque.lfdTo9nK.png",
+          "date": "2026-11-13T14:42:00.000Z",
+          "description": "The Bandido VFX artist on misconceptions of VFX in advertising, why he remains an advocate for practical effects, as well as his lifelong love for special effects, as part of LBB’s ‘The VFX Factor’ series"
+        },
+        {
+          "title": "AI Writing: The Human Advantage and Earned Media",
+          "url": "https://d3q27bh1u24u2o.cloudfront.net/news/2026-11/the-connected-narrative.pYLDV-7G.png",
+          "date": "2026-11-13T14:22:00.000Z",
+          "description": "Jonathan Forani, senior editorial and media strategist at North Strategic, on why communications professionals need to put down the AI cheat codes and remember what makes writing genuinely good"
+        },
+        {
+          "title": "October Rises 9% as Budgets Skew Smaller",
+          "url": "https://d3q27bh1u24u2o.cloudfront.net/news/2026-11/LBB-key-visual-1850-1042-2x.StGALyFO.png",
+          "date": "2026-11-13T14:06:00.000Z",
+          "description": "Sohonet research reveals the 2026 production count is projected 15% ahead of 2025 and 22% below the 2022 reference point"
+        },
+        {
+          "title": "LALA Music on Crafting an Unforgettable Christmas Jingle",
+          "url": "https://d3q27bh1u24u2o.cloudfront.net/news/2026-11/david-beale-gosggt4olns-unsplash.75iIfsmE.jpg",
+          "date": "2026-11-13T14:02:00.000Z",
+          "description": "From navigating classic festive licensing to recording with cult karaoke icon Shaun Williamson for Lidl, LALA Music’s Lorna Hall breaks down what it takes to strike the right seasonal chord"
+        },
+        {
+          "title": "A Million Views. But Whose Brand Do You Remember?",
+          "url": "https://d3q27bh1u24u2o.cloudfront.net/news/2026-11/thumbstoppers-shottails-shottales.KoVVBDQf.jpg",
+          "date": "2026-11-13T14:00:00.000Z",
+          "description": "As brands chase the next viral skit, award-winning social-first creative studio Thumbstoppers questions whether fleeting entertainment is building anything lasting. Founder and ECD John Barton explains why repeatable entertainment, distinctive brand worlds and real human connection deserve a bigger role in the feed"
+        },
+        {
+          "title": "The Greenest Ad Is the One You Cancel",
+          "url": "https://d3q27bh1u24u2o.cloudfront.net/news/2026-11/murphy-cobb.vd7sWIJe.png",
+          "date": "2026-11-13T13:27:00.000Z",
+          "description": "Pat Murphy, founder and CEO of MurphyCobb, on sustainability in light of COP-31"
+        },
+        {
+          "title": "The Monthly Cut 019: Columbia, Oura and SickKids Feature in October’s Selection of Best Ads",
+          "url": "https://d3q27bh1u24u2o.cloudfront.net/news/2026-11/tmc-019.-8yN5IJQ.png",
+          "date": "2026-11-13T13:11:00.000Z",
+          "description": "The monthly reel from Little Black Book showcases standout creative work that launched last month, and includes work from Oat Cult, ALDI SUD, and Godawan"
+        }
+      ],
+      "evidence_url": "https://lbbonline.com/",
+      "feed_url": "https://lbbonline.com/news/atom-feed"
+    },
+    {
+      "name": "ArchDaily",
+      "url": "https://www.archdaily.com/",
+      "checked_at": "2026-11-14T17:27:46.060142+00:00",
+      "status": "error",
+      "method": null,
+      "items": [],
+      "error": "response exceeds size limit"
+    },
+    {
+      "name": "Designboom",
+      "url": "https://www.designboom.com/",
+      "checked_at": "2026-11-14T17:27:46.060142+00:00",
+      "status": "ok",
+      "method": "html",
+      "items": [],
+      "evidence_url": "https://www.designboom.com/"
+    },
+    {
+      "name": "Dezeen",
+      "url": "https://www.dezeen.com/",
+      "checked_at": "2026-11-14T17:27:46.060142+00:00",
+      "status": "error",
+      "method": null,
+      "items": [],
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "name": "STIRworld",
+      "url": "https://www.stirworld.com/",
+      "checked_at": "2026-11-14T17:27:46.060142+00:00",
+      "status": "ok",
+      "method": "html",
+      "items": [
+        {
+          "title": "reflect serendipity arts festival 2026",
+          "url": "https://www.stirworld.com/reflect-serendipity-arts-festival-2026",
+          "date": "",
+          "description": ""
+        },
+        {
+          "title": "Serendipity Arts Festival",
+          "url": "https://www.stirworld.com/inspire-conversation-serendipity-arts-festival",
+          "date": "",
+          "description": ""
+        },
+        {
+          "title": "Mise-en-scène with STIR: Oscars 2022",
+          "url": "https://www.stirworld.com/inspire-conversation-mise-en-scene-with-stir-oscars-2022",
+          "date": "",
+          "description": ""
+        }
+      ],
+      "evidence_url": "https://www.stirworld.com/"
+    },
+    {
+      "name": "Bureau Betak",
+      "url": "https://www.bureaubetak.com/",
+      "checked_at": "2026-11-14T17:27:46.060142+00:00",
+      "status": "ok",
+      "method": "html",
+      "items": [],
+      "evidence_url": "https://bureaubetak.com/"
+    },
+    {
+      "name": "Gentle Monster",
+      "url": "https://www.gentlemonster.com/",
+      "checked_at": "2026-11-14T17:27:46.060142+00:00",
+      "status": "error",
+      "method": null,
+      "items": [],
+      "error": "response exceeds size limit"
+    },
+    {
+      "name": "Mazarine",
+      "url": "https://www.mazarine.com/",
+      "checked_at": "2026-11-14T17:27:46.060142+00:00",
+      "status": "ok",
+      "method": "html",
+      "items": [
+        {
+          "title": "prada blush tour los angeles miami new york",
+          "url": "https://www.mazarine.com/projects/prada-blush-tour-los-angeles-miami-new-york",
+          "date": "",
+          "description": ""
+        }
+      ],
+      "evidence_url": "https://www.mazarine.com/"
+    },
+    {
+      "name": "FOOH.com",
+      "url": "https://www.fooh.com/",
+      "checked_at": "2026-11-14T17:27:46.060142+00:00",
+      "status": "ok",
+      "method": "html",
+      "items": [
+        {
+          "title": "music video",
+          "url": "https://fooh.com/library/format/music-video",
+          "date": "",
+          "description": ""
+        }
+      ],
+      "evidence_url": "https://fooh.com/"
+    },
+    {
+      "name": "JCDecaux",
+      "url": "https://www.jcdecaux.fr/",
+      "checked_at": "2026-11-14T17:27:46.060142+00:00",
+      "status": "ok",
+      "method": "html",
+      "items": [],
+      "evidence_url": "https://www.jcdecaux.fr/"
+    },
+    {
+      "name": "KOSMO CGI",
+      "url": "https://www.kosmocgi.com/",
+      "checked_at": "2026-11-14T17:27:46.060142+00:00",
+      "status": "ok",
+      "method": "html",
+      "items": [],
+      "evidence_url": "https://www.kosmocgi.com/"
+    },
+    {
+      "name": "Ocean Outdoor",
+      "url": "https://oceanoutdoor.com/",
+      "checked_at": "2026-11-14T17:27:46.060142+00:00",
+      "status": "ok",
+      "method": "html",
+      "items": [],
+      "evidence_url": "https://oceanoutdoor.com/"
+    },
+    {
+      "name": "Art of the Title",
+      "url": "https://www.artofthetitle.com/",
+      "checked_at": "2026-11-14T17:27:46.060142+00:00",
+      "status": "ok",
+      "method": "html",
+      "items": [],
+      "evidence_url": "https://www.artofthetitle.com/"
+    },
+    {
+      "name": "Motionographer",
+      "url": "https://www.motionographer.com/",
+      "checked_at": "2026-11-14T17:27:46.060142+00:00",
+      "status": "error",
+      "method": null,
+      "items": [],
+      "error": "<urlopen error [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1011)>"
+    },
+    {
+      "name": "Stash",
+      "url": "https://www.stashmedia.tv/",
+      "checked_at": "2026-11-14T17:27:46.060142+00:00",
+      "status": "ok",
+      "method": "rss",
+      "items": [
+        {
+          "title": "1stAveMachine Signs Director Kit Lynch-Robinson",
+          "url": "https://www.stashmedia.tv/1stavemachine-signs-director-kit-lynch-robinson/feed/atom",
+          "date": "2026-11-13T18:55:25Z",
+          "description": " From the release: 1stAveMachine, the director-driven production company known for exceptional craft and inventive ideas, has welcomed British director Kit Lynch-Robinson to its roster.  [Watch]  \n The post  1stAveMachine Signs Director Kit Lynch-Robinson  appeared first on  Motion design - STASH . "
+        },
+        {
+          "title": "Reframe Studio Get Comfortable in Fursys Manta Chair",
+          "url": "https://www.stashmedia.tv/reframe-studio-get-comfortable-in-fursys-manta-chair/feed/atom",
+          "date": "2026-11-13T14:22:40Z",
+          "description": " Reframe Studio in Seoul apply their talents for striking yet tasteful CG style to this Zen-like launch film for the Manta chair designed by German studio Jehs+Laub for South Korean furniture brand Fursys.  [Watch]  \n The post  Reframe Studio Get Comfortable in Fursys Manta Chair  appeared first on  Motion design - STASH . "
+        },
+        {
+          "title": "Roof Studio & Pedro Allevato Stay Hands On for Clash Royale",
+          "url": "https://www.stashmedia.tv/roof-studio-pedro-allevato-stay-hands-on-for-clash-royale/feed/atom",
+          "date": "2026-11-12T13:04:41Z",
+          "description": " Working to Supercell's brief that no AI be used in their newest Clash Royal trailer, director Pedro Allevato and the animation team at Roof Studio in New York, responded with this handcrafted, frame-by-frame watercolor treatment.  [Watch]  \n The post  Roof Studio &#038; Pedro Allevato Stay Hands On for Clash Royale  appeared first on  Motion design - STASH . "
+        },
+        {
+          "title": "Electric Theatre Collective’s Ambitious Amphibian Adventure",
+          "url": "https://www.stashmedia.tv/electric-theatre-collectives-ambitious-amphibian-adventure/feed/atom",
+          "date": "2026-11-11T13:34:31Z",
+          "description": " Working with Iconoclast directors Vania &#038; Muggia, the VFX crew at ETC in London transform an axolotl (aquatic salamander native to Mexico City) into a  Bridgerton -binging hero as part of a new Netflix campaign thru Mother.  [Watch]  \n The post  Electric Theatre Collective&#8217;s Ambitious Amphibian Adventure  appeared first on  Motion design - STASH . "
+        },
+        {
+          "title": "We Love Pitching: Chronicles of a Necessary Mess – Part 24",
+          "url": "https://www.stashmedia.tv/we-love-pitching-chronicles-of-a-necessary-mess-part-24/feed/atom",
+          "date": "2026-11-10T21:30:08Z",
+          "description": " Nerdo ECD Claus Cibils wraps up his passionate and thoughtful  series of a editorials  on the challenges of the creative pitching process, a 24-part opus fueled by two decades of experience in the motion design and animation industry.  [Watch]  \n The post  We Love Pitching: Chronicles of a Necessary Mess – Part 24  appeared first on  Motion design - STASH . "
+        },
+        {
+          "title": "World War Seven Signs Stop-Motion and Animation Studio Starburns Industries",
+          "url": "https://www.stashmedia.tv/world-war-seven-signs-stop-motion-and-animation-studio-starburns-industries/feed/atom",
+          "date": "2026-11-10T17:22:00Z",
+          "description": " From the release:  World War Seven  has found the missing piece in its roster:  Starburns Industries , who join as WW7’s new partner for stop-motion and animation projects.   [Watch]  \n The post  World War Seven Signs Stop-Motion and Animation Studio Starburns Industries  appeared first on  Motion design - STASH . "
+        }
+      ],
+      "evidence_url": "https://www.stashmedia.tv/",
+      "feed_url": "https://www.stashmedia.tv/feed/atom/"
+    },
+    {
+      "name": "Superbien",
+      "url": "https://www.superbien.com/",
+      "checked_at": "2026-11-14T17:27:46.060142+00:00",
+      "status": "ok",
+      "method": "html",
+      "items": [],
+      "evidence_url": "https://www.superbien.studio/"
+    },
+    {
+      "name": "teamLab",
+      "url": "https://www.teamlab.art/",
+      "checked_at": "2026-11-14T17:27:46.060142+00:00",
+      "status": "ok",
+      "method": "html",
+      "items": [],
+      "evidence_url": "https://www.teamlab.art/"
+    },
+    {
+      "name": "Light ZOOM Lumière",
+      "url": "https://www.lightzoomlumiere.fr/",
+      "checked_at": "2026-11-14T17:27:46.060142+00:00",
+      "status": "ok",
+      "method": "html",
+      "items": [],
+      "evidence_url": "https://www.lightzoomlumiere.fr/"
+    },
+    {
+      "name": "Revue AS",
+      "url": "https://www.revue-as.fr/",
+      "checked_at": "2026-11-14T17:27:46.060142+00:00",
+      "status": "ok",
+      "method": "html",
+      "items": [],
+      "evidence_url": "https://www.revue-as.fr/"
+    },
+    {
+      "name": "Contagious",
+      "url": "https://www.contagious.com/",
+      "checked_at": "2026-11-14T17:27:46.060142+00:00",
+      "status": "ok",
+      "method": "html",
+      "items": [],
+      "evidence_url": "https://www.contagious.com/en"
+    },
+    {
+      "name": "Effie Worldwide",
+      "url": "https://www.effie.org/",
+      "checked_at": "2026-11-14T17:27:46.060142+00:00",
+      "status": "ok",
+      "method": "html",
+      "items": [],
+      "evidence_url": "https://effie.org/"
+    },
+    {
+      "name": "System1",
+      "url": "https://system1group.com/",
+      "checked_at": "2026-11-14T17:27:46.060142+00:00",
+      "status": "ok",
+      "method": "html",
+      "items": [
+        {
+          "title": "the aardman effect putting on a show",
+          "url": "https://system1group.com/the-aardman-effect-putting-on-a-show",
+          "date": "",
+          "description": ""
+        },
+        {
+          "title": "tourism australia case study",
+          "url": "https://system1group.com/tourism-australia-case-study",
+          "date": "",
+          "description": ""
+        }
+      ],
+      "evidence_url": "https://system1group.com/"
+    },
+    {
+      "name": "WARC",
+      "url": "https://www.warc.com/",
+      "checked_at": "2026-11-14T17:27:46.060142+00:00",
+      "status": "error",
+      "method": null,
+      "items": [],
+      "error": "<urlopen error _ssl.c:994: The handshake operation timed out>"
+    },
+    {
+      "name": "COLLINS",
+      "url": "https://www.wearecollins.com/",
+      "checked_at": "2026-11-14T17:27:46.060142+00:00",
+      "status": "ok",
+      "method": "html",
+      "items": [],
+      "evidence_url": "https://wearecollins.com/"
+    },
+    {
+      "name": "Koto",
+      "url": "https://koto.studio/",
+      "checked_at": "2026-11-14T17:27:46.060142+00:00",
+      "status": "ok",
+      "method": "html",
+      "items": [],
+      "evidence_url": "https://koto.com/"
+    },
+    {
+      "name": "Pentagram",
+      "url": "https://www.pentagram.com/work",
+      "checked_at": "2026-11-14T17:27:46.060142+00:00",
+      "status": "ok",
+      "method": "html",
+      "items": [
+        {
+          "title": "bfi london film festival",
+          "url": "https://www.pentagram.com/work/bfi-london-film-festival",
+          "date": "",
+          "description": ""
+        },
+        {
+          "title": "in defense of the detour",
+          "url": "https://www.pentagram.com/work/in-defense-of-the-detour",
+          "date": "",
+          "description": ""
+        },
+        {
+          "title": "london design festival 2026",
+          "url": "https://www.pentagram.com/work/london-design-festival-2026",
+          "date": "",
+          "description": ""
+        },
+        {
+          "title": "queens tourism council",
+          "url": "https://www.pentagram.com/work/queens-tourism-council",
+          "date": "",
+          "description": ""
+        }
+      ],
+      "evidence_url": "https://www.pentagram.com/work"
+    },
+    {
+      "name": "Studio Dumbar",
+      "url": "https://studiodumbar.com/",
+      "checked_at": "2026-11-14T17:27:46.060142+00:00",
+      "status": "ok",
+      "method": "html",
+      "items": [],
+      "evidence_url": "https://studiodumbar.com/"
+    },
+    {
+      "name": "Club des DA",
+      "url": "https://www.leclubdesda.org/",
+      "checked_at": "2026-11-14T17:27:46.060142+00:00",
+      "status": "ok",
+      "method": "html",
+      "items": [],
+      "evidence_url": "https://www.leclubdesda.org/"
+    },
+    {
+      "name": "Graphéine",
+      "url": "https://www.grapheine.com/",
+      "checked_at": "2026-11-14T17:27:46.060142+00:00",
+      "status": "ok",
+      "method": "html",
+      "items": [],
+      "evidence_url": "https://grapheine.com/"
+    },
+    {
+      "name": "La Réclame",
+      "url": "https://lareclame.fr/",
+      "checked_at": "2026-11-14T17:27:46.060142+00:00",
+      "status": "error",
+      "method": null,
+      "items": [],
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "name": "Stratégies",
+      "url": "https://www.strategies.fr/",
+      "checked_at": "2026-11-14T17:27:46.060142+00:00",
+      "status": "ok",
+      "method": "html",
+      "items": [
+        {
+          "title": "strategies festival 2026",
+          "url": "https://www.strategies.fr/focus/strategies-festival-2026",
+          "date": "",
+          "description": ""
+        },
+        {
+          "title": "festival",
+          "url": "https://www.strategies.fr/nos-evenements/festival",
+          "date": "",
+          "description": ""
+        }
+      ],
+      "evidence_url": "https://www.strategies.fr/"
+    },
+    {
+      "name": "Cirque du Soleil",
+      "url": "https://www.cirquedusoleil.com/",
+      "checked_at": "2026-11-14T17:27:46.060142+00:00",
+      "status": "ok",
+      "method": "html",
+      "items": [],
+      "evidence_url": "https://www.cirquedusoleil.com/"
+    },
+    {
+      "name": "CREACTION Studio",
+      "url": "https://www.creactionstudio.com/",
+      "checked_at": "2026-11-14T17:27:46.060142+00:00",
+      "status": "ok",
+      "method": "html",
+      "items": [],
+      "evidence_url": "https://www.creactionstudio.com/"
+    },
+    {
+      "name": "Dragone",
+      "url": "https://www.dragone.com/",
+      "checked_at": "2026-11-14T17:27:46.060142+00:00",
+      "status": "error",
+      "method": null,
+      "items": [],
+      "error": "response exceeds size limit"
+    },
+    {
+      "name": "LSi",
+      "url": "https://www.lsionline.com/",
+      "checked_at": "2026-11-14T17:27:46.060142+00:00",
+      "status": "ok",
+      "method": "html",
+      "items": [],
+      "evidence_url": "https://www.lsionline.com/"
+    },
+    {
+      "name": "LUZ Studio",
+      "url": "https://luzstudio.com/",
+      "checked_at": "2026-11-14T17:27:46.060142+00:00",
+      "status": "ok",
+      "method": "html",
+      "items": [
+        {
+          "title": "aerosmith peace out tour",
+          "url": "https://luzstudio.com/en/projects/aerosmith-peace-out-tour",
+          "date": "",
+          "description": ""
+        },
+        {
+          "title": "show design",
+          "url": "https://luzstudio.com/en/expertises/show-design",
+          "date": "",
+          "description": ""
+        }
+      ],
+      "evidence_url": "https://luzstudio.com/en"
+    },
+    {
+      "name": "PLSN",
+      "url": "https://plsn.com/",
+      "checked_at": "2026-11-14T17:27:46.060142+00:00",
+      "status": "ok",
+      "method": "html",
+      "items": [],
+      "evidence_url": "https://plsn.com/"
+    },
+    {
+      "name": "Brompton Technology",
+      "url": "https://www.bromptontech.com/",
+      "checked_at": "2026-11-14T17:27:46.060142+00:00",
+      "status": "error",
+      "method": null,
+      "items": [],
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "name": "Devlin Design Group",
+      "url": "https://www.devlin-design.com/",
+      "checked_at": "2026-11-14T17:27:46.060142+00:00",
+      "status": "ok",
+      "method": "html",
+      "items": [],
+      "evidence_url": "https://www.devlin-design.com/"
+    },
+    {
+      "name": "disguise",
+      "url": "https://www.disguise.one/",
+      "checked_at": "2026-11-14T17:27:46.060142+00:00",
+      "status": "ok",
+      "method": "html",
+      "items": [
+        {
+          "title": "broadcast",
+          "url": "https://www.disguise.one/en/solutions/broadcast",
+          "date": "",
+          "description": ""
+        },
+        {
+          "title": "broadcast graphics",
+          "url": "https://www.disguise.one/en/services/creative/broadcast-graphics",
+          "date": "",
+          "description": ""
+        },
+        {
+          "title": "roadshow 2026",
+          "url": "https://www.disguise.one/en/roadshow-2026",
+          "date": "",
+          "description": ""
+        },
+        {
+          "title": "tiger hu lights stages across china thanks disguise gx 3",
+          "url": "https://www.disguise.one/en/insights/case-study/tiger-hu-lights-stages-across-china-thanks-disguise-gx-3",
+          "date": "",
+          "description": ""
+        }
+      ],
+      "evidence_url": "https://www.disguise.one/en"
+    },
+    {
+      "name": "Ross Video",
+      "url": "https://www.rossvideo.com/",
+      "checked_at": "2026-11-14T17:27:46.060142+00:00",
+      "status": "ok",
+      "method": "html",
+      "items": [],
+      "evidence_url": "https://www.rossvideo.com/"
+    },
+    {
+      "name": "Vizrt",
+      "url": "https://www.vizrt.com/",
+      "checked_at": "2026-11-14T17:27:46.060142+00:00",
+      "status": "error",
+      "method": null,
+      "items": [],
+      "error": "response exceeds size limit"
+    },
+    {
+      "name": "Zero Density",
+      "url": "https://www.zerodensity.tv/",
+      "checked_at": "2026-11-14T17:27:46.060142+00:00",
+      "status": "error",
+      "method": null,
+      "items": [],
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "name": "Are.na",
+      "url": "https://www.are.na/",
+      "checked_at": "2026-11-14T17:27:46.060142+00:00",
+      "status": "ok",
+      "method": "html",
+      "items": [],
+      "evidence_url": "https://www.are.na/"
+    },
+    {
+      "name": "Awwwards",
+      "url": "https://www.awwwards.com/",
+      "checked_at": "2026-11-14T17:27:46.060142+00:00",
+      "status": "ok",
+      "method": "html",
+      "items": [],
+      "evidence_url": "https://www.awwwards.com/"
+    },
+    {
+      "name": "Behance",
+      "url": "https://www.behance.net/",
+      "checked_at": "2026-11-14T17:27:46.060142+00:00",
+      "status": "error",
+      "method": null,
+      "items": [],
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "name": "BP&O",
+      "url": "https://bpando.org/",
+      "checked_at": "2026-11-14T17:27:46.060142+00:00",
+      "status": "ok",
+      "method": "html",
+      "items": [],
+      "evidence_url": "https://bpando.org/"
+    },
+    {
+      "name": "Creative Boom",
+      "url": "https://www.creativeboom.com/",
+      "checked_at": "2026-11-14T17:27:46.060142+00:00",
+      "status": "ok",
+      "method": "html",
+      "items": [],
+      "evidence_url": "https://www.creativeboom.com/"
+    },
+    {
+      "name": "Dieline",
+      "url": "https://thedieline.com/",
+      "checked_at": "2026-11-14T17:27:46.060142+00:00",
+      "status": "error",
+      "method": null,
+      "items": [],
+      "error": "response exceeds size limit"
+    },
+    {
+      "name": "Fonts In Use",
+      "url": "https://fontsinuse.com/",
+      "checked_at": "2026-11-14T17:27:46.060142+00:00",
+      "status": "ok",
+      "method": "html",
+      "items": [
+        {
+          "title": "the black keys at mershon auditorium concert",
+          "url": "https://fontsinuse.com/uses/81214/the-black-keys-at-mershon-auditorium-concert-",
+          "date": "",
+          "description": ""
+        },
+        {
+          "title": "gibraltar food tours",
+          "url": "https://fontsinuse.com/uses/81033/gibraltar-food-tours",
+          "date": "",
+          "description": ""
+        },
+        {
+          "title": "loud and clear festival",
+          "url": "https://fontsinuse.com/uses/80216/loud-and-clear-festival",
+          "date": "",
+          "description": ""
+        }
+      ],
+      "evidence_url": "https://fontsinuse.com/"
+    },
+    {
+      "name": "The Brand Identity",
+      "url": "https://the-brandidentity.com/",
+      "checked_at": "2026-11-14T17:27:46.060142+00:00",
+      "status": "ok",
+      "method": "html",
+      "items": [
+        {
+          "title": "showcase 09 jitter template",
+          "url": "https://the-brandidentity.com/store/product/showcase-09-jitter-template",
+          "date": "",
+          "description": ""
+        }
+      ],
+      "evidence_url": "https://the-brandidentity.com/"
+    },
+    {
+      "name": "Ad Age",
+      "url": "https://adage.com/",
+      "checked_at": "2026-11-14T17:27:46.060142+00:00",
+      "status": "error",
+      "method": null,
+      "items": [],
+      "error": "response exceeds size limit"
+    },
+    {
+      "name": "Campaign Asia",
+      "url": "https://www.campaignasia.com/",
+      "checked_at": "2026-11-14T17:27:46.060142+00:00",
+      "status": "ok",
+      "method": "html",
+      "items": [
+        {
+          "title": "4bvk2ex18m4gptpbwvab2t6d5q",
+          "url": "https://www.campaignasia.com/article/campaign-asia-s-agency-performance-reviews-2026/4bvk2ex18m4gptpbwvab2t6d5q",
+          "date": "",
+          "description": ""
+        },
+        {
+          "title": "44j68qe00shrexfkgqqt20zcc7",
+          "url": "https://www.campaignasia.com/article/how-jetour-is-rewriting-the-playbook-by-moving-beyond-auto-marketing-cliches/44j68qe00shrexfkgqqt20zcc7",
+          "date": "",
+          "description": ""
+        }
+      ],
+      "evidence_url": "https://www.campaignasia.com/"
+    },
+    {
+      "name": "Campaign Middle East",
+      "url": "https://campaignme.com/",
+      "checked_at": "2026-11-14T17:27:46.060142+00:00",
+      "status": "ok",
+      "method": "html",
+      "items": [
+        {
+          "title": "New Balance takes its fashion show to Villaggio Mall’s canals",
+          "url": "https://campaignme.com/new-balance-takes-its-fashion-show-to-villaggio-malls-canals",
+          "date": "",
+          "description": ""
+        },
+        {
+          "title": "How brands can make the most of the Dubai Shopping Festival",
+          "url": "https://campaignme.com/how-brands-can-make-the-most-of-the-dubai-shopping-festival",
+          "date": "",
+          "description": ""
+        },
+        {
+          "title": "Markapp launches Shelf by Markapp to show Gulf brands how AI assistants recommend them",
+          "url": "https://campaignme.com/markapp-launches-shelf-by-markapp-to-show-gulf-brands-how-ai-assistants-recommend-them",
+          "date": "",
+          "description": ""
+        }
+      ],
+      "evidence_url": "https://campaignme.com/"
+    },
+    {
+      "name": "Clio Awards",
+      "url": "https://clios.com/",
+      "checked_at": "2026-11-14T17:27:46.060142+00:00",
+      "status": "ok",
+      "method": "html",
+      "items": [],
+      "evidence_url": "https://clios.com/"
+    },
+    {
+      "name": "The Drum",
+      "url": "https://www.thedrum.com/",
+      "checked_at": "2026-11-14T17:27:46.060142+00:00",
+      "status": "error",
+      "method": null,
+      "items": [],
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "name": "The One Club",
+      "url": "https://www.oneclub.org/",
+      "checked_at": "2026-11-14T17:27:46.060142+00:00",
+      "status": "ok",
+      "method": "html",
+      "items": [],
+      "evidence_url": "https://www.oneclub.org/"
+    },
+    {
+      "name": "Artforum",
+      "url": "https://www.artforum.com/",
+      "checked_at": "2026-11-14T17:27:46.060142+00:00",
+      "status": "ok",
+      "method": "html",
+      "items": [],
+      "evidence_url": "https://www.artforum.com/"
+    },
+    {
+      "name": "Colossal",
+      "url": "https://www.thisiscolossal.com/",
+      "checked_at": "2026-11-14T17:27:46.060142+00:00",
+      "status": "ok",
+      "method": "html",
+      "items": [],
+      "evidence_url": "https://www.thisiscolossal.com/"
+    },
+    {
+      "name": "e-flux",
+      "url": "https://www.e-flux.com/",
+      "checked_at": "2026-11-14T17:27:46.060142+00:00",
+      "status": "ok",
+      "method": "html",
+      "items": [
+        {
+          "title": "untitled reality tv show",
+          "url": "https://www.e-flux.com/announcements/6787871/untitled-reality-tv-show",
+          "date": "",
+          "description": ""
+        }
+      ],
+      "evidence_url": "https://www.e-flux.com/"
+    },
+    {
+      "name": "Frame",
+      "url": "https://frameweb.com/",
+      "checked_at": "2026-11-14T17:27:46.060142+00:00",
+      "status": "ok",
+      "method": "html",
+      "items": [],
+      "evidence_url": "https://frameweb.com/"
+    },
+    {
+      "name": "METALOCUS",
+      "url": "https://www.metalocus.es/en",
+      "checked_at": "2026-11-14T17:27:46.060142+00:00",
+      "status": "ok",
+      "method": "html",
+      "items": [
+        {
+          "title": "ephemeral stage muyunafest floating cinema espacio comun",
+          "url": "https://www.metalocus.es/en/news/ephemeral-stage-muyunafest-floating-cinema-espacio-comun",
+          "date": "",
+          "description": ""
+        },
+        {
+          "title": "panguipulli educational theater arts quinteros norero and villalon",
+          "url": "https://www.metalocus.es/en/news/panguipulli-educational-theater-arts-quinteros-norero-and-villalon",
+          "date": "",
+          "description": ""
+        },
+        {
+          "title": "music video",
+          "url": "https://www.metalocus.es/en/category/music-video",
+          "date": "",
+          "description": ""
+        },
+        {
+          "title": "theaters cinemas",
+          "url": "https://www.metalocus.es/en/category/theaters-cinemas",
+          "date": "",
+          "description": ""
+        }
+      ],
+      "evidence_url": "https://www.metalocus.es/en"
+    },
+    {
+      "name": "Wallpaper",
+      "url": "https://www.wallpaper.com/",
+      "checked_at": "2026-11-14T17:27:46.060142+00:00",
+      "status": "error",
+      "method": null,
+      "items": [],
+      "error": "response exceeds size limit"
+    },
+    {
+      "name": "Gentle Monster — Haus Dosan",
+      "url": "https://www.gentlemonster.com/legacy/story/en/haus-dosan.html",
+      "checked_at": "2026-11-14T17:27:46.060142+00:00",
+      "status": "ok",
+      "method": "html",
+      "items": [],
+      "evidence_url": "https://www.gentlemonster.com/legacy/story/en/haus-dosan.html"
+    },
+    {
+      "name": "Gentle Monster — Haus Nowhere Seoul",
+      "url": "https://curin.io/projects/haus-nowhere-seoul",
+      "checked_at": "2026-11-14T17:27:46.060142+00:00",
+      "status": "ok",
+      "method": "html",
+      "items": [],
+      "evidence_url": "https://curin.io/projects/haus-nowhere-seoul"
+    },
+    {
+      "name": "Gentle Monster — Haus Nowhere Shenzhen",
+      "url": "https://www.gentlemonster.com/legacy/story/en/hausnowhere-shenzhen.html",
+      "checked_at": "2026-11-14T17:27:46.060142+00:00",
+      "status": "ok",
+      "method": "html",
+      "items": [],
+      "evidence_url": "https://www.gentlemonster.com/legacy/story/en/hausnowhere-shenzhen.html"
+    },
+    {
+      "name": "Gentle Monster — Haus Shanghai",
+      "url": "https://www.gentlemonster.com/legacy/story/en/haus-shanghai.html",
+      "checked_at": "2026-11-14T17:27:46.060142+00:00",
+      "status": "ok",
+      "method": "html",
+      "items": [],
+      "evidence_url": "https://www.gentlemonster.com/legacy/story/en/haus-shanghai.html"
+    },
+    {
+      "name": "George P. Johnson",
+      "url": "https://www.gpj.com/",
+      "checked_at": "2026-11-14T17:27:46.060142+00:00",
+      "status": "ok",
+      "method": "html",
+      "items": [],
+      "evidence_url": "https://www.gpj.com/"
+    },
+    {
+      "name": "Imagination",
+      "url": "https://imagination.com/",
+      "checked_at": "2026-11-14T17:27:46.060142+00:00",
+      "status": "ok",
+      "method": "html",
+      "items": [],
+      "evidence_url": "https://imagination.com/"
+    },
+    {
+      "name": "Jack Morton",
+      "url": "https://jackmorton.com/",
+      "checked_at": "2026-11-14T17:27:46.060142+00:00",
+      "status": "ok",
+      "method": "html",
+      "items": [],
+      "evidence_url": "https://jackmorton.com/"
+    },
+    {
+      "name": "Nudake",
+      "url": "https://www.nudake.com/",
+      "checked_at": "2026-11-14T17:27:46.060142+00:00",
+      "status": "ok",
+      "method": "html",
+      "items": [],
+      "evidence_url": "https://www.nudake.com/kr/en"
+    },
+    {
+      "name": "Studio BK",
+      "url": "https://studio-bk.com/",
+      "checked_at": "2026-11-14T17:27:46.060142+00:00",
+      "status": "ok",
+      "method": "html",
+      "items": [],
+      "evidence_url": "https://studio-bk.com/"
+    },
+    {
+      "name": "Tamburins",
+      "url": "https://www.tamburins.com/",
+      "checked_at": "2026-11-14T17:27:46.060142+00:00",
+      "status": "ok",
+      "method": "html",
+      "items": [],
+      "evidence_url": "https://www.tamburins.com/en/"
+    },
+    {
+      "name": "Villa Eugénie",
+      "url": "https://www.villaeugenie.com/",
+      "checked_at": "2026-11-14T17:27:46.060142+00:00",
+      "status": "ok",
+      "method": "html",
+      "items": [
+        {
+          "title": "moncler 70th anniversary show dinner party milan",
+          "url": "https://www.villaeugenie.com/projects/moncler-70th-anniversary-show-dinner-party-milan",
+          "date": "",
+          "description": ""
+        },
+        {
+          "title": "hugo boss wm fw 22 23 show party",
+          "url": "https://www.villaeugenie.com/projects/hugo-boss-wm-fw-22-23-show-party",
+          "date": "",
+          "description": ""
+        },
+        {
+          "title": "about you wm fw 22 23 show dinner party milan",
+          "url": "https://www.villaeugenie.com/projects/about-you-wm-fw-22-23-show-dinner-party-milan",
+          "date": "",
+          "description": ""
+        },
+        {
+          "title": "miu miu cruise w fw 19 20 show party",
+          "url": "https://www.villaeugenie.com/projects/miu-miu-cruise-w-fw-19-20-show-party",
+          "date": "",
+          "description": ""
+        },
+        {
+          "title": "givenchy m ss 20 show party",
+          "url": "https://www.villaeugenie.com/projects/givenchy-m-ss-20-show-party",
+          "date": "",
+          "description": ""
+        },
+        {
+          "title": "mulberry w fw 18 19 show pop up",
+          "url": "https://www.villaeugenie.com/projects/mulberry-w-fw-18-19-show-pop-up",
+          "date": "",
+          "description": ""
+        }
+      ],
+      "evidence_url": "https://www.villaeugenie.com/"
+    },
+    {
+      "name": "AC3 Studio",
+      "url": "https://ac3-studio.com/studio",
+      "checked_at": "2026-11-14T17:27:46.060142+00:00",
+      "status": "ok",
+      "method": "html",
+      "items": [],
+      "evidence_url": "https://ac3-studio.com/studio"
+    },
+    {
+      "name": "DOOH.com",
+      "url": "https://dooh.com/",
+      "checked_at": "2026-11-14T17:27:46.060142+00:00",
+      "status": "ok",
+      "method": "html",
+      "items": [],
+      "evidence_url": "https://dooh.com/"
+    },
+    {
+      "name": "Grand Visual",
+      "url": "https://grandvisual.com/",
+      "checked_at": "2026-11-14T17:27:46.060142+00:00",
+      "status": "ok",
+      "method": "html",
+      "items": [],
+      "evidence_url": "https://grandvisual.com/"
+    },
+    {
+      "name": "Origiful",
+      "url": "https://www.origiful.com/",
+      "checked_at": "2026-11-14T17:27:46.060142+00:00",
+      "status": "ok",
+      "method": "html",
+      "items": [],
+      "evidence_url": "https://www.origiful.com/"
+    },
+    {
+      "name": "World Out of Home Organization",
+      "url": "https://www.worldooh.org/",
+      "checked_at": "2026-11-14T17:27:46.060142+00:00",
+      "status": "ok",
+      "method": "html",
+      "items": [
+        {
+          "title": "the show goes on ukraine ooh viktor ivanchenko warsaw 2026",
+          "url": "https://www.worldooh.org/news/the-show-goes-on-ukraine-ooh-viktor-ivanchenko-warsaw-2026",
+          "date": "",
+          "description": ""
+        }
+      ],
+      "evidence_url": "https://www.worldooh.org/"
+    },
+    {
+      "name": "404.zero",
+      "url": "https://404zero.com/",
+      "checked_at": "2026-11-14T17:27:46.060142+00:00",
+      "status": "ok",
+      "method": "html",
+      "items": [],
+      "evidence_url": "https://www.404zero.com/"
+    },
+    {
+      "name": "Marshmallow Laser Feast",
+      "url": "https://www.marshmallowlaserfeast.com/",
+      "checked_at": "2026-11-14T17:27:46.060142+00:00",
+      "status": "ok",
+      "method": "html",
+      "items": [],
+      "evidence_url": "https://marshmallowlaserfeast.com/"
+    },
+    {
+      "name": "NONOTAK",
+      "url": "https://www.nonotak.com/",
+      "checked_at": "2026-11-14T17:27:46.060142+00:00",
+      "status": "ok",
+      "method": "html",
+      "items": [
+        {
+          "title": "_SAKURA STAGE SHIBUYA",
+          "url": "https://www.nonotak.com/_SAKURA-STAGE-SHIBUYA",
+          "date": "",
+          "description": ""
+        },
+        {
+          "title": "_ECLIPSE",
+          "url": "https://www.nonotak.com/_ECLIPSE",
+          "date": "",
+          "description": ""
+        }
+      ],
+      "evidence_url": "https://www.nonotak.com/"
+    },
+    {
+      "name": "Notch",
+      "url": "https://www.notch.one/",
+      "checked_at": "2026-11-14T17:27:46.060142+00:00",
+      "status": "ok",
+      "method": "html",
+      "items": [
+        {
+          "title": "concerts performing arts",
+          "url": "https://www.notch.one/industries/concerts-performing-arts",
+          "date": "",
+          "description": ""
+        }
+      ],
+      "evidence_url": "https://www.notch.one/"
+    },
+    {
+      "name": "onedotzero",
+      "url": "https://www.onedotzero.com/",
+      "checked_at": "2026-11-14T17:27:46.060142+00:00",
+      "status": "ok",
+      "method": "html",
+      "items": [
+        {
+          "title": "festivals",
+          "url": "https://www.onedotzero.com/projects/filter/festivals",
+          "date": "",
+          "description": ""
+        }
+      ],
+      "evidence_url": "https://www.onedotzero.com/"
+    },
+    {
+      "name": "Resolume",
+      "url": "https://resolume.com/",
+      "checked_at": "2026-11-14T17:27:46.060142+00:00",
+      "status": "ok",
+      "method": "html",
+      "items": [],
+      "evidence_url": "https://resolume.com/"
+    },
+    {
+      "name": "Smode",
+      "url": "https://www.smode.io/",
+      "checked_at": "2026-11-14T17:27:46.060142+00:00",
+      "status": "ok",
+      "method": "html",
+      "items": [
+        {
+          "title": "live visual music events",
+          "url": "https://www.smode.io/en/solutions/live-visual-music-events",
+          "date": "",
+          "description": ""
+        },
+        {
+          "title": "solution live tv production broadcast",
+          "url": "https://www.smode.io/en/solutions/solution-live-tv-production-broadcast",
+          "date": "",
+          "description": ""
+        },
+        {
+          "title": "solution performing art visual effects compositing",
+          "url": "https://www.smode.io/en/solutions/solution-performing-art-visual-effects-compositing",
+          "date": "",
+          "description": ""
+        },
+        {
+          "title": "solution permanent shows fixed installation",
+          "url": "https://www.smode.io/en/solutions/solution-permanent-shows-fixed-installation",
+          "date": "",
+          "description": ""
+        },
+        {
+          "title": "visual art xr extended reality",
+          "url": "https://www.smode.io/en/solutions/visual-art-xr-extended-reality",
+          "date": "",
+          "description": ""
+        },
+        {
+          "title": "product generative interactive art vfx visual effects",
+          "url": "https://www.smode.io/en/products/product-generative-interactive-art-vfx-visual-effects",
+          "date": "",
+          "description": ""
+        },
+        {
+          "title": "product software 3d stage simulation",
+          "url": "https://www.smode.io/en/products/product-software-3d-stage-simulation",
+          "date": "",
+          "description": ""
+        },
+        {
+          "title": "product software video mapping realtime show control",
+          "url": "https://www.smode.io/en/products/product-software-video-mapping-realtime-show-control",
+          "date": "",
+          "description": ""
+        },
+        {
+          "title": "showcase",
+          "url": "https://www.smode.io/en/showcase",
+          "date": "",
+          "description": ""
+        },
+        {
+          "title": "community visual art",
+          "url": "https://www.smode.io/en/product/community-visual-art",
+          "date": "",
+          "description": ""
+        },
+        {
+          "title": "live xr visual virtual production",
+          "url": "https://www.smode.io/en/product/live-xr-visual-virtual-production",
+          "date": "",
+          "description": ""
+        },
+        {
+          "title": "tv5monde studio broadcast",
+          "url": "https://www.smode.io/en/case-studies/tv5monde-studio-broadcast",
+          "date": "",
+          "description": ""
+        },
+        {
+          "title": "community visual art",
+          "url": "https://www.smode.io/en/products/community-visual-art",
+          "date": "",
+          "description": ""
+        },
+        {
+          "title": "live xr visual virtual production",
+          "url": "https://www.smode.io/en/products/live-xr-visual-virtual-production",
+          "date": "",
+          "description": ""
+        }
+      ],
+      "evidence_url": "https://www.smode.io/en/"
+    },
+    {
+      "name": "TouchDesigner",
+      "url": "https://derivative.ca/",
+      "checked_at": "2026-11-14T17:27:46.060142+00:00",
+      "status": "ok",
+      "method": "html",
+      "items": [
+        {
+          "title": "showcase",
+          "url": "https://derivative.ca/showcase",
+          "date": "",
+          "description": ""
+        },
+        {
+          "title": "audio visual",
+          "url": "https://derivative.ca/tags/audio-visual",
+          "date": "",
+          "description": ""
+        }
+      ],
+      "evidence_url": "https://derivative.ca/"
+    },
+    {
+      "name": "United Visual Artists",
+      "url": "https://uva.co.uk/",
+      "checked_at": "2026-11-14T17:27:46.060142+00:00",
+      "status": "ok",
+      "method": "html",
+      "items": [
+        {
+          "title": "massive attack world tour 2024 2025",
+          "url": "https://www.uva.co.uk/features/massive-attack-world-tour-2024-2025",
+          "date": "",
+          "description": ""
+        },
+        {
+          "title": "massive attack heligoland world tour",
+          "url": "https://www.uva.co.uk/features/massive-attack-heligoland-world-tour",
+          "date": "",
+          "description": ""
+        }
+      ],
+      "evidence_url": "https://www.uva.co.uk/"
+    },
+    {
+      "name": "AFTER",
+      "url": "https://www.after-france.fr/",
+      "checked_at": "2026-11-14T17:27:46.060142+00:00",
+      "status": "ok",
+      "method": "html",
+      "items": [],
+      "evidence_url": "https://www.after-france.fr/"
+    },
+    {
+      "name": "D/LABS",
+      "url": "https://www.d-labs.fr/",
+      "checked_at": "2026-11-14T17:27:46.060142+00:00",
+      "status": "ok",
+      "method": "html",
+      "items": [
+        {
+          "title": "plk tour",
+          "url": "https://www.d-labs.fr/projets/plk-tour",
+          "date": "",
+          "description": ""
+        }
+      ],
+      "evidence_url": "https://www.d-labs.fr/"
+    },
+    {
+      "name": "FRATERCINÉ",
+      "url": "https://www.fratercine.fr/",
+      "checked_at": "2026-11-14T17:27:46.060142+00:00",
+      "status": "ok",
+      "method": "html",
+      "items": [
+        {
+          "title": "scenographie 3",
+          "url": "https://www.fratercine.fr/scenographie-3",
+          "date": "",
+          "description": ""
+        }
+      ],
+      "evidence_url": "https://www.fratercine.fr/"
+    },
+    {
+      "name": "IDlia Studio",
+      "url": "https://www.idlia.fr/",
+      "checked_at": "2026-11-14T17:27:46.060142+00:00",
+      "status": "ok",
+      "method": "html",
+      "items": [
+        {
+          "title": "Spectacle",
+          "url": "http://www.idlia.fr/spectacle",
+          "date": "",
+          "description": ""
+        }
+      ],
+      "evidence_url": "https://www.idlia.fr/"
+    },
+    {
+      "name": "JTSE",
+      "url": "https://www.jtse.fr/",
+      "checked_at": "2026-11-14T17:27:46.060142+00:00",
+      "status": "ok",
+      "method": "html",
+      "items": [],
+      "evidence_url": "https://jtse.fr/"
+    },
+    {
+      "name": "La Scène",
+      "url": "https://www.lascene.com/",
+      "checked_at": "2026-11-14T17:27:46.060142+00:00",
+      "status": "ok",
+      "method": "html",
+      "items": [
+        {
+          "title": "infoscenes",
+          "url": "https://www.lascene.com/infoscenes",
+          "date": "",
+          "description": ""
+        },
+        {
+          "title": "biblioscenes",
+          "url": "https://www.lascene.com/biblioscenes",
+          "date": "",
+          "description": ""
+        },
+        {
+          "title": "videoscenes",
+          "url": "https://www.lascene.com/videoscenes",
+          "date": "",
+          "description": ""
+        },
+        {
+          "title": "lettre spectacle",
+          "url": "https://www.lascene.com/decouvrir-nos-magazines/lettre-spectacle",
+          "date": "",
+          "description": ""
+        },
+        {
+          "title": "sceneplus",
+          "url": "https://www.lascene.com/decouvrir-nos-magazines/sceneplus",
+          "date": "",
+          "description": ""
+        },
+        {
+          "title": "theatres",
+          "url": "https://www.lascene.com/decouvrir-nos-magazines/theatres",
+          "date": "",
+          "description": ""
+        },
+        {
+          "title": "annonces emploi spectacle culture",
+          "url": "https://www.lascene.com/annonces-emploi-spectacle-culture",
+          "date": "",
+          "description": ""
+        },
+        {
+          "title": "vierzon recours contre deprogrammation politique damazonia",
+          "url": "https://www.lascene.com/infoscenes/vierzon-recours-contre-deprogrammation-politique-damazonia",
+          "date": "",
+          "description": ""
+        },
+        {
+          "title": "alexander neef ring entre megalomanie demesure",
+          "url": "https://www.lascene.com/infoscenes/alexander-neef-ring-entre-megalomanie-demesure",
+          "date": "",
+          "description": ""
+        },
+        {
+          "title": "auch cirque mobilise pousse cri militant",
+          "url": "https://www.lascene.com/infoscenes/auch-cirque-mobilise-pousse-cri-militant",
+          "date": "",
+          "description": ""
+        },
+        {
+          "title": "theatres",
+          "url": "https://www.lascene.com/index.php/decouvrir-nos-magazines/theatres",
+          "date": "",
+          "description": ""
+        },
+        {
+          "title": "lettre spectacle",
+          "url": "https://www.lascene.com/index.php/decouvrir-nos-magazines/lettre-spectacle",
+          "date": "",
+          "description": ""
+        },
+        {
+          "title": "sceneplus",
+          "url": "https://www.lascene.com/index.php/decouvrir-nos-magazines/sceneplus",
+          "date": "",
+          "description": ""
+        }
+      ],
+      "evidence_url": "https://www.lascene.com/"
+    },
+    {
+      "name": "Seconde Design",
+      "url": "https://www.seconde-design.com/",
+      "checked_at": "2026-11-14T17:27:46.060142+00:00",
+      "status": "ok",
+      "method": "html",
+      "items": [],
+      "evidence_url": "https://www.seconde-design.com/"
+    },
+    {
+      "name": "Studio Carlos",
+      "url": "https://studiocarlos.fr/",
+      "checked_at": "2026-11-14T17:27:46.060142+00:00",
+      "status": "ok",
+      "method": "html",
+      "items": [],
+      "evidence_url": "https://studiocarlos.fr/"
+    },
+    {
+      "name": "Studio ÉNORME",
+      "url": "https://www.studioenorme.com/",
+      "checked_at": "2026-11-14T17:27:46.060142+00:00",
+      "status": "error",
+      "method": null,
+      "items": [],
+      "error": "response exceeds size limit"
+    },
+    {
+      "name": "Baymard Institute",
+      "url": "https://baymard.com/",
+      "checked_at": "2026-11-14T17:27:46.060142+00:00",
+      "status": "ok",
+      "method": "rss",
+      "items": [
+        {
+          "title": "AI Engagement Quantitative UX: 2 High-Level Takeaways from 20+ Charts",
+          "url": "https://feeds.baymard.com/link/9825/17507452/ai-engagement-quantitative-ux-insights-2026",
+          "date": "2026-10-27T10:27:00+01:00",
+          "description": ""
+        },
+        {
+          "title": "Mass Merchant UX Benchmark: 5,600+ Performance Scores and 4,600+ Best Practice Examples",
+          "url": "https://feeds.baymard.com/link/9825/17502590/mass-merchant-ux-benchmark-2026",
+          "date": "2026-10-22T10:50:00+02:00",
+          "description": ""
+        },
+        {
+          "title": "E-cigarette & Vaping UX Benchmark: 3,600+ Performance Scores and 2,500+ Best Practice Examples",
+          "url": "https://feeds.baymard.com/link/9825/17491220/e-cigarette-and-vaping-ux-benchmark-2026",
+          "date": "2026-10-07T11:15:00+02:00",
+          "description": ""
+        },
+        {
+          "title": "B2B Electronic Components & Machinery UX Benchmark: 2,600+ Performance Scores and 2,000+ Best Practice Examples",
+          "url": "https://feeds.baymard.com/link/9825/17482990/b2b-electronic-components-machinery-ux-benchmark-2026",
+          "date": "2026-10-01T10:30:00+02:00",
+          "description": ""
+        },
+        {
+          "title": "New Event Ticketing UX Research: 3 Key Takeaways",
+          "url": "https://feeds.baymard.com/link/9825/17472042/event-ticketing-ux-research-launch",
+          "date": "2026-09-24T10:31:00+02:00",
+          "description": ""
+        },
+        {
+          "title": "B2B Medical & Pharma UX Benchmark: 3,400+ Performance Scores and 2,600+ Best Practice Examples",
+          "url": "https://feeds.baymard.com/link/9825/17465879/b2b-medical-pharma-ux-benchmark-2026",
+          "date": "2026-09-15T11:30:00+02:00",
+          "description": ""
+        },
+        {
+          "title": "Accounts & Self-Service UX Research Update and Expansion: 3 Key Takeaways",
+          "url": "https://feeds.baymard.com/link/9825/17465876/accounts-and-self-service-ux-research-2026",
+          "date": "2026-09-09T10:05:00+02:00",
+          "description": ""
+        },
+        {
+          "title": "Telco UX Benchmark: 3,100+ Performance Scores and 2,400+ Best Practice Examples",
+          "url": "https://feeds.baymard.com/link/9825/17465874/telco-ux-benchmark-2026",
+          "date": "2026-09-01T10:45:00+02:00",
+          "description": ""
+        },
+        {
+          "title": "New Insurance UX Research: 3 Key Takeaways",
+          "url": "https://feeds.baymard.com/link/9825/17465872/insurance-ux-research-launch",
+          "date": "2026-08-25T10:30:00+02:00",
+          "description": ""
+        },
+        {
+          "title": "The Hidden Cost of Bad UX: How Much Revenue Are You Leaving on the Table?",
+          "url": "https://feeds.baymard.com/link/9825/17465870/hidden-cost-bad-ux-revenue-calculator",
+          "date": "2026-08-19T10:12:00+02:00",
+          "description": ""
+        }
+      ],
+      "evidence_url": "https://baymard.com/",
+      "feed_url": "https://feeds.baymard.com/baymard"
+    },
+    {
+      "name": "Ehrenberg-Bass Institute",
+      "url": "https://marketingscience.info/",
+      "checked_at": "2026-11-14T17:27:46.060142+00:00",
+      "status": "ok",
+      "method": "html",
+      "items": [],
+      "evidence_url": "https://marketingscience.info/"
+    },
+    {
+      "name": "Google Trends",
+      "url": "https://trends.google.com/",
+      "checked_at": "2026-11-14T17:27:46.060142+00:00",
+      "status": "error",
+      "method": null,
+      "items": [],
+      "error": "response exceeds size limit"
+    },
+    {
+      "name": "IPA Effectiveness",
+      "url": "https://ipa.co.uk/",
+      "checked_at": "2026-11-14T17:27:46.060142+00:00",
+      "status": "ok",
+      "method": "html",
+      "items": [],
+      "evidence_url": "https://ipa.co.uk/"
+    },
+    {
+      "name": "Kantar",
+      "url": "https://www.kantar.com/",
+      "checked_at": "2026-11-14T17:27:46.060142+00:00",
+      "status": "ok",
+      "method": "html",
+      "items": [],
+      "evidence_url": "https://www.kantar.com/"
+    },
+    {
+      "name": "Meta Ad Library",
+      "url": "https://www.facebook.com/ads/library/",
+      "checked_at": "2026-11-14T17:27:46.060142+00:00",
+      "status": "error",
+      "method": null,
+      "items": [],
+      "error": "HTTP Error 403: Client challenge"
+    },
+    {
+      "name": "Meta for Business",
+      "url": "https://www.facebook.com/business/",
+      "checked_at": "2026-11-14T17:27:46.060142+00:00",
+      "status": "ok",
+      "method": "html",
+      "items": [],
+      "evidence_url": "https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2Fbusiness%2F"
+    },
+    {
+      "name": "Nielsen Norman Group",
+      "url": "https://www.nngroup.com/",
+      "checked_at": "2026-11-14T17:27:46.060142+00:00",
+      "status": "ok",
+      "method": "html",
+      "items": [],
+      "evidence_url": "https://www.nngroup.com/"
+    },
+    {
+      "name": "Think with Google",
+      "url": "https://www.thinkwithgoogle.com/",
+      "checked_at": "2026-11-14T17:27:46.060142+00:00",
+      "status": "ok",
+      "method": "html",
+      "items": [],
+      "evidence_url": "https://business.google.com/us/think/"
+    },
+    {
+      "name": "Thinkbox",
+      "url": "https://www.thinkbox.tv/",
+      "checked_at": "2026-11-14T17:27:46.060142+00:00",
+      "status": "ok",
+      "method": "html",
+      "items": [
+        {
+          "title": "broadcaster solutions",
+          "url": "https://www.thinkbox.tv/how-to-use-tv/advanced-tv/broadcaster-solutions",
+          "date": "",
+          "description": ""
+        }
+      ],
+      "evidence_url": "https://www.thinkbox.tv/"
+    },
+    {
+      "name": "TikTok Creative Center",
+      "url": "https://ads.tiktok.com/business/creativecenter/",
+      "checked_at": "2026-11-14T17:27:46.060142+00:00",
+      "status": "ok",
+      "method": "html",
+      "items": [],
+      "evidence_url": "https://ads.tiktok.com/creative/creativeCenter?rid=5d4kx5to7tf"
+    },
+    {
+      "name": "AIGA Eye on Design",
+      "url": "https://eyeondesign.aiga.org/",
+      "checked_at": "2026-11-14T17:27:46.060142+00:00",
+      "status": "ok",
+      "method": "html",
+      "items": [],
+      "evidence_url": "https://eyeondesign.aiga.org/"
+    },
+    {
+      "name": "Communication Arts",
+      "url": "https://www.commarts.com/",
+      "checked_at": "2026-11-14T17:27:46.060142+00:00",
+      "status": "ok",
+      "method": "html",
+      "items": [],
+      "evidence_url": "https://www.commarts.com/"
+    },
+    {
+      "name": "Design Observer",
+      "url": "https://designobserver.com/",
+      "checked_at": "2026-11-14T17:27:46.060142+00:00",
+      "status": "ok",
+      "method": "html",
+      "items": [],
+      "evidence_url": "https://designobserver.com/"
+    },
+    {
+      "name": "DesignStudio",
+      "url": "https://design.studio/",
+      "checked_at": "2026-11-14T17:27:46.060142+00:00",
+      "status": "ok",
+      "method": "html",
+      "items": [],
+      "evidence_url": "https://www.design.studio/"
+    },
+    {
+      "name": "Experimental Jetset",
+      "url": "https://experimentaljetset.nl/",
+      "checked_at": "2026-11-14T17:27:46.060142+00:00",
+      "status": "error",
+      "method": null,
+      "items": [],
+      "error": "<urlopen error [Errno 101] Network is unreachable>"
+    },
+    {
+      "name": "Mindsparkle Mag",
+      "url": "https://mindsparklemag.com/",
+      "checked_at": "2026-11-14T17:27:46.060142+00:00",
+      "status": "ok",
+      "method": "html",
+      "items": [
+        {
+          "title": "top 10 music festival branding",
+          "url": "https://mindsparklemag.com/designs/top-10-music-festival-branding",
+          "date": "",
+          "description": ""
+        }
+      ],
+      "evidence_url": "https://mindsparklemag.com/"
+    },
+    {
+      "name": "Mucho",
+      "url": "https://wearemucho.com/",
+      "checked_at": "2026-11-14T17:27:46.060142+00:00",
+      "status": "ok",
+      "method": "html",
+      "items": [
+        {
+          "title": "puig womens americas cup visual language",
+          "url": "https://wearemucho.com/work/puig-womens-americas-cup-visual-language",
+          "date": "",
+          "description": ""
+        }
+      ],
+      "evidence_url": "https://wearemucho.com/"
+    },
+    {
+      "name": "Print Magazine",
+      "url": "https://www.printmag.com/",
+      "checked_at": "2026-11-14T17:27:46.060142+00:00",
+      "status": "ok",
+      "method": "html",
+      "items": [
+        {
+          "title": "3d visualization",
+          "url": "https://www.printmag.com/categories/3d-visualization",
+          "date": "",
+          "description": ""
+        }
+      ],
+      "evidence_url": "https://www.printmag.com/"
+    },
+    {
+      "name": "The Designers Republic",
+      "url": "https://www.thedesignersrepublic.com/",
+      "checked_at": "2026-11-14T17:27:46.060142+00:00",
+      "status": "ok",
+      "method": "html",
+      "items": [],
+      "evidence_url": "https://www.thedesignersrepublic.com/"
+    },
+    {
+      "name": "Type Directors Club",
+      "url": "https://tdc.org/",
+      "checked_at": "2026-11-14T17:27:46.060142+00:00",
+      "status": "ok",
+      "method": "html",
+      "items": [],
+      "evidence_url": "https://tdc.org/"
+    },
+    {
+      "name": "Typographica",
+      "url": "https://typographica.org/",
+      "checked_at": "2026-11-14T17:27:46.060142+00:00",
+      "status": "ok",
+      "method": "html",
+      "items": [],
+      "evidence_url": "https://typographica.org/"
+    },
+    {
+      "name": "Wolff Olins",
+      "url": "https://www.wolffolins.com/",
+      "checked_at": "2026-11-14T17:27:46.060142+00:00",
+      "status": "ok",
+      "method": "html",
+      "items": [],
+      "evidence_url": "https://www.wolffolins.com/"
+    },
+    {
+      "name": "Europeana",
+      "url": "https://www.europeana.eu/",
+      "checked_at": "2026-11-14T17:27:46.060142+00:00",
+      "status": "error",
+      "method": null,
+      "items": [],
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "name": "Gallica",
+      "url": "https://gallica.bnf.fr/",
+      "checked_at": "2026-11-14T17:27:46.060142+00:00",
+      "status": "error",
+      "method": null,
+      "items": [],
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "name": "Google Arts & Culture",
+      "url": "https://artsandculture.google.com/",
+      "checked_at": "2026-11-14T17:27:46.060142+00:00",
+      "status": "error",
+      "method": null,
+      "items": [],
+      "error": "response exceeds size limit"
+    },
+    {
+      "name": "Internet Archive",
+      "url": "https://archive.org/",
+      "checked_at": "2026-11-14T17:27:46.060142+00:00",
+      "status": "ok",
+      "method": "html",
+      "items": [],
+      "evidence_url": "https://archive.org/"
+    },
+    {
+      "name": "PSFK",
+      "url": "https://www.psfk.com/",
+      "checked_at": "2026-11-14T17:27:46.060142+00:00",
+      "status": "ok",
+      "method": "html",
+      "items": [],
+      "evidence_url": "https://www.psfk.com/"
+    },
+    {
+      "name": "Springwise",
+      "url": "https://www.springwise.com/",
+      "checked_at": "2026-11-14T17:27:46.060142+00:00",
+      "status": "ok",
+      "method": "html",
+      "items": [],
+      "evidence_url": "https://springwise.com/"
+    },
+    {
+      "name": "The Future Laboratory",
+      "url": "https://www.thefuturelaboratory.com/",
+      "checked_at": "2026-11-14T17:27:46.060142+00:00",
+      "status": "ok",
+      "method": "html",
+      "items": [],
+      "evidence_url": "https://www.thefuturelaboratory.com/"
+    },
+    {
+      "name": "Trend Hunter",
+      "url": "https://www.trendhunter.com/",
+      "checked_at": "2026-11-14T17:27:46.060142+00:00",
+      "status": "ok",
+      "method": "html",
+      "items": [],
+      "evidence_url": "https://www.trendhunter.com/"
+    },
+    {
+      "name": "TrendWatching",
+      "url": "https://www.trendwatching.com/",
+      "checked_at": "2026-11-14T17:27:46.060142+00:00",
+      "status": "ok",
+      "method": "html",
+      "items": [],
+      "evidence_url": "https://www.trendwatching.com/"
+    },
+    {
+      "name": "WGSN",
+      "url": "https://www.wgsn.com/",
+      "checked_at": "2026-11-14T17:27:46.060142+00:00",
+      "status": "error",
+      "method": null,
+      "items": [],
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "name": "ADC France",
+      "url": "https://www.adcfrance.com/",
+      "checked_at": "2026-11-14T17:27:46.060142+00:00",
+      "status": "error",
+      "method": null,
+      "items": [],
+      "error": "<urlopen error timed out>"
+    },
+    {
+      "name": "CB News",
+      "url": "https://www.cbnews.fr/",
+      "checked_at": "2026-11-14T17:27:46.060142+00:00",
+      "status": "ok",
+      "method": "html",
+      "items": [
+        {
+          "title": "synap part tournee convaincre les pme miser les relations medias",
+          "url": "https://www.cbnews.fr/conseil/synap-part-tournee-convaincre-les-pme-miser-les-relations-medias",
+          "date": "",
+          "description": ""
+        },
+        {
+          "title": "paris play festival 103918",
+          "url": "https://www.cbnews.fr/evenements/paris-play-festival-103918",
+          "date": "",
+          "description": ""
+        },
+        {
+          "title": "influenceurs dark patterns fonctionnalites addictives bruxelles donne tour vis",
+          "url": "https://www.cbnews.fr/digital/influenceurs-dark-patterns-fonctionnalites-addictives-bruxelles-donne-tour-vis",
+          "date": "",
+          "description": ""
+        },
+        {
+          "title": "monoprix festival 103337",
+          "url": "https://www.cbnews.fr/hit-parade/monoprix-festival-103337",
+          "date": "",
+          "description": ""
+        }
+      ],
+      "evidence_url": "https://www.cbnews.fr/"
+    },
+    {
+      "name": "Creapills",
+      "url": "https://creapills.com/",
+      "checked_at": "2026-11-14T17:27:46.060142+00:00",
+      "status": "ok",
+      "method": "html",
+      "items": [
+        {
+          "title": "tasmanie campagne not really for tourists 20261113",
+          "url": "https://creapills.com/tasmanie-campagne-not-really-for-tourists-20261113",
+          "date": "",
+          "description": ""
+        }
+      ],
+      "evidence_url": "https://creapills.com/"
+    },
+    {
+      "name": "Graphisme en France",
+      "url": "https://www.cnap.fr/graphisme-en-france",
+      "checked_at": "2026-11-14T17:27:46.060142+00:00",
+      "status": "error",
+      "method": null,
+      "items": [],
+      "error": "<urlopen error timed out>"
+    },
+    {
+      "name": "INfluencia",
+      "url": "https://www.influencia.net/",
+      "checked_at": "2026-11-14T17:27:46.060142+00:00",
+      "status": "ok",
+      "method": "html",
+      "items": [
+        {
+          "title": "mediaperformances for good",
+          "url": "https://www.influencia.net/topic/mediaperformances-for-good",
+          "date": "",
+          "description": ""
+        },
+        {
+          "title": "retour sur evenement",
+          "url": "https://www.influencia.net/topic/retour-sur-evenement",
+          "date": "",
+          "description": ""
+        },
+        {
+          "title": "final slam le show damine et squeezie peut il devenir le premier flop de la creator economy francaise",
+          "url": "https://www.influencia.net/articles/final-slam-le-show-damine-et-squeezie-peut-il-devenir-le-premier-flop-de-la-creator-economy-francaise",
+          "date": "",
+          "description": ""
+        }
+      ],
+      "evidence_url": "https://www.influencia.net/"
+    },
+    {
+      "name": "Étapes",
+      "url": "https://etapes.com/",
+      "checked_at": "2026-11-14T17:27:46.060142+00:00",
+      "status": "ok",
+      "method": "html",
+      "items": [
+        {
+          "title": "FESTIVAL CLUB CRAYON 2025 ANNULÉ",
+          "url": "https://www.etapes.com/2025/05/20/festival-club-crayon-2025-annule",
+          "date": "",
+          "description": ""
+        }
+      ],
+      "evidence_url": "https://www.etapes.com/"
+    },
+    {
+      "name": "ETC",
+      "url": "https://www.etcconnect.com/",
+      "checked_at": "2026-11-14T17:27:46.060142+00:00",
+      "status": "ok",
+      "method": "html",
+      "items": [
+        {
+          "title": "Austin Independent School District Theatre Programs Thrive with ETC Lighting Solutions.aspx",
+          "url": "https://www.etcconnect.com/About/News/Austin-Independent-School-District-Theatre-Programs-Thrive-with-ETC-Lighting-Solutions.aspx",
+          "date": "",
+          "description": ""
+        },
+        {
+          "title": "Lighting Designer Vince Foster Chooses Hog for Jamiroquai Tour.aspx",
+          "url": "https://www.etcconnect.com/About/News/Lighting-Designer-Vince-Foster-Chooses-Hog-for-Jamiroquai-Tour.aspx",
+          "date": "",
+          "description": ""
+        }
+      ],
+      "evidence_url": "https://www.etcconnect.com/"
+    },
+    {
+      "name": "AV Magazine",
+      "url": "https://www.avinteractive.com/",
+      "checked_at": "2026-11-14T17:27:46.060142+00:00",
+      "status": "error",
+      "method": null,
+      "items": [],
+      "error": "response exceeds size limit"
+    },
+    {
+      "name": "Abduzeedo",
+      "url": "https://abduzeedo.com/",
+      "checked_at": "2026-11-14T17:27:46.060142+00:00",
+      "status": "ok",
+      "method": "html",
+      "items": [],
+      "evidence_url": "https://abduzeedo.com/"
+    },
+    {
+      "name": "Designspiration",
+      "url": "https://www.designspiration.com/",
+      "checked_at": "2026-11-14T17:27:46.060142+00:00",
+      "status": "ok",
+      "method": "html",
+      "items": [],
+      "evidence_url": "https://www.designspiration.com/"
+    },
+    {
+      "name": "Typewolf",
+      "url": "https://www.typewolf.com/",
+      "checked_at": "2026-11-14T17:27:46.060142+00:00",
+      "status": "ok",
+      "method": "html",
+      "items": [],
+      "evidence_url": "https://www.typewolf.com/"
+    },
+    {
+      "name": "Advertising Archive Asia",
+      "url": "https://advertisingarchive.asia/",
+      "checked_at": "2026-11-14T17:27:46.060142+00:00",
+      "status": "ok",
+      "method": "html",
+      "items": [],
+      "evidence_url": "https://advertisingarchive.asia/"
+    },
+    {
+      "name": "Domus",
+      "url": "https://www.domusweb.it/en.html",
+      "checked_at": "2026-11-14T17:27:46.060142+00:00",
+      "status": "ok",
+      "method": "html",
+      "items": [
+        {
+          "title": "interview liu bolin performance aquila.html",
+          "url": "https://www.domusweb.it/en/art/gallery/2026/11/09/interview-liu-bolin-performance-aquila.html",
+          "date": "",
+          "description": ""
+        }
+      ],
+      "evidence_url": "https://www.domusweb.it/en.html"
+    },
+    {
+      "name": "Sight Unseen",
+      "url": "https://www.sightunseen.com/",
+      "checked_at": "2026-11-14T17:27:46.060142+00:00",
+      "status": "ok",
+      "method": "html",
+      "items": [],
+      "evidence_url": "https://www.sightunseen.com/"
+    },
+    {
+      "name": "VMSD",
+      "url": "https://vmsd.com/",
+      "checked_at": "2026-11-14T17:27:46.060142+00:00",
+      "status": "ok",
+      "method": "html",
+      "items": [],
+      "evidence_url": "https://vmsd.com/"
+    },
+    {
+      "name": "Clear Channel Outdoor",
+      "url": "https://www.clearchanneloutdoor.com/",
+      "checked_at": "2026-11-14T17:27:46.060142+00:00",
+      "status": "ok",
+      "method": "html",
+      "items": [],
+      "evidence_url": "https://clearchanneloutdoor.com/"
+    },
+    {
+      "name": "OUTFRONT Media",
+      "url": "https://www.outfront.com/",
+      "checked_at": "2026-11-14T17:27:46.060142+00:00",
+      "status": "ok",
+      "method": "html",
+      "items": [],
+      "evidence_url": "https://www.outfront.com/"
+    },
+    {
+      "name": "Unreal Engine",
+      "url": "https://www.unrealengine.com/",
+      "checked_at": "2026-11-14T17:27:46.060142+00:00",
+      "status": "error",
+      "method": null,
+      "items": [],
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "name": "Technoscopie",
+      "url": "https://www.technoscopie.fr/",
+      "checked_at": "2026-11-14T17:27:46.060142+00:00",
+      "status": "error",
+      "method": null,
+      "items": [],
+      "error": "<urlopen error [Errno -2] Name or service not known>"
+    },
+    {
+      "name": "Promonews",
+      "url": "https://www.promonews.tv/",
+      "checked_at": "2026-11-14T17:27:46.060142+00:00",
+      "status": "ok",
+      "method": "html",
+      "items": [],
+      "evidence_url": "https://www.promonews.tv/"
+    },
+    {
+      "name": "Stereogum",
+      "url": "https://www.stereogum.com/",
+      "checked_at": "2026-11-14T17:27:46.060142+00:00",
+      "status": "ok",
+      "method": "html",
+      "items": [
+        {
+          "title": "concert review",
+          "url": "https://stereogum.com/category/reviews/concert-review",
+          "date": "",
+          "description": ""
+        },
+        {
+          "title": "concert review",
+          "url": "https://stereogum.com/2516108/5-thoughts-on-olivia-rodrigos-unraveled-tour/reviews/concert-review",
+          "date": "",
+          "description": ""
+        }
+      ],
+      "evidence_url": "https://stereogum.com/"
+    },
+    {
+      "name": "Pitchfork",
+      "url": "https://pitchfork.com/",
+      "checked_at": "2026-11-14T17:27:46.060142+00:00",
+      "status": "error",
+      "method": null,
+      "items": [],
+      "error": "response exceeds size limit"
+    },
+    {
+      "name": "Directors Notes",
+      "url": "https://directorsnotes.com/",
+      "checked_at": "2026-11-14T17:27:46.060142+00:00",
+      "status": "ok",
+      "method": "html",
+      "items": [],
+      "evidence_url": "https://directorsnotes.com/"
+    },
+    {
+      "name": "Dance Magazine",
+      "url": "https://www.dancemagazine.com/",
+      "checked_at": "2026-11-14T17:27:46.060142+00:00",
+      "status": "ok",
+      "method": "html",
+      "items": [
+        {
+          "title": "A New Exhibition Illuminates Geoffrey Holder’s Visual Art Practice",
+          "url": "https://dancemagazine.com/geoffrey-holder-art",
+          "date": "",
+          "description": ""
+        }
+      ],
+      "evidence_url": "https://dancemagazine.com/"
+    },
+    {
+      "name": "The Stage",
+      "url": "https://www.thestage.co.uk/",
+      "checked_at": "2026-11-14T17:27:46.060142+00:00",
+      "status": "ok",
+      "method": "html",
+      "items": [
+        {
+          "title": "The Stage Interview",
+          "url": "https://www.thestage.co.uk/the-stage-interview",
+          "date": "",
+          "description": ""
+        },
+        {
+          "title": "the stage 100",
+          "url": "https://www.thestage.co.uk/the-stage-100",
+          "date": "",
+          "description": ""
+        },
+        {
+          "title": "backstage technical",
+          "url": "https://www.thestage.co.uk/backstage-technical",
+          "date": "",
+          "description": ""
+        },
+        {
+          "title": "musical theatre",
+          "url": "https://www.thestage.co.uk/musical-theatre",
+          "date": "",
+          "description": ""
+        },
+        {
+          "title": "acting performance",
+          "url": "https://www.thestage.co.uk/acting-performance",
+          "date": "",
+          "description": ""
+        },
+        {
+          "title": "national theatre receives 15m boost to touring work in bid to reach 100000 young people",
+          "url": "https://www.thestage.co.uk/news/national-theatre-receives-15m-boost-to-touring-work-in-bid-to-reach-100000-young-people",
+          "date": "",
+          "description": ""
+        },
+        {
+          "title": "its not just the big guns who can give back to the theatre community amanda parker",
+          "url": "https://www.thestage.co.uk/opinion/its-not-just-the-big-guns-who-can-give-back-to-the-theatre-community-amanda-parker",
+          "date": "",
+          "description": ""
+        },
+        {
+          "title": "cloud 9 at the national theatre review round up",
+          "url": "https://www.thestage.co.uk/review-round-ups/cloud-9-at-the-national-theatre-review-round-up",
+          "date": "",
+          "description": ""
+        },
+        {
+          "title": "zackary momoh interview desire under the elms at the almeida theatre",
+          "url": "https://www.thestage.co.uk/features/zackary-momoh-interview-desire-under-the-elms-at-the-almeida-theatre",
+          "date": "",
+          "description": ""
+        },
+        {
+          "title": "theatres hit by microsoft crash advise audiences to contact box offices",
+          "url": "https://www.thestage.co.uk/news/theatres-hit-by-microsoft-crash-advise-audiences-to-contact-box-offices",
+          "date": "",
+          "description": ""
+        },
+        {
+          "title": "yard theatre to stage company in venues first musical",
+          "url": "https://www.thestage.co.uk/news/yard-theatre-to-stage-company-in-venues-first-musical",
+          "date": "",
+          "description": ""
+        },
+        {
+          "title": "norfolk and norwich festival head to step down after a decade",
+          "url": "https://www.thestage.co.uk/news/norfolk-and-norwich-festival-head-to-step-down-after-a-decade",
+          "date": "",
+          "description": ""
+        },
+        {
+          "title": "director who died last year accused of grooming youth theatre member in 1980s",
+          "url": "https://www.thestage.co.uk/news/director-who-died-last-year-accused-of-grooming-youth-theatre-member-in-1980s",
+          "date": "",
+          "description": ""
+        },
+        {
+          "title": "one in four children miss out on school theatre trips as financial pressures hit",
+          "url": "https://www.thestage.co.uk/news/one-in-four-children-miss-out-on-school-theatre-trips-as-financial-pressures-hit",
+          "date": "",
+          "description": ""
+        },
+        {
+          "title": "director and designer unveil plans to revive streatham theatre as commercial venue",
+          "url": "https://www.thestage.co.uk/news/director-and-designer-unveil-plans-to-revive-streatham-theatre-as-commercial-venue",
+          "date": "",
+          "description": ""
+        },
+        {
+          "title": "burnham pressed to tear down barriers to uk eu touring at upcoming summit",
+          "url": "https://www.thestage.co.uk/news/burnham-pressed-to-tear-down-barriers-to-uk-eu-touring-at-upcoming-summit",
+          "date": "",
+          "description": ""
+        },
+        {
+          "title": "matt henry to lead to sir with love musical uk tour",
+          "url": "https://www.thestage.co.uk/news/matt-henry-to-lead-to-sir-with-love-musical-uk-tour",
+          "date": "",
+          "description": ""
+        },
+        {
+          "title": "theatre bosses urge pm to protect women in arts after brand crimes",
+          "url": "https://www.thestage.co.uk/news/theatre-bosses-urge-pm-to-protect-women-in-arts-after-brand-crimes",
+          "date": "",
+          "description": ""
+        },
+        {
+          "title": "bradford theatre to close after 50 years following university funding cut",
+          "url": "https://www.thestage.co.uk/news/bradford-theatre-to-close-after-50-years-following-university-funding-cut",
+          "date": "",
+          "description": ""
+        },
+        {
+          "title": "kings head theatre reveals two world premieres in new season",
+          "url": "https://www.thestage.co.uk/news/kings-head-theatre-reveals-two-world-premieres-in-new-season",
+          "date": "",
+          "description": ""
+        },
+        {
+          "title": "hamlet hail to the thief review barbican theatre london radiohead",
+          "url": "https://www.thestage.co.uk/reviews/hamlet-hail-to-the-thief-review-barbican-theatre-london-radiohead",
+          "date": "",
+          "description": ""
+        },
+        {
+          "title": "dogstar review hampstead theatre studio london",
+          "url": "https://www.thestage.co.uk/reviews/dogstar-review-hampstead-theatre-studio-london",
+          "date": "",
+          "description": ""
+        },
+        {
+          "title": "the haunting of hill house review royal lyceum theatre edinburgh",
+          "url": "https://www.thestage.co.uk/reviews/the-haunting-of-hill-house-review-royal-lyceum-theatre-edinburgh",
+          "date": "",
+          "description": ""
+        },
+        {
+          "title": "cloud 9 review lyttelton national theatre london",
+          "url": "https://www.thestage.co.uk/reviews/cloud-9-review-lyttelton-national-theatre-london",
+          "date": "",
+          "description": ""
+        },
+        {
+          "title": "critics do more for theatre than generate ticket sales lyn gardner",
+          "url": "https://www.thestage.co.uk/opinion/critics-do-more-for-theatre-than-generate-ticket-sales-lyn-gardner",
+          "date": "",
+          "description": ""
+        },
+        {
+          "title": "ace funding business rates tourist tax and more this month in your views",
+          "url": "https://www.thestage.co.uk/your-views/ace-funding-business-rates-tourist-tax-and-more-this-month-in-your-views",
+          "date": "",
+          "description": ""
+        },
+        {
+          "title": "theatre must urgently address inequalities drama in schools campaign reminds us lyn gardner",
+          "url": "https://www.thestage.co.uk/opinion/theatre-must-urgently-address-inequalities-drama-in-schools-campaign-reminds-us-lyn-gardner",
+          "date": "",
+          "description": ""
+        },
+        {
+          "title": "anne marie duff blanche mcintyre and helen edmundson",
+          "url": "https://www.thestage.co.uk/the-stage-interview/anne-marie-duff-blanche-mcintyre-and-helen-edmundson",
+          "date": "",
+          "description": ""
+        },
+        {
+          "title": "alan cumming pitlochry festival theatre artistic director",
+          "url": "https://www.thestage.co.uk/the-stage-interview/alan-cumming-pitlochry-festival-theatre-artistic-director",
+          "date": "",
+          "description": ""
+        },
+        {
+          "title": "david hutchinson producer",
+          "url": "https://www.thestage.co.uk/the-stage-interview/david-hutchinson-producer",
+          "date": "",
+          "description": ""
+        },
+        {
+          "title": "pamela howard",
+          "url": "https://www.thestage.co.uk/the-stage-interview/pamela-howard",
+          "date": "",
+          "description": ""
+        },
+        {
+          "title": "jane asher big interview osborne olivier festen the circle",
+          "url": "https://www.thestage.co.uk/the-stage-interview/jane-asher-big-interview-osborne-olivier-festen-the-circle",
+          "date": "",
+          "description": ""
+        },
+        {
+          "title": "kathryn hunter",
+          "url": "https://www.thestage.co.uk/the-stage-interview/kathryn-hunter",
+          "date": "",
+          "description": ""
+        },
+        {
+          "title": "michael sheen welsh national theatre",
+          "url": "https://www.thestage.co.uk/the-stage-interview/michael-sheen-welsh-national-theatre",
+          "date": "",
+          "description": ""
+        },
+        {
+          "title": "annilese miskimmon english national opera",
+          "url": "https://www.thestage.co.uk/the-stage-interview/annilese-miskimmon-english-national-opera",
+          "date": "",
+          "description": ""
+        }
+      ],
+      "evidence_url": "https://www.thestage.co.uk/"
+    },
+    {
+      "name": "BroadwayWorld Dance",
+      "url": "https://www.broadwayworld.com/bwwdance/",
+      "checked_at": "2026-11-14T17:27:46.060142+00:00",
+      "status": "ok",
+      "method": "html",
+      "items": [
+        {
+          "title": "addyourshow.php",
+          "url": "https://www.broadwayworld.com/addyourshow.php",
+          "date": "",
+          "description": ""
+        },
+        {
+          "title": "join.php",
+          "url": "https://www.broadwayworld.com/myshows/join.php",
+          "date": "",
+          "description": ""
+        },
+        {
+          "title": "broadway shows.php",
+          "url": "https://www.broadwayworld.com/shows/broadway-shows.php",
+          "date": "",
+          "description": ""
+        },
+        {
+          "title": "shows.php",
+          "url": "https://www.broadwayworld.com/shows/shows.php?page=oshows",
+          "date": "",
+          "description": ""
+        },
+        {
+          "title": "shows.php",
+          "url": "https://www.broadwayworld.com/shows/shows.php?page=immersive",
+          "date": "",
+          "description": ""
+        },
+        {
+          "title": "pickashowregional.php",
+          "url": "https://www.broadwayworld.com/pickashowregional.php",
+          "date": "",
+          "description": ""
+        },
+        {
+          "title": "broadway shows discounts.php",
+          "url": "https://www.broadwayworld.com/shows/broadway-shows-discounts.php",
+          "date": "",
+          "description": ""
+        },
+        {
+          "title": "shows.php",
+          "url": "https://www.broadwayworld.com/shows/shows.php?page=tour",
+          "date": "",
+          "description": ""
+        },
+        {
+          "title": "shows.php",
+          "url": "https://www.broadwayworld.com/shows/shows.php?page=westend",
+          "date": "",
+          "description": ""
+        },
+        {
+          "title": "industry bww theatres.php",
+          "url": "https://www.broadwayworld.com/industry-bww-theatres.php",
+          "date": "",
+          "description": ""
+        },
+        {
+          "title": "World Ballet Companys THE NUTCRACKER Comes To The Curran Theatre In December 20261113",
+          "url": "https://www.broadwayworld.com/san-francisco/article/World-Ballet-Companys-THE-NUTCRACKER-Comes-To-The-Curran-Theatre-In-December-20261113",
+          "date": "",
+          "description": ""
+        },
+        {
+          "title": "Interview GALLIM CELEBRATES A MOMENTOUS MILESTONE AT THE JOYCE THEATER 20261111",
+          "url": "https://www.broadwayworld.com/bwwdance/article/Interview-GALLIM-CELEBRATES-A-MOMENTOUS-MILESTONE-AT-THE-JOYCE-THEATER-20261111",
+          "date": "",
+          "description": ""
+        },
+        {
+          "title": "JERSEY NUTCRACKER Will Be Performed at the Restored Loews Jersey Theatre in Jersey City 20261110",
+          "url": "https://www.broadwayworld.com/new-jersey/article/JERSEY-NUTCRACKER-Will-Be-Performed-at-the-Restored-Loews-Jersey-Theatre-in-Jersey-City-20261110",
+          "date": "",
+          "description": ""
+        },
+        {
+          "title": "Photos Anna Nevzorova and Jakob Wheway Hughes to Dance Nutcracker Pas de Deux in Ballet Nights Richmond and Brighton Shows 20261113",
+          "url": "https://www.broadwayworld.com/bwwdance/article/Photos-Anna-Nevzorova-and-Jakob-Wheway-Hughes-to-Dance-Nutcracker-Pas-de-Deux-in-Ballet-Nights-Richmond-and-Brighton-Shows-20261113",
+          "date": "",
+          "description": ""
+        },
+        {
+          "title": "Hofstra University Fall Dance Concert to Feature Guest Artists and Tribute to Henrietta Lacks 20261111",
+          "url": "https://www.broadwayworld.com/bwwdance/article/Hofstra-University-Fall-Dance-Concert-to-Feature-Guest-Artists-and-Tribute-to-Henrietta-Lacks-20261111",
+          "date": "",
+          "description": ""
+        },
+        {
+          "title": "Ballet Nights to Stage New Years Day Concert at Cadogan Hall in London 20261111",
+          "url": "https://www.broadwayworld.com/westend/article/Ballet-Nights-to-Stage-New-Years-Day-Concert-at-Cadogan-Hall-in-London-20261111",
+          "date": "",
+          "description": ""
+        },
+        {
+          "title": "BALAM Dance Theatre to Perform Balinese and Fusion Dance at 2026 World Dance Festival in NYC 20261111",
+          "url": "https://www.broadwayworld.com/article/BALAM-Dance-Theatre-to-Perform-Balinese-and-Fusion-Dance-at-2026-World-Dance-Festival-in-NYC-20261111",
+          "date": "",
+          "description": ""
+        },
+        {
+          "title": "THE NUTCRACKER Will Return to Orange County Ballet Theater 20261111",
+          "url": "https://www.broadwayworld.com/los-angeles/article/THE-NUTCRACKER-Will-Return-to-Orange-County-Ballet-Theater-20261111",
+          "date": "",
+          "description": ""
+        },
+        {
+          "title": "Video Watch the NEVERMORE Trailer for London Run at Charing Cross Theatre 20261110",
+          "url": "https://www.broadwayworld.com/westend/article/Video-Watch-the-NEVERMORE-Trailer-for-London-Run-at-Charing-Cross-Theatre-20261110",
+          "date": "",
+          "description": ""
+        },
+        {
+          "title": "Charlotte Ballet Will Return to New York at The Joyce Theater 20261110",
+          "url": "https://www.broadwayworld.com/article/Charlotte-Ballet-Will-Return-to-New-York-at-The-Joyce-Theater-20261110",
+          "date": "",
+          "description": ""
+        },
+        {
+          "title": "THE ROCKET MAN SHOW Elton John Tribute Returns to Tanger Center August 2027 20261109",
+          "url": "https://www.broadwayworld.com/raleigh/article/THE-ROCKET-MAN-SHOW-Elton-John-Tribute-Returns-to-Tanger-Center-August-2027-20261109",
+          "date": "",
+          "description": ""
+        },
+        {
+          "title": "BALLET ARIZONA to Stage THE NUTCRACKER at Symphony Hall This Holiday Season 20261109",
+          "url": "https://www.broadwayworld.com/phoenix/article/BALLET-ARIZONA-to-Stage-THE-NUTCRACKER-at-Symphony-Hall-This-Holiday-Season-20261109",
+          "date": "",
+          "description": ""
+        },
+        {
+          "title": "Can a Dancer Build a Competition Program Between Shows Iskandar Anvarov Won Gold With One 20261109",
+          "url": "https://www.broadwayworld.com/bwwdance/article/Can-a-Dancer-Build-a-Competition-Program-Between-Shows-Iskandar-Anvarov-Won-Gold-With-One-20261109",
+          "date": "",
+          "description": ""
+        },
+        {
+          "title": "Alaska Dance Theatre Will Perform AN ALASKAN HOLIDAY Featuring THE LAND OF THE SWEETS This December 20261109",
+          "url": "https://www.broadwayworld.com/anchorage/article/Alaska-Dance-Theatre-Will-Perform-AN-ALASKAN-HOLIDAY-Featuring-THE-LAND-OF-THE-SWEETS-This-December-20261109",
+          "date": "",
+          "description": ""
+        },
+        {
+          "title": "Video First Look At REDCLIFFE In Trailer From London Theatre 20261107",
+          "url": "https://www.broadwayworld.com/westend/article/Video-First-Look-At-REDCLIFFE-In-Trailer-From-London-Theatre-20261107",
+          "date": "",
+          "description": ""
+        },
+        {
+          "title": "Bill T JonesArnie Zane Company to End Performances After Final Year in 2027 20261106",
+          "url": "https://www.broadwayworld.com/off-broadway/article/Bill-T-JonesArnie-Zane-Company-to-End-Performances-After-Final-Year-in-2027-20261106",
+          "date": "",
+          "description": ""
+        },
+        {
+          "title": "American Ballet Theatre Unveils 2027 Spring Season Cast Members 20261106",
+          "url": "https://www.broadwayworld.com/bwwdance/article/American-Ballet-Theatre-Unveils-2027-Spring-Season-Cast-Members-20261106",
+          "date": "",
+          "description": ""
+        },
+        {
+          "title": "Review CRANFORD Orange Tree Theatre 20261113",
+          "url": "https://www.broadwayworld.com/westend/article/Review-CRANFORD-Orange-Tree-Theatre-20261113",
+          "date": "",
+          "description": ""
+        },
+        {
+          "title": "Jessie Buckley COMPANY Revival and More Set for English Touring Theatres 202728 Season 20261113",
+          "url": "https://www.broadwayworld.com/westend/article/Jessie-Buckley-COMPANY-Revival-and-More-Set-for-English-Touring-Theatres-202728-Season-20261113",
+          "date": "",
+          "description": ""
+        },
+        {
+          "title": "alt J to Join The O2s 20th Birthday Line Up With Performance at The O2 in July 20261113",
+          "url": "https://www.broadwayworld.com/westend/article/alt-J-to-Join-The-O2s-20th-Birthday-Line-Up-With-Performance-at-The-O2-in-July-20261113",
+          "date": "",
+          "description": ""
+        },
+        {
+          "title": "THE GAP YEAR North American Premiere and More Set for Irish Repertory Theatre 2027 Winter Season 20261113",
+          "url": "https://www.broadwayworld.com/off-broadway/article/THE-GAP-YEAR-North-American-Premiere-and-More-Set-for-Irish-Repertory-Theatre-2027-Winter-Season-20261113",
+          "date": "",
+          "description": ""
+        },
+        {
+          "title": "Video Watch the Cast of LES MISRABLES Rehearse One Day More at Syracuse Stage 20261114",
+          "url": "https://www.broadwayworld.com/central-new-york/article/Video-Watch-the-Cast-of-LES-MISRABLES-Rehearse-One-Day-More-at-Syracuse-Stage-20261114",
+          "date": "",
+          "description": ""
+        },
+        {
+          "title": "Photos OH MARY National Tour Opens At the Ahmanson Theatre 20261113",
+          "url": "https://www.broadwayworld.com/los-angeles/article/Photos-OH-MARY-National-Tour-Opens-At-the-Ahmanson-Theatre-20261113",
+          "date": "",
+          "description": ""
+        },
+        {
+          "title": "Photos A MIDSUMMER NIGHTS DREAM Begins Performances at Chicago Shakespeare Theater 20261113",
+          "url": "https://www.broadwayworld.com/chicago/article/Photos-A-MIDSUMMER-NIGHTS-DREAM-Begins-Performances-at-Chicago-Shakespeare-Theater-20261113",
+          "date": "",
+          "description": ""
+        },
+        {
+          "title": "Review Pretty Witty and Gay OH MARY Dazzles at Ahmanson Theatre 20261113",
+          "url": "https://www.broadwayworld.com/los-angeles/article/Review-Pretty-Witty-and-Gay-OH-MARY-Dazzles-at-Ahmanson-Theatre-20261113",
+          "date": "",
+          "description": ""
+        }
+      ],
+      "evidence_url": "https://www.broadwayworld.com/bwwdance/"
+    },
+    {
+      "name": "Motionographer",
+      "url": "https://motionographer.com/",
+      "checked_at": "2026-11-14T17:27:46.060142+00:00",
+      "status": "error",
+      "method": null,
+      "items": [],
+      "error": "response exceeds size limit"
+    },
+    {
+      "name": "Les Inrockuptibles",
+      "url": "https://www.lesinrocks.com/",
+      "checked_at": "2026-11-14T17:27:46.060142+00:00",
+      "status": "ok",
+      "method": "html",
+      "items": [],
+      "evidence_url": "https://www.lesinrocks.com/"
+    },
+    {
+      "name": "Tsugi",
+      "url": "https://www.tsugi.fr/",
+      "checked_at": "2026-11-14T17:27:46.060142+00:00",
+      "status": "error",
+      "method": null,
+      "items": [],
+      "error": "response exceeds size limit"
+    },
+    {
+      "name": "Mouv'",
+      "url": "https://www.radiofrance.fr/mouv",
+      "checked_at": "2026-11-14T17:27:46.060142+00:00",
+      "status": "ok",
+      "method": "html",
+      "items": [],
+      "evidence_url": "https://www.radiofrance.fr/mouv"
+    },
+    {
+      "name": "Konbini Musique",
+      "url": "https://www.konbini.com/popculture/musique/",
+      "checked_at": "2026-11-14T17:27:46.060142+00:00",
+      "status": "error",
+      "method": null,
+      "items": [],
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "name": "La Blogothèque",
+      "url": "https://www.blogotheque.net/",
+      "checked_at": "2026-11-14T17:27:46.060142+00:00",
+      "status": "ok",
+      "method": "html",
+      "items": [],
+      "evidence_url": "https://www.blogotheque.net/"
+    },
+    {
+      "name": "NOWNESS",
+      "url": "https://www.nowness.com/",
+      "checked_at": "2026-11-14T17:27:46.060142+00:00",
+      "status": "ok",
+      "method": "html",
+      "items": [],
+      "evidence_url": "https://www.nowness.com/"
+    }
+  ]
+}

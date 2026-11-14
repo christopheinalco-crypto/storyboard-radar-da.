@@ -1,0 +1,2655 @@
+{
+  "generated_at": "2026-11-14T17:27:46.060142+00:00",
+  "items": [
+    {
+      "title": "resources_digital_theatre_words.php",
+      "url": "https://oistat.org/resources_digital_theatre_words.php",
+      "date": "",
+      "description": "",
+      "source": "OISTAT",
+      "source_url": "https://oistat.org/",
+      "detected_at": "2026-11-14T17:27:46.060142+00:00",
+      "editorial_status": "unreviewed"
+    },
+    {
+      "title": "showcases",
+      "url": "https://www.showtex.com/en/showcases",
+      "date": "",
+      "description": "",
+      "source": "ShowTex",
+      "source_url": "https://www.showtex.com/fr/projets",
+      "detected_at": "2026-11-14T17:27:46.060142+00:00",
+      "editorial_status": "unreviewed"
+    },
+    {
+      "title": "showcases",
+      "url": "https://www.showtex.com/nl/showcases",
+      "date": "",
+      "description": "",
+      "source": "ShowTex",
+      "source_url": "https://www.showtex.com/fr/projets",
+      "detected_at": "2026-11-14T17:27:46.060142+00:00",
+      "editorial_status": "unreviewed"
+    },
+    {
+      "title": "velours de scene",
+      "url": "https://www.showtex.com/fr/produits/textiles/masquage-et-drapes/velours-de-scene",
+      "date": "",
+      "description": "",
+      "source": "ShowTex",
+      "source_url": "https://www.showtex.com/fr/projets",
+      "detected_at": "2026-11-14T17:27:46.060142+00:00",
+      "editorial_status": "unreviewed"
+    },
+    {
+      "title": "rideaux etoiles showled",
+      "url": "https://www.showtex.com/fr/produits/textiles/toiles-de-fond-et-plafonds/rideaux-etoiles-showled",
+      "date": "",
+      "description": "",
+      "source": "ShowTex",
+      "source_url": "https://www.showtex.com/fr/projets",
+      "detected_at": "2026-11-14T17:27:46.060142+00:00",
+      "editorial_status": "unreviewed"
+    },
+    {
+      "title": "scenographie et decoration",
+      "url": "https://www.showtex.com/fr/produits/textiles/scenographie-et-decoration",
+      "date": "",
+      "description": "",
+      "source": "ShowTex",
+      "source_url": "https://www.showtex.com/fr/projets",
+      "detected_at": "2026-11-14T17:27:46.060142+00:00",
+      "editorial_status": "unreviewed"
+    },
+    {
+      "title": "voile tissus legers",
+      "url": "https://www.showtex.com/fr/produits/textiles/scenographie-et-decoration/voile-tissus-legers",
+      "date": "",
+      "description": "",
+      "source": "ShowTex",
+      "source_url": "https://www.showtex.com/fr/projets",
+      "detected_at": "2026-11-14T17:27:46.060142+00:00",
+      "editorial_status": "unreviewed"
+    },
+    {
+      "title": "tissus extensibles",
+      "url": "https://www.showtex.com/fr/produits/textiles/scenographie-et-decoration/tissus-extensibles",
+      "date": "",
+      "description": "",
+      "source": "ShowTex",
+      "source_url": "https://www.showtex.com/fr/projets",
+      "detected_at": "2026-11-14T17:27:46.060142+00:00",
+      "editorial_status": "unreviewed"
+    },
+    {
+      "title": "rideaux de fils",
+      "url": "https://www.showtex.com/fr/produits/textiles/scenographie-et-decoration/rideaux-de-fils",
+      "date": "",
+      "description": "",
+      "source": "ShowTex",
+      "source_url": "https://www.showtex.com/fr/projets",
+      "detected_at": "2026-11-14T17:27:46.060142+00:00",
+      "editorial_status": "unreviewed"
+    },
+    {
+      "title": "materiaux textures",
+      "url": "https://www.showtex.com/fr/produits/textiles/scenographie-et-decoration/materiaux-textures",
+      "date": "",
+      "description": "",
+      "source": "ShowTex",
+      "source_url": "https://www.showtex.com/fr/projets",
+      "detected_at": "2026-11-14T17:27:46.060142+00:00",
+      "editorial_status": "unreviewed"
+    },
+    {
+      "title": "tissus effet metallise",
+      "url": "https://www.showtex.com/fr/produits/textiles/scenographie-et-decoration/tissus-effet-metallise",
+      "date": "",
+      "description": "",
+      "source": "ShowTex",
+      "source_url": "https://www.showtex.com/fr/projets",
+      "detected_at": "2026-11-14T17:27:46.060142+00:00",
+      "editorial_status": "unreviewed"
+    },
+    {
+      "title": "theatre et salle de spectacle",
+      "url": "https://www.showtex.com/fr/projets/theatre-et-salle-de-spectacle",
+      "date": "",
+      "description": "",
+      "source": "ShowTex",
+      "source_url": "https://www.showtex.com/fr/projets",
+      "detected_at": "2026-11-14T17:27:46.060142+00:00",
+      "editorial_status": "unreviewed"
+    },
+    {
+      "title": "arts de la scene",
+      "url": "https://www.showtex.com/fr/projets/arts-de-la-scene",
+      "date": "",
+      "description": "",
+      "source": "ShowTex",
+      "source_url": "https://www.showtex.com/fr/projets",
+      "detected_at": "2026-11-14T17:27:46.060142+00:00",
+      "editorial_status": "unreviewed"
+    },
+    {
+      "title": "la durabilite chez showtex des solutions ecoresponsables pour la scene et levenementiel",
+      "url": "https://www.showtex.com/fr/hub-d-expertise/la-durabilite-chez-showtex-des-solutions-ecoresponsables-pour-la-scene-et-levenementiel",
+      "date": "",
+      "description": "",
+      "source": "ShowTex",
+      "source_url": "https://www.showtex.com/fr/projets",
+      "detected_at": "2026-11-14T17:27:46.060142+00:00",
+      "editorial_status": "unreviewed"
+    },
+    {
+      "title": "a propos de showtex",
+      "url": "https://www.showtex.com/fr/a-propos-de-showtex",
+      "date": "",
+      "description": "",
+      "source": "ShowTex",
+      "source_url": "https://www.showtex.com/fr/projets",
+      "detected_at": "2026-11-14T17:27:46.060142+00:00",
+      "editorial_status": "unreviewed"
+    },
+    {
+      "title": "En savoir plus sur Voilages et écrans de projection enrichissent l’expérience de concert",
+      "url": "https://www.showtex.com/fr/projets/voilages-et-ecrans-de-projection-enrichissent-lexperience-de-concert",
+      "date": "",
+      "description": "",
+      "source": "ShowTex",
+      "source_url": "https://www.showtex.com/fr/projets",
+      "detected_at": "2026-11-14T17:27:46.060142+00:00",
+      "editorial_status": "unreviewed"
+    },
+    {
+      "title": "En savoir plus sur Une symphonie de textiles transforme cette tournée de concerts",
+      "url": "https://www.showtex.com/fr/projets/une-symphonie-de-textiles-transforme-cette-tournee-de-concerts",
+      "date": "",
+      "description": "",
+      "source": "ShowTex",
+      "source_url": "https://www.showtex.com/fr/projets",
+      "detected_at": "2026-11-14T17:27:46.060142+00:00",
+      "editorial_status": "unreviewed"
+    },
+    {
+      "title": "En savoir plus sur Un miroir kaléidoscopique au festival Clockenflap",
+      "url": "https://www.showtex.com/fr/projets/un-miroir-kaleidoscopique-au-festival-clockenflap",
+      "date": "",
+      "description": "",
+      "source": "ShowTex",
+      "source_url": "https://www.showtex.com/fr/projets",
+      "detected_at": "2026-11-14T17:27:46.060142+00:00",
+      "editorial_status": "unreviewed"
+    },
+    {
+      "title": "En savoir plus sur Tissu modelable et cyclorama embellissent ce festival de techno",
+      "url": "https://www.showtex.com/fr/projets/tissu-modelable-et-cyclorama-embellissent-ce-festival-de-techno",
+      "date": "",
+      "description": "",
+      "source": "ShowTex",
+      "source_url": "https://www.showtex.com/fr/projets",
+      "detected_at": "2026-11-14T17:27:46.060142+00:00",
+      "editorial_status": "unreviewed"
+    },
+    {
+      "title": "En savoir plus sur Le GiantMirror redéfinit la scénographie dans Rusalka",
+      "url": "https://www.showtex.com/fr/projets/le-giantmirror-redefinit-la-scenographie-dans-rusalka",
+      "date": "",
+      "description": "",
+      "source": "ShowTex",
+      "source_url": "https://www.showtex.com/fr/projets",
+      "detected_at": "2026-11-14T17:27:46.060142+00:00",
+      "editorial_status": "unreviewed"
+    },
+    {
+      "title": "En savoir plus sur Éclipse totale avec ce tissue occultant",
+      "url": "https://www.showtex.com/fr/projets/eclipse-totale-avec-ce-tissue-occultant",
+      "date": "",
+      "description": "",
+      "source": "ShowTex",
+      "source_url": "https://www.showtex.com/fr/projets",
+      "detected_at": "2026-11-14T17:27:46.060142+00:00",
+      "editorial_status": "unreviewed"
+    },
+    {
+      "title": "En savoir plus sur Un plafond tendu diffuseur de lumière sur scène",
+      "url": "https://www.showtex.com/fr/projets/un-plafond-tendu-diffuseur-de-lumiere-sur-scene",
+      "date": "",
+      "description": "",
+      "source": "ShowTex",
+      "source_url": "https://www.showtex.com/fr/projets",
+      "detected_at": "2026-11-14T17:27:46.060142+00:00",
+      "editorial_status": "unreviewed"
+    },
+    {
+      "title": "politique en matiere de cookies de showtex",
+      "url": "https://www.showtex.com/fr/politique-en-matiere-de-cookies-de-showtex",
+      "date": "",
+      "description": "",
+      "source": "ShowTex",
+      "source_url": "https://www.showtex.com/fr/projets",
+      "detected_at": "2026-11-14T17:27:46.060142+00:00",
+      "editorial_status": "unreviewed"
+    },
+    {
+      "title": "clause de non responsabilite de showtex",
+      "url": "https://www.showtex.com/fr/clause-de-non-responsabilite-de-showtex",
+      "date": "",
+      "description": "",
+      "source": "ShowTex",
+      "source_url": "https://www.showtex.com/fr/projets",
+      "detected_at": "2026-11-14T17:27:46.060142+00:00",
+      "editorial_status": "unreviewed"
+    },
+    {
+      "title": "garantie showtex",
+      "url": "https://www.showtex.com/fr/garantie-showtex",
+      "date": "",
+      "description": "",
+      "source": "ShowTex",
+      "source_url": "https://www.showtex.com/fr/projets",
+      "detected_at": "2026-11-14T17:27:46.060142+00:00",
+      "editorial_status": "unreviewed"
+    },
+    {
+      "title": "Serendipity Arts Festival",
+      "url": "https://www.stirworld.com/inspire-conversation-serendipity-arts-festival",
+      "date": "",
+      "description": "",
+      "source": "STIRworld Stage Design",
+      "source_url": "https://www.stirworld.com/tags/stage-design",
+      "detected_at": "2026-11-14T17:27:46.060142+00:00",
+      "editorial_status": "unreviewed"
+    },
+    {
+      "title": "Mise-en-scène with STIR: Oscars 2022",
+      "url": "https://www.stirworld.com/inspire-conversation-mise-en-scene-with-stir-oscars-2022",
+      "date": "",
+      "description": "",
+      "source": "STIRworld Stage Design",
+      "source_url": "https://www.stirworld.com/tags/stage-design",
+      "detected_at": "2026-11-14T17:27:46.060142+00:00",
+      "editorial_status": "unreviewed"
+    },
+    {
+      "title": "Behind the scenes of Daniel Caesar’s Son Of Spergy Tour",
+      "url": "https://www.tpimagazine.com/behind-the-scenes-of-daniel-caesars-son-of-spergy-tour",
+      "date": "",
+      "description": "",
+      "source": "TPI Magazine",
+      "source_url": "https://www.tpimagazine.com/",
+      "detected_at": "2026-11-14T17:27:46.060142+00:00",
+      "editorial_status": "unreviewed"
+    },
+    {
+      "title": "Anna Vissi’s team stage a technical spectacular in Athens",
+      "url": "https://www.tpimagazine.com/anna-vissis-team-stage-a-technical-spectacular-in-athens",
+      "date": "",
+      "description": "",
+      "source": "TPI Magazine",
+      "source_url": "https://www.tpimagazine.com/",
+      "detected_at": "2026-11-14T17:27:46.060142+00:00",
+      "editorial_status": "unreviewed"
+    },
+    {
+      "title": "Behind the SFX: ER Productions ignites The R&B Tour",
+      "url": "https://www.tpimagazine.com/behind-the-sfx-er-productions-ignites-rb-tour",
+      "date": "",
+      "description": "",
+      "source": "TPI Magazine",
+      "source_url": "https://www.tpimagazine.com/",
+      "detected_at": "2026-11-14T17:27:46.060142+00:00",
+      "editorial_status": "unreviewed"
+    },
+    {
+      "title": "Creating A$AP Rocky’s Don’t Be Dumb Tour",
+      "url": "https://www.tpimagazine.com/creating-aap-rockys-dont-be-dumb-tour",
+      "date": "",
+      "description": "",
+      "source": "TPI Magazine",
+      "source_url": "https://www.tpimagazine.com/",
+      "detected_at": "2026-11-14T17:27:46.060142+00:00",
+      "editorial_status": "unreviewed"
+    },
+    {
+      "title": "show_of_hands.php",
+      "url": "https://www.underconsideration.com/brandnew/archives/show_of_hands.php",
+      "date": "",
+      "description": "",
+      "source": "Brand New",
+      "source_url": "https://www.underconsideration.com/brandnew/",
+      "detected_at": "2026-11-14T17:27:46.060142+00:00",
+      "editorial_status": "unreviewed"
+    },
+    {
+      "title": "UEFA Women’s Champions League zine collaborates with art duo Swedish Girls to bring fandom to the streets of Gothenburg",
+      "url": "https://www.itsnicethat.com/features/uefa-womens-champions-league-queenzine-swedish-girls-gothenburg-collaboration-sponsored-content-131126",
+      "date": "2026-11-13T11:00:00+00:00",
+      "description": "Queenzine is a fanzine that celebrates iconic figures in the UEFA Women’s Champions League and the fans that add fuel to their fire. To mark it’s most recent issue, physical copies of the mag sat in various cultural spots in Gothenburg, on custom stands made by one of Sweden’s most exciting art duos.",
+      "source": "It's Nice That",
+      "source_url": "https://www.itsnicethat.com/",
+      "detected_at": "2026-11-14T17:27:46.060142+00:00",
+      "editorial_status": "unreviewed"
+    },
+    {
+      "title": "Vucko’s motion identity for Etsy is built on joy, simplicity and craft",
+      "url": "https://www.itsnicethat.com/articles/vucko-etsy-motion-graphic-design-sponsored-content-121126",
+      "date": "2026-11-12T14:00:00+00:00",
+      "description": "The studio’s motion design work for the online marketplace solidifies Etsy’s identity while providing it with the capacity to adapt to each department’s specific needs.",
+      "source": "It's Nice That",
+      "source_url": "https://www.itsnicethat.com/",
+      "detected_at": "2026-11-14T17:27:46.060142+00:00",
+      "editorial_status": "unreviewed"
+    },
+    {
+      "title": "Georgie McAusland on refusing expensive tools to get more “squish and texture” into her drawings",
+      "url": "https://www.itsnicethat.com/articles/georgie-mcausland-illustration-discover-121126",
+      "date": "2026-11-12T09:00:00+00:00",
+      "description": "The artist is finding joy through drawing on location, capturing the true atmosphere of everyday scenes.",
+      "source": "It's Nice That",
+      "source_url": "https://www.itsnicethat.com/",
+      "detected_at": "2026-11-14T17:27:46.060142+00:00",
+      "editorial_status": "unreviewed"
+    },
+    {
+      "title": "Dum Dum Studio’s inventive design emerges from an open mind and a love of play",
+      "url": "https://www.itsnicethat.com/articles/dum-dum-studio-graphic-design-discover-121126",
+      "date": "2026-11-12T09:00:00+00:00",
+      "description": "Whether it’s an identity, custom typeface or art direction, this studio is sourcing inspiration from the history of it’s home city, Monterrey – the industrial capital of Mexico.",
+      "source": "It's Nice That",
+      "source_url": "https://www.itsnicethat.com/",
+      "detected_at": "2026-11-14T17:27:46.060142+00:00",
+      "editorial_status": "unreviewed"
+    },
+    {
+      "title": "Why the retro brand identities of Biabum studio have illustration built into their DNA",
+      "url": "https://www.itsnicethat.com/articles/biabum-graphic-design-illustration-discover-111126",
+      "date": "2026-11-11T09:00:00+00:00",
+      "description": "The Brazilian studio has a knack for finding the right colour palette to create something that will move people.",
+      "source": "It's Nice That",
+      "source_url": "https://www.itsnicethat.com/",
+      "detected_at": "2026-11-14T17:27:46.060142+00:00",
+      "editorial_status": "unreviewed"
+    },
+    {
+      "title": "Missing summer? Dive into Emily Stein colourful and chaotic snaps of Italian waterparks",
+      "url": "https://www.itsnicethat.com/articles/emily-stein-aquasplash-photography-project-111126",
+      "date": "2026-11-11T09:00:00+00:00",
+      "description": "The photographer captures the retro aesthetics and loud, lurid nature of every kid’s dream day out: “A waterpark is summer turned up to full volume.”",
+      "source": "It's Nice That",
+      "source_url": "https://www.itsnicethat.com/",
+      "detected_at": "2026-11-14T17:27:46.060142+00:00",
+      "editorial_status": "unreviewed"
+    },
+    {
+      "title": "Adobe Max Miami 2026 goes live online",
+      "url": "https://www.itsnicethat.com/articles/adobe-max-miami-2026-creative-industry-sponsored-content-101126",
+      "date": "2026-11-10T16:00:00+00:00",
+      "description": "Adobe’s creativity conference returns on 10-11 November, with a free online pass and a roster that runs from Terry Crews to Adobe’s incoming CEO.",
+      "source": "It's Nice That",
+      "source_url": "https://www.itsnicethat.com/",
+      "detected_at": "2026-11-14T17:27:46.060142+00:00",
+      "editorial_status": "unreviewed"
+    },
+    {
+      "title": "Trade Secrets: a free webinar series reveals the photography techniques behind Ana Flores, Sam Nicklin and Arielle Bobb-Willis photographs",
+      "url": "https://www.itsnicethat.com/articles/trade-secrets-mpb-photography-event-partnership-101126",
+      "date": "2026-11-10T16:00:00+00:00",
+      "description": "In partnership with MPB, we’re launching Trade Secrets – a three-part webinar series exploring the ideas, techniques and kit behind great photography, with practical advice from three of our favourite image-makers.",
+      "source": "It's Nice That",
+      "source_url": "https://www.itsnicethat.com/",
+      "detected_at": "2026-11-14T17:27:46.060142+00:00",
+      "editorial_status": "unreviewed"
+    },
+    {
+      "title": "Nicer Tuesdays London: Get tickets for Studio Feixen, Oscar Hudson, Fiona Quadri and Adam Lin in December!",
+      "url": "https://www.itsnicethat.com/articles/nicer-tuesdays-december-london-launch-101126",
+      "date": "2026-11-10T13:00:00+00:00",
+      "description": "For our final event of the year, you can expect a feast of talks on playful typography systems, subversive cinema, public art and intimate photography from four fabulous creatives.",
+      "source": "It's Nice That",
+      "source_url": "https://www.itsnicethat.com/",
+      "detected_at": "2026-11-14T17:27:46.060142+00:00",
+      "editorial_status": "unreviewed"
+    },
+    {
+      "title": "James Barnett and Poppy French document the eccentricities of Britain with warmth and humour",
+      "url": "https://www.itsnicethat.com/features/james-barnett-poppy-french-when-james-and-poppy-met-documentary-photography-101126",
+      "date": "2026-11-10T09:00:00+00:00",
+      "description": "For a new documentary series on It’s Nice That, the creative duo set about finding niche subcultures and communities around the UK and the characters at the heart of them. We chat to the content creator and photographer about their approach and discoveries.",
+      "source": "It's Nice That",
+      "source_url": "https://www.itsnicethat.com/",
+      "detected_at": "2026-11-14T17:27:46.060142+00:00",
+      "editorial_status": "unreviewed"
+    },
+    {
+      "title": "“Strong and sporty”: Nymzo is the trendy chess brand designed for a new wave of players",
+      "url": "https://www.itsnicethat.com/articles/nymzo-product-design-project-101126",
+      "date": "2026-11-10T09:00:00+00:00",
+      "description": "Over the past few years chess changed – it caught the cool factor. But, the gear was at a stalemate. Here’s where Nymzo founders Elliott Walker and Tim Hucklesby enter the picture.",
+      "source": "It's Nice That",
+      "source_url": "https://www.itsnicethat.com/",
+      "detected_at": "2026-11-14T17:27:46.060142+00:00",
+      "editorial_status": "unreviewed"
+    },
+    {
+      "title": "Decoding 22, A Million: Eric Timothy Carlson on carving Bon Iver’s iconic visual universe ten years later",
+      "url": "https://www.itsnicethat.com/articles/eric-timothy-carlson-bon-iver-22-a-million-graphic-design-101126",
+      "date": "2026-11-10T09:00:00+00:00",
+      "description": "Bon Iver’s esoteric and mysterious music spills out into it’s album cover in clusters of meaningful symbols, all thanks to this designer.",
+      "source": "It's Nice That",
+      "source_url": "https://www.itsnicethat.com/",
+      "detected_at": "2026-11-14T17:27:46.060142+00:00",
+      "editorial_status": "unreviewed"
+    },
+    {
+      "title": "“You will always be a designer, whether that’s full time or not”",
+      "url": "https://www.itsnicethat.com/articles/creative-career-condundrums-if-you-could-jobs-advice-091126",
+      "date": "2026-11-09T09:00:00+00:00",
+      "description": "It’s not the same world as it used to be. Leave university, get a job and stay in that job for forty years. It’s also not the same as a mere five years ago, where you leave university, get a job and stay in that job for three years before moving on to another either. Creatives are forming uniquely shaped practices of their own design, consisting of multiple avenues. But what if we’re stretching ourselves too thin? In this week’s Creative Career Conundrums, Katie Cadwell, co-founder of branding s",
+      "source": "It's Nice That",
+      "source_url": "https://www.itsnicethat.com/",
+      "detected_at": "2026-11-14T17:27:46.060142+00:00",
+      "editorial_status": "unreviewed"
+    },
+    {
+      "title": "Elizabeth Goodspeed on the impossible economics of art education in the US",
+      "url": "https://www.itsnicethat.com/articles/elizabeth-goodspeed-art-school-economics-education-creative-industry-091126",
+      "date": "2026-11-09T09:00:00+00:00",
+      "description": "American art schools are closing even as tuition fees reach extraordinary heights, with new funding cuts set to make attendance even less attainable for many would-be students. But if an art education is worth more than the salary it produces, why have we accepted that only those who can afford it should get one?",
+      "source": "It's Nice That",
+      "source_url": "https://www.itsnicethat.com/",
+      "detected_at": "2026-11-14T17:27:46.060142+00:00",
+      "editorial_status": "unreviewed"
+    },
+    {
+      "title": "Mona Chalabi’s illustrated book about wealth inequality will make you talk to your friends about money",
+      "url": "https://www.itsnicethat.com/features/mona-chalabi-ten-lives-illustration-spotlight-091126",
+      "date": "2026-11-09T09:00:00+00:00",
+      "description": "Think you’re not a ‘numbers person’? The Pulitzer Prize-winning illustrator and journalist Mona Chalabi wants you to think again. On the release of her new book, Ten Lives, she chats about how pictures have the power to make economics accessible.",
+      "source": "It's Nice That",
+      "source_url": "https://www.itsnicethat.com/",
+      "detected_at": "2026-11-14T17:27:46.060142+00:00",
+      "editorial_status": "unreviewed"
+    },
+    {
+      "title": "Starting a creative career has never felt harder – 28 industry voices on what comes next",
+      "url": "https://www.itsnicethat.com/features/career-predictions-for-junior-creatives-creative-industry-091126",
+      "date": "2026-11-09T08:00:00+00:00",
+      "description": "What will starting a creative career look like in the next few years? And what can everyone – new creatives and the organisations who employ them – do to navigate this situation?",
+      "source": "It's Nice That",
+      "source_url": "https://www.itsnicethat.com/",
+      "detected_at": "2026-11-14T17:27:46.060142+00:00",
+      "editorial_status": "unreviewed"
+    },
+    {
+      "title": "Cat How: “The industry will have to rebuild the bottom rung on purpose”",
+      "url": "https://www.itsnicethat.com/career-predictions/cat-how-091126",
+      "date": "2026-11-09T08:00:00+00:00",
+      "description": "It’s a tough time for people starting out in the creative industry right now. Together with Creative Lives in Progress we asked 28 people to predict what starting a creative career will look like over the next three years.",
+      "source": "It's Nice That",
+      "source_url": "https://www.itsnicethat.com/",
+      "detected_at": "2026-11-14T17:27:46.060142+00:00",
+      "editorial_status": "unreviewed"
+    },
+    {
+      "title": "Jay Anderson: “The next-generation designer will be increasingly hybrid”",
+      "url": "https://www.itsnicethat.com/career-predictions/jay-anderson-091126",
+      "date": "2026-11-09T08:00:00+00:00",
+      "description": "It’s a tough time for people starting out in the creative industry right now. Together with Creative Lives in Progress we asked 28 people to predict what starting a creative career will look like over the next three years.",
+      "source": "It's Nice That",
+      "source_url": "https://www.itsnicethat.com/",
+      "detected_at": "2026-11-14T17:27:46.060142+00:00",
+      "editorial_status": "unreviewed"
+    },
+    {
+      "title": "A New Direction’s Oliver Benjamin: “Make stuff and use the process to understand what you’re good at”",
+      "url": "https://www.itsnicethat.com/career-predictions/oliver-benjamin-091126",
+      "date": "2026-11-09T08:00:00+00:00",
+      "description": "It’s a tough time for people starting out in the creative industry right now. Together with Creative Lives in Progress we asked 28 people to predict what starting a creative career will look like over the next three years.",
+      "source": "It's Nice That",
+      "source_url": "https://www.itsnicethat.com/",
+      "detected_at": "2026-11-14T17:27:46.060142+00:00",
+      "editorial_status": "unreviewed"
+    },
+    {
+      "title": "Caterina Bianchini: “We can’t keep asking where all the good designers are if we’re unwilling to help anyone become one”",
+      "url": "https://www.itsnicethat.com/career-predictions/caterina-bianchini-091126",
+      "date": "2026-11-09T08:00:00+00:00",
+      "description": "It’s a tough time for people starting out in the creative industry right now. Together with Creative Lives in Progress we asked 28 people to predict what starting a creative career will look like over the next three years.",
+      "source": "It's Nice That",
+      "source_url": "https://www.itsnicethat.com/",
+      "detected_at": "2026-11-14T17:27:46.060142+00:00",
+      "editorial_status": "unreviewed"
+    },
+    {
+      "title": "festival",
+      "url": "https://www.dandad.org/festival",
+      "date": "",
+      "description": "",
+      "source": "D&AD",
+      "source_url": "https://www.dandad.org/",
+      "detected_at": "2026-11-14T17:27:46.060142+00:00",
+      "editorial_status": "unreviewed"
+    },
+    {
+      "title": "africa now west africa",
+      "url": "https://www.designindaba.com/news-features/showcases/africa-now-west-africa",
+      "date": "",
+      "description": "",
+      "source": "Design Indaba",
+      "source_url": "https://www.designindaba.com/",
+      "detected_at": "2026-11-14T17:27:46.060142+00:00",
+      "editorial_status": "unreviewed"
+    },
+    {
+      "title": "design indaba festival 2019",
+      "url": "https://www.designindaba.com/news-features/showcases/design-indaba-festival-2019",
+      "date": "",
+      "description": "",
+      "source": "Design Indaba",
+      "source_url": "https://www.designindaba.com/",
+      "detected_at": "2026-11-14T17:27:46.060142+00:00",
+      "editorial_status": "unreviewed"
+    },
+    {
+      "title": "creative women design indaba conference 2017 are doing most",
+      "url": "https://www.designindaba.com/news-features/showcases/creative-women-design-indaba-conference-2017-are-doing-most",
+      "date": "",
+      "description": "",
+      "source": "Design Indaba",
+      "source_url": "https://www.designindaba.com/",
+      "detected_at": "2026-11-14T17:27:46.060142+00:00",
+      "editorial_status": "unreviewed"
+    },
+    {
+      "title": "through african lens",
+      "url": "https://www.designindaba.com/news-features/showcases/through-african-lens",
+      "date": "",
+      "description": "",
+      "source": "Design Indaba",
+      "source_url": "https://www.designindaba.com/",
+      "detected_at": "2026-11-14T17:27:46.060142+00:00",
+      "editorial_status": "unreviewed"
+    },
+    {
+      "title": "our chats series lets you interview south africas top creatives",
+      "url": "https://www.designindaba.com/news-features/showcases/our-chats-series-lets-you-interview-south-africas-top-creatives",
+      "date": "",
+      "description": "",
+      "source": "Design Indaba",
+      "source_url": "https://www.designindaba.com/",
+      "detected_at": "2026-11-14T17:27:46.060142+00:00",
+      "editorial_status": "unreviewed"
+    },
+    {
+      "title": "do green thing creativity vs climate change",
+      "url": "https://www.designindaba.com/news-features/showcases/do-green-thing-creativity-vs-climate-change",
+      "date": "",
+      "description": "",
+      "source": "Design Indaba",
+      "source_url": "https://www.designindaba.com/",
+      "detected_at": "2026-11-14T17:27:46.060142+00:00",
+      "editorial_status": "unreviewed"
+    },
+    {
+      "title": "The expression or application of creative skill and imagination through visual media such as painting, sculpture and photography.",
+      "url": "https://www.designindaba.com/topics/art-photography",
+      "date": "",
+      "description": "",
+      "source": "Design Indaba",
+      "source_url": "https://www.designindaba.com/",
+      "detected_at": "2026-11-14T17:27:46.060142+00:00",
+      "editorial_status": "unreviewed"
+    },
+    {
+      "title": "Expressing complex or unstructured data in a comprehensive and visually appealing way, so that people can understand it better and use it more effectively.",
+      "url": "https://www.designindaba.com/topics/information-design",
+      "date": "",
+      "description": "",
+      "source": "Design Indaba",
+      "source_url": "https://www.designindaba.com/",
+      "detected_at": "2026-11-14T17:27:46.060142+00:00",
+      "editorial_status": "unreviewed"
+    },
+    {
+      "title": "visualisation reality",
+      "url": "https://www.designindaba.com/articles/creative-work/visualisation-reality",
+      "date": "",
+      "description": "",
+      "source": "Design Indaba",
+      "source_url": "https://www.designindaba.com/",
+      "detected_at": "2026-11-14T17:27:46.060142+00:00",
+      "editorial_status": "unreviewed"
+    },
+    {
+      "title": "The Responsibilities of Designers",
+      "url": "https://d3q27bh1u24u2o.cloudfront.net/news/2026-11/megan-eiswerth-applied-design.vW1nhJ4N.png",
+      "date": "2026-11-13T16:54:00.000Z",
+      "description": "The senior designer at Applied Design, Megan Eiswerth, on the frustrations and liberations of design, her work on Atkinson Hyperlegible, and the rise in explicitly analogue artwork and design, as part of LBB’s By Design series",
+      "source": "Little Black Book",
+      "source_url": "https://www.lbbonline.com/",
+      "detected_at": "2026-11-14T17:27:46.060142+00:00",
+      "editorial_status": "unreviewed"
+    },
+    {
+      "title": "Getting to Know… KDSP",
+      "url": "https://d3q27bh1u24u2o.cloudfront.net/news/2026-11/kdsp.WW7wi65L.png",
+      "date": "2026-11-13T16:53:00.000Z",
+      "description": "Mollie Partesotti, co-founder of the New York-based advertising agency, spoke with LBB about its latest and greatest work as well as the KDSP philosophy",
+      "source": "Little Black Book",
+      "source_url": "https://www.lbbonline.com/",
+      "detected_at": "2026-11-14T17:27:46.060142+00:00",
+      "editorial_status": "unreviewed"
+    },
+    {
+      "title": "Exploring the ‘Goodies’ of ‘Festive Crossing’, the Cutest Christmas Ad of 2026",
+      "url": "https://d3q27bh1u24u2o.cloudfront.net/news/2026-11/tk-maxx-goodies-2026-christmas.qjHjQxET.png",
+      "date": "2026-11-13T16:48:00.000Z",
+      "description": "Wieden+Kennedy London and The Perlin on bringing stylish ducks and farmyard favourites to life for TK Maxx's latest holiday campaign",
+      "source": "Little Black Book",
+      "source_url": "https://www.lbbonline.com/",
+      "detected_at": "2026-11-14T17:27:46.060142+00:00",
+      "editorial_status": "unreviewed"
+    },
+    {
+      "title": "Better Feedback Gets Better Work",
+      "url": "https://d3q27bh1u24u2o.cloudfront.net/news/2026-11/tim-rivera.n8kHIGcH.png",
+      "date": "2026-11-13T16:24:00.000Z",
+      "description": "Skinny founder Tim Rivera explains how brands can get the best from creative partners",
+      "source": "Little Black Book",
+      "source_url": "https://www.lbbonline.com/",
+      "detected_at": "2026-11-14T17:27:46.060142+00:00",
+      "editorial_status": "unreviewed"
+    },
+    {
+      "title": "Amanda Holden Decks the Halls as Heart Radio Switches on Christmas",
+      "url": "https://d3q27bh1u24u2o.cloudfront.net/news/2026-11/global-amanda-holden-christmas.m7HwN6hn.png",
+      "date": "2026-11-13T16:12:00.000Z",
+      "description": "Heart Breakfast hosts Amanda Holden and Jamie Theakston start the festive season with Mariah Carey’s ‘All I Want For Christmas Is You'",
+      "source": "Little Black Book",
+      "source_url": "https://www.lbbonline.com/",
+      "detected_at": "2026-11-14T17:27:46.060142+00:00",
+      "editorial_status": "unreviewed"
+    },
+    {
+      "title": "Ferris Bueller Is Still Taking Days Off. His Sister Has Had Enough in Home Instead Cameo",
+      "url": "https://d3q27bh1u24u2o.cloudfront.net/news/2026-11/behind-the-work-8.rS-y4gNS.png",
+      "date": "2026-11-13T16:12:00.000Z",
+      "description": "Home Instead revisits the John Hughes classic 40 years on with a holiday campaign from BBDO Chicago and Caviar director Jody Hill exploring the realities of caring for ageing parents",
+      "source": "Little Black Book",
+      "source_url": "https://www.lbbonline.com/",
+      "detected_at": "2026-11-14T17:27:46.060142+00:00",
+      "editorial_status": "unreviewed"
+    },
+    {
+      "title": "ANA Unveils Winners of 2026 Multicultural and Inclusive Marketing Excellence Awards",
+      "url": "https://d3q27bh1u24u2o.cloudfront.net/news/2026-11/ana.F_BAqVaI.png",
+      "date": "2026-11-13T16:10:00.000Z",
+      "description": "Coffee mate and Casanova McCann awarded Best In Show for 'The last of the non-coffee lovers'",
+      "source": "Little Black Book",
+      "source_url": "https://www.lbbonline.com/",
+      "detected_at": "2026-11-14T17:27:46.060142+00:00",
+      "editorial_status": "unreviewed"
+    },
+    {
+      "title": "Home Robotics Company Matic Taps Orchard to Expand Brand",
+      "url": "https://d3q27bh1u24u2o.cloudfront.net/news/2026-11/matic-robots.DOk3AftS.png",
+      "date": "2026-11-13T16:01:00.000Z",
+      "description": "Orchard is tasked with helping build awareness for Matic in the lead-up to holiday shopping season",
+      "source": "Little Black Book",
+      "source_url": "https://www.lbbonline.com/",
+      "detected_at": "2026-11-14T17:27:46.060142+00:00",
+      "editorial_status": "unreviewed"
+    },
+    {
+      "title": "5 Winners Crowned by The Immortal Awards US Jury",
+      "url": "https://d3q27bh1u24u2o.cloudfront.net/news/2026-11/immortal-winners-3.06_n8Vap.png",
+      "date": "2026-11-13T15:50:00.000Z",
+      "description": "Work from Nike, Apple, Coinbase, Gushers and adidas will go on to compete with the Canadian winners in the regional North American jury day, taking place on November 13",
+      "source": "Little Black Book",
+      "source_url": "https://www.lbbonline.com/",
+      "detected_at": "2026-11-14T17:27:46.060142+00:00",
+      "editorial_status": "unreviewed"
+    },
+    {
+      "title": "Blind Skateboards, Dominos and Baskin-Robbins: The Work That Made Jeremy Jones",
+      "url": "https://d3q27bh1u24u2o.cloudfront.net/news/2026-11/jeremy-jones-intuition.x2gxfgJo.png",
+      "date": "2026-11-13T15:43:00.000Z",
+      "description": "The VP, creative at Intuition , looks back on his love of early emo and post-rock bands, Spike Jonze, as well as his upcoming work for QuickBooks, as part of LBB’s The Work That Made Me series",
+      "source": "Little Black Book",
+      "source_url": "https://www.lbbonline.com/",
+      "detected_at": "2026-11-14T17:27:46.060142+00:00",
+      "editorial_status": "unreviewed"
+    },
+    {
+      "title": "Mixtape: A Decade of Hits",
+      "url": "https://d3q27bh1u24u2o.cloudfront.net/news/2026-11/mixtape-10-years.4WHcXwhV.jpg",
+      "date": "2026-11-13T15:25:00.000Z",
+      "description": "After 10 years in business, the independent agency’s founder, Joe Myers, and the Mixtape team reflect on the 10 projects that have shaped the shop's identity to date",
+      "source": "Little Black Book",
+      "source_url": "https://www.lbbonline.com/",
+      "detected_at": "2026-11-14T17:27:46.060142+00:00",
+      "editorial_status": "unreviewed"
+    },
+    {
+      "title": "Connor McDavid and Terry Ryan Get Their Mullets in a Twist for BetMGM",
+      "url": "https://d3q27bh1u24u2o.cloudfront.net/news/2026-11/connor-mcdavid-and-wayne-gretzky.vqYlLtmA.png",
+      "date": "2026-11-13T15:14:00.000Z",
+      "description": "Latest spot from CAPE sees Connor McDavid and Terry Ryan take a mullet-fuelled trip through a backyard party, with a surprise appearance from hockey legend Wayne Gretzky",
+      "source": "Little Black Book",
+      "source_url": "https://www.lbbonline.com/",
+      "detected_at": "2026-11-14T17:27:46.060142+00:00",
+      "editorial_status": "unreviewed"
+    },
+    {
+      "title": "The Immortal Awards 2026 Canada Winners Night: See All the Pictures",
+      "url": "https://d3q27bh1u24u2o.cloudfront.net/news/2026-11/immortalcanadawinners-5.pHFI4cA_.jpg",
+      "date": "2026-11-13T14:54:00.000Z",
+      "description": "Zulu Alpha Kilo hosted the annual LBB event celebrating the country’s winners, following a day of judging with the Canadian jury",
+      "source": "Little Black Book",
+      "source_url": "https://www.lbbonline.com/",
+      "detected_at": "2026-11-14T17:27:46.060142+00:00",
+      "editorial_status": "unreviewed"
+    },
+    {
+      "title": "The Curiosity That Drove Víctor Duque to VFX",
+      "url": "https://d3q27bh1u24u2o.cloudfront.net/news/2026-11/victor-duque.lfdTo9nK.png",
+      "date": "2026-11-13T14:42:00.000Z",
+      "description": "The Bandido VFX artist on misconceptions of VFX in advertising, why he remains an advocate for practical effects, as well as his lifelong love for special effects, as part of LBB’s ‘The VFX Factor’ series",
+      "source": "Little Black Book",
+      "source_url": "https://www.lbbonline.com/",
+      "detected_at": "2026-11-14T17:27:46.060142+00:00",
+      "editorial_status": "unreviewed"
+    },
+    {
+      "title": "AI Writing: The Human Advantage and Earned Media",
+      "url": "https://d3q27bh1u24u2o.cloudfront.net/news/2026-11/the-connected-narrative.pYLDV-7G.png",
+      "date": "2026-11-13T14:22:00.000Z",
+      "description": "Jonathan Forani, senior editorial and media strategist at North Strategic, on why communications professionals need to put down the AI cheat codes and remember what makes writing genuinely good",
+      "source": "Little Black Book",
+      "source_url": "https://www.lbbonline.com/",
+      "detected_at": "2026-11-14T17:27:46.060142+00:00",
+      "editorial_status": "unreviewed"
+    },
+    {
+      "title": "October Rises 9% as Budgets Skew Smaller",
+      "url": "https://d3q27bh1u24u2o.cloudfront.net/news/2026-11/LBB-key-visual-1850-1042-2x.StGALyFO.png",
+      "date": "2026-11-13T14:06:00.000Z",
+      "description": "Sohonet research reveals the 2026 production count is projected 15% ahead of 2025 and 22% below the 2022 reference point",
+      "source": "Little Black Book",
+      "source_url": "https://www.lbbonline.com/",
+      "detected_at": "2026-11-14T17:27:46.060142+00:00",
+      "editorial_status": "unreviewed"
+    },
+    {
+      "title": "LALA Music on Crafting an Unforgettable Christmas Jingle",
+      "url": "https://d3q27bh1u24u2o.cloudfront.net/news/2026-11/david-beale-gosggt4olns-unsplash.75iIfsmE.jpg",
+      "date": "2026-11-13T14:02:00.000Z",
+      "description": "From navigating classic festive licensing to recording with cult karaoke icon Shaun Williamson for Lidl, LALA Music’s Lorna Hall breaks down what it takes to strike the right seasonal chord",
+      "source": "Little Black Book",
+      "source_url": "https://www.lbbonline.com/",
+      "detected_at": "2026-11-14T17:27:46.060142+00:00",
+      "editorial_status": "unreviewed"
+    },
+    {
+      "title": "A Million Views. But Whose Brand Do You Remember?",
+      "url": "https://d3q27bh1u24u2o.cloudfront.net/news/2026-11/thumbstoppers-shottails-shottales.KoVVBDQf.jpg",
+      "date": "2026-11-13T14:00:00.000Z",
+      "description": "As brands chase the next viral skit, award-winning social-first creative studio Thumbstoppers questions whether fleeting entertainment is building anything lasting. Founder and ECD John Barton explains why repeatable entertainment, distinctive brand worlds and real human connection deserve a bigger role in the feed",
+      "source": "Little Black Book",
+      "source_url": "https://www.lbbonline.com/",
+      "detected_at": "2026-11-14T17:27:46.060142+00:00",
+      "editorial_status": "unreviewed"
+    },
+    {
+      "title": "The Greenest Ad Is the One You Cancel",
+      "url": "https://d3q27bh1u24u2o.cloudfront.net/news/2026-11/murphy-cobb.vd7sWIJe.png",
+      "date": "2026-11-13T13:27:00.000Z",
+      "description": "Pat Murphy, founder and CEO of MurphyCobb, on sustainability in light of COP-31",
+      "source": "Little Black Book",
+      "source_url": "https://www.lbbonline.com/",
+      "detected_at": "2026-11-14T17:27:46.060142+00:00",
+      "editorial_status": "unreviewed"
+    },
+    {
+      "title": "The Monthly Cut 019: Columbia, Oura and SickKids Feature in October’s Selection of Best Ads",
+      "url": "https://d3q27bh1u24u2o.cloudfront.net/news/2026-11/tmc-019.-8yN5IJQ.png",
+      "date": "2026-11-13T13:11:00.000Z",
+      "description": "The monthly reel from Little Black Book showcases standout creative work that launched last month, and includes work from Oat Cult, ALDI SUD, and Godawan",
+      "source": "Little Black Book",
+      "source_url": "https://www.lbbonline.com/",
+      "detected_at": "2026-11-14T17:27:46.060142+00:00",
+      "editorial_status": "unreviewed"
+    },
+    {
+      "title": "reflect serendipity arts festival 2026",
+      "url": "https://www.stirworld.com/reflect-serendipity-arts-festival-2026",
+      "date": "",
+      "description": "",
+      "source": "STIRworld",
+      "source_url": "https://www.stirworld.com/",
+      "detected_at": "2026-11-14T17:27:46.060142+00:00",
+      "editorial_status": "unreviewed"
+    },
+    {
+      "title": "Serendipity Arts Festival",
+      "url": "https://www.stirworld.com/inspire-conversation-serendipity-arts-festival",
+      "date": "",
+      "description": "",
+      "source": "STIRworld",
+      "source_url": "https://www.stirworld.com/",
+      "detected_at": "2026-11-14T17:27:46.060142+00:00",
+      "editorial_status": "unreviewed"
+    },
+    {
+      "title": "Mise-en-scène with STIR: Oscars 2022",
+      "url": "https://www.stirworld.com/inspire-conversation-mise-en-scene-with-stir-oscars-2022",
+      "date": "",
+      "description": "",
+      "source": "STIRworld",
+      "source_url": "https://www.stirworld.com/",
+      "detected_at": "2026-11-14T17:27:46.060142+00:00",
+      "editorial_status": "unreviewed"
+    },
+    {
+      "title": "prada blush tour los angeles miami new york",
+      "url": "https://www.mazarine.com/projects/prada-blush-tour-los-angeles-miami-new-york",
+      "date": "",
+      "description": "",
+      "source": "Mazarine",
+      "source_url": "https://www.mazarine.com/",
+      "detected_at": "2026-11-14T17:27:46.060142+00:00",
+      "editorial_status": "unreviewed"
+    },
+    {
+      "title": "music video",
+      "url": "https://fooh.com/library/format/music-video",
+      "date": "",
+      "description": "",
+      "source": "FOOH.com",
+      "source_url": "https://www.fooh.com/",
+      "detected_at": "2026-11-14T17:27:46.060142+00:00",
+      "editorial_status": "unreviewed"
+    },
+    {
+      "title": "1stAveMachine Signs Director Kit Lynch-Robinson",
+      "url": "https://www.stashmedia.tv/1stavemachine-signs-director-kit-lynch-robinson/feed/atom",
+      "date": "2026-11-13T18:55:25Z",
+      "description": " From the release: 1stAveMachine, the director-driven production company known for exceptional craft and inventive ideas, has welcomed British director Kit Lynch-Robinson to its roster.  [Watch]  \n The post  1stAveMachine Signs Director Kit Lynch-Robinson  appeared first on  Motion design - STASH . ",
+      "source": "Stash",
+      "source_url": "https://www.stashmedia.tv/",
+      "detected_at": "2026-11-14T17:27:46.060142+00:00",
+      "editorial_status": "unreviewed"
+    },
+    {
+      "title": "Reframe Studio Get Comfortable in Fursys Manta Chair",
+      "url": "https://www.stashmedia.tv/reframe-studio-get-comfortable-in-fursys-manta-chair/feed/atom",
+      "date": "2026-11-13T14:22:40Z",
+      "description": " Reframe Studio in Seoul apply their talents for striking yet tasteful CG style to this Zen-like launch film for the Manta chair designed by German studio Jehs+Laub for South Korean furniture brand Fursys.  [Watch]  \n The post  Reframe Studio Get Comfortable in Fursys Manta Chair  appeared first on  Motion design - STASH . ",
+      "source": "Stash",
+      "source_url": "https://www.stashmedia.tv/",
+      "detected_at": "2026-11-14T17:27:46.060142+00:00",
+      "editorial_status": "unreviewed"
+    },
+    {
+      "title": "Roof Studio & Pedro Allevato Stay Hands On for Clash Royale",
+      "url": "https://www.stashmedia.tv/roof-studio-pedro-allevato-stay-hands-on-for-clash-royale/feed/atom",
+      "date": "2026-11-12T13:04:41Z",
+      "description": " Working to Supercell's brief that no AI be used in their newest Clash Royal trailer, director Pedro Allevato and the animation team at Roof Studio in New York, responded with this handcrafted, frame-by-frame watercolor treatment.  [Watch]  \n The post  Roof Studio &#038; Pedro Allevato Stay Hands On for Clash Royale  appeared first on  Motion design - STASH . ",
+      "source": "Stash",
+      "source_url": "https://www.stashmedia.tv/",
+      "detected_at": "2026-11-14T17:27:46.060142+00:00",
+      "editorial_status": "unreviewed"
+    },
+    {
+      "title": "Electric Theatre Collective’s Ambitious Amphibian Adventure",
+      "url": "https://www.stashmedia.tv/electric-theatre-collectives-ambitious-amphibian-adventure/feed/atom",
+      "date": "2026-11-11T13:34:31Z",
+      "description": " Working with Iconoclast directors Vania &#038; Muggia, the VFX crew at ETC in London transform an axolotl (aquatic salamander native to Mexico City) into a  Bridgerton -binging hero as part of a new Netflix campaign thru Mother.  [Watch]  \n The post  Electric Theatre Collective&#8217;s Ambitious Amphibian Adventure  appeared first on  Motion design - STASH . ",
+      "source": "Stash",
+      "source_url": "https://www.stashmedia.tv/",
+      "detected_at": "2026-11-14T17:27:46.060142+00:00",
+      "editorial_status": "unreviewed"
+    },
+    {
+      "title": "We Love Pitching: Chronicles of a Necessary Mess – Part 24",
+      "url": "https://www.stashmedia.tv/we-love-pitching-chronicles-of-a-necessary-mess-part-24/feed/atom",
+      "date": "2026-11-10T21:30:08Z",
+      "description": " Nerdo ECD Claus Cibils wraps up his passionate and thoughtful  series of a editorials  on the challenges of the creative pitching process, a 24-part opus fueled by two decades of experience in the motion design and animation industry.  [Watch]  \n The post  We Love Pitching: Chronicles of a Necessary Mess – Part 24  appeared first on  Motion design - STASH . ",
+      "source": "Stash",
+      "source_url": "https://www.stashmedia.tv/",
+      "detected_at": "2026-11-14T17:27:46.060142+00:00",
+      "editorial_status": "unreviewed"
+    },
+    {
+      "title": "World War Seven Signs Stop-Motion and Animation Studio Starburns Industries",
+      "url": "https://www.stashmedia.tv/world-war-seven-signs-stop-motion-and-animation-studio-starburns-industries/feed/atom",
+      "date": "2026-11-10T17:22:00Z",
+      "description": " From the release:  World War Seven  has found the missing piece in its roster:  Starburns Industries , who join as WW7’s new partner for stop-motion and animation projects.   [Watch]  \n The post  World War Seven Signs Stop-Motion and Animation Studio Starburns Industries  appeared first on  Motion design - STASH . ",
+      "source": "Stash",
+      "source_url": "https://www.stashmedia.tv/",
+      "detected_at": "2026-11-14T17:27:46.060142+00:00",
+      "editorial_status": "unreviewed"
+    },
+    {
+      "title": "the aardman effect putting on a show",
+      "url": "https://system1group.com/the-aardman-effect-putting-on-a-show",
+      "date": "",
+      "description": "",
+      "source": "System1",
+      "source_url": "https://system1group.com/",
+      "detected_at": "2026-11-14T17:27:46.060142+00:00",
+      "editorial_status": "unreviewed"
+    },
+    {
+      "title": "tourism australia case study",
+      "url": "https://system1group.com/tourism-australia-case-study",
+      "date": "",
+      "description": "",
+      "source": "System1",
+      "source_url": "https://system1group.com/",
+      "detected_at": "2026-11-14T17:27:46.060142+00:00",
+      "editorial_status": "unreviewed"
+    },
+    {
+      "title": "bfi london film festival",
+      "url": "https://www.pentagram.com/work/bfi-london-film-festival",
+      "date": "",
+      "description": "",
+      "source": "Pentagram",
+      "source_url": "https://www.pentagram.com/work",
+      "detected_at": "2026-11-14T17:27:46.060142+00:00",
+      "editorial_status": "unreviewed"
+    },
+    {
+      "title": "in defense of the detour",
+      "url": "https://www.pentagram.com/work/in-defense-of-the-detour",
+      "date": "",
+      "description": "",
+      "source": "Pentagram",
+      "source_url": "https://www.pentagram.com/work",
+      "detected_at": "2026-11-14T17:27:46.060142+00:00",
+      "editorial_status": "unreviewed"
+    },
+    {
+      "title": "london design festival 2026",
+      "url": "https://www.pentagram.com/work/london-design-festival-2026",
+      "date": "",
+      "description": "",
+      "source": "Pentagram",
+      "source_url": "https://www.pentagram.com/work",
+      "detected_at": "2026-11-14T17:27:46.060142+00:00",
+      "editorial_status": "unreviewed"
+    },
+    {
+      "title": "queens tourism council",
+      "url": "https://www.pentagram.com/work/queens-tourism-council",
+      "date": "",
+      "description": "",
+      "source": "Pentagram",
+      "source_url": "https://www.pentagram.com/work",
+      "detected_at": "2026-11-14T17:27:46.060142+00:00",
+      "editorial_status": "unreviewed"
+    },
+    {
+      "title": "strategies festival 2026",
+      "url": "https://www.strategies.fr/focus/strategies-festival-2026",
+      "date": "",
+      "description": "",
+      "source": "Stratégies",
+      "source_url": "https://www.strategies.fr/",
+      "detected_at": "2026-11-14T17:27:46.060142+00:00",
+      "editorial_status": "unreviewed"
+    },
+    {
+      "title": "festival",
+      "url": "https://www.strategies.fr/nos-evenements/festival",
+      "date": "",
+      "description": "",
+      "source": "Stratégies",
+      "source_url": "https://www.strategies.fr/",
+      "detected_at": "2026-11-14T17:27:46.060142+00:00",
+      "editorial_status": "unreviewed"
+    },
+    {
+      "title": "aerosmith peace out tour",
+      "url": "https://luzstudio.com/en/projects/aerosmith-peace-out-tour",
+      "date": "",
+      "description": "",
+      "source": "LUZ Studio",
+      "source_url": "https://luzstudio.com/",
+      "detected_at": "2026-11-14T17:27:46.060142+00:00",
+      "editorial_status": "unreviewed"
+    },
+    {
+      "title": "show design",
+      "url": "https://luzstudio.com/en/expertises/show-design",
+      "date": "",
+      "description": "",
+      "source": "LUZ Studio",
+      "source_url": "https://luzstudio.com/",
+      "detected_at": "2026-11-14T17:27:46.060142+00:00",
+      "editorial_status": "unreviewed"
+    },
+    {
+      "title": "broadcast",
+      "url": "https://www.disguise.one/en/solutions/broadcast",
+      "date": "",
+      "description": "",
+      "source": "disguise",
+      "source_url": "https://www.disguise.one/",
+      "detected_at": "2026-11-14T17:27:46.060142+00:00",
+      "editorial_status": "unreviewed"
+    },
+    {
+      "title": "broadcast graphics",
+      "url": "https://www.disguise.one/en/services/creative/broadcast-graphics",
+      "date": "",
+      "description": "",
+      "source": "disguise",
+      "source_url": "https://www.disguise.one/",
+      "detected_at": "2026-11-14T17:27:46.060142+00:00",
+      "editorial_status": "unreviewed"
+    },
+    {
+      "title": "roadshow 2026",
+      "url": "https://www.disguise.one/en/roadshow-2026",
+      "date": "",
+      "description": "",
+      "source": "disguise",
+      "source_url": "https://www.disguise.one/",
+      "detected_at": "2026-11-14T17:27:46.060142+00:00",
+      "editorial_status": "unreviewed"
+    },
+    {
+      "title": "tiger hu lights stages across china thanks disguise gx 3",
+      "url": "https://www.disguise.one/en/insights/case-study/tiger-hu-lights-stages-across-china-thanks-disguise-gx-3",
+      "date": "",
+      "description": "",
+      "source": "disguise",
+      "source_url": "https://www.disguise.one/",
+      "detected_at": "2026-11-14T17:27:46.060142+00:00",
+      "editorial_status": "unreviewed"
+    },
+    {
+      "title": "the black keys at mershon auditorium concert",
+      "url": "https://fontsinuse.com/uses/81214/the-black-keys-at-mershon-auditorium-concert-",
+      "date": "",
+      "description": "",
+      "source": "Fonts In Use",
+      "source_url": "https://fontsinuse.com/",
+      "detected_at": "2026-11-14T17:27:46.060142+00:00",
+      "editorial_status": "unreviewed"
+    },
+    {
+      "title": "gibraltar food tours",
+      "url": "https://fontsinuse.com/uses/81033/gibraltar-food-tours",
+      "date": "",
+      "description": "",
+      "source": "Fonts In Use",
+      "source_url": "https://fontsinuse.com/",
+      "detected_at": "2026-11-14T17:27:46.060142+00:00",
+      "editorial_status": "unreviewed"
+    },
+    {
+      "title": "loud and clear festival",
+      "url": "https://fontsinuse.com/uses/80216/loud-and-clear-festival",
+      "date": "",
+      "description": "",
+      "source": "Fonts In Use",
+      "source_url": "https://fontsinuse.com/",
+      "detected_at": "2026-11-14T17:27:46.060142+00:00",
+      "editorial_status": "unreviewed"
+    },
+    {
+      "title": "showcase 09 jitter template",
+      "url": "https://the-brandidentity.com/store/product/showcase-09-jitter-template",
+      "date": "",
+      "description": "",
+      "source": "The Brand Identity",
+      "source_url": "https://the-brandidentity.com/",
+      "detected_at": "2026-11-14T17:27:46.060142+00:00",
+      "editorial_status": "unreviewed"
+    },
+    {
+      "title": "4bvk2ex18m4gptpbwvab2t6d5q",
+      "url": "https://www.campaignasia.com/article/campaign-asia-s-agency-performance-reviews-2026/4bvk2ex18m4gptpbwvab2t6d5q",
+      "date": "",
+      "description": "",
+      "source": "Campaign Asia",
+      "source_url": "https://www.campaignasia.com/",
+      "detected_at": "2026-11-14T17:27:46.060142+00:00",
+      "editorial_status": "unreviewed"
+    },
+    {
+      "title": "44j68qe00shrexfkgqqt20zcc7",
+      "url": "https://www.campaignasia.com/article/how-jetour-is-rewriting-the-playbook-by-moving-beyond-auto-marketing-cliches/44j68qe00shrexfkgqqt20zcc7",
+      "date": "",
+      "description": "",
+      "source": "Campaign Asia",
+      "source_url": "https://www.campaignasia.com/",
+      "detected_at": "2026-11-14T17:27:46.060142+00:00",
+      "editorial_status": "unreviewed"
+    },
+    {
+      "title": "New Balance takes its fashion show to Villaggio Mall’s canals",
+      "url": "https://campaignme.com/new-balance-takes-its-fashion-show-to-villaggio-malls-canals",
+      "date": "",
+      "description": "",
+      "source": "Campaign Middle East",
+      "source_url": "https://campaignme.com/",
+      "detected_at": "2026-11-14T17:27:46.060142+00:00",
+      "editorial_status": "unreviewed"
+    },
+    {
+      "title": "How brands can make the most of the Dubai Shopping Festival",
+      "url": "https://campaignme.com/how-brands-can-make-the-most-of-the-dubai-shopping-festival",
+      "date": "",
+      "description": "",
+      "source": "Campaign Middle East",
+      "source_url": "https://campaignme.com/",
+      "detected_at": "2026-11-14T17:27:46.060142+00:00",
+      "editorial_status": "unreviewed"
+    },
+    {
+      "title": "Markapp launches Shelf by Markapp to show Gulf brands how AI assistants recommend them",
+      "url": "https://campaignme.com/markapp-launches-shelf-by-markapp-to-show-gulf-brands-how-ai-assistants-recommend-them",
+      "date": "",
+      "description": "",
+      "source": "Campaign Middle East",
+      "source_url": "https://campaignme.com/",
+      "detected_at": "2026-11-14T17:27:46.060142+00:00",
+      "editorial_status": "unreviewed"
+    },
+    {
+      "title": "untitled reality tv show",
+      "url": "https://www.e-flux.com/announcements/6787871/untitled-reality-tv-show",
+      "date": "",
+      "description": "",
+      "source": "e-flux",
+      "source_url": "https://www.e-flux.com/",
+      "detected_at": "2026-11-14T17:27:46.060142+00:00",
+      "editorial_status": "unreviewed"
+    },
+    {
+      "title": "ephemeral stage muyunafest floating cinema espacio comun",
+      "url": "https://www.metalocus.es/en/news/ephemeral-stage-muyunafest-floating-cinema-espacio-comun",
+      "date": "",
+      "description": "",
+      "source": "METALOCUS",
+      "source_url": "https://www.metalocus.es/en",
+      "detected_at": "2026-11-14T17:27:46.060142+00:00",
+      "editorial_status": "unreviewed"
+    },
+    {
+      "title": "panguipulli educational theater arts quinteros norero and villalon",
+      "url": "https://www.metalocus.es/en/news/panguipulli-educational-theater-arts-quinteros-norero-and-villalon",
+      "date": "",
+      "description": "",
+      "source": "METALOCUS",
+      "source_url": "https://www.metalocus.es/en",
+      "detected_at": "2026-11-14T17:27:46.060142+00:00",
+      "editorial_status": "unreviewed"
+    },
+    {
+      "title": "music video",
+      "url": "https://www.metalocus.es/en/category/music-video",
+      "date": "",
+      "description": "",
+      "source": "METALOCUS",
+      "source_url": "https://www.metalocus.es/en",
+      "detected_at": "2026-11-14T17:27:46.060142+00:00",
+      "editorial_status": "unreviewed"
+    },
+    {
+      "title": "theaters cinemas",
+      "url": "https://www.metalocus.es/en/category/theaters-cinemas",
+      "date": "",
+      "description": "",
+      "source": "METALOCUS",
+      "source_url": "https://www.metalocus.es/en",
+      "detected_at": "2026-11-14T17:27:46.060142+00:00",
+      "editorial_status": "unreviewed"
+    },
+    {
+      "title": "moncler 70th anniversary show dinner party milan",
+      "url": "https://www.villaeugenie.com/projects/moncler-70th-anniversary-show-dinner-party-milan",
+      "date": "",
+      "description": "",
+      "source": "Villa Eugénie",
+      "source_url": "https://www.villaeugenie.com/",
+      "detected_at": "2026-11-14T17:27:46.060142+00:00",
+      "editorial_status": "unreviewed"
+    },
+    {
+      "title": "hugo boss wm fw 22 23 show party",
+      "url": "https://www.villaeugenie.com/projects/hugo-boss-wm-fw-22-23-show-party",
+      "date": "",
+      "description": "",
+      "source": "Villa Eugénie",
+      "source_url": "https://www.villaeugenie.com/",
+      "detected_at": "2026-11-14T17:27:46.060142+00:00",
+      "editorial_status": "unreviewed"
+    },
+    {
+      "title": "about you wm fw 22 23 show dinner party milan",
+      "url": "https://www.villaeugenie.com/projects/about-you-wm-fw-22-23-show-dinner-party-milan",
+      "date": "",
+      "description": "",
+      "source": "Villa Eugénie",
+      "source_url": "https://www.villaeugenie.com/",
+      "detected_at": "2026-11-14T17:27:46.060142+00:00",
+      "editorial_status": "unreviewed"
+    },
+    {
+      "title": "miu miu cruise w fw 19 20 show party",
+      "url": "https://www.villaeugenie.com/projects/miu-miu-cruise-w-fw-19-20-show-party",
+      "date": "",
+      "description": "",
+      "source": "Villa Eugénie",
+      "source_url": "https://www.villaeugenie.com/",
+      "detected_at": "2026-11-14T17:27:46.060142+00:00",
+      "editorial_status": "unreviewed"
+    },
+    {
+      "title": "givenchy m ss 20 show party",
+      "url": "https://www.villaeugenie.com/projects/givenchy-m-ss-20-show-party",
+      "date": "",
+      "description": "",
+      "source": "Villa Eugénie",
+      "source_url": "https://www.villaeugenie.com/",
+      "detected_at": "2026-11-14T17:27:46.060142+00:00",
+      "editorial_status": "unreviewed"
+    },
+    {
+      "title": "mulberry w fw 18 19 show pop up",
+      "url": "https://www.villaeugenie.com/projects/mulberry-w-fw-18-19-show-pop-up",
+      "date": "",
+      "description": "",
+      "source": "Villa Eugénie",
+      "source_url": "https://www.villaeugenie.com/",
+      "detected_at": "2026-11-14T17:27:46.060142+00:00",
+      "editorial_status": "unreviewed"
+    },
+    {
+      "title": "the show goes on ukraine ooh viktor ivanchenko warsaw 2026",
+      "url": "https://www.worldooh.org/news/the-show-goes-on-ukraine-ooh-viktor-ivanchenko-warsaw-2026",
+      "date": "",
+      "description": "",
+      "source": "World Out of Home Organization",
+      "source_url": "https://www.worldooh.org/",
+      "detected_at": "2026-11-14T17:27:46.060142+00:00",
+      "editorial_status": "unreviewed"
+    },
+    {
+      "title": "_SAKURA STAGE SHIBUYA",
+      "url": "https://www.nonotak.com/_SAKURA-STAGE-SHIBUYA",
+      "date": "",
+      "description": "",
+      "source": "NONOTAK",
+      "source_url": "https://www.nonotak.com/",
+      "detected_at": "2026-11-14T17:27:46.060142+00:00",
+      "editorial_status": "unreviewed"
+    },
+    {
+      "title": "_ECLIPSE",
+      "url": "https://www.nonotak.com/_ECLIPSE",
+      "date": "",
+      "description": "",
+      "source": "NONOTAK",
+      "source_url": "https://www.nonotak.com/",
+      "detected_at": "2026-11-14T17:27:46.060142+00:00",
+      "editorial_status": "unreviewed"
+    },
+    {
+      "title": "concerts performing arts",
+      "url": "https://www.notch.one/industries/concerts-performing-arts",
+      "date": "",
+      "description": "",
+      "source": "Notch",
+      "source_url": "https://www.notch.one/",
+      "detected_at": "2026-11-14T17:27:46.060142+00:00",
+      "editorial_status": "unreviewed"
+    },
+    {
+      "title": "festivals",
+      "url": "https://www.onedotzero.com/projects/filter/festivals",
+      "date": "",
+      "description": "",
+      "source": "onedotzero",
+      "source_url": "https://www.onedotzero.com/",
+      "detected_at": "2026-11-14T17:27:46.060142+00:00",
+      "editorial_status": "unreviewed"
+    },
+    {
+      "title": "live visual music events",
+      "url": "https://www.smode.io/en/solutions/live-visual-music-events",
+      "date": "",
+      "description": "",
+      "source": "Smode",
+      "source_url": "https://www.smode.io/",
+      "detected_at": "2026-11-14T17:27:46.060142+00:00",
+      "editorial_status": "unreviewed"
+    },
+    {
+      "title": "solution live tv production broadcast",
+      "url": "https://www.smode.io/en/solutions/solution-live-tv-production-broadcast",
+      "date": "",
+      "description": "",
+      "source": "Smode",
+      "source_url": "https://www.smode.io/",
+      "detected_at": "2026-11-14T17:27:46.060142+00:00",
+      "editorial_status": "unreviewed"
+    },
+    {
+      "title": "solution performing art visual effects compositing",
+      "url": "https://www.smode.io/en/solutions/solution-performing-art-visual-effects-compositing",
+      "date": "",
+      "description": "",
+      "source": "Smode",
+      "source_url": "https://www.smode.io/",
+      "detected_at": "2026-11-14T17:27:46.060142+00:00",
+      "editorial_status": "unreviewed"
+    },
+    {
+      "title": "solution permanent shows fixed installation",
+      "url": "https://www.smode.io/en/solutions/solution-permanent-shows-fixed-installation",
+      "date": "",
+      "description": "",
+      "source": "Smode",
+      "source_url": "https://www.smode.io/",
+      "detected_at": "2026-11-14T17:27:46.060142+00:00",
+      "editorial_status": "unreviewed"
+    },
+    {
+      "title": "visual art xr extended reality",
+      "url": "https://www.smode.io/en/solutions/visual-art-xr-extended-reality",
+      "date": "",
+      "description": "",
+      "source": "Smode",
+      "source_url": "https://www.smode.io/",
+      "detected_at": "2026-11-14T17:27:46.060142+00:00",
+      "editorial_status": "unreviewed"
+    },
+    {
+      "title": "product generative interactive art vfx visual effects",
+      "url": "https://www.smode.io/en/products/product-generative-interactive-art-vfx-visual-effects",
+      "date": "",
+      "description": "",
+      "source": "Smode",
+      "source_url": "https://www.smode.io/",
+      "detected_at": "2026-11-14T17:27:46.060142+00:00",
+      "editorial_status": "unreviewed"
+    },
+    {
+      "title": "product software 3d stage simulation",
+      "url": "https://www.smode.io/en/products/product-software-3d-stage-simulation",
+      "date": "",
+      "description": "",
+      "source": "Smode",
+      "source_url": "https://www.smode.io/",
+      "detected_at": "2026-11-14T17:27:46.060142+00:00",
+      "editorial_status": "unreviewed"
+    },
+    {
+      "title": "product software video mapping realtime show control",
+      "url": "https://www.smode.io/en/products/product-software-video-mapping-realtime-show-control",
+      "date": "",
+      "description": "",
+      "source": "Smode",
+      "source_url": "https://www.smode.io/",
+      "detected_at": "2026-11-14T17:27:46.060142+00:00",
+      "editorial_status": "unreviewed"
+    },
+    {
+      "title": "showcase",
+      "url": "https://www.smode.io/en/showcase",
+      "date": "",
+      "description": "",
+      "source": "Smode",
+      "source_url": "https://www.smode.io/",
+      "detected_at": "2026-11-14T17:27:46.060142+00:00",
+      "editorial_status": "unreviewed"
+    },
+    {
+      "title": "community visual art",
+      "url": "https://www.smode.io/en/product/community-visual-art",
+      "date": "",
+      "description": "",
+      "source": "Smode",
+      "source_url": "https://www.smode.io/",
+      "detected_at": "2026-11-14T17:27:46.060142+00:00",
+      "editorial_status": "unreviewed"
+    },
+    {
+      "title": "live xr visual virtual production",
+      "url": "https://www.smode.io/en/product/live-xr-visual-virtual-production",
+      "date": "",
+      "description": "",
+      "source": "Smode",
+      "source_url": "https://www.smode.io/",
+      "detected_at": "2026-11-14T17:27:46.060142+00:00",
+      "editorial_status": "unreviewed"
+    },
+    {
+      "title": "tv5monde studio broadcast",
+      "url": "https://www.smode.io/en/case-studies/tv5monde-studio-broadcast",
+      "date": "",
+      "description": "",
+      "source": "Smode",
+      "source_url": "https://www.smode.io/",
+      "detected_at": "2026-11-14T17:27:46.060142+00:00",
+      "editorial_status": "unreviewed"
+    },
+    {
+      "title": "community visual art",
+      "url": "https://www.smode.io/en/products/community-visual-art",
+      "date": "",
+      "description": "",
+      "source": "Smode",
+      "source_url": "https://www.smode.io/",
+      "detected_at": "2026-11-14T17:27:46.060142+00:00",
+      "editorial_status": "unreviewed"
+    },
+    {
+      "title": "live xr visual virtual production",
+      "url": "https://www.smode.io/en/products/live-xr-visual-virtual-production",
+      "date": "",
+      "description": "",
+      "source": "Smode",
+      "source_url": "https://www.smode.io/",
+      "detected_at": "2026-11-14T17:27:46.060142+00:00",
+      "editorial_status": "unreviewed"
+    },
+    {
+      "title": "showcase",
+      "url": "https://derivative.ca/showcase",
+      "date": "",
+      "description": "",
+      "source": "TouchDesigner",
+      "source_url": "https://derivative.ca/",
+      "detected_at": "2026-11-14T17:27:46.060142+00:00",
+      "editorial_status": "unreviewed"
+    },
+    {
+      "title": "audio visual",
+      "url": "https://derivative.ca/tags/audio-visual",
+      "date": "",
+      "description": "",
+      "source": "TouchDesigner",
+      "source_url": "https://derivative.ca/",
+      "detected_at": "2026-11-14T17:27:46.060142+00:00",
+      "editorial_status": "unreviewed"
+    },
+    {
+      "title": "massive attack world tour 2024 2025",
+      "url": "https://www.uva.co.uk/features/massive-attack-world-tour-2024-2025",
+      "date": "",
+      "description": "",
+      "source": "United Visual Artists",
+      "source_url": "https://uva.co.uk/",
+      "detected_at": "2026-11-14T17:27:46.060142+00:00",
+      "editorial_status": "unreviewed"
+    },
+    {
+      "title": "massive attack heligoland world tour",
+      "url": "https://www.uva.co.uk/features/massive-attack-heligoland-world-tour",
+      "date": "",
+      "description": "",
+      "source": "United Visual Artists",
+      "source_url": "https://uva.co.uk/",
+      "detected_at": "2026-11-14T17:27:46.060142+00:00",
+      "editorial_status": "unreviewed"
+    },
+    {
+      "title": "plk tour",
+      "url": "https://www.d-labs.fr/projets/plk-tour",
+      "date": "",
+      "description": "",
+      "source": "D/LABS",
+      "source_url": "https://www.d-labs.fr/",
+      "detected_at": "2026-11-14T17:27:46.060142+00:00",
+      "editorial_status": "unreviewed"
+    },
+    {
+      "title": "scenographie 3",
+      "url": "https://www.fratercine.fr/scenographie-3",
+      "date": "",
+      "description": "",
+      "source": "FRATERCINÉ",
+      "source_url": "https://www.fratercine.fr/",
+      "detected_at": "2026-11-14T17:27:46.060142+00:00",
+      "editorial_status": "unreviewed"
+    },
+    {
+      "title": "Spectacle",
+      "url": "http://www.idlia.fr/spectacle",
+      "date": "",
+      "description": "",
+      "source": "IDlia Studio",
+      "source_url": "https://www.idlia.fr/",
+      "detected_at": "2026-11-14T17:27:46.060142+00:00",
+      "editorial_status": "unreviewed"
+    },
+    {
+      "title": "infoscenes",
+      "url": "https://www.lascene.com/infoscenes",
+      "date": "",
+      "description": "",
+      "source": "La Scène",
+      "source_url": "https://www.lascene.com/",
+      "detected_at": "2026-11-14T17:27:46.060142+00:00",
+      "editorial_status": "unreviewed"
+    },
+    {
+      "title": "biblioscenes",
+      "url": "https://www.lascene.com/biblioscenes",
+      "date": "",
+      "description": "",
+      "source": "La Scène",
+      "source_url": "https://www.lascene.com/",
+      "detected_at": "2026-11-14T17:27:46.060142+00:00",
+      "editorial_status": "unreviewed"
+    },
+    {
+      "title": "videoscenes",
+      "url": "https://www.lascene.com/videoscenes",
+      "date": "",
+      "description": "",
+      "source": "La Scène",
+      "source_url": "https://www.lascene.com/",
+      "detected_at": "2026-11-14T17:27:46.060142+00:00",
+      "editorial_status": "unreviewed"
+    },
+    {
+      "title": "lettre spectacle",
+      "url": "https://www.lascene.com/decouvrir-nos-magazines/lettre-spectacle",
+      "date": "",
+      "description": "",
+      "source": "La Scène",
+      "source_url": "https://www.lascene.com/",
+      "detected_at": "2026-11-14T17:27:46.060142+00:00",
+      "editorial_status": "unreviewed"
+    },
+    {
+      "title": "sceneplus",
+      "url": "https://www.lascene.com/decouvrir-nos-magazines/sceneplus",
+      "date": "",
+      "description": "",
+      "source": "La Scène",
+      "source_url": "https://www.lascene.com/",
+      "detected_at": "2026-11-14T17:27:46.060142+00:00",
+      "editorial_status": "unreviewed"
+    },
+    {
+      "title": "theatres",
+      "url": "https://www.lascene.com/decouvrir-nos-magazines/theatres",
+      "date": "",
+      "description": "",
+      "source": "La Scène",
+      "source_url": "https://www.lascene.com/",
+      "detected_at": "2026-11-14T17:27:46.060142+00:00",
+      "editorial_status": "unreviewed"
+    },
+    {
+      "title": "annonces emploi spectacle culture",
+      "url": "https://www.lascene.com/annonces-emploi-spectacle-culture",
+      "date": "",
+      "description": "",
+      "source": "La Scène",
+      "source_url": "https://www.lascene.com/",
+      "detected_at": "2026-11-14T17:27:46.060142+00:00",
+      "editorial_status": "unreviewed"
+    },
+    {
+      "title": "vierzon recours contre deprogrammation politique damazonia",
+      "url": "https://www.lascene.com/infoscenes/vierzon-recours-contre-deprogrammation-politique-damazonia",
+      "date": "",
+      "description": "",
+      "source": "La Scène",
+      "source_url": "https://www.lascene.com/",
+      "detected_at": "2026-11-14T17:27:46.060142+00:00",
+      "editorial_status": "unreviewed"
+    },
+    {
+      "title": "alexander neef ring entre megalomanie demesure",
+      "url": "https://www.lascene.com/infoscenes/alexander-neef-ring-entre-megalomanie-demesure",
+      "date": "",
+      "description": "",
+      "source": "La Scène",
+      "source_url": "https://www.lascene.com/",
+      "detected_at": "2026-11-14T17:27:46.060142+00:00",
+      "editorial_status": "unreviewed"
+    },
+    {
+      "title": "auch cirque mobilise pousse cri militant",
+      "url": "https://www.lascene.com/infoscenes/auch-cirque-mobilise-pousse-cri-militant",
+      "date": "",
+      "description": "",
+      "source": "La Scène",
+      "source_url": "https://www.lascene.com/",
+      "detected_at": "2026-11-14T17:27:46.060142+00:00",
+      "editorial_status": "unreviewed"
+    },
+    {
+      "title": "theatres",
+      "url": "https://www.lascene.com/index.php/decouvrir-nos-magazines/theatres",
+      "date": "",
+      "description": "",
+      "source": "La Scène",
+      "source_url": "https://www.lascene.com/",
+      "detected_at": "2026-11-14T17:27:46.060142+00:00",
+      "editorial_status": "unreviewed"
+    },
+    {
+      "title": "lettre spectacle",
+      "url": "https://www.lascene.com/index.php/decouvrir-nos-magazines/lettre-spectacle",
+      "date": "",
+      "description": "",
+      "source": "La Scène",
+      "source_url": "https://www.lascene.com/",
+      "detected_at": "2026-11-14T17:27:46.060142+00:00",
+      "editorial_status": "unreviewed"
+    },
+    {
+      "title": "sceneplus",
+      "url": "https://www.lascene.com/index.php/decouvrir-nos-magazines/sceneplus",
+      "date": "",
+      "description": "",
+      "source": "La Scène",
+      "source_url": "https://www.lascene.com/",
+      "detected_at": "2026-11-14T17:27:46.060142+00:00",
+      "editorial_status": "unreviewed"
+    },
+    {
+      "title": "AI Engagement Quantitative UX: 2 High-Level Takeaways from 20+ Charts",
+      "url": "https://feeds.baymard.com/link/9825/17507452/ai-engagement-quantitative-ux-insights-2026",
+      "date": "2026-10-27T10:27:00+01:00",
+      "description": "",
+      "source": "Baymard Institute",
+      "source_url": "https://baymard.com/",
+      "detected_at": "2026-11-14T17:27:46.060142+00:00",
+      "editorial_status": "unreviewed"
+    },
+    {
+      "title": "Mass Merchant UX Benchmark: 5,600+ Performance Scores and 4,600+ Best Practice Examples",
+      "url": "https://feeds.baymard.com/link/9825/17502590/mass-merchant-ux-benchmark-2026",
+      "date": "2026-10-22T10:50:00+02:00",
+      "description": "",
+      "source": "Baymard Institute",
+      "source_url": "https://baymard.com/",
+      "detected_at": "2026-11-14T17:27:46.060142+00:00",
+      "editorial_status": "unreviewed"
+    },
+    {
+      "title": "E-cigarette & Vaping UX Benchmark: 3,600+ Performance Scores and 2,500+ Best Practice Examples",
+      "url": "https://feeds.baymard.com/link/9825/17491220/e-cigarette-and-vaping-ux-benchmark-2026",
+      "date": "2026-10-07T11:15:00+02:00",
+      "description": "",
+      "source": "Baymard Institute",
+      "source_url": "https://baymard.com/",
+      "detected_at": "2026-11-14T17:27:46.060142+00:00",
+      "editorial_status": "unreviewed"
+    },
+    {
+      "title": "B2B Electronic Components & Machinery UX Benchmark: 2,600+ Performance Scores and 2,000+ Best Practice Examples",
+      "url": "https://feeds.baymard.com/link/9825/17482990/b2b-electronic-components-machinery-ux-benchmark-2026",
+      "date": "2026-10-01T10:30:00+02:00",
+      "description": "",
+      "source": "Baymard Institute",
+      "source_url": "https://baymard.com/",
+      "detected_at": "2026-11-14T17:27:46.060142+00:00",
+      "editorial_status": "unreviewed"
+    },
+    {
+      "title": "New Event Ticketing UX Research: 3 Key Takeaways",
+      "url": "https://feeds.baymard.com/link/9825/17472042/event-ticketing-ux-research-launch",
+      "date": "2026-09-24T10:31:00+02:00",
+      "description": "",
+      "source": "Baymard Institute",
+      "source_url": "https://baymard.com/",
+      "detected_at": "2026-11-14T17:27:46.060142+00:00",
+      "editorial_status": "unreviewed"
+    },
+    {
+      "title": "B2B Medical & Pharma UX Benchmark: 3,400+ Performance Scores and 2,600+ Best Practice Examples",
+      "url": "https://feeds.baymard.com/link/9825/17465879/b2b-medical-pharma-ux-benchmark-2026",
+      "date": "2026-09-15T11:30:00+02:00",
+      "description": "",
+      "source": "Baymard Institute",
+      "source_url": "https://baymard.com/",
+      "detected_at": "2026-11-14T17:27:46.060142+00:00",
+      "editorial_status": "unreviewed"
+    },
+    {
+      "title": "Accounts & Self-Service UX Research Update and Expansion: 3 Key Takeaways",
+      "url": "https://feeds.baymard.com/link/9825/17465876/accounts-and-self-service-ux-research-2026",
+      "date": "2026-09-09T10:05:00+02:00",
+      "description": "",
+      "source": "Baymard Institute",
+      "source_url": "https://baymard.com/",
+      "detected_at": "2026-11-14T17:27:46.060142+00:00",
+      "editorial_status": "unreviewed"
+    },
+    {
+      "title": "Telco UX Benchmark: 3,100+ Performance Scores and 2,400+ Best Practice Examples",
+      "url": "https://feeds.baymard.com/link/9825/17465874/telco-ux-benchmark-2026",
+      "date": "2026-09-01T10:45:00+02:00",
+      "description": "",
+      "source": "Baymard Institute",
+      "source_url": "https://baymard.com/",
+      "detected_at": "2026-11-14T17:27:46.060142+00:00",
+      "editorial_status": "unreviewed"
+    },
+    {
+      "title": "New Insurance UX Research: 3 Key Takeaways",
+      "url": "https://feeds.baymard.com/link/9825/17465872/insurance-ux-research-launch",
+      "date": "2026-08-25T10:30:00+02:00",
+      "description": "",
+      "source": "Baymard Institute",
+      "source_url": "https://baymard.com/",
+      "detected_at": "2026-11-14T17:27:46.060142+00:00",
+      "editorial_status": "unreviewed"
+    },
+    {
+      "title": "The Hidden Cost of Bad UX: How Much Revenue Are You Leaving on the Table?",
+      "url": "https://feeds.baymard.com/link/9825/17465870/hidden-cost-bad-ux-revenue-calculator",
+      "date": "2026-08-19T10:12:00+02:00",
+      "description": "",
+      "source": "Baymard Institute",
+      "source_url": "https://baymard.com/",
+      "detected_at": "2026-11-14T17:27:46.060142+00:00",
+      "editorial_status": "unreviewed"
+    },
+    {
+      "title": "broadcaster solutions",
+      "url": "https://www.thinkbox.tv/how-to-use-tv/advanced-tv/broadcaster-solutions",
+      "date": "",
+      "description": "",
+      "source": "Thinkbox",
+      "source_url": "https://www.thinkbox.tv/",
+      "detected_at": "2026-11-14T17:27:46.060142+00:00",
+      "editorial_status": "unreviewed"
+    },
+    {
+      "title": "top 10 music festival branding",
+      "url": "https://mindsparklemag.com/designs/top-10-music-festival-branding",
+      "date": "",
+      "description": "",
+      "source": "Mindsparkle Mag",
+      "source_url": "https://mindsparklemag.com/",
+      "detected_at": "2026-11-14T17:27:46.060142+00:00",
+      "editorial_status": "unreviewed"
+    },
+    {
+      "title": "puig womens americas cup visual language",
+      "url": "https://wearemucho.com/work/puig-womens-americas-cup-visual-language",
+      "date": "",
+      "description": "",
+      "source": "Mucho",
+      "source_url": "https://wearemucho.com/",
+      "detected_at": "2026-11-14T17:27:46.060142+00:00",
+      "editorial_status": "unreviewed"
+    },
+    {
+      "title": "3d visualization",
+      "url": "https://www.printmag.com/categories/3d-visualization",
+      "date": "",
+      "description": "",
+      "source": "Print Magazine",
+      "source_url": "https://www.printmag.com/",
+      "detected_at": "2026-11-14T17:27:46.060142+00:00",
+      "editorial_status": "unreviewed"
+    },
+    {
+      "title": "synap part tournee convaincre les pme miser les relations medias",
+      "url": "https://www.cbnews.fr/conseil/synap-part-tournee-convaincre-les-pme-miser-les-relations-medias",
+      "date": "",
+      "description": "",
+      "source": "CB News",
+      "source_url": "https://www.cbnews.fr/",
+      "detected_at": "2026-11-14T17:27:46.060142+00:00",
+      "editorial_status": "unreviewed"
+    },
+    {
+      "title": "paris play festival 103918",
+      "url": "https://www.cbnews.fr/evenements/paris-play-festival-103918",
+      "date": "",
+      "description": "",
+      "source": "CB News",
+      "source_url": "https://www.cbnews.fr/",
+      "detected_at": "2026-11-14T17:27:46.060142+00:00",
+      "editorial_status": "unreviewed"
+    },
+    {
+      "title": "influenceurs dark patterns fonctionnalites addictives bruxelles donne tour vis",
+      "url": "https://www.cbnews.fr/digital/influenceurs-dark-patterns-fonctionnalites-addictives-bruxelles-donne-tour-vis",
+      "date": "",
+      "description": "",
+      "source": "CB News",
+      "source_url": "https://www.cbnews.fr/",
+      "detected_at": "2026-11-14T17:27:46.060142+00:00",
+      "editorial_status": "unreviewed"
+    },
+    {
+      "title": "monoprix festival 103337",
+      "url": "https://www.cbnews.fr/hit-parade/monoprix-festival-103337",
+      "date": "",
+      "description": "",
+      "source": "CB News",
+      "source_url": "https://www.cbnews.fr/",
+      "detected_at": "2026-11-14T17:27:46.060142+00:00",
+      "editorial_status": "unreviewed"
+    },
+    {
+      "title": "tasmanie campagne not really for tourists 20261113",
+      "url": "https://creapills.com/tasmanie-campagne-not-really-for-tourists-20261113",
+      "date": "",
+      "description": "",
+      "source": "Creapills",
+      "source_url": "https://creapills.com/",
+      "detected_at": "2026-11-14T17:27:46.060142+00:00",
+      "editorial_status": "unreviewed"
+    },
+    {
+      "title": "mediaperformances for good",
+      "url": "https://www.influencia.net/topic/mediaperformances-for-good",
+      "date": "",
+      "description": "",
+      "source": "INfluencia",
+      "source_url": "https://www.influencia.net/",
+      "detected_at": "2026-11-14T17:27:46.060142+00:00",
+      "editorial_status": "unreviewed"
+    },
+    {
+      "title": "retour sur evenement",
+      "url": "https://www.influencia.net/topic/retour-sur-evenement",
+      "date": "",
+      "description": "",
+      "source": "INfluencia",
+      "source_url": "https://www.influencia.net/",
+      "detected_at": "2026-11-14T17:27:46.060142+00:00",
+      "editorial_status": "unreviewed"
+    },
+    {
+      "title": "final slam le show damine et squeezie peut il devenir le premier flop de la creator economy francaise",
+      "url": "https://www.influencia.net/articles/final-slam-le-show-damine-et-squeezie-peut-il-devenir-le-premier-flop-de-la-creator-economy-francaise",
+      "date": "",
+      "description": "",
+      "source": "INfluencia",
+      "source_url": "https://www.influencia.net/",
+      "detected_at": "2026-11-14T17:27:46.060142+00:00",
+      "editorial_status": "unreviewed"
+    },
+    {
+      "title": "FESTIVAL CLUB CRAYON 2025 ANNULÉ",
+      "url": "https://www.etapes.com/2025/05/20/festival-club-crayon-2025-annule",
+      "date": "",
+      "description": "",
+      "source": "Étapes",
+      "source_url": "https://etapes.com/",
+      "detected_at": "2026-11-14T17:27:46.060142+00:00",
+      "editorial_status": "unreviewed"
+    },
+    {
+      "title": "Austin Independent School District Theatre Programs Thrive with ETC Lighting Solutions.aspx",
+      "url": "https://www.etcconnect.com/About/News/Austin-Independent-School-District-Theatre-Programs-Thrive-with-ETC-Lighting-Solutions.aspx",
+      "date": "",
+      "description": "",
+      "source": "ETC",
+      "source_url": "https://www.etcconnect.com/",
+      "detected_at": "2026-11-14T17:27:46.060142+00:00",
+      "editorial_status": "unreviewed"
+    },
+    {
+      "title": "Lighting Designer Vince Foster Chooses Hog for Jamiroquai Tour.aspx",
+      "url": "https://www.etcconnect.com/About/News/Lighting-Designer-Vince-Foster-Chooses-Hog-for-Jamiroquai-Tour.aspx",
+      "date": "",
+      "description": "",
+      "source": "ETC",
+      "source_url": "https://www.etcconnect.com/",
+      "detected_at": "2026-11-14T17:27:46.060142+00:00",
+      "editorial_status": "unreviewed"
+    },
+    {
+      "title": "interview liu bolin performance aquila.html",
+      "url": "https://www.domusweb.it/en/art/gallery/2026/11/09/interview-liu-bolin-performance-aquila.html",
+      "date": "",
+      "description": "",
+      "source": "Domus",
+      "source_url": "https://www.domusweb.it/en.html",
+      "detected_at": "2026-11-14T17:27:46.060142+00:00",
+      "editorial_status": "unreviewed"
+    },
+    {
+      "title": "concert review",
+      "url": "https://stereogum.com/category/reviews/concert-review",
+      "date": "",
+      "description": "",
+      "source": "Stereogum",
+      "source_url": "https://www.stereogum.com/",
+      "detected_at": "2026-11-14T17:27:46.060142+00:00",
+      "editorial_status": "unreviewed"
+    },
+    {
+      "title": "concert review",
+      "url": "https://stereogum.com/2516108/5-thoughts-on-olivia-rodrigos-unraveled-tour/reviews/concert-review",
+      "date": "",
+      "description": "",
+      "source": "Stereogum",
+      "source_url": "https://www.stereogum.com/",
+      "detected_at": "2026-11-14T17:27:46.060142+00:00",
+      "editorial_status": "unreviewed"
+    },
+    {
+      "title": "A New Exhibition Illuminates Geoffrey Holder’s Visual Art Practice",
+      "url": "https://dancemagazine.com/geoffrey-holder-art",
+      "date": "",
+      "description": "",
+      "source": "Dance Magazine",
+      "source_url": "https://www.dancemagazine.com/",
+      "detected_at": "2026-11-14T17:27:46.060142+00:00",
+      "editorial_status": "unreviewed"
+    },
+    {
+      "title": "The Stage Interview",
+      "url": "https://www.thestage.co.uk/the-stage-interview",
+      "date": "",
+      "description": "",
+      "source": "The Stage",
+      "source_url": "https://www.thestage.co.uk/",
+      "detected_at": "2026-11-14T17:27:46.060142+00:00",
+      "editorial_status": "unreviewed"
+    },
+    {
+      "title": "the stage 100",
+      "url": "https://www.thestage.co.uk/the-stage-100",
+      "date": "",
+      "description": "",
+      "source": "The Stage",
+      "source_url": "https://www.thestage.co.uk/",
+      "detected_at": "2026-11-14T17:27:46.060142+00:00",
+      "editorial_status": "unreviewed"
+    },
+    {
+      "title": "backstage technical",
+      "url": "https://www.thestage.co.uk/backstage-technical",
+      "date": "",
+      "description": "",
+      "source": "The Stage",
+      "source_url": "https://www.thestage.co.uk/",
+      "detected_at": "2026-11-14T17:27:46.060142+00:00",
+      "editorial_status": "unreviewed"
+    },
+    {
+      "title": "musical theatre",
+      "url": "https://www.thestage.co.uk/musical-theatre",
+      "date": "",
+      "description": "",
+      "source": "The Stage",
+      "source_url": "https://www.thestage.co.uk/",
+      "detected_at": "2026-11-14T17:27:46.060142+00:00",
+      "editorial_status": "unreviewed"
+    },
+    {
+      "title": "acting performance",
+      "url": "https://www.thestage.co.uk/acting-performance",
+      "date": "",
+      "description": "",
+      "source": "The Stage",
+      "source_url": "https://www.thestage.co.uk/",
+      "detected_at": "2026-11-14T17:27:46.060142+00:00",
+      "editorial_status": "unreviewed"
+    },
+    {
+      "title": "national theatre receives 15m boost to touring work in bid to reach 100000 young people",
+      "url": "https://www.thestage.co.uk/news/national-theatre-receives-15m-boost-to-touring-work-in-bid-to-reach-100000-young-people",
+      "date": "",
+      "description": "",
+      "source": "The Stage",
+      "source_url": "https://www.thestage.co.uk/",
+      "detected_at": "2026-11-14T17:27:46.060142+00:00",
+      "editorial_status": "unreviewed"
+    },
+    {
+      "title": "its not just the big guns who can give back to the theatre community amanda parker",
+      "url": "https://www.thestage.co.uk/opinion/its-not-just-the-big-guns-who-can-give-back-to-the-theatre-community-amanda-parker",
+      "date": "",
+      "description": "",
+      "source": "The Stage",
+      "source_url": "https://www.thestage.co.uk/",
+      "detected_at": "2026-11-14T17:27:46.060142+00:00",
+      "editorial_status": "unreviewed"
+    },
+    {
+      "title": "cloud 9 at the national theatre review round up",
+      "url": "https://www.thestage.co.uk/review-round-ups/cloud-9-at-the-national-theatre-review-round-up",
+      "date": "",
+      "description": "",
+      "source": "The Stage",
+      "source_url": "https://www.thestage.co.uk/",
+      "detected_at": "2026-11-14T17:27:46.060142+00:00",
+      "editorial_status": "unreviewed"
+    },
+    {
+      "title": "zackary momoh interview desire under the elms at the almeida theatre",
+      "url": "https://www.thestage.co.uk/features/zackary-momoh-interview-desire-under-the-elms-at-the-almeida-theatre",
+      "date": "",
+      "description": "",
+      "source": "The Stage",
+      "source_url": "https://www.thestage.co.uk/",
+      "detected_at": "2026-11-14T17:27:46.060142+00:00",
+      "editorial_status": "unreviewed"
+    },
+    {
+      "title": "theatres hit by microsoft crash advise audiences to contact box offices",
+      "url": "https://www.thestage.co.uk/news/theatres-hit-by-microsoft-crash-advise-audiences-to-contact-box-offices",
+      "date": "",
+      "description": "",
+      "source": "The Stage",
+      "source_url": "https://www.thestage.co.uk/",
+      "detected_at": "2026-11-14T17:27:46.060142+00:00",
+      "editorial_status": "unreviewed"
+    },
+    {
+      "title": "yard theatre to stage company in venues first musical",
+      "url": "https://www.thestage.co.uk/news/yard-theatre-to-stage-company-in-venues-first-musical",
+      "date": "",
+      "description": "",
+      "source": "The Stage",
+      "source_url": "https://www.thestage.co.uk/",
+      "detected_at": "2026-11-14T17:27:46.060142+00:00",
+      "editorial_status": "unreviewed"
+    },
+    {
+      "title": "norfolk and norwich festival head to step down after a decade",
+      "url": "https://www.thestage.co.uk/news/norfolk-and-norwich-festival-head-to-step-down-after-a-decade",
+      "date": "",
+      "description": "",
+      "source": "The Stage",
+      "source_url": "https://www.thestage.co.uk/",
+      "detected_at": "2026-11-14T17:27:46.060142+00:00",
+      "editorial_status": "unreviewed"
+    },
+    {
+      "title": "director who died last year accused of grooming youth theatre member in 1980s",
+      "url": "https://www.thestage.co.uk/news/director-who-died-last-year-accused-of-grooming-youth-theatre-member-in-1980s",
+      "date": "",
+      "description": "",
+      "source": "The Stage",
+      "source_url": "https://www.thestage.co.uk/",
+      "detected_at": "2026-11-14T17:27:46.060142+00:00",
+      "editorial_status": "unreviewed"
+    },
+    {
+      "title": "one in four children miss out on school theatre trips as financial pressures hit",
+      "url": "https://www.thestage.co.uk/news/one-in-four-children-miss-out-on-school-theatre-trips-as-financial-pressures-hit",
+      "date": "",
+      "description": "",
+      "source": "The Stage",
+      "source_url": "https://www.thestage.co.uk/",
+      "detected_at": "2026-11-14T17:27:46.060142+00:00",
+      "editorial_status": "unreviewed"
+    },
+    {
+      "title": "director and designer unveil plans to revive streatham theatre as commercial venue",
+      "url": "https://www.thestage.co.uk/news/director-and-designer-unveil-plans-to-revive-streatham-theatre-as-commercial-venue",
+      "date": "",
+      "description": "",
+      "source": "The Stage",
+      "source_url": "https://www.thestage.co.uk/",
+      "detected_at": "2026-11-14T17:27:46.060142+00:00",
+      "editorial_status": "unreviewed"
+    },
+    {
+      "title": "burnham pressed to tear down barriers to uk eu touring at upcoming summit",
+      "url": "https://www.thestage.co.uk/news/burnham-pressed-to-tear-down-barriers-to-uk-eu-touring-at-upcoming-summit",
+      "date": "",
+      "description": "",
+      "source": "The Stage",
+      "source_url": "https://www.thestage.co.uk/",
+      "detected_at": "2026-11-14T17:27:46.060142+00:00",
+      "editorial_status": "unreviewed"
+    },
+    {
+      "title": "matt henry to lead to sir with love musical uk tour",
+      "url": "https://www.thestage.co.uk/news/matt-henry-to-lead-to-sir-with-love-musical-uk-tour",
+      "date": "",
+      "description": "",
+      "source": "The Stage",
+      "source_url": "https://www.thestage.co.uk/",
+      "detected_at": "2026-11-14T17:27:46.060142+00:00",
+      "editorial_status": "unreviewed"
+    },
+    {
+      "title": "theatre bosses urge pm to protect women in arts after brand crimes",
+      "url": "https://www.thestage.co.uk/news/theatre-bosses-urge-pm-to-protect-women-in-arts-after-brand-crimes",
+      "date": "",
+      "description": "",
+      "source": "The Stage",
+      "source_url": "https://www.thestage.co.uk/",
+      "detected_at": "2026-11-14T17:27:46.060142+00:00",
+      "editorial_status": "unreviewed"
+    },
+    {
+      "title": "bradford theatre to close after 50 years following university funding cut",
+      "url": "https://www.thestage.co.uk/news/bradford-theatre-to-close-after-50-years-following-university-funding-cut",
+      "date": "",
+      "description": "",
+      "source": "The Stage",
+      "source_url": "https://www.thestage.co.uk/",
+      "detected_at": "2026-11-14T17:27:46.060142+00:00",
+      "editorial_status": "unreviewed"
+    },
+    {
+      "title": "kings head theatre reveals two world premieres in new season",
+      "url": "https://www.thestage.co.uk/news/kings-head-theatre-reveals-two-world-premieres-in-new-season",
+      "date": "",
+      "description": "",
+      "source": "The Stage",
+      "source_url": "https://www.thestage.co.uk/",
+      "detected_at": "2026-11-14T17:27:46.060142+00:00",
+      "editorial_status": "unreviewed"
+    },
+    {
+      "title": "hamlet hail to the thief review barbican theatre london radiohead",
+      "url": "https://www.thestage.co.uk/reviews/hamlet-hail-to-the-thief-review-barbican-theatre-london-radiohead",
+      "date": "",
+      "description": "",
+      "source": "The Stage",
+      "source_url": "https://www.thestage.co.uk/",
+      "detected_at": "2026-11-14T17:27:46.060142+00:00",
+      "editorial_status": "unreviewed"
+    },
+    {
+      "title": "dogstar review hampstead theatre studio london",
+      "url": "https://www.thestage.co.uk/reviews/dogstar-review-hampstead-theatre-studio-london",
+      "date": "",
+      "description": "",
+      "source": "The Stage",
+      "source_url": "https://www.thestage.co.uk/",
+      "detected_at": "2026-11-14T17:27:46.060142+00:00",
+      "editorial_status": "unreviewed"
+    },
+    {
+      "title": "the haunting of hill house review royal lyceum theatre edinburgh",
+      "url": "https://www.thestage.co.uk/reviews/the-haunting-of-hill-house-review-royal-lyceum-theatre-edinburgh",
+      "date": "",
+      "description": "",
+      "source": "The Stage",
+      "source_url": "https://www.thestage.co.uk/",
+      "detected_at": "2026-11-14T17:27:46.060142+00:00",
+      "editorial_status": "unreviewed"
+    },
+    {
+      "title": "cloud 9 review lyttelton national theatre london",
+      "url": "https://www.thestage.co.uk/reviews/cloud-9-review-lyttelton-national-theatre-london",
+      "date": "",
+      "description": "",
+      "source": "The Stage",
+      "source_url": "https://www.thestage.co.uk/",
+      "detected_at": "2026-11-14T17:27:46.060142+00:00",
+      "editorial_status": "unreviewed"
+    },
+    {
+      "title": "critics do more for theatre than generate ticket sales lyn gardner",
+      "url": "https://www.thestage.co.uk/opinion/critics-do-more-for-theatre-than-generate-ticket-sales-lyn-gardner",
+      "date": "",
+      "description": "",
+      "source": "The Stage",
+      "source_url": "https://www.thestage.co.uk/",
+      "detected_at": "2026-11-14T17:27:46.060142+00:00",
+      "editorial_status": "unreviewed"
+    },
+    {
+      "title": "ace funding business rates tourist tax and more this month in your views",
+      "url": "https://www.thestage.co.uk/your-views/ace-funding-business-rates-tourist-tax-and-more-this-month-in-your-views",
+      "date": "",
+      "description": "",
+      "source": "The Stage",
+      "source_url": "https://www.thestage.co.uk/",
+      "detected_at": "2026-11-14T17:27:46.060142+00:00",
+      "editorial_status": "unreviewed"
+    },
+    {
+      "title": "theatre must urgently address inequalities drama in schools campaign reminds us lyn gardner",
+      "url": "https://www.thestage.co.uk/opinion/theatre-must-urgently-address-inequalities-drama-in-schools-campaign-reminds-us-lyn-gardner",
+      "date": "",
+      "description": "",
+      "source": "The Stage",
+      "source_url": "https://www.thestage.co.uk/",
+      "detected_at": "2026-11-14T17:27:46.060142+00:00",
+      "editorial_status": "unreviewed"
+    },
+    {
+      "title": "anne marie duff blanche mcintyre and helen edmundson",
+      "url": "https://www.thestage.co.uk/the-stage-interview/anne-marie-duff-blanche-mcintyre-and-helen-edmundson",
+      "date": "",
+      "description": "",
+      "source": "The Stage",
+      "source_url": "https://www.thestage.co.uk/",
+      "detected_at": "2026-11-14T17:27:46.060142+00:00",
+      "editorial_status": "unreviewed"
+    },
+    {
+      "title": "alan cumming pitlochry festival theatre artistic director",
+      "url": "https://www.thestage.co.uk/the-stage-interview/alan-cumming-pitlochry-festival-theatre-artistic-director",
+      "date": "",
+      "description": "",
+      "source": "The Stage",
+      "source_url": "https://www.thestage.co.uk/",
+      "detected_at": "2026-11-14T17:27:46.060142+00:00",
+      "editorial_status": "unreviewed"
+    },
+    {
+      "title": "david hutchinson producer",
+      "url": "https://www.thestage.co.uk/the-stage-interview/david-hutchinson-producer",
+      "date": "",
+      "description": "",
+      "source": "The Stage",
+      "source_url": "https://www.thestage.co.uk/",
+      "detected_at": "2026-11-14T17:27:46.060142+00:00",
+      "editorial_status": "unreviewed"
+    },
+    {
+      "title": "pamela howard",
+      "url": "https://www.thestage.co.uk/the-stage-interview/pamela-howard",
+      "date": "",
+      "description": "",
+      "source": "The Stage",
+      "source_url": "https://www.thestage.co.uk/",
+      "detected_at": "2026-11-14T17:27:46.060142+00:00",
+      "editorial_status": "unreviewed"
+    },
+    {
+      "title": "jane asher big interview osborne olivier festen the circle",
+      "url": "https://www.thestage.co.uk/the-stage-interview/jane-asher-big-interview-osborne-olivier-festen-the-circle",
+      "date": "",
+      "description": "",
+      "source": "The Stage",
+      "source_url": "https://www.thestage.co.uk/",
+      "detected_at": "2026-11-14T17:27:46.060142+00:00",
+      "editorial_status": "unreviewed"
+    },
+    {
+      "title": "kathryn hunter",
+      "url": "https://www.thestage.co.uk/the-stage-interview/kathryn-hunter",
+      "date": "",
+      "description": "",
+      "source": "The Stage",
+      "source_url": "https://www.thestage.co.uk/",
+      "detected_at": "2026-11-14T17:27:46.060142+00:00",
+      "editorial_status": "unreviewed"
+    },
+    {
+      "title": "michael sheen welsh national theatre",
+      "url": "https://www.thestage.co.uk/the-stage-interview/michael-sheen-welsh-national-theatre",
+      "date": "",
+      "description": "",
+      "source": "The Stage",
+      "source_url": "https://www.thestage.co.uk/",
+      "detected_at": "2026-11-14T17:27:46.060142+00:00",
+      "editorial_status": "unreviewed"
+    },
+    {
+      "title": "annilese miskimmon english national opera",
+      "url": "https://www.thestage.co.uk/the-stage-interview/annilese-miskimmon-english-national-opera",
+      "date": "",
+      "description": "",
+      "source": "The Stage",
+      "source_url": "https://www.thestage.co.uk/",
+      "detected_at": "2026-11-14T17:27:46.060142+00:00",
+      "editorial_status": "unreviewed"
+    },
+    {
+      "title": "addyourshow.php",
+      "url": "https://www.broadwayworld.com/addyourshow.php",
+      "date": "",
+      "description": "",
+      "source": "BroadwayWorld Dance",
+      "source_url": "https://www.broadwayworld.com/bwwdance/",
+      "detected_at": "2026-11-14T17:27:46.060142+00:00",
+      "editorial_status": "unreviewed"
+    },
+    {
+      "title": "join.php",
+      "url": "https://www.broadwayworld.com/myshows/join.php",
+      "date": "",
+      "description": "",
+      "source": "BroadwayWorld Dance",
+      "source_url": "https://www.broadwayworld.com/bwwdance/",
+      "detected_at": "2026-11-14T17:27:46.060142+00:00",
+      "editorial_status": "unreviewed"
+    },
+    {
+      "title": "broadway shows.php",
+      "url": "https://www.broadwayworld.com/shows/broadway-shows.php",
+      "date": "",
+      "description": "",
+      "source": "BroadwayWorld Dance",
+      "source_url": "https://www.broadwayworld.com/bwwdance/",
+      "detected_at": "2026-11-14T17:27:46.060142+00:00",
+      "editorial_status": "unreviewed"
+    },
+    {
+      "title": "shows.php",
+      "url": "https://www.broadwayworld.com/shows/shows.php?page=oshows",
+      "date": "",
+      "description": "",
+      "source": "BroadwayWorld Dance",
+      "source_url": "https://www.broadwayworld.com/bwwdance/",
+      "detected_at": "2026-11-14T17:27:46.060142+00:00",
+      "editorial_status": "unreviewed"
+    },
+    {
+      "title": "shows.php",
+      "url": "https://www.broadwayworld.com/shows/shows.php?page=immersive",
+      "date": "",
+      "description": "",
+      "source": "BroadwayWorld Dance",
+      "source_url": "https://www.broadwayworld.com/bwwdance/",
+      "detected_at": "2026-11-14T17:27:46.060142+00:00",
+      "editorial_status": "unreviewed"
+    },
+    {
+      "title": "pickashowregional.php",
+      "url": "https://www.broadwayworld.com/pickashowregional.php",
+      "date": "",
+      "description": "",
+      "source": "BroadwayWorld Dance",
+      "source_url": "https://www.broadwayworld.com/bwwdance/",
+      "detected_at": "2026-11-14T17:27:46.060142+00:00",
+      "editorial_status": "unreviewed"
+    },
+    {
+      "title": "broadway shows discounts.php",
+      "url": "https://www.broadwayworld.com/shows/broadway-shows-discounts.php",
+      "date": "",
+      "description": "",
+      "source": "BroadwayWorld Dance",
+      "source_url": "https://www.broadwayworld.com/bwwdance/",
+      "detected_at": "2026-11-14T17:27:46.060142+00:00",
+      "editorial_status": "unreviewed"
+    },
+    {
+      "title": "shows.php",
+      "url": "https://www.broadwayworld.com/shows/shows.php?page=tour",
+      "date": "",
+      "description": "",
+      "source": "BroadwayWorld Dance",
+      "source_url": "https://www.broadwayworld.com/bwwdance/",
+      "detected_at": "2026-11-14T17:27:46.060142+00:00",
+      "editorial_status": "unreviewed"
+    },
+    {
+      "title": "shows.php",
+      "url": "https://www.broadwayworld.com/shows/shows.php?page=westend",
+      "date": "",
+      "description": "",
+      "source": "BroadwayWorld Dance",
+      "source_url": "https://www.broadwayworld.com/bwwdance/",
+      "detected_at": "2026-11-14T17:27:46.060142+00:00",
+      "editorial_status": "unreviewed"
+    },
+    {
+      "title": "industry bww theatres.php",
+      "url": "https://www.broadwayworld.com/industry-bww-theatres.php",
+      "date": "",
+      "description": "",
+      "source": "BroadwayWorld Dance",
+      "source_url": "https://www.broadwayworld.com/bwwdance/",
+      "detected_at": "2026-11-14T17:27:46.060142+00:00",
+      "editorial_status": "unreviewed"
+    },
+    {
+      "title": "World Ballet Companys THE NUTCRACKER Comes To The Curran Theatre In December 20261113",
+      "url": "https://www.broadwayworld.com/san-francisco/article/World-Ballet-Companys-THE-NUTCRACKER-Comes-To-The-Curran-Theatre-In-December-20261113",
+      "date": "",
+      "description": "",
+      "source": "BroadwayWorld Dance",
+      "source_url": "https://www.broadwayworld.com/bwwdance/",
+      "detected_at": "2026-11-14T17:27:46.060142+00:00",
+      "editorial_status": "unreviewed"
+    },
+    {
+      "title": "Interview GALLIM CELEBRATES A MOMENTOUS MILESTONE AT THE JOYCE THEATER 20261111",
+      "url": "https://www.broadwayworld.com/bwwdance/article/Interview-GALLIM-CELEBRATES-A-MOMENTOUS-MILESTONE-AT-THE-JOYCE-THEATER-20261111",
+      "date": "",
+      "description": "",
+      "source": "BroadwayWorld Dance",
+      "source_url": "https://www.broadwayworld.com/bwwdance/",
+      "detected_at": "2026-11-14T17:27:46.060142+00:00",
+      "editorial_status": "unreviewed"
+    },
+    {
+      "title": "JERSEY NUTCRACKER Will Be Performed at the Restored Loews Jersey Theatre in Jersey City 20261110",
+      "url": "https://www.broadwayworld.com/new-jersey/article/JERSEY-NUTCRACKER-Will-Be-Performed-at-the-Restored-Loews-Jersey-Theatre-in-Jersey-City-20261110",
+      "date": "",
+      "description": "",
+      "source": "BroadwayWorld Dance",
+      "source_url": "https://www.broadwayworld.com/bwwdance/",
+      "detected_at": "2026-11-14T17:27:46.060142+00:00",
+      "editorial_status": "unreviewed"
+    },
+    {
+      "title": "Photos Anna Nevzorova and Jakob Wheway Hughes to Dance Nutcracker Pas de Deux in Ballet Nights Richmond and Brighton Shows 20261113",
+      "url": "https://www.broadwayworld.com/bwwdance/article/Photos-Anna-Nevzorova-and-Jakob-Wheway-Hughes-to-Dance-Nutcracker-Pas-de-Deux-in-Ballet-Nights-Richmond-and-Brighton-Shows-20261113",
+      "date": "",
+      "description": "",
+      "source": "BroadwayWorld Dance",
+      "source_url": "https://www.broadwayworld.com/bwwdance/",
+      "detected_at": "2026-11-14T17:27:46.060142+00:00",
+      "editorial_status": "unreviewed"
+    },
+    {
+      "title": "Hofstra University Fall Dance Concert to Feature Guest Artists and Tribute to Henrietta Lacks 20261111",
+      "url": "https://www.broadwayworld.com/bwwdance/article/Hofstra-University-Fall-Dance-Concert-to-Feature-Guest-Artists-and-Tribute-to-Henrietta-Lacks-20261111",
+      "date": "",
+      "description": "",
+      "source": "BroadwayWorld Dance",
+      "source_url": "https://www.broadwayworld.com/bwwdance/",
+      "detected_at": "2026-11-14T17:27:46.060142+00:00",
+      "editorial_status": "unreviewed"
+    },
+    {
+      "title": "Ballet Nights to Stage New Years Day Concert at Cadogan Hall in London 20261111",
+      "url": "https://www.broadwayworld.com/westend/article/Ballet-Nights-to-Stage-New-Years-Day-Concert-at-Cadogan-Hall-in-London-20261111",
+      "date": "",
+      "description": "",
+      "source": "BroadwayWorld Dance",
+      "source_url": "https://www.broadwayworld.com/bwwdance/",
+      "detected_at": "2026-11-14T17:27:46.060142+00:00",
+      "editorial_status": "unreviewed"
+    },
+    {
+      "title": "BALAM Dance Theatre to Perform Balinese and Fusion Dance at 2026 World Dance Festival in NYC 20261111",
+      "url": "https://www.broadwayworld.com/article/BALAM-Dance-Theatre-to-Perform-Balinese-and-Fusion-Dance-at-2026-World-Dance-Festival-in-NYC-20261111",
+      "date": "",
+      "description": "",
+      "source": "BroadwayWorld Dance",
+      "source_url": "https://www.broadwayworld.com/bwwdance/",
+      "detected_at": "2026-11-14T17:27:46.060142+00:00",
+      "editorial_status": "unreviewed"
+    },
+    {
+      "title": "THE NUTCRACKER Will Return to Orange County Ballet Theater 20261111",
+      "url": "https://www.broadwayworld.com/los-angeles/article/THE-NUTCRACKER-Will-Return-to-Orange-County-Ballet-Theater-20261111",
+      "date": "",
+      "description": "",
+      "source": "BroadwayWorld Dance",
+      "source_url": "https://www.broadwayworld.com/bwwdance/",
+      "detected_at": "2026-11-14T17:27:46.060142+00:00",
+      "editorial_status": "unreviewed"
+    },
+    {
+      "title": "Video Watch the NEVERMORE Trailer for London Run at Charing Cross Theatre 20261110",
+      "url": "https://www.broadwayworld.com/westend/article/Video-Watch-the-NEVERMORE-Trailer-for-London-Run-at-Charing-Cross-Theatre-20261110",
+      "date": "",
+      "description": "",
+      "source": "BroadwayWorld Dance",
+      "source_url": "https://www.broadwayworld.com/bwwdance/",
+      "detected_at": "2026-11-14T17:27:46.060142+00:00",
+      "editorial_status": "unreviewed"
+    },
+    {
+      "title": "Charlotte Ballet Will Return to New York at The Joyce Theater 20261110",
+      "url": "https://www.broadwayworld.com/article/Charlotte-Ballet-Will-Return-to-New-York-at-The-Joyce-Theater-20261110",
+      "date": "",
+      "description": "",
+      "source": "BroadwayWorld Dance",
+      "source_url": "https://www.broadwayworld.com/bwwdance/",
+      "detected_at": "2026-11-14T17:27:46.060142+00:00",
+      "editorial_status": "unreviewed"
+    },
+    {
+      "title": "THE ROCKET MAN SHOW Elton John Tribute Returns to Tanger Center August 2027 20261109",
+      "url": "https://www.broadwayworld.com/raleigh/article/THE-ROCKET-MAN-SHOW-Elton-John-Tribute-Returns-to-Tanger-Center-August-2027-20261109",
+      "date": "",
+      "description": "",
+      "source": "BroadwayWorld Dance",
+      "source_url": "https://www.broadwayworld.com/bwwdance/",
+      "detected_at": "2026-11-14T17:27:46.060142+00:00",
+      "editorial_status": "unreviewed"
+    },
+    {
+      "title": "BALLET ARIZONA to Stage THE NUTCRACKER at Symphony Hall This Holiday Season 20261109",
+      "url": "https://www.broadwayworld.com/phoenix/article/BALLET-ARIZONA-to-Stage-THE-NUTCRACKER-at-Symphony-Hall-This-Holiday-Season-20261109",
+      "date": "",
+      "description": "",
+      "source": "BroadwayWorld Dance",
+      "source_url": "https://www.broadwayworld.com/bwwdance/",
+      "detected_at": "2026-11-14T17:27:46.060142+00:00",
+      "editorial_status": "unreviewed"
+    },
+    {
+      "title": "Can a Dancer Build a Competition Program Between Shows Iskandar Anvarov Won Gold With One 20261109",
+      "url": "https://www.broadwayworld.com/bwwdance/article/Can-a-Dancer-Build-a-Competition-Program-Between-Shows-Iskandar-Anvarov-Won-Gold-With-One-20261109",
+      "date": "",
+      "description": "",
+      "source": "BroadwayWorld Dance",
+      "source_url": "https://www.broadwayworld.com/bwwdance/",
+      "detected_at": "2026-11-14T17:27:46.060142+00:00",
+      "editorial_status": "unreviewed"
+    },
+    {
+      "title": "Alaska Dance Theatre Will Perform AN ALASKAN HOLIDAY Featuring THE LAND OF THE SWEETS This December 20261109",
+      "url": "https://www.broadwayworld.com/anchorage/article/Alaska-Dance-Theatre-Will-Perform-AN-ALASKAN-HOLIDAY-Featuring-THE-LAND-OF-THE-SWEETS-This-December-20261109",
+      "date": "",
+      "description": "",
+      "source": "BroadwayWorld Dance",
+      "source_url": "https://www.broadwayworld.com/bwwdance/",
+      "detected_at": "2026-11-14T17:27:46.060142+00:00",
+      "editorial_status": "unreviewed"
+    },
+    {
+      "title": "Video First Look At REDCLIFFE In Trailer From London Theatre 20261107",
+      "url": "https://www.broadwayworld.com/westend/article/Video-First-Look-At-REDCLIFFE-In-Trailer-From-London-Theatre-20261107",
+      "date": "",
+      "description": "",
+      "source": "BroadwayWorld Dance",
+      "source_url": "https://www.broadwayworld.com/bwwdance/",
+      "detected_at": "2026-11-14T17:27:46.060142+00:00",
+      "editorial_status": "unreviewed"
+    },
+    {
+      "title": "Bill T JonesArnie Zane Company to End Performances After Final Year in 2027 20261106",
+      "url": "https://www.broadwayworld.com/off-broadway/article/Bill-T-JonesArnie-Zane-Company-to-End-Performances-After-Final-Year-in-2027-20261106",
+      "date": "",
+      "description": "",
+      "source": "BroadwayWorld Dance",
+      "source_url": "https://www.broadwayworld.com/bwwdance/",
+      "detected_at": "2026-11-14T17:27:46.060142+00:00",
+      "editorial_status": "unreviewed"
+    },
+    {
+      "title": "American Ballet Theatre Unveils 2027 Spring Season Cast Members 20261106",
+      "url": "https://www.broadwayworld.com/bwwdance/article/American-Ballet-Theatre-Unveils-2027-Spring-Season-Cast-Members-20261106",
+      "date": "",
+      "description": "",
+      "source": "BroadwayWorld Dance",
+      "source_url": "https://www.broadwayworld.com/bwwdance/",
+      "detected_at": "2026-11-14T17:27:46.060142+00:00",
+      "editorial_status": "unreviewed"
+    },
+    {
+      "title": "Review CRANFORD Orange Tree Theatre 20261113",
+      "url": "https://www.broadwayworld.com/westend/article/Review-CRANFORD-Orange-Tree-Theatre-20261113",
+      "date": "",
+      "description": "",
+      "source": "BroadwayWorld Dance",
+      "source_url": "https://www.broadwayworld.com/bwwdance/",
+      "detected_at": "2026-11-14T17:27:46.060142+00:00",
+      "editorial_status": "unreviewed"
+    },
+    {
+      "title": "Jessie Buckley COMPANY Revival and More Set for English Touring Theatres 202728 Season 20261113",
+      "url": "https://www.broadwayworld.com/westend/article/Jessie-Buckley-COMPANY-Revival-and-More-Set-for-English-Touring-Theatres-202728-Season-20261113",
+      "date": "",
+      "description": "",
+      "source": "BroadwayWorld Dance",
+      "source_url": "https://www.broadwayworld.com/bwwdance/",
+      "detected_at": "2026-11-14T17:27:46.060142+00:00",
+      "editorial_status": "unreviewed"
+    },
+    {
+      "title": "alt J to Join The O2s 20th Birthday Line Up With Performance at The O2 in July 20261113",
+      "url": "https://www.broadwayworld.com/westend/article/alt-J-to-Join-The-O2s-20th-Birthday-Line-Up-With-Performance-at-The-O2-in-July-20261113",
+      "date": "",
+      "description": "",
+      "source": "BroadwayWorld Dance",
+      "source_url": "https://www.broadwayworld.com/bwwdance/",
+      "detected_at": "2026-11-14T17:27:46.060142+00:00",
+      "editorial_status": "unreviewed"
+    },
+    {
+      "title": "THE GAP YEAR North American Premiere and More Set for Irish Repertory Theatre 2027 Winter Season 20261113",
+      "url": "https://www.broadwayworld.com/off-broadway/article/THE-GAP-YEAR-North-American-Premiere-and-More-Set-for-Irish-Repertory-Theatre-2027-Winter-Season-20261113",
+      "date": "",
+      "description": "",
+      "source": "BroadwayWorld Dance",
+      "source_url": "https://www.broadwayworld.com/bwwdance/",
+      "detected_at": "2026-11-14T17:27:46.060142+00:00",
+      "editorial_status": "unreviewed"
+    },
+    {
+      "title": "Video Watch the Cast of LES MISRABLES Rehearse One Day More at Syracuse Stage 20261114",
+      "url": "https://www.broadwayworld.com/central-new-york/article/Video-Watch-the-Cast-of-LES-MISRABLES-Rehearse-One-Day-More-at-Syracuse-Stage-20261114",
+      "date": "",
+      "description": "",
+      "source": "BroadwayWorld Dance",
+      "source_url": "https://www.broadwayworld.com/bwwdance/",
+      "detected_at": "2026-11-14T17:27:46.060142+00:00",
+      "editorial_status": "unreviewed"
+    },
+    {
+      "title": "Photos OH MARY National Tour Opens At the Ahmanson Theatre 20261113",
+      "url": "https://www.broadwayworld.com/los-angeles/article/Photos-OH-MARY-National-Tour-Opens-At-the-Ahmanson-Theatre-20261113",
+      "date": "",
+      "description": "",
+      "source": "BroadwayWorld Dance",
+      "source_url": "https://www.broadwayworld.com/bwwdance/",
+      "detected_at": "2026-11-14T17:27:46.060142+00:00",
+      "editorial_status": "unreviewed"
+    },
+    {
+      "title": "Photos A MIDSUMMER NIGHTS DREAM Begins Performances at Chicago Shakespeare Theater 20261113",
+      "url": "https://www.broadwayworld.com/chicago/article/Photos-A-MIDSUMMER-NIGHTS-DREAM-Begins-Performances-at-Chicago-Shakespeare-Theater-20261113",
+      "date": "",
+      "description": "",
+      "source": "BroadwayWorld Dance",
+      "source_url": "https://www.broadwayworld.com/bwwdance/",
+      "detected_at": "2026-11-14T17:27:46.060142+00:00",
+      "editorial_status": "unreviewed"
+    },
+    {
+      "title": "Review Pretty Witty and Gay OH MARY Dazzles at Ahmanson Theatre 20261113",
+      "url": "https://www.broadwayworld.com/los-angeles/article/Review-Pretty-Witty-and-Gay-OH-MARY-Dazzles-at-Ahmanson-Theatre-20261113",
+      "date": "",
+      "description": "",
+      "source": "BroadwayWorld Dance",
+      "source_url": "https://www.broadwayworld.com/bwwdance/",
+      "detected_at": "2026-11-14T17:27:46.060142+00:00",
+      "editorial_status": "unreviewed"
+    }
+  ]
+}
