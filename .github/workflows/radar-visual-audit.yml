@@ -1,0 +1,28 @@
+name: RADAR DA - verifier visuels recents
+on:
+  push:
+    paths:
+      - 'scripts/audit_recent_visuals.py'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Verifier images des projets dans leurs sources
+        run: python scripts/audit_recent_visuals.py
+      - name: Enregistrer images et rapport
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/feed.json data/visual_audit.json
+          if ! git diff --cached --quiet; then
+            git commit -m "RADAR DA: verified source-linked visuals for recent projects"
+            git push
+          fi
