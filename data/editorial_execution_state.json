@@ -1,0 +1,1134 @@
+{
+  "schema_version": 1,
+  "purpose": "Suivi vérifiable des vagues éditoriales ChatGPT; ce fichier ne déclenche aucune veille.",
+  "current_wave": {
+    "id": "2026-11-14-midday-recovery",
+    "status": "incomplete",
+    "stage": "source_review",
+    "target_sources": 182,
+    "source_reviewed_count": 0,
+    "source_inaccessible_count": 0,
+    "source_pending_count": 182,
+    "candidates_count": 0,
+    "validated_count": 0,
+    "published_count": 0,
+    "site_verified_count": 0,
+    "source_checks": [
+      {
+        "index": 1,
+        "name": "Balich Wonder Studio",
+        "url": "https://www.balichwonderstudio.com/",
+        "status": "pending"
+      },
+      {
+        "index": 2,
+        "name": "Live Design",
+        "url": "https://www.livedesignonline.com/",
+        "status": "pending"
+      },
+      {
+        "index": 3,
+        "name": "Moment Factory",
+        "url": "https://momentfactory.com/",
+        "status": "pending"
+      },
+      {
+        "index": 4,
+        "name": "OISTAT",
+        "url": "https://oistat.org/",
+        "status": "pending"
+      },
+      {
+        "index": 5,
+        "name": "ShowTex",
+        "url": "https://www.showtex.com/fr/projets",
+        "status": "pending"
+      },
+      {
+        "index": 6,
+        "name": "STIRworld Stage Design",
+        "url": "https://www.stirworld.com/tags/stage-design",
+        "status": "pending"
+      },
+      {
+        "index": 7,
+        "name": "STUFISH",
+        "url": "https://stufish.com/projects/",
+        "status": "pending"
+      },
+      {
+        "index": 8,
+        "name": "TAIT",
+        "url": "https://www.taittowers.com/",
+        "status": "pending"
+      },
+      {
+        "index": 9,
+        "name": "TPI Magazine",
+        "url": "https://www.tpimagazine.com/",
+        "status": "pending"
+      },
+      {
+        "index": 10,
+        "name": "World Stage Design",
+        "url": "https://www.worldstagedesign.com/",
+        "status": "pending"
+      },
+      {
+        "index": 11,
+        "name": "NewscastStudio",
+        "url": "https://www.newscaststudio.com/category/set-design/",
+        "status": "pending"
+      },
+      {
+        "index": 12,
+        "name": "Brand New",
+        "url": "https://www.underconsideration.com/brandnew/",
+        "status": "pending"
+      },
+      {
+        "index": 13,
+        "name": "Creative Review",
+        "url": "https://www.creativereview.co.uk/",
+        "status": "pending"
+      },
+      {
+        "index": 14,
+        "name": "EyeCandy",
+        "url": "https://eyecannndy.com/",
+        "status": "pending"
+      },
+      {
+        "index": 15,
+        "name": "It's Nice That",
+        "url": "https://www.itsnicethat.com/",
+        "status": "pending"
+      },
+      {
+        "index": 16,
+        "name": "Ads of the World",
+        "url": "https://www.adsoftheworld.com/",
+        "status": "pending"
+      },
+      {
+        "index": 17,
+        "name": "D&AD",
+        "url": "https://www.dandad.org/",
+        "status": "pending"
+      },
+      {
+        "index": 18,
+        "name": "Design Indaba",
+        "url": "https://www.designindaba.com/",
+        "status": "pending"
+      },
+      {
+        "index": 19,
+        "name": "LIONS The Work",
+        "url": "https://www.lovethework.com/",
+        "status": "pending"
+      },
+      {
+        "index": 20,
+        "name": "Little Black Book",
+        "url": "https://www.lbbonline.com/",
+        "status": "pending"
+      },
+      {
+        "index": 21,
+        "name": "ArchDaily",
+        "url": "https://www.archdaily.com/",
+        "status": "pending"
+      },
+      {
+        "index": 22,
+        "name": "Designboom",
+        "url": "https://www.designboom.com/",
+        "status": "pending"
+      },
+      {
+        "index": 23,
+        "name": "Dezeen",
+        "url": "https://www.dezeen.com/",
+        "status": "pending"
+      },
+      {
+        "index": 24,
+        "name": "STIRworld",
+        "url": "https://www.stirworld.com/",
+        "status": "pending"
+      },
+      {
+        "index": 25,
+        "name": "Bureau Betak",
+        "url": "https://www.bureaubetak.com/",
+        "status": "pending"
+      },
+      {
+        "index": 26,
+        "name": "Gentle Monster",
+        "url": "https://www.gentlemonster.com/",
+        "status": "pending"
+      },
+      {
+        "index": 27,
+        "name": "Mazarine",
+        "url": "https://www.mazarine.com/",
+        "status": "pending"
+      },
+      {
+        "index": 28,
+        "name": "FOOH.com",
+        "url": "https://www.fooh.com/",
+        "status": "pending"
+      },
+      {
+        "index": 29,
+        "name": "JCDecaux",
+        "url": "https://www.jcdecaux.fr/",
+        "status": "pending"
+      },
+      {
+        "index": 30,
+        "name": "KOSMO CGI",
+        "url": "https://www.kosmocgi.com/",
+        "status": "pending"
+      },
+      {
+        "index": 31,
+        "name": "Ocean Outdoor",
+        "url": "https://oceanoutdoor.com/",
+        "status": "pending"
+      },
+      {
+        "index": 32,
+        "name": "Art of the Title",
+        "url": "https://www.artofthetitle.com/",
+        "status": "pending"
+      },
+      {
+        "index": 33,
+        "name": "Motionographer",
+        "url": "https://www.motionographer.com/",
+        "status": "pending"
+      },
+      {
+        "index": 34,
+        "name": "Stash",
+        "url": "https://www.stashmedia.tv/",
+        "status": "pending"
+      },
+      {
+        "index": 35,
+        "name": "Superbien",
+        "url": "https://www.superbien.com/",
+        "status": "pending"
+      },
+      {
+        "index": 36,
+        "name": "teamLab",
+        "url": "https://www.teamlab.art/",
+        "status": "pending"
+      },
+      {
+        "index": 37,
+        "name": "Light ZOOM Lumière",
+        "url": "https://www.lightzoomlumiere.fr/",
+        "status": "pending"
+      },
+      {
+        "index": 38,
+        "name": "Revue AS",
+        "url": "https://www.revue-as.fr/",
+        "status": "pending"
+      },
+      {
+        "index": 39,
+        "name": "Contagious",
+        "url": "https://www.contagious.com/",
+        "status": "pending"
+      },
+      {
+        "index": 40,
+        "name": "Effie Worldwide",
+        "url": "https://www.effie.org/",
+        "status": "pending"
+      },
+      {
+        "index": 41,
+        "name": "System1",
+        "url": "https://system1group.com/",
+        "status": "pending"
+      },
+      {
+        "index": 42,
+        "name": "WARC",
+        "url": "https://www.warc.com/",
+        "status": "pending"
+      },
+      {
+        "index": 43,
+        "name": "COLLINS",
+        "url": "https://www.wearecollins.com/",
+        "status": "pending"
+      },
+      {
+        "index": 44,
+        "name": "Koto",
+        "url": "https://koto.studio/",
+        "status": "pending"
+      },
+      {
+        "index": 45,
+        "name": "Pentagram",
+        "url": "https://www.pentagram.com/work",
+        "status": "pending"
+      },
+      {
+        "index": 46,
+        "name": "Studio Dumbar",
+        "url": "https://studiodumbar.com/",
+        "status": "pending"
+      },
+      {
+        "index": 47,
+        "name": "Club des DA",
+        "url": "https://www.leclubdesda.org/",
+        "status": "pending"
+      },
+      {
+        "index": 48,
+        "name": "Graphéine",
+        "url": "https://www.grapheine.com/",
+        "status": "pending"
+      },
+      {
+        "index": 49,
+        "name": "La Réclame",
+        "url": "https://lareclame.fr/",
+        "status": "pending"
+      },
+      {
+        "index": 50,
+        "name": "Stratégies",
+        "url": "https://www.strategies.fr/",
+        "status": "pending"
+      },
+      {
+        "index": 51,
+        "name": "Cirque du Soleil",
+        "url": "https://www.cirquedusoleil.com/",
+        "status": "pending"
+      },
+      {
+        "index": 52,
+        "name": "CREACTION Studio",
+        "url": "https://www.creactionstudio.com/",
+        "status": "pending"
+      },
+      {
+        "index": 53,
+        "name": "Dragone",
+        "url": "https://www.dragone.com/",
+        "status": "pending"
+      },
+      {
+        "index": 54,
+        "name": "LSi",
+        "url": "https://www.lsionline.com/",
+        "status": "pending"
+      },
+      {
+        "index": 55,
+        "name": "LUZ Studio",
+        "url": "https://luzstudio.com/",
+        "status": "pending"
+      },
+      {
+        "index": 56,
+        "name": "PLSN",
+        "url": "https://plsn.com/",
+        "status": "pending"
+      },
+      {
+        "index": 57,
+        "name": "Brompton Technology",
+        "url": "https://www.bromptontech.com/",
+        "status": "pending"
+      },
+      {
+        "index": 58,
+        "name": "Devlin Design Group",
+        "url": "https://www.devlin-design.com/",
+        "status": "pending"
+      },
+      {
+        "index": 59,
+        "name": "disguise",
+        "url": "https://www.disguise.one/",
+        "status": "pending"
+      },
+      {
+        "index": 60,
+        "name": "Ross Video",
+        "url": "https://www.rossvideo.com/",
+        "status": "pending"
+      },
+      {
+        "index": 61,
+        "name": "Vizrt",
+        "url": "https://www.vizrt.com/",
+        "status": "pending"
+      },
+      {
+        "index": 62,
+        "name": "Zero Density",
+        "url": "https://www.zerodensity.tv/",
+        "status": "pending"
+      },
+      {
+        "index": 63,
+        "name": "Are.na",
+        "url": "https://www.are.na/",
+        "status": "pending"
+      },
+      {
+        "index": 64,
+        "name": "Awwwards",
+        "url": "https://www.awwwards.com/",
+        "status": "pending"
+      },
+      {
+        "index": 65,
+        "name": "Behance",
+        "url": "https://www.behance.net/",
+        "status": "pending"
+      },
+      {
+        "index": 66,
+        "name": "BP&O",
+        "url": "https://bpando.org/",
+        "status": "pending"
+      },
+      {
+        "index": 67,
+        "name": "Creative Boom",
+        "url": "https://www.creativeboom.com/",
+        "status": "pending"
+      },
+      {
+        "index": 68,
+        "name": "Dieline",
+        "url": "https://thedieline.com/",
+        "status": "pending"
+      },
+      {
+        "index": 69,
+        "name": "Fonts In Use",
+        "url": "https://fontsinuse.com/",
+        "status": "pending"
+      },
+      {
+        "index": 70,
+        "name": "The Brand Identity",
+        "url": "https://the-brandidentity.com/",
+        "status": "pending"
+      },
+      {
+        "index": 71,
+        "name": "Ad Age",
+        "url": "https://adage.com/",
+        "status": "pending"
+      },
+      {
+        "index": 72,
+        "name": "Campaign Asia",
+        "url": "https://www.campaignasia.com/",
+        "status": "pending"
+      },
+      {
+        "index": 73,
+        "name": "Campaign Middle East",
+        "url": "https://campaignme.com/",
+        "status": "pending"
+      },
+      {
+        "index": 74,
+        "name": "Clio Awards",
+        "url": "https://clios.com/",
+        "status": "pending"
+      },
+      {
+        "index": 75,
+        "name": "The Drum",
+        "url": "https://www.thedrum.com/",
+        "status": "pending"
+      },
+      {
+        "index": 76,
+        "name": "The One Club",
+        "url": "https://www.oneclub.org/",
+        "status": "pending"
+      },
+      {
+        "index": 77,
+        "name": "Artforum",
+        "url": "https://www.artforum.com/",
+        "status": "pending"
+      },
+      {
+        "index": 78,
+        "name": "Colossal",
+        "url": "https://www.thisiscolossal.com/",
+        "status": "pending"
+      },
+      {
+        "index": 79,
+        "name": "e-flux",
+        "url": "https://www.e-flux.com/",
+        "status": "pending"
+      },
+      {
+        "index": 80,
+        "name": "Frame",
+        "url": "https://frameweb.com/",
+        "status": "pending"
+      },
+      {
+        "index": 81,
+        "name": "METALOCUS",
+        "url": "https://www.metalocus.es/en",
+        "status": "pending"
+      },
+      {
+        "index": 82,
+        "name": "Wallpaper",
+        "url": "https://www.wallpaper.com/",
+        "status": "pending"
+      },
+      {
+        "index": 83,
+        "name": "Gentle Monster — Haus Dosan",
+        "url": "https://www.gentlemonster.com/legacy/story/en/haus-dosan.html",
+        "status": "pending"
+      },
+      {
+        "index": 84,
+        "name": "Gentle Monster — Haus Nowhere Seoul",
+        "url": "https://curin.io/projects/haus-nowhere-seoul",
+        "status": "pending"
+      },
+      {
+        "index": 85,
+        "name": "Gentle Monster — Haus Nowhere Shenzhen",
+        "url": "https://www.gentlemonster.com/legacy/story/en/hausnowhere-shenzhen.html",
+        "status": "pending"
+      },
+      {
+        "index": 86,
+        "name": "Gentle Monster — Haus Shanghai",
+        "url": "https://www.gentlemonster.com/legacy/story/en/haus-shanghai.html",
+        "status": "pending"
+      },
+      {
+        "index": 87,
+        "name": "George P. Johnson",
+        "url": "https://www.gpj.com/",
+        "status": "pending"
+      },
+      {
+        "index": 88,
+        "name": "Imagination",
+        "url": "https://imagination.com/",
+        "status": "pending"
+      },
+      {
+        "index": 89,
+        "name": "Jack Morton",
+        "url": "https://jackmorton.com/",
+        "status": "pending"
+      },
+      {
+        "index": 90,
+        "name": "Nudake",
+        "url": "https://www.nudake.com/",
+        "status": "pending"
+      },
+      {
+        "index": 91,
+        "name": "Studio BK",
+        "url": "https://studio-bk.com/",
+        "status": "pending"
+      },
+      {
+        "index": 92,
+        "name": "Tamburins",
+        "url": "https://www.tamburins.com/",
+        "status": "pending"
+      },
+      {
+        "index": 93,
+        "name": "Villa Eugénie",
+        "url": "https://www.villaeugenie.com/",
+        "status": "pending"
+      },
+      {
+        "index": 94,
+        "name": "AC3 Studio",
+        "url": "https://ac3-studio.com/studio",
+        "status": "pending"
+      },
+      {
+        "index": 95,
+        "name": "DOOH.com",
+        "url": "https://dooh.com/",
+        "status": "pending"
+      },
+      {
+        "index": 96,
+        "name": "Grand Visual",
+        "url": "https://grandvisual.com/",
+        "status": "pending"
+      },
+      {
+        "index": 97,
+        "name": "Origiful",
+        "url": "https://www.origiful.com/",
+        "status": "pending"
+      },
+      {
+        "index": 98,
+        "name": "World Out of Home Organization",
+        "url": "https://www.worldooh.org/",
+        "status": "pending"
+      },
+      {
+        "index": 99,
+        "name": "404.zero",
+        "url": "https://404zero.com/",
+        "status": "pending"
+      },
+      {
+        "index": 100,
+        "name": "Marshmallow Laser Feast",
+        "url": "https://www.marshmallowlaserfeast.com/",
+        "status": "pending"
+      },
+      {
+        "index": 101,
+        "name": "NONOTAK",
+        "url": "https://www.nonotak.com/",
+        "status": "pending"
+      },
+      {
+        "index": 102,
+        "name": "Notch",
+        "url": "https://www.notch.one/",
+        "status": "pending"
+      },
+      {
+        "index": 103,
+        "name": "onedotzero",
+        "url": "https://www.onedotzero.com/",
+        "status": "pending"
+      },
+      {
+        "index": 104,
+        "name": "Resolume",
+        "url": "https://resolume.com/",
+        "status": "pending"
+      },
+      {
+        "index": 105,
+        "name": "Smode",
+        "url": "https://www.smode.io/",
+        "status": "pending"
+      },
+      {
+        "index": 106,
+        "name": "TouchDesigner",
+        "url": "https://derivative.ca/",
+        "status": "pending"
+      },
+      {
+        "index": 107,
+        "name": "United Visual Artists",
+        "url": "https://uva.co.uk/",
+        "status": "pending"
+      },
+      {
+        "index": 108,
+        "name": "AFTER",
+        "url": "https://www.after-france.fr/",
+        "status": "pending"
+      },
+      {
+        "index": 109,
+        "name": "D/LABS",
+        "url": "https://www.d-labs.fr/",
+        "status": "pending"
+      },
+      {
+        "index": 110,
+        "name": "FRATERCINÉ",
+        "url": "https://www.fratercine.fr/",
+        "status": "pending"
+      },
+      {
+        "index": 111,
+        "name": "IDlia Studio",
+        "url": "https://www.idlia.fr/",
+        "status": "pending"
+      },
+      {
+        "index": 112,
+        "name": "JTSE",
+        "url": "https://www.jtse.fr/",
+        "status": "pending"
+      },
+      {
+        "index": 113,
+        "name": "La Scène",
+        "url": "https://www.lascene.com/",
+        "status": "pending"
+      },
+      {
+        "index": 114,
+        "name": "Seconde Design",
+        "url": "https://www.seconde-design.com/",
+        "status": "pending"
+      },
+      {
+        "index": 115,
+        "name": "Studio Carlos",
+        "url": "https://studiocarlos.fr/",
+        "status": "pending"
+      },
+      {
+        "index": 116,
+        "name": "Studio ÉNORME",
+        "url": "https://www.studioenorme.com/",
+        "status": "pending"
+      },
+      {
+        "index": 117,
+        "name": "Baymard Institute",
+        "url": "https://baymard.com/",
+        "status": "pending"
+      },
+      {
+        "index": 118,
+        "name": "Ehrenberg-Bass Institute",
+        "url": "https://marketingscience.info/",
+        "status": "pending"
+      },
+      {
+        "index": 119,
+        "name": "Google Trends",
+        "url": "https://trends.google.com/",
+        "status": "pending"
+      },
+      {
+        "index": 120,
+        "name": "IPA Effectiveness",
+        "url": "https://ipa.co.uk/",
+        "status": "pending"
+      },
+      {
+        "index": 121,
+        "name": "Kantar",
+        "url": "https://www.kantar.com/",
+        "status": "pending"
+      },
+      {
+        "index": 122,
+        "name": "Meta Ad Library",
+        "url": "https://www.facebook.com/ads/library/",
+        "status": "pending"
+      },
+      {
+        "index": 123,
+        "name": "Meta for Business",
+        "url": "https://www.facebook.com/business/",
+        "status": "pending"
+      },
+      {
+        "index": 124,
+        "name": "Nielsen Norman Group",
+        "url": "https://www.nngroup.com/",
+        "status": "pending"
+      },
+      {
+        "index": 125,
+        "name": "Think with Google",
+        "url": "https://www.thinkwithgoogle.com/",
+        "status": "pending"
+      },
+      {
+        "index": 126,
+        "name": "Thinkbox",
+        "url": "https://www.thinkbox.tv/",
+        "status": "pending"
+      },
+      {
+        "index": 127,
+        "name": "TikTok Creative Center",
+        "url": "https://ads.tiktok.com/business/creativecenter/",
+        "status": "pending"
+      },
+      {
+        "index": 128,
+        "name": "AIGA Eye on Design",
+        "url": "https://eyeondesign.aiga.org/",
+        "status": "pending"
+      },
+      {
+        "index": 129,
+        "name": "Communication Arts",
+        "url": "https://www.commarts.com/",
+        "status": "pending"
+      },
+      {
+        "index": 130,
+        "name": "Design Observer",
+        "url": "https://designobserver.com/",
+        "status": "pending"
+      },
+      {
+        "index": 131,
+        "name": "DesignStudio",
+        "url": "https://design.studio/",
+        "status": "pending"
+      },
+      {
+        "index": 132,
+        "name": "Experimental Jetset",
+        "url": "https://experimentaljetset.nl/",
+        "status": "pending"
+      },
+      {
+        "index": 133,
+        "name": "Mindsparkle Mag",
+        "url": "https://mindsparklemag.com/",
+        "status": "pending"
+      },
+      {
+        "index": 134,
+        "name": "Mucho",
+        "url": "https://wearemucho.com/",
+        "status": "pending"
+      },
+      {
+        "index": 135,
+        "name": "Print Magazine",
+        "url": "https://www.printmag.com/",
+        "status": "pending"
+      },
+      {
+        "index": 136,
+        "name": "The Designers Republic",
+        "url": "https://www.thedesignersrepublic.com/",
+        "status": "pending"
+      },
+      {
+        "index": 137,
+        "name": "Type Directors Club",
+        "url": "https://tdc.org/",
+        "status": "pending"
+      },
+      {
+        "index": 138,
+        "name": "Typographica",
+        "url": "https://typographica.org/",
+        "status": "pending"
+      },
+      {
+        "index": 139,
+        "name": "Wolff Olins",
+        "url": "https://www.wolffolins.com/",
+        "status": "pending"
+      },
+      {
+        "index": 140,
+        "name": "Europeana",
+        "url": "https://www.europeana.eu/",
+        "status": "pending"
+      },
+      {
+        "index": 141,
+        "name": "Gallica",
+        "url": "https://gallica.bnf.fr/",
+        "status": "pending"
+      },
+      {
+        "index": 142,
+        "name": "Google Arts & Culture",
+        "url": "https://artsandculture.google.com/",
+        "status": "pending"
+      },
+      {
+        "index": 143,
+        "name": "Internet Archive",
+        "url": "https://archive.org/",
+        "status": "pending"
+      },
+      {
+        "index": 144,
+        "name": "PSFK",
+        "url": "https://www.psfk.com/",
+        "status": "pending"
+      },
+      {
+        "index": 145,
+        "name": "Springwise",
+        "url": "https://www.springwise.com/",
+        "status": "pending"
+      },
+      {
+        "index": 146,
+        "name": "The Future Laboratory",
+        "url": "https://www.thefuturelaboratory.com/",
+        "status": "pending"
+      },
+      {
+        "index": 147,
+        "name": "Trend Hunter",
+        "url": "https://www.trendhunter.com/",
+        "status": "pending"
+      },
+      {
+        "index": 148,
+        "name": "TrendWatching",
+        "url": "https://www.trendwatching.com/",
+        "status": "pending"
+      },
+      {
+        "index": 149,
+        "name": "WGSN",
+        "url": "https://www.wgsn.com/",
+        "status": "pending"
+      },
+      {
+        "index": 150,
+        "name": "ADC France",
+        "url": "https://www.adcfrance.com/",
+        "status": "pending"
+      },
+      {
+        "index": 151,
+        "name": "CB News",
+        "url": "https://www.cbnews.fr/",
+        "status": "pending"
+      },
+      {
+        "index": 152,
+        "name": "Creapills",
+        "url": "https://creapills.com/",
+        "status": "pending"
+      },
+      {
+        "index": 153,
+        "name": "Graphisme en France",
+        "url": "https://www.cnap.fr/graphisme-en-france",
+        "status": "pending"
+      },
+      {
+        "index": 154,
+        "name": "INfluencia",
+        "url": "https://www.influencia.net/",
+        "status": "pending"
+      },
+      {
+        "index": 155,
+        "name": "Étapes",
+        "url": "https://etapes.com/",
+        "status": "pending"
+      },
+      {
+        "index": 156,
+        "name": "ETC",
+        "url": "https://www.etcconnect.com/",
+        "status": "pending"
+      },
+      {
+        "index": 157,
+        "name": "AV Magazine",
+        "url": "https://www.avinteractive.com/",
+        "status": "pending"
+      },
+      {
+        "index": 158,
+        "name": "Abduzeedo",
+        "url": "https://abduzeedo.com/",
+        "status": "pending"
+      },
+      {
+        "index": 159,
+        "name": "Designspiration",
+        "url": "https://www.designspiration.com/",
+        "status": "pending"
+      },
+      {
+        "index": 160,
+        "name": "Typewolf",
+        "url": "https://www.typewolf.com/",
+        "status": "pending"
+      },
+      {
+        "index": 161,
+        "name": "Advertising Archive Asia",
+        "url": "https://advertisingarchive.asia/",
+        "status": "pending"
+      },
+      {
+        "index": 162,
+        "name": "Domus",
+        "url": "https://www.domusweb.it/en.html",
+        "status": "pending"
+      },
+      {
+        "index": 163,
+        "name": "Sight Unseen",
+        "url": "https://www.sightunseen.com/",
+        "status": "pending"
+      },
+      {
+        "index": 164,
+        "name": "VMSD",
+        "url": "https://vmsd.com/",
+        "status": "pending"
+      },
+      {
+        "index": 165,
+        "name": "Clear Channel Outdoor",
+        "url": "https://www.clearchanneloutdoor.com/",
+        "status": "pending"
+      },
+      {
+        "index": 166,
+        "name": "OUTFRONT Media",
+        "url": "https://www.outfront.com/",
+        "status": "pending"
+      },
+      {
+        "index": 167,
+        "name": "Unreal Engine",
+        "url": "https://www.unrealengine.com/",
+        "status": "pending"
+      },
+      {
+        "index": 168,
+        "name": "Technoscopie",
+        "url": "https://www.technoscopie.fr/",
+        "status": "pending"
+      },
+      {
+        "index": 169,
+        "name": "Promonews",
+        "url": "https://www.promonews.tv/",
+        "status": "pending"
+      },
+      {
+        "index": 170,
+        "name": "Stereogum",
+        "url": "https://www.stereogum.com/",
+        "status": "pending"
+      },
+      {
+        "index": 171,
+        "name": "Pitchfork",
+        "url": "https://pitchfork.com/",
+        "status": "pending"
+      },
+      {
+        "index": 172,
+        "name": "Directors Notes",
+        "url": "https://directorsnotes.com/",
+        "status": "pending"
+      },
+      {
+        "index": 173,
+        "name": "Dance Magazine",
+        "url": "https://www.dancemagazine.com/",
+        "status": "pending"
+      },
+      {
+        "index": 174,
+        "name": "The Stage",
+        "url": "https://www.thestage.co.uk/",
+        "status": "pending"
+      },
+      {
+        "index": 175,
+        "name": "BroadwayWorld Dance",
+        "url": "https://www.broadwayworld.com/bwwdance/",
+        "status": "pending"
+      },
+      {
+        "index": 176,
+        "name": "Motionographer",
+        "url": "https://motionographer.com/",
+        "status": "pending"
+      },
+      {
+        "index": 177,
+        "name": "Les Inrockuptibles",
+        "url": "https://www.lesinrocks.com/",
+        "status": "pending"
+      },
+      {
+        "index": 178,
+        "name": "Tsugi",
+        "url": "https://www.tsugi.fr/",
+        "status": "pending"
+      },
+      {
+        "index": 179,
+        "name": "Mouv'",
+        "url": "https://www.radiofrance.fr/mouv",
+        "status": "pending"
+      },
+      {
+        "index": 180,
+        "name": "Konbini Musique",
+        "url": "https://www.konbini.com/popculture/musique/",
+        "status": "pending"
+      },
+      {
+        "index": 181,
+        "name": "La Blogothèque",
+        "url": "https://www.blogotheque.net/",
+        "status": "pending"
+      },
+      {
+        "index": 182,
+        "name": "NOWNESS",
+        "url": "https://www.nowness.com/",
+        "status": "pending"
+      }
+    ],
+    "candidates": [],
+    "publication_checks": [],
+    "blockers": [
+      "Aucune consultation individuelle des 182 sources attestée pour cette vague.",
+      "Aucune publication nouvelle vérifiée."
+    ]
+  },
+  "stages": [
+    "source_review",
+    "candidate_selection",
+    "deduplication",
+    "scoring",
+    "image_verification",
+    "analysis",
+    "github_publication",
+    "live_site_verification"
+  ],
+  "completion_requirements": {
+    "all_sources_attempted": true,
+    "minimum_published": 3,
+    "maximum_published": 7,
+    "require_live_site_verification": true,
+    "allow_incomplete_with_explicit_reason": true
+  }
+}
