@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-14T09:20:00+01:00",
+  "updated_at": "2026-11-14T08:32:59.631Z",
   "status": "editorial_reviewed",
   "working_feeds": [
     {
@@ -454,6 +454,63 @@
     "with_images": 82
   },
   "items": [
+    {
+      "project_id": "tws-call-my-name-school-stage-2026",
+      "title": "TWS — transformer les couloirs d'un lycée en scène de clip",
+      "title_fr": "TWS — transformer les couloirs d'un lycée en scène de clip",
+      "url": "https://www.youtube.com/watch?v=3MPUCncZBR0",
+      "category": "14 Musique Clips",
+      "source": "Vidéo officielle et Neon Music",
+      "published": "2026-11-06",
+      "radar_added_at": "2026-11-14T08:32:59.631Z",
+      "summary": "Dans « Call My Name », le groupe TWS évolue entre salles de classe lumineuses, couloirs d'école et rues couvertes de graffitis. Le réalisateur LAFIC utilise ces lieux quotidiens comme un décor de performance collective, plutôt que de construire un plateau spectaculaire.",
+      "summary_fr": "Dans « Call My Name », le groupe TWS évolue entre salles de classe lumineuses, couloirs d'école et rues couvertes de graffitis. Le réalisateur LAFIC utilise ces lieux quotidiens comme un décor de performance collective, plutôt que de construire un plateau spectaculaire.",
+      "angle": "Les couloirs offrent des lignes de fuite et les salles de classe cadrent les corps en groupe. **Le décor existant organise la composition** : il ne sert pas seulement de fond.",
+      "image": "https://i.ytimg.com/vi/3MPUCncZBR0/hqdefault.jpg",
+      "image_kind": "official_video_thumbnail",
+      "image_credit": "Vignette de la vidéo officielle « Call My Name » / TWS.",
+      "image_source_url": "https://www.youtube.com/watch?v=3MPUCncZBR0",
+      "image_alt": "Vignette de la vidéo officielle liée au projet TWS — transformer les couloirs d'un lycée en scène de clip",
+      "status": "editorial_reviewed"
+    },
+    {
+      "project_id": "xg-depends-creatures-2026",
+      "title": "XG — sept créatures colorées dans quatre décors surréalistes",
+      "title_fr": "XG — sept créatures colorées dans quatre décors surréalistes",
+      "url": "https://neonmusic.co.uk/new-music-videos-8-november-2026",
+      "category": "14 Musique Clips",
+      "source": "Vidéo officielle et Neon Music",
+      "published": "2026-11-06",
+      "radar_added_at": "2026-11-14T08:32:59.631Z",
+      "summary": "Dans le clip « DEPENDS », le groupe XG poursuit sept créatures colorées, une par membre, à travers quatre décors irréels. Cette chasse transforme le thème de l'incertitude en jeu visuel : chaque personnage devient un signe à suivre.",
+      "summary_fr": "Dans le clip « DEPENDS », le groupe XG poursuit sept créatures colorées, une par membre, à travers quatre décors irréels. Cette chasse transforme le thème de l'incertitude en jeu visuel : chaque personnage devient un signe à suivre.",
+      "angle": "Les créatures colorées servent de repères dans les changements de décor. **Le motif reste stable alors que le monde autour change**. La danse suspend la recherche pour recentrer le regard sur le groupe.",
+      "image": "https://i.ytimg.com/vi/ftDNJhhJ22k/hqdefault.jpg",
+      "image_kind": "official_video_thumbnail",
+      "image_credit": "Vignette de la vidéo officielle « DEPENDS » / XG, XGALX.",
+      "image_source_url": "https://www.youtube.com/watch?v=ftDNJhhJ22k",
+      "image_alt": "Vignette de la vidéo officielle liée au projet XG — sept créatures colorées dans quatre décors surréalistes",
+      "status": "editorial_reviewed"
+    },
+    {
+      "project_id": "strokes-lonely-future-puppets-2026",
+      "title": "The Strokes — un clip politique joué par des marionnettes",
+      "title_fr": "The Strokes — un clip politique joué par des marionnettes",
+      "url": "https://www.promonews.tv/videos/2026/11/12/strokes-lonely-future-warren-fu/96952",
+      "category": "14 Musique Clips",
+      "source": "Promonews",
+      "published": "2026-11-12",
+      "radar_added_at": "2026-11-14T08:32:59.631Z",
+      "summary": "Dans « Lonely in the Future », Warren Fu transforme le groupe et des personnalités publiques en marionnettes caricaturales fabriquées par l'équipe de Spitting Image. Ce choix permet de mettre en scène une satire du pouvoir et des médias sans adopter le ton d'un discours politique.",
+      "summary_fr": "Dans « Lonely in the Future », Warren Fu transforme le groupe et des personnalités publiques en marionnettes caricaturales fabriquées par l'équipe de Spitting Image. Ce choix permet de mettre en scène une satire du pouvoir et des médias sans adopter le ton d'un discours politique.",
+      "angle": "Les visages volontairement déformés font le travail avant les dialogues : **le ridicule est sculpté dans la matière**. Les références à de précédents clips du groupe relient cette nouvelle satire à son histoire visuelle.",
+      "image": "https://i.ytimg.com/vi/Yl6F10Bm44Q/hqdefault.jpg",
+      "image_kind": "official_video_thumbnail",
+      "image_credit": "Vignette de la vidéo officielle The Strokes / RCA Records, réalisation Warren Fu, marionnettes Spitting Image.",
+      "image_source_url": "https://www.youtube.com/watch?v=Yl6F10Bm44Q",
+      "image_alt": "Vignette de la vidéo officielle liée au projet The Strokes — un clip politique joué par des marionnettes",
+      "status": "editorial_reviewed"
+    },
     {
       "project_id": "tora-i-louis-culture-sundown-zaineb-abelque-2026",
       "title": "Tora-i et Louis Culture — un clip tourné en marchant dans Londres",
