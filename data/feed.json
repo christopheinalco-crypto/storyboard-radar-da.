@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-14T13:12:22.469Z",
+  "updated_at": "2026-11-14T13:15:04.361Z",
   "status": "editorial_reviewed",
   "working_feeds": [
     {
@@ -454,6 +454,63 @@
     "with_images": 82
   },
   "items": [
+    {
+      "project_id": "them-and-i-say-you-dont-oneshot-2026",
+      "title": "Them & I — le décor change devant la caméra",
+      "title_fr": "Them & I — le décor change devant la caméra",
+      "url": "https://www.promonews.tv/videos/2026/11/02/them-i-say-you-dont-jim-longden/96822",
+      "category": "14 Musique Clips",
+      "source": "Promonews",
+      "published": "2026-11-02",
+      "radar_added_at": "2026-11-14T13:15:04.361Z",
+      "summary": "Un plan-séquence en 16 mm, huit prises possibles. Dans Say You Don't, accessoires et figurants entrent et sortent pour transformer le décor à vue.",
+      "summary_fr": "**Un plan-séquence en 16 mm, huit prises possibles.** Dans Say You Don't, accessoires et figurants entrent et sortent pour transformer le décor à vue.",
+      "angle": "**Le changement de scène devient la chorégraphie.** Le spectateur voit le monde se fabriquer sans coupe.",
+      "image": "",
+      "image_kind": "none",
+      "image_credit": "",
+      "image_source_url": "",
+      "image_alt": "",
+      "status": "editorial_reviewed"
+    },
+    {
+      "project_id": "orf-aufsteirern-vaulted-stage-2026",
+      "title": "Aufsteirern — faire de voûtes historiques un plateau télé",
+      "title_fr": "Aufsteirern — faire de voûtes historiques un plateau télé",
+      "url": "https://www.etnow.com/news/2026/11",
+      "category": "01 Spectacle Concert",
+      "source": "ETNow",
+      "published": "2026-11-12",
+      "radar_added_at": "2026-11-14T13:15:04.361Z",
+      "summary": "Un monument devient plateau. Dans les casemates voûtées du Schlossberg de Graz, Manfred Nikitser répartit 251 appareils pour donner une identité aux prises de parole et aux séquences musicales.",
+      "summary_fr": "**Un monument devient plateau.** Dans les casemates voûtées du Schlossberg de Graz, Manfred Nikitser répartit 251 appareils pour donner une identité aux prises de parole et aux séquences musicales.",
+      "angle": "**La lumière découpe plusieurs scènes dans un même lieu historique.** Les appareils changent de cible et de rythme selon la séquence.",
+      "image": "",
+      "image_kind": "none",
+      "image_credit": "",
+      "image_source_url": "",
+      "image_alt": "",
+      "status": "editorial_reviewed"
+    },
+    {
+      "project_id": "sleep-theory-giving-in-cycle-2026",
+      "title": "Sleep Theory — s'enterrer pour recommencer",
+      "title_fr": "Sleep Theory — s'enterrer pour recommencer",
+      "url": "https://www.promonews.tv/videos/2026/11/12/sleep-theory-giving-lewis-cater/96947",
+      "category": "14 Musique Clips",
+      "source": "Promonews",
+      "published": "2026-11-12",
+      "radar_added_at": "2026-11-14T13:15:04.361Z",
+      "summary": "Une boucle physique : Cullen Moore enterre son double, puis ressort de terre. Le même geste recommence et rend visible l'enfermement.",
+      "summary_fr": "**Une boucle physique :** Cullen Moore enterre son double, puis ressort de terre. Le même geste recommence et rend visible l'enfermement.",
+      "angle": "**La répétition est le décor narratif.** La terre, le double et le retour à la surface matérialisent un cycle sans issue.",
+      "image": "",
+      "image_kind": "none",
+      "image_credit": "",
+      "image_source_url": "",
+      "image_alt": "",
+      "status": "editorial_reviewed"
+    },
     {
       "project_id": "tws-call-my-name-school-stage-2026",
       "title": "TWS — transformer les couloirs d'un lycée en scène de clip",
