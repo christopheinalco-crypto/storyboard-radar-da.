@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-14T13:28:08.008Z",
+  "updated_at": "2026-11-14T13:36:01.881Z",
   "status": "editorial_reviewed",
   "working_feeds": [
     {
@@ -466,11 +466,11 @@
       "summary": "Un plan-séquence en 16 mm, huit prises possibles. Dans Say You Don't, accessoires et figurants entrent et sortent pour transformer le décor à vue.",
       "summary_fr": "**Un plan-séquence en 16 mm, huit prises possibles.** Dans Say You Don't, accessoires et figurants entrent et sortent pour transformer le décor à vue.",
       "angle": "**Le changement de scène devient la chorégraphie.** Le spectateur voit le monde se fabriquer sans coupe.",
-      "image": "",
-      "image_kind": "none",
-      "image_credit": "",
-      "image_source_url": "",
-      "image_alt": "",
+      "image": "https://d3q27bh1u24u2o.cloudfront.net/news/Crack_in_the_Mask.png",
+      "image_kind": "contextual",
+      "image_credit": "Image de Crack in the Mask, autre clip réalisé par Jim Longden, non extraite de Say You Don't",
+      "image_source_url": "https://www.lbbonline.com/news/jaxxon-d-silva-chats-to-his-imprisoned-alter-ego-in-crack-in-the-mask-music-video",
+      "image_alt": "Personnage en costume blanc de clown devant un mur de briques, image d'un autre clip de Jim Longden",
       "status": "editorial_reviewed"
     },
     {
