@@ -2,45 +2,37 @@
   "schema_version": 1,
   "purpose": "Suivi vérifiable des vagues éditoriales ChatGPT; ce fichier ne déclenche aucune veille.",
   "current_wave": {
-    "id": "2026-11-14-16h",
+    "id": "2026-11-14-20h",
     "status": "incomplete",
     "stage": "prospection_insufficient",
     "target_sources": 182,
-    "source_reviewed_count": 3,
-    "source_inaccessible_count": 1,
-    "source_pending_count": 178,
-    "external_sources_opened": [
-      {
-        "url": "https://www.etnow.com/news/2026/11",
-        "status": "opened",
-        "note": "Site extérieur au catalogue, page novembre 2026 inspectée"
-      }
-    ],
-    "candidates_count": 4,
-    "validated_count": 0,
-    "published_count": 0,
-    "site_verified_count": 0,
+    "source_reviewed_count": 5,
+    "source_inaccessible_count": 0,
+    "source_pending_count": 177,
     "source_checks": [
       {
         "index": 1,
         "name": "Balich Wonder Studio",
         "url": "https://www.balichwonderstudio.com/",
-        "status": "pending"
+        "status": "opened",
+        "checked_at": "2026-11-14T20:00:00+01:00",
+        "evidence_url": "https://www.balichwonderstudio.com/",
+        "note": "Page d'accueil et rubriques cérémonies / expériences examinées"
       },
       {
         "index": 2,
         "name": "Live Design",
         "url": "https://www.livedesignonline.com/",
-        "status": "opened",
-        "checked_at": "2026-11-14T15:55:12+01:00",
-        "evidence_url": "https://www.livedesignonline.com/",
-        "note": "Page chargée et contenu inspecté pendant cette vague"
+        "status": "pending"
       },
       {
         "index": 3,
         "name": "Moment Factory",
         "url": "https://momentfactory.com/",
-        "status": "pending"
+        "status": "opened",
+        "checked_at": "2026-11-14T20:00:00+01:00",
+        "evidence_url": "https://momentfactory.com/",
+        "note": "Accueil, projets vedettes et actualités inspectés"
       },
       {
         "index": 4,
@@ -52,7 +44,10 @@
         "index": 5,
         "name": "ShowTex",
         "url": "https://www.showtex.com/fr/projets",
-        "status": "pending"
+        "status": "opened",
+        "checked_at": "2026-11-14T20:00:00+01:00",
+        "evidence_url": "https://www.showtex.com/fr/projets",
+        "note": "Catalogue des projets inspecté, dates de projets non confirmées"
       },
       {
         "index": 6,
@@ -64,7 +59,10 @@
         "index": 7,
         "name": "STUFISH",
         "url": "https://stufish.com/projects/",
-        "status": "pending"
+        "status": "opened",
+        "checked_at": "2026-11-14T20:00:00+01:00",
+        "evidence_url": "https://stufish.com/projects/",
+        "note": "Portfolio des projets inspecté, aucun projet neuf de 72h prouvé"
       },
       {
         "index": 8,
@@ -76,10 +74,7 @@
         "index": 9,
         "name": "TPI Magazine",
         "url": "https://www.tpimagazine.com/",
-        "status": "inaccessible",
-        "checked_at": "2026-11-14T15:55:12+01:00",
-        "evidence_url": "https://www.tpimagazine.com/",
-        "note": "Timeout fetching lors de l'ouverture"
+        "status": "pending"
       },
       {
         "index": 10,
@@ -91,10 +86,7 @@
         "index": 11,
         "name": "NewscastStudio",
         "url": "https://www.newscaststudio.com/category/set-design/",
-        "status": "opened",
-        "checked_at": "2026-11-14T15:55:12+01:00",
-        "evidence_url": "https://www.newscaststudio.com/category/set-design/",
-        "note": "Page chargée et contenu inspecté pendant cette vague"
+        "status": "pending"
       },
       {
         "index": 12,
@@ -1043,9 +1035,9 @@
         "name": "Promonews",
         "url": "https://www.promonews.tv/",
         "status": "opened",
-        "checked_at": "2026-11-14T15:55:12+01:00",
-        "evidence_url": "https://www.promonews.tv/videos",
-        "note": "Page chargée et contenu inspecté pendant cette vague"
+        "checked_at": "2026-11-14T20:00:00+01:00",
+        "evidence_url": "https://www.promonews.tv/",
+        "note": "Flux de clips inspecté, résultats datés ou déjà présents"
       },
       {
         "index": 170,
@@ -1126,35 +1118,50 @@
         "status": "pending"
       }
     ],
-    "candidates": [
+    "external_sources_opened": [
       {
-        "project": "YOGI — Ride Or Die",
-        "status": "duplicate",
-        "evidence_url": "https://www.promonews.tv/videos"
+        "url": "https://www.otra.live/shows/the-wow-signal-tour-muse",
+        "status": "opened",
+        "note": "Source complémentaire Muse, projet déjà couvert dans les analyses"
       },
       {
-        "project": "Tora-i — Sundown",
-        "status": "duplicate",
-        "evidence_url": "https://www.promonews.tv/videos"
-      },
-      {
-        "project": "Max Swan — Paid To Lose",
-        "status": "duplicate",
-        "evidence_url": "https://www.promonews.tv/videos"
-      },
-      {
-        "project": "Foo Fighters — Take Cover Tour",
-        "status": "rejected_for_freshness",
-        "evidence_url": "https://www.livedesignonline.com/",
-        "reason": "Sujet déjà documenté antérieurement, hors fenêtre de 72h"
+        "url": "https://59.agendaculturel.fr/concert/lille/eric-serra-live-tournee.html",
+        "status": "opened",
+        "note": "Concert annoncé, sans mécanisme DA documenté"
       }
     ],
-    "publication_checks": [],
-    "blockers": [
-      "Couverture catalogue 3/182 seulement, 1 timeout, 178 non consultées",
-      "Aucun nouveau projet suffisamment sourcé et non dupliqué ayant passé le barème et les droits visuels",
-      "Aucun commit de publication ni vérification publique"
-    ]
+    "candidates_count": 5,
+    "validated_count": 0,
+    "published_count": 0,
+    "site_verified_count": 0,
+    "candidates": [
+      {
+        "name": "Muse — WOW Signal Tour",
+        "decision": "duplicate",
+        "reason": "Projet Muse déjà présent dans analyses.json"
+      },
+      {
+        "name": "Sports Team — Billy",
+        "decision": "duplicate",
+        "reason": "Projet déjà publié dans feed.json"
+      },
+      {
+        "name": "These Wicked Rivers — Rise",
+        "decision": "reject",
+        "reason": "Performance en forêt et près d'un van, pas de choix DA singulier documenté"
+      },
+      {
+        "name": "Eric Serra Live — Lille",
+        "decision": "hold",
+        "reason": "Concert actuel mais dispositif scénique non documenté"
+      },
+      {
+        "name": "ShowTex — Lumenocity GiantMirror",
+        "decision": "hold",
+        "reason": "Mécanisme intéressant, mais date de projet et nouveauté dans les 72h non prouvées"
+      }
+    ],
+    "notes": "Catalogue complet chargé, cinq sources du catalogue effectivement ouvertes et inspectées ; aucune vérification d'image ni droits achevée pour un projet éligible. Aucun nouveau commit éditorial. Couverture insuffisante, pas de vérification de rendu de nouvelle publication."
   },
   "stages": [
     "source_review",
@@ -1174,9 +1181,8 @@
     "allow_incomplete_with_explicit_reason": true
   },
   "previous_wave_summary": {
-    "id": "2026-11-14-midday-recovery",
+    "id": "2026-11-14-16h",
     "status": "incomplete",
-    "published_count": 3,
-    "source_reviewed_count": 0
+    "published_count": 0
   }
 }
