@@ -1,0 +1,30 @@
+name: RADAR DA — collecte RSS (sans publication automatique)
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 5,11,15,19 * * *'
+permissions:
+  contents: write
+concurrency:
+  group: radar-da-rss
+  cancel-in-progress: false
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Collecter les flux et journaliser les erreurs
+        run: python scripts/collect_radar.py
+      - name: Enregistrer le rapport sans toucher au flux public
+        run: |
+          if ! git diff --quiet -- data/collection_report.json; then
+            git config user.name "radar-da-bot"
+            git config user.email "radar-da-bot@users.noreply.github.com"
+            git add data/collection_report.json
+            git commit -m "RADAR DA: refresh RSS candidate audit"
+            git push
+          fi
