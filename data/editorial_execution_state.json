@@ -4,14 +4,14 @@
   "current_wave": {
     "id": "2026-11-14-midday-recovery",
     "status": "incomplete",
-    "stage": "github_publication",
+    "stage": "source_review",
     "target_sources": 182,
     "source_reviewed_count": 0,
     "source_inaccessible_count": 0,
     "source_pending_count": 182,
     "candidates_count": 4,
-    "validated_count": 1,
-    "published_count": 1,
+    "validated_count": 0,
+    "published_count": 0,
     "site_verified_count": 0,
     "source_checks": [
       {
@@ -1112,7 +1112,7 @@
         "title": "Florence + The Machine — Everybody Scream",
         "source": "https://www.tpimagazine.com/staging-florence-and-the-machines-everybody-scream-tour/",
         "score": 16,
-        "status": "committed_not_live_verified"
+        "status": "retracted_stale_source_unverified_image"
       },
       {
         "title": "Sports Team — Billy",
@@ -1130,17 +1130,11 @@
         "status": "awaiting_project_visual"
       }
     ],
-    "publication_checks": [
-      {
-        "url": "https://www.tpimagazine.com/staging-florence-and-the-machines-everybody-scream-tour/",
-        "github_commit": "8fc51173e2e9dadc2aea0dccd42434d9d4bc3548",
-        "live_verified": false
-      }
-    ],
+    "publication_checks": [],
     "blockers": [
-      "182-source sweep not completed; zero individual catalog source checks recorded.",
-      "Only one new article committed; 3–7 target not reached.",
-      "Live site and image rendering not verified."
+      "Florence article dated March 2026: insufficiently fresh for November editorial wave; image URL not independently verified; retracted.",
+      "182 individual source checks not completed.",
+      "No new validated publications; site runtime unavailable to external inspection."
     ]
   },
   "stages": [
