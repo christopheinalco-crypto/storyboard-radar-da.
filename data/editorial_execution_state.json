@@ -4,14 +4,14 @@
   "current_wave": {
     "id": "2026-11-14-midday-recovery",
     "status": "incomplete",
-    "stage": "source_review",
+    "stage": "github_publication",
     "target_sources": 182,
     "source_reviewed_count": 0,
     "source_inaccessible_count": 0,
     "source_pending_count": 182,
-    "candidates_count": 0,
-    "validated_count": 0,
-    "published_count": 0,
+    "candidates_count": 4,
+    "validated_count": 1,
+    "published_count": 1,
     "site_verified_count": 0,
     "source_checks": [
       {
@@ -1107,11 +1107,40 @@
         "status": "pending"
       }
     ],
-    "candidates": [],
-    "publication_checks": [],
+    "candidates": [
+      {
+        "title": "Florence + The Machine — Everybody Scream",
+        "source": "https://www.tpimagazine.com/staging-florence-and-the-machines-everybody-scream-tour/",
+        "score": 16,
+        "status": "committed_not_live_verified"
+      },
+      {
+        "title": "Sports Team — Billy",
+        "source": "https://www.promonews.tv/videos/2026/11/11/sports-team-billy-kris-r/96941",
+        "status": "awaiting_project_visual"
+      },
+      {
+        "title": "Frankie and the Deadbeats — You Are All Mine For The Night",
+        "source": "https://www.promonews.tv/videos/2026/11/10/frankie-and-deadbeats-you-are-all-mine-night-lubos-vacke/96904",
+        "status": "awaiting_project_visual"
+      },
+      {
+        "title": "Sleep Theory — Giving In",
+        "source": "https://www.promonews.tv/videos/2026/11/12/sleep-theory-giving-lewis-cater/96947",
+        "status": "awaiting_project_visual"
+      }
+    ],
+    "publication_checks": [
+      {
+        "url": "https://www.tpimagazine.com/staging-florence-and-the-machines-everybody-scream-tour/",
+        "github_commit": "8fc51173e2e9dadc2aea0dccd42434d9d4bc3548",
+        "live_verified": false
+      }
+    ],
     "blockers": [
-      "Aucune consultation individuelle des 182 sources attestée pour cette vague.",
-      "Aucune publication nouvelle vérifiée."
+      "182-source sweep not completed; zero individual catalog source checks recorded.",
+      "Only one new article committed; 3–7 target not reached.",
+      "Live site and image rendering not verified."
     ]
   },
   "stages": [
