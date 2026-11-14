@@ -127,14 +127,23 @@ class LinkParser(HTMLParser):
             self.in_title = False
 
 def fetch_html(url):
-    req = urllib.request.Request(url, headers={"User-Agent":"Mozilla/5.0 (compatible; RADAR-DA/1.0)","Accept":"text/html"})
-    with urllib.request.urlopen(req, timeout=9) as response:
-        raw = response.read(400_000)
-        final = response.geturl()
-        mime = response.headers.get("Content-Type", "")
-    if "html" not in mime.lower():
-        raise ValueError("Non-HTML content")
-    return raw.decode("utf-8", "replace"), final
+    import time
+    last_error = None
+    for attempt in range(3):
+        try:
+            req = urllib.request.Request(url, headers={"User-Agent":"Mozilla/5.0 (compatible; RADAR-DA/1.0)","Accept":"text/html"})
+            with urllib.request.urlopen(req, timeout=9) as response:
+                raw = response.read(400_000)
+                final = response.geturl()
+                mime = response.headers.get("Content-Type", "")
+            if "html" not in mime.lower():
+                raise ValueError("Non-HTML content")
+            return raw.decode("utf-8", "replace"), final
+        except Exception as exc:
+            last_error = exc
+            if attempt < 2:
+                time.sleep(0.5 * (attempt + 1))
+    raise last_error
 
 ARTICLE_PATH = re.compile(r"/(?:20[12][0-9]/|news/|article/|articles/|project/|projects/|work/|works/|video/|videos/|features/|stories/|blog/|case-stud)", re.I)
 DATE_META = re.compile(r'(?:article:published_time|datePublished|pubdate|publish_date|datePublished)[^>]{0,250}', re.I)
@@ -158,19 +167,46 @@ def inspect_website(source):
         base_domain = urlsplit(final).netloc.lower().removeprefix("www.")
         links = []
         seen = set()
-        for href, label in parser.links:
-            absolute = urljoin(final, href)
-            parsed = urlsplit(absolute)
-            if parsed.scheme not in ("http","https"):
+        visited_listing = set()
+        queue = [(final, html, 0)]
+        # Follow listing/archive pagination as well as the initial landing page.
+        # The limit prevents an unbounded crawl; hitting it is reported as incomplete.
+        MAX_LISTING_PAGES = 15
+        MAX_ARTICLE_PAGES = 150
+        listing_pattern = re.compile(r"(?:/page/\\d+|[?&](?:page|paged|offset)=\\d+|/archive|/archives|/news/?$|/articles/?$|/videos/?$|/projects/?$)", re.I)
+        while queue and len(visited_listing) < MAX_LISTING_PAGES:
+            page_url, page_html, depth = queue.pop(0)
+            if canonical(page_url) in visited_listing:
                 continue
-            if not parsed.netloc.lower().removeprefix("www.").endswith(base_domain):
-                continue
-            normalized = canonical(absolute)
-            if normalized in seen or normalized in existing or normalized == canonical(final):
-                continue
-            seen.add(normalized)
-            if ARTICLE_PATH.search(parsed.path) or (TERMS.search(label) and len(parsed.path.strip("/")) > 12):
-                links.append((absolute, unescape(label.strip())[:160]))
+            visited_listing.add(canonical(page_url))
+            page_parser = LinkParser()
+            page_parser.feed(page_html)
+            for href, label in page_parser.links:
+                absolute = urljoin(page_url, href)
+                parsed = urlsplit(absolute)
+                if parsed.scheme not in ("http", "https"):
+                    continue
+                if not parsed.netloc.lower().removeprefix("www.").endswith(base_domain):
+                    continue
+                normalized = canonical(absolute)
+                if normalized in existing or normalized == canonical(final):
+                    continue
+                if normalized not in seen and (ARTICLE_PATH.search(parsed.path) or (TERMS.search(label) and len(parsed.path.strip("/")) > 12)):
+                    seen.add(normalized)
+                    links.append((absolute, unescape(label.strip())[:160]))
+                if depth < 4 and listing_pattern.search(absolute) and normalized not in visited_listing and all(canonical(q[0]) != normalized for q in queue):
+                    try:
+                        listing_html, listing_final = fetch_html(absolute)
+                        queue.append((listing_final, listing_html, depth + 1))
+                    except Exception as exc:
+                        record["errors"].append("listing " + absolute[:100] + ": " + str(exc)[:100])
+        record["listing_pages_opened"] = len(visited_listing)
+        record["listing_pages_pending"] = len(queue)
+        if len(links) > MAX_ARTICLE_PAGES:
+            record["article_links_over_limit"] = len(links) - MAX_ARTICLE_PAGES
+            links = links[:MAX_ARTICLE_PAGES]
+        else:
+            record["article_links_over_limit"] = 0
         record["article_links_discovered"] = len(links)
         record["article_links_pending"] = len(links)
         # Open actual article pages, not just the homepage. Limit concurrency/load per publisher.
@@ -202,7 +238,7 @@ def inspect_website(source):
             except Exception as exc:
                 record["errors"].append(str(exc)[:120])
                 record["article_links_pending"] -= 1
-        record["status"] = "articles_examined" if record["articles_opened"] else "homepage_only_no_article_opened"
+        record["status"] = ("incomplete" if record["errors"] or record["listing_pages_pending"] or record["article_links_over_limit"] else ("articles_examined" if record["articles_opened"] else "homepage_only_no_article_opened"))
     except Exception as exc:
         record["errors"].append(str(exc)[:180])
     return record
@@ -217,11 +253,14 @@ out["direct_sources_with_articles_opened"] = sum(x["articles_opened"]>0 for x in
 out["direct_articles_opened"] = sum(x["articles_opened"] for x in direct)
 out["direct_article_links_pending"] = sum(x.get("article_links_pending",0) for x in direct)
 out["direct_sources_with_article_errors"] = sum(bool(x["errors"]) for x in direct)
+out["direct_sources_incomplete"] = sum(x["status"] in ("incomplete","failed","homepage_only_no_article_opened") for x in direct)
+out["direct_listing_pages_opened"] = sum(x.get("listing_pages_opened",0) for x in direct)
+out["direct_article_links_over_limit"] = sum(x.get("article_links_over_limit",0) for x in direct)
 out["direct_sources_failed"] = sum(not x["homepage_fetched"] for x in direct)
 out["direct_candidates"] = [c for x in direct for c in x["candidates"]][:200]
 out["direct_checks"] = direct
 out["warning"] = ("All catalogued source URLs attempted; article pages opened where discoverable. "
-                  "An unavailable source, article error, or site with no discoverable links is explicitly reported. "
+                  "Retries failed requests up to three times; follows archive pagination within bounded crawl limits. Any unvisited links or failures are explicitly reported as incomplete. "
                   "Dates are provisional until human editorial review; no automatic publication.")
 path.write_text(json.dumps(out,ensure_ascii=False,indent=2)+"\\n",encoding="utf-8")
 print(f"Sources={len(direct)} sites with articles opened={out['direct_sources_with_articles_opened']} article pages opened={out['direct_articles_opened']} candidates={len(out['direct_candidates'])}")
