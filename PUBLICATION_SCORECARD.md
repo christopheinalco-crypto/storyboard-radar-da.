@@ -38,3 +38,15 @@ Enregistrer avec chaque candidat : note détaillée, décision, source, date, an
 
 ## Veto anti-hors-sujet (incident Strokes, 13 novembre)
 **Un procédé original n'est pas automatiquement un projet pertinent pour RADAR DA.** Avant la note, exiger trois réponses appuyées sur des observations du projet : (1) quel choix de direction artistique précis organise l'œuvre ? (2) par quel mécanisme perceptible ce choix agit-il sur l'espace, l'image, le rythme ou le regard ? (3) quelle méthode de conception concrète un DA peut-il réemployer ? Si une réponse reste générique, descriptive ou spéculative, **veto éditorial même à 19/20**. Ne jamais déduire un score élevé d'une seule singularité (marionnettes, technologie, prouesse lumière, etc.). Exiger une seconde lecture indépendante de la note : « est-ce une découverte réellement enrichissante pour nos secteurs prioritaires ? ». En cas de doute, ne pas publier.
+
+
+## Règle prioritaire — fraîcheur du flux quotidien (14 novembre 2026)
+
+Cette règle prévaut sur toute fenêtre antérieure de 7 ou 30 jours pour les **nouvelles publications du flux**.
+
+- **Recherche d'abord sur les dernières 24 heures** : concerts, clips, shows TV, spectacles, set design, lancements de produits et événements de marque. Élargir à **72 heures maximum** si nécessaire, sans diminuer le seuil éditorial ni inventer de publications pour remplir un quota.
+- Contrôler séparément **la date du projet**, **la date de la source** et **la date de la nouvelle information DA**. Une source récente sur un événement ancien n'est pas une nouveauté, sauf révélation substantielle et vérifiable sur les choix de DA datant des dernières 72 heures.
+- Un projet plus ancien, même excellent, relève d'une **archive/référence distincte**, jamais d'une nouveauté du flux quotidien.
+- Dédupliquer sur l'historique entier du projet, pas seulement sur l'URL. Une correction, une nouvelle image ou une réécriture ne crée pas une nouvelle entrée.
+- Pour chaque vague, produire un audit traçable : sources effectivement ouvertes, candidats découverts, dates contrôlées, notes et motifs de refus, fiches retenues, commits réalisés, URLs publiques et visuels effectivement chargés. Ne jamais assimiler un lancement de tâche, un commit ou une collecte à une publication visible.
+- Si aucune fiche ne passe le barème, annoncer **0 publication** avec motifs et preuves de prospection ; ne pas recycler de vieux sujets pour masquer ce résultat.
