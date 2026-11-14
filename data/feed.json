@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-13T20:25:45.598Z",
+  "updated_at": "2026-11-14T06:00:00+01:00",
   "status": "editorial_reviewed",
   "working_feeds": [
     {
@@ -454,6 +454,22 @@
     "with_images": 82
   },
   "items": [
+    {
+      "project_id": "pink-siifu-devils-advocate-gontrand-making-of-2026",
+      "title": "Pink Siifu — faire basculer une cérémonie en concert",
+      "title_fr": "Pink Siifu — faire basculer une cérémonie en concert",
+      "url": "https://www.promonews.tv/interviews/something-between-concert-sermon-scam-and-possession-ludovic-gontrand-making-pink-siifus/96678",
+      "visual_url": "https://www.promonews.tv/videos/2026/09/07/pink-siifu-ft-ss-slyver-devil%E2%80%99s-advocate%E2%80%99-ludovic-gontrand/96197",
+      "category": "14 Musique Clips",
+      "source": "Promonews — entretien Ludovic Gontrand (10 novembre 2026) / shots",
+      "published": "2026-11-10",
+      "radar_added_at": "2026-11-14T06:00:00+01:00",
+      "summary": "Un ancien cinéma devenu église, près de cent figurants et une caméra qui cherche des réactions plutôt que des poses. Le réalisateur transforme une cérémonie crédible en performance qui déborde.",
+      "summary_fr": "Un ancien cinéma devenu église, près de cent figurants et une caméra qui cherche des réactions plutôt que des poses. Le réalisateur transforme une cérémonie crédible en performance qui déborde.",
+      "image": "",
+      "status": "editorial_reviewed",
+      "media_note": "Enquête de fabrication inédite publiée le 10 novembre 2026 sur un clip sorti le 7 septembre. Carte sans image : exception éditoriale 18/20, aucun droit de reproduction photographique confirmé."
+    },
     {
       "project_id": "the-weeknd-hong-kong-evan-larsen-2026",
       "title": "The Weeknd — dans Hong Kong, le cadre se vide",
