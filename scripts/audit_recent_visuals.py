@@ -12,6 +12,7 @@ from pathlib import Path
 from urllib.parse import urljoin, urlparse
 
 TARGETS = ("Max Swan", "YOGI", "Pink Siifu")
+# Only source-linked image URLs are eligible; never replace with abstract diagrams.
 DATA = Path("data/feed.json")
 REPORT = Path("data/visual_audit.json")
 
