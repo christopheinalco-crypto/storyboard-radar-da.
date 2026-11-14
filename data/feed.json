@@ -465,11 +465,13 @@
       "radar_added_at": "2026-11-14T14:00:00+01:00",
       "summary": "Chris White fait sortir Max Swan d'un tunnel ferroviaire abandonné vers un paysage enneigé. Le passage d'un cadre fermé à un espace nu traduit une trajectoire personnelle.",
       "summary_fr": "Chris White fait sortir Max Swan d'un tunnel ferroviaire abandonné vers un paysage enneigé. Le passage d'un cadre fermé à un espace nu traduit une trajectoire personnelle.",
-      "image": "./assets/editorial/max-swan-paid-to-lose.svg",
-      "image_credit": "Schéma éditorial original RADAR DA — non extrait du projet",
+      "image": "",
+      "image_credit": "",
       "image_source_url": "https://www.promonews.tv/videos/2026/11/13/max-swan-paid-lose-chris-white/96960",
       "status": "editorial_reviewed",
-      "angle": "Chris White fait sortir Max Swan d'un tunnel ferroviaire abandonné vers un paysage enneigé. Le passage d'un cadre fermé à un espace nu traduit une trajectoire personnelle."
+      "angle": "Chris White fait sortir Max Swan d'un tunnel ferroviaire abandonné vers un paysage enneigé. Le passage d'un cadre fermé à un espace nu traduit une trajectoire personnelle.",
+      "image_kind": "",
+      "image_alt": ""
     },
     {
       "project_id": "muse-wow-signal-manchester-stage-2026",
@@ -502,11 +504,13 @@
       "radar_added_at": "2026-11-14T12:00:00+01:00",
       "summary": "Lewis Adams oppose la caméra portée des rues de Tokyo à des tableaux de studio rouges très construits. La nouveauté du 13 novembre est son explication de ce contraste, pas la sortie du clip.",
       "summary_fr": "Lewis Adams oppose la caméra portée des rues de Tokyo à des tableaux de studio rouges très construits. La nouveauté du 13 novembre est son explication de ce contraste, pas la sortie du clip.",
-      "image": "./assets/editorial/yogi-ride-or-die-visual-analysis.svg",
-      "image_credit": "Illustration éditoriale originale RADAR DA — schéma de contraste, pas une image du clip",
+      "image": "",
+      "image_credit": "",
       "image_source_url": "https://www.promonews.tv/videos/2026/11/13/yogi-ft-nene-sadboi-ride-or-die-lewis-adams/96968",
       "status": "editorial_reviewed",
-      "angle": "Deux grammaires d'image, mobile et composée, rendent visible la tension entre énergie de rue et précision scénique."
+      "angle": "Deux grammaires d'image, mobile et composée, rendent visible la tension entre énergie de rue et précision scénique.",
+      "image_kind": "",
+      "image_alt": ""
     },
     {
       "project_id": "pink-siifu-devils-advocate-gontrand-making-of-2026",
@@ -520,11 +524,13 @@
       "radar_added_at": "2026-11-14T06:00:00+01:00",
       "summary": "Un ancien cinéma devenu église, près de cent figurants et une caméra qui cherche des réactions plutôt que des poses. Le réalisateur transforme une cérémonie crédible en performance qui déborde.",
       "summary_fr": "Un ancien cinéma devenu église, près de cent figurants et une caméra qui cherche des réactions plutôt que des poses. Le réalisateur transforme une cérémonie crédible en performance qui déborde.",
-      "image": "./assets/editorial/pink-siifu-ceremony-analysis.svg",
+      "image": "",
       "status": "editorial_reviewed",
       "media_note": "Schéma original explicatif ; voir la source pour les photographies authentiques du tournage.",
-      "image_credit": "Illustration éditoriale originale RADAR DA — schéma de la cérémonie, non extrait du clip",
-      "image_source_url": "https://www.promonews.tv/interviews/something-between-concert-sermon-scam-and-possession-ludovic-gontrand-making-pink-siifus/96678"
+      "image_credit": "",
+      "image_source_url": "https://www.promonews.tv/interviews/something-between-concert-sermon-scam-and-possession-ludovic-gontrand-making-pink-siifus/96678",
+      "image_kind": "",
+      "image_alt": ""
     },
     {
       "project_id": "the-weeknd-hong-kong-evan-larsen-2026",
