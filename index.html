@@ -669,7 +669,7 @@ function renderPermanentArchive(){
 function drawFeed(){renderSocialPostWatch();renderSavedInsights();const cat=$('#cat').value,seen=seenData();renderSeenArchive(seen);renderPermanentArchive();
 const priority={'01':80,'02':75,'15':72,'14':70,'08':68,'06':65,'09':60,'05':30,'03':10,'11':8,'04':6};
 const feedCutoff=Date.now()-5*24*60*60*1000; // Nouveautés non vues : cinq jours depuis leur entrée dans RADAR DA.
-let items=ITEMS.filter(x=>{const addedAt=Date.parse(x.radar_added_at||x.added_at||AI_EDITORIAL_CASES[x.url]?.reviewed_at||x.published||'');return (!x.image||/^https:\/\//.test(x.image))&&(!!EDITORIAL_CASES[x.url]||!!AI_EDITORIAL_CASES[x.url])&&!excludedEditorialList(x)&&Number.isFinite(addedAt)&&addedAt>=feedCutoff&&(activeGroup==='Tout'||groupRelevance(x,activeGroup)>=8)&&(!cat||x.category===cat)});
+let items=ITEMS.filter(x=>{const addedAt=Date.parse(x.radar_added_at||x.added_at||AI_EDITORIAL_CASES[x.url]?.reviewed_at||x.published||'');return (!x.image||/^https:\/\//.test(x.image)||/^\.\/assets\//.test(x.image))&&(!!EDITORIAL_CASES[x.url]||!!AI_EDITORIAL_CASES[x.url])&&!excludedEditorialList(x)&&Number.isFinite(addedAt)&&addedAt>=feedCutoff&&(activeGroup==='Tout'||groupRelevance(x,activeGroup)>=8)&&(!cat||x.category===cat)});
 // Trier par entrée dans la veille. La publication départage les entrées simultanées.
 const radarEntryTime=x=>Date.parse(x.radar_added_at||x.added_at||AI_EDITORIAL_CASES[x.url]?.reviewed_at||x.published||'')||0;
 items.sort((a,b)=>radarEntryTime(b)-radarEntryTime(a)||(Date.parse(b.published||'')||0)-(Date.parse(a.published||'')||0)||(priority[String(b.category||'').slice(0,2)]||0)-(priority[String(a.category||'').slice(0,2)]||0));
