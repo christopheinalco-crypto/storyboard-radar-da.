@@ -312,7 +312,7 @@ function imageHTML(x){
  const illustration=x.image_kind==='editorial_illustration', contextual=x.image_kind==='contextual';
  const label=illustration?'Illustration éditoriale':contextual?'Visuel contextuel':'';
  const alt=x.image_alt||(label?label+' : ':'Image du projet : ')+(x.title_fr||x.title);
- const credit=[label,x.image_credit].filter(Boolean).join(' · ');return '<img loading="lazy" referrerpolicy="no-referrer" src="'+escapeHTML(x.image)+'" alt="'+escapeHTML(alt)+'" data-source="'+escapeHTML(sourceLink||'')+'">'+(credit?'<span class="image-caption">'+escapeHTML(credit)+'</span>':'');
+ return '<img loading="lazy" referrerpolicy="no-referrer" src="'+escapeHTML(x.image)+'" alt="'+escapeHTML(alt)+'" data-source="'+escapeHTML(sourceLink||'')+'">';
 }
 function editorialScore(x){const title=(x.title||'').toLowerCase(),body=((x.summary||'')+' '+(x.summary_fr||'')).toLowerCase(),text=title+' '+body;let s=0;
 if(!x.image)return -100;
