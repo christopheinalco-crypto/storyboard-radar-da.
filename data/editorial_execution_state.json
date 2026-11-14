@@ -4,14 +4,14 @@
   "current_wave": {
     "id": "2026-11-14-midday-recovery",
     "status": "incomplete",
-    "stage": "source_review",
+    "stage": "live_site_verification",
     "target_sources": 182,
     "source_reviewed_count": 0,
     "source_inaccessible_count": 0,
     "source_pending_count": 182,
     "candidates_count": 4,
-    "validated_count": 0,
-    "published_count": 0,
+    "validated_count": 3,
+    "published_count": 3,
     "site_verified_count": 0,
     "source_checks": [
       {
@@ -1130,11 +1130,30 @@
         "status": "awaiting_project_visual"
       }
     ],
-    "publication_checks": [],
+    "publication_checks": [
+      {
+        "url": "https://www.promonews.tv/videos/2026/11/12/sleep-theory-giving-lewis-cater/96947",
+        "github_commit": "946aca30f1f67f7d5662a0dff9806bd5b15c67d3",
+        "live_verified": false,
+        "visual_status": "title_only_no_verified_image"
+      },
+      {
+        "url": "https://www.etnow.com/news/2026/11",
+        "github_commit": "946aca30f1f67f7d5662a0dff9806bd5b15c67d3",
+        "live_verified": false,
+        "visual_status": "title_only_no_verified_image"
+      },
+      {
+        "url": "https://www.promonews.tv/videos/2026/11/02/them-i-say-you-dont-jim-longden/96822",
+        "github_commit": "946aca30f1f67f7d5662a0dff9806bd5b15c67d3",
+        "live_verified": false,
+        "visual_status": "title_only_no_verified_image"
+      }
+    ],
     "blockers": [
-      "Florence article dated March 2026: insufficiently fresh for November editorial wave; image URL not independently verified; retracted.",
-      "182 individual source checks not completed.",
-      "No new validated publications; site runtime unavailable to external inspection."
+      "Full 182-source audit not completed.",
+      "Images not independently verified; title-only fallback used.",
+      "Live GitHub Pages rendering not verified."
     ]
   },
   "stages": [
