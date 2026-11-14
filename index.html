@@ -672,7 +672,11 @@ const feedCutoff=Date.now()-5*24*60*60*1000; // Nouveautés non vues : cinq jour
 let items=ITEMS.filter(x=>{const addedAt=Date.parse(x.radar_added_at||x.added_at||AI_EDITORIAL_CASES[x.url]?.reviewed_at||x.published||'');return (!x.image||/^https:\/\//.test(x.image)||/^\.\/assets\//.test(x.image))&&(!!EDITORIAL_CASES[x.url]||!!AI_EDITORIAL_CASES[x.url])&&!excludedEditorialList(x)&&Number.isFinite(addedAt)&&addedAt>=feedCutoff&&(activeGroup==='Tout'||groupRelevance(x,activeGroup)>=8)&&(!cat||x.category===cat)});
 // Trier par entrée dans la veille. La publication départage les entrées simultanées.
 const radarEntryTime=x=>Date.parse(x.radar_added_at||x.added_at||AI_EDITORIAL_CASES[x.url]?.reviewed_at||x.published||'')||0;
-items.sort((a,b)=>radarEntryTime(b)-radarEntryTime(a)||(Date.parse(b.published||'')||0)-(Date.parse(a.published||'')||0)||(priority[String(b.category||'').slice(0,2)]||0)-(priority[String(a.category||'').slice(0,2)]||0));
+// The curated feed order is authoritative. Some historical entries have future-dated
+// radar_added_at timestamps; sorting by those dates hid freshly published projects.
+// Keep newest editorial additions first, exactly as ordered in data/feed.json.
+const feedPosition=new Map(ITEMS.map((entry,index)=>[entry.url,index]));
+items.sort((a,b)=>(feedPosition.get(a.url)??999999)-(feedPosition.get(b.url)??999999));
 const unique=new Set();items=items.filter(x=>{if(unique.has(x.url))return false;unique.add(x.url);return true});
 // Les projets marqués « Vu » quittent immédiatement le flux principal et restent dans « Projets vus ».
 const saved=savedInsightsData();
