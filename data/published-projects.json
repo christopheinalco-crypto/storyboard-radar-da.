@@ -1,6 +1,6 @@
 {
   "description": "Cumulative seen-project register; retain entries when projects leave the live feed; compare URL and semantic identity.",
-  "updated": "2026-11-14T06:00:00+01:00",
+  "updated": "2026-11-14T08:32:59.631Z",
   "projects": [
     {
       "project_id": "pink-siifu-devils-advocate-gontrand-making-of-2026",
@@ -325,6 +325,24 @@
       "title": "U2 — le rideau rouge inverse la place du public",
       "category": "01 Spectacle Concert",
       "radar_added_at": "2026-11-13T17:00:00+01:00"
+    },
+    {
+      "url": "https://www.promonews.tv/videos/2026/11/12/strokes-lonely-future-warren-fu/96952",
+      "title": "The Strokes — un clip politique joué par des marionnettes",
+      "category": "14 Musique Clips",
+      "radar_added_at": "2026-11-14T08:32:59.631Z"
+    },
+    {
+      "url": "https://neonmusic.co.uk/new-music-videos-8-november-2026",
+      "title": "XG — sept créatures colorées dans quatre décors surréalistes",
+      "category": "14 Musique Clips",
+      "radar_added_at": "2026-11-14T08:32:59.631Z"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=3MPUCncZBR0",
+      "title": "TWS — transformer les couloirs d'un lycée en scène de clip",
+      "category": "14 Musique Clips",
+      "radar_added_at": "2026-11-14T08:32:59.631Z"
     }
   ]
 }
