@@ -482,11 +482,13 @@
       "radar_added_at": "2026-11-14T14:00:00+01:00",
       "summary": "À Manchester, Muse déploie un écran en V, un plafond de soucoupe volante et une sphère LED qui monte autour de Matt Bellamy. L'architecture du concert change le rapport d'échelle.",
       "summary_fr": "À Manchester, Muse déploie un écran en V, un plafond de soucoupe volante et une sphère LED qui monte autour de Matt Bellamy. L'architecture du concert change le rapport d'échelle.",
-      "image": "./assets/editorial/muse-wow-signal-stage.svg",
-      "image_credit": "Schéma éditorial original RADAR DA — non extrait du projet",
+      "image": "https://dxhq2wj54qg4l.cloudfront.net/listings/6a3fc976a9ecbb4b26159024/500w/poster.jpeg",
+      "image_credit": "Affiche officielle de la tournée Muse The Wow! Signal Europa Tour 2026, via GigTotem ; affiche promotionnelle, pas photographie du décor.",
       "image_source_url": "https://www.nme.com/news/music/muse-debut-new-songs-live-and-stage-wow-signal-2026-uk-tour-footage-setlist-3975861",
       "status": "editorial_reviewed",
-      "angle": "À Manchester, Muse déploie un écran en V, un plafond de soucoupe volante et une sphère LED qui monte autour de Matt Bellamy. L'architecture du concert change le rapport d'échelle."
+      "angle": "À Manchester, Muse déploie un écran en V, un plafond de soucoupe volante et une sphère LED qui monte autour de Matt Bellamy. L'architecture du concert change le rapport d'échelle.",
+      "image_kind": "contextual",
+      "image_alt": "Affiche rouge et noire de la tournée Muse The Wow! Signal Europa Tour 2026"
     },
     {
       "project_id": "yogi-nene-sadboi-ride-or-die-lewis-adams-2026",
