@@ -1535,32 +1535,34 @@
     ]
   },
   "https://www.promonews.tv/videos/2026/11/02/them-i-say-you-dont-jim-longden/96822": {
-    "intro": "**Ici, c'est le décor qui fait le montage.** Dans le clip de Them & I, la caméra ne coupe pas : les accessoires et les figurants transforment l'espace pendant que le plan continue.",
+    "intro": "**Un plan-séquence en 16 mm, huit prises possibles.** Dans Say You Don't, accessoires et figurants entrent et sortent pour transformer le décor à vue.",
     "points": [
       [
-        "Le truc à regarder",
-        "Imagine le plateau : la caméra tourne, quelqu'un déplace un élément, un figurant traverse, et soudain on n'est plus tout à fait dans la même scène. **La transition se passe devant nous**, au lieu d'être cachée par une coupe."
+        "L'essentiel",
+        "Jim Longden tourne **un seul plan en 16 mm**. Le film disponible limite le tournage à huit prises ; la dernière fonctionne."
       ],
       [
-        "Pourquoi ce choix est fort",
-        "D'habitude, le montage fait sauter d'un lieu ou d'un moment à l'autre. Ici, **la scénographie prend le relais**. Il faut penser les objets, les déplacements et le timing comme une chorégraphie. Le 16 mm et le nombre limité de prises rendent cette préparation encore plus décisive."
+        "Intention",
+        "**Faire du changement de décor un spectacle.** Les figurants et accessoires transforment le plateau pendant que la caméra continue de filmer."
       ],
       [
-        "Ce que ça change",
-        "L'effet possible, c'est une **transformation continue**, presque du théâtre filmé. On ne regarde pas seulement ce qui se passe dans le décor : on regarde aussi le décor devenir autre chose. C'est une piste intéressante quand on veut créer du rythme sans multiplier les plans."
+        "Idée & DA",
+        "Au lieu de cacher la machinerie entre deux coupes, **les déplacements d'objets et de corps écrivent le rythme**. Le plateau devient un mécanisme visible."
+      ],
+      [
+        "Pour un DA",
+        "Dessiner une **partition de mouvements** : qui entre, quel objet change, quel cadre révèle la transformation, avant de penser montage."
       ]
     ],
-    "takeaway": "**Le décor peut faire avancer le récit à la place du montage.** Quand tu supprimes la coupe, demande-toi ce que l'espace, les objets et les corps peuvent raconter en mouvement.",
-    "tip": "Imagine deux ambiances dans une même pièce : quels trois déplacements visibles suffiraient à passer de l'une à l'autre sans couper ?",
-    "source": "Promonews / Jim Longden",
+    "takeaway": "**Le changement de scène devient la chorégraphie.** Le spectateur voit le monde se fabriquer sans coupe.",
+    "source": "Promonews",
     "verified": true,
-    "reviewed_at": "2026-11-13T17:00:00+01:00",
-    "editorial_method": "Réécriture conversationnelle du 13 novembre 2026 ; faits conservés des sources précédemment recensées, effets présentés comme pistes de lecture et non comme réception constatée.",
-    "reading_sequence": [
-      "Le choix",
-      "Ce qu'il change",
-      "L'effet"
-    ]
+    "reviewed_at": "2026-11-14T13:15:04.361Z",
+    "editorial_score": {
+      "total": 17
+    },
+    "editorial_method": "Analyse des choix de DA à partir des faits documentés ; intention interprétée signalée.",
+    "tip": "Dessiner une **partition de mouvements** : qui entre, quel objet change, quel cadre révèle la transformation, avant de penser montage."
   },
   "https://ultimateclassicrock.com/u2-2027-tour-production-visuals/": {
     "intro": "**Et si, dans un concert, c'était le public qui se retrouvait en coulisses ?** C'est le renversement imaginé dans les premières esquisses de la tournée U2 2027.",
@@ -2370,5 +2372,65 @@
         }
       ]
     }
+  },
+  "https://www.promonews.tv/videos/2026/11/12/sleep-theory-giving-lewis-cater/96947": {
+    "intro": "**Une boucle physique :** Cullen Moore enterre son double, puis ressort de terre. Le même geste recommence et rend visible l'enfermement.",
+    "points": [
+      [
+        "L'essentiel",
+        "**Un corps enterre son double.** Il ressort de terre et le cycle recommence. Lewis Cater traduit le combat contre l'addiction en action concrète."
+      ],
+      [
+        "Intention",
+        "**Rendre l'enfermement visible.** La boucle transforme un état intérieur en situation physique que l'on comprend immédiatement."
+      ],
+      [
+        "Idée & DA",
+        "**Un seul geste répété, une même matière, deux versions du personnage.** L'espace reste simple ; c'est le retour de l'action qui produit l'angoisse."
+      ],
+      [
+        "Pour un DA",
+        "Pour exprimer une obsession, concevoir **une action qui revient à son point de départ** plutôt que multiplier les décors."
+      ]
+    ],
+    "takeaway": "**La répétition est le décor narratif.** La terre, le double et le retour à la surface matérialisent un cycle sans issue.",
+    "source": "Promonews",
+    "verified": true,
+    "reviewed_at": "2026-11-14T13:15:04.361Z",
+    "editorial_score": {
+      "total": 16
+    },
+    "editorial_method": "Analyse des choix de DA à partir des faits documentés ; intention interprétée signalée.",
+    "tip": "Pour exprimer une obsession, concevoir **une action qui revient à son point de départ** plutôt que multiplier les décors."
+  },
+  "https://www.etnow.com/news/2026/11": {
+    "intro": "**Un monument devient plateau.** Dans les casemates voûtées du Schlossberg de Graz, Manfred Nikitser répartit 251 appareils pour donner une identité aux prises de parole et aux séquences musicales.",
+    "points": [
+      [
+        "L'essentiel",
+        "Dans les **casemates voûtées de Graz**, le show Aufsteirern combine plateau de discussion, performance musicale et architecture classée. **251 appareils** servent des usages différents."
+      ],
+      [
+        "Intention",
+        "**Conserver la présence du monument tout en créant plusieurs espaces télévisuels.** C'est une lecture du dispositif documenté, non une déclaration attribuée au scénographe."
+      ],
+      [
+        "Idée & DA",
+        "Les petits projecteurs dessinent les fonds et positions de présentation ; les appareils mobiles changent de direction entre discussion et performance. **La lumière reconfigure l'espace sans déplacer l'architecture.**"
+      ],
+      [
+        "Pour un DA",
+        "Dans un lieu fort, commencer par **cartographier les zones d'action et les cadrages**, puis utiliser la lumière pour leur donner une identité."
+      ]
+    ],
+    "takeaway": "**La lumière découpe plusieurs scènes dans un même lieu historique.** Les appareils changent de cible et de rythme selon la séquence.",
+    "source": "ETNow",
+    "verified": true,
+    "reviewed_at": "2026-11-14T13:15:04.361Z",
+    "editorial_score": {
+      "total": 16
+    },
+    "editorial_method": "Analyse des choix de DA à partir des faits documentés ; intention interprétée signalée.",
+    "tip": "Dans un lieu fort, commencer par **cartographier les zones d'action et les cadrages**, puis utiliser la lumière pour leur donner une identité."
   }
 }
