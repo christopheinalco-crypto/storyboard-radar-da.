@@ -94,3 +94,52 @@ out = {"collected_at": NOW.isoformat(), "configured_sources": feed.get("sources_
 path = ROOT / "data/collection_report.json"
 path.write_text(json.dumps(out, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 print(f"RSS checked={checked} parsed={parsed} failed={len(failures)} candidates={len(candidates)}")
+
+# Second collection lane: directly attempt ALL 182 catalogued websites, RSS or not.
+# This is discovery/availability auditing, not proof that every site's articles were read.
+from concurrent.futures import ThreadPoolExecutor, as_completed
+from html import unescape
+import ssl
+
+def inspect_website(source):
+    url = source.get("url", "")
+    record = {"name": source.get("name"), "url": url, "category": source.get("category"),
+              "status": "failed", "http_status": None, "page_title": None,
+              "links_discovered": 0, "recent_articles_verified": 0}
+    if not url.startswith(("https://", "http://")):
+        record["error"] = "Missing valid URL"
+        return record
+    try:
+        req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0 (compatible; RADAR-DA-Research/1.0)", "Accept": "text/html,application/xhtml+xml"})
+        with urllib.request.urlopen(req, timeout=9) as response:
+            record["http_status"] = response.status
+            final_url = response.geturl()
+            content_type = response.headers.get("Content-Type", "")
+            raw = response.read(450_000)
+        record["final_url"] = final_url
+        if "html" in content_type.lower():
+            html = raw.decode("utf-8", "replace")
+            title = re.search(r"<title[^>]*>(.*?)</title>", html, re.I | re.S)
+            if title:
+                record["page_title"] = unescape(re.sub(r"<[^>]+>", "", title.group(1))).strip()[:180]
+            record["links_discovered"] = len(re.findall(r"<a\\b[^>]*href\\s*=", html, re.I))
+        record["status"] = "fetched"
+    except Exception as exc:
+        record["error"] = str(exc)[:180]
+    return record
+
+catalogue = json.loads((ROOT / "data/sources.json").read_text(encoding="utf-8"))
+with ThreadPoolExecutor(max_workers=16) as executor:
+    futures = [executor.submit(inspect_website, s) for s in catalogue]
+    direct = [future.result() for future in futures]
+out["catalogue_sources"] = len(catalogue)
+out["direct_sources_attempted"] = len(direct)
+out["direct_sources_fetched"] = sum(x["status"] == "fetched" for x in direct)
+out["direct_sources_failed"] = sum(x["status"] != "fetched" for x in direct)
+out["direct_checks"] = direct
+out["warning"] = ("Each of the 182 catalogued website URLs was attempted once. "
+                  "A successful homepage fetch is NOT a full article review; "
+                  "recent_articles_verified=0 until individual articles are opened and checked. "
+                  "RSS candidates require editorial, image and publication verification.")
+path.write_text(json.dumps(out, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+print(f"Direct websites attempted={len(direct)} fetched={out['direct_sources_fetched']} failed={out['direct_sources_failed']}")
