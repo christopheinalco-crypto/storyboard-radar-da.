@@ -1,3 +1,8 @@
+## RÈGLES PRIORITAIRES — alternance éditoriale et sobriété visuelle (14 novembre 2026)
+- Dans le fil de veille RADAR DA, alterner autant que possible **concert → clip → concert → clip**, en tenant compte de la dernière fiche déjà publiée. Les spectacles et shows TV restent possibles mais secondaires. Ne jamais contourner le seuil de qualité ou publier un sujet médiocre pour remplir une alternance ; documenter les exceptions.
+- Ne pas afficher sous les images de cartes les étiquettes « visuel officiel », « visuel non officiel », « visuel contextuel », ni les légendes techniques de provenance. Conserver les vérifications et crédits dans les données internes et les sources, sans surcharge visuelle.
+- Toute vague doit distinguer exécution de recherche, nouveaux articles effectivement publiés et vérification du site public.
+
 
 
 ## FONDATION PRIORITAIRE — répartition des responsabilités RADAR DA (14 novembre 2026)
