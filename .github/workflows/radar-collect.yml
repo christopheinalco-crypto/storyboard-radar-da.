@@ -1,6 +1,10 @@
 name: RADAR DA - collecte RSS et audit
 on:
   workflow_dispatch:
+  push:
+    paths:
+      - 'scripts/collect_radar.py'
+      - '.github/workflows/radar-collect.yml'
   schedule:
     # UTC; 6/12/16/20 Paris en hiver, 7/13/17/21 en été
     - cron: '0 5,11,15,19 * * *'
@@ -12,7 +16,7 @@ concurrency:
 jobs:
   collect:
     runs-on: ubuntu-latest
-    timeout-minutes: 20
+    timeout-minutes: 60
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -26,6 +30,10 @@ jobs:
           import json
           from pathlib import Path
           d=json.loads(Path("data/collection_report.json").read_text())
+          print("Sources directes tentées:", d.get("direct_sources_attempted"))
+          print("Sources avec articles ouverts:", d.get("direct_sources_with_articles_opened"))
+          print("Articles réellement ouverts:", d.get("direct_articles_opened"))
+          print("Sources incomplètes:", d.get("direct_sources_incomplete"))
           print("Flux RSS tentés:", d["rss_sources_attempted"])
           print("Flux RSS analysés:", d["rss_sources_parsed"])
           print("Échecs:", d["rss_sources_failed"])
