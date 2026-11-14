@@ -1992,5 +1992,60 @@
         }
       ]
     }
+  },
+  "https://www.promonews.tv/videos/2026/11/13/yogi-ft-nene-sadboi-ride-or-die-lewis-adams/96968": {
+    "intro": "**Ici, le contraste ne vient pas seulement des couleurs. Il vient de la façon de filmer.** Lewis Adams garde des prises à l'épaule, rapides et rugueuses, puis les oppose à des tableaux de studio rouges beaucoup plus composés. On passe d'un espace qu'on traverse à un espace qu'on regarde comme une construction.",
+    "points": [
+      [
+        "Deux manières de tenir le regard",
+        "Dans la rue, le mouvement de caméra conserve une énergie presque documentaire. Au studio, les figures et le fond rouge sont organisés pour fabriquer des images qui arrêtent le regard. **Ce n'est pas la même promesse visuelle : présence immédiate d'un côté, image-signature de l'autre.**"
+      ],
+      [
+        "La tension est revendiquée",
+        "Adams explique vouloir confronter la précision des références japonaises à la manière plus brute dont il filme habituellement à Londres. Son intention est documentée ; en revanche, le sentiment de friction que cette alternance provoque reste une lecture de DA. Le recours au shibari exige aussi de regarder comment une référence culturelle est intégrée, plutôt que de la traiter comme un simple accessoire exotique."
+      ],
+      [
+        "Un clip ancien, une explication nouvelle",
+        "**Le clip est sorti le 30 octobre.** Ce qui entre dans la veille du 13 novembre, c'est l'entretien du réalisateur détaillant sa méthode et ses choix. Le visuel de cette fiche est un schéma original de lecture, pas une photographie du tournage."
+      ]
+    ],
+    "takeaway": "Quand deux artistes ou deux lieux doivent partager un clip, **n'uniformise pas forcément toute l'image**. Une opposition maîtrisée entre caméra libre et composition précise peut créer un rythme visuel plus fort qu'un traitement unique.",
+    "tip": "Monter dix secondes de caméra portée puis dix secondes de cadre frontal fixe sur une même performance ; comparer ce que l'on ressent et ce que l'on retient.",
+    "source": "https://www.promonews.tv/videos/2026/11/13/yogi-ft-nene-sadboi-ride-or-die-lewis-adams/96968",
+    "verified": true,
+    "reviewed_at": "2026-11-14T12:00:00+01:00",
+    "editorial_review": [
+      {
+        "url": "https://www.promonews.tv/videos/2026/11/13/yogi-ft-nene-sadboi-ride-or-die-lewis-adams/96968",
+        "locator": "Entretien de Lewis Adams du 13 novembre : scènes de rue, studio rouge, caméra portée, références japonaises et intention de contraste."
+      },
+      {
+        "url": "https://www.kaltblut-magazine.com/yogi-ride-or-die/",
+        "locator": "Annonce du clip le 30 octobre 2026 ; vérification que la sortie est ancienne."
+      }
+    ],
+    "publication_review": {
+      "scores": {
+        "choice": 5,
+        "effect": 4,
+        "lesson": 4,
+        "evidence": 3,
+        "freshness": 2
+      },
+      "choice": "Opposer caméra mobile en extérieur et tableaux rouges composés.",
+      "effect": "Contraste de présence et d'icône visuelle.",
+      "lesson": "Faire dialoguer deux grammaires de mise en scène plutôt que tout homogénéiser.",
+      "second_reading": "Nouvel entretien de fabrication du 13 novembre sur clip sorti le 30 octobre ; visuel schématique original explicitement signalé.",
+      "sources": [
+        {
+          "url": "https://www.promonews.tv/videos/2026/11/13/yogi-ft-nene-sadboi-ride-or-die-lewis-adams/96968",
+          "locator": "Notes du réalisateur, 13 novembre 2026"
+        },
+        {
+          "url": "https://www.kaltblut-magazine.com/yogi-ride-or-die/",
+          "locator": "Sortie du clip, 30 octobre 2026"
+        }
+      ]
+    }
   }
 }
