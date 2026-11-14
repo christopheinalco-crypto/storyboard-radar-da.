@@ -172,11 +172,13 @@ def inspect_website(source):
             if ARTICLE_PATH.search(parsed.path) or (TERMS.search(label) and len(parsed.path.strip("/")) > 12):
                 links.append((absolute, unescape(label.strip())[:160]))
         record["article_links_discovered"] = len(links)
+        record["article_links_pending"] = len(links)
         # Open actual article pages, not just the homepage. Limit concurrency/load per publisher.
-        for article_url, label in links[:4]:
+        for article_url, label in links:
             try:
                 body, resolved = fetch_html(article_url)
                 record["articles_opened"] += 1
+                record["article_links_pending"] -= 1
                 p = LinkParser()
                 p.feed(body)
                 dates = []
@@ -199,6 +201,7 @@ def inspect_website(source):
                         "visual_verified":False,"editorial_score":None})
             except Exception as exc:
                 record["errors"].append(str(exc)[:120])
+                record["article_links_pending"] -= 1
         record["status"] = "articles_examined" if record["articles_opened"] else "homepage_only_no_article_opened"
     except Exception as exc:
         record["errors"].append(str(exc)[:180])
@@ -212,11 +215,13 @@ out["direct_sources_attempted"] = len(direct)
 out["direct_sources_fetched"] = sum(x["homepage_fetched"] for x in direct)
 out["direct_sources_with_articles_opened"] = sum(x["articles_opened"]>0 for x in direct)
 out["direct_articles_opened"] = sum(x["articles_opened"] for x in direct)
+out["direct_article_links_pending"] = sum(x.get("article_links_pending",0) for x in direct)
+out["direct_sources_with_article_errors"] = sum(bool(x["errors"]) for x in direct)
 out["direct_sources_failed"] = sum(not x["homepage_fetched"] for x in direct)
 out["direct_candidates"] = [c for x in direct for c in x["candidates"]][:200]
 out["direct_checks"] = direct
 out["warning"] = ("All catalogued source URLs attempted; article pages opened where discoverable. "
-                  "An unavailable source or site with no discoverable links is explicitly reported. "
+                  "An unavailable source, article error, or site with no discoverable links is explicitly reported. "
                   "Dates are provisional until human editorial review; no automatic publication.")
 path.write_text(json.dumps(out,ensure_ascii=False,indent=2)+"\\n",encoding="utf-8")
 print(f"Sources={len(direct)} sites with articles opened={out['direct_sources_with_articles_opened']} article pages opened={out['direct_articles_opened']} candidates={len(out['direct_candidates'])}")
