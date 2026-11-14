@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-14T15:00:00Z",
+  "updated_at": "2026-11-14T13:12:22.469Z",
   "status": "editorial_reviewed",
   "working_feeds": [
     {
@@ -454,25 +454,6 @@
     "with_images": 82
   },
   "items": [
-    {
-      "project_id": "florence-everybody-scream-witch-choir-2026",
-      "title": "Florence + The Machine — quatre corps dessinent le rituel",
-      "title_fr": "Florence + The Machine — quatre corps dessinent le rituel",
-      "url": "https://www.tpimagazine.com/staging-florence-and-the-machines-everybody-scream-tour/",
-      "category": "01 Spectacle Concert",
-      "source": "TPi Magazine, 11 mars 2026 ; ETNow, 12 novembre 2026 ; The Independent, 10 février 2026",
-      "published": "2026-11-12",
-      "radar_added_at": "2026-11-14T16:00:00+01:00",
-      "summary": "Sur Everybody Scream, Florence Welch avance dans la salle entourée de quatre danseuses du Witch Choir. Leur mouvement, la brume et la lumière construisent un rituel sans recourir à un décor monumental.",
-      "summary_fr": "**Quatre danseuses, de la brume, une avancée dans le public.** Sur Everybody Scream, Florence Welch transforme l'arena en cérémonie : les corps du Witch Choir donnent une forme visible à l'univers folk horror du concert.",
-      "angle": "**Le groupe de danseuses fait office de décor vivant.** Leurs positions et leurs gestes changent l'espace autour de Florence : le rituel est porté par des corps, pas seulement par des images.",
-      "image": "https://static.independent.co.uk/2026/02/10/12/32/FATM-ESTOUR-09-02-26-Glasgow-LE-C-3583hi.jpg",
-      "image_kind": "project_photo",
-      "image_credit": "Photographie du concert à Glasgow, The Independent, 10 février 2026",
-      "image_source_url": "https://www.independent.co.uk/arts-entertainment/music/reviews/florence-and-the-machine-review-glasgow-tour-b2917303.html",
-      "image_alt": "Florence Welch au centre, entourée des quatre danseuses du Witch Choir dans la brume",
-      "status": "editorial_reviewed"
-    },
     {
       "project_id": "tws-call-my-name-school-stage-2026",
       "title": "TWS — transformer les couloirs d'un lycée en scène de clip",
