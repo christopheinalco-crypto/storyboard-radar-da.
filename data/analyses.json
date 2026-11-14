@@ -2432,5 +2432,125 @@
     },
     "editorial_method": "Analyse des choix de DA à partir des faits documentés ; intention interprétée signalée.",
     "tip": "Dans un lieu fort, commencer par **cartographier les zones d'action et les cadrages**, puis utiliser la lumière pour leur donner une identité."
+  },
+  "https://www.tpimagazine.com/behind-the-scenes-of-daniel-caesars-son-of-spergy-tour/": {
+    "intro": "**Une grande salle, un chœur et une caméra qui circule librement.** La tournée Son of Spergy garde l'imprévu de la performance au centre de l'image.",
+    "points": [
+      [
+        "L'essentiel",
+        "**Pas de spectacle millimétré.** Daniel Caesar change les arrangements et la setlist ; le groupe et le chœur doivent rester disponibles à l'improvisation."
+      ],
+      [
+        "Intention",
+        "**Préserver la sensation du direct dans une arène.** Le dispositif paraît conçu pour laisser respirer le musicien plutôt que de le contraindre à un minutage fixe."
+      ],
+      [
+        "Idée & DA",
+        "**La caméra portée se promène parmi les musiciens.** Projetée sur un grand écran, elle montre des gestes et des regards que le fond de salle ne verrait pas. La proximité vient du cadre, pas d'une accumulation d'effets."
+      ],
+      [
+        "Pour un DA",
+        "Dans une grande salle, tester une **caméra mobile et des plans non verrouillés** : l'écran peut transmettre l'intimité d'un concert plutôt que reproduire un clip."
+      ]
+    ],
+    "takeaway": "**L'écran rapproche au lieu d'agrandir.** Les cadres imparfaits rendent l'arène plus intime.",
+    "source": "TPi Magazine",
+    "verified": false,
+    "reviewed_at": "2026-11-14T17:35:42.047Z",
+    "editorial_score": {
+      "total": 17
+    },
+    "editorial_method": "Faits sourcés; intention interprétée distincte. Images contextuelles indiquées en métadonnées. Vérification HTTP et rendu public non confirmés.",
+    "tip": "Dans une grande salle, tester une **caméra mobile et des plans non verrouillés** : l'écran peut transmettre l'intimité d'un concert plutôt que reproduire un clip."
+  },
+  "https://www.promonews.tv/videos/2026/11/11/sports-team-billy-kris-r/96941": {
+    "intro": "**Une tête géante en papier mâché entre dans un appartement ordinaire.** Le clip de Kris R fait naître l'étrangeté d'un seul élément de costume.",
+    "points": [
+      [
+        "L'essentiel",
+        "**Billy porte une tête disproportionnée en papier mâché.** Kris R le fait surgir dans un appartement où des fans ont été invités sans connaître la surprise."
+      ],
+      [
+        "Intention",
+        "**Faire dérailler une situation familière.** Le contraste entre le salon banal et cette figure inquiétante crée une comédie presque cauchemardesque."
+      ],
+      [
+        "Idée & DA",
+        "Le masque change la **silhouette avant même qu'un personnage agisse**. Caméra nerveuse et étalonnage brut prolongent le malaise : un accessoire porte l'univers du film."
+      ],
+      [
+        "Pour un DA",
+        "Avant de construire cinq décors, essayer **une anomalie visuelle forte dans un lieu banal**. Observer comment le cadrage lui donne du pouvoir."
+      ]
+    ],
+    "takeaway": "**Une seule silhouette suffit à déformer une scène réaliste.** Le masque déplace immédiatement le ton vers le cauchemar comique.",
+    "source": "Promonews",
+    "verified": false,
+    "reviewed_at": "2026-11-14T17:35:42.047Z",
+    "editorial_score": {
+      "total": 16
+    },
+    "editorial_method": "Faits sourcés; intention interprétée distincte. Images contextuelles indiquées en métadonnées. Vérification HTTP et rendu public non confirmés.",
+    "tip": "Avant de construire cinq décors, essayer **une anomalie visuelle forte dans un lieu banal**. Observer comment le cadrage lui donne du pouvoir."
+  },
+  "https://www.tpimagazine.com/behind-the-sfx-er-productions-ignites-rb-tour/": {
+    "intro": "**Deux stars, une scène de stade et une production d'effets hors norme.** Le dispositif doit permettre à deux univers de cohabiter sans perdre leur identité.",
+    "points": [
+      [
+        "L'essentiel",
+        "**59 représentations dans 26 stades** documentées par ER Productions, avec plusieurs équipes créatives et un déploiement massif de pyrotechnie."
+      ],
+      [
+        "Intention",
+        "**Faire cohabiter deux identités artistiques dans une même infrastructure.** La conception globale du plateau doit rester suffisamment souple pour leurs deux spectacles."
+      ],
+      [
+        "Idée & DA",
+        "**Le feu agit comme un décor éphémère.** Au lieu d'ajouter un objet permanent, la pyrotechnie change brutalement l'échelle, la profondeur et le niveau de tension d'un tableau. Les contraintes de sécurité font partie de cette écriture."
+      ],
+      [
+        "Pour un DA",
+        "Dessiner chaque effet **comme une forme dans l'espace et dans le temps** : silhouette, durée, point de vue, transition. Ne pas commencer par la quantité d'explosions."
+      ]
+    ],
+    "takeaway": "**Les effets spéciaux dessinent des espaces temporaires.** Le feu peut transformer le plateau en une image dramatique.",
+    "source": "TPi Magazine",
+    "verified": false,
+    "reviewed_at": "2026-11-14T17:35:42.047Z",
+    "editorial_score": {
+      "total": 17
+    },
+    "editorial_method": "Faits sourcés; intention interprétée distincte. Images contextuelles indiquées en métadonnées. Vérification HTTP et rendu public non confirmés.",
+    "tip": "Dessiner chaque effet **comme une forme dans l'espace et dans le temps** : silhouette, durée, point de vue, transition. Ne pas commencer par la quantité d'explosions."
+  },
+  "https://www.promonews.tv/videos/2026/10/30/telemakus-w-sparklmami-bigboihums-feat-tristan-cappel-hands-rejoice-mackai-sharp/96811": {
+    "intro": "**Le clip Hands Rejoice! assemble performance et direction artistique colorée.** La vision dessinée par Sparklmami sert de point de départ à Mackai Sharp.",
+    "points": [
+      [
+        "L'essentiel",
+        "**Mackai Sharp réalise un clip de performance expérimental.** Sparklmami fournit une vision dessinée, puis la direction artistique, le stylisme et les effets prennent forme en équipe."
+      ],
+      [
+        "Intention",
+        "**Donner une forme collective à une musique qui aime l'expérimentation.** La vision initiale sert de cadre, pas de carcan."
+      ],
+      [
+        "Idée & DA",
+        "Le réalisateur assure aussi la caméra et les effets ; **Tani Gunn relie décors et vêtements**. Cette continuité de traitement peut faire tenir ensemble des tableaux très différents."
+      ],
+      [
+        "Pour un DA",
+        "Partir d'un **croquis d'intention**, puis vérifier que costume, décor, couleur et cadrage parlent bien le même langage."
+      ]
+    ],
+    "takeaway": "**Une vision collective devient un vocabulaire visuel.** Décors, stylisme et jeu répondent à l'énergie du morceau.",
+    "source": "Promonews",
+    "verified": false,
+    "reviewed_at": "2026-11-14T17:35:42.047Z",
+    "editorial_score": {
+      "total": 15
+    },
+    "editorial_method": "Faits sourcés; intention interprétée distincte. Images contextuelles indiquées en métadonnées. Vérification HTTP et rendu public non confirmés.",
+    "tip": "Partir d'un **croquis d'intention**, puis vérifier que costume, décor, couleur et cadrage parlent bien le même langage."
   }
 }
