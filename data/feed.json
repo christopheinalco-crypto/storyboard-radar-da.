@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-14T13:15:04.361Z",
+  "updated_at": "2026-11-14T13:28:08.008Z",
   "status": "editorial_reviewed",
   "working_feeds": [
     {
@@ -485,11 +485,11 @@
       "summary": "Un monument devient plateau. Dans les casemates voûtées du Schlossberg de Graz, Manfred Nikitser répartit 251 appareils pour donner une identité aux prises de parole et aux séquences musicales.",
       "summary_fr": "**Un monument devient plateau.** Dans les casemates voûtées du Schlossberg de Graz, Manfred Nikitser répartit 251 appareils pour donner une identité aux prises de parole et aux séquences musicales.",
       "angle": "**La lumière découpe plusieurs scènes dans un même lieu historique.** Les appareils changent de cible et de rythme selon la séquence.",
-      "image": "",
-      "image_kind": "none",
-      "image_credit": "",
-      "image_source_url": "",
-      "image_alt": "",
+      "image": "https://imgl.krone.at/scaled/3909833/v19f74e/full.jpg",
+      "image_kind": "contextual",
+      "image_credit": "Aufsteirern — photographie d'une précédente édition",
+      "image_source_url": "https://www.krone.at/3907522",
+      "image_alt": "Scène Aufsteirern sous les voûtes, éclairage bleu et violet ; image d'une précédente édition",
       "status": "editorial_reviewed"
     },
     {
@@ -504,11 +504,11 @@
       "summary": "Une boucle physique : Cullen Moore enterre son double, puis ressort de terre. Le même geste recommence et rend visible l'enfermement.",
       "summary_fr": "**Une boucle physique :** Cullen Moore enterre son double, puis ressort de terre. Le même geste recommence et rend visible l'enfermement.",
       "angle": "**La répétition est le décor narratif.** La terre, le double et le retour à la surface matérialisent un cycle sans issue.",
-      "image": "",
-      "image_kind": "none",
-      "image_credit": "",
-      "image_source_url": "",
-      "image_alt": "",
+      "image": "https://images.squarespace-cdn.com/content/v1/6495f3f41363fb457f8d28bf/1701360674944-FNEBKYP5BVP4W7HKP2YE/Fallout_Sleeptheory.jpeg",
+      "image_kind": "contextual",
+      "image_credit": "Sleep Theory — image d'un autre clip du groupe, Fallout",
+      "image_source_url": "https://sleeptheoryofficial.com/videos",
+      "image_alt": "Sleep Theory en performance dans un décor bleu sombre ; image contextuelle du groupe",
       "status": "editorial_reviewed"
     },
     {
