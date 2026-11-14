@@ -1,5 +1,9 @@
 name: RADAR DA - collecte des sources (sans publication)
 on:
+  push:
+    paths:
+      - '.github/workflows/radar-discovery.yml'
+      - 'scripts/radar_collect.py'
   schedule:
     - cron: '5 5,11,15,19 * * *'
   workflow_dispatch:
