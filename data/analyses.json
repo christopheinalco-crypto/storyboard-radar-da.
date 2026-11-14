@@ -2047,5 +2047,93 @@
         }
       ]
     }
+  },
+  "https://www.nme.com/news/music/muse-debut-new-songs-live-and-stage-wow-signal-2026-uk-tour-footage-setlist-3975861": {
+    "intro": "**Regarde comment Muse change l'échelle autour du chanteur.** Au concert de Manchester du 12 novembre, la scène principale prend la forme d'un dispositif de science-fiction : écran géant en V, plafond évoquant le dessous d'un OVNI, passerelle vers un plateau secondaire. Là, une sphère de LED monte autour de Matt Bellamy. Le décor ne sert plus seulement de fond : **il encadre puis absorbe la performance.**",
+    "points": [
+      [
+        "Du grand format à l'isolement",
+        "L'écran en V et les faisceaux latéraux agrandissent l'espace du groupe. Puis, sur le plateau secondaire, la sphère LED resserre brutalement l'attention sur un seul corps. Ce contraste d'échelle donne un rythme spatial au show, au-delà des changements de chanson."
+      ],
+      [
+        "Un récit de science-fiction construit dans le volume",
+        "Le thème OVNI ne repose pas sur une image projetée : il prend forme au-dessus du public et dans des éléments mobiles. Le cercle lumineux qui descend sur la scène principale et la sphère qui monte autour du chanteur transforment la hauteur en outil narratif. L'idée de capture extraterrestre est **une lecture visuelle**, pas une intention explicitement attribuée au scénographe."
+      ],
+      [
+        "La circulation fait partie de la composition",
+        "La passerelle vers une seconde scène déplace le centre du concert. Le public ne regarde plus toujours dans la même direction : l'architecture redistribue les points de vue."
+      ]
+    ],
+    "takeaway": "Un décor de concert peut raconter par **variations d'échelle et de centre** : élargir l'image pour le collectif, puis refermer l'espace sur un interprète.",
+    "tip": "Sur un plan de scène, dessiner un moment panoramique puis un moment de confinement lumineux sans changer de lieu.",
+    "source": "https://www.nme.com/news/music/muse-debut-new-songs-live-and-stage-wow-signal-2026-uk-tour-footage-setlist-3975861",
+    "verified": true,
+    "reviewed_at": "2026-11-14T14:00:00+01:00",
+    "editorial_review": [
+      {
+        "url": "https://www.nme.com/news/music/muse-debut-new-songs-live-and-stage-wow-signal-2026-uk-tour-footage-setlist-3975861",
+        "locator": "NME, 13 novembre 2026 ; concert du 12 novembre à Manchester"
+      }
+    ],
+    "publication_review": {
+      "scores": {
+        "choice": 5,
+        "effect": 4,
+        "lesson": 4,
+        "evidence": 3,
+        "freshness": 2
+      },
+      "second_reading": "Source datée du 13 novembre ; illustration éditoriale originale explicitement distinguée des photographies du projet. Les observations proviennent de la source et les hypothèses sont signalées.",
+      "sources": [
+        {
+          "url": "https://www.nme.com/news/music/muse-debut-new-songs-live-and-stage-wow-signal-2026-uk-tour-footage-setlist-3975861",
+          "locator": "NME, 13 novembre 2026 ; concert du 12 novembre à Manchester"
+        }
+      ]
+    }
+  },
+  "https://www.promonews.tv/videos/2026/11/13/max-swan-paid-lose-chris-white/96960": {
+    "intro": "**Chris White commence par enfermer Max Swan dans une architecture, puis lui retire cet abri.** Le chanteur émerge d'un tunnel ferroviaire abandonné et marche sur des voies enneigées. C'est un geste simple, mais lisible : le cadre passe d'un espace couvert, dirigé, à un dehors exposé.",
+    "points": [
+      [
+        "Le tunnel oriente physiquement le regard",
+        "Les lignes de fuite ferroviaires donnent un axe au déplacement. Pas besoin d'un décor ajouté : le lieu impose déjà sa perspective et accompagne la marche du personnage."
+      ],
+      [
+        "Le dehors change le sens de la marche",
+        "En quittant le tunnel pour un paysage hivernal dépouillé, le personnage devient plus vulnérable dans le cadre. L'article relie le morceau à ses difficultés, notamment la perte de son logement après l'ouragan Ida. **La lecture de ce passage comme perte de protection reste une interprétation**, non une intention citée du réalisateur."
+      ],
+      [
+        "Une économie de moyens qui repose sur la géographie",
+        "Le clip n'a pas besoin d'une accumulation de décors : une transition entre deux espaces suffisamment contrastés donne une progression visuelle au morceau."
+      ]
+    ],
+    "takeaway": "Avant de construire un décor, chercher un **seuil physique** — tunnel, porte, couloir, lisière — capable de porter une transformation du personnage.",
+    "tip": "Filmer un personnage franchissant un seuil avec le même axe caméra et comparer l'effet de l'avant/après.",
+    "source": "https://www.promonews.tv/videos/2026/11/13/max-swan-paid-lose-chris-white/96960",
+    "verified": true,
+    "reviewed_at": "2026-11-14T14:00:00+01:00",
+    "editorial_review": [
+      {
+        "url": "https://www.promonews.tv/videos/2026/11/13/max-swan-paid-lose-chris-white/96960",
+        "locator": "Promonews, 13 novembre 2026"
+      }
+    ],
+    "publication_review": {
+      "scores": {
+        "choice": 5,
+        "effect": 4,
+        "lesson": 4,
+        "evidence": 2,
+        "freshness": 0
+      },
+      "second_reading": "Source datée du 13 novembre ; illustration éditoriale originale explicitement distinguée des photographies du projet. Les observations proviennent de la source et les hypothèses sont signalées.",
+      "sources": [
+        {
+          "url": "https://www.promonews.tv/videos/2026/11/13/max-swan-paid-lose-chris-white/96960",
+          "locator": "Promonews, 13 novembre 2026"
+        }
+      ]
+    }
   }
 }
