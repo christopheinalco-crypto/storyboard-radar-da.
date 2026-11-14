@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-14T16:30:00+01:00",
+  "updated_at": "2026-11-14T09:20:00+01:00",
   "status": "editorial_reviewed",
   "working_feeds": [
     {
@@ -454,6 +454,26 @@
     "with_images": 82
   },
   "items": [
+    {
+      "project_id": "tora-i-louis-culture-sundown-zaineb-abelque-2026",
+      "title": "Tora-i et Louis Culture — un clip tourné en marchant dans Londres",
+      "title_fr": "Tora-i et Louis Culture — un clip tourné en marchant dans Londres",
+      "url": "https://www.promonews.tv/videos/2026/11/13/tora-i-ft-louis-culture-sundown-zaineb-abelque/96973",
+      "category": "14 Musique Clips",
+      "source": "Promonews, 13 novembre 2026 ; clip mis en ligne le 10 novembre",
+      "published": "2026-11-13",
+      "project_released": "2026-11-10",
+      "radar_added_at": "2026-11-14T09:20:00+01:00",
+      "summary": "Pour « Sundown », la réalisatrice Zaineb Abelque suit les deux artistes dans Londres à l'heure du coucher du soleil. Plutôt qu'un décor fabriqué, elle choisit la lumière naturelle, la marche et des bulles comme motif récurrent.",
+      "summary_fr": "Pour « Sundown », la réalisatrice Zaineb Abelque suit les deux artistes dans Londres à l'heure du coucher du soleil. Plutôt qu'un décor fabriqué, elle choisit la lumière naturelle, la marche et des bulles comme motif récurrent.",
+      "angle": "Une balade réelle et une heure précise deviennent le dispositif visuel du clip.",
+      "image": "https://trenchtrenchtrench.com/assets/articles/tora-i-serial/tora-i-credit-alfie-white.jpg",
+      "image_kind": "contextual",
+      "image_credit": "Portrait d'archive de Tora-i : Alfie White / TRENCH. Ce n'est pas une image du clip « Sundown ».",
+      "image_source_url": "https://trenchtrenchtrench.com/news/tora-i-serial",
+      "image_alt": "Portrait de Tora-i par Alfie White, image contextuelle d'archive et non photogramme de Sundown",
+      "status": "editorial_reviewed"
+    },
     {
       "project_id": "max-swan-paid-to-lose-chris-white-2026",
       "title": "Max Swan — un clip sur la perte d'un refuge",
