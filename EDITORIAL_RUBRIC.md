@@ -182,3 +182,6 @@ Pour chaque sujet, répondre en une phrase concrète à trois questions : **quel
 **Seconde lecture :** supprimer le résumé narratif inutile, les effets vagues, le jargon et les répétitions ; distinguer preuve et hypothèse. Le texte doit faire voir quelque chose qu'une lecture rapide de l'annonce ne révèle pas.
 
 **Traçabilité :** sources ouvertes réellement, candidats écartés et raison, URLs des nouvelles fiches publiées, commits relus, limites d'image et rendu public. Les consignes nouvelles ne valent jamais à elles seules publication.
+
+
+**Hiérarchie des visuels :** (1) photographie ou photogramme authentique du projet, (2) photographie authentique de l'artiste, du réalisateur, du lieu ou du dispositif lié au sujet, (3) image contextuelle authentique clairement reliée à l'analyse. Une photo d'artiste pertinente vaut mieux qu'un schéma abstrait sans valeur pédagogique. Une image contextuelle doit être identifiée comme telle, jamais présentée comme une image du projet. N'utiliser une illustration générée ou un schéma que si elle explique concrètement un choix visuel spécifique, sans feindre de documenter l'œuvre. En absence de visuel crédible, préférer une carte sobre sans image. Vérifier URL, affichage et provenance; ne pas présumer des droits de réutilisation. Crédit discret, pas de longue mention technique dans la carte.
