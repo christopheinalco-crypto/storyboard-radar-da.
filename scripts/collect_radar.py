@@ -122,7 +122,7 @@ def inspect_website(source):
             title = re.search(r"<title[^>]*>(.*?)</title>", html, re.I | re.S)
             if title:
                 record["page_title"] = unescape(re.sub(r"<[^>]+>", "", title.group(1))).strip()[:180]
-            record["links_discovered"] = len(re.findall(r"<a\\b[^>]*href\\s*=", html, re.I))
+            record["links_discovered"] = len(re.findall(r"<a[^>]*href[ ]*=", html, re.I))
         record["status"] = "fetched"
     except Exception as exc:
         record["error"] = str(exc)[:180]
