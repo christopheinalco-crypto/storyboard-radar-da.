@@ -1,7 +1,13 @@
 {
   "description": "Cumulative seen-project register; retain entries when projects leave the live feed; compare URL and semantic identity.",
-  "updated": "2026-11-13T20:25:45.598Z",
+  "updated": "2026-11-14T06:00:00+01:00",
   "projects": [
+    {
+      "project_id": "pink-siifu-devils-advocate-gontrand-making-of-2026",
+      "title": "Pink Siifu — faire basculer une cérémonie en concert",
+      "url": "https://www.promonews.tv/interviews/something-between-concert-sermon-scam-and-possession-ludovic-gontrand-making-pink-siifus/96678",
+      "category": "14 Musique Clips"
+    },
     {
       "project_id": "the-weeknd-hong-kong-evan-larsen-2026",
       "title": "The Weeknd — dans Hong Kong, le cadre se vide",
