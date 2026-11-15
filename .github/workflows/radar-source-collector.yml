@@ -12,6 +12,9 @@ on:
     # Préparer la collecte AVANT les veilles ChatGPT à 6 h, 12 h, 16 h et 20 h.
     - cron: '5 5,11,15,19 * * *'
       timezone: Europe/Paris
+    # Relance de secours si GitHub ignore ou retarde le premier créneau.
+    - cron: '25 5,11,15,19 * * *'
+      timezone: Europe/Paris
 permissions:
   contents: write
   actions: read
