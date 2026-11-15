@@ -3,6 +3,7 @@
 import datetime as dt
 import email.utils
 import json
+import os
 import re
 import urllib.request
 import xml.etree.ElementTree as ET
@@ -94,6 +95,11 @@ out = {"collected_at": NOW.isoformat(), "configured_sources": feed.get("sources_
 path = ROOT / "data/collection_report.json"
 path.write_text(json.dumps(out, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 print(f"RSS checked={checked} parsed={parsed} failed={len(failures)} candidates={len(candidates)}")
+
+# En mode programmé, s'arrêter après les RSS : le scan de 182 sources est déjà
+# assuré séparément par collect_sources.py. Évite les runs annulés de 60 min.
+if os.environ.get('RADAR_RSS_ONLY') == '1':
+    raise SystemExit(0)
 
 # Direct article inspection for EVERY catalogued source, with or without RSS.
 from concurrent.futures import ThreadPoolExecutor
