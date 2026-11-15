@@ -1234,5 +1234,40 @@
     ],
     "published_count": 0,
     "public_render_verified": false
+  },
+  "latest_scheduled_wave_16h": {
+    "id": "2026-11-15-16h",
+    "status": "incomplete",
+    "stage": "visual_evidence",
+    "prior_report": {
+      "checked_at": "2026-11-15T12:06:35.798064+00:00",
+      "attempted": 182,
+      "opened": 159,
+      "failed": 23
+    },
+    "inherited_published_count": 4,
+    "inherited_public_render_check": "https://github.com/christopheinalco-crypto/storyboard-radar-da./actions/runs/43719248033",
+    "candidates": [
+      {
+        "project": "CHANMINA — History",
+        "source": "https://chanmina.com/news/detail/919",
+        "official_clip": "https://www.youtube.com/watch?v=Gq_IGTJ-AMw",
+        "date": "2026-11-13",
+        "pending": "Lecture du clip et contrôle du visuel intégrable."
+      },
+      {
+        "project": "Zinoleesky — Omo Ologo",
+        "source": "https://afrobeatkit.com/music-video/zinoleesky-omo-ologo-video/",
+        "linked_clip": "https://www.youtube.com/watch?v=9WBABEUlesg",
+        "pending": "Lecture du clip et contrôle du visuel intégrable."
+      },
+      {
+        "project": "Shenseea — Garden",
+        "source": "https://iimitv.com/post/shenseea-releases-garden-music-video",
+        "date_reported": "2026-11-12",
+        "decision": "Écarté du créneau de 16 h, hors fenêtre de 72 h."
+      }
+    ],
+    "published_count": 0
   }
 }
