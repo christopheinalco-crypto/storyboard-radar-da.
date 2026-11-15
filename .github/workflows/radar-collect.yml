@@ -6,8 +6,8 @@ on:
       - 'scripts/collect_radar.py'
       - '.github/workflows/radar-collect.yml'
   schedule:
-    # UTC; 6/12/16/20 Paris en hiver, 7/13/17/21 en été
-    - cron: '0 5,11,15,19 * * *'
+    - cron: '0 6,12,16,20 * * *'
+      timezone: Europe/Paris
 permissions:
   contents: write
 concurrency:
