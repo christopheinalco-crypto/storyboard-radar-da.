@@ -1,17 +1,17 @@
 {
-  "run_at": "2026-11-14T22:53:16.561229+00:00",
+  "run_at": "2026-11-15T09:49:05.673354+00:00",
   "sources_total": 182,
   "sources_checked": 182,
-  "sources_ok": 144,
-  "sources_failed": 38,
-  "new_candidate_links": 7,
+  "sources_ok": 145,
+  "sources_failed": 37,
+  "new_candidate_links": 1,
   "editorial_published": 0,
   "note": "Discovery only; candidates are not verified or approved for publication.",
   "checks": [
     {
       "name": "Balich Wonder Studio",
       "url": "https://www.balichwonderstudio.com/",
-      "checked_at": "2026-11-14T22:53:16.561229+00:00",
+      "checked_at": "2026-11-15T09:49:05.673354+00:00",
       "status": "ok",
       "method": "html",
       "items": [],
@@ -20,7 +20,7 @@
     {
       "name": "Live Design",
       "url": "https://www.livedesignonline.com/",
-      "checked_at": "2026-11-14T22:53:16.561229+00:00",
+      "checked_at": "2026-11-15T09:49:05.673354+00:00",
       "status": "error",
       "method": null,
       "items": [],
@@ -29,7 +29,7 @@
     {
       "name": "Moment Factory",
       "url": "https://momentfactory.com/",
-      "checked_at": "2026-11-14T22:53:16.561229+00:00",
+      "checked_at": "2026-11-15T09:49:05.673354+00:00",
       "status": "error",
       "method": null,
       "items": [],
@@ -38,7 +38,7 @@
     {
       "name": "OISTAT",
       "url": "https://oistat.org/",
-      "checked_at": "2026-11-14T22:53:16.561229+00:00",
+      "checked_at": "2026-11-15T09:49:05.673354+00:00",
       "status": "ok",
       "method": "html",
       "items": [
@@ -54,7 +54,7 @@
     {
       "name": "ShowTex",
       "url": "https://www.showtex.com/fr/projets",
-      "checked_at": "2026-11-14T22:53:16.561229+00:00",
+      "checked_at": "2026-11-15T09:49:05.673354+00:00",
       "status": "ok",
       "method": "html",
       "items": [
@@ -208,7 +208,7 @@
     {
       "name": "STIRworld Stage Design",
       "url": "https://www.stirworld.com/tags/stage-design",
-      "checked_at": "2026-11-14T22:53:16.561229+00:00",
+      "checked_at": "2026-11-15T09:49:05.673354+00:00",
       "status": "ok",
       "method": "html",
       "items": [
@@ -230,7 +230,7 @@
     {
       "name": "STUFISH",
       "url": "https://stufish.com/projects/",
-      "checked_at": "2026-11-14T22:53:16.561229+00:00",
+      "checked_at": "2026-11-15T09:49:05.673354+00:00",
       "status": "ok",
       "method": "html",
       "items": [],
@@ -239,7 +239,7 @@
     {
       "name": "TAIT",
       "url": "https://www.taittowers.com/",
-      "checked_at": "2026-11-14T22:53:16.561229+00:00",
+      "checked_at": "2026-11-15T09:49:05.673354+00:00",
       "status": "ok",
       "method": "html",
       "items": [],
@@ -248,7 +248,7 @@
     {
       "name": "TPI Magazine",
       "url": "https://www.tpimagazine.com/",
-      "checked_at": "2026-11-14T22:53:16.561229+00:00",
+      "checked_at": "2026-11-15T09:49:05.673354+00:00",
       "status": "ok",
       "method": "html",
       "items": [
@@ -282,7 +282,7 @@
     {
       "name": "World Stage Design",
       "url": "https://www.worldstagedesign.com/",
-      "checked_at": "2026-11-14T22:53:16.561229+00:00",
+      "checked_at": "2026-11-15T09:49:05.673354+00:00",
       "status": "error",
       "method": null,
       "items": [],
@@ -291,7 +291,7 @@
     {
       "name": "NewscastStudio",
       "url": "https://www.newscaststudio.com/category/set-design/",
-      "checked_at": "2026-11-14T22:53:16.561229+00:00",
+      "checked_at": "2026-11-15T09:49:05.673354+00:00",
       "status": "error",
       "method": null,
       "items": [],
@@ -300,7 +300,7 @@
     {
       "name": "Brand New",
       "url": "https://www.underconsideration.com/brandnew/",
-      "checked_at": "2026-11-14T22:53:16.561229+00:00",
+      "checked_at": "2026-11-15T09:49:05.673354+00:00",
       "status": "ok",
       "method": "html",
       "items": [
@@ -316,7 +316,7 @@
     {
       "name": "Creative Review",
       "url": "https://www.creativereview.co.uk/",
-      "checked_at": "2026-11-14T22:53:16.561229+00:00",
+      "checked_at": "2026-11-15T09:49:05.673354+00:00",
       "status": "error",
       "method": null,
       "items": [],
@@ -325,7 +325,7 @@
     {
       "name": "EyeCandy",
       "url": "https://eyecannndy.com/",
-      "checked_at": "2026-11-14T22:53:16.561229+00:00",
+      "checked_at": "2026-11-15T09:49:05.673354+00:00",
       "status": "ok",
       "method": "html",
       "items": [],
@@ -334,7 +334,7 @@
     {
       "name": "It's Nice That",
       "url": "https://www.itsnicethat.com/",
-      "checked_at": "2026-11-14T22:53:16.561229+00:00",
+      "checked_at": "2026-11-15T09:49:05.673354+00:00",
       "status": "ok",
       "method": "rss",
       "items": [
@@ -465,7 +465,7 @@
     {
       "name": "Ads of the World",
       "url": "https://www.adsoftheworld.com/",
-      "checked_at": "2026-11-14T22:53:16.561229+00:00",
+      "checked_at": "2026-11-15T09:49:05.673354+00:00",
       "status": "error",
       "method": null,
       "items": [],
@@ -474,7 +474,7 @@
     {
       "name": "D&AD",
       "url": "https://www.dandad.org/",
-      "checked_at": "2026-11-14T22:53:16.561229+00:00",
+      "checked_at": "2026-11-15T09:49:05.673354+00:00",
       "status": "ok",
       "method": "html",
       "items": [
@@ -490,7 +490,7 @@
     {
       "name": "Design Indaba",
       "url": "https://www.designindaba.com/",
-      "checked_at": "2026-11-14T22:53:16.561229+00:00",
+      "checked_at": "2026-11-15T09:49:05.673354+00:00",
       "status": "ok",
       "method": "html",
       "items": [
@@ -543,12 +543,6 @@
           "description": ""
         },
         {
-          "title": "ayse birsel and bibi seck different stages product design",
-          "url": "https://www.designindaba.com/videos/conference-talks/ayse-birsel-and-bibi-seck-different-stages-product-design",
-          "date": "",
-          "description": ""
-        },
-        {
           "title": "visualisation reality",
           "url": "https://www.designindaba.com/articles/creative-work/visualisation-reality",
           "date": "",
@@ -560,7 +554,7 @@
     {
       "name": "LIONS The Work",
       "url": "https://www.lovethework.com/",
-      "checked_at": "2026-11-14T22:53:16.561229+00:00",
+      "checked_at": "2026-11-15T09:49:05.673354+00:00",
       "status": "ok",
       "method": "html",
       "items": [],
@@ -569,7 +563,7 @@
     {
       "name": "Little Black Book",
       "url": "https://www.lbbonline.com/",
-      "checked_at": "2026-11-14T22:53:16.561229+00:00",
+      "checked_at": "2026-11-15T09:49:05.673354+00:00",
       "status": "ok",
       "method": "rss",
       "items": [
@@ -700,7 +694,7 @@
     {
       "name": "ArchDaily",
       "url": "https://www.archdaily.com/",
-      "checked_at": "2026-11-14T22:53:16.561229+00:00",
+      "checked_at": "2026-11-15T09:49:05.673354+00:00",
       "status": "error",
       "method": null,
       "items": [],
@@ -709,7 +703,7 @@
     {
       "name": "Designboom",
       "url": "https://www.designboom.com/",
-      "checked_at": "2026-11-14T22:53:16.561229+00:00",
+      "checked_at": "2026-11-15T09:49:05.673354+00:00",
       "status": "ok",
       "method": "html",
       "items": [],
@@ -718,7 +712,7 @@
     {
       "name": "Dezeen",
       "url": "https://www.dezeen.com/",
-      "checked_at": "2026-11-14T22:53:16.561229+00:00",
+      "checked_at": "2026-11-15T09:49:05.673354+00:00",
       "status": "error",
       "method": null,
       "items": [],
@@ -727,7 +721,7 @@
     {
       "name": "STIRworld",
       "url": "https://www.stirworld.com/",
-      "checked_at": "2026-11-14T22:53:16.561229+00:00",
+      "checked_at": "2026-11-15T09:49:05.673354+00:00",
       "status": "ok",
       "method": "html",
       "items": [
@@ -755,7 +749,7 @@
     {
       "name": "Bureau Betak",
       "url": "https://www.bureaubetak.com/",
-      "checked_at": "2026-11-14T22:53:16.561229+00:00",
+      "checked_at": "2026-11-15T09:49:05.673354+00:00",
       "status": "ok",
       "method": "html",
       "items": [],
@@ -764,7 +758,7 @@
     {
       "name": "Gentle Monster",
       "url": "https://www.gentlemonster.com/",
-      "checked_at": "2026-11-14T22:53:16.561229+00:00",
+      "checked_at": "2026-11-15T09:49:05.673354+00:00",
       "status": "error",
       "method": null,
       "items": [],
@@ -773,7 +767,7 @@
     {
       "name": "Mazarine",
       "url": "https://www.mazarine.com/",
-      "checked_at": "2026-11-14T22:53:16.561229+00:00",
+      "checked_at": "2026-11-15T09:49:05.673354+00:00",
       "status": "ok",
       "method": "html",
       "items": [
@@ -789,7 +783,7 @@
     {
       "name": "FOOH.com",
       "url": "https://www.fooh.com/",
-      "checked_at": "2026-11-14T22:53:16.561229+00:00",
+      "checked_at": "2026-11-15T09:49:05.673354+00:00",
       "status": "ok",
       "method": "html",
       "items": [
@@ -800,8 +794,8 @@
           "description": ""
         },
         {
-          "title": "redbean runway visuals orchard row fashion week af1896fc",
-          "url": "https://fooh.com/library/redbean-runway-visuals-orchard-row-fashion-week-af1896fc",
+          "title": "real time live visuals b4e6f9d5",
+          "url": "https://fooh.com/library/real-time-live-visuals-b4e6f9d5",
           "date": "",
           "description": ""
         }
@@ -811,7 +805,7 @@
     {
       "name": "JCDecaux",
       "url": "https://www.jcdecaux.fr/",
-      "checked_at": "2026-11-14T22:53:16.561229+00:00",
+      "checked_at": "2026-11-15T09:49:05.673354+00:00",
       "status": "ok",
       "method": "html",
       "items": [],
@@ -820,7 +814,7 @@
     {
       "name": "KOSMO CGI",
       "url": "https://www.kosmocgi.com/",
-      "checked_at": "2026-11-14T22:53:16.561229+00:00",
+      "checked_at": "2026-11-15T09:49:05.673354+00:00",
       "status": "ok",
       "method": "html",
       "items": [],
@@ -829,7 +823,7 @@
     {
       "name": "Ocean Outdoor",
       "url": "https://oceanoutdoor.com/",
-      "checked_at": "2026-11-14T22:53:16.561229+00:00",
+      "checked_at": "2026-11-15T09:49:05.673354+00:00",
       "status": "ok",
       "method": "html",
       "items": [],
@@ -838,7 +832,7 @@
     {
       "name": "Art of the Title",
       "url": "https://www.artofthetitle.com/",
-      "checked_at": "2026-11-14T22:53:16.561229+00:00",
+      "checked_at": "2026-11-15T09:49:05.673354+00:00",
       "status": "ok",
       "method": "html",
       "items": [],
@@ -847,7 +841,7 @@
     {
       "name": "Motionographer",
       "url": "https://www.motionographer.com/",
-      "checked_at": "2026-11-14T22:53:16.561229+00:00",
+      "checked_at": "2026-11-15T09:49:05.673354+00:00",
       "status": "error",
       "method": null,
       "items": [],
@@ -856,7 +850,7 @@
     {
       "name": "Stash",
       "url": "https://www.stashmedia.tv/",
-      "checked_at": "2026-11-14T22:53:16.561229+00:00",
+      "checked_at": "2026-11-15T09:49:05.673354+00:00",
       "status": "ok",
       "method": "rss",
       "items": [
@@ -903,7 +897,7 @@
     {
       "name": "Superbien",
       "url": "https://www.superbien.com/",
-      "checked_at": "2026-11-14T22:53:16.561229+00:00",
+      "checked_at": "2026-11-15T09:49:05.673354+00:00",
       "status": "ok",
       "method": "html",
       "items": [],
@@ -912,7 +906,7 @@
     {
       "name": "teamLab",
       "url": "https://www.teamlab.art/",
-      "checked_at": "2026-11-14T22:53:16.561229+00:00",
+      "checked_at": "2026-11-15T09:49:05.673354+00:00",
       "status": "ok",
       "method": "html",
       "items": [],
@@ -921,7 +915,7 @@
     {
       "name": "Light ZOOM Lumière",
       "url": "https://www.lightzoomlumiere.fr/",
-      "checked_at": "2026-11-14T22:53:16.561229+00:00",
+      "checked_at": "2026-11-15T09:49:05.673354+00:00",
       "status": "ok",
       "method": "html",
       "items": [],
@@ -930,7 +924,7 @@
     {
       "name": "Revue AS",
       "url": "https://www.revue-as.fr/",
-      "checked_at": "2026-11-14T22:53:16.561229+00:00",
+      "checked_at": "2026-11-15T09:49:05.673354+00:00",
       "status": "ok",
       "method": "html",
       "items": [],
@@ -939,7 +933,7 @@
     {
       "name": "Contagious",
       "url": "https://www.contagious.com/",
-      "checked_at": "2026-11-14T22:53:16.561229+00:00",
+      "checked_at": "2026-11-15T09:49:05.673354+00:00",
       "status": "ok",
       "method": "html",
       "items": [],
@@ -948,7 +942,7 @@
     {
       "name": "Effie Worldwide",
       "url": "https://www.effie.org/",
-      "checked_at": "2026-11-14T22:53:16.561229+00:00",
+      "checked_at": "2026-11-15T09:49:05.673354+00:00",
       "status": "ok",
       "method": "html",
       "items": [],
@@ -957,7 +951,7 @@
     {
       "name": "System1",
       "url": "https://system1group.com/",
-      "checked_at": "2026-11-14T22:53:16.561229+00:00",
+      "checked_at": "2026-11-15T09:49:05.673354+00:00",
       "status": "ok",
       "method": "html",
       "items": [
@@ -979,7 +973,7 @@
     {
       "name": "WARC",
       "url": "https://www.warc.com/",
-      "checked_at": "2026-11-14T22:53:16.561229+00:00",
+      "checked_at": "2026-11-15T09:49:05.673354+00:00",
       "status": "ok",
       "method": "html",
       "items": [],
@@ -988,7 +982,7 @@
     {
       "name": "COLLINS",
       "url": "https://www.wearecollins.com/",
-      "checked_at": "2026-11-14T22:53:16.561229+00:00",
+      "checked_at": "2026-11-15T09:49:05.673354+00:00",
       "status": "ok",
       "method": "html",
       "items": [],
@@ -997,7 +991,7 @@
     {
       "name": "Koto",
       "url": "https://koto.studio/",
-      "checked_at": "2026-11-14T22:53:16.561229+00:00",
+      "checked_at": "2026-11-15T09:49:05.673354+00:00",
       "status": "ok",
       "method": "html",
       "items": [],
@@ -1006,7 +1000,7 @@
     {
       "name": "Pentagram",
       "url": "https://www.pentagram.com/work",
-      "checked_at": "2026-11-14T22:53:16.561229+00:00",
+      "checked_at": "2026-11-15T09:49:05.673354+00:00",
       "status": "ok",
       "method": "html",
       "items": [
@@ -1040,7 +1034,7 @@
     {
       "name": "Studio Dumbar",
       "url": "https://studiodumbar.com/",
-      "checked_at": "2026-11-14T22:53:16.561229+00:00",
+      "checked_at": "2026-11-15T09:49:05.673354+00:00",
       "status": "ok",
       "method": "html",
       "items": [],
@@ -1049,7 +1043,7 @@
     {
       "name": "Club des DA",
       "url": "https://www.leclubdesda.org/",
-      "checked_at": "2026-11-14T22:53:16.561229+00:00",
+      "checked_at": "2026-11-15T09:49:05.673354+00:00",
       "status": "ok",
       "method": "html",
       "items": [],
@@ -1058,7 +1052,7 @@
     {
       "name": "Graphéine",
       "url": "https://www.grapheine.com/",
-      "checked_at": "2026-11-14T22:53:16.561229+00:00",
+      "checked_at": "2026-11-15T09:49:05.673354+00:00",
       "status": "ok",
       "method": "html",
       "items": [],
@@ -1067,7 +1061,7 @@
     {
       "name": "La Réclame",
       "url": "https://lareclame.fr/",
-      "checked_at": "2026-11-14T22:53:16.561229+00:00",
+      "checked_at": "2026-11-15T09:49:05.673354+00:00",
       "status": "error",
       "method": null,
       "items": [],
@@ -1076,7 +1070,7 @@
     {
       "name": "Stratégies",
       "url": "https://www.strategies.fr/",
-      "checked_at": "2026-11-14T22:53:16.561229+00:00",
+      "checked_at": "2026-11-15T09:49:05.673354+00:00",
       "status": "ok",
       "method": "html",
       "items": [
@@ -1098,7 +1092,7 @@
     {
       "name": "Cirque du Soleil",
       "url": "https://www.cirquedusoleil.com/",
-      "checked_at": "2026-11-14T22:53:16.561229+00:00",
+      "checked_at": "2026-11-15T09:49:05.673354+00:00",
       "status": "ok",
       "method": "html",
       "items": [],
@@ -1107,7 +1101,7 @@
     {
       "name": "CREACTION Studio",
       "url": "https://www.creactionstudio.com/",
-      "checked_at": "2026-11-14T22:53:16.561229+00:00",
+      "checked_at": "2026-11-15T09:49:05.673354+00:00",
       "status": "ok",
       "method": "html",
       "items": [],
@@ -1116,7 +1110,7 @@
     {
       "name": "Dragone",
       "url": "https://www.dragone.com/",
-      "checked_at": "2026-11-14T22:53:16.561229+00:00",
+      "checked_at": "2026-11-15T09:49:05.673354+00:00",
       "status": "error",
       "method": null,
       "items": [],
@@ -1125,7 +1119,7 @@
     {
       "name": "LSi",
       "url": "https://www.lsionline.com/",
-      "checked_at": "2026-11-14T22:53:16.561229+00:00",
+      "checked_at": "2026-11-15T09:49:05.673354+00:00",
       "status": "ok",
       "method": "html",
       "items": [],
@@ -1134,7 +1128,7 @@
     {
       "name": "LUZ Studio",
       "url": "https://luzstudio.com/",
-      "checked_at": "2026-11-14T22:53:16.561229+00:00",
+      "checked_at": "2026-11-15T09:49:05.673354+00:00",
       "status": "ok",
       "method": "html",
       "items": [
@@ -1156,7 +1150,7 @@
     {
       "name": "PLSN",
       "url": "https://plsn.com/",
-      "checked_at": "2026-11-14T22:53:16.561229+00:00",
+      "checked_at": "2026-11-15T09:49:05.673354+00:00",
       "status": "ok",
       "method": "html",
       "items": [],
@@ -1165,7 +1159,7 @@
     {
       "name": "Brompton Technology",
       "url": "https://www.bromptontech.com/",
-      "checked_at": "2026-11-14T22:53:16.561229+00:00",
+      "checked_at": "2026-11-15T09:49:05.673354+00:00",
       "status": "error",
       "method": null,
       "items": [],
@@ -1174,7 +1168,7 @@
     {
       "name": "Devlin Design Group",
       "url": "https://www.devlin-design.com/",
-      "checked_at": "2026-11-14T22:53:16.561229+00:00",
+      "checked_at": "2026-11-15T09:49:05.673354+00:00",
       "status": "ok",
       "method": "html",
       "items": [],
@@ -1183,7 +1177,7 @@
     {
       "name": "disguise",
       "url": "https://www.disguise.one/",
-      "checked_at": "2026-11-14T22:53:16.561229+00:00",
+      "checked_at": "2026-11-15T09:49:05.673354+00:00",
       "status": "ok",
       "method": "html",
       "items": [
@@ -1217,7 +1211,7 @@
     {
       "name": "Ross Video",
       "url": "https://www.rossvideo.com/",
-      "checked_at": "2026-11-14T22:53:16.561229+00:00",
+      "checked_at": "2026-11-15T09:49:05.673354+00:00",
       "status": "ok",
       "method": "html",
       "items": [],
@@ -1226,7 +1220,7 @@
     {
       "name": "Vizrt",
       "url": "https://www.vizrt.com/",
-      "checked_at": "2026-11-14T22:53:16.561229+00:00",
+      "checked_at": "2026-11-15T09:49:05.673354+00:00",
       "status": "error",
       "method": null,
       "items": [],
@@ -1235,7 +1229,7 @@
     {
       "name": "Zero Density",
       "url": "https://www.zerodensity.tv/",
-      "checked_at": "2026-11-14T22:53:16.561229+00:00",
+      "checked_at": "2026-11-15T09:49:05.673354+00:00",
       "status": "error",
       "method": null,
       "items": [],
@@ -1244,7 +1238,7 @@
     {
       "name": "Are.na",
       "url": "https://www.are.na/",
-      "checked_at": "2026-11-14T22:53:16.561229+00:00",
+      "checked_at": "2026-11-15T09:49:05.673354+00:00",
       "status": "ok",
       "method": "html",
       "items": [],
@@ -1253,16 +1247,16 @@
     {
       "name": "Awwwards",
       "url": "https://www.awwwards.com/",
-      "checked_at": "2026-11-14T22:53:16.561229+00:00",
-      "status": "error",
-      "method": null,
+      "checked_at": "2026-11-15T09:49:05.673354+00:00",
+      "status": "ok",
+      "method": "html",
       "items": [],
-      "error": "<urlopen error [Errno 101] Network is unreachable>"
+      "evidence_url": "https://www.awwwards.com/"
     },
     {
       "name": "Behance",
       "url": "https://www.behance.net/",
-      "checked_at": "2026-11-14T22:53:16.561229+00:00",
+      "checked_at": "2026-11-15T09:49:05.673354+00:00",
       "status": "error",
       "method": null,
       "items": [],
@@ -1271,7 +1265,7 @@
     {
       "name": "BP&O",
       "url": "https://bpando.org/",
-      "checked_at": "2026-11-14T22:53:16.561229+00:00",
+      "checked_at": "2026-11-15T09:49:05.673354+00:00",
       "status": "ok",
       "method": "html",
       "items": [],
@@ -1280,7 +1274,7 @@
     {
       "name": "Creative Boom",
       "url": "https://www.creativeboom.com/",
-      "checked_at": "2026-11-14T22:53:16.561229+00:00",
+      "checked_at": "2026-11-15T09:49:05.673354+00:00",
       "status": "ok",
       "method": "html",
       "items": [],
@@ -1289,7 +1283,7 @@
     {
       "name": "Dieline",
       "url": "https://thedieline.com/",
-      "checked_at": "2026-11-14T22:53:16.561229+00:00",
+      "checked_at": "2026-11-15T09:49:05.673354+00:00",
       "status": "error",
       "method": null,
       "items": [],
@@ -1298,7 +1292,7 @@
     {
       "name": "Fonts In Use",
       "url": "https://fontsinuse.com/",
-      "checked_at": "2026-11-14T22:53:16.561229+00:00",
+      "checked_at": "2026-11-15T09:49:05.673354+00:00",
       "status": "ok",
       "method": "html",
       "items": [
@@ -1326,29 +1320,16 @@
     {
       "name": "The Brand Identity",
       "url": "https://the-brandidentity.com/",
-      "checked_at": "2026-11-14T22:53:16.561229+00:00",
+      "checked_at": "2026-11-15T09:49:05.673354+00:00",
       "status": "ok",
       "method": "html",
-      "items": [
-        {
-          "title": "showcase 17 jitter template",
-          "url": "https://the-brandidentity.com/store/product/showcase-17-jitter-template",
-          "date": "",
-          "description": ""
-        },
-        {
-          "title": "darling visual communications playful identity gen avoids typical fitness brand stereotypes",
-          "url": "https://the-brandidentity.com/project/darling-visual-communications-playful-identity-gen-avoids-typical-fitness-brand-stereotypes",
-          "date": "",
-          "description": ""
-        }
-      ],
+      "items": [],
       "evidence_url": "https://the-brandidentity.com/"
     },
     {
       "name": "Ad Age",
       "url": "https://adage.com/",
-      "checked_at": "2026-11-14T22:53:16.561229+00:00",
+      "checked_at": "2026-11-15T09:49:05.673354+00:00",
       "status": "error",
       "method": null,
       "items": [],
@@ -1357,7 +1338,7 @@
     {
       "name": "Campaign Asia",
       "url": "https://www.campaignasia.com/",
-      "checked_at": "2026-11-14T22:53:16.561229+00:00",
+      "checked_at": "2026-11-15T09:49:05.673354+00:00",
       "status": "ok",
       "method": "html",
       "items": [
@@ -1379,7 +1360,7 @@
     {
       "name": "Campaign Middle East",
       "url": "https://campaignme.com/",
-      "checked_at": "2026-11-14T22:53:16.561229+00:00",
+      "checked_at": "2026-11-15T09:49:05.673354+00:00",
       "status": "ok",
       "method": "html",
       "items": [
@@ -1407,7 +1388,7 @@
     {
       "name": "Clio Awards",
       "url": "https://clios.com/",
-      "checked_at": "2026-11-14T22:53:16.561229+00:00",
+      "checked_at": "2026-11-15T09:49:05.673354+00:00",
       "status": "ok",
       "method": "html",
       "items": [],
@@ -1416,7 +1397,7 @@
     {
       "name": "The Drum",
       "url": "https://www.thedrum.com/",
-      "checked_at": "2026-11-14T22:53:16.561229+00:00",
+      "checked_at": "2026-11-15T09:49:05.673354+00:00",
       "status": "error",
       "method": null,
       "items": [],
@@ -1425,7 +1406,7 @@
     {
       "name": "The One Club",
       "url": "https://www.oneclub.org/",
-      "checked_at": "2026-11-14T22:53:16.561229+00:00",
+      "checked_at": "2026-11-15T09:49:05.673354+00:00",
       "status": "ok",
       "method": "html",
       "items": [],
@@ -1434,7 +1415,7 @@
     {
       "name": "Artforum",
       "url": "https://www.artforum.com/",
-      "checked_at": "2026-11-14T22:53:16.561229+00:00",
+      "checked_at": "2026-11-15T09:49:05.673354+00:00",
       "status": "ok",
       "method": "html",
       "items": [],
@@ -1443,7 +1424,7 @@
     {
       "name": "Colossal",
       "url": "https://www.thisiscolossal.com/",
-      "checked_at": "2026-11-14T22:53:16.561229+00:00",
+      "checked_at": "2026-11-15T09:49:05.673354+00:00",
       "status": "ok",
       "method": "html",
       "items": [],
@@ -1452,7 +1433,7 @@
     {
       "name": "e-flux",
       "url": "https://www.e-flux.com/",
-      "checked_at": "2026-11-14T22:53:16.561229+00:00",
+      "checked_at": "2026-11-15T09:49:05.673354+00:00",
       "status": "ok",
       "method": "html",
       "items": [
@@ -1468,7 +1449,7 @@
     {
       "name": "Frame",
       "url": "https://frameweb.com/",
-      "checked_at": "2026-11-14T22:53:16.561229+00:00",
+      "checked_at": "2026-11-15T09:49:05.673354+00:00",
       "status": "ok",
       "method": "html",
       "items": [],
@@ -1477,7 +1458,7 @@
     {
       "name": "METALOCUS",
       "url": "https://www.metalocus.es/en",
-      "checked_at": "2026-11-14T22:53:16.561229+00:00",
+      "checked_at": "2026-11-15T09:49:05.673354+00:00",
       "status": "ok",
       "method": "html",
       "items": [
@@ -1511,7 +1492,7 @@
     {
       "name": "Wallpaper",
       "url": "https://www.wallpaper.com/",
-      "checked_at": "2026-11-14T22:53:16.561229+00:00",
+      "checked_at": "2026-11-15T09:49:05.673354+00:00",
       "status": "error",
       "method": null,
       "items": [],
@@ -1520,7 +1501,7 @@
     {
       "name": "Gentle Monster — Haus Dosan",
       "url": "https://www.gentlemonster.com/legacy/story/en/haus-dosan.html",
-      "checked_at": "2026-11-14T22:53:16.561229+00:00",
+      "checked_at": "2026-11-15T09:49:05.673354+00:00",
       "status": "ok",
       "method": "html",
       "items": [],
@@ -1529,7 +1510,7 @@
     {
       "name": "Gentle Monster — Haus Nowhere Seoul",
       "url": "https://curin.io/projects/haus-nowhere-seoul",
-      "checked_at": "2026-11-14T22:53:16.561229+00:00",
+      "checked_at": "2026-11-15T09:49:05.673354+00:00",
       "status": "ok",
       "method": "html",
       "items": [],
@@ -1538,7 +1519,7 @@
     {
       "name": "Gentle Monster — Haus Nowhere Shenzhen",
       "url": "https://www.gentlemonster.com/legacy/story/en/hausnowhere-shenzhen.html",
-      "checked_at": "2026-11-14T22:53:16.561229+00:00",
+      "checked_at": "2026-11-15T09:49:05.673354+00:00",
       "status": "ok",
       "method": "html",
       "items": [],
@@ -1547,7 +1528,7 @@
     {
       "name": "Gentle Monster — Haus Shanghai",
       "url": "https://www.gentlemonster.com/legacy/story/en/haus-shanghai.html",
-      "checked_at": "2026-11-14T22:53:16.561229+00:00",
+      "checked_at": "2026-11-15T09:49:05.673354+00:00",
       "status": "ok",
       "method": "html",
       "items": [],
@@ -1556,7 +1537,7 @@
     {
       "name": "George P. Johnson",
       "url": "https://www.gpj.com/",
-      "checked_at": "2026-11-14T22:53:16.561229+00:00",
+      "checked_at": "2026-11-15T09:49:05.673354+00:00",
       "status": "ok",
       "method": "html",
       "items": [],
@@ -1565,7 +1546,7 @@
     {
       "name": "Imagination",
       "url": "https://imagination.com/",
-      "checked_at": "2026-11-14T22:53:16.561229+00:00",
+      "checked_at": "2026-11-15T09:49:05.673354+00:00",
       "status": "ok",
       "method": "html",
       "items": [],
@@ -1574,7 +1555,7 @@
     {
       "name": "Jack Morton",
       "url": "https://jackmorton.com/",
-      "checked_at": "2026-11-14T22:53:16.561229+00:00",
+      "checked_at": "2026-11-15T09:49:05.673354+00:00",
       "status": "ok",
       "method": "html",
       "items": [],
@@ -1583,7 +1564,7 @@
     {
       "name": "Nudake",
       "url": "https://www.nudake.com/",
-      "checked_at": "2026-11-14T22:53:16.561229+00:00",
+      "checked_at": "2026-11-15T09:49:05.673354+00:00",
       "status": "ok",
       "method": "html",
       "items": [],
@@ -1592,7 +1573,7 @@
     {
       "name": "Studio BK",
       "url": "https://studio-bk.com/",
-      "checked_at": "2026-11-14T22:53:16.561229+00:00",
+      "checked_at": "2026-11-15T09:49:05.673354+00:00",
       "status": "ok",
       "method": "html",
       "items": [],
@@ -1601,7 +1582,7 @@
     {
       "name": "Tamburins",
       "url": "https://www.tamburins.com/",
-      "checked_at": "2026-11-14T22:53:16.561229+00:00",
+      "checked_at": "2026-11-15T09:49:05.673354+00:00",
       "status": "ok",
       "method": "html",
       "items": [],
@@ -1610,7 +1591,7 @@
     {
       "name": "Villa Eugénie",
       "url": "https://www.villaeugenie.com/",
-      "checked_at": "2026-11-14T22:53:16.561229+00:00",
+      "checked_at": "2026-11-15T09:49:05.673354+00:00",
       "status": "ok",
       "method": "html",
       "items": [
@@ -1656,7 +1637,7 @@
     {
       "name": "AC3 Studio",
       "url": "https://ac3-studio.com/studio",
-      "checked_at": "2026-11-14T22:53:16.561229+00:00",
+      "checked_at": "2026-11-15T09:49:05.673354+00:00",
       "status": "ok",
       "method": "html",
       "items": [],
@@ -1665,7 +1646,7 @@
     {
       "name": "DOOH.com",
       "url": "https://dooh.com/",
-      "checked_at": "2026-11-14T22:53:16.561229+00:00",
+      "checked_at": "2026-11-15T09:49:05.673354+00:00",
       "status": "ok",
       "method": "html",
       "items": [],
@@ -1674,7 +1655,7 @@
     {
       "name": "Grand Visual",
       "url": "https://grandvisual.com/",
-      "checked_at": "2026-11-14T22:53:16.561229+00:00",
+      "checked_at": "2026-11-15T09:49:05.673354+00:00",
       "status": "ok",
       "method": "html",
       "items": [],
@@ -1683,7 +1664,7 @@
     {
       "name": "Origiful",
       "url": "https://www.origiful.com/",
-      "checked_at": "2026-11-14T22:53:16.561229+00:00",
+      "checked_at": "2026-11-15T09:49:05.673354+00:00",
       "status": "ok",
       "method": "html",
       "items": [],
@@ -1692,7 +1673,7 @@
     {
       "name": "World Out of Home Organization",
       "url": "https://www.worldooh.org/",
-      "checked_at": "2026-11-14T22:53:16.561229+00:00",
+      "checked_at": "2026-11-15T09:49:05.673354+00:00",
       "status": "ok",
       "method": "html",
       "items": [
@@ -1708,7 +1689,7 @@
     {
       "name": "404.zero",
       "url": "https://404zero.com/",
-      "checked_at": "2026-11-14T22:53:16.561229+00:00",
+      "checked_at": "2026-11-15T09:49:05.673354+00:00",
       "status": "ok",
       "method": "html",
       "items": [],
@@ -1717,7 +1698,7 @@
     {
       "name": "Marshmallow Laser Feast",
       "url": "https://www.marshmallowlaserfeast.com/",
-      "checked_at": "2026-11-14T22:53:16.561229+00:00",
+      "checked_at": "2026-11-15T09:49:05.673354+00:00",
       "status": "ok",
       "method": "html",
       "items": [],
@@ -1726,7 +1707,7 @@
     {
       "name": "NONOTAK",
       "url": "https://www.nonotak.com/",
-      "checked_at": "2026-11-14T22:53:16.561229+00:00",
+      "checked_at": "2026-11-15T09:49:05.673354+00:00",
       "status": "ok",
       "method": "html",
       "items": [
@@ -1748,7 +1729,7 @@
     {
       "name": "Notch",
       "url": "https://www.notch.one/",
-      "checked_at": "2026-11-14T22:53:16.561229+00:00",
+      "checked_at": "2026-11-15T09:49:05.673354+00:00",
       "status": "ok",
       "method": "html",
       "items": [
@@ -1764,7 +1745,7 @@
     {
       "name": "onedotzero",
       "url": "https://www.onedotzero.com/",
-      "checked_at": "2026-11-14T22:53:16.561229+00:00",
+      "checked_at": "2026-11-15T09:49:05.673354+00:00",
       "status": "ok",
       "method": "html",
       "items": [
@@ -1780,7 +1761,7 @@
     {
       "name": "Resolume",
       "url": "https://resolume.com/",
-      "checked_at": "2026-11-14T22:53:16.561229+00:00",
+      "checked_at": "2026-11-15T09:49:05.673354+00:00",
       "status": "ok",
       "method": "html",
       "items": [],
@@ -1789,7 +1770,7 @@
     {
       "name": "Smode",
       "url": "https://www.smode.io/",
-      "checked_at": "2026-11-14T22:53:16.561229+00:00",
+      "checked_at": "2026-11-15T09:49:05.673354+00:00",
       "status": "ok",
       "method": "html",
       "items": [
@@ -1883,7 +1864,7 @@
     {
       "name": "TouchDesigner",
       "url": "https://derivative.ca/",
-      "checked_at": "2026-11-14T22:53:16.561229+00:00",
+      "checked_at": "2026-11-15T09:49:05.673354+00:00",
       "status": "ok",
       "method": "html",
       "items": [
@@ -1905,7 +1886,7 @@
     {
       "name": "United Visual Artists",
       "url": "https://uva.co.uk/",
-      "checked_at": "2026-11-14T22:53:16.561229+00:00",
+      "checked_at": "2026-11-15T09:49:05.673354+00:00",
       "status": "ok",
       "method": "html",
       "items": [
@@ -1927,7 +1908,7 @@
     {
       "name": "AFTER",
       "url": "https://www.after-france.fr/",
-      "checked_at": "2026-11-14T22:53:16.561229+00:00",
+      "checked_at": "2026-11-15T09:49:05.673354+00:00",
       "status": "ok",
       "method": "html",
       "items": [],
@@ -1936,7 +1917,7 @@
     {
       "name": "D/LABS",
       "url": "https://www.d-labs.fr/",
-      "checked_at": "2026-11-14T22:53:16.561229+00:00",
+      "checked_at": "2026-11-15T09:49:05.673354+00:00",
       "status": "ok",
       "method": "html",
       "items": [
@@ -1952,7 +1933,7 @@
     {
       "name": "FRATERCINÉ",
       "url": "https://www.fratercine.fr/",
-      "checked_at": "2026-11-14T22:53:16.561229+00:00",
+      "checked_at": "2026-11-15T09:49:05.673354+00:00",
       "status": "ok",
       "method": "html",
       "items": [
@@ -1968,7 +1949,7 @@
     {
       "name": "IDlia Studio",
       "url": "https://www.idlia.fr/",
-      "checked_at": "2026-11-14T22:53:16.561229+00:00",
+      "checked_at": "2026-11-15T09:49:05.673354+00:00",
       "status": "ok",
       "method": "html",
       "items": [
@@ -1984,7 +1965,7 @@
     {
       "name": "JTSE",
       "url": "https://www.jtse.fr/",
-      "checked_at": "2026-11-14T22:53:16.561229+00:00",
+      "checked_at": "2026-11-15T09:49:05.673354+00:00",
       "status": "ok",
       "method": "html",
       "items": [],
@@ -1993,7 +1974,7 @@
     {
       "name": "La Scène",
       "url": "https://www.lascene.com/",
-      "checked_at": "2026-11-14T22:53:16.561229+00:00",
+      "checked_at": "2026-11-15T09:49:05.673354+00:00",
       "status": "ok",
       "method": "html",
       "items": [
@@ -2056,24 +2037,6 @@
           "url": "https://www.lascene.com/infoscenes/auch-cirque-mobilise-pousse-cri-militant",
           "date": "",
           "description": ""
-        },
-        {
-          "title": "theatres",
-          "url": "https://www.lascene.com/index.php/decouvrir-nos-magazines/theatres",
-          "date": "",
-          "description": ""
-        },
-        {
-          "title": "lettre spectacle",
-          "url": "https://www.lascene.com/index.php/decouvrir-nos-magazines/lettre-spectacle",
-          "date": "",
-          "description": ""
-        },
-        {
-          "title": "sceneplus",
-          "url": "https://www.lascene.com/index.php/decouvrir-nos-magazines/sceneplus",
-          "date": "",
-          "description": ""
         }
       ],
       "evidence_url": "https://www.lascene.com/"
@@ -2081,7 +2044,7 @@
     {
       "name": "Seconde Design",
       "url": "https://www.seconde-design.com/",
-      "checked_at": "2026-11-14T22:53:16.561229+00:00",
+      "checked_at": "2026-11-15T09:49:05.673354+00:00",
       "status": "ok",
       "method": "html",
       "items": [],
@@ -2090,7 +2053,7 @@
     {
       "name": "Studio Carlos",
       "url": "https://studiocarlos.fr/",
-      "checked_at": "2026-11-14T22:53:16.561229+00:00",
+      "checked_at": "2026-11-15T09:49:05.673354+00:00",
       "status": "ok",
       "method": "html",
       "items": [],
@@ -2099,7 +2062,7 @@
     {
       "name": "Studio ÉNORME",
       "url": "https://www.studioenorme.com/",
-      "checked_at": "2026-11-14T22:53:16.561229+00:00",
+      "checked_at": "2026-11-15T09:49:05.673354+00:00",
       "status": "error",
       "method": null,
       "items": [],
@@ -2108,7 +2071,7 @@
     {
       "name": "Baymard Institute",
       "url": "https://baymard.com/",
-      "checked_at": "2026-11-14T22:53:16.561229+00:00",
+      "checked_at": "2026-11-15T09:49:05.673354+00:00",
       "status": "ok",
       "method": "rss",
       "items": [
@@ -2179,7 +2142,7 @@
     {
       "name": "Ehrenberg-Bass Institute",
       "url": "https://marketingscience.info/",
-      "checked_at": "2026-11-14T22:53:16.561229+00:00",
+      "checked_at": "2026-11-15T09:49:05.673354+00:00",
       "status": "ok",
       "method": "html",
       "items": [],
@@ -2188,7 +2151,7 @@
     {
       "name": "Google Trends",
       "url": "https://trends.google.com/",
-      "checked_at": "2026-11-14T22:53:16.561229+00:00",
+      "checked_at": "2026-11-15T09:49:05.673354+00:00",
       "status": "error",
       "method": null,
       "items": [],
@@ -2197,7 +2160,7 @@
     {
       "name": "IPA Effectiveness",
       "url": "https://ipa.co.uk/",
-      "checked_at": "2026-11-14T22:53:16.561229+00:00",
+      "checked_at": "2026-11-15T09:49:05.673354+00:00",
       "status": "ok",
       "method": "html",
       "items": [],
@@ -2206,7 +2169,7 @@
     {
       "name": "Kantar",
       "url": "https://www.kantar.com/",
-      "checked_at": "2026-11-14T22:53:16.561229+00:00",
+      "checked_at": "2026-11-15T09:49:05.673354+00:00",
       "status": "ok",
       "method": "html",
       "items": [],
@@ -2215,7 +2178,7 @@
     {
       "name": "Meta Ad Library",
       "url": "https://www.facebook.com/ads/library/",
-      "checked_at": "2026-11-14T22:53:16.561229+00:00",
+      "checked_at": "2026-11-15T09:49:05.673354+00:00",
       "status": "error",
       "method": null,
       "items": [],
@@ -2224,7 +2187,7 @@
     {
       "name": "Meta for Business",
       "url": "https://www.facebook.com/business/",
-      "checked_at": "2026-11-14T22:53:16.561229+00:00",
+      "checked_at": "2026-11-15T09:49:05.673354+00:00",
       "status": "ok",
       "method": "html",
       "items": [],
@@ -2233,7 +2196,7 @@
     {
       "name": "Nielsen Norman Group",
       "url": "https://www.nngroup.com/",
-      "checked_at": "2026-11-14T22:53:16.561229+00:00",
+      "checked_at": "2026-11-15T09:49:05.673354+00:00",
       "status": "ok",
       "method": "html",
       "items": [],
@@ -2242,7 +2205,7 @@
     {
       "name": "Think with Google",
       "url": "https://www.thinkwithgoogle.com/",
-      "checked_at": "2026-11-14T22:53:16.561229+00:00",
+      "checked_at": "2026-11-15T09:49:05.673354+00:00",
       "status": "ok",
       "method": "html",
       "items": [],
@@ -2251,7 +2214,7 @@
     {
       "name": "Thinkbox",
       "url": "https://www.thinkbox.tv/",
-      "checked_at": "2026-11-14T22:53:16.561229+00:00",
+      "checked_at": "2026-11-15T09:49:05.673354+00:00",
       "status": "ok",
       "method": "html",
       "items": [
@@ -2267,16 +2230,16 @@
     {
       "name": "TikTok Creative Center",
       "url": "https://ads.tiktok.com/business/creativecenter/",
-      "checked_at": "2026-11-14T22:53:16.561229+00:00",
+      "checked_at": "2026-11-15T09:49:05.673354+00:00",
       "status": "ok",
       "method": "html",
       "items": [],
-      "evidence_url": "https://ads.tiktok.com/creative/creativeCenter?rid=2rqp660tlnz"
+      "evidence_url": "https://ads.tiktok.com/creative/creativeCenter?rid=99o3zc6kxqp"
     },
     {
       "name": "AIGA Eye on Design",
       "url": "https://eyeondesign.aiga.org/",
-      "checked_at": "2026-11-14T22:53:16.561229+00:00",
+      "checked_at": "2026-11-15T09:49:05.673354+00:00",
       "status": "ok",
       "method": "html",
       "items": [],
@@ -2285,7 +2248,7 @@
     {
       "name": "Communication Arts",
       "url": "https://www.commarts.com/",
-      "checked_at": "2026-11-14T22:53:16.561229+00:00",
+      "checked_at": "2026-11-15T09:49:05.673354+00:00",
       "status": "ok",
       "method": "html",
       "items": [],
@@ -2294,7 +2257,7 @@
     {
       "name": "Design Observer",
       "url": "https://designobserver.com/",
-      "checked_at": "2026-11-14T22:53:16.561229+00:00",
+      "checked_at": "2026-11-15T09:49:05.673354+00:00",
       "status": "ok",
       "method": "html",
       "items": [],
@@ -2303,7 +2266,7 @@
     {
       "name": "DesignStudio",
       "url": "https://design.studio/",
-      "checked_at": "2026-11-14T22:53:16.561229+00:00",
+      "checked_at": "2026-11-15T09:49:05.673354+00:00",
       "status": "ok",
       "method": "html",
       "items": [],
@@ -2312,7 +2275,7 @@
     {
       "name": "Experimental Jetset",
       "url": "https://experimentaljetset.nl/",
-      "checked_at": "2026-11-14T22:53:16.561229+00:00",
+      "checked_at": "2026-11-15T09:49:05.673354+00:00",
       "status": "error",
       "method": null,
       "items": [],
@@ -2321,7 +2284,7 @@
     {
       "name": "Mindsparkle Mag",
       "url": "https://mindsparklemag.com/",
-      "checked_at": "2026-11-14T22:53:16.561229+00:00",
+      "checked_at": "2026-11-15T09:49:05.673354+00:00",
       "status": "ok",
       "method": "html",
       "items": [
@@ -2337,7 +2300,7 @@
     {
       "name": "Mucho",
       "url": "https://wearemucho.com/",
-      "checked_at": "2026-11-14T22:53:16.561229+00:00",
+      "checked_at": "2026-11-15T09:49:05.673354+00:00",
       "status": "ok",
       "method": "html",
       "items": [
@@ -2353,7 +2316,7 @@
     {
       "name": "Print Magazine",
       "url": "https://www.printmag.com/",
-      "checked_at": "2026-11-14T22:53:16.561229+00:00",
+      "checked_at": "2026-11-15T09:49:05.673354+00:00",
       "status": "ok",
       "method": "html",
       "items": [
@@ -2369,7 +2332,7 @@
     {
       "name": "The Designers Republic",
       "url": "https://www.thedesignersrepublic.com/",
-      "checked_at": "2026-11-14T22:53:16.561229+00:00",
+      "checked_at": "2026-11-15T09:49:05.673354+00:00",
       "status": "ok",
       "method": "html",
       "items": [],
@@ -2378,7 +2341,7 @@
     {
       "name": "Type Directors Club",
       "url": "https://tdc.org/",
-      "checked_at": "2026-11-14T22:53:16.561229+00:00",
+      "checked_at": "2026-11-15T09:49:05.673354+00:00",
       "status": "ok",
       "method": "html",
       "items": [],
@@ -2387,7 +2350,7 @@
     {
       "name": "Typographica",
       "url": "https://typographica.org/",
-      "checked_at": "2026-11-14T22:53:16.561229+00:00",
+      "checked_at": "2026-11-15T09:49:05.673354+00:00",
       "status": "ok",
       "method": "html",
       "items": [],
@@ -2396,7 +2359,7 @@
     {
       "name": "Wolff Olins",
       "url": "https://www.wolffolins.com/",
-      "checked_at": "2026-11-14T22:53:16.561229+00:00",
+      "checked_at": "2026-11-15T09:49:05.673354+00:00",
       "status": "ok",
       "method": "html",
       "items": [],
@@ -2405,7 +2368,7 @@
     {
       "name": "Europeana",
       "url": "https://www.europeana.eu/",
-      "checked_at": "2026-11-14T22:53:16.561229+00:00",
+      "checked_at": "2026-11-15T09:49:05.673354+00:00",
       "status": "error",
       "method": null,
       "items": [],
@@ -2414,7 +2377,7 @@
     {
       "name": "Gallica",
       "url": "https://gallica.bnf.fr/",
-      "checked_at": "2026-11-14T22:53:16.561229+00:00",
+      "checked_at": "2026-11-15T09:49:05.673354+00:00",
       "status": "error",
       "method": null,
       "items": [],
@@ -2423,7 +2386,7 @@
     {
       "name": "Google Arts & Culture",
       "url": "https://artsandculture.google.com/",
-      "checked_at": "2026-11-14T22:53:16.561229+00:00",
+      "checked_at": "2026-11-15T09:49:05.673354+00:00",
       "status": "error",
       "method": null,
       "items": [],
@@ -2432,7 +2395,7 @@
     {
       "name": "Internet Archive",
       "url": "https://archive.org/",
-      "checked_at": "2026-11-14T22:53:16.561229+00:00",
+      "checked_at": "2026-11-15T09:49:05.673354+00:00",
       "status": "ok",
       "method": "html",
       "items": [],
@@ -2441,7 +2404,7 @@
     {
       "name": "PSFK",
       "url": "https://www.psfk.com/",
-      "checked_at": "2026-11-14T22:53:16.561229+00:00",
+      "checked_at": "2026-11-15T09:49:05.673354+00:00",
       "status": "ok",
       "method": "html",
       "items": [],
@@ -2450,7 +2413,7 @@
     {
       "name": "Springwise",
       "url": "https://www.springwise.com/",
-      "checked_at": "2026-11-14T22:53:16.561229+00:00",
+      "checked_at": "2026-11-15T09:49:05.673354+00:00",
       "status": "ok",
       "method": "html",
       "items": [],
@@ -2459,7 +2422,7 @@
     {
       "name": "The Future Laboratory",
       "url": "https://www.thefuturelaboratory.com/",
-      "checked_at": "2026-11-14T22:53:16.561229+00:00",
+      "checked_at": "2026-11-15T09:49:05.673354+00:00",
       "status": "ok",
       "method": "html",
       "items": [],
@@ -2468,7 +2431,7 @@
     {
       "name": "Trend Hunter",
       "url": "https://www.trendhunter.com/",
-      "checked_at": "2026-11-14T22:53:16.561229+00:00",
+      "checked_at": "2026-11-15T09:49:05.673354+00:00",
       "status": "ok",
       "method": "html",
       "items": [],
@@ -2477,7 +2440,7 @@
     {
       "name": "TrendWatching",
       "url": "https://www.trendwatching.com/",
-      "checked_at": "2026-11-14T22:53:16.561229+00:00",
+      "checked_at": "2026-11-15T09:49:05.673354+00:00",
       "status": "ok",
       "method": "html",
       "items": [],
@@ -2486,7 +2449,7 @@
     {
       "name": "WGSN",
       "url": "https://www.wgsn.com/",
-      "checked_at": "2026-11-14T22:53:16.561229+00:00",
+      "checked_at": "2026-11-15T09:49:05.673354+00:00",
       "status": "error",
       "method": null,
       "items": [],
@@ -2495,7 +2458,7 @@
     {
       "name": "ADC France",
       "url": "https://www.adcfrance.com/",
-      "checked_at": "2026-11-14T22:53:16.561229+00:00",
+      "checked_at": "2026-11-15T09:49:05.673354+00:00",
       "status": "error",
       "method": null,
       "items": [],
@@ -2504,7 +2467,7 @@
     {
       "name": "CB News",
       "url": "https://www.cbnews.fr/",
-      "checked_at": "2026-11-14T22:53:16.561229+00:00",
+      "checked_at": "2026-11-15T09:49:05.673354+00:00",
       "status": "ok",
       "method": "html",
       "items": [
@@ -2538,7 +2501,7 @@
     {
       "name": "Creapills",
       "url": "https://creapills.com/",
-      "checked_at": "2026-11-14T22:53:16.561229+00:00",
+      "checked_at": "2026-11-15T09:49:05.673354+00:00",
       "status": "ok",
       "method": "html",
       "items": [
@@ -2554,7 +2517,7 @@
     {
       "name": "Graphisme en France",
       "url": "https://www.cnap.fr/graphisme-en-france",
-      "checked_at": "2026-11-14T22:53:16.561229+00:00",
+      "checked_at": "2026-11-15T09:49:05.673354+00:00",
       "status": "error",
       "method": null,
       "items": [],
@@ -2563,7 +2526,7 @@
     {
       "name": "INfluencia",
       "url": "https://www.influencia.net/",
-      "checked_at": "2026-11-14T22:53:16.561229+00:00",
+      "checked_at": "2026-11-15T09:49:05.673354+00:00",
       "status": "ok",
       "method": "html",
       "items": [
@@ -2591,7 +2554,7 @@
     {
       "name": "Étapes",
       "url": "https://etapes.com/",
-      "checked_at": "2026-11-14T22:53:16.561229+00:00",
+      "checked_at": "2026-11-15T09:49:05.673354+00:00",
       "status": "ok",
       "method": "html",
       "items": [
@@ -2607,7 +2570,7 @@
     {
       "name": "ETC",
       "url": "https://www.etcconnect.com/",
-      "checked_at": "2026-11-14T22:53:16.561229+00:00",
+      "checked_at": "2026-11-15T09:49:05.673354+00:00",
       "status": "ok",
       "method": "html",
       "items": [
@@ -2629,16 +2592,16 @@
     {
       "name": "AV Magazine",
       "url": "https://www.avinteractive.com/",
-      "checked_at": "2026-11-14T22:53:16.561229+00:00",
+      "checked_at": "2026-11-15T09:49:05.673354+00:00",
       "status": "error",
       "method": null,
       "items": [],
-      "error": "HTTP Error 403: Forbidden"
+      "error": "response exceeds size limit"
     },
     {
       "name": "Abduzeedo",
       "url": "https://abduzeedo.com/",
-      "checked_at": "2026-11-14T22:53:16.561229+00:00",
+      "checked_at": "2026-11-15T09:49:05.673354+00:00",
       "status": "ok",
       "method": "html",
       "items": [],
@@ -2647,7 +2610,7 @@
     {
       "name": "Designspiration",
       "url": "https://www.designspiration.com/",
-      "checked_at": "2026-11-14T22:53:16.561229+00:00",
+      "checked_at": "2026-11-15T09:49:05.673354+00:00",
       "status": "ok",
       "method": "html",
       "items": [],
@@ -2656,7 +2619,7 @@
     {
       "name": "Typewolf",
       "url": "https://www.typewolf.com/",
-      "checked_at": "2026-11-14T22:53:16.561229+00:00",
+      "checked_at": "2026-11-15T09:49:05.673354+00:00",
       "status": "ok",
       "method": "html",
       "items": [],
@@ -2665,7 +2628,7 @@
     {
       "name": "Advertising Archive Asia",
       "url": "https://advertisingarchive.asia/",
-      "checked_at": "2026-11-14T22:53:16.561229+00:00",
+      "checked_at": "2026-11-15T09:49:05.673354+00:00",
       "status": "ok",
       "method": "html",
       "items": [],
@@ -2674,7 +2637,7 @@
     {
       "name": "Domus",
       "url": "https://www.domusweb.it/en.html",
-      "checked_at": "2026-11-14T22:53:16.561229+00:00",
+      "checked_at": "2026-11-15T09:49:05.673354+00:00",
       "status": "ok",
       "method": "html",
       "items": [
@@ -2690,7 +2653,7 @@
     {
       "name": "Sight Unseen",
       "url": "https://www.sightunseen.com/",
-      "checked_at": "2026-11-14T22:53:16.561229+00:00",
+      "checked_at": "2026-11-15T09:49:05.673354+00:00",
       "status": "ok",
       "method": "html",
       "items": [],
@@ -2699,7 +2662,7 @@
     {
       "name": "VMSD",
       "url": "https://vmsd.com/",
-      "checked_at": "2026-11-14T22:53:16.561229+00:00",
+      "checked_at": "2026-11-15T09:49:05.673354+00:00",
       "status": "ok",
       "method": "html",
       "items": [],
@@ -2708,7 +2671,7 @@
     {
       "name": "Clear Channel Outdoor",
       "url": "https://www.clearchanneloutdoor.com/",
-      "checked_at": "2026-11-14T22:53:16.561229+00:00",
+      "checked_at": "2026-11-15T09:49:05.673354+00:00",
       "status": "ok",
       "method": "html",
       "items": [],
@@ -2717,7 +2680,7 @@
     {
       "name": "OUTFRONT Media",
       "url": "https://www.outfront.com/",
-      "checked_at": "2026-11-14T22:53:16.561229+00:00",
+      "checked_at": "2026-11-15T09:49:05.673354+00:00",
       "status": "ok",
       "method": "html",
       "items": [],
@@ -2726,7 +2689,7 @@
     {
       "name": "Unreal Engine",
       "url": "https://www.unrealengine.com/",
-      "checked_at": "2026-11-14T22:53:16.561229+00:00",
+      "checked_at": "2026-11-15T09:49:05.673354+00:00",
       "status": "error",
       "method": null,
       "items": [],
@@ -2735,7 +2698,7 @@
     {
       "name": "Technoscopie",
       "url": "https://www.technoscopie.fr/",
-      "checked_at": "2026-11-14T22:53:16.561229+00:00",
+      "checked_at": "2026-11-15T09:49:05.673354+00:00",
       "status": "error",
       "method": null,
       "items": [],
@@ -2744,7 +2707,7 @@
     {
       "name": "Promonews",
       "url": "https://www.promonews.tv/",
-      "checked_at": "2026-11-14T22:53:16.561229+00:00",
+      "checked_at": "2026-11-15T09:49:05.673354+00:00",
       "status": "ok",
       "method": "html",
       "items": [],
@@ -2753,7 +2716,7 @@
     {
       "name": "Stereogum",
       "url": "https://www.stereogum.com/",
-      "checked_at": "2026-11-14T22:53:16.561229+00:00",
+      "checked_at": "2026-11-15T09:49:05.673354+00:00",
       "status": "ok",
       "method": "html",
       "items": [
@@ -2775,7 +2738,7 @@
     {
       "name": "Pitchfork",
       "url": "https://pitchfork.com/",
-      "checked_at": "2026-11-14T22:53:16.561229+00:00",
+      "checked_at": "2026-11-15T09:49:05.673354+00:00",
       "status": "error",
       "method": null,
       "items": [],
@@ -2784,7 +2747,7 @@
     {
       "name": "Directors Notes",
       "url": "https://directorsnotes.com/",
-      "checked_at": "2026-11-14T22:53:16.561229+00:00",
+      "checked_at": "2026-11-15T09:49:05.673354+00:00",
       "status": "ok",
       "method": "html",
       "items": [],
@@ -2793,7 +2756,7 @@
     {
       "name": "Dance Magazine",
       "url": "https://www.dancemagazine.com/",
-      "checked_at": "2026-11-14T22:53:16.561229+00:00",
+      "checked_at": "2026-11-15T09:49:05.673354+00:00",
       "status": "ok",
       "method": "html",
       "items": [
@@ -2809,7 +2772,7 @@
     {
       "name": "The Stage",
       "url": "https://www.thestage.co.uk/",
-      "checked_at": "2026-11-14T22:53:16.561229+00:00",
+      "checked_at": "2026-11-15T09:49:05.673354+00:00",
       "status": "ok",
       "method": "html",
       "items": [
@@ -3029,7 +2992,7 @@
     {
       "name": "BroadwayWorld Dance",
       "url": "https://www.broadwayworld.com/bwwdance/",
-      "checked_at": "2026-11-14T22:53:16.561229+00:00",
+      "checked_at": "2026-11-15T09:49:05.673354+00:00",
       "status": "ok",
       "method": "html",
       "items": [
@@ -3249,7 +3212,7 @@
     {
       "name": "Motionographer",
       "url": "https://motionographer.com/",
-      "checked_at": "2026-11-14T22:53:16.561229+00:00",
+      "checked_at": "2026-11-15T09:49:05.673354+00:00",
       "status": "error",
       "method": null,
       "items": [],
@@ -3258,7 +3221,7 @@
     {
       "name": "Les Inrockuptibles",
       "url": "https://www.lesinrocks.com/",
-      "checked_at": "2026-11-14T22:53:16.561229+00:00",
+      "checked_at": "2026-11-15T09:49:05.673354+00:00",
       "status": "ok",
       "method": "html",
       "items": [],
@@ -3267,7 +3230,7 @@
     {
       "name": "Tsugi",
       "url": "https://www.tsugi.fr/",
-      "checked_at": "2026-11-14T22:53:16.561229+00:00",
+      "checked_at": "2026-11-15T09:49:05.673354+00:00",
       "status": "error",
       "method": null,
       "items": [],
@@ -3276,7 +3239,7 @@
     {
       "name": "Mouv'",
       "url": "https://www.radiofrance.fr/mouv",
-      "checked_at": "2026-11-14T22:53:16.561229+00:00",
+      "checked_at": "2026-11-15T09:49:05.673354+00:00",
       "status": "ok",
       "method": "html",
       "items": [],
@@ -3285,7 +3248,7 @@
     {
       "name": "Konbini Musique",
       "url": "https://www.konbini.com/popculture/musique/",
-      "checked_at": "2026-11-14T22:53:16.561229+00:00",
+      "checked_at": "2026-11-15T09:49:05.673354+00:00",
       "status": "error",
       "method": null,
       "items": [],
@@ -3294,7 +3257,7 @@
     {
       "name": "La Blogothèque",
       "url": "https://www.blogotheque.net/",
-      "checked_at": "2026-11-14T22:53:16.561229+00:00",
+      "checked_at": "2026-11-15T09:49:05.673354+00:00",
       "status": "ok",
       "method": "html",
       "items": [],
@@ -3303,7 +3266,7 @@
     {
       "name": "NOWNESS",
       "url": "https://www.nowness.com/",
-      "checked_at": "2026-11-14T22:53:16.561229+00:00",
+      "checked_at": "2026-11-15T09:49:05.673354+00:00",
       "status": "ok",
       "method": "html",
       "items": [],
