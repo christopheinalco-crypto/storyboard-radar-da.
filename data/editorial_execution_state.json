@@ -1272,8 +1272,8 @@
   },
   "latest_scheduled_wave_20h": {
     "id": "2026-11-15-20h",
-    "status": "incomplete",
-    "stage": "visual_evidence",
+    "status": "complete",
+    "stage": "public_verified",
     "prior_report": {
       "checked_at": "2026-11-15T17:57:27.095010+00:00",
       "attempted": 182,
@@ -1301,7 +1301,9 @@
         "pending": "Vérifier le lecteur et établir un angle DA distinct."
       }
     ],
-    "published_count": 0
+    "published_count": 3,
+    "publication_commit": "382f086",
+    "public_render_check": "https://github.com/christopheinalco-crypto/storyboard-radar-da./actions/runs/43754688676"
   },
   "validation_trial": {
     "required_waves": 3,
@@ -1311,12 +1313,17 @@
     "waves": [
       {
         "id": "2026-11-15-20h-rattrapage",
-        "status": "pending_public_verification",
+        "status": "public_verified",
         "projects": [
           "chanmina-history-2026",
           "riize-mma-2026-front-choral",
           "idk-eminem-welcome-detroit-2026"
-        ]
+        ],
+        "slot": "2026-11-15-20h",
+        "count": 3,
+        "publication_commit": "382f086",
+        "public_render_check": "https://github.com/christopheinalco-crypto/storyboard-radar-da./actions/runs/43754688676",
+        "pages_deployment": "https://github.com/christopheinalco-crypto/storyboard-radar-da./actions/runs/43754734278"
       }
     ]
   }

@@ -30,13 +30,23 @@ function validatePublication(base, head) {
   const projects = new Set([...before, ...archived].map(item => item.project_id).filter(Boolean));
   const existing = new Set(before.map(item => item.url));
   const added = after.filter(item => !existing.has(item.url));
-  if (added.length > 7) errors.push('Plafond de 7 nouvelles fiches dépassé.');
   if (Object.keys(previousAnalyses).some(url => !analyses[url])) errors.push('Analyse historique supprimée.');
   if (before.some(item => !after.some(next => next.url === item.url)) ||
       archived.some(item => !registry.some(next => isDeepStrictEqual(item, next)))) {
     errors.push('Entrée historique supprimée du flux ou du registre.');
   }
   if (!added.length) return errors;
+  if (added.length < 3 || added.length > 7) errors.push('Une vague contient de 3 à 7 nouvelles fiches.');
+  const family = item => {
+    const code = (item.category || '').split(' ')[0];
+    if (code === '14') return 'clip';
+    if (['01', '02', '15'].includes(code)) return 'spectacle';
+    return '';
+  };
+  if (added.some((item, index) =>
+    !family(item) || (index > 0 && family(item) === family(added[index - 1])))) {
+    errors.push('Alterner clips et concerts ou spectacles dans l’ordre du flux.');
+  }
   if (!isDeepStrictEqual(read(base, 'social-posts'), read(head, 'social-posts'))) {
     errors.push('Archive sociale modifiée pendant la publication.');
   }
