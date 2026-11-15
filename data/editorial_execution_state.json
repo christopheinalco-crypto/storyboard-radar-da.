@@ -1208,5 +1208,31 @@
     "existing_feed_cards_verified": 58,
     "rendered_site_check": "https://github.com/christopheinalco-crypto/storyboard-radar-da./actions/runs/43701398089",
     "notes": "Collecte réelle et reprise de collecte vérifiées. Sélection éditoriale de 4 à 6 nouveaux projets et vérification des nouveaux visuels non achevées."
+  },
+  "latest_scheduled_wave": {
+    "id": "2026-11-15-12h",
+    "status": "incomplete",
+    "stage": "candidate_evidence",
+    "previous_collection_id": "test-work-2026-11-15",
+    "catalogue_reopened_count": 0,
+    "external_discoveries": [
+      {
+        "project": "CHANMINA — History",
+        "url": "https://www.rockumweb.com/reportes/2776/chanmina-releases-history-music-video-from-new-album-legend-and-japanese-film-first-voice",
+        "pending": "Source primaire, mise en scène et visuel à vérifier."
+      },
+      {
+        "project": "Zinoleesky — Omo Ologo",
+        "url": "https://gistmatrix.com/entertainment/music/new-music-t-i-blazes-the-blueprint-ep-plus-wande-coal-zinoleesky-and-kcee/",
+        "pending": "Source primaire, mise en scène et visuel à vérifier."
+      },
+      {
+        "project": "Shenseea — Garden",
+        "url": "https://iimitv.com/author/marquee",
+        "pending": "Source primaire et date précise de mise en ligne à vérifier."
+      }
+    ],
+    "published_count": 0,
+    "public_render_verified": false
   }
 }
