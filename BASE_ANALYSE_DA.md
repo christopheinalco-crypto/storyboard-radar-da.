@@ -36,6 +36,17 @@ La relecture pose trois questions. **Que voit-on de plus après avoir lu la fich
 
 Un seul angle peut suffire. En croiser deux quand ils expliquent ensemble le même effet. Si une nouvelle référence ne change pas ce qu’on observe ou ce que l’on peut établir, elle reste hors du décryptage.
 
+## Costume, décor et mise en scène au cinéma
+
+| Référence | Ce qu’on en tire | Repères à relever |
+| --- | --- | --- |
+| Sarah Street, *Costume and Cinema* | Lire le vêtement comme un code social ou narratif. Le sens d’un uniforme, d’une coupe ou d’une trace d’usure dépend de la scène et des autres costumes. [Wallflower Press](https://cup.columbia.edu/book/costume-and-cinema/9781903364185/) | Comparer deux personnages dans le même lieu, ou le même personnage avant et après un changement de tenue. Observer qui se détache, rejoint le groupe ou change de statut. |
+| Charles et Mirella Jona Affron, *Sets in Motion* | Situer l’action, ponctuer un moment, afficher un artifice ou porter une part du récit sont des fonctions possibles du décor. La fiche précise laquelle est à l’œuvre. [Sommaire de l’ouvrage, Smithsonian](https://nmaahc.si.edu/object/siris_sil_926017) | Suivre un seuil, un objet ou une contrainte spatiale qui modifie ce qu’un personnage peut faire, voir ou cacher. Comparer deux usages du même lieu. |
+| David Bordwell, Kristin Thompson et Jeff Smith, *Film Art* | Distinguer l’organisation devant la caméra, le traitement par la caméra et la relation entre les plans. Relier ces niveaux quand leur combinaison explique l’effet. [McGraw Hill](https://www.mheducation.co.uk/film-art-an-introduction-ise-9781265205478-emea-group) | Si un personnage paraît isolé, chercher comment sa place dans le décor, la profondeur de champ et le plan suivant y contribuent. Croiser les crédits et la documentation de fabrication avant d’attribuer une décision précise. |
+| Stephen Prince, *Digital Visual Effects in Cinema* | Lire les effets numériques par leur fonction. Ils peuvent prolonger un monde crédible, transformer l’espace ou rendre possible une action. [Rutgers University Press](https://www.rutgersuniversitypress.org/bucknell/digital-visual-effects-in-cinema/9780813552187) | Relever un indice de cohérence ou de rupture, par exemple une ombre, une perspective, une trajectoire ou une échelle. Vérifier la fabrication avant d’affirmer ce qui a été construit, filmé ou ajouté. |
+
+**Exemple sur Kittie.** Les tenues métalliques donnent du poids aux silhouettes. L’alignement frontal garde les quatre visages lisibles au milieu des fleurs et des reflets. La lecture croisée du costume et de la mise en scène fait émerger une question précise : **qu’est-ce qui reste lisible du groupe quand les contours du décor deviennent instables ?** Le photogramme documente la composition du tableau. Pour en décrire l’évolution, il faut observer la séquence.
+
 ## Deux lectures de référence
 
 **Zinoleesky, « Omo Ologo ».** Les images de référence montrent des flammes au premier plan, un geste qui s’avance dans un salon et un portrait sur fond bleu. Les comparer avec Block déplace l’intérêt de l’ambre vers la profondeur et le rapport au corps. Les flammes interposent un plan, le geste réduit la distance et le portrait bleu resserre le face-à-face. **Un changement de décor gagne en force quand il change aussi notre place face à l’interprète.** Trois images suffisent pour comparer ces situations. Une affirmation sur leur enchaînement exige la séquence.
@@ -44,4 +55,4 @@ Un seul angle peut suffire. En croiser deux quand ils expliquent ensemble le mê
 
 ## Tenue du corpus
 
-Cette version s’appuie sur douze ouvrages et un mémoire repérés dans le dépôt ou consultés à travers des chapitres, extraits, sommaires et présentations de leurs éditeurs ou auteurs. Pour intégrer un autre ouvrage, ajouter le passage accessible, la question de DA qu’il permet de poser et un exemple de preuve à rechercher. Distinguer le livre, le mémoire et le document de synthèse. Un rapprochement théorique sert à lire le projet. Seules les sources du projet peuvent établir les faits et l’intention de l’équipe.
+Cette version s’appuie sur seize ouvrages et un mémoire repérés dans le dépôt ou consultés à travers des chapitres, extraits, sommaires et présentations d’éditeurs, d’auteurs ou d’institutions. Pour intégrer un autre ouvrage, ajouter le passage accessible, la question de DA qu’il permet de poser et un exemple de preuve à rechercher. Distinguer le livre, le mémoire et le document de synthèse. Un rapprochement théorique sert à lire le projet. Seules les sources du projet peuvent établir les faits et l’intention de l’équipe.
