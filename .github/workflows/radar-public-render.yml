@@ -1,0 +1,45 @@
+name: RADAR DA — rendu public
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'data/feed.json'
+      - 'data/analyses.json'
+      - 'index.html'
+      - 'service-worker.js'
+      - 'scripts/verify-public-feed.cjs'
+      - '.github/workflows/radar-public-render.yml'
+permissions:
+  contents: read
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 18
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Vérifier les données et préparer Chromium
+        run: |
+          node scripts/validate-radar.cjs
+          npm install --no-save playwright
+          npx playwright install --with-deps chromium
+      - name: Vérifier le site après le déploiement Pages
+        env:
+          BASE_SHA: ${{ github.event.before }}
+        run: |
+          for attempt in {1..8}; do
+            if timeout 60s node scripts/verify-public-feed.cjs "$BASE_SHA"; then exit 0; fi
+            if [ "$attempt" -lt 8 ]; then sleep 30; fi
+          done
+          exit 1
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: rendu-public-${{ github.run_id }}
+          path: public-feed-evidence/
+          if-no-files-found: ignore

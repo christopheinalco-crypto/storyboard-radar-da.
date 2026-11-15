@@ -12,6 +12,7 @@ on:
       timezone: Europe/Paris
 permissions:
   contents: write
+  actions: read
 concurrency:
   group: radar-source-collector-${{ github.ref }}
   cancel-in-progress: false
@@ -31,7 +32,17 @@ jobs:
       - name: Isoler les rapports de cette exécution
         run: rm data/{source-discoveries,editorial-shortlist,project-inspections}.json
       - name: Identifier la vague
-        run: echo "RADAR_WAVE_ID=github-${GITHUB_RUN_ID}-${GITHUB_RUN_ATTEMPT}" >> "$GITHUB_ENV"
+        run: echo "RADAR_WAVE_ID=github-${GITHUB_RUN_ID}" >> "$GITHUB_ENV"
+      - name: Reprendre les sources déjà contrôlées
+        if: github.run_attempt > 1
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          previous=$((GITHUB_RUN_ATTEMPT - 1))
+          while [ "$previous" -gt 0 ]; do
+            if gh run download "$GITHUB_RUN_ID" --name "radar-reprise-$GITHUB_RUN_ID-$previous" --dir data; then break; fi
+            previous=$((previous - 1))
+          done
       - name: Collecter et tracer les sources
         id: collect
         run: python scripts/collect_sources.py
@@ -39,6 +50,13 @@ jobs:
         run: python scripts/radar_pipeline.py
       - name: Examiner les pages projets
         run: python scripts/inspect_projects.py
+      - name: Sauvegarder le point de reprise
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: radar-reprise-${{ github.run_id }}-${{ github.run_attempt }}
+          path: data/source-checkpoint.json
+          if-no-files-found: ignore
       - name: Archiver les preuves de cette exécution
         if: always() && steps.collect.outcome == 'success'
         uses: actions/upload-artifact@v4

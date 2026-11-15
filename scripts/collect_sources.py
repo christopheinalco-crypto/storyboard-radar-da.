@@ -70,9 +70,24 @@ def main():
         0 if x.get("priority")=="P1" else 1 if x.get("priority")=="P2" else 2,
         history.get(x.get("url"),"")))
     # Every wave attempts every registered source, not a small sample.
-    selected=ordered
+    checkpoint = DATA / "source-checkpoint.json"
+    completed = {}
+    if checkpoint.exists():
+        snapshot = json.loads(checkpoint.read_text(encoding="utf-8"))
+        if snapshot["wave_id"] == WAVE_ID:
+            completed = {result["url"]: result for result in snapshot["results"]}
+    pending = [source for source in ordered if source["url"] not in completed]
     with concurrent.futures.ThreadPoolExecutor(max_workers=16) as pool:
-        results=list(pool.map(inspect,selected))
+        tasks = [pool.submit(inspect, source) for source in pending]
+        for task in concurrent.futures.as_completed(tasks):
+            result = task.result()
+            completed[result["url"]] = result
+            temporary = checkpoint.with_suffix(".tmp")
+            temporary.write_text(json.dumps({
+                "wave_id": WAVE_ID, "results": list(completed.values()),
+            }, ensure_ascii=False), encoding="utf-8")
+            temporary.replace(checkpoint)
+    results = [completed[source["url"]] for source in ordered]
     for item in results:history[item["url"]]=item["checked_at"]
     opened=sum(r["status"]=="opened" for r in results)
     audit={"wave_id":WAVE_ID,"checked_at":NOW,"catalogue_total":len(sources),"target":COVERAGE_TARGET,
@@ -81,7 +96,7 @@ def main():
         "last_checked_by_url":history,"results":results}
     previous_path.write_text(json.dumps(audit,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
     # Discovery only; no rights-uncleared photos or unreviewed articles get published.
-    existing=set()
+    existing = set(json.loads((DATA / "analyses.json").read_text(encoding="utf-8")))
     for file in ("feed.json","published-projects.json"):
         try:
             data=json.loads((DATA/file).read_text(encoding="utf-8"))
