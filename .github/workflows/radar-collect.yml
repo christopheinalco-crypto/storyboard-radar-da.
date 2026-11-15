@@ -4,6 +4,7 @@ on:
   push:
     paths:
       - 'scripts/collect_radar.py'
+      - '.github/workflows/radar-collect.yml'
   # Flux RSS rapides en complément du relevé des 182 sources, AVANT la veille ChatGPT.
   schedule:
     - cron: '20 5,11,15,19 * * *'
