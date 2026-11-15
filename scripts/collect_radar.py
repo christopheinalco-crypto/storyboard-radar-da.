@@ -105,11 +105,29 @@ for source in sources:
     except Exception as exc:
         failures.append({"source": source.get("name"), "url": url, "error": str(exc)[:200]})
 unique = {canonical(item["url"]): item for item in results}
-candidates = sorted(unique.values(), key=lambda x: x["source_published_at"], reverse=True)
+recent_candidates = sorted(unique.values(), key=lambda x: x["source_published_at"], reverse=True)
+# Répartir les pistes entre secteurs et médias : un gros flux généraliste ne
+# doit plus monopoliser les premières dizaines de résultats.
+sector_priority = {"14 Musique Clips": 0, "01 Spectacle Concert": 1,
+                   "02 TV Broadcast": 2, "09 France Pro": 3,
+                   "15 Danse Performance": 4, "08 Immersif CGI Motion": 5,
+                   "06 Retail Brand Experience": 6}
+from collections import defaultdict
+by_source = defaultdict(list)
+for item in recent_candidates:
+    by_source[(sector_priority.get(item["category"], 9), item["source"])].append(item)
+sources_in_order = sorted(by_source)
+candidates = []
+for position in range(max((len(items) for items in by_source.values()), default=0)):
+    for key in sources_in_order:
+        if position < len(by_source[key]):
+            candidates.append(by_source[key][position])
 out = {"collected_at": NOW.isoformat(), "configured_sources": feed.get("sources_selected"),
        "rss_sources_attempted": checked, "rss_sources_parsed": parsed,
        "rss_sources_failed": len(failures), "candidates_72h": len(candidates),
        "filter_counts": dict(filters),
+       "candidates_by_source": dict(Counter(x["source"] for x in candidates)),
+       "ordering": "round_robin_by_source_with_DA_sector_priority",
        "candidates_24h": sum(x["age_hours"] <= 24 for x in candidates),
        "warning": "RSS discovery only: not 182 sources opened; project dates, evidence, rights and images NOT verified.",
        "failures": failures, "candidates": candidates[:200]}
