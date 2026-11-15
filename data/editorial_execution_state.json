@@ -1269,5 +1269,38 @@
       }
     ],
     "published_count": 0
+  },
+  "latest_scheduled_wave_20h": {
+    "id": "2026-11-15-20h",
+    "status": "incomplete",
+    "stage": "visual_evidence",
+    "prior_report": {
+      "checked_at": "2026-11-15T17:57:27.095010+00:00",
+      "attempted": 182,
+      "opened": 158,
+      "failed": 24
+    },
+    "carried_forward_from": "2026-11-15-16h",
+    "candidates": [
+      {
+        "project": "IDK & Eminem — WELCOME",
+        "source": "https://neonmusic.co.uk/new-music-videos-15-november-2026",
+        "video": "https://www.youtube.com/watch?v=zT104EktdOc",
+        "pending": "Confirmer les détails de mise en scène et vérifier le lecteur."
+      },
+      {
+        "project": "ATEEZ — UP",
+        "source": "https://neonmusic.co.uk/new-music-videos-15-november-2026",
+        "video": "https://www.youtube.com/watch?v=SGovymtCzvA",
+        "pending": "Confirmer date et mise en scène, vérifier le lecteur."
+      },
+      {
+        "project": "Dopebwoy & Aitch — TOMA",
+        "source": "https://neonmusic.co.uk/new-music-videos-15-november-2026",
+        "video": "https://www.youtube.com/watch?v=61smEyo76Fo",
+        "pending": "Vérifier le lecteur et établir un angle DA distinct."
+      }
+    ],
+    "published_count": 0
   }
 }
