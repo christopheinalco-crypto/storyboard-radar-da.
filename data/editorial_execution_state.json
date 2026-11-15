@@ -1358,6 +1358,21 @@
     "verified_count": 3,
     "verified_publications": 9,
     "verified_at": "2026-11-15T20:44:01.489Z",
-    "scope": "Trois mises en ligne réelles : un rattrapage de créneau, deux déclenchements manuels indépendants."
+    "scope": "Trois mises en ligne réelles : un rattrapage de créneau, deux déclenchements manuels indépendants.",
+    "visual_correction": {
+      "status": "pending_public_verification",
+      "photos_and_original_video_thumbnails": 9,
+      "projects": [
+        "zinoleesky-omo-ologo-ambre-2026",
+        "iris-ultra-son-spatiale-2026",
+        "don-toliver-party-with-the-boys-seuil-2026",
+        "ateez-up-cube-rouge-2026",
+        "illit-mma-arrestation-2026",
+        "kittie-mouthful-poison-xxv-chat-2026",
+        "chanmina-history-2026",
+        "riize-mma-2026-front-choral",
+        "idk-eminem-welcome-detroit-2026"
+      ]
+    }
   }
 }

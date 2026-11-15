@@ -89,11 +89,11 @@ function validatePublication(base, head) {
     if (!item.image || !/^https:\/\//i.test(item.image) || !canonical(item.image_source_url) || !clean(item.image_credit)) {
       reject('Image dans le flux obligatoire, avec provenance et crédit.');
     }
-    if (item.image_kind && !['project', 'contextual', 'editorial_illustration'].includes(item.image_kind)) {
-      reject('Type de visuel inconnu.');
+    if (!['project', 'contextual'].includes(item.image_kind)) {
+      reject('Visuel original du projet ou visuel contextuel authentique obligatoire.');
     }
-    if (['contextual', 'editorial_illustration'].includes(item.image_kind) && !clean(item.image_alt)) {
-      reject('Description du visuel contextuel ou de l’illustration manquante.');
+    if (item.image_kind === 'contextual' && !clean(item.image_alt)) {
+      reject('Description du visuel contextuel manquante.');
     }
     const visits = Array.isArray(gate?.sources) ? gate.sources : [];
     const urls = new Set(visits.filter(source => canonical(source.url) && clean(source.locator) &&
