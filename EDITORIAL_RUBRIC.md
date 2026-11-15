@@ -37,6 +37,8 @@ L'analyse doit se lire comme une conversation avec un DA expérimenté qui parta
 Si le texte semble récité, scolaire, répétitif ou rempli de formules interchangeables, le réécrire. Si un DA pourrait le dire naturellement à un collègue tout en lui apprenant quelque chose de neuf, le ton est juste.
 
 ## Bibliothèque Google Drive — enrichissement raisonné
+La [base d’analyse RADAR DA](BASE_ANALYSE_DA.md) rassemble les concepts extraits des ouvrages et les traduit en questions concrètes pour les clips, concerts et spectacles.
+
 Pour chaque projet, consulter en priorité l'article original, puis rechercher dans la bibliothèque DA un concept ou une méthode qui révèle une décision artistique. Une référence pertinente suffit souvent. Ne jamais ajouter une théorie pour faire savant. Attribuer la source réelle ; distinguer un document de synthèse de l'ouvrage original, et ne pas transformer une paraphrase en citation. Les références théoriques ne prouvent jamais l'intention du créateur. Préserver la voix naturelle d'un DA qui explique le projet à un collègue.
 
 ## Responsabilités de publication (9 novembre 2026)

@@ -2,6 +2,8 @@
 
 Ces règles s'appliquent aux veilles programmées, aux rattrapages et aux essais. Elles priment sur les anciennes consignes de cadence, de volume, d'alternance et de visuels conservées ci-dessous.
 
+Pour les décryptages, lire la [base d’analyse issue des ouvrages](BASE_ANALYSE_DA.md) et choisir l’angle qui aide à comprendre le projet. Consigner le repère théorique lorsqu'il éclaire une observation vérifiée. Garder le surlignage ponctuel validé.
+
 - **Cadence et sélection.** À 6 h, 12 h, 16 h et 20 h, heure de Paris, exploiter le catalogue des 182 sources et compléter la recherche au besoin. Dédoublonner contre le flux, les analyses et le registre d'identités. Une vague conforme contient **3 à 7 nouvelles fiches**, en alternant clips et concerts ou spectacles. Donner la priorité aux clips dès la sélection, avec un clip supplémentaire lorsque le nombre de fiches est impair.
 - **Visuels.** Chercher d'abord une photo, une affiche ou la vignette d'origine du projet. À défaut, utiliser un visuel authentique directement lié au projet, par exemple un portrait publié de l'artiste ou du créateur. Indiquer la nature du visuel contextuel, vérifier la provenance et les conditions de réutilisation, enregistrer le crédit et tester le chargement. Exclure les schémas, les images générées et les illustrations de substitution. Garder la fiche en attente si aucun visuel conforme n'est disponible.
 - **Décryptage et publication.** Contrôler la date et les sources, appliquer le barème et rédiger L'essentiel, Intention, Idée & DA et Pour un DA. Écrire le flux, les analyses et le registre des projets ensemble dans un seul commit. Vérifier sur le site déployé que chaque nouvelle fiche apparaît, que le visuel charge et que le décryptage s'ouvre.
