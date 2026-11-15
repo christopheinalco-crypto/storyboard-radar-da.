@@ -33,7 +33,7 @@ Chaque nouvelle fiche doit afficher une image dans le flux. Chercher d’abord u
 Enregistrer avec chaque candidat : note détaillée, décision, source, date, angle DA, choix, effet, enseignement, URL image, type de visuel (projet ou contextuel), crédit, URL de source. Refuser toute publication si un critère obligatoire manque. Publier seulement les fiches validées, puis contrôler le rendu public. Mesurer « analysés / retenus / publiés / visuels affichés », pas seulement « sources ouvertes ».
 
 ## Cadence éditoriale
-- **Cible : 3 à 7 nouvelles fiches par vague, plafond de 7**, sans quota forcé : publier moins si moins de projets méritent le barème.
+- **Une vague conforme contient 3 à 7 nouvelles fiches**, en alternant clips et concerts ou spectacles, avec priorité aux clips. Si moins de trois projets passent le barème et le contrôle des visuels, consigner le manque et reprendre la recherche.
 - **Repli automatique** : utiliser un visuel contextuel authentique et réutilisable si la recherche croisée ne trouve pas d’image du projet exploitable.
 
 ## Veto anti-hors-sujet (incident Strokes, 13 novembre)
