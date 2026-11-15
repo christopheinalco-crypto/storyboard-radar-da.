@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-15T10:19:00+01:00",
+  "updated_at": "2026-11-15T13:22:55.436Z",
   "status": "editorial_reviewed",
   "working_feeds": [
     {
@@ -454,6 +454,74 @@
     "with_images": 82
   },
   "items": [
+    {
+      "project_id": "now-you-see-me-live-broadway-macro-camera-2026",
+      "title": "Now You See Me Live à Broadway — agrandir la magie sans trahir le geste",
+      "title_fr": "Now You See Me Live à Broadway — agrandir la magie sans trahir le geste",
+      "url": "https://www.broadwayworld.com/article/Photos-First-Look-at-NOW-YOU-SEE-ME-LIVE-on-Broadway-20261113",
+      "category": "01 Spectacle Concert",
+      "source": "BroadwayWorld / New York Theater / IBDB",
+      "published": "2026-11-13",
+      "radar_added_at": "2026-11-15T13:22:55.436Z",
+      "summary": "Pour la nouvelle production de Now You See Me Live à Broadway, les caméras rendent visibles sur grand écran des manipulations de cartes trop petites pour le fond de salle. Le même spectacle alterne objets minuscules, illusion grandeur nature et participation collective.",
+      "summary_fr": "Pour la nouvelle production de Now You See Me Live à Broadway, les caméras rendent visibles sur grand écran des manipulations de cartes trop petites pour le fond de salle. Le même spectacle alterne objets minuscules, illusion grandeur nature et participation collective.",
+      "image": "",
+      "image_kind": "none_rights_unverified",
+      "status": "editorial_reviewed",
+      "angle": "**La caméra sert ici à changer l'échelle de l'illusion**, pas seulement à filmer les magiciens."
+    },
+    {
+      "project_id": "enhypen-i-want-you-maquette-memoire-2026",
+      "title": "ENHYPEN — une maquette relie deux mondes dans le clip « I Want You »",
+      "title_fr": "ENHYPEN — une maquette relie deux mondes dans le clip « I Want You »",
+      "url": "https://www.youtube.com/watch?v=dE_Ro8Sac2M",
+      "category": "14 Musique Clips",
+      "source": "HYBE LABELS / News1 / NONOL",
+      "published": "2026-11-13",
+      "radar_added_at": "2026-11-15T13:22:55.436Z",
+      "summary": "Dans le clip « I Want You », ENHYPEN passe de scènes de rendez-vous ordinaires à des images inquiétantes d'un univers parallèle. Une maison miniature exposée dans un musée précède la vision d'une maison en flammes : le même motif relie deux réalités.",
+      "summary_fr": "Dans le clip « I Want You », ENHYPEN passe de scènes de rendez-vous ordinaires à des images inquiétantes d'un univers parallèle. Une maison miniature exposée dans un musée précède la vision d'une maison en flammes : le même motif relie deux réalités.",
+      "image": "",
+      "image_kind": "none_rights_unverified",
+      "status": "editorial_reviewed",
+      "angle": "**Faire revenir un objet sous deux formes suffit à construire un passage entre des univers différents.**",
+      "youtube_id": "dE_Ro8Sac2M"
+    },
+    {
+      "project_id": "processional-arts-oneironauts-harnais-2026",
+      "title": "Village Halloween Parade — faire voler un corps avec le mouvement du porteur",
+      "title_fr": "Village Halloween Parade — faire voler un corps avec le mouvement du porteur",
+      "url": "https://www.revue-as.fr/2026/11/14/processional-arts-workshop-les-oneironautes-de-la-village-halloween-parade/",
+      "category": "01 Spectacle Concert",
+      "source": "Revue AS / Processional Arts Workshop",
+      "published": "2026-11-14",
+      "radar_added_at": "2026-11-15T13:22:55.436Z",
+      "summary": "Un dossier de fabrication publié le 14 novembre révèle comment Processional Arts Workshop a construit des silhouettes blanches flottant au-dessus de leur porteur. Harnais dorsal, mât oblique et deux perches traduisent l'inclinaison du corps humain en vol apparent.",
+      "summary_fr": "Un dossier de fabrication publié le 14 novembre révèle comment Processional Arts Workshop a construit des silhouettes blanches flottant au-dessus de leur porteur. Harnais dorsal, mât oblique et deux perches traduisent l'inclinaison du corps humain en vol apparent.",
+      "image": "",
+      "image_kind": "none_rights_unverified",
+      "status": "editorial_reviewed",
+      "angle": "**La structure ne porte pas seulement la marionnette : elle transforme le corps du manipulateur en moteur dramatique.**",
+      "visual_url": "https://www.revue-as.fr/wp-content/uploads/2026/11/Oer.mp4",
+      "project_date": "2026-10-31"
+    },
+    {
+      "project_id": "a2o-lite-neon-infinite-4dgs-2026",
+      "title": "A2O LITE — dans « NEON », une caméra virtuelle traverse la chorégraphie",
+      "title_fr": "A2O LITE — dans « NEON », une caméra virtuelle traverse la chorégraphie",
+      "url": "https://www.youtube.com/watch?v=G_ej20-QWng",
+      "category": "14 Musique Clips",
+      "source": "A2O WORLD / 4DV.ai / AsiaVibes / K/NOTE",
+      "published": "2026-11-13",
+      "radar_added_at": "2026-11-15T13:22:55.436Z",
+      "summary": "Pour cette nouvelle version du clip « NEON », le groupe A2O LITE est capté en volume avec la technique 4D Gaussian Splatting. Le film passe d'une salle de capture grise à des décors futuristes blancs, avec des mouvements de caméra qui circulent au milieu des danseuses.",
+      "summary_fr": "Pour cette nouvelle version du clip « NEON », le groupe A2O LITE est capté en volume avec la technique 4D Gaussian Splatting. Le film passe d'une salle de capture grise à des décors futuristes blancs, avec des mouvements de caméra qui circulent au milieu des danseuses.",
+      "image": "",
+      "image_kind": "none_rights_unverified",
+      "status": "editorial_reviewed",
+      "angle": "**La performance est captée comme un volume : le placement de la caméra devient un choix de postproduction, pas seulement de tournage.**",
+      "youtube_id": "G_ej20-QWng"
+    },
     {
       "title": "Florence + the Machine — transformer un concert en rituel",
       "title_fr": "Florence + the Machine — transformer un concert en rituel",
