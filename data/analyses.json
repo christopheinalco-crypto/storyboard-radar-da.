@@ -2605,5 +2605,34 @@
     },
     "tip": "Pour un clip narratif, essayer de **retarder volontairement l'élément attendu**. Observer comment accessoires, espace et jeu rendent cette attente lisible.",
     "editorial_method": "Faits sourcés et hypothèses distingués. Aucun visuel non vérifié ajouté."
+  },
+  "https://www.usitt.org/news/florence-the-machine-enchants-global-audiences-on-everybody-scream-tour-supported-by-cohesion": {
+    "title_fr": "Florence + the Machine — transformer un concert en rituel",
+    "intro": "Florence Welch n'est pas simplement entourée d'un décor gothique. **Le Witch Choir, les capes, les corps contorsionnés, la brume et les lumières** construisent un univers avec ses propres règles. Et lorsque Florence avance dans le public, **la figure presque mythologique redevient une personne à portée de main**.",
+    "points": [
+      [
+        "L'essentiel",
+        "Le **Witch Choir**, quatre danseuses aux mouvements presque surnaturels, participe à une esthétique folk horror. La production associe **écrans LED monumentaux, brume, lumière et longue avancée de scène**. Florence quitte le plateau principal pour rejoindre les spectateurs : le rapport d'échelle et de distance change physiquement."
+      ],
+      [
+        "Intention",
+        "Le spectacle semble chercher à faire du concert **une cérémonie collective**. C'est une lecture artistique de l'ensemble, pas une déclaration attribuée à l'équipe : le dispositif crée d'abord **la distance du mythe**, puis l'avancée ouvre **la proximité humaine**."
+      ],
+      [
+        "Idée & DA",
+        "Le geste fort n'est pas de mettre de la fumée sur scène. C'est **la cohérence des signes** : les costumes évoquent une communauté, les corps lui donnent vie, la lumière rend l'univers sensible, l'avancée transforme la relation au public. **Chaque choix a une fonction différente mais sert la même dramaturgie.**"
+      ]
+    ],
+    "takeaway": "**Ne commencez pas par choisir une esthétique. Définissez d'abord ce que le public doit vivre.** Ici, le folk horror devient un langage pour passer de la fascination à la communion.",
+    "tip": "**À appliquer :** pour un concert ou un clip, écrire une phrase d'expérience spectateur, puis attribuer à chaque élément — corps, costume, lumière, espace — un rôle précis. Supprimer ce qui ne renforce pas l'expérience.",
+    "source": "USITT / Cohesion ; TPi",
+    "source_url": "https://www.usitt.org/news/florence-the-machine-enchants-global-audiences-on-everybody-scream-tour-supported-by-cohesion",
+    "source_links": [
+      "https://www.usitt.org/news/florence-the-machine-enchants-global-audiences-on-everybody-scream-tour-supported-by-cohesion",
+      "https://www.tpimagazine.com/staging-florence-and-the-machines-everybody-scream-tour/"
+    ],
+    "verified": true,
+    "reviewed_at": "2026-11-15T10:19:00+01:00",
+    "editorial_method": "Choix scéniques documentés par USITT et TPi ; intention rituelle explicitement présentée comme interprétation éditoriale. Image du projet issue de l'article USITT."
   }
 }
