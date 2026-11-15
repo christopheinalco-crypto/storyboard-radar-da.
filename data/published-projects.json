@@ -1,6 +1,6 @@
 {
   "description": "Cumulative seen-project register; retain entries when projects leave the live feed; compare URL and semantic identity.",
-  "updated": "2026-11-15T19:50:26.353Z",
+  "updated": "2026-11-15T20:40:48.636Z",
   "projects": [
     {
       "project_id": "pink-siifu-devils-advocate-gontrand-making-of-2026",
@@ -413,6 +413,36 @@
       "published_at": "2026-11-15T19:50:26.353Z",
       "wave_id": "2026-11-15-20h-rattrapage",
       "editorial_score": 17
+    },
+    {
+      "project_id": "ateez-up-cube-rouge-2026",
+      "title": "ATEEZ — un cube rouge donne un point fixe à un monde qui s’effondre",
+      "url": "https://ateez.kqent.com/en/contents/6af5b1ecf0d69d09142fc301",
+      "category": "14 Musique Clips",
+      "radar_added_at": "2026-11-15T20:40:48.636Z",
+      "published_at": "2026-11-15T20:40:48.636Z",
+      "wave_id": "2026-11-15-essai-manuel-2",
+      "editorial_score": 18
+    },
+    {
+      "project_id": "illit-mma-arrestation-2026",
+      "title": "ILLIT aux Melon Music Awards — l’arrestation devient une scène chorégraphiée",
+      "url": "https://newsroom.kakaoent.com/news/k-pops-game-changers-to-ignite-mma2026-with-exclusive-stages/",
+      "category": "15 Scène Spectacle",
+      "radar_added_at": "2026-11-15T20:40:48.636Z",
+      "published_at": "2026-11-15T20:40:48.636Z",
+      "wave_id": "2026-11-15-essai-manuel-2",
+      "editorial_score": 17
+    },
+    {
+      "project_id": "kittie-mouthful-poison-xxv-chat-2026",
+      "title": "Kittie — confier une partie du casting à un chat",
+      "url": "https://goddessmetal.com/news/2026-11-13-kittie-release-mouthful-of-poison-xxv-video/",
+      "category": "14 Musique Clips",
+      "radar_added_at": "2026-11-15T20:40:48.636Z",
+      "published_at": "2026-11-15T20:40:48.636Z",
+      "wave_id": "2026-11-15-essai-manuel-2",
+      "editorial_score": 15
     }
   ]
 }

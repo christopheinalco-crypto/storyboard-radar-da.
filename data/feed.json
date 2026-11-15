@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-15T19:50:26.353Z",
+  "updated_at": "2026-11-15T20:40:48.636Z",
   "status": "editorial_reviewed",
   "working_feeds": [
     {
@@ -454,6 +454,65 @@
     "with_images": 82
   },
   "items": [
+    {
+      "project_id": "ateez-up-cube-rouge-2026",
+      "title": "ATEEZ — un cube rouge donne un point fixe à un monde qui s’effondre",
+      "title_fr": "ATEEZ — un cube rouge donne un point fixe à un monde qui s’effondre",
+      "url": "https://ateez.kqent.com/en/contents/6af5b1ecf0d69d09142fc301",
+      "category": "14 Musique Clips",
+      "source": "KQ Entertainment / Kenh14",
+      "published": "2026-11-13",
+      "radar_added_at": "2026-11-15T20:40:48.636Z",
+      "summary": "Dans « UP », des immeubles s’effondrent dans une palette sombre et froide. Un cube rouge lumineux tranche avec cet environnement.",
+      "summary_fr": "Dans « UP », des immeubles s’effondrent dans une palette sombre et froide. Un cube rouge lumineux tranche avec cet environnement.",
+      "image": "https://christopheinalco-crypto.github.io/storyboard-radar-da./assets/editorial/ateez-up-cube-rouge-2026.svg",
+      "image_kind": "editorial_illustration",
+      "image_credit": "Illustration originale RADAR DA",
+      "image_source_url": "https://ateez.kqent.com/en/contents/6af5b1ecf0d69d09142fc301",
+      "image_alt": "Cube rouge lumineux parmi des structures de béton sombres",
+      "status": "editorial_reviewed",
+      "angle": "Avant d’ajouter des effets, fixe **le seul objet que le spectateur doit reconnaître instantanément**. Donne-lui une forme nette et réserve-lui la couleur la plus intense.",
+      "youtube_id": "SGovymtCzvA"
+    },
+    {
+      "project_id": "illit-mma-arrestation-2026",
+      "title": "ILLIT aux Melon Music Awards — l’arrestation devient une scène chorégraphiée",
+      "title_fr": "ILLIT aux Melon Music Awards — l’arrestation devient une scène chorégraphiée",
+      "url": "https://newsroom.kakaoent.com/news/k-pops-game-changers-to-ignite-mma2026-with-exclusive-stages/",
+      "category": "15 Scène Spectacle",
+      "source": "Kakao Entertainment / ChosunBiz",
+      "published": "2026-11-15",
+      "radar_added_at": "2026-11-15T20:40:48.636Z",
+      "summary": "Le passage d’ILLIT aux Melon Music Awards transforme le motif de l’arrestation en action scénique. Le public peut identifier la situation avant le développement du numéro.",
+      "summary_fr": "Le passage d’ILLIT aux Melon Music Awards transforme le motif de l’arrestation en action scénique. Le public peut identifier la situation avant le développement du numéro.",
+      "image": "https://christopheinalco-crypto.github.io/storyboard-radar-da./assets/editorial/illit-mma-arrestation-2026.svg",
+      "image_kind": "editorial_illustration",
+      "image_credit": "Illustration originale RADAR DA",
+      "image_source_url": "https://newsroom.kakaoent.com/news/k-pops-game-changers-to-ignite-mma2026-with-exclusive-stages/",
+      "image_alt": "Schéma du motif scénique : une arrestation au centre du tableau",
+      "status": "editorial_reviewed",
+      "angle": "Pour adapter un clip à la scène, choisis **un verbe que le public peut reconnaître en plan large**. Écris les rôles et le point de bascule avant de régler les détails de chorégraphie."
+    },
+    {
+      "project_id": "kittie-mouthful-poison-xxv-chat-2026",
+      "title": "Kittie — confier une partie du casting à un chat",
+      "title_fr": "Kittie — confier une partie du casting à un chat",
+      "url": "https://goddessmetal.com/news/2026-11-13-kittie-release-mouthful-of-poison-xxv-video/",
+      "category": "14 Musique Clips",
+      "source": "Goddess Metal / ThePRP",
+      "published": "2026-11-13",
+      "radar_added_at": "2026-11-15T20:40:48.636Z",
+      "summary": "Le clip de « Mouthful of Poison XXV » crédite Tilly, un chat, dans sa distribution. Ce détail permet de lire le casting comme un choix de direction artistique à part entière.",
+      "summary_fr": "Le clip de « Mouthful of Poison XXV » crédite Tilly, un chat, dans sa distribution. Ce détail permet de lire le casting comme un choix de direction artistique à part entière.",
+      "image": "https://christopheinalco-crypto.github.io/storyboard-radar-da./assets/editorial/kittie-mouthful-poison-xxv-chat-2026.svg",
+      "image_kind": "editorial_illustration",
+      "image_credit": "Illustration originale RADAR DA",
+      "image_source_url": "https://goddessmetal.com/news/2026-11-13-kittie-release-mouthful-of-poison-xxv-video/",
+      "image_alt": "Schéma de casting : silhouette d’un chat devant une grille de cadre",
+      "status": "editorial_reviewed",
+      "angle": "Dans un clip de performance, essaie d’introduire **une présence au rythme opposé**. Définis un cadre qui rende son comportement lisible et observe si la musique transforme déjà ce que tu vois.",
+      "youtube_id": "yRc1QcFyzHE"
+    },
     {
       "project_id": "chanmina-history-2026",
       "title": "CHANMINA — faire sentir l’absence avec un plateau de groupe vide",
