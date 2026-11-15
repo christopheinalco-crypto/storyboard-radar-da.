@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-15T20:40:48.636Z",
+  "updated_at": "2026-11-15T20:42:25.938Z",
   "status": "editorial_reviewed",
   "working_feeds": [
     {
@@ -454,6 +454,65 @@
     "with_images": 82
   },
   "items": [
+    {
+      "project_id": "zinoleesky-omo-ologo-ambre-2026",
+      "title": "Zinoleesky — détacher un visage avec deux valeurs d’ambre",
+      "title_fr": "Zinoleesky — détacher un visage avec deux valeurs d’ambre",
+      "url": "https://afrobeatkit.com/music-video/zinoleesky-omo-ologo-video/",
+      "category": "14 Musique Clips",
+      "source": "AfrobeatKit / Zinoleesky",
+      "published": "2026-11-13",
+      "radar_added_at": "2026-11-15T20:42:25.938Z",
+      "summary": "Dans l’image de présentation de « Omo Ologo », un visage net et un gant foncé se détachent sur un fond ambré. Un point de lumière flou chauffe le cadre depuis le bord gauche.",
+      "summary_fr": "Dans l’image de présentation de « Omo Ologo », un visage net et un gant foncé se détachent sur un fond ambré. Un point de lumière flou chauffe le cadre depuis le bord gauche.",
+      "image": "https://christopheinalco-crypto.github.io/storyboard-radar-da./assets/editorial/zinoleesky-omo-ologo-ambre-2026.svg",
+      "image_kind": "editorial_illustration",
+      "image_credit": "Illustration originale RADAR DA",
+      "image_source_url": "https://afrobeatkit.com/music-video/zinoleesky-omo-ologo-video/",
+      "image_alt": "Illustration du portrait décentré : lumière ambre floue et gant sombre au premier plan",
+      "status": "editorial_reviewed",
+      "angle": "Dans un portrait presque monochrome, fais un test en niveaux de gris. **Réserve la netteté au visage** et utilise une masse sombre au premier plan pour séparer les plans.",
+      "youtube_id": "9WBABEUlesg"
+    },
+    {
+      "project_id": "iris-ultra-son-spatiale-2026",
+      "title": "Iris au Temps Machine — composer une scène que le public traverse",
+      "title_fr": "Iris au Temps Machine — composer une scène que le public traverse",
+      "url": "https://letempsmachine.com/agenda/ultra-son-2-marta-molecule",
+      "category": "15 Scène Spectacle",
+      "source": "Le Temps Machine / Fracama",
+      "published": "2026-11-14",
+      "radar_added_at": "2026-11-15T20:42:25.938Z",
+      "summary": "Avant les concerts de marta et Molécule, « Iris » transforme la grande salle en espace d’écoute à parcourir au casque.",
+      "summary_fr": "Avant les concerts de marta et Molécule, « Iris » transforme la grande salle en espace d’écoute à parcourir au casque.",
+      "image": "https://christopheinalco-crypto.github.io/storyboard-radar-da./assets/editorial/iris-ultra-son-spatiale-2026.svg",
+      "image_kind": "editorial_illustration",
+      "image_credit": "Illustration originale RADAR DA",
+      "image_source_url": "https://letempsmachine.com/agenda/ultra-son-2-marta-molecule",
+      "image_alt": "Schéma conceptuel du parcours au casque dans une salle de spectacle",
+      "status": "editorial_reviewed",
+      "angle": "Lors d’un repérage de projet immersif, trace **deux parcours et un point d’arrêt**. Teste ce que comprend une personne qui traverse la salle vite et une autre qui reste au même endroit."
+    },
+    {
+      "project_id": "don-toliver-party-with-the-boys-seuil-2026",
+      "title": "Don Toliver — une porte donne le ton au cameo de Bam Margera",
+      "title_fr": "Don Toliver — une porte donne le ton au cameo de Bam Margera",
+      "url": "https://www.thehypemagazine.com/2026/11/13/don-toliver-party-with-the-boys/",
+      "category": "14 Musique Clips",
+      "source": "The Hype Magazine / Don Toliver",
+      "published": "2026-11-13",
+      "radar_added_at": "2026-11-15T20:42:25.938Z",
+      "summary": "Dans la vignette de « Party With The Boys », Bam Margera surgit à droite d’un encadrement sombre. Un arrière-plan vert et un visage très proche posent immédiatement le ton du clip.",
+      "summary_fr": "Dans la vignette de « Party With The Boys », Bam Margera surgit à droite d’un encadrement sombre. Un arrière-plan vert et un visage très proche posent immédiatement le ton du clip.",
+      "image": "https://christopheinalco-crypto.github.io/storyboard-radar-da./assets/editorial/don-toliver-party-with-the-boys-seuil-2026.svg",
+      "image_kind": "editorial_illustration",
+      "image_credit": "Illustration originale RADAR DA",
+      "image_source_url": "https://www.thehypemagazine.com/2026/11/13/don-toliver-party-with-the-boys/",
+      "image_alt": "Illustration du visage penché près d’une porte sombre et d’un intérieur vert",
+      "status": "editorial_reviewed",
+      "angle": "Pour présenter un invité dans un cadre serré, donne-lui **un seuil à franchir**. Puis teste le plan sans nom ni carton et demande ce qu’on comprend de son énergie.",
+      "youtube_id": "fPmllLdiZCQ"
+    },
     {
       "project_id": "ateez-up-cube-rouge-2026",
       "title": "ATEEZ — un cube rouge donne un point fixe à un monde qui s’effondre",

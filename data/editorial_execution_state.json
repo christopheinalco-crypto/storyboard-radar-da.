@@ -1328,11 +1328,25 @@
       {
         "id": "2026-11-15-essai-manuel-2",
         "slot": "2026-11-15-essai-manuel-2",
-        "status": "pending_public_verification",
+        "status": "public_verified",
         "projects": [
           "ateez-up-cube-rouge-2026",
           "illit-mma-arrestation-2026",
           "kittie-mouthful-poison-xxv-chat-2026"
+        ],
+        "count": 3,
+        "publication_commit": "0e132cf",
+        "public_render_check": "https://github.com/christopheinalco-crypto/storyboard-radar-da./actions/runs/43759453231",
+        "pages_deployment": "https://github.com/christopheinalco-crypto/storyboard-radar-da./actions/runs/43759452989"
+      },
+      {
+        "id": "2026-11-15-essai-manuel-3",
+        "slot": "2026-11-15-essai-manuel-3",
+        "status": "pending_public_verification",
+        "projects": [
+          "zinoleesky-omo-ologo-ambre-2026",
+          "iris-ultra-son-spatiale-2026",
+          "don-toliver-party-with-the-boys-seuil-2026"
         ]
       }
     ]

@@ -1,6 +1,6 @@
 {
   "description": "Cumulative seen-project register; retain entries when projects leave the live feed; compare URL and semantic identity.",
-  "updated": "2026-11-15T20:40:48.636Z",
+  "updated": "2026-11-15T20:42:25.938Z",
   "projects": [
     {
       "project_id": "pink-siifu-devils-advocate-gontrand-making-of-2026",
@@ -443,6 +443,36 @@
       "published_at": "2026-11-15T20:40:48.636Z",
       "wave_id": "2026-11-15-essai-manuel-2",
       "editorial_score": 15
+    },
+    {
+      "project_id": "zinoleesky-omo-ologo-ambre-2026",
+      "title": "Zinoleesky — détacher un visage avec deux valeurs d’ambre",
+      "url": "https://afrobeatkit.com/music-video/zinoleesky-omo-ologo-video/",
+      "category": "14 Musique Clips",
+      "radar_added_at": "2026-11-15T20:42:25.938Z",
+      "published_at": "2026-11-15T20:42:25.938Z",
+      "wave_id": "2026-11-15-essai-manuel-3",
+      "editorial_score": 17
+    },
+    {
+      "project_id": "iris-ultra-son-spatiale-2026",
+      "title": "Iris au Temps Machine — composer une scène que le public traverse",
+      "url": "https://letempsmachine.com/agenda/ultra-son-2-marta-molecule",
+      "category": "15 Scène Spectacle",
+      "radar_added_at": "2026-11-15T20:42:25.938Z",
+      "published_at": "2026-11-15T20:42:25.938Z",
+      "wave_id": "2026-11-15-essai-manuel-3",
+      "editorial_score": 19
+    },
+    {
+      "project_id": "don-toliver-party-with-the-boys-seuil-2026",
+      "title": "Don Toliver — une porte donne le ton au cameo de Bam Margera",
+      "url": "https://www.thehypemagazine.com/2026/11/13/don-toliver-party-with-the-boys/",
+      "category": "14 Musique Clips",
+      "radar_added_at": "2026-11-15T20:42:25.938Z",
+      "published_at": "2026-11-15T20:42:25.938Z",
+      "wave_id": "2026-11-15-essai-manuel-3",
+      "editorial_score": 17
     }
   ]
 }
