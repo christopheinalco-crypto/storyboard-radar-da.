@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """RADAR DA: collect recent RSS candidates without publishing unreviewed articles."""
 import datetime as dt
+from collections import Counter
 import email.utils
 import json
 import os
@@ -12,7 +13,8 @@ from urllib.parse import urlsplit, urlunsplit
 
 ROOT = Path(__file__).resolve().parents[1]
 NOW = dt.datetime.now(dt.timezone.utc)
-PRIORITY = ("concert", "spectacle", "clip", "music", "tv", "broadcast", "scenograph", "stage", "show", "event", "brand", "retail")
+PRIORITY_CATEGORIES = {"01 Spectacle Concert", "02 TV Broadcast", "09 France Pro", "14 Musique Clips", "15 Danse Performance", "06 Retail Brand Experience", "08 Immersif CGI Motion"}
+PRIMARY_SECTORS = {"01 Spectacle Concert", "02 TV Broadcast", "09 France Pro", "14 Musique Clips", "15 Danse Performance"}
 TERMS = re.compile(r"concert|tour|stage|scenograph|set design|music video|video director|lighting design|live show|broadcast|ceremony|product launch|brand experience|clip|spectacle|scène|scenographie|lancement", re.I)
 EXCLUDE = re.compile(r"webinar|job opening|appointed|speaker line-up|training course|formation métier|packaging", re.I)
 
@@ -50,7 +52,10 @@ feed = json.loads((ROOT / "data/feed.json").read_text(encoding="utf-8"))
 existing = {canonical(item.get("url", "")) for item in feed.get("items", [])}
 existing.update(canonical(url) for url in json.loads((ROOT / "data/analyses.json").read_text(encoding="utf-8")).keys())
 sources = feed.get("working_feeds", [])
+registry = json.loads((ROOT / "data/published-projects.json").read_text(encoding="utf-8")).get("projects", [])
+existing.update(canonical(item.get("url", "")) for item in registry if isinstance(item, dict))
 results, failures, checked, parsed = [], [], 0, 0
+filters = Counter()
 for source in sources:
     url = source.get("feed")
     if not url:
@@ -64,20 +69,35 @@ for source in sources:
         entries = [e for e in tree.iter() if tagname(e.tag) in ("item", "entry")]
         parsed += 1
         for entry in entries[:50]:
+            filters["entries_scanned"] += 1
             title = child_text(entry, ("title",))
             link = child_text(entry, ("link", "guid", "id"))
             date_string = child_text(entry, ("pubdate", "published", "updated", "date"))
             date = parse_date(date_string)
             if not title or not link or not link.startswith("http") or not date:
+                filters["missing_required_metadata"] += 1
                 continue
             age_hours = (NOW - date).total_seconds() / 3600
-            if not 0 <= age_hours <= 72 or canonical(link) in existing:
+            if not 0 <= age_hours <= 72:
+                filters["outside_72h_window"] += 1
+                continue
+            filters["recent_72h_metadata"] += 1
+            if canonical(link) in existing:
+                filters["already_published"] += 1
                 continue
             category = source.get("category", "")
-            if not any(term in category.lower() for term in PRIORITY):
+            if category not in PRIORITY_CATEGORIES:
+                filters["outside_da_scope"] += 1
                 continue
-            if not TERMS.search(title) or EXCLUDE.search(title):
+            if EXCLUDE.search(title):
+                filters["excluded_generic_promotion"] += 1
                 continue
+            # Les titres de clips récents contiennent souvent seulement artiste + morceau.
+            # L absence des mots "clip" ou "concert" ne disqualifie pas une piste.
+            if category not in PRIMARY_SECTORS and not TERMS.search(title):
+                filters["weak_event_signal"] += 1
+                continue
+            filters["candidate_unverified"] += 1
             results.append({"title": title, "url": link, "source": source.get("name"), "category": category,
                             "source_published_at": date.isoformat(), "age_hours": round(age_hours, 1),
                             "status": "candidate_unverified", "project_date_verified": False,
@@ -89,6 +109,7 @@ candidates = sorted(unique.values(), key=lambda x: x["source_published_at"], rev
 out = {"collected_at": NOW.isoformat(), "configured_sources": feed.get("sources_selected"),
        "rss_sources_attempted": checked, "rss_sources_parsed": parsed,
        "rss_sources_failed": len(failures), "candidates_72h": len(candidates),
+       "filter_counts": dict(filters),
        "candidates_24h": sum(x["age_hours"] <= 24 for x in candidates),
        "warning": "RSS discovery only: not 182 sources opened; project dates, evidence, rights and images NOT verified.",
        "failures": failures, "candidates": candidates[:200]}
