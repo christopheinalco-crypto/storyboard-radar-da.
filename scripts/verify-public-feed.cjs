@@ -22,6 +22,11 @@ async function main() {
     const cards = page.locator('#feed article');
     const rendered = await cards.locator('a.source-action').evaluateAll(links => links.map(link => link.href));
     assert.deepEqual(rendered, feed.map(item => new URL(item.url).href), 'Flux public différent du flux attendu');
+    const first = cards.first();
+    await first.getByRole('button', { name: /Décryptage DA/ }).click();
+    await first.getByRole('button', { name: /Conserver l’idée/ }).click();
+    assert.equal(await cards.count(), feed.length, 'Le Carnet masque une fiche du flux');
+    assert.equal(await first.locator('a.source-action').evaluate(link => link.href), rendered[0]);
     mkdirSync('public-feed-evidence', { recursive: true });
     for (const [index, item] of changed.entries()) {
       const card = cards.nth(feed.indexOf(item));
