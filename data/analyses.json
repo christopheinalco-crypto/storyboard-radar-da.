@@ -685,37 +685,38 @@
     ]
   },
   "https://mmrmag.com/snow-patrols-royal-albert-hall-shows-use-colorado-pxl-curve-12-battens/": {
-    "intro": "**Davy Sherwin place 26 barres lumineuses le long de la scène pour faire déborder l'univers vidéo dans l'espace réel.**",
+    "intro": "À la Royal Albert Hall, **Davy Sherwin part d'une courbe qui existe déjà** : celle de la scène. Il prolonge cette géométrie avec un écran LED courbe et **26 barres lumineuses motorisées**. L'écran et la lumière cessent d'être deux dispositifs séparés : ils composent un même paysage.",
     "points": [
       [
-        "La jonction est le vrai sujet",
-        "**Les projecteurs suivent la courbe du plateau juste sous l'écran**. **Le regard passe de l'image aux musiciens sans rupture visuelle**."
+        "L'essentiel",
+        "**Les 26 barres suivent le bord courbe du plateau**, sous l'écran LED. Des contenus visuels passent de l'écran aux barres : le regard peut traverser l'image, la lumière et les musiciens sans rencontrer une frontière nette."
       ],
       [
-        "Un outil qui épouse le lieu",
-        "**La ligne lumineuse reprend la forme de la scène du Royal Albert Hall.** l'installation semble faire partie de l'architecture plutôt que d'être ajoutée devant elle."
+        "Intention",
+        "L'équipe cherchait un dispositif adapté à l'architecture singulière du Royal Albert Hall. **Il ne s'agit pas d'imposer un décor standard au lieu, mais de concevoir avec lui.**"
       ],
       [
-        "Une palette, plusieurs émotions",
-        "**Les teintes brunes et grises alternent avec des couleurs plus vives.** **Le même dispositif produit plusieurs ambiances sans changer la structure**."
+        "Idée & DA",
+        "Les **bruns et les gris** employés dans la lumière sont révélateurs : le but n'est pas d'ajouter des couleurs spectaculaires à tout prix, mais de prolonger les images. Une ligne lumineuse devient un élément de composition, presque une couture entre l'écran et la scène. **L'effet produit : une continuité visuelle qui fait paraître l'installation appartenir au lieu.**"
       ]
     ],
-    "takeaway": "**Une ligne lumineuse placée à la jonction entre écran et plateau peut relier image et musiciens.** **Sa justesse dépend de la continuité visuelle qu'elle produit**.",
-    "tip": "**À appliquer :** observe le choix décrit dans ce projet, puis teste comment son retrait ou sa variation **modifie l'effet sur le public**.",
+    "takeaway": "**Une contrainte architecturale peut devenir la signature du spectacle.** La bonne idée n'est pas toujours un élément ajouté : c'est parfois une forme existante que l'on révèle.",
+    "tip": "**À appliquer :** avant de dessiner un plateau, relever ses lignes dominantes. Tester une lumière qui les suit, puis une lumière qui les contredit : laquelle raconte le mieux l'intention ?",
     "source": "mmrmag.com",
     "source_url": "https://mmrmag.com/snow-patrols-royal-albert-hall-shows-use-colorado-pxl-curve-12-battens/",
     "source_links": [
       "https://mmrmag.com/snow-patrols-royal-albert-hall-shows-use-colorado-pxl-curve-12-battens/"
     ],
     "verified": true,
-    "reviewed_at": "2026-11-11T09:19:00+01:00",
-    "editorial_method": "Faits documentés, effets et hypothèses distingués. Parcours de lecture : observation avant interprétation. Les hypothèses restent distinctes des intentions attestées. Révision typographique : suppression du surlignage jaune et des marqueurs de métalangage ; vérification factuelle et visuelle non refaite. Rythme typographique revu : idées clés renforcées en gras, sans surlignage jaune ; relecture de rendu encore nécessaire.",
+    "reviewed_at": "2026-11-15T10:19:00+01:00",
+    "editorial_method": "Réécriture éditoriale fondée sur les faits documentés dans la source MMR ; effet perceptif analysé, intention de l'équipe distinguée.",
     "reading_sequence": [
       "Observation du visuel",
       "Concept et intention",
       "Décryptage des choix",
       "Enseignement DA"
-    ]
+    ],
+    "title_fr": "Snow Patrol — faire de l'architecture une partie du spectacle"
   },
   "https://www.thealpd.org.uk/news/18241/ayrton-eaglestrike-proves-the-ultimate-multipurpose-fixture-for-harry-styles-together": {
     "intro": "**Silent House organise quatre zones de public grâce aux passerelles.** L'artiste peut se retrouver à 65 mètres du plateau principal.",
