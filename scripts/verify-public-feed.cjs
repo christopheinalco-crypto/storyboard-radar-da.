@@ -13,6 +13,11 @@ const changed = feed.filter(item => byUrl.get(item.url)?.image !== item.image ||
 // Un commit du vérificateur seul peut laisser changed vide : tester alors
 // les quatre fiches les plus récentes pour prouver le rendu réel du flux.
 const cardsToVerify = changed.length ? changed : feed.slice(0, Math.min(4, feed.length));
+// Vérifier aussi un vrai chargement d'image quand la vague présente uniquement des vidéos ou des titres.
+if (!cardsToVerify.some(item => item.image)) {
+  const illustrated = feed.find(item => item.image);
+  if (illustrated) cardsToVerify.push(illustrated);
+}
 const publicSite = 'https://christopheinalco-crypto.github.io/storyboard-radar-da./';
 
 async function main() {
@@ -69,7 +74,7 @@ async function main() {
     }
     await page.evaluate(() => window.scrollTo(0, 0));
     await page.screenshot({ path: 'public-feed-evidence/flux.png' });
-    console.log(`${rendered.length} fiches dans le flux public, ${cardsToVerify.length} cartes nouvelles ou modifiées contrôlées (image, vidéo ou titre seul).`);
+    console.log(`${rendered.length} fiches dans le flux public, ${cardsToVerify.length} cartes contrôlées (image, vidéo ou titre seul).`);
   } finally {
     await browser.close();
   }
