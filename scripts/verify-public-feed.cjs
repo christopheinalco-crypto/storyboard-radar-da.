@@ -31,19 +31,33 @@ async function main() {
     for (const [index, item] of changed.entries()) {
       const card = cards.nth(feed.indexOf(item));
       const image = card.locator('.visual img');
-      await image.scrollIntoViewIfNeeded();
-      await image.evaluate(async img => {
-        await img.decode();
-        if (!img.naturalWidth) throw new Error('Visuel non chargé');
-      });
-      assert.equal(await image.getAttribute('src'), item.image, 'Visuel public différent du visuel validé');
+      if (item.image) {
+        assert.equal(await image.count(), 1, 'Image attendue mais absente');
+        await image.scrollIntoViewIfNeeded();
+        await image.evaluate(async img => {
+          await img.decode();
+          if (!img.naturalWidth) throw new Error('Visuel non chargé');
+        });
+        assert.equal(await image.getAttribute('src'), item.image, 'Visuel public différent du visuel validé');
+      } else if (/^[A-Za-z0-9_-]{11}$/.test(item.youtube_id || '')) {
+        const video = card.locator('iframe.project-video');
+        assert.equal(await video.count(), 1, 'Vidéo officielle absente');
+        assert((await video.getAttribute('src')).includes('youtube-nocookie.com/embed/' + item.youtube_id),
+          'Vidéo du projet incorrecte');
+      } else if (/^\\d+$/.test(item.slate_id || '')) {
+        const video = card.locator('iframe.project-video');
+        assert.equal(await video.count(), 1, 'Vidéo Slate absente');
+      } else {
+        assert.equal(await image.count(), 0, 'Carte titre seul : image inattendue');
+        assert(await card.locator('a.source-action').isVisible(), 'Carte titre seul : lien source invisible');
+      }
       await card.getByRole('button', { name: /Décryptage DA/ }).click();
       assert(await card.locator('.inline-study').isVisible(), 'Décryptage invisible');
       await card.screenshot({ path: 'public-feed-evidence/fiche-' + (index + 1) + '.png' });
     }
     await page.evaluate(() => window.scrollTo(0, 0));
     await page.screenshot({ path: 'public-feed-evidence/flux.png' });
-    console.log(`${rendered.length} fiches dans le flux public, ${changed.length} visuels contrôlés.`);
+    console.log(`${rendered.length} fiches dans le flux public, ${changed.length} cartes nouvelles ou modifiées contrôlées (image, vidéo ou titre seul).`);
   } finally {
     await browser.close();
   }
