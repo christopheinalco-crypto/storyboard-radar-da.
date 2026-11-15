@@ -10,6 +10,9 @@ const previous = base ? JSON.parse(execFileSync('git', [
 ], { encoding: 'utf8' })).items : feed;
 const byUrl = new Map(previous.map(item => [item.url, item]));
 const changed = feed.filter(item => byUrl.get(item.url)?.image !== item.image || !byUrl.has(item.url));
+// Un commit du vérificateur seul peut laisser changed vide : tester alors
+// les quatre fiches les plus récentes pour prouver le rendu réel du flux.
+const cardsToVerify = changed.length ? changed : feed.slice(0, Math.min(4, feed.length));
 const publicSite = 'https://christopheinalco-crypto.github.io/storyboard-radar-da./';
 
 async function main() {
@@ -28,7 +31,7 @@ async function main() {
     assert.equal(await cards.count(), feed.length, 'Le Carnet masque une fiche du flux');
     assert.equal(await first.locator('a.source-action').evaluate(link => link.href), rendered[0]);
     mkdirSync('public-feed-evidence', { recursive: true });
-    for (const [index, item] of changed.entries()) {
+    for (const [index, item] of cardsToVerify.entries()) {
       const card = cards.nth(feed.indexOf(item));
       const image = card.locator('.visual img');
       if (item.image) {
@@ -44,7 +47,7 @@ async function main() {
         assert.equal(await video.count(), 1, 'Vidéo officielle absente');
         assert((await video.getAttribute('src')).includes('youtube-nocookie.com/embed/' + item.youtube_id),
           'Vidéo du projet incorrecte');
-      } else if (/^\\d+$/.test(item.slate_id || '')) {
+      } else if (/^\d+$/.test(item.slate_id || '')) {
         const video = card.locator('iframe.project-video');
         assert.equal(await video.count(), 1, 'Vidéo Slate absente');
       } else {
@@ -57,7 +60,7 @@ async function main() {
     }
     await page.evaluate(() => window.scrollTo(0, 0));
     await page.screenshot({ path: 'public-feed-evidence/flux.png' });
-    console.log(`${rendered.length} fiches dans le flux public, ${changed.length} cartes nouvelles ou modifiées contrôlées (image, vidéo ou titre seul).`);
+    console.log(`${rendered.length} fiches dans le flux public, ${cardsToVerify.length} cartes nouvelles ou modifiées contrôlées (image, vidéo ou titre seul).`);
   } finally {
     await browser.close();
   }
