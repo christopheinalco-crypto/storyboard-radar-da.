@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-14T17:35:42.047Z",
+  "updated_at": "2026-11-15T00:15:00+01:00",
   "status": "editorial_reviewed",
   "working_feeds": [
     {
@@ -454,6 +454,34 @@
     "with_images": 82
   },
   "items": [
+    {
+      "title": "Frankie & The Deadbeats — un clip qui retarde la musique",
+      "title_fr": "Frankie & The Deadbeats — un clip qui retarde la musique",
+      "url": "https://www.promonews.tv/videos/2026/11/10/frankie-and-deadbeats-you-are-all-mine-night-lubos-vacke/96904",
+      "category": "14 Musique Clips",
+      "source": "Promonews",
+      "published": "2026-11-10",
+      "radar_added_at": "2026-11-15T00:15:00+01:00",
+      "summary": "Lubos Vacke construit un court récit domestique : un homme veut écouter son disque, mais une visite inattendue transforme ce rituel en conflit.",
+      "summary_fr": "Lubos Vacke construit un court récit domestique : un homme veut écouter son disque, mais une visite inattendue transforme ce rituel en conflit.",
+      "image": "",
+      "status": "editorial_reviewed",
+      "angle": "**L'attente de la musique devient le moteur du récit.** Le spectateur partage la frustration du personnage et découvre que l'absence peut être un choix de mise en scène."
+    },
+    {
+      "title": "Blackhaine — la ville devient un champ de tension",
+      "title_fr": "Blackhaine — la ville devient un champ de tension",
+      "url": "https://www.promonews.tv/videos/2026/11/11/blackhaine-northside-needs-me-mau-morgo/96936",
+      "category": "14 Musique Clips",
+      "source": "Promonews",
+      "published": "2026-11-11",
+      "radar_added_at": "2026-11-15T00:15:00+01:00",
+      "summary": "Mau Morgo met en scène une ville en crise. Caméras portées, action cams, ralentis et fumée rapprochent le spectateur de la confrontation.",
+      "summary_fr": "Mau Morgo met en scène une ville en crise. Caméras portées, action cams, ralentis et fumée rapprochent le spectateur de la confrontation.",
+      "image": "",
+      "status": "editorial_reviewed",
+      "angle": "**Le spectateur n'observe plus seulement une émeute : il en ressent la pression.** Le contraste entre proximité et désorientation devient le véritable outil dramatique."
+    },
     {
       "project_id": "daniel-caesar-son-of-spergy-live-camera-2026",
       "title": "Daniel Caesar — une arène filmée comme une répétition",
