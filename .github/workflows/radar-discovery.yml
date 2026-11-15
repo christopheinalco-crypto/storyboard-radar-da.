@@ -2,11 +2,9 @@ name: RADAR DA - collecte des sources (sans publication)
 on:
   push:
     paths:
-      - '.github/workflows/radar-discovery.yml'
       - 'scripts/radar_collect.py'
-  schedule:
-    - cron: '5 6,12,16,20 * * *'
-      timezone: Europe/Paris
+  # Exécution automatique suspendue : le collecteur source unique précède maintenant les veilles.
+  # workflow_dispatch conservé pour les tests manuels.
   workflow_dispatch:
 permissions:
   contents: write
