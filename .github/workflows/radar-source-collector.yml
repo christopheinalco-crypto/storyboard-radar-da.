@@ -6,6 +6,7 @@ on:
       - 'scripts/collect_sources.py'
       - 'scripts/radar_pipeline.py'
       - 'scripts/inspect_projects.py'
+      - 'scripts/build_editorial_brief.py'
       - '.github/workflows/radar-source-collector.yml'
   schedule:
     # Préparer la collecte AVANT les veilles ChatGPT à 6 h, 12 h, 16 h et 20 h.
@@ -29,7 +30,7 @@ jobs:
         with:
           python-version: '3.12'
       - name: Vérifier la syntaxe des scripts
-        run: python -m py_compile scripts/collect_sources.py scripts/radar_pipeline.py scripts/inspect_projects.py
+        run: python -m py_compile scripts/collect_sources.py scripts/radar_pipeline.py scripts/inspect_projects.py scripts/build_editorial_brief.py
       - name: Isoler les rapports de cette exécution
         run: rm data/{source-discoveries,editorial-shortlist,project-inspections}.json
       - name: Identifier la vague
@@ -51,6 +52,8 @@ jobs:
         run: python scripts/radar_pipeline.py
       - name: Examiner les pages projets
         run: python scripts/inspect_projects.py
+      - name: Préparer une boîte de réception éditoriale concise (sans sélectionner ni publier)
+        run: python scripts/build_editorial_brief.py
       - name: Sauvegarder le point de reprise
         if: always()
         uses: actions/upload-artifact@v4
@@ -69,12 +72,13 @@ jobs:
             data/source-discoveries.json
             data/editorial-shortlist.json
             data/project-inspections.json
+            data/editorial-brief.json
       - name: Enregistrer audit et découvertes sans toucher au flux public
         if: github.ref == 'refs/heads/main'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/source-coverage.json data/source-discoveries.json data/editorial-shortlist.json data/project-inspections.json
+          git add data/source-coverage.json data/source-discoveries.json data/editorial-shortlist.json data/project-inspections.json data/editorial-brief.json
           if git diff --cached --quiet; then exit 0; fi
           git commit -m "RADAR DA: audit automatique des sources et découvertes"
           for attempt in 1 2 3; do
