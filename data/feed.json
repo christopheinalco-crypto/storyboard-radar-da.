@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-15T00:15:00+01:00",
+  "updated_at": "2026-11-15T10:19:00+01:00",
   "status": "editorial_reviewed",
   "working_feeds": [
     {
@@ -454,6 +454,22 @@
     "with_images": 82
   },
   "items": [
+    {
+      "title": "Florence + the Machine — transformer un concert en rituel",
+      "title_fr": "Florence + the Machine — transformer un concert en rituel",
+      "url": "https://www.usitt.org/news/florence-the-machine-enchants-global-audiences-on-everybody-scream-tour-supported-by-cohesion",
+      "category": "01 Spectacle Concert",
+      "source": "USITT / Cohesion",
+      "published": "2026-11-12",
+      "radar_added_at": "2026-11-15T10:19:00+01:00",
+      "summary": "Le Witch Choir, les silhouettes encapuchonnées, la brume et une longue avancée composent un rituel scénique qui alterne distance mythologique et proximité avec le public.",
+      "summary_fr": "Le Witch Choir, les silhouettes encapuchonnées, la brume et une longue avancée composent un rituel scénique qui alterne distance mythologique et proximité avec le public.",
+      "image": "https://cdn.prod.website-files.com/683e1b120d804ce797a1e8ff/6af5cd0f6f29caa4d8729d0f_florence-01.png",
+      "image_credit": "Photographie de la tournée Everybody Scream, publiée par USITT / Cohesion",
+      "image_source_url": "https://www.usitt.org/news/florence-the-machine-enchants-global-audiences-on-everybody-scream-tour-supported-by-cohesion",
+      "status": "editorial_reviewed",
+      "angle": "Comment le concert devient une cérémonie collective par la cohérence des corps, des costumes et de l'espace."
+    },
     {
       "title": "Frankie & The Deadbeats — un clip qui retarde la musique",
       "title_fr": "Frankie & The Deadbeats — un clip qui retarde la musique",
