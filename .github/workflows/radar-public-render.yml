@@ -6,6 +6,7 @@ on:
     paths:
       - 'data/feed.json'
       - 'data/analyses.json'
+      - 'data/published-projects.json'
       - 'index.html'
       - 'service-worker.js'
       - 'scripts/verify-public-feed.cjs'
@@ -32,6 +33,11 @@ jobs:
         env:
           BASE_SHA: ${{ github.event.before }}
         run: |
+          if [[ -n "$BASE_SHA" && ! "$BASE_SHA" =~ ^0+$ ]]; then
+            node scripts/validate-publication.cjs "$BASE_SHA" "$GITHUB_SHA"
+          else
+            export BASE_SHA=""
+          fi
           for attempt in {1..8}; do
             if timeout 60s node scripts/verify-public-feed.cjs "$BASE_SHA"; then exit 0; fi
             if [ "$attempt" -lt 8 ]; then sleep 30; fi

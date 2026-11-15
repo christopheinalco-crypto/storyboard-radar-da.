@@ -21,6 +21,13 @@ async function main() {
     const page = await browser.newPage({ serviceWorkers: 'block' });
     const response = await page.goto(publicSite + '?verify=' + Date.now());
     assert(response?.ok(), 'Le site public ne répond pas');
+    for (const name of ['feed', 'analyses', 'published-projects']) {
+      const url = new URL('data/' + name + '.json?verify=' + Date.now(), publicSite);
+      const publicData = await page.request.get(url.href);
+      assert(publicData.ok(), 'JSON public indisponible : ' + name);
+      assert.deepEqual(await publicData.json(), JSON.parse(readFileSync('data/' + name + '.json', 'utf8')),
+        'Version publique différente pour ' + name);
+    }
     await page.locator('#feed article').first().waitFor();
     const cards = page.locator('#feed article');
     const rendered = await cards.locator('a.source-action').evaluateAll(links => links.map(link => link.href));

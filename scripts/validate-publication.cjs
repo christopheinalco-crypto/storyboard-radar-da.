@@ -23,23 +23,33 @@ function validatePublication(base, head) {
   const after = read(head, 'feed').items;
   const archived = read(base, 'published-projects').projects;
   const registry = read(head, 'published-projects').projects;
+  const previousAnalyses = read(base, 'analyses');
   const analyses = read(head, 'analyses');
-  const historical = new Set([...before, ...archived].map(item => canonical(item.url)));
+  const historical = new Set([...before, ...archived].map(item => canonical(item.url))
+    .concat(Object.keys(previousAnalyses).map(canonical)));
   const projects = new Set([...before, ...archived].map(item => item.project_id).filter(Boolean));
   const existing = new Set(before.map(item => item.url));
   const added = after.filter(item => !existing.has(item.url));
   if (added.length > 7) errors.push('Plafond de 7 nouvelles fiches dépassé.');
-  if (!added.length) return errors;
-  for (const file of ['analyses', 'social-posts']) {
-    const previous = read(base, file);
-    const next = read(head, file);
-    if (file === 'analyses' && Object.keys(previous).some(url => !next[url])) errors.push('Analyse historique supprimée.');
-    if (file === 'social-posts' && !isDeepStrictEqual(previous, next)) errors.push('Archive sociale modifiée pendant la publication.');
-  }
+  if (Object.keys(previousAnalyses).some(url => !analyses[url])) errors.push('Analyse historique supprimée.');
   if (before.some(item => !after.some(next => next.url === item.url)) ||
       archived.some(item => !registry.some(next => isDeepStrictEqual(item, next)))) {
     errors.push('Entrée historique supprimée du flux ou du registre.');
   }
+  if (!added.length) return errors;
+  if (!isDeepStrictEqual(read(base, 'social-posts'), read(head, 'social-posts'))) {
+    errors.push('Archive sociale modifiée pendant la publication.');
+  }
+  const files = ['data/feed.json', 'data/analyses.json', 'data/published-projects.json'];
+  const changed = execFileSync('git', ['diff', '--name-only', base, head], { encoding: 'utf8' }).trim().split(/\r?\n/);
+  if (files.some(file => !changed.includes(file)) ||
+      ['index.html', 'service-worker.js'].some(file => changed.includes(file))) {
+    errors.push('Publier les trois JSON ensemble, sans modifier l’interface.');
+  }
+  const editorialCommits = execFileSync('git', ['rev-list', '--first-parent', base + '..' + head, '--', ...files], {
+    encoding: 'utf8',
+  }).trim().split(/\r?\n/);
+  if (editorialCommits.length !== 1) errors.push('La vague éditoriale doit tenir dans un seul commit.');
   for (const item of added) {
     const reject = message => errors.push(item.url + ' — ' + message);
     const key = canonical(item.url);
@@ -50,7 +60,9 @@ function validatePublication(base, head) {
     projects.add(item.project_id);
     if (/^(?:instagram|linkedin|facebook|tiktok|twitter|x)\.com\//i.test(key) ||
         /instagram|linkedin|réseaux sociaux/i.test(item.category || '')) reject('Rubrique ou source canonique sociale.');
-    if (!registry.some(entry => entry.url === item.url && entry.project_id === item.project_id)) reject('Projet absent du registre.');
+    if (registry.filter(entry => entry.url === item.url && entry.project_id === item.project_id).length !== 1) {
+      reject('Le registre doit contenir exactement une entrée pour le projet.');
+    }
     const date = Date.parse(item.published);
     const wave = Date.parse(item.radar_added_at);
     const age = (wave - date) / 86400000;

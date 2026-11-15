@@ -35,7 +35,7 @@ jobs:
       - name: Vérifier la syntaxe des scripts
         run: python -m py_compile scripts/collect_sources.py scripts/radar_pipeline.py scripts/inspect_projects.py scripts/build_editorial_brief.py
       - name: Isoler les rapports de cette exécution
-        run: rm data/{source-discoveries,editorial-shortlist,project-inspections}.json
+        run: rm -f data/{source-discoveries,editorial-shortlist,project-inspections,editorial-brief}.json
       - name: Identifier la vague
         run: echo "RADAR_WAVE_ID=github-${GITHUB_RUN_ID}" >> "$GITHUB_ENV"
       - name: Reprendre les sources déjà contrôlées

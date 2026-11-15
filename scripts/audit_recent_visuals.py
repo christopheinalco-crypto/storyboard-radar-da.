@@ -1,9 +1,5 @@
 #!/usr/bin/env python3
-"""Replace RADAR DA explanatory diagrams with verified source-specific project photos.
-
-Never use an unrelated stock image. A failed verification keeps the existing image
-and records a warning, rather than inventing an asset.
-"""
+"""Report source-linked image candidates for editorial review."""
 import json
 import re
 import urllib.request
@@ -58,23 +54,15 @@ def find_project_image(article):
 
 data = json.loads(DATA.read_text(encoding="utf-8"))
 report = []
-changed = False
 for item in data["items"]:
     if not any((item.get("title_fr") or item.get("title") or "").startswith(t) for t in TARGETS):
         continue
     result = {"title": item.get("title_fr") or item.get("title"), "url": item["url"]}
     try:
         image, alt = find_project_image(item)
-        item["image"] = image
-        item["image_kind"] = "project"
-        item["image_alt"] = alt if alt and alt != "social" else "Photographie publiée avec le projet : " + result["title"]
-        item["image_credit"] = "Visuel publié dans la source du projet ; URL externe vérifiée automatiquement, droits de réaffichage non confirmés."
-        result.update(status="updated", image=image)
-        changed = True
+        result.update(status="candidate", image=image, source_url=item["url"], alt=alt)
     except Exception as e:
         result.update(status="unverified_keep_previous", error=str(e)[:250])
     report.append(result)
 REPORT.write_text(json.dumps({"results": report}, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
-if changed:
-    DATA.write_text(json.dumps(data, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 print(json.dumps(report, ensure_ascii=False, indent=2))
