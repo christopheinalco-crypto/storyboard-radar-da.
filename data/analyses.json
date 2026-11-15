@@ -2552,5 +2552,57 @@
     },
     "editorial_method": "Faits sourcés; intention interprétée distincte. Images contextuelles indiquées en métadonnées. Vérification HTTP et rendu public non confirmés.",
     "tip": "Partir d'un **croquis d'intention**, puis vérifier que costume, décor, couleur et cadrage parlent bien le même langage."
+  },
+  "https://www.promonews.tv/videos/2026/11/11/blackhaine-northside-needs-me-mau-morgo/96936": {
+    "intro": "**Ici, la ville n'est pas un décor neutre : elle devient le terrain d'un conflit.** Mau Morgo filme Blackhaine au milieu d'une agitation collective, avec des caméras portées, des action cams et des images à haute vitesse.",
+    "points": [
+      [
+        "Intention",
+        "**Faire ressentir la perte de contrôle plutôt que l'expliquer.** Le conflit entre autorité et révolte est documenté ; la volonté de placer le spectateur dans l'urgence est une lecture du dispositif."
+      ],
+      [
+        "Idée & DA",
+        "**La caméra instable rapproche les corps, les ralentis étirent les impacts, la fumée brouille les repères.** Le montage de ces régimes d'images fait varier la distance au chaos."
+      ],
+      [
+        "Effet produit",
+        "**Le spectateur n'observe plus seulement une émeute : il en ressent la pression.** Le contraste entre proximité et désorientation devient le véritable outil dramatique."
+      ]
+    ],
+    "takeaway": "**Le spectateur n'observe plus seulement une émeute : il en ressent la pression.** Le contraste entre proximité et désorientation devient le véritable outil dramatique.",
+    "source": "Promonews, 2026-11-11",
+    "verified": false,
+    "reviewed_at": "2026-11-15T00:15:00+01:00",
+    "editorial_score": {
+      "total": 15
+    },
+    "tip": "Pour une scène de tension, **définir trois distances caméra** : témoin, participant, victime. Chaque distance modifie le point de vue du récit.",
+    "editorial_method": "Faits sourcés et hypothèses distingués. Aucun visuel non vérifié ajouté."
+  },
+  "https://www.promonews.tv/videos/2026/11/10/frankie-and-deadbeats-you-are-all-mine-night-lubos-vacke/96904": {
+    "intro": "**Le clip commence par refuser ce qu'on attend d'un clip : la musique.** Lubos Vacke filme un homme qui prépare son moment d'écoute ; l'arrivée de sa compagne transforme ce rituel en petite comédie de situation.",
+    "points": [
+      [
+        "Intention",
+        "Le réalisateur part d'une idée explicite : **le besoin d'écouter un disque seul, sans interruption.** Le film transforme ce geste ordinaire en conflit de couple."
+      ],
+      [
+        "Idée & DA",
+        "**Un lieu domestique, deux personnages et une interruption suffisent à installer l'enjeu.** La direction artistique soutient un quotidien crédible plutôt que de multiplier les tableaux spectaculaires."
+      ],
+      [
+        "Effet produit",
+        "**L'attente de la musique devient le moteur du récit.** Le spectateur partage la frustration du personnage et découvre que l'absence peut être un choix de mise en scène."
+      ]
+    ],
+    "takeaway": "**L'attente de la musique devient le moteur du récit.** Le spectateur partage la frustration du personnage et découvre que l'absence peut être un choix de mise en scène.",
+    "source": "Promonews, 2026-11-10",
+    "verified": false,
+    "reviewed_at": "2026-11-15T00:15:00+01:00",
+    "editorial_score": {
+      "total": 15
+    },
+    "tip": "Pour un clip narratif, essayer de **retarder volontairement l'élément attendu**. Observer comment accessoires, espace et jeu rendent cette attente lisible.",
+    "editorial_method": "Faits sourcés et hypothèses distingués. Aucun visuel non vérifié ajouté."
   }
 }
