@@ -4,10 +4,8 @@ on:
   push:
     paths:
       - 'scripts/collect_radar.py'
-      - '.github/workflows/radar-collect.yml'
-  schedule:
-    - cron: '0 6,12,16,20 * * *'
-      timezone: Europe/Paris
+  # Exécution automatique suspendue : le collecteur source unique précède maintenant les veilles.
+  # workflow_dispatch conservé pour les tests manuels.
 permissions:
   contents: write
 concurrency:
