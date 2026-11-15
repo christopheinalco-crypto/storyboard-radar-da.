@@ -54,8 +54,10 @@ async function main() {
         assert.equal(await image.count(), 0, 'Carte titre seul : image inattendue');
         assert(await card.locator('a.source-action').isVisible(), 'Carte titre seul : lien source invisible');
       }
-      await card.getByRole('button', { name: /Décryptage DA/ }).click();
-      assert(await card.locator('.inline-study').isVisible(), 'Décryptage invisible');
+      const study = card.locator('.inline-study');
+      if (!(await study.isVisible()))
+        await card.getByRole('button', { name: /Décryptage DA/ }).click();
+      assert(await study.isVisible(), 'Décryptage invisible');
       await card.screenshot({ path: 'public-feed-evidence/fiche-' + (index + 1) + '.png' });
     }
     await page.evaluate(() => window.scrollTo(0, 0));
