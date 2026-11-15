@@ -1,0 +1,28 @@
+{
+  "collected_at": "2026-11-15T12:13:12.182567+00:00",
+  "configured_sources": 182,
+  "rss_sources_attempted": 43,
+  "rss_sources_parsed": 40,
+  "rss_sources_failed": 3,
+  "candidates_72h": 0,
+  "candidates_24h": 0,
+  "warning": "RSS discovery only: not 182 sources opened; project dates, evidence, rights and images NOT verified.",
+  "failures": [
+    {
+      "source": "BP&O",
+      "url": "https://bpando.org/feed",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "source": "Effie Worldwide",
+      "url": "https://www.effie.org/feed",
+      "error": "mismatched tag: line 93, column 2"
+    },
+    {
+      "source": "Grand Visual",
+      "url": "https://grandvisual.com/feed",
+      "error": "mismatched tag: line 93, column 2"
+    }
+  ],
+  "candidates": []
+}
