@@ -2323,5 +2323,38 @@
       }
     ],
     "notes": "Catalogue complet chargé, cinq sources du catalogue effectivement ouvertes et inspectées ; aucune vérification d'image ni droits achevée pour un projet éligible. Aucun nouveau commit éditorial. Couverture insuffisante, pas de vérification de rendu de nouvelle publication."
+  },
+  "latest_work_test": {
+    "id": "test-work-2026-11-15",
+    "status": "incomplete",
+    "stage": "editorial_selection",
+    "source_attempted_count": 182,
+    "source_opened_count": 166,
+    "source_inaccessible_count": 16,
+    "source_inaccessible_urls": [
+      "https://www.livedesignonline.com/",
+      "https://www.showtex.com/fr/projets",
+      "https://www.worldstagedesign.com/",
+      "https://www.konbini.com/popculture/musique/",
+      "https://www.bromptontech.com/",
+      "https://www.zerodensity.tv/",
+      "https://www.technoscopie.fr/",
+      "https://www.motionographer.com/",
+      "https://www.behance.net/",
+      "https://adage.com/",
+      "https://www.facebook.com/ads/library/",
+      "https://experimentaljetset.nl/",
+      "https://www.trendhunter.com/",
+      "https://www.wgsn.com/",
+      "https://www.adcfrance.com/",
+      "https://www.unrealengine.com/"
+    ],
+    "project_pages_attempted": 160,
+    "project_pages_opened": 155,
+    "candidate_images_unverified": 107,
+    "published_count": 0,
+    "existing_feed_cards_verified": 58,
+    "rendered_site_check": "https://github.com/christopheinalco-crypto/storyboard-radar-da./actions/runs/43701398089",
+    "notes": "Collecte réelle et reprise de collecte vérifiées. Sélection éditoriale de 4 à 6 nouveaux projets et vérification des nouveaux visuels non achevées."
   }
 }
