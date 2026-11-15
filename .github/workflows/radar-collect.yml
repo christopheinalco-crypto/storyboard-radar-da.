@@ -4,8 +4,10 @@ on:
   push:
     paths:
       - 'scripts/collect_radar.py'
-  # Exécution automatique suspendue : le collecteur source unique précède maintenant les veilles.
-  # workflow_dispatch conservé pour les tests manuels.
+  # Flux RSS rapides en complément du relevé des 182 sources, AVANT la veille ChatGPT.
+  schedule:
+    - cron: '20 5,11,15,19 * * *'
+      timezone: Europe/Paris
 permissions:
   contents: write
 concurrency:
@@ -14,14 +16,14 @@ concurrency:
 jobs:
   collect:
     runs-on: ubuntu-latest
-    timeout-minutes: 60
+    timeout-minutes: 15
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
       - name: Collecter et journaliser les erreurs
-        run: python scripts/collect_radar.py
+        run: RADAR_RSS_ONLY=1 python scripts/collect_radar.py
       - name: Afficher le bilan de collecte
         run: |
           python - <<'PY'
