@@ -2,6 +2,8 @@
 
 Une fiche part d’un choix perceptible et montre ce qu’il change dans le projet. Une palette, un costume ou un mouvement ne deviennent intéressants que lorsqu’on comprend ce qu’ils font au regard, au corps, à l’écoute ou à la relation avec le public.
 
+Les [lectures complémentaires sur la créativité, la publicité, le cinéma et la photographie](LECTURES_DA_CREATIVITE_PUBLICITE_CINEMA_PHOTO.md) ajoutent quinze ouvrages et un rapport. Les utiliser pour choisir un angle et les preuves à chercher en fonction du projet.
+
 ## Les angles tirés des ouvrages
 
 | Angle | Ce que l’ouvrage apporte | Comment le lire dans un projet |
