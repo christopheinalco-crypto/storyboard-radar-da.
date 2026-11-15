@@ -1302,5 +1302,22 @@
       }
     ],
     "published_count": 0
+  },
+  "validation_trial": {
+    "required_waves": 3,
+    "minimum_per_wave": 3,
+    "maximum_per_wave": 7,
+    "minimum_total": 9,
+    "waves": [
+      {
+        "id": "2026-11-15-20h-rattrapage",
+        "status": "pending_public_verification",
+        "projects": [
+          "chanmina-history-2026",
+          "riize-mma-2026-front-choral",
+          "idk-eminem-welcome-detroit-2026"
+        ]
+      }
+    ]
   }
 }

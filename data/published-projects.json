@@ -1,6 +1,6 @@
 {
   "description": "Cumulative seen-project register; retain entries when projects leave the live feed; compare URL and semantic identity.",
-  "updated": "2026-11-15T13:22:55.436Z",
+  "updated": "2026-11-15T19:50:26.353Z",
   "projects": [
     {
       "project_id": "pink-siifu-devils-advocate-gontrand-making-of-2026",
@@ -383,6 +383,36 @@
       "published_at": "2026-11-15T13:22:55.436Z",
       "wave_id": "2026-11-15-12h-rattrapage-test",
       "editorial_score": 18
+    },
+    {
+      "project_id": "chanmina-history-2026",
+      "title": "CHANMINA — faire sentir l’absence avec un plateau de groupe vide",
+      "url": "https://chanmina.com/news/detail/919",
+      "category": "14 Musique Clips",
+      "radar_added_at": "2026-11-15T19:50:26.353Z",
+      "published_at": "2026-11-15T19:50:26.353Z",
+      "wave_id": "2026-11-15-20h-rattrapage",
+      "editorial_score": 17
+    },
+    {
+      "project_id": "riize-mma-2026-front-choral",
+      "title": "RIIZE aux Melon Music Awards — un geste commun à l’échelle de l’arène",
+      "url": "https://www.melon.com/en/mma/2026/",
+      "category": "15 Scène Spectacle",
+      "radar_added_at": "2026-11-15T19:50:26.353Z",
+      "published_at": "2026-11-15T19:50:26.353Z",
+      "wave_id": "2026-11-15-20h-rattrapage",
+      "editorial_score": 17
+    },
+    {
+      "project_id": "idk-eminem-welcome-detroit-2026",
+      "title": "IDK et Eminem — confier la mémoire du clip à une voiture",
+      "url": "https://www.shadyrecords.com/2026/11/13/watch-idk-ft-eminem-welcome/",
+      "category": "14 Musique Clips",
+      "radar_added_at": "2026-11-15T19:50:26.353Z",
+      "published_at": "2026-11-15T19:50:26.353Z",
+      "wave_id": "2026-11-15-20h-rattrapage",
+      "editorial_score": 17
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-15T13:22:55.436Z",
+  "updated_at": "2026-11-15T19:50:26.353Z",
   "status": "editorial_reviewed",
   "working_feeds": [
     {
@@ -454,6 +454,66 @@
     "with_images": 82
   },
   "items": [
+    {
+      "project_id": "chanmina-history-2026",
+      "title": "CHANMINA — faire sentir l’absence avec un plateau de groupe vide",
+      "title_fr": "CHANMINA — faire sentir l’absence avec un plateau de groupe vide",
+      "url": "https://chanmina.com/news/detail/919",
+      "category": "14 Musique Clips",
+      "source": "CHANMINA / USEN",
+      "published": "2026-11-13",
+      "radar_added_at": "2026-11-15T19:50:26.353Z",
+      "summary": "CHANMINA interprète « History » devant des instruments sans musiciens. Le décor pose l’attente d’un groupe et la performance la laisse en suspens.",
+      "summary_fr": "CHANMINA interprète « History » devant des instruments sans musiciens. Le décor pose l’attente d’un groupe et la performance la laisse en suspens.",
+      "image": "https://christopheinalco-crypto.github.io/storyboard-radar-da./assets/editorial/chanmina-history-2026.svg",
+      "image_kind": "editorial_illustration",
+      "image_credit": "Illustration originale RADAR DA",
+      "image_source_url": "https://chanmina.com/news/detail/919",
+      "image_alt": "Schéma du plateau de groupe vide et de la position de la chanteuse",
+      "status": "editorial_reviewed",
+      "angle": "Pour rendre une absence sensible, **garde les objets qui annoncent la personne manquante**. Vérifie que le cadre permet d’identifier cet usage avant de laisser le regard revenir au visage.",
+      "youtube_id": "Gq_IGTJ-AMw"
+    },
+    {
+      "project_id": "riize-mma-2026-front-choral",
+      "title": "RIIZE aux Melon Music Awards — un geste commun à l’échelle de l’arène",
+      "title_fr": "RIIZE aux Melon Music Awards — un geste commun à l’échelle de l’arène",
+      "url": "https://www.melon.com/en/mma/2026/",
+      "category": "15 Scène Spectacle",
+      "source": "Melon / Kakao Entertainment / Soompi",
+      "published": "2026-11-14",
+      "radar_added_at": "2026-11-15T19:50:26.353Z",
+      "summary": "Sur une image de la performance, de nombreux interprètes lèvent les bras ensemble. La palette commune fait ressortir le geste à l’échelle du plateau.",
+      "summary_fr": "Sur une image de la performance, de nombreux interprètes lèvent les bras ensemble. La palette commune fait ressortir le geste à l’échelle du plateau.",
+      "image": "https://christopheinalco-crypto.github.io/storyboard-radar-da./assets/editorial/riize-mma-2026-front-choral.svg",
+      "image_kind": "editorial_illustration",
+      "image_credit": "Illustration originale RADAR DA",
+      "image_source_url": "https://www.melon.com/en/mma/2026/",
+      "image_alt": "Schéma de silhouettes claires levant les bras ensemble devant un fond bleu",
+      "status": "editorial_reviewed",
+      "angle": "Teste un geste d’ensemble **depuis le fond de la salle**, puis vérifie ce qui reste lisible quand tu réduis l’image à la taille d’une vignette. Coordonne la silhouette, la couleur et le moment du geste.",
+      "youtube_id": "_flsNDS92_o"
+    },
+    {
+      "project_id": "idk-eminem-welcome-detroit-2026",
+      "title": "IDK et Eminem — confier la mémoire du clip à une voiture",
+      "title_fr": "IDK et Eminem — confier la mémoire du clip à une voiture",
+      "url": "https://www.shadyrecords.com/2026/11/13/watch-idk-ft-eminem-welcome/",
+      "category": "14 Musique Clips",
+      "source": "Shady Records / Apple Music / Neon Music",
+      "published": "2026-11-13",
+      "radar_added_at": "2026-11-15T19:50:26.353Z",
+      "summary": "Dans « Welcome », réalisé en noir et blanc à Detroit, IDK prend place dans un véhicule qui a appartenu à J Dilla, producteur du morceau.",
+      "summary_fr": "Dans « Welcome », réalisé en noir et blanc à Detroit, IDK prend place dans un véhicule qui a appartenu à J Dilla, producteur du morceau.",
+      "image": "https://christopheinalco-crypto.github.io/storyboard-radar-da./assets/editorial/idk-eminem-welcome-detroit-2026.svg",
+      "image_kind": "editorial_illustration",
+      "image_credit": "Illustration originale RADAR DA",
+      "image_source_url": "https://www.shadyrecords.com/2026/11/13/watch-idk-ft-eminem-welcome/",
+      "image_alt": "Schéma en noir et blanc d’un véhicule cadré par des lignes de rue",
+      "status": "editorial_reviewed",
+      "angle": "Pour évoquer un héritage, **choisis un objet d’archive qu’on peut encore utiliser**. Donne-lui une action présente dans le film, puis vérifie que la scène tient aussi pour quelqu’un qui ignore sa provenance.",
+      "youtube_id": "zT104EktdOc"
+    },
     {
       "project_id": "now-you-see-me-live-broadway-macro-camera-2026",
       "title": "Now You See Me Live à Broadway — agrandir la magie sans trahir le geste",
