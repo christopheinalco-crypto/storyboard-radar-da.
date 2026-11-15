@@ -1,17 +1,17 @@
 {
-  "wave_id": "github-43712157163",
-  "prepared_at": "2026-11-15T12:07:01.494212+00:00",
-  "coverage_checked_at": "2026-11-15T12:06:35.798064+00:00",
+  "wave_id": "github-43743980099",
+  "prepared_at": "2026-11-15T17:58:01.456685+00:00",
+  "coverage_checked_at": "2026-11-15T17:57:27.095010+00:00",
   "coverage": {
     "attempted": 182,
-    "opened_successfully": 159,
-    "failed": 23,
+    "opened_successfully": 158,
+    "failed": 24,
     "target_met": true
   },
   "project_inspections": {
     "attempted": 160,
-    "opened": 157,
-    "failed": 3
+    "opened": 158,
+    "failed": 2
   },
   "research_only": true,
   "warning": "Mechanical triage, NOT editorial selection. Dates, identity, DA value, image rights and public rendering remain unverified. Editor must also research fresh projects externally.",
@@ -27,10 +27,10 @@
     "06 Retail Brand Experience": 1
   },
   "excluded_counts": {
-    "navigation_or_product": 38,
+    "navigation_or_product": 39,
     "not_project_like": 57,
     "metadata_older_than_72h": 14,
-    "not_opened": 3,
+    "not_opened": 2,
     "non_priority_category": 2
   },
   "items": [
@@ -40,7 +40,7 @@
       "category": "14 Musique Clips",
       "source": "Directors Notes",
       "published_date_claim": "2026-11-13T11:29:00+00:00",
-      "age_hours_claim": 48.6,
+      "age_hours_claim": 54.5,
       "date_verified": false,
       "project_identity_verified": false,
       "image_candidate_unverified": "https://directorsnotes.com/wp-content/uploads/2026/11/bifa_2026_dn_nominee_screening.jpg",
@@ -85,7 +85,7 @@
       "category": "09 France Pro",
       "source": "Revue AS",
       "published_date_claim": "2026-11-13T09:26:00+00:00",
-      "age_hours_claim": 50.7,
+      "age_hours_claim": 56.5,
       "date_verified": false,
       "project_identity_verified": false,
       "image_candidate_unverified": "https://www.revue-as.fr/wp-content/uploads/2026/11/Costume-In-Process-e1794485906181.png",
@@ -130,7 +130,7 @@
       "category": "14 Musique Clips",
       "source": "Directors Notes",
       "published_date_claim": "2026-11-13T10:00:00+00:00",
-      "age_hours_claim": 50.1,
+      "age_hours_claim": 56.0,
       "date_verified": false,
       "project_identity_verified": false,
       "image_candidate_unverified": "https://directorsnotes.com/wp-content/uploads/2026/11/hauser_03.jpg",
@@ -175,7 +175,7 @@
       "category": "09 France Pro",
       "source": "Revue AS",
       "published_date_claim": "2026-11-13T05:20:00+00:00",
-      "age_hours_claim": 54.8,
+      "age_hours_claim": 60.6,
       "date_verified": false,
       "project_identity_verified": false,
       "image_candidate_unverified": "https://www.revue-as.fr/wp-content/uploads/2026/11/LTM-Soundscape-11-c-Fanny-Maurilieras-scaled-e1794513992719.jpg",
@@ -190,7 +190,7 @@
       "category": "14 Musique Clips",
       "source": "Directors Notes",
       "published_date_claim": "2026-11-12T20:08:30+00:00",
-      "age_hours_claim": 64.0,
+      "age_hours_claim": 69.8,
       "date_verified": false,
       "project_identity_verified": false,
       "image_candidate_unverified": "https://directorsnotes.com/wp-content/uploads/2026/11/child_of_the_rouge_holly_shorts_uk_01.jpg",
