@@ -210,6 +210,7 @@ main{width:100%;max-width:1240px;padding-inline:clamp(14px,3vw,32px)}
 
 /* Lecture DA : rythme discret, sans surcharge visuelle. */
 .da-essential-points .da-inline-emphasis,.da-editorial-conclusion .da-inline-emphasis{color:#f6ffe8;font-weight:800;text-decoration:none}
+.da-inline-highlight{background:#d7ee80;color:#182014;padding:0 .16em;border-radius:.18em;box-decoration-break:clone;-webkit-box-decoration-break:clone}
 .da-essential-points>p{line-height:1.64!important}
 .da-essential-points{gap:15px}
 .da-essential-points strong:not(.da-inline-emphasis){text-decoration:none;color:#d5f6a0}
@@ -556,6 +557,7 @@ function editorialCaseQuality(x){
 // Échapper le texte avant le formatage. Les anciens ==marqueurs== deviennent du gras.
 function editorialEmphasis(value){
  return escapeHTML(String(value||''))
+  .replace(/\^\^([^\^]+)\^\^/g,'<mark class="da-inline-highlight">$1</mark>')
   .replace(/\*\*([^*]+)\*\*/g,'<strong class="da-inline-emphasis">$1</strong>')
   .replace(/\*([^*]+)\*/g,'<em class="da-inline-italic">$1</em>')
   .replace(/==([^=]+)==/g,'<strong class="da-inline-emphasis">$1</strong>');

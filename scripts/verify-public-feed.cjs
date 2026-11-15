@@ -1,6 +1,7 @@
 const assert = require('node:assert/strict');
 const { execFileSync } = require('node:child_process');
 const { readFileSync, mkdirSync } = require('node:fs');
+const { isDeepStrictEqual } = require('node:util');
 const { chromium } = require('playwright');
 
 const feed = JSON.parse(readFileSync('data/feed.json', 'utf8')).items;
@@ -9,7 +10,12 @@ const previous = base ? JSON.parse(execFileSync('git', [
   'show', base + ':data/feed.json',
 ], { encoding: 'utf8' })).items : feed;
 const byUrl = new Map(previous.map(item => [item.url, item]));
-const changed = feed.filter(item => byUrl.get(item.url)?.image !== item.image || !byUrl.has(item.url));
+const analyses = JSON.parse(readFileSync('data/analyses.json', 'utf8'));
+const previousAnalyses = base ? JSON.parse(execFileSync('git', [
+  'show', base + ':data/analyses.json',
+], { encoding: 'utf8' })) : analyses;
+const changed = feed.filter(item => !isDeepStrictEqual(byUrl.get(item.url), item) ||
+  !isDeepStrictEqual(previousAnalyses[item.url], analyses[item.url]));
 // Un commit du vérificateur seul peut laisser changed vide : tester alors
 // les quatre fiches les plus récentes pour prouver le rendu réel du flux.
 const cardsToVerify = changed.length ? changed : feed.slice(0, Math.min(4, feed.length));
@@ -70,6 +76,9 @@ async function main() {
       if (!(await study.isVisible()))
         await card.getByRole('button', { name: /Décryptage DA/ }).click();
       assert(await study.isVisible(), 'Décryptage invisible');
+      if (/\^\^[^^]+\^\^/.test(JSON.stringify(analyses[item.url]))) {
+        assert(await study.locator('mark.da-inline-highlight').first().isVisible(), 'Surlignage du décryptage invisible');
+      }
       await card.screenshot({ path: 'public-feed-evidence/fiche-' + (index + 1) + '.png' });
     }
     await page.evaluate(() => window.scrollTo(0, 0));

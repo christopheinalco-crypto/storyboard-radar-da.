@@ -86,6 +86,15 @@ function validatePublication(base, head) {
         gate.scores[field] > 0 && gate.scores[field] <= limits[i]) ||
         total < 14) reject('Barème incomplet ou note sous le seuil.');
     if (!['choice', 'effect', 'lesson', 'second_reading'].every(field => clean(gate?.[field]))) reject('Veto éditorial ou seconde lecture non documentés.');
+    const daCheck = gate?.da_check;
+    if (!['observation', 'viewer_effect', 'project_specific_lesson'].every(field => clean(daCheck?.[field])) ||
+        !Array.isArray(daCheck?.evidence) || daCheck.evidence.length < 2 ||
+        new Set(daCheck.evidence.map(ref => ref?.locator?.trim()).filter(Boolean)).size < 2) {
+      reject('Contrôle DA incomplet : deux repères distincts, un effet perceptible et un enseignement propre au projet sont requis.');
+    }
+    if (typeof review?.takeaway === 'string' && /(?:^|[.!?]\s+)(?:\^\^|\*\*)?(?:fais\s+un\s+test|teste\b|essaie\b|exercice\b)/iu.test(review.takeaway.trim())) {
+      reject('La rubrique Pour un DA doit formuler un enseignement, sans exercice.');
+    }
     if (!item.image || !/^https:\/\//i.test(item.image) || !canonical(item.image_source_url) || !clean(item.image_credit)) {
       reject('Image dans le flux obligatoire, avec provenance et crédit.');
     }
@@ -100,6 +109,9 @@ function validatePublication(base, head) {
       Number.isFinite(Date.parse(source.opened_at)) && Date.parse(source.opened_at) <= wave &&
       Date.parse(source.opened_at) >= wave - 30 * 86400000).map(source => canonical(source.url)));
     if (item.visual_url && !urls.has(canonical(item.visual_url))) reject('Accès visuel absent des sources consultées.');
+    if (Array.isArray(daCheck?.evidence) && daCheck.evidence.some(ref => !urls.has(canonical(ref?.url)) || !clean(ref?.locator))) {
+      reject('Les repères du contrôle DA doivent renvoyer à des sources ouvertes.');
+    }
     if (!urls.has(key) || !Array.isArray(review?.points) || !review.points.length ||
         !Array.isArray(review.editorial_review) || review.editorial_review.length !== review.points.length ||
         !review.editorial_review.every(ref => urls.has(canonical(ref.url)) && clean(ref.locator))) {
