@@ -4,6 +4,8 @@ Une fiche part d’un choix perceptible et montre ce qu’il change dans le proj
 
 Les [lectures complémentaires sur la créativité, la publicité, le cinéma et la photographie](LECTURES_DA_CREATIVITE_PUBLICITE_CINEMA_PHOTO.md) ajoutent quinze ouvrages et un rapport. Les utiliser pour choisir un angle et les preuves à chercher en fonction du projet.
 
+Le [dépouillement par chapitre](LECTURE_CHAPITRES_DA.md) précise les lectures intégrales, les passages partiels et les textes à lire. Deux apports s’ajoutent à la grille : en publicité, vérifier le rôle de l’image dans la démonstration de la promesse ; en concert, comparer deux états du dispositif et préciser ce que le public peut alors voir, faire ou devenir dans la scène.
+
 ## Les angles tirés des ouvrages
 
 | Angle | Ce que l’ouvrage apporte | Comment le lire dans un projet |
