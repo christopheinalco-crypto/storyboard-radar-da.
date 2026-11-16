@@ -1,36 +1,34 @@
 {
-  "wave_id": "github-43868098982",
-  "prepared_at": "2026-11-16T12:36:55.534781+00:00",
-  "coverage_checked_at": "2026-11-16T12:36:29.109660+00:00",
+  "wave_id": "github-43870885528",
+  "prepared_at": "2026-11-16T12:55:43.730752+00:00",
+  "coverage_checked_at": "2026-11-16T12:55:14.703841+00:00",
   "coverage": {
     "attempted": 182,
-    "opened_successfully": 159,
-    "failed": 23,
+    "opened_successfully": 158,
+    "failed": 24,
     "target_met": true
   },
   "project_inspections": {
     "attempted": 160,
-    "opened": 158,
-    "failed": 2
+    "opened": 157,
+    "failed": 3
   },
   "research_only": true,
   "warning": "Mechanical triage, NOT editorial selection. Dates, identity, DA value, image rights and public rendering remain unverified. Editor must also research fresh projects externally.",
   "eligible_for_publication_count": 0,
-  "inbox_size": 30,
+  "inbox_size": 28,
   "dated_candidates": 2,
   "by_category": {
     "14 Musique Clips": 6,
     "01 Spectacle Concert": 12,
     "02 TV Broadcast": 2,
-    "09 France Pro": 8,
-    "08 Immersif CGI Motion": 1,
-    "06 Retail Brand Experience": 1
+    "09 France Pro": 8
   },
   "excluded_counts": {
-    "navigation_or_product": 39,
-    "not_project_like": 57,
-    "metadata_older_than_72h": 17,
-    "not_opened": 2,
+    "navigation_or_product": 34,
+    "not_project_like": 58,
+    "metadata_older_than_72h": 21,
+    "not_opened": 3,
     "non_priority_category": 2
   },
   "items": [
@@ -85,42 +83,12 @@
       "category": "09 France Pro",
       "source": "Revue AS",
       "published_date_claim": "2026-11-16T09:44:00+00:00",
-      "age_hours_claim": 2.9,
+      "age_hours_claim": 3.2,
       "date_verified": false,
       "project_identity_verified": false,
       "image_candidate_unverified": "https://www.revue-as.fr/wp-content/uploads/2024/11/picto-viepro-as-e1760013309371.jpg",
       "description": "Le pôle technique du monde du spectacle est toujours à la recherche de nouveaux profils. Si vous êtes à la recherche d’emploi, ...",
       "page_excerpt": "Temps de lecture : 3 minutes Le pôle technique du monde du spectacle est toujours à la recherche de nouveaux profils. Si vous êtes à la recherche d’emploi, vous trouverez ici une revue non exhaustive, mais fournie, des prochains postes à pourvoir. , à Cluny (71), recrute son.sa prochain.e régisseur.se => prise de poste dès que possible en postulant , à Marmande (47), recrute son.sa prochain.e régisseur.se général.e => prise de poste dès que possible en postulant Le Conservatoire National Supérieur de Musique et de Danse de Paris (75019) recrute son.sa prochain.e régisseur.se général.e adjoint.e spécialité plateau",
-      "editorial_score": null,
-      "status": "research_only_not_approved"
-    },
-    {
-      "title": "Poetics of Soil: Fly Agaric I",
-      "url": "https://marshmallowlaserfeast.com/project/poetics-of-soil-fly-agaric-i-video-installation/",
-      "category": "08 Immersif CGI Motion",
-      "source": "Marshmallow Laser Feast",
-      "published_date_claim": "",
-      "age_hours_claim": null,
-      "date_verified": false,
-      "project_identity_verified": false,
-      "image_candidate_unverified": "https://marshmallowlaserfeast.com/app/uploads/2024/12/Poetics-of-Soil_-Fly-Agaric-I-Detail_Marshmallow-Laser-Feast.jpg",
-      "description": "Fly Agaric I is a video installation that explores the hidden life of soil, illuminating the hidden kingdoms of life underground in collaboration with Merlin Sheldrake.",
-      "page_excerpt": "Navigate to the Marshmallow Laser Feast homepage Poetics of Soil: Fly Agaric I is part of Marshmallow Laser Feast’s series illuminating the hidden kingdoms of life underground and weaving the words and voice of renowned mycologist and author Merlin Sheldrake into a living tapestry. Here, the Amanita muscaria mushroom pulses and oscillates, unveiling the hidden rhythms of the earth’s soil—a glimpse into the “home of the lives that give us life.” Multichannel Audio and Video Beneath our feet hums another world, expansive and inventive, yet concealed from view. is part of Marshmallow Laser Feast’s Poetics of Soil se",
-      "editorial_score": null,
-      "status": "research_only_not_approved"
-    },
-    {
-      "title": "Broadcast Set Design Agency | Jack Morton Worldwide",
-      "url": "https://jackmorton.com/services/broadcast-design/",
-      "category": "06 Retail Brand Experience",
-      "source": "Jack Morton",
-      "published_date_claim": "",
-      "age_hours_claim": null,
-      "date_verified": false,
-      "project_identity_verified": false,
-      "image_candidate_unverified": "https://jackmorton.com/wp-content/uploads/2020/08/Artboard-1-7-1-1024x576.png",
-      "description": "Jack Morton is a full-service broadcast set design and construction company. We've created some of the world's most recognizable news, sports and talk show sets.",
-      "page_excerpt": "The Specialized Environments practice, bring together space, media, and technology to extend storytelling beyond a single moment. We create adaptive experiences that evolve with content, audiences, and engagement across broadcast, retail, hospitality, corporate, and cultural sectors.​ Behind these masterpieces is a team of Emmy-award-winning experts with 20 years of experience in the broadcast design industry. Today, they design some of the most innovative spaces seen on broadcast television, working in every genre from sports to news to entertainment and corporate studios. Media Building – Studio Design They Cal",
       "editorial_score": null,
       "status": "research_only_not_approved"
     },
@@ -175,7 +143,7 @@
       "category": "09 France Pro",
       "source": "Revue AS",
       "published_date_claim": "2026-11-16T05:37:00+00:00",
-      "age_hours_claim": 7.0,
+      "age_hours_claim": 7.3,
       "date_verified": false,
       "project_identity_verified": false,
       "image_candidate_unverified": "https://www.revue-as.fr/wp-content/uploads/2026/09/A06-01-sat-A.jpg",
@@ -471,7 +439,7 @@
     },
     {
       "title": "ETC - Theatre, Film, Studio and Architectural Lighting",
-      "url": "https://www.etcconnect.com/About/Buy-American/",
+      "url": "https://www.etcconnect.com/About/About-ETC/",
       "category": "01 Spectacle Concert",
       "source": "ETC",
       "published_date_claim": "",
@@ -480,7 +448,7 @@
       "project_identity_verified": false,
       "image_candidate_unverified": "https://www.etcconnect.com/uploadedImages/Main_Site/Images/Products/Consoles/Eos_Revamp_Images/Eos_Apex_SiteTakeover_1920x1280.jpg",
       "description": "Electronic Theatre Controls, Inc. Lighting solutions, control equipment for Theater, Film & TV studios, Architectural spaces and entertainment industries.",
-      "page_excerpt": "Commercial Lighting Systems Europe, Middle East & Africa Falkland Islands (Malvinas) Saint Vincent & the Grenadines All Middle Eastern Countries British Indian Ocean Territory Lao People's Democratic Republic Micronesia, Federated States North Korea, Democratic People's Republic Falkland Islands (Malvinas) Saint Vincent & the Grenadines All Middle Eastern Countries British Indian Ocean Territory Lao People's Democratic Republic Micronesia, Federated States North Korea, Democratic People's Republic ETC: Building Products in America ETC manufactures lighting, control, and rigging equipment that is used and renowned",
+      "page_excerpt": "Commercial Lighting Systems Europe, Middle East & Africa Falkland Islands (Malvinas) Saint Vincent & the Grenadines All Middle Eastern Countries British Indian Ocean Territory Lao People's Democratic Republic Micronesia, Federated States North Korea, Democratic People's Republic Falkland Islands (Malvinas) Saint Vincent & the Grenadines All Middle Eastern Countries British Indian Ocean Territory Lao People's Democratic Republic Micronesia, Federated States North Korea, Democratic People's Republic Christmas Eve, 1975, an 18-year-old college student pitched the idea of a state-of-the-art lighting console to his co",
       "editorial_score": null,
       "status": "research_only_not_approved"
     }
