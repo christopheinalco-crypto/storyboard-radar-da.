@@ -47,6 +47,9 @@ function validatePublication(base, head) {
     !family(item) || (index > 0 && family(item) === family(added[index - 1])))) {
     errors.push('Alterner clips et concerts ou spectacles dans l’ordre du flux.');
   }
+  if (added.length % 2 === 1 && family(added[0]) !== 'clip') {
+    errors.push('Une vague impaire doit commencer par un clip et compter un clip de plus.');
+  }
   if (!isDeepStrictEqual(read(base, 'social-posts'), read(head, 'social-posts'))) {
     errors.push('Archive sociale modifiée pendant la publication.');
   }

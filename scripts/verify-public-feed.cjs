@@ -1,11 +1,12 @@
 const assert = require('node:assert/strict');
 const { execFileSync } = require('node:child_process');
-const { readFileSync, mkdirSync } = require('node:fs');
+const { readFileSync, mkdirSync, writeFileSync } = require('node:fs');
 const { isDeepStrictEqual } = require('node:util');
 const { chromium } = require('playwright');
 
 const feed = JSON.parse(readFileSync('data/feed.json', 'utf8')).items;
 const base = process.argv[2];
+const head = process.argv[3];
 const previous = base ? JSON.parse(execFileSync('git', [
   'show', base + ':data/feed.json',
 ], { encoding: 'utf8' })).items : feed;
@@ -83,6 +84,16 @@ async function main() {
     }
     await page.evaluate(() => window.scrollTo(0, 0));
     await page.screenshot({ path: 'public-feed-evidence/flux.png' });
+    const newCards = feed.filter(item => !byUrl.has(item.url));
+    writeFileSync('public-feed-evidence/verification.json', JSON.stringify({
+      checked_at: new Date().toISOString(),
+      site: publicSite,
+      head: head || null,
+      base: base || null,
+      feed_count: rendered.length,
+      verified_new_projects: newCards.map(({ project_id, url }) => ({ project_id, url })),
+      verified_cards: cardsToVerify.map(({ project_id, url }) => ({ project_id, url })),
+    }, null, 2) + '\n');
     console.log(`${rendered.length} fiches dans le flux public, ${cardsToVerify.length} cartes contrôlées (image, vidéo ou titre seul).`);
   } finally {
     await browser.close();

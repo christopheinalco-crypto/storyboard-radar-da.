@@ -1,6 +1,11 @@
 name: RADAR DA — rendu public
 on:
   workflow_dispatch:
+    inputs:
+      publication_sha:
+        description: 'SHA complet du commit éditorial à revérifier (facultatif)'
+        type: string
+        required: false
   push:
     branches: [main]
     paths:
@@ -10,6 +15,7 @@ on:
       - 'index.html'
       - 'service-worker.js'
       - 'scripts/verify-public-feed.cjs'
+      - 'scripts/validate-publication.cjs'
       - '.github/workflows/radar-public-render.yml'
 permissions:
   contents: read
@@ -32,14 +38,23 @@ jobs:
       - name: Vérifier le site après le déploiement Pages
         env:
           BASE_SHA: ${{ github.event.before }}
+          PUBLICATION_SHA: ${{ inputs.publication_sha }}
         run: |
+          HEAD_SHA="$(git rev-parse HEAD)"
+          if [[ -n "$PUBLICATION_SHA" ]]; then
+            [[ "$PUBLICATION_SHA" =~ ^[0-9a-f]{40}$ ]]
+            git merge-base --is-ancestor "$PUBLICATION_SHA" origin/main
+            HEAD_SHA="$PUBLICATION_SHA"
+            BASE_SHA="$(git rev-parse "$HEAD_SHA^")"
+            git restore --source="$HEAD_SHA" -- data/feed.json data/analyses.json data/published-projects.json
+          fi
           if [[ -n "$BASE_SHA" && ! "$BASE_SHA" =~ ^0+$ ]]; then
-            node scripts/validate-publication.cjs "$BASE_SHA" "$GITHUB_SHA"
+            node scripts/validate-publication.cjs "$BASE_SHA" "$HEAD_SHA"
           else
             export BASE_SHA=""
           fi
           for attempt in {1..8}; do
-            if timeout 60s node scripts/verify-public-feed.cjs "$BASE_SHA"; then exit 0; fi
+            if timeout 60s node scripts/verify-public-feed.cjs "$BASE_SHA" "$HEAD_SHA"; then exit 0; fi
             if [ "$attempt" -lt 8 ]; then sleep 30; fi
           done
           exit 1
