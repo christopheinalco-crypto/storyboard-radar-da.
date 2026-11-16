@@ -1396,12 +1396,28 @@
           "public_render_check": "https://github.com/christopheinalco-crypto/storyboard-radar-da./actions/runs/43860390420",
           "verified_at": "2026-11-16T11:45:25.051Z",
           "trigger": "manual_recovery"
+        },
+        {
+          "id": "2026-11-16-16h",
+          "slot": "2026-11-16-16h",
+          "status": "public_verified",
+          "projects": [
+            "dopebwoy-aitch-toma-2026",
+            "nct-wish-wish-land-mma-2026",
+            "rimzee-hometown-freestyle-hackney-2026"
+          ],
+          "count": 3,
+          "trigger": "scheduled_editorial",
+          "publication_commit": "2e9f43afe37decb04775f39c4037c36969411ff0",
+          "pages_deployment": "https://github.com/christopheinalco-crypto/storyboard-radar-da./actions/runs/43892957544",
+          "public_render_check": "https://github.com/christopheinalco-crypto/storyboard-radar-da./actions/runs/43892958245",
+          "verified_at": "2026-11-16T15:07:57.588Z"
         }
       ],
       "required_waves": 3,
       "minimum_total": 9,
-      "verified_count": 1,
-      "verified_publications": 3,
+      "verified_count": 2,
+      "verified_publications": 6,
       "status": "in_progress"
     }
   },
@@ -1463,6 +1479,36 @@
         "public_render_check": "https://github.com/christopheinalco-crypto/storyboard-radar-da./actions/runs/43860390420",
         "verified_at": "2026-11-16T11:45:25.051Z",
         "trigger": "manual_recovery"
+      }
+    },
+    "2026-11-16-16h": {
+      "id": "2026-11-16-16h",
+      "status": "complete",
+      "stage": "public_verified",
+      "published_count": 3,
+      "public_render_verified": true,
+      "collection": {
+        "wave_id": "github-43892520714",
+        "coverage_checked_at": "2026-11-16T15:04:56.777292+00:00",
+        "sources_opened": 156,
+        "rss_collected_at": "2026-11-16T15:04:59.825357+00:00",
+        "rss_parsed": 41
+      },
+      "publication": {
+        "id": "2026-11-16-16h",
+        "slot": "2026-11-16-16h",
+        "status": "public_verified",
+        "projects": [
+          "dopebwoy-aitch-toma-2026",
+          "nct-wish-wish-land-mma-2026",
+          "rimzee-hometown-freestyle-hackney-2026"
+        ],
+        "count": 3,
+        "trigger": "scheduled_editorial",
+        "publication_commit": "2e9f43afe37decb04775f39c4037c36969411ff0",
+        "pages_deployment": "https://github.com/christopheinalco-crypto/storyboard-radar-da./actions/runs/43892957544",
+        "public_render_check": "https://github.com/christopheinalco-crypto/storyboard-radar-da./actions/runs/43892958245",
+        "verified_at": "2026-11-16T15:07:57.588Z"
       }
     }
   }
