@@ -1,17 +1,17 @@
 {
-  "wave_id": "github-43934935995",
-  "prepared_at": "2026-11-16T19:02:04.355193+00:00",
-  "coverage_checked_at": "2026-11-16T19:01:29.510053+00:00",
+  "wave_id": "github-43978077922",
+  "prepared_at": "2026-11-16T23:18:43.236922+00:00",
+  "coverage_checked_at": "2026-11-16T23:18:12.554263+00:00",
   "coverage": {
     "attempted": 182,
-    "opened_successfully": 158,
-    "failed": 24,
+    "opened_successfully": 157,
+    "failed": 25,
     "target_met": true
   },
   "project_inspections": {
     "attempted": 160,
-    "opened": 157,
-    "failed": 3
+    "opened": 156,
+    "failed": 4
   },
   "research_only": true,
   "warning": "Mechanical triage, NOT editorial selection. Dates, identity, DA value, image rights and public rendering remain unverified. Editor must also research fresh projects externally.",
@@ -27,10 +27,10 @@
     "06 Retail Brand Experience": 1
   },
   "excluded_counts": {
-    "navigation_or_product": 38,
+    "navigation_or_product": 37,
     "not_project_like": 56,
     "metadata_older_than_72h": 17,
-    "not_opened": 3,
+    "not_opened": 4,
     "non_priority_category": 2
   },
   "items": [
@@ -85,7 +85,7 @@
       "category": "09 France Pro",
       "source": "Revue AS",
       "published_date_claim": "2026-11-16T14:37:39+00:00",
-      "age_hours_claim": 4.4,
+      "age_hours_claim": 8.7,
       "date_verified": false,
       "project_identity_verified": false,
       "image_candidate_unverified": "https://www.revue-as.fr/wp-content/uploads/2026/11/Sans-titre2-e1794839850968.jpg",
@@ -175,7 +175,7 @@
       "category": "09 France Pro",
       "source": "Revue AS",
       "published_date_claim": "2026-11-16T09:44:00+00:00",
-      "age_hours_claim": 9.3,
+      "age_hours_claim": 13.6,
       "date_verified": false,
       "project_identity_verified": false,
       "image_candidate_unverified": "https://www.revue-as.fr/wp-content/uploads/2024/11/picto-viepro-as-e1760013309371.jpg",
@@ -220,7 +220,7 @@
       "category": "09 France Pro",
       "source": "Revue AS",
       "published_date_claim": "2026-11-16T05:37:00+00:00",
-      "age_hours_claim": 13.4,
+      "age_hours_claim": 17.7,
       "date_verified": false,
       "project_identity_verified": false,
       "image_candidate_unverified": "https://www.revue-as.fr/wp-content/uploads/2026/09/A06-01-sat-A.jpg",
