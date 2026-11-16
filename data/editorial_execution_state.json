@@ -1379,5 +1379,44 @@
       "authentic_contextual_photos": 1,
       "verified_at": "2026-11-15T20:52:23.004Z"
     }
+  },
+  "scheduled_wave_recovery": {
+    "2026-11-16-12h": {
+      "id": "2026-11-16-12h",
+      "status": "incomplete",
+      "stage": "candidate_evidence",
+      "checked_at": "2026-11-16T11:05:20.144Z",
+      "collection": {
+        "coverage_checked_at": "2026-11-16T11:03:55.237322+00:00",
+        "brief_prepared_at": "2026-11-16T11:04:28.150998+00:00",
+        "rss_collected_at": "2026-11-16T11:03:54.914466+00:00",
+        "sources_opened": 158,
+        "rss_parsed": 42,
+        "source_run": "https://github.com/christopheinalco-crypto/storyboard-radar-da./actions/runs/43854378766",
+        "rss_run": "https://github.com/christopheinalco-crypto/storyboard-radar-da./actions/runs/43854381967"
+      },
+      "candidates_examined": [
+        {
+          "project": "FLO — Leave You (Never)",
+          "url": "https://www.youtube.com/watch?v=AaBX-s3JktM",
+          "status": "hold",
+          "reason": "Piste de clip identifiée. La lecture de la vidéo a échoué, plans et visuel à vérifier."
+        },
+        {
+          "project": "PLAVE — Melon Music Awards",
+          "url": "https://www.youtube.com/watch?v=9NfORTJF894",
+          "status": "hold",
+          "reason": "Le concept spatial est annoncé par Kakao Entertainment. La captation et le visuel de la performance restent à vérifier."
+        },
+        {
+          "project": "Dopebwoy & Aitch — TOMA",
+          "url": "https://www.youtube.com/watch?v=61smEyo76Fo",
+          "status": "hold",
+          "reason": "Piste de clip identifiée. La lecture de la vidéo a échoué, plans et visuel à vérifier."
+        }
+      ],
+      "published_count": 0,
+      "public_render_verified": false
+    }
   }
 }
