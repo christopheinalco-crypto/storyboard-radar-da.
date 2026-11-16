@@ -1,6 +1,6 @@
 {
   "description": "Cumulative seen-project register; retain entries when projects leave the live feed; compare URL and semantic identity.",
-  "updated": "2026-11-15T20:42:25.938Z",
+  "updated": "2026-11-16T11:44:05.182Z",
   "projects": [
     {
       "project_id": "pink-siifu-devils-advocate-gontrand-making-of-2026",
@@ -473,6 +473,36 @@
       "published_at": "2026-11-15T20:42:25.938Z",
       "wave_id": "2026-11-15-essai-manuel-3",
       "editorial_score": 17
+    },
+    {
+      "project_id": "flo-leave-you-never-tokyo-2026",
+      "title": "FLO — À Shibuya, la foule donne sa mesure au trio",
+      "url": "https://www.youtube.com/watch?v=AaBX-s3JktM",
+      "category": "14 Musique Clips",
+      "radar_added_at": "2026-11-16T11:44:05.182Z",
+      "published_at": "2026-11-16T11:44:05.182Z",
+      "wave_id": "2026-11-16-12h",
+      "editorial_score": 16
+    },
+    {
+      "project_id": "plave-cosmic-overdrive-mma-2026",
+      "title": "PLAVE — Un horizon mobile pour « Cosmic Overdrive »",
+      "url": "https://www.youtube.com/watch?v=9NfORTJF894",
+      "category": "01 Spectacle Concert",
+      "radar_added_at": "2026-11-16T11:44:05.182Z",
+      "published_at": "2026-11-16T11:44:05.182Z",
+      "wave_id": "2026-11-16-12h",
+      "editorial_score": 16
+    },
+    {
+      "project_id": "starset-voyager-jeb-hardwick-2026",
+      "title": "STARSET — Trois lumières font changer le visage de monde",
+      "url": "https://www.youtube.com/watch?v=SgR8Orwq4aI",
+      "category": "14 Musique Clips",
+      "radar_added_at": "2026-11-16T11:44:05.182Z",
+      "published_at": "2026-11-16T11:44:05.182Z",
+      "wave_id": "2026-11-16-12h",
+      "editorial_score": 16
     }
   ]
 }

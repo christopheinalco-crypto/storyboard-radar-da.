@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-15T21:00:17.626Z",
+  "updated_at": "2026-11-16T11:44:05.182Z",
   "status": "editorial_reviewed",
   "working_feeds": [
     {
@@ -454,6 +454,66 @@
     "with_images": 82
   },
   "items": [
+    {
+      "project_id": "flo-leave-you-never-tokyo-2026",
+      "title": "FLO — À Shibuya, la foule donne sa mesure au trio",
+      "title_fr": "FLO — À Shibuya, la foule donne sa mesure au trio",
+      "url": "https://www.youtube.com/watch?v=AaBX-s3JktM",
+      "category": "14 Musique Clips",
+      "source": "FLO / Universal Music",
+      "published": "2026-11-12T00:00:00Z",
+      "radar_added_at": "2026-11-16T11:44:05.182Z",
+      "summary": "Dans « Leave You (Never) », FLO garde la proximité d’une sortie entre amies au milieu d’un des carrefours les plus fréquentés de Tokyo.",
+      "summary_fr": "Dans « Leave You (Never) », FLO garde la proximité d’une sortie entre amies au milieu d’un des carrefours les plus fréquentés de Tokyo.",
+      "image": "https://i.ytimg.com/vi/AaBX-s3JktM/hqdefault.jpg",
+      "image_kind": "project",
+      "image_credit": "Vignette officielle de la vidéo publiée par FLO / Universal Music",
+      "image_source_url": "https://www.youtube.com/watch?v=AaBX-s3JktM",
+      "image_alt": "Les trois membres de FLO dans le visuel officiel de Leave You (Never).",
+      "status": "editorial_reviewed",
+      "youtube_id": "AaBX-s3JktM",
+      "angle": "Dans un décor dense, un motif visible à plusieurs distances peut tenir lieu de raccord. Les lignes de Shibuya relient le portrait à la sortie collective et laissent le lieu continuer à vivre derrière les interprètes."
+    },
+    {
+      "project_id": "plave-cosmic-overdrive-mma-2026",
+      "title": "PLAVE — Un horizon mobile pour « Cosmic Overdrive »",
+      "title_fr": "PLAVE — Un horizon mobile pour « Cosmic Overdrive »",
+      "url": "https://www.youtube.com/watch?v=9NfORTJF894",
+      "category": "01 Spectacle Concert",
+      "source": "Melon Music Awards / Kakao Entertainment",
+      "published": "2026-11-15T00:00:00Z",
+      "radar_added_at": "2026-11-16T11:44:05.182Z",
+      "summary": "Au Gocheok Sky Dome, PLAVE fait varier les rapports entre costumes, silhouettes et fonds numériques au fil d’un medley de trois morceaux.",
+      "summary_fr": "Au Gocheok Sky Dome, PLAVE fait varier les rapports entre costumes, silhouettes et fonds numériques au fil d’un medley de trois morceaux.",
+      "image": "https://i.ytimg.com/vi/9NfORTJF894/hqdefault.jpg",
+      "image_kind": "project",
+      "image_credit": "Vignette officielle de la vidéo publiée par Melon Music Awards / Kakao Entertainment",
+      "image_source_url": "https://www.youtube.com/watch?v=9NfORTJF894",
+      "image_alt": "Les cinq membres de PLAVE sur la vignette officielle de leur performance aux MMA 2026.",
+      "status": "editorial_reviewed",
+      "youtube_id": "9NfORTJF894",
+      "angle": "Un medley peut changer de chapitre en modifiant la profondeur perçue derrière les interprètes. Ici, le passage de la grille à la ligne puis à la texture différencie les tableaux même en plan rapproché."
+    },
+    {
+      "project_id": "starset-voyager-jeb-hardwick-2026",
+      "title": "STARSET — Trois lumières font changer le visage de monde",
+      "title_fr": "STARSET — Trois lumières font changer le visage de monde",
+      "url": "https://www.youtube.com/watch?v=SgR8Orwq4aI",
+      "category": "14 Musique Clips",
+      "source": "STARSET / Fearless Records",
+      "published": "2026-11-13T00:00:00Z",
+      "radar_added_at": "2026-11-16T11:44:05.182Z",
+      "summary": "Dans « v 0 y a g e r », Jeb Hardwick donne aux visages des environnements très différents par la lumière et la profondeur du cadre.",
+      "summary_fr": "Dans « v 0 y a g e r », Jeb Hardwick donne aux visages des environnements très différents par la lumière et la profondeur du cadre.",
+      "image": "https://i.ytimg.com/vi/SgR8Orwq4aI/hqdefault.jpg",
+      "image_kind": "project",
+      "image_credit": "Vignette officielle de la vidéo publiée par STARSET / Fearless Records",
+      "image_source_url": "https://www.youtube.com/watch?v=SgR8Orwq4aI",
+      "image_alt": "Personnage en combinaison spatiale sur la vignette officielle de v 0 y a g e r.",
+      "status": "editorial_reviewed",
+      "youtube_id": "SgR8Orwq4aI",
+      "angle": "Pour matérialiser un changement d’état, on peut conserver le visage comme point fixe et changer la quantité de décor lisible autour de lui. Ici, c’est en perdant ses repères spatiaux que le spectateur ressent la bascule."
+    },
     {
       "project_id": "zinoleesky-omo-ologo-ambre-2026",
       "title": "Zinoleesky — trois décors pour changer la distance avec le public",
