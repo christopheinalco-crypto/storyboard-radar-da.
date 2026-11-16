@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-16T11:44:05.182Z",
+  "updated_at": "2026-11-16T15:06:49.997Z",
   "status": "editorial_reviewed",
   "working_feeds": [
     {
@@ -454,6 +454,66 @@
     "with_images": 82
   },
   "items": [
+    {
+      "project_id": "dopebwoy-aitch-toma-2026",
+      "title": "Dopebwoy & Aitch — Dans « TOMA », le match se joue hors champ",
+      "title_fr": "Dopebwoy & Aitch — Dans « TOMA », le match se joue hors champ",
+      "url": "https://www.youtube.com/watch?v=61smEyo76Fo",
+      "category": "14 Musique Clips",
+      "source": "Forever Lit Records",
+      "published": "2026-11-13T00:00:00Z",
+      "radar_added_at": "2026-11-16T15:06:49.997Z",
+      "summary": "Des pompons, une pelouse et des voitures suffisent à placer le duo dans un imaginaire de compétition.",
+      "summary_fr": "Des pompons, une pelouse et des voitures suffisent à placer le duo dans un imaginaire de compétition.",
+      "image": "https://i.ytimg.com/vi/61smEyo76Fo/hqdefault.jpg",
+      "image_kind": "project",
+      "image_credit": "Vignette officielle de la vidéo publiée par Forever Lit Records",
+      "image_source_url": "https://www.youtube.com/watch?v=61smEyo76Fo",
+      "image_alt": "Les deux interprètes et les voitures sur la vignette officielle de TOMA.",
+      "status": "editorial_reviewed",
+      "youtube_id": "61smEyo76Fo",
+      "angle": "Une couleur peut transmettre un geste d’un personnage à l’autre. Dans TOMA, le rouge relie les accessoires d’une chorégraphie collective au gant qui ponctue le cadre individuel."
+    },
+    {
+      "project_id": "nct-wish-wish-land-mma-2026",
+      "title": "NCT WISH — Le costume blanc fait le lien entre trois tableaux",
+      "title_fr": "NCT WISH — Le costume blanc fait le lien entre trois tableaux",
+      "url": "https://www.youtube.com/watch?v=cqd5M6f5l60",
+      "category": "01 Spectacle Concert",
+      "source": "Melon Music Awards / Kakao Entertainment",
+      "published": "2026-11-15T00:00:00Z",
+      "radar_added_at": "2026-11-16T15:06:49.997Z",
+      "summary": "Dans le medley des MMA, les silhouettes claires donnent un point fixe au regard au milieu des changements de lumière et d’échelle.",
+      "summary_fr": "Dans le medley des MMA, les silhouettes claires donnent un point fixe au regard au milieu des changements de lumière et d’échelle.",
+      "image": "https://i.ytimg.com/vi/cqd5M6f5l60/hqdefault.jpg",
+      "image_kind": "project",
+      "image_credit": "Vignette officielle de la vidéo publiée par Melon Music Awards / Kakao Entertainment",
+      "image_source_url": "https://www.youtube.com/watch?v=cqd5M6f5l60",
+      "image_alt": "Les membres de NCT WISH dans leurs costumes clairs sur la vignette officielle des MMA 2026.",
+      "status": "editorial_reviewed",
+      "youtube_id": "cqd5M6f5l60",
+      "angle": "Pour une scène pensée aussi pour la captation, la silhouette du costume peut garder le même rôle sous plusieurs lumières. Les ruptures de contraste à l’intérieur de cette silhouette réapparaissent dès que la caméra s’approche."
+    },
+    {
+      "project_id": "rimzee-hometown-freestyle-hackney-2026",
+      "title": "Rimzee — Du trottoir éclairé à l’adresse directe",
+      "title_fr": "Rimzee — Du trottoir éclairé à l’adresse directe",
+      "url": "https://www.youtube.com/watch?v=qAcJ1mINJdc",
+      "category": "14 Musique Clips",
+      "source": "Rimzee",
+      "published": "2026-11-12T00:00:00Z",
+      "radar_added_at": "2026-11-16T15:06:49.997Z",
+      "summary": "Dans « Hometown Freestyle », Rimzee resserre progressivement les repères de la rue autour de la voix.",
+      "summary_fr": "Dans « Hometown Freestyle », Rimzee resserre progressivement les repères de la rue autour de la voix.",
+      "image": "https://i.ytimg.com/vi/qAcJ1mINJdc/hqdefault.jpg",
+      "image_kind": "project",
+      "image_credit": "Vignette officielle de la vidéo publiée par Rimzee",
+      "image_source_url": "https://www.youtube.com/watch?v=qAcJ1mINJdc",
+      "image_alt": "Rimzee et son entourage dans la rue sur la vignette officielle de Hometown Freestyle.",
+      "status": "editorial_reviewed",
+      "youtube_id": "qAcJ1mINJdc",
+      "angle": "Pour faire sentir le passage du collectif au récit personnel, il suffit parfois de retirer un repère à chaque échelle : les autres corps, les enseignes, puis presque tout le fond. Le décor du début continue de donner son sens au portrait serré."
+    },
     {
       "project_id": "flo-leave-you-never-tokyo-2026",
       "title": "FLO — À Shibuya, la foule donne sa mesure au trio",

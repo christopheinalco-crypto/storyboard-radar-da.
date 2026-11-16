@@ -1,6 +1,6 @@
 {
   "description": "Cumulative seen-project register; retain entries when projects leave the live feed; compare URL and semantic identity.",
-  "updated": "2026-11-16T11:44:05.182Z",
+  "updated": "2026-11-16T15:06:49.997Z",
   "projects": [
     {
       "project_id": "pink-siifu-devils-advocate-gontrand-making-of-2026",
@@ -502,6 +502,36 @@
       "radar_added_at": "2026-11-16T11:44:05.182Z",
       "published_at": "2026-11-16T11:44:05.182Z",
       "wave_id": "2026-11-16-12h",
+      "editorial_score": 16
+    },
+    {
+      "project_id": "dopebwoy-aitch-toma-2026",
+      "title": "Dopebwoy & Aitch — Dans « TOMA », le match se joue hors champ",
+      "url": "https://www.youtube.com/watch?v=61smEyo76Fo",
+      "category": "14 Musique Clips",
+      "radar_added_at": "2026-11-16T15:06:49.997Z",
+      "published_at": "2026-11-16T15:06:49.997Z",
+      "wave_id": "2026-11-16-16h",
+      "editorial_score": 16
+    },
+    {
+      "project_id": "nct-wish-wish-land-mma-2026",
+      "title": "NCT WISH — Le costume blanc fait le lien entre trois tableaux",
+      "url": "https://www.youtube.com/watch?v=cqd5M6f5l60",
+      "category": "01 Spectacle Concert",
+      "radar_added_at": "2026-11-16T15:06:49.997Z",
+      "published_at": "2026-11-16T15:06:49.997Z",
+      "wave_id": "2026-11-16-16h",
+      "editorial_score": 16
+    },
+    {
+      "project_id": "rimzee-hometown-freestyle-hackney-2026",
+      "title": "Rimzee — Du trottoir éclairé à l’adresse directe",
+      "url": "https://www.youtube.com/watch?v=qAcJ1mINJdc",
+      "category": "14 Musique Clips",
+      "radar_added_at": "2026-11-16T15:06:49.997Z",
+      "published_at": "2026-11-16T15:06:49.997Z",
+      "wave_id": "2026-11-16-16h",
       "editorial_score": 16
     }
   ]
