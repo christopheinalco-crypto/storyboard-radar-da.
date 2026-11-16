@@ -1,6 +1,6 @@
 {
   "description": "Cumulative seen-project register; retain entries when projects leave the live feed; compare URL and semantic identity.",
-  "updated": "2026-11-16T15:06:49.997Z",
+  "updated": "2026-11-16T19:02:57.770Z",
   "projects": [
     {
       "project_id": "pink-siifu-devils-advocate-gontrand-making-of-2026",
@@ -532,6 +532,36 @@
       "radar_added_at": "2026-11-16T15:06:49.997Z",
       "published_at": "2026-11-16T15:06:49.997Z",
       "wave_id": "2026-11-16-16h",
+      "editorial_score": 16
+    },
+    {
+      "project_id": "txt-angel-bite-portraits-2026",
+      "title": "TXT — Dans « Angel Bite », deux visages se disputent le cadre",
+      "url": "https://www.youtube.com/watch?v=M9G4guYg-i8",
+      "category": "14 Musique Clips",
+      "radar_added_at": "2026-11-16T19:02:57.770Z",
+      "published_at": "2026-11-16T19:02:57.770Z",
+      "wave_id": "2026-11-16-20h",
+      "editorial_score": 16
+    },
+    {
+      "project_id": "ive-mma-dear-cupid-2026",
+      "title": "IVE — Faire exister un groupe dans le noir",
+      "url": "https://www.youtube.com/watch?v=tVzFbxTKaDI",
+      "category": "01 Spectacle Concert",
+      "radar_added_at": "2026-11-16T19:02:57.770Z",
+      "published_at": "2026-11-16T19:02:57.770Z",
+      "wave_id": "2026-11-16-20h",
+      "editorial_score": 16
+    },
+    {
+      "project_id": "nct-dream-boogie-woogie-2026",
+      "title": "NCT DREAM — Le vert sert de raccord dans « Boogie Woogie »",
+      "url": "https://www.youtube.com/watch?v=wG7pnZttup8",
+      "category": "14 Musique Clips",
+      "radar_added_at": "2026-11-16T19:02:57.770Z",
+      "published_at": "2026-11-16T19:02:57.770Z",
+      "wave_id": "2026-11-16-20h",
       "editorial_score": 16
     }
   ]

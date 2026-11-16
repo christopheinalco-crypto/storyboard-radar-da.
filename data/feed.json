@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-16T15:06:49.997Z",
+  "updated_at": "2026-11-16T19:02:57.770Z",
   "status": "editorial_reviewed",
   "working_feeds": [
     {
@@ -454,6 +454,66 @@
     "with_images": 82
   },
   "items": [
+    {
+      "project_id": "txt-angel-bite-portraits-2026",
+      "title": "TXT — Dans « Angel Bite », deux visages se disputent le cadre",
+      "title_fr": "TXT — Dans « Angel Bite », deux visages se disputent le cadre",
+      "url": "https://www.youtube.com/watch?v=M9G4guYg-i8",
+      "category": "14 Musique Clips",
+      "source": "HYBE LABELS / BIGHIT MUSIC",
+      "published": "2026-11-16T00:00:00Z",
+      "radar_added_at": "2026-11-16T19:02:57.770Z",
+      "summary": "Le clip oppose un cadre partagé à un portrait solitaire. La lumière et la distance changent la manière dont on cherche les regards.",
+      "summary_fr": "Le clip oppose un cadre partagé à un portrait solitaire. La lumière et la distance changent la manière dont on cherche les regards.",
+      "image": "https://i.ytimg.com/vi/M9G4guYg-i8/hqdefault.jpg",
+      "image_kind": "project",
+      "image_credit": "Vignette officielle de la vidéo publiée par HYBE LABELS / BIGHIT MUSIC",
+      "image_source_url": "https://www.youtube.com/watch?v=M9G4guYg-i8",
+      "image_alt": "Deux visages en gros plan dans la vignette officielle du clip Angel Bite.",
+      "status": "editorial_reviewed",
+      "youtube_id": "M9G4guYg-i8",
+      "angle": "Un gros plan peut installer une relation en partageant l’espace entre deux regards. Le portrait qui suit peut déplacer cette relation simplement en redonnant au regard un axe frontal et un fond lointain."
+    },
+    {
+      "project_id": "ive-mma-dear-cupid-2026",
+      "title": "IVE — Faire exister un groupe dans le noir",
+      "title_fr": "IVE — Faire exister un groupe dans le noir",
+      "url": "https://www.youtube.com/watch?v=tVzFbxTKaDI",
+      "category": "01 Spectacle Concert",
+      "source": "Melon Music Awards / Kakao Entertainment",
+      "published": "2026-11-15T00:00:00Z",
+      "radar_added_at": "2026-11-16T19:02:57.770Z",
+      "summary": "Aux Melon Music Awards, les costumes noirs gardent une silhouette commune tandis que les fonds colorés et la caméra font ressortir les individualités.",
+      "summary_fr": "Aux Melon Music Awards, les costumes noirs gardent une silhouette commune tandis que les fonds colorés et la caméra font ressortir les individualités.",
+      "image": "https://i.ytimg.com/vi/tVzFbxTKaDI/hqdefault.jpg",
+      "image_kind": "project",
+      "image_credit": "Vignette officielle de la vidéo publiée par Melon Music Awards / Kakao Entertainment",
+      "image_source_url": "https://www.youtube.com/watch?v=tVzFbxTKaDI",
+      "image_alt": "IVE en plan large sur la vignette officielle de la captation des MMA 2026.",
+      "status": "editorial_reviewed",
+      "youtube_id": "tVzFbxTKaDI",
+      "angle": "Un costume commun peut assurer la continuité d’un medley si le fond reste assez contrasté pour découper les figures. Au rapprochement, le placement des visages et les reflets suffisent à rendre chaque présence distincte."
+    },
+    {
+      "project_id": "nct-dream-boogie-woogie-2026",
+      "title": "NCT DREAM — Le vert sert de raccord dans « Boogie Woogie »",
+      "title_fr": "NCT DREAM — Le vert sert de raccord dans « Boogie Woogie »",
+      "url": "https://www.youtube.com/watch?v=wG7pnZttup8",
+      "category": "14 Musique Clips",
+      "source": "SMTOWN / SM Entertainment",
+      "published": "2026-11-09T00:00:00Z",
+      "radar_added_at": "2026-11-16T19:02:57.770Z",
+      "summary": "Un vêtement vert reste un repère quand la caméra passe du portrait au groupe, avant qu’un plan plus sombre ne déplace l’attention vers la lumière du visage.",
+      "summary_fr": "Un vêtement vert reste un repère quand la caméra passe du portrait au groupe, avant qu’un plan plus sombre ne déplace l’attention vers la lumière du visage.",
+      "image": "https://i.ytimg.com/vi/wG7pnZttup8/hqdefault.jpg",
+      "image_kind": "project",
+      "image_credit": "Vignette officielle de la vidéo publiée par SMTOWN / SM Entertainment",
+      "image_source_url": "https://www.youtube.com/watch?v=wG7pnZttup8",
+      "image_alt": "NCT DREAM en tenues colorées sur la vignette officielle de Boogie Woogie.",
+      "status": "editorial_reviewed",
+      "youtube_id": "wG7pnZttup8",
+      "angle": "Quand un montage change d’échelle, un costume identifiable peut rendre le changement immédiat à lire. Si la palette change, une même position du visage ou un bord éclairé peut reprendre ce rôle."
+    },
     {
       "project_id": "dopebwoy-aitch-toma-2026",
       "title": "Dopebwoy & Aitch — Dans « TOMA », le match se joue hors champ",
