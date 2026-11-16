@@ -1,7 +1,7 @@
 {
-  "wave_id": "github-43772179155",
-  "prepared_at": "2026-11-15T22:58:46.221687+00:00",
-  "coverage_checked_at": "2026-11-15T22:58:13.965735+00:00",
+  "wave_id": "github-43824147695",
+  "prepared_at": "2026-11-16T07:29:24.908302+00:00",
+  "coverage_checked_at": "2026-11-16T07:28:55.708796+00:00",
   "coverage": {
     "attempted": 182,
     "opened_successfully": 159,
@@ -10,8 +10,8 @@
   },
   "project_inspections": {
     "attempted": 160,
-    "opened": 158,
-    "failed": 2
+    "opened": 160,
+    "failed": 0
   },
   "research_only": true,
   "warning": "Mechanical triage, NOT editorial selection. Dates, identity, DA value, image rights and public rendering remain unverified. Editor must also research fresh projects externally.",
@@ -27,10 +27,9 @@
     "06 Retail Brand Experience": 1
   },
   "excluded_counts": {
-    "navigation_or_product": 38,
+    "navigation_or_product": 40,
     "not_project_like": 58,
     "metadata_older_than_72h": 15,
-    "not_opened": 2,
     "non_priority_category": 2
   },
   "items": [
@@ -40,7 +39,7 @@
       "category": "14 Musique Clips",
       "source": "Directors Notes",
       "published_date_claim": "2026-11-13T11:29:00+00:00",
-      "age_hours_claim": 59.5,
+      "age_hours_claim": 68.0,
       "date_verified": false,
       "project_identity_verified": false,
       "image_candidate_unverified": "https://directorsnotes.com/wp-content/uploads/2026/11/bifa_2026_dn_nominee_screening.jpg",
@@ -80,17 +79,17 @@
       "status": "research_only_not_approved"
     },
     {
-      "title": "Au CNCS, l’Association Costume In Process fait du costume d’écriture de plateau un objet de réflexion au musée - Revue AS",
-      "url": "https://www.revue-as.fr/2026/11/13/au-cncs-lassociation-costume-in-process-fait-du-costume-decriture-de-plateau-un-objet-de-reflexion-au-musee/",
+      "title": "La SAT de Montréal - Revue AS",
+      "url": "https://www.revue-as.fr/2026/11/16/la-sat-de-montreal/",
       "category": "09 France Pro",
       "source": "Revue AS",
-      "published_date_claim": "2026-11-13T09:26:00+00:00",
-      "age_hours_claim": 61.5,
+      "published_date_claim": "2026-11-16T05:37:00+00:00",
+      "age_hours_claim": 1.9,
       "date_verified": false,
       "project_identity_verified": false,
-      "image_candidate_unverified": "https://www.revue-as.fr/wp-content/uploads/2026/11/Costume-In-Process-e1794485906181.png",
-      "description": "L’exposition Jean-Paul Gauthier - Régine Chopinot. Le défilé n’a à l’époque de sa présentation au CNCS, que peu conquit les publics...",
-      "page_excerpt": "Au CNCS, l’Association Costume In Process fait du costume d’écriture de plateau un objet de réflexion au musée Temps de lecture : 5 minutes Au CNCS, l’Association Costume In Process fait du costume d’écriture de plateau un objet de réflexion au musée Jean-Paul Gaultier – Régine Chopinot : Le défilé n’a à l’époque de sa présentation au CNCS (Centre National du Costume et de la Scène) que peu conquit les publics, confessait Delphine Pinasa dans l’ouvrage d’Aurélie Mouton-Rezzouk, Exposer le théâtre. De la scène à la vitrine qui partage une déception devant des costumes “peu spectaculaires” où slips, strings cuirs e",
+      "image_candidate_unverified": "https://www.revue-as.fr/wp-content/uploads/2026/09/A06-01-sat-A.jpg",
+      "description": "La SAT (Société des arts technologiques) basée Montréal est un centre de création numérique reconnu internationalement pour ses ...",
+      "page_excerpt": "Temps de lecture : 12 minutes Vision immersive “open” des arts numériques SAT (Société des arts technologiques) basée Montréal est un centre de création numérique reconnu internationalement pour ses infrastructures avancées de création et de diffusion. La Satosphère, un dôme modulaire unique permettant des projections immersives à 360° et une spatialisation sonore quatre-vingt-treize points de diffusion, en est la principale démonstration. Parallèlement, la SAT s’engage fortement dans la durabilité et l’innovation technologique en privilégiant le développement de logiciels , comme l'outil de création spatiale . S",
       "editorial_score": null,
       "status": "research_only_not_approved"
     },
@@ -130,7 +129,7 @@
       "category": "14 Musique Clips",
       "source": "Directors Notes",
       "published_date_claim": "2026-11-13T10:00:00+00:00",
-      "age_hours_claim": 61.0,
+      "age_hours_claim": 69.5,
       "date_verified": false,
       "project_identity_verified": false,
       "image_candidate_unverified": "https://directorsnotes.com/wp-content/uploads/2026/11/hauser_03.jpg",
@@ -170,17 +169,17 @@
       "status": "research_only_not_approved"
     },
     {
-      "title": "ULTRA SON #2, le rendez-vous de l'espace sonore augmenté au Temps Machine - Revue AS",
-      "url": "https://www.revue-as.fr/2026/11/13/ultra-son-2-le-rendez-vous-de-lespace-sonore-augmente-au-temps-machine/",
+      "title": "Au CNCS, l’Association Costume In Process fait du costume d’écriture de plateau un objet de réflexion au musée - Revue AS",
+      "url": "https://www.revue-as.fr/2026/11/13/au-cncs-lassociation-costume-in-process-fait-du-costume-decriture-de-plateau-un-objet-de-reflexion-au-musee/",
       "category": "09 France Pro",
       "source": "Revue AS",
-      "published_date_claim": "2026-11-13T05:20:00+00:00",
-      "age_hours_claim": 65.6,
+      "published_date_claim": "2026-11-13T09:26:00+00:00",
+      "age_hours_claim": 70.0,
       "date_verified": false,
       "project_identity_verified": false,
-      "image_candidate_unverified": "https://www.revue-as.fr/wp-content/uploads/2026/11/LTM-Soundscape-11-c-Fanny-Maurilieras-scaled-e1794513992719.jpg",
-      "description": "Le Temps Machine, la première SMAC à s'être dotée d’un système de diffusion sonore spatialisée, présente ULTRA SON #2...",
-      "page_excerpt": "ULTRA SON #2, le rendez-vous de l’espace sonore augmenté au Temps Machine Temps de lecture : 2 minutes ULTRA SON #2, le rendez-vous de l’espace sonore augmenté au Temps Machine , la première SMAC à s’être dotée d’un système de diffusion sonore spatialisée, présente ULTRA SON #2, le rendez-vous de l’espace sonore augmenté qui se tiendra dans ses structures du 11 au 14 novembre 2026. Fier du succès de sa première édition, Le Temps Machine poursuit son rôle pionnier dans le développement de spectacles et d’expériences immersives en proposant quatre jours dédiés à cette nouvelle technologie. Une démarche d’une grande",
+      "image_candidate_unverified": "https://www.revue-as.fr/wp-content/uploads/2026/11/Costume-In-Process-e1794485906181.png",
+      "description": "L’exposition Jean-Paul Gauthier - Régine Chopinot. Le défilé n’a à l’époque de sa présentation au CNCS, que peu conquit les publics...",
+      "page_excerpt": "Au CNCS, l’Association Costume In Process fait du costume d’écriture de plateau un objet de réflexion au musée Temps de lecture : 5 minutes Au CNCS, l’Association Costume In Process fait du costume d’écriture de plateau un objet de réflexion au musée Jean-Paul Gaultier – Régine Chopinot : Le défilé n’a à l’époque de sa présentation au CNCS (Centre National du Costume et de la Scène) que peu conquit les publics, confessait Delphine Pinasa dans l’ouvrage d’Aurélie Mouton-Rezzouk, Exposer le théâtre. De la scène à la vitrine qui partage une déception devant des costumes “peu spectaculaires” où slips, strings cuirs e",
       "editorial_score": null,
       "status": "research_only_not_approved"
     },
