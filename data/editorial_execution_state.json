@@ -1557,6 +1557,36 @@
         "public_render_check": "https://github.com/christopheinalco-crypto/storyboard-radar-da./actions/runs/43935225555",
         "verified_at": "2026-11-16T19:04:31.718Z"
       }
+    },
+    "2026-11-17-06h": {
+      "id": "2026-11-17-06h",
+      "status": "complete",
+      "stage": "public_verified",
+      "published_count": 3,
+      "public_render_verified": true,
+      "collection": {
+        "wave_id": "github-44042729766",
+        "coverage_checked_at": "2026-11-17T07:57:50.929635+00:00",
+        "sources_opened": 159,
+        "rss_collected_at": "2026-11-17T07:57:50.107398+00:00",
+        "rss_parsed": 42
+      },
+      "publication": {
+        "id": "2026-11-17-06h",
+        "slot": "2026-11-17-06h",
+        "status": "public_verified",
+        "projects": [
+          "bones-uk-hits-like-home-london-2026",
+          "yoasobi-killa-osaka-live-2026",
+          "hilary-duff-all-you-want-christmas-2026"
+        ],
+        "count": 3,
+        "trigger": "scheduled_editorial",
+        "publication_commit": "34603efa4ceac89602b508e6ba74f88e8ceb47a3",
+        "pages_deployment": "https://github.com/christopheinalco-crypto/storyboard-radar-da./actions/runs/44042945150",
+        "public_render_check": "https://github.com/christopheinalco-crypto/storyboard-radar-da./actions/runs/44042945308",
+        "verified_at": "2026-11-17T08:00:27.360Z"
+      }
     }
   }
 }
