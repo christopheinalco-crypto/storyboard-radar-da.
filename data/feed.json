@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-17T11:01:52.507Z",
+  "updated_at": "2026-11-17T16:13:40.464Z",
   "status": "editorial_reviewed",
   "working_feeds": [
     {
@@ -454,6 +454,65 @@
     "with_images": 82
   },
   "items": [
+    {
+      "project_id": "yaochen-wonderful-2026",
+      "title": "YAOCHEN — « WONDERFUL » fait du costume un changement d’échelle",
+      "title_fr": "YAOCHEN — « WONDERFUL » fait du costume un changement d’échelle",
+      "url": "https://www.youtube.com/watch?v=hMsJq1K5bsw",
+      "category": "14 Musique Clips",
+      "source": "JYP Entertainment",
+      "published": "2026-11-16T00:00:00Z",
+      "radar_added_at": "2026-11-17T16:13:40.464Z",
+      "summary": "Deux portraits rapprochent le regard de la caméra, puis un plan plus large fait lire le mouvement par la silhouette.",
+      "summary_fr": "Deux portraits rapprochent le regard de la caméra, puis un plan plus large fait lire le mouvement par la silhouette.",
+      "image": "https://i.ytimg.com/vi/hMsJq1K5bsw/hqdefault.jpg",
+      "image_kind": "project",
+      "image_credit": "Vignette officielle de la vidéo publiée par JYP Entertainment",
+      "image_source_url": "https://www.youtube.com/watch?v=hMsJq1K5bsw",
+      "image_alt": "YAOCHEN en bonnet sur la vignette officielle de WONDERFUL.",
+      "status": "editorial_reviewed",
+      "youtube_id": "hMsJq1K5bsw",
+      "angle": "Un vêtement clair près du visage et une silhouette sombre sur fond clair peuvent reprendre la même fonction à deux échelles. Dans WONDERFUL, le contraste passe des yeux aux gestes sans perdre le point d’attention."
+    },
+    {
+      "project_id": "les-miserables-chatelet-retour-2026",
+      "title": "Les Misérables — Du fond de rue au front du plateau",
+      "title_fr": "Les Misérables — Du fond de rue au front du plateau",
+      "url": "https://www.chatelet.com/programmation/26-27/les-miserables-2026/",
+      "category": "01 Spectacle Concert",
+      "source": "Théâtre du Châtelet / Cutback",
+      "published": "2026-11-11T00:00:00Z",
+      "radar_added_at": "2026-11-17T16:13:40.464Z",
+      "summary": "Dans la mise en scène de Ladislas Chollat, la lumière rapproche ou éloigne la foule sans que chaque tableau ait besoin d’un décor réaliste complet.",
+      "summary_fr": "Dans la mise en scène de Ladislas Chollat, la lumière rapproche ou éloigne la foule sans que chaque tableau ait besoin d’un décor réaliste complet.",
+      "image": "https://framerusercontent.com/images/lYlMKwZHBXQSUt7YU7agQSgI8.jpg?height=1700&width=2560",
+      "image_kind": "project",
+      "image_credit": "Thomas Amouroux / Cutback",
+      "image_source_url": "https://www.cutback.live/en/projets/les-miserables",
+      "image_alt": "La troupe et les drapeaux en lumière frontale, photographiés par Thomas Amouroux.",
+      "status": "editorial_reviewed",
+      "angle": "Avant d’ajouter un élément de décor pour établir un nouveau tableau, la disposition des corps peut suffire à changer la place du spectateur. Ici, le passage de groupes dispersés à une ligne frontale transforme une rue observée en déclaration collective."
+    },
+    {
+      "project_id": "kcm-if-you-love-vitre-2026",
+      "title": "KCM — Dans « If You Love », la vitre donne une épaisseur à la séparation",
+      "title_fr": "KCM — Dans « If You Love », la vitre donne une épaisseur à la séparation",
+      "url": "https://www.youtube.com/watch?v=0m3bSOhC2HI",
+      "category": "14 Musique Clips",
+      "source": "1theK / KCM",
+      "published": "2026-11-15T00:00:00Z",
+      "radar_added_at": "2026-11-17T16:13:40.464Z",
+      "summary": "Deux personnages sont filmés près de fenêtres. Les structures vitrées font sentir l’espace entre les regards.",
+      "summary_fr": "Deux personnages sont filmés près de fenêtres. Les structures vitrées font sentir l’espace entre les regards.",
+      "image": "https://i.ytimg.com/vi/0m3bSOhC2HI/hqdefault.jpg",
+      "image_kind": "project",
+      "image_credit": "Vignette officielle de la vidéo publiée par 1theK / KCM",
+      "image_source_url": "https://www.youtube.com/watch?v=0m3bSOhC2HI",
+      "image_alt": "Personnage devant les stores dans la vignette officielle de If You Love.",
+      "status": "editorial_reviewed",
+      "youtube_id": "0m3bSOhC2HI",
+      "angle": "Un élément d’architecture peut relier deux scènes et pourtant les opposer. Ici, les stores compriment le champ tandis que les montants du couloir l’allongent, donnant une texture visuelle à la distance."
+    },
     {
       "project_id": "recluse-stain-image-intermittente-2026",
       "title": "Reclus.É — Dans « Stain », le portrait se défait en signal",

@@ -1,6 +1,6 @@
 {
   "description": "Cumulative seen-project register; retain entries when projects leave the live feed; compare URL and semantic identity.",
-  "updated": "2026-11-17T11:01:52.507Z",
+  "updated": "2026-11-17T16:13:40.464Z",
   "projects": [
     {
       "project_id": "pink-siifu-devils-advocate-gontrand-making-of-2026",
@@ -622,6 +622,36 @@
       "radar_added_at": "2026-11-17T11:01:52.507Z",
       "published_at": "2026-11-17T11:01:52.507Z",
       "wave_id": "2026-11-17-12h",
+      "editorial_score": 16
+    },
+    {
+      "project_id": "yaochen-wonderful-2026",
+      "title": "YAOCHEN — « WONDERFUL » fait du costume un changement d’échelle",
+      "url": "https://www.youtube.com/watch?v=hMsJq1K5bsw",
+      "category": "14 Musique Clips",
+      "radar_added_at": "2026-11-17T16:13:40.464Z",
+      "published_at": "2026-11-17T16:13:40.464Z",
+      "wave_id": "2026-11-17-16h",
+      "editorial_score": 16
+    },
+    {
+      "project_id": "les-miserables-chatelet-retour-2026",
+      "title": "Les Misérables — Du fond de rue au front du plateau",
+      "url": "https://www.chatelet.com/programmation/26-27/les-miserables-2026/",
+      "category": "01 Spectacle Concert",
+      "radar_added_at": "2026-11-17T16:13:40.464Z",
+      "published_at": "2026-11-17T16:13:40.464Z",
+      "wave_id": "2026-11-17-16h",
+      "editorial_score": 16
+    },
+    {
+      "project_id": "kcm-if-you-love-vitre-2026",
+      "title": "KCM — Dans « If You Love », la vitre donne une épaisseur à la séparation",
+      "url": "https://www.youtube.com/watch?v=0m3bSOhC2HI",
+      "category": "14 Musique Clips",
+      "radar_added_at": "2026-11-17T16:13:40.464Z",
+      "published_at": "2026-11-17T16:13:40.464Z",
+      "wave_id": "2026-11-17-16h",
       "editorial_score": 16
     }
   ]
