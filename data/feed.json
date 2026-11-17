@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-16T19:02:57.770Z",
+  "updated_at": "2026-11-17T07:59:19.804Z",
   "status": "editorial_reviewed",
   "working_feeds": [
     {
@@ -454,6 +454,66 @@
     "with_images": 82
   },
   "items": [
+    {
+      "project_id": "bones-uk-hits-like-home-london-2026",
+      "title": "BONES UK — Le camion transforme les uniformes en costumes de scène",
+      "title_fr": "BONES UK — Le camion transforme les uniformes en costumes de scène",
+      "url": "https://www.youtube.com/watch?v=1VQvthAQlJA",
+      "category": "14 Musique Clips",
+      "source": "SUMERIAN / BONES UK",
+      "published": "2026-11-11T00:00:00Z",
+      "radar_added_at": "2026-11-17T07:59:19.804Z",
+      "summary": "Dans « Hits Like Home », le groupe joue à l’arrière d’un camion. Les figures d’autorité de la ville deviennent les partenaires de la performance.",
+      "summary_fr": "Dans « Hits Like Home », le groupe joue à l’arrière d’un camion. Les figures d’autorité de la ville deviennent les partenaires de la performance.",
+      "image": "https://i.ytimg.com/vi/1VQvthAQlJA/hqdefault.jpg",
+      "image_kind": "project",
+      "image_credit": "Vignette officielle de la vidéo publiée par SUMERIAN / BONES UK",
+      "image_source_url": "https://www.youtube.com/watch?v=1VQvthAQlJA",
+      "image_alt": "Un garde en tunique rouge dans la vignette officielle de Hits Like Home.",
+      "status": "editorial_reviewed",
+      "youtube_id": "1VQvthAQlJA",
+      "angle": "Un costume institutionnel très lisible donne au spectateur assez de contexte pour qu’un changement d’expression ou de posture fasse basculer la scène. Le camion donne à cette liberté un espace commun."
+    },
+    {
+      "project_id": "yoasobi-killa-osaka-live-2026",
+      "title": "YOASOBI — Le rouge fait passer « KILLA » de la scène au portrait",
+      "title_fr": "YOASOBI — Le rouge fait passer « KILLA » de la scène au portrait",
+      "url": "https://www.youtube.com/watch?v=1n-iLgXo9aY",
+      "category": "01 Spectacle Concert",
+      "source": "YOASOBI",
+      "published": "2026-11-11T00:00:00Z",
+      "radar_added_at": "2026-11-17T07:59:19.804Z",
+      "summary": "Dans la captation du Kyocera Dome, deux usages du rouge donnent des profondeurs opposées au même visage.",
+      "summary_fr": "Dans la captation du Kyocera Dome, deux usages du rouge donnent des profondeurs opposées au même visage.",
+      "image": "https://i.ytimg.com/vi/1n-iLgXo9aY/hqdefault.jpg",
+      "image_kind": "project",
+      "image_credit": "Vignette officielle de la vidéo publiée par YOASOBI",
+      "image_source_url": "https://www.youtube.com/watch?v=1n-iLgXo9aY",
+      "image_alt": "Portrait rouge de la chanteuse sur la vignette officielle de KILLA au Kyocera Dome.",
+      "status": "editorial_reviewed",
+      "youtube_id": "1n-iLgXo9aY",
+      "angle": "Pour relier un plan serré à un tableau de grande scène, on peut conserver la couleur dominante et déplacer sa fonction. Le rouge sur la peau donne une proximité que le rouge derrière le corps transforme en silhouette."
+    },
+    {
+      "project_id": "hilary-duff-all-you-want-christmas-2026",
+      "title": "Hilary Duff — Noël passe d’un décor à l’autre par les matières",
+      "title_fr": "Hilary Duff — Noël passe d’un décor à l’autre par les matières",
+      "url": "https://www.youtube.com/watch?v=aBVz4XHaSTo",
+      "category": "14 Musique Clips",
+      "source": "Hilary Duff / Atlantic Records",
+      "published": "2026-11-16T00:00:00Z",
+      "radar_added_at": "2026-11-17T07:59:19.804Z",
+      "summary": "Dans le clip de Jesús Leonardo, le salon aux reflets métalliques et la pièce verte se répondent par la couleur et la texture des vêtements.",
+      "summary_fr": "Dans le clip de Jesús Leonardo, le salon aux reflets métalliques et la pièce verte se répondent par la couleur et la texture des vêtements.",
+      "image": "https://i.ytimg.com/vi/aBVz4XHaSTo/3.jpg",
+      "image_kind": "project",
+      "image_credit": "Image extraite de la vidéo officielle publiée par Hilary Duff / Atlantic Records",
+      "image_source_url": "https://www.youtube.com/watch?v=aBVz4XHaSTo",
+      "image_alt": "Hilary Duff en bleu clair devant les fenêtres de la pièce verte, image issue du clip officiel.",
+      "status": "editorial_reviewed",
+      "youtube_id": "aBVz4XHaSTo",
+      "angle": "Entre deux tableaux, changer la relation entre le vêtement et son fond donne une variation plus lisible qu’un simple changement de pièce. Le premier cadre absorbe la silhouette dans ses reflets et le second la détache d’un aplat coloré."
+    },
     {
       "project_id": "txt-angel-bite-portraits-2026",
       "title": "TXT — Dans « Angel Bite », deux visages se disputent le cadre",

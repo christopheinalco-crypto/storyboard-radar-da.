@@ -1,6 +1,6 @@
 {
   "description": "Cumulative seen-project register; retain entries when projects leave the live feed; compare URL and semantic identity.",
-  "updated": "2026-11-16T19:02:57.770Z",
+  "updated": "2026-11-17T07:59:19.804Z",
   "projects": [
     {
       "project_id": "pink-siifu-devils-advocate-gontrand-making-of-2026",
@@ -562,6 +562,36 @@
       "radar_added_at": "2026-11-16T19:02:57.770Z",
       "published_at": "2026-11-16T19:02:57.770Z",
       "wave_id": "2026-11-16-20h",
+      "editorial_score": 16
+    },
+    {
+      "project_id": "bones-uk-hits-like-home-london-2026",
+      "title": "BONES UK — Le camion transforme les uniformes en costumes de scène",
+      "url": "https://www.youtube.com/watch?v=1VQvthAQlJA",
+      "category": "14 Musique Clips",
+      "radar_added_at": "2026-11-17T07:59:19.804Z",
+      "published_at": "2026-11-17T07:59:19.804Z",
+      "wave_id": "2026-11-17-06h",
+      "editorial_score": 16
+    },
+    {
+      "project_id": "yoasobi-killa-osaka-live-2026",
+      "title": "YOASOBI — Le rouge fait passer « KILLA » de la scène au portrait",
+      "url": "https://www.youtube.com/watch?v=1n-iLgXo9aY",
+      "category": "01 Spectacle Concert",
+      "radar_added_at": "2026-11-17T07:59:19.804Z",
+      "published_at": "2026-11-17T07:59:19.804Z",
+      "wave_id": "2026-11-17-06h",
+      "editorial_score": 16
+    },
+    {
+      "project_id": "hilary-duff-all-you-want-christmas-2026",
+      "title": "Hilary Duff — Noël passe d’un décor à l’autre par les matières",
+      "url": "https://www.youtube.com/watch?v=aBVz4XHaSTo",
+      "category": "14 Musique Clips",
+      "radar_added_at": "2026-11-17T07:59:19.804Z",
+      "published_at": "2026-11-17T07:59:19.804Z",
+      "wave_id": "2026-11-17-06h",
       "editorial_score": 16
     }
   ]
