@@ -1,17 +1,17 @@
 {
-  "wave_id": "github-44122911787",
-  "prepared_at": "2026-11-17T16:12:07.536062+00:00",
-  "coverage_checked_at": "2026-11-17T16:11:36.716659+00:00",
+  "wave_id": "github-44154551103",
+  "prepared_at": "2026-11-17T19:04:41.383740+00:00",
+  "coverage_checked_at": "2026-11-17T19:04:08.778711+00:00",
   "coverage": {
     "attempted": 182,
-    "opened_successfully": 160,
-    "failed": 22,
+    "opened_successfully": 159,
+    "failed": 23,
     "target_met": true
   },
   "project_inspections": {
     "attempted": 160,
-    "opened": 157,
-    "failed": 3
+    "opened": 159,
+    "failed": 1
   },
   "research_only": true,
   "warning": "Mechanical triage, NOT editorial selection. Dates, identity, DA value, image rights and public rendering remain unverified. Editor must also research fresh projects externally.",
@@ -27,10 +27,10 @@
     "06 Retail Brand Experience": 1
   },
   "excluded_counts": {
-    "navigation_or_product": 38,
+    "navigation_or_product": 40,
     "not_project_like": 57,
     "metadata_older_than_72h": 15,
-    "not_opened": 3,
+    "not_opened": 1,
     "non_priority_category": 2
   },
   "items": [
@@ -85,7 +85,7 @@
       "category": "09 France Pro",
       "source": "Revue AS",
       "published_date_claim": "2026-11-17T09:42:48+00:00",
-      "age_hours_claim": 6.5,
+      "age_hours_claim": 9.4,
       "date_verified": false,
       "project_identity_verified": false,
       "image_candidate_unverified": "https://www.revue-as.fr/wp-content/uploads/2026/11/dbaudio_pr_Les-Miserables-3-scaled-e1793181565956.jpg",
@@ -175,7 +175,7 @@
       "category": "09 France Pro",
       "source": "Revue AS",
       "published_date_claim": "2026-11-16T14:37:39+00:00",
-      "age_hours_claim": 25.6,
+      "age_hours_claim": 28.4,
       "date_verified": false,
       "project_identity_verified": false,
       "image_candidate_unverified": "https://www.revue-as.fr/wp-content/uploads/2026/11/Sans-titre2-e1794839850968.jpg",
@@ -220,7 +220,7 @@
       "category": "09 France Pro",
       "source": "Revue AS",
       "published_date_claim": "2026-11-16T09:44:00+00:00",
-      "age_hours_claim": 30.5,
+      "age_hours_claim": 33.3,
       "date_verified": false,
       "project_identity_verified": false,
       "image_candidate_unverified": "https://www.revue-as.fr/wp-content/uploads/2024/11/picto-viepro-as-e1760013309371.jpg",
