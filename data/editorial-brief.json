@@ -1,17 +1,17 @@
 {
-  "wave_id": "github-44154551103",
-  "prepared_at": "2026-11-17T19:04:41.383740+00:00",
-  "coverage_checked_at": "2026-11-17T19:04:08.778711+00:00",
+  "wave_id": "github-44187235040",
+  "prepared_at": "2026-11-17T22:10:21.628124+00:00",
+  "coverage_checked_at": "2026-11-17T22:09:42.166532+00:00",
   "coverage": {
     "attempted": 182,
-    "opened_successfully": 159,
-    "failed": 23,
+    "opened_successfully": 158,
+    "failed": 24,
     "target_met": true
   },
   "project_inspections": {
     "attempted": 160,
-    "opened": 159,
-    "failed": 1
+    "opened": 155,
+    "failed": 5
   },
   "research_only": true,
   "warning": "Mechanical triage, NOT editorial selection. Dates, identity, DA value, image rights and public rendering remain unverified. Editor must also research fresh projects externally.",
@@ -27,10 +27,10 @@
     "06 Retail Brand Experience": 1
   },
   "excluded_counts": {
-    "navigation_or_product": 40,
-    "not_project_like": 57,
-    "metadata_older_than_72h": 15,
-    "not_opened": 1,
+    "navigation_or_product": 39,
+    "not_project_like": 56,
+    "metadata_older_than_72h": 14,
+    "not_opened": 5,
     "non_priority_category": 2
   },
   "items": [
@@ -85,7 +85,7 @@
       "category": "09 France Pro",
       "source": "Revue AS",
       "published_date_claim": "2026-11-17T09:42:48+00:00",
-      "age_hours_claim": 9.4,
+      "age_hours_claim": 12.4,
       "date_verified": false,
       "project_identity_verified": false,
       "image_candidate_unverified": "https://www.revue-as.fr/wp-content/uploads/2026/11/dbaudio_pr_Les-Miserables-3-scaled-e1793181565956.jpg",
@@ -175,7 +175,7 @@
       "category": "09 France Pro",
       "source": "Revue AS",
       "published_date_claim": "2026-11-16T14:37:39+00:00",
-      "age_hours_claim": 28.4,
+      "age_hours_claim": 31.5,
       "date_verified": false,
       "project_identity_verified": false,
       "image_candidate_unverified": "https://www.revue-as.fr/wp-content/uploads/2026/11/Sans-titre2-e1794839850968.jpg",
@@ -220,7 +220,7 @@
       "category": "09 France Pro",
       "source": "Revue AS",
       "published_date_claim": "2026-11-16T09:44:00+00:00",
-      "age_hours_claim": 33.3,
+      "age_hours_claim": 36.4,
       "date_verified": false,
       "project_identity_verified": false,
       "image_candidate_unverified": "https://www.revue-as.fr/wp-content/uploads/2024/11/picto-viepro-as-e1760013309371.jpg",
@@ -470,21 +470,6 @@
       "status": "research_only_not_approved"
     },
     {
-      "title": "Camila Cabello – Stufish",
-      "url": "https://stufish.com/project/camilla-cabello/",
-      "category": "01 Spectacle Concert",
-      "source": "STUFISH",
-      "published_date_claim": "",
-      "age_hours_claim": null,
-      "date_verified": false,
-      "project_identity_verified": false,
-      "image_candidate_unverified": "",
-      "description": "",
-      "page_excerpt": "National Television Awards 2026 Presented by Pepsi with The Killers Presented by Pepsi with The Killers The Boy Who Played the Harp Global Citizen Festival NYC Visions of Damsels & Other Dangerous Things Cityscape Global 2024: Future of Living Summit National Television Awards 2024 The Celebration - 30th Anniversary on Stage One Za'abeel Entrance Canopy Move Afrika: A Global Citizen Experience King Abdulaziz City for Science and Technology (KACST) Formula 1 Heineken Silver Grand Prix Las Vegas Opening Ceremony Vision 2030 Portals at Cityscape National Television Awards 2023 British Fashion Awards 2022 British Sum",
-      "editorial_score": null,
-      "status": "research_only_not_approved"
-    },
-    {
       "title": "ETC - Theatre, Film, Studio and Architectural Lighting",
       "url": "https://www.etcconnect.com/About/Buy-American/",
       "category": "01 Spectacle Concert",
@@ -496,6 +481,21 @@
       "image_candidate_unverified": "https://www.etcconnect.com/uploadedImages/Main_Site/Images/Products/Consoles/Eos_Revamp_Images/Eos_Apex_SiteTakeover_1920x1280.jpg",
       "description": "Electronic Theatre Controls, Inc. Lighting solutions, control equipment for Theater, Film & TV studios, Architectural spaces and entertainment industries.",
       "page_excerpt": "Commercial Lighting Systems Europe, Middle East & Africa Falkland Islands (Malvinas) Saint Vincent & the Grenadines All Middle Eastern Countries British Indian Ocean Territory Lao People's Democratic Republic Micronesia, Federated States North Korea, Democratic People's Republic Falkland Islands (Malvinas) Saint Vincent & the Grenadines All Middle Eastern Countries British Indian Ocean Territory Lao People's Democratic Republic Micronesia, Federated States North Korea, Democratic People's Republic ETC: Building Products in America ETC manufactures lighting, control, and rigging equipment that is used and renowned",
+      "editorial_score": null,
+      "status": "research_only_not_approved"
+    },
+    {
+      "title": "FOO FIGHTERS | LUZ Studio",
+      "url": "https://luzstudio.com/en/projects/foo-fighters",
+      "category": "01 Spectacle Concert",
+      "source": "LUZ Studio",
+      "published_date_claim": "",
+      "age_hours_claim": null,
+      "date_verified": false,
+      "project_identity_verified": false,
+      "image_candidate_unverified": "",
+      "description": "",
+      "page_excerpt": "Everything or Nothing at All Tour & Television Performance The Foo Fighters' Everything or Nothing at All Tour called for virtual set extensions that expanded the stage environment by blending physical and digital spaces seamlessly. Our objective in designing this environment was to create a sense of depth that would give the audience multiple immersive perspectives. In crafting the video environments for this tour, we wanted to give the audience a visual feast, but also to go deeper. We identified key musical moments and then amplified their emotional impact for Foo Fighters' fans. The content we created was als",
       "editorial_score": null,
       "status": "research_only_not_approved"
     }
