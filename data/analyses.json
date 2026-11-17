@@ -5051,5 +5051,344 @@
         ]
       }
     }
+  },
+  "https://www.youtube.com/watch?v=Yz2VnH-PsWU": {
+    "title_fr": "Reclus.É — Dans « Stain », le portrait se défait en signal",
+    "intro": "Le clip fait circuler la même lumière cyan entre un portrait, des formes grossies et des fragments dispersés.",
+    "points": [
+      [
+        "L'essentiel",
+        "Dans le portrait, la silhouette émerge d’un bruit lumineux au milieu du noir. D’autres plans grossissent les formes jusqu’à les détacher de toute figure ou les dispersent dans l’image."
+      ],
+      [
+        "Intention",
+        "Soren Bryce parle d’une responsabilité partagée et de la difficulté à agir dans une situation commune. On peut lire la circulation de la même matière graphique du visage vers le fond comme un écho visuel à cette idée."
+      ],
+      [
+        "Idée & DA",
+        "La gamme cyan et noire reste stable pendant que la figure disparaît. Cette continuité fait percevoir les fragments comme la matière du portrait. ^^Le clip change la lisibilité de l’image sans changer sa couleur dominante.^^"
+      ]
+    ],
+    "takeaway": "Pour défaire une figure sans rompre la continuité d’un clip, garder un invariant sensible. Dans Stain, le cyan et le grain permettent de passer d’un visage à des formes non figuratives tout en laissant une trace du plan précédent.",
+    "source": "Rise Records / Reclus.É",
+    "source_url": "https://www.youtube.com/watch?v=Yz2VnH-PsWU",
+    "source_links": [
+      "https://www.youtube.com/watch?v=Yz2VnH-PsWU",
+      "https://i.ytimg.com/vi/Yz2VnH-PsWU/1.jpg",
+      "https://i.ytimg.com/vi/Yz2VnH-PsWU/2.jpg",
+      "https://i.ytimg.com/vi/Yz2VnH-PsWU/3.jpg",
+      "https://goddessmetal.com/news/2026-11-13-reclus-e-release-debut-album-the-world-can-t-take-much-more/"
+    ],
+    "verified": true,
+    "reviewed_at": "2026-11-17T11:01:52.507Z",
+    "editorial_score": {
+      "total": 16,
+      "breakdown": {
+        "choice": 4,
+        "effect": 4,
+        "lesson": 3,
+        "evidence": 3,
+        "freshness": 2
+      }
+    },
+    "editorial_review": [
+      {
+        "url": "https://i.ytimg.com/vi/Yz2VnH-PsWU/1.jpg",
+        "locator": "Formes cyan grossies sur fond noir"
+      },
+      {
+        "url": "https://goddessmetal.com/news/2026-11-13-reclus-e-release-debut-album-the-world-can-t-take-much-more/",
+        "locator": "Date de sortie, lien Rise Records et déclaration de Soren Bryce"
+      },
+      {
+        "url": "https://i.ytimg.com/vi/Yz2VnH-PsWU/2.jpg",
+        "locator": "Visage cyan au milieu du bruit lumineux"
+      }
+    ],
+    "publication_review": {
+      "scores": {
+        "choice": 4,
+        "effect": 4,
+        "lesson": 3,
+        "evidence": 3,
+        "freshness": 2
+      },
+      "choice": "Dans le portrait, la silhouette émerge d’un bruit lumineux au milieu du noir. D’autres plans grossissent les formes jusqu’à les détacher de toute figure ou les dispersent dans l’image.",
+      "effect": "La gamme cyan et noire reste stable pendant que la figure disparaît. Cette continuité fait percevoir les fragments comme la matière du portrait. ^^Le clip change la lisibilité de l’image sans changer sa couleur dominante.^^",
+      "lesson": "Pour défaire une figure sans rompre la continuité d’un clip, garder un invariant sensible. Dans Stain, le cyan et le grain permettent de passer d’un visage à des formes non figuratives tout en laissant une trace du plan précédent.",
+      "second_reading": "Vignette et plans contrôlés. Les intentions interprétées sont formulées comme des lectures.",
+      "sources": [
+        {
+          "url": "https://www.youtube.com/watch?v=Yz2VnH-PsWU",
+          "locator": "Vidéo officielle identifiée et vignette de la publication",
+          "opened_at": "2026-11-17T11:01:52.507Z"
+        },
+        {
+          "url": "https://i.ytimg.com/vi/Yz2VnH-PsWU/1.jpg",
+          "locator": "Formes cyan grossies sur fond noir",
+          "opened_at": "2026-11-17T11:01:52.507Z"
+        },
+        {
+          "url": "https://i.ytimg.com/vi/Yz2VnH-PsWU/2.jpg",
+          "locator": "Visage cyan au milieu du bruit lumineux",
+          "opened_at": "2026-11-17T11:01:52.507Z"
+        },
+        {
+          "url": "https://i.ytimg.com/vi/Yz2VnH-PsWU/3.jpg",
+          "locator": "Fragments diffus répartis sur fond noir",
+          "opened_at": "2026-11-17T11:01:52.507Z"
+        },
+        {
+          "url": "https://goddessmetal.com/news/2026-11-13-reclus-e-release-debut-album-the-world-can-t-take-much-more/",
+          "locator": "Date de sortie, lien Rise Records et déclaration de Soren Bryce",
+          "opened_at": "2026-11-17T11:01:52.507Z"
+        }
+      ],
+      "da_check": {
+        "observation": "Dans le portrait, la silhouette émerge d’un bruit lumineux au milieu du noir. D’autres plans grossissent les formes jusqu’à les détacher de toute figure ou les dispersent dans l’image.",
+        "viewer_effect": "La gamme cyan et noire reste stable pendant que la figure disparaît. Cette continuité fait percevoir les fragments comme la matière du portrait. ^^Le clip change la lisibilité de l’image sans changer sa couleur dominante.^^",
+        "project_specific_lesson": "Pour défaire une figure sans rompre la continuité d’un clip, garder un invariant sensible. Dans Stain, le cyan et le grain permettent de passer d’un visage à des formes non figuratives tout en laissant une trace du plan précédent.",
+        "evidence": [
+          {
+            "url": "https://i.ytimg.com/vi/Yz2VnH-PsWU/1.jpg",
+            "locator": "Formes cyan grossies sur fond noir"
+          },
+          {
+            "url": "https://i.ytimg.com/vi/Yz2VnH-PsWU/2.jpg",
+            "locator": "Visage cyan au milieu du bruit lumineux"
+          },
+          {
+            "url": "https://i.ytimg.com/vi/Yz2VnH-PsWU/3.jpg",
+            "locator": "Fragments diffus répartis sur fond noir"
+          }
+        ]
+      }
+    }
+  },
+  "https://www.youtube.com/watch?v=s2EDxhE2XuM": {
+    "title_fr": "NCT 127 — Le jaune relie les chapitres du medley",
+    "intro": "Les lignes fluorescentes sur les costumes donnent un repère stable quand les fonds rouges, verts et violets changent derrière les interprètes.",
+    "points": [
+      [
+        "L'essentiel",
+        "Dans un premier portrait, le trait jaune traverse un costume noir devant un fond rouge. Le plan de groupe devant le vert le répète d’un corps à l’autre. Sur le violet, une touche jaune reste lisible au bord du visage."
+      ],
+      [
+        "Intention",
+        "L’organisateur présente ce medley comme un parcours à travers dix ans de musique du groupe. Le rappel fluorescent sur les silhouettes peut se lire comme un lien entre les morceaux et les différentes échelles de captation."
+      ],
+      [
+        "Idée & DA",
+        "En plan de groupe, le jaune relie les gestes séparés. Dans le portrait, une seule bande suffit à rattacher l’interprète au reste du tableau. ^^Le costume fait le raccord que le décor choisit de rompre.^^ Les lignes lumineuses du plan large donnent au même vocabulaire une échelle collective."
+      ]
+    ],
+    "takeaway": "Dans un medley dont les fonds varient fortement, un détail de costume peut tenir lieu de raccord. Une ligne répétée reste identifiable sur plusieurs silhouettes comme dans un seul portrait.",
+    "source": "Melon Music Awards / Kakao Entertainment",
+    "source_url": "https://www.youtube.com/watch?v=s2EDxhE2XuM",
+    "source_links": [
+      "https://www.youtube.com/watch?v=s2EDxhE2XuM",
+      "https://i.ytimg.com/vi/s2EDxhE2XuM/1.jpg",
+      "https://i.ytimg.com/vi/s2EDxhE2XuM/2.jpg",
+      "https://i.ytimg.com/vi/s2EDxhE2XuM/3.jpg",
+      "https://newsroom.kakaoent.com/news/k-pops-game-changers-to-ignite-mma2026-with-exclusive-stages/"
+    ],
+    "verified": true,
+    "reviewed_at": "2026-11-17T11:01:52.507Z",
+    "editorial_score": {
+      "total": 16,
+      "breakdown": {
+        "choice": 4,
+        "effect": 4,
+        "lesson": 3,
+        "evidence": 3,
+        "freshness": 2
+      }
+    },
+    "editorial_review": [
+      {
+        "url": "https://i.ytimg.com/vi/s2EDxhE2XuM/1.jpg",
+        "locator": "Silhouette noire et jaune sur fond rouge"
+      },
+      {
+        "url": "https://newsroom.kakaoent.com/news/k-pops-game-changers-to-ignite-mma2026-with-exclusive-stages/",
+        "locator": "Programme du deuxième soir et concept du dixième anniversaire de NCT 127"
+      },
+      {
+        "url": "https://i.ytimg.com/vi/s2EDxhE2XuM/2.jpg",
+        "locator": "Groupe sur fond vert et répétition du jaune"
+      }
+    ],
+    "publication_review": {
+      "scores": {
+        "choice": 4,
+        "effect": 4,
+        "lesson": 3,
+        "evidence": 3,
+        "freshness": 2
+      },
+      "choice": "Dans un premier portrait, le trait jaune traverse un costume noir devant un fond rouge. Le plan de groupe devant le vert le répète d’un corps à l’autre. Sur le violet, une touche jaune reste lisible au bord du visage.",
+      "effect": "En plan de groupe, le jaune relie les gestes séparés. Dans le portrait, une seule bande suffit à rattacher l’interprète au reste du tableau. ^^Le costume fait le raccord que le décor choisit de rompre.^^ Les lignes lumineuses du plan large donnent au même vocabulaire une échelle collective.",
+      "lesson": "Dans un medley dont les fonds varient fortement, un détail de costume peut tenir lieu de raccord. Une ligne répétée reste identifiable sur plusieurs silhouettes comme dans un seul portrait.",
+      "second_reading": "Vignette et plans contrôlés. Les intentions interprétées sont formulées comme des lectures.",
+      "sources": [
+        {
+          "url": "https://www.youtube.com/watch?v=s2EDxhE2XuM",
+          "locator": "Vidéo officielle identifiée et vignette de la publication",
+          "opened_at": "2026-11-17T11:01:52.507Z"
+        },
+        {
+          "url": "https://i.ytimg.com/vi/s2EDxhE2XuM/1.jpg",
+          "locator": "Silhouette noire et jaune sur fond rouge",
+          "opened_at": "2026-11-17T11:01:52.507Z"
+        },
+        {
+          "url": "https://i.ytimg.com/vi/s2EDxhE2XuM/2.jpg",
+          "locator": "Groupe sur fond vert et répétition du jaune",
+          "opened_at": "2026-11-17T11:01:52.507Z"
+        },
+        {
+          "url": "https://i.ytimg.com/vi/s2EDxhE2XuM/3.jpg",
+          "locator": "Portrait de profil sur fond violet",
+          "opened_at": "2026-11-17T11:01:52.507Z"
+        },
+        {
+          "url": "https://newsroom.kakaoent.com/news/k-pops-game-changers-to-ignite-mma2026-with-exclusive-stages/",
+          "locator": "Programme du deuxième soir et concept du dixième anniversaire de NCT 127",
+          "opened_at": "2026-11-17T11:01:52.507Z"
+        }
+      ],
+      "da_check": {
+        "observation": "Dans un premier portrait, le trait jaune traverse un costume noir devant un fond rouge. Le plan de groupe devant le vert le répète d’un corps à l’autre. Sur le violet, une touche jaune reste lisible au bord du visage.",
+        "viewer_effect": "En plan de groupe, le jaune relie les gestes séparés. Dans le portrait, une seule bande suffit à rattacher l’interprète au reste du tableau. ^^Le costume fait le raccord que le décor choisit de rompre.^^ Les lignes lumineuses du plan large donnent au même vocabulaire une échelle collective.",
+        "project_specific_lesson": "Dans un medley dont les fonds varient fortement, un détail de costume peut tenir lieu de raccord. Une ligne répétée reste identifiable sur plusieurs silhouettes comme dans un seul portrait.",
+        "evidence": [
+          {
+            "url": "https://i.ytimg.com/vi/s2EDxhE2XuM/1.jpg",
+            "locator": "Silhouette noire et jaune sur fond rouge"
+          },
+          {
+            "url": "https://i.ytimg.com/vi/s2EDxhE2XuM/2.jpg",
+            "locator": "Groupe sur fond vert et répétition du jaune"
+          },
+          {
+            "url": "https://i.ytimg.com/vi/s2EDxhE2XuM/3.jpg",
+            "locator": "Portrait de profil sur fond violet"
+          }
+        ]
+      }
+    }
+  },
+  "https://www.youtube.com/watch?v=dU77Tc8eP6Y": {
+    "title_fr": "Kami Kehoe — « LOST » tient dans un profil qui s’efface",
+    "intro": "Un profil bleuté et un fond sombre suffisent à déplacer l’attention du regard à la voix.",
+    "points": [
+      [
+        "L'essentiel",
+        "Dans le plan où l’œil se lève, le bleu dessine la pommette et le nez. Dans un autre plan, l’œil se ferme et la lumière tient surtout le contour de la bouche et du menton."
+      ],
+      [
+        "Intention",
+        "Le morceau revient sur l’envie d’une seconde chance. Le clip garde Kehoe seule dans un espace sombre. Le choix du profil peut se lire comme une façon de laisser le spectateur suivre un mouvement intérieur sans lui adresser constamment le regard."
+      ],
+      [
+        "Idée & DA",
+        "L’unité du bleu et du cadre rend les petits écarts visibles. Quand l’œil se ferme, on suit davantage le geste de chanter. Quand le fond perd son halo, une partie du visage se confond avec le noir. ^^La lumière peut déplacer le centre d’un portrait sans que le cadre change d’échelle.^^"
+      ]
+    ],
+    "takeaway": "Un dispositif resserré peut donner du poids à un changement minuscule. Dans LOST, une même silhouette porte plusieurs états parce que la lumière laisse tantôt lire le regard, tantôt la bouche.",
+    "source": "Kami Kehoe / Atlantic Records",
+    "source_url": "https://www.youtube.com/watch?v=dU77Tc8eP6Y",
+    "source_links": [
+      "https://www.youtube.com/watch?v=dU77Tc8eP6Y",
+      "https://i.ytimg.com/vi/dU77Tc8eP6Y/1.jpg",
+      "https://i.ytimg.com/vi/dU77Tc8eP6Y/2.jpg",
+      "https://i.ytimg.com/vi/dU77Tc8eP6Y/3.jpg",
+      "https://goddessmetal.com/news/2026-11-13-kami-kehoe-releases-lost-video/"
+    ],
+    "verified": true,
+    "reviewed_at": "2026-11-17T11:01:52.507Z",
+    "editorial_score": {
+      "total": 16,
+      "breakdown": {
+        "choice": 4,
+        "effect": 4,
+        "lesson": 3,
+        "evidence": 3,
+        "freshness": 2
+      }
+    },
+    "editorial_review": [
+      {
+        "url": "https://i.ytimg.com/vi/dU77Tc8eP6Y/1.jpg",
+        "locator": "Profil bleuté aux yeux fermés"
+      },
+      {
+        "url": "https://goddessmetal.com/news/2026-11-13-kami-kehoe-releases-lost-video/",
+        "locator": "Date de sortie et dispositif de performance dans une pièce sombre"
+      },
+      {
+        "url": "https://i.ytimg.com/vi/dU77Tc8eP6Y/2.jpg",
+        "locator": "Profil au regard levé, contour du visage lisible"
+      }
+    ],
+    "publication_review": {
+      "scores": {
+        "choice": 4,
+        "effect": 4,
+        "lesson": 3,
+        "evidence": 3,
+        "freshness": 2
+      },
+      "choice": "Dans le plan où l’œil se lève, le bleu dessine la pommette et le nez. Dans un autre plan, l’œil se ferme et la lumière tient surtout le contour de la bouche et du menton.",
+      "effect": "L’unité du bleu et du cadre rend les petits écarts visibles. Quand l’œil se ferme, on suit davantage le geste de chanter. Quand le fond perd son halo, une partie du visage se confond avec le noir. ^^La lumière peut déplacer le centre d’un portrait sans que le cadre change d’échelle.^^",
+      "lesson": "Un dispositif resserré peut donner du poids à un changement minuscule. Dans LOST, une même silhouette porte plusieurs états parce que la lumière laisse tantôt lire le regard, tantôt la bouche.",
+      "second_reading": "Vignette et plans contrôlés. Les intentions interprétées sont formulées comme des lectures.",
+      "sources": [
+        {
+          "url": "https://www.youtube.com/watch?v=dU77Tc8eP6Y",
+          "locator": "Vidéo officielle identifiée et vignette de la publication",
+          "opened_at": "2026-11-17T11:01:52.507Z"
+        },
+        {
+          "url": "https://i.ytimg.com/vi/dU77Tc8eP6Y/1.jpg",
+          "locator": "Profil bleuté aux yeux fermés",
+          "opened_at": "2026-11-17T11:01:52.507Z"
+        },
+        {
+          "url": "https://i.ytimg.com/vi/dU77Tc8eP6Y/2.jpg",
+          "locator": "Profil au regard levé, contour du visage lisible",
+          "opened_at": "2026-11-17T11:01:52.507Z"
+        },
+        {
+          "url": "https://i.ytimg.com/vi/dU77Tc8eP6Y/3.jpg",
+          "locator": "Profil de chant dont le visage se fond dans le fond noir",
+          "opened_at": "2026-11-17T11:01:52.507Z"
+        },
+        {
+          "url": "https://goddessmetal.com/news/2026-11-13-kami-kehoe-releases-lost-video/",
+          "locator": "Date de sortie et dispositif de performance dans une pièce sombre",
+          "opened_at": "2026-11-17T11:01:52.507Z"
+        }
+      ],
+      "da_check": {
+        "observation": "Dans le plan où l’œil se lève, le bleu dessine la pommette et le nez. Dans un autre plan, l’œil se ferme et la lumière tient surtout le contour de la bouche et du menton.",
+        "viewer_effect": "L’unité du bleu et du cadre rend les petits écarts visibles. Quand l’œil se ferme, on suit davantage le geste de chanter. Quand le fond perd son halo, une partie du visage se confond avec le noir. ^^La lumière peut déplacer le centre d’un portrait sans que le cadre change d’échelle.^^",
+        "project_specific_lesson": "Un dispositif resserré peut donner du poids à un changement minuscule. Dans LOST, une même silhouette porte plusieurs états parce que la lumière laisse tantôt lire le regard, tantôt la bouche.",
+        "evidence": [
+          {
+            "url": "https://i.ytimg.com/vi/dU77Tc8eP6Y/1.jpg",
+            "locator": "Profil bleuté aux yeux fermés"
+          },
+          {
+            "url": "https://i.ytimg.com/vi/dU77Tc8eP6Y/2.jpg",
+            "locator": "Profil au regard levé, contour du visage lisible"
+          },
+          {
+            "url": "https://i.ytimg.com/vi/dU77Tc8eP6Y/3.jpg",
+            "locator": "Profil de chant dont le visage se fond dans le fond noir"
+          }
+        ]
+      }
+    }
   }
 }

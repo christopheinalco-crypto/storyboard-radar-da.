@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-17T07:59:19.804Z",
+  "updated_at": "2026-11-17T11:01:52.507Z",
   "status": "editorial_reviewed",
   "working_feeds": [
     {
@@ -454,6 +454,66 @@
     "with_images": 82
   },
   "items": [
+    {
+      "project_id": "recluse-stain-image-intermittente-2026",
+      "title": "Reclus.É — Dans « Stain », le portrait se défait en signal",
+      "title_fr": "Reclus.É — Dans « Stain », le portrait se défait en signal",
+      "url": "https://www.youtube.com/watch?v=Yz2VnH-PsWU",
+      "category": "14 Musique Clips",
+      "source": "Rise Records / Reclus.É",
+      "published": "2026-11-13T00:00:00Z",
+      "radar_added_at": "2026-11-17T11:01:52.507Z",
+      "summary": "Le clip fait circuler la même lumière cyan entre un portrait, des formes grossies et des fragments dispersés.",
+      "summary_fr": "Le clip fait circuler la même lumière cyan entre un portrait, des formes grossies et des fragments dispersés.",
+      "image": "https://i.ytimg.com/vi/Yz2VnH-PsWU/hqdefault.jpg",
+      "image_kind": "project",
+      "image_credit": "Vignette officielle de la vidéo publiée par Rise Records / Reclus.É",
+      "image_source_url": "https://www.youtube.com/watch?v=Yz2VnH-PsWU",
+      "image_alt": "Portrait cyan dans le noir sur la vignette officielle du clip Stain.",
+      "status": "editorial_reviewed",
+      "youtube_id": "Yz2VnH-PsWU",
+      "angle": "Pour défaire une figure sans rompre la continuité d’un clip, garder un invariant sensible. Dans Stain, le cyan et le grain permettent de passer d’un visage à des formes non figuratives tout en laissant une trace du plan précédent."
+    },
+    {
+      "project_id": "nct127-mma-decennie-staging-2026",
+      "title": "NCT 127 — Le jaune relie les chapitres du medley",
+      "title_fr": "NCT 127 — Le jaune relie les chapitres du medley",
+      "url": "https://www.youtube.com/watch?v=s2EDxhE2XuM",
+      "category": "01 Spectacle Concert",
+      "source": "Melon Music Awards / Kakao Entertainment",
+      "published": "2026-11-15T00:00:00Z",
+      "radar_added_at": "2026-11-17T11:01:52.507Z",
+      "summary": "Les lignes fluorescentes sur les costumes donnent un repère stable quand les fonds rouges, verts et violets changent derrière les interprètes.",
+      "summary_fr": "Les lignes fluorescentes sur les costumes donnent un repère stable quand les fonds rouges, verts et violets changent derrière les interprètes.",
+      "image": "https://i.ytimg.com/vi/s2EDxhE2XuM/hqdefault.jpg",
+      "image_kind": "project",
+      "image_credit": "Vignette officielle de la vidéo publiée par Melon Music Awards / Kakao Entertainment",
+      "image_source_url": "https://www.youtube.com/watch?v=s2EDxhE2XuM",
+      "image_alt": "Le groupe NCT 127 sur la vignette officielle de sa performance aux MMA 2026.",
+      "status": "editorial_reviewed",
+      "youtube_id": "s2EDxhE2XuM",
+      "angle": "Dans un medley dont les fonds varient fortement, un détail de costume peut tenir lieu de raccord. Une ligne répétée reste identifiable sur plusieurs silhouettes comme dans un seul portrait."
+    },
+    {
+      "project_id": "kami-kehoe-lost-portrait-2026",
+      "title": "Kami Kehoe — « LOST » tient dans un profil qui s’efface",
+      "title_fr": "Kami Kehoe — « LOST » tient dans un profil qui s’efface",
+      "url": "https://www.youtube.com/watch?v=dU77Tc8eP6Y",
+      "category": "14 Musique Clips",
+      "source": "Kami Kehoe / Atlantic Records",
+      "published": "2026-11-12T00:00:00Z",
+      "radar_added_at": "2026-11-17T11:01:52.507Z",
+      "summary": "Un profil bleuté et un fond sombre suffisent à déplacer l’attention du regard à la voix.",
+      "summary_fr": "Un profil bleuté et un fond sombre suffisent à déplacer l’attention du regard à la voix.",
+      "image": "https://i.ytimg.com/vi/dU77Tc8eP6Y/hqdefault.jpg",
+      "image_kind": "project",
+      "image_credit": "Vignette officielle de la vidéo publiée par Kami Kehoe / Atlantic Records",
+      "image_source_url": "https://www.youtube.com/watch?v=dU77Tc8eP6Y",
+      "image_alt": "Profil de Kami Kehoe éclairé en bleu dans la vignette de LOST.",
+      "status": "editorial_reviewed",
+      "youtube_id": "dU77Tc8eP6Y",
+      "angle": "Un dispositif resserré peut donner du poids à un changement minuscule. Dans LOST, une même silhouette porte plusieurs états parce que la lumière laisse tantôt lire le regard, tantôt la bouche."
+    },
     {
       "project_id": "bones-uk-hits-like-home-london-2026",
       "title": "BONES UK — Le camion transforme les uniformes en costumes de scène",

@@ -1,6 +1,6 @@
 {
   "description": "Cumulative seen-project register; retain entries when projects leave the live feed; compare URL and semantic identity.",
-  "updated": "2026-11-17T07:59:19.804Z",
+  "updated": "2026-11-17T11:01:52.507Z",
   "projects": [
     {
       "project_id": "pink-siifu-devils-advocate-gontrand-making-of-2026",
@@ -592,6 +592,36 @@
       "radar_added_at": "2026-11-17T07:59:19.804Z",
       "published_at": "2026-11-17T07:59:19.804Z",
       "wave_id": "2026-11-17-06h",
+      "editorial_score": 16
+    },
+    {
+      "project_id": "recluse-stain-image-intermittente-2026",
+      "title": "Reclus.É — Dans « Stain », le portrait se défait en signal",
+      "url": "https://www.youtube.com/watch?v=Yz2VnH-PsWU",
+      "category": "14 Musique Clips",
+      "radar_added_at": "2026-11-17T11:01:52.507Z",
+      "published_at": "2026-11-17T11:01:52.507Z",
+      "wave_id": "2026-11-17-12h",
+      "editorial_score": 16
+    },
+    {
+      "project_id": "nct127-mma-decennie-staging-2026",
+      "title": "NCT 127 — Le jaune relie les chapitres du medley",
+      "url": "https://www.youtube.com/watch?v=s2EDxhE2XuM",
+      "category": "01 Spectacle Concert",
+      "radar_added_at": "2026-11-17T11:01:52.507Z",
+      "published_at": "2026-11-17T11:01:52.507Z",
+      "wave_id": "2026-11-17-12h",
+      "editorial_score": 16
+    },
+    {
+      "project_id": "kami-kehoe-lost-portrait-2026",
+      "title": "Kami Kehoe — « LOST » tient dans un profil qui s’efface",
+      "url": "https://www.youtube.com/watch?v=dU77Tc8eP6Y",
+      "category": "14 Musique Clips",
+      "radar_added_at": "2026-11-17T11:01:52.507Z",
+      "published_at": "2026-11-17T11:01:52.507Z",
+      "wave_id": "2026-11-17-12h",
       "editorial_score": 16
     }
   ]
