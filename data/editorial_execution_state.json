@@ -1587,6 +1587,36 @@
         "public_render_check": "https://github.com/christopheinalco-crypto/storyboard-radar-da./actions/runs/44042945308",
         "verified_at": "2026-11-17T08:00:27.360Z"
       }
+    },
+    "2026-11-17-12h": {
+      "id": "2026-11-17-12h",
+      "status": "complete",
+      "stage": "public_verified",
+      "published_count": 3,
+      "public_render_verified": true,
+      "collection": {
+        "wave_id": "github-44070000793",
+        "coverage_checked_at": "2026-11-17T11:00:28.838835+00:00",
+        "sources_opened": 158,
+        "rss_collected_at": "2026-11-17T11:00:28.531398+00:00",
+        "rss_parsed": 42
+      },
+      "publication": {
+        "id": "2026-11-17-12h",
+        "slot": "2026-11-17-12h",
+        "status": "public_verified",
+        "projects": [
+          "recluse-stain-image-intermittente-2026",
+          "nct127-mma-decennie-staging-2026",
+          "kami-kehoe-lost-portrait-2026"
+        ],
+        "count": 3,
+        "trigger": "scheduled_editorial",
+        "publication_commit": "b54ecc4123d57f358e319887871cb9e8febd664d",
+        "pages_deployment": "https://github.com/christopheinalco-crypto/storyboard-radar-da./actions/runs/44070263025",
+        "public_render_check": "https://github.com/christopheinalco-crypto/storyboard-radar-da./actions/runs/44070264467",
+        "verified_at": "2026-11-17T11:02:57.249Z"
+      }
     }
   }
 }
