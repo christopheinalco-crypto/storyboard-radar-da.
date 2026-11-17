@@ -1649,6 +1649,37 @@
         "public_render_check": "https://github.com/christopheinalco-crypto/storyboard-radar-da./actions/runs/44123340693",
         "verified_at": "2026-11-17T16:14:52.468Z"
       }
+    },
+    "2026-11-17-20h": {
+      "id": "2026-11-17-20h",
+      "status": "complete",
+      "stage": "public_verified",
+      "published_count": 3,
+      "public_render_verified": true,
+      "notes": "Collecte rafraîchie puis publication contrôlée.",
+      "collection": {
+        "wave_id": "github-44154551103",
+        "coverage_checked_at": "2026-11-17T19:04:08.778711+00:00",
+        "sources_opened": 159,
+        "rss_collected_at": "2026-11-17T19:04:10.915083+00:00",
+        "rss_parsed": 41
+      },
+      "publication": {
+        "id": "2026-11-17-20h",
+        "slot": "2026-11-17-20h",
+        "status": "public_verified",
+        "projects": [
+          "solar-to-my-twenties-formats-2026",
+          "kiiikiii-mma-house-party-2026",
+          "girlset-young-dumb-portraits-2026"
+        ],
+        "count": 3,
+        "trigger": "scheduled_editorial",
+        "publication_commit": "899a30808eb3900afac5c5f5808285f00dab27bd",
+        "pages_deployment": "https://github.com/christopheinalco-crypto/storyboard-radar-da./actions/runs/44154869764",
+        "public_render_check": "https://github.com/christopheinalco-crypto/storyboard-radar-da./actions/runs/44154870605",
+        "verified_at": "2026-11-17T19:06:48.312Z"
+      }
     }
   }
 }
