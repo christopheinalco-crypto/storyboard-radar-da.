@@ -1617,6 +1617,21 @@
         "public_render_check": "https://github.com/christopheinalco-crypto/storyboard-radar-da./actions/runs/44070264467",
         "verified_at": "2026-11-17T11:02:57.249Z"
       }
+    },
+    "2026-11-17-16h": {
+      "id": "2026-11-17-16h",
+      "status": "incomplete",
+      "stage": "collection_freshness",
+      "checked_at": "2026-11-17T16:10:42.457Z",
+      "collection": {
+        "wave_id": "github-44094695942",
+        "coverage_checked_at": "2026-11-17T13:38:12.465841+00:00",
+        "brief_prepared_at": "2026-11-17T13:38:47.050266+00:00",
+        "rss_collected_at": "2026-11-17T13:51:31.117443+00:00"
+      },
+      "published_count": 0,
+      "public_render_verified": false,
+      "notes": "Contrôle de suivi retardé. Aucun commit de publication associé au créneau dans le registre. Rapports à rafraîchir au prochain passage éditorial."
     }
   }
 }
