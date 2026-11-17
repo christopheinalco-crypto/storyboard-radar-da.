@@ -1,6 +1,6 @@
 {
   "description": "Cumulative seen-project register; retain entries when projects leave the live feed; compare URL and semantic identity.",
-  "updated": "2026-11-17T16:13:40.464Z",
+  "updated": "2026-11-17T19:05:42.521Z",
   "projects": [
     {
       "project_id": "pink-siifu-devils-advocate-gontrand-making-of-2026",
@@ -652,6 +652,36 @@
       "radar_added_at": "2026-11-17T16:13:40.464Z",
       "published_at": "2026-11-17T16:13:40.464Z",
       "wave_id": "2026-11-17-16h",
+      "editorial_score": 16
+    },
+    {
+      "project_id": "solar-to-my-twenties-formats-2026",
+      "title": "Solar — Une mémoire qui change de format",
+      "url": "https://www.youtube.com/watch?v=3hcrgkXfrI8",
+      "category": "14 Musique Clips",
+      "radar_added_at": "2026-11-17T19:05:42.521Z",
+      "published_at": "2026-11-17T19:05:42.521Z",
+      "wave_id": "2026-11-17-20h",
+      "editorial_score": 16
+    },
+    {
+      "project_id": "kiiikiii-mma-house-party-2026",
+      "title": "KiiiKiii — La lumière fait changer la fête de proximité",
+      "url": "https://www.youtube.com/watch?v=SNFyIzOlxBc",
+      "category": "01 Spectacle Concert",
+      "radar_added_at": "2026-11-17T19:05:42.521Z",
+      "published_at": "2026-11-17T19:05:42.521Z",
+      "wave_id": "2026-11-17-20h",
+      "editorial_score": 16
+    },
+    {
+      "project_id": "girlset-young-dumb-portraits-2026",
+      "title": "GIRLSET — Dans « young & dumb », la lumière finit par réunir les visages",
+      "url": "https://www.youtube.com/watch?v=It1JR0u2eVE",
+      "category": "14 Musique Clips",
+      "radar_added_at": "2026-11-17T19:05:42.521Z",
+      "published_at": "2026-11-17T19:05:42.521Z",
+      "wave_id": "2026-11-17-20h",
       "editorial_score": 16
     }
   ]

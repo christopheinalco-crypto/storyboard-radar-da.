@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-17T16:13:40.464Z",
+  "updated_at": "2026-11-17T19:05:42.521Z",
   "status": "editorial_reviewed",
   "working_feeds": [
     {
@@ -454,6 +454,66 @@
     "with_images": 82
   },
   "items": [
+    {
+      "project_id": "solar-to-my-twenties-formats-2026",
+      "title": "Solar — Une mémoire qui change de format",
+      "title_fr": "Solar — Une mémoire qui change de format",
+      "url": "https://www.youtube.com/watch?v=3hcrgkXfrI8",
+      "category": "14 Musique Clips",
+      "source": "MAMAMOO / RBW",
+      "published": "2026-11-12T00:00:00Z",
+      "radar_added_at": "2026-11-17T19:05:42.521Z",
+      "summary": "Solar fait cohabiter des portraits verticaux et une performance en plein air dans des cadres de tailles différentes.",
+      "summary_fr": "Solar fait cohabiter des portraits verticaux et une performance en plein air dans des cadres de tailles différentes.",
+      "image": "https://i.ytimg.com/vi/3hcrgkXfrI8/hqdefault.jpg",
+      "image_kind": "project",
+      "image_credit": "Vignette officielle de la vidéo publiée par MAMAMOO / RBW",
+      "image_source_url": "https://www.youtube.com/watch?v=3hcrgkXfrI8",
+      "image_alt": "Solar chante en extérieur dans le cadre arrondi de la vignette officielle.",
+      "status": "editorial_reviewed",
+      "youtube_id": "3hcrgkXfrI8",
+      "angle": "Dans un montage qui rapproche archives et performance, garder les bords des images permet de distinguer leurs statuts. On peut faire grandir le présent tout en conservant un cadre qui rappelle celui des souvenirs."
+    },
+    {
+      "project_id": "kiiikiii-mma-house-party-2026",
+      "title": "KiiiKiii — La lumière fait changer la fête de proximité",
+      "title_fr": "KiiiKiii — La lumière fait changer la fête de proximité",
+      "url": "https://www.youtube.com/watch?v=SNFyIzOlxBc",
+      "category": "01 Spectacle Concert",
+      "source": "Melon Music Awards / Kakao Entertainment",
+      "published": "2026-11-15T00:00:00Z",
+      "radar_added_at": "2026-11-17T19:05:42.521Z",
+      "summary": "Dans le medley des MMA, la lumière et la composition resserrent progressivement la fête autour des interprètes.",
+      "summary_fr": "Dans le medley des MMA, la lumière et la composition resserrent progressivement la fête autour des interprètes.",
+      "image": "https://i.ytimg.com/vi/SNFyIzOlxBc/hqdefault.jpg",
+      "image_kind": "project",
+      "image_credit": "Vignette officielle de la vidéo publiée par Melon Music Awards / Kakao Entertainment",
+      "image_source_url": "https://www.youtube.com/watch?v=SNFyIzOlxBc",
+      "image_alt": "KiiiKiii en scène sur la vignette officielle des Melon Music Awards 2026.",
+      "status": "editorial_reviewed",
+      "youtube_id": "SNFyIzOlxBc",
+      "angle": "Pour faire évoluer une fête en plateau, changer la distance perçue entre les corps et le fond peut compter autant que changer la couleur. La scène ouverte donne ici de l’espace aux gestes, le trait lumineux rapproche les visages."
+    },
+    {
+      "project_id": "girlset-young-dumb-portraits-2026",
+      "title": "GIRLSET — Dans « young & dumb », la lumière finit par réunir les visages",
+      "title_fr": "GIRLSET — Dans « young & dumb », la lumière finit par réunir les visages",
+      "url": "https://www.youtube.com/watch?v=It1JR0u2eVE",
+      "category": "14 Musique Clips",
+      "source": "JYP Entertainment / GIRLSET",
+      "published": "2026-11-13T00:00:00Z",
+      "radar_added_at": "2026-11-17T19:05:42.521Z",
+      "summary": "Le clip passe de portraits qui isolent une présence à un plan nocturne où les gestes du groupe deviennent lisibles ensemble.",
+      "summary_fr": "Le clip passe de portraits qui isolent une présence à un plan nocturne où les gestes du groupe deviennent lisibles ensemble.",
+      "image": "https://i.ytimg.com/vi/It1JR0u2eVE/1.jpg",
+      "image_kind": "project",
+      "image_credit": "Image extraite de la vidéo officielle publiée par JYP Entertainment / GIRLSET",
+      "image_source_url": "https://www.youtube.com/watch?v=It1JR0u2eVE",
+      "image_alt": "Portrait en gros plan issu du clip officiel young & dumb.",
+      "status": "editorial_reviewed",
+      "youtube_id": "It1JR0u2eVE",
+      "angle": "Pour faire évoluer un clip de l’intime au collectif, une source de lumière peut servir de lien. Ici, ce qu’elle isole dans le portrait devient ce qu’elle met en commun lorsque le cadre s’élargit."
+    },
     {
       "project_id": "yaochen-wonderful-2026",
       "title": "YAOCHEN — « WONDERFUL » fait du costume un changement d’échelle",
