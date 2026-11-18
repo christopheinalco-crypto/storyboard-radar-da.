@@ -1,6 +1,6 @@
 {
   "description": "Cumulative seen-project register; retain entries when projects leave the live feed; compare URL and semantic identity.",
-  "updated": "2026-11-17T19:05:42.521Z",
+  "updated": "2026-11-18T15:04:39.062Z",
   "projects": [
     {
       "project_id": "pink-siifu-devils-advocate-gontrand-making-of-2026",
@@ -682,6 +682,36 @@
       "radar_added_at": "2026-11-17T19:05:42.521Z",
       "published_at": "2026-11-17T19:05:42.521Z",
       "wave_id": "2026-11-17-20h",
+      "editorial_score": 16
+    },
+    {
+      "project_id": "julien-baker-hound-cage-2026",
+      "title": "Julien Baker — Dans « Hound », la cage entre dans le visage",
+      "url": "https://www.youtube.com/watch?v=rueZuJ2n2JE",
+      "category": "14 Musique Clips",
+      "radar_added_at": "2026-11-18T15:04:39.062Z",
+      "published_at": "2026-11-18T15:04:39.062Z",
+      "wave_id": "2026-11-18-16h",
+      "editorial_score": 16
+    },
+    {
+      "project_id": "robert-henke-first-light-2026",
+      "title": "Robert Henke — « FIRST LIGHT » se pilote depuis la salle",
+      "url": "https://www.roberthenke.com/concerts/firstlight.html",
+      "category": "01 Spectacle Concert",
+      "radar_added_at": "2026-11-18T15:04:39.062Z",
+      "published_at": "2026-11-18T15:04:39.062Z",
+      "wave_id": "2026-11-18-16h",
+      "editorial_score": 16
+    },
+    {
+      "project_id": "hot-chip-me-in-your-head-projection-2026",
+      "title": "Hot Chip — Le visage devient le décor dans « Me In Your Head »",
+      "url": "https://www.youtube.com/watch?v=hUadLhO_oNw",
+      "category": "14 Musique Clips",
+      "radar_added_at": "2026-11-18T15:04:39.062Z",
+      "published_at": "2026-11-18T15:04:39.062Z",
+      "wave_id": "2026-11-18-16h",
       "editorial_score": 16
     }
   ]

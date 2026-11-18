@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-17T19:05:42.521Z",
+  "updated_at": "2026-11-18T15:04:39.062Z",
   "status": "editorial_reviewed",
   "working_feeds": [
     {
@@ -454,6 +454,65 @@
     "with_images": 82
   },
   "items": [
+    {
+      "project_id": "julien-baker-hound-cage-2026",
+      "title": "Julien Baker — Dans « Hound », la cage entre dans le visage",
+      "title_fr": "Julien Baker — Dans « Hound », la cage entre dans le visage",
+      "url": "https://www.youtube.com/watch?v=rueZuJ2n2JE",
+      "category": "14 Musique Clips",
+      "source": "Julien Baker / Matador",
+      "published": "2026-11-17T00:00:00Z",
+      "radar_added_at": "2026-11-18T15:04:39.062Z",
+      "summary": "Joshua Cannon fait circuler l’enfermement entre un accessoire réel et une image mentale. Le chien peut apparaître à l’intérieur même du portrait de Baker.",
+      "summary_fr": "Joshua Cannon fait circuler l’enfermement entre un accessoire réel et une image mentale. Le chien peut apparaître à l’intérieur même du portrait de Baker.",
+      "image": "https://i.ytimg.com/vi/rueZuJ2n2JE/hqdefault.jpg",
+      "image_kind": "project",
+      "image_credit": "Vignette officielle de la vidéo publiée par Julien Baker / Matador",
+      "image_source_url": "https://www.youtube.com/watch?v=rueZuJ2n2JE",
+      "image_alt": "Profil silhouetté de Julien Baker contenant une image de chien en cage dans le visuel officiel de Hound.",
+      "status": "editorial_reviewed",
+      "youtube_id": "rueZuJ2n2JE",
+      "angle": "Un accessoire peut porter une idée complexe si son statut change. La cage de Hound commence comme une limite visible et devient le contenu d’un portrait. Cette transformation donne au spectateur un lien à construire entre les images, en conservant un motif reconnaissable."
+    },
+    {
+      "project_id": "robert-henke-first-light-2026",
+      "title": "Robert Henke — « FIRST LIGHT » se pilote depuis la salle",
+      "title_fr": "Robert Henke — « FIRST LIGHT » se pilote depuis la salle",
+      "url": "https://www.roberthenke.com/concerts/firstlight.html",
+      "category": "01 Spectacle Concert",
+      "source": "Robert Henke / Barbican",
+      "published": "2026-11-07T00:00:00Z",
+      "radar_added_at": "2026-11-18T15:04:39.062Z",
+      "summary": "Pour cette performance laser créée au Barbican le 7 novembre, Robert Henke installe sa commande parmi le public.",
+      "summary_fr": "Pour cette performance laser créée au Barbican le 7 novembre, Robert Henke installe sa commande parmi le public.",
+      "image": "https://www.roberthenke.com/files_images/performance/firstlight/firstlight-01-1920.jpeg",
+      "image_kind": "project",
+      "image_credit": "Visuel FIRST LIGHT publié par Robert Henke",
+      "image_source_url": "https://www.roberthenke.com/concerts/firstlight.html",
+      "image_alt": "Formes laser rouges documentées sur le site de Robert Henke pour FIRST LIGHT.",
+      "status": "editorial_reviewed",
+      "angle": "La position de commande influence ce que l’on peut percevoir et corriger pendant une œuvre. Dans FIRST LIGHT, déplacer l’artiste dans le public fait coïncider sa perception avec celle des spectateurs."
+    },
+    {
+      "project_id": "hot-chip-me-in-your-head-projection-2026",
+      "title": "Hot Chip — Le visage devient le décor dans « Me In Your Head »",
+      "title_fr": "Hot Chip — Le visage devient le décor dans « Me In Your Head »",
+      "url": "https://www.youtube.com/watch?v=hUadLhO_oNw",
+      "category": "14 Musique Clips",
+      "source": "Hot Chip / Domino",
+      "published": "2026-11-16T00:00:00Z",
+      "radar_added_at": "2026-11-18T15:04:39.062Z",
+      "summary": "Dans le clip de Jazz Goddard, Mel Simpson danse devant des portraits projetés dont l’échelle dépasse largement celle du corps.",
+      "summary_fr": "Dans le clip de Jazz Goddard, Mel Simpson danse devant des portraits projetés dont l’échelle dépasse largement celle du corps.",
+      "image": "https://i.ytimg.com/vi/hUadLhO_oNw/hqdefault.jpg",
+      "image_kind": "project",
+      "image_credit": "Vignette officielle de la vidéo publiée par Hot Chip / Domino",
+      "image_source_url": "https://www.youtube.com/watch?v=hUadLhO_oNw",
+      "image_alt": "Gros plan de visage dans la vignette officielle de Me In Your Head.",
+      "status": "editorial_reviewed",
+      "youtube_id": "hUadLhO_oNw",
+      "angle": "Une projection figurative peut changer la relation d’échelle d’un plateau sans ajouter de volume. Ici, un visage agrandi donne au danseur un partenaire de taille impossible. La texture visible évite que le portrait ne se détache complètement du lieu où le corps bouge."
+    },
     {
       "project_id": "solar-to-my-twenties-formats-2026",
       "title": "Solar — Une mémoire qui change de format",
