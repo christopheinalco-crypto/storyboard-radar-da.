@@ -1809,6 +1809,44 @@
         "pages_deployment": "https://github.com/christopheinalco-crypto/storyboard-radar-da./actions/runs/44331421498",
         "public_render_check": "https://github.com/christopheinalco-crypto/storyboard-radar-da./actions/runs/44331422037"
       }
+    },
+    "2026-11-18-20h": {
+      "id": "2026-11-18-20h",
+      "status": "incomplete",
+      "stage": "candidate_evidence",
+      "checked_at": "2026-11-18T19:05:51.949Z",
+      "collection": {
+        "wave_id": "github-44376493930",
+        "coverage_checked_at": "2026-11-18T19:04:11.728116+00:00",
+        "sources_opened": 159,
+        "rss_collected_at": "2026-11-18T19:04:18.733746+00:00",
+        "rss_parsed": 40,
+        "source_run": "https://github.com/christopheinalco-crypto/storyboard-radar-da./actions/runs/44376493930",
+        "rss_run": "https://github.com/christopheinalco-crypto/storyboard-radar-da./actions/runs/44376499356"
+      },
+      "published_count": 0,
+      "public_render_verified": false,
+      "candidates_examined": [
+        {
+          "project": "Bury Tomorrow — Assimilate",
+          "url": "https://www.metalzone.fr/news/en-bref/241788-bury-tomorrow-assimilate-nouveau-single-brutalite-chaos/",
+          "status": "hold",
+          "reason": "Article ouvert, sortie du 17 novembre et réalisation Zak Pinchin identifiées. Captation, mécanisme DA et image originale à contrôler."
+        },
+        {
+          "project": "Fall Out Boy — Doomsday Generation",
+          "url": "https://rocksound.tv/news/watch-fall-out-boy-release-video-for-doomsday-generation",
+          "status": "hold",
+          "reason": "Article ouvert : costumes spatiaux et boutique Cosmic Scoops. Relation costume/décor à examiner dans la vidéo officielle, crédits et visuel à vérifier."
+        },
+        {
+          "project": "Anna Lapwood — Nidaros",
+          "url": "https://annalapwood.co.uk/news/virtual-concert-stream-from-nidaros-cathedral",
+          "status": "hold",
+          "reason": "Annonce primaire ouverte, film-concert du 14 novembre avec orgue, chœurs, lumière et projection. Preuves visuelles publiques à rechercher, captation complète proposée par billetterie."
+        }
+      ],
+      "notes": "Collectes relancées et réussies. Pistes vérifiées partiellement, aucune fiche publiée ni vague comptabilisée. Reprendre les captations et élargir la prospection."
     }
   }
 }
