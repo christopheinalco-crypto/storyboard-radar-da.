@@ -1684,17 +1684,39 @@
     "2026-11-18-06h": {
       "id": "2026-11-18-06h",
       "status": "incomplete",
-      "stage": "collection_freshness",
-      "checked_at": "2026-11-18T08:13:58.897Z",
+      "stage": "candidate_evidence",
+      "checked_at": "2026-11-18T08:15:50.288Z",
       "collection": {
-        "wave_id": "github-44190524211",
-        "coverage_checked_at": "2026-11-17T22:29:23.823300+00:00",
-        "brief_prepared_at": "2026-11-17T22:29:50.096681+00:00",
-        "rss_collected_at": "2026-11-17T22:38:18.291293+00:00"
+        "wave_id": "github-44265319061",
+        "coverage_checked_at": "2026-11-18T08:14:48.235778+00:00",
+        "brief_prepared_at": "2026-11-18T08:15:19.629633+00:00",
+        "rss_collected_at": "2026-11-18T08:14:49.628943+00:00",
+        "sources_opened": 159,
+        "rss_parsed": 42
       },
       "published_count": 0,
       "public_render_verified": false,
-      "notes": "Contrôle de suivi retardé. Aucun commit éditorial associé au créneau. Rapports périmés, reprise au passage éditorial."
+      "notes": "Collecte rafraîchie. Aucune nouvelle fiche publiée. Reprendre les captations et élargir les candidats si leur intérêt DA reste insuffisant.",
+      "candidates_examined": [
+        {
+          "project": "Julien Baker — Hound",
+          "url": "https://realvj.com/2026/11/17/julien-baker-hound/",
+          "status": "hold",
+          "reason": "Sortie récente et réalisation Joshua Cannon repérées. Article REALVJ inaccessible, article Slant refusé en HTTP 403. Captation complète, visuel et intention à vérifier."
+        },
+        {
+          "project": "Europe — This Time of Year",
+          "url": "https://www.youtube.com/watch?v=T9wQ_AUd_xE",
+          "status": "hold",
+          "reason": "Annonce officielle du 17 novembre ouverte sur johnnorum.se. Réalisation Patric Ullaeus confirmée. Lecture vidéo par web indisponible, visuel et mécanisme DA à vérifier."
+        },
+        {
+          "project": "tripleS — I Want You To Know, New York",
+          "url": "https://www.youtube.com/watch?v=mD16OVDyLQU",
+          "status": "hold",
+          "reason": "Captation officielle publiée le 17 novembre repérée via KNOTE. Lecture vidéo par web indisponible. Dispositif scénique et intérêt DA encore à établir."
+        }
+      ]
     }
   }
 }
