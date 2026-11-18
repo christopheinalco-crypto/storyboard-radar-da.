@@ -1701,12 +1701,14 @@
         {
           "project": "Julien Baker — Hound",
           "url": "https://www.youtube.com/watch?v=rueZuJ2n2JE",
-          "status": "hold",
+          "status": "published_in_later_wave",
           "reason": "Chaîne Julien Baker confirmée par oEmbed. Trois vignettes de plans ouvertes et vues. Grillage et tête silhouettée observés. Joshua Cannon et intention de la chanson recoupés via THE LABEL et REALVJ. Relecture du mouvement et de la place du chien dans le film à poursuivre.",
           "sources": [
             "https://thelabel.co.nz/julien-baker-announces-new-album-with-new-song-hound/",
             "https://realvj.com/2026/11/17/julien-baker-hound/"
-          ]
+          ],
+          "publication_slot": "2026-11-18-16h",
+          "publication_commit": "8296fb64c0bd1b9896bb3d9847e4d464cbafb9c0"
         },
         {
           "project": "Europe — This Time of Year",
@@ -1748,12 +1750,14 @@
         {
           "project": "Julien Baker — Hound",
           "url": "https://www.youtube.com/watch?v=rueZuJ2n2JE",
-          "status": "hold",
+          "status": "published_in_later_wave",
           "reason": "Chaîne Julien Baker confirmée par oEmbed. Trois vignettes de plans ouvertes et vues. Grillage et tête silhouettée observés. Joshua Cannon et intention de la chanson recoupés via THE LABEL et REALVJ. Relecture du mouvement et de la place du chien dans le film à poursuivre.",
           "sources": [
             "https://thelabel.co.nz/julien-baker-announces-new-album-with-new-song-hound/",
             "https://realvj.com/2026/11/17/julien-baker-hound/"
-          ]
+          ],
+          "publication_slot": "2026-11-18-16h",
+          "publication_commit": "8296fb64c0bd1b9896bb3d9847e4d464cbafb9c0"
         },
         {
           "project": "Europe — This Time of Year",
@@ -1775,6 +1779,36 @@
         }
       ],
       "notes": "Pistes du matin reprises et visuels contrôlés. Élargir la sélection pour constituer une vague dont chaque analyse passe le barème. Aucune nouvelle publication."
+    },
+    "2026-11-18-16h": {
+      "id": "2026-11-18-16h",
+      "status": "complete",
+      "stage": "public_verified",
+      "published_count": 3,
+      "public_render_verified": true,
+      "collection": {
+        "wave_id": "github-44331010935",
+        "coverage_checked_at": "2026-11-18T15:02:44.659093+00:00",
+        "sources_opened": 157,
+        "rss_collected_at": "2026-11-18T15:02:46.848578+00:00",
+        "rss_parsed": 41
+      },
+      "publication": {
+        "id": "2026-11-18-16h",
+        "slot": "2026-11-18-16h",
+        "status": "public_verified",
+        "projects": [
+          "julien-baker-hound-cage-2026",
+          "robert-henke-first-light-2026",
+          "hot-chip-me-in-your-head-projection-2026"
+        ],
+        "count": 3,
+        "publication_commit": "8296fb64c0bd1b9896bb3d9847e4d464cbafb9c0",
+        "trigger": "scheduled_editorial",
+        "verified_at": "2026-11-18T15:05:32.642Z",
+        "pages_deployment": "https://github.com/christopheinalco-crypto/storyboard-radar-da./actions/runs/44331421498",
+        "public_render_check": "https://github.com/christopheinalco-crypto/storyboard-radar-da./actions/runs/44331422037"
+      }
     }
   }
 }
