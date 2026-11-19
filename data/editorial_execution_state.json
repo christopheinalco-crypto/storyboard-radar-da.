@@ -1436,7 +1436,34 @@
       "verified_publications": 9,
       "status": "complete",
       "verified_at": "2026-11-16T19:04:31.718Z"
-    }
+    },
+    "regular_waves": [
+      {
+        "id": "2026-11-19-20h",
+        "slot": "2026-11-19-20h",
+        "status": "public_verified",
+        "projects": [
+          "zel-monstrous-stronger-gravite-2026",
+          "kacey-musgraves-middle-nowhere-anneau-2026",
+          "paloma-faith-gone-plateau-coulisses-2026"
+        ],
+        "count": 3,
+        "publication_commit": "9979d56edbf7d73368194973472d0ba1c61164b9",
+        "trigger": "scheduled_editorial",
+        "verified_at": "2026-11-19T19:09:54.747Z",
+        "pages_deployment": "https://github.com/christopheinalco-crypto/storyboard-radar-da./actions/runs/44595240932",
+        "pages_deployed_head": "e386abb68305c2f36fd03f938157192fb337282c",
+        "public_render_check": "https://github.com/christopheinalco-crypto/storyboard-radar-da./actions/runs/44595174948",
+        "artifact_id": 14565886198,
+        "proof_head": "9979d56edbf7d73368194973472d0ba1c61164b9",
+        "verified_new_projects": [
+          "zel-monstrous-stronger-gravite-2026",
+          "kacey-musgraves-middle-nowhere-anneau-2026",
+          "paloma-faith-gone-plateau-coulisses-2026"
+        ],
+        "feed_count": 101
+      }
+    ]
   },
   "scheduled_wave_recovery": {
     "2026-11-16-12h": {
@@ -1952,11 +1979,11 @@
     },
     "2026-11-19-20h": {
       "id": "2026-11-19-20h",
-      "status": "in_progress",
-      "stage": "public_render_pending",
-      "checked_at": "2026-11-19T19:08:40.863Z",
+      "status": "complete",
+      "stage": "public_verified",
+      "checked_at": "2026-11-19T19:11:55.127Z",
       "published_count": 3,
-      "public_render_verified": false,
+      "public_render_verified": true,
       "collection": {
         "wave_id": "github-44594190828",
         "coverage_checked_at": "2026-11-19T19:02:57.776085+00:00",
@@ -1970,7 +1997,7 @@
       "publication": {
         "id": "2026-11-19-20h",
         "slot": "2026-11-19-20h",
-        "status": "public_render_pending",
+        "status": "public_verified",
         "projects": [
           "zel-monstrous-stronger-gravite-2026",
           "kacey-musgraves-middle-nowhere-anneau-2026",
@@ -1978,9 +2005,31 @@
         ],
         "count": 3,
         "publication_commit": "9979d56edbf7d73368194973472d0ba1c61164b9",
-        "trigger": "scheduled_editorial"
+        "trigger": "scheduled_editorial",
+        "verified_at": "2026-11-19T19:09:54.747Z",
+        "pages_deployment": "https://github.com/christopheinalco-crypto/storyboard-radar-da./actions/runs/44595240932",
+        "pages_deployed_head": "e386abb68305c2f36fd03f938157192fb337282c",
+        "public_render_check": "https://github.com/christopheinalco-crypto/storyboard-radar-da./actions/runs/44595174948",
+        "artifact_id": 14565886198,
+        "proof_head": "9979d56edbf7d73368194973472d0ba1c61164b9",
+        "verified_new_projects": [
+          "zel-monstrous-stronger-gravite-2026",
+          "kacey-musgraves-middle-nowhere-anneau-2026",
+          "paloma-faith-gone-plateau-coulisses-2026"
+        ],
+        "feed_count": 101
       },
-      "research_notes": "Pistes héritées Bury Tomorrow et Anna Lapwood maintenues en attente des preuves manquantes. Nouvelle prospection : XG et Strokes rejetés comme déjà publiés ; Zel Monstrous, Kacey Musgraves et Paloma Faith analysés. Planches officielles des clips examinées à deux secondes et plans détaillés, entretien réalisateur, fabrication TAIT et deux photos de scène. Navigateur local indisponible (runtime ownership missing), contrôle public Chromium GitHub en cours."
+      "research_notes": "Pistes héritées Bury Tomorrow et Anna Lapwood maintenues en attente des preuves manquantes. Nouvelle prospection : XG et Strokes rejetés comme déjà publiés ; Zel Monstrous, Kacey Musgraves et Paloma Faith analysés. Planches officielles des clips examinées à deux secondes et plans détaillés, entretien réalisateur, fabrication TAIT et deux photos de scène. Navigateur local indisponible (runtime ownership missing), contrôle public Chromium GitHub en cours.",
+      "public_visual_review": {
+        "reviewed_at": "2026-11-19T19:11:55.128Z",
+        "screenshots": [
+          "fiche-1.png",
+          "fiche-2.png",
+          "fiche-3.png"
+        ],
+        "result": "Trois cartes examinées : photographie ou vignette authentique chargée, décryptage rendu, surlignage visible. La capture intégrale des cartes inclut la barre fixe par-dessus une bande de contenu ; limite des captures à améliorer séparément, sans altérer l’interface pendant cette publication.",
+        "pages_content_matches_publication": true
+      }
     }
   }
 }
