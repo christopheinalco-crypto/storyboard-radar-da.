@@ -1,35 +1,37 @@
 {
-  "wave_id": "github-44408503790",
-  "prepared_at": "2026-11-18T22:08:20.136459+00:00",
-  "coverage_checked_at": "2026-11-18T22:07:48.153901+00:00",
+  "wave_id": "github-44477955734",
+  "prepared_at": "2026-11-19T07:14:09.081343+00:00",
+  "coverage_checked_at": "2026-11-19T07:13:37.053055+00:00",
   "coverage": {
     "attempted": 182,
-    "opened_successfully": 157,
-    "failed": 25,
+    "opened_successfully": 158,
+    "failed": 24,
     "target_met": true
   },
   "project_inspections": {
     "attempted": 160,
-    "opened": 158,
-    "failed": 2
+    "opened": 159,
+    "failed": 1
   },
   "research_only": true,
   "warning": "Mechanical triage, NOT editorial selection. Dates, identity, DA value, image rights and public rendering remain unverified. Editor must also research fresh projects externally.",
   "eligible_for_publication_count": 0,
-  "inbox_size": 29,
+  "inbox_size": 31,
   "dated_candidates": 4,
   "by_category": {
     "14 Musique Clips": 7,
     "01 Spectacle Concert": 12,
     "02 TV Broadcast": 2,
-    "09 France Pro": 8
+    "09 France Pro": 8,
+    "08 Immersif CGI Motion": 1,
+    "06 Retail Brand Experience": 1
   },
   "excluded_counts": {
-    "navigation_or_product": 38,
-    "not_project_like": 58,
+    "navigation_or_product": 40,
+    "not_project_like": 57,
     "metadata_older_than_72h": 15,
-    "not_opened": 2,
-    "non_priority_category": 2
+    "not_opened": 1,
+    "non_priority_category": 1
   },
   "items": [
     {
@@ -78,17 +80,47 @@
       "status": "research_only_not_approved"
     },
     {
-      "title": "Modulo Pi présente sa nouvelle génération innovante de médias serveurs aux JTSE 2026  - Revue AS",
-      "url": "https://www.revue-as.fr/2026/11/18/modulo-pi-presente-sa-nouvelle-generation-innovante-de-medias-serveurs-aux-jtse-2026/",
+      "title": "Entretien avec Noémie Fargier - Revue AS",
+      "url": "https://www.revue-as.fr/2026/11/19/entretien-avec-noemie-fargier/",
       "category": "09 France Pro",
       "source": "Revue AS",
-      "published_date_claim": "2026-11-18T09:47:00+00:00",
-      "age_hours_claim": 12.3,
+      "published_date_claim": "2026-11-19T05:48:00+00:00",
+      "age_hours_claim": 1.4,
       "date_verified": false,
       "project_identity_verified": false,
-      "image_candidate_unverified": "https://www.revue-as.fr/wp-content/uploads/2025/11/logomodulo.png.webp",
-      "description": "Modulo Pi présentera, à l’occasion des JTSE 2026, une nouvelle génération hardware de ses plates-formes Modulo Player et Modulo Kinetic.",
-      "page_excerpt": "Modulo Pi présente sa nouvelle génération innovante de médias serveurs aux JTSE 2026 Temps de lecture : 3 minutes Modulo Pi présente sa nouvelle génération innovante de médias serveurs aux JTSE 2026 présentera, à l’occasion des 2026, une nouvelle génération . Sur l’espace Full Screen Experience, stand 21, plusieurs démonstrations illustreront également les possibilités offertes par les nombreuses innovations apportées aux systèmes en matière de traitement vidéo en temps réel, de gestion des flux Refonte des gammes Modulo Player et Modulo Kinetic Modulo Pi présente une évolution majeure de son offre , marquée par ",
+      "image_candidate_unverified": "https://www.revue-as.fr/wp-content/uploads/2026/09/A15-01-portraitNF.jpg",
+      "description": "Noémie Fargier est chercheuse en études théâtrales, enseignante, autrice de théâtre(1) et praticienne du son et de la scène, à la ...",
+      "page_excerpt": "Entretien avec Noémie Fargier Temps de lecture : 7 minutes Entretien avec Noémie Fargier Dramaturgies sonores contemporaines est chercheuse en études théâtrales, enseignante, autrice de théâtre(1) et praticienne du son et de la scène, à la croisée de pratiques dramaturgiques, plastiques et compositionnelles. Évoluant entre technique, artistique et recherche, elle a publié le livre Contours de l’attention sonore expériences sonores dans le spectacle vivant contemporain (Classiques Garnier, 2024) sur les dramaturgies sonores des années 2010, où elle s’intéresse à la manière dont les artistes façonnent la relation s",
+      "editorial_score": null,
+      "status": "research_only_not_approved"
+    },
+    {
+      "title": "Poetics of Soil: Fly Agaric I",
+      "url": "https://marshmallowlaserfeast.com/project/poetics-of-soil-fly-agaric-i-video-installation/",
+      "category": "08 Immersif CGI Motion",
+      "source": "Marshmallow Laser Feast",
+      "published_date_claim": "",
+      "age_hours_claim": null,
+      "date_verified": false,
+      "project_identity_verified": false,
+      "image_candidate_unverified": "https://marshmallowlaserfeast.com/app/uploads/2024/12/Poetics-of-Soil_-Fly-Agaric-I-Detail_Marshmallow-Laser-Feast.jpg",
+      "description": "Fly Agaric I is a video installation that explores the hidden life of soil, illuminating the hidden kingdoms of life underground in collaboration with Merlin Sheldrake.",
+      "page_excerpt": "Navigate to the Marshmallow Laser Feast homepage Poetics of Soil: Fly Agaric I is part of Marshmallow Laser Feast’s series illuminating the hidden kingdoms of life underground and weaving the words and voice of renowned mycologist and author Merlin Sheldrake into a living tapestry. Here, the Amanita muscaria mushroom pulses and oscillates, unveiling the hidden rhythms of the earth’s soil—a glimpse into the “home of the lives that give us life.” Multichannel Audio and Video Beneath our feet hums another world, expansive and inventive, yet concealed from view. is part of Marshmallow Laser Feast’s Poetics of Soil se",
+      "editorial_score": null,
+      "status": "research_only_not_approved"
+    },
+    {
+      "title": "Broadcast Set Design Agency | Jack Morton Worldwide",
+      "url": "https://jackmorton.com/services/broadcast-design/",
+      "category": "06 Retail Brand Experience",
+      "source": "Jack Morton",
+      "published_date_claim": "",
+      "age_hours_claim": null,
+      "date_verified": false,
+      "project_identity_verified": false,
+      "image_candidate_unverified": "https://jackmorton.com/wp-content/uploads/2020/08/Artboard-1-7-1-1024x576.png",
+      "description": "Jack Morton is a full-service broadcast set design and construction company. We've created some of the world's most recognizable news, sports and talk show sets.",
+      "page_excerpt": "The Specialized Environments practice, bring together space, media, and technology to extend storytelling beyond a single moment. We create adaptive experiences that evolve with content, audiences, and engagement across broadcast, retail, hospitality, corporate, and cultural sectors.​ Behind these masterpieces is a team of Emmy-award-winning experts with 20 years of experience in the broadcast design industry. Today, they design some of the most innovative spaces seen on broadcast television, working in every genre from sports to news to entertainment and corporate studios. Media Building – Studio Design They Cal",
       "editorial_score": null,
       "status": "research_only_not_approved"
     },
@@ -138,17 +170,17 @@
       "status": "research_only_not_approved"
     },
     {
-      "title": "“Les Misérables” : du théâtre aux Zenith en d&b Soundscape  - Revue AS",
-      "url": "https://www.revue-as.fr/2026/11/17/les-miserables-du-theatre-aux-zenith-en-db-soundscape/",
+      "title": "Modulo Pi présente sa nouvelle génération innovante de médias serveurs aux JTSE 2026  - Revue AS",
+      "url": "https://www.revue-as.fr/2026/11/18/modulo-pi-presente-sa-nouvelle-generation-innovante-de-medias-serveurs-aux-jtse-2026/",
       "category": "09 France Pro",
       "source": "Revue AS",
-      "published_date_claim": "2026-11-17T09:42:48+00:00",
-      "age_hours_claim": 36.4,
+      "published_date_claim": "2026-11-18T09:47:00+00:00",
+      "age_hours_claim": 21.4,
       "date_verified": false,
       "project_identity_verified": false,
-      "image_candidate_unverified": "https://www.revue-as.fr/wp-content/uploads/2026/11/dbaudio_pr_Les-Miserables-3-scaled-e1793181565956.jpg",
-      "description": "La célèbre comédie musicale Les Misérables, un succès dans sa version anglaise avec plus de 130 millions de spectateurs depuis plus de 40 ans",
-      "page_excerpt": "“Les Misérables” : du théâtre aux Zenith en d&b Soundscape Temps de lecture : 3 minutes “Les Misérables” : du théâtre aux Zenith en d&b Soundscape La célèbre comédie musicale , un succès dans sa version anglaise avec plus de 130 millions de spectateurs depuis plus de quarante ans, a été adaptée dans une nouvelle mise en scène en français et jouée fin 2024 au Théâtre du à Paris. Du 18 février au 26 avril 2026, elle s’est déployée en dehors de la capitale pour plusieurs dates à l’Amphithéâtre 3000 de Lyon et aux Zenith de Photo © Théâtre du Châtelet Transposer une telle production d’un théâtre à l’italienne à des s",
+      "image_candidate_unverified": "https://www.revue-as.fr/wp-content/uploads/2025/11/logomodulo.png.webp",
+      "description": "Modulo Pi présentera, à l’occasion des JTSE 2026, une nouvelle génération hardware de ses plates-formes Modulo Player et Modulo Kinetic.",
+      "page_excerpt": "Modulo Pi présente sa nouvelle génération innovante de médias serveurs aux JTSE 2026 Temps de lecture : 3 minutes Modulo Pi présente sa nouvelle génération innovante de médias serveurs aux JTSE 2026 présentera, à l’occasion des 2026, une nouvelle génération . Sur l’espace Full Screen Experience, stand 21, plusieurs démonstrations illustreront également les possibilités offertes par les nombreuses innovations apportées aux systèmes en matière de traitement vidéo en temps réel, de gestion des flux Refonte des gammes Modulo Player et Modulo Kinetic Modulo Pi présente une évolution majeure de son offre , marquée par ",
       "editorial_score": null,
       "status": "research_only_not_approved"
     },
@@ -183,17 +215,17 @@
       "status": "research_only_not_approved"
     },
     {
-      "title": "Hommage à Jean-François Jolivet - Revue AS",
-      "url": "https://www.revue-as.fr/2026/11/16/hommage-a-jean-francois-jolivet/",
+      "title": "“Les Misérables” : du théâtre aux Zenith en d&b Soundscape  - Revue AS",
+      "url": "https://www.revue-as.fr/2026/11/17/les-miserables-du-theatre-aux-zenith-en-db-soundscape/",
       "category": "09 France Pro",
       "source": "Revue AS",
-      "published_date_claim": "2026-11-16T14:37:39+00:00",
-      "age_hours_claim": 55.5,
+      "published_date_claim": "2026-11-17T09:42:48+00:00",
+      "age_hours_claim": 45.5,
       "date_verified": false,
       "project_identity_verified": false,
-      "image_candidate_unverified": "https://www.revue-as.fr/wp-content/uploads/2026/11/Sans-titre2-e1794839850968.jpg",
-      "description": "Nous avons appris la disparition en ce 10 novembre de Jean-François Jolivet. Bien au-delà la fourniture de tentures de scène...",
-      "page_excerpt": "Hommage à Jean-François Jolivet Temps de lecture : 2 minutes Hommage à Jean-François Jolivet Nous avons appris la disparition en ce 10 novembre de Jean-François Jolivet. Bien au-delà la fourniture de tentures de scène de qualité au sein de sa société TEVILOJ qu’il a créé et dirigé avec sa femme Monique à Villeurbanne puis à Vienne, Jean-François était un véritable créateur et inventeur au profit des effets scéniques mêlant tissus, plus particulièrement la soie, et machineries, ce qu’il a exercé notamment aux côtés de Félix Lefebvre, Michel Fayet et Christian Jean. Le rideau de scène s’est donc fermé sur un artist",
+      "image_candidate_unverified": "https://www.revue-as.fr/wp-content/uploads/2026/11/dbaudio_pr_Les-Miserables-3-scaled-e1793181565956.jpg",
+      "description": "La célèbre comédie musicale Les Misérables, un succès dans sa version anglaise avec plus de 130 millions de spectateurs depuis plus de 40 ans",
+      "page_excerpt": "“Les Misérables” : du théâtre aux Zenith en d&b Soundscape Temps de lecture : 3 minutes “Les Misérables” : du théâtre aux Zenith en d&b Soundscape La célèbre comédie musicale , un succès dans sa version anglaise avec plus de 130 millions de spectateurs depuis plus de quarante ans, a été adaptée dans une nouvelle mise en scène en français et jouée fin 2024 au Théâtre du à Paris. Du 18 février au 26 avril 2026, elle s’est déployée en dehors de la capitale pour plusieurs dates à l’Amphithéâtre 3000 de Lyon et aux Zenith de Photo © Théâtre du Châtelet Transposer une telle production d’un théâtre à l’italienne à des s",
       "editorial_score": null,
       "status": "research_only_not_approved"
     },
@@ -228,17 +260,17 @@
       "status": "research_only_not_approved"
     },
     {
-      "title": "Mouvements professionnels - Revue AS",
-      "url": "https://www.revue-as.fr/2026/11/16/mouvements-professionnels-80/",
+      "title": "Hommage à Jean-François Jolivet - Revue AS",
+      "url": "https://www.revue-as.fr/2026/11/16/hommage-a-jean-francois-jolivet/",
       "category": "09 France Pro",
       "source": "Revue AS",
-      "published_date_claim": "2026-11-16T09:44:00+00:00",
-      "age_hours_claim": 60.4,
+      "published_date_claim": "2026-11-16T14:37:39+00:00",
+      "age_hours_claim": 64.6,
       "date_verified": false,
       "project_identity_verified": false,
-      "image_candidate_unverified": "https://www.revue-as.fr/wp-content/uploads/2024/11/picto-viepro-as-e1760013309371.jpg",
-      "description": "Le pôle technique du monde du spectacle est toujours à la recherche de nouveaux profils. Si vous êtes à la recherche d’emploi, ...",
-      "page_excerpt": "Temps de lecture : 3 minutes Le pôle technique du monde du spectacle est toujours à la recherche de nouveaux profils. Si vous êtes à la recherche d’emploi, vous trouverez ici une revue non exhaustive, mais fournie, des prochains postes à pourvoir. , à Cluny (71), recrute son.sa prochain.e régisseur.se => prise de poste dès que possible en postulant , à Marmande (47), recrute son.sa prochain.e régisseur.se général.e => prise de poste dès que possible en postulant Le Conservatoire National Supérieur de Musique et de Danse de Paris (75019) recrute son.sa prochain.e régisseur.se général.e adjoint.e spécialité plateau",
+      "image_candidate_unverified": "https://www.revue-as.fr/wp-content/uploads/2026/11/Sans-titre2-e1794839850968.jpg",
+      "description": "Nous avons appris la disparition en ce 10 novembre de Jean-François Jolivet. Bien au-delà la fourniture de tentures de scène...",
+      "page_excerpt": "Hommage à Jean-François Jolivet Temps de lecture : 2 minutes Hommage à Jean-François Jolivet Nous avons appris la disparition en ce 10 novembre de Jean-François Jolivet. Bien au-delà la fourniture de tentures de scène de qualité au sein de sa société TEVILOJ qu’il a créé et dirigé avec sa femme Monique à Villeurbanne puis à Vienne, Jean-François était un véritable créateur et inventeur au profit des effets scéniques mêlant tissus, plus particulièrement la soie, et machineries, ce qu’il a exercé notamment aux côtés de Félix Lefebvre, Michel Fayet et Christian Jean. Le rideau de scène s’est donc fermé sur un artist",
       "editorial_score": null,
       "status": "research_only_not_approved"
     },
@@ -454,7 +486,7 @@
     },
     {
       "title": "ETC - Theatre, Film, Studio and Architectural Lighting",
-      "url": "https://www.etcconnect.com/About/About-ETC/",
+      "url": "https://www.etcconnect.com/About/Buy-American/",
       "category": "01 Spectacle Concert",
       "source": "ETC",
       "published_date_claim": "",
@@ -463,7 +495,7 @@
       "project_identity_verified": false,
       "image_candidate_unverified": "https://www.etcconnect.com/uploadedImages/Main_Site/Images/Products/Consoles/Eos_Revamp_Images/Eos_Apex_SiteTakeover_1920x1280.jpg",
       "description": "Electronic Theatre Controls, Inc. Lighting solutions, control equipment for Theater, Film & TV studios, Architectural spaces and entertainment industries.",
-      "page_excerpt": "Commercial Lighting Systems Europe, Middle East & Africa Falkland Islands (Malvinas) Saint Vincent & the Grenadines All Middle Eastern Countries British Indian Ocean Territory Lao People's Democratic Republic Micronesia, Federated States North Korea, Democratic People's Republic Falkland Islands (Malvinas) Saint Vincent & the Grenadines All Middle Eastern Countries British Indian Ocean Territory Lao People's Democratic Republic Micronesia, Federated States North Korea, Democratic People's Republic Christmas Eve, 1975, an 18-year-old college student pitched the idea of a state-of-the-art lighting console to his co",
+      "page_excerpt": "Commercial Lighting Systems Europe, Middle East & Africa Falkland Islands (Malvinas) Saint Vincent & the Grenadines All Middle Eastern Countries British Indian Ocean Territory Lao People's Democratic Republic Micronesia, Federated States North Korea, Democratic People's Republic Falkland Islands (Malvinas) Saint Vincent & the Grenadines All Middle Eastern Countries British Indian Ocean Territory Lao People's Democratic Republic Micronesia, Federated States North Korea, Democratic People's Republic ETC: Building Products in America ETC manufactures lighting, control, and rigging equipment that is used and renowned",
       "editorial_score": null,
       "status": "research_only_not_approved"
     }
