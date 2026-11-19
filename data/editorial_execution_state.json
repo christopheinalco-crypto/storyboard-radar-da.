@@ -2029,6 +2029,24 @@
         ],
         "result": "Trois cartes examinées : photographie ou vignette authentique chargée, décryptage rendu, surlignage visible. La capture intégrale des cartes inclut la barre fixe par-dessus une bande de contenu ; limite des captures à améliorer séparément, sans altérer l’interface pendant cette publication.",
         "pages_content_matches_publication": true
+      },
+      "follow_up": {
+        "automation": "radar-da-alerte-de-suivi",
+        "checked_at": "2026-11-19T19:34:46.842Z",
+        "repository_identity_verified": true,
+        "collection_fresh": true,
+        "sources_opened": 158,
+        "rss_parsed": 42,
+        "source_run_success": 44594190828,
+        "rss_run_success": 44594195845,
+        "publication_files_atomic": true,
+        "exact_new_projects": 3,
+        "pages_run_success": 44595240932,
+        "pages_editorial_data_matches_commit": true,
+        "chromium_run_success": 44595174948,
+        "artifact_id": 14565886198,
+        "artifact_head_and_project_ids_match": true,
+        "status": "healthy"
       }
     }
   }
