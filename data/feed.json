@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-18T15:04:39.062Z",
+  "updated_at": "2026-11-19T07:16:26.721Z",
   "status": "editorial_reviewed",
   "working_feeds": [
     {
@@ -454,6 +454,65 @@
     "with_images": 82
   },
   "items": [
+    {
+      "project_id": "kojaque-thats-gonna-be-me-xerox-2026",
+      "title": "Kojaque — Le visage devient une surface à reproduire",
+      "title_fr": "Kojaque — Le visage devient une surface à reproduire",
+      "url": "https://www.youtube.com/watch?v=57Da0_FfxsM",
+      "category": "14 Musique Clips",
+      "source": "KOJAQUE / Promonews",
+      "published": "2026-11-18T00:00:00Z",
+      "radar_added_at": "2026-11-19T07:16:26.721Z",
+      "summary": "Dans « That’s Gonna Be Me », Kojaque et Robert Bass passent le corps sous la logique d’une photocopieuse.",
+      "summary_fr": "Dans « That’s Gonna Be Me », Kojaque et Robert Bass passent le corps sous la logique d’une photocopieuse.",
+      "image": "https://i.ytimg.com/vi/57Da0_FfxsM/hqdefault.jpg",
+      "image_kind": "project",
+      "image_credit": "Vignette officielle de la vidéo publiée par KOJAQUE / Promonews",
+      "image_source_url": "https://www.youtube.com/watch?v=57Da0_FfxsM",
+      "image_alt": "Visage de Kojaque pressé contre la vitre sur la vignette officielle.",
+      "status": "editorial_reviewed",
+      "youtube_id": "57Da0_FfxsM",
+      "angle": "Un objet devient un principe de DA quand son action se propage. Ici, presser et reproduire donnent une unité aux corps, à la foule et aux billets."
+    },
+    {
+      "project_id": "we-chose-moon-carnegie-lighting-2026",
+      "title": "« We Chose to Go to the Moon » — Éclairer les visages en laissant vivre la projection",
+      "title_fr": "« We Chose to Go to the Moon » — Éclairer les visages en laissant vivre la projection",
+      "url": "https://www.robe.cz/news/robe-goes-to-the-moon",
+      "category": "01 Spectacle Concert",
+      "source": "Robe / Mike Baldassari",
+      "published": "2026-11-17T00:00:00Z",
+      "radar_added_at": "2026-11-19T07:16:26.721Z",
+      "summary": "À Carnegie Hall, Mike Baldassari organise la lumière autour d’un récit qui réunit orchestre, chanteurs et documents.",
+      "summary_fr": "À Carnegie Hall, Mike Baldassari organise la lumière autour d’un récit qui réunit orchestre, chanteurs et documents.",
+      "image": "https://cdn.aws.robe.cz/v1/image/resize/c1e2243aaa161e239aacb7f16b030d4fae8b6a79?width=1290&height=726&fit=cover&withoutEnlargement=false",
+      "image_kind": "project",
+      "image_credit": "Fadi Kheir / Nina Westervelt, photographie publiée par Robe",
+      "image_source_url": "https://www.robe.cz/news/robe-goes-to-the-moon",
+      "image_alt": "Lune projetée au-dessus de l’orchestre dans la salle de Carnegie Hall.",
+      "status": "editorial_reviewed",
+      "angle": "Dans un dispositif documentaire, l’éclairage doit donner une place à chaque preuve. Ici, la répétabilité des découpes permet au récit de passer entre personnes et documents sans noyer la projection."
+    },
+    {
+      "project_id": "fall-out-boy-doomsday-cosmic-scoops-2026",
+      "title": "Fall Out Boy — « Cosmic Scoops » fait de l’espace un lieu de travail",
+      "title_fr": "Fall Out Boy — « Cosmic Scoops » fait de l’espace un lieu de travail",
+      "url": "https://www.youtube.com/watch?v=KcAiT134_Es",
+      "category": "14 Musique Clips",
+      "source": "Fall Out Boy / Rock Sound",
+      "published": "2026-11-17T00:00:00Z",
+      "radar_added_at": "2026-11-19T07:16:26.721Z",
+      "summary": "Dans « Doomsday Generation », la combinaison spatiale entre dans une boutique de glaces.",
+      "summary_fr": "Dans « Doomsday Generation », la combinaison spatiale entre dans une boutique de glaces.",
+      "image": "https://i.ytimg.com/vi/KcAiT134_Es/hqdefault.jpg",
+      "image_kind": "project",
+      "image_credit": "Vignette officielle de la vidéo publiée par Fall Out Boy / Rock Sound",
+      "image_source_url": "https://www.youtube.com/watch?v=KcAiT134_Es",
+      "image_alt": "Le groupe en combinaisons argentées derrière le comptoir Cosmic Scoops.",
+      "status": "editorial_reviewed",
+      "youtube_id": "KcAiT134_Es",
+      "angle": "Un décor familier peut porter un univers fantastique par quelques signes cohérents. Ici, l’enseigne et les combinaisons rendent le glissement lisible dès la situation de travail."
+    },
     {
       "project_id": "julien-baker-hound-cage-2026",
       "title": "Julien Baker — Dans « Hound », la cage entre dans le visage",

@@ -1,6 +1,6 @@
 {
   "description": "Cumulative seen-project register; retain entries when projects leave the live feed; compare URL and semantic identity.",
-  "updated": "2026-11-18T15:04:39.062Z",
+  "updated": "2026-11-19T07:16:26.721Z",
   "projects": [
     {
       "project_id": "pink-siifu-devils-advocate-gontrand-making-of-2026",
@@ -712,6 +712,36 @@
       "radar_added_at": "2026-11-18T15:04:39.062Z",
       "published_at": "2026-11-18T15:04:39.062Z",
       "wave_id": "2026-11-18-16h",
+      "editorial_score": 16
+    },
+    {
+      "project_id": "kojaque-thats-gonna-be-me-xerox-2026",
+      "title": "Kojaque — Le visage devient une surface à reproduire",
+      "url": "https://www.youtube.com/watch?v=57Da0_FfxsM",
+      "category": "14 Musique Clips",
+      "radar_added_at": "2026-11-19T07:16:26.721Z",
+      "published_at": "2026-11-19T07:16:26.721Z",
+      "wave_id": "2026-11-19-06h",
+      "editorial_score": 16
+    },
+    {
+      "project_id": "we-chose-moon-carnegie-lighting-2026",
+      "title": "« We Chose to Go to the Moon » — Éclairer les visages en laissant vivre la projection",
+      "url": "https://www.robe.cz/news/robe-goes-to-the-moon",
+      "category": "01 Spectacle Concert",
+      "radar_added_at": "2026-11-19T07:16:26.721Z",
+      "published_at": "2026-11-19T07:16:26.721Z",
+      "wave_id": "2026-11-19-06h",
+      "editorial_score": 16
+    },
+    {
+      "project_id": "fall-out-boy-doomsday-cosmic-scoops-2026",
+      "title": "Fall Out Boy — « Cosmic Scoops » fait de l’espace un lieu de travail",
+      "url": "https://www.youtube.com/watch?v=KcAiT134_Es",
+      "category": "14 Musique Clips",
+      "radar_added_at": "2026-11-19T07:16:26.721Z",
+      "published_at": "2026-11-19T07:16:26.721Z",
+      "wave_id": "2026-11-19-06h",
       "editorial_score": 16
     }
   ]
