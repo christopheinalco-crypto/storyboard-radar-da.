@@ -1911,6 +1911,44 @@
         }
       ],
       "notes": "Déclenchement arrivé avant midi. Collectes préparatoires réussies. Créneau de 6 h déjà publié et vérifié, aucun doublon ajouté. Poursuivre la prospection de midi et la lecture des vidéos."
+    },
+    "2026-11-19-16h": {
+      "id": "2026-11-19-16h",
+      "status": "incomplete",
+      "stage": "collection_refresh_required",
+      "checked_at": "2026-11-19T15:36:02.403Z",
+      "published_count": 0,
+      "public_render_verified": false,
+      "collection": {
+        "wave_id": "github-44533983002",
+        "coverage_checked_at": "2026-11-19T13:29:44.898589+00:00",
+        "brief_prepared_at": "2026-11-19T13:30:10.987595+00:00",
+        "sources_opened": 156,
+        "rss_collected_at": "2026-11-19T13:53:13.643292+00:00",
+        "rss_parsed": 42
+      },
+      "follow_up": {
+        "automation": "radar-da-alerte-de-suivi",
+        "checked_at": "2026-11-19T15:36:02.403Z",
+        "repository_verified": {
+          "full_name": "christopheinalco-crypto/storyboard-radar-da.",
+          "id": 1449156184
+        },
+        "source_run": {
+          "id": 44533983002,
+          "status": "success"
+        },
+        "rss_run": {
+          "id": 44537911393,
+          "status": "success"
+        },
+        "freshness": "stale_over_one_hour",
+        "latest_editorial_commit": "4972f824a5e24e8f1256c51ea4450680f3505b7c",
+        "latest_pages_run": 44538043838,
+        "latest_pages_is_new_wave": false,
+        "next_action": "Prochain passage éditorial : rafraîchir couverture, inspections, brief et RSS, puis poursuivre la sélection et les preuves des projets. Ne compter aucune vague sans publication atomique et artefact Chromium correspondant."
+      },
+      "notes": "Contrôle de 16 h 30 : aucune publication éditoriale du créneau. Les déploiements récents portent sur les rapports de collecte. Collectes réussies mais rapports âgés de plus d’une heure. Alerte de suivi uniquement : aucune fiche publiée."
     }
   }
 }
