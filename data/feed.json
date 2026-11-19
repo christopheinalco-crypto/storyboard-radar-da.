@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-19T07:16:26.721Z",
+  "updated_at": "2026-11-19T19:08:02.329Z",
   "status": "editorial_reviewed",
   "working_feeds": [
     {
@@ -454,6 +454,65 @@
     "with_images": 82
   },
   "items": [
+    {
+      "project_id": "zel-monstrous-stronger-gravite-2026",
+      "title": "Zel Monstrous — La guérison reste en suspens",
+      "title_fr": "Zel Monstrous — La guérison reste en suspens",
+      "url": "https://www.youtube.com/watch?v=uM66rJt887k",
+      "category": "14 Musique Clips",
+      "source": "ZEL MONSTROUS / Docked Films",
+      "published": "2026-11-13T00:00:00Z",
+      "radar_added_at": "2026-11-19T19:08:02.329Z",
+      "summary": "Dans « Stronger », Santiago Gómez D.V fait flotter un corps dans une cabane. La géométrie très concrète du lieu donne son poids à cette image de reconstruction.",
+      "summary_fr": "Dans « Stronger », Santiago Gómez D.V fait flotter un corps dans une cabane. La géométrie très concrète du lieu donne son poids à cette image de reconstruction.",
+      "image": "https://i.ytimg.com/vi/uM66rJt887k/hqdefault.jpg",
+      "image_kind": "project",
+      "image_credit": "Vignette officielle : ZEL MONSTROUS / Docked Films, réalisation Santiago Gómez D.V.",
+      "image_source_url": "https://www.youtube.com/watch?v=uM66rJt887k",
+      "image_alt": "Zel Monstrous et une figure sous un voile bleu dans la forêt, vignette du clip Stronger.",
+      "status": "editorial_reviewed",
+      "youtube_id": "uM66rJt887k",
+      "angle": "Une métaphore impossible gagne en force quand son environnement conserve des règles simples. Ici, bois, fenêtre et mobilier permettent de mesurer le dérèglement du corps. Le choix décisif tient à ce contraste, davantage qu’à la complexité du trucage."
+    },
+    {
+      "project_id": "kacey-musgraves-middle-nowhere-anneau-2026",
+      "title": "Kacey Musgraves — Un anneau pour partager la scène",
+      "title_fr": "Kacey Musgraves — Un anneau pour partager la scène",
+      "url": "https://plsn.com/featured/andre-petrus-sets-mood-for-kacey-musgraves-middle-of-nowhere-tour-with-help-from-chauvet-professional/",
+      "category": "01 Spectacle Concert",
+      "source": "PLSN / TAIT",
+      "published": "2026-11-16T00:00:00Z",
+      "radar_added_at": "2026-11-19T19:08:02.329Z",
+      "summary": "Sur Middle of Nowhere, le cercle de lumière et l’écran suspendu donnent deux échelles à la présence de Kacey Musgraves : un corps au milieu du public, un visage lisible depuis les gradins.",
+      "summary_fr": "Sur Middle of Nowhere, le cercle de lumière et l’écran suspendu donnent deux échelles à la présence de Kacey Musgraves : un corps au milieu du public, un visage lisible depuis les gradins.",
+      "image": "https://plsn.com/site/wp-content/uploads/Chauvet-Kacey-Musgraves_1.jpg",
+      "image_kind": "project",
+      "image_credit": "Photo : André Petrus, fournie par CHAUVET Professional et publiée par PLSN.",
+      "image_source_url": "https://plsn.com/featured/andre-petrus-sets-mood-for-kacey-musgraves-middle-of-nowhere-tour-with-help-from-chauvet-professional/",
+      "image_alt": "Kacey Musgraves et ses musiciens sous un écran circulaire, dans un état lumineux rose et orange.",
+      "status": "editorial_reviewed",
+      "angle": "Dans une salle entourant le plateau, agrandir un visage ne résout pas à lui seul la relation au spectacle. Ici, un contour commun relie l’écran, les faisceaux et la scène. Cette continuité aide le spectateur éloigné à rattacher le gros plan à la présence réelle."
+    },
+    {
+      "project_id": "paloma-faith-gone-plateau-coulisses-2026",
+      "title": "Paloma Faith — Le glamour rencontre son envers",
+      "title_fr": "Paloma Faith — Le glamour rencontre son envers",
+      "url": "https://www.youtube.com/watch?v=jdPP8z9Fja4",
+      "category": "14 Musique Clips",
+      "source": "Paloma Faith / RCA Records / Casino",
+      "published": "2026-11-13T00:00:00Z",
+      "radar_added_at": "2026-11-19T19:08:02.329Z",
+      "summary": "Pour « Gone », Theo Adams installe un show télévisé rétro puis laisse les coulisses traverser cette image de vedette. La même robe rouge relie deux façons d’exister devant la caméra.",
+      "summary_fr": "Pour « Gone », Theo Adams installe un show télévisé rétro puis laisse les coulisses traverser cette image de vedette. La même robe rouge relie deux façons d’exister devant la caméra.",
+      "image": "https://i.ytimg.com/vi/jdPP8z9Fja4/hqdefault.jpg",
+      "image_kind": "project",
+      "image_credit": "Vignette officielle : Paloma Faith / RCA Records, réalisation Theo Adams, production Casino.",
+      "image_source_url": "https://www.youtube.com/watch?v=jdPP8z9Fja4",
+      "image_alt": "Paloma Faith au micro, coiffure blonde et robe rouge, dans le clip Gone.",
+      "status": "editorial_reviewed",
+      "youtube_id": "jdPP8z9Fja4",
+      "angle": "Montrer l’envers d’un décor fonctionne mieux si un signe du personnage survit au passage. La robe rouge maintient ici l’unité, tandis que le cadre et l’encombrement changent le statut de la star. La rupture se joue dans sa place parmi les autres."
+    },
     {
       "project_id": "kojaque-thats-gonna-be-me-xerox-2026",
       "title": "Kojaque — Le visage devient une surface à reproduire",

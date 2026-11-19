@@ -1,6 +1,6 @@
 {
   "description": "Cumulative seen-project register; retain entries when projects leave the live feed; compare URL and semantic identity.",
-  "updated": "2026-11-19T07:16:26.721Z",
+  "updated": "2026-11-19T19:08:02.329Z",
   "projects": [
     {
       "project_id": "pink-siifu-devils-advocate-gontrand-making-of-2026",
@@ -743,6 +743,36 @@
       "published_at": "2026-11-19T07:16:26.721Z",
       "wave_id": "2026-11-19-06h",
       "editorial_score": 16
+    },
+    {
+      "project_id": "zel-monstrous-stronger-gravite-2026",
+      "title": "Zel Monstrous — La guérison reste en suspens",
+      "url": "https://www.youtube.com/watch?v=uM66rJt887k",
+      "category": "14 Musique Clips",
+      "radar_added_at": "2026-11-19T19:08:02.329Z",
+      "published_at": "2026-11-19T19:08:02.329Z",
+      "wave_id": "2026-11-19-20h",
+      "editorial_score": 17
+    },
+    {
+      "project_id": "kacey-musgraves-middle-nowhere-anneau-2026",
+      "title": "Kacey Musgraves — Un anneau pour partager la scène",
+      "url": "https://plsn.com/featured/andre-petrus-sets-mood-for-kacey-musgraves-middle-of-nowhere-tour-with-help-from-chauvet-professional/",
+      "category": "01 Spectacle Concert",
+      "radar_added_at": "2026-11-19T19:08:02.329Z",
+      "published_at": "2026-11-19T19:08:02.329Z",
+      "wave_id": "2026-11-19-20h",
+      "editorial_score": 17
+    },
+    {
+      "project_id": "paloma-faith-gone-plateau-coulisses-2026",
+      "title": "Paloma Faith — Le glamour rencontre son envers",
+      "url": "https://www.youtube.com/watch?v=jdPP8z9Fja4",
+      "category": "14 Musique Clips",
+      "radar_added_at": "2026-11-19T19:08:02.329Z",
+      "published_at": "2026-11-19T19:08:02.329Z",
+      "wave_id": "2026-11-19-20h",
+      "editorial_score": 17
     }
   ]
 }
