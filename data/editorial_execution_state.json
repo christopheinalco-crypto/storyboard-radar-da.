@@ -2311,6 +2311,23 @@
           "fiche-3.png"
         ],
         "result": "Trois images officielles chargées, décryptages et surlignages rendus. Limite connue des captures intégrales : bande de barre fixe superposée au contenu ; aucune modification d’interface dans cette vague."
+      },
+      "follow_up": {
+        "automation": "radar-da-alerte-de-suivi",
+        "checked_at": "2026-11-20T15:29:07.891Z",
+        "repository_identity_verified": true,
+        "collection_fresh": true,
+        "sources_opened": 156,
+        "rss_parsed": 41,
+        "source_run_success": 44759489922,
+        "rss_run_success": 44759495074,
+        "publication_files_atomic": true,
+        "exact_new_projects": 3,
+        "pages_run_success": 44760219584,
+        "chromium_run_success": 44760220279,
+        "artifact_id": 14641108580,
+        "artifact_head_and_project_ids_match": true,
+        "status": "healthy"
       }
     }
   }
