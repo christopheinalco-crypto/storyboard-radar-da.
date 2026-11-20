@@ -1,17 +1,17 @@
 {
-  "wave_id": "github-44695049737",
-  "prepared_at": "2026-11-20T07:27:38.178431+00:00",
-  "coverage_checked_at": "2026-11-20T07:27:10.456832+00:00",
+  "wave_id": "github-44723519210",
+  "prepared_at": "2026-11-20T10:57:50.549607+00:00",
+  "coverage_checked_at": "2026-11-20T10:57:19.328572+00:00",
   "coverage": {
     "attempted": 182,
-    "opened_successfully": 159,
-    "failed": 23,
+    "opened_successfully": 158,
+    "failed": 24,
     "target_met": true
   },
   "project_inspections": {
     "attempted": 160,
-    "opened": 158,
-    "failed": 2
+    "opened": 159,
+    "failed": 1
   },
   "research_only": true,
   "warning": "Mechanical triage, NOT editorial selection. Dates, identity, DA value, image rights and public rendering remain unverified. Editor must also research fresh projects externally.",
@@ -26,10 +26,10 @@
     "06 Retail Brand Experience": 1
   },
   "excluded_counts": {
-    "navigation_or_product": 44,
-    "not_project_like": 52,
-    "metadata_older_than_72h": 14,
-    "not_opened": 2,
+    "navigation_or_product": 45,
+    "not_project_like": 51,
+    "metadata_older_than_72h": 15,
+    "not_opened": 1,
     "non_priority_category": 1
   },
   "items": [
@@ -39,7 +39,7 @@
       "category": "14 Musique Clips",
       "source": "Directors Notes",
       "published_date_claim": "2026-11-19T19:24:50+00:00",
-      "age_hours_claim": 12.0,
+      "age_hours_claim": 15.5,
       "date_verified": false,
       "project_identity_verified": false,
       "image_candidate_unverified": "https://directorsnotes.com/wp-content/uploads/2026/11/allies_in_exile_01.jpg",
@@ -79,17 +79,17 @@
       "status": "research_only_not_approved"
     },
     {
-      "title": "Entretien avec Noémie Fargier - Revue AS",
-      "url": "https://www.revue-as.fr/2026/11/19/entretien-avec-noemie-fargier/",
+      "title": "Au CID Grand-Hornu, faire de la scénographie d’exposition une pratique de l’adaptation - Revue AS",
+      "url": "https://www.revue-as.fr/2026/11/20/au-cid-grand-hornu-faire-de-la-scenographie-dexposition-une-pratique-de-ladaptation/",
       "category": "09 France Pro",
       "source": "Revue AS",
-      "published_date_claim": "2026-11-19T05:48:00+00:00",
-      "age_hours_claim": 25.7,
+      "published_date_claim": "2026-11-20T09:50:00+00:00",
+      "age_hours_claim": 1.1,
       "date_verified": false,
       "project_identity_verified": false,
-      "image_candidate_unverified": "https://www.revue-as.fr/wp-content/uploads/2026/09/A15-01-portraitNF.jpg",
-      "description": "Noémie Fargier est chercheuse en études théâtrales, enseignante, autrice de théâtre(1) et praticienne du son et de la scène, à la ...",
-      "page_excerpt": "Entretien avec Noémie Fargier Temps de lecture : 7 minutes Entretien avec Noémie Fargier Dramaturgies sonores contemporaines est chercheuse en études théâtrales, enseignante, autrice de théâtre(1) et praticienne du son et de la scène, à la croisée de pratiques dramaturgiques, plastiques et compositionnelles. Évoluant entre technique, artistique et recherche, elle a publié le livre Contours de l’attention sonore expériences sonores dans le spectacle vivant contemporain (Classiques Garnier, 2024) sur les dramaturgies sonores des années 2010, où elle s’intéresse à la manière dont les artistes façonnent la relation s",
+      "image_candidate_unverified": "https://www.revue-as.fr/wp-content/uploads/2026/11/DSCF8584-copie-e1795162197276.jpg",
+      "description": "À contre-courant d’une idée de grands bâtisseurs, le design est là. Il l’est davantage encore lorsque les designers d’aujourd’hui...",
+      "page_excerpt": "Au CID Grand-Hornu, faire de la scénographie d’exposition une pratique de l’adaptation Temps de lecture : 3 minutes Au CID Grand-Hornu, faire de la scénographie d’exposition une pratique de l’adaptation À contre-courant d’une posture de grands bâtisseurs, le . Il l’est davantage encore lorsque les d’aujourd’hui poursuivent cette quête inépuisable, interrogeant ici et là les disciplines. L’une de ses questions, à l’endroit de la scénographie : construire une scénographie nécessite-t-il nécessairement la transformation de la matière ? Les , commissaires d’exposition et scénographes, Baptiste Meyniel et Aléas. Prati",
       "editorial_score": null,
       "status": "research_only_not_approved"
     },
@@ -154,17 +154,17 @@
       "status": "research_only_not_approved"
     },
     {
-      "title": "Modulo Pi présente sa nouvelle génération innovante de médias serveurs aux JTSE 2026  - Revue AS",
-      "url": "https://www.revue-as.fr/2026/11/18/modulo-pi-presente-sa-nouvelle-generation-innovante-de-medias-serveurs-aux-jtse-2026/",
+      "title": "Entretien avec Noémie Fargier - Revue AS",
+      "url": "https://www.revue-as.fr/2026/11/19/entretien-avec-noemie-fargier/",
       "category": "09 France Pro",
       "source": "Revue AS",
-      "published_date_claim": "2026-11-18T09:47:00+00:00",
-      "age_hours_claim": 45.7,
+      "published_date_claim": "2026-11-19T05:48:00+00:00",
+      "age_hours_claim": 29.2,
       "date_verified": false,
       "project_identity_verified": false,
-      "image_candidate_unverified": "https://www.revue-as.fr/wp-content/uploads/2025/11/logomodulo.png.webp",
-      "description": "Modulo Pi présentera, à l’occasion des JTSE 2026, une nouvelle génération hardware de ses plates-formes Modulo Player et Modulo Kinetic.",
-      "page_excerpt": "Modulo Pi présente sa nouvelle génération innovante de médias serveurs aux JTSE 2026 Temps de lecture : 3 minutes Modulo Pi présente sa nouvelle génération innovante de médias serveurs aux JTSE 2026 présentera, à l’occasion des 2026, une nouvelle génération . Sur l’espace Full Screen Experience, stand 21, plusieurs démonstrations illustreront également les possibilités offertes par les nombreuses innovations apportées aux systèmes en matière de traitement vidéo en temps réel, de gestion des flux Refonte des gammes Modulo Player et Modulo Kinetic Modulo Pi présente une évolution majeure de son offre , marquée par ",
+      "image_candidate_unverified": "https://www.revue-as.fr/wp-content/uploads/2026/09/A15-01-portraitNF.jpg",
+      "description": "Noémie Fargier est chercheuse en études théâtrales, enseignante, autrice de théâtre(1) et praticienne du son et de la scène, à la ...",
+      "page_excerpt": "Entretien avec Noémie Fargier Temps de lecture : 7 minutes Entretien avec Noémie Fargier Dramaturgies sonores contemporaines est chercheuse en études théâtrales, enseignante, autrice de théâtre(1) et praticienne du son et de la scène, à la croisée de pratiques dramaturgiques, plastiques et compositionnelles. Évoluant entre technique, artistique et recherche, elle a publié le livre Contours de l’attention sonore expériences sonores dans le spectacle vivant contemporain (Classiques Garnier, 2024) sur les dramaturgies sonores des années 2010, où elle s’intéresse à la manière dont les artistes façonnent la relation s",
       "editorial_score": null,
       "status": "research_only_not_approved"
     },
@@ -199,17 +199,17 @@
       "status": "research_only_not_approved"
     },
     {
-      "title": "“Les Misérables” : du théâtre aux Zenith en d&b Soundscape  - Revue AS",
-      "url": "https://www.revue-as.fr/2026/11/17/les-miserables-du-theatre-aux-zenith-en-db-soundscape/",
+      "title": "Modulo Pi présente sa nouvelle génération innovante de médias serveurs aux JTSE 2026  - Revue AS",
+      "url": "https://www.revue-as.fr/2026/11/18/modulo-pi-presente-sa-nouvelle-generation-innovante-de-medias-serveurs-aux-jtse-2026/",
       "category": "09 France Pro",
       "source": "Revue AS",
-      "published_date_claim": "2026-11-17T09:42:48+00:00",
-      "age_hours_claim": 69.7,
+      "published_date_claim": "2026-11-18T09:47:00+00:00",
+      "age_hours_claim": 49.2,
       "date_verified": false,
       "project_identity_verified": false,
-      "image_candidate_unverified": "https://www.revue-as.fr/wp-content/uploads/2026/11/dbaudio_pr_Les-Miserables-3-scaled-e1793181565956.jpg",
-      "description": "La célèbre comédie musicale Les Misérables, un succès dans sa version anglaise avec plus de 130 millions de spectateurs depuis plus de 40 ans",
-      "page_excerpt": "“Les Misérables” : du théâtre aux Zenith en d&b Soundscape Temps de lecture : 3 minutes “Les Misérables” : du théâtre aux Zenith en d&b Soundscape La célèbre comédie musicale , un succès dans sa version anglaise avec plus de 130 millions de spectateurs depuis plus de quarante ans, a été adaptée dans une nouvelle mise en scène en français et jouée fin 2024 au Théâtre du à Paris. Du 18 février au 26 avril 2026, elle s’est déployée en dehors de la capitale pour plusieurs dates à l’Amphithéâtre 3000 de Lyon et aux Zenith de Photo © Théâtre du Châtelet Transposer une telle production d’un théâtre à l’italienne à des s",
+      "image_candidate_unverified": "https://www.revue-as.fr/wp-content/uploads/2025/11/logomodulo.png.webp",
+      "description": "Modulo Pi présentera, à l’occasion des JTSE 2026, une nouvelle génération hardware de ses plates-formes Modulo Player et Modulo Kinetic.",
+      "page_excerpt": "Modulo Pi présente sa nouvelle génération innovante de médias serveurs aux JTSE 2026 Temps de lecture : 3 minutes Modulo Pi présente sa nouvelle génération innovante de médias serveurs aux JTSE 2026 présentera, à l’occasion des 2026, une nouvelle génération . Sur l’espace Full Screen Experience, stand 21, plusieurs démonstrations illustreront également les possibilités offertes par les nombreuses innovations apportées aux systèmes en matière de traitement vidéo en temps réel, de gestion des flux Refonte des gammes Modulo Player et Modulo Kinetic Modulo Pi présente une évolution majeure de son offre , marquée par ",
       "editorial_score": null,
       "status": "research_only_not_approved"
     },
