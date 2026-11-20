@@ -1534,6 +1534,30 @@
           "alan-walker-raul-yume-embleme-2026"
         ],
         "feed_count": 110
+      },
+      {
+        "id": "2026-11-20-20h",
+        "slot": "2026-11-20-20h",
+        "status": "public_verified",
+        "projects": [
+          "chvrches-evil-portrait-support-2026",
+          "cirque-echo-projection-cube-fabrication-2026",
+          "does-donwori-habitacle-distance-2026"
+        ],
+        "count": 3,
+        "publication_commit": "f8aebbc817a36874156cfa815c337b4be1255d10",
+        "trigger": "scheduled_editorial",
+        "verified_at": "2026-11-20T19:10:55.690Z",
+        "pages_deployment": "https://github.com/christopheinalco-crypto/storyboard-radar-da./actions/runs/44799583183",
+        "public_render_check": "https://github.com/christopheinalco-crypto/storyboard-radar-da./actions/runs/44799583667",
+        "artifact_id": 14661245695,
+        "proof_head": "f8aebbc817a36874156cfa815c337b4be1255d10",
+        "verified_new_projects": [
+          "chvrches-evil-portrait-support-2026",
+          "cirque-echo-projection-cube-fabrication-2026",
+          "does-donwori-habitacle-distance-2026"
+        ],
+        "feed_count": 113
       }
     ]
   },
@@ -2328,6 +2352,58 @@
         "artifact_id": 14641108580,
         "artifact_head_and_project_ids_match": true,
         "status": "healthy"
+      }
+    },
+    "2026-11-20-20h": {
+      "id": "2026-11-20-20h",
+      "status": "complete",
+      "stage": "public_verified",
+      "checked_at": "2026-11-20T19:12:07.703Z",
+      "published_count": 3,
+      "public_render_verified": true,
+      "collection": {
+        "wave_id": "github-44798542515",
+        "coverage_checked_at": "2026-11-20T19:03:39.856328+00:00",
+        "brief_prepared_at": "2026-11-20T19:04:26.850699+00:00",
+        "sources_opened": 157,
+        "rss_collected_at": "2026-11-20T19:03:32.096779+00:00",
+        "rss_parsed": 42,
+        "source_run": "https://github.com/christopheinalco-crypto/storyboard-radar-da./actions/runs/44798542515",
+        "rss_run": "https://github.com/christopheinalco-crypto/storyboard-radar-da./actions/runs/44798548470"
+      },
+      "publication": {
+        "id": "2026-11-20-20h",
+        "slot": "2026-11-20-20h",
+        "status": "public_verified",
+        "projects": [
+          "chvrches-evil-portrait-support-2026",
+          "cirque-echo-projection-cube-fabrication-2026",
+          "does-donwori-habitacle-distance-2026"
+        ],
+        "count": 3,
+        "publication_commit": "f8aebbc817a36874156cfa815c337b4be1255d10",
+        "trigger": "scheduled_editorial",
+        "verified_at": "2026-11-20T19:10:55.690Z",
+        "pages_deployment": "https://github.com/christopheinalco-crypto/storyboard-radar-da./actions/runs/44799583183",
+        "public_render_check": "https://github.com/christopheinalco-crypto/storyboard-radar-da./actions/runs/44799583667",
+        "artifact_id": 14661245695,
+        "proof_head": "f8aebbc817a36874156cfa815c337b4be1255d10",
+        "verified_new_projects": [
+          "chvrches-evil-portrait-support-2026",
+          "cirque-echo-projection-cube-fabrication-2026",
+          "does-donwori-habitacle-distance-2026"
+        ],
+        "feed_count": 113
+      },
+      "notes": "Collectes actualisées réussies. CHVRCHES du 18 novembre et DOES du 20, dans les 72 h ; film de fabrication ECHO du 29 octobre dans les 30 jours, actualité du reportage distinguée de la création du spectacle. Affiche officielle ECHO choisie pour éviter une mire technique en carte. Queens of the Stone Age examinés mais non retenus : vignette trop dénudée, autre image et angle à approfondir. Taylor Hanson : entretien consulté, vidéo source non récupérée ; garder en prospection. Anna Lapwood demeure en attente du recoupement propre à Nidaros. Contrôle public réussi, manifeste exact relu et trois captures examinées.",
+      "public_visual_review": {
+        "reviewed_at": "2026-11-20T19:12:07.704Z",
+        "screenshots": [
+          "fiche-1.png",
+          "fiche-2.png",
+          "fiche-3.png"
+        ],
+        "result": "Trois visuels officiels chargés : portrait CHVRCHES, affiche ECHO et habitacle DOES. Décryptages et surlignages rendus. Limite connue des captures intégrales : bande de barre fixe superposée au contenu ; interface non modifiée."
       }
     }
   }
