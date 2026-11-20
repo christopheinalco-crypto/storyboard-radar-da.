@@ -1,11 +1,11 @@
 {
-  "wave_id": "github-44627056429",
-  "prepared_at": "2026-11-19T22:17:13.859454+00:00",
-  "coverage_checked_at": "2026-11-19T22:16:42.776067+00:00",
+  "wave_id": "github-44695049737",
+  "prepared_at": "2026-11-20T07:27:38.178431+00:00",
+  "coverage_checked_at": "2026-11-20T07:27:10.456832+00:00",
   "coverage": {
     "attempted": 182,
-    "opened_successfully": 157,
-    "failed": 25,
+    "opened_successfully": 159,
+    "failed": 23,
     "target_met": true
   },
   "project_inspections": {
@@ -16,18 +16,19 @@
   "research_only": true,
   "warning": "Mechanical triage, NOT editorial selection. Dates, identity, DA value, image rights and public rendering remain unverified. Editor must also research fresh projects externally.",
   "eligible_for_publication_count": 0,
-  "inbox_size": 32,
+  "inbox_size": 33,
   "dated_candidates": 4,
   "by_category": {
     "14 Musique Clips": 10,
     "01 Spectacle Concert": 12,
     "02 TV Broadcast": 2,
-    "09 France Pro": 8
+    "09 France Pro": 8,
+    "06 Retail Brand Experience": 1
   },
   "excluded_counts": {
-    "navigation_or_product": 41,
-    "not_project_like": 50,
-    "metadata_older_than_72h": 19,
+    "navigation_or_product": 44,
+    "not_project_like": 52,
+    "metadata_older_than_72h": 14,
     "not_opened": 2,
     "non_priority_category": 1
   },
@@ -38,7 +39,7 @@
       "category": "14 Musique Clips",
       "source": "Directors Notes",
       "published_date_claim": "2026-11-19T19:24:50+00:00",
-      "age_hours_claim": 2.9,
+      "age_hours_claim": 12.0,
       "date_verified": false,
       "project_identity_verified": false,
       "image_candidate_unverified": "https://directorsnotes.com/wp-content/uploads/2026/11/allies_in_exile_01.jpg",
@@ -83,12 +84,27 @@
       "category": "09 France Pro",
       "source": "Revue AS",
       "published_date_claim": "2026-11-19T05:48:00+00:00",
-      "age_hours_claim": 16.5,
+      "age_hours_claim": 25.7,
       "date_verified": false,
       "project_identity_verified": false,
       "image_candidate_unverified": "https://www.revue-as.fr/wp-content/uploads/2026/09/A15-01-portraitNF.jpg",
       "description": "Noémie Fargier est chercheuse en études théâtrales, enseignante, autrice de théâtre(1) et praticienne du son et de la scène, à la ...",
       "page_excerpt": "Entretien avec Noémie Fargier Temps de lecture : 7 minutes Entretien avec Noémie Fargier Dramaturgies sonores contemporaines est chercheuse en études théâtrales, enseignante, autrice de théâtre(1) et praticienne du son et de la scène, à la croisée de pratiques dramaturgiques, plastiques et compositionnelles. Évoluant entre technique, artistique et recherche, elle a publié le livre Contours de l’attention sonore expériences sonores dans le spectacle vivant contemporain (Classiques Garnier, 2024) sur les dramaturgies sonores des années 2010, où elle s’intéresse à la manière dont les artistes façonnent la relation s",
+      "editorial_score": null,
+      "status": "research_only_not_approved"
+    },
+    {
+      "title": "Broadcast Set Design Agency | Jack Morton Worldwide",
+      "url": "https://jackmorton.com/services/broadcast-design/",
+      "category": "06 Retail Brand Experience",
+      "source": "Jack Morton",
+      "published_date_claim": "",
+      "age_hours_claim": null,
+      "date_verified": false,
+      "project_identity_verified": false,
+      "image_candidate_unverified": "https://jackmorton.com/wp-content/uploads/2020/08/Artboard-1-7-1-1024x576.png",
+      "description": "Jack Morton is a full-service broadcast set design and construction company. We've created some of the world's most recognizable news, sports and talk show sets.",
+      "page_excerpt": "The Specialized Environments practice, bring together space, media, and technology to extend storytelling beyond a single moment. We create adaptive experiences that evolve with content, audiences, and engagement across broadcast, retail, hospitality, corporate, and cultural sectors.​ Behind these masterpieces is a team of Emmy-award-winning experts with 20 years of experience in the broadcast design industry. Today, they design some of the most innovative spaces seen on broadcast television, working in every genre from sports to news to entertainment and corporate studios. Media Building – Studio Design They Cal",
       "editorial_score": null,
       "status": "research_only_not_approved"
     },
@@ -143,7 +159,7 @@
       "category": "09 France Pro",
       "source": "Revue AS",
       "published_date_claim": "2026-11-18T09:47:00+00:00",
-      "age_hours_claim": 36.5,
+      "age_hours_claim": 45.7,
       "date_verified": false,
       "project_identity_verified": false,
       "image_candidate_unverified": "https://www.revue-as.fr/wp-content/uploads/2025/11/logomodulo.png.webp",
@@ -188,7 +204,7 @@
       "category": "09 France Pro",
       "source": "Revue AS",
       "published_date_claim": "2026-11-17T09:42:48+00:00",
-      "age_hours_claim": 60.6,
+      "age_hours_claim": 69.7,
       "date_verified": false,
       "project_identity_verified": false,
       "image_candidate_unverified": "https://www.revue-as.fr/wp-content/uploads/2026/11/dbaudio_pr_Les-Miserables-3-scaled-e1793181565956.jpg",
@@ -499,7 +515,7 @@
     },
     {
       "title": "ETC - Theatre, Film, Studio and Architectural Lighting",
-      "url": "https://www.etcconnect.com/About/About-ETC/",
+      "url": "https://www.etcconnect.com/About/Buy-American/",
       "category": "01 Spectacle Concert",
       "source": "ETC",
       "published_date_claim": "",
@@ -508,7 +524,7 @@
       "project_identity_verified": false,
       "image_candidate_unverified": "https://www.etcconnect.com/uploadedImages/Main_Site/Images/Products/Consoles/Eos_Revamp_Images/Eos_Apex_SiteTakeover_1920x1280.jpg",
       "description": "Electronic Theatre Controls, Inc. Lighting solutions, control equipment for Theater, Film & TV studios, Architectural spaces and entertainment industries.",
-      "page_excerpt": "Commercial Lighting Systems Europe, Middle East & Africa Falkland Islands (Malvinas) Saint Vincent & the Grenadines All Middle Eastern Countries British Indian Ocean Territory Lao People's Democratic Republic Micronesia, Federated States North Korea, Democratic People's Republic Falkland Islands (Malvinas) Saint Vincent & the Grenadines All Middle Eastern Countries British Indian Ocean Territory Lao People's Democratic Republic Micronesia, Federated States North Korea, Democratic People's Republic Christmas Eve, 1975, an 18-year-old college student pitched the idea of a state-of-the-art lighting console to his co",
+      "page_excerpt": "Commercial Lighting Systems Europe, Middle East & Africa Falkland Islands (Malvinas) Saint Vincent & the Grenadines All Middle Eastern Countries British Indian Ocean Territory Lao People's Democratic Republic Micronesia, Federated States North Korea, Democratic People's Republic Falkland Islands (Malvinas) Saint Vincent & the Grenadines All Middle Eastern Countries British Indian Ocean Territory Lao People's Democratic Republic Micronesia, Federated States North Korea, Democratic People's Republic ETC: Building Products in America ETC manufactures lighting, control, and rigging equipment that is used and renowned",
       "editorial_score": null,
       "status": "research_only_not_approved"
     }
