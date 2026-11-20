@@ -2048,6 +2048,38 @@
         "artifact_head_and_project_ids_match": true,
         "status": "healthy"
       }
+    },
+    "2026-11-20-06h": {
+      "id": "2026-11-20-06h",
+      "status": "incomplete",
+      "stage": "collection_refresh_required",
+      "checked_at": "2026-11-20T07:26:28.409Z",
+      "published_count": 0,
+      "public_render_verified": false,
+      "collection": {
+        "wave_id": "github-44627056429",
+        "coverage_checked_at": "2026-11-19T22:16:42.776067+00:00",
+        "brief_prepared_at": "2026-11-19T22:17:13.859454+00:00",
+        "sources_opened": 157,
+        "rss_collected_at": "2026-11-19T22:26:16.654251+00:00",
+        "rss_parsed": 42
+      },
+      "follow_up": {
+        "automation": "radar-da-alerte-de-suivi",
+        "checked_at": "2026-11-20T07:26:28.409Z",
+        "repository_identity_verified": {
+          "full_name": "christopheinalco-crypto/storyboard-radar-da.",
+          "id": 1449156184
+        },
+        "freshness": "stale_over_one_hour",
+        "slot_execution_record_previously_absent": true,
+        "latest_editorial_commit": "9979d56edbf7d73368194973472d0ba1c61164b9",
+        "latest_pages_run": 44678425862,
+        "latest_public_render_run": 44678425958,
+        "latest_runs_are_new_wave": false,
+        "next_action": "Au prochain passage éditorial : rafraîchir les collectes périmées, reprendre les pistes en attente et prospecter les clips récents du vendredi. Aucun nouveau projet à compter sans publication des trois JSON et preuve Chromium exacte."
+      },
+      "notes": "Alerte du matin reçue en retard à 08 h 25 Paris : créneau échu de 06 h conservé. Aucun commit éditorial ni publication annoncée pour ce créneau. Les derniers contrôles réussis portent sur une modification de l’interface et ne valident aucune nouvelle vague. Aucune fiche publiée par cette alerte."
     }
   }
 }
