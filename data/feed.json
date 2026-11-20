@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-19T19:08:02.329Z",
+  "updated_at": "2026-11-20T07:31:12.193Z",
   "status": "editorial_reviewed",
   "working_feeds": [
     {
@@ -454,6 +454,66 @@
     "with_images": 82
   },
   "items": [
+    {
+      "project_id": "bury-tomorrow-assimilate-pluie-2026",
+      "title": "Bury Tomorrow — La pluie rend le visage incertain",
+      "title_fr": "Bury Tomorrow — La pluie rend le visage incertain",
+      "url": "https://www.youtube.com/watch?v=DoU6XsUF65w",
+      "category": "14 Musique Clips",
+      "source": "Bury Tomorrow / DEA†H Records",
+      "published": "2026-11-17T00:00:00Z",
+      "radar_added_at": "2026-11-20T07:31:12.193Z",
+      "summary": "Dans « Assimilate », Zak Pinchin conserve les musiciens sous une même pluie noire et blanche. La différence se joue entre une silhouette lisible et un visage qui se dérobe.",
+      "summary_fr": "Dans « Assimilate », Zak Pinchin conserve les musiciens sous une même pluie noire et blanche. La différence se joue entre une silhouette lisible et un visage qui se dérobe.",
+      "image": "https://i.ytimg.com/vi/DoU6XsUF65w/hqdefault.jpg",
+      "image_kind": "project",
+      "image_credit": "Vignette officielle : Bury Tomorrow / DEA†H Records, réalisation Zak Pinchin.",
+      "image_source_url": "https://www.youtube.com/watch?v=DoU6XsUF65w",
+      "image_alt": "Silhouette vêtue et visage dans l’ombre sous la pluie, vignette officielle d’Assimilate.",
+      "status": "editorial_reviewed",
+      "youtube_id": "DoU6XsUF65w",
+      "angle": "Un élément d’atmosphère devient un choix de DA lorsqu’il modifie ce qu’on peut lire du sujet. Ici, la pluie compte surtout par sa relation à la lumière et au visage. Sa force vient de cette variation de visibilité, pas du seul symbole de la tempête."
+    },
+    {
+      "project_id": "yard-act-tall-tales-zucco-live-2026",
+      "title": "Yard Act — Le restaurant garde sa place dans le live",
+      "title_fr": "Yard Act — Le restaurant garde sa place dans le live",
+      "url": "https://www.youtube.com/watch?v=gaoTeRb04oQ",
+      "category": "01 Spectacle Concert",
+      "source": "Yard Act / Island Records / Sodium Films",
+      "published": "2026-10-30T00:00:00Z",
+      "radar_added_at": "2026-11-20T07:31:12.193Z",
+      "summary": "Pour « Tall Tales », Sarah Oglesby filme Yard Act chez Zucco, à Leeds. La performance partage le cadre avec le bar, la cuisine et les assiettes : le lieu conserve son activité et sa personnalité.",
+      "summary_fr": "Pour « Tall Tales », Sarah Oglesby filme Yard Act chez Zucco, à Leeds. La performance partage le cadre avec le bar, la cuisine et les assiettes : le lieu conserve son activité et sa personnalité.",
+      "image": "https://i.ytimg.com/vi/gaoTeRb04oQ/hqdefault.jpg",
+      "image_kind": "project",
+      "image_credit": "Vignette officielle : Yard Act / Island Records, réalisation Sarah Oglesby, Sodium Films.",
+      "image_source_url": "https://www.youtube.com/watch?v=gaoTeRb04oQ",
+      "image_alt": "James Smith de Yard Act au micro devant les bouteilles et le plafond de bois du restaurant Zucco.",
+      "status": "editorial_reviewed",
+      "youtube_id": "gaoTeRb04oQ",
+      "angle": "Une captation dans un lieu singulier gagne à montrer comment ce lieu fonctionne, au-delà de son apparence. Chez Zucco, les aliments, la cuisine et le bar donnent une épaisseur locale à la performance. La proximité vient de cette cohabitation précise, plutôt que d’un cadrage serré à lui seul."
+    },
+    {
+      "project_id": "softmatter-dont-repeat-it-twice-plumes-2026",
+      "title": "Softmatter — Les plumes changent la lecture de la bagarre",
+      "title_fr": "Softmatter — Les plumes changent la lecture de la bagarre",
+      "url": "https://www.youtube.com/watch?v=F2mmm1WCOf4",
+      "category": "14 Musique Clips",
+      "source": "Softmatter",
+      "published": "2026-11-12T00:00:00Z",
+      "radar_added_at": "2026-11-20T07:31:12.193Z",
+      "summary": "Dans « Don’t Repeat It Twice », une bataille d’oreillers transforme un parking en espace de contact. Softmatter et Franka Marlene Foth font tenir agressivité et tendresse dans le même accessoire.",
+      "summary_fr": "Dans « Don’t Repeat It Twice », une bataille d’oreillers transforme un parking en espace de contact. Softmatter et Franka Marlene Foth font tenir agressivité et tendresse dans le même accessoire.",
+      "image": "https://i.ytimg.com/vi/F2mmm1WCOf4/hqdefault.jpg",
+      "image_kind": "project",
+      "image_credit": "Vignette officielle : Softmatter, chorégraphie Franka Marlene Foth, image Gil Corujeira.",
+      "image_source_url": "https://www.youtube.com/watch?v=F2mmm1WCOf4",
+      "image_alt": "Softmatter et le groupe allongés, habillés, sur le parking couvert de plumes.",
+      "status": "editorial_reviewed",
+      "youtube_id": "F2mmm1WCOf4",
+      "angle": "Un accessoire peut faire évoluer une scène par ce qu’il laisse derrière lui. Ici, l’oreiller commence comme objet de contact et ses plumes deviennent un environnement commun. Cette conséquence matérielle fait tenir plusieurs états du groupe dans une seule idée de DA."
+    },
     {
       "project_id": "zel-monstrous-stronger-gravite-2026",
       "title": "Zel Monstrous — La guérison reste en suspens",
