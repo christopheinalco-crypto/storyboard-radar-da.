@@ -1,6 +1,6 @@
 {
   "description": "Cumulative seen-project register; retain entries when projects leave the live feed; compare URL and semantic identity.",
-  "updated": "2026-11-20T15:07:39.963Z",
+  "updated": "2026-11-20T19:08:53.484Z",
   "projects": [
     {
       "project_id": "pink-siifu-devils-advocate-gontrand-making-of-2026",
@@ -863,6 +863,36 @@
       "published_at": "2026-11-20T15:07:39.963Z",
       "wave_id": "2026-11-20-16h",
       "editorial_score": 17
+    },
+    {
+      "project_id": "chvrches-evil-portrait-support-2026",
+      "title": "CHVRCHES — Le portrait laisse voir sa fabrication",
+      "url": "https://www.youtube.com/watch?v=KaCSIfP1zo0",
+      "category": "14 Musique Clips",
+      "radar_added_at": "2026-11-20T19:08:53.484Z",
+      "published_at": "2026-11-20T19:08:53.484Z",
+      "wave_id": "2026-11-20-20h",
+      "editorial_score": 18
+    },
+    {
+      "project_id": "cirque-echo-projection-cube-fabrication-2026",
+      "title": "ECHO — L’image fait changer la matière du cube",
+      "url": "https://www.youtube.com/watch?v=ObW1rqosdJc",
+      "category": "01 Spectacle Concert",
+      "radar_added_at": "2026-11-20T19:08:53.484Z",
+      "published_at": "2026-11-20T19:08:53.484Z",
+      "wave_id": "2026-11-20-20h",
+      "editorial_score": 16
+    },
+    {
+      "project_id": "does-donwori-habitacle-distance-2026",
+      "title": "DOES — Deux sièges proches, deux regards séparés",
+      "url": "https://www.youtube.com/watch?v=LChAdpoT9JU",
+      "category": "14 Musique Clips",
+      "radar_added_at": "2026-11-20T19:08:53.484Z",
+      "published_at": "2026-11-20T19:08:53.484Z",
+      "wave_id": "2026-11-20-20h",
+      "editorial_score": 16
     }
   ]
 }
