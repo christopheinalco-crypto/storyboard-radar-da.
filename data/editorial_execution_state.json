@@ -1486,6 +1486,30 @@
           "softmatter-dont-repeat-it-twice-plumes-2026"
         ],
         "feed_count": 104
+      },
+      {
+        "id": "2026-11-20-12h",
+        "slot": "2026-11-20-12h",
+        "status": "public_verified",
+        "projects": [
+          "beatles-in-my-life-transmission-2026",
+          "rammstein-du-hast-mexico-captation-2026",
+          "morrissey-zoom-zoom-lecture-animaux-2026"
+        ],
+        "count": 3,
+        "publication_commit": "6503b9f1fa401aefe205227d0fa823c5f9b1eb27",
+        "trigger": "scheduled_editorial",
+        "verified_at": "2026-11-20T11:02:04.069Z",
+        "pages_deployment": "https://github.com/christopheinalco-crypto/storyboard-radar-da./actions/runs/44724044932",
+        "public_render_check": "https://github.com/christopheinalco-crypto/storyboard-radar-da./actions/runs/44724045424",
+        "artifact_id": 14623581056,
+        "proof_head": "6503b9f1fa401aefe205227d0fa823c5f9b1eb27",
+        "verified_new_projects": [
+          "beatles-in-my-life-transmission-2026",
+          "rammstein-du-hast-mexico-captation-2026",
+          "morrissey-zoom-zoom-lecture-animaux-2026"
+        ],
+        "feed_count": 107
       }
     ]
   },
@@ -2142,6 +2166,58 @@
           "fiche-3.png"
         ],
         "result": "Trois cartes examinées : images originales chargées, textes et surlignages des décryptages rendus. Limite connue de capture intégrale : la barre fixe recouvre une bande dans la capture, comme lors du contrôle précédent ; aucun changement d’interface inclus dans cette vague."
+      }
+    },
+    "2026-11-20-12h": {
+      "id": "2026-11-20-12h",
+      "status": "complete",
+      "stage": "public_verified",
+      "checked_at": "2026-11-20T11:03:02.600Z",
+      "published_count": 3,
+      "public_render_verified": true,
+      "collection": {
+        "wave_id": "github-44723519210",
+        "coverage_checked_at": "2026-11-20T10:57:19.328572+00:00",
+        "brief_prepared_at": "2026-11-20T10:57:50.549607+00:00",
+        "sources_opened": 158,
+        "rss_collected_at": "2026-11-20T10:57:25.301779+00:00",
+        "rss_parsed": 41,
+        "source_run": "https://github.com/christopheinalco-crypto/storyboard-radar-da./actions/runs/44723519210",
+        "rss_run": "https://github.com/christopheinalco-crypto/storyboard-radar-da./actions/runs/44723523383"
+      },
+      "publication": {
+        "id": "2026-11-20-12h",
+        "slot": "2026-11-20-12h",
+        "status": "public_verified",
+        "projects": [
+          "beatles-in-my-life-transmission-2026",
+          "rammstein-du-hast-mexico-captation-2026",
+          "morrissey-zoom-zoom-lecture-animaux-2026"
+        ],
+        "count": 3,
+        "publication_commit": "6503b9f1fa401aefe205227d0fa823c5f9b1eb27",
+        "trigger": "scheduled_editorial",
+        "verified_at": "2026-11-20T11:02:04.069Z",
+        "pages_deployment": "https://github.com/christopheinalco-crypto/storyboard-radar-da./actions/runs/44724044932",
+        "public_render_check": "https://github.com/christopheinalco-crypto/storyboard-radar-da./actions/runs/44724045424",
+        "artifact_id": 14623581056,
+        "proof_head": "6503b9f1fa401aefe205227d0fa823c5f9b1eb27",
+        "verified_new_projects": [
+          "beatles-in-my-life-transmission-2026",
+          "rammstein-du-hast-mexico-captation-2026",
+          "morrissey-zoom-zoom-lecture-animaux-2026"
+        ],
+        "feed_count": 107
+      },
+      "notes": "Déclenchement préparatoire à 11 h 56 Paris, publication après midi. Collectes actualisées réussies. Recherche directe de nouveautés de moins de 72 h : Beatles et Rammstein du 19 novembre. Morrissey vidéo du 13 novembre, article du 18. Le concert de Rammstein date de 2022 ; l’actualité est le nouveau film, avec un angle propre à la captation, sans prétendre à une nouvelle scénographie. Piste Anna Lapwood reprise, attribution des leitmotifs lumineux à Nidaros toujours non recoupée : maintien en attente. Red Rum Club reste exclu, vidéo du 5 octobre. Contrôle public réussi : artefact exact relu et trois captures examinées.",
+      "public_visual_review": {
+        "reviewed_at": "2026-11-20T11:03:02.601Z",
+        "screenshots": [
+          "fiche-1.png",
+          "fiche-2.png",
+          "fiche-3.png"
+        ],
+        "result": "Images originales et décryptages rendus, surlignages visibles. Limite connue des captures intégrales : barre fixe superposée à une bande de contenu ; interface non modifiée dans cette vague."
       }
     }
   }
