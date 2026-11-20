@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-20T11:00:35.704Z",
+  "updated_at": "2026-11-20T15:07:39.963Z",
   "status": "editorial_reviewed",
   "working_feeds": [
     {
@@ -454,6 +454,66 @@
     "with_images": 82
   },
   "items": [
+    {
+      "project_id": "cl-iconic-costume-autorite-2026",
+      "title": "CL — Le costume fait tenir une position de pouvoir",
+      "title_fr": "CL — Le costume fait tenir une position de pouvoir",
+      "url": "https://www.youtube.com/watch?v=A_H1EH6p4A0",
+      "category": "14 Musique Clips",
+      "source": "CL / THEBLACKLABEL",
+      "published": "2026-11-20T00:00:00Z",
+      "radar_added_at": "2026-11-20T15:07:39.963Z",
+      "summary": "Dans « ICONIC », les épaules monumentales de CL et son costume clair font d’abord d’elle le centre d’un cérémonial rouge. Un second univers noir et mouillé change ensuite sa manière d’occuper le groupe.",
+      "summary_fr": "Dans « ICONIC », les épaules monumentales de CL et son costume clair font d’abord d’elle le centre d’un cérémonial rouge. Un second univers noir et mouillé change ensuite sa manière d’occuper le groupe.",
+      "image": "https://i.ytimg.com/vi/A_H1EH6p4A0/hqdefault.jpg",
+      "image_kind": "project",
+      "image_credit": "Vignette officielle : CL / THEBLACKLABEL, ICONIC.",
+      "image_source_url": "https://www.youtube.com/watch?v=A_H1EH6p4A0",
+      "image_alt": "CL en costume clair à larges épaules sur un décor rouge, vignette officielle d’ICONIC.",
+      "status": "editorial_reviewed",
+      "youtube_id": "A_H1EH6p4A0",
+      "angle": "Un costume de tête d’affiche peut organiser toute une composition. Ici, l’écart de volume distingue CL dans les plans rapprochés comme dans les vues de groupe. Quand cet écart s’atténue dans le tableau noir, la position et le cadrage prennent le relais."
+    },
+    {
+      "project_id": "enhypen-mama-paradise-dune-costumes-2026",
+      "title": "ENHYPEN — La foule de costumes devient un cadre",
+      "title_fr": "ENHYPEN — La foule de costumes devient un cadre",
+      "url": "https://www.youtube.com/watch?v=n9iu72mjil0",
+      "category": "01 Spectacle Concert",
+      "source": "Mnet K-POP / CJ ENM",
+      "published": "2026-11-20T00:00:00Z",
+      "radar_added_at": "2026-11-20T15:07:39.963Z",
+      "summary": "Aux MAMA 2026, « PARADISE X DUNE » donne au collectif des danseurs une forme très lisible : des silhouettes sable encadrent les interprètes sombres. Le costume fait une partie du travail du décor.",
+      "summary_fr": "Aux MAMA 2026, « PARADISE X DUNE » donne au collectif des danseurs une forme très lisible : des silhouettes sable encadrent les interprètes sombres. Le costume fait une partie du travail du décor.",
+      "image": "https://i.ytimg.com/vi/n9iu72mjil0/hqdefault.jpg",
+      "image_kind": "project",
+      "image_credit": "Vignette officielle : Mnet K-POP / CJ ENM, ENHYPEN aux MAMA 2026.",
+      "image_source_url": "https://www.youtube.com/watch?v=n9iu72mjil0",
+      "image_alt": "ENHYPEN sur la scène des MAMA, vignette officielle de PARADISE X DUNE.",
+      "status": "editorial_reviewed",
+      "youtube_id": "n9iu72mjil0",
+      "angle": "Un ensemble de costumes peut devenir une structure de cadrage. Ici, la répétition des tons sable fait exister le groupe comme une unité, puis l’écart sombre désigne une personne. Le principe tient à une différence précise de valeur et de visibilité, au-delà de la référence au film."
+    },
+    {
+      "project_id": "alan-walker-raul-yume-embleme-2026",
+      "title": "YUME — L’emblème passe du vêtement à l’architecture",
+      "title_fr": "YUME — L’emblème passe du vêtement à l’architecture",
+      "url": "https://www.youtube.com/watch?v=xpRB5Huqe9Y",
+      "category": "14 Musique Clips",
+      "source": "Alan Walker / Raul",
+      "published": "2026-11-20T00:00:00Z",
+      "radar_added_at": "2026-11-20T15:07:39.963Z",
+      "summary": "Dans « YUME », Alan Walker et Raul partagent un univers doré où le signe du musicien devient un repère spatial. Le même motif rapproche la figure masquée, la console et le lieu de rassemblement.",
+      "summary_fr": "Dans « YUME », Alan Walker et Raul partagent un univers doré où le signe du musicien devient un repère spatial. Le même motif rapproche la figure masquée, la console et le lieu de rassemblement.",
+      "image": "https://i.ytimg.com/vi/xpRB5Huqe9Y/hqdefault.jpg",
+      "image_kind": "project",
+      "image_credit": "Vignette officielle : Alan Walker & Raul, réalisation Alexander Zarate Frez, concept Kreatell.",
+      "image_source_url": "https://www.youtube.com/watch?v=xpRB5Huqe9Y",
+      "image_alt": "Alan Walker masqué sous sa capuche, devant l’architecture dorée du clip YUME.",
+      "status": "editorial_reviewed",
+      "youtube_id": "xpRB5Huqe9Y",
+      "angle": "Un signe de marque gagne en présence lorsqu’il change de fonction en changeant d’échelle. Dans YUME, il identifie un vêtement puis situe un espace de performance. Cette continuité permet de construire un univers commun à deux interprètes dont les silhouettes restent différentes."
+    },
     {
       "project_id": "beatles-in-my-life-transmission-2026",
       "title": "The Beatles — Un instrument relie les époques",

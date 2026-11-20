@@ -1,6 +1,6 @@
 {
   "description": "Cumulative seen-project register; retain entries when projects leave the live feed; compare URL and semantic identity.",
-  "updated": "2026-11-20T11:00:35.704Z",
+  "updated": "2026-11-20T15:07:39.963Z",
   "projects": [
     {
       "project_id": "pink-siifu-devils-advocate-gontrand-making-of-2026",
@@ -832,6 +832,36 @@
       "radar_added_at": "2026-11-20T11:00:35.704Z",
       "published_at": "2026-11-20T11:00:35.704Z",
       "wave_id": "2026-11-20-12h",
+      "editorial_score": 17
+    },
+    {
+      "project_id": "cl-iconic-costume-autorite-2026",
+      "title": "CL — Le costume fait tenir une position de pouvoir",
+      "url": "https://www.youtube.com/watch?v=A_H1EH6p4A0",
+      "category": "14 Musique Clips",
+      "radar_added_at": "2026-11-20T15:07:39.963Z",
+      "published_at": "2026-11-20T15:07:39.963Z",
+      "wave_id": "2026-11-20-16h",
+      "editorial_score": 18
+    },
+    {
+      "project_id": "enhypen-mama-paradise-dune-costumes-2026",
+      "title": "ENHYPEN — La foule de costumes devient un cadre",
+      "url": "https://www.youtube.com/watch?v=n9iu72mjil0",
+      "category": "01 Spectacle Concert",
+      "radar_added_at": "2026-11-20T15:07:39.963Z",
+      "published_at": "2026-11-20T15:07:39.963Z",
+      "wave_id": "2026-11-20-16h",
+      "editorial_score": 18
+    },
+    {
+      "project_id": "alan-walker-raul-yume-embleme-2026",
+      "title": "YUME — L’emblème passe du vêtement à l’architecture",
+      "url": "https://www.youtube.com/watch?v=xpRB5Huqe9Y",
+      "category": "14 Musique Clips",
+      "radar_added_at": "2026-11-20T15:07:39.963Z",
+      "published_at": "2026-11-20T15:07:39.963Z",
+      "wave_id": "2026-11-20-16h",
       "editorial_score": 17
     }
   ]
