@@ -1510,6 +1510,30 @@
           "morrissey-zoom-zoom-lecture-animaux-2026"
         ],
         "feed_count": 107
+      },
+      {
+        "id": "2026-11-20-16h",
+        "slot": "2026-11-20-16h",
+        "status": "public_verified",
+        "projects": [
+          "cl-iconic-costume-autorite-2026",
+          "enhypen-mama-paradise-dune-costumes-2026",
+          "alan-walker-raul-yume-embleme-2026"
+        ],
+        "count": 3,
+        "publication_commit": "96d017d64ccd096d541d2bb615863db262087dfa",
+        "trigger": "scheduled_editorial",
+        "verified_at": "2026-11-20T15:08:54.908Z",
+        "pages_deployment": "https://github.com/christopheinalco-crypto/storyboard-radar-da./actions/runs/44760219584",
+        "public_render_check": "https://github.com/christopheinalco-crypto/storyboard-radar-da./actions/runs/44760220279",
+        "artifact_id": 14641108580,
+        "proof_head": "96d017d64ccd096d541d2bb615863db262087dfa",
+        "verified_new_projects": [
+          "cl-iconic-costume-autorite-2026",
+          "enhypen-mama-paradise-dune-costumes-2026",
+          "alan-walker-raul-yume-embleme-2026"
+        ],
+        "feed_count": 110
       }
     ]
   },
@@ -2235,6 +2259,58 @@
         "artifact_id": 14623581056,
         "artifact_head_and_project_ids_match": true,
         "status": "healthy"
+      }
+    },
+    "2026-11-20-16h": {
+      "id": "2026-11-20-16h",
+      "status": "complete",
+      "stage": "public_verified",
+      "checked_at": "2026-11-20T15:10:15.166Z",
+      "published_count": 3,
+      "public_render_verified": true,
+      "collection": {
+        "wave_id": "github-44759489922",
+        "coverage_checked_at": "2026-11-20T15:03:54.361519+00:00",
+        "brief_prepared_at": "2026-11-20T15:04:23.831398+00:00",
+        "sources_opened": 156,
+        "rss_collected_at": "2026-11-20T15:03:56.381449+00:00",
+        "rss_parsed": 41,
+        "source_run": "https://github.com/christopheinalco-crypto/storyboard-radar-da./actions/runs/44759489922",
+        "rss_run": "https://github.com/christopheinalco-crypto/storyboard-radar-da./actions/runs/44759495074"
+      },
+      "publication": {
+        "id": "2026-11-20-16h",
+        "slot": "2026-11-20-16h",
+        "status": "public_verified",
+        "projects": [
+          "cl-iconic-costume-autorite-2026",
+          "enhypen-mama-paradise-dune-costumes-2026",
+          "alan-walker-raul-yume-embleme-2026"
+        ],
+        "count": 3,
+        "publication_commit": "96d017d64ccd096d541d2bb615863db262087dfa",
+        "trigger": "scheduled_editorial",
+        "verified_at": "2026-11-20T15:08:54.908Z",
+        "pages_deployment": "https://github.com/christopheinalco-crypto/storyboard-radar-da./actions/runs/44760219584",
+        "public_render_check": "https://github.com/christopheinalco-crypto/storyboard-radar-da./actions/runs/44760220279",
+        "artifact_id": 14641108580,
+        "proof_head": "96d017d64ccd096d541d2bb615863db262087dfa",
+        "verified_new_projects": [
+          "cl-iconic-costume-autorite-2026",
+          "enhypen-mama-paradise-dune-costumes-2026",
+          "alan-walker-raul-yume-embleme-2026"
+        ],
+        "feed_count": 110
+      },
+      "notes": "Deux collectes actualisées et réussies. Trois vidéos officielles du 20 novembre identifiées, dates vérifiées par métadonnées et chaînes confirmées. Toutes dans les 72 h. Repérage par planches de prévisualisation officielles : clips à 2 s, performance MAMA à 5 s. Intentions interprétées distinguées des faits ; crédits YUME pris à la source primaire. Anciennes pistes Bury Tomorrow résolues au créneau de 6 h, Anna Lapwood demeure en attente de preuves propres à Nidaros. Contrôle public réussi, manifeste exact relu et trois captures examinées.",
+      "public_visual_review": {
+        "reviewed_at": "2026-11-20T15:10:15.167Z",
+        "screenshots": [
+          "fiche-1.png",
+          "fiche-2.png",
+          "fiche-3.png"
+        ],
+        "result": "Trois images officielles chargées, décryptages et surlignages rendus. Limite connue des captures intégrales : bande de barre fixe superposée au contenu ; aucune modification d’interface dans cette vague."
       }
     }
   }
