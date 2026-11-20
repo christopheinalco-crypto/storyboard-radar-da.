@@ -2404,6 +2404,23 @@
           "fiche-3.png"
         ],
         "result": "Trois visuels officiels chargés : portrait CHVRCHES, affiche ECHO et habitacle DOES. Décryptages et surlignages rendus. Limite connue des captures intégrales : bande de barre fixe superposée au contenu ; interface non modifiée."
+      },
+      "follow_up": {
+        "automation": "radar-da-alerte-de-suivi",
+        "checked_at": "2026-11-20T19:26:10.841Z",
+        "repository_identity_verified": true,
+        "collection_fresh": true,
+        "sources_opened": 157,
+        "rss_parsed": 42,
+        "source_run_success": 44798542515,
+        "rss_run_success": 44798548470,
+        "publication_files_atomic": true,
+        "exact_new_projects": 3,
+        "pages_run_success": 44799583183,
+        "chromium_run_success": 44799583667,
+        "artifact_id": 14661245695,
+        "artifact_head_and_project_ids_match": true,
+        "status": "healthy"
       }
     }
   }
