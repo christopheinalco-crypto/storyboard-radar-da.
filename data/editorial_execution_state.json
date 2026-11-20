@@ -2218,6 +2218,23 @@
           "fiche-3.png"
         ],
         "result": "Images originales et décryptages rendus, surlignages visibles. Limite connue des captures intégrales : barre fixe superposée à une bande de contenu ; interface non modifiée dans cette vague."
+      },
+      "follow_up": {
+        "automation": "radar-da-alerte-de-suivi",
+        "checked_at": "2026-11-20T11:29:08.422Z",
+        "repository_identity_verified": true,
+        "collection_fresh": true,
+        "sources_opened": 158,
+        "rss_parsed": 41,
+        "source_run_success": 44723519210,
+        "rss_run_success": 44723523383,
+        "publication_files_atomic": true,
+        "exact_new_projects": 3,
+        "pages_run_success": 44724044932,
+        "chromium_run_success": 44724045424,
+        "artifact_id": 14623581056,
+        "artifact_head_and_project_ids_match": true,
+        "status": "healthy"
       }
     }
   }
