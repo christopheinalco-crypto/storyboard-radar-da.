@@ -1462,6 +1462,30 @@
           "paloma-faith-gone-plateau-coulisses-2026"
         ],
         "feed_count": 101
+      },
+      {
+        "id": "2026-11-20-06h",
+        "slot": "2026-11-20-06h",
+        "status": "public_verified",
+        "projects": [
+          "bury-tomorrow-assimilate-pluie-2026",
+          "yard-act-tall-tales-zucco-live-2026",
+          "softmatter-dont-repeat-it-twice-plumes-2026"
+        ],
+        "count": 3,
+        "publication_commit": "c2369c285796f29a487a418e0933b20fe7597e91",
+        "trigger": "scheduled_editorial_recovery",
+        "verified_at": "2026-11-20T07:32:30.146Z",
+        "pages_deployment": "https://github.com/christopheinalco-crypto/storyboard-radar-da./actions/runs/44695598530",
+        "public_render_check": "https://github.com/christopheinalco-crypto/storyboard-radar-da./actions/runs/44695598568",
+        "artifact_id": 14610477406,
+        "proof_head": "c2369c285796f29a487a418e0933b20fe7597e91",
+        "verified_new_projects": [
+          "bury-tomorrow-assimilate-pluie-2026",
+          "yard-act-tall-tales-zucco-live-2026",
+          "softmatter-dont-repeat-it-twice-plumes-2026"
+        ],
+        "feed_count": 104
       }
     ]
   },
@@ -1857,8 +1881,10 @@
         {
           "project": "Bury Tomorrow — Assimilate",
           "url": "https://www.metalzone.fr/news/en-bref/241788-bury-tomorrow-assimilate-nouveau-single-brutalite-chaos/",
-          "status": "hold",
-          "reason": "Article ouvert, sortie du 17 novembre et réalisation Zak Pinchin identifiées. Captation, mécanisme DA et image originale à contrôler."
+          "status": "published_in_later_wave",
+          "reason": "Article ouvert, sortie du 17 novembre et réalisation Zak Pinchin identifiées. Captation, mécanisme DA et image originale à contrôler.",
+          "publication_slot": "2026-11-20-06h",
+          "publication_commit": "c2369c285796f29a487a418e0933b20fe7597e91"
         },
         {
           "project": "Fall Out Boy — Doomsday Generation",
@@ -1927,8 +1953,10 @@
         {
           "project": "Bury Tomorrow — Assimilate",
           "url": "https://www.nobarriers.au/static-feed/bury-tomorrow-share-new-single-assimilate",
-          "status": "hold",
-          "reason": "Communiqué du 18 novembre retrouvé et consulté. Auteur, réalisateur et intention recoupés. Vidéo complète et choix de DA à vérifier."
+          "status": "published_in_later_wave",
+          "reason": "Communiqué du 18 novembre retrouvé et consulté. Auteur, réalisateur et intention recoupés. Vidéo complète et choix de DA à vérifier.",
+          "publication_slot": "2026-11-20-06h",
+          "publication_commit": "c2369c285796f29a487a418e0933b20fe7597e91"
         },
         {
           "project": "Anna Lapwood — Nidaros",
@@ -2051,18 +2079,20 @@
     },
     "2026-11-20-06h": {
       "id": "2026-11-20-06h",
-      "status": "incomplete",
-      "stage": "collection_refresh_required",
-      "checked_at": "2026-11-20T07:26:28.409Z",
-      "published_count": 0,
-      "public_render_verified": false,
+      "status": "complete",
+      "stage": "public_verified",
+      "checked_at": "2026-11-20T07:33:40.000Z",
+      "published_count": 3,
+      "public_render_verified": true,
       "collection": {
-        "wave_id": "github-44627056429",
-        "coverage_checked_at": "2026-11-19T22:16:42.776067+00:00",
-        "brief_prepared_at": "2026-11-19T22:17:13.859454+00:00",
-        "sources_opened": 157,
-        "rss_collected_at": "2026-11-19T22:26:16.654251+00:00",
-        "rss_parsed": 42
+        "wave_id": "github-44695049737",
+        "coverage_checked_at": "2026-11-20T07:27:10.456832+00:00",
+        "brief_prepared_at": "2026-11-20T07:27:38.178431+00:00",
+        "sources_opened": 159,
+        "rss_collected_at": "2026-11-20T07:27:11.725082+00:00",
+        "rss_parsed": 42,
+        "source_run": "https://github.com/christopheinalco-crypto/storyboard-radar-da./actions/runs/44695049737",
+        "rss_run": "https://github.com/christopheinalco-crypto/storyboard-radar-da./actions/runs/44695053867"
       },
       "follow_up": {
         "automation": "radar-da-alerte-de-suivi",
@@ -2079,7 +2109,40 @@
         "latest_runs_are_new_wave": false,
         "next_action": "Au prochain passage éditorial : rafraîchir les collectes périmées, reprendre les pistes en attente et prospecter les clips récents du vendredi. Aucun nouveau projet à compter sans publication des trois JSON et preuve Chromium exacte."
       },
-      "notes": "Alerte du matin reçue en retard à 08 h 25 Paris : créneau échu de 06 h conservé. Aucun commit éditorial ni publication annoncée pour ce créneau. Les derniers contrôles réussis portent sur une modification de l’interface et ne valident aucune nouvelle vague. Aucune fiche publiée par cette alerte."
+      "notes": "Créneau retardé de 06 h repris. Deux collectes actualisées et réussies. Publication préparée après contrôle des dates vidéo réelles et des planches officielles ; preuve publique réussie et vérifiée. Red Rum Club écarté : article du 19 novembre mais vidéo du 5 octobre, hors fenêtre de 30 jours. Bury Tomorrow sorti le 17 novembre, dans les 72 heures ; reprise effective de cette piste héritée. Yard Act : session live publiée le 30 octobre, sans prétendre à un concert public. Softmatter : clip du 12 novembre, article du 18. Anna Lapwood maintenue en attente du recoupement des lumières propres à Nidaros.",
+      "publication": {
+        "id": "2026-11-20-06h",
+        "slot": "2026-11-20-06h",
+        "status": "public_verified",
+        "projects": [
+          "bury-tomorrow-assimilate-pluie-2026",
+          "yard-act-tall-tales-zucco-live-2026",
+          "softmatter-dont-repeat-it-twice-plumes-2026"
+        ],
+        "count": 3,
+        "publication_commit": "c2369c285796f29a487a418e0933b20fe7597e91",
+        "trigger": "scheduled_editorial_recovery",
+        "verified_at": "2026-11-20T07:32:30.146Z",
+        "pages_deployment": "https://github.com/christopheinalco-crypto/storyboard-radar-da./actions/runs/44695598530",
+        "public_render_check": "https://github.com/christopheinalco-crypto/storyboard-radar-da./actions/runs/44695598568",
+        "artifact_id": 14610477406,
+        "proof_head": "c2369c285796f29a487a418e0933b20fe7597e91",
+        "verified_new_projects": [
+          "bury-tomorrow-assimilate-pluie-2026",
+          "yard-act-tall-tales-zucco-live-2026",
+          "softmatter-dont-repeat-it-twice-plumes-2026"
+        ],
+        "feed_count": 104
+      },
+      "public_visual_review": {
+        "reviewed_at": "2026-11-20T07:33:40.001Z",
+        "screenshots": [
+          "fiche-1.png",
+          "fiche-2.png",
+          "fiche-3.png"
+        ],
+        "result": "Trois cartes examinées : images originales chargées, textes et surlignages des décryptages rendus. Limite connue de capture intégrale : la barre fixe recouvre une bande dans la capture, comme lors du contrôle précédent ; aucun changement d’interface inclus dans cette vague."
+      }
     }
   }
 }
