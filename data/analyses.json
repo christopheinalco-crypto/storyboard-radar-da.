@@ -7384,5 +7384,342 @@
         ]
       }
     }
+  },
+  "https://www.youtube.com/watch?v=KePvp0-hcn0": {
+    "title_fr": "The Beatles — Un instrument relie les époques",
+    "intro": "Le nouveau clip d’« In My Life » traverse une histoire familiale à Liverpool. Jessica Swale et Irina Alexiu utilisent un instrument transmis comme point de repère au milieu des changements d’époque.",
+    "points": [
+      [
+        "L’essentiel",
+        "Vers 1:14, Owen Cooper porte une veste brune devant une façade de briques. Vers 1:22, un petit instrument à cordes, attaché d’un ruban rouge, attend sur un lit. Plus tard, le rassemblement autour d’une femme âgée replace les objets et les visages dans une mémoire familiale."
+      ],
+      [
+        "Intention",
+        "Apple Corps présente le film comme une célébration de Liverpool et de la musique qui rapproche les générations. Le récit commence par une rencontre dans les années 1940, puis suit la transmission d’un ukulélé. Le morceau est ancien ; le film, réalisé par Jessica Swale et Irina Alexiu, est une création publiée le 19 novembre 2026."
+      ],
+      [
+        "Idée & DA",
+        "Les monuments situent la ville dès l’ouverture. Les intérieurs prennent ensuite le relais : tissus, papiers peints, vêtements et accessoires font sentir les époques à une échelle intime. L’instrument offre un objet concret à retrouver quand ces repères changent. Le ruban lui donne même une qualité de cadeau, donc une relation à quelqu’un. ^^Le temps devient lisible par ce qui change autour d’un objet que l’on reconnaît.^^ La ville fournit le cadre collectif ; la chambre et le salon donnent à cette mémoire une taille humaine."
+      ]
+    ],
+    "takeaway": "Pour raconter une transmission, un objet gagne à avoir une présence précise avant de devenir un symbole. Ici, sa place sur le lit et ses liens avec les personnages rendent l’héritage tangible. Le décor peut alors changer d’époque sans perdre le fil affectif du récit.",
+    "source": "The Beatles / Apple Corps",
+    "source_url": "https://www.youtube.com/watch?v=KePvp0-hcn0",
+    "source_links": [
+      "https://www.youtube.com/watch?v=KePvp0-hcn0",
+      "https://www.youtube.com/watch?v=KePvp0-hcn0&t=82s",
+      "https://www.youtube.com/watch?v=KePvp0-hcn0&t=170s",
+      "https://www.thebeatles.com/my-life-official-music-video-starring-owen-cooper-out-now",
+      "https://i.ytimg.com/vi/KePvp0-hcn0/hqdefault.jpg"
+    ],
+    "verified": true,
+    "reviewed_at": "2026-11-20T11:00:35.704Z",
+    "editorial_score": {
+      "total": 18,
+      "breakdown": {
+        "choice": 4,
+        "effect": 4,
+        "lesson": 4,
+        "evidence": 3,
+        "freshness": 3
+      }
+    },
+    "editorial_review": [
+      {
+        "url": "https://www.youtube.com/watch?v=KePvp0-hcn0&t=82s",
+        "locator": "1:22 : instrument posé sur le lit avec un ruban rouge, planche officielle à intervalle de deux secondes"
+      },
+      {
+        "url": "https://www.thebeatles.com/my-life-official-music-video-starring-owen-cooper-out-now",
+        "locator": "Annonce officielle du 19 novembre : réalisatrices Jessica Swale et Irina Alexiu, récit familial, ukulélé transmis et lieux de Liverpool"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=KePvp0-hcn0&t=170s",
+        "locator": "2:50 : gâteau et bougies lors de la réunion familiale dans le salon"
+      }
+    ],
+    "publication_review": {
+      "scores": {
+        "choice": 4,
+        "effect": 4,
+        "lesson": 4,
+        "evidence": 3,
+        "freshness": 3
+      },
+      "choice": "Vers 1:14, Owen Cooper porte une veste brune devant une façade de briques. Vers 1:22, un petit instrument à cordes, attaché d’un ruban rouge, attend sur un lit. Plus tard, le rassemblement autour d’une femme âgée replace les objets et les visages dans une mémoire familiale.",
+      "effect": "Les monuments situent la ville dès l’ouverture. Les intérieurs prennent ensuite le relais : tissus, papiers peints, vêtements et accessoires font sentir les époques à une échelle intime. L’instrument offre un objet concret à retrouver quand ces repères changent. Le ruban lui donne même une qualité de cadeau, donc une relation à quelqu’un. ^^Le temps devient lisible par ce qui change autour d’un objet que l’on reconnaît.^^ La ville fournit le cadre collectif ; la chambre et le salon donnent à cette mémoire une taille humaine.",
+      "lesson": "Pour raconter une transmission, un objet gagne à avoir une présence précise avant de devenir un symbole. Ici, sa place sur le lit et ses liens avec les personnages rendent l’héritage tangible. Le décor peut alors changer d’époque sans perdre le fil affectif du récit.",
+      "second_reading": "Vidéo officielle identifiée par oEmbed ; mise en ligne YouTube le 19 novembre à 16 h UTC, distincte de la chanson de 1965. Planches 0:00–0:16, 1:12–1:28 et 2:42–2:58 examinées ; récit de transmission recoupé auprès d’Apple Corps. Ne pas attribuer de raccord musical ni inventer une date précise pour chaque intérieur. L’objet est nommé ukulélé dans l’annonce officielle ; sa présence et le ruban sont contrôlés dans le plan de chambre.",
+      "sources": [
+        {
+          "url": "https://www.youtube.com/watch?v=KePvp0-hcn0",
+          "locator": "Vidéo officielle : identité par oEmbed et date par métadonnées uploadDate/publishDate",
+          "opened_at": "2026-11-20T11:00:35.704Z"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=KePvp0-hcn0&t=82s",
+          "locator": "1:22 : instrument posé sur le lit avec un ruban rouge, planche officielle à intervalle de deux secondes",
+          "opened_at": "2026-11-20T11:00:35.704Z"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=KePvp0-hcn0&t=170s",
+          "locator": "2:50 : gâteau et bougies lors de la réunion familiale dans le salon",
+          "opened_at": "2026-11-20T11:00:35.704Z"
+        },
+        {
+          "url": "https://www.thebeatles.com/my-life-official-music-video-starring-owen-cooper-out-now",
+          "locator": "Annonce officielle du 19 novembre : réalisatrices Jessica Swale et Irina Alexiu, récit familial, ukulélé transmis et lieux de Liverpool",
+          "opened_at": "2026-11-20T11:00:35.704Z"
+        },
+        {
+          "url": "https://i.ytimg.com/vi/KePvp0-hcn0/hqdefault.jpg",
+          "locator": "Image ouverte, chargement vérifié et contrôle visuel de la carte",
+          "opened_at": "2026-11-20T11:00:35.704Z"
+        }
+      ],
+      "da_check": {
+        "observation": "Vers 1:14, Owen Cooper porte une veste brune devant une façade de briques. Vers 1:22, un petit instrument à cordes, attaché d’un ruban rouge, attend sur un lit. Plus tard, le rassemblement autour d’une femme âgée replace les objets et les visages dans une mémoire familiale.",
+        "viewer_effect": "Les monuments situent la ville dès l’ouverture. Les intérieurs prennent ensuite le relais : tissus, papiers peints, vêtements et accessoires font sentir les époques à une échelle intime. L’instrument offre un objet concret à retrouver quand ces repères changent. Le ruban lui donne même une qualité de cadeau, donc une relation à quelqu’un. ^^Le temps devient lisible par ce qui change autour d’un objet que l’on reconnaît.^^ La ville fournit le cadre collectif ; la chambre et le salon donnent à cette mémoire une taille humaine.",
+        "project_specific_lesson": "Pour raconter une transmission, un objet gagne à avoir une présence précise avant de devenir un symbole. Ici, sa place sur le lit et ses liens avec les personnages rendent l’héritage tangible. Le décor peut alors changer d’époque sans perdre le fil affectif du récit.",
+        "evidence": [
+          {
+            "url": "https://www.youtube.com/watch?v=KePvp0-hcn0&t=82s",
+            "locator": "1:22 : instrument posé sur le lit avec un ruban rouge, planche officielle à intervalle de deux secondes"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=KePvp0-hcn0&t=170s",
+            "locator": "2:50 : gâteau et bougies lors de la réunion familiale dans le salon"
+          }
+        ]
+      }
+    }
+  },
+  "https://www.youtube.com/watch?v=9OHE71sGjiU": {
+    "title_fr": "Rammstein — La captation change l’échelle du stade",
+    "intro": "L’extrait « Du Hast » de Live in Mexico City oppose la scène monumentale à des vues très proches et déformées des musiciens. Le choix de caméra construit une autre expérience de ce spectacle.",
+    "points": [
+      [
+        "L’essentiel",
+        "Vers 0:56, une vue très grand-angle courbe les bords de la scène autour d’un guitariste. Vers 1:06, le plan frontal rétablit les tours verticales au-dessus d’une foule immense. Deux images de la même production donnent ainsi des mesures presque opposées de l’espace."
+      ],
+      [
+        "Intention",
+        "Il s’agit d’un nouvel extrait publié le 19 novembre 2026, issu de concerts filmés au Foro Sol en octobre 2022. La sortie du film et de l’album constitue l’actualité. La captation peut se lire comme une recherche de proximité physique à l’intérieur d’un dispositif dont l’échelle dépasse largement les corps."
+      ],
+      [
+        "Idée & DA",
+        "Dans les vues très proches, les lignes courbes ramènent l’architecture autour des interprètes : la scène paraît envelopper la caméra. Le plan large rend au contraire la foule et les tours comparables, et permet de mesurer la hauteur du décor. Le bleu relie ces deux distances. Vers 3:56, le feu remplit l’image d’orange et change brutalement sa densité lumineuse. ^^La puissance vient aussi de la possibilité de comparer l’immensité du dispositif à la taille d’un corps.^^ Sans les vues d’ensemble, les images proches perdraient cette mesure."
+      ]
+    ],
+    "takeaway": "Une captation peut organiser ses distances comme des fonctions complémentaires : le plan large donne l’échelle, le point de vue proche donne une place au spectateur. Ici, la déformation du grand-angle intensifie cette seconde fonction. Elle reste lisible parce que d’autres cadres rétablissent la géométrie réelle du spectacle.",
+    "source": "Rammstein Official / Universal Music",
+    "source_url": "https://www.youtube.com/watch?v=9OHE71sGjiU",
+    "source_links": [
+      "https://www.youtube.com/watch?v=9OHE71sGjiU",
+      "https://www.youtube.com/watch?v=9OHE71sGjiU&t=56s",
+      "https://www.youtube.com/watch?v=9OHE71sGjiU&t=66s",
+      "https://www.youtube.com/watch?v=9OHE71sGjiU&t=236s",
+      "https://www.universal-music.co.jp/rammstein/news/2026-11-20/",
+      "https://i.ytimg.com/vi/9OHE71sGjiU/hqdefault.jpg"
+    ],
+    "verified": true,
+    "reviewed_at": "2026-11-20T11:00:35.704Z",
+    "editorial_score": {
+      "total": 17,
+      "breakdown": {
+        "choice": 4,
+        "effect": 4,
+        "lesson": 4,
+        "evidence": 3,
+        "freshness": 2
+      }
+    },
+    "editorial_review": [
+      {
+        "url": "https://www.youtube.com/watch?v=9OHE71sGjiU&t=56s",
+        "locator": "0:56 : musicien vu au très grand-angle, bord du plateau courbé"
+      },
+      {
+        "url": "https://www.universal-music.co.jp/rammstein/news/2026-11-20/",
+        "locator": "Annonce du label du 20 novembre : sortie Live in Mexico City et concerts filmés les 1, 2 et 4 octobre 2022 au Foro Sol"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=9OHE71sGjiU&t=66s",
+        "locator": "1:06 : scène frontale, tours verticales et foule au premier plan"
+      }
+    ],
+    "publication_review": {
+      "scores": {
+        "choice": 4,
+        "effect": 4,
+        "lesson": 4,
+        "evidence": 3,
+        "freshness": 2
+      },
+      "choice": "Vers 0:56, une vue très grand-angle courbe les bords de la scène autour d’un guitariste. Vers 1:06, le plan frontal rétablit les tours verticales au-dessus d’une foule immense. Deux images de la même production donnent ainsi des mesures presque opposées de l’espace.",
+      "effect": "Dans les vues très proches, les lignes courbes ramènent l’architecture autour des interprètes : la scène paraît envelopper la caméra. Le plan large rend au contraire la foule et les tours comparables, et permet de mesurer la hauteur du décor. Le bleu relie ces deux distances. Vers 3:56, le feu remplit l’image d’orange et change brutalement sa densité lumineuse. ^^La puissance vient aussi de la possibilité de comparer l’immensité du dispositif à la taille d’un corps.^^ Sans les vues d’ensemble, les images proches perdraient cette mesure.",
+      "lesson": "Une captation peut organiser ses distances comme des fonctions complémentaires : le plan large donne l’échelle, le point de vue proche donne une place au spectateur. Ici, la déformation du grand-angle intensifie cette seconde fonction. Elle reste lisible parce que d’autres cadres rétablissent la géométrie réelle du spectacle.",
+      "second_reading": "Titre et chaîne officiels confirmés par oEmbed ; YouTube confirme le 19 novembre 2026. La date des concerts est explicitement 2022, pas un spectacle nouveau de 2026. Angle retenu : nouveau film de concert et choix de cadrage. Planches détaillées 0:54–1:10, 2:24–2:40 et 3:54–4:10 examinées. Aucun rythme de montage, mouvement de caméra ni synchronisme au morceau affirmé à partir des seules images fixes. Vignette originale de scène sobre, sans nudité.",
+      "sources": [
+        {
+          "url": "https://www.youtube.com/watch?v=9OHE71sGjiU",
+          "locator": "Vidéo officielle : identité par oEmbed et date par métadonnées uploadDate/publishDate",
+          "opened_at": "2026-11-20T11:00:35.704Z"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=9OHE71sGjiU&t=56s",
+          "locator": "0:56 : musicien vu au très grand-angle, bord du plateau courbé",
+          "opened_at": "2026-11-20T11:00:35.704Z"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=9OHE71sGjiU&t=66s",
+          "locator": "1:06 : scène frontale, tours verticales et foule au premier plan",
+          "opened_at": "2026-11-20T11:00:35.704Z"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=9OHE71sGjiU&t=236s",
+          "locator": "3:56 : écran et scène envahis par la lumière orange de la pyrotechnie",
+          "opened_at": "2026-11-20T11:00:35.704Z"
+        },
+        {
+          "url": "https://www.universal-music.co.jp/rammstein/news/2026-11-20/",
+          "locator": "Annonce du label du 20 novembre : sortie Live in Mexico City et concerts filmés les 1, 2 et 4 octobre 2022 au Foro Sol",
+          "opened_at": "2026-11-20T11:00:35.704Z"
+        },
+        {
+          "url": "https://i.ytimg.com/vi/9OHE71sGjiU/hqdefault.jpg",
+          "locator": "Image ouverte, chargement vérifié et contrôle visuel de la carte",
+          "opened_at": "2026-11-20T11:00:35.704Z"
+        }
+      ],
+      "da_check": {
+        "observation": "Vers 0:56, une vue très grand-angle courbe les bords de la scène autour d’un guitariste. Vers 1:06, le plan frontal rétablit les tours verticales au-dessus d’une foule immense. Deux images de la même production donnent ainsi des mesures presque opposées de l’espace.",
+        "viewer_effect": "Dans les vues très proches, les lignes courbes ramènent l’architecture autour des interprètes : la scène paraît envelopper la caméra. Le plan large rend au contraire la foule et les tours comparables, et permet de mesurer la hauteur du décor. Le bleu relie ces deux distances. Vers 3:56, le feu remplit l’image d’orange et change brutalement sa densité lumineuse. ^^La puissance vient aussi de la possibilité de comparer l’immensité du dispositif à la taille d’un corps.^^ Sans les vues d’ensemble, les images proches perdraient cette mesure.",
+        "project_specific_lesson": "Une captation peut organiser ses distances comme des fonctions complémentaires : le plan large donne l’échelle, le point de vue proche donne une place au spectateur. Ici, la déformation du grand-angle intensifie cette seconde fonction. Elle reste lisible parce que d’autres cadres rétablissent la géométrie réelle du spectacle.",
+        "evidence": [
+          {
+            "url": "https://www.youtube.com/watch?v=9OHE71sGjiU&t=56s",
+            "locator": "0:56 : musicien vu au très grand-angle, bord du plateau courbé"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=9OHE71sGjiU&t=66s",
+            "locator": "1:06 : scène frontale, tours verticales et foule au premier plan"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=9OHE71sGjiU&t=236s",
+            "locator": "3:56 : écran et scène envahis par la lumière orange de la pyrotechnie"
+          }
+        ]
+      }
+    }
+  },
+  "https://www.youtube.com/watch?v=wbR0DrBwtmU": {
+    "title_fr": "Morrissey — Le livre change le sens d’une image tendre",
+    "intro": "Dans « Zoom Zoom the Little Boy », Lewis Cater filme un enfant lecteur entouré d’animaux. Les livres font progressivement passer cette proximité rassurante vers une question sur notre manière de traiter le vivant.",
+    "points": [
+      [
+        "L’essentiel",
+        "Vers 0:08, un album illustré repose sur le canapé auprès de l’enfant. Vers 2:26, la couverture de The Myth of Humane Slaughter entre dans le cadre. La pièce et ses animaux gardent leur douceur, mais ce nouveau livre modifie la lecture de l’ensemble."
+      ],
+      [
+        "Intention",
+        "Le film met en relation l’apprentissage du personnage et les animaux qui l’entourent. On peut lire dans le choix des ouvrages un déplacement de la curiosité vers la responsabilité. Cette lecture est soutenue par le titre visible du livre, sans prétendre décrire les réactions réelles d’un public ni les convictions de l’interprète."
+      ],
+      [
+        "Idée & DA",
+        "Le canapé rayé, les rideaux filtrants et la lumière chaude évitent de transformer le lieu en salle de classe. L’enfant reste installé dans une vie quotidienne. Les plans de mains sur les pages montrent la lecture comme un geste concret, tandis que l’oiseau posé près de lui maintient la présence animale dans le même espace. ^^Le livre apporte une contradiction à l’image confortable, sans que le décor ait besoin de devenir menaçant.^^ Ce décalage donne aux objets un rôle argumentatif : ils font évoluer ce que signifie la scène."
+      ]
+    ],
+    "takeaway": "Un accessoire lisible peut faire changer le sens d’un décor resté presque identique. Ici, le passage du livre illustré à un ouvrage critique suffit à déplacer la tendresse vers une interrogation éthique. Sa précision compte : un livre interchangeable n’aurait pas ce pouvoir.",
+    "source": "Morrissey / Sire Records / Tuff",
+    "source_url": "https://www.youtube.com/watch?v=wbR0DrBwtmU",
+    "source_links": [
+      "https://www.youtube.com/watch?v=wbR0DrBwtmU",
+      "https://www.youtube.com/watch?v=wbR0DrBwtmU&t=8s",
+      "https://www.youtube.com/watch?v=wbR0DrBwtmU&t=146s",
+      "https://www.promonews.tv/videos/2026/11/18/morrissey-zoom-zoom-little-boy-lewis-cater/97020",
+      "https://i.ytimg.com/vi/wbR0DrBwtmU/hqdefault.jpg"
+    ],
+    "verified": true,
+    "reviewed_at": "2026-11-20T11:00:35.704Z",
+    "editorial_score": {
+      "total": 17,
+      "breakdown": {
+        "choice": 4,
+        "effect": 4,
+        "lesson": 4,
+        "evidence": 3,
+        "freshness": 2
+      }
+    },
+    "editorial_review": [
+      {
+        "url": "https://www.youtube.com/watch?v=wbR0DrBwtmU&t=8s",
+        "locator": "0:08 : livre illustré sur le canapé, près de l’enfant"
+      },
+      {
+        "url": "https://www.promonews.tv/videos/2026/11/18/morrissey-zoom-zoom-little-boy-lewis-cater/97020",
+        "locator": "Crédits Lewis Cater réalisation et montage, Skye Prey décor, Rob Russell image ; présentation de l’enfant lecteur et des animaux"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=wbR0DrBwtmU&t=146s",
+        "locator": "2:26 : couverture lisible de The Myth of Humane Slaughter"
+      }
+    ],
+    "publication_review": {
+      "scores": {
+        "choice": 4,
+        "effect": 4,
+        "lesson": 4,
+        "evidence": 3,
+        "freshness": 2
+      },
+      "choice": "Vers 0:08, un album illustré repose sur le canapé auprès de l’enfant. Vers 2:26, la couverture de The Myth of Humane Slaughter entre dans le cadre. La pièce et ses animaux gardent leur douceur, mais ce nouveau livre modifie la lecture de l’ensemble.",
+      "effect": "Le canapé rayé, les rideaux filtrants et la lumière chaude évitent de transformer le lieu en salle de classe. L’enfant reste installé dans une vie quotidienne. Les plans de mains sur les pages montrent la lecture comme un geste concret, tandis que l’oiseau posé près de lui maintient la présence animale dans le même espace. ^^Le livre apporte une contradiction à l’image confortable, sans que le décor ait besoin de devenir menaçant.^^ Ce décalage donne aux objets un rôle argumentatif : ils font évoluer ce que signifie la scène.",
+      "lesson": "Un accessoire lisible peut faire changer le sens d’un décor resté presque identique. Ici, le passage du livre illustré à un ouvrage critique suffit à déplacer la tendresse vers une interrogation éthique. Sa précision compte : un livre interchangeable n’aurait pas ce pouvoir.",
+      "second_reading": "Vidéo originale confirmée ; date YouTube 12 novembre 21 h heure du Pacifique, soit 13 novembre UTC. Planches 0:00–0:16, 1:12–1:28 et 2:24–2:40 examinées. Le titre du livre est lisible à 2:26. La présence d’un crédit VFX ne permet aucune conclusion sur la méthode de tournage des animaux, donc aucune affirmation à ce sujet. L’interprétation éthique est reliée à l’accessoire précis, sans citation inventée d’auteur ni de réalisateur. Vignette originale sobre vérifiée.",
+      "sources": [
+        {
+          "url": "https://www.youtube.com/watch?v=wbR0DrBwtmU",
+          "locator": "Vidéo officielle : identité par oEmbed et date par métadonnées uploadDate/publishDate",
+          "opened_at": "2026-11-20T11:00:35.704Z"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=wbR0DrBwtmU&t=8s",
+          "locator": "0:08 : livre illustré sur le canapé, près de l’enfant",
+          "opened_at": "2026-11-20T11:00:35.704Z"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=wbR0DrBwtmU&t=146s",
+          "locator": "2:26 : couverture lisible de The Myth of Humane Slaughter",
+          "opened_at": "2026-11-20T11:00:35.704Z"
+        },
+        {
+          "url": "https://www.promonews.tv/videos/2026/11/18/morrissey-zoom-zoom-little-boy-lewis-cater/97020",
+          "locator": "Crédits Lewis Cater réalisation et montage, Skye Prey décor, Rob Russell image ; présentation de l’enfant lecteur et des animaux",
+          "opened_at": "2026-11-20T11:00:35.704Z"
+        },
+        {
+          "url": "https://i.ytimg.com/vi/wbR0DrBwtmU/hqdefault.jpg",
+          "locator": "Image ouverte, chargement vérifié et contrôle visuel de la carte",
+          "opened_at": "2026-11-20T11:00:35.704Z"
+        }
+      ],
+      "da_check": {
+        "observation": "Vers 0:08, un album illustré repose sur le canapé auprès de l’enfant. Vers 2:26, la couverture de The Myth of Humane Slaughter entre dans le cadre. La pièce et ses animaux gardent leur douceur, mais ce nouveau livre modifie la lecture de l’ensemble.",
+        "viewer_effect": "Le canapé rayé, les rideaux filtrants et la lumière chaude évitent de transformer le lieu en salle de classe. L’enfant reste installé dans une vie quotidienne. Les plans de mains sur les pages montrent la lecture comme un geste concret, tandis que l’oiseau posé près de lui maintient la présence animale dans le même espace. ^^Le livre apporte une contradiction à l’image confortable, sans que le décor ait besoin de devenir menaçant.^^ Ce décalage donne aux objets un rôle argumentatif : ils font évoluer ce que signifie la scène.",
+        "project_specific_lesson": "Un accessoire lisible peut faire changer le sens d’un décor resté presque identique. Ici, le passage du livre illustré à un ouvrage critique suffit à déplacer la tendresse vers une interrogation éthique. Sa précision compte : un livre interchangeable n’aurait pas ce pouvoir.",
+        "evidence": [
+          {
+            "url": "https://www.youtube.com/watch?v=wbR0DrBwtmU&t=8s",
+            "locator": "0:08 : livre illustré sur le canapé, près de l’enfant"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=wbR0DrBwtmU&t=146s",
+            "locator": "2:26 : couverture lisible de The Myth of Humane Slaughter"
+          }
+        ]
+      }
+    }
   }
 }

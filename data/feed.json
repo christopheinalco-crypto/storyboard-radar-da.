@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-20T07:31:12.193Z",
+  "updated_at": "2026-11-20T11:00:35.704Z",
   "status": "editorial_reviewed",
   "working_feeds": [
     {
@@ -454,6 +454,66 @@
     "with_images": 82
   },
   "items": [
+    {
+      "project_id": "beatles-in-my-life-transmission-2026",
+      "title": "The Beatles — Un instrument relie les époques",
+      "title_fr": "The Beatles — Un instrument relie les époques",
+      "url": "https://www.youtube.com/watch?v=KePvp0-hcn0",
+      "category": "14 Musique Clips",
+      "source": "The Beatles / Apple Corps",
+      "published": "2026-11-19T00:00:00Z",
+      "radar_added_at": "2026-11-20T11:00:35.704Z",
+      "summary": "Le nouveau clip d’« In My Life » traverse une histoire familiale à Liverpool. Jessica Swale et Irina Alexiu utilisent un instrument transmis comme point de repère au milieu des changements d’époque.",
+      "summary_fr": "Le nouveau clip d’« In My Life » traverse une histoire familiale à Liverpool. Jessica Swale et Irina Alexiu utilisent un instrument transmis comme point de repère au milieu des changements d’époque.",
+      "image": "https://i.ytimg.com/vi/KePvp0-hcn0/hqdefault.jpg",
+      "image_kind": "project",
+      "image_credit": "Vignette officielle : The Beatles / Apple Corps, réalisation Jessica Swale et Irina Alexiu.",
+      "image_source_url": "https://www.youtube.com/watch?v=KePvp0-hcn0",
+      "image_alt": "Owen Cooper dans la vignette officielle du nouveau clip In My Life des Beatles.",
+      "status": "editorial_reviewed",
+      "youtube_id": "KePvp0-hcn0",
+      "angle": "Pour raconter une transmission, un objet gagne à avoir une présence précise avant de devenir un symbole. Ici, sa place sur le lit et ses liens avec les personnages rendent l’héritage tangible. Le décor peut alors changer d’époque sans perdre le fil affectif du récit."
+    },
+    {
+      "project_id": "rammstein-du-hast-mexico-captation-2026",
+      "title": "Rammstein — La captation change l’échelle du stade",
+      "title_fr": "Rammstein — La captation change l’échelle du stade",
+      "url": "https://www.youtube.com/watch?v=9OHE71sGjiU",
+      "category": "01 Spectacle Concert",
+      "source": "Rammstein Official / Universal Music",
+      "published": "2026-11-19T00:00:00Z",
+      "radar_added_at": "2026-11-20T11:00:35.704Z",
+      "summary": "L’extrait « Du Hast » de Live in Mexico City oppose la scène monumentale à des vues très proches et déformées des musiciens. Le choix de caméra construit une autre expérience de ce spectacle.",
+      "summary_fr": "L’extrait « Du Hast » de Live in Mexico City oppose la scène monumentale à des vues très proches et déformées des musiciens. Le choix de caméra construit une autre expérience de ce spectacle.",
+      "image": "https://i.ytimg.com/vi/9OHE71sGjiU/hqdefault.jpg",
+      "image_kind": "project",
+      "image_credit": "Vignette officielle : Rammstein, extrait Du Hast de Live in Mexico City.",
+      "image_source_url": "https://www.youtube.com/watch?v=9OHE71sGjiU",
+      "image_alt": "Scène de Rammstein et pyrotechnie au Foro Sol, vignette officielle de Du Hast.",
+      "status": "editorial_reviewed",
+      "youtube_id": "9OHE71sGjiU",
+      "angle": "Une captation peut organiser ses distances comme des fonctions complémentaires : le plan large donne l’échelle, le point de vue proche donne une place au spectateur. Ici, la déformation du grand-angle intensifie cette seconde fonction. Elle reste lisible parce que d’autres cadres rétablissent la géométrie réelle du spectacle."
+    },
+    {
+      "project_id": "morrissey-zoom-zoom-lecture-animaux-2026",
+      "title": "Morrissey — Le livre change le sens d’une image tendre",
+      "title_fr": "Morrissey — Le livre change le sens d’une image tendre",
+      "url": "https://www.youtube.com/watch?v=wbR0DrBwtmU",
+      "category": "14 Musique Clips",
+      "source": "Morrissey / Sire Records / Tuff",
+      "published": "2026-11-13T00:00:00Z",
+      "radar_added_at": "2026-11-20T11:00:35.704Z",
+      "summary": "Dans « Zoom Zoom the Little Boy », Lewis Cater filme un enfant lecteur entouré d’animaux. Les livres font progressivement passer cette proximité rassurante vers une question sur notre manière de traiter le vivant.",
+      "summary_fr": "Dans « Zoom Zoom the Little Boy », Lewis Cater filme un enfant lecteur entouré d’animaux. Les livres font progressivement passer cette proximité rassurante vers une question sur notre manière de traiter le vivant.",
+      "image": "https://i.ytimg.com/vi/wbR0DrBwtmU/hqdefault.jpg",
+      "image_kind": "project",
+      "image_credit": "Vignette officielle : Morrissey / Sire Records, réalisation Lewis Cater, production Tuff.",
+      "image_source_url": "https://www.youtube.com/watch?v=wbR0DrBwtmU",
+      "image_alt": "Un enfant lit sur les marches d’une maison, près d’un chat et d’un perroquet, vignette du clip Zoom Zoom the Little Boy.",
+      "status": "editorial_reviewed",
+      "youtube_id": "wbR0DrBwtmU",
+      "angle": "Un accessoire lisible peut faire changer le sens d’un décor resté presque identique. Ici, le passage du livre illustré à un ouvrage critique suffit à déplacer la tendresse vers une interrogation éthique. Sa précision compte : un livre interchangeable n’aurait pas ce pouvoir."
+    },
     {
       "project_id": "bury-tomorrow-assimilate-pluie-2026",
       "title": "Bury Tomorrow — La pluie rend le visage incertain",

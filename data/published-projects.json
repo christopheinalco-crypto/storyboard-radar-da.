@@ -1,6 +1,6 @@
 {
   "description": "Cumulative seen-project register; retain entries when projects leave the live feed; compare URL and semantic identity.",
-  "updated": "2026-11-20T07:31:12.193Z",
+  "updated": "2026-11-20T11:00:35.704Z",
   "projects": [
     {
       "project_id": "pink-siifu-devils-advocate-gontrand-making-of-2026",
@@ -802,6 +802,36 @@
       "radar_added_at": "2026-11-20T07:31:12.193Z",
       "published_at": "2026-11-20T07:31:12.193Z",
       "wave_id": "2026-11-20-06h",
+      "editorial_score": 17
+    },
+    {
+      "project_id": "beatles-in-my-life-transmission-2026",
+      "title": "The Beatles — Un instrument relie les époques",
+      "url": "https://www.youtube.com/watch?v=KePvp0-hcn0",
+      "category": "14 Musique Clips",
+      "radar_added_at": "2026-11-20T11:00:35.704Z",
+      "published_at": "2026-11-20T11:00:35.704Z",
+      "wave_id": "2026-11-20-12h",
+      "editorial_score": 18
+    },
+    {
+      "project_id": "rammstein-du-hast-mexico-captation-2026",
+      "title": "Rammstein — La captation change l’échelle du stade",
+      "url": "https://www.youtube.com/watch?v=9OHE71sGjiU",
+      "category": "01 Spectacle Concert",
+      "radar_added_at": "2026-11-20T11:00:35.704Z",
+      "published_at": "2026-11-20T11:00:35.704Z",
+      "wave_id": "2026-11-20-12h",
+      "editorial_score": 17
+    },
+    {
+      "project_id": "morrissey-zoom-zoom-lecture-animaux-2026",
+      "title": "Morrissey — Le livre change le sens d’une image tendre",
+      "url": "https://www.youtube.com/watch?v=wbR0DrBwtmU",
+      "category": "14 Musique Clips",
+      "radar_added_at": "2026-11-20T11:00:35.704Z",
+      "published_at": "2026-11-20T11:00:35.704Z",
+      "wave_id": "2026-11-20-12h",
       "editorial_score": 17
     }
   ]
