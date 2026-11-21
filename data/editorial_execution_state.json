@@ -1606,6 +1606,30 @@
           "nayeon-baby-angel-fenetres-portrait-2026"
         ],
         "feed_count": 119
+      },
+      {
+        "id": "2026-11-21-20h",
+        "slot": "2026-11-21-20h",
+        "status": "public_verified",
+        "projects": [
+          "pomme-lumiere-bleue-silhouettes-forteresse-2026",
+          "woodz-mama-seuil-couloir-salle-2026",
+          "sophie-powers-dirty-white-tee-decor-matiere-2026"
+        ],
+        "count": 3,
+        "publication_commit": "bab8f19a3f8001a99ca3b57c2a5faa6c5c0884be",
+        "trigger": "scheduled_editorial",
+        "verified_at": "2026-11-21T19:01:41.758Z",
+        "pages_deployment": "https://github.com/christopheinalco-crypto/storyboard-radar-da./actions/runs/44938586352",
+        "public_render_check": "https://github.com/christopheinalco-crypto/storyboard-radar-da./actions/runs/44938586430",
+        "artifact_id": 14720971042,
+        "proof_head": "bab8f19a3f8001a99ca3b57c2a5faa6c5c0884be",
+        "verified_new_projects": [
+          "pomme-lumiere-bleue-silhouettes-forteresse-2026",
+          "woodz-mama-seuil-couloir-salle-2026",
+          "sophie-powers-dirty-white-tee-decor-matiere-2026"
+        ],
+        "feed_count": 122
       }
     ]
   },
@@ -2624,6 +2648,58 @@
         "checked_at": "2026-11-21T15:26:32.933Z",
         "result": "Collectes et brief frais ; 159 sources ouvertes et 41 RSS exploitables. Commit atomique des trois fichiers relu : exactement trois nouvelles identités conformes au registre. Pages 44917141270 et Chromium 44917141769 confirmés réussis au SHA éditorial. verification.json de l’artefact 14712002378 relu : head et trois verified_new_projects exacts. Aucun nouveau contenu publié par ce contrôle.",
         "recovery_required": false
+      }
+    },
+    "2026-11-21-20h": {
+      "id": "2026-11-21-20h",
+      "status": "complete",
+      "stage": "public_verified",
+      "checked_at": "2026-11-21T19:02:33.798Z",
+      "published_count": 3,
+      "public_render_verified": true,
+      "collection": {
+        "wave_id": "github-44938253675",
+        "coverage_checked_at": "2026-11-21T18:56:52.784964+00:00",
+        "brief_prepared_at": "2026-11-21T18:57:20.538883+00:00",
+        "sources_opened": 158,
+        "rss_collected_at": "2026-11-21T18:56:54.935521+00:00",
+        "rss_parsed": 42,
+        "source_run": "https://github.com/christopheinalco-crypto/storyboard-radar-da./actions/runs/44938253675",
+        "rss_run": "https://github.com/christopheinalco-crypto/storyboard-radar-da./actions/runs/44938255984"
+      },
+      "publication": {
+        "id": "2026-11-21-20h",
+        "slot": "2026-11-21-20h",
+        "status": "public_verified",
+        "projects": [
+          "pomme-lumiere-bleue-silhouettes-forteresse-2026",
+          "woodz-mama-seuil-couloir-salle-2026",
+          "sophie-powers-dirty-white-tee-decor-matiere-2026"
+        ],
+        "count": 3,
+        "publication_commit": "bab8f19a3f8001a99ca3b57c2a5faa6c5c0884be",
+        "trigger": "scheduled_editorial",
+        "verified_at": "2026-11-21T19:01:41.758Z",
+        "pages_deployment": "https://github.com/christopheinalco-crypto/storyboard-radar-da./actions/runs/44938586352",
+        "public_render_check": "https://github.com/christopheinalco-crypto/storyboard-radar-da./actions/runs/44938586430",
+        "artifact_id": 14720971042,
+        "proof_head": "bab8f19a3f8001a99ca3b57c2a5faa6c5c0884be",
+        "verified_new_projects": [
+          "pomme-lumiere-bleue-silhouettes-forteresse-2026",
+          "woodz-mama-seuil-couloir-salle-2026",
+          "sophie-powers-dirty-white-tee-decor-matiere-2026"
+        ],
+        "feed_count": 122
+      },
+      "notes": "Rapports périmés constatés au début ; aucune exécution active, relance des deux collectes et relecture après réussite : 158 sources ouvertes, 42 RSS. Deux clips du 20 novembre et spectacle du 21 novembre. Neuf planches détaillées et vignettes originales examinées, identités oEmbed et dates de la chaîne contrôlées. Pomme : image originale du clip en silhouettes, pas une illustration de remplacement ; inspiration Reiniger seulement parce que créditée. WOODZ : captation séparée, distincte de BIGBANG ; aucune technologie de décor présumée. Sophie Powers : contraste des décors et matières, intention explicitement proposée comme lecture. French Twins Cartier repris, article technique sans vidéo source suffisante : attente, aucun mécanisme secret affirmé. ATEEZ UP prospecté : première publication antérieure aux 72 h malgré des articles récents, non retenu. Pistes anciennes de midi toujours non publiées ; ce créneau ne valide pas rétroactivement midi. ATEEZ : métadonnée de la vidéo officielle consultée, publication réelle le 13 novembre UTC. Pages et Chromium réussis ; verification.json relu dans l’artefact, SHA éditorial et trois identifiants exacts. Trois captures examinées : visuels originaux et décryptages présents, surlignages visibles.",
+      "public_visual_review": {
+        "reviewed_at": "2026-11-21T19:02:33.798Z",
+        "screenshots": [
+          "fiche-1.png",
+          "fiche-2.png",
+          "fiche-3.png"
+        ],
+        "result": "Trois cartes et analyses rendues, vignettes originales chargées. Limite connue des captures intégrales : barre fixe superposée à une bande de contenu ; interface inchangée."
       }
     }
   }
