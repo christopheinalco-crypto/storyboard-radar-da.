@@ -2618,6 +2618,12 @@
           "fiche-3.png"
         ],
         "result": "Trois cartes et analyses rendues, images authentiques chargées, surlignages lisibles. Limite connue de la capture intégrale : barre fixe superposée à une bande de contenu. Interface inchangée."
+      },
+      "follow_up": {
+        "automation": "radar-da-alerte-de-suivi",
+        "checked_at": "2026-11-21T15:26:32.933Z",
+        "result": "Collectes et brief frais ; 159 sources ouvertes et 41 RSS exploitables. Commit atomique des trois fichiers relu : exactement trois nouvelles identités conformes au registre. Pages 44917141270 et Chromium 44917141769 confirmés réussis au SHA éditorial. verification.json de l’artefact 14712002378 relu : head et trois verified_new_projects exacts. Aucun nouveau contenu publié par ce contrôle.",
+        "recovery_required": false
       }
     }
   }
