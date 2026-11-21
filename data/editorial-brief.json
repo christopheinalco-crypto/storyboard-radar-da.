@@ -1,17 +1,17 @@
 {
-  "wave_id": "github-44938253675",
-  "prepared_at": "2026-11-21T18:57:20.538883+00:00",
-  "coverage_checked_at": "2026-11-21T18:56:52.784964+00:00",
+  "wave_id": "github-44946251614",
+  "prepared_at": "2026-11-21T20:26:35.170703+00:00",
+  "coverage_checked_at": "2026-11-21T20:26:06.978574+00:00",
   "coverage": {
     "attempted": 182,
-    "opened_successfully": 158,
-    "failed": 24,
+    "opened_successfully": 159,
+    "failed": 23,
     "target_met": true
   },
   "project_inspections": {
     "attempted": 160,
-    "opened": 159,
-    "failed": 1
+    "opened": 157,
+    "failed": 3
   },
   "research_only": true,
   "warning": "Mechanical triage, NOT editorial selection. Dates, identity, DA value, image rights and public rendering remain unverified. Editor must also research fresh projects externally.",
@@ -26,10 +26,10 @@
     "06 Retail Brand Experience": 1
   },
   "excluded_counts": {
-    "navigation_or_product": 40,
+    "navigation_or_product": 38,
     "not_project_like": 56,
     "metadata_older_than_72h": 15,
-    "not_opened": 1,
+    "not_opened": 3,
     "non_priority_category": 1
   },
   "items": [
@@ -39,7 +39,7 @@
       "category": "14 Musique Clips",
       "source": "Directors Notes",
       "published_date_claim": "2026-11-20T16:19:37+00:00",
-      "age_hours_claim": 26.6,
+      "age_hours_claim": 28.1,
       "date_verified": false,
       "project_identity_verified": false,
       "image_candidate_unverified": "https://directorsnotes.com/wp-content/uploads/2026/11/a_serious_thought_tallinn_black_nights_ff_01.jpg",
@@ -84,7 +84,7 @@
       "category": "09 France Pro",
       "source": "Revue AS",
       "published_date_claim": "2026-11-21T09:18:00+00:00",
-      "age_hours_claim": 9.6,
+      "age_hours_claim": 11.1,
       "date_verified": false,
       "project_identity_verified": false,
       "image_candidate_unverified": "https://www.revue-as.fr/wp-content/uploads/2025/12/picto-nouvelles-technologies-e1764671485178.png",
@@ -114,7 +114,7 @@
       "category": "14 Musique Clips",
       "source": "Directors Notes",
       "published_date_claim": "2026-11-19T19:24:50+00:00",
-      "age_hours_claim": 47.5,
+      "age_hours_claim": 49.0,
       "date_verified": false,
       "project_identity_verified": false,
       "image_candidate_unverified": "https://directorsnotes.com/wp-content/uploads/2026/11/allies_in_exile_01.jpg",
@@ -159,7 +159,7 @@
       "category": "09 France Pro",
       "source": "Revue AS",
       "published_date_claim": "2026-11-20T09:50:00+00:00",
-      "age_hours_claim": 33.1,
+      "age_hours_claim": 34.6,
       "date_verified": false,
       "project_identity_verified": false,
       "image_candidate_unverified": "https://www.revue-as.fr/wp-content/uploads/2026/11/CID_ALEAS_MEYNIEL_VERSCHAEVE_CAROLINE_DETHIER_001-scaled-e1795186647541.jpg",
@@ -204,7 +204,7 @@
       "category": "09 France Pro",
       "source": "Revue AS",
       "published_date_claim": "2026-11-19T05:48:00+00:00",
-      "age_hours_claim": 61.1,
+      "age_hours_claim": 62.6,
       "date_verified": false,
       "project_identity_verified": false,
       "image_candidate_unverified": "https://www.revue-as.fr/wp-content/uploads/2026/09/A15-01-portraitNF.jpg",
