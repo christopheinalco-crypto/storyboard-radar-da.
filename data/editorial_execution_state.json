@@ -2700,6 +2700,12 @@
           "fiche-3.png"
         ],
         "result": "Trois cartes et analyses rendues, vignettes originales chargées. Limite connue des captures intégrales : barre fixe superposée à une bande de contenu ; interface inchangée."
+      },
+      "follow_up": {
+        "automation": "radar-da-alerte-de-suivi",
+        "checked_at": "2026-11-21T19:31:35.456Z",
+        "result": "158 sources ouvertes, 42 RSS exploitables, rapports et brief frais. Trois nouveautés du commit atomique recoupées avec les analyses et le registre du créneau. Pages 44938586352 et Chromium 44938586430 confirmés réussis au SHA bab8f19a3f8001a99ca3b57c2a5faa6c5c0884be. verification.json relu dans le ZIP de l’artefact 14720971042 : SHA et trois identifiants strictement conformes. Aucune publication par l’alerte.",
+        "recovery_required": false
       }
     }
   }
