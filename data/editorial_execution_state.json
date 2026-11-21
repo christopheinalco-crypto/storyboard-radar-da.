@@ -1582,6 +1582,30 @@
           "soak-transmitter-park-distance-2026"
         ],
         "feed_count": 116
+      },
+      {
+        "id": "2026-11-21-16h",
+        "slot": "2026-11-21-16h",
+        "status": "public_verified",
+        "projects": [
+          "tommy-richman-narcissist-chaleur-regard-2026",
+          "bigbang-mama-cosmos-invites-image-2026",
+          "nayeon-baby-angel-fenetres-portrait-2026"
+        ],
+        "count": 3,
+        "publication_commit": "fef5fc852fdd7adea97b8e00e5ac804b61be3ad6",
+        "trigger": "scheduled_editorial",
+        "verified_at": "2026-11-21T15:04:42.625Z",
+        "pages_deployment": "https://github.com/christopheinalco-crypto/storyboard-radar-da./actions/runs/44917141270",
+        "public_render_check": "https://github.com/christopheinalco-crypto/storyboard-radar-da./actions/runs/44917141769",
+        "artifact_id": 14712002378,
+        "proof_head": "fef5fc852fdd7adea97b8e00e5ac804b61be3ad6",
+        "verified_new_projects": [
+          "tommy-richman-narcissist-chaleur-regard-2026",
+          "bigbang-mama-cosmos-invites-image-2026",
+          "nayeon-baby-angel-fenetres-portrait-2026"
+        ],
+        "feed_count": 119
       }
     ]
   },
@@ -2538,7 +2562,63 @@
         "result": "Collectes fraîches et réussies ; aucune publication éditoriale pour ce créneau. Le déploiement 44896911616 concerne les rapports de collecte, sans nouvelle fiche. Dernière preuve Chromium du créneau de 6 h uniquement. Reprendre la sélection, les analyses et le contrôle public au prochain passage éditorial.",
         "recovery_required": true
       },
-      "notes": "Contrôle de suivi uniquement, aucune fiche publiée par cette alerte. Ne pas présenter la réussite de Pages sur les rapports comme une publication de veille."
+      "notes": "Contrôle de suivi uniquement, aucune fiche publiée par cette alerte. Ne pas présenter la réussite de Pages sur les rapports comme une publication de veille.",
+      "recovery_review": {
+        "checked_at": "2026-11-21T15:04:00.931Z",
+        "result": "Pistes reprises à 16 h ; Chip City trop ancien, autres pistes toujours insuffisamment établies. Aucun commit éditorial pour midi, créneau non validé."
+      }
+    },
+    "2026-11-21-16h": {
+      "id": "2026-11-21-16h",
+      "status": "complete",
+      "stage": "public_verified",
+      "checked_at": "2026-11-21T15:05:43.123Z",
+      "published_count": 3,
+      "public_render_verified": true,
+      "collection": {
+        "wave_id": "github-44916748146",
+        "coverage_checked_at": "2026-11-21T14:59:31.346721+00:00",
+        "brief_prepared_at": "2026-11-21T14:59:59.979253+00:00",
+        "sources_opened": 159,
+        "rss_collected_at": "2026-11-21T14:59:40.481579+00:00",
+        "rss_parsed": 41,
+        "source_run": "https://github.com/christopheinalco-crypto/storyboard-radar-da./actions/runs/44916748146",
+        "rss_run": "https://github.com/christopheinalco-crypto/storyboard-radar-da./actions/runs/44916750169"
+      },
+      "publication": {
+        "id": "2026-11-21-16h",
+        "slot": "2026-11-21-16h",
+        "status": "public_verified",
+        "projects": [
+          "tommy-richman-narcissist-chaleur-regard-2026",
+          "bigbang-mama-cosmos-invites-image-2026",
+          "nayeon-baby-angel-fenetres-portrait-2026"
+        ],
+        "count": 3,
+        "publication_commit": "fef5fc852fdd7adea97b8e00e5ac804b61be3ad6",
+        "trigger": "scheduled_editorial",
+        "verified_at": "2026-11-21T15:04:42.625Z",
+        "pages_deployment": "https://github.com/christopheinalco-crypto/storyboard-radar-da./actions/runs/44917141270",
+        "public_render_check": "https://github.com/christopheinalco-crypto/storyboard-radar-da./actions/runs/44917141769",
+        "artifact_id": 14712002378,
+        "proof_head": "fef5fc852fdd7adea97b8e00e5ac804b61be3ad6",
+        "verified_new_projects": [
+          "tommy-richman-narcissist-chaleur-regard-2026",
+          "bigbang-mama-cosmos-invites-image-2026",
+          "nayeon-baby-angel-fenetres-portrait-2026"
+        ],
+        "feed_count": 119
+      },
+      "notes": "Collectes relancées après vérification de leur absence d’exécution active. 159 sources ouvertes, 41 RSS. Clip / spectacle / clip, dates réelles 20–21 novembre vérifiées sur les chaînes officielles. Planches officielles examinées dans leur ensemble et neuf planches détaillées ; vignettes originales sobres contrôlées. Aucun mouvement ni raccord musical déduit des images fixes. Reprise des pistes de midi : Chip City daté du 21 octobre (Stereogum et communiqué New West), rejet du flux récent ; Stray Era vidéo du 14 octobre et Arthur Hill vidéo du 23 octobre, articles récents mais clips anciens. Taylor Hanson et Anna Lapwood restent sans preuves visuelles suffisantes pour leur angle. JISOO Sun Showers prospecté, non retenu dans cette sélection. Aucun déploiement de collecte compté comme vague. Pages et Chromium réussis ; verification.json relu, SHA et trois identifiants exacts. Trois captures publiques examinées : images originales et décryptages présents, surlignages visibles. La catégorie spectacle a été corrigée avant tout envoi après veto du validateur d’alternance.",
+      "public_visual_review": {
+        "reviewed_at": "2026-11-21T15:05:43.123Z",
+        "screenshots": [
+          "fiche-1.png",
+          "fiche-2.png",
+          "fiche-3.png"
+        ],
+        "result": "Trois cartes et analyses rendues, images authentiques chargées, surlignages lisibles. Limite connue de la capture intégrale : barre fixe superposée à une bande de contenu. Interface inchangée."
+      }
     }
   }
 }
