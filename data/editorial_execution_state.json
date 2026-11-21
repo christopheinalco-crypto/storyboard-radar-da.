@@ -1558,6 +1558,30 @@
           "does-donwori-habitacle-distance-2026"
         ],
         "feed_count": 113
+      },
+      {
+        "id": "2026-11-21-06h",
+        "slot": "2026-11-21-06h",
+        "status": "public_verified",
+        "projects": [
+          "karlee-girl-get-em-girls-karleeworld-2026",
+          "lainey-wilson-just-a-woman-cma-2026",
+          "soak-transmitter-park-distance-2026"
+        ],
+        "count": 3,
+        "publication_commit": "2c252124523d1bf5a3797bef67791a02e8cabf6a",
+        "trigger": "scheduled_editorial_recovery",
+        "verified_at": "2026-11-21T09:11:55.212Z",
+        "pages_deployment": "https://github.com/christopheinalco-crypto/storyboard-radar-da./actions/runs/44888346940",
+        "public_render_check": "https://github.com/christopheinalco-crypto/storyboard-radar-da./actions/runs/44888347211",
+        "artifact_id": 14701460631,
+        "proof_head": "2c252124523d1bf5a3797bef67791a02e8cabf6a",
+        "verified_new_projects": [
+          "karlee-girl-get-em-girls-karleeworld-2026",
+          "lainey-wilson-just-a-woman-cma-2026",
+          "soak-transmitter-park-distance-2026"
+        ],
+        "feed_count": 116
       }
     ]
   },
@@ -2425,18 +2449,20 @@
     },
     "2026-11-21-06h": {
       "id": "2026-11-21-06h",
-      "status": "incomplete",
-      "stage": "collection_refresh_required",
-      "checked_at": "2026-11-21T09:06:06.113Z",
-      "published_count": 0,
-      "public_render_verified": false,
+      "status": "complete",
+      "stage": "public_verified",
+      "checked_at": "2026-11-21T09:13:08.778Z",
+      "published_count": 3,
+      "public_render_verified": true,
       "collection": {
-        "wave_id": "github-44824136042",
-        "coverage_checked_at": "2026-11-20T21:52:46.781333+00:00",
-        "brief_prepared_at": "2026-11-20T21:53:21.200202+00:00",
-        "sources_opened": 156,
-        "rss_collected_at": "2026-11-20T21:57:28.543482+00:00",
-        "rss_parsed": 42
+        "wave_id": "github-44888029178",
+        "coverage_checked_at": "2026-11-21T09:07:09.207270+00:00",
+        "brief_prepared_at": "2026-11-21T09:07:36.943364+00:00",
+        "sources_opened": 159,
+        "rss_collected_at": "2026-11-21T09:07:10.938453+00:00",
+        "rss_parsed": 40,
+        "source_run": "https://github.com/christopheinalco-crypto/storyboard-radar-da./actions/runs/44888029178",
+        "rss_run": "https://github.com/christopheinalco-crypto/storyboard-radar-da./actions/runs/44888031626"
       },
       "follow_up": {
         "automation": "radar-da-alerte-de-suivi",
@@ -2454,7 +2480,40 @@
         "latest_runs_are_new_wave": false,
         "next_action": "Au prochain passage éditorial : rafraîchir les collectes, reprendre les pistes en attente et poursuivre la prospection. Ne compter aucune vague sans publication atomique et artefact Chromium correspondant."
       },
-      "notes": "Contrôle reçu en retard à 10 h 04 Paris : créneau échu de 06 h conservé. Aucune publication annoncée ni commit éditorial pour ce créneau. Le dernier rendu réussi concerne uniquement la mise à jour de l’Atelier dans index.html ; il ne prouve aucune nouvelle fiche. Collectes de la veille périmées. Aucune fiche publiée par cette alerte."
+      "notes": "Créneau retardé de 6 h repris sans basculer à midi. Collectes actualisées réussies. Dates vidéo distinctes des relais presse vérifiées pour les trois projets. Piste beabadoobee identifiée comme lyric video, non retenue sans mécanisme visuel suffisamment établi. Anna Lapwood et Taylor Hanson restent en attente des preuves précédemment manquantes. Aucun doublon ajouté. Contrôle public réussi, manifeste exact relu et trois captures examinées.",
+      "publication": {
+        "id": "2026-11-21-06h",
+        "slot": "2026-11-21-06h",
+        "status": "public_verified",
+        "projects": [
+          "karlee-girl-get-em-girls-karleeworld-2026",
+          "lainey-wilson-just-a-woman-cma-2026",
+          "soak-transmitter-park-distance-2026"
+        ],
+        "count": 3,
+        "publication_commit": "2c252124523d1bf5a3797bef67791a02e8cabf6a",
+        "trigger": "scheduled_editorial_recovery",
+        "verified_at": "2026-11-21T09:11:55.212Z",
+        "pages_deployment": "https://github.com/christopheinalco-crypto/storyboard-radar-da./actions/runs/44888346940",
+        "public_render_check": "https://github.com/christopheinalco-crypto/storyboard-radar-da./actions/runs/44888347211",
+        "artifact_id": 14701460631,
+        "proof_head": "2c252124523d1bf5a3797bef67791a02e8cabf6a",
+        "verified_new_projects": [
+          "karlee-girl-get-em-girls-karleeworld-2026",
+          "lainey-wilson-just-a-woman-cma-2026",
+          "soak-transmitter-park-distance-2026"
+        ],
+        "feed_count": 116
+      },
+      "public_visual_review": {
+        "reviewed_at": "2026-11-21T09:13:08.779Z",
+        "screenshots": [
+          "fiche-1.png",
+          "fiche-2.png",
+          "fiche-3.png"
+        ],
+        "result": "Trois visuels officiels chargés, décryptages et surlignages rendus. Portrait rapproché Karlee Girl contrôlé pour la sobriété. Limite connue des captures intégrales : bande fixe superposée au contenu ; interface non modifiée."
+      }
     }
   }
 }
