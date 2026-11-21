@@ -1,6 +1,6 @@
 {
   "description": "Cumulative seen-project register; retain entries when projects leave the live feed; compare URL and semantic identity.",
-  "updated": "2026-11-21T15:02:56.239Z",
+  "updated": "2026-11-21T19:00:32.200Z",
   "projects": [
     {
       "project_id": "pink-siifu-devils-advocate-gontrand-making-of-2026",
@@ -953,6 +953,36 @@
       "published_at": "2026-11-21T15:02:56.239Z",
       "wave_id": "2026-11-21-16h",
       "editorial_score": 18
+    },
+    {
+      "project_id": "pomme-lumiere-bleue-silhouettes-forteresse-2026",
+      "title": "Pomme — La silhouette donne un corps à la forteresse",
+      "url": "https://www.youtube.com/watch?v=5IYRp-_mUKE",
+      "category": "14 Musique Clips",
+      "radar_added_at": "2026-11-21T19:00:32.200Z",
+      "published_at": "2026-11-21T19:00:32.200Z",
+      "wave_id": "2026-11-21-20h",
+      "editorial_score": 19
+    },
+    {
+      "project_id": "woodz-mama-seuil-couloir-salle-2026",
+      "title": "WOODZ — Un passage dans le décor donne une destination au show",
+      "url": "https://www.youtube.com/watch?v=b-ivUp5KmrU",
+      "category": "01 Spectacle Concert",
+      "radar_added_at": "2026-11-21T19:00:32.200Z",
+      "published_at": "2026-11-21T19:00:32.200Z",
+      "wave_id": "2026-11-21-20h",
+      "editorial_score": 18
+    },
+    {
+      "project_id": "sophie-powers-dirty-white-tee-decor-matiere-2026",
+      "title": "Sophie Powers — Le vêtement relie deux états incompatibles du décor",
+      "url": "https://www.youtube.com/watch?v=sLgulHu_h_Q",
+      "category": "14 Musique Clips",
+      "radar_added_at": "2026-11-21T19:00:32.200Z",
+      "published_at": "2026-11-21T19:00:32.200Z",
+      "wave_id": "2026-11-21-20h",
+      "editorial_score": 17
     }
   ]
 }

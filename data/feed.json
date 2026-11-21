@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-21T15:02:56.239Z",
+  "updated_at": "2026-11-21T19:00:32.200Z",
   "status": "editorial_reviewed",
   "working_feeds": [
     {
@@ -454,6 +454,66 @@
     "with_images": 82
   },
   "items": [
+    {
+      "project_id": "pomme-lumiere-bleue-silhouettes-forteresse-2026",
+      "title": "Pomme — La silhouette donne un corps à la forteresse",
+      "title_fr": "Pomme — La silhouette donne un corps à la forteresse",
+      "url": "https://www.youtube.com/watch?v=5IYRp-_mUKE",
+      "category": "14 Musique Clips",
+      "source": "Pomme / Sois Sage Musique / Distorsion Films",
+      "published": "2026-11-20T00:00:00Z",
+      "radar_added_at": "2026-11-21T19:00:32.200Z",
+      "summary": "Dans lumière bleue, Pomme et Céline Bischoff construisent un monde de silhouettes, d’arches et de ruines. La lisibilité du contour permet au corps de traverser des espaces impossibles.",
+      "summary_fr": "Dans lumière bleue, Pomme et Céline Bischoff construisent un monde de silhouettes, d’arches et de ruines. La lisibilité du contour permet au corps de traverser des espaces impossibles.",
+      "image": "https://i.ytimg.com/vi/5IYRp-_mUKE/hqdefault.jpg",
+      "image_kind": "project",
+      "image_credit": "Image originale du clip : Pomme / Sois Sage Musique — réalisation Céline Bischoff et Claire Pommet, Distorsion Films",
+      "image_source_url": "https://www.youtube.com/watch?v=5IYRp-_mUKE",
+      "image_alt": "Image du clip lumière bleue : silhouette de Pomme au chapeau face à une forteresse noire sur fond bleu",
+      "status": "editorial_reviewed",
+      "youtube_id": "5IYRp-_mUKE",
+      "angle": "Pour un DA, ^^le détail utile est celui qui reste perceptible dans le langage choisi^^. Ici, une forme de chapeau et une ouverture dans une ruine donnent plus d’information qu’une texture fine. Quand le monde se complique, ces quelques repères maintiennent la présence du personnage et la cohérence du conte."
+    },
+    {
+      "project_id": "woodz-mama-seuil-couloir-salle-2026",
+      "title": "WOODZ — Un passage dans le décor donne une destination au show",
+      "title_fr": "WOODZ — Un passage dans le décor donne une destination au show",
+      "url": "https://www.youtube.com/watch?v=b-ivUp5KmrU",
+      "category": "01 Spectacle Concert",
+      "source": "Mnet K-POP / CJ ENM",
+      "published": "2026-11-21T00:00:00Z",
+      "radar_added_at": "2026-11-21T19:00:32.200Z",
+      "summary": "Pour Come into my world! aux MAMA, l’entrée prend la forme d’un couloir au milieu d’une façade rocheuse. Le décor propose un lieu à franchir avant l’ouverture vers la salle.",
+      "summary_fr": "Pour Come into my world! aux MAMA, l’entrée prend la forme d’un couloir au milieu d’une façade rocheuse. Le décor propose un lieu à franchir avant l’ouverture vers la salle.",
+      "image": "https://i.ytimg.com/vi/b-ivUp5KmrU/hqdefault.jpg",
+      "image_kind": "project",
+      "image_credit": "Vignette officielle : Mnet K-POP / CJ ENM — WOODZ, MAMA AWARDS 2026",
+      "image_source_url": "https://www.youtube.com/watch?v=b-ivUp5KmrU",
+      "image_alt": "WOODZ dans son costume gris clair, vignette de sa prestation Come into my world! aux MAMA 2026",
+      "status": "editorial_reviewed",
+      "youtube_id": "b-ivUp5KmrU",
+      "angle": "Pour un DA de spectacle, ^^un seuil peut être plus narratif qu’un fond spectaculaire^^. Il relie un espace imaginaire à l’arrivée concrète de l’interprète. Sa force ici tient au maintien d’une figure lisible quand le show passe du passage resserré à l’échelle du dôme et de ses invités."
+    },
+    {
+      "project_id": "sophie-powers-dirty-white-tee-decor-matiere-2026",
+      "title": "Sophie Powers — Le vêtement relie deux états incompatibles du décor",
+      "title_fr": "Sophie Powers — Le vêtement relie deux états incompatibles du décor",
+      "url": "https://www.youtube.com/watch?v=sLgulHu_h_Q",
+      "category": "14 Musique Clips",
+      "source": "Sophie Powers / We Don’t Exist",
+      "published": "2026-11-20T00:00:00Z",
+      "radar_added_at": "2026-11-21T19:00:32.200Z",
+      "summary": "Dirty White Tee oppose une pièce blanche presque vide à une laverie sombre. Le vêtement et les cheveux changent de présence entre ces deux mondes, donnant un rôle narratif à la matière.",
+      "summary_fr": "Dirty White Tee oppose une pièce blanche presque vide à une laverie sombre. Le vêtement et les cheveux changent de présence entre ces deux mondes, donnant un rôle narratif à la matière.",
+      "image": "https://i.ytimg.com/vi/sLgulHu_h_Q/hqdefault.jpg",
+      "image_kind": "project",
+      "image_credit": "Vignette officielle : Sophie Powers — réalisation jordiedotcom, We Don’t Exist",
+      "image_source_url": "https://www.youtube.com/watch?v=sLgulHu_h_Q",
+      "image_alt": "Sophie Powers en tee-shirt blanc dans le décor clair de Dirty White Tee",
+      "status": "editorial_reviewed",
+      "youtube_id": "sLgulHu_h_Q",
+      "angle": "Pour un DA, ^^un contraste d’univers devient plus convaincant lorsqu’il transforme aussi un élément proche du personnage^^. Ici, le tissu et les cheveux rendent sensible ce que le changement de pièce aurait pu laisser extérieur. La cohérence vient de cette transformation partagée entre lieu, lumière et apparence, pas du seul écart entre un décor blanc et un décor noir."
+    },
     {
       "project_id": "tommy-richman-narcissist-chaleur-regard-2026",
       "title": "Tommy Richman — La soirée change de regard avec l’image thermique",
