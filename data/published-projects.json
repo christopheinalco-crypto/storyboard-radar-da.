@@ -1,6 +1,6 @@
 {
   "description": "Cumulative seen-project register; retain entries when projects leave the live feed; compare URL and semantic identity.",
-  "updated": "2026-11-21T09:10:32.357Z",
+  "updated": "2026-11-21T15:02:56.239Z",
   "projects": [
     {
       "project_id": "pink-siifu-devils-advocate-gontrand-making-of-2026",
@@ -923,6 +923,36 @@
       "published_at": "2026-11-21T09:10:32.357Z",
       "wave_id": "2026-11-21-06h",
       "editorial_score": 15
+    },
+    {
+      "project_id": "tommy-richman-narcissist-chaleur-regard-2026",
+      "title": "Tommy Richman — La soirée change de regard avec l’image thermique",
+      "url": "https://www.youtube.com/watch?v=y_kEy8I7_zI",
+      "category": "14 Musique Clips",
+      "radar_added_at": "2026-11-21T15:02:56.239Z",
+      "published_at": "2026-11-21T15:02:56.239Z",
+      "wave_id": "2026-11-21-16h",
+      "editorial_score": 18
+    },
+    {
+      "project_id": "bigbang-mama-cosmos-invites-image-2026",
+      "title": "BIGBANG — La retransmission ouvre une seconde scène aux personnages",
+      "url": "https://www.youtube.com/watch?v=f0-Oq0kh298",
+      "category": "01 Spectacle Concert",
+      "radar_added_at": "2026-11-21T15:02:56.239Z",
+      "published_at": "2026-11-21T15:02:56.239Z",
+      "wave_id": "2026-11-21-16h",
+      "editorial_score": 18
+    },
+    {
+      "project_id": "nayeon-baby-angel-fenetres-portrait-2026",
+      "title": "NAYEON — Les fenêtres d’ordinateur deviennent des cadres de personnage",
+      "url": "https://www.youtube.com/watch?v=0JQ9k6kcKVs",
+      "category": "14 Musique Clips",
+      "radar_added_at": "2026-11-21T15:02:56.239Z",
+      "published_at": "2026-11-21T15:02:56.239Z",
+      "wave_id": "2026-11-21-16h",
+      "editorial_score": 18
     }
   ]
 }

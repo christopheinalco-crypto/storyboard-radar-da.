@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-21T09:10:32.357Z",
+  "updated_at": "2026-11-21T15:02:56.239Z",
   "status": "editorial_reviewed",
   "working_feeds": [
     {
@@ -454,6 +454,66 @@
     "with_images": 82
   },
   "items": [
+    {
+      "project_id": "tommy-richman-narcissist-chaleur-regard-2026",
+      "title": "Tommy Richman — La soirée change de regard avec l’image thermique",
+      "title_fr": "Tommy Richman — La soirée change de regard avec l’image thermique",
+      "url": "https://www.youtube.com/watch?v=y_kEy8I7_zI",
+      "category": "14 Musique Clips",
+      "source": "Tommy Richman / PULSE Records",
+      "published": "2026-11-20T00:00:00Z",
+      "radar_added_at": "2026-11-21T15:02:56.239Z",
+      "summary": "Dans Narcissist, Josh Flores confronte les portraits sombres d’une fête à une image thermique saturée. La même proximité devient tour à tour une pose sociale et une présence physique.",
+      "summary_fr": "Dans Narcissist, Josh Flores confronte les portraits sombres d’une fête à une image thermique saturée. La même proximité devient tour à tour une pose sociale et une présence physique.",
+      "image": "https://i.ytimg.com/vi/y_kEy8I7_zI/hqdefault.jpg",
+      "image_kind": "project",
+      "image_credit": "Vignette officielle : Tommy Richman / PULSE Records — réalisation Josh Flores",
+      "image_source_url": "https://www.youtube.com/watch?v=y_kEy8I7_zI",
+      "image_alt": "Tommy Richman en manteau sombre dans l’escalier du clip Narcissist",
+      "status": "editorial_reviewed",
+      "youtube_id": "y_kEy8I7_zI",
+      "angle": "Ici, la seconde image apporte quelque chose parce qu’elle change les informations disponibles sur les mêmes présences. Pour un DA, ^^changer de régime de vision peut porter le propos^^, à condition de conserver assez de situations communes pour que le spectateur comprenne la différence. Une palette spectaculaire isolée ne produirait pas cette comparaison."
+    },
+    {
+      "project_id": "bigbang-mama-cosmos-invites-image-2026",
+      "title": "BIGBANG — La retransmission ouvre une seconde scène aux personnages",
+      "title_fr": "BIGBANG — La retransmission ouvre une seconde scène aux personnages",
+      "url": "https://www.youtube.com/watch?v=f0-Oq0kh298",
+      "category": "01 Spectacle Concert",
+      "source": "Mnet K-POP / CJ ENM",
+      "published": "2026-11-21T00:00:00Z",
+      "radar_added_at": "2026-11-21T15:02:56.239Z",
+      "summary": "Aux MAMA du 21 novembre, la prestation de BIGBANG fait dialoguer le plateau et un monde de personnages animés. L’intérêt se situe dans leur place au sein de l’image télévisée.",
+      "summary_fr": "Aux MAMA du 21 novembre, la prestation de BIGBANG fait dialoguer le plateau et un monde de personnages animés. L’intérêt se situe dans leur place au sein de l’image télévisée.",
+      "image": "https://i.ytimg.com/vi/f0-Oq0kh298/hqdefault.jpg",
+      "image_kind": "project",
+      "image_credit": "Vignette de la captation officielle : Mnet K-POP / CJ ENM, MAMA AWARDS 2026",
+      "image_source_url": "https://www.youtube.com/watch?v=f0-Oq0kh298",
+      "image_alt": "BIGBANG et les danseurs sur le plateau des MAMA 2026, décor et lumières roses",
+      "status": "editorial_reviewed",
+      "youtube_id": "f0-Oq0kh298",
+      "angle": "Pour un DA de show, ^^l’emplacement d’un personnage dans l’image compte autant que son dessin^^. Le situer au-dessus du public lui donne une autre relation au concert que le placer derrière les chanteurs. Ce projet rappelle aussi de concevoir séparément ce que reçoit la salle et ce que construit la retransmission, puis leurs points de rencontre."
+    },
+    {
+      "project_id": "nayeon-baby-angel-fenetres-portrait-2026",
+      "title": "NAYEON — Les fenêtres d’ordinateur deviennent des cadres de personnage",
+      "title_fr": "NAYEON — Les fenêtres d’ordinateur deviennent des cadres de personnage",
+      "url": "https://www.youtube.com/watch?v=0JQ9k6kcKVs",
+      "category": "14 Musique Clips",
+      "source": "NAYEON / JYP Entertainment",
+      "published": "2026-11-20T00:00:00Z",
+      "radar_added_at": "2026-11-21T15:02:56.239Z",
+      "summary": "BABY ANGEL fait du bureau numérique un espace de mise en scène. Fenêtre vidéo, appel à deux et architecture de nuages proposent différentes façons d’encadrer la même artiste.",
+      "summary_fr": "BABY ANGEL fait du bureau numérique un espace de mise en scène. Fenêtre vidéo, appel à deux et architecture de nuages proposent différentes façons d’encadrer la même artiste.",
+      "image": "https://i.ytimg.com/vi/0JQ9k6kcKVs/hqdefault.jpg",
+      "image_kind": "project",
+      "image_credit": "Vignette officielle du clip : NAYEON / JYP Entertainment",
+      "image_source_url": "https://www.youtube.com/watch?v=0JQ9k6kcKVs",
+      "image_alt": "NAYEON dans une fenêtre sur fond jaune, entourée d’un bureau numérique bleu",
+      "status": "editorial_reviewed",
+      "youtube_id": "0JQ9k6kcKVs",
+      "angle": "Pour un DA, ^^un motif devient solide lorsqu’il accepte plusieurs fonctions^^. Ici, la fenêtre garde le lien entre des univers très différents parce qu’elle continue à organiser notre accès à NAYEON. La leçon transférable porte sur cette continuité du cadre et de la relation, davantage que sur l’imitation d’un ancien système d’exploitation."
+    },
     {
       "project_id": "karlee-girl-get-em-girls-karleeworld-2026",
       "title": "Karlee Girl — Une connexion ouvre un monde entre amies",
