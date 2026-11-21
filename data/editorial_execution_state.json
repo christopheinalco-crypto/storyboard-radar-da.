@@ -2514,6 +2514,31 @@
         ],
         "result": "Trois visuels officiels chargés, décryptages et surlignages rendus. Portrait rapproché Karlee Girl contrôlé pour la sobriété. Limite connue des captures intégrales : bande fixe superposée au contenu ; interface non modifiée."
       }
+    },
+    "2026-11-21-12h": {
+      "id": "2026-11-21-12h",
+      "status": "incomplete",
+      "stage": "editorial_review_pending",
+      "checked_at": "2026-11-21T11:35:40.222Z",
+      "published_count": 0,
+      "public_render_verified": false,
+      "collection": {
+        "wave_id": "github-44896853286",
+        "coverage_checked_at": "2026-11-21T10:58:48.635088+00:00",
+        "brief_prepared_at": "2026-11-21T10:59:13.673160+00:00",
+        "sources_opened": 156,
+        "rss_collected_at": "2026-11-21T10:58:50.479962+00:00",
+        "rss_parsed": 42,
+        "source_run": "https://github.com/christopheinalco-crypto/storyboard-radar-da./actions/runs/44896853286",
+        "rss_run": "https://github.com/christopheinalco-crypto/storyboard-radar-da./actions/runs/44896855688"
+      },
+      "follow_up": {
+        "automation": "radar-da-alerte-de-suivi",
+        "checked_at": "2026-11-21T11:35:40.223Z",
+        "result": "Collectes fraîches et réussies ; aucune publication éditoriale pour ce créneau. Le déploiement 44896911616 concerne les rapports de collecte, sans nouvelle fiche. Dernière preuve Chromium du créneau de 6 h uniquement. Reprendre la sélection, les analyses et le contrôle public au prochain passage éditorial.",
+        "recovery_required": true
+      },
+      "notes": "Contrôle de suivi uniquement, aucune fiche publiée par cette alerte. Ne pas présenter la réussite de Pages sur les rapports comme une publication de veille."
     }
   }
 }
