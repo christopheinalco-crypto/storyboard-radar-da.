@@ -1,6 +1,6 @@
 {
   "description": "Cumulative seen-project register; retain entries when projects leave the live feed; compare URL and semantic identity.",
-  "updated": "2026-11-20T19:08:53.484Z",
+  "updated": "2026-11-21T09:10:32.357Z",
   "projects": [
     {
       "project_id": "pink-siifu-devils-advocate-gontrand-making-of-2026",
@@ -893,6 +893,36 @@
       "published_at": "2026-11-20T19:08:53.484Z",
       "wave_id": "2026-11-20-20h",
       "editorial_score": 16
+    },
+    {
+      "project_id": "karlee-girl-get-em-girls-karleeworld-2026",
+      "title": "Karlee Girl — Une connexion ouvre un monde entre amies",
+      "url": "https://www.youtube.com/watch?v=BUdixxuUihk",
+      "category": "14 Musique Clips",
+      "radar_added_at": "2026-11-21T09:10:32.357Z",
+      "published_at": "2026-11-21T09:10:32.357Z",
+      "wave_id": "2026-11-21-06h",
+      "editorial_score": 17
+    },
+    {
+      "project_id": "lainey-wilson-just-a-woman-cma-2026",
+      "title": "Lainey Wilson — Une silhouette country dans un écrin de gala",
+      "url": "https://www.youtube.com/watch?v=gcktQGI5PzI",
+      "category": "01 Spectacle Concert",
+      "radar_added_at": "2026-11-21T09:10:32.357Z",
+      "published_at": "2026-11-21T09:10:32.357Z",
+      "wave_id": "2026-11-21-06h",
+      "editorial_score": 18
+    },
+    {
+      "project_id": "soak-transmitter-park-distance-2026",
+      "title": "SOAK — Le lieu garde plus de place que le portrait",
+      "url": "https://www.youtube.com/watch?v=YAuZxQlQzz4",
+      "category": "14 Musique Clips",
+      "radar_added_at": "2026-11-21T09:10:32.357Z",
+      "published_at": "2026-11-21T09:10:32.357Z",
+      "wave_id": "2026-11-21-06h",
+      "editorial_score": 15
     }
   ]
 }

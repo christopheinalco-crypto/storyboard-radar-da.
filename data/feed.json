@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-20T19:08:53.484Z",
+  "updated_at": "2026-11-21T09:10:32.357Z",
   "status": "editorial_reviewed",
   "working_feeds": [
     {
@@ -454,6 +454,66 @@
     "with_images": 82
   },
   "items": [
+    {
+      "project_id": "karlee-girl-get-em-girls-karleeworld-2026",
+      "title": "Karlee Girl — Une connexion ouvre un monde entre amies",
+      "title_fr": "Karlee Girl — Une connexion ouvre un monde entre amies",
+      "url": "https://www.youtube.com/watch?v=BUdixxuUihk",
+      "category": "14 Musique Clips",
+      "source": "KARLEE GIRL / Interscope Records",
+      "published": "2026-11-18T00:00:00Z",
+      "radar_added_at": "2026-11-21T09:10:32.357Z",
+      "summary": "Mia Barnes fait commencer « Get ’Em Girls » par une entrée dans KarleeWorld. L’interface nacrée annonce une planète où les gestes ordinaires entre amies deviennent le cœur du spectacle.",
+      "summary_fr": "Mia Barnes fait commencer « Get ’Em Girls » par une entrée dans KarleeWorld. L’interface nacrée annonce une planète où les gestes ordinaires entre amies deviennent le cœur du spectacle.",
+      "image": "https://i.ytimg.com/vi/BUdixxuUihk/hqdefault.jpg",
+      "image_kind": "project",
+      "image_credit": "Vignette officielle : KARLEE GIRL / Interscope Records, réalisation Mia Barnes.",
+      "image_source_url": "https://www.youtube.com/watch?v=BUdixxuUihk",
+      "image_alt": "Portrait rapproché du visage de Karlee Girl dans la vignette officielle de Get ’Em Girls.",
+      "status": "editorial_reviewed",
+      "youtube_id": "BUdixxuUihk",
+      "angle": "Une identité d’artiste peut commencer par une règle d’entrée puis se confirmer dans des usages. Ici, la connexion promet un collectif et les scènes entre amies lui donnent un contenu. La palette tient l’univers ; les actions lui donnent sa raison d’être."
+    },
+    {
+      "project_id": "lainey-wilson-just-a-woman-cma-2026",
+      "title": "Lainey Wilson — Une silhouette country dans un écrin de gala",
+      "title_fr": "Lainey Wilson — Une silhouette country dans un écrin de gala",
+      "url": "https://www.youtube.com/watch?v=gcktQGI5PzI",
+      "category": "01 Spectacle Concert",
+      "source": "Lainey Wilson / CMA Awards",
+      "published": "2026-11-19T00:00:00Z",
+      "radar_added_at": "2026-11-21T09:10:32.357Z",
+      "summary": "Pour « Just A Woman » aux CMA Awards, Lainey Wilson garde son chapeau noir au milieu d’une architecture lumineuse et d’un dispositif orchestral. Le changement de registre passe par l’espace et le vêtement, sans effacer son signe de reconnaissance.",
+      "summary_fr": "Pour « Just A Woman » aux CMA Awards, Lainey Wilson garde son chapeau noir au milieu d’une architecture lumineuse et d’un dispositif orchestral. Le changement de registre passe par l’espace et le vêtement, sans effacer son signe de reconnaissance.",
+      "image": "https://i.ytimg.com/vi/gcktQGI5PzI/hqdefault.jpg",
+      "image_kind": "project",
+      "image_credit": "Vignette officielle : Lainey Wilson / CMA Awards, Just A Woman, 60e cérémonie.",
+      "image_source_url": "https://www.youtube.com/watch?v=gcktQGI5PzI",
+      "image_alt": "Lainey Wilson en longue robe cuivrée et chapeau noir, entre les lignes lumineuses de la scène des CMA.",
+      "status": "editorial_reviewed",
+      "youtube_id": "gcktQGI5PzI",
+      "angle": "Pour déplacer une identité vers un autre registre, conserver un signe particulièrement stable peut être plus efficace que répéter toute la tenue habituelle. Ici, le chapeau relie le portrait country à une silhouette de gala. Le décor accompagne cette évolution au lieu de devoir expliquer qui l’on regarde."
+    },
+    {
+      "project_id": "soak-transmitter-park-distance-2026",
+      "title": "SOAK — Le lieu garde plus de place que le portrait",
+      "title_fr": "SOAK — Le lieu garde plus de place que le portrait",
+      "url": "https://www.youtube.com/watch?v=YAuZxQlQzz4",
+      "category": "14 Musique Clips",
+      "source": "SOAK / Rough Trade Records",
+      "published": "2026-11-17T00:00:00Z",
+      "radar_added_at": "2026-11-21T09:10:32.357Z",
+      "summary": "Dans « transmitter park », SOAK et Molly McGuffin donnent à la promenade une échelle changeante. L’artiste peut occuper le cadre, puis redevenir une petite présence entre le parc, la rive et Manhattan.",
+      "summary_fr": "Dans « transmitter park », SOAK et Molly McGuffin donnent à la promenade une échelle changeante. L’artiste peut occuper le cadre, puis redevenir une petite présence entre le parc, la rive et Manhattan.",
+      "image": "https://i.ytimg.com/vi/YAuZxQlQzz4/hqdefault.jpg",
+      "image_kind": "project",
+      "image_credit": "Vignette officielle : SOAK, vidéo tournée par SOAK et Molly McGuffin.",
+      "image_source_url": "https://www.youtube.com/watch?v=YAuZxQlQzz4",
+      "image_alt": "SOAK avec un petit chien près de la rive, Manhattan en arrière-plan, vignette officielle de transmitter park.",
+      "status": "editorial_reviewed",
+      "youtube_id": "YAuZxQlQzz4",
+      "angle": "Un lieu chargé d’une histoire personnelle peut rester ouvert dans l’image. Ici, les changements d’échelle permettent à SOAK d’y être présent sans le confisquer. La continuité du vêtement suffit à garder le fil quand le paysage reprend le dessus."
+    },
     {
       "project_id": "chvrches-evil-portrait-support-2026",
       "title": "CHVRCHES — Le portrait laisse voir sa fabrication",
