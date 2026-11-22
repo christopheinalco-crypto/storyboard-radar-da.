@@ -1,6 +1,6 @@
 {
   "description": "Cumulative seen-project register; retain entries when projects leave the live feed; compare URL and semantic identity.",
-  "updated": "2026-11-22T15:13:46.620Z",
+  "updated": "2026-11-22T19:09:18.001Z",
   "projects": [
     {
       "project_id": "pink-siifu-devils-advocate-gontrand-making-of-2026",
@@ -1013,6 +1013,36 @@
       "published_at": "2026-11-22T15:13:46.620Z",
       "wave_id": "2026-11-22-16h",
       "editorial_score": 16
+    },
+    {
+      "project_id": "taylor-hanson-criminal-proximite-distance-2026",
+      "title": "Taylor Hanson — Le vide laisse le portrait et le duo changer de distance",
+      "url": "https://www.youtube.com/watch?v=6MLrLTz-3tY",
+      "category": "14 Musique Clips",
+      "radar_added_at": "2026-11-22T19:09:18.001Z",
+      "published_at": "2026-11-22T19:09:18.001Z",
+      "wave_id": "2026-11-22-20h",
+      "editorial_score": 18
+    },
+    {
+      "project_id": "ritual-yoyo-ma-cercle-captation-2026",
+      "title": "RITUAL — Le cercle fait du groupe une image commune",
+      "url": "https://www.youtube.com/watch?v=Un1HcvT6gE8",
+      "category": "01 Spectacle Concert",
+      "radar_added_at": "2026-11-22T19:09:18.001Z",
+      "published_at": "2026-11-22T19:09:18.001Z",
+      "wave_id": "2026-11-22-20h",
+      "editorial_score": 19
+    },
+    {
+      "project_id": "camille-lellouche-je-me-souviens-corps-groupe-2026",
+      "title": "Camille Lellouche — La fête donne une forme collective au souvenir",
+      "url": "https://www.youtube.com/watch?v=r8LGj8MYQjI",
+      "category": "14 Musique Clips",
+      "radar_added_at": "2026-11-22T19:09:18.001Z",
+      "published_at": "2026-11-22T19:09:18.001Z",
+      "wave_id": "2026-11-22-20h",
+      "editorial_score": 17
     }
   ]
 }
