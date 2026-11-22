@@ -2805,6 +2805,12 @@
           "fiche-3.png"
         ],
         "result": "Trois cartes et analyses rendues avec leurs images authentiques. Limite connue des captures intégrales : barre fixe superposée à une bande de contenu ; interface inchangée."
+      },
+      "follow_up": {
+        "automation": "radar-da-alerte-de-suivi",
+        "checked_at": "2026-11-22T15:31:50.047Z",
+        "recovery_required": false,
+        "result": "157 sources ouvertes, 41 RSS et brief frais. Trois identités nouvelles du commit atomique recoupées avec les analyses et le registre. Pages 45037165837 et Chromium 45037166196 réussis au SHA éditorial. verification.json relu dans l’artefact 14759623340 : head et trois verified_new_projects exacts. Correction ultérieure de métadonnées 5002f3d également déployée et contrôlée avec succès (Pages 45037437633, Chromium 45037437932), sans nouvelle fiche et sans vague supplémentaire. Aucune publication effectuée par cette alerte."
       }
     }
   }
