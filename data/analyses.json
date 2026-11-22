@@ -9572,7 +9572,7 @@
       "https://i.ytimg.com/vi/WPCy53INCoQ/hqdefault.jpg"
     ],
     "verified": true,
-    "reviewed_at": "2026-11-22T15:13:46.620Z",
+    "reviewed_at": "2026-11-22T15:16:57.944Z",
     "editorial_score": {
       "total": 17,
       "breakdown": {
@@ -9590,7 +9590,7 @@
       },
       {
         "url": "https://www.promonews.tv/videos/2026/11/20/arthur-hill-record-timing-live-greenhouse-harry-tomlin/97055",
-        "locator": "Nouvelles notes de réalisation datées du 20 novembre : intention croissance/temps, vrais végétaux, designer Sophie Eva King. Vidéo officielle publiée le 23 octobre, date conservée et distinction affichée au lecteur"
+        "locator": "Relecture des notes de Harry Tomlin datées du 20 novembre : croissance et temps, vrais végétaux, Sophie Eva King. Date du film du 23 octobre distincte ; correction du repère technique des sources, prose et preuves visuelles revues inchangées."
       },
       {
         "url": "https://www.youtube.com/watch?v=WPCy53INCoQ&t=72s",
@@ -9612,7 +9612,7 @@
       "sources": [
         {
           "url": "https://www.promonews.tv/videos/2026/11/20/arthur-hill-record-timing-live-greenhouse-harry-tomlin/97055",
-          "locator": "Reportage daté du 16 novembre, actualisé le 18 novembre, crédits photographiques et entretien du concepteur",
+          "locator": "Notes de réalisation Promonews du 20 novembre 2026 : intention de Harry Tomlin et conception végétale de Sophie Eva King. Vidéo officielle distincte publiée le 23 octobre 2026, identité et date contrôlées par oEmbed et métadonnées YouTube.",
           "opened_at": "2026-11-22T15:13:46.620Z"
         },
         {

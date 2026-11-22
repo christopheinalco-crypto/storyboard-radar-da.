@@ -1630,6 +1630,30 @@
           "sophie-powers-dirty-white-tee-decor-matiere-2026"
         ],
         "feed_count": 122
+      },
+      {
+        "id": "2026-11-22-16h",
+        "slot": "2026-11-22-16h",
+        "status": "public_verified",
+        "projects": [
+          "trivium-the-terror-masque-expression-2026",
+          "arthur-hill-greenhouse-notes-decor-2026",
+          "jisoo-sun-showers-public-personnages-2026"
+        ],
+        "count": 3,
+        "publication_commit": "1418789af512c76c1db27dbce5804504ab5d0bb6",
+        "trigger": "scheduled_editorial",
+        "verified_at": "2026-11-22T15:15:08.047Z",
+        "pages_deployment": "https://github.com/christopheinalco-crypto/storyboard-radar-da./actions/runs/45037165837",
+        "public_render_check": "https://github.com/christopheinalco-crypto/storyboard-radar-da./actions/runs/45037166196",
+        "artifact_id": 14759623340,
+        "proof_head": "1418789af512c76c1db27dbce5804504ab5d0bb6",
+        "verified_new_projects": [
+          "trivium-the-terror-masque-expression-2026",
+          "arthur-hill-greenhouse-notes-decor-2026",
+          "jisoo-sun-showers-public-personnages-2026"
+        ],
+        "feed_count": 125
       }
     ]
   },
@@ -2733,25 +2757,54 @@
     },
     "2026-11-22-16h": {
       "id": "2026-11-22-16h",
-      "status": "incomplete",
-      "stage": "editorial_recovery_required",
-      "published_count": 0,
-      "public_render_verified": false,
-      "checked_at": "2026-11-22T15:09:56.449Z",
+      "status": "complete",
+      "stage": "public_verified",
+      "checked_at": "2026-11-22T15:16:31.830Z",
+      "published_count": 3,
+      "public_render_verified": true,
       "collection": {
-        "wave_id": "github-45023640871",
-        "coverage_checked_at": "2026-11-22T12:42:12.457478+00:00",
-        "brief_prepared_at": "2026-11-22T12:42:42.233726+00:00",
-        "sources_opened": 160,
-        "rss_collected_at": "2026-11-22T12:51:13.204905+00:00",
-        "rss_parsed": 42,
-        "fresh": false
+        "wave_id": "github-45036823698",
+        "coverage_checked_at": "2026-11-22T15:10:35.221553+00:00",
+        "brief_prepared_at": "2026-11-22T15:11:00.589656+00:00",
+        "sources_opened": 157,
+        "rss_collected_at": "2026-11-22T15:10:42.790935+00:00",
+        "rss_parsed": 41,
+        "source_run": "https://github.com/christopheinalco-crypto/storyboard-radar-da./actions/runs/45036823698",
+        "rss_run": "https://github.com/christopheinalco-crypto/storyboard-radar-da./actions/runs/45036826228"
       },
-      "follow_up": {
-        "automation": "radar-da-alerte-de-suivi",
-        "checked_at": "2026-11-22T15:09:56.449Z",
-        "recovery_required": true,
-        "result": "Contrôle anticipé à 16 h 09 Paris avant l’échéance de suivi de 16 h 30 : aucun commit éditorial du créneau, rapports âgés de plus d’une heure. Reprise éditoriale nécessaire, sans publication par cette alerte."
+      "publication": {
+        "id": "2026-11-22-16h",
+        "slot": "2026-11-22-16h",
+        "status": "public_verified",
+        "projects": [
+          "trivium-the-terror-masque-expression-2026",
+          "arthur-hill-greenhouse-notes-decor-2026",
+          "jisoo-sun-showers-public-personnages-2026"
+        ],
+        "count": 3,
+        "publication_commit": "1418789af512c76c1db27dbce5804504ab5d0bb6",
+        "trigger": "scheduled_editorial",
+        "verified_at": "2026-11-22T15:15:08.047Z",
+        "pages_deployment": "https://github.com/christopheinalco-crypto/storyboard-radar-da./actions/runs/45037165837",
+        "public_render_check": "https://github.com/christopheinalco-crypto/storyboard-radar-da./actions/runs/45037166196",
+        "artifact_id": 14759623340,
+        "proof_head": "1418789af512c76c1db27dbce5804504ab5d0bb6",
+        "verified_new_projects": [
+          "trivium-the-terror-masque-expression-2026",
+          "arthur-hill-greenhouse-notes-decor-2026",
+          "jisoo-sun-showers-public-personnages-2026"
+        ],
+        "feed_count": 125
+      },
+      "notes": "Déclenchement retardé à 16 h 10 Paris. Rapports périmés, aucune collecte active ; deux collectes relancées puis relues, 157 sources ouvertes et 41 RSS. Deux clips du 20 novembre et une nouvelle information DA du 20 novembre sur une session live antérieure. Arthur Hill repris après examen des notes de réalisation substantielles : date vidéo du 23 octobre clairement affichée, source canonique du 20 novembre, champs project_published et editorial_news_at distincts. Exception de fraîcheur pour nouvelle information DA de moins de 72 h, pas recyclage présenté comme nouvelle sortie. JISOO repris après approfondissement du rôle des fans. Trivium : costumes et masque vérifiés dans plusieurs plans et crédits, pas de tradition de masque inventée. Planches officielles détaillées et vignettes authentiques sobres examinées. Créneaux incomplets anciens restent hors validation ; Anna Lapwood et Taylor Hanson toujours insuffisamment documentés pour leurs angles. DOWN The Myth découvert mais article ancien, non retenu ; Erika Whispers du 18 novembre hors 72 h. Aucun contenu créé par l’alerte précédente compté comme publication. Pages et Chromium réussis ; verification.json relu, SHA et trois identifiants exacts. Trois captures publiques examinées : vignettes originales et décryptages chargés, surlignages visibles. Correction d’un repère de source technique hérité du modèle dans les métadonnées Arthur Hill (dates 16/18 remplacées par les dates effectivement vérifiées 20 novembre et vidéo 23 octobre), sans modification de la prose ni ajout de fiche.",
+      "public_visual_review": {
+        "reviewed_at": "2026-11-22T15:16:31.830Z",
+        "screenshots": [
+          "fiche-1.png",
+          "fiche-2.png",
+          "fiche-3.png"
+        ],
+        "result": "Trois cartes et analyses rendues avec leurs images authentiques. Limite connue des captures intégrales : barre fixe superposée à une bande de contenu ; interface inchangée."
       }
     }
   }
