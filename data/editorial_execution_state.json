@@ -2707,6 +2707,52 @@
         "result": "158 sources ouvertes, 42 RSS exploitables, rapports et brief frais. Trois nouveautés du commit atomique recoupées avec les analyses et le registre du créneau. Pages 44938586352 et Chromium 44938586430 confirmés réussis au SHA bab8f19a3f8001a99ca3b57c2a5faa6c5c0884be. verification.json relu dans le ZIP de l’artefact 14720971042 : SHA et trois identifiants strictement conformes. Aucune publication par l’alerte.",
         "recovery_required": false
       }
+    },
+    "2026-11-22-12h": {
+      "id": "2026-11-22-12h",
+      "status": "incomplete",
+      "stage": "editorial_recovery_required",
+      "published_count": 0,
+      "public_render_verified": false,
+      "checked_at": "2026-11-22T15:09:56.428Z",
+      "collection": {
+        "wave_id": "github-45023640871",
+        "coverage_checked_at": "2026-11-22T12:42:12.457478+00:00",
+        "brief_prepared_at": "2026-11-22T12:42:42.233726+00:00",
+        "sources_opened": 160,
+        "rss_collected_at": "2026-11-22T12:51:13.204905+00:00",
+        "rss_parsed": 42,
+        "fresh": false
+      },
+      "follow_up": {
+        "automation": "radar-da-alerte-de-suivi",
+        "checked_at": "2026-11-22T15:09:56.449Z",
+        "recovery_required": true,
+        "result": "Contrôle retardé du créneau de midi : aucune identité de vague au registre, aucun commit des trois fichiers éditoriaux depuis les publications du 21 novembre. Pages 45024485910 et garde-fou 45024677073 réussis sur 834e69d, mais ce déploiement contient des rapports et une modification de l’interface ; il ne constitue pas une nouvelle publication. Aucun artefact Chromium correspondant à une vague du 22 novembre identifié. Collecte et sélection à reprendre au prochain passage éditorial."
+      }
+    },
+    "2026-11-22-16h": {
+      "id": "2026-11-22-16h",
+      "status": "incomplete",
+      "stage": "editorial_recovery_required",
+      "published_count": 0,
+      "public_render_verified": false,
+      "checked_at": "2026-11-22T15:09:56.449Z",
+      "collection": {
+        "wave_id": "github-45023640871",
+        "coverage_checked_at": "2026-11-22T12:42:12.457478+00:00",
+        "brief_prepared_at": "2026-11-22T12:42:42.233726+00:00",
+        "sources_opened": 160,
+        "rss_collected_at": "2026-11-22T12:51:13.204905+00:00",
+        "rss_parsed": 42,
+        "fresh": false
+      },
+      "follow_up": {
+        "automation": "radar-da-alerte-de-suivi",
+        "checked_at": "2026-11-22T15:09:56.449Z",
+        "recovery_required": true,
+        "result": "Contrôle anticipé à 16 h 09 Paris avant l’échéance de suivi de 16 h 30 : aucun commit éditorial du créneau, rapports âgés de plus d’une heure. Reprise éditoriale nécessaire, sans publication par cette alerte."
+      }
     }
   }
 }
