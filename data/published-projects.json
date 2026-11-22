@@ -1,6 +1,6 @@
 {
   "description": "Cumulative seen-project register; retain entries when projects leave the live feed; compare URL and semantic identity.",
-  "updated": "2026-11-21T19:00:32.200Z",
+  "updated": "2026-11-22T15:13:46.620Z",
   "projects": [
     {
       "project_id": "pink-siifu-devils-advocate-gontrand-making-of-2026",
@@ -983,6 +983,36 @@
       "published_at": "2026-11-21T19:00:32.200Z",
       "wave_id": "2026-11-21-20h",
       "editorial_score": 17
+    },
+    {
+      "project_id": "trivium-the-terror-masque-expression-2026",
+      "title": "Trivium — Le masque garde son sourire quand les visages se tendent",
+      "url": "https://www.youtube.com/watch?v=qbVF3QTzWqc",
+      "category": "14 Musique Clips",
+      "radar_added_at": "2026-11-22T15:13:46.620Z",
+      "published_at": "2026-11-22T15:13:46.620Z",
+      "wave_id": "2026-11-22-16h",
+      "editorial_score": 18
+    },
+    {
+      "project_id": "arthur-hill-greenhouse-notes-decor-2026",
+      "title": "Arthur Hill — Le végétal relie les musiciens sans effacer leur place",
+      "url": "https://www.promonews.tv/videos/2026/11/20/arthur-hill-record-timing-live-greenhouse-harry-tomlin/97055",
+      "category": "01 Spectacle Concert",
+      "radar_added_at": "2026-11-22T15:13:46.620Z",
+      "published_at": "2026-11-22T15:13:46.620Z",
+      "wave_id": "2026-11-22-16h",
+      "editorial_score": 17
+    },
+    {
+      "project_id": "jisoo-sun-showers-public-personnages-2026",
+      "title": "JISOO — Les fans donnent une place à la chanson dans le monde animé",
+      "url": "https://www.youtube.com/watch?v=REUpBcmDbTE",
+      "category": "14 Musique Clips",
+      "radar_added_at": "2026-11-22T15:13:46.620Z",
+      "published_at": "2026-11-22T15:13:46.620Z",
+      "wave_id": "2026-11-22-16h",
+      "editorial_score": 16
     }
   ]
 }
