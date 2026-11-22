@@ -1654,6 +1654,30 @@
           "jisoo-sun-showers-public-personnages-2026"
         ],
         "feed_count": 125
+      },
+      {
+        "id": "2026-11-22-20h",
+        "slot": "2026-11-22-20h",
+        "status": "public_verified",
+        "projects": [
+          "taylor-hanson-criminal-proximite-distance-2026",
+          "ritual-yoyo-ma-cercle-captation-2026",
+          "camille-lellouche-je-me-souviens-corps-groupe-2026"
+        ],
+        "count": 3,
+        "publication_commit": "58b165d05a65055110b8b0985b469c0eb4a16486",
+        "trigger": "scheduled_editorial",
+        "verified_at": "2026-11-22T19:10:13.997Z",
+        "pages_deployment": "https://github.com/christopheinalco-crypto/storyboard-radar-da./actions/runs/45059131189",
+        "public_render_check": "https://github.com/christopheinalco-crypto/storyboard-radar-da./actions/runs/45059131592",
+        "artifact_id": 14768676513,
+        "proof_head": "58b165d05a65055110b8b0985b469c0eb4a16486",
+        "verified_new_projects": [
+          "taylor-hanson-criminal-proximite-distance-2026",
+          "ritual-yoyo-ma-cercle-captation-2026",
+          "camille-lellouche-je-me-souviens-corps-groupe-2026"
+        ],
+        "feed_count": 128
       }
     ]
   },
@@ -2811,6 +2835,58 @@
         "checked_at": "2026-11-22T15:31:50.047Z",
         "recovery_required": false,
         "result": "157 sources ouvertes, 41 RSS et brief frais. Trois identités nouvelles du commit atomique recoupées avec les analyses et le registre. Pages 45037165837 et Chromium 45037166196 réussis au SHA éditorial. verification.json relu dans l’artefact 14759623340 : head et trois verified_new_projects exacts. Correction ultérieure de métadonnées 5002f3d également déployée et contrôlée avec succès (Pages 45037437633, Chromium 45037437932), sans nouvelle fiche et sans vague supplémentaire. Aucune publication effectuée par cette alerte."
+      }
+    },
+    "2026-11-22-20h": {
+      "id": "2026-11-22-20h",
+      "status": "complete",
+      "stage": "public_verified",
+      "checked_at": "2026-11-22T19:11:35.779Z",
+      "published_count": 3,
+      "public_render_verified": true,
+      "collection": {
+        "wave_id": "github-45058522483",
+        "coverage_checked_at": "2026-11-22T19:03:18.343172+00:00",
+        "brief_prepared_at": "2026-11-22T19:03:46.432079+00:00",
+        "sources_opened": 160,
+        "rss_collected_at": "2026-11-22T19:03:20.787260+00:00",
+        "rss_parsed": 42,
+        "source_run": "https://github.com/christopheinalco-crypto/storyboard-radar-da./actions/runs/45058522483",
+        "rss_run": "https://github.com/christopheinalco-crypto/storyboard-radar-da./actions/runs/45058525398"
+      },
+      "publication": {
+        "id": "2026-11-22-20h",
+        "slot": "2026-11-22-20h",
+        "status": "public_verified",
+        "projects": [
+          "taylor-hanson-criminal-proximite-distance-2026",
+          "ritual-yoyo-ma-cercle-captation-2026",
+          "camille-lellouche-je-me-souviens-corps-groupe-2026"
+        ],
+        "count": 3,
+        "publication_commit": "58b165d05a65055110b8b0985b469c0eb4a16486",
+        "trigger": "scheduled_editorial",
+        "verified_at": "2026-11-22T19:10:13.997Z",
+        "pages_deployment": "https://github.com/christopheinalco-crypto/storyboard-radar-da./actions/runs/45059131189",
+        "public_render_check": "https://github.com/christopheinalco-crypto/storyboard-radar-da./actions/runs/45059131592",
+        "artifact_id": 14768676513,
+        "proof_head": "58b165d05a65055110b8b0985b469c0eb4a16486",
+        "verified_new_projects": [
+          "taylor-hanson-criminal-proximite-distance-2026",
+          "ritual-yoyo-ma-cercle-captation-2026",
+          "camille-lellouche-je-me-souviens-corps-groupe-2026"
+        ],
+        "feed_count": 128
+      },
+      "notes": "Rapports périmés au début ; absence de collectes actives vérifiée, deux relances puis relecture après réussite : 160 sources ouvertes et 42 RSS. Piste Taylor Hanson reprise avec vidéo officielle maintenant identifiée, entretien direct et plans recoupés. RITUAL : nouveau film du 20 novembre, concert enregistré le 19 octobre 2024 ; dates distinctes affichées, conception de scène Danielsen et film Ryan Booth distingués. Camille Lellouche : clip du 20 novembre, costume et relations corporelles étudiés sans attribuer de scènes historiques aux figurants. Trois vignettes authentiques sobres et onze planches détaillées examinées. Prospection élargie : Fcukers Only One visuel promotionnel quasi fixe, strongboi dont wait audio de chaîne Topic, SNAYX Violence annoncé comme visualiser, non retenus pour analyse insuffisamment établie. ALUNA Pistachio Milk déjà du 13 novembre malgré article du jour, écarté du flux récent. Chloe Qisha Mama! vidéo du 20 novembre identifiée, piste conservée pour autre angle à approfondir. Anciennes vagues incomplètes toujours hors décompte ; pas de rattrapage fictif de midi. Pages et Chromium réussis ; verification.json relu dans l’artefact, SHA éditorial et trois identifiants exacts. Les trois captures du site public ont été examinées : images originales chargées, décryptages ouverts, surlignages visibles.",
+      "public_visual_review": {
+        "reviewed_at": "2026-11-22T19:11:35.779Z",
+        "screenshots": [
+          "fiche-1.png",
+          "fiche-2.png",
+          "fiche-3.png"
+        ],
+        "result": "Trois cartes et analyses rendues avec vignettes authentiques. Limite connue des captures intégrales : barre fixe superposée à une bande de contenu ; interface inchangée."
       }
     }
   }
