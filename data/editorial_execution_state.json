@@ -2887,6 +2887,12 @@
           "fiche-3.png"
         ],
         "result": "Trois cartes et analyses rendues avec vignettes authentiques. Limite connue des captures intégrales : barre fixe superposée à une bande de contenu ; interface inchangée."
+      },
+      "follow_up": {
+        "automation": "radar-da-alerte-de-suivi",
+        "checked_at": "2026-11-22T19:26:59.497Z",
+        "recovery_required": false,
+        "result": "Contrôle anticipé à 20 h 26 Paris : 160 sources ouvertes, 42 RSS et brief frais. Trois nouveautés du commit atomique recoupées avec les analyses et le registre du créneau. Pages 45059131189 et Chromium 45059131592 confirmés réussis au SHA éditorial. verification.json relu dans le ZIP de l’artefact 14768676513 : head et trois verified_new_projects strictement conformes. Aucun déploiement de rapports ou de registre compté comme nouvelle publication. Aucune fiche publiée par cette alerte."
       }
     }
   }
