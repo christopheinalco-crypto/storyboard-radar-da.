@@ -2970,6 +2970,30 @@
         ],
         "result": "Trois cartes et analyses rendues avec leurs images authentiques. Limite connue des captures intégrales : barre fixe superposée à une bande de contenu ; interface inchangée."
       }
+    },
+    "2026-11-23-12h": {
+      "id": "2026-11-23-12h",
+      "status": "incomplete",
+      "stage": "editorial_review_pending",
+      "checked_at": "2026-11-23T11:32:11.255Z",
+      "published_count": 0,
+      "public_render_verified": false,
+      "collection": {
+        "wave_id": "github-45161760719",
+        "coverage_checked_at": "2026-11-23T11:04:15.154450+00:00",
+        "brief_prepared_at": "2026-11-23T11:04:41.927218+00:00",
+        "sources_opened": 160,
+        "rss_collected_at": "2026-11-23T11:04:18.724219+00:00",
+        "rss_parsed": 41,
+        "source_run": "https://github.com/christopheinalco-crypto/storyboard-radar-da./actions/runs/45161760719",
+        "rss_run": "https://github.com/christopheinalco-crypto/storyboard-radar-da./actions/runs/45161765472"
+      },
+      "candidates_pending": [
+        "DOWN — They Walk The Night (Ehv6uhIGXdI)",
+        "LE SSERAFIM — MAMA (o0MlNWgDjaM)",
+        "Scout Willis — All Eyes On Me (qc7oPCpHfk4)"
+      ],
+      "notes": "Suivi de 12 h 30 Paris : deux collectes réussies, rapports frais et cohérents. Aucun commit éditorial pour le créneau ; le déploiement Pages 45161908798 correspond seulement au rafraîchissement RSS, et ne constitue pas une publication. Trois pistes présélectionnées à reprendre au prochain passage éditorial : examen visuel détaillé, dédoublonnage final, qualité DA et couverture sobre avant rédaction. Aucune nouvelle fiche annoncée, aucun contrôle générique compté comme preuve. Créneau maintenu à reprendre, sans décompte dans les vagues validées."
     }
   }
 }
