@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-22T19:09:18.001Z",
+  "updated_at": "2026-11-23T07:25:39.729Z",
   "status": "editorial_reviewed",
   "working_feeds": [
     {
@@ -454,6 +454,66 @@
     "with_images": 82
   },
   "items": [
+    {
+      "project_id": "chloe-qisha-mama-infiltration-rouge-2026",
+      "title": "Chloe Qisha — La robe rouge transforme le désir en mission visible",
+      "title_fr": "Chloe Qisha — La robe rouge transforme le désir en mission visible",
+      "url": "https://www.youtube.com/watch?v=H46cu415aR4",
+      "category": "14 Musique Clips",
+      "source": "Chloe Qisha / Columbia / RCA",
+      "published": "2026-11-20T00:00:00Z",
+      "radar_added_at": "2026-11-23T07:25:39.729Z",
+      "summary": "Mama! fait passer sa protagoniste d’une image de séduction à un conduit métallique et à des signes d’alerte. La même silhouette rouge relie ces situations et rend sa présence impossible à manquer.",
+      "summary_fr": "Mama! fait passer sa protagoniste d’une image de séduction à un conduit métallique et à des signes d’alerte. La même silhouette rouge relie ces situations et rend sa présence impossible à manquer.",
+      "image": "https://i.ytimg.com/vi/H46cu415aR4/hqdefault.jpg",
+      "image_kind": "project",
+      "image_credit": "Vignette originale du clip : Chloe Qisha / Columbia / RCA",
+      "image_source_url": "https://www.youtube.com/watch?v=H46cu415aR4",
+      "image_alt": "Deux silhouettes sur une moto devant un fond rouge, vignette officielle de Mama! de Chloe Qisha",
+      "status": "editorial_reviewed",
+      "youtube_id": "H46cu415aR4",
+      "angle": "Pour un DA, ^^le même choix de costume peut changer de fonction selon la situation^^. Ici, ce qui rend le personnage séduisant le rend également très repérable dans sa mission. C’est cette contradiction concrète entre apparence et action qui enrichit l’idée, au-delà d’une palette rouge et noire."
+    },
+    {
+      "project_id": "ive-mama-colonnes-plateau-ouvert-2026",
+      "title": "IVE — Les colonnes donnent des repères à un plateau ouvert",
+      "title_fr": "IVE — Les colonnes donnent des repères à un plateau ouvert",
+      "url": "https://www.youtube.com/watch?v=oRA3eTWh5Jk",
+      "category": "01 Spectacle Concert",
+      "source": "Mnet K-POP / CJ ENM / IVE",
+      "published": "2026-11-21T00:00:00Z",
+      "radar_added_at": "2026-11-23T07:25:39.729Z",
+      "summary": "Aux MAMA, IVE et les danseurs évoluent dans un espace ponctué de colonnes claires. Ces verticales rendent le dispositif lisible quand les formations et les distances de la captation changent.",
+      "summary_fr": "Aux MAMA, IVE et les danseurs évoluent dans un espace ponctué de colonnes claires. Ces verticales rendent le dispositif lisible quand les formations et les distances de la captation changent.",
+      "image": "https://i.ytimg.com/vi/oRA3eTWh5Jk/hqdefault.jpg",
+      "image_kind": "project",
+      "image_credit": "Vignette de la prestation officielle : Mnet K-POP / CJ ENM — IVE, MAMA AWARDS 2026",
+      "image_source_url": "https://www.youtube.com/watch?v=oRA3eTWh5Jk",
+      "image_alt": "IVE et les danseurs en formation entre des colonnes claires sur le plateau des MAMA 2026",
+      "status": "editorial_reviewed",
+      "youtube_id": "oRA3eTWh5Jk",
+      "angle": "Pour un DA de plateau ouvert, ^^quelques repères verticaux peuvent suffire à rendre les formations situables^^. Leur intérêt ici tient à leur espacement et à leur hauteur par rapport aux corps. Le décor laisse de la place au groupe et fournit à la captation une structure qu’elle peut retrouver après un portrait."
+    },
+    {
+      "project_id": "santos-bravos-andteam-origami-portail-2026",
+      "title": "ORIGAMI — Un cadre rouge relie les mondes de deux groupes",
+      "title_fr": "ORIGAMI — Un cadre rouge relie les mondes de deux groupes",
+      "url": "https://www.youtube.com/watch?v=j_Z3_4aFQxQ",
+      "category": "14 Musique Clips",
+      "source": "SANTOS BRAVOS / &TEAM / HYBE LABELS",
+      "published": "2026-11-20T00:00:00Z",
+      "radar_added_at": "2026-11-23T07:25:39.729Z",
+      "summary": "BRTHR donne à la collaboration de SANTOS BRAVOS et &TEAM un motif spatial récurrent : une grande ouverture rouge. Les variations de matière et de lumière font de ce cadre un point de rencontre entre les univers.",
+      "summary_fr": "BRTHR donne à la collaboration de SANTOS BRAVOS et &TEAM un motif spatial récurrent : une grande ouverture rouge. Les variations de matière et de lumière font de ce cadre un point de rencontre entre les univers.",
+      "image": "https://i.ytimg.com/vi/j_Z3_4aFQxQ/hqdefault.jpg",
+      "image_kind": "project",
+      "image_credit": "Vignette originale : HYBE LABELS / HYBE Latin America — réalisation BRTHR",
+      "image_source_url": "https://www.youtube.com/watch?v=j_Z3_4aFQxQ",
+      "image_alt": "Portraits des interprètes assemblés en fragments de papier dans la vignette officielle d’ORIGAMI",
+      "status": "editorial_reviewed",
+      "youtube_id": "j_Z3_4aFQxQ",
+      "angle": "Pour un DA de collaboration, ^^un motif commun devient utile quand plusieurs univers peuvent l’habiter^^. Ici, l’ouverture n’impose pas un décor unique à toutes les scènes ; elle fournit une forme que les différentes images peuvent reprendre et transformer. C’est une manière de construire un lien visuel sans effacer les écarts entre les personnages et les lieux."
+    },
     {
       "project_id": "taylor-hanson-criminal-proximite-distance-2026",
       "title": "Taylor Hanson — Le vide laisse le portrait et le duo changer de distance",

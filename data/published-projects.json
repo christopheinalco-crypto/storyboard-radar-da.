@@ -1,6 +1,6 @@
 {
   "description": "Cumulative seen-project register; retain entries when projects leave the live feed; compare URL and semantic identity.",
-  "updated": "2026-11-22T19:09:18.001Z",
+  "updated": "2026-11-23T07:25:39.729Z",
   "projects": [
     {
       "project_id": "pink-siifu-devils-advocate-gontrand-making-of-2026",
@@ -1042,6 +1042,36 @@
       "radar_added_at": "2026-11-22T19:09:18.001Z",
       "published_at": "2026-11-22T19:09:18.001Z",
       "wave_id": "2026-11-22-20h",
+      "editorial_score": 17
+    },
+    {
+      "project_id": "chloe-qisha-mama-infiltration-rouge-2026",
+      "title": "Chloe Qisha — La robe rouge transforme le désir en mission visible",
+      "url": "https://www.youtube.com/watch?v=H46cu415aR4",
+      "category": "14 Musique Clips",
+      "radar_added_at": "2026-11-23T07:25:39.729Z",
+      "published_at": "2026-11-23T07:25:39.729Z",
+      "wave_id": "2026-11-23-06h",
+      "editorial_score": 17
+    },
+    {
+      "project_id": "ive-mama-colonnes-plateau-ouvert-2026",
+      "title": "IVE — Les colonnes donnent des repères à un plateau ouvert",
+      "url": "https://www.youtube.com/watch?v=oRA3eTWh5Jk",
+      "category": "01 Spectacle Concert",
+      "radar_added_at": "2026-11-23T07:25:39.729Z",
+      "published_at": "2026-11-23T07:25:39.729Z",
+      "wave_id": "2026-11-23-06h",
+      "editorial_score": 16
+    },
+    {
+      "project_id": "santos-bravos-andteam-origami-portail-2026",
+      "title": "ORIGAMI — Un cadre rouge relie les mondes de deux groupes",
+      "url": "https://www.youtube.com/watch?v=j_Z3_4aFQxQ",
+      "category": "14 Musique Clips",
+      "radar_added_at": "2026-11-23T07:25:39.729Z",
+      "published_at": "2026-11-23T07:25:39.729Z",
+      "wave_id": "2026-11-23-06h",
       "editorial_score": 17
     }
   ]
