@@ -1678,6 +1678,30 @@
           "camille-lellouche-je-me-souviens-corps-groupe-2026"
         ],
         "feed_count": 128
+      },
+      {
+        "id": "2026-11-23-06h",
+        "slot": "2026-11-23-06h",
+        "status": "public_verified",
+        "projects": [
+          "chloe-qisha-mama-infiltration-rouge-2026",
+          "ive-mama-colonnes-plateau-ouvert-2026",
+          "santos-bravos-andteam-origami-portail-2026"
+        ],
+        "count": 3,
+        "publication_commit": "af628baf170f94537ada5a470cab801b5d255166",
+        "trigger": "scheduled_editorial_recovery",
+        "verified_at": "2026-11-23T07:26:50.628Z",
+        "pages_deployment": "https://github.com/christopheinalco-crypto/storyboard-radar-da./actions/runs/45131019471",
+        "public_render_check": "https://github.com/christopheinalco-crypto/storyboard-radar-da./actions/runs/45131020920",
+        "artifact_id": 14796779541,
+        "proof_head": "af628baf170f94537ada5a470cab801b5d255166",
+        "verified_new_projects": [
+          "chloe-qisha-mama-infiltration-rouge-2026",
+          "ive-mama-colonnes-plateau-ouvert-2026",
+          "santos-bravos-andteam-origami-portail-2026"
+        ],
+        "feed_count": 131
       }
     ]
   },
@@ -2897,25 +2921,54 @@
     },
     "2026-11-23-06h": {
       "id": "2026-11-23-06h",
-      "status": "incomplete",
-      "stage": "collection_refresh_required",
-      "checked_at": "2026-11-23T07:20:49.529Z",
-      "published_count": 0,
-      "public_render_verified": false,
+      "status": "complete",
+      "stage": "public_verified",
+      "checked_at": "2026-11-23T07:27:56.606Z",
+      "published_count": 3,
+      "public_render_verified": true,
       "collection": {
-        "wave_id": "github-45068315552",
-        "coverage_checked_at": "2026-11-22T20:46:27.440830+00:00",
-        "brief_prepared_at": "2026-11-22T20:46:52.392175+00:00",
-        "sources_opened": 158,
-        "rss_collected_at": "2026-11-22T20:50:30.410687+00:00",
+        "wave_id": "github-45130483175",
+        "coverage_checked_at": "2026-11-23T07:21:35.552452+00:00",
+        "brief_prepared_at": "2026-11-23T07:22:00.042611+00:00",
+        "sources_opened": 157,
+        "rss_collected_at": "2026-11-23T07:21:29.074716+00:00",
         "rss_parsed": 42,
-        "fresh": false
+        "source_run": "https://github.com/christopheinalco-crypto/storyboard-radar-da./actions/runs/45130483175",
+        "rss_run": "https://github.com/christopheinalco-crypto/storyboard-radar-da./actions/runs/45130487166"
       },
-      "follow_up": {
-        "automation": "radar-da-alerte-de-suivi",
-        "checked_at": "2026-11-23T07:20:49.550Z",
-        "recovery_required": true,
-        "result": "Déclenchement retardé à 8 h 20 Paris pour le créneau de 6 h. Aucun projet du 23 novembre au registre, aucun commit éditorial du créneau. Rapports de la veille périmés (couverture 20 h 46 UTC, RSS 20 h 50 UTC). Pages 45114883323 et Chromium 45114883697 réussis sur 1c6f8e3, mais ce commit concerne l’interface et ne publie aucune nouvelle fiche. Ce contrôle générique ne valide pas une vague. Actualiser les collectes puis reprendre la sélection au prochain passage éditorial ; aucune fiche publiée par l’alerte."
+      "publication": {
+        "id": "2026-11-23-06h",
+        "slot": "2026-11-23-06h",
+        "status": "public_verified",
+        "projects": [
+          "chloe-qisha-mama-infiltration-rouge-2026",
+          "ive-mama-colonnes-plateau-ouvert-2026",
+          "santos-bravos-andteam-origami-portail-2026"
+        ],
+        "count": 3,
+        "publication_commit": "af628baf170f94537ada5a470cab801b5d255166",
+        "trigger": "scheduled_editorial_recovery",
+        "verified_at": "2026-11-23T07:26:50.628Z",
+        "pages_deployment": "https://github.com/christopheinalco-crypto/storyboard-radar-da./actions/runs/45131019471",
+        "public_render_check": "https://github.com/christopheinalco-crypto/storyboard-radar-da./actions/runs/45131020920",
+        "artifact_id": 14796779541,
+        "proof_head": "af628baf170f94537ada5a470cab801b5d255166",
+        "verified_new_projects": [
+          "chloe-qisha-mama-infiltration-rouge-2026",
+          "ive-mama-colonnes-plateau-ouvert-2026",
+          "santos-bravos-andteam-origami-portail-2026"
+        ],
+        "feed_count": 131
+      },
+      "notes": "Déclenchement retardé à 8 h 21 Paris, reprise du créneau de 6 h après contrôle de suivi. Rapports de la veille périmés, absence de collectes actives puis deux relances réussies : 157 sources ouvertes et 42 RSS. Piste Chloe Qisha reprise et approfondie ; ORIGAMI vidéo du 20 novembre 14 h UTC, tous deux encore dans les 72 h. Spectacle IVE du 21 novembre distinct des autres projets MAMA traités. Neuf planches détaillées et vignettes originales examinées. Trois alternatives de vignette IVE trop centrées sur les corps écartées au profit de la vue de groupe avec colonnes. FLOYA IDWK daté du 19 novembre : hors 72 h ; ARIA du 18 novembre, hors fenêtre sans nouvelle révélation DA ; Impending Doom lien examiné = audio Topic et non vidéo, non retenu. Créneaux incomplets antérieurs maintenus hors décompte, pistes Anna Lapwood non recoupées, Taylor Hanson déjà publié le 22 novembre donc doublon exclu. Interface et atelier du 23 novembre non comptés comme nouvelle vague. Pages et Chromium réussis ; verification.json relu dans l’artefact, SHA éditorial et trois identifiants exacts. Trois captures du site public examinées : images originales chargées, décryptages ouverts et surlignages présents.",
+      "public_visual_review": {
+        "reviewed_at": "2026-11-23T07:27:56.606Z",
+        "screenshots": [
+          "fiche-1.png",
+          "fiche-2.png",
+          "fiche-3.png"
+        ],
+        "result": "Trois cartes et analyses rendues avec leurs images authentiques. Limite connue des captures intégrales : barre fixe superposée à une bande de contenu ; interface inchangée."
       }
     }
   }
