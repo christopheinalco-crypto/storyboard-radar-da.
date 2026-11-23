@@ -2894,6 +2894,29 @@
         "recovery_required": false,
         "result": "Contrôle anticipé à 20 h 26 Paris : 160 sources ouvertes, 42 RSS et brief frais. Trois nouveautés du commit atomique recoupées avec les analyses et le registre du créneau. Pages 45059131189 et Chromium 45059131592 confirmés réussis au SHA éditorial. verification.json relu dans le ZIP de l’artefact 14768676513 : head et trois verified_new_projects strictement conformes. Aucun déploiement de rapports ou de registre compté comme nouvelle publication. Aucune fiche publiée par cette alerte."
       }
+    },
+    "2026-11-23-06h": {
+      "id": "2026-11-23-06h",
+      "status": "incomplete",
+      "stage": "collection_refresh_required",
+      "checked_at": "2026-11-23T07:20:49.529Z",
+      "published_count": 0,
+      "public_render_verified": false,
+      "collection": {
+        "wave_id": "github-45068315552",
+        "coverage_checked_at": "2026-11-22T20:46:27.440830+00:00",
+        "brief_prepared_at": "2026-11-22T20:46:52.392175+00:00",
+        "sources_opened": 158,
+        "rss_collected_at": "2026-11-22T20:50:30.410687+00:00",
+        "rss_parsed": 42,
+        "fresh": false
+      },
+      "follow_up": {
+        "automation": "radar-da-alerte-de-suivi",
+        "checked_at": "2026-11-23T07:20:49.550Z",
+        "recovery_required": true,
+        "result": "Déclenchement retardé à 8 h 20 Paris pour le créneau de 6 h. Aucun projet du 23 novembre au registre, aucun commit éditorial du créneau. Rapports de la veille périmés (couverture 20 h 46 UTC, RSS 20 h 50 UTC). Pages 45114883323 et Chromium 45114883697 réussis sur 1c6f8e3, mais ce commit concerne l’interface et ne publie aucune nouvelle fiche. Ce contrôle générique ne valide pas une vague. Actualiser les collectes puis reprendre la sélection au prochain passage éditorial ; aucune fiche publiée par l’alerte."
+      }
     }
   }
 }
