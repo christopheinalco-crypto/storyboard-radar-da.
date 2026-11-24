@@ -2994,6 +2994,26 @@
         "Scout Willis — All Eyes On Me (qc7oPCpHfk4)"
       ],
       "notes": "Suivi de 12 h 30 Paris : deux collectes réussies, rapports frais et cohérents. Aucun commit éditorial pour le créneau ; le déploiement Pages 45161908798 correspond seulement au rafraîchissement RSS, et ne constitue pas une publication. Trois pistes présélectionnées à reprendre au prochain passage éditorial : examen visuel détaillé, dédoublonnage final, qualité DA et couverture sobre avant rédaction. Aucune nouvelle fiche annoncée, aucun contrôle générique compté comme preuve. Créneau maintenu à reprendre, sans décompte dans les vagues validées."
+    },
+    "2026-11-24-20h": {
+      "id": "2026-11-24-20h",
+      "status": "incomplete",
+      "stage": "collection_refresh_required",
+      "checked_at": "2026-11-24T19:54:00.893Z",
+      "published_count": 0,
+      "public_render_verified": false,
+      "collection": {
+        "wave_id": "github-45420162872",
+        "coverage_checked_at": "2026-11-24T14:59:01.630203+00:00",
+        "brief_prepared_at": "2026-11-24T14:59:30.720889+00:00",
+        "sources_opened": 155,
+        "rss_collected_at": "2026-11-24T15:16:41.412711+00:00",
+        "rss_parsed": 42,
+        "source_run": 45420162872,
+        "rss_run": 45423580330,
+        "fresh": false
+      },
+      "notes": "Contrôle de suivi de 20 h 30 déclenché à 20 h 53 Paris. Identité exacte du dépôt vérifiée : 1449156184. Registre du créneau absent, aucune publication éditoriale depuis la dernière vérification : seuls six fichiers de collecte ont changé depuis 8499d5c. Rapports vieux de plus d’une heure, contrôle de fraîcheur en échec. Collectes précédentes réussies mais périmées ; aucun travail actif dans les six derniers runs. Pages 45423859153 et garde-fou 45424639373 réussis sur 17e4f3f, sans nouvelles fiches ; ils ne valident aucune vague. Créneau à reprendre au prochain passage éditorial, en commençant par rafraîchir les collectes. Cette alerte ne publie aucune fiche et ne compte pas le créneau comme réussi."
     }
   }
 }
