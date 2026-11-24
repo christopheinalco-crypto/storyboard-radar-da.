@@ -2998,8 +2998,8 @@
     "2026-11-24-20h": {
       "id": "2026-11-24-20h",
       "status": "incomplete",
-      "stage": "collection_refresh_required",
-      "checked_at": "2026-11-24T19:54:00.893Z",
+      "stage": "source_collection_dispatch_failed",
+      "checked_at": "2026-11-24T19:55:22.890Z",
       "published_count": 0,
       "public_render_verified": false,
       "collection": {
@@ -3013,7 +3013,37 @@
         "rss_run": 45423580330,
         "fresh": false
       },
-      "notes": "Contrôle de suivi de 20 h 30 déclenché à 20 h 53 Paris. Identité exacte du dépôt vérifiée : 1449156184. Registre du créneau absent, aucune publication éditoriale depuis la dernière vérification : seuls six fichiers de collecte ont changé depuis 8499d5c. Rapports vieux de plus d’une heure, contrôle de fraîcheur en échec. Collectes précédentes réussies mais périmées ; aucun travail actif dans les six derniers runs. Pages 45423859153 et garde-fou 45424639373 réussis sur 17e4f3f, sans nouvelles fiches ; ils ne valident aucune vague. Créneau à reprendre au prochain passage éditorial, en commençant par rafraîchir les collectes. Cette alerte ne publie aucune fiche et ne compte pas le créneau comme réussi."
+      "notes": "Contrôle de suivi de 20 h 30 déclenché à 20 h 53 Paris. Identité exacte du dépôt vérifiée : 1449156184. Registre du créneau absent, aucune publication éditoriale depuis la dernière vérification : seuls six fichiers de collecte ont changé depuis 8499d5c. Rapports vieux de plus d’une heure, contrôle de fraîcheur en échec. Collectes précédentes réussies mais périmées ; aucun travail actif dans les six derniers runs. Pages 45423859153 et garde-fou 45424639373 réussis sur 17e4f3f, sans nouvelles fiches ; ils ne valident aucune vague. Créneau à reprendre au prochain passage éditorial, en commençant par rafraîchir les collectes. Cette alerte ne publie aucune fiche et ne compte pas le créneau comme réussi. Passage éditorial de 20 h retardé à 20 h 54 : lectures AGENTS, barème et base DA réalisées. Relance des deux collecteurs après contrôle des exécutions actives. GitHub a refusé la relance sources avec HTTP 500 Failed to run workflow dispatch ; aucune exécution source créée (dernière 45420162872 à 14 h 58 UTC). RSS 45475198441 démarré, ne pas redéclencher pendant son exécution. Conformément à la procédure, conserver la preuve et reprendre la collecte source au prochain passage avant publication. Recherche menée pendant la relance : deux nouvelles pistes consignées, sans validation. Pistes DOWN, Scout Willis et LE SSERAFIM consignées le 23 désormais hors 72 h, à ne pas recycler sans révélation DA substantielle récente. Aucune nouvelle fiche publiée, aucune validation de vague ajoutée.",
+      "retry_required": true,
+      "collection_retry": {
+        "source_workflow": "radar-source-collector.yml",
+        "source_dispatch_result": "HTTP 500",
+        "source_dispatch_error": {
+          "message": "Failed to run workflow dispatch",
+          "documentation_url": "https://docs.github.com/rest/actions/workflows#create-a-workflow-dispatch-event",
+          "status": "500"
+        },
+        "source_run_created": false,
+        "rss_workflow": "radar-collect.yml",
+        "rss_run": 45475198441,
+        "rss_status": "in_progress",
+        "checked_at": "2026-11-24T19:55:22.890Z"
+      },
+      "research_pending": [
+        {
+          "project": "Mrs. GREEN APPLE — Project 4",
+          "video": "https://www.youtube.com/watch?v=Rmskp6rQxF8",
+          "primary_source": "https://mrsgreenapple.com/news/detail/23436",
+          "reported_date": "2026-11-23",
+          "status": "Date exacte, images, analyse et doublons à vérifier"
+        },
+        {
+          "project": "GIULIA BE — closure",
+          "source": "https://femmusic.com/2026/11/23/giulia-be-closure/",
+          "reported_date": "2026-11-23",
+          "status": "Piste uniquement : trouver vidéo primaire et vérifier date, visuels et choix DA"
+        }
+      ]
     }
   }
 }
