@@ -3197,7 +3197,36 @@
           "fiche-3.png"
         ],
         "result": "Trois cartes illustrées et décryptages rendus avec surlignage. Limite connue de la capture intégrale : une barre fixe masque une bande au milieu des éléments capturés ; ce contrôle ne valide pas une mise en page sans défaut. Aucun changement d’interface dans la publication."
+      },
+      "last_followup": {
+        "checked_at": "2026-11-25T15:35:39.741Z",
+        "commit_three_files": true,
+        "proof_exact": true,
+        "artifact_id": 15033703921,
+        "pages_success": true,
+        "chromium_success": true
       }
+    },
+    "2026-11-25-16h": {
+      "id": "2026-11-25-16h",
+      "status": "incomplete",
+      "stage": "editorial_review_pending",
+      "checked_at": "2026-11-25T15:35:39.741Z",
+      "published_count": 0,
+      "public_render_verified": false,
+      "collection": {
+        "wave_id": "github-45636005547",
+        "coverage_checked_at": "2026-11-25T14:37:10.838757+00:00",
+        "brief_prepared_at": "2026-11-25T14:37:41.996817+00:00",
+        "sources_opened": 157,
+        "rss_collected_at": "2026-11-25T14:56:42.232789+00:00",
+        "rss_parsed": 42,
+        "source_run": 45636005547,
+        "rss_run": 45639583190,
+        "fresh": true,
+        "scope": "Rapports globaux disponibles ; ne constituent pas une nouvelle publication du créneau de 16 h."
+      },
+      "notes": "Alerte de suivi du créneau de 16 h déclenchée à 16 h 34 Paris. Connecteur GitHub : nom exact et id 1449156184 confirmés. Registre du créneau absent, aucun projet marqué 2026-11-25-16h dans le registre des identités. Dernière publication réelle = rattrapage de midi cddfe9097e6ad92a245c65450767ffa860026f82, trois fichiers éditoriaux dans un commit et trois ajouts exacts. Pages 45641376865 et Chromium 45641378276 réussis ; artifact 15033703921 encore disponible, verification.json extrait de cet artifact relu : head exact et identifiants exactement égaux au lot de midi. Le déploiement 45641819874 ne contient que la consignation ec85ff2, sans nouvelle fiche. Les trois fiches de midi ne comptent pas à nouveau pour 16 h. Collecteurs sources et RSS réussis, 157 sources et 42 RSS, rapports contrôlés à ce passage. Aucun collecteur ni rendu actif dans les huit derniers runs. Créneau de 16 h laissé à reprendre au prochain passage éditorial : renouveler les collectes si elles ont plus d’une heure, poursuivre la sélection puis la publication et la preuve spécifique du créneau. Cette alerte ne publie aucune fiche et n’ajoute aucune vague aux validations."
     }
   },
   "next_wave_preparation": {
