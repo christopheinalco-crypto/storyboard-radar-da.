@@ -3318,7 +3318,50 @@
           "fiche-3.png"
         ],
         "result": "Trois fiches illustrées et décryptages affichés. Limite connue des captures intégrales : la barre fixe est superposée à une bande du contenu ; cette preuve ne valide pas une mise en page sans défaut. Aucun changement d’interface dans la vague."
+      },
+      "last_followup": {
+        "checked_at": "2026-11-25T19:32:22.389Z",
+        "commit_three_files": true,
+        "proof_exact": true,
+        "artifact_id": 15054046585,
+        "pages_success": true,
+        "chromium_success": true
       }
+    },
+    "2026-11-25-20h": {
+      "id": "2026-11-25-20h",
+      "status": "incomplete",
+      "stage": "editorial_review_pending",
+      "checked_at": "2026-11-25T19:32:22.389Z",
+      "published_count": 0,
+      "public_render_verified": false,
+      "collection": {
+        "wave_id": "github-45680175396",
+        "coverage_checked_at": "2026-11-25T18:56:32.634807+00:00",
+        "brief_prepared_at": "2026-11-25T18:57:04.436290+00:00",
+        "sources_opened": 159,
+        "rss_collected_at": "2026-11-25T18:56:24.660090+00:00",
+        "rss_parsed": 42,
+        "source_run": 45680175396,
+        "rss_run": 45680179901,
+        "fresh": true,
+        "scope": "Rapports globaux frais disponibles ; ne constituent pas une publication de 20 h."
+      },
+      "research_pending": [
+        {
+          "project": "Malou — The Mood for Love",
+          "video": "zfkbh41P11g",
+          "decision": "à approfondir",
+          "reason": "Date 24 novembre 23 h UTC, réalisation Simon Vanrie, trois planches examinées ; usage du lieu et de la distance repéré, intérêt DA à approfondir avant notation."
+        },
+        {
+          "project": "EGOISM — I Need Your Connection",
+          "video": "ENoZDzx0ZdU",
+          "decision": "à approfondir",
+          "reason": "Publication 25 novembre 07:00:09 UTC, crédit Olive Rush et Christine Zi Yi Yau ; planche 1:12–1:28 et couverture examinées, vues en plongée et espace très resserré ; plusieurs états supplémentaires à examiner avant analyse."
+        }
+      ],
+      "notes": "Alerte de 20 h 30 déclenchée à 20 h 31 Paris. Nom exact du dépôt et id 1449156184 vérifiés par le connecteur GitHub. Aucun registre de 20 h et aucune identité publiée pour ce créneau. Dernière vague = rattrapage de 16 h e8b0a941acc03f997a4e4fd0d348cacaefa6d70a : les trois fichiers éditoriaux sont dans le même commit et les trois ajouts correspondent exactement au registre. Pages 45681333122 et Chromium 45681333161 réussis. Artifact 15054046585 toujours disponible ; verification.json extrait de cet artifact relu : head exact et verified_new_projects exactement égal aux trois identifiants de 16 h. Pages 45681725998 correspond uniquement à la consignation d41253b, sans nouvelle fiche ; ne compte pas pour 20 h. Collectes sources et RSS réussies et rapports frais, 159 sources et 42 RSS ; pas de collecteur ni rendu actif dans les cinq derniers runs. Créneau de 20 h conservé à reprendre au prochain passage éditorial, en repartant des pistes Malou et EGOISM consignées, avec renouvellement des rapports s’ils dépassent une heure. Aucun lot publié par cette alerte, aucune validation ajoutée et aucune réaffectation des fiches de 16 h."
     }
   },
   "next_wave_preparation": {
