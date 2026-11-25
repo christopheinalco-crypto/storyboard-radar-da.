@@ -1726,6 +1726,30 @@
           "giulia-be-closure-robe-maison-brulees-2026"
         ],
         "feed_count": 134
+      },
+      {
+        "id": "2026-11-25-12h",
+        "slot": "2026-11-25-12h",
+        "status": "public_verified",
+        "projects": [
+          "mia-joy-circle-trait-metamorphoses-2026",
+          "erykah-badu-breezy-fallon-volant-paysages-2026",
+          "rosa-walton-dream-projection-visage-2026"
+        ],
+        "count": 3,
+        "publication_commit": "cddfe9097e6ad92a245c65450767ffa860026f82",
+        "trigger": "scheduled_editorial_recovery",
+        "verified_at": "2026-11-25T15:07:22.607Z",
+        "pages_deployment": "https://github.com/christopheinalco-crypto/storyboard-radar-da./actions/runs/45641376865",
+        "public_render_check": "https://github.com/christopheinalco-crypto/storyboard-radar-da./actions/runs/45641378276",
+        "artifact_id": 15033703921,
+        "proof_head": "cddfe9097e6ad92a245c65450767ffa860026f82",
+        "verified_new_projects": [
+          "mia-joy-circle-trait-metamorphoses-2026",
+          "erykah-badu-breezy-fallon-volant-paysages-2026",
+          "rosa-walton-dream-projection-visage-2026"
+        ],
+        "feed_count": 137
       }
     ]
   },
@@ -3124,38 +3148,62 @@
     },
     "2026-11-25-12h": {
       "id": "2026-11-25-12h",
-      "status": "incomplete",
-      "stage": "editorial_review_pending",
-      "checked_at": "2026-11-25T11:36:01.780Z",
-      "published_count": 0,
-      "public_render_verified": false,
+      "status": "complete",
+      "stage": "public_verified",
+      "checked_at": "2026-11-25T15:08:33.736Z",
+      "published_count": 3,
+      "public_render_verified": true,
       "collection": {
-        "wave_id": "github-45599624540",
-        "coverage_checked_at": "2026-11-25T10:55:55.517472+00:00",
-        "brief_prepared_at": "2026-11-25T10:56:29.547636+00:00",
-        "sources_opened": 155,
-        "rss_collected_at": "2026-11-25T10:55:56.703143+00:00",
+        "wave_id": "github-45636005547",
+        "coverage_checked_at": "2026-11-25T14:37:10.838757+00:00",
+        "brief_prepared_at": "2026-11-25T14:37:41.996817+00:00",
+        "sources_opened": 157,
+        "rss_collected_at": "2026-11-25T14:56:42.232789+00:00",
         "rss_parsed": 42,
-        "source_run": 45599624540,
-        "rss_run": 45599629479,
+        "source_run": 45636005547,
+        "rss_run": 45639583190,
         "fresh": true
       },
-      "research_pending": [
-        {
-          "project": "Mia Joy ft Midwife — Circle",
-          "source": "https://femmusic.com/2026/11/24/mia-joy-ft-midwife-circle/",
-          "reported_date": "2026-11-24",
-          "director_reported": "Cory Feder",
-          "status": "Piste : animation originale annoncée ; retrouver vidéo primaire, date exacte, plans, provenance et doublons avant note. Aucune validation visuelle à ce stade."
-        }
-      ],
-      "notes": "Suivi du créneau de midi à 12 h 35 Paris. Dépôt exact et id 1449156184 vérifiés. Collecteurs sources et RSS réussis, rapports frais et cohérents (155 sources, 42 RSS). Aucun commit éditorial du créneau ; depuis e5ec67e seuls les rapports de collecte et la préparation ont changé. Pages 45599885587 et 45599762266 réussis, sans nouvelles fiches : ils ne comptent pas comme preuve de publication. Piste Mia Joy conservée à vérifier ; poursuivre recherche de clips et spectacles, sans compter la préparation ni les publications du matin pour midi. Aucun lot annoncé, aucune vague ajoutée à la validation."
+      "publication": {
+        "id": "2026-11-25-12h",
+        "slot": "2026-11-25-12h",
+        "status": "public_verified",
+        "projects": [
+          "mia-joy-circle-trait-metamorphoses-2026",
+          "erykah-badu-breezy-fallon-volant-paysages-2026",
+          "rosa-walton-dream-projection-visage-2026"
+        ],
+        "count": 3,
+        "publication_commit": "cddfe9097e6ad92a245c65450767ffa860026f82",
+        "trigger": "scheduled_editorial_recovery",
+        "verified_at": "2026-11-25T15:07:22.607Z",
+        "pages_deployment": "https://github.com/christopheinalco-crypto/storyboard-radar-da./actions/runs/45641376865",
+        "public_render_check": "https://github.com/christopheinalco-crypto/storyboard-radar-da./actions/runs/45641378276",
+        "artifact_id": 15033703921,
+        "proof_head": "cddfe9097e6ad92a245c65450767ffa860026f82",
+        "verified_new_projects": [
+          "mia-joy-circle-trait-metamorphoses-2026",
+          "erykah-badu-breezy-fallon-volant-paysages-2026",
+          "rosa-walton-dream-projection-visage-2026"
+        ],
+        "feed_count": 137
+      },
+      "notes": "Rattrapage du créneau de midi au passage éditorial déclenché à 15 h 58 Paris. Identité exacte du dépôt vérifiée : 1449156184. Collectes sources et RSS réussies, rapports frais et cohérents : 157 sources, 42 RSS. Recherche complémentaire FEMMUSIC et chaînes vidéo primaires. Dates exactes des trois vidéos dans les 72 h, crédits et images originales sobres contrôlés ; plusieurs planches détaillées et trois couvertures examinées. Aucun doublon dans le flux, les analyses ou le registre. Deux clips encadrent un show TV, scores 16/18/17. Quatre parties rédigées, références théoriques situées dans la relecture, pas de synchronisme sonore inventé. Trois JSON écrits dans un seul commit, validateurs et pré-push réussis. Pages 45641376865 et Chromium 45641378276 réussis. Artifact 15033703921 téléchargé : verification.json relu, SHA exact et trois nouveaux identifiants exacts. Les trois captures publiques ont été ouvertes et examinées, images chargées, décryptages ouverts et surlignages présents. Créneau de midi désormais vérifié ; aucune réaffectation au créneau de 16 h.",
+      "public_visual_review": {
+        "reviewed_at": "2026-11-25T15:08:33.736Z",
+        "screenshots": [
+          "fiche-1.png",
+          "fiche-2.png",
+          "fiche-3.png"
+        ],
+        "result": "Trois cartes illustrées et décryptages rendus avec surlignage. Limite connue de la capture intégrale : une barre fixe masque une bande au milieu des éléments capturés ; ce contrôle ne valide pas une mise en page sans défaut. Aucun changement d’interface dans la publication."
+      }
     }
   },
   "next_wave_preparation": {
     "slot": "2026-11-25-12h",
     "checked_at": "2026-11-25T10:56:46.501Z",
-    "status": "collected_editorial_pending",
+    "status": "published_public_verified",
     "trigger_at": "2026-11-25T10:55:10.933Z",
     "notes": "Déclenchement anticipé à 11 h 55 Paris : dernier créneau échu = 6 h, déjà publié et vérifié. Aucun deuxième lot affecté à ce créneau. Commit éditorial 61316505aa9187ff8d20efb9a96b9fc4ae50cab4 contient les trois fichiers requis ; preuve locale verification.json relue, SHA et trois identifiants exacts ; Chromium et Pages réussis. Rapports devenus périmés depuis la publication, sans invalider la preuve historique. Préparation de midi : absence de collecteur actif avant deux relances acceptées. Deux runs actuellement en cours, ne pas redéclencher. Reprendre leur lecture et la prospection au créneau de midi avant publication. Cette préparation ne compte pas comme vague.",
     "collection": {
@@ -3172,6 +3220,8 @@
         "director_reported": "Cory Feder",
         "status": "Piste : animation originale annoncée ; retrouver vidéo primaire, date exacte, plans, provenance et doublons avant note. Aucune validation visuelle à ce stade."
       }
-    ]
+    ],
+    "completed_at": "2026-11-25T15:08:33.736Z",
+    "publication_commit": "cddfe9097e6ad92a245c65450767ffa860026f82"
   }
 }
