@@ -3121,19 +3121,48 @@
         ],
         "result": "Trois cartes illustrées et décryptages rendus. Limite déjà connue des captures intégrales : barre fixe superposée à une bande du contenu ; ne pas présenter la mise en page comme sans défaut. Aucun changement d’interface dans ce commit éditorial."
       }
+    },
+    "2026-11-25-12h": {
+      "id": "2026-11-25-12h",
+      "status": "incomplete",
+      "stage": "editorial_review_pending",
+      "checked_at": "2026-11-25T11:36:01.780Z",
+      "published_count": 0,
+      "public_render_verified": false,
+      "collection": {
+        "wave_id": "github-45599624540",
+        "coverage_checked_at": "2026-11-25T10:55:55.517472+00:00",
+        "brief_prepared_at": "2026-11-25T10:56:29.547636+00:00",
+        "sources_opened": 155,
+        "rss_collected_at": "2026-11-25T10:55:56.703143+00:00",
+        "rss_parsed": 42,
+        "source_run": 45599624540,
+        "rss_run": 45599629479,
+        "fresh": true
+      },
+      "research_pending": [
+        {
+          "project": "Mia Joy ft Midwife — Circle",
+          "source": "https://femmusic.com/2026/11/24/mia-joy-ft-midwife-circle/",
+          "reported_date": "2026-11-24",
+          "director_reported": "Cory Feder",
+          "status": "Piste : animation originale annoncée ; retrouver vidéo primaire, date exacte, plans, provenance et doublons avant note. Aucune validation visuelle à ce stade."
+        }
+      ],
+      "notes": "Suivi du créneau de midi à 12 h 35 Paris. Dépôt exact et id 1449156184 vérifiés. Collecteurs sources et RSS réussis, rapports frais et cohérents (155 sources, 42 RSS). Aucun commit éditorial du créneau ; depuis e5ec67e seuls les rapports de collecte et la préparation ont changé. Pages 45599885587 et 45599762266 réussis, sans nouvelles fiches : ils ne comptent pas comme preuve de publication. Piste Mia Joy conservée à vérifier ; poursuivre recherche de clips et spectacles, sans compter la préparation ni les publications du matin pour midi. Aucun lot annoncé, aucune vague ajoutée à la validation."
     }
   },
   "next_wave_preparation": {
     "slot": "2026-11-25-12h",
     "checked_at": "2026-11-25T10:56:46.501Z",
-    "status": "collecting",
+    "status": "collected_editorial_pending",
     "trigger_at": "2026-11-25T10:55:10.933Z",
     "notes": "Déclenchement anticipé à 11 h 55 Paris : dernier créneau échu = 6 h, déjà publié et vérifié. Aucun deuxième lot affecté à ce créneau. Commit éditorial 61316505aa9187ff8d20efb9a96b9fc4ae50cab4 contient les trois fichiers requis ; preuve locale verification.json relue, SHA et trois identifiants exacts ; Chromium et Pages réussis. Rapports devenus périmés depuis la publication, sans invalider la preuve historique. Préparation de midi : absence de collecteur actif avant deux relances acceptées. Deux runs actuellement en cours, ne pas redéclencher. Reprendre leur lecture et la prospection au créneau de midi avant publication. Cette préparation ne compte pas comme vague.",
     "collection": {
       "source_run": 45599624540,
-      "source_status": "in_progress",
+      "source_status": "success",
       "rss_run": 45599629479,
-      "rss_status": "in_progress"
+      "rss_status": "success"
     },
     "research_pending": [
       {
