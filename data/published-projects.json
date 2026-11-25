@@ -1,6 +1,6 @@
 {
   "description": "Cumulative seen-project register; retain entries when projects leave the live feed; compare URL and semantic identity.",
-  "updated": "2026-11-23T07:25:39.729Z",
+  "updated": "2026-11-25T07:49:26.959Z",
   "projects": [
     {
       "project_id": "pink-siifu-devils-advocate-gontrand-making-of-2026",
@@ -1073,6 +1073,36 @@
       "published_at": "2026-11-23T07:25:39.729Z",
       "wave_id": "2026-11-23-06h",
       "editorial_score": 17
+    },
+    {
+      "project_id": "mrs-green-apple-project4-costumes-mondes-2026",
+      "title": "Mrs. GREEN APPLE — Les vêtements gardent le fil entre les mondes",
+      "url": "https://www.youtube.com/watch?v=Rmskp6rQxF8",
+      "category": "14 Musique Clips",
+      "radar_added_at": "2026-11-25T07:49:26.959Z",
+      "published_at": "2026-11-25T07:49:26.959Z",
+      "wave_id": "2026-11-25-06h",
+      "editorial_score": 17
+    },
+    {
+      "project_id": "txt-inkigayo-angel-bite-rue-captation-2026",
+      "title": "TXT — Une rue saturée laisse une place aux corps",
+      "url": "https://www.youtube.com/watch?v=bFLkXVvHV64",
+      "category": "01 Spectacle Concert",
+      "radar_added_at": "2026-11-25T07:49:26.959Z",
+      "published_at": "2026-11-25T07:49:26.959Z",
+      "wave_id": "2026-11-25-06h",
+      "editorial_score": 15
+    },
+    {
+      "project_id": "giulia-be-closure-robe-maison-brulees-2026",
+      "title": "GIULIA BE — La robe porte la même blessure que la maison",
+      "url": "https://www.youtube.com/watch?v=uTFEGypVHlg",
+      "category": "14 Musique Clips",
+      "radar_added_at": "2026-11-25T07:49:26.959Z",
+      "published_at": "2026-11-25T07:49:26.959Z",
+      "wave_id": "2026-11-25-06h",
+      "editorial_score": 18
     }
   ]
 }

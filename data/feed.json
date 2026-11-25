@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-23T07:25:39.729Z",
+  "updated_at": "2026-11-25T07:49:26.959Z",
   "status": "editorial_reviewed",
   "working_feeds": [
     {
@@ -454,6 +454,66 @@
     "with_images": 82
   },
   "items": [
+    {
+      "project_id": "mrs-green-apple-project4-costumes-mondes-2026",
+      "title": "Mrs. GREEN APPLE — Les vêtements gardent le fil entre les mondes",
+      "title_fr": "Mrs. GREEN APPLE — Les vêtements gardent le fil entre les mondes",
+      "url": "https://www.youtube.com/watch?v=Rmskp6rQxF8",
+      "category": "14 Musique Clips",
+      "source": "Mrs. GREEN APPLE / Universal Music",
+      "published": "2026-11-23T00:00:00Z",
+      "radar_added_at": "2026-11-25T07:49:26.959Z",
+      "summary": "Dans « Project 4 », Blake Farber fait traverser au groupe une prairie irréelle, une ville et un paysage volcanique. Le décor change de logique, mais les vêtements permettent de reconnaître immédiatement les mêmes personnes.",
+      "summary_fr": "Dans « Project 4 », Blake Farber fait traverser au groupe une prairie irréelle, une ville et un paysage volcanique. Le décor change de logique, mais les vêtements permettent de reconnaître immédiatement les mêmes personnes.",
+      "image": "https://i.ytimg.com/vi/Rmskp6rQxF8/hqdefault.jpg",
+      "image_kind": "project",
+      "image_credit": "Vignette officielle : Mrs. GREEN APPLE / Universal Music, Project 4, réalisation Blake Farber.",
+      "image_source_url": "https://www.youtube.com/watch?v=Rmskp6rQxF8",
+      "image_alt": "Les trois membres de Mrs. GREEN APPLE en vêtements colorés dans une prairie fantastique, vignette officielle Project 4.",
+      "status": "editorial_reviewed",
+      "youtube_id": "Rmskp6rQxF8",
+      "angle": "Pour relier plusieurs mondes très différents, une silhouette stable peut porter la continuité du film. Ici, la combinaison rouge, bleu et carreaux rend le personnage retrouvable malgré les changements d’échelle et d’environnement. La richesse du décor devient plus lisible quand quelques signes du corps restent constants."
+    },
+    {
+      "project_id": "txt-inkigayo-angel-bite-rue-captation-2026",
+      "title": "TXT — Une rue saturée laisse une place aux corps",
+      "title_fr": "TXT — Une rue saturée laisse une place aux corps",
+      "url": "https://www.youtube.com/watch?v=bFLkXVvHV64",
+      "category": "01 Spectacle Concert",
+      "source": "SBSKPOP X INKIGAYO / TXT",
+      "published": "2026-11-23T00:00:00Z",
+      "radar_added_at": "2026-11-25T07:49:26.959Z",
+      "summary": "SBS publie une captation distincte de « Angel Bite », enregistrée pour Inkigayo. Enseignes, motifs et couleurs remplissent les côtés du plateau ; les costumes sombres et l’axe du sol rendent les interprètes retrouvables dans cette profusion.",
+      "summary_fr": "SBS publie une captation distincte de « Angel Bite », enregistrée pour Inkigayo. Enseignes, motifs et couleurs remplissent les côtés du plateau ; les costumes sombres et l’axe du sol rendent les interprètes retrouvables dans cette profusion.",
+      "image": "https://i.ytimg.com/vi/bFLkXVvHV64/hqdefault.jpg",
+      "image_kind": "project",
+      "image_credit": "Vignette officielle SBSKPOP X INKIGAYO : TXT, Angel Bite, captation ONE TAKE STAGE.",
+      "image_source_url": "https://www.youtube.com/watch?v=bFLkXVvHV64",
+      "image_alt": "TXT en vêtements sombres au milieu du décor d’enseignes multicolores de la captation SBS.",
+      "status": "editorial_reviewed",
+      "youtube_id": "bFLkXVvHV64",
+      "angle": "Un décor très chargé a besoin d’une répartition des densités. Ici, l’animation graphique occupe les bords et le fond, tandis que le passage central et les masses vestimentaires sombres laissent une place identifiable aux interprètes. L’intérêt vient de cette coordination entre décor, costume et cadrage."
+    },
+    {
+      "project_id": "giulia-be-closure-robe-maison-brulees-2026",
+      "title": "GIULIA BE — La robe porte la même blessure que la maison",
+      "title_fr": "GIULIA BE — La robe porte la même blessure que la maison",
+      "url": "https://www.youtube.com/watch?v=uTFEGypVHlg",
+      "category": "14 Musique Clips",
+      "source": "GiuliaBeVEVO / Sony Music",
+      "published": "2026-11-23T00:00:00Z",
+      "radar_added_at": "2026-11-25T07:49:26.959Z",
+      "summary": "Dans « closure », une robe claire marquée de brûlures répond à une maison en feu. Le costume relie le corps à ce qui se détruit autour de lui : l’incendie devient une histoire vécue, et pas seulement un fond spectaculaire.",
+      "summary_fr": "Dans « closure », une robe claire marquée de brûlures répond à une maison en feu. Le costume relie le corps à ce qui se détruit autour de lui : l’incendie devient une histoire vécue, et pas seulement un fond spectaculaire.",
+      "image": "https://i.ytimg.com/vi/uTFEGypVHlg/hqdefault.jpg",
+      "image_kind": "project",
+      "image_credit": "Vignette officielle GiuliaBeVEVO / Sony Music : closure, réalisation Olivia Mucida.",
+      "image_source_url": "https://www.youtube.com/watch?v=uTFEGypVHlg",
+      "image_alt": "Profil de GIULIA BE devant une maison miniature dont les fenêtres et le toit sont en feu.",
+      "status": "editorial_reviewed",
+      "youtube_id": "uTFEGypVHlg",
+      "angle": "Un effet spectaculaire gagne un enjeu humain lorsqu’un détail du costume en porte les conséquences. Ici, le feu de la maison et les traces sur la robe racontent la même rupture à deux échelles. La cohérence entre ces supports donne davantage de sens que l’accumulation de signes de catastrophe."
+    },
     {
       "project_id": "chloe-qisha-mama-infiltration-rouge-2026",
       "title": "Chloe Qisha — La robe rouge transforme le désir en mission visible",
