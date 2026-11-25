@@ -1702,6 +1702,30 @@
           "santos-bravos-andteam-origami-portail-2026"
         ],
         "feed_count": 131
+      },
+      {
+        "id": "2026-11-25-06h",
+        "slot": "2026-11-25-06h",
+        "status": "public_verified",
+        "projects": [
+          "mrs-green-apple-project4-costumes-mondes-2026",
+          "txt-inkigayo-angel-bite-rue-captation-2026",
+          "giulia-be-closure-robe-maison-brulees-2026"
+        ],
+        "count": 3,
+        "publication_commit": "61316505aa9187ff8d20efb9a96b9fc4ae50cab4",
+        "trigger": "scheduled_editorial_recovery",
+        "verified_at": "2026-11-25T07:50:51.895Z",
+        "pages_deployment": "https://github.com/christopheinalco-crypto/storyboard-radar-da./actions/runs/45571195075",
+        "public_render_check": "https://github.com/christopheinalco-crypto/storyboard-radar-da./actions/runs/45571196322",
+        "artifact_id": 15001809091,
+        "proof_head": "61316505aa9187ff8d20efb9a96b9fc4ae50cab4",
+        "verified_new_projects": [
+          "mrs-green-apple-project4-costumes-mondes-2026",
+          "txt-inkigayo-angel-bite-rue-captation-2026",
+          "giulia-be-closure-robe-maison-brulees-2026"
+        ],
+        "feed_count": 134
       }
     ]
   },
@@ -3047,22 +3071,56 @@
     },
     "2026-11-25-06h": {
       "id": "2026-11-25-06h",
-      "status": "incomplete",
-      "stage": "collection_refresh_required",
-      "checked_at": "2026-11-25T07:44:51.434Z",
-      "published_count": 0,
-      "public_render_verified": false,
+      "status": "complete",
+      "stage": "public_verified",
+      "checked_at": "2026-11-25T07:52:21.693Z",
+      "published_count": 3,
+      "public_render_verified": true,
       "collection": {
-        "wave_id": "github-45534166447",
-        "coverage_checked_at": "2026-11-25T02:36:33.599630+00:00",
-        "brief_prepared_at": "2026-11-25T02:37:03.977641+00:00",
-        "sources_opened": 157,
-        "rss_collected_at": "2026-11-25T02:46:50.159191+00:00",
+        "wave_id": "github-45570632304",
+        "coverage_checked_at": "2026-11-25T07:45:34.092649+00:00",
+        "brief_prepared_at": "2026-11-25T07:46:01.654103+00:00",
+        "sources_opened": 158,
+        "rss_collected_at": "2026-11-25T07:45:34.567258+00:00",
         "rss_parsed": 42,
-        "fresh": false,
-        "rss_run": 45535364647
+        "source_run": 45570632304,
+        "rss_run": 45570636812,
+        "fresh": true
       },
-      "notes": "Suivi du créneau de 6 h 30 déclenché tardivement à 8 h 44 Paris. Dépôt exact et id 1449156184 vérifiés. Registre du créneau absent ; depuis 4b9731f seuls six fichiers de collecte ont changé, aucune nouvelle fiche éditoriale. Couverture, inspection, brief et RSS périmés de plus d’une heure. Les cinq derniers runs sont terminés, sans exécution active dans cet échantillon. Pages 45535472314 et garde-fou 45535779049 réussis sur 70b9163ce89aa9a1190db68f2890a742761b778d : rafraîchissement RSS, aucune preuve de nouvelle publication. Reprendre le même créneau lors du prochain passage éditorial en vérifiant les collecteurs puis en rafraîchissant les rapports. Les pistes du 24 novembre restent à vérifier dans le registre antérieur. Aucune validation de vague ajoutée."
+      "notes": "Créneau de 6 h repris après déclenchement retardé à 8 h 45 Paris. Deux collectes relancées et réussies : 158 sources, 42 RSS, rapports frais. Pistes Project 4 et closure du créneau incomplet du 24 reprises et approfondies. Dates vidéos 23 novembre contrôlées séparément de l’album et de l’entretien de juillet. Captation TXT séparée publiée le 23, émission du 22, distincte du clip déjà traité ; angle sur les nouveaux cadres de cette captation explicitement situé. Anciennes pistes du 23 expirées exclues. Images originales et onze planches détaillées examinées, couvertures sobres. Déduplication des trois fichiers, scores 17/15/18 et relectures ; trois JSON publiés atomiquement, validateurs et pré-push réussis. Pages et preuve Chromium encore à contrôler avant décompte. Pages et Chromium réussis ; verification.json téléchargé et relu : SHA exact et trois identifiants exacts. Trois captures publiques examinées, images chargées, décryptages et surlignages présents. La vague est maintenant vérifiée.",
+      "publication": {
+        "id": "2026-11-25-06h",
+        "slot": "2026-11-25-06h",
+        "status": "public_verified",
+        "projects": [
+          "mrs-green-apple-project4-costumes-mondes-2026",
+          "txt-inkigayo-angel-bite-rue-captation-2026",
+          "giulia-be-closure-robe-maison-brulees-2026"
+        ],
+        "count": 3,
+        "publication_commit": "61316505aa9187ff8d20efb9a96b9fc4ae50cab4",
+        "trigger": "scheduled_editorial_recovery",
+        "verified_at": "2026-11-25T07:50:51.895Z",
+        "pages_deployment": "https://github.com/christopheinalco-crypto/storyboard-radar-da./actions/runs/45571195075",
+        "public_render_check": "https://github.com/christopheinalco-crypto/storyboard-radar-da./actions/runs/45571196322",
+        "artifact_id": 15001809091,
+        "proof_head": "61316505aa9187ff8d20efb9a96b9fc4ae50cab4",
+        "verified_new_projects": [
+          "mrs-green-apple-project4-costumes-mondes-2026",
+          "txt-inkigayo-angel-bite-rue-captation-2026",
+          "giulia-be-closure-robe-maison-brulees-2026"
+        ],
+        "feed_count": 134
+      },
+      "public_visual_review": {
+        "reviewed_at": "2026-11-25T07:52:21.694Z",
+        "screenshots": [
+          "fiche-1.png",
+          "fiche-2.png",
+          "fiche-3.png"
+        ],
+        "result": "Trois cartes illustrées et décryptages rendus. Limite déjà connue des captures intégrales : barre fixe superposée à une bande du contenu ; ne pas présenter la mise en page comme sans défaut. Aucun changement d’interface dans ce commit éditorial."
+      }
     }
   }
 }
