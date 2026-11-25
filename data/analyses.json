@@ -10769,5 +10769,371 @@
         ]
       }
     }
+  },
+  "https://www.youtube.com/watch?v=TKQyilsNaIc": {
+    "title_fr": "Mia Joy — Un même trait relie le corps, la feuille et le cercle",
+    "intro": "Dans « Circle », Cory Feder rassemble des formes très différentes grâce à un contour blanc irrégulier. L’identité du film tient à cette matière commune plutôt qu’à un personnage toujours reconnaissable.",
+    "points": [
+      [
+        "L’essentiel",
+        "Vers 0:32, une feuille dessinée en blanc se détache sur un fond presque noir. Vers 1:12, le même trait compose un petit personnage sur fond violet ; vers 1:28, il dessine un anneau. Ces images partagent une épaisseur fragile et des contours ouverts qui permettent de les lire comme les états d’un même monde."
+      ],
+      [
+        "Intention",
+        "Le clip accompagne la collaboration de Mia Joy et Midwife, publiée le 24 novembre. Cory Feder est créditée à la vidéo ; le communiqué décrit un travail graphique artisanal. On peut lire le cercle comme une forme de retour, mais l’intérêt visuel ne dépend pas d’une signification imposée à chaque symbole : il vient surtout du lien maintenu entre des figures organiques et géométriques."
+      ],
+      [
+        "Idée & DA",
+        "Le blanc conserve une texture griffée, aussi bien dans la spirale initiale que dans la feuille et le corps. Les fonds passent du noir au violet puis au bleu, tandis que cette matière reste identifiable. Vers 2:06–2:22, plusieurs petites figures blanches occupent ensemble le champ, là où le personnage de 1:12 était isolé. Le nombre et l’étendue changent ; le vocabulaire graphique tient encore. ^^La continuité repose sur la manière de dessiner, pas sur l’obligation de montrer toujours le même sujet.^^ Cela permet de rapprocher plante, corps et cercle sans ajouter un décor différent pour expliquer chaque image."
+      ]
+    ],
+    "takeaway": "Une série de métamorphoses gagne à conserver un invariant sensible : ici, le contour blanc imparfait. Les figures peuvent alors varier sans donner l’impression d’une collection de styles. Le procédé est surtout utile lorsque la matière du trait reste assez présente pour être reconnue dans une forme simple comme dans un groupe.",
+    "source": "Mia Joy / Fire Talk Records",
+    "source_url": "https://www.youtube.com/watch?v=TKQyilsNaIc",
+    "source_links": [
+      "https://www.youtube.com/watch?v=TKQyilsNaIc",
+      "https://www.youtube.com/watch?v=TKQyilsNaIc&t=32s",
+      "https://www.youtube.com/watch?v=TKQyilsNaIc&t=72s",
+      "https://www.youtube.com/watch?v=TKQyilsNaIc&t=88s",
+      "https://www.youtube.com/watch?v=TKQyilsNaIc&t=138s",
+      "https://femmusic.com/2026/11/24/mia-joy-ft-midwife-circle/",
+      "https://i.ytimg.com/vi/TKQyilsNaIc/hqdefault.jpg"
+    ],
+    "verified": true,
+    "reviewed_at": "2026-11-25T15:05:31.433Z",
+    "editorial_score": {
+      "total": 16,
+      "breakdown": {
+        "choice": 4,
+        "effect": 4,
+        "lesson": 3,
+        "evidence": 3,
+        "freshness": 2
+      }
+    },
+    "editorial_review": [
+      {
+        "url": "https://www.youtube.com/watch?v=TKQyilsNaIc&t=32s",
+        "locator": "0:32 : feuille nervurée blanche, trait irrégulier sur fond sombre"
+      },
+      {
+        "url": "https://femmusic.com/2026/11/24/mia-joy-ft-midwife-circle/",
+        "locator": "Communiqué du 24 novembre : nouveau single avec Midwife, vidéo de Cory Feder et travail graphique artisanal ; crédit confirmé dans la description officielle Fire Talk"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=TKQyilsNaIc&t=72s",
+        "locator": "1:12 : figure au corps blanc sur fond violet, même texture de contour"
+      }
+    ],
+    "publication_review": {
+      "scores": {
+        "choice": 4,
+        "effect": 4,
+        "lesson": 3,
+        "evidence": 3,
+        "freshness": 2
+      },
+      "choice": "Vers 0:32, une feuille dessinée en blanc se détache sur un fond presque noir. Vers 1:12, le même trait compose un petit personnage sur fond violet ; vers 1:28, il dessine un anneau. Ces images partagent une épaisseur fragile et des contours ouverts qui permettent de les lire comme les états d’un même monde.",
+      "effect": "Le blanc conserve une texture griffée, aussi bien dans la spirale initiale que dans la feuille et le corps. Les fonds passent du noir au violet puis au bleu, tandis que cette matière reste identifiable. Vers 2:06–2:22, plusieurs petites figures blanches occupent ensemble le champ, là où le personnage de 1:12 était isolé. Le nombre et l’étendue changent ; le vocabulaire graphique tient encore. ^^La continuité repose sur la manière de dessiner, pas sur l’obligation de montrer toujours le même sujet.^^ Cela permet de rapprocher plante, corps et cercle sans ajouter un décor différent pour expliquer chaque image.",
+      "lesson": "Une série de métamorphoses gagne à conserver un invariant sensible : ici, le contour blanc imparfait. Les figures peuvent alors varier sans donner l’impression d’une collection de styles. Le procédé est surtout utile lorsque la matière du trait reste assez présente pour être reconnue dans une forme simple comme dans un groupe.",
+      "second_reading": "Chaîne primaire Fire Talk confirmée par oEmbed. Métadonnée vidéo : 23 novembre 21:00:08 Pacifique, soit le 24 novembre 05:00:08 UTC ; communiqué le 24. Planches détaillées 0:18–0:34, 1:12–1:28 et 2:06–2:22 examinées. Crédit Cory Feder confirmé dans la description. Angle Block, continuité de ligne et contraste de formes, issu de BASE_ANALYSE_DA. Les captures démontrent des états graphiques, sans établir le rythme ni la continuité exacte de chaque transformation. Aucune synchronisation sonore déduite. Le visuel est le titrage original du projet animé, pas un schéma ni une illustration de remplacement. Intérêt circonscrit à une méthode de cohérence graphique, sans surinterpréter les symboles.",
+      "sources": [
+        {
+          "url": "https://www.youtube.com/watch?v=TKQyilsNaIc",
+          "locator": "Vidéo officielle : identité par oEmbed et date par métadonnées uploadDate/publishDate",
+          "opened_at": "2026-11-25T15:05:31.433Z"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=TKQyilsNaIc&t=32s",
+          "locator": "0:32 : feuille nervurée blanche, trait irrégulier sur fond sombre",
+          "opened_at": "2026-11-25T15:05:31.433Z"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=TKQyilsNaIc&t=72s",
+          "locator": "1:12 : figure au corps blanc sur fond violet, même texture de contour",
+          "opened_at": "2026-11-25T15:05:31.433Z"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=TKQyilsNaIc&t=88s",
+          "locator": "1:28 : anneau blanc sur fond bleu-violet",
+          "opened_at": "2026-11-25T15:05:31.433Z"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=TKQyilsNaIc&t=138s",
+          "locator": "2:18 : plusieurs figures blanches dans le champ",
+          "opened_at": "2026-11-25T15:05:31.433Z"
+        },
+        {
+          "url": "https://femmusic.com/2026/11/24/mia-joy-ft-midwife-circle/",
+          "locator": "Communiqué du 24 novembre : nouveau single avec Midwife, vidéo de Cory Feder et travail graphique artisanal ; crédit confirmé dans la description officielle Fire Talk",
+          "opened_at": "2026-11-25T15:05:31.433Z"
+        },
+        {
+          "url": "https://i.ytimg.com/vi/TKQyilsNaIc/hqdefault.jpg",
+          "locator": "Image ouverte, chargement vérifié et contrôle visuel de la carte",
+          "opened_at": "2026-11-25T15:05:31.433Z"
+        }
+      ],
+      "da_check": {
+        "observation": "Vers 0:32, une feuille dessinée en blanc se détache sur un fond presque noir. Vers 1:12, le même trait compose un petit personnage sur fond violet ; vers 1:28, il dessine un anneau. Ces images partagent une épaisseur fragile et des contours ouverts qui permettent de les lire comme les états d’un même monde.",
+        "viewer_effect": "Le blanc conserve une texture griffée, aussi bien dans la spirale initiale que dans la feuille et le corps. Les fonds passent du noir au violet puis au bleu, tandis que cette matière reste identifiable. Vers 2:06–2:22, plusieurs petites figures blanches occupent ensemble le champ, là où le personnage de 1:12 était isolé. Le nombre et l’étendue changent ; le vocabulaire graphique tient encore. ^^La continuité repose sur la manière de dessiner, pas sur l’obligation de montrer toujours le même sujet.^^ Cela permet de rapprocher plante, corps et cercle sans ajouter un décor différent pour expliquer chaque image.",
+        "project_specific_lesson": "Une série de métamorphoses gagne à conserver un invariant sensible : ici, le contour blanc imparfait. Les figures peuvent alors varier sans donner l’impression d’une collection de styles. Le procédé est surtout utile lorsque la matière du trait reste assez présente pour être reconnue dans une forme simple comme dans un groupe.",
+        "evidence": [
+          {
+            "url": "https://www.youtube.com/watch?v=TKQyilsNaIc&t=32s",
+            "locator": "0:32 : feuille nervurée blanche, trait irrégulier sur fond sombre"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=TKQyilsNaIc&t=72s",
+            "locator": "1:12 : figure au corps blanc sur fond violet, même texture de contour"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=TKQyilsNaIc&t=88s",
+            "locator": "1:28 : anneau blanc sur fond bleu-violet"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=TKQyilsNaIc&t=138s",
+            "locator": "2:18 : plusieurs figures blanches dans le champ"
+          }
+        ]
+      }
+    }
+  },
+  "https://www.youtube.com/watch?v=mF7udGvNRJQ": {
+    "title_fr": "Erykah Badu — Un volant suffit à ouvrir un voyage de studio",
+    "intro": "Pour « Breezy » au Tonight Show, Erykah Badu apparaît derrière un volant, devant des paysages et une ville dessinée. La relation entre l’accessoire, le portrait et le fond fabrique un véhicule imaginaire dans le cadre de la télévision.",
+    "points": [
+      [
+        "L’essentiel",
+        "Vers 1:12, ses mains entourent un volant devant un paysage vert ; le micro reste bien visible au premier plan. Vers 2:06, le même accessoire se retrouve devant une ville violette et un grand disque rose. Vers 4:02, la vue large montre Badu au milieu du groupe, sur le plateau de studio."
+      ],
+      [
+        "Intention",
+        "La chaîne officielle du Tonight Show présente la séquence comme une interprétation de « Breezy ». On peut lire le dispositif comme une invitation au voyage qui laisse voir les moyens du spectacle : costume, volant, micro et fond d’image coexistent. Le passage du paysage vert à la ville imaginaire élargit ce que ce petit poste de conduite peut faire croire."
+      ],
+      [
+        "Idée & DA",
+        "Le volant fournit immédiatement une échelle au corps et un rôle aux mains. Le cadre resserré laisse l’image de fond occuper presque tout l’espace disponible autour de la chanteuse : le spectateur peut ainsi compléter mentalement le véhicule. Quand la ville rose remplace le paysage vert, les repères du premier plan restent stables. Le décor devient plus improbable sans rendre la situation illisible. La vue large avec les musiciens fait ensuite retrouver l’échelle réelle du plateau. ^^L’illusion tient au rapport entre quelques éléments bien cadrés, davantage qu’à la reconstruction complète d’une voiture.^^ Le micro visible inscrit même cette conduite imaginaire dans une performance musicale assumée."
+      ]
+    ],
+    "takeaway": "En show TV, un accessoire peut porter beaucoup de fiction si le fond et le cadre complètent précisément son usage. Ici, volant, mains et paysage suffisent à définir une situation, puis à la transporter dans un autre univers. Cette économie fonctionne pour la captation ; elle ne permet pas de conclure que le public présent en studio voit la même illusion.",
+    "source": "The Tonight Show Starring Jimmy Fallon / NBC",
+    "source_url": "https://www.youtube.com/watch?v=mF7udGvNRJQ",
+    "source_links": [
+      "https://www.youtube.com/watch?v=mF7udGvNRJQ",
+      "https://www.youtube.com/watch?v=mF7udGvNRJQ&t=72s",
+      "https://www.youtube.com/watch?v=mF7udGvNRJQ&t=126s",
+      "https://www.youtube.com/watch?v=mF7udGvNRJQ&t=242s",
+      "https://i.ytimg.com/vi/mF7udGvNRJQ/hqdefault.jpg"
+    ],
+    "verified": true,
+    "reviewed_at": "2026-11-25T15:05:31.433Z",
+    "editorial_score": {
+      "total": 18,
+      "breakdown": {
+        "choice": 4,
+        "effect": 4,
+        "lesson": 4,
+        "evidence": 3,
+        "freshness": 3
+      }
+    },
+    "editorial_review": [
+      {
+        "url": "https://www.youtube.com/watch?v=mF7udGvNRJQ&t=72s",
+        "locator": "1:12 : volant, mains, micro et paysage vert derrière le portrait"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=mF7udGvNRJQ",
+        "locator": "Chaîne primaire The Tonight Show Starring Jimmy Fallon : titre et description de la performance de Breezy ; date de mise en ligne dans les métadonnées"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=mF7udGvNRJQ&t=126s",
+        "locator": "2:06 : même poste de conduite devant une ville violette et un disque rose"
+      }
+    ],
+    "publication_review": {
+      "scores": {
+        "choice": 4,
+        "effect": 4,
+        "lesson": 4,
+        "evidence": 3,
+        "freshness": 3
+      },
+      "choice": "Vers 1:12, ses mains entourent un volant devant un paysage vert ; le micro reste bien visible au premier plan. Vers 2:06, le même accessoire se retrouve devant une ville violette et un grand disque rose. Vers 4:02, la vue large montre Badu au milieu du groupe, sur le plateau de studio.",
+      "effect": "Le volant fournit immédiatement une échelle au corps et un rôle aux mains. Le cadre resserré laisse l’image de fond occuper presque tout l’espace disponible autour de la chanteuse : le spectateur peut ainsi compléter mentalement le véhicule. Quand la ville rose remplace le paysage vert, les repères du premier plan restent stables. Le décor devient plus improbable sans rendre la situation illisible. La vue large avec les musiciens fait ensuite retrouver l’échelle réelle du plateau. ^^L’illusion tient au rapport entre quelques éléments bien cadrés, davantage qu’à la reconstruction complète d’une voiture.^^ Le micro visible inscrit même cette conduite imaginaire dans une performance musicale assumée.",
+      "lesson": "En show TV, un accessoire peut porter beaucoup de fiction si le fond et le cadre complètent précisément son usage. Ici, volant, mains et paysage suffisent à définir une situation, puis à la transporter dans un autre univers. Cette économie fonctionne pour la captation ; elle ne permet pas de conclure que le public présent en studio voit la même illusion.",
+      "second_reading": "Identité primaire confirmée par oEmbed ; métadonnée de publication le 24 novembre 21:32:09 Pacifique, soit le 25 novembre 05:32:09 UTC. La fiche date la vidéo mise en ligne ; aucune date de tournage non confirmée n’est inventée. Planches 1:12–1:28, 2:06–2:22 et 3:54–4:10 examinées, ainsi que la vignette officielle, sobre. Angle Barnwell, objet et espace racontant une situation, et Auslander, distinction captation/salle, dans BASE_ANALYSE_DA. Aucun décorateur ni procédé écran technique crédité sans source ; aucune dynamique sonore ou vitesse de déplacement affirmée à partir des captures. Intention formulée comme lecture. Le choix vaut par le raccord accessoire/corps/fond, et par ses limites liées au cadre TV.",
+      "sources": [
+        {
+          "url": "https://www.youtube.com/watch?v=mF7udGvNRJQ",
+          "locator": "Vidéo officielle : identité par oEmbed et date par métadonnées uploadDate/publishDate",
+          "opened_at": "2026-11-25T15:05:31.433Z"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=mF7udGvNRJQ&t=72s",
+          "locator": "1:12 : volant, mains, micro et paysage vert derrière le portrait",
+          "opened_at": "2026-11-25T15:05:31.433Z"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=mF7udGvNRJQ&t=126s",
+          "locator": "2:06 : même poste de conduite devant une ville violette et un disque rose",
+          "opened_at": "2026-11-25T15:05:31.433Z"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=mF7udGvNRJQ&t=242s",
+          "locator": "4:02 : plan large du plateau avec Badu et les musiciens",
+          "opened_at": "2026-11-25T15:05:31.433Z"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=mF7udGvNRJQ",
+          "locator": "Chaîne primaire The Tonight Show Starring Jimmy Fallon : titre et description de la performance de Breezy ; date de mise en ligne dans les métadonnées",
+          "opened_at": "2026-11-25T15:05:31.433Z"
+        },
+        {
+          "url": "https://i.ytimg.com/vi/mF7udGvNRJQ/hqdefault.jpg",
+          "locator": "Image ouverte, chargement vérifié et contrôle visuel de la carte",
+          "opened_at": "2026-11-25T15:05:31.433Z"
+        }
+      ],
+      "da_check": {
+        "observation": "Vers 1:12, ses mains entourent un volant devant un paysage vert ; le micro reste bien visible au premier plan. Vers 2:06, le même accessoire se retrouve devant une ville violette et un grand disque rose. Vers 4:02, la vue large montre Badu au milieu du groupe, sur le plateau de studio.",
+        "viewer_effect": "Le volant fournit immédiatement une échelle au corps et un rôle aux mains. Le cadre resserré laisse l’image de fond occuper presque tout l’espace disponible autour de la chanteuse : le spectateur peut ainsi compléter mentalement le véhicule. Quand la ville rose remplace le paysage vert, les repères du premier plan restent stables. Le décor devient plus improbable sans rendre la situation illisible. La vue large avec les musiciens fait ensuite retrouver l’échelle réelle du plateau. ^^L’illusion tient au rapport entre quelques éléments bien cadrés, davantage qu’à la reconstruction complète d’une voiture.^^ Le micro visible inscrit même cette conduite imaginaire dans une performance musicale assumée.",
+        "project_specific_lesson": "En show TV, un accessoire peut porter beaucoup de fiction si le fond et le cadre complètent précisément son usage. Ici, volant, mains et paysage suffisent à définir une situation, puis à la transporter dans un autre univers. Cette économie fonctionne pour la captation ; elle ne permet pas de conclure que le public présent en studio voit la même illusion.",
+        "evidence": [
+          {
+            "url": "https://www.youtube.com/watch?v=mF7udGvNRJQ&t=72s",
+            "locator": "1:12 : volant, mains, micro et paysage vert derrière le portrait"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=mF7udGvNRJQ&t=126s",
+            "locator": "2:06 : même poste de conduite devant une ville violette et un disque rose"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=mF7udGvNRJQ&t=242s",
+            "locator": "4:02 : plan large du plateau avec Badu et les musiciens"
+          }
+        ]
+      }
+    }
+  },
+  "https://www.youtube.com/watch?v=Jl-kR4ETQfI": {
+    "title_fr": "Rosa Walton — La forme du son traverse le visage",
+    "intro": "Jasper Harrison projette sur Rosa Walton des motifs tirés de la forme d’onde du morceau. Dans « Tell Me It’s A Dream », ce dessin lumineux relie le portrait à l’espace et trouble la lecture des traits.",
+    "points": [
+      [
+        "L’essentiel",
+        "Vers 1:16, une ligne bleue passe au niveau des yeux de Rosa Walton et continue sur le mur. Vers 1:22, les reliefs du nez et du visage la fragmentent. À 1:24, la chanteuse apparaît sous une grande structure métallique rouge : le corps retrouve un espace reconnaissable, très différent du portrait presque absorbé par la projection."
+      ],
+      [
+        "Intention",
+        "Jasper Harrison, réalisateur, concepteur et monteur du clip, explique avoir créé des visuels à partir de la forme d’onde audio puis les avoir projetés sur Rosa. Il cherchait une impression de rêve et d’obscurité. Cette décision donne un support concret à l’incertitude entre imaginaire et monde tangible évoquée par l’artiste : le même visage peut devenir le relief d’une image lumineuse."
+      ],
+      [
+        "Idée & DA",
+        "La ligne ne reste pas derrière la chanteuse. Elle traverse les yeux, accroche l’arête du nez puis reprend sur le fond. Le corps partage donc le même dessin que l’espace, tout en le déformant par son volume. Dans les vues bleues, certaines parties du visage deviennent difficiles à distinguer ; sous la structure rouge, le vêtement sombre et le micro redonnent une silhouette entière dans un lieu. ^^La projection sert à modifier la présence du personnage, pas seulement à colorer son portrait.^^ Ce contraste rend perceptible l’écart entre un corps situé et un visage devenu surface."
+      ]
+    ],
+    "takeaway": "Projeter un motif gagne en force quand la surface qui le reçoit a une fonction dans le récit. Ici, le relief du visage perturbe une ligne issue du morceau : la chanteuse porte littéralement une trace de sa musique. L’intérêt dépend de ce contact précis entre forme et corps ; un fond lumineux laissé à distance produirait une autre relation.",
+    "source": "Rosa Walton / Transgressive Records",
+    "source_url": "https://www.youtube.com/watch?v=Jl-kR4ETQfI",
+    "source_links": [
+      "https://www.youtube.com/watch?v=Jl-kR4ETQfI",
+      "https://www.youtube.com/watch?v=Jl-kR4ETQfI&t=76s",
+      "https://www.youtube.com/watch?v=Jl-kR4ETQfI&t=82s",
+      "https://www.youtube.com/watch?v=Jl-kR4ETQfI&t=84s",
+      "https://femmusic.com/2026/11/24/rosa-walton-tell-me-its-a-dream/",
+      "https://i.ytimg.com/vi/Jl-kR4ETQfI/hqdefault.jpg"
+    ],
+    "verified": true,
+    "reviewed_at": "2026-11-25T15:05:31.433Z",
+    "editorial_score": {
+      "total": 17,
+      "breakdown": {
+        "choice": 4,
+        "effect": 4,
+        "lesson": 4,
+        "evidence": 3,
+        "freshness": 2
+      }
+    },
+    "editorial_review": [
+      {
+        "url": "https://www.youtube.com/watch?v=Jl-kR4ETQfI&t=76s",
+        "locator": "1:16 : ligne bleue au niveau des yeux et prolongement sur le fond"
+      },
+      {
+        "url": "https://femmusic.com/2026/11/24/rosa-walton-tell-me-its-a-dream/",
+        "locator": "Communiqué du 24 novembre : nouveau single distinct de l’album estival homonyme ; propos attribués à Jasper Harrison sur la création de formes d’onde et leur projection sur Rosa ; crédit réalisation/concept/montage recoupé dans la description VEVO"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=Jl-kR4ETQfI&t=82s",
+        "locator": "1:22 : portrait rapproché, ligne bleue interrompue par les reliefs du visage"
+      }
+    ],
+    "publication_review": {
+      "scores": {
+        "choice": 4,
+        "effect": 4,
+        "lesson": 4,
+        "evidence": 3,
+        "freshness": 2
+      },
+      "choice": "Vers 1:16, une ligne bleue passe au niveau des yeux de Rosa Walton et continue sur le mur. Vers 1:22, les reliefs du nez et du visage la fragmentent. À 1:24, la chanteuse apparaît sous une grande structure métallique rouge : le corps retrouve un espace reconnaissable, très différent du portrait presque absorbé par la projection.",
+      "effect": "La ligne ne reste pas derrière la chanteuse. Elle traverse les yeux, accroche l’arête du nez puis reprend sur le fond. Le corps partage donc le même dessin que l’espace, tout en le déformant par son volume. Dans les vues bleues, certaines parties du visage deviennent difficiles à distinguer ; sous la structure rouge, le vêtement sombre et le micro redonnent une silhouette entière dans un lieu. ^^La projection sert à modifier la présence du personnage, pas seulement à colorer son portrait.^^ Ce contraste rend perceptible l’écart entre un corps situé et un visage devenu surface.",
+      "lesson": "Projeter un motif gagne en force quand la surface qui le reçoit a une fonction dans le récit. Ici, le relief du visage perturbe une ligne issue du morceau : la chanteuse porte littéralement une trace de sa musique. L’intérêt dépend de ce contact précis entre forme et corps ; un fond lumineux laissé à distance produirait une autre relation.",
+      "second_reading": "Chaîne RosaWaltonVEVO confirmée par oEmbed ; publication vidéo le 24 novembre 02:00:17 Pacifique, soit 10:00:17 UTC. Nouveau single explicitement distinct de l’album homonyme paru cet été. Planches détaillées 1:12–1:28 et 2:06–2:22 et vignette examinées. Jasper Harrison confirmé dans la description primaire ; propos sur les projections attribués dans le communiqué FEMMUSIC ouvert. Angle Albers, figure/fond et visibilité relative, et Barnwell, lumière organisant l’espace, dans BASE_ANALYSE_DA. La provenance audio du motif est attribuée au réalisateur, sans prétendre mesurer un synchronisme sonore. Ni strobes, ni mouvements de caméra, ni vitesse d’obturation déduits des captures. Vignette sobre montrant directement le dispositif.",
+      "sources": [
+        {
+          "url": "https://www.youtube.com/watch?v=Jl-kR4ETQfI",
+          "locator": "Vidéo officielle : identité par oEmbed et date par métadonnées uploadDate/publishDate",
+          "opened_at": "2026-11-25T15:05:31.433Z"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=Jl-kR4ETQfI&t=76s",
+          "locator": "1:16 : ligne bleue au niveau des yeux et prolongement sur le fond",
+          "opened_at": "2026-11-25T15:05:31.433Z"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=Jl-kR4ETQfI&t=82s",
+          "locator": "1:22 : portrait rapproché, ligne bleue interrompue par les reliefs du visage",
+          "opened_at": "2026-11-25T15:05:31.433Z"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=Jl-kR4ETQfI&t=84s",
+          "locator": "1:24 : corps avec micro sous une structure métallique rouge",
+          "opened_at": "2026-11-25T15:05:31.433Z"
+        },
+        {
+          "url": "https://femmusic.com/2026/11/24/rosa-walton-tell-me-its-a-dream/",
+          "locator": "Communiqué du 24 novembre : nouveau single distinct de l’album estival homonyme ; propos attribués à Jasper Harrison sur la création de formes d’onde et leur projection sur Rosa ; crédit réalisation/concept/montage recoupé dans la description VEVO",
+          "opened_at": "2026-11-25T15:05:31.433Z"
+        },
+        {
+          "url": "https://i.ytimg.com/vi/Jl-kR4ETQfI/hqdefault.jpg",
+          "locator": "Image ouverte, chargement vérifié et contrôle visuel de la carte",
+          "opened_at": "2026-11-25T15:05:31.433Z"
+        }
+      ],
+      "da_check": {
+        "observation": "Vers 1:16, une ligne bleue passe au niveau des yeux de Rosa Walton et continue sur le mur. Vers 1:22, les reliefs du nez et du visage la fragmentent. À 1:24, la chanteuse apparaît sous une grande structure métallique rouge : le corps retrouve un espace reconnaissable, très différent du portrait presque absorbé par la projection.",
+        "viewer_effect": "La ligne ne reste pas derrière la chanteuse. Elle traverse les yeux, accroche l’arête du nez puis reprend sur le fond. Le corps partage donc le même dessin que l’espace, tout en le déformant par son volume. Dans les vues bleues, certaines parties du visage deviennent difficiles à distinguer ; sous la structure rouge, le vêtement sombre et le micro redonnent une silhouette entière dans un lieu. ^^La projection sert à modifier la présence du personnage, pas seulement à colorer son portrait.^^ Ce contraste rend perceptible l’écart entre un corps situé et un visage devenu surface.",
+        "project_specific_lesson": "Projeter un motif gagne en force quand la surface qui le reçoit a une fonction dans le récit. Ici, le relief du visage perturbe une ligne issue du morceau : la chanteuse porte littéralement une trace de sa musique. L’intérêt dépend de ce contact précis entre forme et corps ; un fond lumineux laissé à distance produirait une autre relation.",
+        "evidence": [
+          {
+            "url": "https://www.youtube.com/watch?v=Jl-kR4ETQfI&t=76s",
+            "locator": "1:16 : ligne bleue au niveau des yeux et prolongement sur le fond"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=Jl-kR4ETQfI&t=82s",
+            "locator": "1:22 : portrait rapproché, ligne bleue interrompue par les reliefs du visage"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=Jl-kR4ETQfI&t=84s",
+            "locator": "1:24 : corps avec micro sous une structure métallique rouge"
+          }
+        ]
+      }
+    }
   }
 }

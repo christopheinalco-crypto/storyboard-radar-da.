@@ -1,6 +1,6 @@
 {
   "description": "Cumulative seen-project register; retain entries when projects leave the live feed; compare URL and semantic identity.",
-  "updated": "2026-11-25T07:49:26.959Z",
+  "updated": "2026-11-25T15:05:31.433Z",
   "projects": [
     {
       "project_id": "pink-siifu-devils-advocate-gontrand-making-of-2026",
@@ -1103,6 +1103,36 @@
       "published_at": "2026-11-25T07:49:26.959Z",
       "wave_id": "2026-11-25-06h",
       "editorial_score": 18
+    },
+    {
+      "project_id": "mia-joy-circle-trait-metamorphoses-2026",
+      "title": "Mia Joy — Un même trait relie le corps, la feuille et le cercle",
+      "url": "https://www.youtube.com/watch?v=TKQyilsNaIc",
+      "category": "14 Musique Clips",
+      "radar_added_at": "2026-11-25T15:05:31.433Z",
+      "published_at": "2026-11-25T15:05:31.433Z",
+      "wave_id": "2026-11-25-12h",
+      "editorial_score": 16
+    },
+    {
+      "project_id": "erykah-badu-breezy-fallon-volant-paysages-2026",
+      "title": "Erykah Badu — Un volant suffit à ouvrir un voyage de studio",
+      "url": "https://www.youtube.com/watch?v=mF7udGvNRJQ",
+      "category": "01 Spectacle Concert",
+      "radar_added_at": "2026-11-25T15:05:31.433Z",
+      "published_at": "2026-11-25T15:05:31.433Z",
+      "wave_id": "2026-11-25-12h",
+      "editorial_score": 18
+    },
+    {
+      "project_id": "rosa-walton-dream-projection-visage-2026",
+      "title": "Rosa Walton — La forme du son traverse le visage",
+      "url": "https://www.youtube.com/watch?v=Jl-kR4ETQfI",
+      "category": "14 Musique Clips",
+      "radar_added_at": "2026-11-25T15:05:31.433Z",
+      "published_at": "2026-11-25T15:05:31.433Z",
+      "wave_id": "2026-11-25-12h",
+      "editorial_score": 17
     }
   ]
 }
