@@ -3122,5 +3122,27 @@
         "result": "Trois cartes illustrées et décryptages rendus. Limite déjà connue des captures intégrales : barre fixe superposée à une bande du contenu ; ne pas présenter la mise en page comme sans défaut. Aucun changement d’interface dans ce commit éditorial."
       }
     }
+  },
+  "next_wave_preparation": {
+    "slot": "2026-11-25-12h",
+    "checked_at": "2026-11-25T10:56:46.501Z",
+    "status": "collecting",
+    "trigger_at": "2026-11-25T10:55:10.933Z",
+    "notes": "Déclenchement anticipé à 11 h 55 Paris : dernier créneau échu = 6 h, déjà publié et vérifié. Aucun deuxième lot affecté à ce créneau. Commit éditorial 61316505aa9187ff8d20efb9a96b9fc4ae50cab4 contient les trois fichiers requis ; preuve locale verification.json relue, SHA et trois identifiants exacts ; Chromium et Pages réussis. Rapports devenus périmés depuis la publication, sans invalider la preuve historique. Préparation de midi : absence de collecteur actif avant deux relances acceptées. Deux runs actuellement en cours, ne pas redéclencher. Reprendre leur lecture et la prospection au créneau de midi avant publication. Cette préparation ne compte pas comme vague.",
+    "collection": {
+      "source_run": 45599624540,
+      "source_status": "in_progress",
+      "rss_run": 45599629479,
+      "rss_status": "in_progress"
+    },
+    "research_pending": [
+      {
+        "project": "Mia Joy ft Midwife — Circle",
+        "source": "https://femmusic.com/2026/11/24/mia-joy-ft-midwife-circle/",
+        "reported_date": "2026-11-24",
+        "director_reported": "Cory Feder",
+        "status": "Piste : animation originale annoncée ; retrouver vidéo primaire, date exacte, plans, provenance et doublons avant note. Aucune validation visuelle à ce stade."
+      }
+    ]
   }
 }
