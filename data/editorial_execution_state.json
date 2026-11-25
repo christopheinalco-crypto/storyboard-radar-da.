@@ -1750,6 +1750,30 @@
           "rosa-walton-dream-projection-visage-2026"
         ],
         "feed_count": 137
+      },
+      {
+        "id": "2026-11-25-16h",
+        "slot": "2026-11-25-16h",
+        "status": "public_verified",
+        "projects": [
+          "ella-boh-warning-label-corps-contraints-2026",
+          "violet-grohl-metal-birds-kimmel-2026",
+          "truth-untold-shatterproof-cases-ouvertes-2026"
+        ],
+        "count": 3,
+        "publication_commit": "e8b0a941acc03f997a4e4fd0d348cacaefa6d70a",
+        "trigger": "scheduled_editorial_recovery",
+        "verified_at": "2026-11-25T19:04:17.602Z",
+        "pages_deployment": "https://github.com/christopheinalco-crypto/storyboard-radar-da./actions/runs/45681333122",
+        "public_render_check": "https://github.com/christopheinalco-crypto/storyboard-radar-da./actions/runs/45681333161",
+        "artifact_id": 15054046585,
+        "proof_head": "e8b0a941acc03f997a4e4fd0d348cacaefa6d70a",
+        "verified_new_projects": [
+          "ella-boh-warning-label-corps-contraints-2026",
+          "violet-grohl-metal-birds-kimmel-2026",
+          "truth-untold-shatterproof-cases-ouvertes-2026"
+        ],
+        "feed_count": 140
       }
     ]
   },
@@ -3209,24 +3233,92 @@
     },
     "2026-11-25-16h": {
       "id": "2026-11-25-16h",
-      "status": "incomplete",
-      "stage": "editorial_review_pending",
-      "checked_at": "2026-11-25T15:35:39.741Z",
-      "published_count": 0,
-      "public_render_verified": false,
+      "status": "complete",
+      "stage": "public_verified",
+      "checked_at": "2026-11-25T19:05:33.288Z",
+      "published_count": 3,
+      "public_render_verified": true,
       "collection": {
-        "wave_id": "github-45636005547",
-        "coverage_checked_at": "2026-11-25T14:37:10.838757+00:00",
-        "brief_prepared_at": "2026-11-25T14:37:41.996817+00:00",
-        "sources_opened": 157,
-        "rss_collected_at": "2026-11-25T14:56:42.232789+00:00",
+        "wave_id": "github-45680175396",
+        "coverage_checked_at": "2026-11-25T18:56:32.634807+00:00",
+        "brief_prepared_at": "2026-11-25T18:57:04.436290+00:00",
+        "sources_opened": 159,
+        "rss_collected_at": "2026-11-25T18:56:24.660090+00:00",
         "rss_parsed": 42,
-        "source_run": 45636005547,
-        "rss_run": 45639583190,
-        "fresh": true,
-        "scope": "Rapports globaux disponibles ; ne constituent pas une nouvelle publication du créneau de 16 h."
+        "source_run": 45680175396,
+        "rss_run": 45680179901,
+        "fresh": true
       },
-      "notes": "Alerte de suivi du créneau de 16 h déclenchée à 16 h 34 Paris. Connecteur GitHub : nom exact et id 1449156184 confirmés. Registre du créneau absent, aucun projet marqué 2026-11-25-16h dans le registre des identités. Dernière publication réelle = rattrapage de midi cddfe9097e6ad92a245c65450767ffa860026f82, trois fichiers éditoriaux dans un commit et trois ajouts exacts. Pages 45641376865 et Chromium 45641378276 réussis ; artifact 15033703921 encore disponible, verification.json extrait de cet artifact relu : head exact et identifiants exactement égaux au lot de midi. Le déploiement 45641819874 ne contient que la consignation ec85ff2, sans nouvelle fiche. Les trois fiches de midi ne comptent pas à nouveau pour 16 h. Collecteurs sources et RSS réussis, 157 sources et 42 RSS, rapports contrôlés à ce passage. Aucun collecteur ni rendu actif dans les huit derniers runs. Créneau de 16 h laissé à reprendre au prochain passage éditorial : renouveler les collectes si elles ont plus d’une heure, poursuivre la sélection puis la publication et la preuve spécifique du créneau. Cette alerte ne publie aucune fiche et n’ajoute aucune vague aux validations."
+      "notes": "Alerte de suivi du créneau de 16 h déclenchée à 16 h 34 Paris. Connecteur GitHub : nom exact et id 1449156184 confirmés. Registre du créneau absent, aucun projet marqué 2026-11-25-16h dans le registre des identités. Dernière publication réelle = rattrapage de midi cddfe9097e6ad92a245c65450767ffa860026f82, trois fichiers éditoriaux dans un commit et trois ajouts exacts. Pages 45641376865 et Chromium 45641378276 réussis ; artifact 15033703921 encore disponible, verification.json extrait de cet artifact relu : head exact et identifiants exactement égaux au lot de midi. Le déploiement 45641819874 ne contient que la consignation ec85ff2, sans nouvelle fiche. Les trois fiches de midi ne comptent pas à nouveau pour 16 h. Collecteurs sources et RSS réussis, 157 sources et 42 RSS, rapports contrôlés à ce passage. Aucun collecteur ni rendu actif dans les huit derniers runs. Créneau de 16 h laissé à reprendre au prochain passage éditorial : renouveler les collectes si elles ont plus d’une heure, poursuivre la sélection puis la publication et la preuve spécifique du créneau. Cette alerte ne publie aucune fiche et n’ajoute aucune vague aux validations. Reprise éditoriale déclenchée à 19 h 55 Paris : dernier créneau échu à ce moment = 16 h, conservé pendant toute la reprise. Rapports périmés ; aucune collecte active avant relance des deux collecteurs. Sources 45680175396 et RSS 45680179901 réussis : 159 sources ouvertes sur 182 tentées, 42 RSS. Prospection clips et spectacle TV, puis comparaison des choix visuels. Trois vidéos primaires toutes publiées le 25 novembre UTC, aucune entrée existante. Dates et identité via oEmbed et métadonnées, crédits et propos recoupés dans les descriptions et communiqués. Neuf planches détaillées et trois couvertures originales examinées. Scores 18/17/18, alternance clip/show/clip. Trois JSON publiés atomiquement dans e8b0a941acc03f997a4e4fd0d348cacaefa6d70a ; validateurs et pré-push réussis. Pages et Chromium en cours ; ne pas compter la vague avant lecture de la preuve exacte et des captures. Pages 45681333122 et Chromium 45681333161 réussis. Artifact 15054046585 téléchargé ; verification.json lu, SHA et trois identifiants exactement conformes au lot. Trois captures publiques ouvertes et examinées : images présentes, décryptages ouverts, textes et surlignages rendus. Vague désormais comptée une seule fois pour 16 h ; le créneau de 20 h reste distinct.",
+      "publication": {
+        "id": "2026-11-25-16h",
+        "slot": "2026-11-25-16h",
+        "status": "public_verified",
+        "projects": [
+          "ella-boh-warning-label-corps-contraints-2026",
+          "violet-grohl-metal-birds-kimmel-2026",
+          "truth-untold-shatterproof-cases-ouvertes-2026"
+        ],
+        "count": 3,
+        "publication_commit": "e8b0a941acc03f997a4e4fd0d348cacaefa6d70a",
+        "trigger": "scheduled_editorial_recovery",
+        "verified_at": "2026-11-25T19:04:17.602Z",
+        "pages_deployment": "https://github.com/christopheinalco-crypto/storyboard-radar-da./actions/runs/45681333122",
+        "public_render_check": "https://github.com/christopheinalco-crypto/storyboard-radar-da./actions/runs/45681333161",
+        "artifact_id": 15054046585,
+        "proof_head": "e8b0a941acc03f997a4e4fd0d348cacaefa6d70a",
+        "verified_new_projects": [
+          "ella-boh-warning-label-corps-contraints-2026",
+          "violet-grohl-metal-birds-kimmel-2026",
+          "truth-untold-shatterproof-cases-ouvertes-2026"
+        ],
+        "feed_count": 140
+      },
+      "research_audit": [
+        {
+          "project": "Nectar Woode — Only Want You",
+          "video": "ZT3BcUbOp1M",
+          "decision": "non retenu",
+          "reason": "Vidéo liée datée du 20 novembre, hors 72 h ; le lien aboutit à un visualiser, pas de preuve que les nouvelles observations de l’article correspondent à ce film."
+        },
+        {
+          "project": "ADOM — Don’t You Cry",
+          "video": "Ck-Bk4cefCY",
+          "decision": "non retenu",
+          "reason": "Vidéo publiée le 20 novembre UTC ; article du 24 ne suffit pas à établir une nouveauté dans les 72 h."
+        },
+        {
+          "project": "Lambrini Girls — Don’t Talk to Me Until I’ve Had My Abortion",
+          "decision": "attente sortie",
+          "reason": "Source du 24 : audio uniquement, clip annoncé le 1er décembre ; aucune analyse du clip à publier avant sa sortie."
+        },
+        {
+          "project": "Hard Life — Boyfriends",
+          "decision": "écarté de ce lot",
+          "reason": "Propos du réalisateur lus ; métaphore sexuelle explicite et choix moins adapté à cette vague, aucune validation visuelle complète ni note inventée."
+        },
+        {
+          "project": "Malou — The Mood for Love",
+          "video": "zfkbh41P11g",
+          "decision": "à approfondir",
+          "reason": "Date 24 novembre 23 h UTC, réalisation Simon Vanrie, trois planches examinées ; usage du lieu et de la distance repéré, intérêt DA à approfondir avant notation."
+        },
+        {
+          "project": "EGOISM — I Need Your Connection",
+          "video": "ENoZDzx0ZdU",
+          "decision": "à approfondir",
+          "reason": "Publication 25 novembre 07:00:09 UTC, crédit Olive Rush et Christine Zi Yi Yau ; planche 1:12–1:28 et couverture examinées, vues en plongée et espace très resserré ; plusieurs états supplémentaires à examiner avant analyse."
+        }
+      ],
+      "public_visual_review": {
+        "reviewed_at": "2026-11-25T19:05:33.288Z",
+        "screenshots": [
+          "fiche-1.png",
+          "fiche-2.png",
+          "fiche-3.png"
+        ],
+        "result": "Trois fiches illustrées et décryptages affichés. Limite connue des captures intégrales : la barre fixe est superposée à une bande du contenu ; cette preuve ne valide pas une mise en page sans défaut. Aucun changement d’interface dans la vague."
+      }
     }
   },
   "next_wave_preparation": {
