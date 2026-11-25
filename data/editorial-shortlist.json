@@ -1,22 +1,23 @@
 {
-  "wave_id": "github-45420162872",
-  "updated_at": "2026-11-24T14:59:19.770312+00:00",
+  "wave_id": "github-45531246933",
+  "updated_at": "2026-11-25T02:12:42.794807+00:00",
   "status": "selection_non_verifiee",
   "warning": "Scores = priorisation de liens, jamais validation editoriale, date ou droit image.",
   "total_discoveries": 3000,
-  "ranked": 424,
+  "ranked": 437,
   "shortlisted": 160,
   "by_category": {
     "14 Musique Clips": 55,
-    "01 Spectacle Concert": 29,
+    "01 Spectacle Concert": 21,
     "02 TV Broadcast": 20,
-    "15 Danse Performance": 3,
-    "09 France Pro": 44,
-    "08 Immersif CGI Motion": 4,
-    "04 Pub Strategie": 2,
-    "07 FOOH OOH DOOH": 1,
+    "15 Danse Performance": 2,
+    "09 France Pro": 49,
+    "08 Immersif CGI Motion": 5,
+    "04 Pub Strategie": 3,
+    "07 FOOH OOH DOOH": 2,
     "03 DA Graphisme": 1,
-    "06 Retail Brand Experience": 1
+    "06 Retail Brand Experience": 1,
+    "13 France Marketing Design": 1
   },
   "items": [
     {
@@ -25,7 +26,7 @@
       "source_category": "14 Musique Clips",
       "priority": "P1",
       "status": "a_verifier",
-      "found_at": "2026-11-24T14:59:01.630203+00:00",
+      "found_at": "2026-11-25T02:12:26.902783+00:00",
       "score": 36,
       "requirements": [
         "date_creation",
@@ -41,7 +42,7 @@
       "source_category": "01 Spectacle Concert",
       "priority": "P2",
       "status": "a_verifier",
-      "found_at": "2026-11-24T14:59:01.630203+00:00",
+      "found_at": "2026-11-25T02:12:26.902783+00:00",
       "score": 21,
       "requirements": [
         "date_creation",
@@ -57,87 +58,7 @@
       "source_category": "02 TV Broadcast",
       "priority": "P2",
       "status": "a_verifier",
-      "found_at": "2026-11-24T14:59:01.630203+00:00",
-      "score": 21,
-      "requirements": [
-        "date_creation",
-        "choix_DA_observable",
-        "source_primaire",
-        "visuel_verifie_ou_exception_scorecard",
-        "doublon_identite"
-      ]
-    },
-    {
-      "url": "https://www.broadwayworld.com/myshows/join.php",
-      "source": "BroadwayWorld Dance",
-      "source_category": "15 Danse Performance",
-      "priority": "P1",
-      "status": "a_verifier",
-      "found_at": "2026-11-24T14:59:01.630203+00:00",
-      "score": 20,
-      "requirements": [
-        "date_creation",
-        "choix_DA_observable",
-        "source_primaire",
-        "visuel_verifie_ou_exception_scorecard",
-        "doublon_identite"
-      ]
-    },
-    {
-      "url": "https://www.revue-as.fr/2026/11/24/venez-decouvrir-vivid-prime-et-hive-en-demonstration-live/",
-      "source": "Revue AS",
-      "source_category": "09 France Pro",
-      "priority": "P1",
-      "status": "a_verifier",
-      "found_at": "2026-11-24T14:59:01.630203+00:00",
-      "score": 24,
-      "requirements": [
-        "date_creation",
-        "choix_DA_observable",
-        "source_primaire",
-        "visuel_verifie_ou_exception_scorecard",
-        "doublon_identite"
-      ]
-    },
-    {
-      "url": "https://www.blogotheque.net/categories/music-videos/",
-      "source": "La Blogothèque",
-      "source_category": "14 Musique Clips",
-      "priority": "P1",
-      "status": "a_verifier",
-      "found_at": "2026-11-24T14:59:01.630203+00:00",
-      "score": 31,
-      "requirements": [
-        "date_creation",
-        "choix_DA_observable",
-        "source_primaire",
-        "visuel_verifie_ou_exception_scorecard",
-        "doublon_identite"
-      ]
-    },
-    {
-      "url": "https://luzstudio.com/en/projects/aerosmith-peace-out-tour",
-      "source": "LUZ Studio",
-      "source_category": "01 Spectacle Concert",
-      "priority": "P2",
-      "status": "a_verifier",
-      "found_at": "2026-11-24T14:59:01.630203+00:00",
-      "score": 21,
-      "requirements": [
-        "date_creation",
-        "choix_DA_observable",
-        "source_primaire",
-        "visuel_verifie_ou_exception_scorecard",
-        "doublon_identite"
-      ]
-    },
-    {
-      "url": "https://www.disguise.one/en/solutions/immersive-experiences",
-      "source": "disguise",
-      "source_category": "02 TV Broadcast",
-      "priority": "P2",
-      "status": "a_verifier",
-      "found_at": "2026-11-24T14:59:01.630203+00:00",
+      "found_at": "2026-11-25T02:12:26.902783+00:00",
       "score": 21,
       "requirements": [
         "date_creation",
@@ -153,7 +74,7 @@
       "source_category": "15 Danse Performance",
       "priority": "P1",
       "status": "a_verifier",
-      "found_at": "2026-11-24T14:59:01.630203+00:00",
+      "found_at": "2026-11-25T02:12:26.902783+00:00",
       "score": 11,
       "requirements": [
         "date_creation",
@@ -164,13 +85,13 @@
       ]
     },
     {
-      "url": "https://www.lightzoomlumiere.fr/annuaire-lumiere-eclairage-professionnel-france/formation-lumiere-eclairage-light-lighting-education/",
-      "source": "Light ZOOM Lumière",
+      "url": "https://www.revue-as.fr/2026/11/24/venez-decouvrir-vivid-prime-et-hive-en-demonstration-live/",
+      "source": "Revue AS",
       "source_category": "09 France Pro",
       "priority": "P1",
       "status": "a_verifier",
-      "found_at": "2026-11-24T14:59:01.630203+00:00",
-      "score": 18,
+      "found_at": "2026-11-25T02:12:26.902783+00:00",
+      "score": 24,
       "requirements": [
         "date_creation",
         "choix_DA_observable",
@@ -180,13 +101,13 @@
       ]
     },
     {
-      "url": "https://www.promonews.tv/videos/2026/11/23/hard-life-boyfriends-greg-barth/97078",
-      "source": "Promonews",
+      "url": "https://www.blogotheque.net/categories/music-videos/",
+      "source": "La Blogothèque",
       "source_category": "14 Musique Clips",
       "priority": "P1",
       "status": "a_verifier",
-      "found_at": "2026-11-24T14:59:01.630203+00:00",
-      "score": 29,
+      "found_at": "2026-11-25T02:12:26.902783+00:00",
+      "score": 31,
       "requirements": [
         "date_creation",
         "choix_DA_observable",
@@ -196,12 +117,12 @@
       ]
     },
     {
-      "url": "https://stufish.com/project/uefa-champions-league-kick-off-show/",
-      "source": "STUFISH",
+      "url": "https://luzstudio.com/en/projects/aerosmith-peace-out-tour",
+      "source": "LUZ Studio",
       "source_category": "01 Spectacle Concert",
-      "priority": "P1",
+      "priority": "P2",
       "status": "a_verifier",
-      "found_at": "2026-11-24T14:59:01.630203+00:00",
+      "found_at": "2026-11-25T02:12:26.902783+00:00",
       "score": 21,
       "requirements": [
         "date_creation",
@@ -212,12 +133,12 @@
       ]
     },
     {
-      "url": "https://www.disguise.one/en/solutions/live-entertainment",
+      "url": "https://www.disguise.one/en/solutions/immersive-experiences",
       "source": "disguise",
       "source_category": "02 TV Broadcast",
       "priority": "P2",
       "status": "a_verifier",
-      "found_at": "2026-11-24T14:59:01.630203+00:00",
+      "found_at": "2026-11-25T02:12:26.902783+00:00",
       "score": 21,
       "requirements": [
         "date_creation",
@@ -233,8 +154,72 @@
       "source_category": "15 Danse Performance",
       "priority": "P1",
       "status": "a_verifier",
-      "found_at": "2026-11-24T14:59:01.630203+00:00",
+      "found_at": "2026-11-25T02:12:26.902783+00:00",
       "score": 11,
+      "requirements": [
+        "date_creation",
+        "choix_DA_observable",
+        "source_primaire",
+        "visuel_verifie_ou_exception_scorecard",
+        "doublon_identite"
+      ]
+    },
+    {
+      "url": "https://www.lightzoomlumiere.fr/annuaire-lumiere-eclairage-professionnel-france/formation-lumiere-eclairage-light-lighting-education/",
+      "source": "Light ZOOM Lumière",
+      "source_category": "09 France Pro",
+      "priority": "P1",
+      "status": "a_verifier",
+      "found_at": "2026-11-25T02:12:26.902783+00:00",
+      "score": 18,
+      "requirements": [
+        "date_creation",
+        "choix_DA_observable",
+        "source_primaire",
+        "visuel_verifie_ou_exception_scorecard",
+        "doublon_identite"
+      ]
+    },
+    {
+      "url": "https://www.promonews.tv/videos/2026/11/18/kojaque-thats-gonna-be-me-kojaque-robert-bass/97008",
+      "source": "Promonews",
+      "source_category": "14 Musique Clips",
+      "priority": "P1",
+      "status": "a_verifier",
+      "found_at": "2026-11-25T02:12:26.902783+00:00",
+      "score": 29,
+      "requirements": [
+        "date_creation",
+        "choix_DA_observable",
+        "source_primaire",
+        "visuel_verifie_ou_exception_scorecard",
+        "doublon_identite"
+      ]
+    },
+    {
+      "url": "https://stufish.com/project/uefa-champions-league-kick-off-show/",
+      "source": "STUFISH",
+      "source_category": "01 Spectacle Concert",
+      "priority": "P1",
+      "status": "a_verifier",
+      "found_at": "2026-11-25T02:12:26.902783+00:00",
+      "score": 21,
+      "requirements": [
+        "date_creation",
+        "choix_DA_observable",
+        "source_primaire",
+        "visuel_verifie_ou_exception_scorecard",
+        "doublon_identite"
+      ]
+    },
+    {
+      "url": "https://www.disguise.one/en/solutions/live-entertainment",
+      "source": "disguise",
+      "source_category": "02 TV Broadcast",
+      "priority": "P2",
+      "status": "a_verifier",
+      "found_at": "2026-11-25T02:12:26.902783+00:00",
+      "score": 21,
       "requirements": [
         "date_creation",
         "choix_DA_observable",
@@ -249,7 +234,7 @@
       "source_category": "09 France Pro",
       "priority": "P2",
       "status": "a_verifier",
-      "found_at": "2026-11-24T14:59:01.630203+00:00",
+      "found_at": "2026-11-25T02:12:26.902783+00:00",
       "score": 18,
       "requirements": [
         "date_creation",
@@ -260,13 +245,13 @@
       ]
     },
     {
-      "url": "https://motionographer.com/2026/11/10/lofsong-and-the-language-that-outlives-us/",
-      "source": "Motionographer",
+      "url": "https://www.promonews.tv/videos/2026/11/24/hard-life-boyfriends-greg-barth/97078",
+      "source": "Promonews",
       "source_category": "14 Musique Clips",
       "priority": "P1",
       "status": "a_verifier",
-      "found_at": "2026-11-24T14:59:01.630203+00:00",
-      "score": 28,
+      "found_at": "2026-11-25T02:12:26.902783+00:00",
+      "score": 29,
       "requirements": [
         "date_creation",
         "choix_DA_observable",
@@ -276,13 +261,13 @@
       ]
     },
     {
-      "url": "https://www.etcconnect.com/Products/Automated-Lighting/Atmospherics/",
-      "source": "ETC",
+      "url": "https://europe.yamaha.com/en/business/audio/products/mixers/dm5/?utm_source=website&utm_medium=banner&utm_campaign=tpi_102026&utm_content=web-banner-dm5",
+      "source": "TPI Magazine",
       "source_category": "01 Spectacle Concert",
-      "priority": "P3",
+      "priority": "P1",
       "status": "a_verifier",
-      "found_at": "2026-11-24T14:59:01.630203+00:00",
-      "score": 19,
+      "found_at": "2026-11-25T02:12:26.902783+00:00",
+      "score": 15,
       "requirements": [
         "date_creation",
         "choix_DA_observable",
@@ -297,7 +282,7 @@
       "source_category": "02 TV Broadcast",
       "priority": "P2",
       "status": "a_verifier",
-      "found_at": "2026-11-24T14:59:01.630203+00:00",
+      "found_at": "2026-11-25T02:12:26.902783+00:00",
       "score": 21,
       "requirements": [
         "date_creation",
@@ -313,7 +298,7 @@
       "source_category": "09 France Pro",
       "priority": "P2",
       "status": "a_verifier",
-      "found_at": "2026-11-24T14:59:01.630203+00:00",
+      "found_at": "2026-11-25T02:12:26.902783+00:00",
       "score": 18,
       "requirements": [
         "date_creation",
@@ -324,13 +309,13 @@
       ]
     },
     {
-      "url": "https://www.promonews.tv/videos/filter/director's%20notes",
-      "source": "Promonews",
+      "url": "https://motionographer.com/2026/11/10/lofsong-and-the-language-that-outlives-us/",
+      "source": "Motionographer",
       "source_category": "14 Musique Clips",
       "priority": "P1",
       "status": "a_verifier",
-      "found_at": "2026-11-24T14:59:01.630203+00:00",
-      "score": 26,
+      "found_at": "2026-11-25T02:12:26.902783+00:00",
+      "score": 28,
       "requirements": [
         "date_creation",
         "choix_DA_observable",
@@ -340,13 +325,13 @@
       ]
     },
     {
-      "url": "https://www.etcconnect.com/Products/Commercial-Lighting/",
-      "source": "ETC",
+      "url": "https://www.ld-systems.com/en/series/maui-series/maui-g3/maui-44-66-g3",
+      "source": "TPI Magazine",
       "source_category": "01 Spectacle Concert",
-      "priority": "P3",
+      "priority": "P1",
       "status": "a_verifier",
-      "found_at": "2026-11-24T14:59:01.630203+00:00",
-      "score": 18,
+      "found_at": "2026-11-25T02:12:26.902783+00:00",
+      "score": 15,
       "requirements": [
         "date_creation",
         "choix_DA_observable",
@@ -361,7 +346,7 @@
       "source_category": "02 TV Broadcast",
       "priority": "P2",
       "status": "a_verifier",
-      "found_at": "2026-11-24T14:59:01.630203+00:00",
+      "found_at": "2026-11-25T02:12:26.902783+00:00",
       "score": 20,
       "requirements": [
         "date_creation",
@@ -377,7 +362,7 @@
       "source_category": "09 France Pro",
       "priority": "P2",
       "status": "a_verifier",
-      "found_at": "2026-11-24T14:59:01.630203+00:00",
+      "found_at": "2026-11-25T02:12:26.902783+00:00",
       "score": 18,
       "requirements": [
         "date_creation",
@@ -388,13 +373,13 @@
       ]
     },
     {
-      "url": "https://motionographer.com/news/woodwork-amsterdam-visual-valley-immersive-storytelling-label/",
-      "source": "Motionographer",
+      "url": "https://www.promonews.tv/videos/filter/director's%20notes",
+      "source": "Promonews",
       "source_category": "14 Musique Clips",
       "priority": "P1",
       "status": "a_verifier",
-      "found_at": "2026-11-24T14:59:01.630203+00:00",
-      "score": 25,
+      "found_at": "2026-11-25T02:12:26.902783+00:00",
+      "score": 26,
       "requirements": [
         "date_creation",
         "choix_DA_observable",
@@ -404,13 +389,13 @@
       ]
     },
     {
-      "url": "https://europe.yamaha.com/en/business/audio/products/mixers/dm5/?utm_source=website&utm_medium=banner&utm_campaign=tpi_102026&utm_content=web-banner-dm5",
-      "source": "TPI Magazine",
+      "url": "https://luzstudio.com/en/projects/billy-idol",
+      "source": "LUZ Studio",
       "source_category": "01 Spectacle Concert",
-      "priority": "P1",
+      "priority": "P2",
       "status": "a_verifier",
-      "found_at": "2026-11-24T14:59:01.630203+00:00",
-      "score": 15,
+      "found_at": "2026-11-25T02:12:26.902783+00:00",
+      "score": 12,
       "requirements": [
         "date_creation",
         "choix_DA_observable",
@@ -425,7 +410,7 @@
       "source_category": "02 TV Broadcast",
       "priority": "P2",
       "status": "a_verifier",
-      "found_at": "2026-11-24T14:59:01.630203+00:00",
+      "found_at": "2026-11-25T02:12:26.902783+00:00",
       "score": 18,
       "requirements": [
         "date_creation",
@@ -441,7 +426,7 @@
       "source_category": "09 France Pro",
       "priority": "P2",
       "status": "a_verifier",
-      "found_at": "2026-11-24T14:59:01.630203+00:00",
+      "found_at": "2026-11-25T02:12:26.902783+00:00",
       "score": 18,
       "requirements": [
         "date_creation",
@@ -452,13 +437,13 @@
       ]
     },
     {
-      "url": "https://www.deezer.com/fr/show/552652",
-      "source": "Les Inrockuptibles",
+      "url": "https://motionographer.com/news/woodwork-amsterdam-visual-valley-immersive-storytelling-label/",
+      "source": "Motionographer",
       "source_category": "14 Musique Clips",
       "priority": "P1",
       "status": "a_verifier",
-      "found_at": "2026-11-24T14:59:01.630203+00:00",
-      "score": 23,
+      "found_at": "2026-11-25T02:12:26.902783+00:00",
+      "score": 25,
       "requirements": [
         "date_creation",
         "choix_DA_observable",
@@ -468,13 +453,13 @@
       ]
     },
     {
-      "url": "https://www.ld-systems.com/en/series/maui-series/maui-g3/maui-44-66-g3",
-      "source": "TPI Magazine",
+      "url": "https://luzstudio.com/en/projects/burj-khalifa",
+      "source": "LUZ Studio",
       "source_category": "01 Spectacle Concert",
-      "priority": "P1",
+      "priority": "P2",
       "status": "a_verifier",
-      "found_at": "2026-11-24T14:59:01.630203+00:00",
-      "score": 15,
+      "found_at": "2026-11-25T02:12:26.902783+00:00",
+      "score": 12,
       "requirements": [
         "date_creation",
         "choix_DA_observable",
@@ -489,71 +474,7 @@
       "source_category": "02 TV Broadcast",
       "priority": "P2",
       "status": "a_verifier",
-      "found_at": "2026-11-24T14:59:01.630203+00:00",
-      "score": 15,
-      "requirements": [
-        "date_creation",
-        "choix_DA_observable",
-        "source_primaire",
-        "visuel_verifie_ou_exception_scorecard",
-        "doublon_identite"
-      ]
-    },
-    {
-      "url": "https://www.d-labs.fr/projets/plk-tour",
-      "source": "D/LABS",
-      "source_category": "09 France Pro",
-      "priority": "P2",
-      "status": "a_verifier",
-      "found_at": "2026-11-24T14:59:01.630203+00:00",
-      "score": 17,
-      "requirements": [
-        "date_creation",
-        "choix_DA_observable",
-        "source_primaire",
-        "visuel_verifie_ou_exception_scorecard",
-        "doublon_identite"
-      ]
-    },
-    {
-      "url": "https://motionographer.com/2026/10/13/creative-must-win-the-belief-behind-revthinks-tim-thompson/",
-      "source": "Motionographer",
-      "source_category": "14 Musique Clips",
-      "priority": "P1",
-      "status": "a_verifier",
-      "found_at": "2026-11-24T14:59:01.630203+00:00",
-      "score": 22,
-      "requirements": [
-        "date_creation",
-        "choix_DA_observable",
-        "source_primaire",
-        "visuel_verifie_ou_exception_scorecard",
-        "doublon_identite"
-      ]
-    },
-    {
-      "url": "https://luzstudio.com/en/projects/billy-idol",
-      "source": "LUZ Studio",
-      "source_category": "01 Spectacle Concert",
-      "priority": "P2",
-      "status": "a_verifier",
-      "found_at": "2026-11-24T14:59:01.630203+00:00",
-      "score": 12,
-      "requirements": [
-        "date_creation",
-        "choix_DA_observable",
-        "source_primaire",
-        "visuel_verifie_ou_exception_scorecard",
-        "doublon_identite"
-      ]
-    },
-    {
-      "url": "https://www.disguise.one/en/products/mapping-matter",
-      "source": "disguise",
-      "source_category": "02 TV Broadcast",
-      "priority": "P2",
-      "status": "a_verifier",
-      "found_at": "2026-11-24T14:59:01.630203+00:00",
+      "found_at": "2026-11-25T02:12:26.902783+00:00",
       "score": 15,
       "requirements": [
         "date_creation",
@@ -569,7 +490,7 @@
       "source_category": "09 France Pro",
       "priority": "P2",
       "status": "a_verifier",
-      "found_at": "2026-11-24T14:59:01.630203+00:00",
+      "found_at": "2026-11-25T02:12:26.902783+00:00",
       "score": 17,
       "requirements": [
         "date_creation",
@@ -580,13 +501,13 @@
       ]
     },
     {
-      "url": "https://www.blogotheque.net/categories/live/",
-      "source": "La Blogothèque",
+      "url": "https://www.deezer.com/fr/show/552652",
+      "source": "Les Inrockuptibles",
       "source_category": "14 Musique Clips",
       "priority": "P1",
       "status": "a_verifier",
-      "found_at": "2026-11-24T14:59:01.630203+00:00",
-      "score": 22,
+      "found_at": "2026-11-25T02:12:26.902783+00:00",
+      "score": 23,
       "requirements": [
         "date_creation",
         "choix_DA_observable",
@@ -596,12 +517,12 @@
       ]
     },
     {
-      "url": "https://luzstudio.com/en/projects/burj-khalifa",
+      "url": "https://luzstudio.com/en/projects/carrie-underwood",
       "source": "LUZ Studio",
       "source_category": "01 Spectacle Concert",
       "priority": "P2",
       "status": "a_verifier",
-      "found_at": "2026-11-24T14:59:01.630203+00:00",
+      "found_at": "2026-11-25T02:12:26.902783+00:00",
       "score": 12,
       "requirements": [
         "date_creation",
@@ -612,12 +533,12 @@
       ]
     },
     {
-      "url": "https://www.disguise.one/en/solutions/virtual-production",
+      "url": "https://www.disguise.one/en/products/mapping-matter",
       "source": "disguise",
       "source_category": "02 TV Broadcast",
       "priority": "P2",
       "status": "a_verifier",
-      "found_at": "2026-11-24T14:59:01.630203+00:00",
+      "found_at": "2026-11-25T02:12:26.902783+00:00",
       "score": 15,
       "requirements": [
         "date_creation",
@@ -633,7 +554,7 @@
       "source_category": "09 France Pro",
       "priority": "P2",
       "status": "a_verifier",
-      "found_at": "2026-11-24T14:59:01.630203+00:00",
+      "found_at": "2026-11-25T02:12:26.902783+00:00",
       "score": 17,
       "requirements": [
         "date_creation",
@@ -644,12 +565,12 @@
       ]
     },
     {
-      "url": "https://www.blogotheque.net/categories/take-away-shows/",
-      "source": "La Blogothèque",
+      "url": "https://motionographer.com/2026/10/13/creative-must-win-the-belief-behind-revthinks-tim-thompson/",
+      "source": "Motionographer",
       "source_category": "14 Musique Clips",
       "priority": "P1",
       "status": "a_verifier",
-      "found_at": "2026-11-24T14:59:01.630203+00:00",
+      "found_at": "2026-11-25T02:12:26.902783+00:00",
       "score": 22,
       "requirements": [
         "date_creation",
@@ -660,12 +581,76 @@
       ]
     },
     {
-      "url": "https://luzstudio.com/en/projects/carrie-underwood",
+      "url": "https://luzstudio.com/en/projects/foo-fighters",
       "source": "LUZ Studio",
       "source_category": "01 Spectacle Concert",
       "priority": "P2",
       "status": "a_verifier",
-      "found_at": "2026-11-24T14:59:01.630203+00:00",
+      "found_at": "2026-11-25T02:12:26.902783+00:00",
+      "score": 12,
+      "requirements": [
+        "date_creation",
+        "choix_DA_observable",
+        "source_primaire",
+        "visuel_verifie_ou_exception_scorecard",
+        "doublon_identite"
+      ]
+    },
+    {
+      "url": "https://www.disguise.one/en/solutions/virtual-production",
+      "source": "disguise",
+      "source_category": "02 TV Broadcast",
+      "priority": "P2",
+      "status": "a_verifier",
+      "found_at": "2026-11-25T02:12:26.902783+00:00",
+      "score": 15,
+      "requirements": [
+        "date_creation",
+        "choix_DA_observable",
+        "source_primaire",
+        "visuel_verifie_ou_exception_scorecard",
+        "doublon_identite"
+      ]
+    },
+    {
+      "url": "https://www.revue-as.fr/2026/10/15/moliere-conjugue-a-lia/",
+      "source": "Revue AS",
+      "source_category": "09 France Pro",
+      "priority": "P1",
+      "status": "a_verifier",
+      "found_at": "2026-11-25T02:12:26.902783+00:00",
+      "score": 15,
+      "requirements": [
+        "date_creation",
+        "choix_DA_observable",
+        "source_primaire",
+        "visuel_verifie_ou_exception_scorecard",
+        "doublon_identite"
+      ]
+    },
+    {
+      "url": "https://www.blogotheque.net/categories/live/",
+      "source": "La Blogothèque",
+      "source_category": "14 Musique Clips",
+      "priority": "P1",
+      "status": "a_verifier",
+      "found_at": "2026-11-25T02:12:26.902783+00:00",
+      "score": 22,
+      "requirements": [
+        "date_creation",
+        "choix_DA_observable",
+        "source_primaire",
+        "visuel_verifie_ou_exception_scorecard",
+        "doublon_identite"
+      ]
+    },
+    {
+      "url": "https://luzstudio.com/en/projects/helene-fisher",
+      "source": "LUZ Studio",
+      "source_category": "01 Spectacle Concert",
+      "priority": "P2",
+      "status": "a_verifier",
+      "found_at": "2026-11-25T02:12:26.902783+00:00",
       "score": 12,
       "requirements": [
         "date_creation",
@@ -681,7 +666,7 @@
       "source_category": "02 TV Broadcast",
       "priority": "P2",
       "status": "a_verifier",
-      "found_at": "2026-11-24T14:59:01.630203+00:00",
+      "found_at": "2026-11-25T02:12:26.902783+00:00",
       "score": 14,
       "requirements": [
         "date_creation",
@@ -692,12 +677,12 @@
       ]
     },
     {
-      "url": "https://www.revue-as.fr/2026/10/15/moliere-conjugue-a-lia/",
+      "url": "https://www.revue-as.fr/2026/11/22/apg-lance-les-nouvelles-series-ex-et-es-aux-jtse-2026/",
       "source": "Revue AS",
       "source_category": "09 France Pro",
       "priority": "P1",
       "status": "a_verifier",
-      "found_at": "2026-11-24T14:59:01.630203+00:00",
+      "found_at": "2026-11-25T02:12:26.902783+00:00",
       "score": 15,
       "requirements": [
         "date_creation",
@@ -708,13 +693,13 @@
       ]
     },
     {
-      "url": "https://directorsnotes.com/2026/11/12/hollyshorts-uk-2026-best-shorts/",
-      "source": "Directors Notes",
+      "url": "https://www.blogotheque.net/categories/take-away-shows/",
+      "source": "La Blogothèque",
       "source_category": "14 Musique Clips",
       "priority": "P1",
       "status": "a_verifier",
-      "found_at": "2026-11-24T14:59:01.630203+00:00",
-      "score": 19,
+      "found_at": "2026-11-25T02:12:26.902783+00:00",
+      "score": 22,
       "requirements": [
         "date_creation",
         "choix_DA_observable",
@@ -724,12 +709,12 @@
       ]
     },
     {
-      "url": "https://luzstudio.com/en/projects/foo-fighters",
+      "url": "https://luzstudio.com/en/projects/jack-white",
       "source": "LUZ Studio",
       "source_category": "01 Spectacle Concert",
       "priority": "P2",
       "status": "a_verifier",
-      "found_at": "2026-11-24T14:59:01.630203+00:00",
+      "found_at": "2026-11-25T02:12:26.902783+00:00",
       "score": 12,
       "requirements": [
         "date_creation",
@@ -745,7 +730,55 @@
       "source_category": "02 TV Broadcast",
       "priority": "P2",
       "status": "a_verifier",
-      "found_at": "2026-11-24T14:59:01.630203+00:00",
+      "found_at": "2026-11-25T02:12:26.902783+00:00",
+      "score": 13,
+      "requirements": [
+        "date_creation",
+        "choix_DA_observable",
+        "source_primaire",
+        "visuel_verifie_ou_exception_scorecard",
+        "doublon_identite"
+      ]
+    },
+    {
+      "url": "https://www.revue-as.fr/2026/11/23/2015-annee-zero-2/",
+      "source": "Revue AS",
+      "source_category": "09 France Pro",
+      "priority": "P1",
+      "status": "a_verifier",
+      "found_at": "2026-11-25T02:12:26.902783+00:00",
+      "score": 15,
+      "requirements": [
+        "date_creation",
+        "choix_DA_observable",
+        "source_primaire",
+        "visuel_verifie_ou_exception_scorecard",
+        "doublon_identite"
+      ]
+    },
+    {
+      "url": "https://directorsnotes.com/2026/11/12/hollyshorts-uk-2026-best-shorts/",
+      "source": "Directors Notes",
+      "source_category": "14 Musique Clips",
+      "priority": "P1",
+      "status": "a_verifier",
+      "found_at": "2026-11-25T02:12:26.902783+00:00",
+      "score": 19,
+      "requirements": [
+        "date_creation",
+        "choix_DA_observable",
+        "source_primaire",
+        "visuel_verifie_ou_exception_scorecard",
+        "doublon_identite"
+      ]
+    },
+    {
+      "url": "https://www.thermofisher.com/order/catalog/product/MICROPHAZIRRX",
+      "source": "Devlin Design Group",
+      "source_category": "02 TV Broadcast",
+      "priority": "P2",
+      "status": "a_verifier",
+      "found_at": "2026-11-25T02:12:26.902783+00:00",
       "score": 13,
       "requirements": [
         "date_creation",
@@ -761,7 +794,7 @@
       "source_category": "09 France Pro",
       "priority": "P1",
       "status": "a_verifier",
-      "found_at": "2026-11-24T14:59:01.630203+00:00",
+      "found_at": "2026-11-25T02:12:26.902783+00:00",
       "score": 15,
       "requirements": [
         "date_creation",
@@ -777,7 +810,7 @@
       "source_category": "14 Musique Clips",
       "priority": "P1",
       "status": "a_verifier",
-      "found_at": "2026-11-24T14:59:01.630203+00:00",
+      "found_at": "2026-11-25T02:12:26.902783+00:00",
       "score": 19,
       "requirements": [
         "date_creation",
@@ -788,29 +821,13 @@
       ]
     },
     {
-      "url": "https://luzstudio.com/en/projects/helene-fisher",
-      "source": "LUZ Studio",
-      "source_category": "01 Spectacle Concert",
-      "priority": "P2",
-      "status": "a_verifier",
-      "found_at": "2026-11-24T14:59:01.630203+00:00",
-      "score": 12,
-      "requirements": [
-        "date_creation",
-        "choix_DA_observable",
-        "source_primaire",
-        "visuel_verifie_ou_exception_scorecard",
-        "doublon_identite"
-      ]
-    },
-    {
-      "url": "https://www.thermofisher.com/order/catalog/product/MICROPHAZIRRX",
-      "source": "Devlin Design Group",
+      "url": "https://www.disguise.one/en/products/ex-range",
+      "source": "disguise",
       "source_category": "02 TV Broadcast",
       "priority": "P2",
       "status": "a_verifier",
-      "found_at": "2026-11-24T14:59:01.630203+00:00",
-      "score": 13,
+      "found_at": "2026-11-25T02:12:26.902783+00:00",
+      "score": 12,
       "requirements": [
         "date_creation",
         "choix_DA_observable",
@@ -825,7 +842,7 @@
       "source_category": "09 France Pro",
       "priority": "P1",
       "status": "a_verifier",
-      "found_at": "2026-11-24T14:59:01.630203+00:00",
+      "found_at": "2026-11-25T02:12:26.902783+00:00",
       "score": 15,
       "requirements": [
         "date_creation",
@@ -841,40 +858,8 @@
       "source_category": "14 Musique Clips",
       "priority": "P1",
       "status": "a_verifier",
-      "found_at": "2026-11-24T14:59:01.630203+00:00",
+      "found_at": "2026-11-25T02:12:26.902783+00:00",
       "score": 19,
-      "requirements": [
-        "date_creation",
-        "choix_DA_observable",
-        "source_primaire",
-        "visuel_verifie_ou_exception_scorecard",
-        "doublon_identite"
-      ]
-    },
-    {
-      "url": "https://luzstudio.com/en/projects/jack-white",
-      "source": "LUZ Studio",
-      "source_category": "01 Spectacle Concert",
-      "priority": "P2",
-      "status": "a_verifier",
-      "found_at": "2026-11-24T14:59:01.630203+00:00",
-      "score": 12,
-      "requirements": [
-        "date_creation",
-        "choix_DA_observable",
-        "source_primaire",
-        "visuel_verifie_ou_exception_scorecard",
-        "doublon_identite"
-      ]
-    },
-    {
-      "url": "https://www.disguise.one/en/products/ex-range",
-      "source": "disguise",
-      "source_category": "02 TV Broadcast",
-      "priority": "P2",
-      "status": "a_verifier",
-      "found_at": "2026-11-24T14:59:01.630203+00:00",
-      "score": 12,
       "requirements": [
         "date_creation",
         "choix_DA_observable",
@@ -889,7 +874,7 @@
       "source_category": "09 France Pro",
       "priority": "P1",
       "status": "a_verifier",
-      "found_at": "2026-11-24T14:59:01.630203+00:00",
+      "found_at": "2026-11-25T02:12:26.902783+00:00",
       "score": 15,
       "requirements": [
         "date_creation",
@@ -905,7 +890,7 @@
       "source_category": "14 Musique Clips",
       "priority": "P1",
       "status": "a_verifier",
-      "found_at": "2026-11-24T14:59:01.630203+00:00",
+      "found_at": "2026-11-25T02:12:26.902783+00:00",
       "score": 19,
       "requirements": [
         "date_creation",
@@ -921,7 +906,7 @@
       "source_category": "09 France Pro",
       "priority": "P1",
       "status": "a_verifier",
-      "found_at": "2026-11-24T14:59:01.630203+00:00",
+      "found_at": "2026-11-25T02:12:26.902783+00:00",
       "score": 13,
       "requirements": [
         "date_creation",
@@ -937,7 +922,7 @@
       "source_category": "14 Musique Clips",
       "priority": "P1",
       "status": "a_verifier",
-      "found_at": "2026-11-24T14:59:01.630203+00:00",
+      "found_at": "2026-11-25T02:12:26.902783+00:00",
       "score": 19,
       "requirements": [
         "date_creation",
@@ -953,7 +938,7 @@
       "source_category": "09 France Pro",
       "priority": "P1",
       "status": "a_verifier",
-      "found_at": "2026-11-24T14:59:01.630203+00:00",
+      "found_at": "2026-11-25T02:12:26.902783+00:00",
       "score": 13,
       "requirements": [
         "date_creation",
@@ -969,7 +954,7 @@
       "source_category": "14 Musique Clips",
       "priority": "P1",
       "status": "a_verifier",
-      "found_at": "2026-11-24T14:59:01.630203+00:00",
+      "found_at": "2026-11-25T02:12:26.902783+00:00",
       "score": 19,
       "requirements": [
         "date_creation",
@@ -980,12 +965,12 @@
       ]
     },
     {
-      "url": "https://boutique.lascene.com/common/product-article/663",
+      "url": "https://boutique.lascene.com/common/product-article/413",
       "source": "La Scène",
       "source_category": "09 France Pro",
       "priority": "P2",
       "status": "a_verifier",
-      "found_at": "2026-11-24T14:59:01.630203+00:00",
+      "found_at": "2026-11-25T02:12:26.902783+00:00",
       "score": 9,
       "requirements": [
         "date_creation",
@@ -1001,7 +986,7 @@
       "source_category": "14 Musique Clips",
       "priority": "P1",
       "status": "a_verifier",
-      "found_at": "2026-11-24T14:59:01.630203+00:00",
+      "found_at": "2026-11-25T02:12:26.902783+00:00",
       "score": 19,
       "requirements": [
         "date_creation",
@@ -1012,12 +997,12 @@
       ]
     },
     {
-      "url": "https://boutique.lascene.com/common/product-article/664",
+      "url": "https://boutique.lascene.com/common/product-article/461",
       "source": "La Scène",
       "source_category": "09 France Pro",
       "priority": "P2",
       "status": "a_verifier",
-      "found_at": "2026-11-24T14:59:01.630203+00:00",
+      "found_at": "2026-11-25T02:12:26.902783+00:00",
       "score": 9,
       "requirements": [
         "date_creation",
@@ -1033,103 +1018,7 @@
       "source_category": "14 Musique Clips",
       "priority": "P1",
       "status": "a_verifier",
-      "found_at": "2026-11-24T14:59:01.630203+00:00",
-      "score": 19,
-      "requirements": [
-        "date_creation",
-        "choix_DA_observable",
-        "source_primaire",
-        "visuel_verifie_ou_exception_scorecard",
-        "doublon_identite"
-      ]
-    },
-    {
-      "url": "https://boutique.lascene.com/common/product-article/665",
-      "source": "La Scène",
-      "source_category": "09 France Pro",
-      "priority": "P2",
-      "status": "a_verifier",
-      "found_at": "2026-11-24T14:59:01.630203+00:00",
-      "score": 9,
-      "requirements": [
-        "date_creation",
-        "choix_DA_observable",
-        "source_primaire",
-        "visuel_verifie_ou_exception_scorecard",
-        "doublon_identite"
-      ]
-    },
-    {
-      "url": "https://motionographer.com/2026/09/24/motionographers-20th-celebrations-continue-this-saturday-theres-still-time-to-join-us/",
-      "source": "Motionographer",
-      "source_category": "14 Musique Clips",
-      "priority": "P1",
-      "status": "a_verifier",
-      "found_at": "2026-11-24T14:59:01.630203+00:00",
-      "score": 19,
-      "requirements": [
-        "date_creation",
-        "choix_DA_observable",
-        "source_primaire",
-        "visuel_verifie_ou_exception_scorecard",
-        "doublon_identite"
-      ]
-    },
-    {
-      "url": "https://www.lightzoomlumiere.fr/article/guide-reglementations-eclairage-et-lumiere/",
-      "source": "Light ZOOM Lumière",
-      "source_category": "09 France Pro",
-      "priority": "P1",
-      "status": "a_verifier",
-      "found_at": "2026-11-24T14:59:01.630203+00:00",
-      "score": 9,
-      "requirements": [
-        "date_creation",
-        "choix_DA_observable",
-        "source_primaire",
-        "visuel_verifie_ou_exception_scorecard",
-        "doublon_identite"
-      ]
-    },
-    {
-      "url": "https://motionographer.com/2026/09/28/dear-upstairs-neighbors-how-connie-he-taught-a-machine-to-see-the-way-she-draws/",
-      "source": "Motionographer",
-      "source_category": "14 Musique Clips",
-      "priority": "P1",
-      "status": "a_verifier",
-      "found_at": "2026-11-24T14:59:01.630203+00:00",
-      "score": 19,
-      "requirements": [
-        "date_creation",
-        "choix_DA_observable",
-        "source_primaire",
-        "visuel_verifie_ou_exception_scorecard",
-        "doublon_identite"
-      ]
-    },
-    {
-      "url": "https://www.lightzoomlumiere.fr/article/normes-eclairage-et-electricite-inventaire-essentiel-utile/",
-      "source": "Light ZOOM Lumière",
-      "source_category": "09 France Pro",
-      "priority": "P1",
-      "status": "a_verifier",
-      "found_at": "2026-11-24T14:59:01.630203+00:00",
-      "score": 9,
-      "requirements": [
-        "date_creation",
-        "choix_DA_observable",
-        "source_primaire",
-        "visuel_verifie_ou_exception_scorecard",
-        "doublon_identite"
-      ]
-    },
-    {
-      "url": "https://motionographer.com/2026/09/29/the-studio-that-refused-to-be-one-thing/",
-      "source": "Motionographer",
-      "source_category": "14 Musique Clips",
-      "priority": "P1",
-      "status": "a_verifier",
-      "found_at": "2026-11-24T14:59:01.630203+00:00",
+      "found_at": "2026-11-25T02:12:26.902783+00:00",
       "score": 19,
       "requirements": [
         "date_creation",
@@ -1145,7 +1034,7 @@
       "source_category": "01 Spectacle Concert",
       "priority": "P1",
       "status": "a_verifier",
-      "found_at": "2026-11-24T14:59:01.630203+00:00",
+      "found_at": "2026-11-25T02:12:26.902783+00:00",
       "score": 12,
       "requirements": [
         "date_creation",
@@ -1156,12 +1045,12 @@
       ]
     },
     {
-      "url": "https://www.lightzoomlumiere.fr/interview/qu-est-ce-que-la-lumiere-interviews-professionnel-eclairage/",
-      "source": "Light ZOOM Lumière",
+      "url": "https://boutique.lascene.com/common/product-article/663",
+      "source": "La Scène",
       "source_category": "09 France Pro",
-      "priority": "P1",
+      "priority": "P2",
       "status": "a_verifier",
-      "found_at": "2026-11-24T14:59:01.630203+00:00",
+      "found_at": "2026-11-25T02:12:26.902783+00:00",
       "score": 9,
       "requirements": [
         "date_creation",
@@ -1172,12 +1061,12 @@
       ]
     },
     {
-      "url": "https://motionographer.com/2026/10/21/the-flowers-look-back-teamlab-at-offf-barcelona-2026/",
+      "url": "https://motionographer.com/2026/09/29/the-studio-that-refused-to-be-one-thing/",
       "source": "Motionographer",
       "source_category": "14 Musique Clips",
       "priority": "P1",
       "status": "a_verifier",
-      "found_at": "2026-11-24T14:59:01.630203+00:00",
+      "found_at": "2026-11-25T02:12:26.902783+00:00",
       "score": 19,
       "requirements": [
         "date_creation",
@@ -1193,7 +1082,7 @@
       "source_category": "01 Spectacle Concert",
       "priority": "P1",
       "status": "a_verifier",
-      "found_at": "2026-11-24T14:59:01.630203+00:00",
+      "found_at": "2026-11-25T02:12:26.902783+00:00",
       "score": 12,
       "requirements": [
         "date_creation",
@@ -1204,12 +1093,12 @@
       ]
     },
     {
-      "url": "https://www.lightzoomlumiere.fr/sur/Light-Zoom-Lumiere",
-      "source": "Light ZOOM Lumière",
+      "url": "https://boutique.lascene.com/common/product-article/664",
+      "source": "La Scène",
       "source_category": "09 France Pro",
-      "priority": "P1",
+      "priority": "P2",
       "status": "a_verifier",
-      "found_at": "2026-11-24T14:59:01.630203+00:00",
+      "found_at": "2026-11-25T02:12:26.902783+00:00",
       "score": 9,
       "requirements": [
         "date_creation",
@@ -1220,12 +1109,12 @@
       ]
     },
     {
-      "url": "https://motionographer.com/2026/11/02/the-haunted-hotel-that-sings-back-there-are-no-ghosts-at-the-grand/",
+      "url": "https://motionographer.com/2026/10/21/the-flowers-look-back-teamlab-at-offf-barcelona-2026/",
       "source": "Motionographer",
       "source_category": "14 Musique Clips",
       "priority": "P1",
       "status": "a_verifier",
-      "found_at": "2026-11-24T14:59:01.630203+00:00",
+      "found_at": "2026-11-25T02:12:26.902783+00:00",
       "score": 19,
       "requirements": [
         "date_creation",
@@ -1241,7 +1130,7 @@
       "source_category": "01 Spectacle Concert",
       "priority": "P1",
       "status": "a_verifier",
-      "found_at": "2026-11-24T14:59:01.630203+00:00",
+      "found_at": "2026-11-25T02:12:26.902783+00:00",
       "score": 12,
       "requirements": [
         "date_creation",
@@ -1252,13 +1141,29 @@
       ]
     },
     {
-      "url": "https://www.lightzoomlumiere.fr/sur/architecture/",
-      "source": "Light ZOOM Lumière",
+      "url": "https://boutique.lascene.com/common/product-article/665",
+      "source": "La Scène",
       "source_category": "09 France Pro",
+      "priority": "P2",
+      "status": "a_verifier",
+      "found_at": "2026-11-25T02:12:26.902783+00:00",
+      "score": 9,
+      "requirements": [
+        "date_creation",
+        "choix_DA_observable",
+        "source_primaire",
+        "visuel_verifie_ou_exception_scorecard",
+        "doublon_identite"
+      ]
+    },
+    {
+      "url": "https://motionographer.com/2026/11/02/the-haunted-hotel-that-sings-back-there-are-no-ghosts-at-the-grand/",
+      "source": "Motionographer",
+      "source_category": "14 Musique Clips",
       "priority": "P1",
       "status": "a_verifier",
-      "found_at": "2026-11-24T14:59:01.630203+00:00",
-      "score": 9,
+      "found_at": "2026-11-25T02:12:26.902783+00:00",
+      "score": 19,
       "requirements": [
         "date_creation",
         "choix_DA_observable",
@@ -1273,8 +1178,40 @@
       "source_category": "01 Spectacle Concert",
       "priority": "P1",
       "status": "a_verifier",
-      "found_at": "2026-11-24T14:59:01.630203+00:00",
+      "found_at": "2026-11-25T02:12:26.902783+00:00",
       "score": 12,
+      "requirements": [
+        "date_creation",
+        "choix_DA_observable",
+        "source_primaire",
+        "visuel_verifie_ou_exception_scorecard",
+        "doublon_identite"
+      ]
+    },
+    {
+      "url": "https://ticketevent.fr/jtse26/visiteurpro-9/fuasjb",
+      "source": "JTSE",
+      "source_category": "09 France Pro",
+      "priority": "P2",
+      "status": "a_verifier",
+      "found_at": "2026-11-25T02:12:26.902783+00:00",
+      "score": 9,
+      "requirements": [
+        "date_creation",
+        "choix_DA_observable",
+        "source_primaire",
+        "visuel_verifie_ou_exception_scorecard",
+        "doublon_identite"
+      ]
+    },
+    {
+      "url": "https://motionographer.com/2026/11/04/im-having-a-breakdown-dreamcat-the-monster-that-wasnt-his/",
+      "source": "Motionographer",
+      "source_category": "14 Musique Clips",
+      "priority": "P1",
+      "status": "a_verifier",
+      "found_at": "2026-11-25T02:12:26.902783+00:00",
+      "score": 19,
       "requirements": [
         "date_creation",
         "choix_DA_observable",
@@ -1289,7 +1226,7 @@
       "source_category": "01 Spectacle Concert",
       "priority": "P1",
       "status": "a_verifier",
-      "found_at": "2026-11-24T14:59:01.630203+00:00",
+      "found_at": "2026-11-25T02:12:26.902783+00:00",
       "score": 12,
       "requirements": [
         "date_creation",
@@ -1300,13 +1237,29 @@
       ]
     },
     {
-      "url": "https://shop.lesinrocks.com/magazines/les-inrockuptibles-n45-novembre-2025/",
-      "source": "Les Inrockuptibles",
+      "url": "https://www.lightzoomlumiere.fr/article/guide-reglementations-eclairage-et-lumiere/",
+      "source": "Light ZOOM Lumière",
+      "source_category": "09 France Pro",
+      "priority": "P1",
+      "status": "a_verifier",
+      "found_at": "2026-11-25T02:12:26.902783+00:00",
+      "score": 9,
+      "requirements": [
+        "date_creation",
+        "choix_DA_observable",
+        "source_primaire",
+        "visuel_verifie_ou_exception_scorecard",
+        "doublon_identite"
+      ]
+    },
+    {
+      "url": "https://motionographer.com/2026/11/18/eeny-meeny-miny-moe-building-a-new-myth-for-the-kids-who-feel-too-much/",
+      "source": "Motionographer",
       "source_category": "14 Musique Clips",
       "priority": "P1",
       "status": "a_verifier",
-      "found_at": "2026-11-24T14:59:01.630203+00:00",
-      "score": 17,
+      "found_at": "2026-11-25T02:12:26.902783+00:00",
+      "score": 19,
       "requirements": [
         "date_creation",
         "choix_DA_observable",
@@ -1321,7 +1274,7 @@
       "source_category": "01 Spectacle Concert",
       "priority": "P1",
       "status": "a_verifier",
-      "found_at": "2026-11-24T14:59:01.630203+00:00",
+      "found_at": "2026-11-25T02:12:26.902783+00:00",
       "score": 12,
       "requirements": [
         "date_creation",
@@ -1332,12 +1285,28 @@
       ]
     },
     {
-      "url": "https://shop.lesinrocks.com/magazines/les-inrockuptibles-n46-decembre-2025-janvier-2026/",
+      "url": "https://www.lightzoomlumiere.fr/article/normes-eclairage-et-electricite-inventaire-essentiel-utile/",
+      "source": "Light ZOOM Lumière",
+      "source_category": "09 France Pro",
+      "priority": "P1",
+      "status": "a_verifier",
+      "found_at": "2026-11-25T02:12:26.902783+00:00",
+      "score": 9,
+      "requirements": [
+        "date_creation",
+        "choix_DA_observable",
+        "source_primaire",
+        "visuel_verifie_ou_exception_scorecard",
+        "doublon_identite"
+      ]
+    },
+    {
+      "url": "https://shop.lesinrocks.com/magazines/les-inrockuptibles-n45-novembre-2025/",
       "source": "Les Inrockuptibles",
       "source_category": "14 Musique Clips",
       "priority": "P1",
       "status": "a_verifier",
-      "found_at": "2026-11-24T14:59:01.630203+00:00",
+      "found_at": "2026-11-25T02:12:26.902783+00:00",
       "score": 17,
       "requirements": [
         "date_creation",
@@ -1353,7 +1322,7 @@
       "source_category": "01 Spectacle Concert",
       "priority": "P1",
       "status": "a_verifier",
-      "found_at": "2026-11-24T14:59:01.630203+00:00",
+      "found_at": "2026-11-25T02:12:26.902783+00:00",
       "score": 12,
       "requirements": [
         "date_creation",
@@ -1364,13 +1333,29 @@
       ]
     },
     {
-      "url": "https://docs.google.com/forms/d/e/1FAIpQLSfbuooQc5emS4G7EHQQY-16nFPq_y-f9pHmvOFFz1Cf-f-8RA/viewform",
-      "source": "Promonews",
+      "url": "https://www.lightzoomlumiere.fr/interview/qu-est-ce-que-la-lumiere-interviews-professionnel-eclairage/",
+      "source": "Light ZOOM Lumière",
+      "source_category": "09 France Pro",
+      "priority": "P1",
+      "status": "a_verifier",
+      "found_at": "2026-11-25T02:12:26.902783+00:00",
+      "score": 9,
+      "requirements": [
+        "date_creation",
+        "choix_DA_observable",
+        "source_primaire",
+        "visuel_verifie_ou_exception_scorecard",
+        "doublon_identite"
+      ]
+    },
+    {
+      "url": "https://shop.lesinrocks.com/magazines/les-inrockuptibles-n46-decembre-2025-janvier-2026/",
+      "source": "Les Inrockuptibles",
       "source_category": "14 Musique Clips",
       "priority": "P1",
       "status": "a_verifier",
-      "found_at": "2026-11-24T14:59:01.630203+00:00",
-      "score": 16,
+      "found_at": "2026-11-25T02:12:26.902783+00:00",
+      "score": 17,
       "requirements": [
         "date_creation",
         "choix_DA_observable",
@@ -1385,8 +1370,56 @@
       "source_category": "01 Spectacle Concert",
       "priority": "P1",
       "status": "a_verifier",
-      "found_at": "2026-11-24T14:59:01.630203+00:00",
+      "found_at": "2026-11-25T02:12:26.902783+00:00",
       "score": 12,
+      "requirements": [
+        "date_creation",
+        "choix_DA_observable",
+        "source_primaire",
+        "visuel_verifie_ou_exception_scorecard",
+        "doublon_identite"
+      ]
+    },
+    {
+      "url": "https://www.lightzoomlumiere.fr/sur/Light-Zoom-Lumiere",
+      "source": "Light ZOOM Lumière",
+      "source_category": "09 France Pro",
+      "priority": "P1",
+      "status": "a_verifier",
+      "found_at": "2026-11-25T02:12:26.902783+00:00",
+      "score": 9,
+      "requirements": [
+        "date_creation",
+        "choix_DA_observable",
+        "source_primaire",
+        "visuel_verifie_ou_exception_scorecard",
+        "doublon_identite"
+      ]
+    },
+    {
+      "url": "https://docs.google.com/forms/d/e/1FAIpQLSfbuooQc5emS4G7EHQQY-16nFPq_y-f9pHmvOFFz1Cf-f-8RA/viewform",
+      "source": "Promonews",
+      "source_category": "14 Musique Clips",
+      "priority": "P1",
+      "status": "a_verifier",
+      "found_at": "2026-11-25T02:12:26.902783+00:00",
+      "score": 16,
+      "requirements": [
+        "date_creation",
+        "choix_DA_observable",
+        "source_primaire",
+        "visuel_verifie_ou_exception_scorecard",
+        "doublon_identite"
+      ]
+    },
+    {
+      "url": "https://www.lightzoomlumiere.fr/sur/architecture/",
+      "source": "Light ZOOM Lumière",
+      "source_category": "09 France Pro",
+      "priority": "P1",
+      "status": "a_verifier",
+      "found_at": "2026-11-25T02:12:26.902783+00:00",
+      "score": 9,
       "requirements": [
         "date_creation",
         "choix_DA_observable",
@@ -1401,7 +1434,7 @@
       "source_category": "14 Musique Clips",
       "priority": "P1",
       "status": "a_verifier",
-      "found_at": "2026-11-24T14:59:01.630203+00:00",
+      "found_at": "2026-11-25T02:12:26.902783+00:00",
       "score": 14,
       "requirements": [
         "date_creation",
@@ -1417,39 +1450,7 @@
       "source_category": "02 TV Broadcast",
       "priority": "P2",
       "status": "a_verifier",
-      "found_at": "2026-11-24T14:59:01.630203+00:00",
-      "score": 12,
-      "requirements": [
-        "date_creation",
-        "choix_DA_observable",
-        "source_primaire",
-        "visuel_verifie_ou_exception_scorecard",
-        "doublon_identite"
-      ]
-    },
-    {
-      "url": "https://admin.promonews.tv/ads/redirect/4ce08d5a-3e69-4116-9769-f42d9d32f407",
-      "source": "Promonews",
-      "source_category": "14 Musique Clips",
-      "priority": "P1",
-      "status": "a_verifier",
-      "found_at": "2026-11-24T14:59:01.630203+00:00",
-      "score": 14,
-      "requirements": [
-        "date_creation",
-        "choix_DA_observable",
-        "source_primaire",
-        "visuel_verifie_ou_exception_scorecard",
-        "doublon_identite"
-      ]
-    },
-    {
-      "url": "https://www.rossvideo.com/products/graphics-and-virtual/tessera/",
-      "source": "Ross Video",
-      "source_category": "02 TV Broadcast",
-      "priority": "P2",
-      "status": "a_verifier",
-      "found_at": "2026-11-24T14:59:01.630203+00:00",
+      "found_at": "2026-11-25T02:12:26.902783+00:00",
       "score": 12,
       "requirements": [
         "date_creation",
@@ -1465,7 +1466,7 @@
       "source_category": "14 Musique Clips",
       "priority": "P1",
       "status": "a_verifier",
-      "found_at": "2026-11-24T14:59:01.630203+00:00",
+      "found_at": "2026-11-25T02:12:26.902783+00:00",
       "score": 14,
       "requirements": [
         "date_creation",
@@ -1476,12 +1477,44 @@
       ]
     },
     {
-      "url": "https://www.rossvideo.com/products/graphics-and-virtual/xpression-cloud/",
+      "url": "https://www.rossvideo.com/products/graphics-and-virtual/lucid/",
       "source": "Ross Video",
       "source_category": "02 TV Broadcast",
       "priority": "P2",
       "status": "a_verifier",
-      "found_at": "2026-11-24T14:59:01.630203+00:00",
+      "found_at": "2026-11-25T02:12:26.902783+00:00",
+      "score": 12,
+      "requirements": [
+        "date_creation",
+        "choix_DA_observable",
+        "source_primaire",
+        "visuel_verifie_ou_exception_scorecard",
+        "doublon_identite"
+      ]
+    },
+    {
+      "url": "https://admin.promonews.tv/ads/redirect/60d18d70-2b7e-4986-8000-5a6563ead99e",
+      "source": "Promonews",
+      "source_category": "14 Musique Clips",
+      "priority": "P1",
+      "status": "a_verifier",
+      "found_at": "2026-11-25T02:12:26.902783+00:00",
+      "score": 14,
+      "requirements": [
+        "date_creation",
+        "choix_DA_observable",
+        "source_primaire",
+        "visuel_verifie_ou_exception_scorecard",
+        "doublon_identite"
+      ]
+    },
+    {
+      "url": "https://www.rossvideo.com/products/graphics-and-virtual/piero/",
+      "source": "Ross Video",
+      "source_category": "02 TV Broadcast",
+      "priority": "P2",
+      "status": "a_verifier",
+      "found_at": "2026-11-25T02:12:26.902783+00:00",
       "score": 12,
       "requirements": [
         "date_creation",
@@ -1497,7 +1530,71 @@
       "source_category": "14 Musique Clips",
       "priority": "P1",
       "status": "a_verifier",
-      "found_at": "2026-11-24T14:59:01.630203+00:00",
+      "found_at": "2026-11-25T02:12:26.902783+00:00",
+      "score": 14,
+      "requirements": [
+        "date_creation",
+        "choix_DA_observable",
+        "source_primaire",
+        "visuel_verifie_ou_exception_scorecard",
+        "doublon_identite"
+      ]
+    },
+    {
+      "url": "https://www.rossvideo.com/products/graphics-and-virtual/tessera/",
+      "source": "Ross Video",
+      "source_category": "02 TV Broadcast",
+      "priority": "P2",
+      "status": "a_verifier",
+      "found_at": "2026-11-25T02:12:26.902783+00:00",
+      "score": 12,
+      "requirements": [
+        "date_creation",
+        "choix_DA_observable",
+        "source_primaire",
+        "visuel_verifie_ou_exception_scorecard",
+        "doublon_identite"
+      ]
+    },
+    {
+      "url": "https://admin.promonews.tv/ads/redirect/a6832bad-3f23-431a-bfa5-16cda917fe29",
+      "source": "Promonews",
+      "source_category": "14 Musique Clips",
+      "priority": "P1",
+      "status": "a_verifier",
+      "found_at": "2026-11-25T02:12:26.902783+00:00",
+      "score": 14,
+      "requirements": [
+        "date_creation",
+        "choix_DA_observable",
+        "source_primaire",
+        "visuel_verifie_ou_exception_scorecard",
+        "doublon_identite"
+      ]
+    },
+    {
+      "url": "https://www.rossvideo.com/products/graphics-and-virtual/xpression-cloud/",
+      "source": "Ross Video",
+      "source_category": "02 TV Broadcast",
+      "priority": "P2",
+      "status": "a_verifier",
+      "found_at": "2026-11-25T02:12:26.902783+00:00",
+      "score": 12,
+      "requirements": [
+        "date_creation",
+        "choix_DA_observable",
+        "source_primaire",
+        "visuel_verifie_ou_exception_scorecard",
+        "doublon_identite"
+      ]
+    },
+    {
+      "url": "https://admin.promonews.tv/ads/redirect/a8007c93-7918-46c8-94d9-3fdd09c0095d",
+      "source": "Promonews",
+      "source_category": "14 Musique Clips",
+      "priority": "P1",
+      "status": "a_verifier",
+      "found_at": "2026-11-25T02:12:26.902783+00:00",
       "score": 14,
       "requirements": [
         "date_creation",
@@ -1513,7 +1610,7 @@
       "source_category": "02 TV Broadcast",
       "priority": "P2",
       "status": "a_verifier",
-      "found_at": "2026-11-24T14:59:01.630203+00:00",
+      "found_at": "2026-11-25T02:12:26.902783+00:00",
       "score": 12,
       "requirements": [
         "date_creation",
@@ -1524,12 +1621,12 @@
       ]
     },
     {
-      "url": "https://admin.promonews.tv/ads/redirect/a00d6ab2-e0b6-4bf0-9cec-e1abf1bb59a3",
+      "url": "https://admin.promonews.tv/ads/redirect/b2b93910-2e12-409f-a342-d04666e3b91c",
       "source": "Promonews",
       "source_category": "14 Musique Clips",
       "priority": "P1",
       "status": "a_verifier",
-      "found_at": "2026-11-24T14:59:01.630203+00:00",
+      "found_at": "2026-11-25T02:12:26.902783+00:00",
       "score": 14,
       "requirements": [
         "date_creation",
@@ -1540,141 +1637,13 @@
       ]
     },
     {
-      "url": "https://www.rossvideo.com/products/graphics-and-virtual/xpression/",
-      "source": "Ross Video",
-      "source_category": "02 TV Broadcast",
-      "priority": "P2",
-      "status": "a_verifier",
-      "found_at": "2026-11-24T14:59:01.630203+00:00",
-      "score": 12,
-      "requirements": [
-        "date_creation",
-        "choix_DA_observable",
-        "source_primaire",
-        "visuel_verifie_ou_exception_scorecard",
-        "doublon_identite"
-      ]
-    },
-    {
-      "url": "https://www.seconde-design.com/index.php/portfolio/boiler-room-marseille/",
-      "source": "Seconde Design",
-      "source_category": "09 France Pro",
-      "priority": "P2",
-      "status": "a_verifier",
-      "found_at": "2026-11-24T14:59:01.630203+00:00",
-      "score": 9,
-      "requirements": [
-        "date_creation",
-        "choix_DA_observable",
-        "source_primaire",
-        "visuel_verifie_ou_exception_scorecard",
-        "doublon_identite"
-      ]
-    },
-    {
-      "url": "https://admin.promonews.tv/ads/redirect/dea2547a-3c49-45e9-a542-44bfa493f5d3",
+      "url": "https://admin.promonews.tv/ads/redirect/d6139c50-aba6-4d94-a417-3cb994650f32",
       "source": "Promonews",
       "source_category": "14 Musique Clips",
       "priority": "P1",
       "status": "a_verifier",
-      "found_at": "2026-11-24T14:59:01.630203+00:00",
+      "found_at": "2026-11-25T02:12:26.902783+00:00",
       "score": 14,
-      "requirements": [
-        "date_creation",
-        "choix_DA_observable",
-        "source_primaire",
-        "visuel_verifie_ou_exception_scorecard",
-        "doublon_identite"
-      ]
-    },
-    {
-      "url": "https://www.rossvideo.com/products/routing-systems/routing-systems/",
-      "source": "Ross Video",
-      "source_category": "02 TV Broadcast",
-      "priority": "P2",
-      "status": "a_verifier",
-      "found_at": "2026-11-24T14:59:01.630203+00:00",
-      "score": 12,
-      "requirements": [
-        "date_creation",
-        "choix_DA_observable",
-        "source_primaire",
-        "visuel_verifie_ou_exception_scorecard",
-        "doublon_identite"
-      ]
-    },
-    {
-      "url": "https://www.seconde-design.com/index.php/portfolio/cercle-festival/",
-      "source": "Seconde Design",
-      "source_category": "09 France Pro",
-      "priority": "P2",
-      "status": "a_verifier",
-      "found_at": "2026-11-24T14:59:01.630203+00:00",
-      "score": 9,
-      "requirements": [
-        "date_creation",
-        "choix_DA_observable",
-        "source_primaire",
-        "visuel_verifie_ou_exception_scorecard",
-        "doublon_identite"
-      ]
-    },
-    {
-      "url": "https://admin.promonews.tv/ads/redirect/e9d92781-96f5-4ca9-8814-d1e0b5b3ecb2",
-      "source": "Promonews",
-      "source_category": "14 Musique Clips",
-      "priority": "P1",
-      "status": "a_verifier",
-      "found_at": "2026-11-24T14:59:01.630203+00:00",
-      "score": 14,
-      "requirements": [
-        "date_creation",
-        "choix_DA_observable",
-        "source_primaire",
-        "visuel_verifie_ou_exception_scorecard",
-        "doublon_identite"
-      ]
-    },
-    {
-      "url": "https://www.seconde-design.com/index.php/portfolio/echoes-of-earth-festival/",
-      "source": "Seconde Design",
-      "source_category": "09 France Pro",
-      "priority": "P2",
-      "status": "a_verifier",
-      "found_at": "2026-11-24T14:59:01.630203+00:00",
-      "score": 9,
-      "requirements": [
-        "date_creation",
-        "choix_DA_observable",
-        "source_primaire",
-        "visuel_verifie_ou_exception_scorecard",
-        "doublon_identite"
-      ]
-    },
-    {
-      "url": "https://admin.promonews.tv/ads/redirect/f74ff60c-264b-4e97-8c7b-139ffda34e47",
-      "source": "Promonews",
-      "source_category": "14 Musique Clips",
-      "priority": "P1",
-      "status": "a_verifier",
-      "found_at": "2026-11-24T14:59:01.630203+00:00",
-      "score": 14,
-      "requirements": [
-        "date_creation",
-        "choix_DA_observable",
-        "source_primaire",
-        "visuel_verifie_ou_exception_scorecard",
-        "doublon_identite"
-      ]
-    },
-    {
-      "url": "https://www.seconde-design.com/index.php/portfolio/eternel-mucha-grand-palais-immersif/",
-      "source": "Seconde Design",
-      "source_category": "09 France Pro",
-      "priority": "P2",
-      "status": "a_verifier",
-      "found_at": "2026-11-24T14:59:01.630203+00:00",
-      "score": 9,
       "requirements": [
         "date_creation",
         "choix_DA_observable",
@@ -1689,8 +1658,24 @@
       "source_category": "14 Musique Clips",
       "priority": "P1",
       "status": "a_verifier",
-      "found_at": "2026-11-24T14:59:01.630203+00:00",
+      "found_at": "2026-11-25T02:12:26.902783+00:00",
       "score": 14,
+      "requirements": [
+        "date_creation",
+        "choix_DA_observable",
+        "source_primaire",
+        "visuel_verifie_ou_exception_scorecard",
+        "doublon_identite"
+      ]
+    },
+    {
+      "url": "https://www.seconde-design.com/index.php/portfolio/boiler-room-marseille/",
+      "source": "Seconde Design",
+      "source_category": "09 France Pro",
+      "priority": "P2",
+      "status": "a_verifier",
+      "found_at": "2026-11-25T02:12:26.902783+00:00",
+      "score": 9,
       "requirements": [
         "date_creation",
         "choix_DA_observable",
@@ -1705,8 +1690,24 @@
       "source_category": "14 Musique Clips",
       "priority": "P1",
       "status": "a_verifier",
-      "found_at": "2026-11-24T14:59:01.630203+00:00",
+      "found_at": "2026-11-25T02:12:26.902783+00:00",
       "score": 13,
+      "requirements": [
+        "date_creation",
+        "choix_DA_observable",
+        "source_primaire",
+        "visuel_verifie_ou_exception_scorecard",
+        "doublon_identite"
+      ]
+    },
+    {
+      "url": "https://www.seconde-design.com/index.php/portfolio/cercle-festival/",
+      "source": "Seconde Design",
+      "source_category": "09 France Pro",
+      "priority": "P2",
+      "status": "a_verifier",
+      "found_at": "2026-11-25T02:12:26.902783+00:00",
+      "score": 9,
       "requirements": [
         "date_creation",
         "choix_DA_observable",
@@ -1721,7 +1722,7 @@
       "source_category": "14 Musique Clips",
       "priority": "P1",
       "status": "a_verifier",
-      "found_at": "2026-11-24T14:59:01.630203+00:00",
+      "found_at": "2026-11-25T02:12:26.902783+00:00",
       "score": 13,
       "requirements": [
         "date_creation",
@@ -1732,29 +1733,13 @@
       ]
     },
     {
-      "url": "https://shop.lesinrocks.com/magazines/les-inrockuptibles-n37-fevrier-2025/",
-      "source": "Les Inrockuptibles",
-      "source_category": "14 Musique Clips",
-      "priority": "P1",
-      "status": "a_verifier",
-      "found_at": "2026-11-24T14:59:01.630203+00:00",
-      "score": 13,
-      "requirements": [
-        "date_creation",
-        "choix_DA_observable",
-        "source_primaire",
-        "visuel_verifie_ou_exception_scorecard",
-        "doublon_identite"
-      ]
-    },
-    {
-      "url": "https://www.vizrt.com/press-center/vizrt-acquires-chyron/",
-      "source": "Vizrt",
-      "source_category": "02 TV Broadcast",
+      "url": "https://www.seconde-design.com/index.php/portfolio/echoes-of-earth-festival/",
+      "source": "Seconde Design",
+      "source_category": "09 France Pro",
       "priority": "P2",
       "status": "a_verifier",
-      "found_at": "2026-11-24T14:59:01.630203+00:00",
-      "score": 11,
+      "found_at": "2026-11-25T02:12:26.902783+00:00",
+      "score": 9,
       "requirements": [
         "date_creation",
         "choix_DA_observable",
@@ -1764,13 +1749,13 @@
       ]
     },
     {
-      "url": "https://shop.lesinrocks.com/magazines/les-inrockuptibles-n38-mars-2025-elon-musk/",
-      "source": "Les Inrockuptibles",
-      "source_category": "14 Musique Clips",
-      "priority": "P1",
+      "url": "https://www.seconde-design.com/index.php/portfolio/eternel-mucha-grand-palais-immersif/",
+      "source": "Seconde Design",
+      "source_category": "09 France Pro",
+      "priority": "P2",
       "status": "a_verifier",
-      "found_at": "2026-11-24T14:59:01.630203+00:00",
-      "score": 13,
+      "found_at": "2026-11-25T02:12:26.902783+00:00",
+      "score": 9,
       "requirements": [
         "date_creation",
         "choix_DA_observable",
@@ -1785,8 +1770,72 @@
       "source_category": "01 Spectacle Concert",
       "priority": "P1",
       "status": "a_verifier",
-      "found_at": "2026-11-24T14:59:01.630203+00:00",
+      "found_at": "2026-11-25T02:12:26.902783+00:00",
       "score": 12,
+      "requirements": [
+        "date_creation",
+        "choix_DA_observable",
+        "source_primaire",
+        "visuel_verifie_ou_exception_scorecard",
+        "doublon_identite"
+      ]
+    },
+    {
+      "url": "https://www.vizrt.com/press-center/vizrt-acquires-chyron/",
+      "source": "Vizrt",
+      "source_category": "02 TV Broadcast",
+      "priority": "P2",
+      "status": "a_verifier",
+      "found_at": "2026-11-25T02:12:26.902783+00:00",
+      "score": 11,
+      "requirements": [
+        "date_creation",
+        "choix_DA_observable",
+        "source_primaire",
+        "visuel_verifie_ou_exception_scorecard",
+        "doublon_identite"
+      ]
+    },
+    {
+      "url": "https://www.lsionline.com/subscriptions/amend-subscription/",
+      "source": "LSi",
+      "source_category": "01 Spectacle Concert",
+      "priority": "P2",
+      "status": "a_verifier",
+      "found_at": "2026-11-25T02:12:26.902783+00:00",
+      "score": 11,
+      "requirements": [
+        "date_creation",
+        "choix_DA_observable",
+        "source_primaire",
+        "visuel_verifie_ou_exception_scorecard",
+        "doublon_identite"
+      ]
+    },
+    {
+      "url": "https://shop.lesinrocks.com/magazines/les-inrockuptibles-n37-fevrier-2025/",
+      "source": "Les Inrockuptibles",
+      "source_category": "14 Musique Clips",
+      "priority": "P1",
+      "status": "a_verifier",
+      "found_at": "2026-11-25T02:12:26.902783+00:00",
+      "score": 13,
+      "requirements": [
+        "date_creation",
+        "choix_DA_observable",
+        "source_primaire",
+        "visuel_verifie_ou_exception_scorecard",
+        "doublon_identite"
+      ]
+    },
+    {
+      "url": "https://shop.lesinrocks.com/magazines/les-inrockuptibles-n38-mars-2025-elon-musk/",
+      "source": "Les Inrockuptibles",
+      "source_category": "14 Musique Clips",
+      "priority": "P1",
+      "status": "a_verifier",
+      "found_at": "2026-11-25T02:12:26.902783+00:00",
+      "score": 13,
       "requirements": [
         "date_creation",
         "choix_DA_observable",
@@ -1801,7 +1850,39 @@
       "source_category": "14 Musique Clips",
       "priority": "P1",
       "status": "a_verifier",
-      "found_at": "2026-11-24T14:59:01.630203+00:00",
+      "found_at": "2026-11-25T02:12:26.902783+00:00",
+      "score": 13,
+      "requirements": [
+        "date_creation",
+        "choix_DA_observable",
+        "source_primaire",
+        "visuel_verifie_ou_exception_scorecard",
+        "doublon_identite"
+      ]
+    },
+    {
+      "url": "https://shop.lesinrocks.com/magazines/les-inrockuptibles-n40-mai-2025/",
+      "source": "Les Inrockuptibles",
+      "source_category": "14 Musique Clips",
+      "priority": "P1",
+      "status": "a_verifier",
+      "found_at": "2026-11-25T02:12:26.902783+00:00",
+      "score": 13,
+      "requirements": [
+        "date_creation",
+        "choix_DA_observable",
+        "source_primaire",
+        "visuel_verifie_ou_exception_scorecard",
+        "doublon_identite"
+      ]
+    },
+    {
+      "url": "https://shop.lesinrocks.com/magazines/les-inrockuptibles-n41-juin-2025/",
+      "source": "Les Inrockuptibles",
+      "source_category": "14 Musique Clips",
+      "priority": "P1",
+      "status": "a_verifier",
+      "found_at": "2026-11-25T02:12:26.902783+00:00",
       "score": 13,
       "requirements": [
         "date_creation",
@@ -1817,103 +1898,7 @@
       "source_category": "09 France Pro",
       "priority": "P2",
       "status": "a_verifier",
-      "found_at": "2026-11-24T14:59:01.630203+00:00",
-      "score": 8,
-      "requirements": [
-        "date_creation",
-        "choix_DA_observable",
-        "source_primaire",
-        "visuel_verifie_ou_exception_scorecard",
-        "doublon_identite"
-      ]
-    },
-    {
-      "url": "https://shop.lesinrocks.com/magazines/les-inrockuptibles-n40-mai-2025/",
-      "source": "Les Inrockuptibles",
-      "source_category": "14 Musique Clips",
-      "priority": "P1",
-      "status": "a_verifier",
-      "found_at": "2026-11-24T14:59:01.630203+00:00",
-      "score": 13,
-      "requirements": [
-        "date_creation",
-        "choix_DA_observable",
-        "source_primaire",
-        "visuel_verifie_ou_exception_scorecard",
-        "doublon_identite"
-      ]
-    },
-    {
-      "url": "https://www.lsionline.com/subscriptions/amend-subscription/",
-      "source": "LSi",
-      "source_category": "01 Spectacle Concert",
-      "priority": "P2",
-      "status": "a_verifier",
-      "found_at": "2026-11-24T14:59:01.630203+00:00",
-      "score": 11,
-      "requirements": [
-        "date_creation",
-        "choix_DA_observable",
-        "source_primaire",
-        "visuel_verifie_ou_exception_scorecard",
-        "doublon_identite"
-      ]
-    },
-    {
-      "url": "https://studiocarlos.fr/projets/carlos-computer-club/",
-      "source": "Studio Carlos",
-      "source_category": "09 France Pro",
-      "priority": "P2",
-      "status": "a_verifier",
-      "found_at": "2026-11-24T14:59:01.630203+00:00",
-      "score": 8,
-      "requirements": [
-        "date_creation",
-        "choix_DA_observable",
-        "source_primaire",
-        "visuel_verifie_ou_exception_scorecard",
-        "doublon_identite"
-      ]
-    },
-    {
-      "url": "https://shop.lesinrocks.com/magazines/les-inrockuptibles-n41-juin-2025/",
-      "source": "Les Inrockuptibles",
-      "source_category": "14 Musique Clips",
-      "priority": "P1",
-      "status": "a_verifier",
-      "found_at": "2026-11-24T14:59:01.630203+00:00",
-      "score": 13,
-      "requirements": [
-        "date_creation",
-        "choix_DA_observable",
-        "source_primaire",
-        "visuel_verifie_ou_exception_scorecard",
-        "doublon_identite"
-      ]
-    },
-    {
-      "url": "https://www.etcconnect.com/About/About-ETC/",
-      "source": "ETC",
-      "source_category": "01 Spectacle Concert",
-      "priority": "P3",
-      "status": "a_verifier",
-      "found_at": "2026-11-24T14:59:01.630203+00:00",
-      "score": 9,
-      "requirements": [
-        "date_creation",
-        "choix_DA_observable",
-        "source_primaire",
-        "visuel_verifie_ou_exception_scorecard",
-        "doublon_identite"
-      ]
-    },
-    {
-      "url": "https://studiocarlos.fr/projets/echo-42/",
-      "source": "Studio Carlos",
-      "source_category": "09 France Pro",
-      "priority": "P2",
-      "status": "a_verifier",
-      "found_at": "2026-11-24T14:59:01.630203+00:00",
+      "found_at": "2026-11-25T02:12:26.902783+00:00",
       "score": 8,
       "requirements": [
         "date_creation",
@@ -1929,7 +1914,7 @@
       "source_category": "14 Musique Clips",
       "priority": "P1",
       "status": "a_verifier",
-      "found_at": "2026-11-24T14:59:01.630203+00:00",
+      "found_at": "2026-11-25T02:12:26.902783+00:00",
       "score": 13,
       "requirements": [
         "date_creation",
@@ -1940,13 +1925,29 @@
       ]
     },
     {
-      "url": "https://www.etcconnect.com/About/Buy-American/",
-      "source": "ETC",
-      "source_category": "01 Spectacle Concert",
-      "priority": "P3",
+      "url": "https://studiocarlos.fr/projets/carlos-computer-club/",
+      "source": "Studio Carlos",
+      "source_category": "09 France Pro",
+      "priority": "P2",
       "status": "a_verifier",
-      "found_at": "2026-11-24T14:59:01.630203+00:00",
-      "score": 9,
+      "found_at": "2026-11-25T02:12:26.902783+00:00",
+      "score": 8,
+      "requirements": [
+        "date_creation",
+        "choix_DA_observable",
+        "source_primaire",
+        "visuel_verifie_ou_exception_scorecard",
+        "doublon_identite"
+      ]
+    },
+    {
+      "url": "https://studiocarlos.fr/projets/echo-42/",
+      "source": "Studio Carlos",
+      "source_category": "09 France Pro",
+      "priority": "P2",
+      "status": "a_verifier",
+      "found_at": "2026-11-25T02:12:26.902783+00:00",
+      "score": 8,
       "requirements": [
         "date_creation",
         "choix_DA_observable",
@@ -1961,71 +1962,7 @@
       "source_category": "09 France Pro",
       "priority": "P2",
       "status": "a_verifier",
-      "found_at": "2026-11-24T14:59:01.630203+00:00",
-      "score": 8,
-      "requirements": [
-        "date_creation",
-        "choix_DA_observable",
-        "source_primaire",
-        "visuel_verifie_ou_exception_scorecard",
-        "doublon_identite"
-      ]
-    },
-    {
-      "url": "https://www.etcconnect.com/Products/Architectural-Fixtures/",
-      "source": "ETC",
-      "source_category": "01 Spectacle Concert",
-      "priority": "P3",
-      "status": "a_verifier",
-      "found_at": "2026-11-24T14:59:01.630203+00:00",
-      "score": 9,
-      "requirements": [
-        "date_creation",
-        "choix_DA_observable",
-        "source_primaire",
-        "visuel_verifie_ou_exception_scorecard",
-        "doublon_identite"
-      ]
-    },
-    {
-      "url": "https://studiocarlos.fr/projets/hublot-digital-forge/",
-      "source": "Studio Carlos",
-      "source_category": "09 France Pro",
-      "priority": "P2",
-      "status": "a_verifier",
-      "found_at": "2026-11-24T14:59:01.630203+00:00",
-      "score": 8,
-      "requirements": [
-        "date_creation",
-        "choix_DA_observable",
-        "source_primaire",
-        "visuel_verifie_ou_exception_scorecard",
-        "doublon_identite"
-      ]
-    },
-    {
-      "url": "https://www.etcconnect.com/Products/Architectural-Systems/",
-      "source": "ETC",
-      "source_category": "01 Spectacle Concert",
-      "priority": "P3",
-      "status": "a_verifier",
-      "found_at": "2026-11-24T14:59:01.630203+00:00",
-      "score": 9,
-      "requirements": [
-        "date_creation",
-        "choix_DA_observable",
-        "source_primaire",
-        "visuel_verifie_ou_exception_scorecard",
-        "doublon_identite"
-      ]
-    },
-    {
-      "url": "https://studiocarlos.fr/projets/sephora-illumination/",
-      "source": "Studio Carlos",
-      "source_category": "09 France Pro",
-      "priority": "P2",
-      "status": "a_verifier",
-      "found_at": "2026-11-24T14:59:01.630203+00:00",
+      "found_at": "2026-11-25T02:12:26.902783+00:00",
       "score": 8,
       "requirements": [
         "date_creation",
@@ -2041,7 +1978,7 @@
       "source_category": "14 Musique Clips",
       "priority": "P1",
       "status": "a_verifier",
-      "found_at": "2026-11-24T14:59:01.630203+00:00",
+      "found_at": "2026-11-25T02:12:26.902783+00:00",
       "score": 13,
       "requirements": [
         "date_creation",
@@ -2052,28 +1989,12 @@
       ]
     },
     {
-      "url": "https://www.etcconnect.com/Products/Automated-Fixtures/",
-      "source": "ETC",
-      "source_category": "01 Spectacle Concert",
-      "priority": "P3",
-      "status": "a_verifier",
-      "found_at": "2026-11-24T14:59:01.630203+00:00",
-      "score": 9,
-      "requirements": [
-        "date_creation",
-        "choix_DA_observable",
-        "source_primaire",
-        "visuel_verifie_ou_exception_scorecard",
-        "doublon_identite"
-      ]
-    },
-    {
-      "url": "https://studiocarlos.fr/projets/virtual-graffiti/",
+      "url": "https://studiocarlos.fr/projets/hublot-digital-forge/",
       "source": "Studio Carlos",
       "source_category": "09 France Pro",
       "priority": "P2",
       "status": "a_verifier",
-      "found_at": "2026-11-24T14:59:01.630203+00:00",
+      "found_at": "2026-11-25T02:12:26.902783+00:00",
       "score": 8,
       "requirements": [
         "date_creation",
@@ -2089,7 +2010,7 @@
       "source_category": "14 Musique Clips",
       "priority": "P1",
       "status": "a_verifier",
-      "found_at": "2026-11-24T14:59:01.630203+00:00",
+      "found_at": "2026-11-25T02:12:26.902783+00:00",
       "score": 13,
       "requirements": [
         "date_creation",
@@ -2100,28 +2021,12 @@
       ]
     },
     {
-      "url": "https://www.etcconnect.com/Products/Consoles/",
-      "source": "ETC",
-      "source_category": "01 Spectacle Concert",
-      "priority": "P3",
-      "status": "a_verifier",
-      "found_at": "2026-11-24T14:59:01.630203+00:00",
-      "score": 9,
-      "requirements": [
-        "date_creation",
-        "choix_DA_observable",
-        "source_primaire",
-        "visuel_verifie_ou_exception_scorecard",
-        "doublon_identite"
-      ]
-    },
-    {
-      "url": "https://www.d-labs.fr/projets/ninho",
-      "source": "D/LABS",
+      "url": "https://studiocarlos.fr/projets/sephora-illumination/",
+      "source": "Studio Carlos",
       "source_category": "09 France Pro",
       "priority": "P2",
       "status": "a_verifier",
-      "found_at": "2026-11-24T14:59:01.630203+00:00",
+      "found_at": "2026-11-25T02:12:26.902783+00:00",
       "score": 8,
       "requirements": [
         "date_creation",
@@ -2137,7 +2042,7 @@
       "source_category": "14 Musique Clips",
       "priority": "P1",
       "status": "a_verifier",
-      "found_at": "2026-11-24T14:59:01.630203+00:00",
+      "found_at": "2026-11-25T02:12:26.902783+00:00",
       "score": 13,
       "requirements": [
         "date_creation",
@@ -2148,12 +2053,12 @@
       ]
     },
     {
-      "url": "https://www.d-labs.fr/projets/shay-2",
-      "source": "D/LABS",
+      "url": "https://studiocarlos.fr/projets/virtual-graffiti/",
+      "source": "Studio Carlos",
       "source_category": "09 France Pro",
       "priority": "P2",
       "status": "a_verifier",
-      "found_at": "2026-11-24T14:59:01.630203+00:00",
+      "found_at": "2026-11-25T02:12:26.902783+00:00",
       "score": 8,
       "requirements": [
         "date_creation",
@@ -2169,7 +2074,7 @@
       "source_category": "14 Musique Clips",
       "priority": "P1",
       "status": "a_verifier",
-      "found_at": "2026-11-24T14:59:01.630203+00:00",
+      "found_at": "2026-11-25T02:12:26.902783+00:00",
       "score": 13,
       "requirements": [
         "date_creation",
@@ -2180,12 +2085,12 @@
       ]
     },
     {
-      "url": "https://www.ghs.fr/formation/lactualite-sociale/",
-      "source": "La Scène",
+      "url": "https://www.d-labs.fr/projets/fally-ipupa",
+      "source": "D/LABS",
       "source_category": "09 France Pro",
       "priority": "P2",
       "status": "a_verifier",
-      "found_at": "2026-11-24T14:59:01.630203+00:00",
+      "found_at": "2026-11-25T02:12:26.902783+00:00",
       "score": 8,
       "requirements": [
         "date_creation",
@@ -2201,7 +2106,7 @@
       "source_category": "14 Musique Clips",
       "priority": "P1",
       "status": "a_verifier",
-      "found_at": "2026-11-24T14:59:01.630203+00:00",
+      "found_at": "2026-11-25T02:12:26.902783+00:00",
       "score": 13,
       "requirements": [
         "date_creation",
@@ -2212,12 +2117,12 @@
       ]
     },
     {
-      "url": "https://www.idlia.fr/360view/penseesdulys/?project=60c84cf152385",
-      "source": "IDlia Studio",
+      "url": "https://www.d-labs.fr/projets/ninho",
+      "source": "D/LABS",
       "source_category": "09 France Pro",
       "priority": "P2",
       "status": "a_verifier",
-      "found_at": "2026-11-24T14:59:01.630203+00:00",
+      "found_at": "2026-11-25T02:12:26.902783+00:00",
       "score": 8,
       "requirements": [
         "date_creation",
@@ -2233,8 +2138,56 @@
       "source_category": "14 Musique Clips",
       "priority": "P1",
       "status": "a_verifier",
-      "found_at": "2026-11-24T14:59:01.630203+00:00",
+      "found_at": "2026-11-25T02:12:26.902783+00:00",
       "score": 13,
+      "requirements": [
+        "date_creation",
+        "choix_DA_observable",
+        "source_primaire",
+        "visuel_verifie_ou_exception_scorecard",
+        "doublon_identite"
+      ]
+    },
+    {
+      "url": "https://www.d-labs.fr/projets/shay-2",
+      "source": "D/LABS",
+      "source_category": "09 France Pro",
+      "priority": "P2",
+      "status": "a_verifier",
+      "found_at": "2026-11-25T02:12:26.902783+00:00",
+      "score": 8,
+      "requirements": [
+        "date_creation",
+        "choix_DA_observable",
+        "source_primaire",
+        "visuel_verifie_ou_exception_scorecard",
+        "doublon_identite"
+      ]
+    },
+    {
+      "url": "https://www.ghs.fr/formation/lactualite-sociale/",
+      "source": "La Scène",
+      "source_category": "09 France Pro",
+      "priority": "P2",
+      "status": "a_verifier",
+      "found_at": "2026-11-25T02:12:26.902783+00:00",
+      "score": 8,
+      "requirements": [
+        "date_creation",
+        "choix_DA_observable",
+        "source_primaire",
+        "visuel_verifie_ou_exception_scorecard",
+        "doublon_identite"
+      ]
+    },
+    {
+      "url": "https://www.idlia.fr/360view/penseesdulys/?project=60c84cf152385",
+      "source": "IDlia Studio",
+      "source_category": "09 France Pro",
+      "priority": "P2",
+      "status": "a_verifier",
+      "found_at": "2026-11-25T02:12:26.902783+00:00",
+      "score": 8,
       "requirements": [
         "date_creation",
         "choix_DA_observable",
@@ -2249,7 +2202,7 @@
       "source_category": "09 France Pro",
       "priority": "P2",
       "status": "a_verifier",
-      "found_at": "2026-11-24T14:59:01.630203+00:00",
+      "found_at": "2026-11-25T02:12:26.902783+00:00",
       "score": 8,
       "requirements": [
         "date_creation",
@@ -2265,7 +2218,7 @@
       "source_category": "09 France Pro",
       "priority": "P2",
       "status": "a_verifier",
-      "found_at": "2026-11-24T14:59:01.630203+00:00",
+      "found_at": "2026-11-25T02:12:26.902783+00:00",
       "score": 8,
       "requirements": [
         "date_creation",
@@ -2281,7 +2234,7 @@
       "source_category": "09 France Pro",
       "priority": "P2",
       "status": "a_verifier",
-      "found_at": "2026-11-24T14:59:01.630203+00:00",
+      "found_at": "2026-11-25T02:12:26.902783+00:00",
       "score": 8,
       "requirements": [
         "date_creation",
@@ -2297,7 +2250,7 @@
       "source_category": "09 France Pro",
       "priority": "P2",
       "status": "a_verifier",
-      "found_at": "2026-11-24T14:59:01.630203+00:00",
+      "found_at": "2026-11-25T02:12:26.902783+00:00",
       "score": 8,
       "requirements": [
         "date_creation",
@@ -2313,7 +2266,7 @@
       "source_category": "09 France Pro",
       "priority": "P2",
       "status": "a_verifier",
-      "found_at": "2026-11-24T14:59:01.630203+00:00",
+      "found_at": "2026-11-25T02:12:26.902783+00:00",
       "score": 8,
       "requirements": [
         "date_creation",
@@ -2329,7 +2282,7 @@
       "source_category": "09 France Pro",
       "priority": "P2",
       "status": "a_verifier",
-      "found_at": "2026-11-24T14:59:01.630203+00:00",
+      "found_at": "2026-11-25T02:12:26.902783+00:00",
       "score": 8,
       "requirements": [
         "date_creation",
@@ -2345,7 +2298,7 @@
       "source_category": "14 Musique Clips",
       "priority": "P1",
       "status": "a_verifier",
-      "found_at": "2026-11-24T14:59:01.630203+00:00",
+      "found_at": "2026-11-25T02:12:26.902783+00:00",
       "score": 13,
       "requirements": [
         "date_creation",
@@ -2361,7 +2314,7 @@
       "source_category": "14 Musique Clips",
       "priority": "P1",
       "status": "a_verifier",
-      "found_at": "2026-11-24T14:59:01.630203+00:00",
+      "found_at": "2026-11-25T02:12:26.902783+00:00",
       "score": 13,
       "requirements": [
         "date_creation",
@@ -2377,7 +2330,7 @@
       "source_category": "14 Musique Clips",
       "priority": "P1",
       "status": "a_verifier",
-      "found_at": "2026-11-24T14:59:01.630203+00:00",
+      "found_at": "2026-11-25T02:12:26.902783+00:00",
       "score": 13,
       "requirements": [
         "date_creation",
@@ -2393,7 +2346,7 @@
       "source_category": "14 Musique Clips",
       "priority": "P1",
       "status": "a_verifier",
-      "found_at": "2026-11-24T14:59:01.630203+00:00",
+      "found_at": "2026-11-25T02:12:26.902783+00:00",
       "score": 13,
       "requirements": [
         "date_creation",
@@ -2409,23 +2362,7 @@
       "source_category": "14 Musique Clips",
       "priority": "P1",
       "status": "a_verifier",
-      "found_at": "2026-11-24T14:59:01.630203+00:00",
-      "score": 13,
-      "requirements": [
-        "date_creation",
-        "choix_DA_observable",
-        "source_primaire",
-        "visuel_verifie_ou_exception_scorecard",
-        "doublon_identite"
-      ]
-    },
-    {
-      "url": "https://www.nowness.com/films/glacier-view-alaska-jamie-shipston-mourn/",
-      "source": "NOWNESS",
-      "source_category": "14 Musique Clips",
-      "priority": "P1",
-      "status": "a_verifier",
-      "found_at": "2026-11-24T14:59:01.630203+00:00",
+      "found_at": "2026-11-25T02:12:26.902783+00:00",
       "score": 13,
       "requirements": [
         "date_creation",
@@ -2441,7 +2378,7 @@
       "source_category": "08 Immersif CGI Motion",
       "priority": "P2",
       "status": "a_verifier",
-      "found_at": "2026-11-24T14:59:01.630203+00:00",
+      "found_at": "2026-11-25T02:12:26.902783+00:00",
       "score": 22,
       "requirements": [
         "date_creation",
@@ -2457,7 +2394,7 @@
       "source_category": "08 Immersif CGI Motion",
       "priority": "P2",
       "status": "a_verifier",
-      "found_at": "2026-11-24T14:59:01.630203+00:00",
+      "found_at": "2026-11-25T02:12:26.902783+00:00",
       "score": 20,
       "requirements": [
         "date_creation",
@@ -2473,7 +2410,7 @@
       "source_category": "04 Pub Strategie",
       "priority": "P1",
       "status": "a_verifier",
-      "found_at": "2026-11-24T14:59:01.630203+00:00",
+      "found_at": "2026-11-25T02:12:26.902783+00:00",
       "score": 18,
       "requirements": [
         "date_creation",
@@ -2489,7 +2426,7 @@
       "source_category": "04 Pub Strategie",
       "priority": "P2",
       "status": "a_verifier",
-      "found_at": "2026-11-24T14:59:01.630203+00:00",
+      "found_at": "2026-11-25T02:12:26.902783+00:00",
       "score": 18,
       "requirements": [
         "date_creation",
@@ -2505,7 +2442,7 @@
       "source_category": "07 FOOH OOH DOOH",
       "priority": "P2",
       "status": "a_verifier",
-      "found_at": "2026-11-24T14:59:01.630203+00:00",
+      "found_at": "2026-11-25T02:12:26.902783+00:00",
       "score": 17,
       "requirements": [
         "date_creation",
@@ -2521,7 +2458,7 @@
       "source_category": "08 Immersif CGI Motion",
       "priority": "P2",
       "status": "a_verifier",
-      "found_at": "2026-11-24T14:59:01.630203+00:00",
+      "found_at": "2026-11-25T02:12:26.902783+00:00",
       "score": 17,
       "requirements": [
         "date_creation",
@@ -2537,7 +2474,7 @@
       "source_category": "08 Immersif CGI Motion",
       "priority": "P2",
       "status": "a_verifier",
-      "found_at": "2026-11-24T14:59:01.630203+00:00",
+      "found_at": "2026-11-25T02:12:26.902783+00:00",
       "score": 17,
       "requirements": [
         "date_creation",
@@ -2553,7 +2490,7 @@
       "source_category": "03 DA Graphisme",
       "priority": "P2",
       "status": "a_verifier",
-      "found_at": "2026-11-24T14:59:01.630203+00:00",
+      "found_at": "2026-11-25T02:12:26.902783+00:00",
       "score": 16,
       "requirements": [
         "date_creation",
@@ -2569,8 +2506,72 @@
       "source_category": "06 Retail Brand Experience",
       "priority": "P2",
       "status": "a_verifier",
-      "found_at": "2026-11-24T14:59:01.630203+00:00",
+      "found_at": "2026-11-25T02:12:26.902783+00:00",
       "score": 16,
+      "requirements": [
+        "date_creation",
+        "choix_DA_observable",
+        "source_primaire",
+        "visuel_verifie_ou_exception_scorecard",
+        "doublon_identite"
+      ]
+    },
+    {
+      "url": "https://marshmallowlaserfeast.com/project/poetics-of-soil-fly-agaric-i-video-installation/",
+      "source": "Marshmallow Laser Feast",
+      "source_category": "08 Immersif CGI Motion",
+      "priority": "P2",
+      "status": "a_verifier",
+      "found_at": "2026-11-25T02:12:26.902783+00:00",
+      "score": 16,
+      "requirements": [
+        "date_creation",
+        "choix_DA_observable",
+        "source_primaire",
+        "visuel_verifie_ou_exception_scorecard",
+        "doublon_identite"
+      ]
+    },
+    {
+      "url": "https://www.etapes.com/2026/05/26/pourquoi-les-jeunes-designers-desertent-les-agences-creatives/",
+      "source": "Étapes",
+      "source_category": "13 France Marketing Design",
+      "priority": "P2",
+      "status": "a_verifier",
+      "found_at": "2026-11-25T02:12:26.902783+00:00",
+      "score": 16,
+      "requirements": [
+        "date_creation",
+        "choix_DA_observable",
+        "source_primaire",
+        "visuel_verifie_ou_exception_scorecard",
+        "doublon_identite"
+      ]
+    },
+    {
+      "url": "https://fooh.com/library/work-type/ai-video",
+      "source": "FOOH.com",
+      "source_category": "07 FOOH OOH DOOH",
+      "priority": "P1",
+      "status": "a_verifier",
+      "found_at": "2026-11-25T02:12:26.902783+00:00",
+      "score": 15,
+      "requirements": [
+        "date_creation",
+        "choix_DA_observable",
+        "source_primaire",
+        "visuel_verifie_ou_exception_scorecard",
+        "doublon_identite"
+      ]
+    },
+    {
+      "url": "https://www.designindaba.com/news-features/showcases/africa-now-west-africa",
+      "source": "Design Indaba",
+      "source_category": "04 Pub Strategie",
+      "priority": "P1",
+      "status": "a_verifier",
+      "found_at": "2026-11-25T02:12:26.902783+00:00",
+      "score": 15,
       "requirements": [
         "date_creation",
         "choix_DA_observable",
