@@ -1,6 +1,6 @@
 {
   "description": "Cumulative seen-project register; retain entries when projects leave the live feed; compare URL and semantic identity.",
-  "updated": "2026-11-25T15:05:31.433Z",
+  "updated": "2026-11-25T19:02:52.796Z",
   "projects": [
     {
       "project_id": "pink-siifu-devils-advocate-gontrand-making-of-2026",
@@ -1133,6 +1133,36 @@
       "published_at": "2026-11-25T15:05:31.433Z",
       "wave_id": "2026-11-25-12h",
       "editorial_score": 17
+    },
+    {
+      "project_id": "ella-boh-warning-label-corps-contraints-2026",
+      "title": "Ella Boh — Le costume continue les murs de la prison",
+      "url": "https://www.youtube.com/watch?v=q0P6bMGkFQM",
+      "category": "14 Musique Clips",
+      "radar_added_at": "2026-11-25T19:02:52.796Z",
+      "published_at": "2026-11-25T19:02:52.796Z",
+      "wave_id": "2026-11-25-16h",
+      "editorial_score": 18
+    },
+    {
+      "project_id": "violet-grohl-metal-birds-kimmel-2026",
+      "title": "Violet Grohl — Le paysage garde un point d’ancrage au micro",
+      "url": "https://www.youtube.com/watch?v=S4fRiRz28Io",
+      "category": "01 Spectacle Concert",
+      "radar_added_at": "2026-11-25T19:02:52.796Z",
+      "published_at": "2026-11-25T19:02:52.796Z",
+      "wave_id": "2026-11-25-16h",
+      "editorial_score": 17
+    },
+    {
+      "project_id": "truth-untold-shatterproof-cases-ouvertes-2026",
+      "title": "The Truth Untold — Les cases isolées deviennent un groupe",
+      "url": "https://www.youtube.com/watch?v=C_qtytM6fno",
+      "category": "14 Musique Clips",
+      "radar_added_at": "2026-11-25T19:02:52.796Z",
+      "published_at": "2026-11-25T19:02:52.796Z",
+      "wave_id": "2026-11-25-16h",
+      "editorial_score": 18
     }
   ]
 }

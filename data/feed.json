@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-25T15:05:31.433Z",
+  "updated_at": "2026-11-25T19:02:52.796Z",
   "status": "editorial_reviewed",
   "working_feeds": [
     {
@@ -454,6 +454,66 @@
     "with_images": 82
   },
   "items": [
+    {
+      "project_id": "ella-boh-warning-label-corps-contraints-2026",
+      "title": "Ella Boh — Le costume continue les murs de la prison",
+      "title_fr": "Ella Boh — Le costume continue les murs de la prison",
+      "url": "https://www.youtube.com/watch?v=q0P6bMGkFQM",
+      "category": "14 Musique Clips",
+      "source": "Ella Boh / Bamboo Artists",
+      "published": "2026-11-25T00:00:00Z",
+      "radar_added_at": "2026-11-25T19:02:52.796Z",
+      "summary": "Dans « warning label », Sophie Gallagher fait répondre une pièce capitonnée à un vêtement blanc qui entrave le corps. Une seconde figure, vêtue de noir, rend l’idée de contrôle plus inquiétante que le seul décor.",
+      "summary_fr": "Dans « warning label », Sophie Gallagher fait répondre une pièce capitonnée à un vêtement blanc qui entrave le corps. Une seconde figure, vêtue de noir, rend l’idée de contrôle plus inquiétante que le seul décor.",
+      "image": "https://i.ytimg.com/vi/q0P6bMGkFQM/hqdefault.jpg",
+      "image_kind": "project",
+      "image_credit": "Vignette originale : Ella Boh / Bamboo Artists, réalisation Sophie Gallagher.",
+      "image_source_url": "https://www.youtube.com/watch?v=q0P6bMGkFQM",
+      "image_alt": "Une figure vêtue de noir tient une tête enveloppée de tissu blanc, devant la paroi abîmée du clip warning label.",
+      "status": "editorial_reviewed",
+      "youtube_id": "q0P6bMGkFQM",
+      "angle": "Un thème abstrait devient lisible lorsque plusieurs métiers lui donnent une forme cohérente. Ici, mur capitonné, vêtement contraignant et tête tenue convergent vers une même question : qui dispose du corps ? La force vient de cette relation précise entre les éléments, davantage que de l’accumulation d’accessoires d’horreur."
+    },
+    {
+      "project_id": "violet-grohl-metal-birds-kimmel-2026",
+      "title": "Violet Grohl — Le paysage garde un point d’ancrage au micro",
+      "title_fr": "Violet Grohl — Le paysage garde un point d’ancrage au micro",
+      "url": "https://www.youtube.com/watch?v=S4fRiRz28Io",
+      "category": "01 Spectacle Concert",
+      "source": "Violet Grohl / Jimmy Kimmel Live! / ABC",
+      "published": "2026-11-25T00:00:00Z",
+      "radar_added_at": "2026-11-25T19:02:52.796Z",
+      "summary": "Pour « Metal Birds » chez Jimmy Kimmel, Violet Grohl se tient devant un grand fond cintré aux teintes de ciel rose et gris. Une colonne végétale autour du micro relie ce paysage ample à la présence concrète de la chanteuse.",
+      "summary_fr": "Pour « Metal Birds » chez Jimmy Kimmel, Violet Grohl se tient devant un grand fond cintré aux teintes de ciel rose et gris. Une colonne végétale autour du micro relie ce paysage ample à la présence concrète de la chanteuse.",
+      "image": "https://i.ytimg.com/vi/S4fRiRz28Io/hqdefault.jpg",
+      "image_kind": "project",
+      "image_credit": "Vignette officielle : Violet Grohl / Jimmy Kimmel Live! / ABC, Metal Birds.",
+      "image_source_url": "https://www.youtube.com/watch?v=S4fRiRz28Io",
+      "image_alt": "Violet Grohl en vêtement clair au centre du groupe, devant un grand paysage rose et gris et des faisceaux blancs.",
+      "status": "editorial_reviewed",
+      "youtube_id": "S4fRiRz28Io",
+      "angle": "Un décor destiné à la télévision gagne à prévoir un élément qui reste utile à plusieurs distances. Ici, le fond porte l’ampleur du tableau et le micro habillé conserve une part de cet univers au plus près de la chanteuse. Cette articulation évite que les portraits semblent appartenir à un autre spectacle que les plans larges."
+    },
+    {
+      "project_id": "truth-untold-shatterproof-cases-ouvertes-2026",
+      "title": "The Truth Untold — Les cases isolées deviennent un groupe",
+      "title_fr": "The Truth Untold — Les cases isolées deviennent un groupe",
+      "url": "https://www.youtube.com/watch?v=C_qtytM6fno",
+      "category": "14 Musique Clips",
+      "source": "Rose Cora Perry & The Truth Untold / HER Records",
+      "published": "2026-11-25T00:00:00Z",
+      "radar_added_at": "2026-11-25T19:02:52.796Z",
+      "summary": "Dans « Shatterproof », Rose Cora Perry et Emanuel Benyamin placent des femmes dans de petites cases blanches. La répétition de ces compartiments rend leur isolement comparable, avant qu’un cadre commun ne fasse apparaître le collectif.",
+      "summary_fr": "Dans « Shatterproof », Rose Cora Perry et Emanuel Benyamin placent des femmes dans de petites cases blanches. La répétition de ces compartiments rend leur isolement comparable, avant qu’un cadre commun ne fasse apparaître le collectif.",
+      "image": "https://i.ytimg.com/vi/C_qtytM6fno/hqdefault.jpg",
+      "image_kind": "project",
+      "image_credit": "Vignette originale : Rose Cora Perry & The Truth Untold / HER Records. Coréalisation Rose Cora Perry et Emanuel Benyamin ; décor Rose Cora Perry.",
+      "image_source_url": "https://www.youtube.com/watch?v=C_qtytM6fno",
+      "image_alt": "Rose Cora Perry vêtue de noir, tenant une masse devant le fond blanc de Shatterproof.",
+      "status": "editorial_reviewed",
+      "youtube_id": "C_qtytM6fno",
+      "angle": "Un dispositif répété peut montrer un problème commun, puis sa transformation, sans multiplier les lieux. Ici, la grille fait d’abord voir la séparation ; l’ouverture et le rassemblement modifient ensuite la règle d’organisation. Le décor devient narratif parce que ses limites ont une conséquence visible sur la place des interprètes."
+    },
     {
       "project_id": "mia-joy-circle-trait-metamorphoses-2026",
       "title": "Mia Joy — Un même trait relie le corps, la feuille et le cercle",
