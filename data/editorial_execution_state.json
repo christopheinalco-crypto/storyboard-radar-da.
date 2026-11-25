@@ -3044,6 +3044,25 @@
           "status": "Piste uniquement : trouver vidéo primaire et vérifier date, visuels et choix DA"
         }
       ]
+    },
+    "2026-11-25-06h": {
+      "id": "2026-11-25-06h",
+      "status": "incomplete",
+      "stage": "collection_refresh_required",
+      "checked_at": "2026-11-25T07:44:51.434Z",
+      "published_count": 0,
+      "public_render_verified": false,
+      "collection": {
+        "wave_id": "github-45534166447",
+        "coverage_checked_at": "2026-11-25T02:36:33.599630+00:00",
+        "brief_prepared_at": "2026-11-25T02:37:03.977641+00:00",
+        "sources_opened": 157,
+        "rss_collected_at": "2026-11-25T02:46:50.159191+00:00",
+        "rss_parsed": 42,
+        "fresh": false,
+        "rss_run": 45535364647
+      },
+      "notes": "Suivi du créneau de 6 h 30 déclenché tardivement à 8 h 44 Paris. Dépôt exact et id 1449156184 vérifiés. Registre du créneau absent ; depuis 4b9731f seuls six fichiers de collecte ont changé, aucune nouvelle fiche éditoriale. Couverture, inspection, brief et RSS périmés de plus d’une heure. Les cinq derniers runs sont terminés, sans exécution active dans cet échantillon. Pages 45535472314 et garde-fou 45535779049 réussis sur 70b9163ce89aa9a1190db68f2890a742761b778d : rafraîchissement RSS, aucune preuve de nouvelle publication. Reprendre le même créneau lors du prochain passage éditorial en vérifiant les collecteurs puis en rafraîchissant les rapports. Les pistes du 24 novembre restent à vérifier dans le registre antérieur. Aucune validation de vague ajoutée."
     }
   }
 }
