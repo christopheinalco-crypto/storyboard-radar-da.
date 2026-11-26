@@ -1774,6 +1774,30 @@
           "truth-untold-shatterproof-cases-ouvertes-2026"
         ],
         "feed_count": 140
+      },
+      {
+        "id": "2026-11-26-06h",
+        "slot": "2026-11-26-06h",
+        "status": "public_verified",
+        "projects": [
+          "egoism-connection-lieux-etroits-2026",
+          "mary-poppins-papermill-lettres-extrait-2026",
+          "leonor-arnaut-escorpiao-corps-ville-2026"
+        ],
+        "count": 3,
+        "publication_commit": "63446c1dbe5a81214ee0830975de0e83b2ba070a",
+        "trigger": "scheduled_editorial_recovery",
+        "verified_at": "2026-11-26T08:09:47.178Z",
+        "pages_deployment": "https://github.com/christopheinalco-crypto/storyboard-radar-da./actions/runs/45780697188",
+        "public_render_check": "https://github.com/christopheinalco-crypto/storyboard-radar-da./actions/runs/45780697268",
+        "artifact_id": 15097783573,
+        "proof_head": "63446c1dbe5a81214ee0830975de0e83b2ba070a",
+        "verified_new_projects": [
+          "egoism-connection-lieux-etroits-2026",
+          "mary-poppins-papermill-lettres-extrait-2026",
+          "leonor-arnaut-escorpiao-corps-ville-2026"
+        ],
+        "feed_count": 143
       }
     ]
   },
@@ -3357,31 +3381,102 @@
         {
           "project": "EGOISM — I Need Your Connection",
           "video": "ENoZDzx0ZdU",
-          "decision": "à approfondir",
-          "reason": "Publication 25 novembre 07:00:09 UTC, crédit Olive Rush et Christine Zi Yi Yau ; planche 1:12–1:28 et couverture examinées, vues en plongée et espace très resserré ; plusieurs états supplémentaires à examiner avant analyse."
+          "decision": "publié et vérifié au créneau du 26 novembre 6 h",
+          "reason": "Publication 25 novembre 07:00:09 UTC, crédit Olive Rush et Christine Zi Yi Yau ; planche 1:12–1:28 et couverture examinées, vues en plongée et espace très resserré ; plusieurs états supplémentaires à examiner avant analyse.",
+          "resolved_project_id": "egoism-connection-lieux-etroits-2026",
+          "resolved_publication": "63446c1dbe5a81214ee0830975de0e83b2ba070a"
         }
       ],
       "notes": "Alerte de 20 h 30 déclenchée à 20 h 31 Paris. Nom exact du dépôt et id 1449156184 vérifiés par le connecteur GitHub. Aucun registre de 20 h et aucune identité publiée pour ce créneau. Dernière vague = rattrapage de 16 h e8b0a941acc03f997a4e4fd0d348cacaefa6d70a : les trois fichiers éditoriaux sont dans le même commit et les trois ajouts correspondent exactement au registre. Pages 45681333122 et Chromium 45681333161 réussis. Artifact 15054046585 toujours disponible ; verification.json extrait de cet artifact relu : head exact et verified_new_projects exactement égal aux trois identifiants de 16 h. Pages 45681725998 correspond uniquement à la consignation d41253b, sans nouvelle fiche ; ne compte pas pour 20 h. Collectes sources et RSS réussies et rapports frais, 159 sources et 42 RSS ; pas de collecteur ni rendu actif dans les cinq derniers runs. Créneau de 20 h conservé à reprendre au prochain passage éditorial, en repartant des pistes Malou et EGOISM consignées, avec renouvellement des rapports s’ils dépassent une heure. Aucun lot publié par cette alerte, aucune validation ajoutée et aucune réaffectation des fiches de 16 h."
     },
     "2026-11-26-06h": {
       "id": "2026-11-26-06h",
-      "status": "incomplete",
-      "stage": "collection_refresh_required",
-      "checked_at": "2026-11-26T07:59:15.063Z",
-      "published_count": 0,
-      "public_render_verified": false,
+      "status": "complete",
+      "stage": "public_verified",
+      "checked_at": "2026-11-26T08:11:07.168Z",
+      "published_count": 3,
+      "public_render_verified": true,
       "collection": {
-        "wave_id": "github-45738442872",
-        "coverage_checked_at": "2026-11-26T01:50:35.558624+00:00",
-        "brief_prepared_at": "2026-11-26T01:51:00.917450+00:00",
-        "sources_opened": 157,
-        "rss_collected_at": "2026-11-26T01:56:39.453512+00:00",
-        "rss_parsed": 41,
-        "source_run": 45738442872,
-        "rss_run": 45739093967,
-        "fresh": false
+        "wave_id": "github-45779900377",
+        "coverage_checked_at": "2026-11-26T08:03:04.723040+00:00",
+        "brief_prepared_at": "2026-11-26T08:03:30.841990+00:00",
+        "sources_opened": 156,
+        "rss_collected_at": "2026-11-26T08:03:03.223624+00:00",
+        "rss_parsed": 42,
+        "source_run": 45779900377,
+        "rss_run": 45779903496,
+        "fresh": true
       },
-      "notes": "Alerte du créneau de 6 h retardée à 8 h 57 Paris : créneau de 6 h conservé. Connecteur GitHub : nom exact et id 1449156184 confirmés. Registre du créneau absent, aucune identité publiée pour 2026-11-26-06h. Depuis la dernière publication éditoriale, seuls les rapports de collecte et le registre d’exécution ont changé. Collecteurs sources 45738442872 et RSS 45739093967 réussis, mais rapports du 26 novembre 01 h 50–01 h 56 UTC vieux de plus d’une heure ; check-collection-freshness.cjs en échec pour couverture, inspection, brief et RSS. Aucun collecteur actif dans les sept derniers runs. Pages 45739199033 et garde-fou 45739278467 réussis sur 06f771e, sans nouvelle fiche : ne valident pas une vague. Dernière publication réelle = 16 h du 25, e8b0a941acc03f997a4e4fd0d348cacaefa6d70a, trois fichiers éditoriaux dans un commit, trois ajouts exacts. Pages 45681333122 et Chromium 45681333161 toujours réussis ; artifact 15054046585 disponible, verification.json extrait de l’artifact relu : head exact et trois identifiants exactement égaux au registre. Les fiches historiques ne sont pas réaffectées au créneau courant. Au prochain passage éditorial, renouveler uniquement les collectes périmées après vérification des exécutions actives, reprendre Malou et EGOISM consignés au créneau incomplet du 25 à 20 h ainsi que de nouvelles pistes spectacle, contrôler la fraîcheur propre des projets et poursuivre jusqu’au rendu. Cette alerte ne publie ni ne valide de fiche."
+      "notes": "Alerte du créneau de 6 h retardée à 8 h 57 Paris : créneau de 6 h conservé. Connecteur GitHub : nom exact et id 1449156184 confirmés. Registre du créneau absent, aucune identité publiée pour 2026-11-26-06h. Depuis la dernière publication éditoriale, seuls les rapports de collecte et le registre d’exécution ont changé. Collecteurs sources 45738442872 et RSS 45739093967 réussis, mais rapports du 26 novembre 01 h 50–01 h 56 UTC vieux de plus d’une heure ; check-collection-freshness.cjs en échec pour couverture, inspection, brief et RSS. Aucun collecteur actif dans les sept derniers runs. Pages 45739199033 et garde-fou 45739278467 réussis sur 06f771e, sans nouvelle fiche : ne valident pas une vague. Dernière publication réelle = 16 h du 25, e8b0a941acc03f997a4e4fd0d348cacaefa6d70a, trois fichiers éditoriaux dans un commit, trois ajouts exacts. Pages 45681333122 et Chromium 45681333161 toujours réussis ; artifact 15054046585 disponible, verification.json extrait de l’artifact relu : head exact et trois identifiants exactement égaux au registre. Les fiches historiques ne sont pas réaffectées au créneau courant. Au prochain passage éditorial, renouveler uniquement les collectes périmées après vérification des exécutions actives, reprendre Malou et EGOISM consignés au créneau incomplet du 25 à 20 h ainsi que de nouvelles pistes spectacle, contrôler la fraîcheur propre des projets et poursuivre jusqu’au rendu. Cette alerte ne publie ni ne valide de fiche. Reprise éditoriale déclenchée à 9 h 02 Paris. Deux collectes périmées relancées après vérification d’absence d’exécution active ; sources 45779900377 et RSS 45779903496 réussis, 156 sources et 42 RSS, rapports frais et cohérents. EGOISM repris des pistes du 25, analyse approfondie et aucune identité existante. Leonor : titre de single distingué du titre d’album, vidéo du 24. Mary Poppins : nouvelle information scénique dans un extrait officiel publié le 25, production jouée depuis le 18 explicitement indiquée et non présentée comme une création du 25 ; analyse limitée au dispositif typographique révélé par les deux états de cette nouvelle captation. Neuf planches détaillées et trois couvertures originales examinées, crédits primaires contrôlés, scores 16/17/17, alternance clip/show/clip. Trois JSON publiés dans 63446c1dbe5a81214ee0830975de0e83b2ba070a, validateurs et pré-push réussis. Pages et Chromium à vérifier avant décompte. Pages 45780697188 et Chromium 45780697268 réussis. Artifact 15097783573 téléchargé ; verification.json lu : SHA exact et trois identifiants exactement égaux au lot. Trois captures publiques ouvertes et examinées, images chargées, décryptages et surlignages affichés. Créneau 6 h désormais vérifié et ajouté une seule fois aux vagues régulières.",
+      "publication": {
+        "id": "2026-11-26-06h",
+        "slot": "2026-11-26-06h",
+        "status": "public_verified",
+        "projects": [
+          "egoism-connection-lieux-etroits-2026",
+          "mary-poppins-papermill-lettres-extrait-2026",
+          "leonor-arnaut-escorpiao-corps-ville-2026"
+        ],
+        "count": 3,
+        "publication_commit": "63446c1dbe5a81214ee0830975de0e83b2ba070a",
+        "trigger": "scheduled_editorial_recovery",
+        "verified_at": "2026-11-26T08:09:47.178Z",
+        "pages_deployment": "https://github.com/christopheinalco-crypto/storyboard-radar-da./actions/runs/45780697188",
+        "public_render_check": "https://github.com/christopheinalco-crypto/storyboard-radar-da./actions/runs/45780697268",
+        "artifact_id": 15097783573,
+        "proof_head": "63446c1dbe5a81214ee0830975de0e83b2ba070a",
+        "verified_new_projects": [
+          "egoism-connection-lieux-etroits-2026",
+          "mary-poppins-papermill-lettres-extrait-2026",
+          "leonor-arnaut-escorpiao-corps-ville-2026"
+        ],
+        "feed_count": 143
+      },
+      "research_audit": [
+        {
+          "project": "EGOISM — I Need Your Connection",
+          "decision": "publié et vérifié pour 6 h",
+          "from_slot": "2026-11-25-20h"
+        },
+        {
+          "project": "Malou — The Mood for Love",
+          "decision": "attente",
+          "reason": "Piste relue, intérêt DA insuffisamment approfondi ; ne pas noter ni publier pour remplir."
+        },
+        {
+          "project": "Nerisah — East Ghost",
+          "video": "n5J2ZS4ylJI",
+          "decision": "non retenu",
+          "reason": "Article du 25 mais vidéo primaire du 25 octobre, aucune nouvelle information DA substantielle vérifiée."
+        },
+        {
+          "project": "Magi Merlin — Grace",
+          "video": "nfJ4VfMh2Qg",
+          "decision": "non retenu",
+          "reason": "Vidéo Topic audio uniquement, publiée le 23 novembre 10 h UTC ; pas de clip à analyser."
+        },
+        {
+          "project": "Shoshana Bean — Wild / The View",
+          "video": "bITS1JC7ZIk",
+          "decision": "non retenu pour ce lot",
+          "reason": "Publication du 24 vérifiée et trois planches examinées ; plateau solo et variations bleu/ambre, angle encore trop général pour le niveau DA demandé."
+        },
+        {
+          "project": "Brooks & Dunn — entretien Matthieu Larivée",
+          "decision": "à recouper",
+          "source": "https://banditlites.com/2026/11/brooksdunn2026/",
+          "reason": "Entretien du 24 et trois photos examinés. Déclaration absence de haze, mais faisceaux visibles sur les photos ; vérifier dates et cohérence des vues avec le dispositif décrit avant analyse technique. Ne pas publier cette affirmation comme constat indépendant."
+        }
+      ],
+      "public_visual_review": {
+        "reviewed_at": "2026-11-26T08:11:07.168Z",
+        "screenshots": [
+          "fiche-1.png",
+          "fiche-2.png",
+          "fiche-3.png"
+        ],
+        "result": "Trois cartes illustrées et décryptages rendus. Limite connue des captures intégrales : une barre fixe masque une bande du contenu ; ne pas présenter cette vérification comme validation d’une mise en page sans défaut. Aucun changement d’interface."
+      }
     }
   },
   "next_wave_preparation": {
