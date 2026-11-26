@@ -3693,6 +3693,20 @@
           "fiche-3.png"
         ],
         "result": "Trois cartes illustrées et analyses rendues. Limite connue des captures intégrales : barre fixe superposée à une bande du contenu ; ne pas qualifier la mise en page de sans défaut. Aucun changement d’interface dans cette vague."
+      },
+      "last_followup": {
+        "checked_at": "2026-11-26T15:27:34.140Z",
+        "trigger_at": "2026-11-26T15:26:40.663Z",
+        "commit_three_files": true,
+        "proof_exact": true,
+        "artifact_id": 15130468950,
+        "artifact_sha256": "8c4343661611ca5465d690693f7e4445b384cf5bad2d97e7d08c5e4a201eee0c",
+        "pages_success": true,
+        "chromium_success": true,
+        "collection_fresh": true,
+        "sources_opened": 157,
+        "rss_parsed": 42,
+        "notes": "Alerte de suivi déclenchée à 16 h 26 Paris : créneau échu = 16 h, déjà complet. Nom exact du dépôt et id 1449156184 confirmés par le connecteur. Collectes, inspection et brief frais, contrôle de fraîcheur réussi. Commit 5e61e1af98f4869f41c8987a66742ffce0e2f20c : trois fichiers éditoriaux ensemble, trois ajouts exacts conformes au registre. Pages 45846600704 et Chromium 45846600736 réussis. Artifact 15130468950 disponible ; empreinte SHA256 du ZIP local égale au digest GitHub. verification.json extrait de cet artifact relu : head exact et verified_new_projects exactement égal aux trois identifiants de la vague. Depuis la publication, seul le registre a changé ; Pages 45847044774 sur fd60e40 ne constitue pas une nouvelle vague. Aucun article publié ni validation supplémentaire ajoutée par cette alerte."
       }
     }
   },
