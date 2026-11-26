@@ -1798,6 +1798,30 @@
           "leonor-arnaut-escorpiao-corps-ville-2026"
         ],
         "feed_count": 143
+      },
+      {
+        "id": "2026-11-26-12h",
+        "slot": "2026-11-26-12h",
+        "status": "public_verified",
+        "projects": [
+          "spitz-chicchana-muteki-fleurs-interstices-2026",
+          "mark-lee-blue-dragon-double-costume-2026",
+          "6lack-wwyg-salon-cassette-2026"
+        ],
+        "count": 3,
+        "publication_commit": "9dc354be36a977903e2c05f513ec0b02cf7fe15a",
+        "trigger": "scheduled_editorial",
+        "verified_at": "2026-11-26T11:09:15.229Z",
+        "pages_deployment": "https://github.com/christopheinalco-crypto/storyboard-radar-da./actions/runs/45807847447",
+        "public_render_check": "https://github.com/christopheinalco-crypto/storyboard-radar-da./actions/runs/45807848781",
+        "artifact_id": 15110087954,
+        "proof_head": "9dc354be36a977903e2c05f513ec0b02cf7fe15a",
+        "verified_new_projects": [
+          "spitz-chicchana-muteki-fleurs-interstices-2026",
+          "mark-lee-blue-dragon-double-costume-2026",
+          "6lack-wwyg-salon-cassette-2026"
+        ],
+        "feed_count": 146
       }
     ]
   },
@@ -3476,6 +3500,77 @@
           "fiche-3.png"
         ],
         "result": "Trois cartes illustrées et décryptages rendus. Limite connue des captures intégrales : une barre fixe masque une bande du contenu ; ne pas présenter cette vérification comme validation d’une mise en page sans défaut. Aucun changement d’interface."
+      }
+    },
+    "2026-11-26-12h": {
+      "id": "2026-11-26-12h",
+      "status": "complete",
+      "stage": "public_verified",
+      "checked_at": "2026-11-26T11:10:40.554Z",
+      "published_count": 3,
+      "public_render_verified": true,
+      "collection": {
+        "wave_id": "github-45807115072",
+        "coverage_checked_at": "2026-11-26T11:04:03.330763+00:00",
+        "brief_prepared_at": "2026-11-26T11:04:30.293348+00:00",
+        "sources_opened": 158,
+        "rss_collected_at": "2026-11-26T11:04:07.399513+00:00",
+        "rss_parsed": 41,
+        "source_run": 45807115072,
+        "rss_run": 45807118888,
+        "fresh": true
+      },
+      "publication": {
+        "id": "2026-11-26-12h",
+        "slot": "2026-11-26-12h",
+        "status": "public_verified",
+        "projects": [
+          "spitz-chicchana-muteki-fleurs-interstices-2026",
+          "mark-lee-blue-dragon-double-costume-2026",
+          "6lack-wwyg-salon-cassette-2026"
+        ],
+        "count": 3,
+        "publication_commit": "9dc354be36a977903e2c05f513ec0b02cf7fe15a",
+        "trigger": "scheduled_editorial",
+        "verified_at": "2026-11-26T11:09:15.229Z",
+        "pages_deployment": "https://github.com/christopheinalco-crypto/storyboard-radar-da./actions/runs/45807847447",
+        "public_render_check": "https://github.com/christopheinalco-crypto/storyboard-radar-da./actions/runs/45807848781",
+        "artifact_id": 15110087954,
+        "proof_head": "9dc354be36a977903e2c05f513ec0b02cf7fe15a",
+        "verified_new_projects": [
+          "spitz-chicchana-muteki-fleurs-interstices-2026",
+          "mark-lee-blue-dragon-double-costume-2026",
+          "6lack-wwyg-salon-cassette-2026"
+        ],
+        "feed_count": 146
+      },
+      "notes": "Passage de midi déclenché à 12 h 03 Paris. Connecteur GitHub : nom exact et id 1449156184 confirmés. Rapports périmés au départ ; aucune collecte active avant relance des deux workflows. Sources 45807115072 et RSS 45807118888 réussis, rapports frais et cohérents : 158 sources et 41 RSS. Prospection parallèle clips et spectacle de cérémonie. Trois identités primaires et dates exactes vérifiées : Spitz le 25 à 11 h UTC, Mark Lee le 25 à 12 h UTC et 6LACK le 24 à 19 h UTC. Description primaire Spitz et compte rendu primaire KBS ouverts ; crédit 6LACK recoupé dans uDiscover. Onze planches détaillées et trois couvertures sobres examinées. Déduplication des trois fichiers, analyses en quatre parties et relectures, scores 17/18/16, alternance clip/show/clip. Trois JSON publiés dans un commit unique 9dc354be36a977903e2c05f513ec0b02cf7fe15a, validateurs et pré-push réussis. Pages et Chromium à contrôler avant décompte. Pages 45807847447 et Chromium 45807848781 réussis. Artifact 15110087954 téléchargé ; verification.json lu, head exact et trois nouveaux identifiants exactement égaux au lot. Trois captures publiques ouvertes et examinées, images présentes, décryptages ouverts, textes et surlignages rendus. Créneau de midi désormais vérifié et compté une seule fois.",
+      "research_audit": [
+        {
+          "project": "Helena Deland — Whole Life",
+          "video": "VnlpQkfmuwU",
+          "decision": "non retenu pour ce lot",
+          "reason": "Sortie du 25 confirmée, planche générale examinée : vues arborées ; pas de choix DA suffisamment démontré pour une fiche approfondie."
+        },
+        {
+          "project": "Malou — The Mood for Love",
+          "decision": "toujours en attente",
+          "reason": "Piste historique conservée ; pas de nouvelle preuve donnant un angle plus approfondi."
+        },
+        {
+          "project": "Brooks & Dunn — entretien du 24 novembre",
+          "decision": "toujours en attente de recoupement",
+          "reason": "Les questions de dates et de cohérence entre les photographies et le dispositif sans haze déclaré restent ouvertes ; pas de publication."
+        }
+      ],
+      "public_visual_review": {
+        "reviewed_at": "2026-11-26T11:10:40.554Z",
+        "screenshots": [
+          "fiche-1.png",
+          "fiche-2.png",
+          "fiche-3.png"
+        ],
+        "result": "Trois cartes illustrées et analyses rendues. Limite connue des captures intégrales : la barre fixe masque une bande de contenu ; ne pas considérer cette preuve comme validation d’une mise en page sans défaut. Aucun changement d’interface dans la vague."
       }
     }
   },
