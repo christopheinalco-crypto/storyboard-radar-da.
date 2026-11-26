@@ -1,6 +1,6 @@
 {
   "description": "Cumulative seen-project register; retain entries when projects leave the live feed; compare URL and semantic identity.",
-  "updated": "2026-11-26T08:08:18.460Z",
+  "updated": "2026-11-26T11:08:13.729Z",
   "projects": [
     {
       "project_id": "pink-siifu-devils-advocate-gontrand-making-of-2026",
@@ -1193,6 +1193,36 @@
       "published_at": "2026-11-26T08:08:18.460Z",
       "wave_id": "2026-11-26-06h",
       "editorial_score": 17
+    },
+    {
+      "project_id": "spitz-chicchana-muteki-fleurs-interstices-2026",
+      "title": "Spitz — Les fleurs trouvent leur place dans les interstices",
+      "url": "https://www.youtube.com/watch?v=0Dkw4PRJUiM",
+      "category": "14 Musique Clips",
+      "radar_added_at": "2026-11-26T11:08:13.729Z",
+      "published_at": "2026-11-26T11:08:13.729Z",
+      "wave_id": "2026-11-26-12h",
+      "editorial_score": 17
+    },
+    {
+      "project_id": "mark-lee-blue-dragon-double-costume-2026",
+      "title": "Mark Lee — Le même costume relie deux âges sur le plateau",
+      "url": "https://www.youtube.com/watch?v=f1HZX1Nf3-I",
+      "category": "01 Spectacle Concert",
+      "radar_added_at": "2026-11-26T11:08:13.729Z",
+      "published_at": "2026-11-26T11:08:13.729Z",
+      "wave_id": "2026-11-26-12h",
+      "editorial_score": 18
+    },
+    {
+      "project_id": "6lack-wwyg-salon-cassette-2026",
+      "title": "6LACK — La cassette transforme le salon en lieu de réécoute",
+      "url": "https://www.youtube.com/watch?v=tT2y6sjkPoI",
+      "category": "14 Musique Clips",
+      "radar_added_at": "2026-11-26T11:08:13.729Z",
+      "published_at": "2026-11-26T11:08:13.729Z",
+      "wave_id": "2026-11-26-12h",
+      "editorial_score": 16
     }
   ]
 }

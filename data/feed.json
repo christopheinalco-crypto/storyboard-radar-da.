@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-26T08:08:18.460Z",
+  "updated_at": "2026-11-26T11:08:13.729Z",
   "status": "editorial_reviewed",
   "working_feeds": [
     {
@@ -454,6 +454,66 @@
     "with_images": 82
   },
   "items": [
+    {
+      "project_id": "spitz-chicchana-muteki-fleurs-interstices-2026",
+      "title": "Spitz — Les fleurs trouvent leur place dans les interstices",
+      "title_fr": "Spitz — Les fleurs trouvent leur place dans les interstices",
+      "url": "https://www.youtube.com/watch?v=0Dkw4PRJUiM",
+      "category": "14 Musique Clips",
+      "source": "Spitz / Universal Music Japan",
+      "published": "2026-11-25T00:00:00Z",
+      "radar_added_at": "2026-11-26T11:08:13.729Z",
+      "summary": "Pour « Chicchana Muteki », Takumi Gunji installe Spitz dans un studio clair où de petites plantes occupent les joints du sol et les objets. Leur échelle modeste donne au décor sa logique : le vivant apparaît là où il reste une ouverture.",
+      "summary_fr": "Pour « Chicchana Muteki », Takumi Gunji installe Spitz dans un studio clair où de petites plantes occupent les joints du sol et les objets. Leur échelle modeste donne au décor sa logique : le vivant apparaît là où il reste une ouverture.",
+      "image": "https://i.ytimg.com/vi/0Dkw4PRJUiM/hqdefault.jpg",
+      "image_kind": "project",
+      "image_credit": "Vignette officielle : Spitz / Universal Music Japan. Réalisation et image Takumi Gunji ; art Arisa Kinai.",
+      "image_source_url": "https://www.youtube.com/watch?v=0Dkw4PRJUiM",
+      "image_alt": "Spitz joue dans un studio clair, de petites plantes entre les instruments et les joints du sol.",
+      "status": "editorial_reviewed",
+      "youtube_id": "0Dkw4PRJUiM",
+      "angle": "Un motif devient un parti pris quand son emplacement suit une règle. Ici, joints, évacuation et ouverture de boîte aux lettres organisent les apparitions végétales. Cette cohérence permet de produire un monde avec peu d’éléments, tout en gardant la performance musicale très lisible."
+    },
+    {
+      "project_id": "mark-lee-blue-dragon-double-costume-2026",
+      "title": "Mark Lee — Le même costume relie deux âges sur le plateau",
+      "title_fr": "Mark Lee — Le même costume relie deux âges sur le plateau",
+      "url": "https://www.youtube.com/watch?v=f1HZX1Nf3-I",
+      "category": "01 Spectacle Concert",
+      "source": "KBS Entertain / Blue Dragon Film Awards",
+      "published": "2026-11-25T00:00:00Z",
+      "radar_added_at": "2026-11-26T11:08:13.729Z",
+      "summary": "À l’ouverture des Blue Dragon Film Awards, Mark Lee et le jeune Lee Jae-hee portent des costumes gris semblables. Deux zones de lumière les séparent sur un même plateau circulaire : la ressemblance du vêtement rend leur distance expressive.",
+      "summary_fr": "À l’ouverture des Blue Dragon Film Awards, Mark Lee et le jeune Lee Jae-hee portent des costumes gris semblables. Deux zones de lumière les séparent sur un même plateau circulaire : la ressemblance du vêtement rend leur distance expressive.",
+      "image": "https://i.ytimg.com/vi/f1HZX1Nf3-I/hqdefault.jpg",
+      "image_kind": "project",
+      "image_credit": "Vignette officielle : KBS Entertain, Mark Lee, Lee Jae-hee et WE DEM BOYZ, 47es Blue Dragon Film Awards.",
+      "image_source_url": "https://www.youtube.com/watch?v=f1HZX1Nf3-I",
+      "image_alt": "Mark Lee et le jeune Lee Jae-hee dans des costumes gris semblables, vignette officielle KBS de la performance.",
+      "status": "editorial_reviewed",
+      "youtube_id": "f1HZX1Nf3-I",
+      "angle": "Le double devient intéressant lorsque la ressemblance et la distance agissent ensemble. Ici, le vêtement construit le lien, les zones de lumière maintiennent l’écart et la profondeur du cadre permet de les percevoir simultanément. La répétition passe ensuite de la paire au groupe, donnant une évolution au dispositif sans changer tout son vocabulaire."
+    },
+    {
+      "project_id": "6lack-wwyg-salon-cassette-2026",
+      "title": "6LACK — La cassette transforme le salon en lieu de réécoute",
+      "title_fr": "6LACK — La cassette transforme le salon en lieu de réécoute",
+      "url": "https://www.youtube.com/watch?v=tT2y6sjkPoI",
+      "category": "14 Musique Clips",
+      "source": "6LACK / LVRN / Interscope Records",
+      "published": "2026-11-24T00:00:00Z",
+      "radar_added_at": "2026-11-26T11:08:13.729Z",
+      "summary": "Dans « WWYG », Angelica Valente et Pseudo encadrent un salon aux matières chaudes par des gestes autour d’un lecteur de cassettes. L’image donne au projet Vault 6 une forme concrète : retrouver des morceaux passe par des objets que l’on peut reprendre en main.",
+      "summary_fr": "Dans « WWYG », Angelica Valente et Pseudo encadrent un salon aux matières chaudes par des gestes autour d’un lecteur de cassettes. L’image donne au projet Vault 6 une forme concrète : retrouver des morceaux passe par des objets que l’on peut reprendre en main.",
+      "image": "https://i.ytimg.com/vi/tT2y6sjkPoI/hqdefault.jpg",
+      "image_kind": "project",
+      "image_credit": "Vignette officielle : 6LACK / LVRN / Interscope Records. Réalisation Angelica Valente et Pseudo.",
+      "image_source_url": "https://www.youtube.com/watch?v=tT2y6sjkPoI",
+      "image_alt": "Portrait habillé de 6LACK en bonnet noir et vêtement clair dans le salon de WWYG.",
+      "status": "editorial_reviewed",
+      "youtube_id": "tT2y6sjkPoI",
+      "angle": "Un projet d’archives peut gagner une forme sensible quand sa logique se traduit par un usage. Ici, cassette, lecteur et intérieur habité rapprochent les morceaux d’une expérience de réécoute. La cohérence vient du geste qui relie ces éléments, sans demander à chaque objet de porter à lui seul toute l’idée de mémoire."
+    },
     {
       "project_id": "egoism-connection-lieux-etroits-2026",
       "title": "EGOISM — Le lieu oblige le groupe à tenir ensemble",
