@@ -1,11 +1,11 @@
 {
-  "wave_id": "github-45831982564",
-  "prepared_at": "2026-11-26T13:44:29.194033+00:00",
-  "coverage_checked_at": "2026-11-26T13:44:03.741922+00:00",
+  "wave_id": "github-45834882523",
+  "prepared_at": "2026-11-26T14:02:16.442835+00:00",
+  "coverage_checked_at": "2026-11-26T14:01:47.715236+00:00",
   "coverage": {
     "attempted": 182,
-    "opened_successfully": 154,
-    "failed": 28,
+    "opened_successfully": 156,
+    "failed": 26,
     "target_met": true
   },
   "project_inspections": {
@@ -25,8 +25,8 @@
     "09 France Pro": 8
   },
   "excluded_counts": {
-    "not_project_like": 52,
-    "navigation_or_product": 35,
+    "not_project_like": 51,
+    "navigation_or_product": 36,
     "metadata_older_than_72h": 20,
     "not_opened": 2,
     "non_priority_category": 1
@@ -38,7 +38,7 @@
       "category": "14 Musique Clips",
       "source": "Directors Notes",
       "published_date_claim": "2026-11-24T13:04:36+00:00",
-      "age_hours_claim": 48.7,
+      "age_hours_claim": 49.0,
       "date_verified": false,
       "project_identity_verified": false,
       "image_candidate_unverified": "https://directorsnotes.com/wp-content/uploads/2026/11/untitled_woman_02.jpg",
@@ -83,7 +83,7 @@
       "category": "09 France Pro",
       "source": "Revue AS",
       "published_date_claim": "2026-11-24T05:53:00+00:00",
-      "age_hours_claim": 55.9,
+      "age_hours_claim": 56.1,
       "date_verified": false,
       "project_identity_verified": false,
       "image_candidate_unverified": "https://www.revue-as.fr/wp-content/uploads/2026/10/rivage-pm_v72_Main__tcm122-3241329-e1793197039879.jpg",
@@ -98,7 +98,7 @@
       "category": "14 Musique Clips",
       "source": "Directors Notes",
       "published_date_claim": "2026-11-23T14:10:15+00:00",
-      "age_hours_claim": 71.6,
+      "age_hours_claim": 71.9,
       "date_verified": false,
       "project_identity_verified": false,
       "image_candidate_unverified": "https://directorsnotes.com/wp-content/uploads/2026/11/interview_with_a_hero_08.jpg",
@@ -143,7 +143,7 @@
       "category": "09 France Pro",
       "source": "Revue AS",
       "published_date_claim": "2026-11-24T05:39:00+00:00",
-      "age_hours_claim": 56.1,
+      "age_hours_claim": 56.4,
       "date_verified": false,
       "project_identity_verified": false,
       "image_candidate_unverified": "https://www.revue-as.fr/wp-content/uploads/2026/11/JTSE_2026_banner_Hive-scaled-e1795452381779.png",
@@ -433,7 +433,7 @@
       "project_identity_verified": false,
       "image_candidate_unverified": "https://d1xwp3j66c4akz.cloudfront.net/default-white.png",
       "description": "Browse all the latest Director's notes videos from Promonews",
-      "page_excerpt": "Get the Promonews daily round up Music Video Preservation Society The Promonews mailing list Get the Promonews daily round up Music Video Preservation Society The Promonews mailing list Nectar Woode 'Only Want You' by Lea Otovic Lea Otovic directs an emotionally rich promo for soul singer-songwriter Nectar Woode.The video for Only Want You weaves together three intimate stories of love, loneliness and longing, set over the course of a single night in London.“I wanted to create something that sits between a music video and a film, capturing genuine moments of connection in a natural yet cinematic way,\" explains Ot",
+      "page_excerpt": "Get the Promonews daily round up Music Video Preservation Society The Promonews mailing list Get the Promonews daily round up Music Video Preservation Society The Promonews mailing list Hard Life 'Boyfriends' by Greg Barth Hard Life (formerly known as Easy Life) are back and reunited with Greg Barth, the director of several excellent videos by the Leicester indie-pop outfit, with a funny and very graphic display of masculine inadequacy.The video for Boyfriends begins with a pub landlady (played by the excellent Alyssa Kyria) on the phone telling her friend about the band booked for tonight that she is not happy w",
       "editorial_score": null,
       "status": "research_only_not_approved"
     },
