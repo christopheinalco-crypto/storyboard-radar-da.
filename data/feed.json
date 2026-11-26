@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-25T19:02:52.796Z",
+  "updated_at": "2026-11-26T08:08:18.460Z",
   "status": "editorial_reviewed",
   "working_feeds": [
     {
@@ -454,6 +454,66 @@
     "with_images": 82
   },
   "items": [
+    {
+      "project_id": "egoism-connection-lieux-etroits-2026",
+      "title": "EGOISM — Le lieu oblige le groupe à tenir ensemble",
+      "title_fr": "EGOISM — Le lieu oblige le groupe à tenir ensemble",
+      "url": "https://www.youtube.com/watch?v=ENoZDzx0ZdU",
+      "category": "14 Musique Clips",
+      "source": "EGOISM",
+      "published": "2026-11-25T00:00:00Z",
+      "radar_added_at": "2026-11-26T08:08:18.460Z",
+      "summary": "Dans « I Need Your Connection », EGOISM rassemble ses instruments dans un ascenseur et de petits espaces sanitaires. Le manque de place devient une règle de composition : chaque membre reste pris dans la présence des autres.",
+      "summary_fr": "Dans « I Need Your Connection », EGOISM rassemble ses instruments dans un ascenseur et de petits espaces sanitaires. Le manque de place devient une règle de composition : chaque membre reste pris dans la présence des autres.",
+      "image": "https://i.ytimg.com/vi/ENoZDzx0ZdU/hqdefault.jpg",
+      "image_kind": "project",
+      "image_credit": "Vignette originale : EGOISM, vidéo Olive Rush et Christine Zi Yi Yau.",
+      "image_source_url": "https://www.youtube.com/watch?v=ENoZDzx0ZdU",
+      "image_alt": "Vue en plongée sur deux personnes habillées dans des compartiments sanitaires voisins, vignette officielle d’I Need Your Connection.",
+      "status": "editorial_reviewed",
+      "youtube_id": "ENoZDzx0ZdU",
+      "angle": "Un lieu contraignant peut donner une règle claire à un clip de performance. Ici, la place des instruments oblige les corps à composer les uns avec les autres, puis les deux hauteurs de caméra en révèlent des effets différents. La contrainte devient utile lorsqu’elle reste lisible dans le plan large et produit aussi quelque chose de précis en portrait."
+    },
+    {
+      "project_id": "mary-poppins-papermill-lettres-extrait-2026",
+      "title": "Mary Poppins — Le mot devient une formation de scène",
+      "title_fr": "Mary Poppins — Le mot devient une formation de scène",
+      "url": "https://www.youtube.com/watch?v=-aPo9AxoxYw",
+      "category": "01 Spectacle Concert",
+      "source": "Paper Mill Playhouse",
+      "published": "2026-11-25T00:00:00Z",
+      "radar_added_at": "2026-11-26T08:08:18.460Z",
+      "summary": "Un nouvel extrait officiel, publié le 25 novembre, détaille « Supercalifragilisticexpialidocious » dans la production de Paper Mill jouée depuis le 18 novembre. Des lettres portées par les interprètes font passer le mot de l’accessoire individuel à la frise collective.",
+      "summary_fr": "Un nouvel extrait officiel, publié le 25 novembre, détaille « Supercalifragilisticexpialidocious » dans la production de Paper Mill jouée depuis le 18 novembre. Des lettres portées par les interprètes font passer le mot de l’accessoire individuel à la frise collective.",
+      "image": "https://i.ytimg.com/vi/-aPo9AxoxYw/hqdefault.jpg",
+      "image_kind": "project",
+      "image_credit": "Vignette officielle : Paper Mill Playhouse, Mary Poppins, extrait Supercalifragilisticexpialidocious.",
+      "image_source_url": "https://www.youtube.com/watch?v=-aPo9AxoxYw",
+      "image_alt": "La compagnie de Mary Poppins en costumes colorés, portant de grandes lettres dans la vignette officielle de Paper Mill Playhouse.",
+      "status": "editorial_reviewed",
+      "youtube_id": "-aPo9AxoxYw",
+      "angle": "Un signe porté peut devenir une règle d’ensemble lorsqu’il conserve une forme claire et que les corps organisent sa lecture. Ici, l’intérêt ne tient pas seulement aux grandes lettres : leur passage de la dispersion à la ligne donne une fonction à la formation de scène."
+    },
+    {
+      "project_id": "leonor-arnaut-escorpiao-corps-ville-2026",
+      "title": "Leonor Arnaut — Des gestes ordinaires font apparaître une autre ville",
+      "title_fr": "Leonor Arnaut — Des gestes ordinaires font apparaître une autre ville",
+      "url": "https://www.youtube.com/watch?v=MSODUUyLA80",
+      "category": "14 Musique Clips",
+      "source": "Leonor Arnaut / CANTO",
+      "published": "2026-11-24T00:00:00Z",
+      "radar_added_at": "2026-11-26T08:08:18.460Z",
+      "summary": "Dans « Escorpião na Testa », Stella Horta et Guilherme Proença rapprochent eau, pavés et silhouettes démultipliées. La ville devient une expérience de surfaces et de gestes, à l’échelle du corps de Leonor Arnaut.",
+      "summary_fr": "Dans « Escorpião na Testa », Stella Horta et Guilherme Proença rapprochent eau, pavés et silhouettes démultipliées. La ville devient une expérience de surfaces et de gestes, à l’échelle du corps de Leonor Arnaut.",
+      "image": "https://i.ytimg.com/vi/MSODUUyLA80/hqdefault.jpg",
+      "image_kind": "project",
+      "image_credit": "Vignette originale : Leonor Arnaut / CANTO, vidéo Stella Horta et Guilherme Proença.",
+      "image_source_url": "https://www.youtube.com/watch?v=MSODUUyLA80",
+      "image_alt": "Leonor Arnaut vêtue de noir, de dos dans une rue nocturne, vignette originale d’Escorpião na Testa.",
+      "status": "editorial_reviewed",
+      "youtube_id": "MSODUUyLA80",
+      "angle": "Une transformation intérieure peut se construire à partir de détails du quotidien lorsque leur traitement suit une règle commune. Ici, le cadrage rapproché fait sentir les surfaces, puis la répétition trouble la stabilité des contours. Le rapport entre ces deux choix donne une forme perceptible au retour dans un lieu chargé d’émotion."
+    },
     {
       "project_id": "ella-boh-warning-label-corps-contraints-2026",
       "title": "Ella Boh — Le costume continue les murs de la prison",

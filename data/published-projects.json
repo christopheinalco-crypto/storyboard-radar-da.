@@ -1,6 +1,6 @@
 {
   "description": "Cumulative seen-project register; retain entries when projects leave the live feed; compare URL and semantic identity.",
-  "updated": "2026-11-25T19:02:52.796Z",
+  "updated": "2026-11-26T08:08:18.460Z",
   "projects": [
     {
       "project_id": "pink-siifu-devils-advocate-gontrand-making-of-2026",
@@ -1163,6 +1163,36 @@
       "published_at": "2026-11-25T19:02:52.796Z",
       "wave_id": "2026-11-25-16h",
       "editorial_score": 18
+    },
+    {
+      "project_id": "egoism-connection-lieux-etroits-2026",
+      "title": "EGOISM — Le lieu oblige le groupe à tenir ensemble",
+      "url": "https://www.youtube.com/watch?v=ENoZDzx0ZdU",
+      "category": "14 Musique Clips",
+      "radar_added_at": "2026-11-26T08:08:18.460Z",
+      "published_at": "2026-11-26T08:08:18.460Z",
+      "wave_id": "2026-11-26-06h",
+      "editorial_score": 16
+    },
+    {
+      "project_id": "mary-poppins-papermill-lettres-extrait-2026",
+      "title": "Mary Poppins — Le mot devient une formation de scène",
+      "url": "https://www.youtube.com/watch?v=-aPo9AxoxYw",
+      "category": "01 Spectacle Concert",
+      "radar_added_at": "2026-11-26T08:08:18.460Z",
+      "published_at": "2026-11-26T08:08:18.460Z",
+      "wave_id": "2026-11-26-06h",
+      "editorial_score": 17
+    },
+    {
+      "project_id": "leonor-arnaut-escorpiao-corps-ville-2026",
+      "title": "Leonor Arnaut — Des gestes ordinaires font apparaître une autre ville",
+      "url": "https://www.youtube.com/watch?v=MSODUUyLA80",
+      "category": "14 Musique Clips",
+      "radar_added_at": "2026-11-26T08:08:18.460Z",
+      "published_at": "2026-11-26T08:08:18.460Z",
+      "wave_id": "2026-11-26-06h",
+      "editorial_score": 17
     }
   ]
 }
