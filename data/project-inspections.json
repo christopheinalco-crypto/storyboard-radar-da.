@@ -1,10 +1,10 @@
 {
-  "wave_id": "github-45738442872",
-  "updated_at": "2026-11-26T01:50:51.829813+00:00",
+  "wave_id": "github-45779900377",
+  "updated_at": "2026-11-26T08:03:21.053212+00:00",
   "attempted": 160,
-  "opened": 159,
-  "failed": 1,
-  "image_candidates": 115,
+  "opened": 158,
+  "failed": 2,
+  "image_candidates": 116,
   "warning": "Images are candidates only, not tested for rendering or reuse. Editorial scores /20 and publication require review.",
   "items": [
     {
@@ -13,7 +13,7 @@
       "source_category": "14 Musique Clips",
       "priority": "P1",
       "status": "page_inspected",
-      "found_at": "2026-11-26T01:50:35.558624+00:00",
+      "found_at": "2026-11-26T08:03:04.723040+00:00",
       "score": 36,
       "requirements": [
         "date_creation",
@@ -22,7 +22,7 @@
         "visuel_verifie_ou_exception_scorecard",
         "doublon_identite"
       ],
-      "inspected_at": "2026-11-26T01:50:51.831788+00:00",
+      "inspected_at": "2026-11-26T08:03:21.055116+00:00",
       "final_url": "https://www.promonews.tv/playlists/uk-music-video-awards-2026-x-kodak-shotonfilm-playlist/97050",
       "page_title": "UK Music Video Awards 2026 x Kodak - The #ShotOnFilm Playlist | Features",
       "description": "More than 30 videos nominated at this year's UKMVAs were shot on Kodak film. And now we have collected them all in one place.The UK Music Video Awards …",
@@ -38,7 +38,7 @@
       "source_category": "01 Spectacle Concert",
       "priority": "P2",
       "status": "page_inspected",
-      "found_at": "2026-11-26T01:50:35.558624+00:00",
+      "found_at": "2026-11-26T08:03:04.723040+00:00",
       "score": 21,
       "requirements": [
         "date_creation",
@@ -47,7 +47,7 @@
         "visuel_verifie_ou_exception_scorecard",
         "doublon_identite"
       ],
-      "inspected_at": "2026-11-26T01:50:51.832661+00:00",
+      "inspected_at": "2026-11-26T08:03:21.055802+00:00",
       "final_url": "https://luzstudio.com/en/expertises/video-content",
       "page_title": "LUZ Studio",
       "description": "",
@@ -63,7 +63,7 @@
       "source_category": "02 TV Broadcast",
       "priority": "P2",
       "status": "page_inspected",
-      "found_at": "2026-11-26T01:50:35.558624+00:00",
+      "found_at": "2026-11-26T08:03:04.723040+00:00",
       "score": 21,
       "requirements": [
         "date_creation",
@@ -72,7 +72,7 @@
         "visuel_verifie_ou_exception_scorecard",
         "doublon_identite"
       ],
-      "inspected_at": "2026-11-26T01:50:51.833182+00:00",
+      "inspected_at": "2026-11-26T08:03:21.056216+00:00",
       "final_url": "https://www.disguise.one/en/solutions/broadcast",
       "page_title": "Broadcast",
       "description": "A single platform for content experience and graphics production. Create, manage and control your live graphics' content from any source to any pixel.",
@@ -88,7 +88,7 @@
       "source_category": "15 Danse Performance",
       "priority": "P1",
       "status": "page_inspected",
-      "found_at": "2026-11-26T01:50:35.558624+00:00",
+      "found_at": "2026-11-26T08:03:04.723040+00:00",
       "score": 20,
       "requirements": [
         "date_creation",
@@ -97,7 +97,7 @@
         "visuel_verifie_ou_exception_scorecard",
         "doublon_identite"
       ],
-      "inspected_at": "2026-11-26T01:50:51.833887+00:00",
+      "inspected_at": "2026-11-26T08:03:21.056690+00:00",
       "final_url": "https://www.broadwayworld.com/myshows/join.php",
       "page_title": "Join - BroadwayWorld My Shows",
       "description": "Create your free My Shows profile: track every show you've seen, rate and review, collect all 41 Broadway theatres, earn points and badges, and connect with fellow theatre fans.",
@@ -113,7 +113,7 @@
       "source_category": "09 France Pro",
       "priority": "P1",
       "status": "page_inspected",
-      "found_at": "2026-11-26T01:50:35.558624+00:00",
+      "found_at": "2026-11-26T08:03:04.723040+00:00",
       "score": 24,
       "requirements": [
         "date_creation",
@@ -122,7 +122,7 @@
         "visuel_verifie_ou_exception_scorecard",
         "doublon_identite"
       ],
-      "inspected_at": "2026-11-26T01:50:51.834774+00:00",
+      "inspected_at": "2026-11-26T08:03:21.057402+00:00",
       "final_url": "https://www.revue-as.fr/2026/11/24/venez-decouvrir-vivid-prime-et-hive-en-demonstration-live/",
       "page_title": "Venez découvrir VIVID Prime et HIVE en démonstration live - Revue AS",
       "description": "JTSE 25 & 26 novembre 2026, Dock Éphémère Full Screen À l’occasion des JTSE 2026, Panasonic Visual présentera une installation associant ses dernières innovations en vidéoprojection aux media processeurs HIVE. Nos équipes commerciales et techniques vous accueilleront tout au long du salon pour partager leurs retours d’expérience, répondre à vos questions et échanger autour de vos projets. Venez tester vous-même Pour les plus curieux, un espace de démonstration technique vous permettra de prendre en main HIVE Media Control et de tester par vous-même sa simplicité de mise en œuvre.  À découvrir sur le stand PT-HTQ20 avec technologie VIVID Prime™La couleur d’un TriDLP, la simplicité d’un MonoDLP Le PT-HTQ20 associe lasers RGB et roue phosphore pour offrir des couleurs éclatantes jusqu’au Rec.2020 et une restitution fidèle du Rec.709 dans un vidéoprojecteur monoDLP 4K de 20 000 lm.",
@@ -138,7 +138,7 @@
       "source_category": "14 Musique Clips",
       "priority": "P1",
       "status": "page_inspected",
-      "found_at": "2026-11-26T01:50:35.558624+00:00",
+      "found_at": "2026-11-26T08:03:04.723040+00:00",
       "score": 31,
       "requirements": [
         "date_creation",
@@ -147,7 +147,7 @@
         "visuel_verifie_ou_exception_scorecard",
         "doublon_identite"
       ],
-      "inspected_at": "2026-11-26T01:50:51.838348+00:00",
+      "inspected_at": "2026-11-26T08:03:21.064671+00:00",
       "final_url": "https://www.blogotheque.net/categories/music-videos/",
       "page_title": "music videos | La Blogothèque - We Love Filming Music.",
       "description": "We Love Filming Music.",
@@ -163,7 +163,7 @@
       "source_category": "01 Spectacle Concert",
       "priority": "P2",
       "status": "page_inspected",
-      "found_at": "2026-11-26T01:50:35.558624+00:00",
+      "found_at": "2026-11-26T08:03:04.723040+00:00",
       "score": 21,
       "requirements": [
         "date_creation",
@@ -172,7 +172,7 @@
         "visuel_verifie_ou_exception_scorecard",
         "doublon_identite"
       ],
-      "inspected_at": "2026-11-26T01:50:51.844296+00:00",
+      "inspected_at": "2026-11-26T08:03:21.067904+00:00",
       "final_url": "https://luzstudio.com/en/projects/aerosmith-peace-out-tour",
       "page_title": "Aerosmith — Peace Out Tour | LUZ Studio",
       "description": "",
@@ -188,7 +188,7 @@
       "source_category": "02 TV Broadcast",
       "priority": "P2",
       "status": "page_inspected",
-      "found_at": "2026-11-26T01:50:35.558624+00:00",
+      "found_at": "2026-11-26T08:03:04.723040+00:00",
       "score": 21,
       "requirements": [
         "date_creation",
@@ -197,7 +197,7 @@
         "visuel_verifie_ou_exception_scorecard",
         "doublon_identite"
       ],
-      "inspected_at": "2026-11-26T01:50:51.847329+00:00",
+      "inspected_at": "2026-11-26T08:03:21.068193+00:00",
       "final_url": "https://www.disguise.one/en/solutions/immersive-experiences",
       "page_title": "Immersive Experiences",
       "description": "Transport your audiences into a new dimension with next generation immersive storytelling.",
@@ -213,7 +213,7 @@
       "source_category": "15 Danse Performance",
       "priority": "P1",
       "status": "page_inspected",
-      "found_at": "2026-11-26T01:50:35.558624+00:00",
+      "found_at": "2026-11-26T08:03:04.723040+00:00",
       "score": 11,
       "requirements": [
         "date_creation",
@@ -222,7 +222,7 @@
         "visuel_verifie_ou_exception_scorecard",
         "doublon_identite"
       ],
-      "inspected_at": "2026-11-26T01:50:51.850942+00:00",
+      "inspected_at": "2026-11-26T08:03:21.068581+00:00",
       "final_url": "https://dancemagazine.com/guide/summer-study-guide/",
       "page_title": "Summer Study Guide",
       "description": "Stay tuned! Our new Summer Study Guide for 2022 launches on December 1st, 2021. Check back then or make sure you're signed up for our emails.",
@@ -238,7 +238,7 @@
       "source_category": "09 France Pro",
       "priority": "P1",
       "status": "page_inspected",
-      "found_at": "2026-11-26T01:50:35.558624+00:00",
+      "found_at": "2026-11-26T08:03:04.723040+00:00",
       "score": 18,
       "requirements": [
         "date_creation",
@@ -247,7 +247,7 @@
         "visuel_verifie_ou_exception_scorecard",
         "doublon_identite"
       ],
-      "inspected_at": "2026-11-26T01:50:51.853372+00:00",
+      "inspected_at": "2026-11-26T08:03:21.069028+00:00",
       "final_url": "https://www.lightzoomlumiere.fr/annuaire-lumiere-eclairage-professionnel-france/formation-lumiere-eclairage-light-lighting-education/",
       "page_title": "Formations lumière et éclairage - Light ZOOM Lumière - Portail de la Lumière et de l'Éclairage",
       "description": "Formations et écoles lumière et éclairage, initiales et continues, France. Apprendre ou se perfectionner. Architecture, paysage, spectacle, cinéma.",
@@ -263,7 +263,7 @@
       "source_category": "14 Musique Clips",
       "priority": "P1",
       "status": "page_inspected",
-      "found_at": "2026-11-26T01:50:35.558624+00:00",
+      "found_at": "2026-11-26T08:03:04.723040+00:00",
       "score": 29,
       "requirements": [
         "date_creation",
@@ -272,7 +272,7 @@
         "visuel_verifie_ou_exception_scorecard",
         "doublon_identite"
       ],
-      "inspected_at": "2026-11-26T01:50:51.854413+00:00",
+      "inspected_at": "2026-11-26T08:03:21.069495+00:00",
       "final_url": "https://www.promonews.tv/videos/2026/11/24/hard-life-boyfriends-greg-barth/97078",
       "page_title": "Hard Life 'Boyfriends' by Greg Barth | Videos",
       "description": "Hard Life (formerly known as Easy Life) are back and reunited with Greg Barth, the director of several excellent videos by the Leicester indie-pop …",
@@ -288,7 +288,7 @@
       "source_category": "01 Spectacle Concert",
       "priority": "P1",
       "status": "page_inspected",
-      "found_at": "2026-11-26T01:50:35.558624+00:00",
+      "found_at": "2026-11-26T08:03:04.723040+00:00",
       "score": 21,
       "requirements": [
         "date_creation",
@@ -297,7 +297,7 @@
         "visuel_verifie_ou_exception_scorecard",
         "doublon_identite"
       ],
-      "inspected_at": "2026-11-26T01:50:51.855884+00:00",
+      "inspected_at": "2026-11-26T08:03:21.069936+00:00",
       "final_url": "https://stufish.com/project/uefa-champions-league-kick-off-show/",
       "page_title": "UEFA Champions League Kick Off Show – Stufish",
       "description": "",
@@ -313,7 +313,7 @@
       "source_category": "02 TV Broadcast",
       "priority": "P2",
       "status": "page_inspected",
-      "found_at": "2026-11-26T01:50:35.558624+00:00",
+      "found_at": "2026-11-26T08:03:04.723040+00:00",
       "score": 21,
       "requirements": [
         "date_creation",
@@ -322,7 +322,7 @@
         "visuel_verifie_ou_exception_scorecard",
         "doublon_identite"
       ],
-      "inspected_at": "2026-11-26T01:50:51.922153+00:00",
+      "inspected_at": "2026-11-26T08:03:21.109954+00:00",
       "final_url": "https://www.disguise.one/en/solutions/live-entertainment",
       "page_title": "Live Entertainment",
       "description": "Discover how Disguise powers live entertainment and concerts with cutting-edge solutions for immersive experiences. Explore tools tailored for live events to captivate your audience",
@@ -338,7 +338,7 @@
       "source_category": "15 Danse Performance",
       "priority": "P1",
       "status": "page_inspected",
-      "found_at": "2026-11-26T01:50:35.558624+00:00",
+      "found_at": "2026-11-26T08:03:04.723040+00:00",
       "score": 11,
       "requirements": [
         "date_creation",
@@ -347,7 +347,7 @@
         "visuel_verifie_ou_exception_scorecard",
         "doublon_identite"
       ],
-      "inspected_at": "2026-11-26T01:50:51.939679+00:00",
+      "inspected_at": "2026-11-26T08:03:21.122095+00:00",
       "final_url": "https://www.thestage.co.uk/obituaries--archive/obituaries",
       "page_title": "Obituaries from theatremakers and stars of the performing arts",
       "description": "Our obituaries pay tribute to leading theatrical figures who have recently died, while our archive features look back on key events from the history of theatre.",
@@ -363,7 +363,7 @@
       "source_category": "09 France Pro",
       "priority": "P2",
       "status": "page_inspected",
-      "found_at": "2026-11-26T01:50:35.558624+00:00",
+      "found_at": "2026-11-26T08:03:04.723040+00:00",
       "score": 18,
       "requirements": [
         "date_creation",
@@ -372,7 +372,7 @@
         "visuel_verifie_ou_exception_scorecard",
         "doublon_identite"
       ],
-      "inspected_at": "2026-11-26T01:50:51.975294+00:00",
+      "inspected_at": "2026-11-26T08:03:21.134798+00:00",
       "final_url": "https://www.seconde-design.com/index.php/portfolio/dario-della-noce-tour/",
       "page_title": "Dario Della Noce - Tour - Seconde Design",
       "description": "",
@@ -388,7 +388,7 @@
       "source_category": "14 Musique Clips",
       "priority": "P1",
       "status": "page_inspected",
-      "found_at": "2026-11-26T01:50:35.558624+00:00",
+      "found_at": "2026-11-26T08:03:04.723040+00:00",
       "score": 28,
       "requirements": [
         "date_creation",
@@ -397,7 +397,7 @@
         "visuel_verifie_ou_exception_scorecard",
         "doublon_identite"
       ],
-      "inspected_at": "2026-11-26T01:50:51.988695+00:00",
+      "inspected_at": "2026-11-26T08:03:21.145067+00:00",
       "final_url": "https://motionographer.com/2026/11/10/lofsong-and-the-language-that-outlives-us/",
       "page_title": "Lofsöng and the Language That Outlives Us",
       "description": "At Tribeca Games, Jesse Rylander speaks with Unrelated Studio’s Alessandro Durando about singing stones, brutalist monuments, and a wordless game built to reach across deep time.",
@@ -413,7 +413,7 @@
       "source_category": "01 Spectacle Concert",
       "priority": "P3",
       "status": "page_inspected",
-      "found_at": "2026-11-26T01:50:35.558624+00:00",
+      "found_at": "2026-11-26T08:03:04.723040+00:00",
       "score": 19,
       "requirements": [
         "date_creation",
@@ -422,7 +422,7 @@
         "visuel_verifie_ou_exception_scorecard",
         "doublon_identite"
       ],
-      "inspected_at": "2026-11-26T01:50:52.012346+00:00",
+      "inspected_at": "2026-11-26T08:03:21.226734+00:00",
       "final_url": "https://www.etcconnect.com/Products/Automated-Lighting/Atmospherics/",
       "page_title": "ETC - Theatre, Film, Studio and Architectural Lighting",
       "description": "Electronic Theatre Controls, Inc. Lighting solutions, control equipment for Theater, Film & TV studios, Architectural spaces and entertainment industries.",
@@ -438,7 +438,7 @@
       "source_category": "02 TV Broadcast",
       "priority": "P2",
       "status": "page_inspected",
-      "found_at": "2026-11-26T01:50:35.558624+00:00",
+      "found_at": "2026-11-26T08:03:04.723040+00:00",
       "score": 21,
       "requirements": [
         "date_creation",
@@ -447,7 +447,7 @@
         "visuel_verifie_ou_exception_scorecard",
         "doublon_identite"
       ],
-      "inspected_at": "2026-11-26T01:50:52.073598+00:00",
+      "inspected_at": "2026-11-26T08:03:21.304677+00:00",
       "final_url": "https://www.rossvideo.com/industries/sports/sports-broadcast/",
       "page_title": "Sports Broadcast",
       "description": "Leverage comprehensive, end-to-end turnkey solutions to enjoy the most powerful production system available for your sports venue events. Get started:",
@@ -463,7 +463,7 @@
       "source_category": "09 France Pro",
       "priority": "P2",
       "status": "page_inspected",
-      "found_at": "2026-11-26T01:50:35.558624+00:00",
+      "found_at": "2026-11-26T08:03:04.723040+00:00",
       "score": 18,
       "requirements": [
         "date_creation",
@@ -472,7 +472,7 @@
         "visuel_verifie_ou_exception_scorecard",
         "doublon_identite"
       ],
-      "inspected_at": "2026-11-26T01:50:52.280597+00:00",
+      "inspected_at": "2026-11-26T08:03:21.546125+00:00",
       "final_url": "https://www.seconde-design.com/index.php/portfolio/french79-teenagers-tour/",
       "page_title": "FRENCH79 TEENAGERS TOUR - Seconde Design",
       "description": "",
@@ -488,7 +488,7 @@
       "source_category": "14 Musique Clips",
       "priority": "P1",
       "status": "page_inspected",
-      "found_at": "2026-11-26T01:50:35.558624+00:00",
+      "found_at": "2026-11-26T08:03:04.723040+00:00",
       "score": 26,
       "requirements": [
         "date_creation",
@@ -497,14 +497,14 @@
         "visuel_verifie_ou_exception_scorecard",
         "doublon_identite"
       ],
-      "inspected_at": "2026-11-26T01:50:52.351511+00:00",
+      "inspected_at": "2026-11-26T08:03:21.603166+00:00",
       "final_url": "https://www.promonews.tv/videos/filter/director's%20notes",
       "page_title": "Director's notes videos from Promonews",
       "description": "Browse all the latest Director's notes videos from Promonews",
       "published_date_claim": "",
       "image_candidate": "https://d1xwp3j66c4akz.cloudfront.net/default-white.png",
       "image_verified": false,
-      "page_excerpt": "Get the Promonews daily round up Music Video Preservation Society The Promonews mailing list Get the Promonews daily round up Music Video Preservation Society The Promonews mailing list Hard Life 'Boyfriends' by Greg Barth Hard Life (formerly known as Easy Life) are back and reunited with Greg Barth, the director of several excellent videos by the Leicester indie-pop outfit, with a funny and very graphic display of masculine inadequacy.The video for Boyfriends begins with a pub landlady (played by the excellent Alyssa Kyria) on the phone telling her friend about the band booked for tonight that she is not happy with. So she has set them up in the pub's toilet with the comment 'the lead singer is a bit of a dick if I'm honest.' We are soon going to find out how right she is.Hard Life - now a fourpiece - are indeed in the toilet and start playing the song, joined by a growing audience of visitors. They are men of a certain age who need to visit the lavatory, but stick around for the band, until it starts getting rather crowded. And then as the rest of the band disappear, the audience attack frontman Murray, revealing his true self underneath...It's unexpected, it's bizarre, and perhaps even slightly shocking. It's certainly a symbol for a gamut of male failings, as Greg Barth explains below. As we are able to share the director's cut here, we can present this specimen in its full unpixellated glory. And as it gets a lot of love from the old guys until the landlady steps in - and sticks the boot in - that certainly makes it more impactful than the version currently on YouTube. I wanted to make the metaphor impossible to ignore.\"When I first listened to Boyfriends, I was struck by how the song captures the pettiness of male jealousy,\" says Barth. \"That got me thinking about the strange sense of ownership we sometimes project onto our relationships, and how easily jealousy can reveal something much more deeply ingrained: outdated ideas of masculinity, entitlement and control.\"I wanted to take that small, familiar emotion and push it to its most absurd conclusion. What starts as a story about romantic jealousy gradually becomes something bigger: a reckoning with male ",
+      "page_excerpt": "Get the Promonews daily round up Music Video Preservation Society The Promonews mailing list Get the Promonews daily round up Music Video Preservation Society The Promonews mailing list Nectar Woode 'Only Want You' by Lea Otovic Lea Otovic directs an emotionally rich promo for soul singer-songwriter Nectar Woode.The video for Only Want You weaves together three intimate stories of love, loneliness and longing, set over the course of a single night in London.“I wanted to create something that sits between a music video and a film, capturing genuine moments of connection in a natural yet cinematic way,\" explains Otovic.\"I was heavily inspired by old New York rom-coms, where the city feels like another character in the story, with its own personality, energy and charm. I wanted to show London as a big, bustling city full of individuals who are living their own experience of love. It can feel like a lonely place sometimes, especially when you're far from your loved ones.”Universal and touchingly human, it's a lovely video, especially in the run up to the festive period. Hard Life 'Boyfriends' by Greg Barth Hard Life (formerly known as Easy Life) are back and reunited with Greg Barth, the director of several excellent videos by the Leicester indie-pop outfit, with a funny and very graphic display of masculine inadequacy.The video for Boyfriends begins with a pub landlady (played by the excellent Alyssa Kyria) on the phone telling her friend about the band booked for tonight that she is not happy with. So she has set them up in the pub's toilet with the comment 'the lead singer is a bit of a dick if I'm honest.' We are soon going to find out how right she is.Hard Life - now a fourpiece - are indeed in the toilet and start playing the song, joined by a growing audience of visitors. They are men of a certain age who need to visit the lavatory, but stick around for the band, until it starts getting rather crowded. And then as the rest of the band disappear, the audience attack frontman Murray, revealing his true self underneath...It's unexpected, it's bizarre, and perhaps even slightly shocking. It's certainly a symbol for a gamut of male failings, as Greg Barth explains",
       "needs_editorial_review": true
     },
     {
@@ -513,7 +513,7 @@
       "source_category": "01 Spectacle Concert",
       "priority": "P3",
       "status": "page_inspected",
-      "found_at": "2026-11-26T01:50:35.558624+00:00",
+      "found_at": "2026-11-26T08:03:04.723040+00:00",
       "score": 18,
       "requirements": [
         "date_creation",
@@ -522,7 +522,7 @@
         "visuel_verifie_ou_exception_scorecard",
         "doublon_identite"
       ],
-      "inspected_at": "2026-11-26T01:50:52.386791+00:00",
+      "inspected_at": "2026-11-26T08:03:21.655654+00:00",
       "final_url": "https://www.etcconnect.com/Products/Commercial-Lighting/",
       "page_title": "ETC - Theatre, Film, Studio and Architectural Lighting",
       "description": "Electronic Theatre Controls, Inc. Lighting solutions, control equipment for Theater, Film & TV studios, Architectural spaces and entertainment industries.",
@@ -538,7 +538,7 @@
       "source_category": "02 TV Broadcast",
       "priority": "P2",
       "status": "page_inspected",
-      "found_at": "2026-11-26T01:50:35.558624+00:00",
+      "found_at": "2026-11-26T08:03:04.723040+00:00",
       "score": 20,
       "requirements": [
         "date_creation",
@@ -547,7 +547,7 @@
         "visuel_verifie_ou_exception_scorecard",
         "doublon_identite"
       ],
-      "inspected_at": "2026-11-26T01:50:52.424663+00:00",
+      "inspected_at": "2026-11-26T08:03:21.671777+00:00",
       "final_url": "https://www.dailymotion.com/video/x67wc0u",
       "page_title": "Dailymotion",
       "description": "",
@@ -563,7 +563,7 @@
       "source_category": "09 France Pro",
       "priority": "P2",
       "status": "page_inspected",
-      "found_at": "2026-11-26T01:50:35.558624+00:00",
+      "found_at": "2026-11-26T08:03:04.723040+00:00",
       "score": 18,
       "requirements": [
         "date_creation",
@@ -572,7 +572,7 @@
         "visuel_verifie_ou_exception_scorecard",
         "doublon_identite"
       ],
-      "inspected_at": "2026-11-26T01:50:52.435505+00:00",
+      "inspected_at": "2026-11-26T08:03:21.742926+00:00",
       "final_url": "https://www.seconde-design.com/index.php/portfolio/nto-live-session/",
       "page_title": "NTO Live session - Seconde Design",
       "description": "",
@@ -588,7 +588,7 @@
       "source_category": "14 Musique Clips",
       "priority": "P1",
       "status": "page_inspected",
-      "found_at": "2026-11-26T01:50:35.558624+00:00",
+      "found_at": "2026-11-26T08:03:04.723040+00:00",
       "score": 25,
       "requirements": [
         "date_creation",
@@ -597,7 +597,7 @@
         "visuel_verifie_ou_exception_scorecard",
         "doublon_identite"
       ],
-      "inspected_at": "2026-11-26T01:50:52.459083+00:00",
+      "inspected_at": "2026-11-26T08:03:21.760282+00:00",
       "final_url": "https://motionographer.com/news/woodwork-amsterdam-visual-valley-immersive-storytelling-label/",
       "page_title": "Woodwork Amsterdam Launches Visual Valley, an Immersive Storytelling Label",
       "description": "The Amsterdam studio brings its immersive work for museums, venues and brands under a dedicated label, with narrative at the center of the experience.",
@@ -613,7 +613,7 @@
       "source_category": "01 Spectacle Concert",
       "priority": "P1",
       "status": "page_inspected",
-      "found_at": "2026-11-26T01:50:35.558624+00:00",
+      "found_at": "2026-11-26T08:03:04.723040+00:00",
       "score": 15,
       "requirements": [
         "date_creation",
@@ -622,7 +622,7 @@
         "visuel_verifie_ou_exception_scorecard",
         "doublon_identite"
       ],
-      "inspected_at": "2026-11-26T01:50:52.481444+00:00",
+      "inspected_at": "2026-11-26T08:03:21.796893+00:00",
       "final_url": "https://europe.yamaha.com/en/business/audio/products/mixers/dm5/?utm_source=website&utm_medium=banner&utm_campaign=tpi_102026&utm_content=web-banner-dm5",
       "page_title": "DM5 Series - Overview - Mixers - Products - Audio - Yamaha - Business - Other European Countries & Regions",
       "description": "The DM5 series digital mixing consoles deliver exceptional sound quality, intuitive operation, and professional-level control. Designed for speed, confidence, and creativity, they provide a streamlined workflow for a wide range of live sound applications.",
@@ -638,7 +638,7 @@
       "source_category": "02 TV Broadcast",
       "priority": "P2",
       "status": "page_inspected",
-      "found_at": "2026-11-26T01:50:35.558624+00:00",
+      "found_at": "2026-11-26T08:03:04.723040+00:00",
       "score": 18,
       "requirements": [
         "date_creation",
@@ -647,7 +647,7 @@
         "visuel_verifie_ou_exception_scorecard",
         "doublon_identite"
       ],
-      "inspected_at": "2026-11-26T01:50:52.542120+00:00",
+      "inspected_at": "2026-11-26T08:03:21.831128+00:00",
       "final_url": "https://www.disguise.one/en/solutions/projection-mapping",
       "page_title": "Projection Mapping",
       "description": "The ONLY end-to-end system for dynamic projector blending, previsualization and mapping for any surface imaginable.",
@@ -663,7 +663,7 @@
       "source_category": "09 France Pro",
       "priority": "P2",
       "status": "page_inspected",
-      "found_at": "2026-11-26T01:50:35.558624+00:00",
+      "found_at": "2026-11-26T08:03:04.723040+00:00",
       "score": 18,
       "requirements": [
         "date_creation",
@@ -672,7 +672,7 @@
         "visuel_verifie_ou_exception_scorecard",
         "doublon_identite"
       ],
-      "inspected_at": "2026-11-26T01:50:52.576631+00:00",
+      "inspected_at": "2026-11-26T08:03:21.964768+00:00",
       "final_url": "https://www.seconde-design.com/index.php/portfolio/zimmer-amour-tour/",
       "page_title": "Zimmer - Amour Tour - Seconde Design",
       "description": "",
@@ -688,7 +688,7 @@
       "source_category": "14 Musique Clips",
       "priority": "P1",
       "status": "page_inspected",
-      "found_at": "2026-11-26T01:50:35.558624+00:00",
+      "found_at": "2026-11-26T08:03:04.723040+00:00",
       "score": 23,
       "requirements": [
         "date_creation",
@@ -697,7 +697,7 @@
         "visuel_verifie_ou_exception_scorecard",
         "doublon_identite"
       ],
-      "inspected_at": "2026-11-26T01:50:52.630904+00:00",
+      "inspected_at": "2026-11-26T08:03:21.998882+00:00",
       "final_url": "https://www.deezer.com/fr/show/552652",
       "page_title": "Les Inrockuptibles",
       "description": "tous les épisodes",
@@ -713,7 +713,7 @@
       "source_category": "01 Spectacle Concert",
       "priority": "P1",
       "status": "page_inspected",
-      "found_at": "2026-11-26T01:50:35.558624+00:00",
+      "found_at": "2026-11-26T08:03:04.723040+00:00",
       "score": 15,
       "requirements": [
         "date_creation",
@@ -722,7 +722,7 @@
         "visuel_verifie_ou_exception_scorecard",
         "doublon_identite"
       ],
-      "inspected_at": "2026-11-26T01:50:52.648673+00:00",
+      "inspected_at": "2026-11-26T08:03:22.064974+00:00",
       "final_url": "https://www.ld-systems.com/en/series/maui-series/maui-g3/maui-44-66-g3",
       "page_title": "MAUI 44/66 G3: 4-Way Cardioid Column PA Systems | LD Systems",
       "description": "New MAUI G3 column PA with 4-way design and cardioid control: powerful bass, clear vocals and controlled dispersion – also available with a built-in mixer.",
@@ -738,7 +738,7 @@
       "source_category": "02 TV Broadcast",
       "priority": "P2",
       "status": "page_inspected",
-      "found_at": "2026-11-26T01:50:35.558624+00:00",
+      "found_at": "2026-11-26T08:03:04.723040+00:00",
       "score": 15,
       "requirements": [
         "date_creation",
@@ -747,7 +747,7 @@
         "visuel_verifie_ou_exception_scorecard",
         "doublon_identite"
       ],
-      "inspected_at": "2026-11-26T01:50:52.679224+00:00",
+      "inspected_at": "2026-11-26T08:03:22.107488+00:00",
       "final_url": "https://www.disguise.one/en/products/designer",
       "page_title": "Designer",
       "description": "The ultimate software to design next-generation visual experiences, from concept to delivery.",
@@ -763,7 +763,7 @@
       "source_category": "09 France Pro",
       "priority": "P2",
       "status": "page_inspected",
-      "found_at": "2026-11-26T01:50:35.558624+00:00",
+      "found_at": "2026-11-26T08:03:04.723040+00:00",
       "score": 17,
       "requirements": [
         "date_creation",
@@ -772,7 +772,7 @@
         "visuel_verifie_ou_exception_scorecard",
         "doublon_identite"
       ],
-      "inspected_at": "2026-11-26T01:50:52.781444+00:00",
+      "inspected_at": "2026-11-26T08:03:22.197512+00:00",
       "final_url": "https://www.lascene.com/decouvrir-nos-magazines/lettre-spectacle",
       "page_title": "La Lettre du Spectacle | La Scène",
       "description": "",
@@ -788,7 +788,7 @@
       "source_category": "14 Musique Clips",
       "priority": "P1",
       "status": "page_inspected",
-      "found_at": "2026-11-26T01:50:35.558624+00:00",
+      "found_at": "2026-11-26T08:03:04.723040+00:00",
       "score": 22,
       "requirements": [
         "date_creation",
@@ -797,7 +797,7 @@
         "visuel_verifie_ou_exception_scorecard",
         "doublon_identite"
       ],
-      "inspected_at": "2026-11-26T01:50:52.930810+00:00",
+      "inspected_at": "2026-11-26T08:03:22.288245+00:00",
       "final_url": "https://motionographer.com/2026/10/13/creative-must-win-the-belief-behind-revthinks-tim-thompson/",
       "page_title": "Creative Must Win: The Belief Behind RevThink’s Tim Thompson",
       "description": "Tim Thompson wanted to be a movie star. He made it to Hollywood, then spent nearly twenty years helping creative people build businesses, find their footing, and give themselves permission to chang…",
@@ -813,7 +813,7 @@
       "source_category": "01 Spectacle Concert",
       "priority": "P2",
       "status": "page_inspected",
-      "found_at": "2026-11-26T01:50:35.558624+00:00",
+      "found_at": "2026-11-26T08:03:04.723040+00:00",
       "score": 12,
       "requirements": [
         "date_creation",
@@ -822,7 +822,7 @@
         "visuel_verifie_ou_exception_scorecard",
         "doublon_identite"
       ],
-      "inspected_at": "2026-11-26T01:50:52.985546+00:00",
+      "inspected_at": "2026-11-26T08:03:22.350056+00:00",
       "final_url": "https://luzstudio.com/en/projects/billy-idol",
       "page_title": "BILLY IDOL | LUZ Studio",
       "description": "",
@@ -838,7 +838,7 @@
       "source_category": "02 TV Broadcast",
       "priority": "P2",
       "status": "page_inspected",
-      "found_at": "2026-11-26T01:50:35.558624+00:00",
+      "found_at": "2026-11-26T08:03:04.723040+00:00",
       "score": 15,
       "requirements": [
         "date_creation",
@@ -847,7 +847,7 @@
         "visuel_verifie_ou_exception_scorecard",
         "doublon_identite"
       ],
-      "inspected_at": "2026-11-26T01:50:53.028999+00:00",
+      "inspected_at": "2026-11-26T08:03:22.372889+00:00",
       "final_url": "https://www.disguise.one/en/products/mapping-matter",
       "page_title": "Mapping Matter",
       "description": "Mapping Matter is a collaborative tool that allows creatives and technical designers to simulate video projection mapping concepts for AV installations in a simple 3D environment.",
@@ -863,7 +863,7 @@
       "source_category": "09 France Pro",
       "priority": "P2",
       "status": "page_inspected",
-      "found_at": "2026-11-26T01:50:35.558624+00:00",
+      "found_at": "2026-11-26T08:03:04.723040+00:00",
       "score": 17,
       "requirements": [
         "date_creation",
@@ -872,7 +872,7 @@
         "visuel_verifie_ou_exception_scorecard",
         "doublon_identite"
       ],
-      "inspected_at": "2026-11-26T01:50:53.148923+00:00",
+      "inspected_at": "2026-11-26T08:03:22.653360+00:00",
       "final_url": "https://www.lascene.com/decouvrir-nos-magazines/theatres",
       "page_title": "Théâtre(s) | La Scène",
       "description": "",
@@ -888,7 +888,7 @@
       "source_category": "14 Musique Clips",
       "priority": "P1",
       "status": "page_inspected",
-      "found_at": "2026-11-26T01:50:35.558624+00:00",
+      "found_at": "2026-11-26T08:03:04.723040+00:00",
       "score": 22,
       "requirements": [
         "date_creation",
@@ -897,7 +897,7 @@
         "visuel_verifie_ou_exception_scorecard",
         "doublon_identite"
       ],
-      "inspected_at": "2026-11-26T01:50:53.180006+00:00",
+      "inspected_at": "2026-11-26T08:03:22.856165+00:00",
       "final_url": "https://www.blogotheque.net/categories/live/",
       "page_title": "live | La Blogothèque - We Love Filming Music.",
       "description": "We Love Filming Music.",
@@ -913,7 +913,7 @@
       "source_category": "01 Spectacle Concert",
       "priority": "P2",
       "status": "page_inspected",
-      "found_at": "2026-11-26T01:50:35.558624+00:00",
+      "found_at": "2026-11-26T08:03:04.723040+00:00",
       "score": 12,
       "requirements": [
         "date_creation",
@@ -922,7 +922,7 @@
         "visuel_verifie_ou_exception_scorecard",
         "doublon_identite"
       ],
-      "inspected_at": "2026-11-26T01:50:53.301507+00:00",
+      "inspected_at": "2026-11-26T08:03:23.026012+00:00",
       "final_url": "https://luzstudio.com/en/projects/burj-khalifa",
       "page_title": "BURJ KHALIFA | LUZ Studio",
       "description": "",
@@ -938,7 +938,7 @@
       "source_category": "02 TV Broadcast",
       "priority": "P2",
       "status": "page_inspected",
-      "found_at": "2026-11-26T01:50:35.558624+00:00",
+      "found_at": "2026-11-26T08:03:04.723040+00:00",
       "score": 15,
       "requirements": [
         "date_creation",
@@ -947,7 +947,7 @@
         "visuel_verifie_ou_exception_scorecard",
         "doublon_identite"
       ],
-      "inspected_at": "2026-11-26T01:50:53.325924+00:00",
+      "inspected_at": "2026-11-26T08:03:23.039784+00:00",
       "final_url": "https://www.disguise.one/en/solutions/virtual-production",
       "page_title": "Virtual Production",
       "description": "The platform to visualize, collaborate and control your production environment delivering pixel perfect results, every-single-time.",
@@ -963,7 +963,7 @@
       "source_category": "09 France Pro",
       "priority": "P1",
       "status": "page_inspected",
-      "found_at": "2026-11-26T01:50:35.558624+00:00",
+      "found_at": "2026-11-26T08:03:04.723040+00:00",
       "score": 15,
       "requirements": [
         "date_creation",
@@ -972,7 +972,7 @@
         "visuel_verifie_ou_exception_scorecard",
         "doublon_identite"
       ],
-      "inspected_at": "2026-11-26T01:50:53.459219+00:00",
+      "inspected_at": "2026-11-26T08:03:23.048864+00:00",
       "final_url": "https://www.revue-as.fr/2026/10/15/moliere-conjugue-a-lia/",
       "page_title": "Molière conjugué à l’IA - Revue AS",
       "description": "Si Molière n'était pas mort en 1673, qu'aurait-il écrit ? C'est de cette question qu'est né L'Astrologue ou les Faux Présages, un projet ...",
@@ -988,7 +988,7 @@
       "source_category": "14 Musique Clips",
       "priority": "P1",
       "status": "page_inspected",
-      "found_at": "2026-11-26T01:50:35.558624+00:00",
+      "found_at": "2026-11-26T08:03:04.723040+00:00",
       "score": 22,
       "requirements": [
         "date_creation",
@@ -997,7 +997,7 @@
         "visuel_verifie_ou_exception_scorecard",
         "doublon_identite"
       ],
-      "inspected_at": "2026-11-26T01:50:53.466321+00:00",
+      "inspected_at": "2026-11-26T08:03:23.053364+00:00",
       "final_url": "https://www.blogotheque.net/categories/take-away-shows/",
       "page_title": "take away shows | La Blogothèque - We Love Filming Music.",
       "description": "A live session with an artist or a band, invited to play on the street, in a bar, a garden, an apartment with the unexpected, doubts and extraordinary.",
@@ -1013,7 +1013,7 @@
       "source_category": "01 Spectacle Concert",
       "priority": "P2",
       "status": "page_inspected",
-      "found_at": "2026-11-26T01:50:35.558624+00:00",
+      "found_at": "2026-11-26T08:03:04.723040+00:00",
       "score": 12,
       "requirements": [
         "date_creation",
@@ -1022,7 +1022,7 @@
         "visuel_verifie_ou_exception_scorecard",
         "doublon_identite"
       ],
-      "inspected_at": "2026-11-26T01:50:53.542636+00:00",
+      "inspected_at": "2026-11-26T08:03:23.080693+00:00",
       "final_url": "https://luzstudio.com/en/projects/carrie-underwood",
       "page_title": "CARRIE UNDERWOOD | LUZ Studio",
       "description": "",
@@ -1038,7 +1038,7 @@
       "source_category": "02 TV Broadcast",
       "priority": "P2",
       "status": "page_inspected",
-      "found_at": "2026-11-26T01:50:35.558624+00:00",
+      "found_at": "2026-11-26T08:03:04.723040+00:00",
       "score": 14,
       "requirements": [
         "date_creation",
@@ -1047,7 +1047,7 @@
         "visuel_verifie_ou_exception_scorecard",
         "doublon_identite"
       ],
-      "inspected_at": "2026-11-26T01:50:53.654892+00:00",
+      "inspected_at": "2026-11-26T08:03:23.084743+00:00",
       "final_url": "https://www.rossvideo.com/use-cases/remote-production/",
       "page_title": "Remote Production",
       "description": "Achieve seamless collaboration with Ross Video's remote production solutions. Transform the way you produce content, no matter where you are. Learn more:",
@@ -1063,7 +1063,7 @@
       "source_category": "09 France Pro",
       "priority": "P1",
       "status": "page_inspected",
-      "found_at": "2026-11-26T01:50:35.558624+00:00",
+      "found_at": "2026-11-26T08:03:04.723040+00:00",
       "score": 15,
       "requirements": [
         "date_creation",
@@ -1072,7 +1072,7 @@
         "visuel_verifie_ou_exception_scorecard",
         "doublon_identite"
       ],
-      "inspected_at": "2026-11-26T01:50:53.695967+00:00",
+      "inspected_at": "2026-11-26T08:03:23.125570+00:00",
       "final_url": "https://www.revue-as.fr/2026/11/23/mouvements-professionnels-81/",
       "page_title": "Mouvements professionnels - Revue AS",
       "description": "Le pôle technique du monde du spectacle est toujours à la recherche de nouveaux profils. Si vous êtes à la recherche d’emploi, ...",
@@ -1088,7 +1088,7 @@
       "source_category": "14 Musique Clips",
       "priority": "P1",
       "status": "page_inspected",
-      "found_at": "2026-11-26T01:50:35.558624+00:00",
+      "found_at": "2026-11-26T08:03:04.723040+00:00",
       "score": 19,
       "requirements": [
         "date_creation",
@@ -1097,7 +1097,7 @@
         "visuel_verifie_ou_exception_scorecard",
         "doublon_identite"
       ],
-      "inspected_at": "2026-11-26T01:50:53.756225+00:00",
+      "inspected_at": "2026-11-26T08:03:23.179819+00:00",
       "final_url": "https://directorsnotes.com/2026/11/13/bifa-2026-best-british-short-film-screening/",
       "page_title": "DN & BIFA Present: 2026 Best British Short Film Nominee Screening & Q+A",
       "description": "The week before the winner is revealed, Directors Notes & BIFA are bringing all five 2026 Best British Short Film nominees together on one screen.",
@@ -1113,7 +1113,7 @@
       "source_category": "01 Spectacle Concert",
       "priority": "P2",
       "status": "page_inspected",
-      "found_at": "2026-11-26T01:50:35.558624+00:00",
+      "found_at": "2026-11-26T08:03:04.723040+00:00",
       "score": 12,
       "requirements": [
         "date_creation",
@@ -1122,7 +1122,7 @@
         "visuel_verifie_ou_exception_scorecard",
         "doublon_identite"
       ],
-      "inspected_at": "2026-11-26T01:50:53.764468+00:00",
+      "inspected_at": "2026-11-26T08:03:23.240048+00:00",
       "final_url": "https://luzstudio.com/en/projects/foo-fighters",
       "page_title": "FOO FIGHTERS | LUZ Studio",
       "description": "",
@@ -1138,7 +1138,7 @@
       "source_category": "02 TV Broadcast",
       "priority": "P2",
       "status": "page_inspected",
-      "found_at": "2026-11-26T01:50:35.558624+00:00",
+      "found_at": "2026-11-26T08:03:04.723040+00:00",
       "score": 13,
       "requirements": [
         "date_creation",
@@ -1147,7 +1147,7 @@
         "visuel_verifie_ou_exception_scorecard",
         "doublon_identite"
       ],
-      "inspected_at": "2026-11-26T01:50:53.777220+00:00",
+      "inspected_at": "2026-11-26T08:03:23.249795+00:00",
       "final_url": "https://go.vizrt.com/l/428312/2018-11-14/5l5h5g",
       "page_title": "",
       "description": "",
@@ -1163,7 +1163,7 @@
       "source_category": "09 France Pro",
       "priority": "P1",
       "status": "page_inspected",
-      "found_at": "2026-11-26T01:50:35.558624+00:00",
+      "found_at": "2026-11-26T08:03:04.723040+00:00",
       "score": 15,
       "requirements": [
         "date_creation",
@@ -1172,7 +1172,7 @@
         "visuel_verifie_ou_exception_scorecard",
         "doublon_identite"
       ],
-      "inspected_at": "2026-11-26T01:50:53.783077+00:00",
+      "inspected_at": "2026-11-26T08:03:23.453870+00:00",
       "final_url": "https://www.revue-as.fr/2026/11/23/robe-lancera-son-t1-5-profile-au-plus-pres-de-ceux-qui-lont-inspire/",
       "page_title": "Robe lancera son T1.5 Profile au plus près de ceux qui l'ont inspiré - Revue AS",
       "description": "Un peu plus d'un an après avoir fêté ses 10 ans en France, Robe choisit les JTSE pour dévoiler en première mondiale son nouveau T1.5 Profile.",
@@ -1188,7 +1188,7 @@
       "source_category": "14 Musique Clips",
       "priority": "P1",
       "status": "page_inspected",
-      "found_at": "2026-11-26T01:50:35.558624+00:00",
+      "found_at": "2026-11-26T08:03:04.723040+00:00",
       "score": 19,
       "requirements": [
         "date_creation",
@@ -1197,7 +1197,7 @@
         "visuel_verifie_ou_exception_scorecard",
         "doublon_identite"
       ],
-      "inspected_at": "2026-11-26T01:50:53.832106+00:00",
+      "inspected_at": "2026-11-26T08:03:23.493677+00:00",
       "final_url": "https://directorsnotes.com/2026/11/13/helena-ganjalyan-bartosz-szpak-hauser/",
       "page_title": "Hauser by Helena Ganjalyan and Bartosz Szpak // Drama //Directors Notes",
       "description": "A few minutes, a world yet to be fully explored. Helena Ganjalyan and Bartosz Szpak on the deliberate ambiguity and feature-length ambitions of ‘Hauser’.",
@@ -1213,7 +1213,7 @@
       "source_category": "01 Spectacle Concert",
       "priority": "P2",
       "status": "page_inspected",
-      "found_at": "2026-11-26T01:50:35.558624+00:00",
+      "found_at": "2026-11-26T08:03:04.723040+00:00",
       "score": 12,
       "requirements": [
         "date_creation",
@@ -1222,7 +1222,7 @@
         "visuel_verifie_ou_exception_scorecard",
         "doublon_identite"
       ],
-      "inspected_at": "2026-11-26T01:50:53.837429+00:00",
+      "inspected_at": "2026-11-26T08:03:23.637230+00:00",
       "final_url": "https://luzstudio.com/en/projects/helene-fisher",
       "page_title": "HELENE FISCHER | LUZ Studio",
       "description": "",
@@ -1238,7 +1238,7 @@
       "source_category": "02 TV Broadcast",
       "priority": "P2",
       "status": "page_inspected",
-      "found_at": "2026-11-26T01:50:35.558624+00:00",
+      "found_at": "2026-11-26T08:03:04.723040+00:00",
       "score": 13,
       "requirements": [
         "date_creation",
@@ -1247,7 +1247,7 @@
         "visuel_verifie_ou_exception_scorecard",
         "doublon_identite"
       ],
-      "inspected_at": "2026-11-26T01:50:53.927550+00:00",
+      "inspected_at": "2026-11-26T08:03:23.649020+00:00",
       "final_url": "https://www.thermofisher.com/order/catalog/product/MICROPHAZIRRX",
       "page_title": "MICROPHAZIRRX",
       "description": "",
@@ -1263,7 +1263,7 @@
       "source_category": "09 France Pro",
       "priority": "P1",
       "status": "page_inspected",
-      "found_at": "2026-11-26T01:50:35.558624+00:00",
+      "found_at": "2026-11-26T08:03:04.723040+00:00",
       "score": 15,
       "requirements": [
         "date_creation",
@@ -1272,7 +1272,7 @@
         "visuel_verifie_ou_exception_scorecard",
         "doublon_identite"
       ],
-      "inspected_at": "2026-11-26T01:50:53.933447+00:00",
+      "inspected_at": "2026-11-26T08:03:23.690674+00:00",
       "final_url": "https://www.revue-as.fr/2026/11/24/yamaha-rivage-pm-firmware-v7-20-pour-la-connectivite-avb-milan-et-lintegration-des-nouveaux-equipements-dm5-et-ruio/",
       "page_title": "Yamaha RIVAGE PM Firmware V7.20 pour la connectivité AVB Milan et l’intégration des nouveaux équipements DM5 et RUio - Revue AS",
       "description": "Yamaha Corporation annonce la sortie du firmware V7.20 pour ses systèmes de mixage numériques RIVAGE PM. Cette mise à jour majeure apporte...",
@@ -1288,7 +1288,7 @@
       "source_category": "14 Musique Clips",
       "priority": "P1",
       "status": "page_inspected",
-      "found_at": "2026-11-26T01:50:35.558624+00:00",
+      "found_at": "2026-11-26T08:03:04.723040+00:00",
       "score": 19,
       "requirements": [
         "date_creation",
@@ -1297,7 +1297,7 @@
         "visuel_verifie_ou_exception_scorecard",
         "doublon_identite"
       ],
-      "inspected_at": "2026-11-26T01:50:54.045378+00:00",
+      "inspected_at": "2026-11-26T08:03:23.807522+00:00",
       "final_url": "https://directorsnotes.com/2026/11/19/hasan-kattan-allies-in-exile/",
       "page_title": "Allies in Exile by Hasan Kattan & Fadi Al-Halabi // Documentary // Directors Notes",
       "description": "After 14 years filming Syria’s war, Hasan Kattan & Fadi Al-Halabi turned the camera on themselves to survive the limbo of a UK asylum hotel.",
@@ -1313,7 +1313,7 @@
       "source_category": "01 Spectacle Concert",
       "priority": "P2",
       "status": "page_inspected",
-      "found_at": "2026-11-26T01:50:35.558624+00:00",
+      "found_at": "2026-11-26T08:03:04.723040+00:00",
       "score": 12,
       "requirements": [
         "date_creation",
@@ -1322,7 +1322,7 @@
         "visuel_verifie_ou_exception_scorecard",
         "doublon_identite"
       ],
-      "inspected_at": "2026-11-26T01:50:54.050433+00:00",
+      "inspected_at": "2026-11-26T08:03:23.834566+00:00",
       "final_url": "https://luzstudio.com/en/projects/jack-white",
       "page_title": "JACK WHITE | LUZ Studio",
       "description": "",
@@ -1338,7 +1338,7 @@
       "source_category": "02 TV Broadcast",
       "priority": "P2",
       "status": "page_inspected",
-      "found_at": "2026-11-26T01:50:35.558624+00:00",
+      "found_at": "2026-11-26T08:03:04.723040+00:00",
       "score": 12,
       "requirements": [
         "date_creation",
@@ -1347,7 +1347,7 @@
         "visuel_verifie_ou_exception_scorecard",
         "doublon_identite"
       ],
-      "inspected_at": "2026-11-26T01:50:54.164373+00:00",
+      "inspected_at": "2026-11-26T08:03:23.880440+00:00",
       "final_url": "https://www.disguise.one/en/products/ex-range",
       "page_title": "EX range",
       "description": "Designed for live events and installations looking for a powerful yet accessible video playback solution, with the unbeatable performance and flexibility of the full Disguise ecosystem.",
@@ -1363,7 +1363,7 @@
       "source_category": "09 France Pro",
       "priority": "P1",
       "status": "page_inspected",
-      "found_at": "2026-11-26T01:50:35.558624+00:00",
+      "found_at": "2026-11-26T08:03:04.723040+00:00",
       "score": 13,
       "requirements": [
         "date_creation",
@@ -1372,7 +1372,7 @@
         "visuel_verifie_ou_exception_scorecard",
         "doublon_identite"
       ],
-      "inspected_at": "2026-11-26T01:50:54.306097+00:00",
+      "inspected_at": "2026-11-26T08:03:23.915942+00:00",
       "final_url": "https://www.lightzoomlumiere.fr/article/festivals-lumiere-europe-calendrier-annuel-2026-2027-light-festival/",
       "page_title": "43 festivals lumière en Europe : calendrier 2026-2027 - Light ZOOM Lumière - Portail de la Lumière et de l'Éclairage",
       "description": "Quels sont les festivals lumière en Europe ? Calendrier de la saison 2026-2027 avec les dates et liens pour voyager.",
@@ -1388,7 +1388,7 @@
       "source_category": "14 Musique Clips",
       "priority": "P1",
       "status": "page_inspected",
-      "found_at": "2026-11-26T01:50:35.558624+00:00",
+      "found_at": "2026-11-26T08:03:04.723040+00:00",
       "score": 19,
       "requirements": [
         "date_creation",
@@ -1397,7 +1397,7 @@
         "visuel_verifie_ou_exception_scorecard",
         "doublon_identite"
       ],
-      "inspected_at": "2026-11-26T01:50:54.311331+00:00",
+      "inspected_at": "2026-11-26T08:03:23.930190+00:00",
       "final_url": "https://directorsnotes.com/2026/11/20/poff-shorts-2026-best-shorts/",
       "page_title": "10 Striking Shorts from PÖFF Shorts 2026 // Directors Notes",
       "description": "PÖFF Shorts brings together bold Baltic voices and original international filmmaking. DN selects 10 of the most memorable titles from this year’s edition.",
@@ -1413,7 +1413,7 @@
       "source_category": "09 France Pro",
       "priority": "P1",
       "status": "page_inspected",
-      "found_at": "2026-11-26T01:50:35.558624+00:00",
+      "found_at": "2026-11-26T08:03:04.723040+00:00",
       "score": 13,
       "requirements": [
         "date_creation",
@@ -1422,7 +1422,7 @@
         "visuel_verifie_ou_exception_scorecard",
         "doublon_identite"
       ],
-      "inspected_at": "2026-11-26T01:50:54.339976+00:00",
+      "inspected_at": "2026-11-26T08:03:23.985229+00:00",
       "final_url": "https://www.lightzoomlumiere.fr/article/foires-et-salons-professionnels-2026-en-france-calendrier/",
       "page_title": "Foires et salons professionnels 2026 en France : calendrier - Light ZOOM Lumière - Portail de la Lumière et de l'Éclairage",
       "description": "Quels sont les foires et salons professionnels 2026 en France ? Architecture, design, bâtiment, éclairage, industrie et événementiel.",
@@ -1438,7 +1438,7 @@
       "source_category": "14 Musique Clips",
       "priority": "P1",
       "status": "page_inspected",
-      "found_at": "2026-11-26T01:50:35.558624+00:00",
+      "found_at": "2026-11-26T08:03:04.723040+00:00",
       "score": 19,
       "requirements": [
         "date_creation",
@@ -1447,7 +1447,7 @@
         "visuel_verifie_ou_exception_scorecard",
         "doublon_identite"
       ],
-      "inspected_at": "2026-11-26T01:50:54.721900+00:00",
+      "inspected_at": "2026-11-26T08:03:24.152809+00:00",
       "final_url": "https://directorsnotes.com/2026/11/22/elham-ehsas-forgotten-spaceman/",
       "page_title": "Forgotten Spaceman by Elham Ehsas // Documentary // Directors Notes",
       "description": "Elham Ehsas explains how telling the story of Afghanistan's first astronaut could help challenge the media narrative surrounding his homeland",
@@ -1463,7 +1463,7 @@
       "source_category": "09 France Pro",
       "priority": "P2",
       "status": "page_inspected",
-      "found_at": "2026-11-26T01:50:35.558624+00:00",
+      "found_at": "2026-11-26T08:03:04.723040+00:00",
       "score": 9,
       "requirements": [
         "date_creation",
@@ -1472,7 +1472,7 @@
         "visuel_verifie_ou_exception_scorecard",
         "doublon_identite"
       ],
-      "inspected_at": "2026-11-26T01:50:54.740488+00:00",
+      "inspected_at": "2026-11-26T08:03:24.201806+00:00",
       "final_url": "https://boutique.lascene.com/common/product-article/663",
       "page_title": "La Scène",
       "description": "",
@@ -1488,7 +1488,7 @@
       "source_category": "14 Musique Clips",
       "priority": "P1",
       "status": "page_inspected",
-      "found_at": "2026-11-26T01:50:35.558624+00:00",
+      "found_at": "2026-11-26T08:03:04.723040+00:00",
       "score": 19,
       "requirements": [
         "date_creation",
@@ -1497,7 +1497,7 @@
         "visuel_verifie_ou_exception_scorecard",
         "doublon_identite"
       ],
-      "inspected_at": "2026-11-26T01:50:54.817256+00:00",
+      "inspected_at": "2026-11-26T08:03:24.291935+00:00",
       "final_url": "https://directorsnotes.com/2026/11/23/cceleste-diep-interview-with-a-hero/",
       "page_title": "Premiere: Interview with a Hero by Celeste Diep// Drama// Directors Notes",
       "description": "Some histories refuse to stay buried. Celeste Diep confronts the generational scars of Cambodia’s Khmer Rouge past in her deeply affecting short.",
@@ -1513,7 +1513,7 @@
       "source_category": "09 France Pro",
       "priority": "P2",
       "status": "page_inspected",
-      "found_at": "2026-11-26T01:50:35.558624+00:00",
+      "found_at": "2026-11-26T08:03:04.723040+00:00",
       "score": 9,
       "requirements": [
         "date_creation",
@@ -1522,7 +1522,7 @@
         "visuel_verifie_ou_exception_scorecard",
         "doublon_identite"
       ],
-      "inspected_at": "2026-11-26T01:50:54.895028+00:00",
+      "inspected_at": "2026-11-26T08:03:24.398046+00:00",
       "final_url": "https://boutique.lascene.com/common/product-article/664",
       "page_title": "La Scène",
       "description": "",
@@ -1538,7 +1538,7 @@
       "source_category": "14 Musique Clips",
       "priority": "P1",
       "status": "page_inspected",
-      "found_at": "2026-11-26T01:50:35.558624+00:00",
+      "found_at": "2026-11-26T08:03:04.723040+00:00",
       "score": 19,
       "requirements": [
         "date_creation",
@@ -1547,7 +1547,7 @@
         "visuel_verifie_ou_exception_scorecard",
         "doublon_identite"
       ],
-      "inspected_at": "2026-11-26T01:50:54.956513+00:00",
+      "inspected_at": "2026-11-26T08:03:24.439773+00:00",
       "final_url": "https://directorsnotes.com/2026/11/24/camille-summers-valli-untitled-woman/",
       "page_title": "Untitled Woman by Camille Summers-Valli // Drama // Directors Notes",
       "description": "Camille Summers-Valli turns one image, a woman undressing to be drawn, into a study of the people society stops looking at and what it takes to be seen.",
@@ -1563,7 +1563,7 @@
       "source_category": "09 France Pro",
       "priority": "P2",
       "status": "page_inspected",
-      "found_at": "2026-11-26T01:50:35.558624+00:00",
+      "found_at": "2026-11-26T08:03:04.723040+00:00",
       "score": 9,
       "requirements": [
         "date_creation",
@@ -1572,7 +1572,7 @@
         "visuel_verifie_ou_exception_scorecard",
         "doublon_identite"
       ],
-      "inspected_at": "2026-11-26T01:50:54.996955+00:00",
+      "inspected_at": "2026-11-26T08:03:24.495595+00:00",
       "final_url": "https://boutique.lascene.com/common/product-article/665",
       "page_title": "La Scène",
       "description": "",
@@ -1588,7 +1588,7 @@
       "source_category": "14 Musique Clips",
       "priority": "P1",
       "status": "page_inspected",
-      "found_at": "2026-11-26T01:50:35.558624+00:00",
+      "found_at": "2026-11-26T08:03:04.723040+00:00",
       "score": 19,
       "requirements": [
         "date_creation",
@@ -1597,7 +1597,7 @@
         "visuel_verifie_ou_exception_scorecard",
         "doublon_identite"
       ],
-      "inspected_at": "2026-11-26T01:50:55.080541+00:00",
+      "inspected_at": "2026-11-26T08:03:24.522668+00:00",
       "final_url": "https://directorsnotes.com/2026/11/25/said-zagha-coyotes/",
       "page_title": "Coyotes by Said Zagha // Thriller // Directors Notes",
       "description": "Said Zagha explores how societal acceptance of oppression reaches an inevitable breaking point in his BIFA-nominated Palestine-set thriller.",
@@ -1613,7 +1613,7 @@
       "source_category": "09 France Pro",
       "priority": "P1",
       "status": "page_inspected",
-      "found_at": "2026-11-26T01:50:35.558624+00:00",
+      "found_at": "2026-11-26T08:03:04.723040+00:00",
       "score": 9,
       "requirements": [
         "date_creation",
@@ -1622,7 +1622,7 @@
         "visuel_verifie_ou_exception_scorecard",
         "doublon_identite"
       ],
-      "inspected_at": "2026-11-26T01:50:55.108696+00:00",
+      "inspected_at": "2026-11-26T08:03:24.633608+00:00",
       "final_url": "https://www.lightzoomlumiere.fr/article/guide-reglementations-eclairage-et-lumiere/",
       "page_title": "Guide des réglementations en éclairage et autour de la lumière - Light ZOOM Lumière - Portail de la Lumière et de l'Éclairage",
       "description": "Quelles sont les réglementations en éclairage et autour de la lumière ? Voici un inventaire à la Prévert. Une synthèse pour les praticiens et les amateurs.",
@@ -1638,7 +1638,7 @@
       "source_category": "14 Musique Clips",
       "priority": "P1",
       "status": "page_inspected",
-      "found_at": "2026-11-26T01:50:35.558624+00:00",
+      "found_at": "2026-11-26T08:03:04.723040+00:00",
       "score": 19,
       "requirements": [
         "date_creation",
@@ -1647,7 +1647,7 @@
         "visuel_verifie_ou_exception_scorecard",
         "doublon_identite"
       ],
-      "inspected_at": "2026-11-26T01:50:55.146962+00:00",
+      "inspected_at": "2026-11-26T08:03:24.643165+00:00",
       "final_url": "https://motionographer.com/2026/09/29/the-studio-that-refused-to-be-one-thing/",
       "page_title": "STUDIO STORIES: Tonic DNA, The Studio That Refused to Be One Thing",
       "description": "Forty years in, Montreal’s Tonic DNA launches a refreshed identity, a new original holiday special, and a bet that AI can give hand-drawn animation a longer life. A conversation with partner …",
@@ -1663,7 +1663,7 @@
       "source_category": "09 France Pro",
       "priority": "P1",
       "status": "page_inspected",
-      "found_at": "2026-11-26T01:50:35.558624+00:00",
+      "found_at": "2026-11-26T08:03:04.723040+00:00",
       "score": 9,
       "requirements": [
         "date_creation",
@@ -1672,7 +1672,7 @@
         "visuel_verifie_ou_exception_scorecard",
         "doublon_identite"
       ],
-      "inspected_at": "2026-11-26T01:50:55.182190+00:00",
+      "inspected_at": "2026-11-26T08:03:24.708982+00:00",
       "final_url": "https://www.lightzoomlumiere.fr/article/normes-eclairage-et-electricite-inventaire-essentiel-utile/",
       "page_title": "Essentiel des normes utiles en éclairage et électricité - Light ZOOM Lumière - Portail de la Lumière et de l'Éclairage",
       "description": "Liste des normes éclairage et électricité par technique : extérieur, intérieur et appareils. L'essentiel du professionnel.",
@@ -1688,7 +1688,7 @@
       "source_category": "14 Musique Clips",
       "priority": "P1",
       "status": "page_inspected",
-      "found_at": "2026-11-26T01:50:35.558624+00:00",
+      "found_at": "2026-11-26T08:03:04.723040+00:00",
       "score": 19,
       "requirements": [
         "date_creation",
@@ -1697,7 +1697,7 @@
         "visuel_verifie_ou_exception_scorecard",
         "doublon_identite"
       ],
-      "inspected_at": "2026-11-26T01:50:55.218335+00:00",
+      "inspected_at": "2026-11-26T08:03:24.827222+00:00",
       "final_url": "https://motionographer.com/2026/10/21/the-flowers-look-back-teamlab-at-offf-barcelona-2026/",
       "page_title": "The Flowers Look Back: teamLab at OFFF Barcelona 2026",
       "description": "How does an art collective open permanent museums on three continents without turning into a company? We sat down with Sakurako “Saka” Naka of teamLab at OFFF Barcelona 2026 and got an answer about…",
@@ -1713,7 +1713,7 @@
       "source_category": "09 France Pro",
       "priority": "P1",
       "status": "page_inspected",
-      "found_at": "2026-11-26T01:50:35.558624+00:00",
+      "found_at": "2026-11-26T08:03:04.723040+00:00",
       "score": 9,
       "requirements": [
         "date_creation",
@@ -1722,7 +1722,7 @@
         "visuel_verifie_ou_exception_scorecard",
         "doublon_identite"
       ],
-      "inspected_at": "2026-11-26T01:50:55.260858+00:00",
+      "inspected_at": "2026-11-26T08:03:24.850814+00:00",
       "final_url": "https://www.lightzoomlumiere.fr/interview/qu-est-ce-que-la-lumiere-interviews-professionnel-eclairage/",
       "page_title": "Qu'est-ce que la lumière ? 170 interviews de Pro en éclairage - Light ZOOM Lumière - Portail de la Lumière et de l'Éclairage",
       "description": "Qu'est-ce que la lumière ? Comment les métiers de l'éclairage en parlent-ils ? 170 interviews pour découvrir toutes les professions.",
@@ -1738,7 +1738,7 @@
       "source_category": "14 Musique Clips",
       "priority": "P1",
       "status": "page_inspected",
-      "found_at": "2026-11-26T01:50:35.558624+00:00",
+      "found_at": "2026-11-26T08:03:04.723040+00:00",
       "score": 19,
       "requirements": [
         "date_creation",
@@ -1747,7 +1747,7 @@
         "visuel_verifie_ou_exception_scorecard",
         "doublon_identite"
       ],
-      "inspected_at": "2026-11-26T01:50:55.278454+00:00",
+      "inspected_at": "2026-11-26T08:03:24.857108+00:00",
       "final_url": "https://motionographer.com/2026/11/02/the-haunted-hotel-that-sings-back-there-are-no-ghosts-at-the-grand/",
       "page_title": "The Haunted Hotel That Sings Back: Anil Glendinning on There Are No Ghosts at the Grand",
       "description": "Friday Sundae’s Anil Glendinning talks painted memories, ska, singing power tools, and the creative choices behind Tribeca Games Award winner There Are No Ghosts at the Grand.",
@@ -1763,7 +1763,7 @@
       "source_category": "01 Spectacle Concert",
       "priority": "P1",
       "status": "page_inspected",
-      "found_at": "2026-11-26T01:50:35.558624+00:00",
+      "found_at": "2026-11-26T08:03:04.723040+00:00",
       "score": 12,
       "requirements": [
         "date_creation",
@@ -1772,7 +1772,7 @@
         "visuel_verifie_ou_exception_scorecard",
         "doublon_identite"
       ],
-      "inspected_at": "2026-11-26T01:50:55.338386+00:00",
+      "inspected_at": "2026-11-26T08:03:24.858917+00:00",
       "final_url": "https://momentfactory.com/collections/all",
       "page_title": "All Projects",
       "description": "Moment Factory is a global entertainment studio pioneering new forms of collective experiences. For 25 years, its multidisciplinary team has worked at the forefront of creativity and technology to inspire wonder and real-world connection.",
@@ -1788,7 +1788,7 @@
       "source_category": "09 France Pro",
       "priority": "P1",
       "status": "page_inspected",
-      "found_at": "2026-11-26T01:50:35.558624+00:00",
+      "found_at": "2026-11-26T08:03:04.723040+00:00",
       "score": 9,
       "requirements": [
         "date_creation",
@@ -1797,7 +1797,7 @@
         "visuel_verifie_ou_exception_scorecard",
         "doublon_identite"
       ],
-      "inspected_at": "2026-11-26T01:50:55.345376+00:00",
+      "inspected_at": "2026-11-26T08:03:24.880833+00:00",
       "final_url": "https://www.lightzoomlumiere.fr/sur/Light-Zoom-Lumiere",
       "page_title": "Light ZOOM Lumière (Éditeur, Directeur éditorial, Modérateur, Rédacteur en chef, Jury, Partenaires, Partenaires média, Organisateur d'événement, Source) : reportages photos, articles, actualités, livres, livres, actualit",
       "description": "Retrouvez tous les contenus (reportages photos, articles, actualités, livres, livres, actualités, évènements, communiqués, actualités, réalisations, reportages photos, articles, actualités, évènements, communiqués, reportages photos, évènements, articles, réalisations et évènements) liés à Light ZOOM Lumière (Éditeur, Directeur éditorial, Modérateur, Rédacteur en chef, Jury, Partenaires, Partenaires média, Organisateur d'événement, Source) sur Light ZOOM Lumière.",
@@ -1813,7 +1813,7 @@
       "source_category": "14 Musique Clips",
       "priority": "P1",
       "status": "page_inspected",
-      "found_at": "2026-11-26T01:50:35.558624+00:00",
+      "found_at": "2026-11-26T08:03:04.723040+00:00",
       "score": 19,
       "requirements": [
         "date_creation",
@@ -1822,7 +1822,7 @@
         "visuel_verifie_ou_exception_scorecard",
         "doublon_identite"
       ],
-      "inspected_at": "2026-11-26T01:50:55.426462+00:00",
+      "inspected_at": "2026-11-26T08:03:24.893484+00:00",
       "final_url": "https://motionographer.com/2026/11/04/im-having-a-breakdown-dreamcat-the-monster-that-wasnt-his/",
       "page_title": "I’M HAVING A BREAKDOWN: DREAMCAT, the monster that wasn’t his",
       "description": "Joost Jansen spent two weeks drawing a monster for a film about himself. Then he asked to cut it. Inside DREAMCAT with Joost and MAKE MAMI PROUD.",
@@ -1838,7 +1838,7 @@
       "source_category": "01 Spectacle Concert",
       "priority": "P1",
       "status": "page_inspected",
-      "found_at": "2026-11-26T01:50:35.558624+00:00",
+      "found_at": "2026-11-26T08:03:04.723040+00:00",
       "score": 12,
       "requirements": [
         "date_creation",
@@ -1847,7 +1847,7 @@
         "visuel_verifie_ou_exception_scorecard",
         "doublon_identite"
       ],
-      "inspected_at": "2026-11-26T01:50:55.496131+00:00",
+      "inspected_at": "2026-11-26T08:03:24.939111+00:00",
       "final_url": "https://stufish.com/project/addison-rae/",
       "page_title": "Addison Rae – Stufish",
       "description": "",
@@ -1863,7 +1863,7 @@
       "source_category": "09 France Pro",
       "priority": "P1",
       "status": "page_inspected",
-      "found_at": "2026-11-26T01:50:35.558624+00:00",
+      "found_at": "2026-11-26T08:03:04.723040+00:00",
       "score": 9,
       "requirements": [
         "date_creation",
@@ -1872,7 +1872,7 @@
         "visuel_verifie_ou_exception_scorecard",
         "doublon_identite"
       ],
-      "inspected_at": "2026-11-26T01:50:55.618950+00:00",
+      "inspected_at": "2026-11-26T08:03:25.074333+00:00",
       "final_url": "https://www.lightzoomlumiere.fr/sur/architecture/",
       "page_title": "L’architecture illumine-t-elle nos vies grâce à la lumière ?",
       "description": "La lumière transforme l’architecture contemporaine en émotion. Découvrez comment elle façonne nos espaces, nos villes et notre quotidien pour les usagers.",
@@ -1888,7 +1888,7 @@
       "source_category": "14 Musique Clips",
       "priority": "P1",
       "status": "page_inspected",
-      "found_at": "2026-11-26T01:50:35.558624+00:00",
+      "found_at": "2026-11-26T08:03:04.723040+00:00",
       "score": 19,
       "requirements": [
         "date_creation",
@@ -1897,7 +1897,7 @@
         "visuel_verifie_ou_exception_scorecard",
         "doublon_identite"
       ],
-      "inspected_at": "2026-11-26T01:50:55.619851+00:00",
+      "inspected_at": "2026-11-26T08:03:25.085625+00:00",
       "final_url": "https://motionographer.com/2026/11/18/eeny-meeny-miny-moe-building-a-new-myth-for-the-kids-who-feel-too-much/",
       "page_title": "Eeny, Meeny, Miny, Moe! Building a New Myth for the Kids Who Feel Too Much",
       "description": "A boy with a sun for a head, a playground of young gods and monsters, and a counting rhyme about who gets chosen. Jesse Rylander talks with director Andrea Szelesová and producer Kristina Husová ab…",
@@ -1913,7 +1913,7 @@
       "source_category": "01 Spectacle Concert",
       "priority": "P1",
       "status": "page_inspected",
-      "found_at": "2026-11-26T01:50:35.558624+00:00",
+      "found_at": "2026-11-26T08:03:04.723040+00:00",
       "score": 12,
       "requirements": [
         "date_creation",
@@ -1922,7 +1922,7 @@
         "visuel_verifie_ou_exception_scorecard",
         "doublon_identite"
       ],
-      "inspected_at": "2026-11-26T01:50:55.623157+00:00",
+      "inspected_at": "2026-11-26T08:03:25.101319+00:00",
       "final_url": "https://stufish.com/project/adriatic-sound-festival/",
       "page_title": "Adriatic Sound Festival – Stufish",
       "description": "",
@@ -1938,7 +1938,7 @@
       "source_category": "14 Musique Clips",
       "priority": "P1",
       "status": "page_inspected",
-      "found_at": "2026-11-26T01:50:35.558624+00:00",
+      "found_at": "2026-11-26T08:03:04.723040+00:00",
       "score": 17,
       "requirements": [
         "date_creation",
@@ -1947,7 +1947,7 @@
         "visuel_verifie_ou_exception_scorecard",
         "doublon_identite"
       ],
-      "inspected_at": "2026-11-26T01:50:55.669551+00:00",
+      "inspected_at": "2026-11-26T08:03:25.140186+00:00",
       "final_url": "https://shop.lesinrocks.com/magazines/les-inrockuptibles-n45-novembre-2025/",
       "page_title": "Les Inrockuptibles n°45/ Novembre 2025",
       "description": "Les Inrockuptibles n°45 : Radiohead, le retour d'un groupe monstre",
@@ -1963,7 +1963,7 @@
       "source_category": "01 Spectacle Concert",
       "priority": "P1",
       "status": "page_inspected",
-      "found_at": "2026-11-26T01:50:35.558624+00:00",
+      "found_at": "2026-11-26T08:03:04.723040+00:00",
       "score": 12,
       "requirements": [
         "date_creation",
@@ -1972,7 +1972,7 @@
         "visuel_verifie_ou_exception_scorecard",
         "doublon_identite"
       ],
-      "inspected_at": "2026-11-26T01:50:55.702085+00:00",
+      "inspected_at": "2026-11-26T08:03:25.189684+00:00",
       "final_url": "https://stufish.com/project/anna-vissi/",
       "page_title": "Anna Vissi – Stufish",
       "description": "",
@@ -1988,7 +1988,7 @@
       "source_category": "14 Musique Clips",
       "priority": "P1",
       "status": "page_inspected",
-      "found_at": "2026-11-26T01:50:35.558624+00:00",
+      "found_at": "2026-11-26T08:03:04.723040+00:00",
       "score": 17,
       "requirements": [
         "date_creation",
@@ -1997,7 +1997,7 @@
         "visuel_verifie_ou_exception_scorecard",
         "doublon_identite"
       ],
-      "inspected_at": "2026-11-26T01:50:55.726661+00:00",
+      "inspected_at": "2026-11-26T08:03:25.390492+00:00",
       "final_url": "https://shop.lesinrocks.com/magazines/les-inrockuptibles-n46-decembre-2025-janvier-2026/",
       "page_title": "Les Inrockuptibles n°46/ Décembre 2025 - Janvier 2026",
       "description": "Les Inrockuptibles n°46 : Best of 2025, c'était cool 2025 ? On revient sur l’année culturelle 2025, marquée par des concerts phares...",
@@ -2013,7 +2013,7 @@
       "source_category": "01 Spectacle Concert",
       "priority": "P1",
       "status": "page_inspected",
-      "found_at": "2026-11-26T01:50:35.558624+00:00",
+      "found_at": "2026-11-26T08:03:04.723040+00:00",
       "score": 12,
       "requirements": [
         "date_creation",
@@ -2022,7 +2022,7 @@
         "visuel_verifie_ou_exception_scorecard",
         "doublon_identite"
       ],
-      "inspected_at": "2026-11-26T01:50:55.777219+00:00",
+      "inspected_at": "2026-11-26T08:03:25.479725+00:00",
       "final_url": "https://stufish.com/project/apple-50/",
       "page_title": "APPLE 50 – Stufish",
       "description": "",
@@ -2038,7 +2038,7 @@
       "source_category": "14 Musique Clips",
       "priority": "P1",
       "status": "page_inspected",
-      "found_at": "2026-11-26T01:50:35.558624+00:00",
+      "found_at": "2026-11-26T08:03:04.723040+00:00",
       "score": 16,
       "requirements": [
         "date_creation",
@@ -2047,7 +2047,7 @@
         "visuel_verifie_ou_exception_scorecard",
         "doublon_identite"
       ],
-      "inspected_at": "2026-11-26T01:50:55.830651+00:00",
+      "inspected_at": "2026-11-26T08:03:25.499259+00:00",
       "final_url": "https://docs.google.com/forms/d/e/1FAIpQLSfbuooQc5emS4G7EHQQY-16nFPq_y-f9pHmvOFFz1Cf-f-8RA/viewform",
       "page_title": "Contact Promonews",
       "description": "",
@@ -2063,7 +2063,7 @@
       "source_category": "01 Spectacle Concert",
       "priority": "P1",
       "status": "page_inspected",
-      "found_at": "2026-11-26T01:50:35.558624+00:00",
+      "found_at": "2026-11-26T08:03:04.723040+00:00",
       "score": 12,
       "requirements": [
         "date_creation",
@@ -2072,7 +2072,7 @@
         "visuel_verifie_ou_exception_scorecard",
         "doublon_identite"
       ],
-      "inspected_at": "2026-11-26T01:50:55.892379+00:00",
+      "inspected_at": "2026-11-26T08:03:25.519401+00:00",
       "final_url": "https://stufish.com/project/benson-boone-2/",
       "page_title": "Benson Boone – Stufish",
       "description": "",
@@ -2088,7 +2088,7 @@
       "source_category": "01 Spectacle Concert",
       "priority": "P1",
       "status": "page_inspected",
-      "found_at": "2026-11-26T01:50:35.558624+00:00",
+      "found_at": "2026-11-26T08:03:04.723040+00:00",
       "score": 12,
       "requirements": [
         "date_creation",
@@ -2097,7 +2097,7 @@
         "visuel_verifie_ou_exception_scorecard",
         "doublon_identite"
       ],
-      "inspected_at": "2026-11-26T01:50:55.944656+00:00",
+      "inspected_at": "2026-11-26T08:03:25.961633+00:00",
       "final_url": "https://stufish.com/project/benson-boone/",
       "page_title": "Benson Boone – Stufish",
       "description": "",
@@ -2113,7 +2113,7 @@
       "source_category": "14 Musique Clips",
       "priority": "P1",
       "status": "page_inspected",
-      "found_at": "2026-11-26T01:50:35.558624+00:00",
+      "found_at": "2026-11-26T08:03:04.723040+00:00",
       "score": 16,
       "requirements": [
         "date_creation",
@@ -2122,7 +2122,7 @@
         "visuel_verifie_ou_exception_scorecard",
         "doublon_identite"
       ],
-      "inspected_at": "2026-11-26T01:50:55.980317+00:00",
+      "inspected_at": "2026-11-26T08:03:26.132467+00:00",
       "final_url": "https://www.nowness.com/films/top-ten-designers-in-paris-1980/",
       "page_title": "NOWNESS - Nowness Picks: Top Ten Designers in Paris",
       "description": "Top Ten Designers in Paris Issey Miyake and Marithé + François Girbaud lead an exclusive clip from the 1980 fashion documentary, shooting the Paris runway and its icons in up-close detail Shot on Super 8 and 16mm film by collaborative collective Soft Ware Productions – a fake production company…",
@@ -2138,7 +2138,7 @@
       "source_category": "01 Spectacle Concert",
       "priority": "P1",
       "status": "page_inspected",
-      "found_at": "2026-11-26T01:50:35.558624+00:00",
+      "found_at": "2026-11-26T08:03:04.723040+00:00",
       "score": 12,
       "requirements": [
         "date_creation",
@@ -2147,7 +2147,7 @@
         "visuel_verifie_ou_exception_scorecard",
         "doublon_identite"
       ],
-      "inspected_at": "2026-11-26T01:50:55.999020+00:00",
+      "inspected_at": "2026-11-26T08:03:26.159303+00:00",
       "final_url": "https://stufish.com/project/camilla-cabello/",
       "page_title": "Camila Cabello – Stufish",
       "description": "",
@@ -2158,12 +2158,12 @@
       "needs_editorial_review": true
     },
     {
-      "url": "https://admin.promonews.tv/ads/redirect/19e98050-52ac-421d-8f46-6770a1ba1ac8",
+      "url": "https://admin.promonews.tv/ads/redirect/2ebf8d7a-629b-49ef-83f3-896a92e70215",
       "source": "Promonews",
       "source_category": "14 Musique Clips",
       "priority": "P1",
-      "status": "page_inspected",
-      "found_at": "2026-11-26T01:50:35.558624+00:00",
+      "status": "inspection_failed",
+      "found_at": "2026-11-26T08:03:04.723040+00:00",
       "score": 14,
       "requirements": [
         "date_creation",
@@ -2172,15 +2172,8 @@
         "visuel_verifie_ou_exception_scorecard",
         "doublon_identite"
       ],
-      "inspected_at": "2026-11-26T01:50:56.088579+00:00",
-      "final_url": "https://www.blinkink.co.uk/",
-      "page_title": "Homepage | Blinkink | London Production Studio",
-      "description": "London based production studio. Award-winning & innovative advertising animation. We cover advertisement, music & broadcast industries. Call +44 (0) 20 3909 1760.",
-      "published_date_claim": "",
-      "image_candidate": "",
-      "image_verified": false,
-      "page_excerpt": "",
-      "needs_editorial_review": true
+      "inspected_at": "2026-11-26T08:03:26.234230+00:00",
+      "error": "HTTP Error 429: Too Many Requests"
     },
     {
       "url": "https://www.rossvideo.com/industries/sports/sports-venue/",
@@ -2188,7 +2181,7 @@
       "source_category": "02 TV Broadcast",
       "priority": "P2",
       "status": "page_inspected",
-      "found_at": "2026-11-26T01:50:35.558624+00:00",
+      "found_at": "2026-11-26T08:03:04.723040+00:00",
       "score": 12,
       "requirements": [
         "date_creation",
@@ -2197,7 +2190,7 @@
         "visuel_verifie_ou_exception_scorecard",
         "doublon_identite"
       ],
-      "inspected_at": "2026-11-26T01:50:56.150506+00:00",
+      "inspected_at": "2026-11-26T08:03:26.255374+00:00",
       "final_url": "https://www.rossvideo.com/industries/sports/sports-venue/",
       "page_title": "Sports Venue",
       "description": "We shape the live experiences billions of people watch every day on screens, big and small.",
@@ -2208,12 +2201,12 @@
       "needs_editorial_review": true
     },
     {
-      "url": "https://admin.promonews.tv/ads/redirect/60161caf-e999-4295-bd93-3ac8966d616b",
+      "url": "https://admin.promonews.tv/ads/redirect/636af3d9-c7e5-4dc1-bb48-00051b4533a3",
       "source": "Promonews",
       "source_category": "14 Musique Clips",
       "priority": "P1",
       "status": "page_inspected",
-      "found_at": "2026-11-26T01:50:35.558624+00:00",
+      "found_at": "2026-11-26T08:03:04.723040+00:00",
       "score": 14,
       "requirements": [
         "date_creation",
@@ -2222,14 +2215,14 @@
         "visuel_verifie_ou_exception_scorecard",
         "doublon_identite"
       ],
-      "inspected_at": "2026-11-26T01:50:56.258946+00:00",
-      "final_url": "https://otherkindcreative.com/",
-      "page_title": "OTHER KIND | Creative Production & Director Management",
-      "description": "A next-gen creative production studio representing a curated roster of visionary directors. Specializing in high-end music videos, commercials, and branded content.",
+      "inspected_at": "2026-11-26T08:03:26.269859+00:00",
+      "final_url": "https://studio-rm.com/",
+      "page_title": "Studio RM | High-end post for fashion & advertising",
+      "description": "Creative colour grading, finishing & retouching for campaigns, fashion & commercials. Based in London, New York & Paris.",
       "published_date_claim": "",
-      "image_candidate": "",
+      "image_candidate": "https://studio-rm.com/images/social.jpg",
       "image_verified": false,
-      "page_excerpt": "Flo - Don't Break Her Heart",
+      "page_excerpt": "",
       "needs_editorial_review": true
     },
     {
@@ -2238,7 +2231,7 @@
       "source_category": "02 TV Broadcast",
       "priority": "P2",
       "status": "page_inspected",
-      "found_at": "2026-11-26T01:50:35.558624+00:00",
+      "found_at": "2026-11-26T08:03:04.723040+00:00",
       "score": 12,
       "requirements": [
         "date_creation",
@@ -2247,7 +2240,7 @@
         "visuel_verifie_ou_exception_scorecard",
         "doublon_identite"
       ],
-      "inspected_at": "2026-11-26T01:50:56.325653+00:00",
+      "inspected_at": "2026-11-26T08:03:26.334183+00:00",
       "final_url": "https://www.rossvideo.com/products/graphics-and-virtual/tessera/",
       "page_title": "XPression Tessera",
       "description": "Manage and fill any video display with Ross Video XPression Tessera—advanced multi-screen graphics control for studios, venues, and live events. Achieve pixel-accurate, real-time rendering, seamless synchronization, and scalable workflows for stunning, dynamic visual experiences.",
@@ -2258,12 +2251,12 @@
       "needs_editorial_review": true
     },
     {
-      "url": "https://admin.promonews.tv/ads/redirect/7fd4eecb-46bf-4716-9a02-08f2284537ae",
+      "url": "https://admin.promonews.tv/ads/redirect/8e85148f-607c-4d6e-8d9c-fd4607e38210",
       "source": "Promonews",
       "source_category": "14 Musique Clips",
       "priority": "P1",
       "status": "page_inspected",
-      "found_at": "2026-11-26T01:50:35.558624+00:00",
+      "found_at": "2026-11-26T08:03:04.723040+00:00",
       "score": 14,
       "requirements": [
         "date_creation",
@@ -2272,14 +2265,14 @@
         "visuel_verifie_ou_exception_scorecard",
         "doublon_identite"
       ],
-      "inspected_at": "2026-11-26T01:50:56.343955+00:00",
-      "final_url": "https://friendlondon.tv/",
-      "page_title": "HOMEPAGE",
-      "description": "FRIEND is built to collaborate with agencies, clients, and like-minded artists for a bold, creative-led take on the production studio model.",
+      "inspected_at": "2026-11-26T08:03:26.428864+00:00",
+      "final_url": "https://doomsdayent.com/",
+      "page_title": "Doomsday Entertainment",
+      "description": "IF CONTENT IS KING, WE MUST BE GODS. Doomsday Entertainment, founded by Danielle Hinde, is an industry-leading director representation and production company that leverages its innovative talent to create cutting-edge content including music videos, commercials, branded content, short films and documentaries.",
       "published_date_claim": "",
-      "image_candidate": "https://friendlondon.tv/uploads/general/_1200x630_crop_center-center_82_none/friend-logo-seo-rectangle.png?mtime=1711471353",
+      "image_candidate": "https://api.doomsdayent.com/wp-content/themes/doomsday2020/screenshot.png",
       "image_verified": false,
-      "page_excerpt": "Robinhood - Built for the future NOEL PAUL WINS BEST DIRECTOR GREG OHREL DIRECTS SUPERBOWL Lexus - Arrive With Your Pulse Racing",
+      "page_excerpt": "IF CONTENT IS KING, WE MUST BE GODS. Doomsday Entertainment, founded by Danielle Hinde, is an industry-leading director representation and production company that leverages its innovative talent to create cutting-edge content including music videos, commercials, branded content, short films and documentaries. Superbowl LX Halftime Show Snoop’s Holiday Halftime Party Katie Taylor vs. Amanda Serrano 3 A Big Bold Beautiful Journey",
       "needs_editorial_review": true
     },
     {
@@ -2288,7 +2281,7 @@
       "source_category": "02 TV Broadcast",
       "priority": "P2",
       "status": "page_inspected",
-      "found_at": "2026-11-26T01:50:35.558624+00:00",
+      "found_at": "2026-11-26T08:03:04.723040+00:00",
       "score": 12,
       "requirements": [
         "date_creation",
@@ -2297,7 +2290,7 @@
         "visuel_verifie_ou_exception_scorecard",
         "doublon_identite"
       ],
-      "inspected_at": "2026-11-26T01:50:56.405702+00:00",
+      "inspected_at": "2026-11-26T08:03:26.485970+00:00",
       "final_url": "https://www.rossvideo.com/products/graphics-and-virtual/xpression-cloud/",
       "page_title": "XPression.cloud",
       "description": "XPression.cloud makes it easy to scale XPression graphics capacity across busy sports schedules.",
@@ -2313,7 +2306,7 @@
       "source_category": "14 Musique Clips",
       "priority": "P1",
       "status": "page_inspected",
-      "found_at": "2026-11-26T01:50:35.558624+00:00",
+      "found_at": "2026-11-26T08:03:04.723040+00:00",
       "score": 14,
       "requirements": [
         "date_creation",
@@ -2322,7 +2315,7 @@
         "visuel_verifie_ou_exception_scorecard",
         "doublon_identite"
       ],
-      "inspected_at": "2026-11-26T01:50:56.414539+00:00",
+      "inspected_at": "2026-11-26T08:03:26.547045+00:00",
       "final_url": "https://trimediting.com/",
       "page_title": "Trim Editing / a film editing company",
       "description": "An editing company based in Whitechapel, East London. Committed to fostering creative relationships and developing talent, within a collaborative environment.",
@@ -2338,7 +2331,7 @@
       "source_category": "02 TV Broadcast",
       "priority": "P2",
       "status": "page_inspected",
-      "found_at": "2026-11-26T01:50:35.558624+00:00",
+      "found_at": "2026-11-26T08:03:04.723040+00:00",
       "score": 12,
       "requirements": [
         "date_creation",
@@ -2347,7 +2340,7 @@
         "visuel_verifie_ou_exception_scorecard",
         "doublon_identite"
       ],
-      "inspected_at": "2026-11-26T01:50:56.449552+00:00",
+      "inspected_at": "2026-11-26T08:03:26.616883+00:00",
       "final_url": "https://www.rossvideo.com/products/graphics-and-virtual/xpression-data-server/",
       "page_title": "XPression Data Server",
       "description": "Automate and unify your channel branding, tickers, and data-driven graphics with Ross Video XPression Chameleon—browser-based, real-time motion graphics software integrating live data, traffic systems, and automation for seamless overlays, information channels, and election coverage in broadcast, sports, and live events.",
@@ -2363,7 +2356,7 @@
       "source_category": "09 France Pro",
       "priority": "P2",
       "status": "page_inspected",
-      "found_at": "2026-11-26T01:50:35.558624+00:00",
+      "found_at": "2026-11-26T08:03:04.723040+00:00",
       "score": 9,
       "requirements": [
         "date_creation",
@@ -2372,7 +2365,7 @@
         "visuel_verifie_ou_exception_scorecard",
         "doublon_identite"
       ],
-      "inspected_at": "2026-11-26T01:50:56.501313+00:00",
+      "inspected_at": "2026-11-26T08:03:26.638166+00:00",
       "final_url": "https://www.seconde-design.com/index.php/portfolio/boiler-room-marseille/",
       "page_title": "BOILER ROOM - Marseille - Seconde Design",
       "description": "",
@@ -2383,12 +2376,12 @@
       "needs_editorial_review": true
     },
     {
-      "url": "https://admin.promonews.tv/ads/redirect/d622a6d1-a148-4dfb-9978-04cf95589723",
+      "url": "https://admin.promonews.tv/ads/redirect/b2b93910-2e12-409f-a342-d04666e3b91c",
       "source": "Promonews",
       "source_category": "14 Musique Clips",
       "priority": "P1",
       "status": "page_inspected",
-      "found_at": "2026-11-26T01:50:35.558624+00:00",
+      "found_at": "2026-11-26T08:03:04.723040+00:00",
       "score": 14,
       "requirements": [
         "date_creation",
@@ -2397,14 +2390,14 @@
         "visuel_verifie_ou_exception_scorecard",
         "doublon_identite"
       ],
-      "inspected_at": "2026-11-26T01:50:56.538456+00:00",
-      "final_url": "https://www.anonymouscontent.com/",
-      "page_title": "Anonymous Content",
-      "description": "Actualités récentes 749 667 539 58 1430 1 1080 85 260 333 1193 632 1048 54 935 28 1167 66 892 19 1098 41 1293 61 663 1316 98 87 1080 706 128 365 1486 426 62 413 266 1219 9 814 1059 65 1293 28 372 645 327 371 684 656 220 462 99...",
+      "inspected_at": "2026-11-26T08:03:26.715862+00:00",
+      "final_url": "https://wash.co.uk/",
+      "page_title": "Wash | Independent Creative Post Studio | Colour, VFX & Finishing | London",
+      "description": "Wash is a London based creative post studio with a wealth of talent and industry experience. Founded in 2016 we provide high end creative VFX, colour grading and finishing. We offer the full post experience within the care of a boutique company.",
       "published_date_claim": "",
-      "image_candidate": "https://www.anonymouscontent.com/wp-content/themes/anonymous2016/screenshot.png",
+      "image_candidate": "https://wash.co.uk/wp-content/uploads/2026/11/WashLogo20184KBG-e1794147153461.png",
       "image_verified": false,
-      "page_excerpt": "Founded in 1999 by CEO Steve Golin, Anonymous Content is a production and management company where talent comes first. Created By: Jim Keeble and Dudi Appleton Executive Produced & Episodes Directed By: Kari Skogland Directed by: Autumn de Wilde Maximum Pleasure Guaranteed Created By: David J. Rosen Directed By: Zachary Wigon Directed By: Frédéric Planchon Directed By: Autumn de Wilde Directed By: Alfonso Cuarón",
+      "page_excerpt": "",
       "needs_editorial_review": true
     },
     {
@@ -2413,7 +2406,7 @@
       "source_category": "02 TV Broadcast",
       "priority": "P2",
       "status": "page_inspected",
-      "found_at": "2026-11-26T01:50:35.558624+00:00",
+      "found_at": "2026-11-26T08:03:04.723040+00:00",
       "score": 12,
       "requirements": [
         "date_creation",
@@ -2422,7 +2415,7 @@
         "visuel_verifie_ou_exception_scorecard",
         "doublon_identite"
       ],
-      "inspected_at": "2026-11-26T01:50:56.666558+00:00",
+      "inspected_at": "2026-11-26T08:03:26.787184+00:00",
       "final_url": "https://www.rossvideo.com/products/graphics-and-virtual/xpression/",
       "page_title": "XPression",
       "description": "XPression empowers your creative team to build on-brand, data-driven 2D & 3D graphics and animations and automatically composites them in any live video format, in real time.",
@@ -2438,7 +2431,7 @@
       "source_category": "09 France Pro",
       "priority": "P2",
       "status": "page_inspected",
-      "found_at": "2026-11-26T01:50:35.558624+00:00",
+      "found_at": "2026-11-26T08:03:04.723040+00:00",
       "score": 9,
       "requirements": [
         "date_creation",
@@ -2447,7 +2440,7 @@
         "visuel_verifie_ou_exception_scorecard",
         "doublon_identite"
       ],
-      "inspected_at": "2026-11-26T01:50:56.704733+00:00",
+      "inspected_at": "2026-11-26T08:03:26.805764+00:00",
       "final_url": "https://www.seconde-design.com/index.php/portfolio/cercle-festival/",
       "page_title": "CERCLE FESTIVAL - Seconde Design",
       "description": "",
@@ -2458,12 +2451,12 @@
       "needs_editorial_review": true
     },
     {
-      "url": "https://admin.promonews.tv/ads/redirect/f74ff60c-264b-4e97-8c7b-139ffda34e47",
+      "url": "https://admin.promonews.tv/ads/redirect/f5f6f3ed-48c2-4316-83ff-94f4ba40e9b4",
       "source": "Promonews",
       "source_category": "14 Musique Clips",
       "priority": "P1",
       "status": "page_inspected",
-      "found_at": "2026-11-26T01:50:35.558624+00:00",
+      "found_at": "2026-11-26T08:03:04.723040+00:00",
       "score": 14,
       "requirements": [
         "date_creation",
@@ -2472,14 +2465,14 @@
         "visuel_verifie_ou_exception_scorecard",
         "doublon_identite"
       ],
-      "inspected_at": "2026-11-26T01:50:56.728387+00:00",
-      "final_url": "https://smugglersite.com/",
-      "page_title": "SMUGGLER",
-      "description": "SMUGGLER is a Film, TV, Commercial and Music Video production company representing a roster of award winning directors.",
+      "inspected_at": "2026-11-26T08:03:26.843614+00:00",
+      "final_url": "https://parkpictures.com/",
+      "page_title": "home",
+      "description": "Home",
       "published_date_claim": "",
-      "image_candidate": "https://api.smugglersite.com/wp-content/themes/smuggler-theme-backend/screenshot.png",
+      "image_candidate": "https://www.parkpictures.com/uploads/_1200x630_crop_center-center_82_none/Black-Leaf.png?mtime=1712254245",
       "image_verified": false,
-      "page_excerpt": "SMUGGLER is a Film, TV, Commercial and Music Video production company representing a roster of award winning directors. Lucy Forbes’ “Gloria & Pickles” Earns Five Stars from David Reviews Lucy Forbes’ “Gloria & Pickles” Earns Five Stars from David Reviews David Reviews: Lucy Forbes brings a deft touch to John Lewis’ Christmas campaign “Gloria & Pickles,” capturing the complexities of family dynamics with warmth, humor, and emotional nuance. Starring Kristin Scott Thomas, the film earns a five-star review for its heartfelt storytelling and poignant exploration of the connection between generations. Megan Thee Stallion Invites Fans Into Her Freaky Fantasy with Facebook Megan Thee Stallion Invites Fans Into Her Freaky Fantasy with Facebook shots: Olivia De Camps brings Megan Thee Stallion’s twisted carnival fantasy to life in Facebook’s “Hottieween” campaign, created with Droga5. Inspired by ideas crowdsourced from the rapper’s fans, the haunting black-and-white film blends surreal imagery, eerie performances, and striking production design to create a darkly theatrical spectacle. Lil Nas X Learns to Trust the Plan in Poignant ‘World’s Greatest!’ Video Lil Nas X Learns to Trust the Plan in Poignant ‘World’s Greatest!’ Video Rolling Stone: Phillip Youmans directs Lil Nas X’s “World’s Greatest,” blending performance and childhood flashbacks in a film about resilience and self-belief. The visual builds as past and present intersect, tracing Lil Nas X’s journey. On and Zendaya Spring Into Action for Their Second Apparel Collection On and Zendaya Spring Into Action for Their Second Apparel Collection Ad Age: Pantera brings a heightened, action-driven vision to On’s latest campaign with Zendaya, using martial arts and dynamic choreography to push the collection through a cinematic world built around movement. Telstra’s Space Villains Strike Back in New Network Security Campaign Telstra’s Space Villains Strike Back in New Network Security Campaign Creative Review: Randy Krallman returns to Telstra’s sci-fi universe with another chapter starring Steve Buscemi and his crew of alien misfits. Picking up where the last campaign left off, the latest film brings more outlandish ",
+      "page_excerpt": "Kellogg's Raisin Bran - Will Shat benny blanco, Bb trickz - Joven y Salvaje Fanatics - We're Still Wearing It McVitie's - There's Only One Kelsey Lu - So Help Me God Little Black Book: Park Pictures London Welcomes Jeremy O. Harris Independent: Himesh Patel and Maxine Peake lead actors appearing in Booker Prize short films Little Black Book: Fredrik Bond Directs Theo James and David Beckham in Stella Artois' \"The Gentlemen's Serve\" for Netflix Shots: Greg Hackett on Bug Nights, a Past Life in Music, and the Return of Long-Form Promos Onepointfour: Savanah Leaf on Reuniting with Kelsey Lu for \"So Help Me God\" Shots: Nathan Price Directs E*TRADE from Morgan Stanley's \"What's Next\" for 72andSunny The Hollywood Reporter: Jungle Directs Fanatics' \"We're Still Wearing It\" for Lionel Messi TIFF: Rachel Morrison's \"Love of Your Life\" to World Premiere in TIFF 2026 Special Presentations Shots: Park Pictures Signs Jake Erland for US Representation Jake Schreier Nominated for Directing Emmy as Beef Season 2 Earns 16 Nominations We use analytics cookies to understand how this site is used. You can accept or decline them.",
       "needs_editorial_review": true
     },
     {
@@ -2488,7 +2481,7 @@
       "source_category": "02 TV Broadcast",
       "priority": "P2",
       "status": "page_inspected",
-      "found_at": "2026-11-26T01:50:35.558624+00:00",
+      "found_at": "2026-11-26T08:03:04.723040+00:00",
       "score": 12,
       "requirements": [
         "date_creation",
@@ -2497,7 +2490,7 @@
         "visuel_verifie_ou_exception_scorecard",
         "doublon_identite"
       ],
-      "inspected_at": "2026-11-26T01:50:56.921336+00:00",
+      "inspected_at": "2026-11-26T08:03:26.940954+00:00",
       "final_url": "https://www.rossvideo.com/products/routing-systems/",
       "page_title": "Routing Systems",
       "description": "Optimize your broadcast and production workflows with Ross Video Routing Systems—featuring Ultrix, Ultritouch, Ultricore, and NK Series for advanced signal routing, multi-viewers, audio processing, and flexible control in compact, high-performance solutions for IP, SDI, and hybrid environments.",
@@ -2513,7 +2506,7 @@
       "source_category": "09 France Pro",
       "priority": "P2",
       "status": "page_inspected",
-      "found_at": "2026-11-26T01:50:35.558624+00:00",
+      "found_at": "2026-11-26T08:03:04.723040+00:00",
       "score": 9,
       "requirements": [
         "date_creation",
@@ -2522,7 +2515,7 @@
         "visuel_verifie_ou_exception_scorecard",
         "doublon_identite"
       ],
-      "inspected_at": "2026-11-26T01:50:56.931127+00:00",
+      "inspected_at": "2026-11-26T08:03:27.039320+00:00",
       "final_url": "https://www.seconde-design.com/index.php/portfolio/echoes-of-earth-festival/",
       "page_title": "ECHOES OF EARTH Festival - Seconde Design",
       "description": "",
@@ -2533,12 +2526,12 @@
       "needs_editorial_review": true
     },
     {
-      "url": "https://admin.promonews.tv/ads/redirect/f94d85b4-8758-4207-ace5-7f7ce66e810c",
+      "url": "https://admin.promonews.tv/ads/redirect/f74ff60c-264b-4e97-8c7b-139ffda34e47",
       "source": "Promonews",
       "source_category": "14 Musique Clips",
       "priority": "P1",
       "status": "page_inspected",
-      "found_at": "2026-11-26T01:50:35.558624+00:00",
+      "found_at": "2026-11-26T08:03:04.723040+00:00",
       "score": 14,
       "requirements": [
         "date_creation",
@@ -2547,14 +2540,14 @@
         "visuel_verifie_ou_exception_scorecard",
         "doublon_identite"
       ],
-      "inspected_at": "2026-11-26T01:50:57.003944+00:00",
-      "final_url": "https://www.finalcut-edit.com/",
-      "page_title": "Final Cut",
-      "description": "Final Cut is a creative editorial company with offices in London, New York and Los Angeles. We collaborate with top directors and agencies on the most prominent commercials, feature films and music videos.",
+      "inspected_at": "2026-11-26T08:03:27.054808+00:00",
+      "final_url": "https://smugglersite.com/",
+      "page_title": "SMUGGLER",
+      "description": "SMUGGLER is a Film, TV, Commercial and Music Video production company representing a roster of award winning directors.",
       "published_date_claim": "",
-      "image_candidate": "https://api.finalcut-edit.com/wp-content/themes/finalcut-backend/screenshot.png",
+      "image_candidate": "https://api.smugglersite.com/wp-content/themes/smuggler-theme-backend/screenshot.png",
       "image_verified": false,
-      "page_excerpt": "Final Cut is a creative editorial company with offices in London, New York and Los Angeles. We collaborate with top directors and agencies on the most prominent commercials, feature films and music videos. The Boy & The Invisible Horse Production Company – Blink Director – Derek Cianfrance Production Company – Radical Media Production Company – Phantasm Creative editorial in advertising, film and TV. Production Company – Superprime Production Company – Anonymous Content Editor – Nicolas Larrouquère Production Company – Iconoclast Production Company – Caviar Production Company – Everyone Films Ryan Smith joins Final Cut New York as EP Ryan Smith joins Final Cut as Executive Producer out of the New York office, bringing a decade of industry experience, infectious energy, and a passion for creative collaboration. Learn more via Little Black Book. Kevin Zimmerman | Finely Sliced “Editing is not art. It is craft. It has exponentially more to do with carpentry than painting.” In conversation with LBB, Final Cut editor Kevin Zimmerman unpacks the meticulous process, instinct for storytelling, and obsessive attention to rhythm that shape his work. Check it out. We facilitate the post production creative that transforms raw footage into a polished story. Significant Others explores the liminal space between the creative and the technical. Our capabilities begin at the beginning, all the way from ideas and creative development, through production, post, and finishing. We are (your) Significant Others. Machine is a team of sound designers, composers & producers. We love to create narrative, mood, and emotion through inventive audio composition. From intricate sound design to orchestral scores, we go all out to find the best creative solution for your project. The Lofts is a dry-hire edit facility for long form projects, based in London. Our light and airy cutting rooms are equipped with the latest Avid software and ergonomic workstations. With comfortable and practical break-out spaces and a dedicated client-service team, we provide you with everything you need to unleash your creativity. Managing Director & Executive Producer Managing Director & Executive Producer Managin",
+      "page_excerpt": "SMUGGLER is a Film, TV, Commercial and Music Video production company representing a roster of award winning directors. Lucy Forbes’ “Gloria & Pickles” Earns Five Stars from David Reviews Lucy Forbes’ “Gloria & Pickles” Earns Five Stars from David Reviews David Reviews: Lucy Forbes brings a deft touch to John Lewis’ Christmas campaign “Gloria & Pickles,” capturing the complexities of family dynamics with warmth, humor, and emotional nuance. Starring Kristin Scott Thomas, the film earns a five-star review for its heartfelt storytelling and poignant exploration of the connection between generations. Megan Thee Stallion Invites Fans Into Her Freaky Fantasy with Facebook Megan Thee Stallion Invites Fans Into Her Freaky Fantasy with Facebook shots: Olivia De Camps brings Megan Thee Stallion’s twisted carnival fantasy to life in Facebook’s “Hottieween” campaign, created with Droga5. Inspired by ideas crowdsourced from the rapper’s fans, the haunting black-and-white film blends surreal imagery, eerie performances, and striking production design to create a darkly theatrical spectacle. Lil Nas X Learns to Trust the Plan in Poignant ‘World’s Greatest!’ Video Lil Nas X Learns to Trust the Plan in Poignant ‘World’s Greatest!’ Video Rolling Stone: Phillip Youmans directs Lil Nas X’s “World’s Greatest,” blending performance and childhood flashbacks in a film about resilience and self-belief. The visual builds as past and present intersect, tracing Lil Nas X’s journey. On and Zendaya Spring Into Action for Their Second Apparel Collection On and Zendaya Spring Into Action for Their Second Apparel Collection Ad Age: Pantera brings a heightened, action-driven vision to On’s latest campaign with Zendaya, using martial arts and dynamic choreography to push the collection through a cinematic world built around movement. Telstra’s Space Villains Strike Back in New Network Security Campaign Telstra’s Space Villains Strike Back in New Network Security Campaign Creative Review: Randy Krallman returns to Telstra’s sci-fi universe with another chapter starring Steve Buscemi and his crew of alien misfits. Picking up where the last campaign left off, the latest film brings more outlandish ",
       "needs_editorial_review": true
     },
     {
@@ -2563,7 +2556,7 @@
       "source_category": "09 France Pro",
       "priority": "P2",
       "status": "page_inspected",
-      "found_at": "2026-11-26T01:50:35.558624+00:00",
+      "found_at": "2026-11-26T08:03:04.723040+00:00",
       "score": 9,
       "requirements": [
         "date_creation",
@@ -2572,7 +2565,7 @@
         "visuel_verifie_ou_exception_scorecard",
         "doublon_identite"
       ],
-      "inspected_at": "2026-11-26T01:50:57.053533+00:00",
+      "inspected_at": "2026-11-26T08:03:27.125346+00:00",
       "final_url": "https://www.seconde-design.com/index.php/portfolio/eternel-mucha-grand-palais-immersif/",
       "page_title": "Eternel Mucha - Grand Palais Immersif - Seconde Design",
       "description": "",
@@ -2588,7 +2581,7 @@
       "source_category": "14 Musique Clips",
       "priority": "P1",
       "status": "page_inspected",
-      "found_at": "2026-11-26T01:50:35.558624+00:00",
+      "found_at": "2026-11-26T08:03:04.723040+00:00",
       "score": 14,
       "requirements": [
         "date_creation",
@@ -2597,7 +2590,7 @@
         "visuel_verifie_ou_exception_scorecard",
         "doublon_identite"
       ],
-      "inspected_at": "2026-11-26T01:50:57.127960+00:00",
+      "inspected_at": "2026-11-26T08:03:27.207920+00:00",
       "final_url": "https://biscuitfilmworks.com/",
       "page_title": "Biscuit Filmworks",
       "description": "From Los Angeles to London, Biscuit Filmworks is a full-service production company making commercials, film, television, social campaigns, photography, and music videos. Creating culture for over 25 years.",
@@ -2613,7 +2606,7 @@
       "source_category": "14 Musique Clips",
       "priority": "P1",
       "status": "page_inspected",
-      "found_at": "2026-11-26T01:50:35.558624+00:00",
+      "found_at": "2026-11-26T08:03:04.723040+00:00",
       "score": 14,
       "requirements": [
         "date_creation",
@@ -2622,14 +2615,14 @@
         "visuel_verifie_ou_exception_scorecard",
         "doublon_identite"
       ],
-      "inspected_at": "2026-11-26T01:50:57.259970+00:00",
+      "inspected_at": "2026-11-26T08:03:27.217011+00:00",
       "final_url": "https://www.radiofrance.fr/politique/elections/presidentielle",
       "page_title": "Élection présidentielle 2027 : toute l'actualité et les podcasts à écouter | Radio France",
       "description": "Toute l'actualité Élection présidentielle 2027 sur Radio France. Podcasts à écouter gratuitement en ligne et depuis l'application, avec les dernières actualités et débats.",
       "published_date_claim": "",
       "image_candidate": "https://www.radiofrance.fr/pikapi/images/be3bf26b-a0a6-4ae7-b5b2-d8b682a2bdad/1200x680",
       "image_verified": false,
-      "page_excerpt": "Élection présidentielle 2027 Les Français voteront pour l'élection présidentielle les 18 avril et 02 mai 2027. Ils choisiront leur futur président de la République. Retrouvez toute l'actualité du prochain scrutin présidentiel : candidats déclarés et pressentis, programmes, sondages, dates clés et analyses. Présidentielle : les dernières nouvelles Congrès des maires de France : David Lisnard réélu pour un troisième mandat à la tête de l'AMF La présidentielle au salon des maires, Huawei condamné, vague de violence à Mayotte... Les informations à retenir à 17h François Hollande : 10 ans de pré-campagne Le petit carnet de campagne Faut-il un maire à l'Élysée ? Parrainages présidentiels, les maires seront-ils stratèges ? David Lisnard : percée durable ou bulle sondagière ? Congrès des maires : le Tinder des parrainages a ouvert ! Le petit carnet de campagne Antoine Bristielle analyse les défis du bloc central à l'approche de la présidentielle Présidentielle, primaire du bloc central, règle d'or budgétaire... Le \"8h30 franceinfo\" de François Bayrou Élection présidentielle : problème ou solution ? Macron tape l'incruste avec sa règle d'or Le 108ᵉ Congrès des maires de France s'ouvre ce mardi, dans un contexte de défiance envers l'État central \"L'écologie a été trop longtemps maltraitée\" : Yannick Jadot lance un nouveau parti pour \"renouer avec le succès\" David Lisnard : destin de 3e homme Le petit carnet de campagne Les informés du matin du lundi 23 novembre 2026 Présidentielle 2027 : Marylise Léon redoute de \"très fortes tensions\" si le second tour est maintenu au 2 mai Réédition de \"Démocratie Française\" : Giscard, encore à la barre ? Soupçon de fuites de Beauvau vers le RN : \"Je n'ai jamais reçu d'information confidentielle\", assure Marine Le Pen Convention citoyenne sur les finances publiques, à quoi s'attendre ? Présidentielle 2027 : Marine Le Pen veut poursuivre la conquête de l'électorat féminin Les candidats à l'élection présidentielle 2027 Homme politique et diplomate français Homme politique français et ancien éditorialiste Judoka et homme politique français Journaliste, essayiste et femme politique française Dominique De Villepin, le pari de l'Elysée : \"On/O",
+      "page_excerpt": "Élection présidentielle 2027 Les Français voteront pour l'élection présidentielle les 18 avril et 02 mai 2027. Ils choisiront leur futur président de la République. Retrouvez toute l'actualité du prochain scrutin présidentiel : candidats déclarés et pressentis, programmes, sondages, dates clés et analyses. Présidentielle : les dernières nouvelles Repas de Noël : la politique va-t-elle s'inviter ? Présidentielle : \"J'ai envie de faire entendre mon projet, j'ai envie que les Français le tranchent\", dit David Lisnard Présidentielle : avec David Lisnard, le retour en grâce du libéralisme ? Présidentielle : \"Mon souci c'est que la France se relève\" affirme Bruno Retailleau à Chartres Le Reportage de la rédaction Millefeuille : vers la \"provincialisation\" des régions ? Les premières femmes archéologues/ Le journal spirituel du pape/ Avec David Lisnard, le retour en grâce du libéralisme ? Congrès des maires de France : David Lisnard réélu pour un troisième mandat à la tête de l'AMF La présidentielle au salon des maires, Huawei condamné, vague de violence à Mayotte... Les informations à retenir à 17h François Hollande : 10 ans de pré-campagne Le petit carnet de campagne Faut-il un maire à l'Élysée ? Parrainages présidentiels, les maires seront-ils stratèges ? David Lisnard : percée durable ou bulle sondagière ? Congrès des maires : le Tinder des parrainages a ouvert ! Le petit carnet de campagne Antoine Bristielle analyse les défis du bloc central à l'approche de la présidentielle Présidentielle, primaire du bloc central, règle d'or budgétaire... Le \"8h30 franceinfo\" de François Bayrou Élection présidentielle : problème ou solution ? Macron tape l'incruste avec sa règle d'or Le 108ᵉ Congrès des maires de France s'ouvre ce mardi, dans un contexte de défiance envers l'État central \"L'écologie a été trop longtemps maltraitée\" : Yannick Jadot lance un nouveau parti pour \"renouer avec le succès\" David Lisnard : destin de 3e homme Le petit carnet de campagne Les candidats à l'élection présidentielle 2027 Homme politique et diplomate français Homme politique français et ancien éditorialiste Judoka et homme politique français Journaliste, essayiste et femme politique française ",
       "needs_editorial_review": true
     },
     {
@@ -2638,7 +2631,7 @@
       "source_category": "14 Musique Clips",
       "priority": "P1",
       "status": "page_inspected",
-      "found_at": "2026-11-26T01:50:35.558624+00:00",
+      "found_at": "2026-11-26T08:03:04.723040+00:00",
       "score": 13,
       "requirements": [
         "date_creation",
@@ -2647,7 +2640,7 @@
         "visuel_verifie_ou_exception_scorecard",
         "doublon_identite"
       ],
-      "inspected_at": "2026-11-26T01:50:57.334460+00:00",
+      "inspected_at": "2026-11-26T08:03:27.304406+00:00",
       "final_url": "https://abonnement.sopress.net/abonnements/anciens-numeros-tsugi",
       "page_title": "SO PRESS",
       "description": "",
@@ -2663,7 +2656,7 @@
       "source_category": "14 Musique Clips",
       "priority": "P1",
       "status": "page_inspected",
-      "found_at": "2026-11-26T01:50:35.558624+00:00",
+      "found_at": "2026-11-26T08:03:04.723040+00:00",
       "score": 13,
       "requirements": [
         "date_creation",
@@ -2672,7 +2665,7 @@
         "visuel_verifie_ou_exception_scorecard",
         "doublon_identite"
       ],
-      "inspected_at": "2026-11-26T01:50:57.356438+00:00",
+      "inspected_at": "2026-11-26T08:03:27.345718+00:00",
       "final_url": "https://boutique.so/fr-fr/collections/collection-tsugi",
       "page_title": "Collection Tsugi : Découvrez la collection officielle Tsugi : affiches, tirages, numéros spéciaux, textile et objets dédiés à la culture musicale et aux nouvelles tendances. Une sélection exclusive en édition limitée pou",
       "description": "De Daft Punk à Laurent Garnier, de Justice à Air, découvrez la collection officielle Tsugi : affiches, tirages, magazines, textile et objets dédiés à la musique et aux nouvelles tendances.",
@@ -2688,7 +2681,7 @@
       "source_category": "02 TV Broadcast",
       "priority": "P2",
       "status": "page_inspected",
-      "found_at": "2026-11-26T01:50:35.558624+00:00",
+      "found_at": "2026-11-26T08:03:04.723040+00:00",
       "score": 11,
       "requirements": [
         "date_creation",
@@ -2697,7 +2690,7 @@
         "visuel_verifie_ou_exception_scorecard",
         "doublon_identite"
       ],
-      "inspected_at": "2026-11-26T01:50:57.375695+00:00",
+      "inspected_at": "2026-11-26T08:03:27.415058+00:00",
       "final_url": "https://www.vizrt.com/press-center/vizrt-acquires-chyron/",
       "page_title": "Vizrt Acquires Chyron",
       "description": "Chyron customers gain access to Vizrt's wider portfolio and AI and agentic capabilities, while protecting their investments in existing workflows.",
@@ -2713,7 +2706,7 @@
       "source_category": "14 Musique Clips",
       "priority": "P1",
       "status": "page_inspected",
-      "found_at": "2026-11-26T01:50:35.558624+00:00",
+      "found_at": "2026-11-26T08:03:04.723040+00:00",
       "score": 13,
       "requirements": [
         "date_creation",
@@ -2722,7 +2715,7 @@
         "visuel_verifie_ou_exception_scorecard",
         "doublon_identite"
       ],
-      "inspected_at": "2026-11-26T01:50:57.452006+00:00",
+      "inspected_at": "2026-11-26T08:03:27.563301+00:00",
       "final_url": "https://shop.lesinrocks.com/magazines/les-inrockuptibles-n37-fevrier-2025/",
       "page_title": "LES INROCKUPTIBLES N°37 / Février 2025",
       "description": "À la une : Bob Dylan, le mythe de l’éternel jeune homme.",
@@ -2738,7 +2731,7 @@
       "source_category": "01 Spectacle Concert",
       "priority": "P1",
       "status": "page_inspected",
-      "found_at": "2026-11-26T01:50:35.558624+00:00",
+      "found_at": "2026-11-26T08:03:04.723040+00:00",
       "score": 12,
       "requirements": [
         "date_creation",
@@ -2747,14 +2740,14 @@
         "visuel_verifie_ou_exception_scorecard",
         "doublon_identite"
       ],
-      "inspected_at": "2026-11-26T01:50:57.515544+00:00",
+      "inspected_at": "2026-11-26T08:03:27.599585+00:00",
       "final_url": "https://www.absen-europe.com/product/nt-pro-v2-series/?utm_source=magazine&utm_medium=TPI_Magazine&utm_campaign=webanner&utm_id=2026&utm_term=EU&utm_content=NT_v2",
       "page_title": "NT Pro V2 Series | Absen Europe",
       "description": "The NT Pro V2 series is a new generation of rental LED display products specifically designed by Absen for application scenarios such as corporate events, auto exhibitions, broadcasting-rental.",
       "published_date_claim": "",
       "image_candidate": "https://www.absen-europe.com/wp-content/uploads/2024/03/nt-v2-series-EU-NA-NT-V2-355X355.png",
       "image_verified": false,
-      "page_excerpt": "Pixel Pitch: 0.78mm, 0.93mm, 1.25mm, 1.56mm Panel Dimension: 600(W)*337.5(H)*29.8(D)mm Pixel Pitch: 0.93mm, 1.25mm Panel Dimension: 600(W)*337.5(H)*29.8(D)mm Pixel Pitch: 0.78mm, 0.93mm, 1.25mm, 1.56mm Panel Dimension: 600(W)*337.5(H)*39.3(D)mm Pixel Pitch: 1.8mm, 2mm, 2.5mm Panel Dimensions: 320(W)*480(H)*46.5(D)mm, 320(W)*240(H)*46.5(D)mm Pixel Pitch: 1.5mm, 1.8mm, 2.5mm, 3.7mm Panel Dimensions: 960(W)*540(H)mm, 240(W)*540(H)mm Pixel Pitch: 1.56mm, 1.89mm, 2.5mm, 3.9mm Panel Dimensions: 750(W)*250(H)*39.5(D)mm, 1000(W)*250(H)*39.5(D)mm, 1250(W)*250(H)*39.5(D)mm Pixel Pitch: 4mm, 6mm, 8mm, 10mm Panel dimension: 1280(W)*960(H)*82(D)mm Pixel Pitch: 2.5mm, 2.8mm, 3.9mm Panel dimension: 500(W)*500(H)*99(D)mm, 500(W)*1000(H)*99(D)mm Panel Dimension: 1600(W)*900(H)*129(D)mm Pixel Pitch: 1.5mm, 1.9mm, 2.6mm, 3.9mm Panel Dimensions: 500(W)*500(H)mm, 1000(W)*500(H)mm Panel Dimensions: 500(W)*500(H)mm*107(D)mm Panel Dimensions: 500(W)x500(H)mm Panel Dimensions: 500(W)x1000(H)x88(D)mm, 500(W)x500(H)x88(D)mm Panel Dimension: 1000(W)*1000(H)mm/ 500(W)*500(H)mm Pixel Pitch of Indoor Products: 1.9mm, 2.5mm, 2.9mm, 3.9mm Pixel Pitch of Outdoor Products: 2.9mm, 3.9mm, 4.8mm Panel Dimensions: 500(W)*500(H)mm, 500(W)*1000(H)mm Pixel Pitch: 0.78mm, 0.93mm, 1.25mm, 1.56mm Panel Dimension: 600(W)*337.5(H)*29.8(D)mm Pixel Pitch: 0.93mm, 1.25mm Panel Dimension: 600(W)*337.5(H)*29.8(D)mm Pixel Pitch: 0.78mm, 0.93mm, 1.25mm, 1.56mm Panel Dimension: 600(W)*337.5(H)*39.3(D)mm Pixel Pitch: 1.53mm, 1.86mm Panel dimension: 640(W)*480(H)*60(D)mm Pixel Pitch: 1.2mm, 1.5mm, 1.8mm Screen Dimensions: 2400(W)*1350(H)mm, 3000(W)*1687.5(H)mm, 3600(W)*2025(H)mm Pixel Pitch: 1.2mm, 1.5mm, 1.8mm Screen Dimensions: 2400(W)*1350(H)mm, 3000(W)*1687.5(H)mm, 3600(W)*2025(H)mm Pixel Pitch: 1.25mm, 1.56mm Panel dimension: 3000(W)*1687.5(H)mm, 3600(W)*2025(H)mm Pixel Pitch: 1.25mm, 1.56mm, 1.87mm Diagonal Size: 151″, 178″, 205″ Pixel Pitch: 1.5mm, 1.9mm, 2.6mm, 3.9mm Panel Dimensions: 500(W)*500(H)mm, 1000(W)*500(H)mm Panel Dimensions: 500(W)*500(H)mm*107(D)mm Panel Dimensions: 500(W)x500(H)mm Panel Dimensions: 500(W)x1000(H)x88(D)mm, 500(W)x500(H)x88(D)mm Panel Dimension: 1000(W)*1000(H)mm/ 500(W)*500(H)mm Pi",
+      "page_excerpt": "Pixel Pitch: 0.78mm, 0.93mm, 1.25mm, 1.56mm Panel Dimension: 600(W)*337.5(H)*29.8(D)mm Pixel Pitch: 0.93mm, 1.25mm Panel Dimension: 600(W)*337.5(H)*29.8(D)mm Resolution: 1920×1080(FHD) Dimension:1200mm(W)×675mm(H)×40mm(D) Pixel Pitch: 0.78mm, 0.93mm, 1.25mm, 1.56mm Panel Dimension: 600(W)*337.5(H)*39.3(D)mm Pixel Pitch: 1.8mm, 2mm, 2.5mm Panel Dimensions: 320(W)*480(H)*46.5(D)mm, 320(W)*240(H)*46.5(D)mm Pixel Pitch: 1.5mm, 1.8mm, 2.5mm, 3.7mm Panel Dimensions: 960(W)*540(H)mm, 240(W)*540(H)mm Pixel Pitch: 4mm, 6mm, 8mm, 10mm Panel dimension: 1280(W)*960(H)*82(D)mm Pixel Pitch: 2.5mm, 2.8mm, 3.9mm Panel dimension: 500(W)*500(H)*99(D)mm, 500(W)*1000(H)*99(D)mm Panel Dimension: 1600(W)*900(H)*129(D)mm Pixel Pitch: 1.5mm, 1.9mm, 2.6mm, 3.9mm Panel Dimensions: 500(W)*500(H)mm, 1000(W)*500(H)mm Panel Dimensions: 500(W)*500(H)mm*107(D)mm Panel Dimensions: 500(W)x500(H)mm Panel Dimensions: 500(W)x1000(H)x88(D)mm, 500(W)x500(H)x88(D)mm Panel Dimension: 1000(W)*1000(H)mm/ 500(W)*500(H)mm Pixel Pitch of Indoor Products: 1.9mm, 2.5mm, 2.9mm, 3.9mm Pixel Pitch of Outdoor Products: 2.9mm, 3.9mm, 4.8mm Panel Dimensions: 500(W)*500(H)mm, 500(W)*1000(H)mm Pixel Pitch: 0.78mm, 0.93mm, 1.25mm, 1.56mm Panel Dimension: 600(W)*337.5(H)*29.8(D)mm Pixel Pitch: 0.93mm, 1.25mm Panel Dimension: 600(W)*337.5(H)*29.8(D)mm Resolution: 1920×1080(FHD) Dimension:1200mm(W)×675mm(H)×40mm(D) Pixel Pitch: 0.78mm, 0.93mm, 1.25mm, 1.56mm Panel Dimension: 600(W)*337.5(H)*39.3(D)mm Pixel Pitch: 1.53mm, 1.86mm Panel dimension: 640(W)*480(H)*60(D)mm Pixel Pitch: 1.2mm, 1.5mm, 1.8mm Screen Dimensions: 2400(W)*1350(H)mm, 3000(W)*1687.5(H)mm, 3600(W)*2025(H)mm Pixel Pitch: 1.2mm, 1.5mm, 1.8mm Screen Dimensions: 2400(W)*1350(H)mm, 3000(W)*1687.5(H)mm, 3600(W)*2025(H)mm Pixel Pitch: 1.25mm, 1.56mm Panel dimension: 3000(W)*1687.5(H)mm, 3600(W)*2025(H)mm Pixel Pitch: 1.25mm, 1.56mm, 1.87mm Diagonal Size: 151″, 178″, 205″ Pixel Pitch: 1.5mm, 1.9mm, 2.6mm, 3.9mm Panel Dimensions: 500(W)*500(H)mm, 1000(W)*500(H)mm Panel Dimensions: 500(W)*500(H)mm*107(D)mm Panel Dimensions: 500(W)x500(H)mm Panel Dimensions: 500(W)x1000(H)x88(D)mm, 500(W)x500(H)x88(D)mm Panel Dimension: 1000(W)*1000(H)mm/ 500(W)*500(H)mm Pixel Pitc",
       "needs_editorial_review": true
     },
     {
@@ -2763,7 +2756,7 @@
       "source_category": "09 France Pro",
       "priority": "P2",
       "status": "inspection_failed",
-      "found_at": "2026-11-26T01:50:35.558624+00:00",
+      "found_at": "2026-11-26T08:03:04.723040+00:00",
       "score": 8,
       "requirements": [
         "date_creation",
@@ -2772,7 +2765,7 @@
         "visuel_verifie_ou_exception_scorecard",
         "doublon_identite"
       ],
-      "inspected_at": "2026-11-26T01:50:57.604284+00:00",
+      "inspected_at": "2026-11-26T08:03:27.716491+00:00",
       "error": "HTTP Error 403: Forbidden"
     },
     {
@@ -2781,7 +2774,7 @@
       "source_category": "14 Musique Clips",
       "priority": "P1",
       "status": "page_inspected",
-      "found_at": "2026-11-26T01:50:35.558624+00:00",
+      "found_at": "2026-11-26T08:03:04.723040+00:00",
       "score": 13,
       "requirements": [
         "date_creation",
@@ -2790,7 +2783,7 @@
         "visuel_verifie_ou_exception_scorecard",
         "doublon_identite"
       ],
-      "inspected_at": "2026-11-26T01:50:57.655891+00:00",
+      "inspected_at": "2026-11-26T08:03:27.753301+00:00",
       "final_url": "https://shop.lesinrocks.com/magazines/les-inrockuptibles-n38-mars-2025-elon-musk/",
       "page_title": "LES INROCKUPTIBLES N°38/ Mars2025",
       "description": "LES INROCKUPTIBLES N°38 - Elon Musk, graine de dictateur. Retrouvez notre dossier spécial en plus de 280 caractères.",
@@ -2806,7 +2799,7 @@
       "source_category": "09 France Pro",
       "priority": "P2",
       "status": "page_inspected",
-      "found_at": "2026-11-26T01:50:35.558624+00:00",
+      "found_at": "2026-11-26T08:03:04.723040+00:00",
       "score": 8,
       "requirements": [
         "date_creation",
@@ -2815,7 +2808,7 @@
         "visuel_verifie_ou_exception_scorecard",
         "doublon_identite"
       ],
-      "inspected_at": "2026-11-26T01:50:57.776611+00:00",
+      "inspected_at": "2026-11-26T08:03:27.802343+00:00",
       "final_url": "https://studiocarlos.fr/projets/carlos-computer-club/",
       "page_title": "Carlos Computer Club — Installation interactive · Studio Carlos",
       "description": "Un miroir magique où le corps pilote l'image et les mots du public réécrivent l'œuvre en temps réel, 100% en local. De la soirée VJing à la battle de prompts.",
@@ -2831,7 +2824,7 @@
       "source_category": "14 Musique Clips",
       "priority": "P1",
       "status": "page_inspected",
-      "found_at": "2026-11-26T01:50:35.558624+00:00",
+      "found_at": "2026-11-26T08:03:04.723040+00:00",
       "score": 13,
       "requirements": [
         "date_creation",
@@ -2840,7 +2833,7 @@
         "visuel_verifie_ou_exception_scorecard",
         "doublon_identite"
       ],
-      "inspected_at": "2026-11-26T01:50:57.781405+00:00",
+      "inspected_at": "2026-11-26T08:03:27.827158+00:00",
       "final_url": "https://shop.lesinrocks.com/magazines/les-inrockuptibles-n39-avril-2025/",
       "page_title": "LES INROCKUPTIBLES N°39 / Avril 2025",
       "description": "À la une : I.A. Une amie qui vous veut du bien ? 19 artistes vous répondent.",
@@ -2856,7 +2849,7 @@
       "source_category": "01 Spectacle Concert",
       "priority": "P2",
       "status": "page_inspected",
-      "found_at": "2026-11-26T01:50:35.558624+00:00",
+      "found_at": "2026-11-26T08:03:04.723040+00:00",
       "score": 11,
       "requirements": [
         "date_creation",
@@ -2865,7 +2858,7 @@
         "visuel_verifie_ou_exception_scorecard",
         "doublon_identite"
       ],
-      "inspected_at": "2026-11-26T01:50:57.842462+00:00",
+      "inspected_at": "2026-11-26T08:03:27.947042+00:00",
       "final_url": "https://www.lsionline.com/subscriptions/amend-subscription/",
       "page_title": "Amend your subscription - LSi Online",
       "description": "",
@@ -2881,7 +2874,7 @@
       "source_category": "09 France Pro",
       "priority": "P2",
       "status": "page_inspected",
-      "found_at": "2026-11-26T01:50:35.558624+00:00",
+      "found_at": "2026-11-26T08:03:04.723040+00:00",
       "score": 8,
       "requirements": [
         "date_creation",
@@ -2890,7 +2883,7 @@
         "visuel_verifie_ou_exception_scorecard",
         "doublon_identite"
       ],
-      "inspected_at": "2026-11-26T01:50:57.843379+00:00",
+      "inspected_at": "2026-11-26T08:03:27.950111+00:00",
       "final_url": "https://studiocarlos.fr/projets/echo-42/",
       "page_title": "Echo 42 — Expérience audio immersive · Studio Carlos",
       "description": "Un cinéma pour l'oreille : une heure de fiction invisible que l'on déclenche en marchant. Grand Prix Stratégies du Design, Or.",
@@ -2906,7 +2899,7 @@
       "source_category": "14 Musique Clips",
       "priority": "P1",
       "status": "page_inspected",
-      "found_at": "2026-11-26T01:50:35.558624+00:00",
+      "found_at": "2026-11-26T08:03:04.723040+00:00",
       "score": 13,
       "requirements": [
         "date_creation",
@@ -2915,7 +2908,7 @@
         "visuel_verifie_ou_exception_scorecard",
         "doublon_identite"
       ],
-      "inspected_at": "2026-11-26T01:50:57.942223+00:00",
+      "inspected_at": "2026-11-26T08:03:28.060120+00:00",
       "final_url": "https://shop.lesinrocks.com/magazines/les-inrockuptibles-n40-mai-2025/",
       "page_title": "Les Inrockuptibles n°40 / Mai 2025",
       "description": "Juliette Binoche, la présidente de Cannes.",
@@ -2931,7 +2924,7 @@
       "source_category": "01 Spectacle Concert",
       "priority": "P3",
       "status": "page_inspected",
-      "found_at": "2026-11-26T01:50:35.558624+00:00",
+      "found_at": "2026-11-26T08:03:04.723040+00:00",
       "score": 9,
       "requirements": [
         "date_creation",
@@ -2940,7 +2933,7 @@
         "visuel_verifie_ou_exception_scorecard",
         "doublon_identite"
       ],
-      "inspected_at": "2026-11-26T01:50:58.100895+00:00",
+      "inspected_at": "2026-11-26T08:03:28.185012+00:00",
       "final_url": "https://www.etcconnect.com/About/About-ETC/",
       "page_title": "ETC - Theatre, Film, Studio and Architectural Lighting",
       "description": "Electronic Theatre Controls, Inc. Lighting solutions, control equipment for Theater, Film & TV studios, Architectural spaces and entertainment industries.",
@@ -2956,7 +2949,7 @@
       "source_category": "09 France Pro",
       "priority": "P2",
       "status": "page_inspected",
-      "found_at": "2026-11-26T01:50:35.558624+00:00",
+      "found_at": "2026-11-26T08:03:04.723040+00:00",
       "score": 8,
       "requirements": [
         "date_creation",
@@ -2965,7 +2958,7 @@
         "visuel_verifie_ou_exception_scorecard",
         "doublon_identite"
       ],
-      "inspected_at": "2026-11-26T01:50:58.114365+00:00",
+      "inspected_at": "2026-11-26T08:03:28.228368+00:00",
       "final_url": "https://studiocarlos.fr/projets/hermes-the-keys/",
       "page_title": "Hermès — The Keys / Les Clés de la Maison — Escape game immersif · Studio Carlos",
       "description": "Un escape game Hermès comme un récit dont on est le héros : un concept original, modulaire et exportable, déployé en boutiques dans le monde entier.",
@@ -2981,7 +2974,7 @@
       "source_category": "14 Musique Clips",
       "priority": "P1",
       "status": "page_inspected",
-      "found_at": "2026-11-26T01:50:35.558624+00:00",
+      "found_at": "2026-11-26T08:03:04.723040+00:00",
       "score": 13,
       "requirements": [
         "date_creation",
@@ -2990,7 +2983,7 @@
         "visuel_verifie_ou_exception_scorecard",
         "doublon_identite"
       ],
-      "inspected_at": "2026-11-26T01:50:58.251198+00:00",
+      "inspected_at": "2026-11-26T08:03:28.277221+00:00",
       "final_url": "https://shop.lesinrocks.com/magazines/les-inrockuptibles-n41-juin-2025/",
       "page_title": "Les Inrockuptibles n°41 / Juin 2025",
       "description": "Damso, l'interview dingue et définitive",
@@ -3006,7 +2999,7 @@
       "source_category": "01 Spectacle Concert",
       "priority": "P3",
       "status": "page_inspected",
-      "found_at": "2026-11-26T01:50:35.558624+00:00",
+      "found_at": "2026-11-26T08:03:04.723040+00:00",
       "score": 9,
       "requirements": [
         "date_creation",
@@ -3015,7 +3008,7 @@
         "visuel_verifie_ou_exception_scorecard",
         "doublon_identite"
       ],
-      "inspected_at": "2026-11-26T01:50:58.278544+00:00",
+      "inspected_at": "2026-11-26T08:03:28.383208+00:00",
       "final_url": "https://www.etcconnect.com/About/Buy-American/",
       "page_title": "ETC - Theatre, Film, Studio and Architectural Lighting",
       "description": "Electronic Theatre Controls, Inc. Lighting solutions, control equipment for Theater, Film & TV studios, Architectural spaces and entertainment industries.",
@@ -3031,7 +3024,7 @@
       "source_category": "09 France Pro",
       "priority": "P2",
       "status": "page_inspected",
-      "found_at": "2026-11-26T01:50:35.558624+00:00",
+      "found_at": "2026-11-26T08:03:04.723040+00:00",
       "score": 8,
       "requirements": [
         "date_creation",
@@ -3040,7 +3033,7 @@
         "visuel_verifie_ou_exception_scorecard",
         "doublon_identite"
       ],
-      "inspected_at": "2026-11-26T01:50:58.340124+00:00",
+      "inspected_at": "2026-11-26T08:03:28.386078+00:00",
       "final_url": "https://studiocarlos.fr/projets/hublot-digital-forge/",
       "page_title": "Hublot — The Digital Forge — Expérience interactive tactile · Studio Carlos",
       "description": "À Dubai Watch Week, chaque visiteur devient artisan du temps et repart avec son artefact digital.",
@@ -3056,7 +3049,7 @@
       "source_category": "14 Musique Clips",
       "priority": "P1",
       "status": "page_inspected",
-      "found_at": "2026-11-26T01:50:35.558624+00:00",
+      "found_at": "2026-11-26T08:03:04.723040+00:00",
       "score": 13,
       "requirements": [
         "date_creation",
@@ -3065,7 +3058,7 @@
         "visuel_verifie_ou_exception_scorecard",
         "doublon_identite"
       ],
-      "inspected_at": "2026-11-26T01:50:58.388370+00:00",
+      "inspected_at": "2026-11-26T08:03:28.442667+00:00",
       "final_url": "https://shop.lesinrocks.com/magazines/les-inrockuptibles-n42-juillet-aout-2025/",
       "page_title": "Les Inrockuptibles n°42 / Juillet-Août 2025",
       "description": "Les Inrockuptibles n°42 : Oasis – Reformation supersonique. Liam et Noel Gallagher se retrouvent. À cette occasion, un numéro...",
@@ -3081,7 +3074,7 @@
       "source_category": "01 Spectacle Concert",
       "priority": "P3",
       "status": "page_inspected",
-      "found_at": "2026-11-26T01:50:35.558624+00:00",
+      "found_at": "2026-11-26T08:03:04.723040+00:00",
       "score": 9,
       "requirements": [
         "date_creation",
@@ -3090,7 +3083,7 @@
         "visuel_verifie_ou_exception_scorecard",
         "doublon_identite"
       ],
-      "inspected_at": "2026-11-26T01:50:58.501094+00:00",
+      "inspected_at": "2026-11-26T08:03:28.518210+00:00",
       "final_url": "https://www.etcconnect.com/Products/Architectural-Fixtures/",
       "page_title": "ETC - Theatre, Film, Studio and Architectural Lighting",
       "description": "Electronic Theatre Controls, Inc. Lighting solutions, control equipment for Theater, Film & TV studios, Architectural spaces and entertainment industries.",
@@ -3106,7 +3099,7 @@
       "source_category": "09 France Pro",
       "priority": "P2",
       "status": "page_inspected",
-      "found_at": "2026-11-26T01:50:35.558624+00:00",
+      "found_at": "2026-11-26T08:03:04.723040+00:00",
       "score": 8,
       "requirements": [
         "date_creation",
@@ -3115,7 +3108,7 @@
         "visuel_verifie_ou_exception_scorecard",
         "doublon_identite"
       ],
-      "inspected_at": "2026-11-26T01:50:58.567775+00:00",
+      "inspected_at": "2026-11-26T08:03:28.549994+00:00",
       "final_url": "https://studiocarlos.fr/projets/sephora-illumination/",
       "page_title": "Sephora — Illumination — Data art interactif · Studio Carlos",
       "description": "Quatre écrans, des milliers de carnations scannées en boutique : une œuvre de data art sur la diversité, où le public joue avec les vraies données de peau.",
@@ -3131,7 +3124,7 @@
       "source_category": "01 Spectacle Concert",
       "priority": "P3",
       "status": "page_inspected",
-      "found_at": "2026-11-26T01:50:35.558624+00:00",
+      "found_at": "2026-11-26T08:03:04.723040+00:00",
       "score": 9,
       "requirements": [
         "date_creation",
@@ -3140,7 +3133,7 @@
         "visuel_verifie_ou_exception_scorecard",
         "doublon_identite"
       ],
-      "inspected_at": "2026-11-26T01:50:58.757206+00:00",
+      "inspected_at": "2026-11-26T08:03:28.656841+00:00",
       "final_url": "https://www.etcconnect.com/Products/Architectural-Systems/",
       "page_title": "ETC - Theatre, Film, Studio and Architectural Lighting",
       "description": "Electronic Theatre Controls, Inc. Lighting solutions, control equipment for Theater, Film & TV studios, Architectural spaces and entertainment industries.",
@@ -3156,7 +3149,7 @@
       "source_category": "09 France Pro",
       "priority": "P2",
       "status": "page_inspected",
-      "found_at": "2026-11-26T01:50:35.558624+00:00",
+      "found_at": "2026-11-26T08:03:04.723040+00:00",
       "score": 8,
       "requirements": [
         "date_creation",
@@ -3165,7 +3158,7 @@
         "visuel_verifie_ou_exception_scorecard",
         "doublon_identite"
       ],
-      "inspected_at": "2026-11-26T01:50:58.777582+00:00",
+      "inspected_at": "2026-11-26T08:03:28.695626+00:00",
       "final_url": "https://studiocarlos.fr/projets/virtual-graffiti/",
       "page_title": "Virtual Graffiti — Loading (Grand Palais Immersif) — Exposition immersive 360° · Studio Carlos",
       "description": "Taguer pour de vrai, sans une goutte de peinture : une bombe imprimée en 3D et trackée, au Grand Palais Immersif.",
@@ -3181,7 +3174,7 @@
       "source_category": "01 Spectacle Concert",
       "priority": "P3",
       "status": "page_inspected",
-      "found_at": "2026-11-26T01:50:35.558624+00:00",
+      "found_at": "2026-11-26T08:03:04.723040+00:00",
       "score": 9,
       "requirements": [
         "date_creation",
@@ -3190,7 +3183,7 @@
         "visuel_verifie_ou_exception_scorecard",
         "doublon_identite"
       ],
-      "inspected_at": "2026-11-26T01:50:58.911796+00:00",
+      "inspected_at": "2026-11-26T08:03:28.797531+00:00",
       "final_url": "https://www.etcconnect.com/Products/Automated-Fixtures/",
       "page_title": "ETC - Theatre, Film, Studio and Architectural Lighting",
       "description": "Electronic Theatre Controls, Inc. Lighting solutions, control equipment for Theater, Film & TV studios, Architectural spaces and entertainment industries.",
@@ -3206,7 +3199,7 @@
       "source_category": "09 France Pro",
       "priority": "P2",
       "status": "page_inspected",
-      "found_at": "2026-11-26T01:50:35.558624+00:00",
+      "found_at": "2026-11-26T08:03:04.723040+00:00",
       "score": 8,
       "requirements": [
         "date_creation",
@@ -3215,7 +3208,7 @@
         "visuel_verifie_ou_exception_scorecard",
         "doublon_identite"
       ],
-      "inspected_at": "2026-11-26T01:50:59.015774+00:00",
+      "inspected_at": "2026-11-26T08:03:28.824504+00:00",
       "final_url": "https://www.d-labs.fr/projets/fally-ipupa",
       "page_title": "Fally Ipupa Création Visuelle Concert DLabs",
       "description": "Création visuelle imaginée par DLabs pour les deux concerts de Fally Ipupa au Stade de France en mai 2026",
@@ -3231,7 +3224,7 @@
       "source_category": "14 Musique Clips",
       "priority": "P1",
       "status": "page_inspected",
-      "found_at": "2026-11-26T01:50:35.558624+00:00",
+      "found_at": "2026-11-26T08:03:04.723040+00:00",
       "score": 13,
       "requirements": [
         "date_creation",
@@ -3240,7 +3233,7 @@
         "visuel_verifie_ou_exception_scorecard",
         "doublon_identite"
       ],
-      "inspected_at": "2026-11-26T01:50:59.022333+00:00",
+      "inspected_at": "2026-11-26T08:03:28.926446+00:00",
       "final_url": "https://vimeo.com/channels/motionographer",
       "page_title": "Motionographer®",
       "description": "Fostering the Global Motion Design & Creative Community since 2006.  https://motionographer.com | https://motionawards.com",
@@ -3256,7 +3249,7 @@
       "source_category": "01 Spectacle Concert",
       "priority": "P3",
       "status": "page_inspected",
-      "found_at": "2026-11-26T01:50:35.558624+00:00",
+      "found_at": "2026-11-26T08:03:04.723040+00:00",
       "score": 9,
       "requirements": [
         "date_creation",
@@ -3265,7 +3258,7 @@
         "visuel_verifie_ou_exception_scorecard",
         "doublon_identite"
       ],
-      "inspected_at": "2026-11-26T01:50:59.093701+00:00",
+      "inspected_at": "2026-11-26T08:03:29.003193+00:00",
       "final_url": "https://www.etcconnect.com/Products/Consoles/",
       "page_title": "ETC - Theatre, Film, Studio and Architectural Lighting",
       "description": "Electronic Theatre Controls, Inc. Lighting solutions, control equipment for Theater, Film & TV studios, Architectural spaces and entertainment industries.",
@@ -3281,7 +3274,7 @@
       "source_category": "09 France Pro",
       "priority": "P2",
       "status": "page_inspected",
-      "found_at": "2026-11-26T01:50:35.558624+00:00",
+      "found_at": "2026-11-26T08:03:04.723040+00:00",
       "score": 8,
       "requirements": [
         "date_creation",
@@ -3290,7 +3283,7 @@
         "visuel_verifie_ou_exception_scorecard",
         "doublon_identite"
       ],
-      "inspected_at": "2026-11-26T01:50:59.154399+00:00",
+      "inspected_at": "2026-11-26T08:03:29.060277+00:00",
       "final_url": "https://www.d-labs.fr/projets/ninho",
       "page_title": "Ninho Création Visuelle Concert DLabs",
       "description": "Création visuelle imaginée par DLabs pour les deux concerts de Ninho au Stade de France en mai 2025",
@@ -3306,7 +3299,7 @@
       "source_category": "14 Musique Clips",
       "priority": "P1",
       "status": "page_inspected",
-      "found_at": "2026-11-26T01:50:35.558624+00:00",
+      "found_at": "2026-11-26T08:03:04.723040+00:00",
       "score": 13,
       "requirements": [
         "date_creation",
@@ -3315,7 +3308,7 @@
         "visuel_verifie_ou_exception_scorecard",
         "doublon_identite"
       ],
-      "inspected_at": "2026-11-26T01:50:59.226909+00:00",
+      "inspected_at": "2026-11-26T08:03:29.145311+00:00",
       "final_url": "https://www.blogotheque.net/articles/aoife-nessa-frances-feat-meabh-mckenna/",
       "page_title": "Aoife Nessa Frances  | La Blogothèque - We Love Filming Music.",
       "description": "A Take Away Show on the banks of the Seine under the last beams of sunlight of a Parisian Autumn’s day!",
@@ -3331,7 +3324,7 @@
       "source_category": "09 France Pro",
       "priority": "P2",
       "status": "page_inspected",
-      "found_at": "2026-11-26T01:50:35.558624+00:00",
+      "found_at": "2026-11-26T08:03:04.723040+00:00",
       "score": 8,
       "requirements": [
         "date_creation",
@@ -3340,7 +3333,7 @@
         "visuel_verifie_ou_exception_scorecard",
         "doublon_identite"
       ],
-      "inspected_at": "2026-11-26T01:50:59.250680+00:00",
+      "inspected_at": "2026-11-26T08:03:29.172379+00:00",
       "final_url": "https://www.d-labs.fr/projets/shay-2",
       "page_title": "Shay Création Visuelle Concert DLabs",
       "description": "Création visuelle imaginée par DLabs pour la mise en scène de l'Acte III de Shay lors de ces deux concerts au Zénith en 2024",
@@ -3356,7 +3349,7 @@
       "source_category": "14 Musique Clips",
       "priority": "P1",
       "status": "page_inspected",
-      "found_at": "2026-11-26T01:50:35.558624+00:00",
+      "found_at": "2026-11-26T08:03:04.723040+00:00",
       "score": 13,
       "requirements": [
         "date_creation",
@@ -3365,7 +3358,7 @@
         "visuel_verifie_ou_exception_scorecard",
         "doublon_identite"
       ],
-      "inspected_at": "2026-11-26T01:50:59.354777+00:00",
+      "inspected_at": "2026-11-26T08:03:29.219367+00:00",
       "final_url": "https://www.blogotheque.net/articles/benjamin-booker-25870/",
       "page_title": "Benjamin Booker | La Blogothèque - We Love Filming Music.",
       "description": "You can now watch the entire 53rd Soirée de Poche with the New Orleans-based Benjamin Booker playing acoustic with a few lucky fans.",
@@ -3381,7 +3374,7 @@
       "source_category": "09 France Pro",
       "priority": "P2",
       "status": "page_inspected",
-      "found_at": "2026-11-26T01:50:35.558624+00:00",
+      "found_at": "2026-11-26T08:03:04.723040+00:00",
       "score": 8,
       "requirements": [
         "date_creation",
@@ -3390,7 +3383,7 @@
         "visuel_verifie_ou_exception_scorecard",
         "doublon_identite"
       ],
-      "inspected_at": "2026-11-26T01:50:59.395435+00:00",
+      "inspected_at": "2026-11-26T08:03:29.261585+00:00",
       "final_url": "https://www.ghs.fr/formation/lactualite-sociale/",
       "page_title": "lactualite-sociale-dans-le-secteur-culturel",
       "description": "Evolutions législatives et synthèse des nouvelles réglementations",
@@ -3406,7 +3399,7 @@
       "source_category": "14 Musique Clips",
       "priority": "P1",
       "status": "page_inspected",
-      "found_at": "2026-11-26T01:50:35.558624+00:00",
+      "found_at": "2026-11-26T08:03:04.723040+00:00",
       "score": 13,
       "requirements": [
         "date_creation",
@@ -3415,7 +3408,7 @@
         "visuel_verifie_ou_exception_scorecard",
         "doublon_identite"
       ],
-      "inspected_at": "2026-11-26T01:50:59.417241+00:00",
+      "inspected_at": "2026-11-26T08:03:29.315015+00:00",
       "final_url": "https://www.blogotheque.net/articles/clara-mann/",
       "page_title": "Clara Mann | La Blogothèque - We Love Filming Music.",
       "description": "The sun gifted us with a tender morning light for this session with Clara Mann!",
@@ -3431,7 +3424,7 @@
       "source_category": "09 France Pro",
       "priority": "P2",
       "status": "page_inspected",
-      "found_at": "2026-11-26T01:50:35.558624+00:00",
+      "found_at": "2026-11-26T08:03:04.723040+00:00",
       "score": 8,
       "requirements": [
         "date_creation",
@@ -3440,7 +3433,7 @@
         "visuel_verifie_ou_exception_scorecard",
         "doublon_identite"
       ],
-      "inspected_at": "2026-11-26T01:50:59.465584+00:00",
+      "inspected_at": "2026-11-26T08:03:29.357245+00:00",
       "final_url": "https://www.idlia.fr/360view/penseesdulys/?project=60c84cf152385",
       "page_title": "360 view - IDLIA",
       "description": "",
@@ -3456,7 +3449,7 @@
       "source_category": "14 Musique Clips",
       "priority": "P1",
       "status": "page_inspected",
-      "found_at": "2026-11-26T01:50:35.558624+00:00",
+      "found_at": "2026-11-26T08:03:04.723040+00:00",
       "score": 13,
       "requirements": [
         "date_creation",
@@ -3465,7 +3458,7 @@
         "visuel_verifie_ou_exception_scorecard",
         "doublon_identite"
       ],
-      "inspected_at": "2026-11-26T01:50:59.485223+00:00",
+      "inspected_at": "2026-11-26T08:03:29.369053+00:00",
       "final_url": "https://www.blogotheque.net/articles/d4vd/",
       "page_title": "D4vd | La Blogothèque - We Love Filming Music.",
       "description": "A stroll through the heart of London's Hackney district with rising artist D4vd!",
@@ -3481,7 +3474,7 @@
       "source_category": "09 France Pro",
       "priority": "P2",
       "status": "page_inspected",
-      "found_at": "2026-11-26T01:50:35.558624+00:00",
+      "found_at": "2026-11-26T08:03:04.723040+00:00",
       "score": 8,
       "requirements": [
         "date_creation",
@@ -3490,7 +3483,7 @@
         "visuel_verifie_ou_exception_scorecard",
         "doublon_identite"
       ],
-      "inspected_at": "2026-11-26T01:50:59.498017+00:00",
+      "inspected_at": "2026-11-26T08:03:29.445703+00:00",
       "final_url": "https://www.lascene.com/decouvrir-nos-magazines/jurisculture",
       "page_title": "Le Jurisculture | La Scène",
       "description": "",
@@ -3506,7 +3499,7 @@
       "source_category": "14 Musique Clips",
       "priority": "P1",
       "status": "page_inspected",
-      "found_at": "2026-11-26T01:50:35.558624+00:00",
+      "found_at": "2026-11-26T08:03:04.723040+00:00",
       "score": 13,
       "requirements": [
         "date_creation",
@@ -3515,7 +3508,7 @@
         "visuel_verifie_ou_exception_scorecard",
         "doublon_identite"
       ],
-      "inspected_at": "2026-11-26T01:50:59.505445+00:00",
+      "inspected_at": "2026-11-26T08:03:29.462670+00:00",
       "final_url": "https://www.blogotheque.net/articles/damien-rice/",
       "page_title": "Damien Rice | La Blogothèque - We Love Filming Music.",
       "description": "C'était la première fois que je partais de chez moi. À 1400km de ma famille, de mes amis, de tous mes points de repères et de ce que j'étais dans la ville qui m'a vu grandir.",
@@ -3531,7 +3524,7 @@
       "source_category": "09 France Pro",
       "priority": "P2",
       "status": "page_inspected",
-      "found_at": "2026-11-26T01:50:35.558624+00:00",
+      "found_at": "2026-11-26T08:03:04.723040+00:00",
       "score": 8,
       "requirements": [
         "date_creation",
@@ -3540,7 +3533,7 @@
         "visuel_verifie_ou_exception_scorecard",
         "doublon_identite"
       ],
-      "inspected_at": "2026-11-26T01:50:59.548551+00:00",
+      "inspected_at": "2026-11-26T08:03:29.469836+00:00",
       "final_url": "https://www.lascene.com/decouvrir-nos-magazines/lettre-lentreprise-culturelle",
       "page_title": "La Lettre de l'entreprise culturelle | La Scène",
       "description": "",
@@ -3556,7 +3549,7 @@
       "source_category": "09 France Pro",
       "priority": "P2",
       "status": "page_inspected",
-      "found_at": "2026-11-26T01:50:35.558624+00:00",
+      "found_at": "2026-11-26T08:03:04.723040+00:00",
       "score": 8,
       "requirements": [
         "date_creation",
@@ -3565,7 +3558,7 @@
         "visuel_verifie_ou_exception_scorecard",
         "doublon_identite"
       ],
-      "inspected_at": "2026-11-26T01:50:59.621087+00:00",
+      "inspected_at": "2026-11-26T08:03:29.482986+00:00",
       "final_url": "https://www.lascene.com/decouvrir-nos-magazines/lettre-musicien",
       "page_title": "La Lettre du Musicien | La Scène",
       "description": "",
@@ -3581,7 +3574,7 @@
       "source_category": "09 France Pro",
       "priority": "P2",
       "status": "page_inspected",
-      "found_at": "2026-11-26T01:50:35.558624+00:00",
+      "found_at": "2026-11-26T08:03:04.723040+00:00",
       "score": 8,
       "requirements": [
         "date_creation",
@@ -3590,7 +3583,7 @@
         "visuel_verifie_ou_exception_scorecard",
         "doublon_identite"
       ],
-      "inspected_at": "2026-11-26T01:50:59.626877+00:00",
+      "inspected_at": "2026-11-26T08:03:29.498351+00:00",
       "final_url": "https://www.lascene.com/decouvrir-nos-magazines/piccolo",
       "page_title": "Le Piccolo | La Scène",
       "description": "",
@@ -3606,7 +3599,7 @@
       "source_category": "09 France Pro",
       "priority": "P2",
       "status": "page_inspected",
-      "found_at": "2026-11-26T01:50:35.558624+00:00",
+      "found_at": "2026-11-26T08:03:04.723040+00:00",
       "score": 8,
       "requirements": [
         "date_creation",
@@ -3615,7 +3608,7 @@
         "visuel_verifie_ou_exception_scorecard",
         "doublon_identite"
       ],
-      "inspected_at": "2026-11-26T01:50:59.670611+00:00",
+      "inspected_at": "2026-11-26T08:03:29.502865+00:00",
       "final_url": "https://www.lascene.com/decouvrir-nos-magazines/scene",
       "page_title": "La Scène | La Scène",
       "description": "",
@@ -3631,7 +3624,7 @@
       "source_category": "09 France Pro",
       "priority": "P2",
       "status": "page_inspected",
-      "found_at": "2026-11-26T01:50:35.558624+00:00",
+      "found_at": "2026-11-26T08:03:04.723040+00:00",
       "score": 8,
       "requirements": [
         "date_creation",
@@ -3640,7 +3633,7 @@
         "visuel_verifie_ou_exception_scorecard",
         "doublon_identite"
       ],
-      "inspected_at": "2026-11-26T01:50:59.689335+00:00",
+      "inspected_at": "2026-11-26T08:03:29.540123+00:00",
       "final_url": "https://www.lascene.com/decouvrir-nos-magazines/sceneplus",
       "page_title": "ScènePlus | La Scène",
       "description": "",
@@ -3656,7 +3649,7 @@
       "source_category": "14 Musique Clips",
       "priority": "P1",
       "status": "page_inspected",
-      "found_at": "2026-11-26T01:50:35.558624+00:00",
+      "found_at": "2026-11-26T08:03:04.723040+00:00",
       "score": 13,
       "requirements": [
         "date_creation",
@@ -3665,7 +3658,7 @@
         "visuel_verifie_ou_exception_scorecard",
         "doublon_identite"
       ],
-      "inspected_at": "2026-11-26T01:50:59.750540+00:00",
+      "inspected_at": "2026-11-26T08:03:29.860068+00:00",
       "final_url": "https://www.nowness.com/films/diaries-fishing-lessons/",
       "page_title": "NOWNESS - Diaries: Fishing Lessons",
       "description": "Diaries: Fishing Lessons New York filmmaker Guy Kozak captures advice on love, life and fishing in Cape Cod, exploring male friendship traditions on 16mm film For the short film Fishing Lessons, New York-based filmmaker Guy Kozak reflects on romantic relationships through angling and the traditions…",
@@ -3681,7 +3674,7 @@
       "source_category": "14 Musique Clips",
       "priority": "P1",
       "status": "page_inspected",
-      "found_at": "2026-11-26T01:50:35.558624+00:00",
+      "found_at": "2026-11-26T08:03:04.723040+00:00",
       "score": 13,
       "requirements": [
         "date_creation",
@@ -3690,7 +3683,7 @@
         "visuel_verifie_ou_exception_scorecard",
         "doublon_identite"
       ],
-      "inspected_at": "2026-11-26T01:50:59.765164+00:00",
+      "inspected_at": "2026-11-26T08:03:29.895534+00:00",
       "final_url": "https://www.nowness.com/films/even-if-you-dont-root-for-me-liz-dorea/",
       "page_title": "NOWNESS - Limber Up: Even If You Don’t Root For Me",
       "description": "Limber Up: Even If You Don’t Root For Me In Havana, Cuba, a young Brazilian boxer confronts the ghosts of abandoned dreams and finding new purpose after defeat Moving between fiction and documentary, Sao Paulo based director Liz Dorea follows young Brazilian boxer Matheus on his return to Havana…",
@@ -3706,7 +3699,7 @@
       "source_category": "14 Musique Clips",
       "priority": "P1",
       "status": "page_inspected",
-      "found_at": "2026-11-26T01:50:35.558624+00:00",
+      "found_at": "2026-11-26T08:03:04.723040+00:00",
       "score": 13,
       "requirements": [
         "date_creation",
@@ -3715,7 +3708,7 @@
         "visuel_verifie_ou_exception_scorecard",
         "doublon_identite"
       ],
-      "inspected_at": "2026-11-26T01:50:59.979396+00:00",
+      "inspected_at": "2026-11-26T08:03:29.920108+00:00",
       "final_url": "https://www.nowness.com/films/flamenco-carla-simon/",
       "page_title": "NOWNESS - ​Flamenco",
       "description": "​Flamenco Spanish filmmaker Carla Simón and dancer Rocío Molina frame cultural inheritance and artistic freedom through flamenco in a cinematic narrative told by the body in movement Premiered at Cannes Film Festival 2026, Spanish filmmaker Carla Simón centers the physical and emotional power of…",
@@ -3731,7 +3724,7 @@
       "source_category": "14 Musique Clips",
       "priority": "P1",
       "status": "page_inspected",
-      "found_at": "2026-11-26T01:50:35.558624+00:00",
+      "found_at": "2026-11-26T08:03:04.723040+00:00",
       "score": 13,
       "requirements": [
         "date_creation",
@@ -3740,7 +3733,7 @@
         "visuel_verifie_ou_exception_scorecard",
         "doublon_identite"
       ],
-      "inspected_at": "2026-11-26T01:51:00.001667+00:00",
+      "inspected_at": "2026-11-26T08:03:29.942557+00:00",
       "final_url": "https://www.nowness.com/films/ghosts-dagger-berlin-felix-aaron/",
       "page_title": "NOWNESS - GHOSTS",
       "description": "GHOSTS Director Felix Aaron explores queer isolation, memory, and the need to be seen yet invisible from the winter landscape of Portrush, Northern Ireland, with Berlin-based fashion brand Dagger Shaped by memories of growing up in a seaside town defined by two very different seasons, Berlin-based…",
@@ -3756,7 +3749,7 @@
       "source_category": "14 Musique Clips",
       "priority": "P1",
       "status": "page_inspected",
-      "found_at": "2026-11-26T01:50:35.558624+00:00",
+      "found_at": "2026-11-26T08:03:04.723040+00:00",
       "score": 13,
       "requirements": [
         "date_creation",
@@ -3765,7 +3758,7 @@
         "visuel_verifie_ou_exception_scorecard",
         "doublon_identite"
       ],
-      "inspected_at": "2026-11-26T01:51:00.023378+00:00",
+      "inspected_at": "2026-11-26T08:03:29.962896+00:00",
       "final_url": "https://www.nowness.com/films/glacier-view-alaska-jamie-shipston-mourn/",
       "page_title": "NOWNESS - Portrait of a Place: Glacier View",
       "description": "Glacier View Filmmaker Jamie Shipston-Mourn captures ritual and catharsis in destruction at the Fourth of July Car Launch, watching cars launched at speed into the Alaskan landscape Once a year in Glacier View, Alaska, people drive enormous distances to watch their cars get catapulted off a 300ft…",
@@ -3781,7 +3774,7 @@
       "source_category": "08 Immersif CGI Motion",
       "priority": "P2",
       "status": "page_inspected",
-      "found_at": "2026-11-26T01:50:35.558624+00:00",
+      "found_at": "2026-11-26T08:03:04.723040+00:00",
       "score": 22,
       "requirements": [
         "date_creation",
@@ -3790,7 +3783,7 @@
         "visuel_verifie_ou_exception_scorecard",
         "doublon_identite"
       ],
-      "inspected_at": "2026-11-26T01:51:00.027779+00:00",
+      "inspected_at": "2026-11-26T08:03:29.969793+00:00",
       "final_url": "https://www.notch.one/features/video-live-images",
       "page_title": "Notch | Video & Live Images",
       "description": "Next-gen video effects and processing with automatic background removal.",
@@ -3806,7 +3799,7 @@
       "source_category": "08 Immersif CGI Motion",
       "priority": "P2",
       "status": "page_inspected",
-      "found_at": "2026-11-26T01:50:35.558624+00:00",
+      "found_at": "2026-11-26T08:03:04.723040+00:00",
       "score": 20,
       "requirements": [
         "date_creation",
@@ -3815,7 +3808,7 @@
         "visuel_verifie_ou_exception_scorecard",
         "doublon_identite"
       ],
-      "inspected_at": "2026-11-26T01:51:00.100647+00:00",
+      "inspected_at": "2026-11-26T08:03:30.063564+00:00",
       "final_url": "https://www.smode.io/en/product/live-xr-visual-virtual-production",
       "page_title": "Smode live XR augmented reality platform",
       "description": "Smode Live XR platform offers a comprehensive all-in-one solution for Extended Reality XR and Virtual Production with powerful real-time 3D engines",
@@ -3831,7 +3824,7 @@
       "source_category": "04 Pub Strategie",
       "priority": "P1",
       "status": "page_inspected",
-      "found_at": "2026-11-26T01:50:35.558624+00:00",
+      "found_at": "2026-11-26T08:03:04.723040+00:00",
       "score": 18,
       "requirements": [
         "date_creation",
@@ -3840,7 +3833,7 @@
         "visuel_verifie_ou_exception_scorecard",
         "doublon_identite"
       ],
-      "inspected_at": "2026-11-26T01:51:00.171986+00:00",
+      "inspected_at": "2026-11-26T08:03:30.112743+00:00",
       "final_url": "https://clios.com/event/2026-clio-sports-awards-show/",
       "page_title": "2026 Clio Sports Awards Show - The Clios",
       "description": "",
@@ -3856,7 +3849,7 @@
       "source_category": "04 Pub Strategie",
       "priority": "P2",
       "status": "page_inspected",
-      "found_at": "2026-11-26T01:50:35.558624+00:00",
+      "found_at": "2026-11-26T08:03:04.723040+00:00",
       "score": 18,
       "requirements": [
         "date_creation",
@@ -3865,7 +3858,7 @@
         "visuel_verifie_ou_exception_scorecard",
         "doublon_identite"
       ],
-      "inspected_at": "2026-11-26T01:51:00.192006+00:00",
+      "inspected_at": "2026-11-26T08:03:30.116542+00:00",
       "final_url": "https://www.campaignasia.com/article/campaign-asia-s-agency-performance-reviews-2026/4bvk2ex18m4gptpbwvab2t6d5q",
       "page_title": "Agency Performance Review 2026: We graded 22 agency networks",
       "description": "",
@@ -3881,7 +3874,7 @@
       "source_category": "07 FOOH OOH DOOH",
       "priority": "P2",
       "status": "page_inspected",
-      "found_at": "2026-11-26T01:50:35.558624+00:00",
+      "found_at": "2026-11-26T08:03:04.723040+00:00",
       "score": 17,
       "requirements": [
         "date_creation",
@@ -3890,7 +3883,7 @@
         "visuel_verifie_ou_exception_scorecard",
         "doublon_identite"
       ],
-      "inspected_at": "2026-11-26T01:51:00.221279+00:00",
+      "inspected_at": "2026-11-26T08:03:30.130271+00:00",
       "final_url": "https://www.dooh.com/news/doohcom-wins-ad-tech-innovation-award-at-the-performance-marketing-world-awards-2026/",
       "page_title": "DOOH.com Wins Ad Tech Innovation PMW Award",
       "description": "DOOH.com Wins Ad Tech Innovation PMW Award",
@@ -3906,7 +3899,7 @@
       "source_category": "08 Immersif CGI Motion",
       "priority": "P2",
       "status": "page_inspected",
-      "found_at": "2026-11-26T01:50:35.558624+00:00",
+      "found_at": "2026-11-26T08:03:04.723040+00:00",
       "score": 17,
       "requirements": [
         "date_creation",
@@ -3915,7 +3908,7 @@
         "visuel_verifie_ou_exception_scorecard",
         "doublon_identite"
       ],
-      "inspected_at": "2026-11-26T01:51:00.262340+00:00",
+      "inspected_at": "2026-11-26T08:03:30.147769+00:00",
       "final_url": "https://www.smode.io/en/solutions/live-visual-music-events",
       "page_title": "Compositing software for live events",
       "description": "Real-time compositing and media server platform for live events, concerts, art installations,  exhibition stands, video mapping and fashion shows",
@@ -3931,7 +3924,7 @@
       "source_category": "08 Immersif CGI Motion",
       "priority": "P2",
       "status": "page_inspected",
-      "found_at": "2026-11-26T01:50:35.558624+00:00",
+      "found_at": "2026-11-26T08:03:04.723040+00:00",
       "score": 17,
       "requirements": [
         "date_creation",
@@ -3940,7 +3933,7 @@
         "visuel_verifie_ou_exception_scorecard",
         "doublon_identite"
       ],
-      "inspected_at": "2026-11-26T01:51:00.268013+00:00",
+      "inspected_at": "2026-11-26T08:03:30.169173+00:00",
       "final_url": "https://www.smode.io/en/solutions/solution-permanent-shows-fixed-installation",
       "page_title": "Software solution permanent shows and fixed installation",
       "description": "Real-time compositing and media server platform for theme parks, music halls, exhibition rooms, auditoriums, conference rooms, or casinos",
@@ -3956,7 +3949,7 @@
       "source_category": "03 DA Graphisme",
       "priority": "P2",
       "status": "page_inspected",
-      "found_at": "2026-11-26T01:50:35.558624+00:00",
+      "found_at": "2026-11-26T08:03:04.723040+00:00",
       "score": 16,
       "requirements": [
         "date_creation",
@@ -3965,14 +3958,14 @@
         "visuel_verifie_ou_exception_scorecard",
         "doublon_identite"
       ],
-      "inspected_at": "2026-11-26T01:51:00.285347+00:00",
+      "inspected_at": "2026-11-26T08:03:30.183391+00:00",
       "final_url": "https://fontsinuse.com/in/1/topics/70/film-and-television",
       "page_title": "Film/TV",
       "description": "Film/TV",
       "published_date_claim": "",
-      "image_candidate": "https://cards.fontsinuse.com/cardshot?s=twitter&t=gallery&url=https://fontsinuse.com/in/1/topics/70/film-and-television&k=91a53779ef09e85615e5b27a4903a815&v=2fccc74f",
+      "image_candidate": "https://cards.fontsinuse.com/cardshot?s=twitter&t=gallery&url=https://fontsinuse.com/in/1/topics/70/film-and-television&k=91a53779ef09e85615e5b27a4903a815&v=96dce555",
       "image_verified": false,
-      "page_excerpt": "An independent archive of typography. On Location in New York City Contributed by Greg Gazdowicz Stummfilmfestival Näfels 2026 poster Contributed by Store Norske Skriftkompani Contributed by Stephen Coles Photo(s) by Bart Solenthaler on Flickr. Hodne Media portfolio website Contributed by Sasha Mikhedov NIFFF 2000–2020: Répertoire d’ Imaginaires Pixar short films credits (1980s) Paramount Home Entertainment Contributed by Daniel Dell The Zoogies – “The Bear Went Over the Mountain” title card Contributed by Pijush Dutta Avatar: The Last Airbender Contributed by Saint Klaude The Wacky World of Tex Avery Contributed by Daniel Dell Technologies for the Revolution Contributed by Heavyweight En: La Sociedad de la Nieve Contributed by Yorlmar Campos Citizenship Adventures of the Lollipop Dragon Foster’s Home for Imaginary Friends, Season 1 Contributed by Daniel Dell It’s Alive! Frankenstein at 200 exhibition at the Morgan Library & Museum Contributed by Florian Hardwig A Heritage of Horror. The English Gothic Cinema 1946–1972, Contributed by Florian Hardwig 1. Filmfestival Radolfzell studio lindhorst-emme+hinrichs Contributed by Softdrive Foundry Contributed by Daniel Dell Contributed by Costantino Cherubini Contributed by PALACIOS-DALENS PAULE Contributed by David Sieren Contributed by simon nilsson Contributed by CLAUDE TYPE Contributed by Mario Julian Gutierrez Contributed by Daniel Dell Contributed by Ivo Gabrowitsch Apichatpong Weerasethakul – Contributed by Begel jeremy Contributed by Miikka Rusi Contributed by Daniel Dell Contributed by Stefania Malmsten Contributed by Cécile Tousignant Lausanne Underground Film & Music Festival (2024–) Studio x01 identity and website Contributed by Alex Lescieux Tune In to the Midnight Heart Contributed by Yuliadhi Wicaksono Contributed by Daniel Dell Film and Music Awards Canton of Bern Contributed by Connor Mikita Contributed by Anna Remm (Groteskly Yours) Contributed by William Kenny Contributed by Daniel Dell Contributed by Synchronized Studio Contributed by Store Norske Skriftkompani Contributed by Florian Hardwig Saturday Night Live UK logo and titles Contributed by Mario Julian Gutierrez Mercedes-Benz – 140 Years of Inno",
+      "page_excerpt": "An independent archive of typography. Contributed by Alex Nguyen On Location in New York City Contributed by Greg Gazdowicz Stummfilmfestival Näfels 2026 poster Contributed by Store Norske Skriftkompani Contributed by Stephen Coles Photo(s) by Bart Solenthaler on Flickr. Hodne Media portfolio website Contributed by Sasha Mikhedov NIFFF 2000–2020: Répertoire d’ Imaginaires Pixar short films credits (1980s) Paramount Home Entertainment Contributed by Daniel Dell The Zoogies – “The Bear Went Over the Mountain” title card Contributed by Pijush Dutta Avatar: The Last Airbender Contributed by Saint Klaude The Wacky World of Tex Avery Contributed by Daniel Dell Technologies for the Revolution Contributed by Heavyweight En: La Sociedad de la Nieve Contributed by Yorlmar Campos Citizenship Adventures of the Lollipop Dragon Foster’s Home for Imaginary Friends, Season 1 Contributed by Daniel Dell It’s Alive! Frankenstein at 200 exhibition at the Morgan Library & Museum Contributed by Florian Hardwig A Heritage of Horror. The English Gothic Cinema 1946–1972, Contributed by Florian Hardwig 1. Filmfestival Radolfzell studio lindhorst-emme+hinrichs Contributed by Softdrive Foundry Contributed by Daniel Dell Contributed by Costantino Cherubini Contributed by PALACIOS-DALENS PAULE Contributed by David Sieren Contributed by simon nilsson Contributed by CLAUDE TYPE Contributed by Mario Julian Gutierrez Contributed by Daniel Dell Contributed by Ivo Gabrowitsch Apichatpong Weerasethakul – Contributed by Begel jeremy Contributed by Miikka Rusi Contributed by Daniel Dell Contributed by Stefania Malmsten Contributed by Cécile Tousignant Lausanne Underground Film & Music Festival (2024–) Studio x01 identity and website Contributed by Alex Lescieux Tune In to the Midnight Heart Contributed by Yuliadhi Wicaksono Contributed by Daniel Dell Film and Music Awards Canton of Bern Contributed by Connor Mikita Contributed by Anna Remm (Groteskly Yours) Contributed by William Kenny Contributed by Daniel Dell Contributed by Synchronized Studio Contributed by Store Norske Skriftkompani Contributed by Florian Hardwig Saturday Night Live UK logo and titles Contributed by Mario Julian Gutierrez Merced",
       "needs_editorial_review": true
     },
     {
@@ -3981,7 +3974,7 @@
       "source_category": "06 Retail Brand Experience",
       "priority": "P2",
       "status": "page_inspected",
-      "found_at": "2026-11-26T01:50:35.558624+00:00",
+      "found_at": "2026-11-26T08:03:04.723040+00:00",
       "score": 16,
       "requirements": [
         "date_creation",
@@ -3990,7 +3983,7 @@
         "visuel_verifie_ou_exception_scorecard",
         "doublon_identite"
       ],
-      "inspected_at": "2026-11-26T01:51:00.325337+00:00",
+      "inspected_at": "2026-11-26T08:03:30.198000+00:00",
       "final_url": "https://jackmorton.com/services/broadcast-design/",
       "page_title": "Broadcast Set Design Agency | Jack Morton Worldwide",
       "description": "Jack Morton is a full-service broadcast set design and construction company. We've created some of the world's most recognizable news, sports and talk show sets.",
