@@ -3320,7 +3320,7 @@
         "result": "Trois fiches illustrées et décryptages affichés. Limite connue des captures intégrales : la barre fixe est superposée à une bande du contenu ; cette preuve ne valide pas une mise en page sans défaut. Aucun changement d’interface dans la vague."
       },
       "last_followup": {
-        "checked_at": "2026-11-25T19:32:22.389Z",
+        "checked_at": "2026-11-26T07:59:15.063Z",
         "commit_three_files": true,
         "proof_exact": true,
         "artifact_id": 15054046585,
@@ -3362,6 +3362,26 @@
         }
       ],
       "notes": "Alerte de 20 h 30 déclenchée à 20 h 31 Paris. Nom exact du dépôt et id 1449156184 vérifiés par le connecteur GitHub. Aucun registre de 20 h et aucune identité publiée pour ce créneau. Dernière vague = rattrapage de 16 h e8b0a941acc03f997a4e4fd0d348cacaefa6d70a : les trois fichiers éditoriaux sont dans le même commit et les trois ajouts correspondent exactement au registre. Pages 45681333122 et Chromium 45681333161 réussis. Artifact 15054046585 toujours disponible ; verification.json extrait de cet artifact relu : head exact et verified_new_projects exactement égal aux trois identifiants de 16 h. Pages 45681725998 correspond uniquement à la consignation d41253b, sans nouvelle fiche ; ne compte pas pour 20 h. Collectes sources et RSS réussies et rapports frais, 159 sources et 42 RSS ; pas de collecteur ni rendu actif dans les cinq derniers runs. Créneau de 20 h conservé à reprendre au prochain passage éditorial, en repartant des pistes Malou et EGOISM consignées, avec renouvellement des rapports s’ils dépassent une heure. Aucun lot publié par cette alerte, aucune validation ajoutée et aucune réaffectation des fiches de 16 h."
+    },
+    "2026-11-26-06h": {
+      "id": "2026-11-26-06h",
+      "status": "incomplete",
+      "stage": "collection_refresh_required",
+      "checked_at": "2026-11-26T07:59:15.063Z",
+      "published_count": 0,
+      "public_render_verified": false,
+      "collection": {
+        "wave_id": "github-45738442872",
+        "coverage_checked_at": "2026-11-26T01:50:35.558624+00:00",
+        "brief_prepared_at": "2026-11-26T01:51:00.917450+00:00",
+        "sources_opened": 157,
+        "rss_collected_at": "2026-11-26T01:56:39.453512+00:00",
+        "rss_parsed": 41,
+        "source_run": 45738442872,
+        "rss_run": 45739093967,
+        "fresh": false
+      },
+      "notes": "Alerte du créneau de 6 h retardée à 8 h 57 Paris : créneau de 6 h conservé. Connecteur GitHub : nom exact et id 1449156184 confirmés. Registre du créneau absent, aucune identité publiée pour 2026-11-26-06h. Depuis la dernière publication éditoriale, seuls les rapports de collecte et le registre d’exécution ont changé. Collecteurs sources 45738442872 et RSS 45739093967 réussis, mais rapports du 26 novembre 01 h 50–01 h 56 UTC vieux de plus d’une heure ; check-collection-freshness.cjs en échec pour couverture, inspection, brief et RSS. Aucun collecteur actif dans les sept derniers runs. Pages 45739199033 et garde-fou 45739278467 réussis sur 06f771e, sans nouvelle fiche : ne valident pas une vague. Dernière publication réelle = 16 h du 25, e8b0a941acc03f997a4e4fd0d348cacaefa6d70a, trois fichiers éditoriaux dans un commit, trois ajouts exacts. Pages 45681333122 et Chromium 45681333161 toujours réussis ; artifact 15054046585 disponible, verification.json extrait de l’artifact relu : head exact et trois identifiants exactement égaux au registre. Les fiches historiques ne sont pas réaffectées au créneau courant. Au prochain passage éditorial, renouveler uniquement les collectes périmées après vérification des exécutions actives, reprendre Malou et EGOISM consignés au créneau incomplet du 25 à 20 h ainsi que de nouvelles pistes spectacle, contrôler la fraîcheur propre des projets et poursuivre jusqu’au rendu. Cette alerte ne publie ni ne valide de fiche."
     }
   },
   "next_wave_preparation": {
