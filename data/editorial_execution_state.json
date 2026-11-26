@@ -3571,6 +3571,20 @@
           "fiche-3.png"
         ],
         "result": "Trois cartes illustrées et analyses rendues. Limite connue des captures intégrales : la barre fixe masque une bande de contenu ; ne pas considérer cette preuve comme validation d’une mise en page sans défaut. Aucun changement d’interface dans la vague."
+      },
+      "last_followup": {
+        "checked_at": "2026-11-26T11:26:49.648Z",
+        "trigger_at": "2026-11-26T11:25:55.894Z",
+        "commit_three_files": true,
+        "proof_exact": true,
+        "artifact_id": 15110087954,
+        "artifact_sha256": "7145ba31ed371b014c48d69a9424b38f693ae06ec24a8d8fc847162fe9aa8296",
+        "pages_success": true,
+        "chromium_success": true,
+        "collection_fresh": true,
+        "sources_opened": 158,
+        "rss_parsed": 41,
+        "notes": "Alerte de suivi déclenchée à 12 h 25 Paris, créneau échu = midi. Dépôt exact et id 1449156184 confirmés par le connecteur. Collectes et brief frais, contrôle de fraîcheur réussi. Publication 9dc354be36a977903e2c05f513ec0b02cf7fe15a : les trois fichiers éditoriaux sont dans le même commit et leurs trois nouveaux projets correspondent exactement au registre. Pages 45807847447 et Chromium 45807848781 réussis. Artifact 15110087954 encore disponible ; empreinte du ZIP local égale au digest GitHub. verification.json extrait de cet artifact relu : head exact et verified_new_projects exactement égal aux trois identifiants du créneau. Depuis la publication, seul le registre a changé ; Pages 45808188377 sur a6b052d ne constitue pas une autre vague. Créneau déjà complet et conservé comme tel, aucune publication ni validation supplémentaire créée par cette alerte."
       }
     }
   },
