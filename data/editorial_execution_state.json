@@ -3708,6 +3708,82 @@
         "rss_parsed": 42,
         "notes": "Alerte de suivi déclenchée à 16 h 26 Paris : créneau échu = 16 h, déjà complet. Nom exact du dépôt et id 1449156184 confirmés par le connecteur. Collectes, inspection et brief frais, contrôle de fraîcheur réussi. Commit 5e61e1af98f4869f41c8987a66742ffce0e2f20c : trois fichiers éditoriaux ensemble, trois ajouts exacts conformes au registre. Pages 45846600704 et Chromium 45846600736 réussis. Artifact 15130468950 disponible ; empreinte SHA256 du ZIP local égale au digest GitHub. verification.json extrait de cet artifact relu : head exact et verified_new_projects exactement égal aux trois identifiants de la vague. Depuis la publication, seul le registre a changé ; Pages 45847044774 sur fd60e40 ne constitue pas une nouvelle vague. Aucun article publié ni validation supplémentaire ajoutée par cette alerte."
       }
+    },
+    "2026-11-26-20h": {
+      "id": "2026-11-26-20h",
+      "status": "incomplete",
+      "stage": "candidate_evidence",
+      "checked_at": "2026-11-26T19:36:13.764Z",
+      "published_count": 0,
+      "public_render_verified": false,
+      "resume_required": true,
+      "collection": {
+        "wave_id": "github-45880519927",
+        "coverage_checked_at": "2026-11-26T19:02:07.571021+00:00",
+        "brief_prepared_at": "2026-11-26T19:02:40.216892+00:00",
+        "inspection_updated_at": "2026-11-26T19:02:26.297920+00:00",
+        "sources_opened": 154,
+        "sources_failed": 28,
+        "rss_collected_at": "2026-11-26T19:02:01.847063+00:00",
+        "rss_parsed": 41,
+        "rss_failed": 2,
+        "source_run": 45880519927,
+        "rss_run": 45880522849,
+        "fresh": true
+      },
+      "publication": {
+        "id": "2026-11-26-20h",
+        "slot": "2026-11-26-20h",
+        "status": "not_published",
+        "projects": [],
+        "count": 0,
+        "publication_commit": null,
+        "trigger": "scheduled_editorial"
+      },
+      "notes": "Suivi du créneau échu de 20 h à partir du déclenchement 20 h 34 Paris. Identité exacte et id 1449156184 confirmés par le connecteur GitHub. Collecteurs sources et RSS réussis, rapports frais et cohérents. Aucun enregistrement antérieur de la vague de 20 h et aucun commit de nouvelles fiches depuis la publication de 16 h. Le déploiement Pages réussi sur 4bbef506d96a8e899beea2eb7af2f4f0c9df7c9d contient uniquement la mise à jour de collecte : il ne constitue pas une publication. Cette alerte ne publie aucune fiche, ne valide pas une vague vide et ne réattribue pas les fiches de 16 h. Trois pistes primaires relevées au passage éditorial précédent restent en recherche ; aucun score ni analyse validée. Reprendre ce même créneau au prochain passage éditorial, puis vérifier le rendu public si publication.",
+      "candidate_handoff": [
+        {
+          "project": "Keisuke Kuwata — 神々の襷",
+          "video": "97EC8q_wKxs",
+          "url": "https://www.youtube.com/watch?v=97EC8q_wKxs",
+          "status": "pending_editorial_review",
+          "pending": "Approfondir le choix de DA à partir des plans détaillés ; déduplication et score à établir."
+        },
+        {
+          "project": "KIIRAS — OVER U",
+          "video": "yrtO4jN60hg",
+          "url": "https://www.youtube.com/watch?v=yrtO4jN60hg",
+          "status": "pending_editorial_review",
+          "pending": "Vérifier que l’intérêt DA dépasse un décor scolaire interchangeable ; poursuivre ou écarter."
+        },
+        {
+          "project": "ILLIT — performance Blue Dragon Film Awards",
+          "video": "JHB-rgooTSo",
+          "url": "https://www.youtube.com/watch?v=JHB-rgooTSo",
+          "status": "pending_visual_and_editorial_review",
+          "pending": "Examiner les images détaillées et établir le choix scénique ; ne pas confondre cette capture du 25 novembre avec le clip original."
+        }
+      ],
+      "last_followup": {
+        "checked_at": "2026-11-26T19:36:13.764Z",
+        "trigger_at": "2026-11-26T19:34:45.102Z",
+        "collection_fresh": true,
+        "source_run_success": true,
+        "rss_run_success": true,
+        "sources_opened": 154,
+        "rss_parsed": 41,
+        "publication_announced": false,
+        "editorial_unchanged_since_16h": true,
+        "latest_pages": {
+          "run_id": 45880685378,
+          "head": "4bbef506d96a8e899beea2eb7af2f4f0c9df7c9d",
+          "success": true,
+          "counts_as_new_publication": false
+        },
+        "proof_exact": false,
+        "required_user_action": false,
+        "next_action": "Reprendre la sélection et la relecture éditoriale de 2026-11-26-20h ; cette alerte ne publie pas."
+      }
     }
   },
   "next_wave_preparation": {
