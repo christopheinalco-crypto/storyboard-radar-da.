@@ -1822,6 +1822,30 @@
           "6lack-wwyg-salon-cassette-2026"
         ],
         "feed_count": 146
+      },
+      {
+        "id": "2026-11-26-16h",
+        "slot": "2026-11-26-16h",
+        "status": "public_verified",
+        "projects": [
+          "kiss-of-life-greedy-maison-traces-2026",
+          "kim-yun-a-blue-dragon-images-presence-2026",
+          "unfair-rule-aikotoba-cafe-temps-2026"
+        ],
+        "count": 3,
+        "publication_commit": "5e61e1af98f4869f41c8987a66742ffce0e2f20c",
+        "trigger": "scheduled_editorial",
+        "verified_at": "2026-11-26T15:12:34.708Z",
+        "pages_deployment": "https://github.com/christopheinalco-crypto/storyboard-radar-da./actions/runs/45846600704",
+        "public_render_check": "https://github.com/christopheinalco-crypto/storyboard-radar-da./actions/runs/45846600736",
+        "artifact_id": 15130468950,
+        "proof_head": "5e61e1af98f4869f41c8987a66742ffce0e2f20c",
+        "verified_new_projects": [
+          "kiss-of-life-greedy-maison-traces-2026",
+          "kim-yun-a-blue-dragon-images-presence-2026",
+          "unfair-rule-aikotoba-cafe-temps-2026"
+        ],
+        "feed_count": 149
       }
     ]
   },
@@ -3585,6 +3609,90 @@
         "sources_opened": 158,
         "rss_parsed": 41,
         "notes": "Alerte de suivi déclenchée à 12 h 25 Paris, créneau échu = midi. Dépôt exact et id 1449156184 confirmés par le connecteur. Collectes et brief frais, contrôle de fraîcheur réussi. Publication 9dc354be36a977903e2c05f513ec0b02cf7fe15a : les trois fichiers éditoriaux sont dans le même commit et leurs trois nouveaux projets correspondent exactement au registre. Pages 45807847447 et Chromium 45807848781 réussis. Artifact 15110087954 encore disponible ; empreinte du ZIP local égale au digest GitHub. verification.json extrait de cet artifact relu : head exact et verified_new_projects exactement égal aux trois identifiants du créneau. Depuis la publication, seul le registre a changé ; Pages 45808188377 sur a6b052d ne constitue pas une autre vague. Créneau déjà complet et conservé comme tel, aucune publication ni validation supplémentaire créée par cette alerte."
+      }
+    },
+    "2026-11-26-16h": {
+      "id": "2026-11-26-16h",
+      "status": "complete",
+      "stage": "public_verified",
+      "checked_at": "2026-11-26T15:14:09.731Z",
+      "published_count": 3,
+      "public_render_verified": true,
+      "collection": {
+        "wave_id": "github-45845359448",
+        "coverage_checked_at": "2026-11-26T15:04:30.938019+00:00",
+        "brief_prepared_at": "2026-11-26T15:05:02.996370+00:00",
+        "sources_opened": 157,
+        "rss_collected_at": "2026-11-26T15:04:31.495468+00:00",
+        "rss_parsed": 42,
+        "source_run": 45845359448,
+        "rss_run": 45845363465,
+        "fresh": true,
+        "refresh_audit": {
+          "source_was_stale": true,
+          "rss_was_stale": false,
+          "rss_refresh_redundant": true,
+          "correction": "Au prochain passage, calculer séparément la péremption sources/inspection/brief et celle du RSS avant dispatch ; ne relancer que le groupe périmé."
+        }
+      },
+      "publication": {
+        "id": "2026-11-26-16h",
+        "slot": "2026-11-26-16h",
+        "status": "public_verified",
+        "projects": [
+          "kiss-of-life-greedy-maison-traces-2026",
+          "kim-yun-a-blue-dragon-images-presence-2026",
+          "unfair-rule-aikotoba-cafe-temps-2026"
+        ],
+        "count": 3,
+        "publication_commit": "5e61e1af98f4869f41c8987a66742ffce0e2f20c",
+        "trigger": "scheduled_editorial",
+        "verified_at": "2026-11-26T15:12:34.708Z",
+        "pages_deployment": "https://github.com/christopheinalco-crypto/storyboard-radar-da./actions/runs/45846600704",
+        "public_render_check": "https://github.com/christopheinalco-crypto/storyboard-radar-da./actions/runs/45846600736",
+        "artifact_id": 15130468950,
+        "proof_head": "5e61e1af98f4869f41c8987a66742ffce0e2f20c",
+        "verified_new_projects": [
+          "kiss-of-life-greedy-maison-traces-2026",
+          "kim-yun-a-blue-dragon-images-presence-2026",
+          "unfair-rule-aikotoba-cafe-temps-2026"
+        ],
+        "feed_count": 149
+      },
+      "notes": "Passage de 16 h déclenché à 16 h 03 Paris. Identité exacte du dépôt et id 1449156184 confirmés par le connecteur. Rapport sources périmé ; absence d’exécution active contrôlée avant relance. RSS encore frais, relancé par erreur en même temps, écart consigné dans refresh_audit. Deux collecteurs réussis, rapports relus frais et cohérents : 157 sources et 42 RSS. Prospection poursuivie pendant la collecte, séparation rigoureuse des articles récents et des vidéos anciennes. Trois vidéos du 25 novembre retenues après déduplication de l’historique entier et recoupement des sources primaires. Seize planches détaillées et trois couvertures originales sobres examinées. Analyses en quatre parties, scores 17/16/17 et relectures, alternance clip/show/clip. UNFAIR RULE : vidéo du 25 distinguée de la chanson publiée le 18 ; nom du réalisateur conservé en écriture originale. Performance Kim Yun A distincte du numéro de Mark Lee dans la même cérémonie. Trois JSON publiés atomiquement dans 5e61e1af98f4869f41c8987a66742ffce0e2f20c, validateurs et pré-push réussis. Pages et Chromium à contrôler avant décompte. Pages 45846600704 et Chromium 45846600736 réussis. Artifact 15130468950 téléchargé ; verification.json lu : SHA exact et trois nouveaux identifiants exactement égaux au registre de la vague. Les trois captures publiques ont été ouvertes et examinées : visuels présents, décryptages ouverts, textes et surlignages affichés. Vague désormais comptée une seule fois pour 16 h.",
+      "research_audit": [
+        {
+          "project": "Lenush Saf — Lipstick",
+          "video": "grjMPGbvItw",
+          "decision": "non retenu comme nouvelle vidéo",
+          "reason": "Clip primaire du 22 octobre, alors que le retour de fabrication Promonews date du 26 novembre. Plans généraux et propos du réalisateur lus, mais ne pas présenter une vidéo ancienne comme nouvelle pour compléter une vague."
+        },
+        {
+          "project": "Billie — Wuthering Heights",
+          "video": "YnSCgbO0fQY",
+          "decision": "non retenu",
+          "reason": "Article du 25 mais vidéo du 12 octobre ; pas de nouvelle révélation DA substantielle établie."
+        },
+        {
+          "project": "Sublime — F.T.R.",
+          "video": "pgQ7aIAXwPM",
+          "decision": "non retenu",
+          "reason": "Article du 25 novembre contredit par la vidéo primaire et l’annonce Warner Japan du 17 septembre ; ancien projet."
+        },
+        {
+          "project": "Malou — The Mood for Love",
+          "decision": "toujours en attente",
+          "reason": "Piste issue des créneaux incomplets conservée, angle DA insuffisamment approfondi ; aucune note inventée."
+        }
+      ],
+      "public_visual_review": {
+        "reviewed_at": "2026-11-26T15:14:09.731Z",
+        "screenshots": [
+          "fiche-1.png",
+          "fiche-2.png",
+          "fiche-3.png"
+        ],
+        "result": "Trois cartes illustrées et analyses rendues. Limite connue des captures intégrales : barre fixe superposée à une bande du contenu ; ne pas qualifier la mise en page de sans défaut. Aucun changement d’interface dans cette vague."
       }
     }
   },
