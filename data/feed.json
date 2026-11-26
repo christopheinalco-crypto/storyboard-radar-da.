@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-26T11:08:13.729Z",
+  "updated_at": "2026-11-26T15:11:11.351Z",
   "status": "editorial_reviewed",
   "working_feeds": [
     {
@@ -454,6 +454,66 @@
     "with_images": 82
   },
   "items": [
+    {
+      "project_id": "kiss-of-life-greedy-maison-traces-2026",
+      "title": "KISS OF LIFE — La maison de Noël garde les traces de la fête",
+      "title_fr": "KISS OF LIFE — La maison de Noël garde les traces de la fête",
+      "url": "https://www.youtube.com/watch?v=9AzCkUyVmdE",
+      "category": "14 Musique Clips",
+      "source": "KISS OF LIFE / S2 Entertainment",
+      "published": "2026-11-25T00:00:00Z",
+      "radar_added_at": "2026-11-26T15:11:11.351Z",
+      "summary": "Dans « Greedy », KISS OF LIFE reçoit la garde de la maison du Père Noël. Le décor rose et vert devient un terrain de jeu, puis un lieu encombré : son changement d’état raconte les conséquences de cette liberté.",
+      "summary_fr": "Dans « Greedy », KISS OF LIFE reçoit la garde de la maison du Père Noël. Le décor rose et vert devient un terrain de jeu, puis un lieu encombré : son changement d’état raconte les conséquences de cette liberté.",
+      "image": "https://i.ytimg.com/vi/9AzCkUyVmdE/hqdefault.jpg",
+      "image_kind": "project",
+      "image_credit": "Vignette officielle : KISS OF LIFE / S2 Entertainment, Greedy.",
+      "image_source_url": "https://www.youtube.com/watch?v=9AzCkUyVmdE",
+      "image_alt": "Les quatre membres de KISS OF LIFE autour d’un cadeau et d’un petit bonhomme de neige, en vêtements rouges et clairs.",
+      "status": "editorial_reviewed",
+      "youtube_id": "9AzCkUyVmdE",
+      "angle": "Un décor peut porter une évolution narrative en conservant son identité et en changeant son état. Ici, les mêmes couleurs et encadrements relient les espaces, tandis que l’accumulation transforme leur usage. Les accessoires gagnent alors une fonction : ils rendent le passage des personnages perceptible jusque dans le tableau final."
+    },
+    {
+      "project_id": "kim-yun-a-blue-dragon-images-presence-2026",
+      "title": "Kim Yun A — Une présence stable face aux images monumentales",
+      "title_fr": "Kim Yun A — Une présence stable face aux images monumentales",
+      "url": "https://www.youtube.com/watch?v=o6OL0pJEJd4",
+      "category": "01 Spectacle Concert",
+      "source": "KBS Entertain / Blue Dragon Film Awards",
+      "published": "2026-11-25T00:00:00Z",
+      "radar_added_at": "2026-11-26T15:11:11.351Z",
+      "summary": "Aux Blue Dragon Film Awards, Kim Yun A reste une silhouette sombre au centre d’un plateau traversé par les images et la lumière. Le rapport d’échelle entre le corps et le grand fond donne deux places distinctes à la chanteuse et au cinéma.",
+      "summary_fr": "Aux Blue Dragon Film Awards, Kim Yun A reste une silhouette sombre au centre d’un plateau traversé par les images et la lumière. Le rapport d’échelle entre le corps et le grand fond donne deux places distinctes à la chanteuse et au cinéma.",
+      "image": "https://i.ytimg.com/vi/o6OL0pJEJd4/hqdefault.jpg",
+      "image_kind": "project",
+      "image_credit": "Vignette officielle : KBS Entertain, Kim Yun A, 47es Blue Dragon Film Awards.",
+      "image_source_url": "https://www.youtube.com/watch?v=o6OL0pJEJd4",
+      "image_alt": "Kim Yun A au micro en costume noir, dans la vignette officielle de sa performance aux Blue Dragon Film Awards.",
+      "status": "editorial_reviewed",
+      "youtube_id": "o6OL0pJEJd4",
+      "angle": "Le rapport entre écran et interprète se construit par des décisions d’échelle et de visibilité. Ici, la petite figure centrale peut coexister avec un détail filmé monumental, puis retrouver la profondeur du groupe et des lumières. La stabilité du costume et de la position rend ce changement lisible."
+    },
+    {
+      "project_id": "unfair-rule-aikotoba-cafe-temps-2026",
+      "title": "UNFAIR RULE — Le café mesure ce qui change entre deux personnes",
+      "title_fr": "UNFAIR RULE — Le café mesure ce qui change entre deux personnes",
+      "url": "https://www.youtube.com/watch?v=JMlqbIC4E7s",
+      "category": "14 Musique Clips",
+      "source": "UNFAIR RULE",
+      "published": "2026-11-25T00:00:00Z",
+      "radar_added_at": "2026-11-26T15:11:11.351Z",
+      "summary": "Dans « Aikotoba », une table de café accueille plusieurs états d’une relation. La fenêtre, les banquettes et les lampes gardent leurs places, tandis que vêtements, décor de fêtes et présences font sentir le temps.",
+      "summary_fr": "Dans « Aikotoba », une table de café accueille plusieurs états d’une relation. La fenêtre, les banquettes et les lampes gardent leurs places, tandis que vêtements, décor de fêtes et présences font sentir le temps.",
+      "image": "https://i.ytimg.com/vi/JMlqbIC4E7s/hqdefault.jpg",
+      "image_kind": "project",
+      "image_credit": "Vignette officielle : UNFAIR RULE, Aikotoba. Réalisation 三本菅悠 ; avec Daisuke Nakagawa.",
+      "image_source_url": "https://www.youtube.com/watch?v=JMlqbIC4E7s",
+      "image_alt": "Daisuke Nakagawa sourit près de la fenêtre du café dans la vignette officielle d’Aikotoba.",
+      "status": "editorial_reviewed",
+      "youtube_id": "JMlqbIC4E7s",
+      "angle": "Un lieu récurrent peut devenir une mesure du temps si ses éléments fixes sont assez précis pour être reconnus. Ici, fenêtre, lampes et banquette maintiennent le cadre ; costumes, décor de fêtes et occupation de la table portent les variations. La répétition du lieu donne alors une valeur aux différences, au lieu de les rendre anecdotiques."
+    },
     {
       "project_id": "spitz-chicchana-muteki-fleurs-interstices-2026",
       "title": "Spitz — Les fleurs trouvent leur place dans les interstices",

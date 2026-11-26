@@ -1,6 +1,6 @@
 {
   "description": "Cumulative seen-project register; retain entries when projects leave the live feed; compare URL and semantic identity.",
-  "updated": "2026-11-26T11:08:13.729Z",
+  "updated": "2026-11-26T15:11:11.351Z",
   "projects": [
     {
       "project_id": "pink-siifu-devils-advocate-gontrand-making-of-2026",
@@ -1223,6 +1223,36 @@
       "published_at": "2026-11-26T11:08:13.729Z",
       "wave_id": "2026-11-26-12h",
       "editorial_score": 16
+    },
+    {
+      "project_id": "kiss-of-life-greedy-maison-traces-2026",
+      "title": "KISS OF LIFE — La maison de Noël garde les traces de la fête",
+      "url": "https://www.youtube.com/watch?v=9AzCkUyVmdE",
+      "category": "14 Musique Clips",
+      "radar_added_at": "2026-11-26T15:11:11.351Z",
+      "published_at": "2026-11-26T15:11:11.351Z",
+      "wave_id": "2026-11-26-16h",
+      "editorial_score": 17
+    },
+    {
+      "project_id": "kim-yun-a-blue-dragon-images-presence-2026",
+      "title": "Kim Yun A — Une présence stable face aux images monumentales",
+      "url": "https://www.youtube.com/watch?v=o6OL0pJEJd4",
+      "category": "01 Spectacle Concert",
+      "radar_added_at": "2026-11-26T15:11:11.351Z",
+      "published_at": "2026-11-26T15:11:11.351Z",
+      "wave_id": "2026-11-26-16h",
+      "editorial_score": 16
+    },
+    {
+      "project_id": "unfair-rule-aikotoba-cafe-temps-2026",
+      "title": "UNFAIR RULE — Le café mesure ce qui change entre deux personnes",
+      "url": "https://www.youtube.com/watch?v=JMlqbIC4E7s",
+      "category": "14 Musique Clips",
+      "radar_added_at": "2026-11-26T15:11:11.351Z",
+      "published_at": "2026-11-26T15:11:11.351Z",
+      "wave_id": "2026-11-26-16h",
+      "editorial_score": 17
     }
   ]
 }
