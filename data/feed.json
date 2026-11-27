@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-27T15:11:34.212Z",
+  "updated_at": "2026-11-27T19:07:20.821Z",
   "status": "editorial_reviewed",
   "working_feeds": [
     {
@@ -454,6 +454,66 @@
     "with_images": 82
   },
   "items": [
+    {
+      "project_id": "friedberg-mitsubishi-voiture-fabrication-visible-2026",
+      "title": "Friedberg — Une voiture fabriquée à vue devient le lieu du clip",
+      "title_fr": "Friedberg — Une voiture fabriquée à vue devient le lieu du clip",
+      "url": "https://www.youtube.com/watch?v=Z57UrIJzSYI",
+      "category": "14 Musique Clips",
+      "source": "Friedberg Music / FEMMUSIC",
+      "published": "2026-11-25T00:00:00Z",
+      "radar_added_at": "2026-11-27T19:07:20.821Z",
+      "summary": "Dans « Mitsubishi », Wouter Stoter transforme un studio, des chaises et des panneaux dessinés en voiture de fiction. Les personnes qui assemblent ce décor restent dans l’image : leur travail devient une partie du spectacle.",
+      "summary_fr": "Dans « Mitsubishi », Wouter Stoter transforme un studio, des chaises et des panneaux dessinés en voiture de fiction. Les personnes qui assemblent ce décor restent dans l’image : leur travail devient une partie du spectacle.",
+      "image": "https://i.ytimg.com/vi/Z57UrIJzSYI/hqdefault.jpg",
+      "image_kind": "project",
+      "image_credit": "Vignette officielle : Friedberg Music, Mitsubishi. Réalisation Wouter Stoter ; décor Greg Mclaren.",
+      "image_source_url": "https://www.youtube.com/watch?v=Z57UrIJzSYI",
+      "image_alt": "La voiture en panneaux blancs et les personnes qui la manipulent au milieu du studio du clip Mitsubishi.",
+      "status": "editorial_reviewed",
+      "youtube_id": "Z57UrIJzSYI",
+      "angle": "Un décor peut devenir un partenaire de jeu quand sa transformation donne des tâches aux interprètes et à l’équipe. Ici, quelques contours et des ouvertures suffisent pour installer la voiture ; les gestes d’assemblage lui donnent sa présence. Le cadre détermine ensuite si l’on regarde le voyage imaginaire ou les personnes qui le fabriquent."
+    },
+    {
+      "project_id": "miranda-lambert-dallas-cadres-costume-2026",
+      "title": "Miranda Lambert — Le costume et les écrans parlent le même langage",
+      "title_fr": "Miranda Lambert — Le costume et les écrans parlent le même langage",
+      "url": "https://www.youtube.com/watch?v=HfN76j5y19o",
+      "category": "01 Spectacle Concert",
+      "source": "NFL / Dallas Cowboys",
+      "published": "2026-11-26T00:00:00Z",
+      "radar_added_at": "2026-11-27T19:07:20.821Z",
+      "summary": "À Dallas pour Thanksgiving, Miranda Lambert se produit dans un dispositif de cadres ornés, de reflets et d’écrans verticaux. Sa tenue à étoiles et motifs lumineux prolonge cette famille de formes, du portrait rapproché à la vue du stade.",
+      "summary_fr": "À Dallas pour Thanksgiving, Miranda Lambert se produit dans un dispositif de cadres ornés, de reflets et d’écrans verticaux. Sa tenue à étoiles et motifs lumineux prolonge cette famille de formes, du portrait rapproché à la vue du stade.",
+      "image": "https://i.ytimg.com/vi/HfN76j5y19o/hqdefault.jpg",
+      "image_kind": "project",
+      "image_credit": "Vignette officielle : NFL, Miranda Lambert’s FULL Thanksgiving Halftime Performance, Dallas, 26 novembre 2026.",
+      "image_source_url": "https://www.youtube.com/watch?v=HfN76j5y19o",
+      "image_alt": "Miranda Lambert au micro et en chapeau, cadrée au-dessus de la taille dans sa tenue sombre à étoiles claires.",
+      "status": "editorial_reviewed",
+      "youtube_id": "HfN76j5y19o",
+      "angle": "Quand un show a besoin de portraits sur écran, leur encadrement peut faire partie de sa DA. Ici, les motifs du costume et des bordures relient la personne, son image agrandie et le plateau. Cette parenté donne des repères à plusieurs distances. Les surfaces vidéo peuvent alors changer de contenu tout en restant intégrées au lieu de jeu."
+    },
+    {
+      "project_id": "rosie-alena-satsumas-costume-visible-protection-2026",
+      "title": "Rosie Alena — Un costume qui abrite le visage et attire le regard",
+      "title_fr": "Rosie Alena — Un costume qui abrite le visage et attire le regard",
+      "url": "https://www.youtube.com/watch?v=zdxwpKPdHj0",
+      "category": "14 Musique Clips",
+      "source": "Rosie Alena — chaîne officielle / PM Studio",
+      "published": "2026-11-25T00:00:00Z",
+      "radar_added_at": "2026-11-27T19:07:20.821Z",
+      "summary": "Dans « Satsumas », Lara Laeverenz filme Rosie Alena dans une combinaison rouge aux épaules exagérées. Le vêtement l’entoure, mais sa forme et sa couleur en font aussi un repère très visible sur les chemins verts et dans les espaces clairs.",
+      "summary_fr": "Dans « Satsumas », Lara Laeverenz filme Rosie Alena dans une combinaison rouge aux épaules exagérées. Le vêtement l’entoure, mais sa forme et sa couleur en font aussi un repère très visible sur les chemins verts et dans les espaces clairs.",
+      "image": "https://i.ytimg.com/vi/zdxwpKPdHj0/hqdefault.jpg",
+      "image_kind": "project",
+      "image_credit": "Vignette officielle : Rosie Alena, Satsumas. Réalisation, image et montage Lara Laeverenz ; costume et stylisme Zoë Frost.",
+      "image_source_url": "https://www.youtube.com/watch?v=zdxwpKPdHj0",
+      "image_alt": "Portrait de Rosie Alena dans la capuche de sa combinaison rouge, devant un fond clair et un paysage vert.",
+      "status": "editorial_reviewed",
+      "youtube_id": "zdxwpKPdHj0",
+      "angle": "Un costume peut porter une tension de personnage par sa forme et par sa relation au fond. Ici, la capuche abrite le visage, tandis que les épaules et le rouge augmentent sa visibilité. Le même vêtement fonctionne donc à plusieurs échelles et relie les espaces du clip. Il donne à la mise en scène une question à reprendre dans chaque cadre."
+    },
     {
       "project_id": "evani-fata-lui-tata-echelles-portrait-2026",
       "title": "Evani — La lumière change la distance du portrait",
