@@ -4306,6 +4306,35 @@
           "fiche-3.png"
         ],
         "result": "Trois fiches, images originales, analyses et surlignages présents. Limite de capture : bande médiane masquée par la barre fixe."
+      },
+      "last_followup": {
+        "checked_at": "2026-11-27T19:29:44.518Z",
+        "trigger_at": "2026-11-27T19:28:32.213Z",
+        "slot": "2026-11-27-20h",
+        "commit_three_files": true,
+        "actual_new_projects": [
+          "friedberg-mitsubishi-voiture-fabrication-visible-2026",
+          "miranda-lambert-dallas-cadres-costume-2026",
+          "rosie-alena-satsumas-costume-visible-protection-2026"
+        ],
+        "proof_exact": true,
+        "artifact_id": 15226555636,
+        "artifact_sha256": "4797ad429a554415c188f94e5c1002a5491ab41b1a2ea6a47984ee7ebcb54912",
+        "pages_success": true,
+        "chromium_success": true,
+        "collection_fresh": true,
+        "collection_fresh_at_publication": true,
+        "collection_coherent": true,
+        "sources_opened": 157,
+        "rss_parsed": 41,
+        "collection_report_ages_minutes": {
+          "coverage": 28,
+          "inspection": 28,
+          "brief": 27,
+          "rss": 28
+        },
+        "required_user_action": false,
+        "notes": "Dépôt exact et id 1449156184 confirmés par le connecteur. Vague de 20 h complète : trois ajouts réels et trois fichiers au commit annoncé ; fichiers éditoriaux inchangés depuis. Quatre exécutions sources, RSS, Pages et Chromium relues réussies. Métadonnées de l’artefact relues sur GitHub, empreinte ZIP locale identique, verification.json extrait à nouveau et relu : head exact et trois identifiants exacts. Contrôle de suivi seul, aucune publication ni ajout au décompte des vagues."
       }
     }
   },
