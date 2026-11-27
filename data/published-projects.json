@@ -1,6 +1,6 @@
 {
   "description": "Cumulative seen-project register; retain entries when projects leave the live feed; compare URL and semantic identity.",
-  "updated": "2026-11-27T11:02:51.257Z",
+  "updated": "2026-11-27T15:11:34.212Z",
   "projects": [
     {
       "project_id": "pink-siifu-devils-advocate-gontrand-making-of-2026",
@@ -1312,6 +1312,36 @@
       "radar_added_at": "2026-11-27T11:02:51.257Z",
       "published_at": "2026-11-27T11:02:51.257Z",
       "wave_id": "2026-11-27-12h",
+      "editorial_score": 16
+    },
+    {
+      "project_id": "evani-fata-lui-tata-echelles-portrait-2026",
+      "title": "Evani — La lumière change la distance du portrait",
+      "url": "https://www.youtube.com/watch?v=IP57pAlgf-c",
+      "category": "14 Musique Clips",
+      "radar_added_at": "2026-11-27T15:11:34.212Z",
+      "published_at": "2026-11-27T15:11:34.212Z",
+      "wave_id": "2026-11-27-16h",
+      "editorial_score": 16
+    },
+    {
+      "project_id": "wu-tang-detroit-thanksgiving-noyau-terrain-2026",
+      "title": "Wu-Tang Clan — Un noyau de voix et un terrain pour les corps",
+      "url": "https://www.youtube.com/watch?v=SI7wbW6oIAg",
+      "category": "01 Spectacle Concert",
+      "radar_added_at": "2026-11-27T15:11:34.212Z",
+      "published_at": "2026-11-27T15:11:34.212Z",
+      "wave_id": "2026-11-27-16h",
+      "editorial_score": 18
+    },
+    {
+      "project_id": "flumpool-love-again-concert-regards-lumiere-2026",
+      "title": "flumpool — Le concert filmé garde aussi la place de l’ombre",
+      "url": "https://www.youtube.com/watch?v=Heuc2Hemgak",
+      "category": "14 Musique Clips",
+      "radar_added_at": "2026-11-27T15:11:34.212Z",
+      "published_at": "2026-11-27T15:11:34.212Z",
+      "wave_id": "2026-11-27-16h",
       "editorial_score": 16
     }
   ]
