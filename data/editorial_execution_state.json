@@ -1846,6 +1846,31 @@
           "unfair-rule-aikotoba-cafe-temps-2026"
         ],
         "feed_count": 149
+      },
+      {
+        "id": "2026-11-27-06h",
+        "slot": "2026-11-27-06h",
+        "status": "public_verified",
+        "projects": [
+          "kouhei-matsushita-precious-portraits-lumiere-2026",
+          "illit-blue-dragon-fauteuils-acteurs-2026",
+          "keisuke-kuwata-tasuki-course-comptoir-2026"
+        ],
+        "count": 3,
+        "publication_commit": "8dfbf410fd390ff3e7ebe37cd4d905b37d08b646",
+        "trigger": "scheduled_editorial",
+        "feed_count": 152,
+        "verified_at": "2026-11-27T07:27:27.072Z",
+        "pages_deployment": "https://github.com/christopheinalco-crypto/storyboard-radar-da./actions/runs/45958466481",
+        "public_render_check": "https://github.com/christopheinalco-crypto/storyboard-radar-da./actions/runs/45958467041",
+        "artifact_id": 15179224981,
+        "artifact_sha256": "abf554bc21d6a0a9f2759c283af6380178471c5f449df15a8a1e854aceee7546",
+        "proof_head": "8dfbf410fd390ff3e7ebe37cd4d905b37d08b646",
+        "verified_new_projects": [
+          "kouhei-matsushita-precious-portraits-lumiere-2026",
+          "illit-blue-dragon-fauteuils-acteurs-2026",
+          "keisuke-kuwata-tasuki-course-comptoir-2026"
+        ]
       }
     ]
   },
@@ -3783,6 +3808,94 @@
         "proof_exact": false,
         "required_user_action": false,
         "next_action": "Reprendre la sélection et la relecture éditoriale de 2026-11-26-20h ; cette alerte ne publie pas."
+      },
+      "candidate_resolution": {
+        "checked_at": "2026-11-27T07:26:25.997Z",
+        "reused_in_slot": "2026-11-27-06h",
+        "projects": [
+          "illit-blue-dragon-fauteuils-acteurs-2026",
+          "keisuke-kuwata-tasuki-course-comptoir-2026"
+        ],
+        "note": "Pistes désormais publiées au créneau du 27 à 6 h ; ne pas compter ces fiches dans la vague du 26 à 20 h, qui reste incomplète."
+      }
+    },
+    "2026-11-27-06h": {
+      "id": "2026-11-27-06h",
+      "status": "complete",
+      "stage": "public_verified",
+      "checked_at": "2026-11-27T07:29:03.097Z",
+      "published_count": 3,
+      "public_render_verified": true,
+      "collection": {
+        "wave_id": "github-45957587666",
+        "coverage_checked_at": "2026-11-27T07:18:59.530558+00:00",
+        "brief_prepared_at": "2026-11-27T07:19:28.336267+00:00",
+        "sources_opened": 156,
+        "rss_collected_at": "2026-11-27T07:18:57.387862+00:00",
+        "rss_parsed": 40,
+        "source_run": 45957587666,
+        "rss_run": 45957590256,
+        "fresh": true
+      },
+      "publication": {
+        "id": "2026-11-27-06h",
+        "slot": "2026-11-27-06h",
+        "status": "public_verified",
+        "projects": [
+          "kouhei-matsushita-precious-portraits-lumiere-2026",
+          "illit-blue-dragon-fauteuils-acteurs-2026",
+          "keisuke-kuwata-tasuki-course-comptoir-2026"
+        ],
+        "count": 3,
+        "publication_commit": "8dfbf410fd390ff3e7ebe37cd4d905b37d08b646",
+        "trigger": "scheduled_editorial",
+        "feed_count": 152,
+        "verified_at": "2026-11-27T07:27:27.072Z",
+        "pages_deployment": "https://github.com/christopheinalco-crypto/storyboard-radar-da./actions/runs/45958466481",
+        "public_render_check": "https://github.com/christopheinalco-crypto/storyboard-radar-da./actions/runs/45958467041",
+        "artifact_id": 15179224981,
+        "artifact_sha256": "abf554bc21d6a0a9f2759c283af6380178471c5f449df15a8a1e854aceee7546",
+        "proof_head": "8dfbf410fd390ff3e7ebe37cd4d905b37d08b646",
+        "verified_new_projects": [
+          "kouhei-matsushita-precious-portraits-lumiere-2026",
+          "illit-blue-dragon-fauteuils-acteurs-2026",
+          "keisuke-kuwata-tasuki-course-comptoir-2026"
+        ]
+      },
+      "notes": "Déclenchement retardé à 8 h 17 Paris : créneau échu = 6 h, conservé. Dépôt exact et id confirmés par le connecteur. Rapports périmés relancés séparément après contrôle des exécutions actives ; deux collectes réussies, 156 sources ouvertes et 40 RSS exploitables, fraîcheur validée. Reprise des pistes Kuwata/ILLIT conservées au créneau incomplet du 26 à 20 h et nouvelle prospection : PRECIOUS sorti le 27 à 03 h UTC. Déduplication historique et relecture, alternance clip/show/clip, scores 17/17/16. La prestation ILLIT Blue Dragon du 25 est distinguée de la fiche MMA du 15 : nouvelle adresse aux acteurs et jeu entre les fauteuils, pas nouvelle chanson. Trois fichiers éditoriaux commités ensemble ; validateurs et pré-push réussis. Attendre Pages et Chromium, puis lire verification.json et inspecter les trois captures avant de compter la vague. Pages 45958466481 et Chromium 45958467041 réussis sur le SHA éditorial complet. Artifact 15179224981 téléchargé et empreinte égale au digest GitHub ; verification.json lu et comparé au registre : SHA exact, trois identifiants exacts, trois ajouts réels au flux. Trois captures publiques inspectées. Cette vague est maintenant comptée une seule fois pour le créneau de 6 h du 27 ; aucun décompte rétroactif pour les créneaux incomplets.",
+      "research_audit": [
+        {
+          "project": "Skepta — Secrets of Patriarchy",
+          "video": "RhSuan_P6z4",
+          "decision": "non retenu",
+          "reason": "Article Promonews du 26 novembre, mais vidéo primaire du 17 novembre ; source récente ne rajeunit pas le projet."
+        },
+        {
+          "project": "KIIRAS — OVER U",
+          "video": "yrtO4jN60hg",
+          "decision": "approfondissement en attente",
+          "reason": "Images scolaires, magasin de vêtements et performance collective examinées ; angle DA encore insuffisamment spécifique pour publication."
+        },
+        {
+          "project": "Singer’s High — 歌を歌えたら",
+          "video": "mKAQ9QhFfvI",
+          "decision": "prospection conservée",
+          "reason": "Site officiel du 26 et lien court consultés ; vidéo primaire résolue, date exacte et plans à examiner avant sélection."
+        },
+        {
+          "project": "Justin Timberlake — Tonight Show Thanksgiving",
+          "decision": "prospection conservée",
+          "reason": "Émission du 26 annoncée ; aucune nouvelle captation primaire exploitable identifiée dans ce passage. Ne pas confondre annonce et preuve de réalisation."
+        }
+      ],
+      "public_visual_review": {
+        "reviewed_at": "2026-11-27T07:29:03.097Z",
+        "screenshots": [
+          "fiche-1.png",
+          "fiche-2.png",
+          "fiche-3.png"
+        ],
+        "result": "Trois captures publiques ouvertes et examinées : images authentiques chargées, titres et décryptages présents, surlignages affichés. Limite connue de capture : la barre fixe recouvre une bande au milieu des captures intégrales. Ne pas présenter ces captures comme une validation sans défaut de toute la mise en page ; aucun changement d’interface effectué."
       }
     }
   },
