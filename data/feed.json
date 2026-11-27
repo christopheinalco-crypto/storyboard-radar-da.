@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-26T15:11:11.351Z",
+  "updated_at": "2026-11-27T07:25:37.462Z",
   "status": "editorial_reviewed",
   "working_feeds": [
     {
@@ -454,6 +454,66 @@
     "with_images": 82
   },
   "items": [
+    {
+      "project_id": "kouhei-matsushita-precious-portraits-lumiere-2026",
+      "title": "Kouhei Matsushita — Faire varier le portrait sans perdre la personne",
+      "title_fr": "Kouhei Matsushita — Faire varier le portrait sans perdre la personne",
+      "url": "https://www.youtube.com/watch?v=FgCochY1Q0Y",
+      "category": "14 Musique Clips",
+      "source": "Kouhei Matsushita — chaîne officielle",
+      "published": "2026-11-27T00:00:00Z",
+      "radar_added_at": "2026-11-27T07:25:37.462Z",
+      "summary": "Dans « PRECIOUS », hamaiba confronte un portrait très simple à des versions colorées, démultipliées et fragmentées du même interprète. Les variations font apparaître plusieurs manières d’être, puis le visage retrouve son cadre dépouillé.",
+      "summary_fr": "Dans « PRECIOUS », hamaiba confronte un portrait très simple à des versions colorées, démultipliées et fragmentées du même interprète. Les variations font apparaître plusieurs manières d’être, puis le visage retrouve son cadre dépouillé.",
+      "image": "https://i.ytimg.com/vi/FgCochY1Q0Y/hqdefault.jpg",
+      "image_kind": "project",
+      "image_credit": "Vignette officielle : Kouhei Matsushita, PRECIOUS. Réalisation : hamaiba (GROUPN).",
+      "image_source_url": "https://www.youtube.com/watch?v=FgCochY1Q0Y",
+      "image_alt": "Portrait frontal de Kouhei Matsushita sur fond clair dans la vignette officielle de PRECIOUS.",
+      "status": "editorial_reviewed",
+      "youtube_id": "FgCochY1Q0Y",
+      "angle": "Un portrait peut accueillir beaucoup de variations si un élément reste assez stable pour les relier. Ici, les yeux, la proximité du visage et le retour au cadre clair maintiennent cette continuité. La démultiplication prend alors un sens précis : elle rend visibles plusieurs expressions d’une même identité, au lieu de disperser l’attention entre des univers sans lien."
+    },
+    {
+      "project_id": "illit-blue-dragon-fauteuils-acteurs-2026",
+      "title": "ILLIT — Le numéro se prolonge entre les fauteuils des acteurs",
+      "title_fr": "ILLIT — Le numéro se prolonge entre les fauteuils des acteurs",
+      "url": "https://www.youtube.com/watch?v=JHB-rgooTSo",
+      "category": "01 Spectacle Concert",
+      "source": "KBS Entertain / Blue Dragon Film Awards",
+      "published": "2026-11-25T00:00:00Z",
+      "radar_added_at": "2026-11-27T07:25:37.462Z",
+      "summary": "Aux Blue Dragon Film Awards du 25 novembre, ILLIT transporte « You’re Under Arrest » du plateau jusqu’aux acteurs invités. Le geste du morceau devient une invitation à participer, inscrite dans les places réelles de la salle.",
+      "summary_fr": "Aux Blue Dragon Film Awards du 25 novembre, ILLIT transporte « You’re Under Arrest » du plateau jusqu’aux acteurs invités. Le geste du morceau devient une invitation à participer, inscrite dans les places réelles de la salle.",
+      "image": "https://i.ytimg.com/vi/JHB-rgooTSo/hqdefault.jpg",
+      "image_kind": "project",
+      "image_credit": "Vignette officielle : KBS Entertain, performance d’ILLIT aux Blue Dragon Film Awards du 25 novembre 2026.",
+      "image_source_url": "https://www.youtube.com/watch?v=JHB-rgooTSo",
+      "image_alt": "ILLIT en costumes de denim, cravate et manteau devant le décor des Blue Dragon Film Awards.",
+      "status": "editorial_reviewed",
+      "youtube_id": "JHB-rgooTSo",
+      "angle": "Pour prolonger un numéro dans le public, une action doit pouvoir quitter son décor et rester compréhensible. Ici, la présentation personnalisée prépare l’adresse, le plateau pose les codes, puis le geste partagé fonctionne à l’échelle de quelques personnes. Les fauteuils deviennent une contrainte de mise en scène utile : ils situent précisément qui est invité à participer."
+    },
+    {
+      "project_id": "keisuke-kuwata-tasuki-course-comptoir-2026",
+      "title": "Keisuke Kuwata — La course trouve son arrivée au comptoir",
+      "title_fr": "Keisuke Kuwata — La course trouve son arrivée au comptoir",
+      "url": "https://www.youtube.com/watch?v=97EC8q_wKxs",
+      "category": "14 Musique Clips",
+      "source": "Keisuke Kuwata — chaîne officielle / POPSCENE",
+      "published": "2026-11-26T00:00:00Z",
+      "radar_added_at": "2026-11-27T07:25:37.462Z",
+      "summary": "« Kamigami no Tasuki » accompagne une coureuse à travers Shonan, face à la mer et aux routes ouvertes. L’arrivée dans un petit restaurant change l’échelle du récit : l’effort prend aussi la forme d’une récompense quotidienne.",
+      "summary_fr": "« Kamigami no Tasuki » accompagne une coureuse à travers Shonan, face à la mer et aux routes ouvertes. L’arrivée dans un petit restaurant change l’échelle du récit : l’effort prend aussi la forme d’une récompense quotidienne.",
+      "image": "https://i.ytimg.com/vi/97EC8q_wKxs/hqdefault.jpg",
+      "image_kind": "project",
+      "image_credit": "Vignette officielle : Keisuke Kuwata, Kamigami no Tasuki (神々の襷).",
+      "image_source_url": "https://www.youtube.com/watch?v=97EC8q_wKxs",
+      "image_alt": "Keisuke Kuwata, guitare à la main, en silhouette devant la mer éclairée par le soleil.",
+      "status": "editorial_reviewed",
+      "youtube_id": "97EC8q_wKxs",
+      "angle": "Le lieu d’arrivée peut modifier le sens d’un parcours. Ici, la course s’inscrit d’abord dans un paysage ample, puis trouve sa résolution dans un comptoir encombré de détails familiers. Ce contraste garde une cohérence grâce au même personnage et à quelques repères de costume. La DA donne ainsi du poids à une destination modeste, sans devoir agrandir encore le spectacle."
+    },
     {
       "project_id": "kiss-of-life-greedy-maison-traces-2026",
       "title": "KISS OF LIFE — La maison de Noël garde les traces de la fête",
