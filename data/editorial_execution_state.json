@@ -1896,6 +1896,31 @@
           "justin-timberlake-rainbow-room-cercle-public-2026",
           "singers-high-uta-utaetara-balises-mondes-2026"
         ]
+      },
+      {
+        "id": "2026-11-27-16h",
+        "slot": "2026-11-27-16h",
+        "status": "public_verified",
+        "projects": [
+          "evani-fata-lui-tata-echelles-portrait-2026",
+          "wu-tang-detroit-thanksgiving-noyau-terrain-2026",
+          "flumpool-love-again-concert-regards-lumiere-2026"
+        ],
+        "count": 3,
+        "publication_commit": "a70efc775fe224b0b76c0c54b6bcc68a52550e02",
+        "trigger": "scheduled_editorial",
+        "feed_count": 158,
+        "verified_at": "2026-11-27T15:13:35.318Z",
+        "pages_deployment": "https://github.com/christopheinalco-crypto/storyboard-radar-da./actions/runs/46022826136",
+        "public_render_check": "https://github.com/christopheinalco-crypto/storyboard-radar-da./actions/runs/46022828344",
+        "artifact_id": 15209441764,
+        "artifact_sha256": "25a76c88c4d2322b5e02085556a46d0d97aa122daccb1c380e7fb0f0a0d7ccc6",
+        "proof_head": "a70efc775fe224b0b76c0c54b6bcc68a52550e02",
+        "verified_new_projects": [
+          "evani-fata-lui-tata-echelles-portrait-2026",
+          "wu-tang-detroit-thanksgiving-noyau-terrain-2026",
+          "flumpool-love-again-concert-regards-lumiere-2026"
+        ]
       }
     ]
   },
@@ -4057,6 +4082,93 @@
         "rss_parsed": 42,
         "required_user_action": false,
         "notes": "Suivi de 12 h 30 Paris : créneau échu = midi, déjà complet et vérifié. Dépôt exact et id 1449156184 confirmés par le connecteur. Couverture, inspection, brief et RSS frais et cohérents ; deux collecteurs réussis. Commit éditorial 161e0df8d2d4b210d347fee72de2a3a6367b016b : exactement trois fichiers et trois ajouts réels identiques au registre. Pages et Chromium réussis sur ce SHA. Métadonnées de l’artifact relues sur GitHub ; empreinte du ZIP local identique au digest, verification.json extrait et relu : head exact, verified_new_projects exact. Aucun changement des données éditoriales depuis ce commit ; les déploiements de registre ne sont pas de nouvelles vagues. Aucune fiche publiée ni vague ajoutée par cette alerte."
+      }
+    },
+    "2026-11-27-16h": {
+      "id": "2026-11-27-16h",
+      "status": "complete",
+      "stage": "public_verified",
+      "checked_at": "2026-11-27T15:15:00.541Z",
+      "published_count": 3,
+      "public_render_verified": true,
+      "collection": {
+        "wave_id": "github-46021493799",
+        "coverage_checked_at": "2026-11-27T15:03:54.998484+00:00",
+        "brief_prepared_at": "2026-11-27T15:04:35.153156+00:00",
+        "sources_opened": 155,
+        "rss_collected_at": "2026-11-27T14:19:33.518125+00:00",
+        "rss_parsed": 42,
+        "source_run": 46021493799,
+        "rss_run": 46014884082,
+        "fresh": true,
+        "refresh_audit": {
+          "source_was_stale": true,
+          "rss_was_stale": false,
+          "rss_redispatched": false
+        }
+      },
+      "publication": {
+        "id": "2026-11-27-16h",
+        "slot": "2026-11-27-16h",
+        "status": "public_verified",
+        "projects": [
+          "evani-fata-lui-tata-echelles-portrait-2026",
+          "wu-tang-detroit-thanksgiving-noyau-terrain-2026",
+          "flumpool-love-again-concert-regards-lumiere-2026"
+        ],
+        "count": 3,
+        "publication_commit": "a70efc775fe224b0b76c0c54b6bcc68a52550e02",
+        "trigger": "scheduled_editorial",
+        "feed_count": 158,
+        "verified_at": "2026-11-27T15:13:35.318Z",
+        "pages_deployment": "https://github.com/christopheinalco-crypto/storyboard-radar-da./actions/runs/46022826136",
+        "public_render_check": "https://github.com/christopheinalco-crypto/storyboard-radar-da./actions/runs/46022828344",
+        "artifact_id": 15209441764,
+        "artifact_sha256": "25a76c88c4d2322b5e02085556a46d0d97aa122daccb1c380e7fb0f0a0d7ccc6",
+        "proof_head": "a70efc775fe224b0b76c0c54b6bcc68a52550e02",
+        "verified_new_projects": [
+          "evani-fata-lui-tata-echelles-portrait-2026",
+          "wu-tang-detroit-thanksgiving-noyau-terrain-2026",
+          "flumpool-love-again-concert-regards-lumiere-2026"
+        ]
+      },
+      "notes": "Créneau échu de 16 h, déclenchement 16 h 03 Paris. Dépôt exact et id vérifiés par GitHub. Couverture/inspection/brief périmés, aucun collecteur actif : seule la collecte source a été relancée. RSS encore frais conservé sans redéclenchement. 155 sources ouvertes et 42 RSS exploitables, contrôle de fraîcheur réussi avant publication. Prospection du catalogue et externe, reprise de Wu-Tang conservé à midi et examen des pistes Evani/flumpool. Dates primaires séparées de celles des articles : Evani du 24 à 16:03:04 UTC encore dans les 72 h à la publication ; clip flumpool du 25, contenant des captations plus anciennes assumées ; show NFL du 26 confirmé par vidéo officielle complète. Identités oEmbed, métadonnées, couverture sobre, plusieurs planches et historique entier contrôlés. Ancienne fiche de tournée Wu-Tang distinguée du nouveau plateau NFL sans temple. Alternance clip/show/clip, analyses relues et scores 16/18/16. Trois fichiers publiés atomiquement et validateurs réussis ; déploiement Pages et preuve Chromium encore à vérifier avant décompte. Pages 46022826136 et Chromium 46022828344 réussis. Artifact 15209441764 téléchargé, digest SHA256 vérifié, verification.json lu : SHA éditorial exact et trois identifiants exactement égaux au registre. Trois ajouts réels comparés au parent du commit. Trois captures publiques ouvertes et inspectées. Vague désormais comptée une seule fois pour 16 h. Les créneaux historiques incomplets restent hors décompte.",
+      "research_audit": [
+        {
+          "project": "Tancredi — Ho visto un uomo (il male)",
+          "video": "LU_oXYbtr2Q",
+          "decision": "non retenu dans cette vague",
+          "reason": "Vidéo primaire du 19 novembre, malgré article Promonews du 26 avec propos du réalisateur ; pas présentée comme un nouveau clip. Valeur de référence conservée."
+        },
+        {
+          "project": "Hard Life — Boyfriends",
+          "decision": "non retenu",
+          "reason": "Fiche LBB et Videoclip Italia du 25 mais sortie du clip signalée le 18 ; pas de nouvelle vidéo des dernières 72 h établie."
+        },
+        {
+          "project": "Motta — Tu cosa dici",
+          "decision": "non retenu",
+          "reason": "Articles récents mais clip du 19 novembre ; ancien projet."
+        },
+        {
+          "project": "Wu-Tang Clan — Thanksgiving",
+          "decision": "lien corrigé et retenu",
+          "reason": "Lien secondaire zqjMKR2vJeE mène à U2 filmé par Tanner Phifer : écarté. SI7wbW6oIAg retrouvé dans Our Culture et identifié comme vidéo NFL complète de 410 s du 26 ; bSm_qShL17k est un extrait de 58 s seulement."
+        },
+        {
+          "project": "Malou — The Mood for Love / KIIRAS — OVER U",
+          "decision": "pistes antérieures encore en attente",
+          "reason": "Reprises consultées ; angle DA insuffisamment approfondi pour les publier au seul motif du quota. Les pistes déjà publiées à des créneaux ultérieurs ne sont pas recomptées."
+        }
+      ],
+      "public_visual_review": {
+        "reviewed_at": "2026-11-27T15:15:00.541Z",
+        "screenshots": [
+          "fiche-1.png",
+          "fiche-2.png",
+          "fiche-3.png"
+        ],
+        "result": "Trois captures publiques ouvertes et examinées : couvertures originales affichées, cartes et décryptages présents, textes et surlignages rendus. Limite connue des captures intégrales : barre fixe superposée à une bande du contenu. Ne pas qualifier la mise en page de sans défaut ; aucun changement d’interface dans cette vague."
       }
     }
   },
