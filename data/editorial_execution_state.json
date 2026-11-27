@@ -1921,6 +1921,31 @@
           "wu-tang-detroit-thanksgiving-noyau-terrain-2026",
           "flumpool-love-again-concert-regards-lumiere-2026"
         ]
+      },
+      {
+        "id": "2026-11-27-20h",
+        "slot": "2026-11-27-20h",
+        "status": "public_verified",
+        "projects": [
+          "friedberg-mitsubishi-voiture-fabrication-visible-2026",
+          "miranda-lambert-dallas-cadres-costume-2026",
+          "rosie-alena-satsumas-costume-visible-protection-2026"
+        ],
+        "count": 3,
+        "publication_commit": "1c89fe88645447723aee38f7c536db36312f385e",
+        "trigger": "scheduled_editorial",
+        "feed_count": 161,
+        "verified_at": "2026-11-27T19:09:09.364Z",
+        "PagesURL": "https://github.com/christopheinalco-crypto/storyboard-radar-da./actions/runs/46054528690",
+        "public_render_checkURL": "https://github.com/christopheinalco-crypto/storyboard-radar-da./actions/runs/46054528672",
+        "artifact_id": 15226555636,
+        "artifact_sha256": "4797ad429a554415c188f94e5c1002a5491ab41b1a2ea6a47984ee7ebcb54912",
+        "proof_head": "1c89fe88645447723aee38f7c536db36312f385e",
+        "verified_new_projects": [
+          "friedberg-mitsubishi-voiture-fabrication-visible-2026",
+          "miranda-lambert-dallas-cadres-costume-2026",
+          "rosie-alena-satsumas-costume-visible-protection-2026"
+        ]
       }
     ]
   },
@@ -4199,6 +4224,88 @@
         "required_user_action": false,
         "next_collection_action": "Rapports désormais périmés : au prochain passage éditorial, contrôler les exécutions actives et relancer uniquement les groupes périmés avant une nouvelle sélection.",
         "notes": "Alerte retardée à 17 h 58 Paris : créneau échu conservé = 16 h, déjà complet. Dépôt exact et id 1449156184 confirmés par GitHub. Deux collectes réussies, rapports cohérents mais vieux de plus d’une heure au suivi. Leur fraîcheur au moment du commit éditorial a été recalculée et confirmée ; la péremption ultérieure ne change pas la preuve historique de la vague. Commit a70efc775fe224b0b76c0c54b6bcc68a52550e02 : exactement trois fichiers et trois ajouts réels annoncés. Pages et Chromium réussis sur ce SHA. Métadonnées de l’artifact relues sur GitHub ; ZIP local de digest identique ouvert, verification.json extrait et relu : head exact et verified_new_projects exact. Aucun changement éditorial depuis le commit ; le déploiement de registre ne constitue pas une nouvelle vague. Cette alerte ne publie aucune fiche, ne relance pas la sélection et n’ajoute aucun décompte."
+      }
+    },
+    "2026-11-27-20h": {
+      "id": "2026-11-27-20h",
+      "status": "complete",
+      "stage": "public_verified",
+      "checked_at": "2026-11-27T19:12:11.073Z",
+      "published_count": 3,
+      "public_render_verified": true,
+      "collection": {
+        "wave_id": "github-46053727199",
+        "coverage_checked_at": "2026-11-27T19:01:47.710274+00:00",
+        "brief_prepared_at": "2026-11-27T19:02:19.451203+00:00",
+        "sources_opened": 157,
+        "rss_collected_at": "2026-11-27T19:01:49.083634+00:00",
+        "rss_parsed": 41,
+        "source_run": 46053727199,
+        "rss_run": 46053730091,
+        "fresh": true
+      },
+      "publication": {
+        "id": "2026-11-27-20h",
+        "slot": "2026-11-27-20h",
+        "status": "public_verified",
+        "projects": [
+          "friedberg-mitsubishi-voiture-fabrication-visible-2026",
+          "miranda-lambert-dallas-cadres-costume-2026",
+          "rosie-alena-satsumas-costume-visible-protection-2026"
+        ],
+        "count": 3,
+        "publication_commit": "1c89fe88645447723aee38f7c536db36312f385e",
+        "trigger": "scheduled_editorial",
+        "feed_count": 161,
+        "verified_at": "2026-11-27T19:09:09.364Z",
+        "PagesURL": "https://github.com/christopheinalco-crypto/storyboard-radar-da./actions/runs/46054528690",
+        "public_render_checkURL": "https://github.com/christopheinalco-crypto/storyboard-radar-da./actions/runs/46054528672",
+        "artifact_id": 15226555636,
+        "artifact_sha256": "4797ad429a554415c188f94e5c1002a5491ab41b1a2ea6a47984ee7ebcb54912",
+        "proof_head": "1c89fe88645447723aee38f7c536db36312f385e",
+        "verified_new_projects": [
+          "friedberg-mitsubishi-voiture-fabrication-visible-2026",
+          "miranda-lambert-dallas-cadres-costume-2026",
+          "rosie-alena-satsumas-costume-visible-protection-2026"
+        ]
+      },
+      "notes": "Créneau échu de 20 h, déclenchement 20 h 01 Paris. Nom exact du dépôt et id 1449156184 confirmés par le connecteur. Rapports périmés, absence de collecteurs actifs vérifiée puis relances séparées sources et RSS. Deux réussites, rapports relus frais et cohérents : 157 sources ouvertes et 41 RSS exploitables. Prospection externe complétant le catalogue : FEMMUSIC pour Friedberg, PM Studio et propos de Rosie Alena, actualités puis source Cowboys et captation NFL pour Miranda Lambert. Identités oEmbed, dates primaires et durées vérifiées : deux clips du 25 novembre à minuit UTC et show du 26. Friedberg Mitsubishi, épisode de 85 s, distingué du clip Goodwife du 9 octobre ; Miranda captation complète de 378 s distinguée de l’annonce du 25 octobre ; Rosie couleur rouge contrôlée sur la vidéo, sans reprendre automatiquement la description orange d’un compte rendu. Quinze planches détaillées et trois couvertures originales sobres examinées. Historique entier vérifié sans doublon. Analyses relues en quatre parties, scores 18/17/17 et alternance clip/show/clip. Costume, fabrication visible et relation entre costume/architecture apportent trois angles distincts. Trois fichiers éditoriaux publiés atomiquement et validateurs réussis ; attendre Pages et Chromium, puis lire verification.json et inspecter les trois captures avant décompte. Pages et Chromium réussis sur le commit exact ; archive téléchargée et empreinte vérifiée. verification.json relu, trois identifiants exacts et différence du flux parent contrôlés. Trois captures publiques examinées : couvertures originales présentes et sobres, analyses ouvertes et surlignages visibles. Limite connue : la barre fixe masque une bande médiane dans les captures complètes ; aucune affirmation de mise en page intégralement parfaite.",
+      "research_audit": [
+        {
+          "project": "Friedberg — Mitsubishi",
+          "decision": "retenu",
+          "reason": "Nouveau chapitre publié le 25 novembre 00:00:15 UTC ; fabrication collective et éléments de décor visibles documentés, crédits primaires lus."
+        },
+        {
+          "project": "Rosie Alena — Satsumas",
+          "decision": "retenu",
+          "reason": "Clip primaire du 25 novembre 00:00:17 UTC ; costume Zoë Frost, réalisation/image/montage Lara Laeverenz, propos de l’artiste recoupés."
+        },
+        {
+          "project": "Miranda Lambert — Thanksgiving Dallas",
+          "decision": "retenu",
+          "reason": "Captation complète NFL du 26 novembre 23:49:41 UTC ; annonce primaire Cowboys et images de la réalisation distinctes."
+        },
+        {
+          "project": "ANOSORA — 冬影リグレット",
+          "decision": "prospection conservée",
+          "source": "https://idolnews.murasaki-imo.cc/news/news-anosora-20261121",
+          "reason": "Annonce de vidéo le 27 à 19 h Japon repérée ; vidéo primaire, date effective, visuels et angle DA non encore examinés."
+        },
+        {
+          "project": "Malou — The Mood for Love / KIIRAS — OVER U",
+          "decision": "toujours en attente",
+          "reason": "Pistes consignées dans les anciens créneaux incomplets relues ; absence d’angle suffisamment approfondi pour publication automatique. Ne pas les recompter ni les publier uniquement pour remplir la vague."
+        }
+      ],
+      "public_visual_review": {
+        "reviewed_at": "2026-11-27T19:12:11.074Z",
+        "screenshots": [
+          "fiche-1.png",
+          "fiche-2.png",
+          "fiche-3.png"
+        ],
+        "result": "Trois fiches, images originales, analyses et surlignages présents. Limite de capture : bande médiane masquée par la barre fixe."
       }
     }
   },
