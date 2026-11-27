@@ -1,7 +1,7 @@
 {
-  "wave_id": "github-46077718076",
-  "prepared_at": "2026-11-27T22:37:27.484248+00:00",
-  "coverage_checked_at": "2026-11-27T22:37:00.984497+00:00",
+  "wave_id": "github-46078633630",
+  "prepared_at": "2026-11-27T22:46:55.933874+00:00",
+  "coverage_checked_at": "2026-11-27T22:46:24.899980+00:00",
   "coverage": {
     "attempted": 182,
     "opened_successfully": 156,
@@ -10,8 +10,8 @@
   },
   "project_inspections": {
     "attempted": 160,
-    "opened": 155,
-    "failed": 5
+    "opened": 157,
+    "failed": 3
   },
   "research_only": true,
   "warning": "Mechanical triage, NOT editorial selection. Dates, identity, DA value, image rights and public rendering remain unverified. Editor must also research fresh projects externally.",
@@ -26,9 +26,9 @@
   },
   "excluded_counts": {
     "not_project_like": 50,
-    "navigation_or_product": 34,
+    "navigation_or_product": 36,
     "metadata_older_than_72h": 22,
-    "not_opened": 5,
+    "not_opened": 3,
     "non_priority_category": 1
   },
   "items": [
@@ -38,7 +38,7 @@
       "category": "14 Musique Clips",
       "source": "Directors Notes",
       "published_date_claim": "2026-11-25T16:27:25+00:00",
-      "age_hours_claim": 54.2,
+      "age_hours_claim": 54.3,
       "date_verified": false,
       "project_identity_verified": false,
       "image_candidate_unverified": "https://directorsnotes.com/wp-content/uploads/2026/11/coyotes_02.jpg",
@@ -83,7 +83,7 @@
       "category": "09 France Pro",
       "source": "Revue AS",
       "published_date_claim": "2026-11-27T09:42:00+00:00",
-      "age_hours_claim": 12.9,
+      "age_hours_claim": 13.1,
       "date_verified": false,
       "project_identity_verified": false,
       "image_candidate_unverified": "https://www.revue-as.fr/wp-content/uploads/2026/11/Miniature-YouTube-en-backstage-a-Avignon-e1795682838871.jpg",
@@ -388,7 +388,7 @@
       "project_identity_verified": false,
       "image_candidate_unverified": "https://d1xwp3j66c4akz.cloudfront.net/default-white.png",
       "description": "Browse all the latest Director's notes videos from Promonews",
-      "page_excerpt": "Get the Promonews daily round up Music Video Preservation Society The Promonews mailing list Get the Promonews daily round up Music Video Preservation Society The Promonews mailing list Tancredi 'Ho Visto Un Uomo (il Male)' by Ruben Cantù Rajnoldi Ruben Cantù Rajnoldi places Tancredi within a series of monumental structures in a beautifully composed and shot promo for the Italian singer and rapper. The video for Ho Visto Un Uomo (il Male) opens in stark black and white, presenting the artist within a huge monolithic structure - one of the 'Spomeniks' built after World War II as sites of remembrance throughout wha",
+      "page_excerpt": "Get the Promonews daily round up Music Video Preservation Society The Promonews mailing list Get the Promonews daily round up Music Video Preservation Society The Promonews mailing list Archive 'Keep Your Eyes Down' by Reuben Sutherland Reuben Sutherland returns to music videos with a strong message delivered in his inimitable style for British alternative rock band Archive.For Keep Your Eyes Down, Sutherland blends live action, animation and illustration in the distinctive fashion that has characterised his work since his videos for the likes of Doves, Phoenix Foundation and Royksopp landed in the Noughties. Her",
       "editorial_score": null,
       "status": "research_only_not_approved"
     },
