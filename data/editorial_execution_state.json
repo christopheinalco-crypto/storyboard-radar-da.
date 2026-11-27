@@ -4169,6 +4169,36 @@
           "fiche-3.png"
         ],
         "result": "Trois captures publiques ouvertes et examinées : couvertures originales affichées, cartes et décryptages présents, textes et surlignages rendus. Limite connue des captures intégrales : barre fixe superposée à une bande du contenu. Ne pas qualifier la mise en page de sans défaut ; aucun changement d’interface dans cette vague."
+      },
+      "last_followup": {
+        "checked_at": "2026-11-27T17:00:10.265Z",
+        "trigger_at": "2026-11-27T16:58:58.257Z",
+        "slot": "2026-11-27-16h",
+        "commit_three_files": true,
+        "actual_new_projects": [
+          "evani-fata-lui-tata-echelles-portrait-2026",
+          "wu-tang-detroit-thanksgiving-noyau-terrain-2026",
+          "flumpool-love-again-concert-regards-lumiere-2026"
+        ],
+        "proof_exact": true,
+        "artifact_id": 15209441764,
+        "artifact_sha256": "25a76c88c4d2322b5e02085556a46d0d97aa122daccb1c380e7fb0f0a0d7ccc6",
+        "pages_success": true,
+        "chromium_success": true,
+        "collection_fresh": false,
+        "collection_fresh_at_publication": true,
+        "collection_coherent": true,
+        "sources_opened": 155,
+        "rss_parsed": 42,
+        "collection_report_ages_minutes": {
+          "coverage": 116,
+          "inspection": 116,
+          "brief": 116,
+          "rss": 161
+        },
+        "required_user_action": false,
+        "next_collection_action": "Rapports désormais périmés : au prochain passage éditorial, contrôler les exécutions actives et relancer uniquement les groupes périmés avant une nouvelle sélection.",
+        "notes": "Alerte retardée à 17 h 58 Paris : créneau échu conservé = 16 h, déjà complet. Dépôt exact et id 1449156184 confirmés par GitHub. Deux collectes réussies, rapports cohérents mais vieux de plus d’une heure au suivi. Leur fraîcheur au moment du commit éditorial a été recalculée et confirmée ; la péremption ultérieure ne change pas la preuve historique de la vague. Commit a70efc775fe224b0b76c0c54b6bcc68a52550e02 : exactement trois fichiers et trois ajouts réels annoncés. Pages et Chromium réussis sur ce SHA. Métadonnées de l’artifact relues sur GitHub ; ZIP local de digest identique ouvert, verification.json extrait et relu : head exact et verified_new_projects exact. Aucun changement éditorial depuis le commit ; le déploiement de registre ne constitue pas une nouvelle vague. Cette alerte ne publie aucune fiche, ne relance pas la sélection et n’ajoute aucun décompte."
       }
     }
   },
