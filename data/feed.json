@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-27T07:25:37.462Z",
+  "updated_at": "2026-11-27T11:02:51.257Z",
   "status": "editorial_reviewed",
   "working_feeds": [
     {
@@ -454,6 +454,66 @@
     "with_images": 82
   },
   "items": [
+    {
+      "project_id": "cl-say-it-to-my-face-portraits-interposes-2026",
+      "title": "CL — Le face-à-face rencontre des écrans et des masques",
+      "title_fr": "CL — Le face-à-face rencontre des écrans et des masques",
+      "url": "https://www.youtube.com/watch?v=tm9IPzsDiKo",
+      "category": "14 Musique Clips",
+      "source": "THEBLACKLABEL / CL",
+      "published": "2026-11-27T00:00:00Z",
+      "radar_added_at": "2026-11-27T11:02:51.257Z",
+      "summary": "Dans « Say It to My Face », CL confronte le portrait frontal à des visages repris par un téléviseur, des miroirs et une grille d’écrans. La DA fait de l’image de la personne un objet que l’on peut cadrer, cacher et multiplier.",
+      "summary_fr": "Dans « Say It to My Face », CL confronte le portrait frontal à des visages repris par un téléviseur, des miroirs et une grille d’écrans. La DA fait de l’image de la personne un objet que l’on peut cadrer, cacher et multiplier.",
+      "image": "https://i.ytimg.com/vi/tm9IPzsDiKo/hqdefault.jpg",
+      "image_kind": "project",
+      "image_credit": "Vignette officielle : THEBLACKLABEL / CL, Say It to My Face.",
+      "image_source_url": "https://www.youtube.com/watch?v=tm9IPzsDiKo",
+      "image_alt": "Portrait rouge de CL, les mains autour du visage, dans la vignette officielle du clip.",
+      "status": "editorial_reviewed",
+      "youtube_id": "tm9IPzsDiKo",
+      "angle": "Un accessoire peut déterminer la relation au portrait. Ici, le téléviseur en fait une image à consulter, les miroirs la divisent et les plans proches rétablissent un face-à-face. La cohérence du clip vient de cette même question reprise par plusieurs matières et plusieurs échelles. Le choix des supports donne ainsi un sens aux variations de cadre."
+    },
+    {
+      "project_id": "justin-timberlake-rainbow-room-cercle-public-2026",
+      "title": "Justin Timberlake — Le salon devient un cercle de concert",
+      "title_fr": "Justin Timberlake — Le salon devient un cercle de concert",
+      "url": "https://www.youtube.com/watch?v=-da6-tmRXaM",
+      "category": "01 Spectacle Concert",
+      "source": "The Tonight Show Starring Jimmy Fallon / NBC",
+      "published": "2026-11-27T00:00:00Z",
+      "radar_added_at": "2026-11-27T11:02:51.257Z",
+      "summary": "Pour le Thanksgiving du Tonight Show, Justin Timberlake investit le Rainbow Room avec un medley de « FutureSex/LoveSounds ». Les lustres, le plafond circulaire et la proximité du public participent au dispositif, au même titre que les projecteurs.",
+      "summary_fr": "Pour le Thanksgiving du Tonight Show, Justin Timberlake investit le Rainbow Room avec un medley de « FutureSex/LoveSounds ». Les lustres, le plafond circulaire et la proximité du public participent au dispositif, au même titre que les projecteurs.",
+      "image": "https://i.ytimg.com/vi/-da6-tmRXaM/hqdefault.jpg",
+      "image_kind": "project",
+      "image_credit": "Vignette officielle : The Tonight Show Starring Jimmy Fallon / NBC, Justin Timberlake au Rainbow Room.",
+      "image_source_url": "https://www.youtube.com/watch?v=-da6-tmRXaM",
+      "image_alt": "Justin Timberlake au micro pendant le medley du Tonight Show au Rainbow Room.",
+      "status": "editorial_reviewed",
+      "youtube_id": "-da6-tmRXaM",
+      "angle": "Investir un lieu existant commence par repérer ce qui peut rester actif dans l’image. Ici, les cercles, les lustres et les rangées de spectateurs donnent des repères complémentaires, en hauteur et au sol. La lumière peut varier tout en les conservant. Le dispositif garde ainsi l’identité du salon et lui donne un nouvel usage, plutôt que de traiter son architecture comme un fond à effacer."
+    },
+    {
+      "project_id": "singers-high-uta-utaetara-balises-mondes-2026",
+      "title": "Singer’s High — Garder des balises quand le monde du clip change",
+      "title_fr": "Singer’s High — Garder des balises quand le monde du clip change",
+      "url": "https://www.youtube.com/watch?v=mKAQ9QhFfvI",
+      "category": "14 Musique Clips",
+      "source": "Singer’s High — chaîne officielle",
+      "published": "2026-11-26T00:00:00Z",
+      "radar_added_at": "2026-11-27T11:02:51.257Z",
+      "summary": "Pour « Uta wo Utaetara », Mani Kato place Singer’s High parmi des flèches de chantier, des gyrophares et des instruments. Les arrière-plans passent de la ville aux images graphiques, tandis que ces objets relient les espaces de performance.",
+      "summary_fr": "Pour « Uta wo Utaetara », Mani Kato place Singer’s High parmi des flèches de chantier, des gyrophares et des instruments. Les arrière-plans passent de la ville aux images graphiques, tandis que ces objets relient les espaces de performance.",
+      "image": "https://i.ytimg.com/vi/mKAQ9QhFfvI/hqdefault.jpg",
+      "image_kind": "project",
+      "image_credit": "Vignette officielle : Singer’s High, Uta wo Utaetara. Réalisation : Mani Kato ; décor : Momo Oomizu.",
+      "image_source_url": "https://www.youtube.com/watch?v=mKAQ9QhFfvI",
+      "image_alt": "Le chanteur de Singer’s High au microphone, avec un gyrophare jaune visible derrière lui.",
+      "status": "editorial_reviewed",
+      "youtube_id": "mKAQ9QhFfvI",
+      "angle": "Un dispositif peut traverser plusieurs univers si ses repères ne dépendent pas tous du fond. Ici, flèches, gyrophares, instruments et costumes relient les tableaux à l’échelle des interprètes. Leur présence donne un rôle à l’habillage du plateau : il permet de reconnaître un même espace de jeu, même lorsque l’image derrière lui change radicalement."
+    },
     {
       "project_id": "kouhei-matsushita-precious-portraits-lumiere-2026",
       "title": "Kouhei Matsushita — Faire varier le portrait sans perdre la personne",

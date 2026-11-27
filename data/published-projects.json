@@ -1,6 +1,6 @@
 {
   "description": "Cumulative seen-project register; retain entries when projects leave the live feed; compare URL and semantic identity.",
-  "updated": "2026-11-27T07:25:37.462Z",
+  "updated": "2026-11-27T11:02:51.257Z",
   "projects": [
     {
       "project_id": "pink-siifu-devils-advocate-gontrand-making-of-2026",
@@ -1282,6 +1282,36 @@
       "radar_added_at": "2026-11-27T07:25:37.462Z",
       "published_at": "2026-11-27T07:25:37.462Z",
       "wave_id": "2026-11-27-06h",
+      "editorial_score": 16
+    },
+    {
+      "project_id": "cl-say-it-to-my-face-portraits-interposes-2026",
+      "title": "CL — Le face-à-face rencontre des écrans et des masques",
+      "url": "https://www.youtube.com/watch?v=tm9IPzsDiKo",
+      "category": "14 Musique Clips",
+      "radar_added_at": "2026-11-27T11:02:51.257Z",
+      "published_at": "2026-11-27T11:02:51.257Z",
+      "wave_id": "2026-11-27-12h",
+      "editorial_score": 17
+    },
+    {
+      "project_id": "justin-timberlake-rainbow-room-cercle-public-2026",
+      "title": "Justin Timberlake — Le salon devient un cercle de concert",
+      "url": "https://www.youtube.com/watch?v=-da6-tmRXaM",
+      "category": "01 Spectacle Concert",
+      "radar_added_at": "2026-11-27T11:02:51.257Z",
+      "published_at": "2026-11-27T11:02:51.257Z",
+      "wave_id": "2026-11-27-12h",
+      "editorial_score": 17
+    },
+    {
+      "project_id": "singers-high-uta-utaetara-balises-mondes-2026",
+      "title": "Singer’s High — Garder des balises quand le monde du clip change",
+      "url": "https://www.youtube.com/watch?v=mKAQ9QhFfvI",
+      "category": "14 Musique Clips",
+      "radar_added_at": "2026-11-27T11:02:51.257Z",
+      "published_at": "2026-11-27T11:02:51.257Z",
+      "wave_id": "2026-11-27-12h",
       "editorial_score": 16
     }
   ]
