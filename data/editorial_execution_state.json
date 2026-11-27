@@ -4036,6 +4036,27 @@
           "fiche-3.png"
         ],
         "result": "Trois images authentiques présentes, cartes et décryptages ouverts, textes et surlignages rendus. Trois captures publiques ouvertes et examinées. Limite connue : barre fixe superposée à une bande du contenu dans les captures intégrales, sans prétendre une validation de mise en page sans défaut. Aucune modification d’interface dans cette vague."
+      },
+      "last_followup": {
+        "checked_at": "2026-11-27T11:31:18.643Z",
+        "trigger_at": "2026-11-27T11:30:18.210Z",
+        "slot": "2026-11-27-12h",
+        "commit_three_files": true,
+        "actual_new_projects": [
+          "cl-say-it-to-my-face-portraits-interposes-2026",
+          "justin-timberlake-rainbow-room-cercle-public-2026",
+          "singers-high-uta-utaetara-balises-mondes-2026"
+        ],
+        "proof_exact": true,
+        "artifact_id": 15190884797,
+        "artifact_sha256": "5be2ea6c179ce6a4b304ffe46d0f6b6414265a0d9376ad8cf61b2f43f7ca900f",
+        "pages_success": true,
+        "chromium_success": true,
+        "collection_fresh": true,
+        "sources_opened": 155,
+        "rss_parsed": 42,
+        "required_user_action": false,
+        "notes": "Suivi de 12 h 30 Paris : créneau échu = midi, déjà complet et vérifié. Dépôt exact et id 1449156184 confirmés par le connecteur. Couverture, inspection, brief et RSS frais et cohérents ; deux collecteurs réussis. Commit éditorial 161e0df8d2d4b210d347fee72de2a3a6367b016b : exactement trois fichiers et trois ajouts réels identiques au registre. Pages et Chromium réussis sur ce SHA. Métadonnées de l’artifact relues sur GitHub ; empreinte du ZIP local identique au digest, verification.json extrait et relu : head exact, verified_new_projects exact. Aucun changement des données éditoriales depuis ce commit ; les déploiements de registre ne sont pas de nouvelles vagues. Aucune fiche publiée ni vague ajoutée par cette alerte."
       }
     }
   },
