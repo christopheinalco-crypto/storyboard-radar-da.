@@ -3896,6 +3896,27 @@
           "fiche-3.png"
         ],
         "result": "Trois captures publiques ouvertes et examinées : images authentiques chargées, titres et décryptages présents, surlignages affichés. Limite connue de capture : la barre fixe recouvre une bande au milieu des captures intégrales. Ne pas présenter ces captures comme une validation sans défaut de toute la mise en page ; aucun changement d’interface effectué."
+      },
+      "last_followup": {
+        "checked_at": "2026-11-27T07:34:45.256Z",
+        "trigger_at": "2026-11-27T07:33:44.202Z",
+        "slot": "2026-11-27-06h",
+        "commit_three_files": true,
+        "actual_new_projects": [
+          "kouhei-matsushita-precious-portraits-lumiere-2026",
+          "illit-blue-dragon-fauteuils-acteurs-2026",
+          "keisuke-kuwata-tasuki-course-comptoir-2026"
+        ],
+        "proof_exact": true,
+        "artifact_id": 15179224981,
+        "artifact_sha256": "abf554bc21d6a0a9f2759c283af6380178471c5f449df15a8a1e854aceee7546",
+        "pages_success": true,
+        "chromium_success": true,
+        "collection_fresh": true,
+        "sources_opened": 156,
+        "rss_parsed": 40,
+        "required_user_action": false,
+        "notes": "Déclenchement de suivi retardé à 8 h 33 Paris : dernier créneau échu = 6 h, déjà complet. Dépôt exact et id 1449156184 confirmés par GitHub. Collectes et brief frais, exécutions sources et RSS réussies. Commit éditorial 8dfbf410fd390ff3e7ebe37cd4d905b37d08b646 : exactement les trois fichiers requis et exactement les trois nouveaux identifiants annoncés. Pages 45958466481 et Chromium 45958467041 réussis. Métadonnées de l’artifact relues sur GitHub ; ZIP local de digest identique ouvert et verification.json relu : head exact, verified_new_projects exact. Aucun changement éditorial depuis la publication ; le déploiement du registre n’est pas une nouvelle vague. Aucune fiche publiée ni décompte ajouté par cette alerte."
       }
     }
   },
