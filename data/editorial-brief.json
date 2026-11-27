@@ -1,11 +1,11 @@
 {
-  "wave_id": "github-46011855929",
-  "prepared_at": "2026-11-27T14:00:06.035945+00:00",
-  "coverage_checked_at": "2026-11-27T13:59:35.928484+00:00",
+  "wave_id": "github-46021493799",
+  "prepared_at": "2026-11-27T15:04:35.153156+00:00",
+  "coverage_checked_at": "2026-11-27T15:03:54.998484+00:00",
   "coverage": {
     "attempted": 182,
-    "opened_successfully": 157,
-    "failed": 25,
+    "opened_successfully": 155,
+    "failed": 27,
     "target_met": true
   },
   "project_inspections": {
@@ -25,8 +25,8 @@
     "09 France Pro": 8
   },
   "excluded_counts": {
-    "not_project_like": 52,
-    "navigation_or_product": 36,
+    "not_project_like": 51,
+    "navigation_or_product": 38,
     "metadata_older_than_72h": 20,
     "not_opened": 4,
     "non_priority_category": 1
@@ -38,7 +38,7 @@
       "category": "14 Musique Clips",
       "source": "Directors Notes",
       "published_date_claim": "2026-11-25T16:27:25+00:00",
-      "age_hours_claim": 45.5,
+      "age_hours_claim": 46.6,
       "date_verified": false,
       "project_identity_verified": false,
       "image_candidate_unverified": "https://directorsnotes.com/wp-content/uploads/2026/11/coyotes_02.jpg",
@@ -83,7 +83,7 @@
       "category": "09 France Pro",
       "source": "Revue AS",
       "published_date_claim": "2026-11-27T09:42:00+00:00",
-      "age_hours_claim": 4.3,
+      "age_hours_claim": 5.4,
       "date_verified": false,
       "project_identity_verified": false,
       "image_candidate_unverified": "https://www.revue-as.fr/wp-content/uploads/2026/11/Miniature-YouTube-en-backstage-a-Avignon-e1795682838871.jpg",
@@ -213,17 +213,17 @@
       "status": "research_only_not_approved"
     },
     {
-      "title": "Aerosmith — Peace Out Tour | LUZ Studio",
-      "url": "https://luzstudio.com/en/projects/aerosmith-peace-out-tour",
+      "title": "Anna Vissi – Stufish",
+      "url": "https://stufish.com/project/anna-vissi/",
       "category": "01 Spectacle Concert",
-      "source": "LUZ Studio",
+      "source": "STUFISH",
       "published_date_claim": "",
       "age_hours_claim": null,
       "date_verified": false,
       "project_identity_verified": false,
       "image_candidate_unverified": "",
       "description": "",
-      "page_excerpt": "Peace Out:The Farewell Tour Creative direction, design & production. IMAG treatment & motion design (2D / 3D) Our team crafted bold IMAG treatments and high-impact video content for Aerosmith’s farewell Peace Out Tour, amplifying the band’s legendary on-stage energy. Inspired by decades of iconic Aerosmith imagery, we reimagined their visual universe and brought it to life in a fresh, contemporary live experience. Everything or Nothing at All Tour & Television Performance It's a Nice Day To... Tour Again!",
+      "page_excerpt": "Presented by Pepsi with The Killers UEFA Champions League Kick Off Show National Television Awards 2026 Presented by Pepsi with The Killers Presented by Pepsi with The Killers The Boy Who Played the Harp Global Citizen Festival NYC Visions of Damsels & Other Dangerous Things Cityscape Global 2024: Future of Living Summit National Television Awards 2024 The Celebration - 30th Anniversary on Stage One Za'abeel Entrance Canopy Move Afrika: A Global Citizen Experience King Abdulaziz City for Science and Technology (KACST) Formula 1 Heineken Silver Grand Prix Las Vegas Opening Ceremony Vision 2030 Portals at Cityscape",
       "editorial_score": null,
       "status": "research_only_not_approved"
     },
@@ -253,22 +253,22 @@
       "project_identity_verified": false,
       "image_candidate_unverified": "http://boutique.so/cdn/shop/collections/md.jpg?v=1764589675",
       "description": "De Daft Punk à Laurent Garnier, de Justice à Air, découvrez la collection officielle Tsugi : affiches, tirages, magazines, textile et objets dédiés à la musique et aux nouvelles tendances.",
-      "page_excerpt": "Ignorer et passer au contenu -10% immédiatement en t'inscrivant ici à notre newsletter Bosnie-Herzégovine | EUR € État de la Cité du Vatican | EUR € Nouvelle-Calédonie | EUR € Polynésie française | EUR € R.A.S. chinoise de Hong Kong | EUR € Saint-Pierre-et-Miquelon | EUR € Terres australes françaises | EUR € Votre panier est réservé pendant encore Veuillez saisir un code de réduction ! En rupture de stock (1 produit) En rupture de stock (1 produit) Date, de la plus ancienne à la plus récente Date, de la plus récente à la plus ancienne En rupture de stock (1 produit) Date, de la plus ancienne à la plus récente Dat",
+      "page_excerpt": "Ignorer et passer au contenu -10% immédiatement en t'inscrivant ici à notre newsletter Bosnie-Herzégovine | EUR € État de la Cité du Vatican | EUR € Nouvelle-Calédonie | EUR € Polynésie française | EUR € R.A.S. chinoise de Hong Kong | EUR € Saint-Pierre-et-Miquelon | EUR € Terres australes françaises | EUR € Votre panier est réservé pendant encore Veuillez saisir un code de réduction ! En rupture de stock (2 produits) En rupture de stock (2 produits) Date, de la plus ancienne à la plus récente Date, de la plus récente à la plus ancienne En rupture de stock (2 produits) Date, de la plus ancienne à la plus récente ",
       "editorial_score": null,
       "status": "research_only_not_approved"
     },
     {
-      "title": "Anna Vissi – Stufish",
-      "url": "https://stufish.com/project/anna-vissi/",
+      "title": "BILLY IDOL | LUZ Studio",
+      "url": "https://luzstudio.com/en/projects/billy-idol",
       "category": "01 Spectacle Concert",
-      "source": "STUFISH",
+      "source": "LUZ Studio",
       "published_date_claim": "",
       "age_hours_claim": null,
       "date_verified": false,
       "project_identity_verified": false,
       "image_candidate_unverified": "",
       "description": "",
-      "page_excerpt": "Presented by Pepsi with The Killers UEFA Champions League Kick Off Show National Television Awards 2026 Presented by Pepsi with The Killers Presented by Pepsi with The Killers The Boy Who Played the Harp Global Citizen Festival NYC Visions of Damsels & Other Dangerous Things Cityscape Global 2024: Future of Living Summit National Television Awards 2024 The Celebration - 30th Anniversary on Stage One Za'abeel Entrance Canopy Move Afrika: A Global Citizen Experience King Abdulaziz City for Science and Technology (KACST) Formula 1 Heineken Silver Grand Prix Las Vegas Opening Ceremony Vision 2030 Portals at Cityscape",
+      "page_excerpt": "It's a Nice Day To... Tour Again! Creative direction, design & production. Virtual set extension, IMAG treatment & motion design (2D / 3D) Another Planet Entertainment Jean-Philippe Angers - 2019 For Billy Idol's most recent foray onto the road, we designed and crafted virtual set extensions to create an immersive stage experience and elevate the Idol's legendary on-stage energy. Billy Idol's It's a Nice Day To... Tour Again ! performances were just the latest opportunity we had to work with the iconic rocker. Billy Idol has been a Luz collaborator since 2019. Everything or Nothing at All Tour & Television Perfor",
       "editorial_score": null,
       "status": "research_only_not_approved"
     },
@@ -303,8 +303,8 @@
       "status": "research_only_not_approved"
     },
     {
-      "title": "BILLY IDOL | LUZ Studio",
-      "url": "https://luzstudio.com/en/projects/billy-idol",
+      "title": "BURJ KHALIFA | LUZ Studio",
+      "url": "https://luzstudio.com/en/projects/burj-khalifa",
       "category": "01 Spectacle Concert",
       "source": "LUZ Studio",
       "published_date_claim": "",
@@ -313,7 +313,7 @@
       "project_identity_verified": false,
       "image_candidate_unverified": "",
       "description": "",
-      "page_excerpt": "It's a Nice Day To... Tour Again! Creative direction, design & production. Virtual set extension, IMAG treatment & motion design (2D / 3D) Another Planet Entertainment Jean-Philippe Angers - 2019 For Billy Idol's most recent foray onto the road, we designed and crafted virtual set extensions to create an immersive stage experience and elevate the Idol's legendary on-stage energy. Billy Idol's It's a Nice Day To... Tour Again ! performances were just the latest opportunity we had to work with the iconic rocker. Billy Idol has been a Luz collaborator since 2019. Everything or Nothing at All Tour & Television Perfor",
+      "page_excerpt": "Artistic direction, design & production In two collaborations with SACO Technologies, we illuminated the tallest structure in the world with projection mapping and virtual lighting designed for its existing screens. Both times, we created a dynamic, artistic, and visually clean approach to filling this enormous canvas. The content we created to light up the Burj Khalifa was a compelling, celebratory visual composition that enhanced rather than obscured the towering building's architectural elements and volumes. CANADA DAY NATIONAL CELEBRATION Riyadh Season Noche UFC at Sphere (The Prelims) BOMBARDIER RECREATIONAL",
       "editorial_score": null,
       "status": "research_only_not_approved"
     },
@@ -348,17 +348,17 @@
       "status": "research_only_not_approved"
     },
     {
-      "title": "BURJ KHALIFA | LUZ Studio",
-      "url": "https://luzstudio.com/en/projects/burj-khalifa",
+      "title": "Benson Boone – Stufish",
+      "url": "https://stufish.com/project/benson-boone-2/",
       "category": "01 Spectacle Concert",
-      "source": "LUZ Studio",
+      "source": "STUFISH",
       "published_date_claim": "",
       "age_hours_claim": null,
       "date_verified": false,
       "project_identity_verified": false,
       "image_candidate_unverified": "",
       "description": "",
-      "page_excerpt": "Artistic direction, design & production In two collaborations with SACO Technologies, we illuminated the tallest structure in the world with projection mapping and virtual lighting designed for its existing screens. Both times, we created a dynamic, artistic, and visually clean approach to filling this enormous canvas. The content we created to light up the Burj Khalifa was a compelling, celebratory visual composition that enhanced rather than obscured the towering building's architectural elements and volumes. CANADA DAY NATIONAL CELEBRATION Riyadh Season Noche UFC at Sphere (The Prelims) BOMBARDIER RECREATIONAL",
+      "page_excerpt": "Presented by Pepsi with The Killers UEFA Champions League Kick Off Show National Television Awards 2026 Presented by Pepsi with The Killers Presented by Pepsi with The Killers The Boy Who Played the Harp Global Citizen Festival NYC Visions of Damsels & Other Dangerous Things Cityscape Global 2024: Future of Living Summit National Television Awards 2024 The Celebration - 30th Anniversary on Stage One Za'abeel Entrance Canopy Move Afrika: A Global Citizen Experience King Abdulaziz City for Science and Technology (KACST) Formula 1 Heineken Silver Grand Prix Las Vegas Opening Ceremony Vision 2030 Portals at Cityscape",
       "editorial_score": null,
       "status": "research_only_not_approved"
     },
@@ -394,7 +394,7 @@
     },
     {
       "title": "Benson Boone – Stufish",
-      "url": "https://stufish.com/project/benson-boone-2/",
+      "url": "https://stufish.com/project/benson-boone/",
       "category": "01 Spectacle Concert",
       "source": "STUFISH",
       "published_date_claim": "",
@@ -438,17 +438,17 @@
       "status": "research_only_not_approved"
     },
     {
-      "title": "Benson Boone – Stufish",
-      "url": "https://stufish.com/project/benson-boone/",
+      "title": "CARRIE UNDERWOOD | LUZ Studio",
+      "url": "https://luzstudio.com/en/projects/carrie-underwood",
       "category": "01 Spectacle Concert",
-      "source": "STUFISH",
+      "source": "LUZ Studio",
       "published_date_claim": "",
       "age_hours_claim": null,
       "date_verified": false,
       "project_identity_verified": false,
       "image_candidate_unverified": "",
       "description": "",
-      "page_excerpt": "Presented by Pepsi with The Killers UEFA Champions League Kick Off Show National Television Awards 2026 Presented by Pepsi with The Killers Presented by Pepsi with The Killers The Boy Who Played the Harp Global Citizen Festival NYC Visions of Damsels & Other Dangerous Things Cityscape Global 2024: Future of Living Summit National Television Awards 2024 The Celebration - 30th Anniversary on Stage One Za'abeel Entrance Canopy Move Afrika: A Global Citizen Experience King Abdulaziz City for Science and Technology (KACST) Formula 1 Heineken Silver Grand Prix Las Vegas Opening Ceremony Vision 2030 Portals at Cityscape",
+      "page_excerpt": "Reflection: The Las Vegas Residency Nick Whitehouse, Brian Vaughn The stunning visuals for Carrie Underwood's Reflection Tour were the result of a high-production-value, multi-studio collaboration. Virtual set extensions transformed the stage into an expansive, immersive ultra-wide cinematic canvas, giving the superstar's performance a sense of scale that matched its energy. Every creative choice we made was based on our desire to highlight Underwood’s onstage presence. Because increasing her popstar grandeur was our objective, we built visual worlds not just to support her performance, but amplify it. The result",
       "editorial_score": null,
       "status": "research_only_not_approved"
     },
@@ -464,21 +464,6 @@
       "image_candidate_unverified": "https://admin.promonews.tv/sites/default/files/styles/bmvd_list/public/Kodak%20x%20MVA26.jpg?itok=aU6HUxfa",
       "description": "More than 30 videos nominated at this year's UKMVAs were shot on Kodak film. And now we have collected them all in one place.The UK Music Video Awards …",
       "page_excerpt": "Get the Promonews daily round up Music Video Preservation Society The Promonews mailing list Get the Promonews daily round up Music Video Preservation Society The Promonews mailing list UK Music Video Awards 2026 x Kodak - The #ShotOnFilm Playlist More than 30 videos nominated at this year's UKMVAs were shot on Kodak film. And now we have collected them all in one place. The UK Music Video Awards this year saw Kodak continue its partnership and support of the world's biggest annual celebration of music video creativity by sponsoring the Best Production Company award for the fifth year in a row. And this year anot",
-      "editorial_score": null,
-      "status": "research_only_not_approved"
-    },
-    {
-      "title": "CARRIE UNDERWOOD | LUZ Studio",
-      "url": "https://luzstudio.com/en/projects/carrie-underwood",
-      "category": "01 Spectacle Concert",
-      "source": "LUZ Studio",
-      "published_date_claim": "",
-      "age_hours_claim": null,
-      "date_verified": false,
-      "project_identity_verified": false,
-      "image_candidate_unverified": "",
-      "description": "",
-      "page_excerpt": "Reflection: The Las Vegas Residency Nick Whitehouse, Brian Vaughn The stunning visuals for Carrie Underwood's Reflection Tour were the result of a high-production-value, multi-studio collaboration. Virtual set extensions transformed the stage into an expansive, immersive ultra-wide cinematic canvas, giving the superstar's performance a sense of scale that matched its energy. Every creative choice we made was based on our desire to highlight Underwood’s onstage presence. Because increasing her popstar grandeur was our objective, we built visual worlds not just to support her performance, but amplify it. The result",
       "editorial_score": null,
       "status": "research_only_not_approved"
     },
@@ -509,6 +494,21 @@
       "image_candidate_unverified": "https://www.etcconnect.com/uploadedImages/Main_Site/Images/Products/Consoles/Eos_Revamp_Images/Eos_Apex_SiteTakeover_1920x1280.jpg",
       "description": "Electronic Theatre Controls, Inc. Lighting solutions, control equipment for Theater, Film & TV studios, Architectural spaces and entertainment industries.",
       "page_excerpt": "Commercial Lighting Systems Europe, Middle East & Africa Falkland Islands (Malvinas) Saint Vincent & the Grenadines All Middle Eastern Countries British Indian Ocean Territory Lao People's Democratic Republic Micronesia, Federated States North Korea, Democratic People's Republic Falkland Islands (Malvinas) Saint Vincent & the Grenadines All Middle Eastern Countries British Indian Ocean Territory Lao People's Democratic Republic Micronesia, Federated States North Korea, Democratic People's Republic Christmas Eve, 1975, an 18-year-old college student pitched the idea of a state-of-the-art lighting console to his co",
+      "editorial_score": null,
+      "status": "research_only_not_approved"
+    },
+    {
+      "title": "ETC - Theatre, Film, Studio and Architectural Lighting",
+      "url": "https://www.etcconnect.com/About/Buy-American/",
+      "category": "01 Spectacle Concert",
+      "source": "ETC",
+      "published_date_claim": "",
+      "age_hours_claim": null,
+      "date_verified": false,
+      "project_identity_verified": false,
+      "image_candidate_unverified": "https://www.etcconnect.com/uploadedImages/Main_Site/Images/Products/Consoles/Eos_Revamp_Images/Eos_Apex_SiteTakeover_1920x1280.jpg",
+      "description": "Electronic Theatre Controls, Inc. Lighting solutions, control equipment for Theater, Film & TV studios, Architectural spaces and entertainment industries.",
+      "page_excerpt": "Commercial Lighting Systems Europe, Middle East & Africa Falkland Islands (Malvinas) Saint Vincent & the Grenadines All Middle Eastern Countries British Indian Ocean Territory Lao People's Democratic Republic Micronesia, Federated States North Korea, Democratic People's Republic Falkland Islands (Malvinas) Saint Vincent & the Grenadines All Middle Eastern Countries British Indian Ocean Territory Lao People's Democratic Republic Micronesia, Federated States North Korea, Democratic People's Republic ETC: Building Products in America ETC manufactures lighting, control, and rigging equipment that is used and renowned",
       "editorial_score": null,
       "status": "research_only_not_approved"
     }
