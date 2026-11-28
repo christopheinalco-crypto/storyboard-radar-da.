@@ -4336,6 +4336,69 @@
         "required_user_action": false,
         "notes": "Dépôt exact et id 1449156184 confirmés par le connecteur. Vague de 20 h complète : trois ajouts réels et trois fichiers au commit annoncé ; fichiers éditoriaux inchangés depuis. Quatre exécutions sources, RSS, Pages et Chromium relues réussies. Métadonnées de l’artefact relues sur GitHub, empreinte ZIP locale identique, verification.json extrait à nouveau et relu : head exact et trois identifiants exacts. Contrôle de suivi seul, aucune publication ni ajout au décompte des vagues."
       }
+    },
+    "2026-11-28-16h": {
+      "id": "2026-11-28-16h",
+      "status": "incomplete",
+      "stage": "editorial_pass_missing",
+      "checked_at": "2026-11-28T15:38:55.064Z",
+      "published_count": 0,
+      "public_render_verified": false,
+      "resume_required": true,
+      "collection": {
+        "wave_id": "github-46148692767",
+        "coverage_checked_at": "2026-11-28T13:15:23.697025+00:00",
+        "inspection_updated_at": "2026-11-28T13:15:39.787710+00:00",
+        "brief_prepared_at": "2026-11-28T13:15:49.207951+00:00",
+        "sources_opened": 157,
+        "rss_collected_at": "2026-11-28T13:36:00.115583+00:00",
+        "rss_parsed": 42,
+        "source_run": 46148692767,
+        "rss_run": 46150407088,
+        "fresh": false,
+        "coherent": true
+      },
+      "publication": {
+        "id": "2026-11-28-16h",
+        "slot": "2026-11-28-16h",
+        "status": "not_published",
+        "projects": [],
+        "count": 0,
+        "publication_commit": null,
+        "trigger": "followup_observation"
+      },
+      "notes": "Suivi déclenché à 16 h 37 Paris : créneau échu conservé = 16 h. Dépôt exact et id 1449156184 confirmés par le connecteur GitHub. Aucun registre de vague du 28 à 16 h avant ce contrôle et aucun changement des trois fichiers éditoriaux depuis le commit du 27 à 20 h. Les collecteurs sources et RSS ont réussi mais leurs rapports dépassent une heure. Pages et garde-fou réussis sur 09b2f8125ba1d504f789aa36cce42a2d13126d6c ne contiennent que des changements de collecte : aucune nouvelle fiche et aucune preuve de publication du créneau. Cette alerte ne publie aucune fiche et ne valide pas une vague vide. État récupérable, aucune action utilisateur requise. Reprise de ce même créneau au prochain passage éditorial après rafraîchissement des seuls groupes périmés, sélection, analyse et validation publique exacte.",
+      "last_followup": {
+        "checked_at": "2026-11-28T15:38:55.101Z",
+        "trigger_at": "2026-11-28T15:37:41.618Z",
+        "slot": "2026-11-28-16h",
+        "collection_fresh": false,
+        "source_stale": true,
+        "rss_stale": true,
+        "collection_coherent": true,
+        "source_run_success": true,
+        "rss_run_success": true,
+        "sources_opened": 157,
+        "rss_parsed": 42,
+        "collection_report_ages_minutes": {
+          "coverage": 144,
+          "inspection": 143,
+          "brief": 143,
+          "rss": 123
+        },
+        "publication_announced": false,
+        "editorial_unchanged_since_last_publication": true,
+        "latest_editorial_commit": "1c89fe88645447723aee38f7c536db36312f385e",
+        "latest_pages": {
+          "run_id": 46150491256,
+          "head": "09b2f8125ba1d504f789aa36cce42a2d13126d6c",
+          "success": true,
+          "counts_as_new_publication": false
+        },
+        "proof_exact": false,
+        "required_user_action": false,
+        "next_action": "Au prochain passage éditorial, reprendre 2026-11-28-16h ; vérifier les collecteurs actifs, rafraîchir les groupes périmés puis effectuer la sélection. Cette alerte ne publie pas."
+      }
     }
   },
   "next_wave_preparation": {
