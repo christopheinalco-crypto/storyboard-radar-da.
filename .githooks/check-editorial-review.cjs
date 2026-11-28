@@ -4,7 +4,7 @@ const { readFileSync } = require('node:fs');
 const { isDeepStrictEqual } = require('node:util');
 
 function analysesAt(ref) {
-  return JSON.parse(execFileSync('git', ['show', ref + ':data/analyses.json'], { encoding: 'utf8' }));
+  return JSON.parse(execFileSync('git', ['show', ref + ':data/analyses.json'], { encoding: 'utf8', maxBuffer: 64 * 1024 * 1024 }));
 }
 
 function validReference(reference) {

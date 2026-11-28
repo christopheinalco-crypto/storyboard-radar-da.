@@ -1,7 +1,7 @@
 const { execFileSync } = require('node:child_process');
 const { isDeepStrictEqual } = require('node:util');
 
-const read = (ref, name) => JSON.parse(execFileSync('git', ['show', ref + ':data/' + name + '.json'], { encoding: 'utf8' }));
+const read = (ref, name) => JSON.parse(execFileSync('git', ['show', ref + ':data/' + name + '.json'], { encoding: 'utf8', maxBuffer: 64 * 1024 * 1024 }));
 const clean = value => typeof value === 'string' && value.trim();
 function canonical(value) {
   try {
@@ -54,7 +54,7 @@ function validatePublication(base, head) {
     errors.push('Archive sociale modifiée pendant la publication.');
   }
   const files = ['data/feed.json', 'data/analyses.json', 'data/published-projects.json'];
-  const changed = execFileSync('git', ['diff', '--name-only', base, head], { encoding: 'utf8' }).trim().split(/\r?\n/);
+  const changed = execFileSync('git', ['diff', '--name-only', base, head], { encoding: 'utf8', maxBuffer: 64 * 1024 * 1024 }).trim().split(/\r?\n/);
   if (files.some(file => !changed.includes(file)) ||
       ['index.html', 'service-worker.js'].some(file => changed.includes(file))) {
     errors.push('Publier les trois JSON ensemble, sans modifier l’interface.');

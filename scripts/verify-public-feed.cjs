@@ -9,12 +9,12 @@ const base = process.argv[2];
 const head = process.argv[3];
 const previous = base ? JSON.parse(execFileSync('git', [
   'show', base + ':data/feed.json',
-], { encoding: 'utf8' })).items : feed;
+], { encoding: 'utf8', maxBuffer: 64 * 1024 * 1024 })).items : feed;
 const byUrl = new Map(previous.map(item => [item.url, item]));
 const analyses = JSON.parse(readFileSync('data/analyses.json', 'utf8'));
 const previousAnalyses = base ? JSON.parse(execFileSync('git', [
   'show', base + ':data/analyses.json',
-], { encoding: 'utf8' })) : analyses;
+], { encoding: 'utf8', maxBuffer: 64 * 1024 * 1024 })) : analyses;
 const changed = feed.filter(item => !isDeepStrictEqual(byUrl.get(item.url), item) ||
   !isDeepStrictEqual(previousAnalyses[item.url], analyses[item.url]));
 // Un commit du vérificateur seul peut laisser changed vide : tester alors
