@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-27T19:07:20.821Z",
+  "updated_at": "2026-11-28T15:47:02.243Z",
   "status": "editorial_reviewed",
   "working_feeds": [
     {
@@ -454,6 +454,66 @@
     "with_images": 82
   },
   "items": [
+    {
+      "project_id": "sophie-hunger-twilight-room-tableaux-habites-2026",
+      "title": "Sophie Hunger — Twilight Room fait des tableaux les autres habitants de la chambre",
+      "title_fr": "Sophie Hunger — Twilight Room fait des tableaux les autres habitants de la chambre",
+      "url": "https://www.youtube.com/watch?v=kKvIEDEj9Wc",
+      "category": "14 Musique Clips",
+      "source": "Sophie Hunger / Supermoon",
+      "published": "2026-11-27T10:00:08Z",
+      "radar_added_at": "2026-11-28T15:47:02.243Z",
+      "summary": "Dans le clip de « Twilight Room », Sophie Hunger joue de la guitare dans une chambre de l’Hôtel Victoria, à Glion. Des silhouettes dessinées apparaissent dans les tableaux : le décor devient un petit monde parallèle à la présence de la musicienne.",
+      "summary_fr": "Dans le clip de « Twilight Room », Sophie Hunger joue de la guitare dans une chambre de l’Hôtel Victoria, à Glion. Des silhouettes dessinées apparaissent dans les tableaux : le décor devient un petit monde parallèle à la présence de la musicienne.",
+      "image": "https://i.ytimg.com/vi/kKvIEDEj9Wc/hqdefault.jpg",
+      "image_kind": "project",
+      "image_credit": "Vignette officielle Sophie Hunger ; réalisation Sophie Hunger et Jeremiah ; animation Alex Kev",
+      "image_source_url": "https://www.youtube.com/watch?v=kKvIEDEj9Wc",
+      "image_alt": "Visage de Sophie Hunger vu à travers une vitre bleutée dans le clip Twilight Room",
+      "status": "editorial_reviewed",
+      "youtube_id": "kKvIEDEj9Wc",
+      "angle": "Un effet dessiné peut transformer un lieu sans le recouvrir entièrement. Ici, les tableaux lui donnent une frontière, une échelle et une relation avec le corps réel. Cette précision permet de conserver la familiarité de la chambre : c’est parce que le meuble et le mur restent crédibles que leurs nouveaux habitants surprennent."
+    },
+    {
+      "project_id": "goo-goo-dolls-buffalo-balcon-scene-public-2026",
+      "title": "Goo Goo Dolls — Un balcon du stade devient une scène bordée de spectateurs",
+      "title_fr": "Goo Goo Dolls — Un balcon du stade devient une scène bordée de spectateurs",
+      "url": "https://www.youtube.com/watch?v=DaBjHW-ouyo",
+      "category": "01 Spectacle Concert",
+      "source": "Buffalo Bills / NFL",
+      "published": "2026-11-27T14:30:02Z",
+      "radar_added_at": "2026-11-28T15:47:02.243Z",
+      "summary": "Pour la mi-temps de Thanksgiving à Buffalo, les Goo Goo Dolls jouent sur le Legends Deck du Highmark Stadium. Un garde-corps transparent, les lumières et le public juste derrière le groupe font de ce balcon un lieu de concert à part entière.",
+      "summary_fr": "Pour la mi-temps de Thanksgiving à Buffalo, les Goo Goo Dolls jouent sur le Legends Deck du Highmark Stadium. Un garde-corps transparent, les lumières et le public juste derrière le groupe font de ce balcon un lieu de concert à part entière.",
+      "image": "https://i.ytimg.com/vi/DaBjHW-ouyo/hqdefault.jpg",
+      "image_kind": "project",
+      "image_credit": "Vignette officielle de la captation Buffalo Bills / NFL, concert Goo Goo Dolls du 26 novembre 2026",
+      "image_source_url": "https://www.youtube.com/watch?v=DaBjHW-ouyo",
+      "image_alt": "John Rzeznik en veste noire, éclairé en rose sous la pluie pendant la mi-temps des Bills",
+      "status": "editorial_reviewed",
+      "youtube_id": "DaBjHW-ouyo",
+      "angle": "Une zone existante du lieu peut devenir la scène si ses limites, ses vues et la place du public travaillent ensemble. Ici, éclairer le bord du balcon rend le plateau identifiable à distance, tandis que garder des spectateurs derrière les musiciens maintient un rapport de proximité dans la captation. Ces deux échelles ont besoin l’une de l’autre."
+    },
+    {
+      "project_id": "pornograffitti-zankyo-distance-cadres-memoire-2026",
+      "title": "Porno Graffitti — Zankyo fait sentir la séparation dans la place laissée à l’autre",
+      "title_fr": "Porno Graffitti — Zankyo fait sentir la séparation dans la place laissée à l’autre",
+      "url": "https://www.youtube.com/watch?v=aH81kM9V2mE",
+      "category": "14 Musique Clips",
+      "source": "Porno Graffitti / Haruka Imou / Kyodo",
+      "published": "2026-11-28T11:00:09Z",
+      "radar_added_at": "2026-11-28T15:47:02.243Z",
+      "summary": "Le nouveau clip de « Zankyo » confronte un homme seul au bord de l’eau la nuit aux images d’un couple. Tomoya Watanabe utilise la distance, les directions des regards et les différences de lumière pour donner forme à une relation devenue souvenir.",
+      "summary_fr": "Le nouveau clip de « Zankyo » confronte un homme seul au bord de l’eau la nuit aux images d’un couple. Tomoya Watanabe utilise la distance, les directions des regards et les différences de lumière pour donner forme à une relation devenue souvenir.",
+      "image": "https://i.ytimg.com/vi/aH81kM9V2mE/hqdefault.jpg",
+      "image_kind": "project",
+      "image_credit": "Vignette officielle Porno Graffitti ; clip Zankyo, réalisation Tomoya Watanabe, avec Shô Kasamatsu et Haruka Imou",
+      "image_source_url": "https://www.youtube.com/watch?v=aH81kM9V2mE",
+      "image_alt": "Portrait nocturne de Shô Kasamatsu devant des lumières de ville dans Zankyo",
+      "status": "editorial_reviewed",
+      "youtube_id": "aH81kM9V2mE",
+      "angle": "Pour raconter une séparation, la place vide est une possibilité parmi d’autres. Ici, maintenir deux personnes dans un même espace tout en désaccordant leurs positions et leurs regards rend déjà la distance sensible. Le lieu devient plus expressif quand on peut comparer ce qu’il permettait de partager et ce qui reste désormais hors d’atteinte."
+    },
     {
       "project_id": "friedberg-mitsubishi-voiture-fabrication-visible-2026",
       "title": "Friedberg — Une voiture fabriquée à vue devient le lieu du clip",

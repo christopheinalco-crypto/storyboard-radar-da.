@@ -1,6 +1,6 @@
 {
   "description": "Cumulative seen-project register; retain entries when projects leave the live feed; compare URL and semantic identity.",
-  "updated": "2026-11-27T19:07:20.821Z",
+  "updated": "2026-11-28T15:47:02.243Z",
   "projects": [
     {
       "project_id": "pink-siifu-devils-advocate-gontrand-making-of-2026",
@@ -1373,6 +1373,36 @@
       "published_at": "2026-11-27T19:07:20.821Z",
       "wave_id": "2026-11-27-20h",
       "editorial_score": 17
+    },
+    {
+      "project_id": "sophie-hunger-twilight-room-tableaux-habites-2026",
+      "title": "Sophie Hunger — Twilight Room fait des tableaux les autres habitants de la chambre",
+      "url": "https://www.youtube.com/watch?v=kKvIEDEj9Wc",
+      "category": "14 Musique Clips",
+      "radar_added_at": "2026-11-28T15:47:02.243Z",
+      "published_at": "2026-11-28T15:47:02.243Z",
+      "wave_id": "2026-11-28-16h",
+      "editorial_score": 19
+    },
+    {
+      "project_id": "goo-goo-dolls-buffalo-balcon-scene-public-2026",
+      "title": "Goo Goo Dolls — Un balcon du stade devient une scène bordée de spectateurs",
+      "url": "https://www.youtube.com/watch?v=DaBjHW-ouyo",
+      "category": "01 Spectacle Concert",
+      "radar_added_at": "2026-11-28T15:47:02.243Z",
+      "published_at": "2026-11-28T15:47:02.243Z",
+      "wave_id": "2026-11-28-16h",
+      "editorial_score": 17
+    },
+    {
+      "project_id": "pornograffitti-zankyo-distance-cadres-memoire-2026",
+      "title": "Porno Graffitti — Zankyo fait sentir la séparation dans la place laissée à l’autre",
+      "url": "https://www.youtube.com/watch?v=aH81kM9V2mE",
+      "category": "14 Musique Clips",
+      "radar_added_at": "2026-11-28T15:47:02.243Z",
+      "published_at": "2026-11-28T15:47:02.243Z",
+      "wave_id": "2026-11-28-16h",
+      "editorial_score": 18
     }
   ]
 }
