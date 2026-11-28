@@ -1971,6 +1971,31 @@
           "goo-goo-dolls-buffalo-balcon-scene-public-2026",
           "pornograffitti-zankyo-distance-cadres-memoire-2026"
         ]
+      },
+      {
+        "id": "2026-11-28-20h",
+        "slot": "2026-11-28-20h",
+        "status": "public_verified",
+        "projects": [
+          "yoasobi-killa-clip-dossier-images-preuves-2026",
+          "macys-broadway-medley-portail-mondes-2026",
+          "big-ocean-make-a-wish-espions-langue-signes-2026"
+        ],
+        "count": 3,
+        "publication_commit": "27734d383a877215212a0bffd249573ff32bfe98",
+        "trigger": "scheduled_editorial",
+        "feed_count": 167,
+        "verified_at": "2026-11-28T19:09:06.116Z",
+        "PagesURL": "https://github.com/christopheinalco-crypto/storyboard-radar-da./actions/runs/46179557393",
+        "public_render_checkURL": "https://github.com/christopheinalco-crypto/storyboard-radar-da./actions/runs/46179557695",
+        "artifact_id": 15277056635,
+        "artifact_sha256": "0b9e4fd7ecfda5fab33f88aa780910e4eac4e05349277efd2683bb53b6ec3c6a",
+        "proof_head": "27734d383a877215212a0bffd249573ff32bfe98",
+        "verified_new_projects": [
+          "yoasobi-killa-clip-dossier-images-preuves-2026",
+          "macys-broadway-medley-portail-mondes-2026",
+          "big-ocean-make-a-wish-espions-langue-signes-2026"
+        ]
       }
     ]
   },
@@ -4477,7 +4502,15 @@
         {
           "project": "Macy’s — méga-medley Broadway",
           "decision": "en prospection",
-          "reason": "Parade reportée du 26 au 28 ; entretien Tom Kitt ouvert. Captation primaire de cette édition non encore vérifiée, aucune reprise ancienne utilisée."
+          "reason": "Parade reportée du 26 au 28 ; entretien Tom Kitt ouvert. Captation primaire de cette édition non encore vérifiée, aucune reprise ancienne utilisée.",
+          "resolution": {
+            "status": "published_in_later_slot_public_verified",
+            "slot": "2026-11-28-20h",
+            "project_id": "macys-broadway-medley-portail-mondes-2026",
+            "publication_commit": "27734d383a877215212a0bffd249573ff32bfe98",
+            "counts_for_original_slot": false,
+            "verified_at": "2026-11-28T19:09:06.116Z"
+          }
         },
         {
           "project": "Malou / KIIRAS et pistes anciennes",
@@ -4498,6 +4531,106 @@
           "fiche-3.png"
         ],
         "result": "Trois images authentiques, analyses et surlignages présents. Limite de capture connue : barre fixe superposée à une bande médiane."
+      }
+    },
+    "2026-11-28-20h": {
+      "id": "2026-11-28-20h",
+      "status": "complete",
+      "stage": "public_verified",
+      "checked_at": "2026-11-28T19:10:53.770Z",
+      "published_count": 3,
+      "public_render_verified": true,
+      "resume_required": false,
+      "collection": {
+        "wave_id": "github-46178685506",
+        "coverage_checked_at": "2026-11-28T18:58:29.327036+00:00",
+        "inspection_updated_at": "2026-11-28T18:58:46.180877+00:00",
+        "brief_prepared_at": "2026-11-28T18:58:57.780370+00:00",
+        "sources_opened": 157,
+        "rss_collected_at": "2026-11-28T18:58:37.964046+00:00",
+        "rss_parsed": 40,
+        "source_run": 46178685506,
+        "rss_run": 46178687546,
+        "fresh": true
+      },
+      "publication": {
+        "id": "2026-11-28-20h",
+        "slot": "2026-11-28-20h",
+        "status": "public_verified",
+        "projects": [
+          "yoasobi-killa-clip-dossier-images-preuves-2026",
+          "macys-broadway-medley-portail-mondes-2026",
+          "big-ocean-make-a-wish-espions-langue-signes-2026"
+        ],
+        "count": 3,
+        "publication_commit": "27734d383a877215212a0bffd249573ff32bfe98",
+        "trigger": "scheduled_editorial",
+        "feed_count": 167,
+        "verified_at": "2026-11-28T19:09:06.116Z",
+        "PagesURL": "https://github.com/christopheinalco-crypto/storyboard-radar-da./actions/runs/46179557393",
+        "public_render_checkURL": "https://github.com/christopheinalco-crypto/storyboard-radar-da./actions/runs/46179557695",
+        "artifact_id": 15277056635,
+        "artifact_sha256": "0b9e4fd7ecfda5fab33f88aa780910e4eac4e05349277efd2683bb53b6ec3c6a",
+        "proof_head": "27734d383a877215212a0bffd249573ff32bfe98",
+        "verified_new_projects": [
+          "yoasobi-killa-clip-dossier-images-preuves-2026",
+          "macys-broadway-medley-portail-mondes-2026",
+          "big-ocean-make-a-wish-espions-langue-signes-2026"
+        ]
+      },
+      "notes": "Déclenchement anticipé à 19 h 57 Paris : le créneau alors échu de 16 h était déjà complet ; verification.json relu et comparé au registre, sans nouveau décompte. Préparation de 20 h menée avant l’échéance, écriture seulement après 20 h. Identité du dépôt et id 1449156184 confirmés par le connecteur. AGENTS, barème et base DA déjà lus lors du passage de 16 h, versions inchangées. Rapports périmés : contrôle des exécutions actives puis relance unique des groupes source et RSS ; deux réussites relues, 182 tentatives automatiques, 157 sources ouvertes et 40 flux RSS exploitables. Brief et RSS redépouillés, recherche complémentaire des sorties du 28 et spectacles, chaînes primaires YOASOBI/BIG OCEAN/NBC lues par leurs flux officiels. Point de retour avant écriture edea32a07ad4557d43b4670cde6c381148d236a7 ; index 8333d976837bbdd82d635ace54326f7c6af3a6fd ; feed 9ce945ffdc4b4466615588de33df3a89341f7bbe ; analyses 83880d0fc7945e6faf71919a77c5398fe8dee5c4 ; social 8feac7f03446eccf2fd550e9c6e83f077921e490. 36 planches détaillées des trois retenus examinées (KILLA 11, Macy 12, Big Ocean 13), plus 5 planches de l’alternative NBC et trois couvertures originales sobres. Dates effectives contrôlées, oEmbed vérifiés, provenance des relais distinguée de la source officielle. KILLA nouveau clip distinct de l’ancienne captation d’Osaka ; Macy reportée au 28, jamais datée du replay du 26. Dédoublonnage contre flux, analyses et registre, quatre fonctions d’analyse, surlignages ponctuels, seconde lecture et scores 19/18/18. Repères corrigés aux temps exacts des planches avant écriture. Trois fichiers publiés ensemble, validateurs et hook actifs, interface inchangée. Attendre Pages et Chromium, lire la preuve exacte et examiner les captures avant validation. Pages et Chromium réussis sur le commit exact 27734d383a877215212a0bffd249573ff32bfe98. Archive téléchargée, empreinte SHA256 comparée aux métadonnées GitHub, verification.json lu : head exact et trois identifiants exacts. Différence avec le flux parent et commit des trois fichiers relus. Trois captures publiques examinées : les couvertures originales chargent, les décryptages sont ouverts et les surlignages visibles ; les boutons de fin de lecture sont présents. Limite connue de capture : la barre fixe recouvre une bande médiane sur les images complètes, sans prétention de mise en page intégralement parfaite. Une seule vague ajoutée au décompte après ces contrôles.",
+      "research_audit": [
+        {
+          "project": "YOASOBI — KILLA, clip Mimicry Meta",
+          "decision": "retenu",
+          "reason": "Première du 28 novembre 12:00:09 UTC, 193 s. Production nouvelle mêlant documents fictifs, dessins et prises de vues ; différente de yoasobi-killa-osaka-live-2026 déjà publié."
+        },
+        {
+          "project": "Macy’s — méga-medley Broadway",
+          "decision": "retenu",
+          "reason": "Piste de 16 h reprise : article vidéo du 28 novembre 14:43:52 UTC, captation NBC relayée par GEA à 14:55:26 UTC, 506 s. Interview originale de Kitt et photographie BroadwayWorld vérifiées. Source canonique média, relais vidéo explicitement non officiel."
+        },
+        {
+          "project": "Big Ocean — Make a wish",
+          "decision": "retenu",
+          "reason": "Vidéo primaire du 28 novembre 09:00:19 UTC, 222 s, réalisateur Sun C. et direction artistique de langue des signes Lihoo ; contexte d’agents documenté par synopsis attribué à Parastar."
+        },
+        {
+          "project": "Queen Latifah / Womack Sisters — Holiday Magic",
+          "url": "https://www.youtube.com/watch?v=DVUey_5eDts",
+          "decision": "écarté de cette vague",
+          "reason": "Vidéo NBC du 28 novembre 15:41:11 UTC, 201 s ; cinq planches examinées. Performance promotionnelle de proximité, angle DA distinct insuffisamment développé, pas de remplissage."
+        },
+        {
+          "project": "ANOSORA — 冬影リグレット",
+          "url": "https://www.youtube.com/watch?v=WuvzBArxD7w",
+          "decision": "à approfondir",
+          "reason": "Piste déjà documentée en vidéo officielle à 16 h ; maintien en attente d’un angle plus spécifique, pas de publication par quota."
+        },
+        {
+          "project": "Best Artist 2026",
+          "decision": "en prospection",
+          "reason": "Programme primaire JO1 et annonce de diffusion repérés ; aucune captation primaire avec mécanisme DA vérifié pour cette vague."
+        },
+        {
+          "project": "Archive / Bivouac / Malou / KIIRAS",
+          "decision": "non retenus",
+          "reason": "Articles récents d’Archive et Bivouac renvoient à des créations antérieures sans nouvelle révélation établie ; Malou hors 72 h, KIIRAS angle encore insuffisamment spécifique. Aucun rattrapage ancien recompté."
+        }
+      ],
+      "social_research": {
+        "linkedin_added": 0,
+        "instagram_added": 0,
+        "notes": "Recherche publique dédiée LinkedIn et Instagram effectuée ; résultats anciens, pages de profil ou contenus insuffisamment vérifiables, aucun post retenu. Pas de dépouillement exhaustif revendiqué."
+      },
+      "public_visual_review": {
+        "reviewed_at": "2026-11-28T19:10:53.771Z",
+        "screenshots": [
+          "fiche-1.png",
+          "fiche-2.png",
+          "fiche-3.png"
+        ],
+        "result": "Trois couvertures authentiques et sobres chargées, analyses et surlignages présents. Limite connue : barre fixe superposée à une bande médiane dans les captures complètes."
       }
     }
   },
