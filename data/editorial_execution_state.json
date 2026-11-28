@@ -4631,6 +4631,35 @@
           "fiche-3.png"
         ],
         "result": "Trois couvertures authentiques et sobres chargées, analyses et surlignages présents. Limite connue : barre fixe superposée à une bande médiane dans les captures complètes."
+      },
+      "last_followup": {
+        "checked_at": "2026-11-28T19:27:46.914Z",
+        "trigger_at": "2026-11-28T19:26:45.112Z",
+        "slot": "2026-11-28-20h",
+        "commit_three_files": true,
+        "actual_new_projects": [
+          "big-ocean-make-a-wish-espions-langue-signes-2026",
+          "macys-broadway-medley-portail-mondes-2026",
+          "yoasobi-killa-clip-dossier-images-preuves-2026"
+        ],
+        "proof_exact": true,
+        "artifact_id": 15277056635,
+        "artifact_sha256": "0b9e4fd7ecfda5fab33f88aa780910e4eac4e05349277efd2683bb53b6ec3c6a",
+        "pages_success": true,
+        "chromium_success": true,
+        "collection_fresh": true,
+        "collection_fresh_at_publication": true,
+        "collection_coherent": true,
+        "sources_opened": 157,
+        "rss_parsed": 40,
+        "collection_report_ages_minutes": {
+          "coverage": 29,
+          "inspection": 29,
+          "brief": 29,
+          "rss": 29
+        },
+        "required_user_action": false,
+        "notes": "Créneau échu de 20 h contrôlé à 20 h 27 Paris. Dépôt exact et id confirmés par le connecteur. Rapports sources, inspections, brief et RSS frais et cohérents ; quatre exécutions sources/RSS/Pages/Chromium relues réussies. Commit 27734d383a877215212a0bffd249573ff32bfe98 : exactement trois fichiers éditoriaux et trois nouvelles identités correspondant au registre, inchangés depuis. Métadonnées GitHub de l’artefact relues ; ZIP local de même empreinte ouvert à nouveau, verification.json extrait et comparé : head exact et verified_new_projects exact. Le commit de registre f962e19 n’est pas une nouvelle publication. Cette alerte ne publie aucune fiche, ne relance pas de sélection et n’ajoute aucun décompte."
       }
     }
   },
