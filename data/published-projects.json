@@ -1,6 +1,6 @@
 {
   "description": "Cumulative seen-project register; retain entries when projects leave the live feed; compare URL and semantic identity.",
-  "updated": "2026-11-28T15:47:02.243Z",
+  "updated": "2026-11-28T19:07:05.784Z",
   "projects": [
     {
       "project_id": "pink-siifu-devils-advocate-gontrand-making-of-2026",
@@ -1402,6 +1402,36 @@
       "radar_added_at": "2026-11-28T15:47:02.243Z",
       "published_at": "2026-11-28T15:47:02.243Z",
       "wave_id": "2026-11-28-16h",
+      "editorial_score": 18
+    },
+    {
+      "project_id": "yoasobi-killa-clip-dossier-images-preuves-2026",
+      "title": "YOASOBI — Le clip KILLA transforme ses images en pièces d’un faux dossier",
+      "url": "https://www.youtube.com/watch?v=K52lKbQymHg",
+      "category": "14 Musique Clips",
+      "radar_added_at": "2026-11-28T19:07:05.784Z",
+      "published_at": "2026-11-28T19:07:05.784Z",
+      "wave_id": "2026-11-28-20h",
+      "editorial_score": 19
+    },
+    {
+      "project_id": "macys-broadway-medley-portail-mondes-2026",
+      "title": "Macy’s — Un portail commun relie les mondes de Broadway",
+      "url": "https://www.broadwayworld.com/article/Watch-the-Full-Broadway-Mega-Medley-from-the-Macys-Thanksgiving-Day-Parade-20261128",
+      "category": "02 Spectacle Théâtre",
+      "radar_added_at": "2026-11-28T19:07:05.784Z",
+      "published_at": "2026-11-28T19:07:05.784Z",
+      "wave_id": "2026-11-28-20h",
+      "editorial_score": 18
+    },
+    {
+      "project_id": "big-ocean-make-a-wish-espions-langue-signes-2026",
+      "title": "Big Ocean — Make a wish fait de la langue des signes une compétence des agents",
+      "url": "https://www.youtube.com/watch?v=5k7KfQXVyxY",
+      "category": "14 Musique Clips",
+      "radar_added_at": "2026-11-28T19:07:05.784Z",
+      "published_at": "2026-11-28T19:07:05.784Z",
+      "wave_id": "2026-11-28-20h",
       "editorial_score": 18
     }
   ]
