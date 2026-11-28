@@ -1946,6 +1946,31 @@
           "miranda-lambert-dallas-cadres-costume-2026",
           "rosie-alena-satsumas-costume-visible-protection-2026"
         ]
+      },
+      {
+        "id": "2026-11-28-16h",
+        "slot": "2026-11-28-16h",
+        "status": "public_verified",
+        "projects": [
+          "sophie-hunger-twilight-room-tableaux-habites-2026",
+          "goo-goo-dolls-buffalo-balcon-scene-public-2026",
+          "pornograffitti-zankyo-distance-cadres-memoire-2026"
+        ],
+        "count": 3,
+        "publication_commit": "d93aca9b078566093dbf938464d7ab7ef37b5729",
+        "trigger": "scheduled_editorial",
+        "feed_count": 164,
+        "verified_at": "2026-11-28T15:50:00.770Z",
+        "PagesURL": "https://github.com/christopheinalco-crypto/storyboard-radar-da./actions/runs/46161855358",
+        "public_render_checkURL": "https://github.com/christopheinalco-crypto/storyboard-radar-da./actions/runs/46161855726",
+        "artifact_id": 15269672075,
+        "artifact_sha256": "db9fd3717c4afaab94db79b8d9a6a5c0729adbde1c02719eb13a2dd568b52926",
+        "proof_head": "d93aca9b078566093dbf938464d7ab7ef37b5729",
+        "verified_new_projects": [
+          "sophie-hunger-twilight-room-tableaux-habites-2026",
+          "goo-goo-dolls-buffalo-balcon-scene-public-2026",
+          "pornograffitti-zankyo-distance-cadres-memoire-2026"
+        ]
       }
     ]
   },
@@ -3535,8 +3560,9 @@
         {
           "project": "Malou — The Mood for Love",
           "video": "zfkbh41P11g",
-          "decision": "à approfondir",
-          "reason": "Date 24 novembre 23 h UTC, réalisation Simon Vanrie, trois planches examinées ; usage du lieu et de la distance repéré, intérêt DA à approfondir avant notation."
+          "decision": "hors fenêtre récente lors de la reprise du 28 novembre",
+          "reason": "Date 24 novembre 23 h UTC, réalisation Simon Vanrie, trois planches examinées ; usage du lieu et de la distance repéré, intérêt DA à approfondir avant notation. Au 28 novembre, sortie du 24 novembre 23 h UTC au-delà de 72 h ; ne pas recycler comme nouveau clip.",
+          "last_reviewed_at": "2026-11-28T15:51:59.507Z"
         },
         {
           "project": "EGOISM — I Need Your Connection",
@@ -4339,35 +4365,50 @@
     },
     "2026-11-28-16h": {
       "id": "2026-11-28-16h",
-      "status": "incomplete",
-      "stage": "editorial_pass_missing",
-      "checked_at": "2026-11-28T15:38:55.064Z",
-      "published_count": 0,
-      "public_render_verified": false,
-      "resume_required": true,
+      "status": "complete",
+      "stage": "public_verified",
+      "checked_at": "2026-11-28T15:51:59.507Z",
+      "published_count": 3,
+      "public_render_verified": true,
+      "resume_required": false,
       "collection": {
-        "wave_id": "github-46148692767",
-        "coverage_checked_at": "2026-11-28T13:15:23.697025+00:00",
-        "inspection_updated_at": "2026-11-28T13:15:39.787710+00:00",
-        "brief_prepared_at": "2026-11-28T13:15:49.207951+00:00",
+        "wave_id": "github-46161075914",
+        "coverage_checked_at": "2026-11-28T15:40:20.281858+00:00",
+        "inspection_updated_at": "2026-11-28T15:40:37.393316+00:00",
+        "brief_prepared_at": "2026-11-28T15:40:46.845126+00:00",
         "sources_opened": 157,
-        "rss_collected_at": "2026-11-28T13:36:00.115583+00:00",
-        "rss_parsed": 42,
-        "source_run": 46148692767,
-        "rss_run": 46150407088,
-        "fresh": false,
-        "coherent": true
+        "rss_collected_at": "2026-11-28T15:40:28.387479+00:00",
+        "rss_parsed": 40,
+        "source_run": 46161075914,
+        "rss_run": 46161078089,
+        "fresh": true
       },
       "publication": {
         "id": "2026-11-28-16h",
         "slot": "2026-11-28-16h",
-        "status": "not_published",
-        "projects": [],
-        "count": 0,
-        "publication_commit": null,
-        "trigger": "followup_observation"
+        "status": "public_verified",
+        "projects": [
+          "sophie-hunger-twilight-room-tableaux-habites-2026",
+          "goo-goo-dolls-buffalo-balcon-scene-public-2026",
+          "pornograffitti-zankyo-distance-cadres-memoire-2026"
+        ],
+        "count": 3,
+        "publication_commit": "d93aca9b078566093dbf938464d7ab7ef37b5729",
+        "trigger": "scheduled_editorial",
+        "feed_count": 164,
+        "verified_at": "2026-11-28T15:50:00.770Z",
+        "PagesURL": "https://github.com/christopheinalco-crypto/storyboard-radar-da./actions/runs/46161855358",
+        "public_render_checkURL": "https://github.com/christopheinalco-crypto/storyboard-radar-da./actions/runs/46161855726",
+        "artifact_id": 15269672075,
+        "artifact_sha256": "db9fd3717c4afaab94db79b8d9a6a5c0729adbde1c02719eb13a2dd568b52926",
+        "proof_head": "d93aca9b078566093dbf938464d7ab7ef37b5729",
+        "verified_new_projects": [
+          "sophie-hunger-twilight-room-tableaux-habites-2026",
+          "goo-goo-dolls-buffalo-balcon-scene-public-2026",
+          "pornograffitti-zankyo-distance-cadres-memoire-2026"
+        ]
       },
-      "notes": "Suivi déclenché à 16 h 37 Paris : créneau échu conservé = 16 h. Dépôt exact et id 1449156184 confirmés par le connecteur GitHub. Aucun registre de vague du 28 à 16 h avant ce contrôle et aucun changement des trois fichiers éditoriaux depuis le commit du 27 à 20 h. Les collecteurs sources et RSS ont réussi mais leurs rapports dépassent une heure. Pages et garde-fou réussis sur 09b2f8125ba1d504f789aa36cce42a2d13126d6c ne contiennent que des changements de collecte : aucune nouvelle fiche et aucune preuve de publication du créneau. Cette alerte ne publie aucune fiche et ne valide pas une vague vide. État récupérable, aucune action utilisateur requise. Reprise de ce même créneau au prochain passage éditorial après rafraîchissement des seuls groupes périmés, sélection, analyse et validation publique exacte.",
+      "notes": "Suivi déclenché à 16 h 37 Paris : créneau échu conservé = 16 h. Dépôt exact et id 1449156184 confirmés par le connecteur GitHub. Aucun registre de vague du 28 à 16 h avant ce contrôle et aucun changement des trois fichiers éditoriaux depuis le commit du 27 à 20 h. Les collecteurs sources et RSS ont réussi mais leurs rapports dépassent une heure. Pages et garde-fou réussis sur 09b2f8125ba1d504f789aa36cce42a2d13126d6c ne contiennent que des changements de collecte : aucune nouvelle fiche et aucune preuve de publication du créneau. Cette alerte ne publie aucune fiche et ne valide pas une vague vide. État récupérable, aucune action utilisateur requise. Reprise de ce même créneau au prochain passage éditorial après rafraîchissement des seuls groupes périmés, sélection, analyse et validation publique exacte. Passage éditorial retardé déclenché à 16 h 39 Paris : même créneau repris. AGENTS, barème, base DA et anciens créneaux incomplets relus. Point de retour avant écriture : HEAD 02f903b633a47e580d32b22458c30956b32f7aa8, index 8333d976837bbdd82d635ace54326f7c6af3a6fd, feed 9a2b4214155e07c3491f02b3d51a50dc9e55f190, analyses 15d31679ed38a0af814380d79b96ad415bf3c7dd, social 8feac7f03446eccf2fd550e9c6e83f077921e490 ; 161 fiches, 175 analyses et 13 archives sociales. Deux collecteurs périmés relancés une fois après contrôle des exécutions actives ; deux réussites relues, rapports frais et cohérents, 157 sources ouvertes sur 182 tentées et 40 RSS exploitables. Dépouillement des pistes du brief et du RSS, prospection complémentaire clips, shows, théâtre et réseaux. Trois projets retenus après 25 planches détaillées examinées (11 Sophie, 5 Goo Goo Dolls, 9 Zankyo), cinq planches ANOSORA et trois couvertures originales sobres. Identités oEmbed, dates primaires et crédits vérifiés. Doublons absents contre le flux, les analyses et le registre. Analyses en quatre fonctions, surlignage ponctuel, seconde lecture consignée, scores 19/17/18. Incident technique corrigé avant envoi : analyses.json atteint 1084356 octets, dépassant la limite de sortie Git de Node par défaut ; lecture des archives portée à 64 Mio dans validate-publication, le hook et verify-public-feed. Correctif séparé 91cdc1dac76fa959616df23cd28eb07b142c9454, puis commit atomique des trois fichiers éditoriaux. Test réel positif sur archive supérieure à 1 Mio et test négatif de suppression historique réussis, garde-fou pré-push actif. Aucune modification d’interface. Attendre Pages et Chromium exacts pour valider. Les anciens créneaux incomplets restent hors décompte. Pages et Chromium réussis sur d93aca9b078566093dbf938464d7ab7ef37b5729. Archive téléchargée, empreinte SHA256 vérifiée et verification.json lu : head et trois identifiants exactement conformes, flux 164. Commit de publication relu : trois fichiers éditoriaux et trois ajouts uniques exacts. Trois captures publiques examinées : couvertures originales sobres chargées, décryptages et surlignages présents, boutons visibles. Limite connue des captures complètes : barre fixe superposée à une bande médiane ; ne pas confondre avec une vérification parfaite de la mise en page. Vague comptée une seule fois après ces contrôles.",
       "last_followup": {
         "checked_at": "2026-11-28T15:38:55.101Z",
         "trigger_at": "2026-11-28T15:37:41.618Z",
@@ -4398,6 +4439,65 @@
         "proof_exact": false,
         "required_user_action": false,
         "next_action": "Au prochain passage éditorial, reprendre 2026-11-28-16h ; vérifier les collecteurs actifs, rafraîchir les groupes périmés puis effectuer la sélection. Cette alerte ne publie pas."
+      },
+      "research_audit": [
+        {
+          "project": "Sophie Hunger — Twilight Room",
+          "decision": "retenu",
+          "reason": "Vidéo officielle du 27 novembre 10:00:08 UTC, réalisation Sophie Hunger/Jeremiah et animation Alex Kev ; tableaux et reflets documentés dans onze planches."
+        },
+        {
+          "project": "Goo Goo Dolls — Thanksgiving Buffalo",
+          "decision": "retenu",
+          "reason": "Captation primaire Buffalo Bills de 650 s du 27 novembre 14:30:02 UTC ; concert du 26, implantation Legends Deck recoupée par la NFL."
+        },
+        {
+          "project": "Porno Graffitti — Zankyo",
+          "decision": "retenu",
+          "reason": "Première effective du 28 novembre 11:00:09 UTC, annonce primaire actrice et propos du réalisateur recoupés ; neuf planches distinctes."
+        },
+        {
+          "project": "ANOSORA — 冬影リグレット",
+          "url": "https://www.youtube.com/watch?v=WuvzBArxD7w",
+          "decision": "à approfondir",
+          "reason": "Piste du 27 résolue en vidéo primaire du 27 novembre 10:00:17 UTC, réalisateur kinoora, cinq planches examinées. Arches blanches et portraits repérés, angle plus singulier à établir ; aucun ajout pour remplir."
+        },
+        {
+          "project": "Archive — Keep Your Eyes Down",
+          "url": "https://www.promonews.tv/videos/2026/11/27/archive-keep-your-eyes-down-reuben-sutherland/97049",
+          "decision": "écarté du flux récent",
+          "reason": "Article du 27, mais clip documenté dès le 17 novembre ; presse antérieure retrouvée. Ne pas transformer une reprise en première."
+        },
+        {
+          "project": "Compagnie Bivouac — Perceptions",
+          "url": "https://www.revue-as.fr/2026/11/28/compagnie-bivouac-la-centrifugeuse-de-perceptions-a-la-merce/",
+          "decision": "écarté du flux récent",
+          "reason": "Article du 28, représentations Mercè des 26 et 27 septembre confirmées par la compagnie ; nouveauté de conception non établie."
+        },
+        {
+          "project": "Macy’s — méga-medley Broadway",
+          "decision": "en prospection",
+          "reason": "Parade reportée du 26 au 28 ; entretien Tom Kitt ouvert. Captation primaire de cette édition non encore vérifiée, aucune reprise ancienne utilisée."
+        },
+        {
+          "project": "Malou / KIIRAS et pistes anciennes",
+          "decision": "non republiées",
+          "reason": "Malou désormais hors 72 h ; KIIRAS toujours angle insuffisamment spécifique. Mrs GREEN APPLE, GIULIA BE, EGOISM, Kuwata et ILLIT déjà publiés dans des créneaux ultérieurs : aucune réattribution."
+        }
+      ],
+      "social_research": {
+        "linkedin_added": 0,
+        "instagram_added": 0,
+        "notes": "Recherche publique dédiée effectuée. Résultats LinkedIn Bivouac anciens et non retenus ; aucun original Instagram récent suffisamment vérifiable. Aucune prétention de dépouillement exhaustif des plateformes."
+      },
+      "public_visual_review": {
+        "reviewed_at": "2026-11-28T15:51:59.507Z",
+        "screenshots": [
+          "fiche-1.png",
+          "fiche-2.png",
+          "fiche-3.png"
+        ],
+        "result": "Trois images authentiques, analyses et surlignages présents. Limite de capture connue : barre fixe superposée à une bande médiane."
       }
     }
   },
